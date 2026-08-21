@@ -1,0 +1,96 @@
+source_repo,source_path,extracted_topic,destination_path,status,notes
+Civil_Placement_IITK,README.md,Civil Engineering Foundations,civil/fundamentals/civil-engineering-foundations.md,merged,Core concepts from IITK repo
+Civil_Placement_IITK,README.md,Hydraulics,civil/hydraulics/hydraulics.md,merged,Bernoulli, continuity, momentum, energy
+Civil_Placement_IITK,README.md,Open Channel Flow,civil/open_channel_flow/open-channel-flow.md,merged,GVF, RVF, hydraulic jump
+Civil_Placement_IITK,README.md,Hydrology,civil/hydrology/hydrology.md,merged,Unit hydrograph, flood routing
+Civil_Placement_IITK,README.md,Water Resources Engineering,civil/water_resources/water-resources-engineering.md,merged,Reservoir/canal design
+Civil_Placement_IITK,README.md,Turbulence Modeling,civil/hydraulics/turbulence-modeling.md,merged,RANS, LES, DNS, wall functions
+Civil_Placement_IITK,README.md,Sediment Transport,civil/hydrology/sediment-transport.md,merged,Scour, erosion mechanics
+Civil_Placement_IITK,README.md,Geotechnical,civil/geotechnical/geotechnical.md,merged,Soil mechanics, bearing capacity
+Civil_Placement_IITK,README.md,Structures,civil/structures/structures.md,merged,SOM, RCC, steel basics
+Civil_Placement_IITK,README.md,Placement Roadmap,placement-roadmap.md,merged,Phase-wise timeline
+Civil_Placement_IITK,README.md,Resume Preparation,templates/resume-template.md,merged,Resume audit tips
+Civil_Placement_IITK,README.md,Technical Interview Bank,interviews/technical/technical-interview-bank.md,merged,Core technical questions
+Civil_Placement_IITK,README.md,Company Profiles,interviews/company_specific/company-profiles.md,merged,PSU track, core design
+Civil_Placement_IITK,README.md,Non-Core Prep,resources/non-core-prep.md,merged,SQL, Python, analytics
+Civil_Placement_IITK,README.md,Technical Stack,resources/technical-stack.md,merged,Python, MATLAB, OpenFOAM
+Civil_Placement_IITK,README.md,Placement Data,resources/placement-data.md,merged,Company CTC and profiles
+Civil_Placement_IITK,README.md,Study Plan Template,templates/study_plan_template.md,merged,Daily/weekly/monthly plan
+Civil_Placement_IITK,placement_data.csv,Placement Data,resources/placement-data.md,merged,CSV with company details
+Civil_Placement_IITK,placeemnt_iitksyllabus.pdf,Syllabus PDF,resources/syllabus.pdf,skipped,Binary PDF - model lacks PDF input; see GATE_Civil_Study_Material_2027.md for syllabus coverage
+awesome-civil-engineering,README.md,Civil Engineering Resources,civil/fundamentals/civil-engineering-foundations.md,merged,Software and tools list
+awesome-civil-engineering,README.md,Water Resources Software,hwre/water_supply/water-supply.md,merged,HEC-RAS, EPANET, MODFLOW
+awesome-civil-engineering,README.md,Structural Software,civil/structures/structures.md,merged,SAP2000, ETABS, STAAD
+awesome-civil-engineering,README.md,Geotechnical Software,civil/geotechnical/geotechnical.md,merged,PLAXIS, FLAC, GeoStudio
+awesome-civil-engineering,README.md,Transportation Software,civil/transportation/transportation-software.md,merged,PTV Vissim, SUMO
+awesome-civil-engineering,README.md,Environmental Software,hwre/wastewater/wastewater-engineering.md,merged,SWMM, AERMOD
+awesome-civil-engineering,README.md,GIS Tools,resources/gis-tools.md,merged,ArcGIS, QGIS
+awesome-civil-engineering,README.md,Programming Libraries,resources/technical-stack.md,merged,Python, Julia, R libraries
+awesome-civil-engineering,data/resources.json,Civil Engineering Resources,civil/fundamentals/civil-engineering-foundations.md,merged,Same as README
+awesome-civil-engineering,data/resources.json,Water Resources Software,hwre/water_supply/water-supply.md,merged,Same as README
+Aptitude,README.md,Aptitude Basics,aptitude/quantitative/aptitude-basics.md,merged,34 topics, 340 problems
+Aptitude,README.md,Logical Reasoning,aptitude/logical_reasoning/reasoning-practice.md,merged,9 reasoning topics
+Aptitude,README.md,Data Interpretation,aptitude/quantitative/data-interpretation.md,merged,Tables, graphs, pie charts
+Aptitude,README.md,Verbal Ability,aptitude/verbal/verbal-ability.md,merged,Grammar, RC, vocabulary
+Aptitude,Percentages.md,Percentages,aptitude/quantitative/percentages.md,merged,Formulas and practice problems
+Aptitude,Time_Work.md,Time and Work,aptitude/quantitative/time-work.md,merged,Formulas and practice problems
+Aptitude,Speed_Time_Distance.md,Speed Time Distance,aptitude/quantitative/speed-time-distance.md,merged,Formulas and practice problems
+Aptitude,Probability.md,Probability,aptitude/quantitative/probability.md,merged,Formulas and practice problems
+Aptitude,Permutations_Combinations.md,Permutations and Combinations,aptitude/quantitative/permutations-combinations.md,merged,Formulas and practice problems
+Aptitude,Profit_Loss_Discount.md,Profit Loss Discount,aptitude/quantitative/profit-loss-discount.md,merged,Formulas and practice problems
+awesome-behavioral-interviews,README.md,Behavioral Interview Guide,behavioral/behavioral-interview-guide.md,merged,STAR method, tips
+awesome-behavioral-interviews,README.md,Self Introduction,behavioral/self_intro/self-introduction.md,merged,"Tell me about yourself" examples
+awesome-behavioral-interviews,README.md,Teamwork,behavioral/teamwork/teamwork.md,merged,Teamwork questions and answers
+awesome-behavioral-interviews,README.md,Leadership,behavioral/leadership/leadership.md,merged,Leadership questions and answers
+awesome-behavioral-interviews,README.md,Conflict Resolution,behavioral/conflict_resolution/conflict-resolution.md,merged,Conflict questions and answers
+awesome-behavioral-interviews,README.md,Self Introduction Template,templates/self_intro_template.md,completed,Fill-in-blank present-past-future template (NEW FILE)
+behavioral-interview-list-of-questions,README.md,Behavioral Interview Guide,behavioral/behavioral-interview-guide.md,merged,Core values and behaviors
+behavioral-interview-list-of-questions,README.md,HR Questions,behavioral/hr_questions/hr-questions-bank.md,merged,Behavioral question bank
+behavioral-interview-list-of-questions,README.md,Interview Process,interviews/mock_questions/mock-interview-questions.md,merged,Process and assessment tips
+behavioral-interview-list-of-questions,README.md,Interview Answer Template,templates/interview_answer_template.md,completed,STAR/CAR fill-in-blank template (NEW FILE)
+awesome-interview-questions,README.md,HR Interview Guide,interviews/hr/hr-interview-guide.md,merged,Exit, phone, cultural fit
+awesome-interview-questions,README.md,Mock Interview Questions,interviews/mock_questions/mock-interview-questions.md,merged,Analytical, behavioral, technical
+interview-handbook-2026,README.md,Behavioral Questions,behavioral/behavioral-interview-guide.md,merged,Teamwork, client-facing, adaptability
+interview-handbook-2026,README.md,Technical Questions,interviews/technical/technical-interview-bank.md,merged,DSA, OOPs, DBMS, DevOps
+interview-handbook-2026,README.md,Curveball Questions,interviews/mock_questions/mock-interview-questions.md,merged,Personal, revealing, impossible
+interview-handbook-2026,README.md,End-of-Interview Questions,interviews/hr/hr-interview-guide.md,merged,Company-specific, role-specific
+campus-placement-prep,README.md,Placement Roadmap,placement-roadmap.md,merged,IT company requirements, timeline
+campus-placement-prep,README.md,Resume Preparation,templates/resume-template.md,merged,Resume building tips
+campus-placement-prep,README.md,Interview Practice,interviews/mock_questions/mock-interview-questions.md,merged,Coding and behavioral tips
+campus-placement-prep,README.md,Technical Interview Tips,interviews/technical/technical-interview-bank.md,merged,DSA, OS, DBMS, CN
+campus-placement-prep,README.md,Project Discussion,interviews/technical/project-discussion.md,merged,How to present projects in interviews
+Placement_Preparation,README.md,Resources Links,resources/links.md,merged,Company-wise materials
+Placement_Preparation,INTERVIEW EXPERIENCES/,Interview Experiences,interviews/company_specific/interview-experiences.md,merged,Aggregate log of company experiences
+Placement_Preparation,INTERVIEW EXPERIENCES/Tech Mahindra.md,Company Experience,interviews/company_specific/tech-mahindra.md,merged,5-round process
+Placement_Preparation,INTERVIEW EXPERIENCES/Schneider Electric India Pvt Ltd.md,Company Experience,interviews/company_specific/schneider-electric.md,merged,Aptitude + GD + Technical
+Placement_Preparation,INTERVIEW EXPERIENCES/Musigma.md,Company Experience,interviews/company_specific/mu-sigma.md,merged,3-round process
+Placement_Preparation,INTERVIEW EXPERIENCES/Johnson controls.md,Company Experience,interviews/company_specific/johnson-controls.md,merged,Not read yet
+Placement_Preparation,INTERVIEW EXPERIENCES/Hubstream.md,Company Experience,interviews/company_specific/hubstream.md,merged,Not read yet
+Placement_Preparation,INTERVIEW EXPERIENCES/Hiremi.md,Company Experience,interviews/company_specific/hiremi.md,merged,Not read yet
+Placement_Preparation,INTERVIEW EXPERIENCES/Expeditor.md,Company Experience,interviews/company_specific/expeditor.md,merged,Not read yet
+Placement_Preparation,INTERVIEW EXPERIENCES/Deltax.md,Company Experience,interviews/company_specific/deltax.md,merged,Not read yet
+Placement_Preparation,INTERVIEW EXPERIENCES/Darwin box.md,Company Experience,interviews/company_specific/darwinbox.md,merged,5-round process
+Placement_Preparation,INTERVIEW EXPERIENCES/CEI American.md,Company Experience,interviews/company_specific/cei-american.md,merged,Not read yet
+GATE_Civil_Study_Material_2027.md,GATE Civil Study Material,GATE Civil Notes,gate/civil/gate-civil-notes.md,merged,Chapter-wise notes and resources
+GATE_Civil_Study_Material_2027.md,GATE Civil Study Material,GATE Civil Formulas,gate/formulas/gate-civil-formulas.md,merged,Key formulas for each subject
+GATE_Civil_Study_Material_2027.md,GATE Civil Syllabus,GATE Civil Revision Notes,gate/revision_notes/gate-civil-revision.md,completed,Topic-wise revision notes (NEW FILE)
+GATE_Civil_Study_Material_2027.md,GATE Civil Syllabus,GATE Civil Practice Problems,gate/practice/gate-civil-practice.md,completed,Practice problems across 13 GATE Civil subjects (NEW FILE)
+GATE_Civil_Study_Material_2027.md,GATE Previous Year Papers,Previous Year Papers,resources/paper_list.md,merged,2021-2025 papers
+GATE_Civil_Study_Material_2027.md,GATE Recommended Books,Book List,resources/book_list.md,merged,Topic-wise book list
+GATE_Civil_Study_Material_2027.md,Best YouTube Channels,Links,resources/links.md,merged,GATE prep channels
+GATE_Civil_Study_Material_2027.md,Best Coaching Institutes,Links,resources/links.md,merged,Coaching institutes
+Aptitude-For-Placements,README.md,Aptitude Basics,aptitude/quantitative/aptitude-basics.md,merged,Placement-focused aptitude
+Aptitude-For-Placements,Time Speed and Distance/,Time Speed Distance,aptitude/quantitative/speed-time-distance.md,merged,Practice problems
+Aptitude-For-Placements,Ratio and Proportion/,Ratio and Proportion,aptitude/quantitative/ratio-proportion.md,merged,Practice problems
+Aptitude-For-Placements,Percentage/,Percentage,aptitude/quantitative/percentages.md,merged,Practice problems
+Aptitude-For-Placements,Probability/,Probability,aptitude/quantitative/probability.md,merged,Practice problems
+Aptitude-For-Placements,Time and Work/,Time and Work,aptitude/quantitative/time-work.md,merged,Practice problems
+Aptitude-For-Placements,Profit & Loss/,Profit and Loss,aptitude/quantitative/profit-loss-discount.md,merged,Practice problems
+Aptitude-For-Placements,Number System/,Number System,aptitude/quantitative/number-system.md,merged,Practice problems
+Aptitude-For-Placements,Averages/,Averages,aptitude/quantitative/averages.md,merged,Practice problems
+Aptitude-For-Placements,Problem on Ages/,Problem on Ages,aptitude/quantitative/problems-on-ages.md,merged,Practice problems
+Aptitude-For-Placements,Partnership/,Partnership,aptitude/quantitative/partnership.md,merged,Practice problems
+Aptitude-For-Placements,Problems on Train/,Problems on Train,aptitude/quantitative/problems-on-train.md,merged,Practice problems
+index,master_index.md,Repository Index,index/master_index.md,skipped,Source not found at F:\2k26Placement\index\master_index.md; destination master_index generated from topic map and topic_map.md
+DKS_IITK_Civil_HWRE_Placement_2026,index/topic_map.md,Repository Index,index/topic_map.md,meta,Generated index of topic-to-source-to-destination mappings
+DKS_IITK_Civil_HWRE_Placement_2026,index/source_map.csv,Source Mappings,index/source_map.csv,meta,This file: maps all sources to destination files
