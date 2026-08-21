@@ -25,13 +25,13 @@ The `validate-index` hook runs on every commit and ensures `index/master_index.m
 - **Cite sources.** Every note must end with a `## Sources` section listing original repositories.
 - **Use templates.** Interview experiences use `templates/interview-answer-template.md`. Resource additions use `templates/study-plan-template.md`.
 - **Anonymize.** Remove names, roll numbers, company-specific confidential prompts, and panel details.
-- **Validate facts.** Mark resources as ✅ only after verification by 2+ peers.
+- **Validate facts.** Mark resources as ✅ only after self-verification or external source confirmation.
 
 ## Branching & PRs
 
 - Keep PRs single-purpose. One topic or fix per PR.
 - Write a clear title and description. Link related issues with `Fixes #123`.
-- PRs are reviewed weekly (Sundays) by a rotating maintainer.
+- PRs are reviewed by the maintainer within a week.
 
 ## Issue Labels
 
@@ -42,4 +42,4 @@ The `validate-index` hook runs on every commit and ensures `index/master_index.m
 
 ## Code of Conduct
 
-Be respectful. This is a peer learning resource. Disagreements are welcome; personal attacks are not.
+Be respectful. This is a personal learning resource. Disagreements are welcome; personal attacks are not.

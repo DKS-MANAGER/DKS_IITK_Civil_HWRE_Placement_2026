@@ -15,7 +15,7 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 | Activity | Duration | Format |
 |----------|----------|--------|
 | Mock technical interview | 60 min | 2-panelist or 1-interviewer |
-| Feedback review | 15 min | Peer/maintainer |
+| Feedback review | 15 min | Reviewer |
 
 ### Weekly
 | Activity | Duration | Participants |

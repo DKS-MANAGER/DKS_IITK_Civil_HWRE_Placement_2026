@@ -53,4 +53,4 @@ All notable changes to this repository are documented in this file. The format i
 
 ---
 
-**Maintainers:** M.Tech Civil/HWRE Cohort, IIT Kanpur
+**Maintainer:** Divyansh Kumar Singh, IIT Kanpur

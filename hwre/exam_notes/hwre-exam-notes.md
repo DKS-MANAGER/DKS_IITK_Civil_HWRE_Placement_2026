@@ -5,7 +5,7 @@
 The placement preparation roadmap spans five phases from August to December 2026:
 
 ### Phase 0 (Aug 21 – Sep 7)
-- Repository bootstrap, syllabus mapping, resume audit, peer onboarding
+- Repository bootstrap, syllabus mapping, resume audit, self onboarding
 - Deliverables: Resume templates, folder taxonomy, issue labels
 
 ### Phase 1 (Sep 8 – Sep 30)

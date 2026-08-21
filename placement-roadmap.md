@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This roadmap translates the IIT Kanpur Civil/HWRE cohort's preparation plan into a phased timeline from August 2026 through December 2026. It aligns technical depth, behavioral readiness, and company-specific execution so that progress can be tracked, audited, and repeated across the batch.
+This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased timeline from August 2026 through December 2026. It aligns technical depth, behavioral readiness, and company-specific execution so that progress can be tracked, audited, and repeated.
 
 ## Phased Timeline
 
@@ -10,13 +10,13 @@ This roadmap translates the IIT Kanpur Civil/HWRE cohort's preparation plan into
 
 | Focus | Deliverable | Evidence |
 |---|---|---|
-| Repository bootstrap, syllabus map, resume/CV audit, peer onboarding | `/resumes` templates, folder taxonomy, issue labels | Peer-reviewed resumes, taxonomy signed off |
+| Repository bootstrap, syllabus map, resume/CV audit, self onboarding | `/resumes` templates, folder taxonomy, issue labels | Self-reviewed resumes, taxonomy signed off |
 | Execution targets | Core, HWRE, PSU, Analytics skill matrices | Completed target checklist |
 
 **Actions:**
 - Finalize resume in both single-page and detailed formats.
 - Map each core topic to a source and owner.
-- Set up weekly sync cadence and mock-interview pairs.
+- Set up weekly self-study cadence and mock-interview schedule.
 
 ---
 

@@ -159,7 +159,7 @@ Detailed CV with:
 3. **About section**: 2-3 paragraph summary of experience and goals
 4. **Featured section**: Add portfolio, GitHub, key projects
 5. **Experience**: Same quantification approach as resume
-6. **Skills**: Endorsements from peers
+6. **Skills**: Endorsements from colleagues or supervisors
 7. **Activity**: Share articles, comment on industry news
 
 ## Portfolio Website (Optional)

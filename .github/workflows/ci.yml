@@ -1,0 +1,144 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown Lint
+        uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            **/*.md
+            !node_modules/**/*.md
+          config: .markdownlint.json
+          continue-on-error: false
+
+      - name: Link Check
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Validate Index
+        run: python scripts/validate_index.py
+
+  latex-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install TeX
+        run: sudo apt-get install -y texlive-latex-extra
+      - name: Check LaTeX
+        run: |
+          python3 -c "
+          import re, sys, os
+          errors = []
+          for root, dirs, files in os.walk('.'):
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          content = file.read()
+                          inline_count = content.count('\$') % 2
+                          if inline_count != 0:
+                              errors.append(f'{path}: Unclosed inline LaTeX delimiter')
+                          latex_blocks = re.findall(r'\$\$.*?\$\$|\$.*?\$', content, re.DOTALL)
+                          for block in latex_blocks:
+                              if block.count('{') != block.count('}'):
+                                  errors.append(f'{path}: Unbalanced braces')
+          if errors:
+              for e in errors[:20]:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          else:
+              print('LaTeX syntax check passed')
+          "
+
+  python-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Python syntax check
+        run: |
+          python3 -c "
+          import os, sys
+          errors = []
+          for root, dirs, files in os.walk('.'):
+              for f in files:
+                  if f.endswith('.py'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          try:
+                              compile(file.read(), path, 'exec')
+                          except SyntaxError as e:
+                              errors.append(f'{path}: Line {e.lineno}: {e.msg}')
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          else:
+              print('Python syntax check passed')
+          "
+
+  content-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run content audit
+        run: |
+          python3 -c "
+          import os, sys, re
+          errors = []
+          warnings = []
+          for root, dirs, files in os.walk('.'):
+              dirs[:] = [d for d in dirs if not d.startswith('.')]
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          content = file.read()
+                          lines = content.split('\n')
+                          if len(content.strip()) < 50:
+                              warnings.append(f'{path}: File is very short (< 50 bytes)')
+                          for i, line in enumerate(lines, 1):
+                              if re.search(r'\bTODO\b|\bTBD\b|\bFIXME\b', line):
+                                  errors.append(f'{path}:{i}: Contains TODO/TBD/FIXME tag')
+                          if not re.search(r'^## Sources', content, re.MULTILINE):
+                              errors.append(f'{path}: Missing ## Sources section')
+          if errors:
+              for e in errors[:20]:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          if warnings:
+              for w in warnings[:10]:
+                  print(f'WARNING: {w}')
+          print('Content audit completed')
+          "

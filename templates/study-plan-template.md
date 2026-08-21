@@ -6,7 +6,7 @@
 
 | Phase | Timeline | Focus | Deliverable | Priority |
 |-------|----------|-------|-------------|----------|
-| **Phase 0** | Aug 21–Sep 7 | Repo bootstrap, syllabus map, resume/CV audit, peer onboarding | `/resumes` templates, folder taxonomy, issue labels | P0 |
+| **Phase 0** | Aug 21–Sep 7 | Repo bootstrap, syllabus map, resume/CV audit, self onboarding | `/resumes` templates, folder taxonomy, issue labels | P0 |
 | **Phase 1** | Sep 8–Sep 30 | Core revision: fluid mechanics, turbulence, hydraulics, hydrology, SOM, geotech | Topic notes in `/core`, formula sheets, derivation logs | P0 |
 | **Phase 2** | Oct 1–Oct 20 | Mock interviews, viva-style grilling, design-code numericals, coding drills | `/mock-interviews`, answer bank, error log | P0 |
 | **Phase 3** | Oct 21–Nov 10 | Company-wise prep: PSUs, core design/consulting, analytics, shortlists | PRs in `/company-profiles`, role matrices | P1 |
@@ -25,7 +25,7 @@
 - [ ] Resume templates in `/resumes/`
 - [ ] Folder taxonomy established
 - [ ] Issue labels: `good-first-issue`, `core`, `analytics`, `PSU`, `interview`
-- [ ] Peer onboarding document
+- [ ] Self onboarding document
 
 ### Daily Schedule (2-3 hours)
 - 1 hour: Resume/CV refinement
@@ -72,7 +72,7 @@
 
 ### Milestone Checkpoint (Sep 30)
 - Review formula sheets for completeness
-- Validate derivations with peers
+- Validate derivations with reference solutions
 - Update formula sheets in `/core/formula-sheets/`
 
 ## Phase 2: Mock Interviews (Oct 1–Oct 20)
@@ -80,7 +80,7 @@
 ### Schedule
 - **Daily**: 1 coding/quant problem (30 min) + review (15 min)
 - **Every 3 days**: 1 mock technical interview (60 min)
-- **Weekly**: 1 viva/session with peers (90 min)
+- **Weekly**: 1 viva/session with study group (90 min)
 
 ### Practice Areas
 | Area | Focus | Resources |
@@ -126,7 +126,7 @@
 
 ### GD/HR Preparation
 - **Topics**: Current affairs, engineering ethics, sustainability
-- **Practice frequency**: Daily 15-min GD drill with peers
+- **Practice frequency**: Daily 15-min GD drill with study group
 - **Resources**: Case study decks, current events summaries
 
 ### Case Study Practice
@@ -151,9 +151,9 @@
 
 ### Post-Interview Workflow
 1. Update `/interview-experiences/` immediately
-2. Share learnings with peer group
+2. Share learnings with study group
 3. Update company-specific notes
-4. Schedule feedback session with peers
+4. Schedule feedback session with study group
 
 ---
 

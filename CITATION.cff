@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research or preparation, please cite it as:"
+title: "DKS_IITK_Civil_HWRE_Placement_2026"
+authors:
+  - family-names: Singh
+    given-names: Divyansh Kumar
+date-released: 2026-08-21
+url: "https://github.com/DKS-MANAGER/DKS_IITK_Civil_HWRE_Placement_2026"
+license: MIT
+keywords:
+  - civil-engineering
+  - placements-2026
+  - iit-kanpur
+  - interview-prep
+  - fluid-mechanics
+  - gate-ce
+  - openfoam
+  - study-notes

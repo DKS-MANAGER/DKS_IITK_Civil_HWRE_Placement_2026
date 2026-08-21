@@ -25,7 +25,7 @@ assignees: ''
 - [ ] I paraphrased content in my own words
 - [ ] I added a `## Sources` section to every modified note
 - [ ] I anonymized all identifiers (names, roll numbers, confidential prompts)
-- [ ] I validated facts with 2+ peers (if adding resources)
+- [ ] I validated facts with external sources (if adding resources)
 - [ ] I checked for duplicates before adding new content
 - [ ] I followed the template conventions in `templates/`
 

@@ -118,7 +118,7 @@ Use this format to log your interview experience:
 2. Keep PRs small and single-purpose
 3. Update relevant table rows with new information
 4. Label repeated asks as tracked tasks
-5. PRs reviewed every Sunday by rotating maintainer
+5. PRs reviewed every Sunday by maintainer
 
 ---
 
