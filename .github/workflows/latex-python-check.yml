@@ -1,0 +1,75 @@
+name: LaTeX and Python Syntax Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  latex-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check LaTeX syntax in markdown files
+        run: |
+          sudo apt-get install -y texlive-latex-extra
+          python3 -c "
+          import re, sys, os
+          errors = []
+          for root, dirs, files in os.walk('.'):
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          content = file.read()
+                          # Check for unclosed $ delimiters
+                          inline_count = content.count('\$') % 2
+                          if inline_count != 0:
+                              errors.append(f'{path}: Unclosed inline LaTeX delimiter')
+                          # Check for unbalanced braces in LaTeX
+                          latex_blocks = re.findall(r'\$\$.*?\$\$|\$.*?\$', content, re.DOTALL)
+                          for block in latex_blocks:
+                              if block.count('{') != block.count('}'):
+                                  errors.append(f'{path}: Unbalanced braces in LaTeX: {block[:50]}...')
+          if errors:
+              for e in errors[:20]:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          else:
+              print('LaTeX syntax check passed')
+          "
+
+  python-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Python syntax check
+        run: |
+          python3 -c "
+          import os, sys
+          errors = []
+          for root, dirs, files in os.walk('.'):
+              for f in files:
+                  if f.endswith('.py'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          try:
+                              compile(file.read(), path, 'exec')
+                          except SyntaxError as e:
+                              errors.append(f'{path}: Line {e.lineno}: {e.msg}')
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          else:
+              print('Python syntax check passed')
+          "

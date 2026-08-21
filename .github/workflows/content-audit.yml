@@ -1,0 +1,53 @@
+name: Content Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run content audit script
+        run: |
+          python3 -c "
+          import os, sys, re
+          errors = []
+          warnings = []
+          
+          # Check all markdown files
+          for root, dirs, files in os.walk('.'):
+              # Skip hidden directories
+              dirs[:] = [d for d in dirs if not d.startswith('.')]
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      with open(path, 'r', encoding='utf-8') as file:
+                          content = file.read()
+                          lines = content.split('\n')
+                          
+                          # Check for empty files
+                          if len(content.strip()) < 50:
+                              warnings.append(f'{path}: File is very short (< 50 bytes)')
+                          
+                          # Check for TODO/TBD tags
+                          for i, line in enumerate(lines, 1):
+                              if re.search(r'\bTODO\b|\bTBD\b|\bFIXME\b', line):
+                                  errors.append(f'{path}:{i}: Contains TODO/TBD/FIXME tag')
+                          
+                          # Check for Sources section
+                          if not re.search(r'^## Sources', content, re.MULTILINE):
+                              errors.append(f'{path}: Missing ## Sources section')
+          
+          if errors:
+              for e in errors[:20]:
+                  print(f'ERROR: {e}')
+              sys.exit(1)
+          if warnings:
+              for w in warnings[:10]:
+                  print(f'WARNING: {w}')
+          print('Content audit completed')
+          "
