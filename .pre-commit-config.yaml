@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-index
+        name: Validate index references and update inventory
+        entry: python scripts/validate_index.py
+        language: python
+        types: [markdown]
+        pass_filenames: []
+        always_run: true

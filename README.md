@@ -94,6 +94,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 │   ├── non-core-prep.md      # Analytics, SQL, Python, Excel
 │   ├── placement-data.md     # Company CTC, profiles, skills
 │   └── gis-tools.md          # GIS, surveying, reality capture
+├── cfd-cases/              # OpenFOAM case files and post-processing scripts
 └── .github/
     ├── workflows/            # CI: lint, syntax checks, content audit
     ├── ISSUE_TEMPLATE/       # Material request templates
@@ -138,14 +139,7 @@ Each note includes a `## Sources` section tracing content to original repositori
 
 ## Roadmap (Aug 2026 → Dec 2026)
 
-| Phase | Timeline | Focus | Deliverable | Priority |
-|---|---|---|---|---|
-| Phase 0 | Aug 21–Sep 7 | Syllabus map, resume audit, peer onboarding | [templates/](templates/), issue labels | P0 |
-| Phase 1 | Sep 8–Sep 30 | Core revision: FM, turbulence, hydraulics, hydrology, SOM, geotech | [civil/](civil/) notes, formula sheets | P0 |
-| Phase 2 | Oct 1–Oct 20 | Mock interviews, viva, design-code numericals, coding drills | [interviews/mock_questions/](interviews/mock_questions/), answer bank | P0 |
-| Phase 3 | Oct 21–Nov 10 | Company-wise prep: PSUs, core design, analytics | [interviews/company_specific/](interviews/company_specific/), role matrices | P1 |
-| Phase 4 | Nov 11–Dec 1 | Final revision: recall, GD/HR, aptitude, case studies | Cheat-sheets, flashcards, mock scores | P0 |
-| Phase 5 | Dec 2026 | Live interview logging, offer tracking, postmortems | [interviews/company_specific/](interviews/company_specific/) updates | P0 |
+See the detailed phased roadmap in [`placement-roadmap.md`](placement-roadmap.md).
 
 ---
 

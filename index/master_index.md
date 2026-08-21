@@ -32,12 +32,12 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | 23 | Placement Roadmap | Timeline, phases, targets for Dec 2026 placements | Civil_Placement_IITK/README.md | placement-roadmap.md | P0 | Directly useful |
 | 24 | Mock Interview Questions | Curated mock questions for practice | interview-handbook-2026/README.md, awesome-interview-questions/README.md | interviews/mock_questions/mock-interview-questions.md | P0 | Merged from 2 sources |
 | 25 | Company Profiles | Company-wise prep: PSUs, core design, analytics | Civil_Placement_IITK/README.md | interviews/company_specific/company-profiles.md | P1 | Directly useful |
-| 26 | Resources: Books | Recommended books for civil engineering and placement prep | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | resources/book_list.md | P1 | Merged from 2 sources |
-| 27 | Resources: Papers | Previous year GATE papers and placement papers | GATE_Civil_Study_Material_2027.md | resources/paper_list.md | P1 | Partially useful |
+| 26 | Resources: Books | Recommended books for civil engineering and placement prep | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | resources/book-list.md | P1 | Merged from 2 sources |
+| 27 | Resources: Papers | Previous year GATE papers and placement papers | GATE_Civil_Study_Material_2027.md | resources/paper-list.md | P1 | Partially useful |
 | 28 | Resources: Links | Curated external links for prep | awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md, campus-placement-prep/README.md | resources/links.md | P1 | Merged from 3 sources |
-| 29 | Templates: Self Intro | Template for self introduction | awesome-behavioral-interviews/README.md | templates/self_intro_template.md | P0 | Directly useful |
-| 30 | Templates: Interview Answer | Template for answering interview questions | behavioral-interview-list-of-questions/README.md | templates/interview_answer_template.md | P0 | Directly useful |
-| 31 | Templates: Study Plan | Study plan template for placement prep | Civil_Placement_IITK/README.md | templates/study_plan_template.md | P0 | Directly useful |
+| 29 | Templates: Self Intro | Template for self introduction | awesome-behavioral-interviews/README.md | templates/self-intro-template.md | P0 | Directly useful |
+| 30 | Templates: Interview Answer | Template for answering interview questions | behavioral-interview-list-of-questions/README.md | templates/interview-answer-template.md | P0 | Directly useful |
+| 31 | Templates: Study Plan | Study plan template for placement prep | Civil_Placement_IITK/README.md | templates/study-plan-template.md | P0 | Directly useful |
 | 32 | Conflict Resolution | Behavioral questions and frameworks for conflict resolution | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | behavioral/conflict_resolution/conflict-resolution.md | P0 | Merged from 2 sources |
 | 33 | Leadership | Behavioral questions and tips for leadership scenarios | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | behavioral/leadership/leadership.md | P0 | Merged from 2 sources |
 | 34 | Teamwork | Behavioral questions and examples for teamwork | awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md | behavioral/teamwork/teamwork.md | P0 | Merged from 2 sources |
@@ -52,4 +52,4 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | 43 | Technical Stack | Python, MATLAB, LaTeX, OpenFOAM, QGIS, Git | Civil_Placement_IITK/README.md | resources/technical-stack.md | P1 | Directly useful |
 | 44 | Non-Core Prep | Data analytics, SQL, Python, Excel, case studies | Civil_Placement_IITK/README.md | resources/non-core-prep.md | P1 | Directly useful |
 | 45 | Placement Data | Company-wise CTC, profile, skills from IITK placement data | Civil_Placement_IITK/placement_data.csv | resources/placement-data.md | P0 | Directly useful |
-| 46 | Study Plan Template | Daily/weekly/monthly study plan for placement prep | Civil_Placement_IITK/README.md | templates/study_plan_template.md | P0 | Directly useful |
+| 46 | Study Plan Template | Daily/weekly/monthly study plan for placement prep | Civil_Placement_IITK/README.md | templates/study-plan-template.md | P0 | Directly useful |

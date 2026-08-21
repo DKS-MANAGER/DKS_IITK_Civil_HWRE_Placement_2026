@@ -2,6 +2,17 @@
 
 Thank you for contributing. This guide ensures consistency across all notes, interviews, and resources.
 
+## Pre-commit Checks
+
+Install the pre-commit hook to validate index references and update the file inventory automatically:
+
+```bash
+pip install pre-commit
+pre-commit install
+```
+
+The `validate-index` hook runs on every commit and ensures `index/master_index.md` references stay in sync with the file tree.
+
 ## Before You Start
 
 1. Search existing issues and notes to avoid duplicates.
