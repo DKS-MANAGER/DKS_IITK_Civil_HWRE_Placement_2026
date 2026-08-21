@@ -31,21 +31,7 @@ Targeted preparation hub for core engineering, numerical modeling/CFD, non-core 
 | **Water & Wastewater** | Treatment design, distribution networks, sewer modeling | [`hwre/water_supply/`](hwre/water_supply/), [`hwre/wastewater/`](hwre/wastewater/) |
 | **Structures & Geo** | SOM, RCC, soil mechanics, bearing capacity | [`civil/structures/`](civil/structures/), [`civil/geotechnical/`](civil/geotechnical/) |
 
----
 
-## CFD & Numerical Modeling
-
-| Case Study | Solver / Method | Validation / Focus |
-| :--- | :--- | :--- |
-| [2D Pipeline Scour — SedFOAM](https://github.com/DKS-MANAGER/2DPipelineScour) | `sedFoam_rbgh`, Eulerian Two-Phase, k-ω SST | Mao (1986), Larsen et al. (2016) |
-| [2D Pipeline Scour — sedExnerFoam EXN](https://github.com/DKS-MANAGER/2DPipelineScourEXN) | `sedExnerFoam`, Exner + ALE, FAM | OpenFOAM 2412 compatibility patches |
-| [Calibrated sedExnerFoam](https://github.com/DKS-MANAGER/PipelineScour_Calibrated) | Nielsen (1992) bedload, 2-phase workflow | 20-core MPI, morphological acceleration 2× |
-| [Bridge Pier Contraction Scour](https://github.com/DKS-MANAGER/bridge_sedfoam) | `sedFoam_rbgh`, Boyer μ(I) rheology | Majid et al. (2026), ASCE validation |
-| [Bridge Pier Live-Bed Scour](https://github.com/DKS-MANAGER/bridge_sedfoam_livebed) | θ > θcr, upstream sediment supply | Equilibrium scour under mobile-bed conditions |
-| [Bridge Pier Downstream Wake](https://github.com/DKS-MANAGER/bridge_sedfoam_downstream) | Extended downstream domain | Wake morphology, deposition ridge, TKE |
-| [Flow-Induced Vibration *(Active)*](https://github.com/DKS-MANAGER) | CFD + structural coupling | Rough-wall BCs, multiphase pipelines |
-
----
 
 ## Analytics & Non-Core
 
@@ -100,4 +86,4 @@ This repository synthesizes content from the following source repositories:
 | [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) | GATE Civil notes, formulas, PYQs, revision summaries |
 | [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) | Behavioral, technical, curveball, and end-of-interview questions |
 
-> **Note:** Local source clones are stored outside this repository at `F:\2k26Placement\`. All content has been paraphrased and synthesized; see individual note `## Sources` sections for granular attribution.
+> *Note:* Content synthesized and curated from primary reference materials and interview archives.
