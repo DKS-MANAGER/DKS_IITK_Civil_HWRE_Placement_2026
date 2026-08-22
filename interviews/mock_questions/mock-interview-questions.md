@@ -54,7 +54,7 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 ## Subject-Wise Question Banks
 
 ### Fluid Mechanics
-```
+```text
 1. Derive the energy equation including head loss terms.
    Expected: Bernoulli + head loss + practical applications
 
@@ -67,10 +67,10 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 
 4. Explain the Moody diagram and its applications.
    Expected: Friction factor vs Re, relative roughness, flow regimes
-```
+```text
 
 ### Geotechnical Engineering
-```
+```text
 5. Derive Terzaghi's bearing capacity equation for strip footing.
    Expected: Assumptions, failure mechanisms, bearing capacity factors
 
@@ -83,10 +83,10 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 
 8. What is the critical hydraulic gradient? When does piping occur?
    Formula: i_cr = (G-1)/(1+e)
-```
+```text
 
 ### Structural Engineering
-```
+```text
 9. A simply supported beam (span = 6m) carries UDL of 20 kN/m. Find max moment.
    Formula: M_max = wL²/8
 
@@ -98,10 +98,10 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 
 12. What is the difference between working stress and limit state design?
     Expected: Philosophy, safety factors, serviceability
-```
+```text
 
 ### Environmental Engineering
-```
+```text
 13. Design a rectangular sedimentation tank for a flow of 10 MLD.
     Given: Overflow velocity = 30 m/day, detention time = 2 hours
 
@@ -110,10 +110,10 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 
 15. What is SVI and how is it calculated?
     Formula: SVI = (V_observe × 1000) / X where X = MLSS concentration
-```
+```text
 
 ### Transportation Engineering
-```
+```text
 16. A pavement is 1500mm thick with modular values...
     Expected: Equivalent single wheel load, thickness design
 
@@ -122,12 +122,12 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
 
 18. What are the factors affecting stopping sight distance?
     Expected: Perception-reaction time, brake efficiency, road friction
-```
+```text
 
 ## Coding Mock Interview Template
 
 ### Python Problems
-```
+```text
 1. Given a list of daily temperatures, return the number of days you have to wait 
    for a warmer day (stack problem).
    Example: [73, 74, 73, 74, 71, 75]
@@ -139,31 +139,31 @@ Based on Civil_Placement_IITK Phase 2 (Oct 1–20) focus: mock interviews, viva-
    - Add a 'grade' column based on score ranges
    - Find students scoring above 90th percentile
    - Handle missing values
-```
+```text
 
 ### SQL Problems
-```
+```text
 1. Write a query to find the second highest salary from an Employee table.
 
 2. Given a table of orders with order_date and customer_id, 
    write a query to find customers who placed orders in consecutive months.
 
 3. Write a query to calculate month-over-month growth rate.
-```
+```text
 
 ### GATE/PSU Numerical Problems
-```
+```text
 Template for each problem:
 1. Problem statement
 2. Given data
 3. Formula to apply
 4. Step-by-step solution
 5. Final answer with units
-```
+```text
 
 ## Mock Interview Feedback Form
 
-```
+```text
 === MOCK INTERVIEW FEEDBACK ===
 
 Candidate: [Name] | Date: [DD/MM] | Interviewer: [Name]
@@ -201,7 +201,7 @@ Next Steps:
 
 Overall Score: ___/16
 Recommendation: □ Pass □ Conditional Pass □ Retest
-```
+```text
 
 ## Error Log Template
 
@@ -212,5 +212,6 @@ Recommendation: □ Pass □ Conditional Pass □ Retest
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Milestone Rubric, Company Profiles, Roadmap)
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Milestone Rubric, Company Profiles, Roadmap

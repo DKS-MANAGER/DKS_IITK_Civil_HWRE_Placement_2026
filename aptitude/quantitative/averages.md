@@ -85,8 +85,7 @@ A batsman has an average of $x$ for 11 innings. In the 12th inning he scores 90 
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Averages_Mixtures.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Averages\Averages-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Averages\Averages-2`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Averages and mixtures
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Averages practice problems

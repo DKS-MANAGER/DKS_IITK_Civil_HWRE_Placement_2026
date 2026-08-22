@@ -120,8 +120,8 @@ These assess values, personality, and long-term alignment.
 - How would you describe the team's culture?
 - What are the next steps and the timeline for a decision?
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-interview-questions\README.md` (Exit, Phone, Phone screen, Cultural fit, Manager sections)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (End-of-Interview Questions, motivation examples)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (PSU HR focus areas, company profiles)
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Exit, Phone, Phone screen, Cultural fit, Manager sections
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — End-of-Interview Questions, motivation examples
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — PSU HR focus areas, company profiles

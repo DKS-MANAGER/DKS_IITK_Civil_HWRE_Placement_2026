@@ -90,7 +90,7 @@ A father is 38 years old. He was as old as his son is now at the time of the son
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Problems_on_Ages.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Problem on Ages\`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Problems on ages
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Age problem practice

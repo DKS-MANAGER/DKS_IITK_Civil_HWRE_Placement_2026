@@ -86,12 +86,32 @@ Open channel flow occurs when a fluid flows with a free surface exposed to atmos
 - Bridge scour assessment
 - Floodplain delineation and zoning
 
+## Worked Examples
+
+### Example 1: Hydraulic Jump
+A rectangular channel carries $Q = 10$ m³/s with $y_1 = 0.5$ m. Find the conjugate depth $y_2$ and energy loss.
+
+1. Compute Froude number: $Fr_1 = \frac{V_1}{\sqrt{g y_1}}$, where $V_1 = Q/(b y_1)$ (assume $b=5$ m)
+2. $V_1 = 10/(5 \times 0.5) = 4$ m/s, $Fr_1 = 4/\sqrt{9.81 \times 0.5} \approx 1.81$
+3. Conjugate depth: $y_2 = \frac{y_1}{2} \left( \sqrt{1 + 8 Fr_1^2} - 1 \right) = \frac{0.5}{2} ( \sqrt{1 + 8 \times 1.81^2} - 1 ) \approx 2.03$ m
+4. Energy loss: $\Delta E = \frac{(y_2 - y_1)^3}{4 y_1 y_2}$
+
+### Example 2: Manning's Equation
+Design a trapezoidal channel to carry $Q = 50$ m³/s. Given $S = 0.001$, $n = 0.025$, side slope $z = 1.5$, bottom width $b = 10$ m. Find normal depth $y$.
+
+1. $A = (b + zy)y = (10 + 1.5y)y$
+2. $P = b + 2y\sqrt{1+z^2} = 10 + 2y\sqrt{3.25}$
+3. $R = A/P$
+4. Manning's: $Q = \frac{1}{n} A R^{2/3} S^{1/2}$
+5. Solve iteratively for $y$ (try $y=2$ m, check $Q$, adjust)
+
 ## Further expansion needed
 - Detailed derivation of Saint-Venant equations
 - Numerical methods for GVF profile computation (direct step, standard step)
 - Unsteady flow routing methods (Muskingum, kinematic wave, dynamic wave)
 - Bridge hydraulics and scour depth calculations
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

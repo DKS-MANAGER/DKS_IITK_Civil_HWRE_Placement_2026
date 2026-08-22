@@ -97,7 +97,7 @@ A retailer marks goods 40% above CP and then allows a discount of 25% on the MP.
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Profit_Loss_Discount.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Profit & Loss\`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Profit, loss, and discount
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems

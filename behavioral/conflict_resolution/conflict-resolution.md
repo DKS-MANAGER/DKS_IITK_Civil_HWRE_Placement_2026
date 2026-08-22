@@ -58,9 +58,9 @@ Conflict questions evaluate emotional intelligence, communication skills, and wh
 - Retrospectives or post-mortems after contentious milestones.
 - Clear escalation paths so friction does not fester.
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (Conflict with teammate, difficult feedback, tough feedback sample questions)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (Team First Mentality, Open-Mindedness, Resilience)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (Office situation curveball questions, Examples 22–23)
-- `F:\2k26Placement\awesome-interview-questions\README.md` (Behavioral, Communication skills, Cultural fit sections)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — Conflict with teammate, difficult feedback, tough feedback sample questions
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Team First Mentality, Open-Mindedness, Resilience
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Office situation curveball questions, Examples 22–23
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Behavioral, Communication skills, Cultural fit sections

@@ -112,6 +112,7 @@ Wastewater engineering involves the collection, treatment, and disposal of domes
 - Membrane bioreactor (MBR) design and operation
 - Nutrient recovery from wastewater (struvite, ammonia stripping)
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

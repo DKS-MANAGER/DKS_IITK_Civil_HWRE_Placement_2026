@@ -22,7 +22,7 @@
 4. Create issue labels for tracking
 
 ### Deliverables
-- [ ] Resume templates in `/resumes/`
+- [ ] Resume templates in `templates/resume-template.md`
 - [ ] Folder taxonomy established
 - [ ] Issue labels: `good-first-issue`, `core`, `analytics`, `PSU`, `interview`
 - [ ] Self onboarding document
@@ -49,7 +49,7 @@
 | RANS closures | Pope, *Turbulent Flows*; OpenFOAM docs | ⬜ |
 | Wall functions | OpenFOAM guide; y+ post-processing notes | ⬜ |
 | LES vs DNS | Course notes | ⬜ |
-| OpenFOAM basics | `/cfd-cases` directory | ⬜ |
+| OpenFOAM basics | [CFD & Numerical Modeling](README.md#cfd--numerical-modeling) | ⬜ |
 | Mesh generation | blockMesh, snappyHexMesh | ⬜ |
 
 ### Week 3: Hydrology & Geotech
@@ -73,7 +73,7 @@
 ### Milestone Checkpoint (Sep 30)
 - Review formula sheets for completeness
 - Validate derivations with reference solutions
-- Update formula sheets in `/core/formula-sheets/`
+- Update formula sheets in `gate/formulas/`
 
 ## Phase 2: Mock Interviews (Oct 1–Oct 20)
 
@@ -100,17 +100,17 @@
 ### PSU Track (Oct 21–Nov 3)
 - **Target companies**: BPCL, EIL, NHPC, NTPC, WAPCOS
 - **Focus areas**: GATE fundamentals, IS codes, project defense
-- **Deliverable**: Updated `/company-profiles/psu-prep.md`
+- **Deliverable**: `interviews/company_specific/company-profiles.md` (PSU section)
 
 ### Core Design/Consulting (Nov 4–Nov 10)
 - **Target companies**: L&T, AECOM, Tata Projects
 - **Focus areas**: Structural design, site logic, construction methods
-- **Deliverable**: `/company-profiles/core-design-prep.md`
+- **Deliverable**: `interviews/company_specific/company-profiles.md` (Core Design section)
 
 ### Analytics/Quant Track (Oct 21–Nov 10)
 - **Target companies**: Abacus.AI, Accenture, Barclays, Merilytics
 - **Focus areas**: Python, SQL, stats, ML fundamentals
-- **Deliverable**: `/company-profiles/analytics-prep.md`
+- **Deliverable**: `resources/non-core-prep.md` (Analytics section)
 
 ## Phase 4: Final Revision (Nov 11–Dec 1)
 
@@ -150,12 +150,13 @@
   - Postmortem: 3 weak areas + 3 improvement actions
 
 ### Post-Interview Workflow
-1. Update `/interview-experiences/` immediately
+1. Update `interviews/company_specific/interview-experiences.md` immediately
 2. Share learnings with study group
 3. Update company-specific notes
 4. Schedule feedback session with study group
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Roadmap section)
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Roadmap section

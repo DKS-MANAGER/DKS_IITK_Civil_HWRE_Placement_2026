@@ -136,7 +136,7 @@
 
 ## Derivation Log Template
 
-```
+```text
 Topic: [e.g., Hagen-Poiseuille equation]
 Source: [Textbook/course reference]
 Derivation Steps:
@@ -148,9 +148,10 @@ Physical Interpretation:
 - Assumption: [Key assumption]
 - Limitation: [When it breaks down]
 - Application: [Where it's used]
-```
+```text
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Core Civil/HWRE Concepts, Technical Stack, Company Profiles sections)
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Core Civil/HWRE Concepts, Technical Stack, Company Profiles sections

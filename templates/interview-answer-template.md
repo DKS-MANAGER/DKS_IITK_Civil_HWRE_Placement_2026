@@ -25,7 +25,7 @@ Some companies prefer this. It collapses Situation + Task into a single **Challe
 
 ## Fill-in-the-Blank Template
 
-```
+```text
 INTERVIEWER: "Tell me about a time when you [QUESTION PROMPT — e.g. had to solve a complex technical problem / led a team / adapted to change]."
 
 SITUATION:
@@ -44,7 +44,7 @@ RESULT:
 [Learning takeaway.] eg. "From this, I learned <lesson> that I now apply when <future context>."
 
 OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <reflection>."
-```
+```text
 
 ---
 
@@ -100,7 +100,8 @@ OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <refle
 
 ---
 
-## Sources
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (STAR framework, assessment criteria, follow-up questions, category-wise question bank)
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (STAR steps, sample answers, general tips)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\behavioral\behavioral-interview-guide.md` (company-specific question types)
+## References
+
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — STAR framework, assessment criteria, follow-up questions, category-wise question bank
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR steps, sample answers, general tips
+* [behavioral-interview-guide](behavioral/behavioral-interview-guide.md) — Company-specific question types

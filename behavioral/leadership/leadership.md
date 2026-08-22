@@ -64,10 +64,10 @@ If you lack formal leadership experience, draw from:
 - **Core design firms (L&T, AECOM, Tata Projects):** Highlight design-review leadership, interdisciplinary coordination, and client communication.
 - **Analytics firms:** Stress data-team leadership, reproducible workflows, and stakeholder storytelling.
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (Leadership sample STAR response)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (Leadership skills questions)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (Leadership curveball category)
-- `F:\2k26Placement\awesome-interview-questions\README.md` (Leadership skills section)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (company profiles and execution targets)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — Leadership sample STAR response
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Leadership skills questions
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Leadership curveball category
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Leadership skills section
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company profiles and execution targets

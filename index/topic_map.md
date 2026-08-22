@@ -265,7 +265,7 @@ This file maps each topic to its source files and the final merged destination f
   - Repeated in: None
   - Status: Directly extracted
 
-- **study_plan_template.md**
+- **study-plan-template.md**
   - Sources: Civil_Placement_IITK/README.md
   - Best source: Civil_Placement_IITK/README.md
   - Repeated in: None

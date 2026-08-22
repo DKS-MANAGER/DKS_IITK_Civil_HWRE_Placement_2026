@@ -9,12 +9,12 @@
 - **Result**: Quantified outcome, lessons learned
 
 ### STAR Template
-```
+```text
 Situation: [Background context - 1-2 sentences]
 Task: [Your responsibility - 1 sentence]
 Action: [What you did - 2-3 specific steps]
 Result: [Quantified outcome - 1-2 sentences]
-```
+```text
 
 ## Common Questions & Frameworks
 
@@ -25,12 +25,12 @@ Result: [Quantified outcome - 1-2 sentences]
 - Future: Why this role/company and what you'll contribute
 
 **Template:**
-```
+```text
 "I'm currently [current role/project] where I [key responsibility].
 Previously, I [background relevant to role].
 I'm excited about [this role/company] because [specific reason].
 I'm looking forward to [contribution you'll make]."
-```
+```text
 
 ### 2. Why do you want to change your current company?
 **Framework: Growth > Dissatisfaction**
@@ -153,7 +153,8 @@ Create a sheet listing:
 
 ---
 
-## Sources
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (General tips, STAR framework, sample questions)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (Categorized question bank)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Company-specific context)
+## References
+
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — General tips, STAR framework, sample questions
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Categorized question bank
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company-specific context

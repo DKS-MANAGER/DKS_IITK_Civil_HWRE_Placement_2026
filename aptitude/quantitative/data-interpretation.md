@@ -107,9 +107,6 @@ A family's monthly expenses are represented by sector angles: Rent — $90^\circ
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Bar_Line_Graphs.md`
-- `F:\2k26Placement\Aptitude\Pie_Charts.md`
-- `F:\2k26Placement\Aptitude\Tables_Caselets.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Percentage\Percentage-1`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Data interpretation topic sources

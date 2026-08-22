@@ -46,4 +46,4 @@ Be ready for circuit diagrams, derivations, and conceptual explanations:
 
 ## Sources
 
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Schneider Electric India Pvt Ltd.md`
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Schneider Electric interview experience

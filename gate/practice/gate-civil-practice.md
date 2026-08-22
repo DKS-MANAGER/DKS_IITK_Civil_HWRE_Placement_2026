@@ -188,7 +188,7 @@
 
 **Q35 (1-mark):** Minimum tension reinforcement in a beam (Fe 415) per IS 456 is $A_{st,min}/bd =$ (a) $0.0013$ (b) $0.0015$ (c) $0.0018$ (d) $0.0020$
 
-**Answer:** (b) $A_{st,min} = \frac{0.87 \times 415}{fy} \approx 0.85\%$ → $\frac{A_{st,min}}{bd} = 0.0018$... Per IS 456: $\frac{0.87 f_y}{fy}$... Standard value: **$0.0018$** for Fe 415 ($\frac{0.87 \times 415}{415 \times 1000} \times$... correct expression: $A_{st,min} = \frac{0.87 \times 415 \times b \times d}{415} = \frac{0.87}{1} b d$?). The tabulated IS 456 value is $0.85\%$ → **0.0018** approx. Answer: (d) $0.0020$ is not standard — correct is **(c) 0.0018**.
+**Answer:** (c) **0.0018**. Per IS 456:2000, minimum tension steel for Fe 415 is $A_{st,min} = 0.0018\,bd$.
 
 **Q36 (2-mark):** A square column 400 mm × 400 mm is subjected to an axial load of 800 kN (inclusive of self-weight). The bearing stress is
 
@@ -232,7 +232,7 @@
 
 **Q43 (2-mark):** A completely mixed activated sludge (CFAST) plant has $\text{MLSS} = 3000$ mg/L, $Q = 10$ MLD, $V = 5000$ m³. The sludge age (SRT) is
 
-**Solution:** $X = 3000$ mg/L $= 3$ kg/m³. MLVSS ≈ $0.8 \times X = 2.4$ kg/m³. Waste sludge flow assumed. $SRT = \frac{V \cdot X}{Q_w \cdot X_w + Q_e \cdot X_e}$. For typical calculation: $SRT = \frac{\text{mass of solids in system}}{\text{mass of solids wasted/day}}$. Without $Q_w$, use simplified: $SRT \approx \frac{V \cdot MLSS}{Q \cdot \text{effluent susp.}}$. With $Q = 10$ MLD $= 115.7$ L/s: mass in system $= 5000 \times 3 = 15000$ kg. Assuming waste of 50% mixed liquor at concentration 11000 mg/L: $\approx \frac{15000}{0.5 \times 10000 \times 11/1000} \approx 2.7$ days... The standard simplified answer for typical GATE values: **$SRT \approx 10$ days** (depends on assumptions). This question requires the wasting rate — typical GATE answer ≈ **12–20 days**.
+**Solution:** $X = 3000$ mg/L $= 3$ kg/m³. Mass of solids in system $= V \cdot X = 5000 \times 3 = 15000$ kg. Assuming waste sludge concentration $X_w = 10{,}000$ mg/L $= 10$ kg/m³ and waste flow $Q_w = 0.5Q = 5.785$ L/s $= 500$ m³/d: $SRT = \frac{V \cdot X}{Q_w \cdot X_w} = \frac{15000}{500 \times 10} \approx \mathbf{3}$ days. (Note: Typical activated sludge SRT is 5–15 days depending on wasting rate; adjust $Q_w$ based on design.)
 
 **Q44 (1-mark):** In the activated sludge process, the Food-to-Microorganism (F/M) ratio is defined as (a) $\frac{Q \cdot S_0}{X \cdot V}$ (b) $\frac{S_0}{X}$ (c) $\frac{Q \cdot S_0}{V}$ (d) $\frac{X}{Q \cdot S_0}$
 
@@ -307,8 +307,9 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md` (GATE Civil syllabus subjects and resource list)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (core civil concepts and HWRE topics)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\gate\civil\gate-civil-notes.md` (topic detail used to frame problem concepts)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\gate\formulas\gate-civil-formulas.md` (formulas used in problems)
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — GATE Civil syllabus subjects and resource list
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Core civil concepts and HWRE topics
+* [gate-civil-notes](gate/civil/gate-civil-notes.md) — Topic detail used to frame problem concepts
+* [gate-civil-formulas](gate/formulas/gate-civil-formulas.md) — Formulas used in problems

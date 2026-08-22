@@ -109,15 +109,6 @@ This file compiles the most useful time-saving shortcuts across quantitative apt
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Percentages.md`
-- `F:\2k26Placement\Aptitude\Time_Work.md`
-- `F:\2k26Placement\Aptitude\Speed_Time_Distance.md`
-- `F:\2k26Placement\Aptitude\Profit_Loss_Discount.md`
-- `F:\2k26Placement\Aptitude\Ratio_Proportion.md`
-- `F:\2k26Placement\Aptitude\Averages_Mixtures.md`
-- `F:\2k26Placement\Aptitude\Number_System.md`
-- `F:\2k26Placement\Aptitude\Permutations_Combinations.md`
-- `F:\2k26Placement\Aptitude\Probability.md`
-- `F:\2k26Placement\Aptitude\Problems_on_Ages.md`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Shortcuts and speed math across topics

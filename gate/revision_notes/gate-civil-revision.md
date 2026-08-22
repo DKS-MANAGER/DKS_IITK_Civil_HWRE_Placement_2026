@@ -264,8 +264,9 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md` (GATE Civil syllabus topics, recommended books, papers, channels)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (core civil/HWRE concepts and company-relevant topics)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\gate\civil\gate-civil-notes.md` (topic detail)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\gate\formulas\gate-civil-formulas.md` (key formulas)
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — GATE Civil syllabus topics, recommended books, papers, channels
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Core civil/HWRE concepts and company-relevant topics
+* [gate-civil-notes](gate/civil/gate-civil-notes.md) — Topic detail
+* [gate-civil-formulas](gate/formulas/gate-civil-formulas.md) — Key formulas

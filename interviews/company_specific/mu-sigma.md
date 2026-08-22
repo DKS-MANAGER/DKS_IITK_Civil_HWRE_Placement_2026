@@ -18,5 +18,5 @@ MuSigma's selection process consists of three main rounds:
 - Review basic technical concepts relevant to your domain
 
 ## Sources
-- F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Musigma.md
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — MuSigma interview experience
 - https://youtu.be/F-tMqMIdmz4?feature=shared

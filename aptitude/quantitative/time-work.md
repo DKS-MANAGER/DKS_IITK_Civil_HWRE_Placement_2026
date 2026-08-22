@@ -103,7 +103,7 @@ A and B together take 12 days. B and C together take 15 days. A and C together t
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Time_Work.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Time and Work\`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Time and work
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems

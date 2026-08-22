@@ -86,6 +86,7 @@ Turbulence modeling is critical for computational fluid dynamics (CFD) applicati
 - Anisotropic turbulence tensor properties
 - Advanced subgrid-scale models for LES
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

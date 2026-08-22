@@ -83,12 +83,12 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 
 | Company | Experience Log | Key Questions | Notes |
 |---------|----------------|---------------|-------|
-| **BPCL** | [BPCL](./interviews/bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
-| **EIL** | [EIL](./interviews/eil.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
-| **L&T** | [LT](./interviews/lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
-| **AECOM** | [AECOM](./interviews/aecom.md) | Data-backed project discussion, watershed logic | Prepare data, model assumptions, communication [web:] |
-| **Analytics** | [Analytics](./interviews/analytics.md) | EDA, metrics, reproducibility | Show coding, stats, business framing |
-| **Quant** | [Quant](./interviews/quant.md) | Probability, brainteasers, fast coding | Build from puzzle logs [web:73] |
+| **BPCL** | [BPCL](./bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
+| **EIL** | [EIL](./eil.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
+| **L&T** | [L&T](./lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
+| **AECOM** | [AECOM](./aecom.md) | Data-backed project discussion, watershed logic | Prepare data, model assumptions, communication [web:] |
+| **Analytics** | [Analytics](./analytics.md) | EDA, metrics, reproducibility | Show coding, stats, business framing |
+| **Quant** | [Quant](./quant.md) | Probability, brainteasers, fast coding | Build from puzzle logs [web:73] |
 
 ## Interview Experience Template
 
@@ -122,13 +122,7 @@ Use this format to log your interview experience:
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Company Profiles & Past Interview Experiences)
-- `F:\2k26Placement\Civil_Placement_IITK\placement_data.csv`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\bpcl.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\eil.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\nhpc.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\lt.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\aecom.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\analytics.md`
-- `F:\2k26Placement\Civil_Placement_IITK\interviews\quant.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company Profiles & Past Interview Experiences
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Placement data CSV

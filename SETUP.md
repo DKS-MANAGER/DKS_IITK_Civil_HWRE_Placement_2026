@@ -47,7 +47,7 @@ The following files have been added and are ready to commit:
 
 ## 6. Directory Parity
 
-The `cfd-cases/` directory has been added with a placeholder README. Populate it with OpenFOAM cases as needed.
+CFD cases are tracked in external repositories linked from the [CFD & Numerical Modeling](README.md#cfd--numerical-modeling) section.
 
 ## 7. Roadmap Deduplication
 
@@ -62,7 +62,7 @@ The inline roadmap in README.md has been replaced with a link to `placement-road
 
 Use [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
+```text
 feat: add turbulence modeling notes
 fix: correct broken link in hydraulics
 docs: update README quick start

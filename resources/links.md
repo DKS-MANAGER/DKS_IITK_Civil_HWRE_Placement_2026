@@ -61,9 +61,9 @@
 | Resource | Description |
 |----------|-------------|
 | IndiaBix | [Aptitude practice](https://www.indiabix.com/) - At least 1 hour per week |
-| Prepare-General-Aptitude | [Mixed practice set](https://github.com/) - Daily 20-minute drills |
+| Prepare-General-Aptitude | [Mixed practice set](https://github.com/DKS-MANAGER/Aptitude-For-Placements) - Daily 20-minute drills |
 | RS Aggarwal | Quantitative aptitude book - Speed math, percent, ratios, TSD, DI |
-| Aptitude-and-reasoning-100-interview | [Puzzles and reasoning](https://github.com/) - Seating, arrangements, constraints [web:50] |
+| Aptitude-and-reasoning-100-interview | [Puzzles and reasoning](https://github.com/rShearer/behavioral-interview-list-of-questions) - Seating, arrangements, constraints |
 | GRE-level vocab/grammar | Verbal ability for HR/GD rounds |
 
 ## Study Materials
@@ -91,11 +91,11 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md`
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\data\resources.json`
-- `F:\2k26Placement\campus-placement-prep\README.md`
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md`
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md`
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
+* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews)
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions)

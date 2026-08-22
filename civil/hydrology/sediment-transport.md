@@ -90,6 +90,7 @@ Sediment transport describes the movement of solid particles by flowing water. I
 - Scale effects in physical model studies
 - Climate change impacts on sediment yield
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

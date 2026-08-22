@@ -5,82 +5,82 @@
 ### For Civil Engineering Roles (Core)
 
 **Header**
-```
+```text
 [Your Name]
 [Phone Number] | [Email Address] | [LinkedIn/GitHub/Portfolio]
 [City, State] | [Optional: Personal website/website]
-```
+```text
 
 **Education**
-```
+```text
 Degree Name, Major | University Name, City, State
 Month Year – Month Year (Expected/Passed)
 - CGPA: X.XX/10.00 (or equivalent)
 - Relevant coursework: [List 3-5 key subjects]
 - Academic achievements: [Awards, scholarships, distinctions]
-```
+```text
 
 **Technical Skills**
-```
+```text
 Programming Languages: Python, MATLAB, C++, SQL
 Software: AutoCAD, Revit, ETABS, SAP2000, OpenFOAM, HEC-RAS
 Tools: Git, LaTeX, MS Office (Advanced Excel, Power BI)
-```
+```text
 
 **Experience**
-```
+```text
 Job Title | Company Name, City, State
 Month Year – Month Year
 - Led/Responsible for [action] which resulted in [quantified outcome]
 - Developed/Implemented [project/tool] using [technology] for [purpose]
 - [Action verb] + [what you did] + [result/achievement]
-```
+```text
 
 **Projects**
-```
+```text
 Project Title | Technologies Used
 - Brief 1-2 line description of the problem and solution
 - Key contribution: [specific technical work]
 - Outcome: [quantified if possible]
-```
+```text
 
 **Certifications & Training**
-```
+```text
 [Certification Name], [Issuing Organization], [Date]
 - Relevant coursework/skills gained
-```
+```text
 
 **Achievements & Activities**
-```
+```text
 [Award/Recognition Name], [Organization], [Year]
 - Brief description of significance
-```
+```text
 
 ### For Analytics/Tech Roles (Transition)
 
 **Header** (same as above)
 
 **Education**
-```
+```text
 Same structure, emphasize relevant coursework:
 - Data Structures & Algorithms
 - Probability & Statistics
 - Machine Learning
 - Database Systems
 - Numerical Methods
-```
+```text
 
 **Technical Skills**
-```
+```text
 Languages: Python, R, SQL, JavaScript
 Libraries/Frameworks: NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow
 Analytics Tools: Excel (Advanced), Tableau, Power BI
 Software: MATLAB, Git, LaTeX, Jupyter Notebook
 Civil Engineering Tools: AutoCAD, Revit, ETABS, SAP2000, OpenFOAM (relevant for HWRE transition)
-```
+```text
 
 **Projects**
-```
+```text
 Prioritize analytics/data projects. Include 1-2 civil engineering projects with data/analytics components.
 Example format:
 
@@ -88,24 +88,24 @@ Project Title | Python, Pandas, Scikit-learn
 - Problem: [Brief description of business/engineering problem]
 - Solution: [Approached with data analysis/ML techniques]
 - Result: [Quantified impact or key finding]
-```
+```text
 
 **Experience**
-```
+```text
 Use same structure but emphasize:
 - Data-driven decision making
 - Process improvement with metrics
 - Cross-functional collaboration
 - Technical problem-solving
-```
+```text
 
 **Internships**
-```
+```text
 Include any research, internships, or collaborations that involved:
 - Data analysis or modeling
 - Programming or automation
 - Technical writing or documentation
-```
+```text
 
 ## Resume Writing Tips
 
@@ -139,7 +139,7 @@ Include any research, internships, or collaborations that involved:
 ## CV Structure (Academia/Further Studies)
 
 ### Extended Education History
-```
+```text
 Detailed CV with:
 1. Personal Statement/Research Interests
 2. Full Education History (with thesis titles)
@@ -150,7 +150,7 @@ Detailed CV with:
 7. Awards & Honors
 8. Professional Memberships
 9. References (with details)
-```
+```text
 
 ## LinkedIn Profile Optimization
 
@@ -209,6 +209,7 @@ Before submitting:
 
 ---
 
-## Sources
-- `F:\2k26Placement\campus-placement-prep\README.md` (Resume section)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
+## References
+
+* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep) — Resume section
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Resume audit and formatting guidance

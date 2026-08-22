@@ -60,10 +60,10 @@ In PSU and core-engineering interviews, emphasize:
 - Client or consultant communication during project delivery
 - Mentoring junior team members during field campaigns or lab work
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (STAR method, teamwork sample questions)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (Team First Mentality section, assessing answers)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (Teamwork behavioral category, Example 1)
-- `F:\2k26Placement\awesome-interview-questions\README.md` (Team Player and Behavioral sections)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (core company profiles and interview focus areas)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR method, teamwork sample questions
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Team First Mentality section, assessing answers
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Teamwork behavioral category, Example 1
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Team Player and Behavioral sections
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Core company profiles and interview focus areas

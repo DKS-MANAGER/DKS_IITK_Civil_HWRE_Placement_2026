@@ -101,7 +101,7 @@ Two cards are drawn together from 52 cards. What is the probability that both ar
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Probability.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Probability\Probability-1`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Probability
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Probability practice problems

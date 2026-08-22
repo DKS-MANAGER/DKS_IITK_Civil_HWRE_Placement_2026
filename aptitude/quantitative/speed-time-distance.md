@@ -98,7 +98,7 @@ Two trains of lengths 120 m and 140 m run in opposite directions at 48 km/h and 
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Speed_Time_Distance.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Time, Speed and Distance\`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Speed, time, distance
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems

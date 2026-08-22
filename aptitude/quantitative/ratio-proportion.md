@@ -102,7 +102,7 @@ The ratio of incomes of A and B is $5 : 4$ and the ratio of expenditures is $3 :
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Ratio_Proportion.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Ratio and Proportion\`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Ratio and proportion
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems

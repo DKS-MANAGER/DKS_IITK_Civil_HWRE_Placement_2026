@@ -308,6 +308,7 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md`
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)

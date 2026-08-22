@@ -51,7 +51,7 @@ For Civil/HWRE students targeting analytics, consulting, and tech-adjacent roles
 ### Logical Reasoning
 | Topic | Resource |
 |-------|----------|
-| **Puzzles** | [Aptitude-and-reasoning-100-interview](https://github.com/) | Seating, arrangements, constraints [web:50] |
+| **Puzzles** | [Aptitude-and-reasoning-100-interview](https://github.com/rShearer/behavioral-interview-list-of-questions) | Seating, arrangements, constraints [web:50] |
 | **Graph theory** | Hackerearth tutorials | Graph representation, traversal |
 | **Visual Algo** | [Visualgo](https://visualgo.net/en) | Algorithm visualization |
 
@@ -107,37 +107,30 @@ For Civil/HWRE students targeting analytics, consulting, and tech-adjacent roles
 ## Preparation Templates
 
 ### SQL Practice Template
-```
--- Topic: [e.g., JOINs, Aggregation]
--- Difficulty: [Easy/Medium/Hard]
--- Problem: [Brief description]
--- Solution:
--- [Your SQL query]
-
--- Key learnings:
--- 1. [Point 1]
--- 2. [Point 2]
+```sql
+-- Topic: JOINs + Aggregation
+-- Problem: Find the top 3 customers by total order value
+SELECT c.customer_id, c.name, SUM(o.amount) AS total_spend
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id, c.name
+ORDER BY total_spend DESC
+LIMIT 3;
 ```
 
 ### Python Practice Template
 ```python
-# Problem: [Brief description]
-# Tags: [e.g., Pandas, NumPy, ML]
-
+# Problem: Group sales by region and compute mean/std
 import pandas as pd
-import numpy as np
 
-# Solution approach:
-# 1. [Step 1]
-# 2. [Step 2]
-
-# Key learnings:
-# - [Point 1]
+df = pd.read_csv('sales.csv')
+summary = df.groupby('region')['amount'].agg(['mean', 'std', 'count'])
+print(summary.sort_values('mean', ascending=False))
 ```
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Non-Core Preparation section)
-- `F:\2k26Placement\Civil_Placement_IITK\placement_data.csv`
-- `F:\2k26Placement\campus-placement-prep\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Non-Core Preparation section
+* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep) — Placement prep resources

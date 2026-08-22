@@ -45,12 +45,13 @@ Choose 2-3 projects that demonstrate:
 
 ### Sample Structure
 
-```
+```text
 "My final year project focused on [problem]. I was responsible for [role].
 We used [method/tool] to achieve [result]. The main challenge was [challenge],
 which we solved by [solution]. If I were to do it again, I would [improvement]."
 ```
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Technical Stack and project discussion guidance)
-- `F:\2k26Placement\campus-placement-prep\README.md` (resume and project preparation tips)
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Technical Stack and project discussion guidance
+* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep) — Resume and project preparation tips

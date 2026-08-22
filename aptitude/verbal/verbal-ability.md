@@ -109,11 +109,6 @@ A) To reject outright. B) To accept completely. C) To view with skepticism. D) T
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Grammar_Error_Spotting.md`
-- `F:\2k26Placement\Aptitude\Para_Jumbles.md`
-- `F:\2k26Placement\Aptitude\Reading_Comprehension.md`
-- `F:\2k26Placement\Aptitude\Idioms_Phrases.md`
-- `F:\2k26Placement\Aptitude\Vocabulary.md`
-- `F:\2k26Placement\Aptitude\Sentence_Completion.md`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Verbal ability topic sources

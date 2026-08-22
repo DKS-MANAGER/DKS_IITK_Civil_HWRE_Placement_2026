@@ -5,19 +5,19 @@
 ### Fluid Mechanics & CFD
 | Tool | Use Case | Learning Resource |
 |------|----------|-------------------|
-| **OpenFOAM** | CFD, RANS/LES, multiphase, scour, sediment transport | `/cfd-cases` |
-| **ParaView** | 3D visualization, slice/clip/streamline, post-processing | `/viz-scripts` |
-| **MATLAB** | Numerical methods, matrix FEM, signal/data processing | `/matlab-scripts` |
+| **OpenFOAM** | CFD, RANS/LES, multiphase, scour, sediment transport | [OpenFOAM docs](https://openfoam.org/) |
+| **ParaView** | 3D visualization, slice/clip/streamline, post-processing | [ParaView docs](https://www.paraview.org/) |
+| **MATLAB** | Numerical methods, matrix FEM, signal/data processing | [MATLAB docs](https://www.mathworks.com/help/matlab/) |
 | **FLOW-3D** | Multiphase flow, free-surface modeling | Commercial license |
 | **ANSYS Fluent** | CFD simulation, turbulence modeling | Academic license |
 
 ### Structural Analysis
 | Tool | Use Case | Learning Resource |
 |------|----------|-------------------|
-| **SAP2000** | General structural analysis and design | CSI tutorials |
-| **ETABS** | Building analysis and design | CSI tutorials |
-| **STAAD.Pro** | Structural analysis and design | Bentley Learn |
-| **RFEM** | 3D finite element analysis | Dlubal tutorials |
+| **SAP2000** | General structural analysis and design | [CSI tutorials](https://www.csiamerica.com/products/sap2000) |
+| **ETABS** | Building analysis and design | [CSI tutorials](https://www.csiamerica.com/products/etabs) |
+| **STAAD.Pro** | Structural analysis and design | [Bentley Learn](https://www.bentley.com/software/staad/) |
+| **RFEM** | 3D finite element analysis | [Dlubal tutorials](https://www.dlubal.com/en-US/products/structural-analysis-software/rfem) |
 | **OpenSees** | Nonlinear structural simulation | [OpenSees](https://opensees.berkeley.edu/) |
 | **CalculiX** | Free FEA software (Abaqus-compatible) | [CalculiX](https://www.calculix.de/) |
 
@@ -33,14 +33,14 @@
 | **Settle3** | 3D settlement and consolidation analysis |
 
 ### Water Resources
-| Tool | Use Case |
-|------|----------|
-| **HEC-RAS** | River hydraulic modeling |
-| **HEC-HMS** | Hydrologic modeling |
-| **EPA SWMM** | Urban drainage modeling |
-| **MODFLOW 6** | Groundwater flow modeling |
-| **InfoWorks ICM** | Integrated catchment modeling |
-| **MIKE FLOOD** | Flood modeling |
+| Tool | Use Case | Documentation |
+|------|----------|---------------|
+| **HEC-RAS** | River hydraulic modeling | [USACE docs](https://www.hec.usace.army.mil/) |
+| **HEC-HMS** | Hydrologic modeling | [USACE docs](https://www.hec.usace.army.mil/) |
+| **EPA SWMM** | Urban drainage modeling | [EPA docs](https://www.epa.gov/water-research/storm-water-management-model-swmm) |
+| **MODFLOW 6** | Groundwater flow modeling | [USGS docs](https://www.usgs.gov/mission-areas/water-resources/science/modflow-and-related-programs) |
+| **InfoWorks ICM** | Integrated catchment modeling | [Innoyze docs](https://www.innovyze.com/en/infoworks-icm) |
+| **MIKE FLOOD** | Flood modeling | [DHI docs](https://www.mikepoweredbydhi.com/products/mike-flood) |
 
 ### Transportation Engineering
 | Tool | Use Case |
@@ -53,15 +53,15 @@
 | **HCS** | Highway Capacity Manual analysis |
 
 ### GIS & Surveying
-| Tool | Use Case |
-|------|----------|
-| **QGIS** | Open-source GIS, raster/vector workflows |
-| **ArcGIS** | Professional GIS software |
-| **AutoCAD Civil 3D** | Civil engineering design and documentation |
-| **Trimble Business Center** | Survey CAD, GNSS, photogrammetry |
-| **CloudCompare** | Point cloud and mesh processing |
-| **Agisoft Metashape** | Photogrammetry, 3D reconstruction |
-| **Pix4D** | Drone mapping software |
+| Tool | Use Case | Documentation |
+|------|----------|---------------|
+| **QGIS** | Open-source GIS, raster/vector workflows | [qgis.org](https://qgis.org/) |
+| **ArcGIS** | Professional GIS software | [Esri](https://www.esri.com/en-us/arcgis/about-arcgis/overview) |
+| **AutoCAD Civil 3D** | Civil engineering design and documentation | [Autodesk](https://www.autodesk.com/products/autocad-civil-3d/overview) |
+| **Trimble Business Center** | Survey CAD, GNSS, photogrammetry | [Trimble](https://geospatial.trimble.com/en/products/trimble-business-center) |
+| **CloudCompare** | Point cloud and mesh processing | [cloudcompare.org](https://www.cloudcompare.org/) |
+| **Agisoft Metashape** | Photogrammetry, 3D reconstruction | [agisoft.com](https://www.agisoft.com/) |
+| **Pix4D** | Drone mapping software | [pix4d.com](https://www.pix4d.com/) |
 
 ### Drafting & 3D Modeling
 | Tool | Use Case |
@@ -88,28 +88,28 @@
 ## Programming Languages & Libraries
 
 ### Python
-| Tool | Use Case |
-|------|----------|
-| **NumPy** | Numerical arrays, vector/matrix operations |
-| **SciPy** | Scientific computing, optimization, numerical methods |
-| **Pandas** | Tabular data analysis, data cleaning |
-| **Matplotlib** | Plotting, visualization |
-| **SymPy** | Symbolic algebra, equation solving |
-| **OpenSeesPy** | Python interface for OpenSees FEA |
-| **PyNite** | 3D frame analysis |
-| **GeoPandas** | Geospatial data analysis |
-| **Shapely** | Planar geometry operations |
-| **Rasterio** | Raster data processing |
-| **PySAL** | Spatial analysis and geostatistics |
+| Tool | Use Case | Documentation |
+|------|----------|---------------|
+| **NumPy** | Numerical arrays, vector/matrix operations | [numpy.org](https://numpy.org/) |
+| **SciPy** | Scientific computing, optimization, numerical methods | [scipy.org](https://scipy.org/) |
+| **Pandas** | Tabular data analysis, data cleaning | [pandas.pydata.org](https://pandas.pydata.org/) |
+| **Matplotlib** | Plotting, visualization | [matplotlib.org](https://matplotlib.org/) |
+| **SymPy** | Symbolic algebra, equation solving | [sympy.org](https://www.sympy.org/) |
+| **OpenSeesPy** | Python interface for OpenSees FEA | [OpenSeesPy docs](https://openseespydoc.readthedocs.io/) |
+| **PyNite** | 3D frame analysis | [pynite.readthedocs.io](https://pynite.readthedocs.io/) |
+| **GeoPandas** | Geospatial data analysis | [geopandas.org](https://geopandas.org/) |
+| **Shapely** | Planar geometry operations | [shapely.readthedocs.io](https://shapely.readthedocs.io/) |
+| **Rasterio** | Raster data processing | [rasterio.readthedocs.io](https://rasterio.readthedocs.io/) |
+| **PySAL** | Spatial analysis and geostatistics | [pysal.org](https://pysal.org/) |
 
 ### JavaScript
-| Tool | Use Case |
-|------|----------|
-| **Leaflet** | Interactive web maps |
-| **OpenLayers** | Web mapping, geospatial editing |
-| **D3.js** | Interactive data visualization |
-| **Three.js** | 3D graphics in browser |
-| **CesiumJS** | 3D geospatial visualization |
+| Tool | Use Case | Documentation |
+|------|----------|---------------|
+| **Leaflet** | Interactive web maps | [leafletjs.com](https://leafletjs.com/) |
+| **OpenLayers** | Web mapping, geospatial editing | [openlayers.org](https://openlayers.org/) |
+| **D3.js** | Interactive data visualization | [d3js.org](https://d3js.org/) |
+| **Three.js** | 3D graphics in browser | [threejs.org](https://threejs.org/) |
+| **CesiumJS** | 3D geospatial visualization | [cesium.com](https://cesium.com/cesiumjs/) |
 
 ## Minimum Working Proficiency
 
@@ -149,6 +149,7 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (Technical Stack & Minimum Proficiency sections)
-- `F:\2k26Placement\awesome-civil-engineering\data\resources.json`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Technical Stack & Minimum Proficiency sections
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering) — Programming libraries and tools

@@ -36,5 +36,6 @@
 | **OSMnx** | Python package for street network analysis from OpenStreetMap |
 | **Highway Capacity Software** | Highway Capacity Manual analysis |
 
-## Sources
-- `F:\2k26Placement\awesome-civil-engineering\README.md` (Transportation Engineering section)
+## References
+
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering) — Transportation Engineering section

@@ -181,11 +181,7 @@ The placement preparation roadmap spans five phases from August to December 2026
 - IS code clause summaries for rapid recall
 - More aptitude sets across all topics
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\Aptitude-For-Placements\README.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Time, Speed and Distance\Time, Speed and Distance-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Percentage\Percentage-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Time and Work\Time and Work-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Ratio and Proportion\Ratio and Proportion-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Probability\Probability-1`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements)

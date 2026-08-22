@@ -99,8 +99,7 @@ Find the number of trailing zeroes in $100!$.
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Number_System.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Number System\Number System-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Number System\Number System-2`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Number system
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Number system practice problems

@@ -39,5 +39,6 @@
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md` (Books section, topic-wise links)
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — Books section, topic-wise links

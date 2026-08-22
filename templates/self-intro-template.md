@@ -19,7 +19,7 @@ Interviewers use your self-introduction to assess your **communication clarity**
 
 ## Fill-in-the-Blank Template
 
-```
+```text
 "I'm currently [CURRENT STATUS — e.g. a final-year M.Tech Civil student / a graduate engineer at XYZ] where I focus on [KEY RESPONSIBILITY OR PROJECT]. 
 
 Previously, I [BACKGROUND — e.g. completed my B.Tech in Civil Engineering at ABC with a focus on Water Resources; worked on a project involving <TOPIC> using <TOOL/METHOD>]. This built my experience in [2–3 KEY SKILLS — e.g. hydraulic modelling, Python automation, structural analysis].
@@ -27,14 +27,14 @@ Previously, I [BACKGROUND — e.g. completed my B.Tech in Civil Engineering at A
 I'm excited about [ROLE/COMPANY] because [SPECIFIC REASON — e.g. your focus on sustainable infrastructure / water resource planning aligns with my interest in <X>]. I'm particularly drawn to [COMPANY INITIATIVE/PROJECT], and I'm hoping to contribute through [CONTRIBUTION — e.g. numerical modelling, design reviews, data analysis].
 
 Looking ahead, I'd like to grow in [CAREER GOAL] while helping the team achieve [TEAM/OFFER VALUE]."
-```
+```text
 
 ---
 
 ## Customised Variants
 
 ### A. For Core Civil / PSU Roles (BPCL, EIL, L&T, NHPC)
-```
+```text
 "I'm currently a final-year M.Tech student specialising in [Water Resources / Geotechnical / Structures] at IIT Kanpur, where I'm working on [THESIS OR PROJECT] involving [SOFTWARE/TOOL].
 
 My undergraduate foundation was in Civil Engineering, with key coursework in [LIST 2-3: e.g. Fluid Mechanics, RCC Design, Geotechnical Engineering]. I also cleared GATE with [SCORE/QUALIFIER STATUS] and have interned with [COMPANY] where I worked on [SITE/PROJECT EXPERIENCE].
@@ -42,10 +42,10 @@ My undergraduate foundation was in Civil Engineering, with key coursework in [LI
 I'm drawn to [COMPANY] because [REFERENCE TO INFRA/CONSULTING/PUBLIC-SECTOR MISSION — e.g. your infra modernization efforts / commitment to nation-building]. I'm eager to apply my technical foundation in [DOMAIN] and learn on [SPECIFIC PROJECT TYPE].
 
 In the longer term, I aim to build domain depth in [e.g. water infrastructure / structural design] and contribute to [BIGGER OUTCOME — e.g. large-scale public works / resilient design]."
-```
+```text
 
 ### B. For Core Design / Consulting Roles (L&T, AECOM, Tata Projects)
-```
+```text
 "Currently, I'm [role] at [organisation], working on [project type — e.g. canal design, finite element modelling]. 
 
 I completed my B.Tech/M.Tech in Civil/HWRE at [institute], where I built a strong base in [LIST: e.g. hydraulics, geotech, structural analysis] and hands-on experience with [SOFTWARE — e.g. AutoCAD, STAAD, HEC-RAS, MATLAB]. One project I'm proud of is [BRIEF PROJECT + OUTCOME + METRIC].
@@ -53,10 +53,10 @@ I completed my B.Tech/M.Tech in Civil/HWRE at [institute], where I built a stron
 I'm interested in [COMPANY] because of [REASON — e.g. your integrated engineering approach / flagship infrastructure projects]. I can bring [SKILL] to [TEAM/PROJECT], and I'm looking to deepen my expertise in [DOMAIN — e.g. design & construction integration].
 
 My goal is to become a competent design engineer leading [type of projects] while contributing to [value — e.g. constructability, cost optimisation]."
-```
+```text
 
 ### C. For Analytics / Tech Transition Roles (Accenture, Abacus.AI, Merilytics)
-```
+```text
 "I'm currently transitioning from civil engineering to analytics/data science. My civil/HWRE training gave me a strong foundation in [NUMERICAL/LOGICAL SKILLS — e.g. numerical methods, fluid mechanics, statistical analysis] and I've since built skills in [PYTHON LIBRARIES — e.g. Python (NumPy, Pandas, scipy), SQL, basic ML].
 
 During my M.Tech at IIT Kanpur, I [DATA-RELATED PROJECT — e.g. used Python to analyse open-channel flow data / automated result post-processing], which convinced me I want to move into [ROLE — e.g. data analysis, ML engineering]. A recent project: [BRIEF DATA PROJECT + METRIC].
@@ -64,7 +64,7 @@ During my M.Tech at IIT Kanpur, I [DATA-RELATED PROJECT — e.g. used Python to 
 I'm excited about [COMPANY] because [REASON — e.g. your AI-first platform / data-driven decision making]. I bring an engineering problem-solving mindset and domain knowledge that lets me [CONTRIBUTION — e.g. bridge domain context with analytics, translate business problems into modelling tasks].
 
 I'm looking to contribute rigorously analysed insights to [TEAM/OFFER] while growing as a data professional."
-```
+```text
 
 ---
 
@@ -97,8 +97,9 @@ I'm looking to contribute rigorously analysed insights to [TEAM/OFFER] while gro
 
 ---
 
-## Sources
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (STAR method, "Tell me about yourself" sample, general tips)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (present-past-future framework, company/role alignment, good vs bad answers)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (company-track context: PSUs, core design, analytics; IITK placement process)
-- `F:\2k26Placement\DKS_IITK_Civil_HWRE_Placement_2026\behavioral\behavioral-interview-guide.md`
+## References
+
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR method, "Tell me about yourself" sample, general tips
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Present-past-future framework, company/role alignment, good vs bad answers
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company-track context: PSUs, core design, analytics; IITK placement process
+* [behavioral-interview-guide](behavioral/behavioral-interview-guide.md) — Company-specific question types

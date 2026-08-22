@@ -55,4 +55,4 @@ Exact coding problem sets, panel composition, and post-2020 process changes are 
 
 ## Sources
 
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Tech Mahindra.md`
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Tech Mahindra interview experience

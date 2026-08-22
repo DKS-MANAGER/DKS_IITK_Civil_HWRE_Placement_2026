@@ -40,9 +40,9 @@ Draft a concise narrative for each major project or role. Use the table below to
 - Tailor the story to the company and position; a PSU interview may emphasize reliability and field-readiness, while an analytics interview should highlight coding and business impact.
 - Practice aloud and record yourself to check pacing and clarity.
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (STAR framework, self-intro sample response)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (interview process and assessment criteria)
-- `F:\2k26Placement\interview-handbook-2026\README.md` (Present-Past-Future framework, example 11)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md` (role and company context for Civil/HWRE profiles)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR framework, self-intro sample response
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Interview process and assessment criteria
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Present-Past-Future framework, example 11
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Role and company context for Civil/HWRE profiles

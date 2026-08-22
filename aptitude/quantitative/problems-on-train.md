@@ -89,9 +89,7 @@ A train running at 60 km/h crosses a 200 m platform in 27 seconds. What is the t
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Speed_Time_Distance.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Problems on Train\Problem on Train-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Problems on Train\Problem on Train-2`
-- `F:\2k26Placement\Aptitude-For-Placements\Problems on Train\Problem on Train-3`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Speed, time, distance
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Train problem practice

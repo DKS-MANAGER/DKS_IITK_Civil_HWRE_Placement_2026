@@ -222,15 +222,6 @@ Follow-up interview rounds (if any), HR specifics, and exact coding problem patt
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Tech Mahindra.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Schneider Electric India Pvt Ltd.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Musigma.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Johnson controls.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Expeditor.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Hiremi.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Darwin box.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Deltax.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\CEI American.md`
-- `F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\README.md`
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Company-wise interview experiences and transcripts

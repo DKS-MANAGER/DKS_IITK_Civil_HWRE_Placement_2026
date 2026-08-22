@@ -23,4 +23,4 @@ Expeditors conducts technical interviews focusing on Java backend (Spring Boot) 
 - Understand Spring Boot and Angular basics if applying for full-stack roles
 
 ## Sources
-- F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\Expeditor.md
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Expeditor interview experience

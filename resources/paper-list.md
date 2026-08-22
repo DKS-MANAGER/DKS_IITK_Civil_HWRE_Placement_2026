@@ -35,5 +35,6 @@ Solving previous year papers is one of the most valuable steps in GATE preparati
 
 ---
 
-## Sources
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md` (Previous Year Question Papers section)
+## References
+
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — Previous Year Question Papers section

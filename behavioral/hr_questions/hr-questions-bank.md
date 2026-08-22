@@ -49,7 +49,6 @@ Categorize questions by theme and prepare 2–3 stories per theme. Each story sh
 - Tell me about a situation where you felt demotivated. How did you recover?
 
 ### Planning & Organizing
-- How do you manage your workload? Give an example of adapting your plan.
 - Would you do anything differently if the same situation arose again?
 - How do you prioritize tasks or projects?
 
@@ -97,8 +96,8 @@ Categorize questions by theme and prepare 2–3 stories per theme. Each story sh
 - When does a developer's responsibility for maintaining code end?
 - What was the last technology or framework you selected and why?
 
-## Sources
+## References
 
-- `F:\2k26Placement\awesome-behavioral-interviews\README.md` (Behavioral Interview Preparation Grid, sample questions)
-- `F:\2k26Placement\behavioral-interview-list-of-questions\README.md` (Core Values and Behaviors categories)
-- `F:\2k26Placement\awesome-interview-questions\README.md` (Behavioral, Cultural fit, Emotional Intelligence, Problem-solving sections)
+* [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — Preparation grid & sample questions
+* [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — Core values and competency categories
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Cultural fit and problem-solving prompts

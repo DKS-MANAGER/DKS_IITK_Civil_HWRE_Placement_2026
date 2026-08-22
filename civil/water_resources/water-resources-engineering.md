@@ -84,7 +84,8 @@ Water resources engineering encompasses the planning, development, distribution,
 - Hydropower potential assessment and turbine selection
 - Remote sensing and GIS applications in water resources
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)

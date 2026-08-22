@@ -110,11 +110,6 @@ Decide which conclusions follow.
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Blood_Relations.md`
-- `F:\2k26Placement\Aptitude\Coding_Decoding.md`
-- `F:\2k26Placement\Aptitude\Direction_Sense.md`
-- `F:\2k26Placement\Aptitude\Seating_Arrangement.md`
-- `F:\2k26Placement\Aptitude\Puzzles_Scheduling.md`
-- `F:\2k26Placement\Aptitude\Syllogism.md`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Logical reasoning topic sources

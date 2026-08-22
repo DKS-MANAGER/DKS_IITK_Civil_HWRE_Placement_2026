@@ -31,4 +31,4 @@ CEI America's selection process consists of three rounds:
 - Practice SQL queries and basic Java/C++ programming
 
 ## Sources
-- F:\2k26Placement\Placement_Preparation\INTERVIEW EXPERIENCES\CEI American.md
+* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — CEI America interview experience

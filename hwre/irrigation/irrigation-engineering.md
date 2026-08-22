@@ -93,6 +93,7 @@ Irrigation engineering deals with the planning, design, and management of water 
 - Water distribution rules and rotational irrigation schedules
 - Lift irrigation and pump selection for agriculture
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\GATE_Civil_Study_Material_2027.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)

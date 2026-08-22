@@ -83,9 +83,7 @@ A and B start a business with Rs. 20,000 and Rs. 30,000 respectively. After 6 mo
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Ratio_Proportion.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Partnership\Partnership-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Partnership\Partnership-2`
-- `F:\2k26Placement\Aptitude-For-Placements\Partnership\Partnership-3`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Ratio and proportion
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Partnership practice problems

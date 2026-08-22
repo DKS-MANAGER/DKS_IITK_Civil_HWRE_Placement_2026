@@ -158,6 +158,6 @@ This document summarizes placement trends based on the IITK Civil/HWRE placement
 
 ---
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\placement_data.csv` (516 rows of company data)
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Placement data CSV and company profiles

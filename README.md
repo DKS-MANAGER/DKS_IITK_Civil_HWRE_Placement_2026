@@ -16,9 +16,11 @@ Targeted preparation hub for core engineering, numerical modeling/CFD, non-core 
 
 ## Preparation Roadmap & Timeline
 
-- **Phase 1 (Aug–Sep):** Core theory revision (Fluids, OCF, Hydrology, Structures) + GATE PYQs ([`gate/practice/`](gate/practice/)).
-- **Phase 2 (Oct–Nov):** Numerical cases ([`cfd-cases/`](cfd-cases/)), Non-Core SQL/Python prep ([`resources/non-core-prep.md`](resources/non-core-prep.md)), Aptitude speed tests ([`aptitude/`](aptitude/)).
-- **Phase 3 (Dec):** Company-specific interview transcripts ([`interviews/company_specific/`](interviews/company_specific/)) and Mock rounds.
+- **Phase 1 (Aug–Sep):** Core theory revision + GATE PYQs
+- **Phase 2 (Oct–Nov):** Non-Core SQL/Python prep, Aptitude speed tests
+- **Phase 3 (Dec):** Company-specific interview prep and Mock rounds
+
+See [placement-roadmap.md](placement-roadmap.md) for the detailed phased timeline.
 
 ---
 
@@ -26,7 +28,7 @@ Targeted preparation hub for core engineering, numerical modeling/CFD, non-core 
 
 | Domain | Key Topics | Direct Links |
 | :--- | :--- | :--- |
-| **Hydraulics & CFD** | Boundary layer, pipe networks, turbulence modeling, OpenFOAM setup | [`civil/hydraulics/`](civil/hydraulics/), [`cfd-cases/`](cfd-cases/) |
+| **Hydraulics & CFD** | Boundary layer, pipe networks, turbulence modeling, OpenFOAM setup | [`civil/hydraulics/`](civil/hydraulics/) |
 | **Open Channel & WR** | GVF/RVF, jumps, flood routing, reservoir operations | [`civil/open_channel_flow/`](civil/open_channel_flow/), [`civil/hydrology/`](civil/hydrology/) |
 | **Water & Wastewater** | Treatment design, distribution networks, sewer modeling | [`hwre/water_supply/`](hwre/water_supply/), [`hwre/wastewater/`](hwre/wastewater/) |
 | **Structures & Geo** | SOM, RCC, soil mechanics, bearing capacity | [`civil/structures/`](civil/structures/), [`civil/geotechnical/`](civil/geotechnical/) |
@@ -100,4 +102,4 @@ This repository synthesizes content from the following source repositories:
 | [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) | GATE Civil notes, formulas, PYQs, revision summaries |
 | [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) | Behavioral, technical, curveball, and end-of-interview questions |
 
-> **Note:** Local source clones are stored outside this repository at `F:\2k26Placement\`. All content has been paraphrased and synthesized; see individual note `## Sources` sections for granular attribution.
+> **Note:** Content has been paraphrased and synthesized from public repositories; see individual `## References` sections for source attribution.

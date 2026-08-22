@@ -25,7 +25,9 @@ Quantitative aptitude measures your numerical reasoning, problem-solving speed, 
 - **Averages & Mixtures**: Arithmetic mean, weighted average, alligation rule, repeated dilution.
 - **Permutations & Combinations**: Factorial, $nPr$ and $nCr$, multiplication/addition principles, circular permutations.
 - **Probability**: Sample space, events, mutually exclusive and independent events, addition and multiplication theorems.
+- **Data Interpretation**: Tables, caselets, bar/line graphs, pie charts, data sufficiency.
 - **Mensuration**: 2D and 3D area, perimeter, volume, surface area for standard geometric shapes.
+- **Clock & Calendar**: Angle between hands, day of week, leap year rules.
 
 ---
 
@@ -57,22 +59,11 @@ Quantitative aptitude measures your numerical reasoning, problem-solving speed, 
 
 ## Further expansion needed
 
-- Detailed coverage of mensuration formulas for 2D/3D shapes.
-- Advanced clock/calendar problems.
 - Complete HCF/LCM and divisibility rule reference.
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\README.md`
-- `F:\2k26Placement\Aptitude\Percentages.md`
-- `F:\2k26Placement\Aptitude\Time_Work.md`
-- `F:\2k26Placement\Aptitude\Speed_Time_Distance.md`
-- `F:\2k26Placement\Aptitude\Probability.md`
-- `F:\2k26Placement\Aptitude\Permutations_Combinations.md`
-- `F:\2k26Placement\Aptitude\Profit_Loss_Discount.md`
-- `F:\2k26Placement\Aptitude\Ratio_Proportion.md`
-- `F:\2k26Placement\Aptitude\Number_System.md`
-- `F:\2k26Placement\Aptitude\Averages_Mixtures.md`
-- `F:\2k26Placement\Aptitude\Problems_on_Ages.md`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Quantitative aptitude fundamentals
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Placement-focused quant practice

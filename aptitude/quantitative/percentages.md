@@ -95,8 +95,7 @@ Due to a 20% reduction in the price of sugar, a person buys 5 kg more sugar for 
 
 ---
 
-## Sources
+## References
 
-- `F:\2k26Placement\Aptitude\Percentages.md`
-- `F:\2k26Placement\Aptitude-For-Placements\Percentage\Percentage-1`
-- `F:\2k26Placement\Aptitude-For-Placements\Percentage\Percentage-2`
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Percentages topic
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Percentage practice problems

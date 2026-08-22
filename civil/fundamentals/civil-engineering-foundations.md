@@ -81,6 +81,7 @@ Key platforms used in civil engineering practice include AutoCAD, Civil 3D, Revi
 - Code-level design checks for IS codes
 - Detailed numerical examples for each sub-topic
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

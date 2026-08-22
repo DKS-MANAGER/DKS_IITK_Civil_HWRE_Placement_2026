@@ -62,12 +62,27 @@ Expect questions on:
 - Pump and turbine selection criteria
 - Drag reduction and turbulence suppression techniques
 
+## Worked Examples
+
+### Example 1: Pipe Network (Hardy Cross)
+Given a simple loop with pipes $L_1=500$ m, $D_1=0.3$ m, $L_2=600$ m, $D_2=0.25$ m, initial guess $Q_1=0.1$ m³/s, $Q_2=-0.1$ m³/s, $f=0.02$:
+1. Compute head loss $h_f = f \frac{L}{D} \frac{Q^2}{2gA^2}$ for each pipe
+2. Compute correction $\Delta Q = -\frac{\sum h_f}{\sum \frac{\partial h_f}{\partial Q}}$
+3. Iterate until $\sum h_f < 0.01$ m
+
+### Example 2: Bernoulli with Loss
+Water flows from reservoir ($H=10$ m) through a pipe ($L=100$ m, $D=0.2$ m, $f=0.03$) to atmosphere. Find discharge:
+1. Total head = 10 m
+2. $h_f = f \frac{L}{D} \frac{v^2}{2g}$
+3. $10 = \frac{v^2}{2g} + h_f$ → solve quadratic for $v$
+
 ## Further expansion needed
 - Detailed derivations of governing equations
 - Numerical methods for pipe network solving
 - Advanced turbomachinery theory
 - Computational fluid dynamics discretization schemes
 
-## Sources
-- `F:\2k26Placement\Civil_Placement_IITK\README.md`
-- `F:\2k26Placement\awesome-civil-engineering\README.md`
+## References
+
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
