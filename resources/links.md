@@ -192,19 +192,19 @@
 
 | Need | Go To |
 |------|-------|
-| Quick formula lookup | [`gate/formulas/gate-civil-formulas.md`](../gate/formulas/gate-civil-formulas.md) |
-| Rapid revision | [`gate/revision_notes/gate-civil-revision.md`](../gate/revision_notes/gate-civil-revision.md) |
-| Practice problems | [`gate/practice/gate-civil-practice.md`](../gate/practice/gate-civil-practice.md) |
-| Aptitude shortcuts | [`aptitude/shortcuts/aptitude-shortcuts.md`](../aptitude/shortcuts/aptitude-shortcuts.md) |
-| Behavioral STAR | [`behavioral/behavioral-interview-guide.md`](../behavioral/behavioral-interview-guide.md) |
-| HR questions | [`behavioral/hr_questions/hr-questions-bank.md`](../behavioral/hr_questions/hr-questions-bank.md) |
-| Technical Q&A | [`interviews/technical/technical-interview-bank.md`](../interviews/technical/technical-interview-bank.md) |
-| Mock interviews | [`interviews/mock_questions/mock-interview-questions.md`](../interviews/mock_questions/mock-interview-questions.md) |
-| Project discussion | [`interviews/technical/project-discussion.md`](../interviews/technical/project-discussion.md) |
-| Salary negotiation | [`interviews/hr/hr-interview-guide.md`](../interviews/hr/hr-interview-guide.md) |
-| Resume template | [`templates/resume-template.md`](../templates/resume-template.md) |
-| Self-intro template | [`templates/self-intro-template.md`](../templates/self-intro-template.md) |
-| Study plan | [`templates/study-plan-template.md`](../templates/study-plan-template.md) |
+| Quick formula lookup | [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) |
+| Rapid revision | [`core/gate/revision_notes/gate-civil-revision.md`](../core/gate/revision_notes/gate-civil-revision.md) |
+| Practice problems | [`core/gate/practice/gate-civil-practice.md`](../core/gate/practice/gate-civil-practice.md) |
+| Aptitude shortcuts | [`non-core/aptitude/shortcuts/aptitude-shortcuts.md`](../non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
+| Behavioral STAR | [`prep/behavioral/behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) |
+| HR questions | [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) |
+| Technical Q&A | [`prep/technical/technical-interview-bank.md`](../prep/technical/technical-interview-bank.md) |
+| Mock interviews | [`prep/mock-tests/mock-interview-questions.md`](../prep/mock-tests/mock-interview-questions.md) |
+| Project discussion | [`prep/technical/project-discussion.md`](../prep/technical/project-discussion.md) |
+| Salary negotiation | [`prep/hr/hr-interview-guide.md`](../prep/hr/hr-interview-guide.md) |
+| Resume template | [`prep/templates/resume-template.md`](../prep/templates/resume-template.md) |
+| Self-intro template | [`prep/templates/self-intro-template.md`](../prep/templates/self-intro-template.md) |
+| Study plan | [`prep/templates/study-plan-template.md`](../prep/templates/study-plan-template.md) |
 | Book list | [`resources/book-list.md`](../resources/book-list.md) |
 
 ---

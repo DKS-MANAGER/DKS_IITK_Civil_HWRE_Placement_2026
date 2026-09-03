@@ -23,7 +23,7 @@ The `validate-index` hook runs on every commit and ensures `index/master_index.m
 
 - **Paraphrase, don't copy-paste.** Rewrite source material in your own words.
 - **Cite sources.** Every note must end with a `## Sources` section listing original repositories.
-- **Use templates.** Interview experiences use `templates/interview-answer-template.md`. Resource additions use `templates/study-plan-template.md`.
+- **Use templates.** Interview experiences use `prep/templates/interview-answer-template.md`. Resource additions use `prep/templates/study-plan-template.md`.
 - **Anonymize.** Remove names, roll numbers, company-specific confidential prompts, and panel details.
 - **Validate facts.** Mark resources as ✅ only after self-verification or external source confirmation.
 

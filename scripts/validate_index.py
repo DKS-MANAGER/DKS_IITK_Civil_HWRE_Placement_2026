@@ -49,7 +49,7 @@ def validate_paths(paths):
 
 def generate_inventory():
     inventory = []
-    skip_dirs = {".git", "__pycache__", "node_modules", ".vscode", ".idea"}
+    skip_dirs = {".git", "__pycache__", "node_modules", ".vscode", ".idea", ".roo"}
     for root, dirs, files in os.walk(REPO_ROOT):
         dirs[:] = sorted([d for d in dirs if d not in skip_dirs])
         for f in sorted(files):
@@ -83,7 +83,7 @@ def generate_inventory():
 
 def categorize(rel_path):
     parts = rel_path.parts
-    if parts[0] in {"aptitude", "behavioral", "civil", "gate", "hwre", "interviews", "resources", "templates"}:
+    if parts[0] in {"core", "non-core", "prep", "resources", "index", "scripts"}:
         return parts[0]
     return "root"
 

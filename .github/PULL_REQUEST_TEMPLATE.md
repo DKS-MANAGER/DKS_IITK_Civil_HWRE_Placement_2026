@@ -27,7 +27,7 @@ assignees: ''
 - [ ] I anonymized all identifiers (names, roll numbers, confidential prompts)
 - [ ] I validated facts with external sources (if adding resources)
 - [ ] I checked for duplicates before adding new content
-- [ ] I followed the template conventions in `templates/`
+- [ ] I followed the template conventions in `prep/templates/`
 
 ## Screenshots (optional)
 

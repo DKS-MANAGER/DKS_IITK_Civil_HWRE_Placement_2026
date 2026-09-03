@@ -298,11 +298,11 @@ This file maps each topic to its source files and the final merged destination f
 ## Repeated Topics Across Repos
 | Topic | Repos | Resolution |
 |-------|-------|------------|
-| Behavioral Interview Tips | awesome-behavioral-interviews, behavioral-interview-list-of-questions, interview-handbook-2026 | Merged into behavioral/behavioral-interview-guide.md |
-| Technical Questions | Civil_Placement_IITK, interview-handbook-2026, campus-placement-prep | Merged into interviews/technical/technical-interview-bank.md |
-| Aptitude Basics | Aptitude, Aptitude-For-Placements, campus-placement-prep | Merged into aptitude/quantitative/aptitude-basics.md |
-| Hydraulics/Water Resources | Civil_Placement_IITK, awesome-civil-engineering | Merged into civil/hydraulics/hydraulics.md |
-| Resume Tips | Civil_Placement_IITK, campus-placement-prep | Merged into templates/resume-template.md |
+| Behavioral Interview Tips | awesome-behavioral-interviews, behavioral-interview-list-of-questions, interview-handbook-2026 | Merged into prep/behavioral/behavioral-interview-guide.md |
+| Technical Questions | Civil_Placement_IITK, interview-handbook-2026, campus-placement-prep | Merged into prep/technical/technical-interview-bank.md |
+| Aptitude Basics | Aptitude, Aptitude-For-Placements, campus-placement-prep | Merged into non-core/aptitude/quantitative/aptitude-basics.md |
+| Hydraulics/Water Resources | Civil_Placement_IITK, awesome-civil-engineering | Merged into core/hwre/hydraulics/hydraulics.md |
+| Resume Tips | Civil_Placement_IITK, campus-placement-prep | Merged into prep/templates/resume-template.md |
 
 ## Best Source per Topic
 | Topic | Best Source | Reason |

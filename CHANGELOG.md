@@ -18,13 +18,13 @@ All notable changes to this repository are documented in this file. The format i
 
 ### New Subject Modules
 
-- **Environmental Engineering** — Added comprehensive guide covering water/air pollution, BOD/COD, Streeter-Phelps, treatment trains, EIA, solid waste, climate resilience, and interview Q&A. Path: `civil/environmental/environmental-engineering.md`.
-- **Geoinformatics** — Added comprehensive guide covering GIS, Remote Sensing, GNSS, LiDAR, spatial analysis, image processing, and interview Q&A. Path: `civil/geoinformatics/geoinformatics.md`.
-- **Infrastructure Engineering & Management** — Added comprehensive guide covering CPM/PERT, construction management, cost estimation, PPP finance, urban planning, and interview Q&A. Path: `civil/infrastructure/infrastructure-engineering-management.md`.
+- **Environmental Engineering** — Added comprehensive guide covering water/air pollution, BOD/COD, Streeter-Phelps, treatment trains, EIA, solid waste, climate resilience, and interview Q&A. Path: `core/environmental/environmental-engineering.md`.
+- **Geoinformatics** — Added comprehensive guide covering GIS, Remote Sensing, GNSS, LiDAR, spatial analysis, image processing, and interview Q&A. Path: `core/geoinformatics/geoinformatics.md`.
+- **Infrastructure Engineering & Management** — Added comprehensive guide covering CPM/PERT, construction management, cost estimation, PPP finance, urban planning, and interview Q&A. Path: `core/infrastructure/infrastructure-engineering-management.md`.
 
 ### Enhanced Subject Modules
 
-- **Transportation Engineering** — Replaced software-only v1.0 with full comprehensive v2.0 covering highway design, pavement design, traffic engineering, railway, airport, harbour, and interview Q&A. Path: `civil/transportation/transportation-engineering.md`.
+- **Transportation Engineering** — Replaced software-only v1.0 with full comprehensive v2.0 covering highway design, pavement design, traffic engineering, railway, airport, harbour, and interview Q&A. Path: `core/transportation/transportation-engineering.md`.
 
 ### Command Center & Index Updates
 
@@ -46,7 +46,7 @@ All notable changes to this repository are documented in this file. The format i
 
 - Classified 46 topics by priority (P0/P1) and domain.
 - Resolved duplicate/conflict sources by merging notes from multiple repositories.
-- Assigned destination paths under `civil/`, `hwre/`, `aptitude/`, `behavioral/`, `interviews/`, `gate/`, `templates/`, and `resources/`.
+- Assigned destination paths under `civil/`, `hwre/`, `non-core/aptitude/`, `prep/behavioral/`, `interviews/`, `core/gate/`, `prep/templates/`, and `resources/`.
 
 ### Indexing
 
