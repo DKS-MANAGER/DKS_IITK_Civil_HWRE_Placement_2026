@@ -116,7 +116,7 @@ Use Fable mode for any coding task that requires high reliability: feature imple
 
 | Category | Files | Completed | % | Status |
 |----------|-------|-----------|---|--------|
-| 🏗️ Core Civil | 11 | ___ | __% | ⬜ |
+| 🏗️ Core Civil | 14 | ___ | __% | ⬜ |
 | 💧 HWRE | 7 | ___ | __% | ⬜ |
 | 🧮 Aptitude | 14 | ___ | __% | ⬜ |
 | 🎤 Behavioral | 6 | ___ | __% | ⬜ |
@@ -125,7 +125,7 @@ Use Fable mode for any coding task that requires high reliability: feature imple
 | 📄 Templates | 4 | ___ | __% | ⬜ |
 | 📚 Resources | 5 | ___ | __% | ⬜ |
 | 🗂️ Index/Nav | 4 | ___ | __% | ⬜ |
-| **TOTAL** | **63** | ___ | **__%** | ⬜ |
+| **TOTAL** | **66** | ___ | **__%** | ⬜ |
 
 ### Topic-Level Completion
 
@@ -140,7 +140,10 @@ Use Fable mode for any coding task that requires high reliability: feature imple
 | Structures | [`structures.md`](../civil/structures/structures.md) | ⬜ | ⬜ | ⬜ | ⬜ |
 | Geotechnical | [`geotechnical.md`](../civil/geotechnical/geotechnical.md) | ⬜ | ⬜ | ⬜ | ⬜ |
 | Foundations | [`civil-engineering-foundations.md`](../civil/fundamentals/civil-engineering-foundations.md) | ⬜ | ⬜ | ⬜ | ⬜ |
-| Transportation | [`transportation-software.md`](../civil/transportation/transportation-software.md) | ⬜ | ⬜ | ⬜ | ⬜ |
+| **Environmental Engg** | [`environmental-engineering.md`](../civil/environmental/environmental-engineering.md) | ⬜ | ⬜ | ⬜ | ⬜ |
+| **Geoinformatics** | [`geoinformatics.md`](../civil/geoinformatics/geoinformatics.md) | ⬜ | ⬜ | ⬜ | ⬜ |
+| **Infrastructure Engg & Mgmt** | [`infrastructure-engineering-management.md`](../civil/infrastructure/infrastructure-engineering-management.md) | ⬜ | ⬜ | ⬜ | ⬜ |
+| **Transportation Engg** | [`transportation-engineering.md`](../civil/transportation/transportation-engineering.md) | ⬜ | ⬜ | ⬜ | ⬜ |
 | Water Resources | [`water-resources-engineering.md`](../civil/water_resources/water-resources-engineering.md) | ⬜ | ⬜ | ⬜ | ⬜ |
 
 #### 💧 HWRE
@@ -256,6 +259,10 @@ Use Fable mode for any coding task that requires high reliability: feature imple
 | Structures | [`civil/structures/structures.md`](../civil/structures/structures.md) | P1 | SOM, RCC, IS 456 |
 | Geotechnical | [`civil/geotechnical/geotechnical.md`](../civil/geotechnical/geotechnical.md) | P1 | Bearing Capacity, Consolidation |
 | Foundations | [`civil/fundamentals/civil-engineering-foundations.md`](../civil/fundamentals/civil-engineering-foundations.md) | P1 | Fluid Mechanics, SOM Basics |
+| **Environmental Engg** | [`civil/environmental/environmental-engineering.md`](../civil/environmental/environmental-engineering.md) | P1 | BOD, COD, Streeter-Phelps, EIA |
+| **Geoinformatics** | [`civil/geoinformatics/geoinformatics.md`](../civil/geoinformatics/geoinformatics.md) | P1 | GIS, RS, GNSS, NDVI, LiDAR |
+| **Infrastructure Engg & Mgmt** | [`civil/infrastructure/infrastructure-engineering-management.md`](../civil/infrastructure/infrastructure-engineering-management.md) | P1 | CPM, PERT, NPV, PPP, BOQ |
+| **Transportation Engg** | [`civil/transportation/transportation-engineering.md`](../civil/transportation/transportation-engineering.md) | P1 | SSD, Superelevation, CBR, Webster |
 | Water Resources | [`civil/water_resources/water-resources-engineering.md`](../civil/water_resources/water-resources-engineering.md) | P0 | Reservoir, Canal Design |
 
 ### 💧 HWRE
@@ -595,4 +602,4 @@ STATUS: [PASS/FAIL]
 
 > **Last Updated:** 2026-09-03
 > **Maintained by:** DKS IITK Civil/HWRE Placement 2026
-> **Version:** 2.0 — One-Stop Placement Prep Command Center
+> **Version:** 3.0 — One-Stop Placement Prep Command Center (all 7 core subjects covered)

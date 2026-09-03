@@ -54,6 +54,10 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | 44 | Non-Core Prep | Data analytics, SQL, Python, Excel, case studies | Civil_Placement_IITK/README.md | resources/non-core-prep.md | P1 | Directly useful |
 | 45 | Placement Data | Company-wise CTC, profile, skills from IITK placement data | Civil_Placement_IITK/placement_data.csv | resources/placement-data.md | P0 | Directly useful |
 | 46 | Study Plan Template | Daily/weekly/monthly study plan for placement prep | Civil_Placement_IITK/README.md | templates/study-plan-template.md | P0 | Directly useful |
+| 47 | Environmental Engineering | Water/air pollution, BOD/COD, treatment, EIA, solid waste, climate | awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md | civil/environmental/environmental-engineering.md | P1 | New comprehensive guide |
+| 48 | Geoinformatics | GIS, Remote Sensing, GNSS, LiDAR, spatial analysis, image processing | awesome-civil-engineering/data/resources.json, resources/gis-tools.md | civil/geoinformatics/geoinformatics.md | P1 | New comprehensive guide |
+| 49 | Infrastructure Engineering & Management | CPM/PERT, construction mgmt, cost estimation, PPP, urban planning | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | civil/infrastructure/infrastructure-engineering-management.md | P1 | New comprehensive guide |
+| 50 | Transportation Engineering | Highway design, pavement, traffic, railway, airport, harbour | awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md | civil/transportation/transportation-engineering.md | P1 | Enhanced from software-only v1.0 |
 
 ---
 
@@ -61,8 +65,8 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 
 | Metric | Count |
 |--------|-------|
-| Total Markdown Files | 96 |
-| Core Civil Files | 12 |
+| Total Markdown Files | 100 |
+| Core Civil Files | 16 |
 | HWRE Files | 7 |
 | Aptitude Files | 10 |
 | Behavioral Files | 6 |
@@ -93,6 +97,7 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.0 | 2026-09-03 | Added Environmental, Geoinformatics, Infrastructure Engg & Mgmt; enhanced Transportation to full guide |
 | 2.0 | 2026-09-03 | Major enhancement: 35 files enhanced, cross-links added, navigation aids |
 | 1.0 | 2026-08-15 | Initial consolidation from 10 source repos |
 

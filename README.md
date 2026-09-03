@@ -2,7 +2,7 @@
 
 > **Targeted preparation hub for core engineering, numerical modeling/CFD, non-core analytics, and interview strategy.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Content](https://img.shields.io/badge/Content-46%20topics%2C%2063%20files-brightgreen)](index/master_index.md) [![OpenFOAM](https://img.shields.io/badge/OpenFOAM-v2412-blue)](https://openfoam.org/) [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/) [![Phase](https://img.shields.io/badge/Phase-0%20Bootstrap-orange)](placement-roadmap.md) [![Last Updated](https://img.shields.io/badge/Updated-2026--09--03-lightgrey)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Content](https://img.shields.io/badge/Content-50%20topics%2C%2066%20files-brightgreen)](index/master_index.md) [![OpenFOAM](https://img.shields.io/badge/OpenFOAM-v2412-blue)](https://openfoam.org/) [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/) [![Phase](https://img.shields.io/badge/Phase-0%20Bootstrap-orange)](placement-roadmap.md) [![Last Updated](https://img.shields.io/badge/Updated-2026--09--03-lightgrey)]()
 
 ---
 
@@ -61,6 +61,10 @@
 | **Water & Wastewater** | Treatment design, distribution networks, sewer modeling | [`hwre/water_supply/`](hwre/water_supply/), [`hwre/wastewater/`](hwre/wastewater/) |
 | **Structures & Geo** | SOM, RCC, soil mechanics, bearing capacity | [`civil/structures/`](civil/structures/), [`civil/geotechnical/`](civil/geotechnical/) |
 | **Irrigation & Flood** | Canal design, flood control, drainage | [`hwre/irrigation/`](hwre/irrigation/), [`hwre/flood_control/`](hwre/flood_control/) |
+| **Environmental Engg** | Water/air pollution, BOD/COD, treatment, EIA, solid waste | [`civil/environmental/`](civil/environmental/) |
+| **Geoinformatics** | GIS, Remote Sensing, GNSS, LiDAR, spatial analysis | [`civil/geoinformatics/`](civil/geoinformatics/) |
+| **Infrastructure Engg & Mgmt** | CPM/PERT, construction mgmt, cost estimation, PPP | [`civil/infrastructure/`](civil/infrastructure/) |
+| **Transportation Engg** | Highway design, pavement, traffic, railway, airport | [`civil/transportation/`](civil/transportation/) |
 
 ---
 

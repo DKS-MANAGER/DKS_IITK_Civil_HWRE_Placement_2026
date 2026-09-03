@@ -14,6 +14,27 @@ All notable changes to this repository are documented in this file. The format i
 
 ---
 
+## [3.0.0] - 2026-09-03
+
+### New Subject Modules
+
+- **Environmental Engineering** — Added comprehensive guide covering water/air pollution, BOD/COD, Streeter-Phelps, treatment trains, EIA, solid waste, climate resilience, and interview Q&A. Path: `civil/environmental/environmental-engineering.md`.
+- **Geoinformatics** — Added comprehensive guide covering GIS, Remote Sensing, GNSS, LiDAR, spatial analysis, image processing, and interview Q&A. Path: `civil/geoinformatics/geoinformatics.md`.
+- **Infrastructure Engineering & Management** — Added comprehensive guide covering CPM/PERT, construction management, cost estimation, PPP finance, urban planning, and interview Q&A. Path: `civil/infrastructure/infrastructure-engineering-management.md`.
+
+### Enhanced Subject Modules
+
+- **Transportation Engineering** — Replaced software-only v1.0 with full comprehensive v2.0 covering highway design, pavement design, traffic engineering, railway, airport, harbour, and interview Q&A. Path: `civil/transportation/transportation-engineering.md`.
+
+### Command Center & Index Updates
+
+- Upgraded `.roo/modes/fable.md` to v3.0 with all 7 core subjects linked in the progress dashboard and topic quick-links.
+- Updated `index/master_index.md` to v3.0 with 4 new topics (total 50) and refreshed repository statistics.
+- Updated `index/topic_map.md` with source mapping for the 4 new/enhanced files.
+- Updated `README.md` content map and badges to reflect the expanded coverage.
+
+---
+
 ## [1.0.0] - 2026-08-21
 
 ### Discovery

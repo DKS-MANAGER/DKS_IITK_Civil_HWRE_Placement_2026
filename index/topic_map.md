@@ -60,6 +60,30 @@ This file maps each topic to its source files and the final merged destination f
   - Repeated in: awesome-civil-engineering/data/resources.json
   - Status: Merged
 
+- **environmental-engineering.md**
+  - Sources: awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md
+  - Best source: awesome-civil-engineering/data/resources.json
+  - Repeated in: None
+  - Status: New comprehensive guide (v1.0)
+
+- **geoinformatics.md**
+  - Sources: awesome-civil-engineering/data/resources.json, resources/gis-tools.md
+  - Best source: resources/gis-tools.md
+  - Repeated in: awesome-civil-engineering/data/resources.json
+  - Status: New comprehensive guide (v1.0)
+
+- **infrastructure-engineering-management.md**
+  - Sources: Civil_Placement_IITK/README.md, campus-placement-prep/README.md
+  - Best source: Civil_Placement_IITK/README.md
+  - Repeated in: campus-placement-prep/README.md
+  - Status: New comprehensive guide (v1.0)
+
+- **transportation-engineering.md**
+  - Sources: awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md
+  - Best source: awesome-civil-engineering/README.md
+  - Repeated in: Civil_Placement_IITK/README.md
+  - Status: Enhanced from software-only v1.0 to full guide v2.0
+
 ### HWRE
 - **irrigation-engineering.md**
   - Sources: Civil_Placement_IITK/README.md, Aptitude-For-Placements/
