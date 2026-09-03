@@ -2,7 +2,7 @@
 
 > **Targeted preparation hub for core engineering, numerical modeling/CFD, non-core analytics, and interview strategy.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Content](https://img.shields.io/badge/Content-50%20topics%2C%2066%20files-brightgreen)](index/master_index.md) [![OpenFOAM](https://img.shields.io/badge/OpenFOAM-v2412-blue)](https://openfoam.org/) [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/) [![Phase](https://img.shields.io/badge/Phase-0%20Bootstrap-orange)](placement-roadmap.md) [![Last Updated](https://img.shields.io/badge/Updated-2026--09--03-lightgrey)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Content](https://img.shields.io/badge/Content-50%20topics%2C%20100%20files-brightgreen)](index/master_index.md) [![OpenFOAM](https://img.shields.io/badge/OpenFOAM-v2412-blue)](https://openfoam.org/) [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/) [![Phase](https://img.shields.io/badge/Phase-0%20Bootstrap-orange)](placement-roadmap.md) [![Last Updated](https://img.shields.io/badge/Updated-2026--09--03-lightgrey)]()
 
 ---
 
@@ -137,7 +137,7 @@
 
 | Index | Description |
 |:------|:------------|
-| [`index/master_index.md`](index/master_index.md) | Complete topic index (46 topics, source mapping) |
+| [`index/master_index.md`](index/master_index.md) | Complete topic index (50 topics, 100 files, source mapping) |
 | [`index/topic_map.md`](index/topic_map.md) | Topic → source → destination mapping |
 | [`index/file_inventory.csv`](index/file_inventory.csv) | CSV inventory of all files |
 | [`index/source_map.csv`](index/source_map.csv) | Source repository mapping |

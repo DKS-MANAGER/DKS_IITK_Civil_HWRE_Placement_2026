@@ -1,16 +1,44 @@
+# ============================
 # OS
+# ============================
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Editors
+# ============================
+# Editors & IDEs
+# ============================
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
 
+# ============================
+# AI Coding Assistants
+# ============================
+.roo/
+.cursor/
+.windsurf/
+.aider*
+.copilot*
+.claude*
+.github/copilot-instructions.md
+.kiro/
+
+# ============================
+# Node / JS
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
 # LaTeX
+# ============================
 *.aux
 *.log
 *.pdf
@@ -24,7 +52,9 @@ desktop.ini
 *.lof
 *.lot
 
+# ============================
 # Python
+# ============================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -36,8 +66,13 @@ build/
 venv/
 env/
 .env
+pip-log.txt
+pip-delete-this-directory.txt
+*.whl
 
+# ============================
 # OpenFOAM
+# ============================
 processor*/
 *.OpenFOAM
 *.pos
@@ -46,5 +81,23 @@ processor*/
 *.raw
 *.foam
 
+# ============================
+# Temp / Cache / Logs
+# ============================
+tmp/
+temp/
+logs/
+*.tmp
+*.bak
+*.cache
+.cache/
+
+# ============================
+# Large Binary / Data Files
+# ============================
+*.csv
+
+# ============================
 # Git
+# ============================
 .git/
