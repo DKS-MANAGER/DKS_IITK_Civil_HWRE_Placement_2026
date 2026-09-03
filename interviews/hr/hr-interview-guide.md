@@ -1,127 +1,244 @@
-# HR Interview Guide
+# HR Interview Guide — Salary Negotiation & HR Questions
 
-## Purpose
+## Overview
 
-The HR interview evaluates cultural fit, communication clarity, motivation, and whether your expectations align with the organization. For PSUs, core-engineering firms, and analytics roles, HR rounds also test adaptability, integrity, and long-term commitment.
+The HR round evaluates cultural fit, motivation, communication, and salary expectations. It's often the final filter — many technically strong candidates fail here due to poor preparation.
 
-## Three Main Categories
+---
 
-### 1. Exit Interview Questions
+## 🎯 HR Interview Structure
 
-Use these when reflecting on a past role or when asked why you are leaving.
+| Phase | Duration | Focus |
+|-------|----------|-------|
+| **Introduction** | 2-3 min | "Tell me about yourself" |
+| **Motivation & Fit** | 5-7 min | Why this company/role? |
+| **Behavioral** | 10-15 min | STAR stories (teamwork, conflict, leadership) |
+| **Situational** | 5-7 min | Hypothetical scenarios |
+| **Salary & Logistics** | 3-5 min | Expectations, notice period, location |
+| **Your Questions** | 3-5 min | Your questions for them |
 
-- What prompted you to start looking for another job?
-- What was the biggest factor that led you to accept this new role?
-- How does this role compare to your current one?
-- What did you like most about your job?
-- What did you dislike the most?
-- Did you have the tools and resources you needed?
-- Were you happy with your benefits, perks, and incentives?
-- Do you think the company offers competitive compensation?
-- Do you believe your work was adequately recognized?
-- What was your relationship with your manager like?
-- How enjoyable was it to work with your team members?
-- How would you describe your working relationship with colleagues?
-- Do you think you had enough opportunities for skill development and promotion?
-- How would you describe the company culture?
-- What could be done to make this company a better place to work?
-- Would you recommend this company to a friend?
-- Would you consider working here again?
-- On a scale of 1 to 10, how would you rate your employee experience?
+---
 
-#### Tips for Exit Interviews
-- Choose a consistent set of exit questions for all departing employees.
-- Conduct one-on-one interviews in a private setting.
-- Create a relaxed atmosphere and reassure confidentiality.
-- Take notes and ask follow-up questions when needed.
+## 💰 Salary Negotiation — Complete Guide
 
-### 2. Phone Screen Questions
+### Before Negotiation: Research
 
-These verify basic fit, logistics, and motivation early in the funnel.
+| Source | What to Find |
+|--------|--------------|
+| **Glassdoor/AmbitionBox** | Role-specific salary ranges |
+| **Levels.fyi** | Tech/analytics compensation |
+| **IIT Placement Reports** | Previous year CTCs for your branch |
+| **Company Website** | Benefits, bonuses, stock |
+| **LinkedIn/Alumni** | Current employee insights |
+| **Placement Cell** | Official CTC data |
 
-- How many years of experience do you have in [role/industry]?
-- Do you have [must-have qualification]?
-- Do you have experience using [specific software]?
-- Are you authorized to work in [region]?
-- What are you looking for in your next position?
-- How did you find out about this job opening?
-- What made you apply for this position?
-- What excites you most about this position?
-- Why are you leaving your current workplace?
-- What motivated you to choose this career path?
-- What type of workplace culture do you thrive in?
-- Describe the type of work environment where you can give your best.
-- Describe your ideal working situation (environment, hours, travel).
-- What do you know about our company?
-- Why do you want to work at our company instead of elsewhere?
-- How much do you earn now?
-- What are your salary expectations?
-- Are you willing to relocate?
-- Is the proposed schedule acceptable?
-- If hired, how soon can you start?
-- Are you willing to agree to background checks and other tests?
-- When would you be available for a face-to-face interview?
-- Would you like to ask me anything?
+### Know Your Numbers
 
-#### Phone Screen Tips
-- Prepare up to 10 questions and adjust them to the role and company.
-- Develop a rating system and use scorecards.
-- Ask every candidate the same questions in the same order.
-- Take notes of answers and score each response.
-- Compare candidates' scores to shortlist.
+| Number | How to Calculate |
+|--------|------------------|
+| **Walk-away number** | Minimum to cover expenses + savings goal |
+| **Target number** | Market rate + 10-15% buffer |
+| **Dream number** | Top of market + premium for your unique skills |
+| **Total compensation** | Base + bonus + stock + benefits + allowances |
 
-### 3. Cultural Fit and General HR Questions
+### CTC Components (Indian Context)
 
-These assess values, personality, and long-term alignment.
+| Component | Typical % of CTC | Negotiable? |
+|-----------|------------------|-------------|
+| **Basic Salary** | 40-50% | Yes (affects PF, gratuity) |
+| **HRA** | 40-50% of Basic | Partially |
+| **Special Allowance** | Balance | Yes |
+| **Performance Bonus** | 10-20% | Partially (target %) |
+| **Joining Bonus** | 0-2 months | Yes (one-time) |
+| **Stock/ESOP** | 0-15% | Yes (vesting schedule) |
+| **PF (Employer)** | 12% of Basic | Fixed |
+| **Gratuity** | 4.81% of Basic | Fixed |
 
-- At your previous job, who did you have the most difficult time communicating with? What did you do?
-- Tell me about a time you received less-than-favorable feedback. How did you handle it?
-- What is the biggest challenge you faced working in a team environment?
-- How do you motivate others to do their best work?
-- How would you describe the culture at previous companies? What does a healthy work culture mean to you?
-- What kind of situation can create stress for you, and what do you do to cope?
-- What role are you most likely to play in a team? Give an example.
-- What gets you excited about coming to work?
-- How would you describe our company culture?
-- Which of our company's core values do you most or least identify with?
-- Tell me about a time you solved a problem at work. What was the issue?
-- How do you like to be managed? Tell me about a disagreement with your last manager.
-- How do you feel when someone interrupts you during an important task?
-- Tell me about a time you felt misunderstood at work.
-- When was the last time you asked for help? Describe the situation.
-- When was a time you stopped and helped out even though it wasn't your responsibility?
-- What makes you lose your cool? Tell me about the last time it happened.
-- Describe the type of work environment where you can really give your best.
-- Did you become close friends with any colleagues? Is that good or bad?
-- Describe a situation where your colleagues disagreed with your ideas.
-- Do you prefer working alone or as part of a team?
-- What is your opinion about taking work home?
-- Name three things you like most about our company.
-- Describe a challenging situation you faced recently and how you tackled it.
-- What are you passionate about?
-- What does your ideal workday look like?
-- What are the key ingredients in maintaining successful business relationships?
-- Tell me about the most stressful situation you faced at work.
+---
 
-## Salary and Offer Discussion
+## 🗣️ Salary Negotiation Scripts
 
-- Research market rates using Indeed, Payscale, Glassdoor, or Salary.com.
-- Provide a range rather than a single fixed number; position the bottom of the range close to your target.
-- Consider negotiating additional benefits if the base offer is below expectation.
-- If unsure about the role specifics, politely defer the question to later in the interview.
+### Scenario 1: "What are your salary expectations?"
 
-## Questions to Ask the Interviewer
+**Option A: Defer (Early Stage)**
+> "I'm primarily focused on finding the right role and learning opportunity at this stage. I trust [Company] offers competitive compensation aligned with industry standards for this role. I'm flexible and would be happy to discuss specifics once we determine mutual fit. My priority is the role, learning, and growth."
 
-- What does a typical day look like in this role?
-- What are the biggest challenges the team is currently facing?
-- How is performance measured in the first 90 days?
-- What opportunities exist for professional development?
-- What gets you excited about the team's future?
-- How would you describe the team's culture?
-- What are the next steps and the timeline for a decision?
+**Option B: Give Range (Mid-Late Stage)**
+> "Based on my research for M.Tech HWRE roles at companies like [Company], the range is typically ₹[X]–[Y] LPA. Given my M.Tech specialization in HWRE, CFD expertise with OpenFOAM, and [specific achievement], I'm looking at the upper end of this range. However, I'm flexible — the role, learning, and growth matter more than the initial number."
+
+**Option C: Anchoring High (Strong Leverage)**
+> "For someone with my background — M.Tech HWRE from IITK, CFD validation within 7% accuracy, published research, and Python/SQL analytics skills — the market rate is ₹[X]–[Y] LPA. I'm targeting ₹[Z] LPA. That said, I evaluate total package: base, bonus structure, learning budget, and growth trajectory. What's the band for this role?"
+
+### Scenario 2: "What is your current CTC?" (If applicable)
+
+**For Students/Freshers:**
+> "As a student, I don't have a current CTC. My stipend is ₹[X]/month. I'm evaluating based on market value for my skills and the role's responsibilities."
+
+**For Experienced:**
+> "My current CTC is ₹[X] LPA (Base: ₹[Y], Bonus: ₹[Z]). However, I'm not anchoring to this — I'm evaluating based on the market value for this role and my expanded skill set since joining."
+
+### Scenario 3: "We can offer ₹[X] LPA. Is that acceptable?"
+
+**If Below Expectation:**
+> "Thank you for the offer. I appreciate the opportunity. Based on my research and the value I bring — [specific: M.Tech IITK, CFD expertise, published research, analytics skills] — I was expecting ₹[Y] LPA. Could we explore ₹[Y]? If base is constrained, could we look at: higher performance bonus %, joining bonus, learning budget, or faster review cycle?"
+
+**If At Expectation:**
+> "That aligns with my expectations. I'm excited about the role and the team. Let me review the full offer letter including benefits, bonus structure, and growth path, and I'll get back to you by [date]."
+
+**If Above Expectation:**
+> "That's above my expectations and I appreciate it. I'm very excited about this opportunity. Let me review the complete offer details and confirm by [date]."
+
+### Scenario 4: Negotiating Non-Salary Items
+
+**Learning Budget:**
+> "I'm committed to continuous learning. Could we include an annual learning budget of ₹[50K-1L] for courses, certifications, conferences?"
+
+**Joining Bonus:**
+> "Given my notice period / thesis submission timeline, a joining bonus of ₹[X] would help with relocation/transition."
+
+**Review Cycle:**
+> "Could we formalize a 6-month performance review with salary revision discussion, rather than standard 12 months?"
+
+**Remote/Hybrid Flexibility:**
+> "I work well remotely for deep-focus tasks (CFD, coding). Could we discuss 1-2 days remote flexibility after onboarding?"
+
+**Relocation Support:**
+> "Since I'm relocating from [City], could the company provide relocation allowance or temporary accommodation for [2-4] weeks?"
+
+---
+
+## 🎭 Common HR Questions & Model Answers
+
+### Q1: Tell me about yourself. (90 sec)
+**Answer:** Use Present-Past-Future framework. See [`../../behavioral/self_intro/self-introduction.md`](../../behavioral/self_intro/self-introduction.md) for 5 samples.
+
+### Q2: Why do you want to join our company?
+**Answer:** "I've researched [Company]'s recent work on [specific project]. What excites me is [specific aspect]. My thesis on [related topic] directly prepares me for this. Additionally, [Company]'s culture of [value] aligns with my commitment to [related value]."
+
+### Q3: Why are you leaving your current company? / Why civil to analytics?
+**Answer:** "Civil engineering gave me strong analytical foundations. I discovered these same skills apply powerfully to data problems. My CFD work involves large datasets, statistical validation, Python automation — essentially data science applied to engineering. I've built complementary skills in SQL, Pandas, ML. I'm not leaving civil behind — I'm expanding my toolkit."
+
+### Q4: What are your strengths?
+**Answer:** "Three strengths: (1) Analytical problem-solving — systematically debugged a diverging CFD simulation in 3 days. (2) Quick learning — learned MATLAB in 1 week for a collaboration project. (3) Team leadership — coordinated a 4-member thesis team to finish 2 weeks early."
+
+### Q5: What is your greatest weakness?
+**Answer:** "I tend to be overly detail-oriented — I once spent extra time perfecting mesh quality beyond what was needed for convergence. I've learned to balance perfectionism with pragmatism by setting clear 'good enough' criteria upfront."
+
+### Q5: Where do you see yourself in 5 years?
+**Answer:** "In 5 years, I see myself as a senior engineer at [Company], leading water resources/CFD projects independently. I want deep expertise in [specific area] and be mentoring juniors. Long-term, I want to be someone the team relies on for both technical depth and collaborative leadership."
+
+### Q6: Why should we hire you?
+**Answer:** "Three reasons: (1) CFD expertise with OpenFOAM directly aligns with your water resources modeling needs — validated scour models within 7% accuracy. (2) Strong programming skills in Python and data analysis complement technical work. (3) Proven team player — led 4-member project to finish 2 weeks early, mentored juniors in OpenFOAM."
+
+### Q7: Describe a time you failed.
+**Answer:** "In a mock GATE test 2 months before the exam, I scored only 35% due to weak hydrology. I created an 8-week focused plan: 50 numericals per weak topic, flashcards, weekly mocks. Improved to 72% and scored 68 in GATE. Failure taught me that structured, targeted effort beats generic preparation."
+
+### Q8: Describe a conflict with a teammate.
+**Answer:** "Two teammates disagreed on turbulence model (k-ε vs SST). I researched both for our case (adverse pressure gradient), presented comparison table with literature, proposed running both for validation. Team chose SST based on evidence, matching data within 8%. Learned that data-driven proposals resolve conflicts better than opinions."
+
+### Q9: How do you handle pressure?
+**Answer:** "During final semester: thesis simulations + placement prep + conference paper in one month. I time-blocked: mornings for automated thesis runs, afternoons for placement prep, evenings for paper writing. Automated data extraction with Python to save time. Completed all three on time."
+
+### Q10: Do you have other offers?
+**If Yes:** "Yes, I have an offer from [Company] for [role] at [CTC]. However, I'm more excited about [this Company] because [specific reason]. My decision will be based on role fit and long-term growth, not just CTC."
+**If No:** "I'm in active discussions with a few companies and expect decisions soon. I'm particularly interested in [this Company] because [specific reason]. I'm evaluating based on role alignment and growth opportunity."
+
+---
+
+## 🤝 Situational Questions
+
+### Q: "Your manager gives you a task with unrealistic deadline. What do you do?"
+**Answer:** "I'd first understand the business urgency. Then I'd assess what's feasible: 'Here's what I can deliver by [date] with quality. If the deadline is fixed, here's what I'd need to cut or what support I'd need.' I'd propose a phased delivery: MVP by deadline, enhancements after. Communication + options > silent failure."
+
+### Q: "You disagree with your manager's technical decision. What do you do?"
+**Answer:** "I'd first understand their reasoning fully. Then I'd present my perspective with data: 'I see your point about X. My concern is Y because [data/precedent]. What if we [compromise/test both]?' If they still decide differently, I'd commit to the decision while documenting my concern. Disagree and commit."
+
+### Q: "You made a mistake that affected the project. What do you do?"
+**Answer:** "Own it immediately: 'I made an error in [X]. Impact is [Y]. Here's my fix: [Z]. Here's how I'll prevent recurrence: [process change].' No excuses, no hiding. Then execute the fix and the prevention."
+
+### Q: "You have to work with a difficult colleague. How do you handle it?"
+**Answer:** "First, understand their perspective — what drives their behavior? Then: private conversation, specific feedback on behavior (not personality), find common ground, set boundaries. If persistent, involve manager with documented examples. Focus on work outcomes, not personalities."
+
+### Q: "You're asked to do something unethical. What do you do?"
+**Answer:** "I'd refuse calmly: 'I'm not comfortable with this because [ethical/legal reason]. Can we achieve the same goal through [alternative approach]?' If pressed, I'd escalate through proper channels (compliance, ethics hotline, senior leadership). Integrity is non-negotiable."
+
+---
+
+## ❓ Questions to Ask the Interviewer
+
+### About Role & Team
+1. "What does success look like in the first 6 months in this role?"
+2. "What are the biggest challenges the team is currently facing?"
+3. "How does the team collaborate across functions (design, field, analytics)?"
+4. "What's the typical career progression for this role?"
+5. "What's the team's current tech stack and any planned changes?"
+
+### About Growth & Learning
+6. "How does [Company] support professional development and learning?"
+7. "Is there a mentorship or buddy program for new hires?"
+8. "Are there opportunities for conference attendance, certifications, or higher studies?"
+9. "How does the performance review process work?"
+
+### About Company & Culture
+10. "What gets you excited about the team's future?"
+11. "How would you describe the team's culture?"
+12. "What's the biggest change the company is going through right now?"
+13. "How does [Company] approach innovation and R&D?"
+
+### About Offer & Logistics
+14. "What are the next steps in the interview process?"
+15. "When do you expect to make a decision?"
+16. "Is there anything about my background that gives you hesitation?"
+
+---
+
+## 📋 Pre-HR Checklist
+
+- [ ] Research company: recent news, projects, values, leadership
+- [ ] Know your numbers: walk-away, target, dream
+- [ ] Prepare 3 STAR stories (teamwork, conflict, leadership)
+- [ ] Practice salary scripts aloud
+- [ ] Prepare 5 questions to ask them
+- [ ] Choose professional outfit
+- [ ] Test video/audio if virtual
+- [ ] Have water, notepad, pen ready
+- [ ] Know your notice period / thesis submission date
+- [ ] Prepare "Why this company?" with specific details
+
+---
+
+## 🚫 Red Flags in Offers
+
+| Red Flag | Action |
+|----------|--------|
+| No written offer letter | Insist on written offer before resigning |
+| Verbal promises only | Get everything in writing |
+| Pressure to decide in < 24 hrs | Ask for reasonable time (3-5 days) |
+| CTC inflated with unlikely bonuses | Ask for guaranteed vs variable breakdown |
+| No mention of benefits/insurance | Ask for benefits booklet |
+| Bond > 2 years or excessive penalty | Negotiate or decline |
+| No relocation support for relocation role | Negotiate or factor into salary |
+
+---
+
+## 📋 Post-Offer Checklist
+
+- [ ] Review offer letter line by line
+- [ ] Compare with research numbers
+- [ ] Clarify any ambiguous terms in writing
+- [ ] Negotiate if needed (1-2 rounds max)
+- [ ] Get final offer in writing
+- [ ] Sign and return by deadline
+- [ ] Inform other companies you're withdrawing
+- [ ] Plan resignation / thesis submission timeline
+- [ ] Request onboarding schedule and pre-reading
+
+---
 
 ## References
 
-* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions) — Exit, Phone, Phone screen, Cultural fit, Manager sections
-* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — End-of-Interview Questions, motivation examples
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — PSU HR focus areas, company profiles
+* [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
+* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026)
+* [`../mock_questions/mock-interview-questions.md`](../mock_questions/mock-interview-questions.md) — 50 mock questions
+* [`../../behavioral/behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — 30 STAR examples
+* [`../../behavioral/hr_questions/hr-questions-bank.md`](../../behavioral/hr_questions/hr-questions-bank.md) — 50 HR Q&A

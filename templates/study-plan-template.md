@@ -13,6 +13,8 @@
 | **Phase 4** | Nov 11–Dec 1 | Final revision: rapid recall, GD/HR, aptitude, case-study reps | Consolidated cheat-sheets, flashcards, mock scores | P0 |
 | **Phase 5** | Dec 2026 | Live interview logging, offer tracking, postmortems, referral notes | `/interview-experiences` updated in real time | P0 |
 
+---
+
 ## Phase 0: Bootstrap (Aug 21–Sep 7)
 
 ### Goals
@@ -31,6 +33,8 @@
 - 1 hour: Resume/CV refinement
 - 1 hour: Syllabus mapping against notes
 - 1 hour: Folder setup / Git workflow practice
+
+---
 
 ## Phase 1: Core Revision (Sep 8–Sep 30)
 
@@ -75,6 +79,8 @@
 - Validate derivations with reference solutions
 - Update formula sheets in `gate/formulas/`
 
+---
+
 ## Phase 2: Mock Interviews (Oct 1–Oct 20)
 
 ### Schedule
@@ -95,6 +101,8 @@
 - Record mistakes and corrected methods
 - Maintain error log per subject area
 
+---
+
 ## Phase 3: Company-Specific Prep (Oct 21–Nov 10)
 
 ### PSU Track (Oct 21–Nov 3)
@@ -111,6 +119,8 @@
 - **Target companies**: Abacus.AI, Accenture, Barclays, Merilytics
 - **Focus areas**: Python, SQL, stats, ML fundamentals
 - **Deliverable**: `resources/non-core-prep.md` (Analytics section)
+
+---
 
 ## Phase 4: Final Revision (Nov 11–Dec 1)
 
@@ -138,6 +148,8 @@
 - Week 1 (Nov 11): Full mock test (3 hours) + analysis
 - Week 2 (Nov 18): GD/PI mock + feedback
 - Week 3 (Nov 25): Final comprehensive review
+
+---
 
 ## Phase 5: Interview Season (Dec 2026)
 

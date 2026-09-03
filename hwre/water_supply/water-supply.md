@@ -1,136 +1,204 @@
-# Water Supply
+# Water Supply Engineering
 
 ## Overview
 
 Water supply engineering encompasses the collection, treatment, transmission, and distribution of potable water to consumers. It integrates hydrology, hydraulics, chemistry, and public health.
 
+> **Related topics:** [`groundwater.md`](groundwater.md) · [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) · [`../../civil/water_resources/water-resources-engineering.md`](../../civil/water_resources/water-resources-engineering.md)
+
+---
+
 ## Water Demand
 
-### Types of Demand
-- **Domestic demand:** Drinking, cooking, cleaning, sanitation (per capita demand)
-- **Commercial demand:** Shops, offices, hotels, restaurants
-- **Industrial demand:** Process water, cooling, cleaning
-- **Public demand:** Street washing, firefighting, parks, public buildings
-- **Loss and waste:** Unaccounted-for water (UFW) due to leaks and unauthorized connections
+### Per Capita Demand (Indian Standards)
 
-### Factors Affecting Per Capita Demand
-- Climate: Temperature, humidity, rainfall
-- Socio-economic conditions: Income level, housing quality
-- Water supply pressure and availability
-- Metering versus flat-rate billing
+| Category | Demand (lpcd) |
+|----------|--------------|
+| Domestic (public standpipe) | 40 |
+| Domestic (with individual connection) | 135–200 |
+| Commercial | 20–30 |
+| Industrial | 50–75 |
+| Public use | 10 |
+| Fire demand (100-yr) | 1000–1500 L/min |
+| **Total** | 200–350 lpcd |
+| **Design with UFW (20%)** | 250–450 lpcd |
 
-### Design Period & Population Forecasting
-- Design period: 20–30 years for major schemes
-- Population forecasting methods:
-  - Arithmetic increase
-  - Geometrical increase
-  - Incremental increase (or algebraic)
-  - Logistic curve method
+### Population Forecasting
 
-## Water Sources
+| Method | Formula | When to Use |
+|--------|---------|-------------|
+| Arithmetic | $P_n = P_0 + n\bar{x}$ | Stable, mature cities |
+| Geometric | $P_n = P_0(1+r)^n$ | Growing cities |
+| Incremental | $P_n = P_0 + n\bar{x} + n(n+1)d/2$ | Moderate growth |
+| Logistic | $P = P_{sat}/(1+ae^{-bt})$ | S-shaped growth |
 
-### Surface Water
-- Rivers, lakes, reservoirs
-- Intake structures: Gravity intakes, pumping intakes
-- River intakes with trash racks and desilting basins
+### Fire Demand (Kuichling)
+$$Q = 3182\sqrt{P}$$ (L/min, P in thousands)
 
-### Groundwater
-- Tube wells, dug wells, collector wells
-- Infiltration galleries
-- Recharge structures: Check dams, percolation tanks
+---
 
-## Water Quality & Treatment
+## Water Treatment
 
-### Physical Characteristics
-- Turbidity, color, taste, odor, temperature
+### Treatment Train
+```
+Raw Water → Aeration → Coagulation → Flocculation → Sedimentation → Filtration → Disinfection → Distribution
+```
 
-### Chemical Characteristics
-- pH, hardness (Ca²⁺, Mg²⁺), alkalinity, chlorides, sulfates, iron, manganese
-- Total dissolved solids (TDS)
+### Process Parameters
 
-### Bacteriological Characteristics
-- Coliform count (E. coli, total coliforms)
-- Drinking water standards (IS 10500 or WHO guidelines)
+| Process | Purpose | Typical Value |
+|---------|---------|---------------|
+| Coagulation | Destabilize colloids | Alum: 20–60 mg/L, rapid mix 30–60s |
+| Flocculation | Form settleable flocs | G = 20–70 s⁻¹, 15–30 min |
+| Sedimentation | Remove flocs | HRT = 2–4 hrs, overflow 1–2 m³/m²·h |
+| Rapid sand filtration | Remove fine particles | Rate 4–6 m/h, bed depth 0.6–0.7 m |
+| Slow sand filtration | Biological treatment | Rate 0.1–0.3 m/h, bed depth 1–1.5 m |
+| Chlorination | Kill pathogens | Residual 0.2–1.0 mg/L |
 
-### Treatment Processes
+### Slow Sand vs Rapid Sand Filter
 
-#### Aeration
-- Removes dissolved gases (CO₂, H₂S, methane)
-- Oxidizes iron and manganese
-- Removes volatile organic compounds
+| Parameter | Slow Sand | Rapid Sand |
+|-----------|-----------|------------|
+| Rate | 0.1–0.3 m/h | 4–6 m/h |
+| Media | Sand (0.2–0.3 mm) | Sand + anthracite |
+| Biological layer | Schmutzdecke (critical) | Not essential |
+| Cleaning | Scraping surface | Backwashing |
+| Area required | 10–20× more | Less |
+| Pre-treatment | Coagulation optional | Coagulation required |
 
-### Coagulation & Flocculation
-- Coagulants: Alum (Al₂(SO₄)₃), ferric chloride, polyaluminum chloride
-- Rapid mixing followed by slow mixing for floc formation
-
-### Sedimentation
-- Plain settling in horizontal flow tanks
-- Inclined plate and tube settlers for enhanced performance
-- Detention time: 2–4 hours
-
-### Filtration
-- Rapid sand filters: Sand and anthracite media; backwashing
-- Slow sand filters: Schmutzdecke biological layer
-- Pressure filters
-
-### Disinfection
-- Chlorination: Free residual chlorine vs. combined chlorine
-- Chloramination: Longer-lasting residual, fewer disinfection byproducts
-- Ozonation and UV disinfection
+---
 
 ## Distribution Systems
 
-### System Layout
-- **Dead-end system:** Single direction flow; low initial cost, stagnation risk
-- **Gridiron system:** Interconnected loop; high reliability, higher cost
-- **Ring system:** Closed loop; redundancy and equal pressure
-- **Radial system:** Central supply with outward flow
+### Layout Types
 
-### Pipe Materials
-- Cast iron, ductile iron, steel, PVC, HDPE, RCC
-- Selection based on pressure, diameter, soil conditions, and cost
+| Type | Advantages | Disadvantages |
+|------|-----------|---------------|
+| **Dead-end** | Low cost, simple | Stagnation, no redundancy |
+| **Gridiron** | Good reliability | Higher cost |
+| **Ring (loop)** | Redundancy, equal pressure | Complex design |
+| **Radial** | Balanced pressure | Needs elevated reservoir |
 
 ### Hydraulic Design
-- Hazen-Williams or Darcy-Weisbach for head loss calculation
-- Design period: 20–30 years
-- Economic diameter: Balance between pipe cost and pumping energy cost
 
-### Service Reservoirs
-- Elevated storage: Provides pressure and emergency supply
-- Break tanks and ground-level reservoirs
-- Storage volume: Balancing storage (demand fluctuations), fire reserve, emergency reserve
+**Hazen-Williams equation:**
+$$h_f = \frac{10.67 L Q^{1.85}}{C^{1.85} D^{4.87}}$$
 
-## Pumping Systems
+Where $C$ = Hazen-Williams coefficient (100–140)
 
-### Pump Types
-- Centrifugal pumps: Most common for water supply
-- Submersible pumps: Borewell applications
-- Jet pumps: Shallow wells
+### Storage Requirements
+- **Balancing storage:** For demand fluctuations (typically 1 day)
+- **Break storage:** For pump failure (half-day supply)
+- **Fire storage:** 1000–1500 L/min for 2–4 hours
+- **Emergency storage:** 1–3 days
 
-### Pumping Schemes
-- **Direct pumping:** Constant discharge without storage
-- **Indirect pumping:** Pump to elevated reservoir, gravity distribution
-- **High-lift pumping:** Booster pumps for high-rise buildings
+---
 
-## Software Tools
+## Pumping
 
-| Tool | Application |
-|------|-------------|
-| WaterGEMS | Hydraulic and water quality modeling for distribution systems |
-| EPANET | Pipe network analysis and water quality simulation |
-| InfoWater Pro | ArcGIS-based water distribution modeling |
-| HEC-HMS | Watershed runoff and supply forecasting |
+| Scheme | Description | Use |
+|--------|-------------|-----|
+| Direct | No storage, constant discharge | Small systems |
+| Indirect | Pump to elevated reservoir, gravity distribution | Most common |
+| High-lift | Booster pumps for high-rise | Urban areas |
 
-## Water Supply Standards
-- IS 10500: Drinking water specification
-- BIS standards for pipe materials and fittings
-- CPCB discharge norms for effluent quality
+### Pump Selection Criteria
+- Head: Total dynamic head (static + friction + velocity)
+- Discharge: Design flow rate
+- Specific speed: $N_s = N\sqrt{Q}/H^{3/4}$
+- NPSH: Ensure $NPSH_A > NPSH_R$
 
-## Further expansion needed
-- Advanced water treatment processes (membrane filtration, desalination)
-- Non-revenue water reduction strategies
-- Pump station design and energy optimization
-- Smart water grid and IoT monitoring
+---
+
+## Worked Examples
+
+### Example 1: Population Forecast
+**Problem:** Population data: 1981: 50,000; 1991: 65,000; 2001: 85,000. Forecast for 2021 using geometric increase.
+
+**Solution:**
+1. Growth rate 1981–1991: $r_1 = (65/50)^{1/10} - 1 = 2.65\%$
+2. Growth rate 1991–2001: $r_2 = (85/65)^{1/10} - 1 = 2.71\%$
+3. Average $r = 2.68\%$
+4. $P_{2021} = 85000(1.0268)^{20} = 85000 \times 1.704 = 144,840$
+
+### Example 2: Water Demand
+**Problem:** City population 150,000. Domestic 150 lpcd, commercial 30 lpcd, public 10 lpcd, industrial 50 lpcd. UFW = 20%. Find total design demand.
+
+**Solution:**
+1. Net demand = $(150 + 30 + 10 + 50) = 240$ lpcd
+2. With UFW: $240/0.8 = 300$ lpcd
+3. Total = $150000 \times 300 = 45$ ML/d
+4. Fire demand: $3182\sqrt{150} = 38,973$ L/min ≈ 56.1 ML/d (separate pipe system)
+
+### Example 3: Sedimentation Tank
+**Problem:** Design a primary clarifier for $Q = 10$ ML/d, overflow rate = 30 m³/m²·d.
+
+**Solution:**
+1. Area $A = Q/overflow = 10000/30 = 333.3$ m²
+2. Diameter (circular): $D = \sqrt{4A/\pi} = \sqrt{4 \times 333.3/\pi} = 20.6$ m → Use 21 m
+3. HRT: $V/Q = (A \times \text{depth})/Q = 333.3 \times 3/416.7 = 2.4$ hrs ✓
+
+### Example 4: Hazen-Williams Head Loss
+**Problem:** Find head loss in 500 m pipe, $D = 300$ mm, $Q = 50$ L/s, $C = 120$.
+
+**Solution:**
+1. $h_f = 10.67 \times 500 \times 0.05^{1.85} / (120^{1.85} \times 0.3^{4.87})$
+2. $h_f = 10.67 \times 500 \times 0.00386 / (7322 \times 0.00264)$
+3. $h_f = 20.6 / 19.33 = 1.066$ m
+
+### Example 5: Fire Demand
+**Problem:** City population 200,000. Find fire demand using Kuichling and National Board of Fire Underwriters formulas.
+
+**Solution:**
+1. Kuichling: $Q = 3182\sqrt{200} = 44,997$ L/min ≈ 750 L/s
+2. NBFU: $Q = 4637\sqrt{P}(1-0.001\sqrt{P})$ = 4637√200(1-0.001√200) = 65,549 × 0.986 = 64,631 L/min ≈ 1077 L/s
+
+---
+
+## 🎤 Interview Q&A
+
+### Q1: What is the difference between slow sand and rapid sand filters?
+**A:** Slow sand: biological filtration via Schmutzdecke, low rate (0.1–0.3 m/h), large area, no pre-treatment needed. Rapid sand: physical filtration, high rate (4–6 m/h), small area, requires coagulation pre-treatment, backwashing needed. Slow sand suits small communities with clean source; rapid sand suits large cities.
+
+### Q2: How do you design a water distribution system?
+**A:** (1) Estimate demand (per capita × population × UFW factor), (2) Select layout (gridiron/ring), (3) Size pipes using Hardy Cross or Hazen-Williams, (4) Determine pump size (TDH + friction), (5) Size elevated storage (balancing + fire + emergency), (6) Check pressure at critical nodes (min 15–20 m head).
+
+### Q3: What is the role of coagulation in water treatment?
+**A:** Coagulants (alum, PAC) neutralize negative charges on colloidal particles, destabilizing them so they can form flocs via flocculation. Alum + alkalinity → Al(OH)₃ floc + CO₂. Dose determined by jar test. Rapid mix (G = 300–1000 s⁻¹, 30s) followed by slow mix (G = 20–70 s⁻¹, 15–30 min).
+
+### Q4: What are the design criteria for a water treatment plant?
+**A:** Coagulation: G = 300–1000 s⁻¹, 30–60s. Flocculation: G = 20–70 s⁻¹, 15–30 min. Sedimentation: overflow 1–2 m³/m²·h, HRT 2–4 hrs. Rapid sand: rate 4–6 m/h, bed 0.6–0.7 m. Disinfection: residual 0.2–1.0 mg/L, contact time ≥ 30 min.
+
+### Q5: What is non-revenue water and how do you reduce it?
+**A:** Non-revenue water (NRW) = water produced but not billed (leaks, theft, metering errors). Typical in India: 30–50%. Reduction: (1) Leak detection (acoustic, satellite), (2) Meter replacement, (3) Pressure management, (4) DMA (district metered areas), (5) Pipe replacement programs. Target: < 20%.
+
+---
+
+## Quick Reference
+
+| Formula | Equation |
+|---------|----------|
+| Per capita demand | $Q = P \times q \times 1.2$ (with UFW) |
+| Population (geometric) | $P_n = P_0(1+r)^n$ |
+| Fire demand (Kuichling) | $Q = 3182\sqrt{P}$ (L/min) |
+| Hazen-Williams | $h_f = 10.67LQ^{1.85}/(C^{1.85}D^{4.87})$ |
+| Alum dose | $Al_2(SO_4)_3 \cdot 18H_2O + Ca(HCO_3)_2 → 2Al(OH)_3 + 3CaSO_4 + 6CO_2$ |
+
+---
+
+## Standards
+
+| Parameter | IS 10500 Limit |
+|-----------|---------------|
+| pH | 6.5–8.5 |
+| TDS | < 500 mg/L (acceptable), < 2000 (limiting) |
+| Hardness | < 200 mg/L (acceptable) |
+| Chlorides | < 250 mg/L |
+| Fluoride | < 1.0 mg/L |
+| Iron | < 0.3 mg/L |
+| E. coli | Absent in 100 mL |
+
+---
 
 ## References
 

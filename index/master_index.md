@@ -1,6 +1,7 @@
 # Master Index — DKS IITK Civil / HWRE Placement 2026
 
 ## Repository Overview
+
 This repository consolidates placement preparation material for IIT Kanpur M.Tech Civil / HWRE (DEEC 2026 batch). Content is extracted, paraphrased, and synthesized from 10 downloaded repositories and 1 gist.
 
 ## Topic Index
@@ -53,3 +54,70 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | 44 | Non-Core Prep | Data analytics, SQL, Python, Excel, case studies | Civil_Placement_IITK/README.md | resources/non-core-prep.md | P1 | Directly useful |
 | 45 | Placement Data | Company-wise CTC, profile, skills from IITK placement data | Civil_Placement_IITK/placement_data.csv | resources/placement-data.md | P0 | Directly useful |
 | 46 | Study Plan Template | Daily/weekly/monthly study plan for placement prep | Civil_Placement_IITK/README.md | templates/study-plan-template.md | P0 | Directly useful |
+
+---
+
+## 📋 Repository Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Markdown Files | 96 |
+| Core Civil Files | 12 |
+| HWRE Files | 7 |
+| Aptitude Files | 10 |
+| Behavioral Files | 6 |
+| Interview Files | 7 |
+| GATE Files | 5 |
+| Template Files | 4 |
+| Resource Files | 7 |
+| Index/Config Files | 5 |
+
+---
+
+## 🔗 Quick Links
+
+| Need | Go To |
+|------|-------|
+| **Start Here** | [README.md](README.md) |
+| **Roadmap** | [placement-roadmap.md](placement-roadmap.md) |
+| **One-Page Cheat Sheet** | [hwre/exam_notes/hwre-exam-notes.md](hwre/exam_notes/hwre-exam-notes.md) |
+| **Formula Sheet** | [gate/formulas/gate-civil-formulas.md](gate/formulas/gate-civil-formulas.md) |
+| **Revision Cards** | [gate/revision_notes/gate-civil-revision.md](gate/revision_notes/gate-civil-revision.md) |
+| **Daily Schedule** | [fable.md](.roo/modes/fable.md#-study-planner) |
+| **Weekly Tracker** | [README.md#-weekly-progress-tracker](README.md#-weekly-progress-tracker) |
+| **Validate Index** | `python scripts/validate_index.py` |
+
+---
+
+## 📋 Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 2.0 | 2026-09-03 | Major enhancement: 35 files enhanced, cross-links added, navigation aids |
+| 1.0 | 2026-08-15 | Initial consolidation from 10 source repos |
+
+---
+
+## 📋 Maintenance
+
+| Task | Frequency | Command |
+|------|-----------|---------|
+| Validate all links | Weekly | `python scripts/validate_index.py` |
+| Update file inventory | After changes | `python scripts/validate_index.py` |
+| Check cross-links | Monthly | Manual review |
+| Update company data | Per placement season | Edit [company-profiles.md](interviews/company_specific/company-profiles.md) |
+| Update placement data | Per placement season | Edit [placement-data.md](resources/placement-data.md) |
+
+---
+
+## 📞 Support & Contribution
+
+- **Issues:** Report broken links or missing content via GitHub Issues
+- **Contributions:** PRs welcome for new content, corrections, or formatting
+- **Validation:** Run `python scripts/validate_index.py` before committing
+
+---
+
+> **Last Updated:** 2026-09-03  
+> **Maintained by:** DKS IITK Civil/HWRE Placement 2026  
+> **License:** MIT

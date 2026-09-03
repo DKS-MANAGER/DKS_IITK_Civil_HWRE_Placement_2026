@@ -1,310 +1,250 @@
-# GATE Civil Engineering Chapter Notes
+# GATE Civil Engineering — Topic-wise Notes
 
-## 1. Engineering Mathematics
+## Overview
+
+Comprehensive topic-wise notes for GATE Civil Engineering preparation. Covers all major subjects with key concepts, formulas, and problem-solving approaches.
+
+---
+
+## 📐 Engineering Mathematics
 
 ### Linear Algebra
-- **Matrices**: Types (symmetric, skew-symmetric, orthogonal), rank, inverse, eigenvalues/eigenvectors
-- **Key concepts**: Cayley-Hamilton theorem, diagonalization, system of linear equations (consistency conditions)
-- **Practice focus**: Matrix operations, solving systems using Cramer's rule, matrix decomposition
+- **Matrix Algebra**: Addition, multiplication, transpose, inverse
+- **Determinants**: Properties, Cramer's rule, rank
+- **Eigenvalues/Eigenvectors**: Characteristic equation, Cayley-Hamilton theorem
+- **Systems of Equations**: Consistency, Gaussian elimination
 
 ### Calculus
-- **Single variable**: Limit, continuity, differentiability, mean value theorems, maxima/minima
-- **Multivariable**: Partial derivatives, total derivative, chain rule, directional derivatives, gradient/divergence/curl
-- **Integral calculus**: Double and triple integrals, line/surface/volume integrals, Green's/Stokes'/Gauss' theorems
+- **Limits & Continuity**: L'Hôpital's rule, series expansion
+- **Differentiation**: Partial derivatives, total derivative, maxima/minima
+- **Integration**: Definite/improper integrals, Beta/Gamma functions
+- **Vector Calculus**: Gradient, divergence, curl, Green's/Stokes/Gauss theorems
 
-### Ordinary Differential Equations
-- First-order: Separable, linear, exact, Bernoulli equations
-- Higher-order: Homogeneous with constant coefficients, variation of parameters
-- Applications: Spring-mass-dashpot systems, RC/RL circuits
-
-### Partial Differential Equations
-- Classification: Elliptic, parabolic, hyperbolic
-- Method of separation of variables
-- Wave equation, heat equation, Laplace equation
+### Differential Equations
+- **First Order**: Variable separable, homogeneous, exact, linear
+- **Higher Order**: Linear with constant coefficients, Cauchy-Euler
+- **PDE**: Classification, separation of variables, wave/heat/Laplace equations
 
 ### Probability & Statistics
-- **Distributions**: Normal, binomial, Poisson, exponential, uniform
-- **Key theorems**: Central Limit Theorem, Law of Large Numbers
-- **Statistical measures**: Mean, variance, covariance, correlation
-- **Hypothesis testing**: Type I/II errors, p-value, significance level
+- **Probability**: Axioms, Bayes' theorem, random variables
+- **Distributions**: Binomial, Poisson, Normal, Exponential
+- **Statistics**: Mean, median, mode, standard deviation, correlation, regression
 
 ### Numerical Methods
-- Root finding: Bisection, Newton-Raphson, secant method
-- Linear systems: Gauss elimination, Gauss-Seidel iteration
-- Interpolation: Lagrange, Newton's forward/backward difference
-- Integration: Trapezoidal, Simpson's 1/3 rule
-- ODE solving: Euler's method, Runge-Kutta methods
+- **Root Finding**: Bisection, Newton-Raphson, Secant
+- **Interpolation**: Lagrange, Newton forward/backward
+- **Integration**: Trapezoidal, Simpson's 1/3, 3/8 rules
+- **ODE**: Euler, Runge-Kutta (2nd, 4th order)
 
-## 2. Engineering Mechanics
+---
 
-### Statics
-- **Equilibrium**: ΣF = 0, ΣM = 0 for particles and rigid bodies
-- **Trusses**: Method of joints, method of sections, stability criteria
-- **Friction**: Static and kinetic friction, cone of friction, wedges, screw threads
+## 🏗️ Structural Engineering
 
-### Dynamics
-- **Kinematics**: Rectilinear and curvilinear motion, relative motion, relative acceleration
-- **Kinetics**: Newton's laws, work-energy principle, impulse-momentum
-- **Vibrations**: Free and forced vibrations, damping, natural frequency
+### Engineering Mechanics
+- **Equilibrium**: Free body diagrams, support reactions
+- **Trusses**: Method of joints, method of sections
+- **Frames**: Analysis of determinate/indeterminate frames
+- **Virtual Work**: Principle, applications to deflections
 
-### Virtual Work
-- Principle of virtual work for equilibrium
-- Applications to beams, frames, and mechanism
+### Solid Mechanics
+- **Stress/Strain**: 3D state, principal stresses, Mohr's circle
+- **Bending**: Flexure formula, shear stress distribution
+- **Torsion**: Circular shafts, thin-walled sections
+- **Columns**: Euler buckling, Rankine-Gordon, slenderness ratio
+- **Energy Methods**: Strain energy, Castigliano's theorems
 
-## 3. Fluid Mechanics
+### Structural Analysis
+- **Determinacy**: Static/kinematic indeterminacy
+- **Methods**: Force method, displacement method, moment distribution
+- **Influence Lines**: Muller-Breslau principle, moving loads
+- **Matrix Methods**: Stiffness/flexibility methods
 
-### Properties of Fluids
-- Density, specific weight, specific gravity
-- Viscosity (Newtonian vs non-Newtonian), surface tension, capillarity
-- Bulk modulus, compressibility
+### Concrete Structures (IS 456)
+- **Working Stress Method**: Modular ratio, permissible stresses
+- **Limit State Method**: Partial safety factors, load combinations
+- **Beams**: Singly/doubly reinforced, flanged sections
+- **Slabs**: One-way, two-way, circular
+- **Columns**: Short/long, uniaxial/biaxial bending
+- **Footings**: Isolated, combined, strap
+- **Prestressed Concrete**: Losses, cable profiles, anchorage
 
-### Fluid Statics
-- Pressure distribution (hydrostatic), center of pressure
-- Buoyancy, stability of floating bodies (metacenter, metacentric height)
+### Steel Structures (IS 800)
+- **Connections**: Bolted, welded, riveted
+- **Tension Members**: Net area, block shear
+- **Compression Members**: Buckling classes, lacing/battening
+- **Beams**: Plastic analysis, lateral torsional buckling
+- **Plate Girders**: Web buckling, stiffeners
 
-### Kinematics of Flow
-- Material derivative, Eulerian vs Lagrangian description
-- Streamlines, pathlines, streaklines
-- Continuity equation in Cartesian and cylindrical coordinates
+---
 
-### Dynamics of Flow
-- **Bernoulli's equation**: Assumptions, applications (venturi, orifice, pitot-static tube)
-- **Momentum equation**: Impulse-momentum, forces on bends and nozzles
-- **Energy equation**: Head loss, efficiency considerations
+## 🪨 Geotechnical Engineering
 
-### Dimensional Analysis & Similarity
-- Buckingham π theorem
-- Dimensionless numbers: Reynolds, Froude, Weber, Euler, Mach
-- Model testing, scale ratios
-
-### Viscous Flow
-- **Laminar flow**: Hagen-Poiseuille equation, velocity profile (parabolic)
-- **Turbulent flow**: Prandtl's mixing length theory, velocity distribution
-- **Boundary layer**: Laminar and turbulent, displacement and momentum thickness, separation
-
-### Flow Measurements
-- Venturi, orifice, rotameter, pitot-static tube
-- Weirs (rectangular, triangular, trapezoidal)
-- Current meters, floats
-
-### Pumps & Turbines
-- **Pump performance curves**: Best efficiency point (BEP), system curve
-- **Cavitation**: NPSH_required, NPSH_available, Thoma's cavitation number
-- **Turbines**: Impulse (Pelton), reaction (Francis, Kaplan), specific speed
-
-## 4. Geotechnical Engineering
-
-### Soil Classification & Properties
-- **Classification**: IS soil classification system, grain size analysis
-- **Index properties**: Water content, specific gravity, Atterberg limits (LL, PL, PI, shrinkage limit)
-- **Soil structure**: Clay minerals (kaolinite, montmorillonite, illite), soil structure types
-
-### Permeability & Seepage
-- **Permeability**: Darcy's law, coefficient of permeability
-- **Flow nets**: Construction, computation of seepage pressure, uplift pressure
-- **Factors affecting**: Soil type, void ratio, temperature, degree of saturation
-
-### Compaction & Consolidation
-- **Compaction**: Optimum moisture content (OMC), maximum dry density (MDD), Proctor test
-- **Consolidation**: Terzaghi's 1D consolidation theory, coefficient of consolidation (C_v)
-- **Settlement analysis**: Primary consolidation, secondary compression, time rate of settlement
-
-### Shear Strength
-- **Mohr-Coulomb failure criterion**: c-φ parameters
-- **Tests**: Direct shear, triaxial compression (CU, UU, CD), unconfined compression
-- **Strength envelopes**: Peak and residual strength
-
-### Earth Pressure
-- **Rankine's theory**: Active and passive earth pressure coefficients
-- **Coulomb's theory**: Including wall friction, surcharge, inclined backfill
-- **Graphical methods**: Culmann's method, trial wedge method
-
-### Slope Stability
-- **Methods**: Swedish circle (ordinary method), Bishop's method, Janbu's method
-- **Factors of safety**: Infinite and finite slopes, critical depth
+### Soil Mechanics
+- **Properties**: Phase relationships, index properties, classification (IS/USCS)
+- **Permeability**: Darcy's law, constant/falling head tests, flow nets
+- **Seepage**: Flow nets, uplift pressure, piping
+- **Compaction**: Proctor tests, field control
+- **Consolidation**: Terzaghi's theory, settlement calculation, time rate
+- **Shear Strength**: Mohr-Coulomb, triaxial/direct shear/vane tests
+- **Slope Stability**: Infinite/finite slopes, Bishop's method, Fellenius
 
 ### Foundation Engineering
-- **Bearing capacity**: Terzaghi, Meyerhof, HAS equations
-- **Settlement**: Immediate, consolidation, secondary
-- **Footing design**: Combined footing, strap footing, mat foundation
+- **Shallow Foundations**: Bearing capacity (Terzaghi, Meyerhof, Hansen), settlement
+- **Deep Foundations**: Pile types, capacity (static/dynamic), group action
+- **Retaining Walls**: Earth pressure (Rankine, Coulomb), stability checks
+- **Sheet Piles**: Cantilever, anchored, cofferdams
 
-## 5. Structural Analysis
+---
 
-### Analysis of Statically Determinate Structures
-- **Beams**: Reactions, shear force, bending moment diagrams
-- **Trusses**: Method of joints, method of sections
-- **Cables and arches**: Funicular polygon, three-hinged arch
+## 💧 Water Resources Engineering
 
-### Analysis of Statically Indeterminate Structures
-- **Force method**: Flexibility matrix, consistent deformation
-- **Displacement method**: Slope-deflection equations, moment distribution (Hardy Cross)
-- **Influence lines**: For beams and trusses
+### Fluid Mechanics
+- **Properties**: Viscosity, surface tension, compressibility
+- **Statics**: Hydrostatic forces, buoyancy, stability
+- **Kinematics**: Flow types, streamlines, velocity potential
+- **Dynamics**: Euler/Bernoulli, momentum equation, Navier-Stokes
 
-### Matrix Methods
-- **Stiffness matrix**: Member stiffness matrix, transformation, assembly
-- **Flexibility matrix**: Relation to stiffness matrix
-- **Static and kinematic indeterminacy**
+### Hydraulics
+- **Pipe Flow**: Laminar/turbulent, Darcy-Weisbach, Moody, minor losses
+- **Pumps**: Centrifugal, reciprocating, specific speed, NPSH
+- **Turbines**: Impulse/reaction, specific speed, governing
+- **Boundary Layer**: Thickness, separation, drag/lift
 
-### Deflection Analysis
-- **Double integration method**: Direct integration of M/EI diagram
-- **Conjugate beam method**: Equivalence of loads
-- **Castigliano's theorem**: Unit load method, strain energy
-- **Moment-area method**: Change in slope, deflection
+### Open Channel Flow
+- **Uniform Flow**: Manning, Chezy, most efficient section
+- **Non-Uniform Flow**: GVF profiles, hydraulic jump, control sections
+- **Rapidly Varied Flow**: Hydraulic jump, weirs, flumes
+- **Unsteady Flow**: Saint-Venant, flood routing
 
-## 6. Reinforced Concrete Engineering (RCC)
+### Hydrology
+- **Precipitation**: Measurement, analysis, IDF curves
+- **Evaporation/Infiltration**: Models (Horton, Philip, Green-Ampt)
+- **Runoff**: Rational method, unit hydrograph, SCS-CN
+- **Flood Routing**: Muskingum, level pool, kinematic wave
+- **Groundwater**: Darcy, Theis, Thiem, well hydraulics
 
-### Materials & Properties
-- **Concrete**: Grades (M15, M20, M25, ...), characteristic strength, creep, shrinkage
-- **Steel**: Grades (Fe 415, Fe 500), stress-strain characteristics
-- **Limit state philosophy**: Characteristic loads, load factors, partial safety factors
+---
 
-### Design Concepts
-- **Working Stress Method**: Elastic theory, modular ratio
-- **Load Factor Method**: Ultimate load concept
-- **Limit State Method**: Limit state of collapse, limit state of serviceability
-
-### Design of Beams
-- **Singly reinforced beam**: Limiting depth, steel area, moment of resistance
-- **Doubly reinforced beam**: Additional steel area, moment capacity
-- **T-beam**: Effective width, flange contribution
-- **Shear design**: Two-legged stirrups, development length
-
-### Design of Slabs
-- **One-way slab**: Spanning in one direction, reinforcement details
-- **Two-way slab**: Grillage analogy, determinant analysis
-- **Moment coefficients**: As per IS 456 for continuous slabs
-
-### Design of Columns
-- **Columns**: Short and long columns, effective length factors
-- **Minimum eccentricity**: When e_min = 0.005·D or 20 mm (whichever higher)
-- **Biaxial bending**: Interaction diagrams
-- **Design of ties and helical reinforcement**
-
-### Design of Footing
-- **Isolated footing**: Size, thickness, reinforcement
-- **Combined footing**: For two columns, strap footing
-- **Mat/Raft foundation**: Types (solid, cellular), design principles
-
-### Prestressed Concrete (Basics)
-- **Prestressing**: Pre-tensioning vs post-tensioning
-- **Losses**: Elastic shortening, creep and shrinkage, relaxation
-- **Stress analysis**: Bursting tension, anchorage stress
-
-## 7. Steel Structures
-
-### Properties of Steel
-- **Material properties**: Yield strength, ultimate strength, modulus of elasticity
-- **Cross-sections**: I-section, channel, angle, T-section
-- **Manufacturing**: Hot-rolled, cold-formed
-
-### Connections
-- **Riveted joints**: Strength of riveted connections, efficiency
-- **Welded joints**: Fillet weld, groove weld, eccentric connections
-- **Bolted joints**: Bearing type, friction grip, shear capacity
-
-### Design of Tension Members
-- **Net area**: Shear lag factor, block shear failure
-- **Stiffness requirement**: Slenderness ratio < 250
-
-### Design of Compression Members
-- **Columns**: Effective length, radius of gyration
-- **Column formula**: σ_c = f_y/γ_m0 · [1−λ²/2]/(Φ + α·λ²) where λ = √(f_y/f_cr)
-- **Lateral bracing**: Shear center, torsional buckling
-- **Built-up columns**: Lacing, batten plates
-
-### Design of Beams
-- **Plastic analysis**: Plastic moment, shape factor (S = M_p/M_y)
-- **Web buckling and crippling**: Stiffeners, web thickness
-- **Design of girders**: Plate girders with web stiffeners
-
-### Design of Connections
-- **Simple connections**: Shear keys, end plates
-- **Moment connections**: Rigid connections, semi-rigid
-- **Gusset plates**: Truss connections
-
-## 8. Structural Dynamics & Earthquake Engineering
-
-### Dynamic Analysis
-- **SDOF system**: Natural frequency, damping ratio
-- **Free vibration**: Undamped and damped systems
-- **Forced vibration**: Steady-state response, resonance
-
-### Response Spectrum Analysis
-- **Design spectrum**: Elastic and design spectrum per IS 1893
-- **SRSS and CQC rules** for combining modal responses
-
-### Time History Analysis
-- **Modal analysis**: Mode shapes, participation factors
-- **Base shear**: V_B = α·W (seismic coefficient method)
-
-## 9. Highway Engineering
-
-### Geometric Design
-- **Horizontal curves**: Super elevation, transition curves
-- **Vertical curves**: Summit and valley curves
-- **Sight distance**: Stopping, overtaking, intermediate sight distance
-
-### Pavement Design
-- **Flexible pavement**: Boussinesq's theory, Burmister's theory
-- **Rigid pavement**: Westergaard's analysis, load classes
-- **Design period**: 15 years typical for new roads
-
-### Traffic Engineering
-- **Traffic characteristics**: Speed, volume, density
-- **Traffic studies**: PCU, 30th percentile speed, turning movement surveys
-- **Signal design**: Webster's method,IRC method
-
-## 10. Railways & Airport Engineering
-
-### Railway Engineering
-- **Gauge**: Broad gauge (1676 mm), meter gauge (1000 mm), narrow gauge
-- **Super elevation**: Equilibrium speed, cant deficiency
-- **Gradients**: Limit gradient for different locomotives
-- **Rail section**: Weight per meter, moment of resistance
-
-### Airport Engineering
-- **Runway orientation**: Wind rose diagram, basic runway length
-- **Airport capacity**: Runway capacity, taxiway design
-- **Gate capacity**: Aircraft parking positions
-
-## 11. Environmental Engineering
+## 🌍 Environmental Engineering
 
 ### Water Supply
-- **Water demand**: Per capita consumption, peak factors
-- **Population forecast**: Arithmetic, geometric, incremental methods
-- **Intake structures**: Screening, sedimentation
-- **Treatment**: Coagulation, flocculation, sedimentation, filtration, disinfection
+- **Demand**: Per capita, design period, population forecasting
+- **Sources**: Surface/groundwater, intake structures
+- **Treatment**: Aeration, coagulation, sedimentation, filtration, disinfection
+- **Distribution**: Layouts, pipe networks, storage, pumps
 
-### Sewerage Systems
-- **Dry weather flow**: Q = 5/3·q·P·i where q = per capita flow, P = population, i = inflow
-- **Storm water**: Rational method, modified rational method
-- **Sewer appurtenances**: Manholes, inverted siphons, flushing tanks
+### Wastewater Engineering
+- **Collection**: Sewer types, hydraulics, appurtenances
+- **Characteristics**: Physical, chemical, biological
+- **Treatment**: Preliminary, primary, secondary (ASP, TF), tertiary
+- **Sludge**: Thickening, digestion, dewatering, disposal
+- **Standards**: CPCB, IS 10500
 
-### Wastewater Treatment
-- **Activated sludge**: MLSS, F/M ratio, SVI, SRT
-- **Trickling filters**: Recirculation ratio, removal efficiency
-- **oxidation ponds**: Design parameter: HRT = 5-10 days, depth = 3-5 m
-- **Anaerobic digestion**: Biogas production, methane percentage
+### Air Pollution
+- **Pollutants**: Sources, effects, standards
+- **Control**: Particulate/gaseous control equipment
+- **Meteorology**: Plume behavior, dispersion models
 
-### Solid Waste Management
-- **Collection**: System design, truck capacity, route optimization
-- **Processing**: Incineration, composting, recycling
-- **Disposal**: Sanitary landfill, leachate, gas collection
+### Solid Waste
+- **Generation**: Characteristics, quantification
+- **Management**: Collection, transport, processing, disposal
+- **Landfills**: Design, liners, leachate, gas management
 
-## 12. Construction Management
+---
 
-### Project Planning
-- **CPM/PERT**: Activity duration, critical path, float
-- **Precedence diagramming**: Activity-on-node (AON), activity-on-arrow (AOA)
-- **Crashing**: Cost slope, optimum duration
+## 🛣️ Transportation Engineering
 
-### Resource Levelling
-- **Resource smoothing**: Using slack time
-- **Resource splitting**: Delaying activities within float limits
+### Highway Engineering
+- **Planning**: Classification, alignment, surveys
+- **Geometric Design**: Cross-section, sight distance, horizontal/vertical curves
+- **Pavement Design**: Flexible (CBR, IRC), rigid (Westergaard)
+- **Materials**: Aggregates, bitumen, cement, testing
 
-### Cost Control
-- **Earned Value Analysis**: PV, EV, AC, CV, SV, CPI, SPI
-- **Forecasting**: EAC, ETC, VAC
+### Traffic Engineering
+- **Characteristics**: Speed, volume, density, fundamental diagram
+- **Intersections**: At-grade, grade-separated, signals
+- **Capacity**: HCM, level of service
+- **Management**: Signs, markings, ITS
+
+---
+
+## 📏 Surveying & Geomatics
+
+### Fundamentals
+- **Measurements**: Errors, accuracy, precision
+- **Leveling**: Differential, profile, reciprocal
+- **Theodolite**: Traversing, triangulation, trigonometric leveling
+
+### Modern Surveying
+- **EDM/Total Station**: Principles, errors
+- **GPS/GNSS**: Principles, positioning, errors
+- **Remote Sensing**: Platforms, sensors, image interpretation
+- **GIS**: Data models, analysis, applications
+
+---
+
+## 📋 GATE Preparation Strategy
+
+### Subject Weightage (Approximate)
+| Subject | Weightage | Priority |
+|---------|-----------|----------|
+| Engineering Mathematics | 12-15% | P0 |
+| Structural Engineering | 12-15% | P0 |
+| Geotechnical Engineering | 12-15% | P0 |
+| Water Resources | 10-12% | P0 |
+| Environmental Engineering | 10-12% | P0 |
+| Transportation Engineering | 8-10% | P1 |
+| Surveying | 5-7% | P1 |
+| General Aptitude | 15% | P0 |
+
+### Study Plan (12 Weeks)
+| Week | Focus |
+|------|-------|
+| 1-2 | Engineering Mathematics + General Aptitude |
+| 3-4 | Structural Engineering (Mechanics + Analysis) |
+| 5-6 | Concrete + Steel Structures |
+| 7-8 | Geotechnical Engineering |
+| 9-10 | Water Resources + Environmental |
+| 11 | Transportation + Surveying |
+| 12 | Full Mock Tests + Revision |
+
+### Daily Routine (3-4 hours)
+- **1 hr**: Theory revision (one topic)
+- **1 hr**: Numerical practice (15-20 problems)
+- **30 min**: Formula sheet review
+- **30 min**: Previous year questions
+
+---
+
+## 📚 Recommended Books
+
+| Subject | Book |
+|---------|------|
+| Mathematics | B.S. Grewal / Kreyszig |
+| Mechanics | Timoshenko / Beer & Johnston |
+| Structural Analysis | C.S. Reddy / Devdas Menon |
+| RCC | S. Ramamrutham / Pillai & Menon |
+| Steel | S.K. Duggal / Subramanian |
+| Soil Mechanics | Gopal Ranjan / Braja Das |
+| Foundation | V.N.S. Murthy / Bowles |
+| Fluid Mechanics | Modi & Seth / Fox & McDonald |
+| Open Channel | Chaudhry / Subramanya |
+| Hydrology | Subramanya / Jayarami Reddy |
+| Environmental | Peavy & Rowe / CPHEEO Manual |
+| Highway | Khanna & Justo / IRC Codes |
+| Surveying | B.C. Punmia / Kanetkar |
+
+---
+
+## 🎯 GATE Exam Tips
+
+1. **Solve PYQs**: Last 15 years minimum, topic-wise
+2. **Formula Sheets**: Create one-page sheets per subject
+3. **Mock Tests**: 1 per week in last 2 months, analyze thoroughly
+4. **Time Management**: 3 hours = 65 questions → ~2.7 min/q
+5. **Accuracy > Speed**: Negative marking (-1/3 for 1-mark, -2/3 for 2-mark)
+6. **Virtual Calculator**: Practice with GATE virtual calculator
+7. **Revision**: Last 2 weeks = only formula sheets + PYQs
 
 ---
 
@@ -312,3 +252,6 @@
 
 * [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
 * [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [`../formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md) — Complete formula sheet
+* [`../revision_notes/gate-civil-revision.md`](../revision_notes/gate-civil-revision.md) — Rapid revision cards
+* [`../practice/gate-civil-practice.md`](../practice/gate-civil-practice.md) — Practice problems

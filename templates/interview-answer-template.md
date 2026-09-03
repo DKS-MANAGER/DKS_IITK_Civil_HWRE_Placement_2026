@@ -16,7 +16,9 @@
 ---
 
 ## CAR Variant (Challenge–Action–Result)
+
 Some companies prefer this. It collapses Situation + Task into a single **Challenge** line.
+
 - **Challenge**: the problem or goal.
 - **Action**: steps taken.
 - **Result**: outcome + reflection.
@@ -44,7 +46,7 @@ RESULT:
 [Learning takeaway.] eg. "From this, I learned <lesson> that I now apply when <future context>."
 
 OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <reflection>."
-```text
+```
 
 ---
 
@@ -64,6 +66,7 @@ OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <refle
 ---
 
 ## Action-Verbs Bank (Pick 2–3 per answer)
+
 - **Driven/owned**: spearheaded, initiated, took ownership, took the lead
 - **Analysed**: diagnosed, root-caused, triaged, evaluated, modelled
 - **Built/improved**: implemented, streamlined, optimised, automated, refactored
@@ -73,18 +76,20 @@ OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <refle
 ---
 
 ## Quick STAR Checklist
+
 | Step | Self-check |
 |------|-----------|
-| Situation is brief and relevant? |  ] |
-| Task/Task clearly states YOUR responsibility? |  ] |
-| Action focuses on steps YOU took (not the team)? |  ] |
-| Result includes a number or concrete outcome? |  ] |
-| I end with one clear learning takeaway? |  ] |
-| Total time: 1.5–2 minutes spoken? |  ] |
+| Situation is brief and relevant? | [ ] |
+| Task/Task clearly states YOUR responsibility? | [ ] |
+| Action focuses on steps YOU took (not the team)? | [ ] |
+| Result includes a number or concrete outcome? | [ ] |
+| I end with one clear learning takeaway? | [ ] |
+| Total time: 1.5–2 minutes spoken? | [ ] |
 
 ---
 
 ## Follow-up Phrases to Keep Handy
+
 - "If we look at the situation again…" (redirect)
 - "The key learning for me was…"
 - "I would approach a similar situation now by…"
@@ -93,9 +98,13 @@ OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <refle
 ---
 
 ## Example (Filled) — Conflict with a Teammate
+
 **Situation:** "On a group design project, a teammate and I disagreed on the load-path for a portal frame — they preferred a pinned assumption, I argued for moment connections."
+
 **Task:** "I had to ensure we chose the technically sound, defensible approach without derailing the submission timeline."
+
 **Action:** "(1) I asked clarifying questions to understand their assumption. (2) Recalculated reactions for both cases and showed the pinned model understated base shear by ~18%. (3) Presented both options to the TA and agreed to adopt moment connections with the pinned case as a sensitivity check."
+
 **Result:** "Our submission scored in the top 10% for technical rigour; I learned to frame technical disagreements around evidence and to agree on a shared validation step early."
 
 ---

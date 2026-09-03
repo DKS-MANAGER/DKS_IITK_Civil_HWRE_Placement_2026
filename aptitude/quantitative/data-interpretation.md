@@ -1,112 +1,207 @@
 # Data Interpretation
 
-Data Interpretation (DI) tests your ability to extract, analyze, and compute information from graphical or tabular sources. The three core mathematical operations used in almost every DI set are percentage change, average calculation, and ratio comparison.
+## Concept Definitions
 
-## Core Calculations
-
-### Percentage Change
-$$\text{Percentage Change} = \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \times 100$$
-- A positive result indicates growth or increase.
-- A negative result indicates decline or decrease.
-
-### Average (Arithmetic Mean)
-$$\text{Average} = \frac{\text{Sum of Values}}{\text{Number of Periods or Items}}$$
-
-### Ratio Comparison
-To compare value $A$ to value $B$, express as a simplified fraction $\frac{A}{B}$ or $A : B$.
+Data Interpretation (DI) involves analyzing data presented in various formats (tables, graphs, charts) and answering questions based on that data. Key skills: reading comprehension, calculation speed, percentage/ratio application.
 
 ---
 
-## Graph Types
+## Types of DI Questions
 
-### Bar & Line Graphs
-- **Bar charts** compare discrete categories using rectangular bars.
-- **Line graphs** show trends over continuous periods (time series).
-- Key tasks: percentage growth/decline between two points, average over a period, and ratio of totals.
-
-### Pie Charts
-- The total value always equals $100\%$ or $360^\circ$.
-- **Percentage to degrees**: $\text{Degrees} = \text{Percentage} \times 3.6$
-- **Degrees to percentage**: $\text{Percentage} = \frac{\text{Degrees}}{3.6}$
-- To find the actual value of a sector: $\text{Value} = \frac{\text{Sector Angle}}{360} \times \text{Total}$ or $\frac{\text{Percentage}}{100} \times \text{Total}$.
-
-### Tables & Caselets
-- **Tabular DI**: Data in rows and columns; often contains missing cells solved using totals, ratios, or auxiliary clues.
-- **Caselets**: Paragraph descriptions without charts. You must construct your own table or Venn diagram before solving.
-- **Mixed DI**: Combines two or more data sources (e.g., a pie chart plus a table).
-
-### Data Sufficiency
-- Determine whether the given statement(s) provide enough information to answer the question.
-- Standard answer choices: Statement 1 alone is sufficient; Statement 2 alone is sufficient; both together are sufficient; each alone is sufficient; neither is sufficient.
+| Type | Description | Key Skills |
+|------|-------------|------------|
+| **Tables** | Data in rows and columns | Row/column totals, percentages, comparisons |
+| **Bar Graphs** | Vertical/horizontal bars | Height comparison, percentage change |
+| **Line Graphs** | Points connected by lines | Trends, slopes, intersections |
+| **Pie Charts** | Circular sectors | Angle/percentage conversion, part-to-whole |
+| **Caselets** | Paragraph with data | Extract data, build table, then solve |
+| **Mixed** | Combination of above | Multi-step, cross-referencing |
 
 ---
 
-## Practice Problems
+## Key Formulas & Shortcuts
 
-### Problem 1
-A company's annual sales (in Rs. Crores) over four years are: 2021 — 120, 2022 — 150, 2023 — 180, 2024 — 160. Find the percentage growth in sales from 2022 to 2023.
+### Percentage Calculations
+- **Percentage of**: $\frac{\text{Part}}{\text{Whole}} \times 100$
+- **Percentage change**: $\frac{\text{New} - \text{Old}}{\text{Old}} \times 100$
+- **What % of A is B**: $\frac{B}{A} \times 100$
 
-### Problem 2
-A pie chart shows the distribution of a Rs. 60,000 monthly budget. The sector for Education is $72^\circ$. How much money is allocated to Education?
+### Ratio & Average
+- **Ratio**: $A:B = \frac{A}{B}$
+- **Average**: $\frac{\text{Sum}}{\text{Count}}$
+- **Weighted Average**: $\frac{\sum w_i x_i}{\sum w_i}$
 
-### Problem 3
-The table below shows student distribution across two colleges. Some entries are missing.
-
-| College | Science | Commerce | Arts | Total |
-| :---: | :---: | :---: | :---: | :---: |
-| A | 240 | ? | 120 | 500 |
-| B | ? | 180 | 150 | ? |
-| Total | 400 | 320 | ? | ? |
-
-The ratio of Science students in College A to College B is $3 : 2$. Find the total number of students in College B.
-
-### Problem 4
-In a school survey of 200 students, 120 like Football, 90 like Cricket, and 30 like both. How many students like neither sport?
-
-### Problem 5
-A family's monthly expenses are represented by sector angles: Rent — $90^\circ$, Food — $108^\circ$, Education — $72^\circ$, Savings — $54^\circ$, Others — $36^\circ$. If the total budget increases from Rs. 60,000 to Rs. 75,000 while keeping all sector angles unchanged, what is the new amount spent on Others?
+### Speed Tips
+1. **Approximate**: Round numbers for quick estimates
+2. **Use fractions**: $12.5\% = 1/8$, $16.67\% = 1/6$, $33.33\% = 1/3$
+3. **Scan first**: Read questions before deep-diving into data
+4. **Eliminate**: Use options to work backwards
 
 ---
 
-## Step-by-Step Solutions
+## Practice DI Sets (5 Sets)
 
-### Solution 1
-1. Identify initial sales (2022) $= 150$ and final sales (2023) $= 180$.
-2. Apply the percentage change formula:
-   $$\text{Growth} = \frac{180 - 150}{150} \times 100 = \frac{30}{150} \times 100 = 20\%$$
-3. **Answer**: The sales grew by **20%**.
+### Set 1: Table — Company Sales Data
 
-### Solution 2
-1. Total budget $T = 60{,}000$. Education sector $D = 72^\circ$.
-2. Calculate the value:
-   $$\text{Education} = \frac{72}{360} \times 60{,}000 = \frac{1}{5} \times 60{,}000 = 12{,}000$$
-3. **Answer**: **Rs. 12,000** is spent on Education.
+| Year | Product A | Product B | Product C | Total |
+|------|-----------|-----------|-----------|-------|
+| 2020 | 120       | 80        | 100       | 300   |
+| 2021 | 150       | 100       | 120       | 370   |
+| 2022 | 180       | 130       | 140       | 450   |
+| 2023 | 200       | 150       | 160       | 510   |
 
-### Solution 3
-1. Science in College A $= 240$. Ratio Science(A) : Science(B) $= 3 : 2$.
-   $$\text{Science(B)} = 240 \times \frac{2}{3} = 160$$
-2. Commerce in College A $= 320 - 180 = 140$.
-3. Arts total $= 120 + 150 = 270$.
-4. College B total $= 160 + 180 + 150 = 490$.
-5. Grand total $= 500 + 490 = 990$.
-6. **Answer**: College B has **490** students.
+**Questions:**
+1. What is the percentage increase in total sales from 2020 to 2023?
+2. Which product had the highest percentage growth from 2020 to 2023?
+3. What percentage of total sales in 2022 was Product B?
+4. If Product A grows at the same rate in 2024 as 2022→2023, what will be its sales?
+5. In which year was Product C's share of total sales the highest?
 
-### Solution 4
-1. Students who like at least one sport:
-   $$n(F \cup C) = n(F) + n(C) - n(F \cap C) = 120 + 90 - 30 = 180$$
-2. Students who like neither:
-   $$200 - 180 = 20$$
-3. **Answer**: **20** students like neither sport.
+**Solutions:**
+1. Total 2020 = 300, 2023 = 510. Increase = $\frac{510-300}{300} \times 100 = 70\%$
+2. A: $\frac{200-120}{120} = 66.7\%$, B: $\frac{150-80}{80} = 87.5\%$, C: $\frac{160-100}{100} = 60\%$ → **Product B**
+3. Product B 2022 = 130, Total 2022 = 450. $\frac{130}{450} \times 100 = 28.9\%$
+4. 2022→2023 growth for A = $\frac{200-180}{180} = 11.1\%$. 2024 = $200 \times 1.111 = 222.2 \approx 222$
+5. 2020: $100/300=33.3\%$, 2021: $120/370=32.4\%$, 2022: $140/450=31.1\%$, 2023: $160/510=31.4\%$ → **2020**
 
-### Solution 5
-1. Others sector angle $= 36^\circ$.
-2. New total budget $= 75{,}000$.
-3. New Others expense:
-   $$\frac{36}{360} \times 75{,}000 = \frac{1}{10} \times 75{,}000 = 7{,}500$$
-4. **Answer**: **Rs. 7,500** is spent on Others.
+---
+
+### Set 2: Bar Graph — Quarterly Revenue (in Crores)
+
+```
+Q1: 45  ████████████████████
+Q2: 60  ████████████████████████████
+Q3: 55  █████████████████████████
+Q4: 70  ████████████████████████████████
+```
+
+**Questions:**
+1. What is the average quarterly revenue?
+2. Q4 revenue is what percentage more than Q1?
+3. If Q1 next year grows by 20%, what will be the revenue?
+4. Which quarter shows the maximum drop from previous quarter?
+3. What percentage of annual revenue is Q3?
+
+**Solutions:**
+1. Average = $(45+60+55+70)/4 = 230/4 = 57.5$ crores
+2. $\frac{70-45}{45} \times 100 = 55.6\%$
+3. $45 \times 1.2 = 54$ crores
+4. Q2→Q3: $60→55$ drop of 5. Q3→Q4: increase. Q1→Q2: increase. → **Q2 to Q3**
+5. Annual = 230. Q3 = 55. $\frac{55}{230} \times 100 = 23.9\%$
+
+---
+
+### Set 3: Pie Chart — Budget Allocation
+
+| Sector | Percentage |
+|--------|------------|
+| Education | 30% |
+| Healthcare | 20% |
+| Infrastructure | 25% |
+| Defense | 15% |
+| Others | 10% |
+
+Total Budget = Rs. 1000 crores
+
+**Questions:**
+1. Amount allocated to Infrastructure?
+2. Education gets how much more than Defense?
+3. If Healthcare budget increases by 20% next year, what will be the new amount?
+4. What angle does Healthcare sector subtend at center?
+5. If total budget increases by 10% and percentages remain same, new Education allocation?
+
+**Solutions:**
+1. $25\% \times 1000 = 250$ crores
+2. Education = 300, Defense = 150. Difference = 150 crores
+3. Current Healthcare = 200. New = $200 \times 1.2 = 240$ crores
+4. $20\% \times 360° = 72°$
+5. New total = 1100. Education = $30\% \times 1100 = 330$ crores
+
+---
+
+### Set 4: Line Graph — Stock Price Trend
+
+| Month | Price (Rs) |
+|-------|------------|
+| Jan   | 100        |
+| Feb   | 110        |
+| Mar   | 105        |
+| Apr   | 120        |
+| May   | 115        |
+| Jun   | 130        |
+
+**Questions:**
+1. Maximum monthly increase and between which months?
+2. Average monthly price?
+3. Percentage change from Jan to Jun?
+4. In how many months did price decrease?
+5. If trend continues with same average monthly increase, price in Jul?
+
+**Solutions:**
+1. Increases: Jan→Feb: +10, Feb→Mar: -5, Mar→Apr: +15, Apr→May: -5, May→Jun: +15. Max = **+15 (Mar→Apr and May→Jun)**
+2. Average = $(100+110+105+120+115+130)/6 = 680/6 = 113.33$
+3. $\frac{130-100}{100} \times 100 = 30\%$
+4. Decreases: Feb→Mar, Apr→May = **2 months**
+5. Total increase = 30 over 5 months = 6/month. Jul = $130 + 6 = 136$
+
+---
+
+### Set 5: Caselet — Student Performance
+
+In a class of 60 students:
+- 40% scored above 80% in Math
+- 30% scored above 80% in Physics
+- 20% scored above 80% in both
+- 25% scored below 50% in Math
+- 15% scored below 50% in Physics
+- 10% scored below 50% in both
+
+**Questions:**
+1. How many students scored above 80% in at least one subject?
+2. How many scored above 80% in Math only?
+3. How many scored below 50% in at least one subject?
+4. How many scored between 50-80% in both subjects?
+5. What percentage scored above 80% in exactly one subject?
+
+**Solutions:**
+1. $P(M \cup P) = 40 + 30 - 20 = 50\%$. Students = $60 \times 0.5 = 30$
+2. Math only = $40 - 20 = 20\%$. Students = $60 \times 0.2 = 12$
+3. $P(M' \cup P') = 25 + 15 - 10 = 30\%$. Students = $60 \times 0.3 = 18$
+4. Above 80% in at least one = 30. Below 50% in at least one = 18. Total = 48. Remaining = 12. But need between 50-80 in both. 
+   - Above 80 in both = 12. Below 50 in both = 6. 
+   - Math only above 80 = 12, Physics only above 80 = 6.
+   - Math only below 50 = 9, Physics only below 50 = 3.
+   - Between 50-80 in both = Total - (all above 80 categories) - (all below 50 categories) - (mixed)
+   - Actually: Students in 50-80 range for Math = $60 - 24 - 15 = 21$. For Physics = $60 - 18 - 9 = 33$.
+   - Using inclusion-exclusion for 50-80 in both is complex. Let's use complement:
+   - Not (above 80 in either) = 30 students. Not (below 50 in either) = 42 students.
+   - Between 50-80 in both = Total - (above 80 in at least one) - (below 50 in at least one) + (both above 80 and below 50 - impossible)
+   - = $60 - 30 - 18 = 12$ students.
+5. Exactly one above 80% = $(40-20) + (30-20) = 30\%$. Students = 18. Percentage = **30%**
+
+---
+
+## Quick Reference Card
+
+| DI Type | Key Approach |
+|---------|-------------|
+| Table | Calculate row/col totals first |
+| Bar Graph | Compare heights, calculate % change |
+| Line Graph | Find slopes, trends, max/min |
+| Pie Chart | Convert % to values, angles |
+| Caselet | Build table from text |
+
+| Calculation | Shortcut |
+|-------------|----------|
+| % of total | $\frac{\text{Part}}{\text{Total}} \times 100$ |
+| % change | $\frac{\text{New-Old}}{\text{Old}} \times 100$ |
+| Share % | $\frac{\text{Part}}{\text{Whole}} \times 100$ |
+| Angle in pie | $\% \times 3.6°$ |
 
 ---
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Data interpretation topic sources
+* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Data Interpretation
+* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — DI practice sets
+* [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

@@ -1,272 +1,348 @@
-# GATE Civil Engineering — Topic-Wise Revision Notes
+# GATE Civil — Rapid Revision Cards
 
-> Concise, topic-wise revision summaries for GATE Civil 2027. Each topic lists key concepts, essential formulas, and typical question pointers, paraphrased from the free GATE Civil study material and the IITK Civil/HWRE placement repository.
+## Overview
 
----
-
-## 1. Engineering Mathematics
-
-### 1.1 Linear Algebra
-- **Matrices**: symmetric, skew-symmetric, orthogonal; rank, inverse; eigenvalues/eigenvectors; Cayley-Hamilton theorem ($\mathbf{p(A)=0}$ for $p(\lambda)=\det(\lambda I-A)$); diagonalisation.
-- **Systems**: Consistency condition $\rho(A) = \rho(A|B)$.
-- **Key formulas**: $A\mathbf{v}=\lambda \mathbf{v}$; $|\det A| = \prod \lambda_i$; $\text{tr}(A) = \sum \lambda_i$.
-- **Typical questions**: rank of $3\times3$ matrix, eigenvalues of $2\times2$ matrix, solution of simultaneous linear equations.
-
-### 1.2 Calculus
-- **Single variable**: limits, continuity, differentiability, mean value theorem, maxima/minima.
-- **Multivariable**: partial derivatives, total derivative, chain rule, gradient $\nabla f$, divergence $\nabla\cdot\vec{v}$, curl $\nabla\times\vec{v}$.
-- **Integrals**: double/triple integrals; Green's, Stokes', Gauss' theorems ($\int\!\!\int_S \nabla\cdot\vec{F}\,dS = \int\!\!\int\!\!\int_V \nabla\cdot\vec{F}\,dV$).
-- **Common derivatives**: $\frac{d}{dx}(x^n)=nx^{n-1}$; $\frac{d}{dx}\ln x = 1/x$.
-
-### 1.3 Ordinary Differential Equations
-- **First order**: separable, linear $\left(\frac{dy}{dx}+Py=Q\right)$ with integrating factor $e^{\int P\,dx}$, exact, Bernoulli.
-- **Higher order**: homogeneous with constant coefficients; complementary function + particular integral (variation of parameters).
-- **Applications**: spring-mass-dashpot ($m\ddot x + c\dot x + kx = F$), RC/RL circuits.
-- **Key**: Auxiliary equation roots → under/critically/over damped behaviour in mechanical vibrations.
-
-### 1.4 Partial Differential Equations
-- **Classification**:
-  - Elliptic: $\frac{A\,G_{xx}+2B\,G_{xy}+C\,G_{yy}=0}$, $B^2-AC<0$ (e.g. Laplace: $\nabla^2 u=0$).
-  - Parabolic: $B^2-AC=0$ (heat/diffusion: $\frac{\partial u}{\partial t}=\alpha\nabla^2 u$).
-  - Hyperbolic: $B^2-AC>0$ (wave: $\frac{\partial^2 u}{\partial t^2}=c^2\nabla^2 u$).
-- **Methods**: separation of variables, boundary value problems.
-
-### 1.5 Probability & Statistics
-- **Distributions**: Normal $\mathcal{N}(\mu,\sigma^2)$ with PDF $f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}$; Binomial, Poisson, Exponential, Uniform.
-- **Theorems**: Central Limit Theorem; Law of Large Numbers.
-- **Bayes' theorem**: $P(A|B)=\frac{P(B|A)P(A)}{P(B)}$.
-- **Measures**: $E[X]=\sum xP(x)$; $\text{Var}(X)=E[X^2]-(E[X])^2$.
-- **Hypothesis testing**: Type I/II errors, p-value, significance level.
-
-### 1.6 Numerical Methods
-- **Root finding**: Bisection; **Newton–Raphson**: $x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$.
-- **Linear systems**: Gauss elimination (forward elimination + back substitution); Gauss-Seidel iteration.
-- **Interpolation**: Lagrange; Newton forward/backward difference.
-- **Integration**: **Trapezoidal**: $\frac{h}{2}[f_0+2(f_1+\cdots+f_{n-1})+f_n]$; **Simpson's 1/3**: $\frac{h}{3}[f_0+4f_1+2f_2+\cdots]$.
-- **ODE**: Euler; **Runge–Kutta 4th order** (most common in GATE).
+One-page rapid revision cards for each major GATE Civil topic. Use for last-minute review. Each card: key formulas, concepts, and common question types.
 
 ---
 
-## 2. Engineering Mechanics
+## 📐 CARD 1: Engineering Mathematics
 
-### 2.1 Statics
-- **Equilibrium**: $\sum F_x=0,\ \sum F_y=0,\ \sum M=0$.
-- **Trusses**: Method of joints; method of sections.
-- **Friction**: Limiting friction $F=\mu N$; cone of friction; wedges, screw threads.
-- **Centroids & centres of mass** (composite bodies).
+### Linear Algebra
+| Concept | Formula/Key Point |
+|---------|-------------------|
+| Eigenvalues | det(A - λI) = 0 |
+| Cayley-Hamilton | Every matrix satisfies its characteristic equation |
+| Rank | Number of non-zero rows in echelon form |
+| Inverse | A⁻¹ = adj(A)/det(A) |
 
-### 2.2 Dynamics
-- **Kinematics**: Rectilinear/curvilinear; relative motion; projectile motion.
-- **Kinetics**: Newton's second law $\sum F = ma$; work-energy theorem ($W=\Delta KE$); impulse-momentum ($\sum F \Delta t = \Delta p$).
-- **Vibrations**: Free vibration $x=A\cos\omega_n t + B\sin\omega_n t$; natural frequency $\omega_n=\sqrt{k/m}$; damping ratio $\zeta$; critical damping $\zeta=1$.
+### Calculus
+| Concept | Formula |
+|---------|---------|
+| Taylor Series | f(x) = f(a) + f'(a)(x-a) + f''(a)(x-a)²/2! + ... |
+| Gradient | ∇f = (∂f/∂x, ∂f/∂y, ∂f/∂z) |
+| Divergence | ∇·F = ∂Fx/∂x + ∂Fy/∂y + ∂Fz/∂z |
+| Curl | ∇×F = determinant |
 
-### 2.3 Virtual Work
-- Principle: $\delta W = 0$ for equilibrium; applied to beams, frames, and mechanisms.
+### Differential Equations
+| Type | Solution Approach |
+|------|-------------------|
+| dy/dx + P(x)y = Q(x) | IF = e^∫Pdx |
+| d²y/dx² + ay = 0 | y = C₁cos(√ax) + C₂sin(√ax) |
+| Cauchy-Euler | x²y'' + axy' + by = 0 → try y = x^m |
 
----
+### Probability
+| Concept | Formula |
+|---------|---------|
+| Bayes | P(A|B) = P(B|A)P(A)/P(B) |
+| Binomial | P(X=k) = C(n,k)p^k(1-p)^(n-k) |
+| Normal | f(x) = (1/√2πσ²)e^(-(x-μ)²/2σ²) |
+| E[X] | ΣxP(x) |
 
-## 3. Fluid Mechanics
-
-### 3.1 Fluid Properties
-- Density $\rho$, specific weight $\gamma=\rho g$, specific gravity, viscosity $\mu$ (Newtons law of viscosity $\tau=\mu\frac{du}{dy}$), surface tension, capillarity.
-
-### 3.2 Fluid Statics
-- Hydrostatic pressure $p=\gamma h$; centre of pressure; buoyancy $F_B = \rho g V_{displaced}$; stability: metacentre $M$, $GM = \frac{I_{xx}}{V} - CG$ (stable if $GM>0$).
-
-### 3.3 Kinematics & Dynamics
-- **Bernoulli** (along streamline): $\frac{p}{\gamma}+\frac{v^2}{2g}+z=\text{const}$; assumptions: inviscid, incompressible, steady, along streamline.
-- **Continuity**: $A_1v_1=A_2v_2$ (steady, incompressible).
-- **Momentum**: $\sum F_x = \rho Q(v_2\cos\theta_2 - v_1\cos\theta_1)$.
-- **Energy equation** with head loss $h_L$.
-
-### 3.4 Dimensional Analysis
-- Buckingham π theorem → dimensionless groups: **Reynolds** $Re=\frac{\rho v L}{\mu}$, **Froude** $Fr=\frac{v}{\sqrt{gL}}$, **Weber** $We=\frac{\rho v^2 L}{\sigma}$, **Euler** $Eu=\frac{p}{\rho v^2}$, **Mach** $Ma=\frac{v}{c}$.
-- Model analysis, scale ratios.
-
-### 3.5 Viscous & Turbulent Flow
-- **Laminar** (pipe): parabolic profile, $Hagen$–$Poiseuille$ $\Delta p = \frac{32\mu L v}{\rho g D^2}$; $Re < 2000$.
-- **Turbulent**: Prandtl mixing length; logarithmic profile.
-- **Head loss**: **Darcy–Weisbach** $h_f = f\frac{L}{D}\frac{v^2}{2g}$; **Hazen–Williams** $h_f=10.67 L Q^{1.85}/(C^{1.85} D^{4.87})$; **Manning** $v=\frac{1}{n}R^{2/3}S^{1/2}$.
-- **Boundary layer**: $\delta$, displacement & momentum thickness; $Re_x = \frac{\rho vx}{\mu}$; transition at $Re_x \approx 5\times10^5$.
-
-### 3.6 Flow Measurement & Pumps
-- **Venturi/Orifice meter**: $Q=C_d A_1 A_2\sqrt{2g\Delta h}/\sqrt{A_1^2-A_2^2}$.
-- **Weirs**: rectangular $Q=1.84(L-0.2H)H^{3/2}$.
-- **Pumps**: System curve + pump curve; BEP; $NPSH_{req}$, $NPSH_{avail}$.
-- **Turbines**: Specific speed $N_s=N\sqrt{P}/H^{5/4}$; Pelton (impulse), Francis & Kaplan (reaction).
+### Numerical Methods
+| Method | Formula |
+|--------|---------|
+| Newton-Raphson | x_{n+1} = x_n - f(x_n)/f'(x_n) |
+| Trapezoidal | ∫f(x)dx ≈ h/2[f₀ + 2(f₁+...+f_{n-1}) + f_n] |
+| Simpson 1/3 | ∫f(x)dx ≈ h/3[f₀ + 4f₁ + 2f₂ + 4f₃ + ... + f_n] |
 
 ---
 
-## 4. Geotechnical Engineering
+## 🏗️ CARD 2: Structural Engineering
 
-### 4.1 Soil Classification & Index Properties
-- IS classification: coarse-grained (GW/GP/GM/GC by sieve analysis); fine-grained (CL/CH via plasticity chart: $I_p = 0.73(w_L-20)$ A-line).
-- Index properties: moisture content $w$, specific gravity $G_s$, Atterberg limits ($LL$, $PL$, $PI=LL-PL$, $IL$).
-- Clay minerals: kaolinite (flocculated, low shrink-swell), montmorillonite (dispersed, high shrink-swell), illite.
+### Mechanics
+| Concept | Formula |
+|---------|---------|
+| Bending Stress | σ = My/I |
+| Shear Stress | τ = VQ/Ib |
+| Torsion | T/J = τ/r = Gθ/L |
+| Deflection | EI d²y/dx² = M(x) |
 
-### 4.2 Permeability & Seepage
-- **Darcy's law**: $q = kiA$; $k = \frac{C D^2 \gamma_w}{\mu}$.
-- **Flow nets**: Laplace equation $\frac{\partial^2 h}{\partial x^2}+\frac{\partial^2 h}{\partial z^2}=0$; $Q = k_f \cdot N_f \cdot \frac{b}{N_d}$.
-- Effective stress principle: $\sigma' = \sigma - u$.
+### Columns
+| End Condition | K | P_cr |
+|---------------|---|------|
+| Fixed-Fixed | 0.5 | π²EI/(0.5L)² |
+| Fixed-Pinned | 0.7 | π²EI/(0.7L)² |
+| Pinned-Pinned | 1.0 | π²EI/L² |
+| Fixed-Free | 2.0 | π²EI/(2L)² |
 
-### 4.3 Compaction & Consolidation
-- **Compaction**: OMC & MDD; Proctor test (standard/impact).
-- **Terzaghi 1D consolidation**: $C_v = \frac{k(1+e_0)}{a_v\gamma_w}$; time factor $T_v=\frac{C_v t}{\bar{H}^2}$; $T_v = \frac{\pi}{4}U^2$ (for $U<60\%$), $T_v=1.781(\ln(100/U)-0.999\times10^{-3})$ for higher.
-- **Settlement**: $S_c = \frac{C_c}{1+e_0}H\log_{10}\frac{\sigma'_f}{\sigma'_i}$; immediate & secondary compression.
+### IS 456 (RCC)
+| Parameter | Value |
+|-----------|-------|
+| M_u,lim (Fe415) | 0.138f_ckbd² |
+| M_u,lim (Fe500) | 0.133f_ckbd² |
+| x_u,max/d (Fe415) | 0.48 |
+| x_u,max/d (Fe500) | 0.46 |
+| Min tension steel | 0.85bd/f_y |
+| Load factors | 1.5(DL+LL), 1.2(DL+LL±WL) |
 
-### 4.4 Shear Strength
-- **Mohr–Coulomb**: $\tau = c + \sigma'\tan\phi$.
-- **Triaxial tests**: CU, UU, CD; effective vs total stress parameters.
-- $\sigma_1=\sigma_3 N_\phi + 2c\sqrt{N_\phi}$, where $N_\phi=\tan^2(45+\phi/2)$.
-
-### 4.5 Earth Pressure & Stability
-- **Rankine active/passive**: $K_a = \tan^2(45-\phi/2)$; $K_p=\tan^2(45+\phi/2)$.
-- **Coulomb**: incl. wall friction, surcharge, inclined backfill.
-- **Slope stability**: Swedish circle (ordinary), **Bishop's simplified** method, Janbu's method; critical slip surface.
-
-### 4.6 Foundation Engineering
-- **Bearing capacity**: Terzaghi ($q_{ult}=cN_c+qN_q+0.5\gamma BN_\gamma$); Meyerhof; HAS.
-- **Settlement**: immediate, primary consolidation, secondary.
-- **Footing design**: isolated, combined, strap, raft; punching shear $\tau = Q/(4(b_1+b_2)\bar{d}$.
-
----
-
-## 5. Structural Analysis
-
-### 5.1 Statically Determinate Structures
-- **Static determinacy**: beam $m+r=2j$; truss $m+r=2j$.
-- **Diagrams**: Shear Force (SF) & Bending Moment (BM); relationship $dV/dx=-w$, $dM/dx=V$.
-
-### 5.2 Statically Indeterminate
-- **Force method**: flexibility matrix, consistent deformation.
-- **Displacement method**: slope-deflection, **moment distribution** (Hardy Cross).
-- **Influence lines** (Müller-Breslau principle).
-
-### 5.3 Matrix/Computer Methods
-- Member stiffness matrix; transformation; assembly; boundary conditions; static & kinematic indeterminacy ($D_k = 3m_r - r$; $D_s = m + r - 3j + r_r$).
-
-### 5.4 Deflection
-- **Double integration**: $EI\frac{d^2y}{dx^2}=M$; **moment-area**: $\theta_{AB}=\frac{1}{EI}\int M\,dx$.
-- **Conjugate beam method**; **Castigliano's** / unit-load method ($\Delta = \int \frac{Mm}{EI}dx$); **Macaulay's** notation.
+### IS 800 (Steel)
+| Parameter | Value |
+|-----------|-------|
+| γ_M0 (yield) | 1.1 |
+| γ_M1 (ultimate) | 1.25 |
+| Tension (net) | 0.9A_nf_u/γ_M1 |
+| Bolt shear | f_ub n_n A_nb/(√3γ_Mb) |
 
 ---
 
-## 6. Reinforced Concrete (RCC)
+## 🪨 CARD 3: Geotechnical Engineering
 
-- **Limit state**: $\gamma_{m0}=1.5$ (dead), $\gamma_{m0}=1.5$ (live), load factors 1.5.
-- **Singly reinforced**: $x_u = \frac{0.87f_y A_{st}}{0.36f_{ck}b}$; $M_u=0.87f_yA_{st}(d-0.42x_u)$.
-- **Limiting depth**: Fe 415 → $x_{u,max}=0.48d$; Fe 500 → $x_{u,max}=0.45d$.
-- **Shear**: $\tau_v = V/(bd)$; $\tau_c$ from IS code tables; stirrups $V_{us}=0.87f_y A_{sv} j_d/s$.
-- **Development length**: $L_d = \frac{\phi\sigma_s}{4\tau_{bd}}$ (anchorage = 8–12 $\phi$ hooks for stirrups).
-- **Slabs**: one-way if $l_y/l_x \le 2$.
-- **Columns**: minimum eccentricity $e_{min}=0.005D$ or 20 mm (whichever larger); interaction diagrams for biaxial bending.
-- **Footing**: combine with steel/concrete design per IS 456.
+### Soil Properties
+| Property | Formula |
+|----------|---------|
+| Void ratio | e = V_v/V_s |
+| Porosity | n = e/(1+e) |
+| Saturation | S = V_w/V_v |
+| Se = wG_s | |
 
----
+### Permeability
+| Test | Formula |
+|------|---------|
+| Constant head | k = QL/(Aht) |
+| Falling head | k = (aL/At)ln(h₁/h₂) |
 
-## 7. Steel Structures
+### Shear Strength
+| Concept | Formula |
+|---------|---------|
+| Mohr-Coulomb | τ = c + σ'tanφ |
+| Triaxial | σ₁ = σ₃N_φ + 2c√N_φ, N_φ = tan²(45+φ/2) |
 
-- **Connections**: riveted, **welded** (fillet $\rightarrow$ throat $=0.7\times$size; groove); **bolted** (bearing-type vs friction-grip).
-- **Tension members**: net area $A_{net}=A_g - n\phi^2/4$ (n = number of bolts); shear lag factor $\alpha$.
-- **Compression members**: $\lambda = l/r$ (radius of gyration $r=\sqrt{I/A}$); $P_{uz}=0.6f_u A_g$ (IS 800); lacing/battening.
-- **Beams**: plastic moment $M_p=\phi_y Z_p$; shape factor $S=M_p/M_y$ (1.12–1.18 for rectangle).
-- **Gantry girders**: dynamic factor for trolley/loads; combined stresses.
+### Consolidation
+| Parameter | Formula |
+|-----------|---------|
+| Settlement (NC) | S_c = [C_c/(1+e₀)]H log(σ'_f/σ'_i) |
+| Time factor | T_v = c_vt/H²_dr |
+| T_v (50%) | 0.197 |
+| T_v (90%) | 0.848 |
 
----
+### Bearing Capacity
+| Theory | Formula |
+|--------|---------|
+| Terzaghi | q_u = cN_c + qN_q + 0.5γBN_γ |
+| Net safe | q_s = (q_u - γD_f)/F + γD_f |
 
-## 8. Structural Dynamics & Earthquake Engineering
-- **SDOF**: $m\ddot x + c\dot x + kx = F(t)$; $\omega_n=\sqrt{k/m}$; $\zeta = c/(2\sqrt{km})$.
-- **Response spectrum**: IS 1893 elastic spectrum; **SRSS & CQC** modal combination.
-- **Seismic coefficient**: $V_B = \frac{Z}{2}\frac{I}{R}W$ (or $\alpha W$).
-
----
-
-## 9. Geotechnical / Water Resources (Civil Depth)
-- **Water resources planning**: mass diagram, reservoir capacity–yield relation; **Muskingum** flood routing: $O_{t+\Delta t}=C_0 I_{t+\Delta t}+C_1 I_t+C_2 O_t$.
-
----
-
-## 10. Transportation Engineering
-
-### 10.1 Highway Geometric Design
-- **Sight distances**: SSD $= 0.278 V t_R + V^2/(254f)$; OSD; ISD.
-- **Superelevation**: $e+f=V^2/(127R)$; minimum $R=V^2/(1125(f+C)$.
-- **Vertical curves**: summit — $L=AI^2/(2a\times100)$; valley — $L=2y_m/(aC)$.
-- **Transition curves**: spiral; $\Delta E$ and shift.
-
-### 10.2 Pavement Design
-- **Flexible**: **Boussinesq/Glassius** (2D); **Burmister** (3D); CBR method, Westergaard.
-- **Rigid**: Westergaard; load equations; joint spacing; **critical load position**.
-
-### 10.3 Traffic Engineering
-- **Speed–density**: $q=kv$; shockwave $w=(q_2-q_1)/(k_2-k_1)$.
-- **Signal design**: **Webster**: $C = \frac{1.5L}{1-Y}$ where $Y=\sum q_i/s_i$.
-- **Highway capacity** (HCS), PCU values.
+### Earth Pressure
+| Theory | K_a | K_p |
+|--------|-----|-----|
+| Rankine | tan²(45-φ/2) | tan²(45+φ/2) |
 
 ---
 
-## 11. Railways & Airport Engineering
-- **Railways**: gauge types; superelevation $e=G\tan\theta$; cant deficiency; grain flow.
-- **Airports**: runway orientation (wind rose), basic runway length, thrust–length–gradient relation, gate capacity.
+## 💧 CARD 4: Water Resources Engineering
+
+### Fluid Mechanics
+| Concept | Formula |
+|---------|---------|
+| Bernoulli | P/γ + V²/2g + z = constant |
+| Continuity | A₁V₁ = A₂V₂ |
+| Reynolds | Re = VD/ν |
+| Froude | Fr = V/√(gD) |
+
+### Pipe Flow
+| Equation | Formula |
+|----------|---------|
+| Darcy-Weisbach | h_f = f(L/D)(V²/2g) |
+| Hazen-Williams | h_f = 10.67LQ^1.85/(C^1.85D^4.87) |
+| Manning | V = (1/n)R^(2/3)S^(1/2) |
+
+### Open Channel
+| Concept | Formula |
+|---------|---------|
+| Critical depth (rect) | y_c = (q²/g)^(1/3) |
+| Hydraulic jump | y₂/y₁ = ½[√(1+8Fr₁²)-1] |
+| Energy loss | ΔE = (y₂-y₁)³/(4y₁y₂) |
+| GVF | dy/dx = (S₀-S_f)/(1-Fr²) |
+
+### Hydrology
+| Method | Formula |
+|--------|---------|
+| Rational | Q = CiA |
+| Muskingum | O₂ = C₀I₂ + C₁I₁ + C₂O₁ |
+| Theis | s = (Q/4πT)W(u) |
+| Thiem | Q = 2πT(h₂-h₁)/ln(r₂/r₁) |
 
 ---
 
-## 12. Environmental Engineering
+## 🌍 CARD 5: Environmental Engineering
 
-### 12.1 Water Supply
-- **Demand**: per capita consumption, peak factor ($1.5$ for daily max).
-- **Population forecast**: arithmetic, geometric, incremental.
-- **Intake, treatment train**: screening → grit → coagulation/flocculation → sedimentation → filtration → disinfection.
-- **Coagulation**: alum dose; jar test.
-- **Filtration**: rapid sand $q \approx 5–7.5$ m³/m²/day; backwash.
+### Water Treatment
+| Process | Key Parameter |
+|---------|---------------|
+| Coagulation | Alum 20-60 mg/L, G=300-1000 s⁻¹, 30-60s |
+| Flocculation | G=20-70 s⁻¹, 15-30 min |
+| Sedimentation | Overflow 1-2 m³/m²·h, HRT 2-4 hrs |
+| Rapid sand filter | Rate 4-6 m/h, bed 0.6-0.7m |
+| Chlorination | Residual 0.2-1.0 mg/L, CT ≥ 30 mg·min/L |
 
-### 12.2 Sewerage / Stormwater
-- **DWF**: $Q = \frac{5}{3}qiP$ (per capita, $i$=inflow).
-- **Rational method**: $Q=CAi$ (storm).
-- **Sewer appurtenances**: manholes, inverted siphon, catchbasin, flushing.
+### Wastewater
+| Parameter | Typical Value |
+|-----------|---------------|
+| BOD₅ (domestic) | 200-300 mg/L |
+| COD/BOD ratio | 1.5-2.0 |
+| ASP F/M ratio | 0.2-0.5 kgBOD/kgMLSS·d |
+| MLSS | 1500-3000 mg/L |
+| SRT | 5-15 days |
+| SVI | 50-150 mL/g |
 
-### 12.3 Wastewater Treatment
-- **Activated sludge**: MLSS, MLVSS, sludge volume index $SVI=X/(V_{os}\cdot 1000)$; $F/M = \frac{QS_0}{XV}$.
-- **BOD**: $L_t = L_0 e^{-kt}$; UASB, anaerobic digestion; biogas %CH₄.
-- **Trickling filter**: recirculation ratio; removal %.
-- **Oxidation pond**: HRT 5–10 days, depth 3–5 m.
-- **Solid waste**: collection system design, MSW composition, landfill.
-
----
-
-## 13. Surveying & Geomatics
-- **Traversing**: $\Sigma L=0$, $\Sigma D=0$; Bowditch/Egyptian method for corrections.
-- **Tacheometry**: stadia formula $D=ks+C$; anallactic ($k=100$, $C=0$).
-- **Curves**: simple circular curve ($L_c = R\Delta$, $T=R\tan(\Delta/2)$); transition curve length $L=V^3/(4RC)$.
-- **GNSS/ GPS**: positioning, DGPS corrections.
-- **Photogrammetry**: parallax, scale; map projection basics.
-
----
-
-## 14. Construction Management & Engineering Economy
-- **CPM/PERT**: critical path (longest path); float (TF, FF, TF); **crashing**: minimum cost.
-- **PERT**: $\beta = (\beta' - \beta)/\sigma$ activity variance; project variance.
-- **EVA** (Earned value): PV, EV, AC; $CV=EV-AC$, $SV=EV-PV$, $CPI=EV/AC$, $SPI=EV/PV$.
-- **Engineering economics**: Present worth $PW=F(P/F,i,n)$; Annual worth; $IRR = 0$; $Payback$ period.
+### Discharge Standards (CPCB)
+| Parameter | Inland Surface | Land Disposal |
+|-----------|---------------|---------------|
+| BOD₅ | < 30 mg/L | < 100 mg/L |
+| COD | < 250 mg/L | — |
+| TSS | < 100 mg/L | — |
+| pH | 5.5-9.0 | 6.0-8.5 |
 
 ---
 
-## 15. Engineering Geology (if applicable to paper)
-- **Minerals & rocks**: Igneous, Sedimentary, Metamorphic; structural features, unconformity.
-- **Geohazards**: landslides, earthquakes; site investigation (SPT N-value, SCPT).
+## 🛣️ CARD 6: Transportation Engineering
+
+### Geometric Design
+| Parameter | Formula |
+|-----------|---------|
+| SSD | 0.278Vt_R + V²/(254f) |
+| Superelevation | e + f = V²/(127R) |
+| Transition curve | L = V³/(4RC), C=0.3 m/s³ |
+
+### Traffic
+| Concept | Formula |
+|---------|---------|
+| Flow-density | q = kv |
+| Shockwave | w = (q₂-q₁)/(k₂-k₁) |
+| Webster cycle | C = 1.5L/(1-ΣY_i) |
+
+### Pavement
+| Type | Design Method |
+|------|---------------|
+| Flexible | CBR method (IRC 37) |
+| Rigid | Westergaard (IRC 58) |
 
 ---
 
-## Quick Memory Aids
-- **Euler's formula** (column): $P_{cr}=\frac{\pi^2 EI}{(KL)^2}$.
-- **Lacey's silt theory**: $f = 1.376\, s^{5/2}/\sqrt{3072}$ (silt factor relation), optimal depth & pitch.
-- **Thiele's method**, **Lacey vs Kennedy** scour in HWRE.
+## 📏 CARD 7: Surveying
+
+### Traversing
+| Concept | Formula |
+|---------|---------|
+| Latitude | L = l cosθ |
+| Departure | D = l sinθ |
+| Closing error | ΣL = 0, ΣD = 0 |
+| Area (coordinates) | A = ½|Σ(x_i y_{i+1} - x_{i+1} y_i)| |
+
+### Tacheometry
+| Formula | D = ks + C (k=100, C=0 for anallactic) |
+
+### Corrections
+| Correction | Formula |
+|------------|---------|
+| Curvature | -0.0785D² (D in km) |
+| Refraction | +0.0112D² (D in km) |
+
+---
+
+## 🎯 CARD 8: General Aptitude (Quick)
+
+### Percentages
+- Successive change: a + b + ab/100
+- Product stability: -x/(1+x/100)
+- 12.5% = 1/8, 16.67% = 1/6, 33.33% = 1/3
+
+### Speed/Time/Distance
+- Avg speed (equal dist): 2xy/(x+y)
+- Relative speed: same dir = x-y, opp = x+y
+- Train + platform: (L_train + L_platform)/V
+
+### Time & Work
+- LCM method: Total work = LCM(times)
+- Together: xy/(x+y)
+- Pipes: 1/x - 1/y = 1/t
+
+### Profit/Loss
+- SP = CP(100±P%)/100
+- Successive discount: d₁+d₂-d₁d₂/100
+- False weight: Gain% = Error/(True-Error)×100
+
+### Probability
+- P(A∪B) = P(A)+P(B)-P(A∩B)
+- Independent: P(A∩B) = P(A)P(B)
+- Bayes: P(A|B) = P(B|A)P(A)/P(B)
+
+---
+
+## 🎯 CARD 9: Key GATE Formulas (One Page)
+
+### Structural
+- M_u,lim = 0.138f_ckbd² (Fe415)
+- x_u,max/d = 0.48 (Fe415)
+- P_cr = π²EI/(KL)²
+- σ = My/I, τ = VQ/Ib
+
+### Geotech
+- τ = c + σ'tanφ
+- q_u = cN_c + qN_q + 0.5γBN_γ
+- S_c = C_cH/(1+e₀) log(σ'_f/σ'_i)
+- T_v = c_vt/H²_dr
+
+### Water Resources
+- h_f = f(L/D)(V²/2g)
+- y_c = (q²/g)^(1/3)
+- y₂/y₁ = ½[√(1+8Fr₁²)-1]
+- Q = CiA
+- s = (Q/4πT)W(u)
+
+### Environmental
+- BOD_t = L₀(1-e^{-kt})
+- F/M = QS₀/(VX)
+- SRT = VX/(Q_wX_w + Q_eX_e)
+
+---
+
+## 📋 Last Week Revision Plan
+
+| Day | Morning (2hr) | Evening (1hr) |
+|-----|---------------|---------------|
+| Mon | Math + Aptitude formulas | PYQs Math |
+| Tue | Structural formulas | PYQs Structural |
+| Wed | Geotech formulas | PYQs Geotech |
+| Thu | Water Resources formulas | PYQs Water |
+| Fri | Environmental formulas | PYQs Env |
+| Sat | Transportation + Survey | PYQs Trans/Survey |
+| Sun | **Full Mock Test** (3hr) | **Analyze mistakes** |
+
+---
+
+## 🚫 Common GATE Traps
+
+| Trap | Avoid By |
+|------|----------|
+| Unit mismatch | Always convert to consistent units |
+| Sign convention | Define +ve direction clearly |
+| Partial factor confusion | γ_f for loads, γ_m for materials |
+| Effective vs total stress | σ' = σ - u |
+| Critical depth vs normal depth | y_c from energy, y_n from Manning |
+| BOD vs COD | BOD < COD, ratio ~0.5-0.6 |
+| SSD vs OSD | SSD = stopping, OSD = overtaking |
+| Curvature vs refraction | Curvature -ve, Refraction +ve |
+
+---
+
+## 📝 Last Minute Checklist
+
+- [ ] All formula sheets memorized
+- [ ] 15 years PYQs solved (topic-wise)
+- [ ] 5 full mock tests completed
+- [ ] Virtual calculator practiced
+- [ ] Admit card, ID, stationery ready
+- [ ] Exam center location confirmed
+- [ ] Sleep 7+ hrs before exam
+- [ ] Light breakfast, water bottle
 
 ---
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — GATE Civil syllabus topics, recommended books, papers, channels
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Core civil/HWRE concepts and company-relevant topics
-* [gate-civil-notes](gate/civil/gate-civil-notes.md) — Topic detail
-* [gate-civil-formulas](gate/formulas/gate-civil-formulas.md) — Key formulas
+* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
+* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
+* [`../formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md) — Complete formula sheet
+* [`../civil/gate-civil-notes.md`](../civil/gate-civil-notes.md) — Detailed topic-wise notes
+* [`../practice/gate-civil-practice.md`](../practice/gate-civil-practice.md) — Practice problems

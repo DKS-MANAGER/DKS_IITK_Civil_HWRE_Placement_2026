@@ -2,112 +2,214 @@
 
 ## Scope
 
-Geotechnical engineering applies soil mechanics and rock mechanics to the design of foundations, slopes, retaining structures, and earth-supported systems. It bridges geology, material science, and structural engineering.
+Geotechnical engineering applies soil mechanics and rock mechanics to the design of foundations, slopes, retaining structures, and earth-supported systems.
+
+> **Related topics:** [`structures.md`](../structures/structures.md) · [`../hwre/irrigation/irrigation-engineering.md`](../../hwre/irrigation/irrigation-engineering.md)
+
+---
 
 ## Soil Mechanics Fundamentals
 
 ### Soil Properties & Classification
-- Grain-size distribution: Sieve analysis, hydrometer analysis
-- Atterberg limits: Liquid limit, plastic limit, plasticity index
-- Unified Soil Classification System (USCS) and AASHTO classification
-- Relative density and consistency index
+
+| Property | Test | Use |
+|----------|------|-----|
+| Grain-size distribution | Sieve + hydrometer | Classification, permeability estimation |
+| Liquid limit (LL) | Casagrande cup | Consistency, compressibility |
+| Plastic limit (PL) | Roll test | Consistency |
+| Plasticity index | PI = LL − PL | Clay behavior, A-line classification |
+| Water content | Oven drying | Phase relationships |
+
+**USCS Classification:**
+
+| Group | Symbol | Criteria |
+|-------|--------|----------|
+| Gravel | GW, GP | >50% retained on No.4 |
+| Sand | SW, SP | >50% passes No.4, >50% coarse |
+| Silt | ML, MH | Passes No.200, PI < 7 or LL > 50 |
+| Clay | CL, CH | Passes No.200, PI > 7, above A-line |
+| Organic | OL, OH, PT | High organic content |
+
+### Phase Relationships
+$$e = \frac{V_v}{V_s}, \quad n = \frac{V_v}{V}, \quad S = \frac{V_w}{V_v}$$
+$$Se = wG_s, \quad \gamma_{bulk} = \frac{G_s + Se}{1+e}\gamma_w, \quad \gamma_{dry} = \frac{G_s}{1+e}\gamma_w$$
 
 ### Permeability & Seepage
-- Darcy's law: v = ki
-- Permeability testing: Constant head, falling head
-- Seepage analysis: Flow nets for two-dimensional seepage
-- Uplift pressure and piping susceptibility
+
+**Darcy's law:** $v = ki$ (discharge velocity), $q = kiA$
+
+**Constant head test:** $k = \frac{QL}{Aht}$
+
+**Falling head test:** $k = \frac{aL}{At}\ln\frac{h_1}{h_2}$
+
+**Flow nets:**
+- Equipotential lines and flow lines form curvilinear squares
+- $q = kH\frac{N_f}{N_d}$ (seepage quantity)
+- Uplift pressure at any point = $\gamma_w \times$ (remaining head)
 
 ### Compaction
-- Proctor tests: Standard and modified compaction
-- Optimum moisture content and maximum dry density
-- Field compaction control: Relative compaction, moisture-density relations
 
-### Consolidation
-- One-dimensional consolidation theory
-- Terzaghi's consolidation equation: ∂u/∂t = cv × ∂²u/∂z²
-- Compression index (Cc), recompression index (Cr)
-- Time rate of consolidation: Tv = cv × t / Hdr²
-- Settlement estimation: Primary and secondary compression
+| Test | Energy | Purpose |
+|------|--------|---------|
+| Standard Proctor | 2.6 kN·m/L | Baseline compaction |
+| Modified Proctor | 5.5 kN·m/L | High compaction requirement |
 
-### Shear Strength
-- Mohr-Coulomb failure criterion: τ = c + σ' tan φ
-- Drained versus undrained shear strength
-- Triaxial test, direct shear test, and vane shear test
-- Pore pressure parameters (A and B)
+**Key relationship:** $\gamma_d = f(w)$ curve → peak at OMC (Optimum Moisture Content)
+
+### Consolidation — Terzaghi's Theory
+
+**Governing equation:**
+$$\frac{\partial u}{\partial t} = c_v \frac{\partial^2 u}{\partial z^2}$$
+
+**Settlement calculation:**
+$$S_c = \frac{C_c H}{1+e_0} \log\frac{\sigma'_0 + \Delta\sigma}{\sigma'_0}$$ (normally consolidated)
+$$S_c = \frac{C_r H}{1+e_0} \log\frac{\sigma'_0 + \Delta\sigma}{\sigma'_0}$$ (overconsolidated, if $\sigma'_0 + \Delta\sigma < \sigma'_c$)
+
+**Time rate:**
+$$T_v = \frac{c_v t}{H_{dr}^2}$$
+- $T_v = 0.2$ → 50% consolidation
+- $T_v = 0.848$ → 90% consolidation
+
+### Shear Strength — Mohr-Coulomb
+
+$$\tau_f = c' + \sigma' \tan\phi'$$ (effective stress, drained)
+$$\tau_f = c_u$$ (undrained, $\phi_u = 0$ for saturated clay)
+
+**Key parameters:**
+
+| Test | Conditions | Output |
+|------|-----------|--------|
+| UU (Unconsolidated Undrained) | Quick, no drainage | $c_u$ |
+| CU (Consolidated Undrained) | Consolidate first, then shear | $c', \phi', c_{cu}, \phi_{cu}$ |
+| CD (Consolidated Drained) | Full drainage during shear | $c', \phi'$ |
+
+---
 
 ## Foundation Engineering
 
-### Bearing Capacity
-- Terzaghi's bearing capacity equation for shallow foundations
-- Meyerhof, Hansen, and Vesic corrections for shape, inclination, depth, and ground inclination
-- Bearing capacity from in-situ tests: SPT, CPT
-- Allowable bearing pressure and factor of safety
+### Bearing Capacity — Terzaghi
 
-### Shallow Foundations
-- Footings: Isolated, combined, strip, mat
-- Contact pressure distribution
-- Settlement analysis: Immediate and consolidation settlement
-- Differential settlement criteria
+$$q_u = cN_c + qN_q + \frac{1}{2}\gamma BN_\gamma$$
 
-### Deep Foundations
-- Pile classification: End-bearing, friction, composite
-- Axial capacity: Static analysis and dynamic formulas
-- Negative skin friction (downdrag)
-- Pile groups: Group efficiency and block failure
+**Shape factors (Meyerhof):**
 
-### Lateral Loaded Piles
-- p-y curves for laterally loaded piles
-- Free-head versus fixed-head conditions
-- Software: LPile for p-y analysis
+| Foundation | $s_c$ | $s_q$ | $s_\gamma$ |
+|-----------|-------|-------|-----------|
+| Strip | 1.0 | 1.0 | 1.0 |
+| Square | 1.3 | 1.2 | 0.8 |
+| Circle | 1.3 | 1.2 | 0.6 |
+| Rectangular | $1+0.3(B/L)$ | $1+0.3(B/L)$ | $1-0.4(B/L)$ |
+
+**Net bearing capacity:** $q_{nu} = q_u - \gamma D_f$
+
+**Safe bearing pressure:** $q_s = q_{nu}/F + \gamma D_f$ ($F$ = factor of safety, typically 3)
+
+### Settlement Analysis
+- **Immediate settlement:** $S_i = \frac{qB(1-\nu^2)}{E_u} I_f$
+- **Consolidation settlement:** $S_c = \frac{C_c H}{1+e_0}\log\frac{\sigma'_0+\Delta\sigma}{\sigma'_0}$
+- **Secondary compression:** $S_s = C_\alpha H \log(t/t_p)$
+
+### Pile Foundations
+
+**Axial capacity (static):**
+$$Q_u = Q_b + Q_s = q_b A_b + \sum f_s A_s$$
+
+- End bearing: $q_b = cN_c^* + qN_q^*$ (deep foundation factors)
+- Skin friction: $f_s = \alpha c_u$ (for cohesive soils) or $f_s = K\sigma'_v \tan\delta$ (for cohesionless)
+
+**Group efficiency:**
+$$\eta_g = \frac{Q_{group}}{n \cdot Q_{single}}$$
+
+---
 
 ## Slope Stability
 
 ### Limit Equilibrium Methods
-- Ordinary method of slices (Fellenius)
-- Bishop's simplified method
-- Janbu's method
-- Morgenstern-Price method
 
-### Slope Stabilization
-- Reinforced slopes and mechanically stabilized earth (MSE)
-- Soil nails and anchors
-- Retaining walls: Gravity, cantilever, counterfort, sheet pile
+**Ordinary method of slices (Fellenius):**
+$$F_s = \frac{\sum(c' l + W\cos\alpha \tan\phi')}{\sum W\sin\alpha}$$
+
+**Bishop's simplified:**
+$$F_s = \frac{1}{\sum W\sin\alpha} \sum \frac{c'b + W(1-r_u)\tan\phi'}{m_\alpha}$$
+where $m_\alpha = \cos\alpha + \sin\alpha\tan\phi'/F_s$
+
+### Slope Stabilization Methods
+
+| Method | Application |
+|--------|-------------|
+| Retaining walls | Gravity, cantilever, counterfort, sheet pile |
+| Soil nails | Stabilize existing slopes |
+| Mechanically stabilized earth (MSE) | Reinforced soil walls |
+| Ground anchors | Active reinforcement |
+| Drainage | Reduce pore water pressure |
+
+---
 
 ## Earth Pressure Theories
 
-### Rankine Theory
-- Active and passive earth pressures for cohesive and cohesionless soils
-- Wall friction effects
-- Coulomb wedge theory for sloping backfills
+### Rankine (smooth wall, no friction)
+$$K_a = \tan^2(45° - \phi/2), \quad K_p = \tan^2(45° + \phi/2)$$
 
-## Software Tools
+**Active pressure:** $p_a = K_a\sigma_v - 2c\sqrt{K_a}$
+**Passive pressure:** $p_p = K_p\sigma_v + 2c\sqrt{K_p}$
 
-| Tool | Application |
-|------|-------------|
-| PLAXIS | 2D/3D finite element geotechnical analysis |
-| FLAC | Fast Lagrangian analysis of continua for slope and foundation problems |
-| SLOPE/W | Slope stability modeling |
-| SEEP/W | Seepage and groundwater flow analysis |
-| SIGMA/W | Stress-deformation analysis |
-| GeoStudio | Integrated geotechnical modeling suite |
-| gINT | Geotechnical data management |
-| RS2 | 2D finite element excavation and slope analysis |
-| RS3 | 3D finite element geotechnical modeling |
-| LPile | Lateral pile analysis using p-y methods |
+### Coulomb (with wall friction $\delta$)
+$$K_a = \frac{\sin^2(\alpha+\phi)}{\sin^2\alpha\sin(\alpha-\delta)\left[1+\sqrt{\frac{\sin(\phi+\delta)\sin(\phi-\beta)}{\sin(\alpha-\delta)\sin(\alpha+\beta)}}\right]^2}$$
 
-## Field Investigation
-- Borehole logging and sampling
-- Standard Penetration Test (SPT)
-- Cone Penetration Test (CPT)
-- Vane shear test and pressuremeter test
-- Geophysical methods: Seismic refraction, resistivity
+---
 
-## Further expansion needed
-- Foundation vibration and machine foundation design
-- Expansive soil behavior and mitigation
-- Soil liquefaction analysis and mitigation
-- Reinforced soil mechanics and geosynthetics
+## Worked Examples
+
+### Example 1: Bearing Capacity
+**Problem:** Strip footing, $B = 2$ m, $D_f = 1.5$ m, $c = 20$ kPa, $\phi = 25°$, $\gamma = 18$ kN/m³. Find $q_u$.
+
+**Solution:**
+1. $N_c = 25.1$, $N_q = 12.7$, $N_\gamma = 9.7$ (for $\phi = 25°$)
+2. $q_u = cN_c + qN_q + 0.5\gamma BN_\gamma$
+3. $q_u = 20(25.1) + (18 \times 1.5)(12.7) + 0.5(18)(2)(9.7)$
+4. $q_u = 502 + 342.9 + 174.6 = 1019.5$ kPa
+5. $q_{net} = 1019.5 - 18 \times 1.5 = 992.5$ kPa
+6. $q_{safe} = 992.5/3 + 27 = 357.5$ kPa
+
+### Example 2: Consolidation Settlement
+**Problem:** Clay layer $H = 3$ m, $e_0 = 0.8$, $C_c = 0.25$, $\sigma'_0 = 100$ kPa, $\Delta\sigma = 80$ kPa. Find settlement.
+
+**Solution:**
+1. $S_c = \frac{C_c H}{1+e_0}\log\frac{\sigma'_0+\Delta\sigma}{\sigma'_0}$
+2. $S_c = \frac{0.25 \times 3000}{1.8}\log\frac{180}{100}$
+3. $S_c = 416.7 \times 0.2553 = 106.4$ mm
+
+---
+
+## 🎤 Interview Q&A
+
+### Q1: What is the difference between normally consolidated and overconsolidated clay?
+**A:** Normally consolidated (NC): current effective stress = maximum past stress. Overconsolidated (OC): current stress < maximum past stress. OC clay has higher strength, lower compressibility, and swelling potential. Preconsolidation pressure $\sigma'_c$ is determined from the Casagrande construction on the e-log p curve.
+
+### Q2: What are the bearing capacity factors and what do they represent?
+**A:** $N_c$, $N_q$, $N_\gamma$ are dimensionless factors depending on $\phi$. $N_c$ represents cohesion contribution, $N_q$ represents overburden contribution, $N_\gamma$ represents self-weight contribution to bearing capacity. They increase with $\phi$, meaning stronger soils have higher bearing capacity.
+
+### Q3: How do you design a pile foundation?
+**A:** (1) Determine pile capacity from static analysis ($Q_b + Q_s$) or dynamic formulas. (2) Apply factor of safety (2.5 for static, 2.0 for dynamic). (3) Check group efficiency. (4) Check settlement of pile group. (5) Check negative skin friction if soft clay is present. (6) Verify with pile load tests.
+
+### Q4: Explain the difference between Rankine and Coulomb earth pressure theories.
+**A:** Rankine: assumes smooth wall (no wall friction), uses stress transformation, gives principal stress states. Coulomb: accounts for wall friction ($\delta$), uses wedge equilibrium, more realistic for actual retaining walls. Coulomb gives higher passive pressures when $\delta > 0$, but Rankine is simpler and more conservative for active case.
+
+---
+
+## Quick Reference Formulas
+
+| Formula | Equation | Use |
+|---------|----------|-----|
+| Mohr-Coulomb | $\tau_f = c + \sigma'\tan\phi$ | Shear strength |
+| Terzaghi bearing | $q_u = cN_c + qN_q + 0.5\gamma BN_\gamma$ | Shallow foundation |
+| Rankine active | $p_a = K_a\sigma_v - 2c\sqrt{K_a}$ | Retaining wall |
+| Rankine passive | $p_p = K_p\sigma_v + 2c\sqrt{K_p}$ | Retaining wall |
+| Consolidation | $S = C_cH\log(\sigma'/\sigma'_0)/(1+e_0)$ | Settlement |
+| Time factor | $T_v = c_v t/H_{dr}^2$ | Consolidation rate |
+| Pile capacity | $Q_u = q_b A_b + \sum f_s A_s$ | Deep foundation |
+
+---
 
 ## References
 
