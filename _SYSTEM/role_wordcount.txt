@@ -1,0 +1,73 @@
+ROLE                           FILES   TOTAL    AVG STATUS    
+======================================================================
+Consulting                         3    5421   1807 STRONG    
+    consulting-overview.md                           963
+    case-frameworks.md                              2100
+    case-bank.md                                    2358
+Product Manager                    3    2978    992 ADEQUATE  
+    pm-overview.md                                   839
+    product-sense.md                                1121
+    pm-metrics-strategy.md                          1018
+Business Analyst                   2    2520   1260 ADEQUATE  
+    ba-overview.md                                  1001
+    sql-practice.md                                 1519
+Data Analyst                       2    2605   1302 ADEQUATE  
+    da-overview.md                                   964
+    statistics-practice.md                          1641
+Product Analyst                    1     830    830 WEAK      
+    pa-overview.md                                   830
+Operations                         1     815    815 WEAK      
+    operations-overview.md                           815
+Supply Chain                       1     976    976 WEAK      
+    supply-chain-overview.md                         976
+Finance                            1    1003   1003 THIN      
+    finance-overview.md                             1003
+Risk                               1     978    978 WEAK      
+    risk-overview.md                                 978
+Strategy                           1     751    751 WEAK      
+    strategy-overview.md                             751
+Program/Project Mgmt               1     830    830 WEAK      
+    pgm-overview.md                                  830
+Business Operations                1     642    642 WEAK      
+    biz-ops-overview.md                              642
+Technology                         1     792    792 WEAK      
+    tech-overview.md                                 792
+Civil Engineer                     3    9484   3161 STRONG    
+    civil-engineering-foundations.md                1377
+    engineering-mechanics.md                        3626
+    strength-of-materials.md                        4481
+Structural Engineer                4   16600   4150 STRONG    
+    structures.md                                   1989
+    structural-analysis.md                          3887
+    rcc-design.md                                   5759
+    steel-design.md                                 4965
+Geotechnical Engineer              1    1599   1599 THIN      
+    geotechnical.md                                 1599
+Transportation Engineer            2    4275   2137 ADEQUATE  
+    transportation-engineering.md                   3546
+    transportation-software.md                       729
+Water Resources Engineer           4   18561   4640 STRONG    
+    water-resources-engineering.md                  3877
+    hydrology.md                                    4470
+    open-channel-flow.md                            5180
+    hydraulics.md                                   5034
+Hydraulics/CFD Engineer            3    7814   2604 STRONG    
+    hydraulics.md                                   5034
+    turbulence-modeling.md                          1849
+    cfd-tech.md                                      931
+Hydrologist                        2    6287   3143 STRONG    
+    hydrology.md                                    4470
+    sediment-transport.md                           1817
+Environmental Engineer             2    5072   2536 STRONG    
+    environmental-engineering.md                    3553
+    wastewater-engineering.md                       1519
+GIS/Survey Engineer                2    6190   3095 STRONG    
+    geoinformatics.md                               5337
+    gis-tech.md                                      853
+Infrastructure/PM                  1    5545   5545 STRONG    
+    infrastructure-engineering-management.md        5545
+BIM Engineer                       1     797    797 WEAK      
+    bim-tech.md                                      797
+Construction Engineer              2    6464   3232 STRONG    
+    infrastructure-engineering-management.md        5545
+    construction-tech.md                             919
