@@ -175,5 +175,58 @@ This file serves as a **one-page quick revision** covering all core civil engine
 
 ---
 
+## Quick Worked Examples
+
+### Example 1: Bernoulli + Friction Loss
+**Problem:** Water flows from a reservoir (surface elevation 100 m) through a 500 m, 200 mm diameter pipe ($f=0.02$) to an outlet at elevation 80 m. Find velocity.
+
+**Solution:**
+Apply Bernoulli with friction: $z_1 = z_2 + V^2/2g + f(L/D)(V^2/2g)$
+$100 = 80 + V^2/2g(1 + fL/D)$
+$20 = V^2/(2 \times 9.81) \times (1 + 0.02 \times 500/0.2)$
+$20 = V^2/19.62 \times (1 + 50) = 51 V^2/19.62$
+$V^2 = 20 \times 19.62/51 = 7.69$
+**V = 2.77 m/s**, Q = VA = 2.77 × 0.0314 = **0.087 m³/s**
+
+### Example 2: Mohr-Coulomb Shear Strength
+**Problem:** A soil has $c' = 15$ kPa, $\phi' = 30°$. Find shear strength at $\sigma' = 100$ kPa.
+
+**Solution:**
+$\tau_f = c' + \sigma'\tan\phi' = 15 + 100 \times \tan(30°) = 15 + 57.7 = \textbf{72.7 kPa}$
+
+### Example 3: Manning's Equation
+**Problem:** Rectangular channel, $b=3$ m, $y=1.5$ m, $S=0.001$, $n=0.015$. Find discharge.
+
+**Solution:**
+$A = 3 \times 1.5 = 4.5$ m², $P = 3 + 2(1.5) = 6$ m, $R = 4.5/6 = 0.75$ m
+$Q = (1/n)AR^{2/3}S^{1/2} = (1/0.015)(4.5)(0.75)^{2/3}(0.001)^{1/2}$
+$Q = 66.67 \times 4.5 \times 0.825 \times 0.0316 = \textbf{7.78 m³/s}$
+
+---
+
+## 🔗 Cross-Links — Detailed Subject Pages
+
+| Subject | Detailed File | Formula Sheet |
+|---------|--------------|---------------|
+| Hydraulics | [`hwre/hydraulics/hydraulics.md`](../hwre/hydraulics/hydraulics.md) | ✅ |
+| Hydrology | [`hwre/hydrology/hydrology.md`](../hwre/hydrology/hydrology.md) | ✅ |
+| Open Channel Flow | [`hwre/open_channel_flow/open-channel-flow.md`](../hwre/open_channel_flow/open-channel-flow.md) | ✅ |
+| Structures | [`structures/structures.md`](../structures/structures.md) | ✅ |
+| Structural Analysis | [`structural-analysis/structural-analysis.md`](../structural-analysis/structural-analysis.md) | ✅ |
+| RCC Design | [`rcc/rcc-design.md`](../rcc/rcc-design.md) | ✅ |
+| Steel Design | [`steel/steel-design.md`](../steel/steel-design.md) | ✅ |
+| Geotechnical | [`geotechnical/geotechnical.md`](../geotechnical/geotechnical.md) | ✅ |
+| Transportation | [`transportation/transportation-engineering.md`](../transportation/transportation-engineering.md) | ✅ |
+| Environmental | [`environmental/environmental-engineering.md`](../environmental/environmental-engineering.md) | ✅ |
+| GATE Formulas | [`gate/formulas/gate-civil-formulas.md`](../gate/formulas/gate-civil-formulas.md) | ✅ |
+
+---
+
 ## References
 
+* IRC:73-1980 — Geometric design of rural roads
+* IS 456-2000 — Plain and reinforced concrete
+* IS 800-2007 — General construction in steel
+* Khanna & Justo — *Highway Engineering*
+* Subramanya — *Engineering Hydrology*
+* Bansal — *Fluid Mechanics*

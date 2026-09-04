@@ -130,6 +130,54 @@ Before each interview, customize your intro:
 
 ---
 
+## Follow-Up Questions to Prepare For
+
+After your self-introduction, interviewers often probe deeper. Prepare for:
+
+| Follow-Up Question | What They're Testing | How to Prepare |
+|-------------------|---------------------|----------------|
+| "Tell me more about your thesis project" | Technical depth, communication | Have 30-sec, 2-min, and 5-min versions ready |
+| "Why did you choose this specialization?" | Passion, decision-making | Link to a specific moment/experience |
+| "What was the biggest challenge in that project?" | Problem-solving, resilience | Use STAR format for the answer |
+| "How does this relate to our company's work?" | Company research, fit | Research 2-3 specific projects of the company |
+| "What would you do differently?" | Self-reflection, growth mindset | Show maturity, not regret |
+| "Can you explain that result to a non-technical person?" | Communication clarity | Practice with non-engineering friends |
+| "What tools did you use?" | Technical breadth | Be ready to discuss software/methods in detail |
+| "How many people were on your team?" | Teamwork, leadership | Quantify your contribution vs team |
+
+> **Tip:** The best self-introduction plants "hooks" — specific claims the interviewer will want to explore. Make sure every hook is something you can discuss confidently for 5+ minutes.
+
+---
+
+## Self-Introduction Scoring Rubric
+
+Use this to evaluate your own introduction:
+
+| Criterion | Poor (1) | Good (3) | Excellent (5) |
+|-----------|----------|----------|---------------|
+| **Duration** | < 30s or > 3 min | 60-90s | 90-120s |
+| **Structure** | Random chronological | Present-Past-Future | Clear framework with smooth transitions |
+| **Specificity** | "I worked on a project" | "I worked on CFD modeling" | "I validated OpenFOAM scour model to 7% accuracy" |
+| **Company Fit** | Generic | Mentions company | References specific project/need of company |
+| **Energy** | Monotone, reading | Conversational | Engaging, varied pace, genuine enthusiasm |
+| **Technical Depth** | Vague | Adequate | Can defend every claim for 5+ min |
+| **Closing** | Trails off | "Thank you" | Clear "why this role + what I contribute" |
+
+**Target: 28+ out of 35 before interview day.**
+
+---
+
+## 🔗 Cross-Links
+
+*   **Framework:** [`behavioral-interview-guide.md`](../behavioral-interview-guide.md) — STAR framework and 30 story examples
+*   **Story Bank:** [`story-bank/`](../story-bank/) — Pre-written STAR stories by category
+*   **Resume Defense:** [`resume-defense-system.md`](../resume-defense-system.md) — Defending every CV claim
+*   **Self-Intro System:** [`self-introduction-system.md`](./self-introduction-system.md) — Extended system with drills
+*   **Company Fit:** [`company-fit-analysis.md`](../company-fit-analysis.md) — Tailoring intro per company
+*   **Interview Day:** [`../../interview/interview-day-survival.md`](../../interview/interview-day-survival.md) — Day-of checklist
+
+---
+
 ## References
 
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews)

@@ -252,15 +252,124 @@
 
 ---
 
-## Case 11-15: Industry-Specific Cases
+## Civil-Engineering Specific Cases (Full Worked Solutions)
 
-### Case 11: Infrastructure (Civil-Specific)
-"A state highway authority wants to reduce construction delays by 30%."
-→ Process mapping, critical path analysis, stakeholder coordination, procurement optimization
+### Case 11: Highway Construction Cost Overruns (Detailed)
 
-### Case 12: Water Resources (Civil-Specific)
-"A city faces waterlogging every monsoon. Design a solution."
-→ Drainage analysis, capacity assessment, green infrastructure, cost-benefit analysis
+**Prompt:** "A 200 km NHAI highway project is 40% over budget (₹800 Cr vs. ₹570 Cr original). The project manager wants to understand the cost drivers and prevent this on future projects."
+
+**Framework:** Profitability (Cost decomposition)
+
+**Data:**
+| Cost Category | Original (₹ Cr) | Actual (₹ Cr) | Variance |
+|:--------------|:----------------:|:--------------:|:--------:|
+| Land Acquisition | 120 | 180 | +50% |
+| Earthwork | 85 | 95 | +12% |
+| Pavement | 150 | 160 | +7% |
+| Bridges/Crossings | 80 | 110 | +38% |
+| Project Management | 35 | 55 | +57% |
+| Contingency | 100 | 200 | +100% |
+| **Total** | **570** | **800** | **+40%** |
+
+**Analysis:**
+- Land acquisition (+₹60 Cr): 75% of the total overrun. Causes: delayed acquisition, litigation, increased circle rates.
+- Bridges (+₹30 Cr): Design changes during construction, unexpected soil conditions at pier foundations.
+- Contingency (+₹100 Cr): Used to cover scope changes, weather delays, and rework.
+- Earthwork and pavement are close to budget — execution was fine.
+
+**Recommendation:**
+1. **Land:** Front-load acquisition by 12 months, use direct purchase over acquisition proceedings where possible
+2. **Bridges:** Conduct detailed geotechnical investigation before design finalization
+3. **Contingency:** Reduce scope creep through strict change-order process
+4. **Target:** Future projects should aim for ≤10% overrun (industry benchmark)
+
+---
+
+### Case 12: Urban Waterlogging Solution (Detailed)
+
+**Prompt:** "Jaipur faces severe waterlogging during monsoon season (July-September). 15 areas are regularly affected, causing ₹50 Cr annual damage. Design a comprehensive solution."
+
+**Framework:** Operations + Growth Strategy
+
+**Data:**
+- City area: 485 km², population: 3.5 million
+- Average monsoon rainfall: 650 mm (July-September)
+- Existing drainage: 19th century open drains, designed for 50 mm/day
+- Actual peak intensity: 120 mm/day
+- Storm water drains: 850 km total, 40% silted/blocked
+- Green cover: 8% (very low)
+
+**Analysis:**
+- **Root cause:** Drainage capacity (50 mm/day) < actual intensity (120 mm/day) = 2.4x deficit
+- **Contributing:** Blocked drains reduce effective capacity further by ~30%
+- **Green cover:** 8% means high runoff coefficient (~0.85 vs. 0.3 for 30% green cover)
+
+**Recommendation:**
+> **Short-term (Monsoon 2026):**
+> - Desilt all 850 km drains (₹15 Cr, reduces blockage impact by 70%)
+> - Install real-time water level sensors at 50 critical points
+> - Deploy mobile dewatering pumps at 15 worst areas
+>
+> **Medium-term (2027-2028):**
+> - Upgrade trunk drains in 15 affected areas to handle 100 mm/day
+> - Implement rainwater harvesting mandate for all buildings >500 m²
+> - Create 50 acres of urban wetlands for natural retention
+>
+> **Long-term (2029+):**
+> - Develop a city-wide master drainage plan with climate change projections
+> - Target green cover increase to 20% through urban forestry
+> - Integrate with metro construction for underground drainage tunnels
+
+**Cost-benefit:** Total investment ~₹500 Cr over 5 years. Annual damage reduction: ₹40 Cr/year. Benefit-cost ratio: ~3.2:1 (including avoided damage, property value increase, health benefits).
+
+---
+
+### Case 13: Cement Plant Capacity Expansion
+
+**Prompt:** "UltraTech wants to add 5 MTPA cement capacity in Rajasthan. Should they build new or acquire existing plants?"
+
+**Framework:** M&A + Growth Strategy
+
+**Analysis:**
+- New plant: ₹5,000 Cr investment, 3-year timeline, limestone mine needed
+- Acquisition: Existing plants available at ₹3,000-4,000 Cr, operational immediately
+- Market demand: Rajasthan + Gujarat growing at 8% CAGR
+- Limestone availability: Limited in Rajasthan (regulatory restrictions)
+
+**Recommendation:** Acquire 2 smaller plants (2.5 MTPA each) in different locations. Faster to market, lower capital risk, existing limestone linkages. Commission expansion at acquired plants to add 1 MTPA each.
+
+---
+
+## Interview Tips for Civil-to-Consulting Candidates
+
+**What interviewers look for in civil candidates:**
+1. **Quantitative rigor** — Use real numbers (₹ Cr, km, mm/day, %) in every recommendation
+2. **Domain credibility** — Reference actual codes (IRC, IS, MoRTH) and industry benchmarks
+3. **Structured thinking** — Framework + data + synthesis, not just intuition
+4. **Practical judgment** — Recommendations that could actually be implemented in India
+
+**Common follow-ups:**
+- "How would you implement this?" → Phased plan with timeline
+- "What are the risks?" → Top 3 risks with mitigation
+- "How much would this cost?" → Order-of-magnitude estimate with assumptions
+- "What data would you need?" → Specific, actionable data requests
+
+---
+
+## 🔗 Cross-Links
+
+| Resource | Link |
+|:---------|:-----|
+| Frameworks | [`case-frameworks.md`](./case-frameworks.md) |
+| Consulting Overview | [`consulting-overview.md`](./consulting-overview.md) |
+| Guesstimates | [`../guesstimates/guesstimate-guide.md`](../guesstimates/guesstimate-guide.md) |
+| Mock Interviews | [`../mock-interviews/mock-system.md`](../mock-interviews/mock-system.md) |
+| Behavioral Guide | [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) |
+| Resume Positioning | [`../resume-positioning/civil-to-noncore.md`](../resume-positioning/civil-to-noncore.md) |
+
+---
+
+*Practice 2-3 cases per week. Quality of practice beats quantity. Always debrief after each case.*
 
 ### Case 13: Real Estate
 "A developer has 200 unsold apartments. How do you sell them?"

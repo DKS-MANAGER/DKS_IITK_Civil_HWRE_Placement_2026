@@ -149,6 +149,66 @@
 
 ---
 
+## Tool Decision Guide by Role
+
+| Role | Must-Know Tools | Good-to-Know | Differentiator |
+|------|----------------|--------------|----------------|
+| **Water Resources Engineer** | HEC-RAS, HEC-HMS, SWMM, Python | MODFLOW, MIKE FLOOD, QGIS | OpenFOAM for CFD |
+| **Structural Engineer** | SAP2000/ETABS, AutoCAD, STAAD | ETABS, RFEM, Revit | OpenSees for nonlinear |
+| **Geotechnical Engineer** | PLAXIS, SLOPE/W, GeoStudio | FLAC, LPile, SEEP/W | Python scripting for automation |
+| **Transportation Engineer** | Synchro, PTV Vissim, AutoCAD Civil 3D | Aimsun, TransCAD | SUMO for open-source simulation |
+| **CFD Researcher** | OpenFOAM, ParaView, Python | ANSYS Fluent, FLOW-3D | High-performance computing |
+| **Data Analyst** | Python (Pandas, NumPy), SQL, Excel | Tableau, Power BI | Statistics + domain knowledge |
+| **Consultant** | Excel, PowerPoint, Python basics | Power BI, SQL | Case-solving + presentation skills |
+
+---
+
+## Interview Questions: Technical Tools
+
+**Q1: You mention OpenFOAM on your resume. What is its architecture?**
+> **Answer:** OpenFOAM uses an object-oriented C++ framework with a dictionary-based configuration system. Cases are organized into `0/` (initial/boundary conditions), `constant/` (mesh and physical properties), and `system/` (solver settings). The solver is selected by compiling the appropriate application (e.g., `interFoam` for multiphase).
+
+**Q2: What's the difference between HEC-RAS 1D and 2D modeling?**
+> **Answer:** 1D modeling computes water surface profiles along a river centerline using cross-sections — suitable for channel flow. 2D modeling solves shallow water equations over a mesh — necessary for floodplain flow, bridge hydraulics, and areas where flow direction is complex.
+
+**Q3: When would you use Python over MATLAB?**
+> **Answer:** Python for open-source environments, large datasets (Pandas), web integration, and machine learning (scikit-learn). MATLAB for rapid prototyping, built-in optimization toolboxes, and when the organization has a license. In practice, most new projects favor Python for cost and flexibility.
+
+**Q4: How do you validate a numerical model?**
+> **Answer:** Three approaches: (1) **Verification** — does the code solve the equations correctly? (mesh convergence, manufactured solutions), (2) **Validation** — does the model represent reality? (comparison with experimental/field data), (3) **Sensitivity analysis** — which parameters most affect results? (parameter sweep, Monte Carlo).
+
+**Q5: What is the role of GIS in civil engineering?**
+> **Answer:** GIS provides spatial context: terrain analysis (DEM/DTM), watershed delineation, site selection, environmental impact assessment, and infrastructure asset management. Tools like QGIS/ArcGIS integrate with HEC-RAS and planning models for spatially-aware engineering decisions.
+
+---
+
+## Quick Reference: Learning Priority
+
+| Priority | Tool | Time to Basic Proficiency | ROI for Placement |
+|----------|------|--------------------------|-------------------|
+| P0 | Python (NumPy/Pandas) | 2 weeks | Essential for all tracks |
+| P0 | Excel (advanced) | 1 week | Used in every interview |
+| P0 | AutoCAD | 1 week | Core civil requirement |
+| P1 | SQL | 1 week | Required for data/analyst roles |
+| P1 | HEC-RAS | 2 weeks | Required for HWRE roles |
+| P1 | SAP2000/ETABS | 3 weeks | Required for structural roles |
+| P2 | OpenFOAM | 1 month | Differentiator for CFD roles |
+| P2 | QGIS | 1 week | Useful for GIS/planning roles |
+| P2 | MATLAB | 2 weeks | Academic/research roles |
+
+---
+
+## 🔗 Cross-Links
+
+*   **CFD Deep Dive:** [`software-and-tech/cfd/cfd-tech.md`](../../software-and-tech/cfd/cfd-tech.md)
+*   **Python Programming:** [`software-and-tech/programming/python.md`](../../software-and-tech/programming/python.md)
+*   **HEC-RAS Tutorial:** [`software-and-tech/deep-dives/hec-ras-walkthrough.md`](../../software-and-tech/deep-dives/hec-ras-walkthrough.md)
+*   **OpenFOAM Case Study:** [`software-and-tech/deep-dives/openfoam-case-study.md`](../../software-and-tech/deep-dives/openfoam-case-study.md)
+*   **Non-Core Prep:** [`non-core/analytics/non-core-prep.md`](./non-core-prep.md)
+*   **Interview Questions:** [`prep/interview/technical/technical-interview-bank.md`](../../prep/interview/technical/technical-interview-bank.md)
+
+---
+
 ## References
 
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering) — Programming libraries and tools

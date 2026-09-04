@@ -330,15 +330,70 @@ Competitive Positioning
 
 ---
 
-## Cross-Links
+## Worked Example: Profitability Case
+
+**Case:** "A mid-size Indian infrastructure company's profits dropped 15% last year despite stable revenue. What's going on?"
+
+**Step 1: Structure (Profitability Framework)**
+> "Let me think about this systematically. Profit = Revenue - Costs. You mentioned revenue is stable, so let me focus on the cost side. I'd like to understand: (1) Is this in fixed or variable costs? (2) Is it company-wide or specific to a division? (3) Is this a one-time event or a trend?"
+
+**Step 2: Hypothesis & Data Requests**
+> "My hypothesis is that material costs (steel, cement) increased due to supply chain disruption, or labor costs increased due to project delays. May I see the cost breakdown?"
+
+**Step 3: Analysis (if given data)**
+> "Looking at the cost data: fixed costs are stable, but variable costs increased 22%. Specifically, raw materials are up 18% and subcontractor costs are up 30%. This suggests two issues: commodity price inflation and possible scope changes on active projects."
+
+**Step 4: Synthesis**
+> "The profit drop is driven by cost increases, not revenue loss. I'd recommend: (1) Negotiate bulk material purchase agreements to lock in prices, (2) Review subcontractor contracts for scope creep, (3) Implement cost tracking dashboards for early detection. The highest-impact action is addressing subcontractor costs, which represents 60% of the increase."
+
+**Key insight for civil candidates:** Use your knowledge of construction cost structures (material + labor + equipment + overhead) to make the analysis more realistic than a generic candidate would.
+
+---
+
+## Worked Example: Market Entry Case
+
+**Case:** "Should L&T enter the underground tunneling market in India?"
+
+**Structure (Market Entry Framework):**
+1. **Market Size:** India's tunneling market is ~₹15,000 cr/year, growing 12% CAGR (Metro, Bullet Train, Hydro projects)
+2. **Competition:** 3-4 major players (Afcons, ITD Cementation, L&T itself does some), but demand exceeds capacity
+3. **Regulatory:** Simplified tendering under MBMA, but requires specialized equipment (TBM)
+4. **Capabilities:** L&T has heavy civil capability but limited TBM experience
+5. **Entry mode:** Acquisition of a specialized tunneling firm vs. JV with a TBM manufacturer
+
+**Recommendation:** "I'd recommend a phased entry: start with JV for 2-3 metro projects to build TBM expertise, then evaluate acquisition of a smaller tunneling firm. The market is attractive but requires specialized capabilities L&T doesn't yet have organically."
+
+---
+
+## Practice: Framework Application Drills
+
+Apply each framework to these civil-engineering scenarios:
+
+| # | Scenario | Best Framework | Key Analysis Angle |
+|---|----------|---------------|-------------------|
+| 1 | NHAI's highway construction cost increased 25% in 3 years | Profitability | Material costs + labor shortage + land acquisition delays |
+| 2 | Should a construction company enter the data center market? | Market Entry | Market size + capability gap + regulatory |
+| 3 | How many traffic signals are in Lucknow? | Market Sizing | Population → intersections → signalized vs. roundabout |
+| 4 | A dam construction project is 6 months behind schedule | Operations | Process mapping → bottleneck → resource allocation |
+| 5 | Should IOC acquire a renewable energy startup? | M&A | Strategic fit + valuation + integration risk |
+| 6 | Why are Indian roads poor despite high spending? | Competitive Strategy | Regulatory + contractor incentives + quality monitoring |
+| 7 | How should a cement company price in a competitive market? | Pricing | Cost-based floor + value-based ceiling + competition anchor |
+| 8 | A city's water utility is losing 40% of water to leakage | Operations | Process audit → Non-revenue water → repair prioritization |
+
+> **Tip for civil candidates:** Your domain knowledge is a competitive advantage. Use real numbers (steel prices, cement rates, labor costs, project timelines) in case analysis to demonstrate credibility.
+
+---
+
+## 🔗 Cross-Links
 
 | Resource | Link |
 |:---------|:-----|
-| Case Practice Bank | [case-bank.md](case-bank.md) |
-| Case Communication | [case-communication.md](../case-interviews/case-communication.md) |
-| Guesstimates | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
-| Full Framework Library | [framework-library.md](../case-interviews/framework-library.md) |
+| Case Practice Bank | [`case-bank.md`](./case-bank.md) |
+| Consulting Overview | [`consulting-overview.md`](./consulting-overview.md) |
+| Guesstimates | [`../guesstimates/guesstimate-guide.md`](../guesstimates/guesstimate-guide.md) |
+| Business Fundamentals | [`../common/business-fundamentals.md`](../common/business-fundamentals.md) |
+| Behavioral Interview | [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) |
+| Resume Positioning | [`../resume-positioning/civil-to-noncore.md`](../resume-positioning/civil-to-noncore.md) |
 
 ---
 
