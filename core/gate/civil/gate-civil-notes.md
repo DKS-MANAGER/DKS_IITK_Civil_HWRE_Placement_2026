@@ -1,4 +1,4 @@
-# GATE Civil Engineering — Topic-wise Notes
+﻿# GATE Civil Engineering — Topic-wise Notes
 
 ## Overview
 
@@ -250,8 +250,6 @@ Comprehensive topic-wise notes for GATE Civil Engineering preparation. Covers al
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [`../formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md) — Complete formula sheet
 * [`../revision_notes/gate-civil-revision.md`](../revision_notes/gate-civil-revision.md) — Rapid revision cards
 * [`../practice/gate-civil-practice.md`](../practice/gate-civil-practice.md) — Practice problems

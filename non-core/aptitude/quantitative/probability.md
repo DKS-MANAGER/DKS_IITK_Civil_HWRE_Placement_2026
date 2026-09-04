@@ -1,4 +1,4 @@
-# Probability
+﻿# Probability
 
 ## Concept Definitions
 
@@ -180,6 +180,4 @@ A and B play a game where A wins with probability 0.6. They play 3 games. Find t
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Probability
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

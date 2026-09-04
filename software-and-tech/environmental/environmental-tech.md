@@ -149,6 +149,19 @@ Interview Relevance: "How do you detect environmental trends?"
 
 ---
 
+## 🔬 Deep-Dive Walkthroughs
+
+> **"I know I need SWMM or EPANET. Now how do I actually build a model?"**
+
+Follow the hands-on step-by-step guides to build real water models end-to-end:
+
+| Tool | Deep-Dive Guide |
+|:-----|:----------------|
+| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
+| EPANET | [`deep-dives/epanet-walkthrough.md`](../deep-dives/epanet-walkthrough.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

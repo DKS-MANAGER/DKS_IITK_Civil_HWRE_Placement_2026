@@ -279,6 +279,22 @@ Timeline: 30 days
 
 ---
 
+## 🔬 Deep-Dive Walkthroughs
+
+> **"I know I need HEC-RAS. Now how do I actually build a model?"**
+
+Follow the hands-on step-by-step guides to build real models end-to-end:
+
+| Tool | Deep-Dive Guide |
+|:-----|:----------------|
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) |
+| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
+| EPANET | [`deep-dives/epanet-walkthrough.md`](../deep-dives/epanet-walkthrough.md) |
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

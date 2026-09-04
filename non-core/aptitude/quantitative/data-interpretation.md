@@ -1,4 +1,4 @@
-# Data Interpretation
+﻿# Data Interpretation
 
 ## Concept Definitions
 
@@ -202,6 +202,4 @@ In a class of 60 students:
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Data Interpretation
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — DI practice sets
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

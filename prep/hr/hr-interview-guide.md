@@ -1,4 +1,4 @@
-# HR Interview Guide — Salary Negotiation & HR Questions
+﻿# HR Interview Guide — Salary Negotiation & HR Questions
 
 ## Overview
 
@@ -238,7 +238,6 @@ The HR round evaluates cultural fit, motivation, communication, and salary expec
 ## References
 
 * [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
-* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026)
 * [`../mock_questions/mock-interview-questions.md`](../mock_questions/mock-interview-questions.md) — 50 mock questions
 * [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) — 30 STAR examples
 * [`../../prep/behavioral/hr_questions/hr-questions-bank.md`](../../prep/behavioral/hr_questions/hr-questions-bank.md) — 50 HR Q&A

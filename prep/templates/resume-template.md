@@ -1,4 +1,4 @@
-# Resume & CV Guide
+﻿# Resume & CV Guide
 
 ## Resume Structure
 
@@ -211,5 +211,3 @@ Before submitting:
 
 ## References
 
-* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep) — Resume section
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Resume audit and formatting guidance

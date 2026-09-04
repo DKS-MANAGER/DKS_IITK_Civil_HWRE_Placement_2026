@@ -1,4 +1,4 @@
-# GATE Civil Formulas — Complete Quick Reference
+﻿# GATE Civil Formulas — Complete Quick Reference
 
 > **One-page formula sheet for GATE Civil + PSU interviews.**
 > Print this for daily revision. Target: recall any formula in < 10 seconds.
@@ -287,7 +287,5 @@
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [`../civil/gate-civil-notes.md`](../civil/gate-civil-notes.md) — Detailed GATE notes
 * [`../civil/gate-civil-revision.md`](../revision_notes/gate-civil-revision.md) — Rapid revision cards

@@ -1,4 +1,4 @@
-# Number System
+﻿# Number System
 
 ## Concept Definitions
 
@@ -101,5 +101,3 @@ Find the number of trailing zeroes in $100!$.
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Number system
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Number system practice problems

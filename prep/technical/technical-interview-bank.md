@@ -1,4 +1,4 @@
-# Technical Interview Bank — 100 Q&A by Topic
+﻿# Technical Interview Bank — 100 Q&A by Topic
 
 > **How to use:** Practice 2-layer answers: Concept → Application → Caveat.
 > Target: Answer any question in 60–90 seconds with a derivation or example.
@@ -286,7 +286,7 @@
 **A:** Clear-water: no upstream sediment supply, $V < V_c$, max depth limited. Live-bed: sediment supply replenishes, $V > V_c$, oscillating depth with bed forms.
 
 ### Q87: What is the Exner equation?
-**A:** $\partial z_b/\partial t + \nabla\cdot q_b/(1-p) = 0$. Bed evolution from sediment continuity. Used in morphodynamic models (sedExnerFoam with ALE mesh motion).
+**A:** $\partial z_b/\partial t + \nabla\cdot q_b/(1-p) = 0$. Bed evolution from sediment continuity. Used in morphodynamic models (OpenFOAM solvers with ALE mesh motion for bed evolution).
 
 ### Q88: What are bed forms and their sequence?
 **A:** Ripples → dunes → plane bed → antidunes → chutes/pools with increasing $Fr$ and transport. Strickler: $n = d_{50}^{1/6}/21.1$.
@@ -349,7 +349,5 @@
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
 * [`../core/hwre/hydraulics/hydraulics.md`](../../core/hwre/hydraulics/hydraulics.md) — Detailed hydraulics
 * [`../core/hwre/hydraulics/turbulence-modeling.md`](../../core/hwre/hydraulics/turbulence-modeling.md) — CFD details

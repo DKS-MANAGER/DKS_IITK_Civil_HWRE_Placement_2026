@@ -1,4 +1,4 @@
-# Hydraulics
+﻿# Hydraulics
 
 ## Scope
 
@@ -665,7 +665,6 @@ Q5: "Would you use CFD to predict cavitation? How?"
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
 * [`turbulence-modeling.md`](turbulence-modeling.md) — Advanced turbulence for CFD applications
 * [`../open_channel_flow/open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) — Open channel flow companion

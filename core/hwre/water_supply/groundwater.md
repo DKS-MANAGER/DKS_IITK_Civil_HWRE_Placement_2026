@@ -1,4 +1,4 @@
-# Groundwater Engineering
+﻿# Groundwater Engineering
 
 ## Introduction
 
@@ -290,5 +290,4 @@ Groundwater flow      →  Flow nets,Dupuit            →  Saltwater intrusion 
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

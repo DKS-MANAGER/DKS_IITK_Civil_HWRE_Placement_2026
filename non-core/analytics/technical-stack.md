@@ -1,4 +1,4 @@
-# Technical Stack
+﻿# Technical Stack
 
 ## Core Engineering Software
 
@@ -151,5 +151,4 @@
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Technical Stack & Minimum Proficiency sections
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering) — Programming libraries and tools

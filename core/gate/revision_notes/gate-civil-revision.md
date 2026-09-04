@@ -1,4 +1,4 @@
-# GATE Civil — Rapid Revision Cards
+﻿# GATE Civil — Rapid Revision Cards
 
 ## Overview
 
@@ -341,8 +341,6 @@ One-page rapid revision cards for each major GATE Civil topic. Use for last-minu
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [`../formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md) — Complete formula sheet
 * [`../civil/gate-civil-notes.md`](../civil/gate-civil-notes.md) — Detailed topic-wise notes
 * [`../practice/gate-civil-practice.md`](../practice/gate-civil-practice.md) — Practice problems

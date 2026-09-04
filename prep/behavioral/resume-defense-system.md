@@ -37,12 +37,12 @@ For every item on your resume, verify:
 |-----------|-----------------|-------------|
 | Thesis title | "Explain your thesis to a non-expert" | CRIT framework — simplify |
 | Methodology | "Why did you choose this method?" | Comparison + evidence |
-| Tools used | "Why OpenFOAM/SedFoam?" | Literature support + features |
+| Tools used | "Why this CFD tool?" | Literature support + features |
 | Results/Accuracy | "How did you validate?" | GCI + experimental comparison |
 | Publications | "What was your specific contribution?" | Detailed breakdown |
 
 **Sample Defense (Thesis):**
-> "My thesis modeled bridge pier scour — the erosion around bridge foundations in rivers. I used OpenFOAM with SedFoam to simulate sediment transport. The key challenge was getting accurate results near the pier surface, which I solved by refining the mesh to achieve y+ < 5. The final results matched experimental data within 7% accuracy."
+> "My thesis modeled bridge pier scour — the erosion around bridge foundations in rivers. I used OpenFOAM with an Eulerian two-phase solver to simulate sediment transport. The key challenge was getting accurate results near the pier surface, which I solved by refining the mesh to achieve y+ < 5. The final results matched experimental data within 7% accuracy."
 
 ### 3. Technical Skills
 
@@ -112,10 +112,10 @@ For each resume item, prepare 3 levels of depth:
 "I worked on CFD simulation of bridge pier scour using OpenFOAM."
 
 ### Level 2: Detail (60 sec)
-"I used SedFoam with Eulerian two-phase flow and k-ω SST turbulence. I performed grid sensitivity studies with 3 mesh levels, achieved y+ < 5, and validated against Mao (1986) experimental data within 7% accuracy."
+"I used an Eulerian two-phase CFD solver with k-ω SST turbulence. I performed grid sensitivity studies with 3 mesh levels, achieved y+ < 5, and validated against Mao (1986) experimental data within 7% accuracy."
 
 ### Level 3: Deep (120 sec)
-"I chose SedFoam because it handles the solid-liquid coupling better than single-phase approaches. The key technical challenge was mesh quality near the pier — I had 15 inflation layers with 1.15 growth ratio to capture the boundary layer. I used the Grid Convergence Index method following ASME V&V 20 standards. The k-ω SST model was chosen over k-ε because of better performance in the adverse pressure gradient region near the pier."
+"I chose an Eulerian two-phase solver because it handles the solid-liquid coupling better than single-phase approaches. The key technical challenge was mesh quality near the pier — I had 15 inflation layers with 1.15 growth ratio to capture the boundary layer. I used the Grid Convergence Index method following ASME V&V 20 standards. The k-ω SST model was chosen over k-ε because of better performance in the adverse pressure gradient region near the pier."
 
 **Interviewers will start at Level 1 and drill down based on your answer. Be ready for all 3 levels.**
 

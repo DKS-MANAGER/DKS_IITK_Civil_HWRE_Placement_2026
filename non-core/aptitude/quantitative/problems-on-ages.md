@@ -1,4 +1,4 @@
-# Problems on Ages
+﻿# Problems on Ages
 
 ## Concept Definitions
 
@@ -92,5 +92,3 @@ A father is 38 years old. He was as old as his son is now at the time of the son
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Problems on ages
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Age problem practice

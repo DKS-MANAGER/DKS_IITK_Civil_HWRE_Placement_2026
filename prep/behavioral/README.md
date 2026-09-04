@@ -195,4 +195,3 @@
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews)
 * [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions)
 * [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)

@@ -1,4 +1,4 @@
-# Placement Roadmap
+﻿# Placement Roadmap
 
 ## Purpose
 
@@ -326,6 +326,4 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Phased roadmap, execution targets, milestone rubric
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Interview logging guidance
 * [Command Center](.roo/modes/fable.md) — Daily planner, progress dashboard, mock tracker

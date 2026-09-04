@@ -1,4 +1,4 @@
-# Partnership
+﻿# Partnership
 
 ## Concept Definitions
 
@@ -85,5 +85,3 @@ A and B start a business with Rs. 20,000 and Rs. 30,000 respectively. After 6 mo
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Ratio and proportion
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Partnership practice problems

@@ -1,4 +1,4 @@
-# Hydrology
+﻿# Hydrology
 
 ## Hydrologic Cycle
 
@@ -581,7 +581,6 @@ Q5: "How does this differ from level-pool routing?"
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
 * [`../open_channel_flow/open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) — Open channel hydraulics
 * [`../water_resources/water-resources-engineering.md`](../water_resources/water-resources-engineering.md) — Reservoir design

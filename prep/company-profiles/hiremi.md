@@ -1,4 +1,4 @@
-# Hiremi
+﻿# Hiremi
 
 ## Interview Process
 Hiremi's selection process consists of multiple rounds:
@@ -17,4 +17,3 @@ Hiremi's selection process consists of multiple rounds:
 - Work on clear and confident self-presentation
 
 ## Sources
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Hiremi interview experience

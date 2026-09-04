@@ -1,4 +1,4 @@
-# Verbal Ability
+﻿# Verbal Ability
 
 ## Overview
 
@@ -347,6 +347,4 @@ D) Nurse
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Verbal ability
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Verbal practice
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

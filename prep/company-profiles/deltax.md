@@ -1,4 +1,4 @@
-# Deltax
+﻿# Deltax
 
 ## Interview Process
 Deltax's selection process consists of three rounds:
@@ -18,4 +18,3 @@ Deltax's selection process consists of three rounds:
 - Be prepared to explain your code clearly and concisely
 
 ## Sources
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Deltax interview experience

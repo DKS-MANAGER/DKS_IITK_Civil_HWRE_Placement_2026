@@ -1,4 +1,4 @@
-# Quantitative Aptitude Basics
+﻿# Quantitative Aptitude Basics
 
 ## Overview
 
@@ -212,6 +212,4 @@ Quantitative aptitude measures your numerical reasoning, problem-solving speed, 
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Quantitative aptitude fundamentals
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Placement-focused quant practice
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

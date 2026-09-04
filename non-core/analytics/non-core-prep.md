@@ -1,4 +1,4 @@
-# Non-Core Preparation Guide
+﻿# Non-Core Preparation Guide
 
 For Civil/HWRE students targeting analytics, consulting, and tech-adjacent roles.
 
@@ -132,5 +132,3 @@ print(summary.sort_values('mean', ascending=False))
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Non-Core Preparation section
-* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep) — Placement prep resources

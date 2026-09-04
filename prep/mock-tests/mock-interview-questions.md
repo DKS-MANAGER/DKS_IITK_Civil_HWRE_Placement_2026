@@ -1,4 +1,4 @@
-# Mock Interview Questions — 50 Questions with Answers
+﻿# Mock Interview Questions — 50 Questions with Answers
 
 > **How to use:** Practice answering aloud. Time yourself: 60-90 sec for technical, 90-120 sec for behavioral. Record and review.
 
@@ -215,8 +215,6 @@
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
-* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026)
 * [`../technical/technical-interview-bank.md`](../technical/technical-interview-bank.md) — 100 technical Q&A
 * [`../hr/hr-interview-guide.md`](../hr/hr-interview-guide.md) — HR guide
 * [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) — 30 STAR examples

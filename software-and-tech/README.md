@@ -93,8 +93,29 @@ It covers both **Core Civil** and **Non-Core / Tech-Adjacent** roles.
 | [**Learning Roadmaps**](learning-roadmaps.md) | 7-day, 30-day, 3-month, 6-month plans | 1 |
 | [**Anti-Overload**](anti-overload.md) | One primary + one complementary + one automation | 1 |
 | [**M.Tech Advantage**](mtech-advantage.md) | Research → software → industry role | 1 |
+| [**Tool Deep-Dives**](deep-dives/README.md) | Hands-on step-by-step walkthroughs | 8 |
 
-**Total: 30 files across 21 directories**
+**Total: 38 files across 22 directories**
+
+---
+
+## 🔬 Tool Deep-Dives (Hands-On Walkthroughs)
+
+> **"I know I need to learn HEC-RAS. But how do I actually *build* a model?"**
+
+The [**Tool Deep-Dives**](deep-dives/README.md) directory provides step-by-step tutorials for the most important tools. Each guide builds a **real model end-to-end** and ends with **interview questions you can answer** after completing it.
+
+| Tool | Branch | What You Build |
+|:-----|:-------|:---------------|
+| [HEC-RAS](deep-dives/hec-ras-walkthrough.md) | HWRE / River | 1D steady river model + bridge + 2D floodplain |
+| [HEC-HMS](deep-dives/hec-hms-tutorial.md) | Hydrology | Rainfall-runoff model + flood hydrograph |
+| [SWMM](deep-dives/swmm-guide.md) | Urban Drainage | Urban drainage network + LID control |
+| [EPANET](deep-dives/epanet-walkthrough.md) | Water Distribution | Water network + extended period simulation |
+| [PLAXIS 2D](deep-dives/plaxis-2d-tutorial.md) | Geotechnical | Braced excavation + retaining wall + FoS |
+| [SLOPE/W](deep-dives/geostudio-slopew-tutorial.md) | Geotechnical | Embankment slope stability + FoS |
+| [OpenFOAM](deep-dives/openfoam-case-study.md) | CFD / Research | Flow around cylinder + mesh independence |
+
+👉 **Full index:** [`deep-dives/README.md`](deep-dives/README.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# Behavioral Interview Preparation Guide
+﻿# Behavioral Interview Preparation Guide
 
 ## STAR Framework
 
@@ -60,10 +60,10 @@ Result: [Quantified outcome — 1-2 sentences]
 - **R:** The simulation converged after the mesh fix, completing in 3 days. We published the validated results in a conference paper.
 
 **STAR 6: Decision with Incomplete Information**
-- **S:** During our CFD project, we had to choose between SedFoam and sedExnerFoam for sediment transport modeling, with limited documentation available for both.
+- **S:** During our CFD project, we had to choose between two different OpenFOAM solvers for sediment transport modeling, with limited documentation available for both.
 - **T:** I had to recommend a solver to the team within 2 days.
 - **A:** I ran quick test cases with both solvers on a simple flat-bed problem, compared computational cost and accuracy against analytical solutions, and consulted with a PhD student experienced in OpenFOAM.
-- **R:** I recommended SedFoam based on better convergence and wider literature support. The recommendation proved correct — our final results matched experimental data within 5%.
+- **R:** I recommended Solver A based on better convergence and wider literature support. The recommendation proved correct — our final results matched experimental data within 5%.
 
 **STAR 7: Creative Solution**
 - **S:** We needed to visualize 3D flow field data from OpenFOAM but ParaView was crashing on our lab computers due to memory limitations.
@@ -148,7 +148,7 @@ Result: [Quantified outcome — 1-2 sentences]
 ### 🎯 Project-Specific Stories (Civil/HWRE)
 
 **STAR 18: CFD Simulation Achievement**
-- **S:** My M.Tech project involved simulating 2D pipeline scour using SedFoam with Eulerian two-phase flow and k-ω SST turbulence.
+- **S:** My M.Tech project involved simulating 2D pipeline scour using OpenFOAM with Eulerian two-phase flow and k-ω SST turbulence.
 - **T:** Validate the model against Mao (1986) experimental data and achieve < 10% error in scour depth prediction.
 - **A:** I performed extensive grid sensitivity studies (3 mesh levels), implemented adaptive time stepping, ran 20+ parameter variations for wall function validation, and compared results using the Grid Convergence Index.
 - **R:** Final scour depth matched experimental data within 7%. The validated model was used for 3 additional case studies in our publication.
@@ -156,13 +156,13 @@ Result: [Quantified outcome — 1-2 sentences]
 **STAR 19: Bridge Scour Analysis**
 - **S:** Our team needed to predict scour depth around bridge piers for a consulting project, but field measurements were limited.
 - **T:** Develop a reliable prediction methodology using HEC-18 equations and CFD validation.
-- **A:** I compiled HEC-18/HEC-23 guidelines, ran CFD simulations with SedFoam for 5 pier configurations, calibrated the model against lab data, and created a design chart for quick scour estimation.
+- **A:** I compiled HEC-18/HEC-23 guidelines, ran CFD simulations for 5 pier configurations, calibrated the model against lab data, and created a design chart for quick scour estimation.
 - **R:** The design chart reduced estimation time from 2 hours to 15 minutes per pier. The consulting firm adopted it as a standard reference tool.
 
 **STAR 20: OpenFOAM Case Setup**
 - **S:** Our research group needed to set up a new OpenFOAM case for open channel flow with sediment transport — no existing template existed.
 - **T:** Create a complete, documented case template that could be reused by other students.
-- **A:** I built the case from scratch: blockMeshDict geometry, snappyHexMesh refinement, k-ω SST boundary conditions, SedFoam solver settings, and validation against analytical solutions. I documented every dictionary entry with comments.
+- **A:** I built the case from scratch: blockMeshDict geometry, snappyHexMesh refinement, k-ω SST boundary conditions, solver configuration, and validation against analytical solutions. I documented every dictionary entry with comments.
 - **R:** The template was used by 5 subsequent students, reducing their case setup time from 2 weeks to 2 days.
 
 ---
@@ -278,7 +278,7 @@ Result: [Quantified outcome — 1-2 sentences]
 |---------|---------------|-----------|--------|--------|
 | [Project 1] | [Challenge] | [Role] | [Python, MATLAB] | [Result] |
 | [Project 2] | [Challenge] | [Role] | [OpenFOAM, CFD] | [Result] |
-| [Thesis] | [Challenge] | [Role] | [SedFoam, k-ω SST] | [Result] |
+| [Thesis] | [Challenge] | [Role] | [OpenFOAM, k-ω SST] | [Result] |
 
 ---
 
@@ -298,4 +298,3 @@ Result: [Quantified outcome — 1-2 sentences]
 
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews)
 * [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)

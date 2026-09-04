@@ -1,4 +1,4 @@
-# Averages & Mixtures
+﻿# Averages & Mixtures
 
 ## Concept Definitions
 
@@ -173,6 +173,4 @@ A class has 20 boys and 30 girls. Average weight of boys is 50 kg, girls is 40 k
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Averages and mixtures
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Averages practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

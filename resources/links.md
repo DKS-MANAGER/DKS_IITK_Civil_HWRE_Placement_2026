@@ -1,4 +1,4 @@
-# Links & Resources
+﻿# Links & Resources
 
 > **Curated collection of external resources for GATE Civil, placement preparation, and interview readiness.** All links verified and categorized for easy access.
 
@@ -86,7 +86,6 @@
 | Resource | Description | Link |
 |----------|-------------|------|
 | **IndiaBix** | Topic-wise aptitude practice | [indiabix.com](https://www.indiabix.com/) |
-| **Prepare-General-Aptitude** | Daily 20-min drills | [GitHub](https://github.com/DKS-MANAGER/Aptitude-For-Placements) |
 | **RS Aggarwal Quantitative Aptitude** | Book - speed math, percent, ratios | [Amazon](https://www.amazon.in/Quantitative-Aptitude-Competitive-Examinations-R/dp/9352834029) |
 | **Aptitude-and-reasoning-100-interview** | Puzzles, seating, constraints | [GitHub](https://github.com/rShearer/behavioral-interview-list-of-questions) |
 | **GRE-level vocab/grammar** | Verbal ability for HR/GD | [Magoosh](https://www.magoosh.com/gre/vocabulary-flashcards/) |
@@ -211,9 +210,6 @@
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
-* [campus-placement-prep](https://github.com/DKS-MANAGER/campus-placement-prep)
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews)
 * [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions)

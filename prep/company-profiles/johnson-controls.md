@@ -1,4 +1,4 @@
-# Johnson Controls
+﻿# Johnson Controls
 
 ## Interview Process
 Johnson Controls' interview process consists of four rounds:
@@ -19,4 +19,3 @@ Johnson Controls' interview process consists of four rounds:
 - Practice basic aptitude for the online test
 
 ## Sources
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Johnson Controls interview experience

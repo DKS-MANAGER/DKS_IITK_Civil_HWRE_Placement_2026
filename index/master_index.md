@@ -65,7 +65,7 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 
 | Metric | Count |
 |--------|-------|
-| Total Markdown Files | 100 |
+| Total Markdown Files | 110+ |
 | Core Civil Files | 16 |
 | HWRE Files | 7 |
 | Aptitude Files | 10 |
@@ -75,6 +75,9 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | Template Files | 4 |
 | Resource Files | 7 |
 | Index/Config Files | 5 |
+| Navigation Hubs | 8+ |
+| Software Deep-Dives | 7 |
+| Non-Core Career Tracks | 10+ |
 
 ---
 
@@ -82,14 +85,17 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 
 | Need | Go To |
 |------|-------|
-| **Start Here** | [README.md](README.md) |
+| **Start Here** | [docs/start-here.md](docs/start-here.md) |
+| **Control Panel** | [docs/placement-control-panel.md](docs/placement-control-panel.md) |
 | **Roadmap** | [docs/roadmap.md](docs/roadmap.md) |
 | **One-Page Cheat Sheet** | [core/hwre/exam_notes/hwre-exam-notes.md](core/hwre/exam_notes/hwre-exam-notes.md) |
 | **Formula Sheet** | [core/gate/formulas/gate-civil-formulas.md](core/gate/formulas/gate-civil-formulas.md) |
 | **Revision Cards** | [core/gate/revision_notes/gate-civil-revision.md](core/gate/revision_notes/gate-civil-revision.md) |
-| **Daily Schedule** | [fable.md](.roo/modes/fable.md#-study-planner) |
-| **Weekly Tracker** | [README.md#-weekly-progress-tracker](README.md#-weekly-progress-tracker) |
+| **Question Engine** | [questions/README.md](questions/README.md) |
+| **Core Civil Hub** | [core/README.md](core/README.md) |
+| **HWRE Track** | [core/hwre/README.md](core/hwre/README.md) |
 | **Validate Index** | `python scripts/validate_index.py` |
+| **Quality Check** | `python scripts/quality_check.py` |
 
 ---
 

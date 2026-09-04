@@ -1,4 +1,4 @@
-# Hubstream
+﻿# Hubstream
 
 ## Interview Process
 Hubstream's process information is limited. Refer to the external experience log for details.
@@ -12,5 +12,4 @@ Hubstream's process information is limited. Refer to the external experience log
 - Practice coding problems on LeetCode/GFG
 
 ## Sources
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Hubstream interview experience
 - https://www.geeksforgeeks.org/hubstream-india-interview-experience-for-sde-on-campus/

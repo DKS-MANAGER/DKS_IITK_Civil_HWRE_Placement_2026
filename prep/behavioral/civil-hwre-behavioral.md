@@ -160,7 +160,7 @@
 **Answer Guide:**
 - Theory: "Sediment transport is the movement of particles by flowing water — bed load, suspended load, wash load"
 - Application: "Bridge scour, reservoir sedimentation, channel design all depend on sediment transport"
-- Your work: "My thesis modeled this using SedFoam with Eulerian two-phase flow"
+- Your work: "My thesis modeled this using an Eulerian two-phase CFD solver"
 
 ### Q21: How does CFD apply to water resources engineering? 🟡 P1
 **Framework:** CRIT

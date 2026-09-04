@@ -1,4 +1,4 @@
-# Water Supply Engineering
+﻿# Water Supply Engineering
 
 ## Overview
 
@@ -259,5 +259,4 @@ Hazen-Williams: $h_f = 10.67LQ^{1.85}/(C^{1.85}D^{4.87})$
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

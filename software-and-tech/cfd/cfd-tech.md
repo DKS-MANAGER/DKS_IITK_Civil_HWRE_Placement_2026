@@ -196,6 +196,18 @@ HPC:
 
 ---
 
+## 🔬 Deep-Dive Walkthroughs
+
+> **"I know I need OpenFOAM. Now how do I actually build a case?"**
+
+Follow the hands-on step-by-step guide to build a complete CFD case end-to-end:
+
+| Tool | Deep-Dive Guide |
+|:-----|:----------------|
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

@@ -1,4 +1,4 @@
-# Problems on Train
+﻿# Problems on Train
 
 ## Concept Definitions
 
@@ -91,5 +91,3 @@ A train running at 60 km/h crosses a 200 m platform in 27 seconds. What is the t
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Speed, time, distance
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Train problem practice

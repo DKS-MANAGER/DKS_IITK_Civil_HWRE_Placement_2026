@@ -203,6 +203,19 @@ Seepage Force:                j = i·γ_w
 
 ---
 
+## 🔬 Deep-Dive Walkthroughs
+
+> **"I know I need PLAXIS. Now how do I actually build a model?"**
+
+Follow the hands-on step-by-step guides to build real geotechnical models end-to-end:
+
+| Tool | Deep-Dive Guide |
+|:-----|:----------------|
+| PLAXIS 2D | [`deep-dives/plaxis-2d-tutorial.md`](../deep-dives/plaxis-2d-tutorial.md) |
+| GeoStudio SLOPE/W | [`deep-dives/geostudio-slopew-tutorial.md`](../deep-dives/geostudio-slopew-tutorial.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

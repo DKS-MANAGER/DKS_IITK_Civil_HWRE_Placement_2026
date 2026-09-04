@@ -1,4 +1,4 @@
-# Self Introduction Template (Tell Me About Yourself)
+﻿# Self Introduction Template (Tell Me About Yourself)
 
 > A structured, fill-in-the-blank template for the opening interview question. Based on the **present-past-future** framework used in behavioral interview prep, customised for Civil/HWRE placement candidates.
 
@@ -107,6 +107,4 @@ I'm looking to contribute rigorously analysed insights to [TEAM/OFFER] while gro
 ## References
 
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR method, "Tell me about yourself" sample, general tips
-* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026) — Present-past-future framework, company/role alignment, good vs bad answers
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company-track context: PSUs, core design, analytics; IITK placement process
 * [behavioral-interview-guide](prep/behavioral/behavioral-interview-guide.md) — Company-specific question types

@@ -156,7 +156,7 @@ Reduced visualization time from 2 hours (ParaView, when it worked) to 10 minutes
 ## 📝 Story 7: Decision with Incomplete Information
 
 **Situation:**
-During our CFD project at IIT Kanpur, we had to choose between SedFoam and sedExnerFoam for sediment transport modeling. Both had limited documentation, and we had 2 days to decide.
+During our CFD project at IIT Kanpur, we had to choose between two different OpenFOAM solvers for sediment transport modeling. Both had limited documentation, and we had 2 days to decide.
 
 **Task:**
 Recommend a solver to the team within 2 days — with imperfect information.
@@ -165,11 +165,11 @@ Recommend a solver to the team within 2 days — with imperfect information.
 1. Ran quick test cases with both solvers on a simple flat-bed problem (2 hours each)
 2. Compared computational cost, convergence behavior, and accuracy against analytical solutions
 3. Consulted with a PhD student experienced in OpenFOAM for practical insights
-4. Checked literature support — SedFoam had 3x more published validations
-5. Made recommendation with confidence levels — "SedFoam based on convergence and literature support, with 90% confidence"
+4. Checked literature support — Solver A had 3x more published validations
+5. Made recommendation with confidence levels — "Solver A based on convergence and literature support, with 90% confidence"
 
 **Result:**
-Recommended SedFoam — our final results matched experimental data within 5%. The recommendation proved correct. When information is incomplete, test what you can, consult experts, and make data-driven decisions.
+Recommended Solver A — our final results matched experimental data within 5%. The recommendation proved correct. When information is incomplete, test what you can, consult experts, and make data-driven decisions.
 
 ⏱️ **Target time: 75 seconds**
 

@@ -1,4 +1,4 @@
-# Sediment Transport
+﻿# Sediment Transport
 
 ## Overview
 
@@ -302,7 +302,6 @@ $y_s/y_1 = 2.0K_1K_2K_3K_4(a/y_1)^{0.35}Fr^{0.43}$
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
 * [`../hydraulics/turbulence-modeling.md`](../hydraulics/turbulence-modeling.md) — Turbulence-sediment interaction
 * [`../open_channel_flow/open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) — Open channel flow basics

@@ -1,4 +1,4 @@
-# Interview Experiences
+﻿# Interview Experiences
 
 > Consolidated summary of campus placement interview experiences from multiple companies. Each entry preserves the round structure, key themes, and takeaways for future candidates.
 
@@ -224,4 +224,3 @@ Follow-up interview rounds (if any), HR specifics, and exact coding problem patt
 
 ## References
 
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Company-wise interview experiences and transcripts

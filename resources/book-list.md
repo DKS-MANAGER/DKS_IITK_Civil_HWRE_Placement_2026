@@ -1,4 +1,4 @@
-# Recommended Books for Civil Engineering & Placement Preparation
+﻿# Recommended Books for Civil Engineering & Placement Preparation
 
 > **Curated list of standard textbooks and reference books for GATE Civil, PSU exams, and placement preparation.** Organized by subject with priority ratings.
 
@@ -207,5 +207,3 @@
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027) — Books section, topic-wise links
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Resume audit and formatting guidance

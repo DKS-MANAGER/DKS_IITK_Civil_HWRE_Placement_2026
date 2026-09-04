@@ -1,4 +1,4 @@
-# Irrigation Engineering
+﻿# Irrigation Engineering
 
 ## Scope
 
@@ -430,5 +430,3 @@ $D \times \Delta = 8.64B$
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)

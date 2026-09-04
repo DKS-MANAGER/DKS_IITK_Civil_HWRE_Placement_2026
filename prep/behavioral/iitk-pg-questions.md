@@ -103,12 +103,12 @@
 - Show awareness: "The k-ω SST model has documented limitations in flow separation regions"
 - Forward-looking: "Future work could include 3D simulations and live-bed scour conditions"
 
-### Q14: Why did you choose SedFoam over other solvers? 🟡 P1
+### Q14: Why did you choose this particular solver over other options? 🟡 P1
 **Framework:** Comparison + Evidence
 **Answer Guide:**
-- Literature support: "SedFoam has more published validations than alternatives"
+- Literature support: "The solver I chose has more published validations than alternatives"
 - Features: "It handles solid-liquid coupling better for sediment transport"
-- Testing: "I ran quick comparisons and SedFoam had better convergence"
+- Testing: "I ran quick comparisons and this solver had better convergence"
 
 ### Q15: Explain the difference between k-ε and k-ω SST. 🟡 P1
 **Framework:** Technical Explanation
@@ -128,7 +128,7 @@
 **Framework:** Technical + Decision
 **Answer Guide:**
 - OpenFOAM: "Open-source, flexible, widely used in research"
-- SedFoam: "Specialized for sediment transport with Eulerian two-phase flow"
+- Sediment solver: "Specialized for sediment transport with Eulerian two-phase flow"
 - ParaView: "Open-source visualization for post-processing"
 - Python: "Automation of data extraction and analysis"
 

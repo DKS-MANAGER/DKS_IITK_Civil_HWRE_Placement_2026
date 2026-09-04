@@ -19,7 +19,7 @@ The "Tell me about yourself" question is asked in 90%+ of interviews. Your answe
 ## 5 Sample Introductions
 
 ### Sample 1: Core Civil/HWRE Role (PSU/Core Company)
-> "Good morning. I'm [Name], currently pursuing M.Tech in Civil Engineering with specialization in Hydraulics and Water Resources Engineering at IIT Kanpur. My thesis focuses on CFD modeling of bridge pier scour using OpenFOAM, where I validated the SedFoam solver against experimental data within 7% accuracy.
+> "Good morning. I'm [Name], currently pursuing M.Tech in Civil Engineering with specialization in Hydraulics and Water Resources Engineering at IIT Kanpur. My thesis focuses on CFD modeling of bridge pier scour using OpenFOAM, where I validated my model against experimental data within 7% accuracy.
 >
 > During my B.Tech in Civil Engineering, I developed strong fundamentals in hydraulics, hydrology, and structural design. I completed internships at [Company] where I worked on [specific project], and at [Organization] on [project]. I've also published a paper on [topic] in [journal/conference].
 >
@@ -71,7 +71,7 @@ The "Tell me about yourself" question is asked in 90%+ of interviews. Your answe
 ### Sample 5: Research/R&D Role
 > "Good morning. I'm [Name], currently completing M.Tech in Civil Engineering (HWRE) at IIT Kanpur. My research focuses on computational fluid dynamics for sediment transport phenomena, specifically bridge pier scour modeling using OpenFOAM.
 >
-> My thesis contributions include: (1) Validation of SedFoam's Eulerian two-phase solver against Mao (1986) experimental data achieving 7% accuracy, (2) Development of a mesh independence protocol using Grid Convergence Index for scour simulations, (3) Investigation of turbulence model sensitivity (k-ε vs k-ω SST) for adverse pressure gradient flows around piers. This work has been accepted at [conference/journal].
+> My thesis contributions include: (1) Validation of an Eulerian two-phase CFD solver against Mao (1986) experimental data achieving 7% accuracy, (2) Development of a mesh independence protocol using Grid Convergence Index for scour simulations, (3) Investigation of turbulence model sensitivity (k-ε vs k-ω SST) for adverse pressure gradient flows around piers. This work has been accepted at [conference/journal].
 >
 > Prior to M.Tech, I completed B.Tech at [Institute] where I worked on [project]. I also spent a summer at [Institute/Lab] working on [project], gaining experience with [specific tools/methods].
 >

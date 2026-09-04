@@ -1,4 +1,4 @@
-# Geotechnical Engineering
+﻿# Geotechnical Engineering
 
 ## Scope
 
@@ -273,5 +273,4 @@ Foundation basics    →  Earth pressure theories        →  Ground improvement
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

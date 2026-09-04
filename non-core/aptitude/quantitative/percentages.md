@@ -1,4 +1,4 @@
-# Percentages
+﻿# Percentages
 
 ## Concept Definitions
 
@@ -169,6 +169,4 @@ The price of wheat falls by 25%. By what percentage can a person increase his co
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Percentages topic
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Percentage practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

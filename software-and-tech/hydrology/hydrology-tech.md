@@ -149,6 +149,20 @@ Hydrology student → what tools?
 
 ---
 
+## 🔬 Deep-Dive Walkthroughs
+
+> **"I know I need HEC-HMS. Now how do I actually build a model?"**
+
+Follow the hands-on step-by-step guides to build real hydrology models end-to-end:
+
+| Tool | Deep-Dive Guide |
+|:-----|:----------------|
+| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) |
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

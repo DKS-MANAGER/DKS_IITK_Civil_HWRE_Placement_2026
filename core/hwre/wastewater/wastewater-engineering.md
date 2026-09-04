@@ -1,4 +1,4 @@
-# Wastewater Engineering
+﻿# Wastewater Engineering
 
 ## Overview
 
@@ -252,5 +252,4 @@ $F/M = QS_0/(VX)$, $\theta_c = VX/(Q_wX_w + Q_eX_e)$
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

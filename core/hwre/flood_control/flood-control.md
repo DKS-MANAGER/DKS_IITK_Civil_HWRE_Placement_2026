@@ -1,4 +1,4 @@
-# Flood Control Engineering
+﻿# Flood Control Engineering
 
 ## Overview
 
@@ -303,5 +303,4 @@ $R = 1-(1-1/T)^n$ — risk over design life
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)

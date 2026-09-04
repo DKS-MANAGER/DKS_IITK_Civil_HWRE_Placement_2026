@@ -1,4 +1,4 @@
-# Open Channel Flow
+﻿# Open Channel Flow
 
 ## Definition & Scope
 
@@ -653,7 +653,6 @@ Q5: "What if the jump is swept out of the basin?"
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
 * [`hydraulics.md`](../hydraulics/hydraulics.md) — Pipe flow and fundamental hydraulics
 * [`../hydrology/hydrology.md`](../hydrology/hydrology.md) — Flood routing and hydrograph analysis

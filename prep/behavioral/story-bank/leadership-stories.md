@@ -26,7 +26,7 @@
 > **Framing:** "In my M.Tech thesis project at IIT Kanpur, our 4-member team had to complete a CFD simulation of bridge pier scour within 8 weeks — geometry, meshing, solver setup, validation, and documentation."
 
 **Situation:**
-During my M.Tech thesis at IIT Kanpur, our 4-member team was tasked with simulating 2D pipeline/bridge pier scour using OpenFOAM with SedFoam. The scope included geometry creation, mesh generation, solver configuration, validation against experimental data, and final documentation. The deadline was non-negotiable — 8 weeks.
+During my M.Tech thesis at IIT Kanpur, our 4-member team was tasked with simulating 2D pipeline/bridge pier scour using OpenFOAM. The scope included geometry creation, mesh generation, solver configuration, validation against experimental data, and final documentation. The deadline was non-negotiable — 8 weeks.
 
 **Task:**
 I was assigned team lead. My responsibility was to coordinate mesh generation, solver setup, and result validation across the team while ensuring we met our weekly milestones.

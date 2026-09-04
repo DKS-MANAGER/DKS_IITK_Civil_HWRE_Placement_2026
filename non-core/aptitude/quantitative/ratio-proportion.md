@@ -1,4 +1,4 @@
-# Ratio & Proportion
+﻿# Ratio & Proportion
 
 ## Concept Definitions
 
@@ -175,6 +175,4 @@ The ratio of ages of A and B is 5:3. After 6 years, the ratio will be 7:5. Find 
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Ratio and proportion
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

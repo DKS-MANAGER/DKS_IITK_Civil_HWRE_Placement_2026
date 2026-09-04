@@ -6,6 +6,31 @@ All notable changes to this repository are documented in this file. The format i
 
 ## [Unreleased]
 
+### Platform Transformation (v4.0)
+
+**Navigation & Discoverability**
+- Redesigned root `README.md` as a navigation console with "Choose Your Path" (career target), "By Timeline", and "By Need" tables.
+- Created `docs/start-here.md` — canonical onboarding page (8-step journey).
+- Created `docs/placement-control-panel.md` — command center for all resources.
+- Created `core/README.md` — Core Civil navigation hub with full preparation chain.
+- Created `core/hwre/README.md` — HWRE flagship track (learning → software → interview → revision).
+- Created `questions/README.md` — centralized Question Engine index.
+- Created `prep/README.md`, `resources/README.md`, `docs/README.md` — section entry points.
+
+**Information Architecture & Standards**
+- Created `docs/architecture.md` — folder structure, naming conventions, navigation dimensions.
+- Created `docs/content-standards.md` — quality gates, duplication policy, question quality framework.
+- Created 8 canonical content templates under `docs/templates/` (concept, numerical, interview, software, career, project, revision, resource).
+
+**Content Additions**
+- Created `prep/technical/thesis-defense-guide.md` — M.Tech thesis defense guide (43 questions + 5-min pitch framework).
+
+**Automation**
+- Created `scripts/quality_check.py` — automated quality control (broken links, headings, file sizes, README coverage, orphan pages).
+
+**Index Updates**
+- Updated `index/master_index.md` — refreshed statistics, added navigation hubs to quick links.
+
 ### Repository Build
 
 - Initial repository structure created for DEEC 2026 placement preparation.

@@ -1,4 +1,4 @@
-# Project Discussion Framework
+﻿# Project Discussion Framework
 
 ## Overview
 
@@ -70,12 +70,12 @@ LEARNINGS & FUTURE WORK:
 **Problem:** Bridge pier scour causes 60% of bridge failures in India. Existing empirical formulas (HEC-18) have ±30% uncertainty. Need physics-based prediction.
 
 **My Contribution:**
-- Built 2D OpenFOAM case with SedFoam (Eulerian two-phase, k-ω SST)
+- Built 2D OpenFOAM case with Eulerian two-phase solver (k-ω SST turbulence)
 - Designed mesh independence study using Grid Convergence Index (3 mesh levels)
 - Validated against Mao (1986) experimental data — achieved 7% error in scour depth
 - Automated parameter sweeps (50+ runs) with Python for turbulence model sensitivity
 
-**Methodology:** SedFoam solver, k-ω SST turbulence, Eulerian two-phase flow, Exner equation for bed evolution. Chose SST over k-ε for adverse pressure gradient near pier.
+**Methodology:** Eulerian two-phase CFD solver, k-ω SST turbulence, Exner equation for bed evolution. Chose SST over k-ε for adverse pressure gradient near pier.
 
 **Results:** Scour depth prediction within 7% of experimental data. Identified that k-ε underpredicts separation by 25%. Published at [Conference].
 
@@ -93,12 +93,12 @@ LEARNINGS & FUTURE WORK:
 **Problem:** Subsea pipeline scour threatens offshore infrastructure. Need reliable CFD tool for design.
 
 **My Contribution:**
-- Set up 2D pipeline scour case in OpenFOAM with sedInterFoam
+- Set up 2D pipeline scour case in OpenFOAM with interFoam (VOF multiphase solver)
 - Performed mesh sensitivity study (4 mesh levels, GCI analysis)
 - Compared k-ε, k-ω, SST turbulence models against Sumer et al. (1992) data
 - Built Python automation for 30+ simulation runs and post-processing
 
-**Methodology:** sedInterFoam (VOF + sediment), k-ω SST selected based on literature. Structured mesh with boundary layer refinement.
+**Methodology:** interFoam (VOF multiphase), k-ω SST selected based on literature. Structured mesh with boundary layer refinement.
 
 **Results:** SST matched equilibrium scour depth within 10%. k-ε overpredicted by 35%. Automation reduced manual effort from 2 weeks to 2 days.
 
@@ -108,7 +108,7 @@ LEARNINGS & FUTURE WORK:
 | VOF interface smearing | Used compressive interface scheme, refined interface region | Sharp interface maintained |
 | Long simulation times | Used symmetry boundary, parallel runs on HPC | 50% wall-time reduction |
 
-**Learnings:** VOF requires careful interface treatment. Would explore sedFoam for sediment-laden flows.
+**Learnings:** VOF requires careful interface treatment. Would explore Eulerian multiphase solvers for sediment-laden flows.
 
 ---
 
@@ -195,7 +195,7 @@ LEARNINGS & FUTURE WORK:
 
 ### Problem-Solving
 **Q: "What would you do differently?"**
-**A:** "Three things: (1) Run LES for one case to benchmark RANS turbulence model. (2) Test sedExnerFoam with ALE mesh motion for moving bed morphology. (3) Add uncertainty quantification with polynomial chaos expansion for input parameters."
+**A:** "Three things: (1) Run LES for one case to benchmark RANS turbulence model. (2) Test an Exner-based morphodynamic solver with ALE mesh motion for moving bed morphology. (3) Add uncertainty quantification with polynomial chaos expansion for input parameters."
 
 **Q: "How did you handle the mesh generation bottleneck?"**
 **A:** "Built Python automation for snappyHexMesh dictionary generation. Parameterized key inputs (refinement levels, layer counts, expansion ratios). Reduced mesh setup from 2 days to 2 hours. Also created mesh quality checklist (skewness < 0.7, non-orthogonality < 70°, y+ compliance)."
@@ -251,7 +251,5 @@ LEARNINGS & FUTURE WORK:
 
 ## 📚 References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
-* [interview-handbook-2026](https://github.com/DKS-MANAGER/interview-handbook-2026)
 * [`../mock_questions/mock-interview-questions.md`](../mock_questions/mock-interview-questions.md) — 50 mock questions
 * [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) — STAR framework

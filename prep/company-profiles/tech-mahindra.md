@@ -1,4 +1,4 @@
-# Tech Mahindra
+﻿# Tech Mahindra
 
 ## Process Overview
 
@@ -55,4 +55,3 @@ Exact coding problem sets, panel composition, and post-2020 process changes are 
 
 ## Sources
 
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Tech Mahindra interview experience

@@ -1,4 +1,4 @@
-# GATE Civil — Practice Problems with Solutions
+﻿# GATE Civil — Practice Problems with Solutions
 
 ## Overview
 
@@ -399,8 +399,6 @@ Net = 20 - 20 + (20×(-20))/100 = -4%
 
 ## References
 
-* [GATE_Civil_Study_Material_2027](https://github.com/DKS-MANAGER/GATE_Civil_Study_Material_2027)
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK)
 * [`../formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md) — Complete formula sheet
 * [`../revision_notes/gate-civil-revision.md`](../revision_notes/gate-civil-revision.md) — Rapid revision cards
 * [`../civil/gate-civil-notes.md`](../civil/gate-civil-notes.md) — Topic-wise notes

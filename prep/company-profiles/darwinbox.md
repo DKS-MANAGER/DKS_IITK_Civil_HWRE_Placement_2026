@@ -1,4 +1,4 @@
-# Darwinbox
+﻿# Darwinbox
 
 ## Interview Process
 Darwinbox's recruitment process consists of five rounds:
@@ -20,4 +20,3 @@ Darwinbox's recruitment process consists of five rounds:
 - Prepare project explanations for technical rounds
 
 ## Sources
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Darwinbox interview experience

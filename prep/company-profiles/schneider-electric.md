@@ -1,4 +1,4 @@
-# Schneider Electric India Pvt Ltd
+﻿# Schneider Electric India Pvt Ltd
 
 ## Process Overview
 
@@ -46,4 +46,3 @@ Be ready for circuit diagrams, derivations, and conceptual explanations:
 
 ## Sources
 
-* [Placement_Preparation](https://github.com/DKS-MANAGER/Placement_Preparation) — Schneider Electric interview experience

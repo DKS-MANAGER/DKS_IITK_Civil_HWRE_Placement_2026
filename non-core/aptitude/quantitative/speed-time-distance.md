@@ -1,4 +1,4 @@
-# Speed, Time & Distance
+﻿# Speed, Time & Distance
 
 ## Concept Definitions
 
@@ -187,6 +187,4 @@ A car covers a distance at 60 km/h and returns at 40 km/h. Find the average spee
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Speed, time, distance
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

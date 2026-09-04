@@ -39,7 +39,7 @@
 
 ### Sample 1: Core Civil / HWRE Role (PSU/Core Company)
 
-> "I'm [Name], currently pursuing M.Tech in Civil Engineering (HWRE) at IIT Kanpur, where my thesis focuses on CFD modeling of bridge pier scour using OpenFOAM. I validated the SedFoam solver against Mao (1986) experimental data within 7% accuracy.
+> "I'm [Name], currently pursuing M.Tech in Civil Engineering (HWRE) at IIT Kanpur, where my thesis focuses on CFD modeling of bridge pier scour using OpenFOAM. I validated my model against Mao (1986) experimental data within 7% accuracy.
 >
 > Before IITK, I completed B.Tech in Civil Engineering with strong fundamentals in hydraulics, hydrology, and structural design. I interned at [Company] working on [specific project], and I've published a paper on [topic] in [venue].
 >
@@ -89,7 +89,7 @@
 
 > "I'm [Name], completing M.Tech in Civil Engineering (HWRE) at IIT Kanpur. My research focuses on computational fluid dynamics for sediment transport — specifically bridge pier scour modeling using OpenFOAM.
 >
-> My thesis contributions include: (1) Validation of SedFoam's Eulerian two-phase solver against Mao (1986) data achieving 7% accuracy, (2) Development of a mesh independence protocol using GCI for scour simulations, (3) Investigation of turbulence model sensitivity for adverse pressure gradient flows. This work has been accepted at [venue].
+> My thesis contributions include: (1) Validation of an Eulerian two-phase CFD solver against Mao (1986) data achieving 7% accuracy, (2) Development of a mesh independence protocol using GCI for scour simulations, (3) Investigation of turbulence model sensitivity for adverse pressure gradient flows. This work has been accepted at [venue].
 >
 > I'm interested in [Company]'s R&D work in [area]. My experience with high-fidelity CFD, turbulence modeling, and multiphase flows, combined with Python and C++ skills, would allow me to contribute to your [project/team]."
 

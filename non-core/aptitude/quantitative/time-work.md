@@ -1,4 +1,4 @@
-# Time & Work
+﻿# Time & Work
 
 ## Concept Definitions
 
@@ -195,6 +195,4 @@ Three pipes A, B, C can fill a tank in 6, 8, 12 hours respectively. They are ope
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Time and work
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

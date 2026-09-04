@@ -1,4 +1,4 @@
-# Permutations & Combinations
+﻿# Permutations & Combinations
 
 ## Concept Definitions
 
@@ -96,5 +96,3 @@ How many 4-digit numbers can be formed using digits 1, 2, 3, 4, 5, 6, 7 (without
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Permutations and combinations
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems

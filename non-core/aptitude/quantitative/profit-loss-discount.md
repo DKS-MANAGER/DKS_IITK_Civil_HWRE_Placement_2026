@@ -1,4 +1,4 @@
-# Profit, Loss & Discount
+﻿# Profit, Loss & Discount
 
 ## Concept Definitions
 
@@ -181,6 +181,4 @@ A man sells an article at a profit of 25%. If he had bought it at 20% less and s
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Profit, loss, and discount
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice problems
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks

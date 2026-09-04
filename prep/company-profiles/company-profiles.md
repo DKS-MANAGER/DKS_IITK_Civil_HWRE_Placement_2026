@@ -1,4 +1,4 @@
-# Company Directory
+﻿# Company Directory
 
 ## Overview
 Compilation of companies relevant to Civil, HWRE, and related disciplines. Based on IITK Phase 1 (2025-26) recruiter data.
@@ -124,5 +124,3 @@ Use this format to log your interview experience:
 
 ## References
 
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Company Profiles & Past Interview Experiences
-* [Civil_Placement_IITK](https://github.com/DKS-MANAGER/Civil_Placement_IITK) — Placement data CSV

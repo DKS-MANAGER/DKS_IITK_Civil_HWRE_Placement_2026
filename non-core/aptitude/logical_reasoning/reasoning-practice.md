@@ -1,4 +1,4 @@
-# Logical Reasoning Practice
+﻿# Logical Reasoning Practice
 
 ## Overview
 
@@ -349,6 +349,4 @@ Find: Who likes Grape?
 
 ## References
 
-* [Aptitude](https://github.com/DKS-MANAGER/Aptitude) — Logical reasoning
-* [Aptitude-For-Placements](https://github.com/DKS-MANAGER/Aptitude-For-Placements) — Practice puzzles
 * [`aptitude-shortcuts.md`](../shortcuts/aptitude-shortcuts.md) — 55 speed math tricks
