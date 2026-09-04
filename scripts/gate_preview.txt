@@ -1,0 +1,2610 @@
+=== GATE-O-PEDIA STRUCTURE PREVIEW ===
+Total lines: 37733
+
+=== FIRST 200 NON-EMPTY LINES (Lines 1-2000) ===
+    3: ===== Page 1 / 947 =====
+    4: O PEDIAPEDIAPEDIAGATE
+    5: GATE
+    6: CIVIL ENGINEERING
+    9: ===== Page 2 / 947 =====
+   10: Published By:
+   12:   Physics Wallah
+   13: ISBN: 978-93-94342-51-4
+   14: Mobile App: Physics Wallah (Available on Play Store)
+   16: Website: www.pw.live
+   17: Email: support@pw.live
+   19: Rights
+   20: All rights will be reserved by Publisher. No part of this book may be used or reproduced in any manner
+   21: whatsoever without the written permission from author or publisher.
+   22: In the interest of student's community:
+   23: Circulation of soft copy of Book(s) in PDF or other equivalen t format(s) through any social media channels,
+   24: emails, etc. or any other channels through mobiles, laptops or desktop is a criminal offence. Anybody
+   25: circulating, downloading, storing, soft copy of the book on his device(s) is in breach of Copyright Act. Further
+   26: Photocopying of this book or any of its material is also illegal. Do not download or forward in case you come
+   27: across any such soft copy material.
+   29: Disclaimer
+   30: A team of PW experts and faculties with an understanding of the subject has worked hard for the books.
+   31: While the author and publisher have used their best efforts in preparing these books. The content has been
+   32: checked for accuracy. As the book is intended for educational purposes, the author shall not be responsible for
+   33: any errors contained in the book.
+   34: The publication is designed to provide accurate and authoritative information with regard to the subject matter
+   35: covered.
+   36: This book and the individual contribution contained in it are protected under copyright by the publisher.
+   37: (This Module shall only be Used for Educational Purpose.)
+   40: ===== Page 3 / 947 =====
+   41: Design Against Static Load
+   46: 1. ENGINEERING MECHANICS   ...........................................................................................  1.1 – 1.36
+   47: 2. STRENGTH OF MATERIAL  ..............................................................................................  2.1 – 2.47
+   48: 3. STRUCTURAL ANALYSIS  ................................................................................................. . 3.1 – 3.54
+   49: 4. REINFORCED CEMENT CONCRETE  ...................................................................................  4.1 – 4.49
+   50: 5. STEEL STRUCTURE   .......................................................................................................  5.1 – 5.62
+   51: 6. ENVIRONMENT ENGINEERING  ........................................................................................  6.1 – 6.83
+   52: 7. GEOTECHNICAL ENGINEERING   .......................................................................................  7.1 – 7.78
+   53: 8. FLUID MECHANICS   ......................................................................................................  8.1 – 8.59
+   54: 9. IRRIGATION ENGINEERING    ............................................................................................  9.1 – 9.30
+   55: 10. ENGINEERING HYDROLOGY    ..........................................................................................  10.1 – 10.39
+   56: 11. SURVEYING   ...............................................................................................................  11.1 – 11.69
+   57: 12. HIGHWAY ENGINEERING    ..............................................................................................  12.1 – 12.70
+   58: 13. AIRPORT ENGINEERING    ...............................................................................................  13.1 – 13.25
+   59: 14. RAILWAY ENGINEERING    ...............................................................................................  14.1 – 14.29
+   60: 15. CONSTRUCTION PROJECT MANAGEMENT     .......................................................................  15.1 – 15.34
+   61: 16. BUILDING MATERIAL CONSTRUCTION     ............................................................................  16.1 – 16.39
+   62: 17. ENGINEERING MATHEMATICS     ......................................................................................  17.1 – 17.54
+   63: 18. GENERAL APTITUDE    ...................................................................................................  18.1 – 18.25
+   64: GATE-O-PEDIA
+   65: CIVIL ENGINEERING
+   66: COMPLETE INDEX
+   67: GATE-O-PEDIA CIVIL ENGINEERING
+   70: ===== Page 4 / 947 =====
+   74: ===== Page 5 / 947 =====
+   75: Design Against Static Load
+   81: 1. Fundamental of Engineering Mechanics ..............................................................................  1.1  –  1.2
+   82: 2. Vectors ................................................................................................................................. . 1.3  –  1.9
+   83: 3. Moment ................................................................................................................................  1.10  –  1.13
+   84: 4. Equilibrium ...........................................................................................................................  1.14  –  1.23
+   85: 5. Friction  .................................................................................................................................  1.24  –  1.26
+   86: 6. Truss .....................................................................................................................................  1.27  –  1.32
+   87: 7. Center of Mass .....................................................................................................................  1.33  –  1.36
+   88: ENGINEERING MECHANICS
+   89: INDEX
+   90: GATE-O-PEDIA CIVIL ENGINEERING
+   93: ===== Page 6 / 947 =====
+   97: ===== Page 7 / 947 =====
+   98: GATE WALLAH CIVIL HANDBOOK
+   99: Design Against Static Load
+  100: 1.1
+  101: 1
+  102: FUNDAMENTAL OF
+  103: ENGINEERING MECHANICS
+  106: 1.1. Fundamental Concepts of Mechanics
+  107: • Mechanics is a branch of physical science which deals with effects of force on objects.
+  108: • Application of law of mechanics to field problem is termed as Engineering mechanics.
+  110: • Static only-In Gate Syllabus.
+  111:  1.1.1. Basic Terminologies in Mechanics
+  112: • Length: Used to locate the position of point of space and thereby describe the size of physical system.
+  113: • Space: The geometrical region in which study of body is involved is called space.
+  114: • Time: It is a measure of succession of event. As static is time independent, this quantity plays an important role in
+  115: dynamics.
+  116: • Mass: Measure of inertia of body, which is its resistance to a change in velocity.
+  117: • Particle: It is a concentrated point mass of negligible dimension. Such body cannot exist theoretically.
+  118: e.g., a bomber aeroplane is a particle for a gunner operating from ground.
+  119: • Rigid body: A body is said to be rigid, if the relative position of any two points in it do not change under the action
+  120: of forces.
+  123: ===== Page 8 / 947 =====
+  124: GATE WALLAH CIVIL HANDBOOK
+  125: Engineering Mechanics
+  126: 1.2
+  127:  1.1.2. Newton’s Law of Motion
+  128: (1) First Law :
+  129: A particle remains at rest or continues to move with uniform velocity if there is no unbalanced force acting on it.
+  130: (2) Second Law:
+  131: The rate of change of momentum of a body is directly proportional to impressed force and it takes place in the di rection
+  132: of force acting on it.
+  133:    () .= = = +
+  134: dp d mV mdV dmFV dt dt dt dt
+  136: If mass ‘m’ is constant  =
+  137: F ma
+  138:     0=dm
+  139: dt
+  140: (3) Third Law:
+  141: The force of action and reaction between interacting bodies are equal in magnitude , opposite in direction and collinear
+  142: (they lie on the same plane)
+  144: 1.1.3. Newton’s Law of Gravitational Attraction:
+  145: Gravitational attraction between any two particles is formulated as
+  147: 2= mMFG
+  148: r
+  150: F = Force of gravity between two particles
+  151: G = Universal constant of gravitation
+  152: G = 6.67 × 10–11 Nm2/kg2
+  153: Weight:
+  154: When particle is located at surface of earth, the force of gravity between them is called weight.
+  156: 2= e
+  157: e
+  158: mMWG
+  159: R
+  161:   2
+  162: 2 9.81m/s
+  163: e
+  164: GMeW mg g
+  165: R
+  166: = = = =
+  168: • For most engineering calculation ‘g’ is determined at sea level and at latitude of 45° (standard location)
+  169:       “The most effective way of learning the principles of engineering mechanics is to solve problem”
+  170: 
+  173: ===== Page 9 / 947 =====
+  174: GATE WALLAH CIVIL HANDBOOK
+  175: Engineering Mechanics
+  176: 1.3
+  177: 2
+  178: VECTORS
+  180: 2.1. Force Vectors
+  181: In general force is considered as “Push” or “pull” exerted by one body on another.
+  182: A force is completely characterized by
+  183: (1) Magnitude
+  184: (2)   Direction
+  185: (3) Point of Application
+  186: (4)   Line of action
+  187: Eg.,
+  188: (1) Magnitude   10 kN
+  189: (2) Direction  Downward
+  190: (3) Point of Application  At C which is 1 m from left support, i.e., point A.
+  191: (4) Line of action  Vertical
+  192:  2.1.1. System of Force
+  193: When numerous amount of force are acting on a body simultaneously. They will form a system called force system
+  195: parallel to
+  196: parallel
+  199: ===== Page 10 / 947 =====
+  200: GATE WALLAH CIVIL HANDBOOK
+  201: Engineering Mechanics
+  202: 1.4
+  205: • Scalar: A scalar is any positive or negative physical quantity that can be completely specified by its magnitude.
+  206: e.g., Mass, Time etc.
+  207: • Vector: A vector is any physical quantity that can be completely specified by its magnitude as well as direction.
+  208: e.g., Force position, momentum, etc.
+  211:  1.2.2. Vector Operations
+  212: (1)  Vector Addition:
+  214:  (1) Add given vector “Head to tail” fashion
+  215:  (2) Resultant vector is extend from tail of first to head of last vector
+  216: (2) Vector Subtraction:
+  218: ()= + − − +
+  219: R A B A B  (not commutative)
+  222: ===== Page 11 / 947 =====
+  223: GATE WALLAH CIVIL HANDBOOK
+  224: Engineering Mechanics
+  225: 1.5
+  226:  2.1.3. Resultant Force:
+  227: If number of forces a re acting on a particle simultaneously then it is possible to find out a single-force which could replace
+  228: them i.e., which could produce the same effect as produced by all given forces. This single called as resultant force.
+  229: Process of finding out resultant force is called composition or compounding of force.
+  231: Parallelogram Law of Force:
+  233: 22
+  234: 1 2 1 2
+  235: 2
+  236: 12
+  237: 2 cos
+  238: sintan cos
+  239: = + + 
+  240: = +
+  241: R F F F F
+  242: F
+  243: FF
+  245: • 22
+  246: 1290=  = +R F F
+  247: • If 22
+  248: 1 2 1 260=  = + +R F F F F
+  249: • If 120=  = +R F F
+  250: • If 12180 – R F F=  =
+  251: • 12=FF  2 cos 2
+  252: = 
+  253: 
+  254: RF
+  256: Remember A:
+  259: ===== Page 12 / 947 =====
+  260: GATE WALLAH CIVIL HANDBOOK
+  261: Engineering Mechanics
+
+=== POSSIBLE SUBJECT HEADERS (ALL CAPS or numbered) ===
+    4: [ALLCAPS] O PEDIAPEDIAPEDIAGATE
+    5: [ALLCAPS] GATE
+    6: [ALLCAPS] CIVIL ENGINEERING
+   10: [HEADER?] Published By:
+   13: [ALLCAPS] ISBN: 978-93-94342-51-4
+   17: [HEADER?] Email: support@pw.live
+   41: [HEADER?] Design Against Static Load
+   64: [ALLCAPS] GATE-O-PEDIA
+   65: [ALLCAPS] CIVIL ENGINEERING
+   66: [ALLCAPS] COMPLETE INDEX
+   67: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+   75: [HEADER?] Design Against Static Load
+   88: [ALLCAPS] ENGINEERING MECHANICS
+   89: [ALLCAPS] INDEX
+   90: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+   98: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  102: [ALLCAPS] FUNDAMENTAL OF
+  103: [ALLCAPS] ENGINEERING MECHANICS
+  124: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  174: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  178: [ALLCAPS] VECTORS
+  200: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  223: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  231: [HEADER?] Parallelogram Law of Force:
+  241: [ALLCAPS] R F F F F
+  246: [ALLCAPS] 1290=  = +R F F
+  248: [ALLCAPS] 1 2 1 260=  = + +R F F F F
+  256: [HEADER?] Remember A:
+  260: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  265: [ALLCAPS] 12 100 150 90 – 32 12 46= = = − = F N F N
+  287: [ALLCAPS] 1 2 1 2 10+  = +F F F F
+  289: [ALLCAPS] 12 10 + =FF
+  291: [ALLCAPS] 1 2 1 2 1 2 1 260 13=  = + +  = + +R F F F F F F F F
+  293: [ALLCAPS] 1 2 1 2++F F F F
+  294: [ALLCAPS] 12 13 10 3= − =FF
+  296: [ALLCAPS] 1 2 1 2 1 2( ) 2 10 2 3 16+ = + + = +  =F F F F F F
+  298: [ALLCAPS]  12 4+=FF       ….(1)
+  300: [ALLCAPS] 1 2 1 2 1 2( ) 2 10.2 3 4− = + − =  =F F F F F F
+  301: [ALLCAPS]   12 2−=FF      ….(2)
+  305: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  320: [HEADER?] Determine the magnitude and direction of resultant force
+  330: [ALLCAPS] 22496.4 400 637.5 NR= + =
+  339: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  362: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  366: [ALLCAPS] 22106.46 51.80 118.39 N= + =R
+  381: [ALLCAPS] −= =−P
+  387: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  391: [ALLCAPS] MOMENT
+  410: [HEADER?] Assuming c/w +ve
+  416: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  435: [ALLCAPS] MR = –300 × 2 + 400 × 5 + 100 × 0.2
+  447: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  473: [ALLCAPS] 221.53 1 1.83 KN = + =R
+  477: [ALLCAPS]  −  +  − = = =−A
+  479: [HEADER?] MxA R
+  485: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  522: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  526: [ALLCAPS] EQUILIBRIUM
+  548: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  569: [ALLCAPS] P Q R==  
+  573: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  580: [ALLCAPS] BCBA FF = = =  
+  588: [ALLCAPS]     C = 3.03 KN
+  589: [ALLCAPS] T = 9.09 KN
+  593: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  602: [ALLCAPS] AB ADFF ==
+  603: [ALLCAPS]            FAB = 366.02 N  FAD = 448.28 N
+  608: [ALLCAPS]   FBC = 497.16 N
+  613: [ALLCAPS] AC ABT T==  
+  614: [ALLCAPS]  TAC = 200 N TAB = 173.2 N
+  616: [ALLCAPS] AB AB AB ABTK =   = =
+  621: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  633: [ALLCAPS]       T = 103.52 N
+  634: [ALLCAPS] R = 26.79 N
+  640: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  647: [ALLCAPS] BARR ==
+  648: [ALLCAPS]                       RA = 31.6 N RB = 78.5 N
+  653: [ALLCAPS] 0 250 10 200AMP=   = 
+  657: [ALLCAPS] 0AM =
+  659: [ALLCAPS] RB = 86.6 N
+  665: [ALLCAPS] HA   = 75 N
+  669: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  676: [ALLCAPS] CD RR ==  
+  677: [ALLCAPS]                                     RC = 176.77 N
+  684: [ALLCAPS] RB = 530.32 N
+  691: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  698: [ALLCAPS] 0AM =
+  699: [ALLCAPS] 4 100 3 250 1.15 0BR−  +  +  =
+  700: [ALLCAPS]  RB = 115.18 N
+  702: [ALLCAPS]  F = RB = 115.18 N
+  721: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  733: [HEADER?] Conversion of load:
+  737: [HEADER?] Find the reaction at both end.
+  739: [ALLCAPS] 0AM =
+  742: [ALLCAPS] LR W L−  +   =
+  745: [ALLCAPS] WLR =
+  747: [ALLCAPS]  RA + RB = WL
+  751: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  756: [ALLCAPS] WLR =
+  757: [ALLCAPS]  1 5 5 12.52   = KN
+  759: [ALLCAPS] 0AM =
+  761: [ALLCAPS] BR−  +  =
+  762: [ALLCAPS]  RB = 4.167 KN
+  764: [ALLCAPS] RA + RB = 12.5
+  765: [ALLCAPS] R A = 12.5 – 4.167 = 8.33 KN
+  767: [ALLCAPS] 0BM =
+  768: [ALLCAPS] RA × 10 – 15 × 7.5 – 5 × 2.5
+  770: [ALLCAPS]  RA = 13.335 KN
+  772: [ALLCAPS] RA + RB = 15 + 5 + 5 =25
+  773: [ALLCAPS]  RA = 11.665 KN
+  783: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  787: [ALLCAPS] FRICTION
+  810: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  817: [ALLCAPS] N = = 
+  833: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  850: [ALLCAPS] F = 606 N
+  853: [ALLCAPS]  N = 631 N
+  857: [ALLCAPS]   631 = 379 N
+  862: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  866: [ALLCAPS] TRUSSES
+  886: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  895: [HEADER?] Sign Convention
+  899: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  903: [ALLCAPS] RP + RQ = 90
+  904: [ALLCAPS] MP = 0
+  926: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  933: [HEADER?] Find force in CD?
+  939: [ALLCAPS] 10 . 2 0CEF−   =
+  944: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  947: [ALLCAPS] 1 0M =
+  948: [ALLCAPS] 2 18 5 15 10 12 10 9 10 6 5 3 5 3R  =  +  +  +  +  + 
+  951: [ALLCAPS] MP = 0
+  954: [ALLCAPS] F A = 0
+  967: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  970: [ALLCAPS] MJ = 0
+  977: [HEADER?] Find FGF and FGD.
+  979: [ALLCAPS] MD = 0
+  982: [ALLCAPS] MQ = 0
+  989: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+  993: [ALLCAPS] CENTER OF MASS
+ 1022: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1058: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1088: [HEADER?] Find Centroid
+ 1092: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1137: [HEADER?] Published By:
+ 1140: [ALLCAPS] ISBN: 978-93-94342-39-2
+ 1145: [HEADER?] Email: support@pw.live
+ 1169: [HEADER?] Design Against Static Load
+ 1188: [ALLCAPS] STRENGTH OF MATERIAL
+ 1189: [ALLCAPS] INDEX
+ 1190: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+ 1194: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1198: [ALLCAPS] PROPERTIES OF METALS,
+ 1199: [ALLCAPS] STRESS AND STRAIN
+ 1220: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1225: [HEADER?] Sign convention for Shear Stress
+ 1256: [HEADER?] Design of Members
+ 1263: [HEADER?] For Brittle material: FOS is applied on Ultimate stress.
+ 1267: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1313: [HEADER?] Note :  Hooke’s law is valid upto proportional limit.
+ 1323: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1355: [HEADER?] Strain
+ 1359: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1378: [HEADER?] Eg. Remember
+ 1383: [HEADER?] True Stress Strain Curve
+ 1400: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1409: [ALLCAPS] AA = +
+ 1416: [ALLCAPS] AA = −
+ 1438: [HEADER?] Compression
+ 1442: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1488: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1493: [HEADER?] Approximate stress-strain Curves
+ 1503: [ALLCAPS] AE=
+ 1505: [HEADER?] Load P is acting then
+ 1509: [ALLCAPS] PLPL P L
+ 1510: [ALLCAPS] A E A E A E = + +
+ 1522: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1535: [ALLCAPS] AE= 
+ 1539: [ALLCAPS] L W L
+ 1540: [ALLCAPS] E AE
+ 1553: [ALLCAPS] D D E= 
+ 1569: [ALLCAPS] L L L L
+ 1570: [ALLCAPS] E E E
+ 1575: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1578: [HEADER?] Composite Bars
+ 1580: [ALLCAPS] 12P P P=+
+ 1584: [ALLCAPS] PL P L
+ 1585: [ALLCAPS] A E A E =  = =
+ 1589: [ALLCAPS] A E PP A E A E= +
+ 1593: [ALLCAPS] A E PP A E A E= +
+ 1631: [HEADER?] Dilation, Bulk Modulus:
+ 1641: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1647: [ALLCAPS] E = − 
+ 1661: [ALLCAPS] EG = +
+ 1663: [ALLCAPS] EE G
+ 1665: [HEADER?] Relationship between Elastic Constants
+ 1669: [ALLCAPS] E E KG K GG K E K G K G
+ 1680: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1687: [ALLCAPS] ET = 
+ 1692: [ALLCAPS] TRICK A B C S 
+ 1698: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1702: [ALLCAPS] SHEAR FORCE AND
+ 1703: [ALLCAPS] BENDING MOMENT
+ 1723: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1753: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1760: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1769: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1773: [ALLCAPS] PROPERTIES OF
+ 1774: [ALLCAPS] METALS, STRESS AND STRAIN
+ 1782: [HEADER?] Transformation of Plane Stress
+ 1821: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1852: [ALLCAPS] 1 ( 2 )2U E=  + − 
+ 1888: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1914: [ALLCAPS] R  −  = = + 
+ 1926: [HEADER?] Special Case : When   1→  along x-axis i.e. x
+ 1941: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1945: [ALLCAPS] DEFLECTION OF BEAMS
+ 1950: [HEADER?] Some standard results of deflection and Slopes.
+ 1954: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1988: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 1992: [HEADER?] EI  diagram between A and B.
+ 2031: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2046: [ALLCAPS] =     U
+ 2072: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2076: [ALLCAPS] THEORIES OF FAILURE
+ 2087: [HEADER?] Applicable for brittle material
+ 2091: [ALLCAPS] 1 2 3 () FOS
+ 2100: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2115: [ALLCAPS] 1 2 3 1 2 2 3 3 1 2 ( ) FOS
+ 2125: [ALLCAPS] 1 ( ) ( ) ( )2 FOS
+ 2127: [HEADER?] Applicable in pure shear case
+ 2131: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2149: [ALLCAPS] 23 E
+ 2156: [ALLCAPS] 1 2 ( )2E
+ 2166: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2170: [ALLCAPS] COMBINED STRESS
+ 2177: [ALLCAPS] 16 32TM
+ 2178: [ALLCAPS] DD =  = 
+ 2189: [ALLCAPS] 16 M M TD
+ 2193: [ALLCAPS] 16 () MTD = + 
+ 2197: [ALLCAPS] D =  
+ 2207: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2214: [ALLCAPS] A I I
+ 2220: [HEADER?] Kern for Rectangular Section  Kern for Circular Section
+ 2222: [HEADER?] Rhombus shape
+ 2225: [HEADER?] Kern for I-section Kern for hallow circular section
+ 2227: [HEADER?] Rhombus shape
+ 2238: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2242: [ALLCAPS] BENDING STRESS IN BEAM
+ 2271: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2274: [SECTION] Section modulas (Z)
+ 2287: [ALLCAPS] D  2
+ 2315: [ALLCAPS] AB NAI I AY = +
+ 2317: [ALLCAPS] ZZ XX YYI I I = +
+ 2321: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2333: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2337: [ALLCAPS] SHEAR STRESS IN BEAMS
+ 2370: [ALLCAPS] C.G2
+ 2376: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2380: [HEADER?] Shear stress in rectangular section
+ 2397: [HEADER?] Shear stress in I – section
+ 2416: [HEADER?] Shear stress in circular section
+ 2420: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2452: [ALLCAPS] NA = 
+ 2463: [HEADER?] Shear stress of thin Walled Section
+ 2467: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2490: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2541: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2545: [ALLCAPS] TORSION OF
+ 2546: [ALLCAPS] CIRCULAR SHAFT
+ 2574: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2582: [ALLCAPS] GJT L
+ 2589: [ALLCAPS] AD A D   −
+ 2591: [ALLCAPS] AD AB BC CD   + +
+ 2601: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2609: [ALLCAPS] TT LL
+ 2610: [ALLCAPS] G J G J =  =
+ 2617: [ALLCAPS] G J G J
+ 2618: [ALLCAPS] G J G JTT G J G J G J G J
+ 2625: [ALLCAPS] 0AB=
+ 2627: [HEADER?] Torsional strain energy
+ 2632: [ALLCAPS] TLU T T GJ G
+ 2637: [HEADER?] Power transmitted by shaft
+ 2639: [ALLCAPS] PT= 
+ 2645: [ALLCAPS] N=
+ 2654: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2658: [HEADER?] Note :
+ 2663: [HEADER?] Hollow Thin circular shaft    Hollow thin shaft
+ 2669: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2673: [ALLCAPS] COLUMNS
+ 2683: [HEADER?] Euler’s Formula
+ 2690: [ALLCAPS] EIP L
+ 2726: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2730: [HEADER?] Validating of Euler’s Theory
+ 2762: [ALLCAPS] EP = 
+ 2768: [HEADER?] For Both Short and Long column
+ 2783: [ALLCAPS] P A APP PA
+ 2799: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2803: [ALLCAPS] SPRINGS
+ 2817: [ALLCAPS] TLU GJ=
+ 2831: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2838: [HEADER?] Proof load
+ 2863: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2867: [ALLCAPS] PRESSURE VESSELS
+ 2872: [HEADER?] Thin Cylinder subjected to internal pressure
+ 2908: [HEADER?] Thin sphere subjected to internal pressure
+ 2912: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2945: [ALLCAPS] B AR = +
+ 2954: [ALLCAPS] RR= −
+ 2956: [ALLCAPS] B AR = −
+ 2960: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 2989: [HEADER?] Analysis
+ 2993: [HEADER?] Published By:
+ 2996: [ALLCAPS] ISBN: 978-93-94342-39-2
+ 3001: [HEADER?] Email: support@pw.live
+ 3025: [HEADER?] Design Against Static Load
+ 3039: [ALLCAPS] STRUCTURE ANALYSIS
+ 3040: [ALLCAPS] INDEX
+ 3041: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+ 3045: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3049: [ALLCAPS] INTRODUCTION
+ 3050: [ALLCAPS] TO STRUCTURE
+ 3078: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3118: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3122: [ALLCAPS] DETERMINACY AND
+ 3123: [ALLCAPS] INDETERMINACY
+ 3130: [ALLCAPS]  M = 0
+ 3149: [HEADER?] Total Internal External
+ 3153: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3185: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3199: [HEADER?] There is no joint where only two bars meet.
+ 3203: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3219: [HEADER?] Bar with pin @ each end
+ 3235: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3261: [ALLCAPS] M = 0
+ 3269: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3302: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3336: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3343: [HEADER?] Example:
+ 3366: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3369: [ALLCAPS] 4. D.O.F
+ 3371: [ALLCAPS] 4. D.O.F
+ 3373: [HEADER?] D k of rigid jointed plane frame:
+ 3382: [HEADER?] DK of Pin jointed Plane Frames:
+ 3389: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3403: [ALLCAPS] D K = 3 × 4 – 6 = 6
+ 3413: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3417: [ALLCAPS] INFLUENCE LINE DIAGRAM
+ 3429: [HEADER?] ILD for Reaction of Simply Supported Beam
+ 3439: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3442: [HEADER?] ILD for Reaction of Overhanging Beam
+ 3444: [HEADER?] ILD for Support Reaction of a Cantilever
+ 3450: [HEADER?] ILD – Beam Shear Force
+ 3452: [ALLCAPS] A B C
+ 3459: [ALLCAPS] L1 +
+ 3465: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3470: [HEADER?] Cantilever
+ 3483: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3507: [ALLCAPS] U0 U1 U2 U3 U4 U5 U6
+ 3509: [ALLCAPS] L1 L2 L3 L4 L5 L6
+ 3510: [ALLCAPS] U0 U1 U2 U3 U4 U5 U6
+ 3511: [ALLCAPS] L1 L2 L3 L4 L5
+ 3519: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3531: [HEADER?] Simple Supported beam
+ 3535: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3538: [HEADER?] Over Hanging beam
+ 3541: [HEADER?] Straight Profiles
+ 3547: [ALLCAPS] D B E C1 RA
+ 3549: [ALLCAPS] D B E C1
+ 3551: [ALLCAPS] D B E C1
+ 3554: [ALLCAPS] D B E C
+ 3555: [ALLCAPS] 1 ME
+ 3559: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3563: [HEADER?] Curved Profiles
+ 3568: [ALLCAPS] D B E C1 RA
+ 3570: [ALLCAPS] A B F C
+ 3577: [ALLCAPS] B F C
+ 3584: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3590: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3599: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3603: [ALLCAPS] MOMENT
+ 3604: [ALLCAPS] DISTRIBUTION METHOD
+ 3624: [ALLCAPS] **0C.O.F. 0M==
+ 3626: [ALLCAPS] **MC.O.F. 1 M
+ 3629: [ALLCAPS] MB = MB
+ 3631: [ALLCAPS] MA = M
+ 3637: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3656: [ALLCAPS] 4EI I→
+ 3658: [ALLCAPS] 3EI 3 I
+ 3665: [ALLCAPS] B = 1
+ 3666: [ALLCAPS] MB = 4EI
+ 3669: [ALLCAPS] B = 1 MB = 3EI
+ 3672: [ALLCAPS] B=1
+ 3677: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3682: [ALLCAPS] KD.F K=
+ 3689: [HEADER?] Bending Moment Diagram and Deflected Shape
+ 3704: [HEADER?] Superimposed BMD
+ 3708: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3713: [HEADER?] Example:
+ 3722: [ALLCAPS] MBA > MAB
+ 3725: [ALLCAPS] 30AB
+ 3728: [ALLCAPS] 20BA
+ 3732: [HEADER?] Actual BMD on Tension Side
+ 3736: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3739: [HEADER?] Bending Moment Diagram and Deflected Shape
+ 3742: [HEADER?] Standard Case
+ 3748: [ALLCAPS] 96BA
+ 3750: [HEADER?] Bending Moment Diagram
+ 3755: [HEADER?] Superimposed BMD
+ 3759: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3764: [ALLCAPS] 0AB 2
+ 3768: [ALLCAPS] 0BA 2
+ 3778: [ALLCAPS] LLM. L22
+ 3784: [HEADER?] Bending Moment Diagram and Deflected Shape
+ 3788: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3791: [HEADER?] Resultant BMD after Superposition
+ 3797: [HEADER?] Relative to A, support B sinks by  value.
+ 3801: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3807: [HEADER?] End Reaction
+ 3809: [HEADER?] Bending Moment diagram
+ 3813: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3816: [HEADER?] Example:
+ 3821: [ALLCAPS] AB 2
+ 3822: [ALLCAPS] 56EI 2M
+ 3839: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3853: [HEADER?] Frame sways to the right
+ 3872: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3876: [ALLCAPS] PLASTIC
+ 3877: [ALLCAPS] ANALYSIS
+ 3908: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3936: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3956: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 3972: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4004: [HEADER?] At fully plastic state curvature is infinity,
+ 4008: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4034: [ALLCAPS] N = SI  + 1
+ 4038: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4070: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4084: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4124: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4135: [ALLCAPS] 3 28 P
+ 4137: [ALLCAPS] 16 PM
+ 4154: [ALLCAPS] = 1.5P
+ 4157: [ALLCAPS] M SM ==
+ 4180: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4183: [HEADER?] Elastic Condition
+ 4188: [ALLCAPS] LW WL RL− + −  = 0
+ 4196: [ALLCAPS] LMR+ −   = 0
+ 4197: [ALLCAPS]    RB = 2 PM
+ 4204: [ALLCAPS] LW W
+ 4206: [ALLCAPS] RB = 3
+ 4211: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4217: [ALLCAPS] MP = 4
+ 4222: [ALLCAPS] M  = SF = 1.5
+ 4223: [HEADER?] From Bending Moment Dia.
+ 4227: [ALLCAPS] L  =
+ 4249: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4267: [ALLCAPS] N = SI + 1
+ 4290: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4338: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4342: [ALLCAPS] ARCHES & CABLES
+ 4352: [HEADER?] For a SSB:
+ 4354: [HEADER?] For an Arch:
+ 4358: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4406: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4425: [ALLCAPS] MA = 0
+ 4426: [ALLCAPS] 10 V B = 100 × 1
+ 4427: [ALLCAPS] V B = 10 KN & V A = 90 KN
+ 4430: [ALLCAPS] MA = 0
+ 4431: [ALLCAPS] ⸫  16 VB = 20 × 4 × 2
+ 4432: [ALLCAPS] VB = 10 KN ( )
+ 4433: [ALLCAPS] VA = 10 KN ( )
+ 4437: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4445: [ALLCAPS] 2 4 2 2B
+ 4466: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4488: [HEADER?] Calculate reaction the supports.
+ 4492: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4529: [ALLCAPS] 13.48R 13.48 20 4H 2 =  +
+ 4530: [ALLCAPS] R A = 0.3 H + 134.9
+ 4535: [ALLCAPS] 16.51R 16.51 20 6H 2 =  +
+ 4536: [ALLCAPS] RB = 165.1 + 0.363 H
+ 4538: [ALLCAPS] R A + RB = 20 × 30
+ 4539: [ALLCAPS] H = 455.2 KN
+ 4540: [ALLCAPS] RA = 269.64 KN
+ 4541: [ALLCAPS] RB = 330.36 KN
+ 4543: [HEADER?] Consider free body diagram of part AD.
+ 4551: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4561: [HEADER?] For parabolic arch at any section,
+ 4598: [ALLCAPS] MM F F Z=  =
+ 4622: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4626: [ALLCAPS] U 0H
+ 4655: [HEADER?] ILD for 2 hinged Arch:
+ 4666: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4678: [HEADER?] Assumptions:
+ 4701: [HEADER?] Concrete
+ 4705: [HEADER?] Published By:
+ 4708: [ALLCAPS] ISBN: 978-93-94342-39-2
+ 4713: [HEADER?] Email: support@pw.live
+ 4737: [HEADER?] Design Against Static Load
+ 4753: [ALLCAPS] REINFORCED
+ 4754: [ALLCAPS] CEMENT CONCRETE
+ 4755: [ALLCAPS] INDEX
+ 4756: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+ 4760: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4764: [ALLCAPS] PROPERTIES OF CONCRETE
+ 4798: [HEADER?] Strain
+ 4802: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4854: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4878: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4882: [ALLCAPS] LSM : FLEXURE
+ 4915: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 4932: [HEADER?] 𝐸𝑠  +0.0055
+ 4948: [ALLCAPS] C = T   
+ 4981: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5012: [ALLCAPS] …(A)
+ 5060: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5065: [SECTION] Section (A) → balanced rectangular
+ 5066: [SECTION] Section (B) → an imaginary beam
+ 5080: [HEADER?] IS Code Specification
+ 5097: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5150: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5162: [ALLCAPS] C1 + C2 = T1 + T2
+ 5203: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5209: [HEADER?] Serviceability
+ 5214: [ALLCAPS] D.L. + L.L
+ 5215: [ALLCAPS] D.L. + W.L. (E.L.)
+ 5218: [ALLCAPS] D.L.
+ 5219: [ALLCAPS] L.L.
+ 5220: [ALLCAPS] W.L. (E.L.)
+ 5276: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5296: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5299: [ALLCAPS] 3 SHEAR
+ 5321: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5326: [HEADER?] Mechanism of shear resistance
+ 5339: [HEADER?] Shear Stress
+ 5361: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5367: [HEADER?] Closed stirrups resist torsion as well.
+ 5420: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5444: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5448: [ALLCAPS] BOND
+ 5472: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5501: [ALLCAPS] M LV 
+ 5523: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5532: [HEADER?] Bends  and hooks
+ 5563: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5572: [HEADER?] Beam, shear stirrup          6  for 135° bend
+ 5595: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5599: [ALLCAPS] SLAB
+ 5605: [HEADER?] Whichever is less
+ 5633: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5645: [HEADER?] For spans upto 10 m
+ 5679: [HEADER?] Slenderness limits for beam to ensure lateral stability
+ 5683: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5727: [HEADER?] Negative Moment Tension R/F
+ 5729: [HEADER?] Continuous beam
+ 5733: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5736: [HEADER?] For maximum support moment
+ 5738: [HEADER?] For maximum span moment
+ 5770: [HEADER?] Two Way Slab
+ 5774: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5785: [HEADER?] The addition of comp. r/f ↓ the effective depth of the beam
+ 5799: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5837: [ALLCAPS] D L L L
+ 5839: [ALLCAPS] D L L L
+ 5851: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5899: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5903: [ALLCAPS] FOOTINGS
+ 5947: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 5955: [ALLCAPS] P =+
+ 5985: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6017: [ALLCAPS] MOR 24
+ 6030: [ALLCAPS] 6 L+
+ 6039: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6088: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6097: [HEADER?] No Partial 2.0 H
+ 6132: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6136: [ALLCAPS] REINFORCED
+ 6137: [ALLCAPS] BRICK MASONRY
+ 6144: [HEADER?] Distribution bars horizontal spacing 5   450 d or mm
+ 6148: [HEADER?] Stress Distance in brickwork
+ 6168: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6200: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6218: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6222: [ALLCAPS] COLUMN
+ 6232: [HEADER?] Based on Slenderness Ratio
+ 6246: [ALLCAPS] B =  →
+ 6252: [ALLCAPS] DB 
+ 6253: [HEADER?] Long column:- 12lex leyorDB 
+ 6257: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6304: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6314: [HEADER?] Interaction Curve
+ 6337: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6349: [HEADER?] Design of Spacing of Helical R/F
+ 6373: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6377: [ALLCAPS] PRESTRESSED
+ 6378: [ALLCAPS] CONCRETE
+ 6411: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6430: [ALLCAPS] AZ =  = 
+ 6434: [ALLCAPS] AZ  =  = 
+ 6445: [HEADER?] L.L. actually acting
+ 6452: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6477: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6480: [HEADER?] Cable profile exactly balancing the external loading,
+ 6501: [ALLCAPS] A Z Z =  
+ 6523: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6529: [HEADER?] Kern Points
+ 6560: [HEADER?] Effect of Loading on Stress in Tendon
+ 6573: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6629: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6656: [HEADER?] In pre-tensioning → ignored due to long length
+ 6670: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6711: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6751: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6754: [HEADER?] Transfer of Pre-stress in Pre-tensioned Member By bond
+ 6761: [HEADER?] Bond Stress
+ 6779: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6832: [HEADER?] Structures
+ 6836: [HEADER?] Published By:
+ 6839: [ALLCAPS] ISBN: 978-93-94342-39-2
+ 6844: [HEADER?] Email: support@pw.live
+ 6868: [HEADER?] Design Against Static Load
+ 6887: [ALLCAPS] STEEL STRUCTURES
+ 6888: [ALLCAPS] INDEX
+ 6889: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+ 6893: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6897: [ALLCAPS] MATERIALS AND
+ 6898: [ALLCAPS] SPECIFICATIONS
+ 6926: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 6941: [ALLCAPS] 05.65 S
+ 6961: [SECTION] Unit mass of steel  s = 7850kg/m3
+ 6975: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7009: [HEADER?] Eg: ISA 75x 75 x 6 mm
+ 7013: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7055: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7075: [ALLCAPS] DL LL
+ 7078: [ALLCAPS] AL DL
+ 7079: [ALLCAPS] LL LL
+ 7087: [ALLCAPS] DL+LL+CL 1.5 1.5 1.05 –  1.0 1.0 1.0 –
+ 7088: [ALLCAPS] DL+LL+CL+WL/EL
+ 7099: [ALLCAPS] DL+WL/EL
+ 7107: [ALLCAPS] DL+ER
+ 7112: [ALLCAPS] DL+LL+AL 1.0 0.35 0.35 - 1.0
+ 7116: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7147: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7151: [ALLCAPS] BOLTED CONNECTIONS
+ 7169: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7193: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7228: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7259: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7293: [ALLCAPS] VV = 
+ 7297: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7338: [HEADER?] Vnsb, shall be reduced by the factor, lj
+ 7362: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7416: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7438: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7442: [ALLCAPS] WELDED CONNECTIONS
+ 7472: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7493: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7531: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7565: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7603: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7633: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7637: [ALLCAPS] ECCENTRIC
+ 7638: [ALLCAPS] CONNECTIONS
+ 7668: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7704: [HEADER?] V db – design strength of the bolt.
+ 7708: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7720: [HEADER?] Tensile force in any th i  bolt due to moment
+ 7736: [HEADER?] Tensile force in the extreme critical bolt
+ 7760: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7790: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7829: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7859: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7863: [ALLCAPS] TENSION MEMBERS
+ 7885: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7915: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7948: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 7996: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8038: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8068: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8072: [ALLCAPS] COMPRESSION
+ 8073: [ALLCAPS] MEMBERS
+ 8103: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.34
+ 8104: [HEADER?] Steel Structures
+ 8148: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.35
+ 8156: [ALLCAPS] 2.0 L
+ 8157: [HEADER?] Free Restrained Restrained Free
+ 8159: [HEADER?] Restrained Free Restrained Free
+ 8161: [ALLCAPS] 1.0 L
+ 8162: [HEADER?] Restrained Restrained Free Restrained
+ 8164: [ALLCAPS] 1.2 L
+ 8165: [HEADER?] Restrained Restrained Restrained Free
+ 8167: [ALLCAPS] 0.8 L
+ 8168: [HEADER?] Restrained Restrained Restrained Restrained
+ 8170: [ALLCAPS] 0.65 L
+ 8171: [HEADER?] L is the unsupported length of the compression member
+ 8175: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.36
+ 8198: [HEADER?] Rolled I-Section
+ 8222: [HEADER?] Welded I-Section
+ 8237: [HEADER?] Built-up Member Any c
+ 8241: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.37
+ 8277: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.38
+ 8299: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.39
+ 8326: [ALLCAPS] C 50
+ 8333: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 5.40
+ 8334: [HEADER?] Steel Structures
+ 8348: [ALLCAPS] VCV NS=
+ 8360: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8364: [ALLCAPS] COLUMN BASES &
+ 8365: [ALLCAPS] COLUMN SPLICES
+ 8388: [HEADER?] For I, H, channel, box or RHS
+ 8392: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8416: [HEADER?] Bearing strength of  concrele 0.45 f
+ 8420: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8477: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8494: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8498: [ALLCAPS] BEAMS
+ 8527: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8549: [HEADER?] For plastic or compact section
+ 8553: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8589: [ALLCAPS] LT LT LT
+ 8593: [ALLCAPS]   20.5 1 0.2LT LT LT = + − +
+ 8607: [ALLCAPS] LT LT
+ 8617: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8621: [HEADER?] Design shear strength of section
+ 8646: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8668: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8699: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8723: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8727: [ALLCAPS] PLATE GIRDER
+ 8753: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8791: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8819: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8823: [ALLCAPS] GRANTY GIRDER
+ 8840: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8867: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8871: [ALLCAPS] ROOF TRUSSES
+ 8892: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8904: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8928: [HEADER?] Rafters are inclined beams supported on the purlins.
+ 8932: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8969: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 8992: [ALLCAPS] 0.2 P
+ 9005: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+ 9013: [ALLCAPS] UU VVM = M =10 10
+ 9014: [HEADER?] Pl Hl
+ 9035: [ALLCAPS] MM +MM 1.0
+ 9049: [HEADER?] Engineering
+ 9053: [HEADER?] Design Against Static Load
+ 9067: [ALLCAPS] ENVIRONMENT
+ 9068: [ALLCAPS] ENGINEERING
+ 9069: [ALLCAPS] INDEX
+ 9070: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+ 9074: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.1
+ 9077: [ALLCAPS] TREATMENT OF WATER
+ 9111: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.2
+ 9169: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.3
+ 9230: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.4
+ 9274: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.5
+ 9340: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.6
+ 9362: [ALLCAPS] PS =
+ 9367: [ALLCAPS] 2 ( )P P P P P P
+ 9368: [ALLCAPS] P P P
+ 9382: [ALLCAPS] P P P
+ 9409: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.7
+ 9416: [ALLCAPS] TON =
+ 9428: [ALLCAPS] HCO3–
+ 9466: [HEADER?] Potassium Hydroxide
+ 9470: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.8
+ 9515: [ALLCAPS] 1 O2
+ 9520: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.9
+ 9570: [HEADER?] No relaxation
+ 9574: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.10
+ 9575: [HEADER?] Environmental Engineering
+ 9584: [ALLCAPS] 4HPO −
+ 9585: [ALLCAPS] , HS–, NH3, 24H PO −
+ 9593: [ALLCAPS] CO H O H CO
+ 9594: [ALLCAPS] H CO H HCO
+ 9595: [ALLCAPS] HCO H CO
+ 9596: [ALLCAPS] CO H O HCO OH
+ 9628: [ALLCAPS] CO −  2
+ 9629: [ALLCAPS] 3HCO
+ 9631: [ALLCAPS] P = 0 0 0 T
+ 9632: [ALLCAPS] P = T T 0 0
+ 9633: [ALLCAPS] P = ½ T 0 2P 0
+ 9634: [ALLCAPS] P > ½ T 2P – T 2T – 2P 0
+ 9635: [ALLCAPS] P < T/2 0 2P T – 2P
+ 9650: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.11
+ 9654: [ALLCAPS] CO32– HCO3– OH– H+
+ 9660: [HEADER?] Eq wt of CO
+ 9677: [HEADER?] Eq wt of H
+ 9694: [ALLCAPS] TH =
+ 9720: [ALLCAPS] TA > TH TH > TA
+ 9721: [ALLCAPS] CH > TA CH > TA
+ 9722: [ALLCAPS] NCH = 0 NCH = TH – TA
+ 9733: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.12
+ 9772: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.13
+ 9818: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.14
+ 9852: [HEADER?] Newton formula
+ 9877: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.15
+ 9922: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.16
+ 9946: [ALLCAPS] PG V= 
+ 9973: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.17
+10022: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.18
+10074: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.19
+10075: [HEADER?] Environmental Engineering
+10141: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.20
+10210: [HEADER?] Skill supervision Not essential Essential
+10214: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.21
+10264: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10312: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10355: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10395: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10443: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10503: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10554: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10605: [ALLCAPS] • BHP = 0.745
+10611: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10677: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10739: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10791: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10818: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10821: [ALLCAPS] 2 WASTE WATER TREATMENT
+10843: [HEADER?] I t +
+10860: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10928: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+10976: [ALLCAPS] D = 1.1 B
+10986: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11031: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11079: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11104: [ALLCAPS] DF =
+11106: [HEADER?] Initial volume of test sample
+11116: [ALLCAPS] KD = 0.4342.3
+11118: [ALLCAPS] K DT C = 20*
+11119: [ALLCAPS] 20*(1.047)T
+11120: [ALLCAPS] DK −
+11132: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11147: [ALLCAPS] 2.3 CKC
+11157: [ALLCAPS] COD  < 0.68.
+11179: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11186: [HEADER?] Sewage:
+11224: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11255: [ALLCAPS] KRT   = KR 20 (1.016)T – 20
+11264: [ALLCAPS] KL DKK
+11272: [ALLCAPS] D K KK
+11273: [ALLCAPS] K K K K L
+11278: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11287: [ALLCAPS] K LK
+11319: [ALLCAPS] DO Q DO QDD QQ
+11324: [ALLCAPS] BOD Q BOD Q
+11351: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11397: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11430: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11471: [ALLCAPS] S.G > 2.65
+11473: [ALLCAPS] S.G = 1.05 - 1.1
+11482: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11537: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11570: [HEADER?] Example: SST with trickling filter.
+11606: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11659: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11700: [ALLCAPS] M VX=
+11712: [ALLCAPS] QX = 
+11716: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11751: [ALLCAPS] SVI –
+11758: [ALLCAPS] XU =
+11771: [ALLCAPS] SDI  = 100
+11788: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11843: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11870: [ALLCAPS] K L L
+11899: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11948: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11960: [ALLCAPS] 45,000 (ASP)
+11988: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+11997: [HEADER?] SST 25 – 30 1.5 to 2
+12030: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12070: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12092: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12121: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12125: [ALLCAPS] SOLID WASTE
+12126: [ALLCAPS] TREATMENT
+12163: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12216: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12265: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12323: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+12326: [ALLCAPS] 4 AIR POLLUTION
+12344: [ALLCAPS] CO, CO 2
+12345: [ALLCAPS] SO2, SO 3
+12346: [ALLCAPS] NO, NO 2
+12349: [ALLCAPS] H2S, H 2F
+12352: [ALLCAPS] H2SO4
+12362: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.64
+12403: [ALLCAPS] PM10.
+12417: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.65
+12460: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.66
+12481: [ALLCAPS] ELR = ALR
+12483: [HEADER?] Neutral plume
+12493: [HEADER?] Fanning plume
+12500: [HEADER?] Lofting plume Fumigating plume Trapping Plume
+12509: [ALLCAPS] U T X
+12512: [ALLCAPS] U T X
+12515: [ALLCAPS] U T X
+12517: [ALLCAPS] U T X
+12521: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.67
+12577: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.68
+12630: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.69
+12680: [HEADER?] Average*
+12713: [ALLCAPS] PM10)
+12716: [HEADER?] Average*
+12764: [HEADER?] Average*
+12804: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.70
+12824: [HEADER?] Pollutant
+12831: [HEADER?] Concentration in Ambient Air
+12835: [HEADER?] Measurement
+12863: [HEADER?] Chemiluminescence
+12878: [ALLCAPS] • TOEM
+12895: [ALLCAPS] • TOEM
+12937: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.71
+12938: [HEADER?] Environment Engineering
+12975: [HEADER?] Annual*
+12995: [HEADER?] Annual*
+13003: [HEADER?] HPLC/GC analysis
+13009: [HEADER?] Annual*
+13022: [HEADER?] Annual*
+13042: [ALLCAPS] PM10
+13044: [ALLCAPS] PM2.5
+13081: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.72
+13105: [ALLCAPS] AQI AIR POLLUTION LEVEL  HEALTH IMPLICATION
+13117: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.73
+13198: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.74
+13318: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.75
+13319: [HEADER?] Environment Engineering
+13439: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.76
+13480: [ALLCAPS] 450°C,
+13535: [HEADER?] The framework, housing
+13539: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.77
+13576: [ALLCAPS] NO2 + → NO + O RH + OH → R + H2O
+13577: [ALLCAPS] O + O 2 → O3 R + O2 → RO2
+13578: [ALLCAPS] O 3 + NO → NO2 + O2 RO2 + NO → RO + NO2
+13582: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.78
+13586: [ALLCAPS] CO2 56 (1)
+13589: [ALLCAPS] CFC- 12 25 10, 200
+13590: [ALLCAPS] HFC- 23  12,400
+13591: [ALLCAPS] SF6   23,500
+13592: [ALLCAPS] NF3  16,100
+13645: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK 6.79
+13679: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13683: [ALLCAPS] NOISE POLLUTION
+13713: [ALLCAPS] P = 1
+13718: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13753: [ALLCAPS] I −=
+13775: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13788: [ALLCAPS] LP =
+13818: [ALLCAPS] L2 = 2
+13825: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13863: [ALLCAPS] L1 – L2 X
+13902: [HEADER?] Engineering
+13906: [HEADER?] Design Against Static Load
+13931: [ALLCAPS] GEOTECHNICAL ENGINEERING
+13932: [ALLCAPS] INDEX
+13933: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+13937: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13941: [ALLCAPS] ORIGIN OF SOILS
+13947: [HEADER?] The Geological Cycle
+13955: [HEADER?] Lacustrine Soil Still water like lakes
+13959: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13963: [HEADER?] Glacial Soil Ice
+13987: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+13991: [ALLCAPS] PROPERTIES OF SOILS
+14011: [ALLCAPS] V =     0 <  < 100
+14017: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14023: [ALLCAPS] VSS V=  
+14027: [HEADER?] Air content   Percentage air Void
+14041: [ALLCAPS] V V V V
+14045: [SECTION] Unit weight of soil solids
+14052: [SECTION] Unit weight of water
+14082: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14089: [ALLCAPS] G = 
+14096: [ALLCAPS] G G G=
+14110: [ALLCAPS] D   − =   − 
+14157: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14210: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14226: [ALLCAPS] WWG W W W W
+14229: [HEADER?] To remember, Rewrite as
+14234: [ALLCAPS] WWG W W W W
+14240: [ALLCAPS] WWG W W W W
+14248: [ALLCAPS] TGG =
+14272: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14280: [ALLCAPS] WWVV  −=− 
+14300: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14304: [ALLCAPS] INDEX PROPERTIES
+14305: [ALLCAPS] OF SOILS
+14320: [ALLCAPS] VD =  
+14322: [HEADER?] Grain Size
+14326: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14329: [HEADER?] Grain Size Distribution Curves.
+14333: [ALLCAPS] 60 30 10D D D
+14344: [ALLCAPS] DC D=
+14350: [ALLCAPS] DC DD= 
+14381: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14416: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14427: [ALLCAPS] L P P S
+14428: [ALLCAPS] VVVV
+14429: [ALLCAPS] W W W W
+14445: [ALLCAPS] WWI NN
+14454: [ALLCAPS] WWI N
+14469: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14480: [ALLCAPS] WG V W W=  − −
+14505: [ALLCAPS] P L PI W W=−
+14507: [ALLCAPS] S P SI W W=−
+14512: [ALLCAPS] WWI WW
+14515: [HEADER?] Liquidity Index :
+14522: [ALLCAPS] WWI WW
+14529: [ALLCAPS] 0LI   0LI   01 LI  1LI 
+14530: [ALLCAPS] 1CI   1CI   01 CI  0CI 
+14531: [ALLCAPS] SW                  PW                  LW
+14540: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14557: [ALLCAPS] ISI IS==
+14598: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14602: [ALLCAPS] CLASSIFICATION
+14603: [ALLCAPS] OF SOIL
+14633: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14647: [HEADER?] Case 3 : When fines are greater than 12% Gravels
+14651: [HEADER?] Fine grained soil classification
+14663: [HEADER?] OH → Highly plastic organic clay.
+14671: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14675: [ALLCAPS] CLAY MINERAL AND
+14676: [ALLCAPS] SOIL-STRUCTURE
+14684: [HEADER?] Soil Structure
+14696: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14721: [HEADER?] Montmorillonite Minimum Max Max Max Max
+14725: [HEADER?] Replacement ability of various cations
+14733: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14737: [ALLCAPS] COMPACTION OF SOIL
+14743: [HEADER?] Specific compaction Technique By static load placed on soil
+14776: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14779: [HEADER?] Compaction Curve for different Soils:
+14808: [HEADER?] Shrinkage Low High
+14812: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14836: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14840: [ALLCAPS] EFFECTIVE STRESS
+14854: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14865: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14869: [ALLCAPS] CAPILLARITY
+14870: [ALLCAPS] AND PERMEABILITY
+14906: [HEADER?] Other Emperical Formula :
+14919: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+14925: [HEADER?] Critical hydraulic gradient
+14952: [ALLCAPS] VV V V=
+14957: [ALLCAPS] KK = 
+14962: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15001: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15010: [HEADER?] From particle size and specific surface
+15012: [HEADER?] Capillarity Permeability Test :
+15027: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15036: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15040: [ALLCAPS] SEEPAGE THROUGH SOIL
+15042: [HEADER?] Laplace Equation in Two Dimensional Flow
+15053: [ALLCAPS] 22 0HH
+15073: [HEADER?] Calculation of discharge through a Flow Net
+15091: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15145: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15174: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15178: [ALLCAPS] VERTICAL STRESSES
+15194: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15197: [HEADER?] Bossinesq’s result
+15207: [HEADER?] Vertical stress due to Line Load
+15224: [HEADER?] Vertical stress due to Strip Load
+15234: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15237: [HEADER?] Vertical stress below the corner of a Rectangle
+15261: [HEADER?] Approximate method’s
+15268: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15272: [ALLCAPS] COMPRESSIBILITY AND
+15273: [ALLCAPS] CONSOLIDATION
+15280: [HEADER?] Compressibility Characterstics
+15289: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15355: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15387: [HEADER?] Terzaghi’s one dimensional consolidation equation:
+15419: [ALLCAPS] 50 0.196T =
+15420: [ALLCAPS] 90 0.848T =
+15424: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15441: [ALLCAPS] UUU UU
+15447: [ALLCAPS] UUU U
+15483: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15487: [ALLCAPS] SHEAR STRENGTH
+15488: [ALLCAPS] OF SOIL
+15492: [HEADER?] It depends on two factors
+15507: [HEADER?] Sign Convention for drawing Mohr’s circle
+15511: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15515: [HEADER?] Based on Mohr’s Colomb’s failure envelope
+15525: [ALLCAPS] C −   + =  + 
+15557: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15560: [HEADER?] Direct Shear Test
+15578: [ALLCAPS] K+ =  
+15591: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15599: [ALLCAPS] AA −= −
+15644: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15681: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15684: [HEADER?] Consolidated Undrained Test
+15709: [ALLCAPS] 13UB = 
+15710: [ALLCAPS] 2 1 3 ()U AB =  − 
+15713: [ALLCAPS] UB = 
+15723: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15743: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15747: [ALLCAPS] STABILITY OF SLOPES
+15754: [ALLCAPS] F.O.S
+15775: [ALLCAPS] CH =    − 
+15779: [ALLCAPS] CS H= =   − 
+15800: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15810: [ALLCAPS] FF   =  =  
+15840: [ALLCAPS] CF C=
+15852: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15857: [ALLCAPS] CCS H F H==
+15876: [ALLCAPS] CZ = 
+15882: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15886: [ALLCAPS] EARTH PRESSURE AND
+15887: [ALLCAPS] RETAINING WALLS
+15903: [ALLCAPS] 1K = −
+15915: [HEADER?] O.C clays 1.0 – 4.0
+15922: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+15925: [HEADER?] Active earth pressure and passive earth pressure
+15968: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16010: [ALLCAPS] KH HF  =+
+16012: [HEADER?] For point A
+16015: [HEADER?] For point B
+16025: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16098: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16112: [HEADER?] For No contact loss
+16118: [ALLCAPS] KZ CCF C K Z C K
+16127: [ALLCAPS] KZF C K Z=−
+16128: [HEADER?] After contact loss
+16133: [ALLCAPS] KZ CF C K Z= − + 
+16143: [HEADER?] Coulomb’s theory of Earth Pressure:
+16155: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16159: [ALLCAPS] CANTILEVER SHEET PILE AND
+16160: [ALLCAPS] ANCHORED BULKHEAD
+16171: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16180: [HEADER?] For equillibriun
+16183: [HEADER?] Depth ‘a' to the print of zero pressure
+16199: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16203: [ALLCAPS] SHALLOW
+16204: [ALLCAPS] FOUNDATION
+16226: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16229: [HEADER?] For safe design
+16237: [ALLCAPS] P DB −  = ,
+16264: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16289: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16325: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16349: [HEADER?] For strip footing,
+16368: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16403: [HEADER?] Another way of modification due to water table
+16409: [ALLCAPS] DR D
+16417: [ALLCAPS] DR B
+16430: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16442: [ALLCAPS] D D DNN B B B
+16451: [ALLCAPS] D D DNN B B B
+16460: [ALLCAPS] DD BN B L B
+16467: [ALLCAPS] D BNBL
+16496: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16515: [ALLCAPS] 70NN = +
+16525: [ALLCAPS] 115 ( 15)2NN= + −
+16536: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16552: [ALLCAPS] SB =
+16553: [HEADER?] For Granular Soil
+16565: [ALLCAPS] SB B BBS B B
+16569: [HEADER?] Depth Correction
+16577: [ALLCAPS] SS D
+16598: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16606: [ALLCAPS] DC DB
+16627: [ALLCAPS] DC B
+16634: [ALLCAPS] DC B
+16655: [ALLCAPS] 0.8SS =
+16661: [HEADER?] Pressure constant
+16665: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16671: [HEADER?] Pressure varies
+16685: [HEADER?] Raft on sand 40-65 0.0021L 1/500
+16691: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16695: [ALLCAPS] DEEP FOUNDATION
+16721: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16750: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16758: [HEADER?] Timber 2/3  1.5 4.0
+16761: [HEADER?] When there are several layers of soil then
+16787: [ALLCAPS] FOS( )
+16788: [ALLCAPS] WHQ SC
+16797: [ALLCAPS] FOS = 6
+16801: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16809: [ALLCAPS] EQ S= +
+16839: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16868: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16871: [HEADER?] Safe Load Capacity
+16913: [ALLCAPS] HL = + 
+16919: [ALLCAPS] HHBL
+16939: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16972: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16976: [ALLCAPS] SOIL EXPLORATION
+16982: [HEADER?] Making and advancing of bore holes is called boring
+16992: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+16999: [ALLCAPS] DDC D
+17006: [ALLCAPS] 100 0 2%DDC D
+17015: [ALLCAPS] DDA D
+17029: [ALLCAPS] HF= −
+17041: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17053: [ALLCAPS] 2 DV
+17067: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17071: [ALLCAPS] EXPANSIVE SOIL
+17084: [HEADER?] Illite 30-80
+17093: [HEADER?] Very High Greater than 50
+17106: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17134: [HEADER?] Mechanics
+17138: [HEADER?] Design Against Static Load
+17147: [ALLCAPS] FLUID
+17148: [ALLCAPS] MECHANICS
+17149: [ALLCAPS] INDEX
+17150: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+17154: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17158: [ALLCAPS] FLUID MECHANICS
+17171: [ALLCAPS] [ML–1T–1]
+17209: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17220: [HEADER?] Bingham plastic fluid
+17267: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17279: [ALLCAPS] 12CG
+17282: [ALLCAPS] 36CG
+17285: [ALLCAPS] 64CG
+17316: [ALLCAPS] 𝐺𝑀 =
+17317: [ALLCAPS] I BGV −
+17319: [HEADER?] Fig. 1.1.
+17323: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17332: [HEADER?] GM g 
+17378: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17439: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17514: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17581: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17637: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17653: [ALLCAPS] 22 L
+17662: [ALLCAPS] QC Q=
+17700: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17745: [ALLCAPS] CC C=
+17762: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17812: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17835: [ALLCAPS] FF F=
+17925: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+17981: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18011: [ALLCAPS] 𝐿 = ( 𝐿 − 0.2𝐻)
+18018: [ALLCAPS] 0 + 0 + 𝐻 =
+18039: [HEADER?] Fig. 1.2.
+18043: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18122: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18204: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18270: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18373: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18417: [ALLCAPS] 128 QL
+18426: [ALLCAPS] 128 QL Q
+18437: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18487: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18550: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18606: [HEADER?] Fig. 1.3.
+18610: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18667: [ALLCAPS] 2 U .
+18669: [ALLCAPS] 2 AU .
+18670: [ALLCAPS] CD =
+18688: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18790: [HEADER?] Fig. 1.4.
+18794: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18805: [ALLCAPS] FD = 21
+18806: [ALLCAPS] 2 DC AU 
+18818: [ALLCAPS] FD = 3 DU
+18829: [ALLCAPS] ➢ ( *)LF U I L =
+18837: [HEADER?] Reynolds number.
+18841: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18880: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18931: [HEADER?] Fig. 1.5.
+18935: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+18965: [ALLCAPS] H = 12
+18974: [ALLCAPS] KE= 
+18995: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19065: [HEADER?] Fig. 1.6.
+19069: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19125: [HEADER?] Runner power
+19129: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19142: [ALLCAPS] SP SP RP
+19143: [ALLCAPS] WP RP WP=
+19177: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19258: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19272: [HEADER?] Tangential velocity of wheel
+19277: [HEADER?] Work done /s per unit weight
+19283: [HEADER?] Hydrodynamic machines.
+19328: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19380: [ALLCAPS] NS =
+19388: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19399: [SECTION] Unit speed Unit discharge Unit power
+19407: [ALLCAPS] DN  ∝ 𝑁
+19437: [ALLCAPS] 𝑃 ∝ 𝑄𝐻
+19438: [ALLCAPS] ∝ √𝐻 × 𝐻
+19456: [ALLCAPS] B B B
+19457: [ALLCAPS] A A A
+19458: [ALLCAPS] B B B
+19459: [ALLCAPS] A A A
+19460: [ALLCAPS] B B B
+19461: [ALLCAPS] A A A
+19462: [ALLCAPS] V N D
+19463: [ALLCAPS] V N D
+19464: [ALLCAPS] H N D
+19465: [ALLCAPS] H N D
+19466: [ALLCAPS] P N D
+19467: [ALLCAPS] P N D
+19479: [HEADER?] Fig. 1.7. Operating characteristic curves.
+19483: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19496: [HEADER?] Fig. 1.8. Main characteristic curves for a Pelton wheel
+19500: [HEADER?] Fig. 1.9. Main characteristic curves for reaction turbine
+19504: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19532: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19562: [HEADER?] W vug
+19593: [HEADER?] Fig. 1.11.
+19597: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19601: [HEADER?] Manometric efficiency
+19613: [HEADER?] Mechanical efficiency
+19659: [ALLCAPS] D N D N
+19670: [ALLCAPS] N = 22
+19701: [ALLCAPS] QQ+
+19705: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19711: [ALLCAPS] NS =
+19736: [ALLCAPS] NPSH  =
+19755: [ALLCAPS] = NPSH
+19761: [ALLCAPS] NPSH
+19762: [ALLCAPS] H =  
+19766: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19808: [ALLCAPS] 𝑄 = 60
+19817: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19824: [ALLCAPS] A A LN+
+19826: [ALLCAPS] 𝑄 = 2
+19877: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19928: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19936: [HEADER?] Installed capacity× time in hour
+19984: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+19988: [ALLCAPS] OPEN CHANNEL FLOW
+20023: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20098: [HEADER?] Fig. 2.1.
+20102: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20123: [HEADER?] Width of channel
+20163: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20186: [ALLCAPS] ➢ 11PM+
+20221: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20266: [HEADER?] Section
+20348: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20354: [ALLCAPS] T E =
+20394: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20466: [ALLCAPS] Q3 Q4
+20483: [HEADER?] Fig. 2.4.
+20487: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20564: [HEADER?] Fig. 2.6.
+20568: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20644: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20692: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20701: [ALLCAPS] M1 M2 M3
+20702: [ALLCAPS] S1 S2 S3
+20703: [ALLCAPS] C1 C3
+20704: [ALLCAPS] H2 H3
+20705: [ALLCAPS] A2 A3
+20772: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20804: [ALLCAPS] NDL-1
+20805: [ALLCAPS] NDL-2S1
+20823: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20850: [ALLCAPS] S S S
+20912: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+20922: [ALLCAPS] EL =
+20969: [ALLCAPS] EE=−
+20985: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21009: [ALLCAPS] CS = 2
+21037: [HEADER?] Engineering
+21041: [HEADER?] Design Against Static Load
+21055: [ALLCAPS] IRRIGATION
+21056: [ALLCAPS] ENGINEERING
+21057: [ALLCAPS] INDEX
+21058: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+21062: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21066: [ALLCAPS] IRRIGATION AND
+21067: [ALLCAPS] METHODS OF IRRIGATION
+21098: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21143: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21175: [ALLCAPS] SAR=
+21194: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21213: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21217: [ALLCAPS] WATER REQUIREMENTS OF
+21218: [ALLCAPS] CROPS AND CANAL IRRIGATION
+21237: [ALLCAPS] 8.64 BD = 
+21251: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21289: [ALLCAPS] GS = LS + DS
+21299: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21314: [HEADER?] Water delivered to fields
+21351: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21372: [HEADER?] Na CO ; Na SO & NaCl
+21397: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21415: [HEADER?] Drawdown Curve
+21418: [HEADER?] Spacing between the tile drains
+21425: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21456: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21488: [HEADER?] For Unprotected Side Slopes
+21503: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21507: [ALLCAPS] DESIGN OF STABLE
+21508: [ALLCAPS] CHANNELS IN INDIA
+21537: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21602: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21629: [ALLCAPS] R  =
+21638: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21683: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21708: [HEADER?] C/s of an Irrigation Canal
+21715: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21727: [ALLCAPS] V  =
+21750: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21754: [ALLCAPS] CANAL REGULATION WORK
+21759: [ALLCAPS] F   =
+21779: [HEADER?] For wide trapezoidal channel,
+21783: [HEADER?] For discharge through an orifice type outlet,
+21787: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21808: [ALLCAPS]    F = /1
+21831: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21875: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21903: [ALLCAPS] HP P H = 
+21916: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21947: [ALLCAPS] HB SC
+21955: [ALLCAPS] SC − +
+21959: [HEADER?] Low gravity dam, H  Hmax
+21963: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21971: [HEADER?] Water available in rivers
+21984: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+21988: [ALLCAPS] HYDRAULIC JUMP
+22022: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22033: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22037: [ALLCAPS] STILLING BASIN
+22062: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22100: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22121: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22125: [ALLCAPS] OBJECTIVE : SPILLWAYS,
+22126: [ALLCAPS] ENERGY DISSIPATORS AND
+22127: [ALLCAPS] SPILLWAY GATES
+22157: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22184: [HEADER?] Hydrology
+22188: [HEADER?] Design Against Static Load
+22204: [ALLCAPS] ENGINEERING HYDROLOGY
+22205: [ALLCAPS] INDEX
+22206: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+22210: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22214: [ALLCAPS] INTRODUCTION
+22234: [HEADER?] Water budget equation
+22242: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22247: [HEADER?] Average flow rate in that phase
+22253: [HEADER?] Catchment Leakage
+22255: [HEADER?] Dewpoint
+22264: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22268: [ALLCAPS] PRECIPITATION
+22294: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22349: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22354: [ALLCAPS] VCN = 
+22362: [ALLCAPS] = V
+22377: [ALLCAPS] P P P
+22403: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22412: [ALLCAPS] −= CC
+22415: [ALLCAPS] MMPP MM
+22441: [ALLCAPS] AP P P AA
+22466: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22477: [HEADER?] Maximum Depth Area Duration Curve
+22488: [ALLCAPS] MP N= +
+22497: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22500: [ALLCAPS] 11 NT PM
+22531: [ALLCAPS] P KS K
+22543: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22547: [ALLCAPS] ABSTRACTIONS FROM
+22548: [ALLCAPS] PRECIPITATION
+22572: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22622: [ALLCAPS] H H H HE LB
+22627: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22655: [ALLCAPS] A H E YPET AY
+22658: [HEADER?] H n → net radiation, in mm, of evaporable water per day.
+22662: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22674: [ALLCAPS] TE K P
+22706: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22733: [ALLCAPS] LPRI
+22747: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22751: [ALLCAPS] SURFACE WATER
+22752: [ALLCAPS] HYDROLOGY (RUNOFF)
+22782: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22787: [HEADER?] Always carry some flow
+22816: [ALLCAPS] N P P
+22822: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22849: [ALLCAPS] PET – AET100PET 
+22861: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22865: [ALLCAPS] STREAM FLOW
+22866: [ALLCAPS] MEASUREMENT
+22887: [HEADER?] In shallow streams,
+22893: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22901: [ALLCAPS] V V V++
+22902: [HEADER?] In rivers having flood of flows,
+22907: [ALLCAPS] SV KV
+22920: [ALLCAPS] VVV +=
+22973: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+22993: [HEADER?] When the tracer is injected continuously.
+22995: [ALLCAPS] Q1C1 + Q × C0 = (Q + Q1)C2
+23010: [HEADER?] LV tt
+23014: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23023: [HEADER?] Water after the flood has passed the site
+23078: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23087: [ALLCAPS] P = ( ) ( )( )
+23090: [ALLCAPS] N XY X Y
+23091: [ALLCAPS] N X X
+23103: [ALLCAPS] N XY X Y
+23104: [ALLCAPS] N X X N Y Y
+23121: [HEADER?] Unsteady Flow Effects
+23136: [HEADER?] V → velocity of the flood wave
+23140: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23154: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23158: [ALLCAPS] HYDROGRAPHS
+23181: [HEADER?] Cross-section, roughness, storage capacity
+23185: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23189: [HEADER?] Catchment shape influences
+23212: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23242: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23292: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23307: [ALLCAPS] QP =
+23327: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23353: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23357: [ALLCAPS] FLOODS
+23375: [ALLCAPS] QP =
+23385: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23415: [ALLCAPS] 1P T=
+23438: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23487: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23491: [ALLCAPS] FLOOD ROUTING
+23504: [ALLCAPS] = [S2 – S1]
+23526: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23573: [ALLCAPS] S = S(H),
+23582: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23600: [ALLCAPS] S = KQ
+23603: [ALLCAPS] S 2 – S1 =
+23608: [ALLCAPS] …(B)
+23611: [ALLCAPS]     2 2 1 1 2 1OQ C I C I C Q= + +
+23618: [ALLCAPS] , C1 = 0.5
+23628: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23631: [ALLCAPS] C 2 = 0.5
+23636: [HEADER?] K Kx t
+23668: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23672: [ALLCAPS] GROUND WATER
+23687: [HEADER?] Storage coefficient of an artesian aquifer,
+23699: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23718: [HEADER?] Unconfined flow between 2 water bodies
+23739: [ALLCAPS] S C Q C Q =+
+23744: [HEADER?] Total drawdown measured inside the well
+23748: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23755: [ALLCAPS] C Q C Q+
+23758: [HEADER?] Draw down
+23762: [ALLCAPS] C C QC Q C Q
+23776: [ALLCAPS] HC A H A HA T H
+23813: [HEADER?] Catchment area
+23822: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23868: [HEADER?] SurveyingSurveyingSurveying
+23872: [HEADER?] Design Against Static Load
+23893: [ALLCAPS] SURVEYING
+23894: [ALLCAPS] INDEX
+23895: [ALLCAPS] GATE-O-PEDIA CIVIL HANDBOOK
+23899: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23903: [ALLCAPS] FUNDAMENTALS
+23904: [ALLCAPS] OF SURVEYING
+23940: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+23972: [ALLCAPS] R.F. =
+23977: [HEADER?] Graphical Scale
+23995: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24020: [ALLCAPS] V  =
+24054: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24113: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24117: [ALLCAPS] LINEAR MEASUREMENTS
+24118: [ALLCAPS] & CHAIN SURVEY
+24143: [HEADER?] Does not break easily.
+24147: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24183: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24210: [HEADER?] Fig. 2.2.
+24214: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24222: [ALLCAPS] 2 '2AB AB BB =−
+24225: [HEADER?] This distance is called as Hypotenusal allowance.
+24251: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24316: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24323: [ALLCAPS] P P LC AE
+24335: [HEADER?] Fig. 2.4.
+24339: [ALLCAPS] WCL P
+24376: [ALLCAPS] P P L WL
+24377: [ALLCAPS] AE P
+24381: [ALLCAPS] W AE
+24384: [HEADER?] P n can be determined by trial and error.
+24388: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24411: [ALLCAPS] LHC RH
+24415: [ALLCAPS] LHC R
+24441: [HEADER?] Fig. 2.8.
+24445: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24461: [ALLCAPS] 22(0.025S)
+24468: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24472: [ALLCAPS] COMPASS
+24473: [ALLCAPS] SURVEY
+24495: [ALLCAPS] |FB – BB| = 180°
+24502: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24511: [ALLCAPS] FB BB FB BB
+24512: [ALLCAPS] N 30°E S 30°W 30° 210°
+24513: [ALLCAPS] S 80° W N 80°E 260° 80°
+24514: [ALLCAPS] N 20°W S 20°E 340° 160°
+24531: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24562: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24591: [HEADER?] Tripod is essential for using it.
+24597: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24601: [ALLCAPS] THEODOLITE
+24629: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24633: [ALLCAPS] TRAVERSING
+24658: [HEADER?] This method is more accurate than loose needle method.
+24662: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24679: [HEADER?] Latitudes and Departure for a Closed Transverse
+24682: [ALLCAPS] ABCDA
+24691: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24746: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24768: [ALLCAPS] L L D D
+24769: [ALLCAPS] LLC C C C LL
+24785: [ALLCAPS] L L D D
+24787: [ALLCAPS] LDC C C C LD
+24796: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24800: [ALLCAPS] LEVELLING
+24827: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24865: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24871: [HEADER?] Correction due to Curvature:
+24877: [HEADER?] This corrections always negative
+24898: [ALLCAPS] C = CC + CR
+24920: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24924: [HEADER?] Difference of RLS of two stations P and Qis given by:
+24958: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+24986: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25015: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25019: [ALLCAPS] CONTOURING
+25042: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25062: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25066: [ALLCAPS] MEASUREMENT OF
+25067: [ALLCAPS] AREA AND VOLUME
+25069: [ALLCAPS] 8.1. INTRODUCTION
+25094: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25125: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25137: [ALLCAPS] AA A A A+ + + + + +
+25149: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25153: [ALLCAPS] TACHEOMETRIC
+25154: [ALLCAPS] SURVEY
+25176: [HEADER?] Fig. 9.2.
+25180: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25190: [HEADER?] Case 1:  Staff is held vertical and LOS is inclined
+25195: [ALLCAPS] KSVC = + 
+25197: [HEADER?] Case 2: Staff is held vertical and LOS is declined.
+25199: [HEADER?] Fig. 9.4.
+25203: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25208: [ALLCAPS] KVL = + 
+25210: [HEADER?] Case 3:  When staff is kept normal to LOS:
+25231: [ALLCAPS] SD =  − 
+25232: [HEADER?] Fig. 9.6.
+25236: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25247: [ALLCAPS] SD=  − 
+25263: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25268: [ALLCAPS] CURVES
+25282: [HEADER?] Fig. 10.3.
+25286: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25304: [ALLCAPS] E = VC
+25311: [ALLCAPS] LR =
+25314: [ALLCAPS] RL = 
+25321: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25326: [ALLCAPS] RCD R R  = − = − 
+25350: [ALLCAPS] 1720D R
+25358: [ALLCAPS] D = 360 20 1145.9
+25359: [ALLCAPS] 2 RR
+25361: [ALLCAPS] 1146D R
+25368: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25397: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25428: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25432: [ALLCAPS] PHOTOGRAMMETRY
+25451: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25456: [HEADER?] When elevations of point on ground vary
+25460: [HEADER?] Scale of photograph at point A
+25465: [HEADER?] Scale of photograph at point B
+25488: [HEADER?] Fig. 11.3.
+25492: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25515: [HEADER?] Fig. 11.4.
+25526: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25562: [ALLCAPS] LN L
+25569: [ALLCAPS] WN W
+25577: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25580: [HEADER?] Total number of photographs
+25589: [ALLCAPS] = (1 – P)S
+25591: [ALLCAPS] T  = 3600 L
+25597: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25601: [ALLCAPS] ACCURACY AND ERRORS
+25634: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25660: [HEADER?] The probable error of a single observation
+25665: [HEADER?] The probable error of the mean of the observations
+25675: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25712: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25773: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25847: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25886: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25890: [ALLCAPS] GLOBAL POSITIONING
+25891: [ALLCAPS] SYSTEM
+25925: [HEADER?] Regional Project not operational yet.
+25929: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25965: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+25980: [HEADER?] Control Segment
+25982: [HEADER?] Fig. 13.3.
+25986: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26025: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26047: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26051: [ALLCAPS] GLOBAL
+26052: [ALLCAPS] INFORMATION SYSTEM
+26084: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26108: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26139: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26144: [ALLCAPS] REMOTE SENSING
+26166: [HEADER?] Fig. 15.1.
+26170: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26216: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26248: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26314: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26344: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26389: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26416: [HEADER?] Fig. 15.8.
+26420: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26443: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26504: [ALLCAPS] TRANSPORTTRANSPORT
+26505: [ALLCAPS] ENGINEERINGENGINEERING
+26506: [ALLCAPS] TRANSPORT
+26507: [ALLCAPS] ENGINEERING
+26514: [HEADER?] Engineering
+26518: [HEADER?] Design Against Static Load
+26531: [ALLCAPS] HIGHWAY ENGINEERING
+26532: [ALLCAPS] INDEX
+26533: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+26537: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26541: [ALLCAPS] HIGHWAY
+26542: [ALLCAPS] ENGINEERING
+26572: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26586: [ALLCAPS] EW 120 100 100 80
+26587: [ALLCAPS] NH/SH 100 80 80 65
+26609: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26657: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26664: [HEADER?] Earthern roads 4% 3%
+26668: [HEADER?] Flexible Pavement  : Generally parabolic
+26685: [HEADER?] The values given are for NH and SH.
+26689: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26700: [ALLCAPS] ISD = 2.SSD
+26701: [ALLCAPS] SSD < ISD < OSD
+26708: [ALLCAPS] 1.  SSD:
+26716: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26750: [ALLCAPS] 2.  OSD:
+26756: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26803: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26824: [ALLCAPS]  MA = 0  
+26839: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26893: [HEADER?] Horizontal:
+26897: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26902: [ALLCAPS]  MCG  = 0  RA . 2
+26910: [ALLCAPS]  RA > RB
+26929: [ALLCAPS] ⧫ RA > RB
+26935: [ALLCAPS] ⧫     RA < RB
+26939: [HEADER?] Superelevation Cases:
+26943: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+26946: [HEADER?] Recommended for preliminary:
+26996: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27016: [HEADER?] C acts as  ve superelevation.
+27024: [HEADER?] Rotation about c/L
+27030: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27033: [HEADER?] Shifting of crown
+27037: [HEADER?] Rotation about inner edge
+27041: [HEADER?] Rotation about C/L
+27046: [HEADER?] C/s along Transition Curve :
+27068: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27108: [ALLCAPS] IRC :
+27120: [HEADER?] Single Lane Road:
+27124: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27184: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27240: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27276: [ALLCAPS] 2.7V
+27290: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27302: [ALLCAPS] R= ]
+27335: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27364: [HEADER?] Summit Curve
+27368: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27404: [ALLCAPS] G G L
+27405: [ALLCAPS] GGL G
+27438: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27443: [ALLCAPS] L  S
+27465: [ALLCAPS] GSL =
+27467: [ALLCAPS] L   S
+27506: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27533: [ALLCAPS] GSL S= +
+27539: [HEADER?] Location of lowest pt :
+27543: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27554: [HEADER?] Impact factor :
+27568: [ALLCAPS] ≯ 17% (IRC)
+27573: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27577: [ALLCAPS] TRAFFIC ENGINEERING
+27614: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27637: [ALLCAPS] AADT = ADT × MEF
+27664: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27693: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27737: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27782: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27833: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27872: [HEADER?] Suitable for low density flows.
+27876: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27907: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+27930: [ALLCAPS] AA AAA
+27931: [ALLCAPS] BA BBB
+27946: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28002: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28035: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28063: [HEADER?] Advantages Disadvantage
+28067: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28104: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28145: [ALLCAPS] TT = 12, 13, 14, 32, 42, 43
+28146: [ALLCAPS] WT = 13, 14, 32, 42
+28147: [ALLCAPS] WTP= TT
+28154: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28158: [ALLCAPS] TT = 12, 13, 14, 15, 16, 32, 42, 43; 52, 53, 54, 62, 63, 64, 65, 66
+28159: [ALLCAPS] WT = 13, 14, 15, 16, 32, 42, 52, 62
+28192: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28202: [HEADER?] Optional and not provided for small intersection
+28221: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28244: [ALLCAPS] LC Y= −
+28269: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28301: [ALLCAPS] 7 1.2I
+28305: [ALLCAPS] 7 1.2II
+28309: [ALLCAPS] 11 IPIG A G G+ =  =
+28310: [ALLCAPS] 2 2 2 IIPG A G G+  
+28323: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28328: [HEADER?] Principles : Least total delay.
+28333: [ALLCAPS] LC Y
+28354: [HEADER?] Fixing Amber time :
+28361: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28396: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28400: [ALLCAPS] PAVEMENT DESIGN :
+28408: [ALLCAPS] AQUEOUS EMUSION
+28410: [ALLCAPS] CUTBACK BITUMEN
+28411: [HEADER?] Bitumen emulsifier in petrol, kerosene, diesel
+28415: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28448: [ALLCAPS] EW ; 20
+28449: [ALLCAPS] NH,SH ; 15
+28457: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28469: [HEADER?] Type under compression    Type under Tension
+28474: [ALLCAPS] R.F > 1 R.F < 1
+28500: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28549: [ALLCAPS] LDF:
+28586: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28595: [HEADER?] ESWL for dual wheel assembly.
+28604: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28643: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28648: [ALLCAPS] IRC 37 – 2012
+28656: [ALLCAPS] NR = 4.166 × 10–8
+28690: [HEADER?] Greater the R & C, better is soil.
+28694: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28754: [HEADER?] Load on pavement  Flexible  plate analogy.
+28762: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28810: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28831: [ALLCAPS] 2K 
+28832: [ALLCAPS]      25 300.4KK =
+28848: [ALLCAPS] IRC:   V = 0.15
+28857: [HEADER?] Due to wheel loading
+28861: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28883: [ALLCAPS] 32 1C
+28889: [HEADER?] IRC 58: Modified westergaard
+28919: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28932: [ALLCAPS] E T E TCC = 
+28935: [ALLCAPS] 3(1 )C
+28955: [HEADER?] Winter:
+28972: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+28987: [HEADER?] Joints in rigid pavement:
+28994: [ALLCAPS] TIE BARS
+28998: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29025: [ALLCAPS] .() 2C
+29033: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29053: [ALLCAPS] L = 
+29055: [HEADER?] Design of Dowel bars:
+29062: [HEADER?] Load transferred by single dowel if 100% effective:
+29066: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29090: [ALLCAPS] P P P
+29091: [ALLCAPS] P P P
+29098: [ALLCAPS] LS LCFL
+29119: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29123: [HEADER?] Signboard Placing
+29144: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29148: [ALLCAPS] HIGHWAY MATERIALS
+29171: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29196: [ALLCAPS] =. PKK P
+29205: [HEADER?] Hence, if 30 cm plate used;
+29216: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29245: [ALLCAPS] ACV →
+29258: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29264: [ALLCAPS] | 40% WBM
+29265: [ALLCAPS] AIV →
+29283: [ALLCAPS] FI = 20 1520%, 18.75%100 80 EI= = =
+29296: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29334: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29371: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29381: [ALLCAPS] 4.5. TAR
+29411: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29432: [ALLCAPS] V V V V+ + +
+29449: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29474: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29477: [ALLCAPS] 4.6.   EXTRA: ASPHALT PAVEMENT FAILURES
+29507: [HEADER?] Engineering
+29511: [HEADER?] Design Against Static Load
+29527: [ALLCAPS] AIRPORT ENGINEERING
+29528: [ALLCAPS] INDEX
+29529: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+29533: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29537: [ALLCAPS] AIRPORT
+29553: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29561: [HEADER?] Aileron Rolling
+29579: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29583: [ALLCAPS] AIRPORT PLANNING
+29608: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29612: [ALLCAPS] RUNWAY DESIGN
+29619: [HEADER?] Cross-Wind Component
+29625: [HEADER?] Big aircraft 35 kmph
+29634: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29655: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29660: [ALLCAPS] L' =  L × 7E
+29662: [ALLCAPS] L 1  = L + L'
+29673: [ALLCAPS] L"  = L 1 T × 1
+29675: [ALLCAPS] L 2  = L 1 + L"
+29681: [ALLCAPS] L'" = L 2 × G × 20
+29683: [ALLCAPS] L3  = L2 + L"'
+29697: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29726: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29730: [ALLCAPS] AIRPORT CAPACITY
+29749: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29770: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29774: [ALLCAPS] TAXIWAY DESIGN
+29803: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29812: [ALLCAPS] WR T S
+29834: [HEADER?] Stopping Distance
+29849: [HEADER?] V dDe ecels erdtc atio a
+29856: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29875: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29879: [ALLCAPS] WATER-TRANSPORTATION
+29896: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29903: [ALLCAPS] HD D' D" 3= + =
+29921: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29939: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29943: [ALLCAPS] TIDES AND SHORE
+29944: [ALLCAPS] PROTECTION WORKS
+29971: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29988: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+29992: [ALLCAPS] BREAK WATERS
+30007: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30021: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30025: [ALLCAPS] DOCK
+30036: [HEADER?] Shapes of Dock and Basin
+30040: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30055: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30059: [ALLCAPS] TUNNEL ENGINEERING
+30072: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30103: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30116: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30132: [HEADER?] Engineering
+30136: [HEADER?] Design Against Static Load
+30152: [ALLCAPS] RAILWAY ENGINEERING
+30153: [ALLCAPS] INDEX
+30154: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+30158: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30162: [ALLCAPS] RAIL, RAILWAY AND
+30163: [ALLCAPS] RAIL JOINT
+30184: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30204: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30215: [ALLCAPS] = SS
+30217: [HEADER?] TE An R
+30232: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30236: [ALLCAPS] SLEEPERS AND TRACK
+30237: [ALLCAPS] FASTENERS
+30252: [ALLCAPS] S 10HCSI 20
+30255: [HEADER?] Both Index are measured at 12% moisture content.
+30259: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30278: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30282: [ALLCAPS] BALLAST, SUB-GRADE AND
+30283: [ALLCAPS] TRACK ALIGNMENT
+30297: [ALLCAPS] −= SWD
+30309: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30326: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30330: [ALLCAPS] TRACK STRESSES
+30331: [ALLCAPS] AND CREEPS OF RAIL
+30368: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30371: [HEADER?] Stresses on Sleeper
+30405: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30417: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30421: [ALLCAPS] GEOMETRIC DESIGN
+30422: [ALLCAPS] OF THE TRACK
+30430: [ALLCAPS] BG 0.04
+30431: [ALLCAPS] MG 0.03
+30432: [ALLCAPS] NG 0.02
+30436: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30449: [HEADER?] NG 50° 44m
+30457: [HEADER?] Super Elevation or Cant
+30470: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30478: [HEADER?] NG 7.6 cm x
+30494: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30498: [HEADER?] Limit on Dmax
+30502: [HEADER?] Dmax 7.6 cm 10 cm 5.1 cm 3.8 cm
+30534: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30543: [ALLCAPS] 13 B LW R
+30557: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30561: [ALLCAPS] POINTS AND CROSSING
+30580: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30593: [HEADER?] T.N.C. is the theoretical nose of crossing
+30597: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30608: [ALLCAPS] CL = 02R G
+30609: [ALLCAPS] CL  2 GN
+30614: [ALLCAPS] 2 R0 = G + 2GN2
+30615: [ALLCAPS] R 0 = 1.5G + 2GN2
+30621: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30657: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30668: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30672: [ALLCAPS] TRACK JUNCTIONS
+30675: [HEADER?] It's used to transfer trains from one track to another
+30679: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30694: [ALLCAPS] 2G 1 N+
+30700: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30704: [ALLCAPS] RO1 + 1.5G + 1.5
+30706: [ALLCAPS] 1GN          RO2 = 1.5G + 1.5
+30710: [ALLCAPS] R1 = RO2 – G
+30711: [ALLCAPS] 2                      R2 = RO2 – G
+30715: [ALLCAPS] 1 2 1 2O O A A−
+30730: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30734: [ALLCAPS] RAILWAY STATION AND
+30735: [ALLCAPS] STATION YARD
+30749: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30766: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30770: [ALLCAPS] SIGNALLING AND CONTROL
+30771: [ALLCAPS] SYSTEMS
+30783: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30796: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30800: [ALLCAPS] TRACTION AND TRACTIVE
+30801: [ALLCAPS] RESISTANCE
+30824: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30859: [HEADER?] Management
+30863: [HEADER?] Design Against Static Load
+30881: [ALLCAPS] CONSTRUCTION
+30882: [ALLCAPS] PROJECT MANAGEMENT
+30883: [ALLCAPS] INDEX
+30884: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+30888: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30892: [ALLCAPS] CONSTRUCTION
+30893: [ALLCAPS] PROJECT MANAGEMENT
+30908: [HEADER?] Organising the term Engineering diagrams
+30915: [HEADER?] Gantt chart
+30919: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30963: [HEADER?] Activity
+30967: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+30971: [ALLCAPS] FUNDAMENTALS
+30972: [ALLCAPS] OF NETWORK
+30994: [ALLCAPS] A B A
+31001: [ALLCAPS] 1 2 3A 1
+31020: [ALLCAPS] 1 2A
+31031: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31041: [HEADER?] FULKERSON’S Rule.
+31051: [HEADER?] Actual
+31055: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31059: [ALLCAPS] PROGRAMME EVALUATION
+31060: [ALLCAPS] REVIEW TECHNIQUES
+31111: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31170: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31209: [ALLCAPS] T T L
+31218: [ALLCAPS] S = TL – TE
+31233: [ALLCAPS] Z = SETT−
+31258: [ALLCAPS] T  L  
+31263: [ALLCAPS] T  L = 
+31268: [ALLCAPS] T  L  
+31275: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31286: [ALLCAPS] ON → MODE COMP
+31288: [ALLCAPS] CMPLX
+31290: [ALLCAPS] → MODE SD
+31294: [ALLCAPS] BASE
+31309: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31313: [ALLCAPS] CRITICAL PATH METHOD
+31320: [ALLCAPS] PERT CPM
+31340: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31358: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31362: [ALLCAPS] CRASHING
+31364: [ALLCAPS] CRASHING
+31386: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31424: [HEADER?] Timetc tn
+31428: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31432: [ALLCAPS] UPDATING AND RESOURCE
+31433: [ALLCAPS] ALLOCATION
+31454: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31470: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31474: [ALLCAPS] PRECEDENCE DIAGRAM
+31508: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31512: [ALLCAPS] ENGINEERING ECONOMY
+31514: [ALLCAPS] ENGINEERING ECONOMY
+31540: [ALLCAPS] AAAAAA
+31544: [ALLCAPS] AAAAAA
+31550: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31560: [HEADER?] Interest Formula for Single Payment Series
+31570: [HEADER?] Interest formula for equal payment series
+31611: [ALLCAPS] A A A
+31618: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31630: [HEADER?] Compound Interest Factor
+31651: [ALLCAPS] P F 1
+31659: [ALLCAPS] P A (1 ) 1
+31674: [ALLCAPS] A P (1 )
+31723: [ALLCAPS] A1 A1 A1 A1 A1 A1
+31724: [HEADER?] Uniform gradient series
+31728: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31732: [ALLCAPS] A  = A1 + A2
+31778: [ALLCAPS]  P = A
+31787: [ALLCAPS] P AAAA AAA
+31792: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31815: [HEADER?] Also called as cost-volume-profit Analysis.
+31833: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31868: [ALLCAPS] FBD =
+31885: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31888: [ALLCAPS] FDDB = 2
+31902: [ALLCAPS] D1 = D
+31912: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31916: [ALLCAPS] FUNDAMENTAL OF
+31917: [ALLCAPS] EQUIPMENTS
+31951: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+31957: [ALLCAPS] R = P
+31985: [ALLCAPS] HC =
+31989: [ALLCAPS] PTH PT
+32001: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32026: [ALLCAPS] W = −
+32032: [ALLCAPS] W = −
+32044: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32048: [ALLCAPS] EARTHWORK EQUIPMENT
+32066: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32088: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32129: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32135: [HEADER?] Time required per trip in minutes
+32154: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32164: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32168: [ALLCAPS] HOSTING EQUIPMENTS
+32202: [HEADER?] Function Operation
+32206: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32219: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32233: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32272: [HEADER?] Construction
+32276: [HEADER?] Design Against Static Load
+32290: [ALLCAPS] BUILDING MATERIAL
+32291: [ALLCAPS] CONSTRUCTION
+32292: [ALLCAPS] INDEX
+32293: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+32297: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32301: [ALLCAPS] CEMENT
+32316: [HEADER?] Sulphur trioxide SO3  1 – 2  Makes cement sound Cement 2
+32334: [HEADER?] Eg:- Plaster of Paris
+32338: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32373: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32412: [HEADER?] Final max setting time 24 hrs
+32416: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32452: [HEADER?] Specific gravity
+32456: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32511: [HEADER?] Result is given in %•
+32515: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32541: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32545: [ALLCAPS] CONCRETE
+32562: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32587: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32627: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32655: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32686: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32724: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32733: [HEADER?] Recommended Slumps of Concrete
+32749: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32801: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32840: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32860: [ALLCAPS] M10 – M15 3.5
+32861: [ALLCAPS] M20 – M25 4.0
+32862: [ALLCAPS] M30 – M50 5.0
+32883: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32920: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32924: [ALLCAPS] AGGREGATES
+32950: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+32986: [HEADER?] Concrete
+32990: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33037: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33057: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33061: [ALLCAPS] BRICKS
+33085: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33121: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33159: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33217: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33280: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33314: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33318: [ALLCAPS] BRICK MASONRY
+33331: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33369: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33373: [ALLCAPS] MORTAR
+33397: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33421: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33425: [ALLCAPS] TIMBER
+33445: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33478: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33516: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33543: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33574: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33608: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33637: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33666: [HEADER?] Mathematics
+33670: [HEADER?] Design Against Static Load
+33684: [ALLCAPS] ENGINEERING
+33685: [ALLCAPS] MATHEMATICS
+33686: [ALLCAPS] INDEX
+33687: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+33691: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33696: [ALLCAPS] BASIC CALCULUS
+33719: [HEADER?] Fig. 1.1
+33723: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33818: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+33872: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34017: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34043: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34074: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34139: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34141: [HEADER?] Basic Calculus
+34186: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34307: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34313: [ALLCAPS] 𝐿 =∫ √1 +(
+34332: [HEADER?] Fig.1.9 Surface area
+34336: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34399: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34457: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34522: [HEADER?] If there is a double integral,
+34526: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34553: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34558: [ALLCAPS] DIFFERENTIAL EQUATIONS
+34610: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34632: [ALLCAPS] 𝐶2 .
+34707: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34793: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34848: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34853: [HEADER?] Case-I
+34920: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+34949: [ALLCAPS] + 𝐾2
+34984: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35043: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35066: [ALLCAPS] 2−5𝐷 ×
+35067: [ALLCAPS] 2+5𝐷
+35068: [ALLCAPS] 2+5𝐷
+35071: [ALLCAPS] 2+5𝐷
+35073: [ALLCAPS] 2+5𝐷
+35092: [ALLCAPS] 6(1+(𝐷2−5𝐷
+35099: [ALLCAPS] 𝐷2−5𝐷
+35107: [ALLCAPS] 𝐷2−5𝐷
+35109: [ALLCAPS] 𝐷2−5𝐷
+35113: [ALLCAPS] 𝐷2−5𝐷
+35152: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35229: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35271: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35276: [ALLCAPS] VECTOR CALCULUS
+35315: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35398: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35442: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35444: [HEADER?] Vector Calculus
+35492: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35543: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35592: [HEADER?] 𝑅 . 𝑑𝑆⃗
+35598: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35603: [ALLCAPS] LINEAR ALGEBRA
+35637: [ALLCAPS] A = [
+35643: [ALLCAPS] 𝐵 = [
+35650: [ALLCAPS] 𝐴3×3𝐵3×2 = [
+35659: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35668: [ALLCAPS] 0 0 ] ; 𝐵 =[0 0
+35669: [ALLCAPS] 0 4 ] ⇒ 𝐴𝐵 = [0 0
+35693: [ALLCAPS] ⇒ 𝐴2𝐴 ⋅ 𝐴 =[ 4 −1
+35696: [ALLCAPS] 12 −3] = 𝐴
+35700: [ALLCAPS] 16 −4] = 𝐴 ⇒ 𝐴2 = [ 4 −1
+35702: [ALLCAPS] 0 0 ] ⇒ 𝐴2 = 𝑂
+35709: [ALLCAPS] −1 −2 ] = 𝐴
+35713: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35743: [ALLCAPS] 0 & |𝐵| = 0.
+35750: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35752: [HEADER?] Linear Algebra
+35811: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35841: [ALLCAPS] ] [𝐴/𝐵] = [
+35872: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35929: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35934: [ALLCAPS] PROBABILITY AND
+35935: [ALLCAPS] STATISTICS
+35949: [ALLCAPS] 𝑃(𝐴) =
+35959: [ALLCAPS] S = {1,2,3,4,5,6},  A = {2,4,6}
+35965: [ALLCAPS] 0 ≤ 𝑃(𝐴) ≤ 1
+35969: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+35979: [ALLCAPS] S = {1,2,3,4,5,6}, A = {2,3,5}, B = {4,6}  A  B =   P (A  B) = 0
+35986: [ALLCAPS]    = S
+35987: [ALLCAPS] S = {1,2,3,4,5,6}
+35988: [ALLCAPS] A = {1,3,5}, B ={2,4,6}
+35989: [ALLCAPS]    B = S
+35996: [HEADER?] Fig. 5.3 Independent event
+36000: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36007: [ALLCAPS] P(  ) = P(A) + P(B) – P(  )
+36013: [ALLCAPS]  P(A  B) = P(A) + P(B) – P(A  B)
+36015: [ALLCAPS]   P(A  B) = 0
+36016: [ALLCAPS] P(  ) = P(A) + P(B)
+36022: [ALLCAPS] 𝑃(𝐴/𝐵) =𝑃(𝐴 ∩ 𝐵)
+36028: [ALLCAPS] P(A/B) =
+36029: [ALLCAPS] 𝑃(𝐴∩𝐵)
+36030: [ALLCAPS] 𝑃(𝐵) ⇒ 𝑃(𝐴 ∩ 𝐵) = 𝑃(𝐴/𝐵) ⋅ 𝑃(𝐵) → (1)
+36031: [ALLCAPS] P(B/A) =
+36032: [ALLCAPS] 𝑃(𝐵∩𝐴)
+36033: [ALLCAPS] 𝑃(𝐴) ⇒ 𝑃(𝐵 ∩ 𝐴) = 𝑃(𝐵/𝐴) ⋅ 𝑃(𝐴) → (2)
+36035: [ALLCAPS] 𝑃(𝐴/𝐵) ⋅ 𝑃(𝐵) = 𝑃(𝐵/𝐴) ⋅ 𝑃(𝐴)
+36039: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36051: [ALLCAPS] P A P E P A E
+36067: [HEADER?] Statistics → Collection and  Analysis of Data
+36093: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36145: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36153: [HEADER?] Continuous RV → The RV whose value is obtained by Measuring
+36190: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36192: [HEADER?] Probability and Statistics
+36213: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36266: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36317: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36356: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36361: [ALLCAPS] NUMERICAL METHODS
+36368: [ALLCAPS] } ⇒𝐴𝑋 = 𝐵
+36416: [ALLCAPS] } ⇒𝐴𝑋 = 𝐵
+36418: [ALLCAPS] A = LU
+36419: [ALLCAPS] ⇒ LUX = B
+36426: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36480: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36521: [HEADER?] Explicit Euler Method
+36540: [HEADER?] Implicit Euler Method
+36544: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36546: [HEADER?] Numerical Methods
+36601: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36605: [ALLCAPS] COMPLEX CALCULUS
+36668: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36732: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36817: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36847: [ALLCAPS] GENERAL
+36848: [ALLCAPS] APTITUDE
+36849: [ALLCAPS] GENERAL
+36850: [ALLCAPS] APTITUDE
+36854: [HEADER?] Design Against Static Load
+36872: [ALLCAPS] GENERAL APTITUDE
+36873: [ALLCAPS] INDEX
+36874: [ALLCAPS] GATE-O-PEDIA CIVIL ENGINEERING
+36878: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36882: [ALLCAPS] PERCENTAGES
+36919: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+36963: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37003: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37037: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37056: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37060: [ALLCAPS] AVERAGES & AGES
+37067: [ALLCAPS] TA N=
+37089: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37093: [ALLCAPS] PROFIT AND LOSS
+37120: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37139: [ALLCAPS] • SP =
+37156: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37163: [ALLCAPS] 1000    1.25 25% 800= = SP
+37181: [ALLCAPS] CP .
+37186: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37190: [ALLCAPS] RATIOS AND
+37191: [ALLCAPS] PROPORTIONS
+37196: [ALLCAPS] A:B:C = 4:5:6.
+37226: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37230: [ALLCAPS] TIME AND DISTANCE
+37258: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37310: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37314: [ALLCAPS] TIME AND WORK
+37329: [ALLCAPS] 1  20+=BC
+37330: [ALLCAPS] 1  40+=CA
+37335: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37373: [ALLCAPS] 1  5=A
+37380: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37384: [ALLCAPS] CLOCKS
+37416: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37451: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37455: [ALLCAPS] CALENDARS
+37485: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37513: [HEADER?] For 2 odd days – Tuesday
+37525: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37546: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37550: [ALLCAPS] BLOOD RELATIONS
+37575: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37579: [ALLCAPS] DIRECTIONS
+37595: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37598: [HEADER?] Solution. North-East D is located to the North-East of C.
+37605: [HEADER?] FG, i.e., North.
+37617: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37621: [ALLCAPS] DATA
+37622: [ALLCAPS] INTERPRETATION
+37651: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37690: [ALLCAPS] GATE WALLAH CIVIL HANDBOOK
+37694: [ALLCAPS] DATA
+37695: [ALLCAPS] SUFFICIENCY
+37732: [ALLCAPS] THANK
+
+=== LINE PATTERN ANALYSIS ===
+  blank: 4795
+  all_caps: 1982
+  question_mark: 39
+  formula_like: 5414
+  numbered_list: 0
+  bullet_list: 0
+  short_text: 19778
+  long_text: 5725

@@ -1,0 +1,1988 @@
+=== STEEL STRUCTURES CHAPTER EXTRACTION ===
+Source lines: 6887-8872 (1986 lines)
+
+L6887: STEEL STRUCTURES
+L6888: INDEX
+L6889: GATE-O-PEDIA CIVIL ENGINEERING
+
+
+L6892: ===== Page 209 / 947 =====
+L6893: GATE WALLAH CIVIL HANDBOOK
+L6894: Design Against Static Load
+L6895: 5.1
+L6896: 1
+L6897: MATERIALS AND
+L6898: SPECIFICATIONS
+
+
+L6901: 1.1. Introduction
+L6902: Steel structure are built up with hot – rolled steel sections
+L6903: • Hot – rolled sections are made up of structural steel
+L6904: • IS 800-2007: code of practice for use of structural steel in general building construction
+L6905: 1. Types of structural steel:
+L6906: • IS 226 (Standard Quality)
+L6907: • IS 2026 (Fusion welding Quality)
+L6908: • IS 961 (High tensile steel)
+L6909: • IS 1977 (Ordinary Quality)
+L6910: • IS 8500 (Medium & high strength qualities)
+L6911: 2. IS 226 (Standard Quality)
+L6912: • Most commonly used steel for general construction purposes of buildings, bridges, industrial structures, transmission
+L6913: line towers etc.
+L6914: • Riveting, bolting can be done for all thickness but welding is permitted for thickness ≤ 20mm only
+L6915: • Carbon content: 0.23 to 0.25%, Elongation: 23%
+L6916: • Designated as: Fe 410 – S
+L6917: 3. IS 2062: (Fusion Welding type):
+L6918: • Steel commonly used for general construction purpose, particularly suitable for structure subjected to dynamic loads
+L6919: and impact such as bridge decking, girders and crane girders.
+L6920: • Designated as Fe 410 WA, Fe 410 WB, Fe 410 WC.
+L6921: • Suitable for welding in all thickness.
+L6922: • Carbon content (max) 0.20–0.25%, elongation: 23%
+
+
+L6925: ===== Page 210 / 947 =====
+L6926: GATE WALLAH CIVIL HANDBOOK
+L6927: Steel Structures
+L6928: 5.2
+L6929: 4. IS 961 (High tensile steel):
+L6930: • Greater strength and atmospheric corrosion resistance
+L6931: • Fe 570 – HT: For structure with fabrication by methods other than fusion Welding.
+L6932: • Fe 540 – W – HT: For structures where fusion welding is involved.
+L6933: •  Carbon content   0.27% for Fe 570 – HT, Elongation = 20%
+L6934: Type of steel
+L6935: Grade/
+L6936: Classification
+L6937: UTS
+L6938: (MPa)
+L6939: Yield Strength (MPa) Elongation
+L6940: Gauge
+L6941: 05.65 S
+L6942: Thickness (mm)
+L6943: 20 20-40 >40
+L6944: Standard structure
+L6945: steel (Standard
+L6946: Quality steel IS 226
+L6947: & Fusion welding
+L6948: Quality IS 2062)
+L6949: E250 (Fe 410A) 410 250 240 230 23
+L6950: E250 (Fe 410B) 410 250 240 230 23
+L6951: E250 (Fe 410C)  410 250 240 230 23
+L6952: 16 16-40 41-63
+L6953: Micro alloyed high
+L6954: strength steel IS 8500
+L6955: Fe 440 440 300 290 280 22
+L6956: Fe 540 540 410 390 380 20
+L6957: Fe 590 590 450 430 420 20
+L6958: 5. Physical Properties of structural steel:
+L6959: Physical Property  As per IS 800-2007
+L6960: Specific gravity  7.85
+L6961: Unit mass of steel  s = 7850kg/m3
+L6962: Modulus of Elasticity  E = 2 × 105 N/mm2
+L6963: Modulus of Rigidity  G = 0.769 ×105 N/mm2
+L6964: Coefficient of thermal Expansion  =12×10–6/ºC
+L6965: Poisson’s ratio   = 0.30
+L6966: 6. Various types of rolled structural steel section
+L6967: • Rolled steel I-sections (beam section)
+L6968: • Rolled steel channel sections
+L6969: • Rolled steel Tee sections
+L6970: • Rolled steel angle sections
+L6971: • Rolled steel bars
+
+
+L6974: ===== Page 211 / 947 =====
+L6975: GATE WALLAH CIVIL HANDBOOK
+L6976: Steel Structures
+L6977: 5.3
+L6978: • Rolled steel tubular sections
+L6979: • Rolled steel flats
+L6980: • Rolled steel plates
+L6981: • Rolled steel sheets et c.
+L6982: I — sections:
+L6983: • Indian standard junior beam (ISJB)
+L6984: • Indian standard light beam (ISLB)
+L6985: • Indian standard medium weight beam (ISMS)
+L6986: • Indian standard wide flange beam (ISWB)
+L6987: • Indian standard heavy beam (ISHB)
+L6988: • Indian column section (SC)
+L6989: • An I  — section is designated by its depth and weight
+L6990: Eg: An ISLB 500 at 735.75 N/m means, An I-section is 500 mm deep and self weight is 7 35.8 N per meter length.
+L6991: Channel Sections:
+L6992: • Indian standard junior channel (ISJC)
+L6993: • Indian standard light channel (ISLC)
+L6994: • Indian standard medium weight channel with sloping flange (MC)
+L6995: • Indian standard medium weight channel with parallel  flange (MCP)
+L6996: • Indian standard gate channel (ISGC)
+L6997: • Designated by its depth and weight
+L6998: Eg: ISLC 350 at 380.63 N/m
+L6999: T Sections:
+L7000: • Indian standard rolled normal T – section (ISNT)
+L7001: • Indian standard rolled deep legged T – (ISDT)
+L7002: • Indian standard rolled slit light weight T – bars (ISLT)
+L7003: • Indian standard rolled silt medium weight T  – bars (ISMT)
+L7004: • Indian standard rolled silt T – bars from H – section (ISHT)
+L7005: • Designation ISNT 125 at 274 N/m
+L7006: Angle sections:
+L7007: • Indian standard equal angles, Indian standard unequal angles and Indian standa rd bulb angles
+L7008: • Designated by abbreviation ISA along with lengths of both legs a nd thickness.
+L7009: Eg: ISA 75x 75 x 6 mm
+
+
+L7012: ===== Page 212 / 947 =====
+L7013: GATE WALLAH CIVIL HANDBOOK
+L7014: Steel Structures
+L7015: 5.4
+L7016: 1.2. Introduction to Limit State
+L7017: 1.  Analysis and Design
+L7018: • Analysis refers to the determination of the axial forces, shear forces, bending moments, torsional moments etc acting
+L7019: on different members of a structure due to the applied loads and load combinations
+L7020: • Design involves the selection of shape and size of the member and connection details of various members (beam to
+L7021: beam, beam to column, column to foundation etc) to resist all forces and moments determined in the analysis safely
+L7022: and economically
+L7023: 2.  Design requirements of steel structure
+L7024: • To fit for their purpose (Should sustain all anticipate loads expected on it and Should withstand all deformations during
+L7025: and after construction)
+L7026: • Should be safe should be economical and durable
+L7027: 3. Uncertainties in design
+L7028: The uncertainties affecting the safety of a structure are due to
+L7029: • Uncertainty about loading (unfavorable deviation of the load from its characteristic value. Inaccurate assessment of
+L7030: the load, improper assessment of load effect etc)
+L7031: • Uncertainty about material strength (Unfavorable deviation of  material strength from its characteristic value)
+L7032: • Uncertainty about structural dimensions (variation membe r sizes) due to fabrication tolerances.
+L7033: • Uncertainty in the calculation of strength of the member
+L7034: 4. Limit States
+L7035: • Its  acceptable limit for the safety and serviceability requirement before failure occurs is called limit s tate.
+L7036: • Limit states are basically two categories, strength  and serviceability.
+L7037: • It is basically statistical method have been used for determination of load and material properties with small
+L7038: probability of structure reaching limit state of st rength and serviceability.
+L7039: 5.  Types of limit states
+L7040: Limit State of strength Serviceability Limit State
+L7041: • Strength (yield, buckling)
+L7042: • Stability against overturning and sway
+L7043: • Fracture due to fatigue
+L7044: • Plastic collapse
+L7045: • Brittle Fracture
+L7046: • Deflection
+L7047: • Vibration
+L7048: • Fatigue checks (including reparable
+L7049: damage due to fatigue)
+L7050: • Corrosion
+L7051: • Fire
+
+
+L7054: ===== Page 213 / 947 =====
+L7055: GATE WALLAH CIVIL HANDBOOK
+L7056: Steel Structures
+L7057: 5.5
+L7058: 6. Characteristic Strength or Resistance
+L7059: The characteristic resistance or strength of a material (such as steel) is defined as t hat value of resistance below which
+L7060: not more than a 5 percentage of test results may be expected to fall.
+L7061: 7. Characteristic Load
+L7062: The characteristic load is that value of the load, which has an accept ed probability (95 %) of not being exceeded
+L7063: during the life span of the structure.
+L7064: 8. The safety format used in Limit State Codes is based on probable maximum load and pr obable minimum
+L7065: strengths, so that a consistent level of safety is achieved.
+L7066: 9. The design requirements are expressed as follows:
+L7067: Design Action (S d) ≤ Design Strength (R d)
+L7068: S d =  Design value of internal forces and moments caused by the design Loads, Fd
+L7069: Fd = f x Characteristic Loads.
+L7070: f  =  a load factor which is determined on Probabilistic basis
+L7071: m  =  a material factor, which is also determined on a ‘probabilistic basis’ (uncertainties of element behavior and
+L7072: possible strength reduction due to manufacturing tolerances and imperfections in the material)
+L7073: 10. Partial safety factors (Load factors)
+L7074: Combination Limit State of Strength Limit state of Serviceability
+L7075: DL LL
+L7076: WU
+L7077: EL
+L7078: AL DL
+L7079: LL LL
+L7080: Leading
+L7081: Accompanying
+L7082: (CL, SL etc.)
+L7083: Leading
+L7084: Accompa-
+L7085: flying
+L7086: (CL etc.)
+L7087: DL+LL+CL 1.5 1.5 1.05 –  1.0 1.0 1.0 –
+L7088: DL+LL+CL+WL/EL
+L7089: 1.2
+L7090: 1.2
+L7091: 1.2
+L7092: 1.2
+L7093: 1.05
+L7094: 0.53
+L7095: 0.6
+L7096: 1.2
+L7097: –
+L7098: 1.0 0.8 0.8 0.8
+L7099: DL+WL/EL
+L7100: 1.5
+L7101: (0.9) .
+L7102: – – 1.5
+L7103: –
+L7104: 1.0
+L7105: – –
+L7106: 1.0
+L7107: DL+ER
+L7108: 1.2
+L7109: (0.9)
+L7110: 1.2
+L7111: – – – – – – –
+L7112: DL+LL+AL 1.0 0.35 0.35 - 1.0
+
+
+L7115: ===== Page 214 / 947 =====
+L7116: GATE WALLAH CIVIL HANDBOOK
+L7117: Steel Structures
+L7118: 5.6
+L7119: *This value is to be considered when stability against overturning or stress reversal is critical Abbreviations:
+L7120: DL= Dead Load, LL= Imposed Load (Live Loads),   WL= Wind Load,
+L7121: SL= Snow Load,  CL= Crane Load (Vertical /Horizontal),  AL= Accidental Load,
+L7122: ER= Erection Load EL= Earthquake Load.
+L7123: 11. Partial safety factors (Strength or resistance factors)
+L7124: SI. No. Definition Partial Safety Factor
+L7125: 1 Resistance, governed by yielding mo 1.10
+L7126: 2 Resistance of member to buckling mo 1.10
+L7127: 3 Resistance, governed by ultimate stress  ml  1.25
+L7128: 4   Resistance of connection ml
+L7129: (i) Bolts-Friction Type, mf
+L7130: (ii) Bolts-Bearing Type, mb
+L7131: (iii) Rivets, mr
+L7132: (iv) W e l d s ,  mw
+L7133: Shop Fabrications Field Fabrications
+L7134: 1.25
+L7135: 1.25
+L7136: 1.25
+L7137: 1.25
+L7138: 1.25
+L7139: 1.25
+L7140: 1.25
+L7141: 1.50
+
+L7143: 
+
+
+L7146: ===== Page 215 / 947 =====
+L7147: GATE WALLAH CIVIL HANDBOOK
+L7148: Design Against Static Load
+L7149: 5.7
+L7150: 2
+L7151: BOLTED CONNECTIONS
+
+L7153: 2.1. Introduction
+L7154: • A bolt may defined as metal pin with head at one end as shank threaded at other end to receive a nut. Steel washers are
+L7155: usually provided under bolt as well as under the nut to distribute the clamping pressure on the bolted member and to
+L7156: prevent the threaded portion of the bolt from bearing on the connected pieces.
+L7157: • Bolts can be used for making end connection in tension and compression members. They can also be used to hold
+L7158: column bases in position.
+
+L7160: 2.2. Classification of Bolted Connection
+L7161: The bolted connections are classified based on geometry and loading conditions into three types namely
+L7162: (a) Classification based on the type of resultant force transferred:
+L7163: • Concentric connections (force transfer in tension and Compression member),
+L7164: • Eccentric connections (in reaction transferring brackets) or moment resisting connections (in beam to column
+L7165: connections in frames).
+
+
+L7168: ===== Page 216 / 947 =====
+L7169: GATE WALLAH CIVIL HANDBOOK
+L7170: Steel Structures
+L7171: 5.8
+
+L7173: (b) Classification based on the type of force experienced by the bolts:
+L7174: • Shear connections
+L7175: • Tension connections and
+L7176: • Combined shear and tension Connections
+
+L7178: (c) Classification based on force transfer mechanism by bolts:
+L7179: • Bearing type (bolts bear against the holes to transfer the force)
+L7180: • Friction type (force transfer between the plates due to the clamping force generated by the pre-tensioning of the bolts).
+
+L7182: 2.3.  Types of Bolts
+L7183: They are several types of bolts used to connect structural members. Some of them are listed below:
+L7184: (a) Black Bolts or unfinished bolts
+L7185: • Black bolts are referred to as ordinary, rough or common bolts. They are least expensive bolts and are made of low
+L7186: carbon steels (mild steel) with square or hexagonal head. the diameter of the hole is about 1.5 to 2.0 mm larger than
+L7187: the bolt diameter for ease in fitting.
+L7188: • They are primarily used in light structures under static loads such as small trusses, purlins, bracings. They are also used
+L7189: as temporary fasteners during erection where HSFG bolts or welding are used as permanent fasteners.
+
+
+L7192: ===== Page 217 / 947 =====
+L7193: GATE WALLAH CIVIL HANDBOOK
+L7194: Steel Structures
+L7195: 5.9
+L7196: • These bolts are not recommended for connections subjected to impact load, vibration and fatigue.
+L7197: • For bolt of a property class 4.6 represents the ultimate tensile strength is 400 N/mm2 and yield strength is 0.6 times
+L7198: 400 which is 240 N/mm2.
+L7199: • Ordinary bolted joints, the force transfer through interlocking and bearing of bolts and joint is called bearing type joint.
+L7200: (b) High Strength Friction Grip (HSFG) Bolts.
+L7201: • High strength friction grip bolts are made from bars of medium carbon heat treated steel (high tensile steel). The bolt
+L7202: property class 10.9S and 12.9S are commonly used in steel connections.
+L7203: • The HSFG bolts are available in sizes from 16mm to 36mm and are designated as M16, M20, M24 and M30.
+L7204: • These bolts tightened (by torque wrenches) until they have very high tensile stresses, so that connected parts are
+L7205: clamped tightly together between the bolt head and nut, this permits load to be transferred
+L7206: • primarily by friction not by shear.
+L7207: • These bolts are most suitable for bridges where the stress reversal may occur or slippage is undesirable also for seismic
+L7208: loading and for fatigue load are ideal.
+L7209: • High strength bolts have replaced rivets and black bolts are being used in structures, high raised building, bridges etc
+L7210: 2.4. Types of bolted joints
+L7211: They are two types of bolted joints subjected to axial force (the loads are assumed to pass through the C.G of the group of
+L7212: bolts)
+L7213: (a) Lap joint
+L7214: • The two members to be connected are overlapped and connected together such a joint is called lap joint.
+L7215: • The load in a lap joint has eccentricity, as the centre of gravity of load in one member and centre of gravity of load in
+L7216: second member are not in a same line, therefore a couple formed which causes undesirable bending.
+
+L7218: (b) Butt joint
+L7219: • Two members to be connected placed end to end. Additional cover plate/plates are provided on either one or both sides,
+L7220: called cover plates are placed and connected to main plate.
+L7221: • If cover plate is provided on one side it is called single cover butt joint.
+L7222: • If cover plate is provided on both sides of main plate, it is called a double cover butt joint.
+L7223: • Double cover butt joint, eccentricity of a force doesn't exist and hence bending is eliminated, where as it exists in the
+L7224: case of lap joint.
+
+
+L7227: ===== Page 218 / 947 =====
+L7228: GATE WALLAH CIVIL HANDBOOK
+L7229: Steel Structures
+L7230: 5.10
+L7231: • The shear capacity of bolt in double cover butt joint is double that of a bolt in a lap joint.
+
+L7233: 2.5. Specifications of bolted joint
+L7234: (a) Diameter of bolt holes (d 0)
+L7235: d0  = Nominal diameter of bolt (d) + 1mm (for d = 12mm to 14mm)
+L7236: d0 = Nominal diameter of bolt (d) + 2mm (for d = 16mm to 24mm)
+L7237: d0  = Nominal diameter of bolt (d) + 3mm (for d  27 mm)
+L7238: (b) Pitch (P)
+L7239: It is distance between centers of two consecutive bolts measured along parallel to direction of force or stress in a member. For
+L7240: wide plates pitch may also defined as the centre to centre distance of bolts measured along the length of member or the
+L7241: connection. When bolts are placed staggered the pitch will be referred to as staggered pitch
+L7242: (i) Minimum pitch (P„,i.)
+L7243: 2.5 × Nominal diameter of bolt (2.5d)
+L7244: (ii) Maximum pitch (Pmax)
+L7245: ▪ 12t or 200mm whichever is less for compression member
+L7246: ▪ 16 t or 200mm whichever is less for tension member
+L7247: ▪ The distance between the centers of any two consecutive bolts should not exceed 32 t or 300mm whichever is
+L7248: less
+L7249: ▪ Maximum gauge should not more than 100 + 4t or 200 mm whichever is less
+L7250: ▪ 32t or 300mm whichever is less for tacking or stitch bolts (when plates are not exposed to weather)
+L7251: ▪ 16t or 200mm whichever is less for tacking or stitch bolts (when plates are exposed to weather)
+L7252: ▪ In case of two flats, angles, channels or tee section maximum pitch of tack bolts (In which tack or stitch bolts
+L7253: are to be provided along length to connect each of them)
+L7254: • Not exceeding 600mm for compression members
+L7255: • Not exceeding 1000mm for tension members.
+
+
+L7258: ===== Page 219 / 947 =====
+L7259: GATE WALLAH CIVIL HANDBOOK
+L7260: Steel Structures
+L7261: 5.11
+L7262: Gauge (g)
+L7263: It is distance between adjacent bolt lines, or it is centre to centre distance between two consecutive bolts measured along the
+L7264: width of member or connection
+L7265: End distance(e)
+L7266: It is the distance from centre of bolt hole to the nearest edge of member or cover plate in the direction of stress or force.
+L7267: Edge distance
+L7268: It is the distance from centre of bolt hole to the nearest edge of member or cover plate at right angle to the direction of stress.
+L7269: (i)  Minimum edge distance
+L7270: • Minimum edge distance  1.7 x diameter of hole for sheared or hand flame cut edges
+L7271: • Minimum edge distance 1.5 x hole diameter incase of rolled, machine flame cut edges
+L7272: (ii) Maximum edge distance
+L7273: • Maximum edge distance to nearest edge of bolt hole to an edge of un stiffened part should not exceed
+L7274: 25012 where wheretis
+L7275: y
+L7276: t f  =
+L7277: thickness of thinner outside plate
+L7278: • 40mm + 4t, where t is thickness of thinner outside plate (for corrosive Environments)
+L7279: 2.6.  Failure of Bolted Connections
+L7280: The failure of connections with bearing bolts in shear involves either bolt failure or the failure of the connected plates.
+L7281: • Shearing failure of bolt
+L7282: • Bearing failure of bolt
+L7283: • Tension failure of bolt
+L7284: • Bearing failure of plate
+L7285: • Tearing failure of plate
+L7286: • Block shear failure
+L7287: 2.7. Design strength of bearing type Bolts against Factored Shear Force
+L7288: a) Design shear strength of bolts (Vdsb)
+L7289: • A bolt subjected to a factored shear force
+L7290: wherensb
+L7291: dsb
+L7292: mb
+L7293: VV = 
+
+
+L7296: ===== Page 220 / 947 =====
+L7297: GATE WALLAH CIVIL HANDBOOK
+L7298: Steel Structures
+L7299: 5.12
+L7300: Vnsb = nominal shear capacity of a bolt and
+L7301: mb = 1.25
+L7302: ( )and
+L7303: 3
+L7304: ub
+L7305: nsb n nb s sb dsb
+L7306: fV b n A n A V=+ ()
+L7307: 3
+L7308: ub
+L7309: n nb s sb
+L7310: mb
+L7311: f n A n A=+
+L7312: 
+
+L7314: Where fub = ultimate tensile strength of the bolt
+L7315: nn  = number of shear planes with threads intercepting the shear plane
+L7316: n,  = number of shear planes without threads intercepting the shear plane
+L7317: Asb = nominal plain shank area of the bolt
+L7318: = d2/4
+L7319: Anb = net tensile area at threads, (area corresponding to root diameter at the thread  0.78 Asb)
+L7320: For bolts in single shear, either nn or ns, is one
+L7321: For bolts in double shear the sum of nn and ns, is two.
+L7322: The nominal shear capacity of bolt for long joint is lesser and modified as
+L7323: ( ) and
+L7324: 3
+L7325: ub
+L7326: nsb n nb s sb lj pkg
+L7327: fV n A n A= +  
+L7328: lg()
+L7329: 3
+L7330: ub
+L7331: dsb n nb s sb lj pkg
+L7332: mb
+L7333: fV n A n A= +   
+L7334: 
+
+L7336: lj  = reduction factor for long joints,
+L7337: In long joints, the distance between the first and the last bolt exceeding 15d in the direction of load, the nominal shear capacity
+L7338: Vnsb, shall be reduced by the factor, lj
+
+L7340: 1.075 (0.75 1.0)200
+L7341: i
+L7342: lj li
+L7343: l
+L7344: d =   
+L7345: lj is the length joints,
+L7346: lg is reduction factor for long grip lengths,
+L7347: When grip length of bolts increases (if the grip length exceeds five times the nominal diameter), the bolt subjected to greater
+L7348: bending moment due to shear force acting on its shank
+L7349: 8
+L7350: 3
+L7351: d
+L7352: lj
+L7353: gdl= +
+L7354: 1g = grip length (lg should not greater than 8d)
+L7355: pkg = reduction factor for packing plates
+L7356: When packing thickness is more than 6inm thick the shank of the bolts is subjected to bending which affects the nominal shear
+L7357: capacity of the bolt
+L7358: pkg = 1.0 – 0.0125 tpkg
+
+
+L7361: ===== Page 221 / 947 =====
+L7362: GATE WALLAH CIVIL HANDBOOK
+L7363: Steel Structures
+L7364: 5.13
+L7365: (b)  Design bearing strength of bolts and Plate (V dpb)
+L7366: A bolt bearing on any plate subjected to a factored shear force
+L7367: 1.25npd
+L7368: dpd mb
+L7369: mb
+L7370: VV Where=  =
+L7371: V dpb = bearing strength of a bolt,
+L7372: V dpb = 2.5kb d t fu
+L7373: Where,
+L7374: 00
+L7375: , –0.25 , 01.033
+L7376: ub
+L7377: b
+L7378: u
+L7379: fepk smaller of andd d f
+L7380: = 
+L7381: 
+
+L7383: do = diameter of the bolt hole
+L7384: e & p = end and pitch distances of the fastener respectively along bearing direction
+L7385: fub = ultimate tensile stress of the bolt
+L7386: fu = smaller of the ultimate tensile stress of the bolt and the ultimate tensile stress of the plate
+L7387: d = nominal diameter of the bolt in mm
+L7388: t = summation of the thicknesses of the connected plates experiencing bearing stress in the same direction.
+L7389: 2.5npb bu
+L7390: dpb
+L7391: mb mb
+L7392: V k d t fV == 
+L7393: (c) Design Tensile strength of bolts (Tdb)
+L7394: The nominal tensile capacity of bolt in tension is given by
+L7395: 0.9 mb
+L7396: nb ub nb yb sb
+L7397: mo
+L7398: T f A f A = 
+L7399: fub = ultimate tensile stress of the bolt
+L7400: fyb = yield stress of the bolt
+L7401: The bolt safe in tension if the factored tension force
+L7402: 1.25 1.10nb
+L7403: nb mb mo
+L7404: mb
+L7405: TT where and=  =  =
+L7406: 0.9 yd sbub nb
+L7407: nb
+L7408: mb mo
+L7409: fAfAT = 
+L7410: (d) Design bolt strength or Design bolt value (Vdb)
+L7411: It is least value of design strength of both in shear, design strength of both in bearing and design strength of bolt in
+L7412: tension (if exists).
+
+
+L7415: ===== Page 222 / 947 =====
+L7416: GATE WALLAH CIVIL HANDBOOK
+L7417: Steel Structures
+L7418: 5.14
+L7419: (f)  Design Tensile strength of plate (Tdp)
+
+
+L7422: The tensile strength of plate is given by
+L7423: Tensile strength of plate = 0.9 u
+L7424: dp n
+L7425: ml
+L7426: fTA = 
+L7427: Net area = An= (b-nd0)t for chain bolting
+L7428: (g) Design strength of a connection (V dc)
+L7429: The strength of a bolted connection is the minimum design strength based on strength of bolt in shear, in bearing, in tension
+L7430: (if exists) and minimum design strength of connected member against gross section yielding or net section rupture.
+L7431: Efficiency of the joint or percentage strength of joint ()
+L7432: Efficiency of the bolted joint () also called percentage strength of the joint is the ratio of design strength of joint to the
+L7433: design strength of main member expressed as percentage.
+L7434: 
+
+
+L7437: ===== Page 223 / 947 =====
+L7438: GATE WALLAH CIVIL HANDBOOK
+L7439: Design Against Static Load
+L7440: 5.15
+L7441: 3
+L7442: WELDED CONNECTIONS
+
+L7444: 3.1. Introduction
+L7445: 1. Welding and Welded connections
+L7446: • Welding is the process of joining two pieces of metal by creating a strong metallurgic bond between them by heating
+L7447: (fusion) or pressure or both. It is distinguished from other forms of mechanical connections, such as riveting or bolting,
+L7448: which are formed by friction or mechanical connections, such as riveting or bolting, which are formed by friction or
+L7449: mechanical interlocking.
+L7450: • For steel structures metal or electric welding is generally used.
+L7451: 2. Advantages and disadvantages of welded connections
+L7452: Welding offers many advantages over bolting and riveting.
+L7453: • Welding enables direct transfer of stress between members eliminating gusset and splice plates necessary for bolted
+L7454: structures. Hence, the weight of the joint is minimum.
+L7455: • In the case of tension members, the absence of holes improves the strength and efficiency of the section.
+L7456: • It involves less fabrication cost compared to other methods due to handling of fewer parts and elimination of operations
+L7457: like drilling, punching etc. and consequently less labour leading to economy.
+L7458: • Welding offers air tight and water tight joining and hence is ideal for oil storage tanks, ships etc.
+L7459: • Welded structures also have a neat appearance
+L7460: • Welded structures arc more rigid compared to structures with riveted and bolted connections.
+L7461: • A truly continuous structure is formed by the process of fusing the members together.
+L7462: • Generally welded joints are as strong or stronger than the base metal, thereby placing no restriction on the joints.
+L7463: • Stress concentration effect is also considerably less in a welded connection.
+L7464: • Some of the disadvantages of welding are that it requires skilled manpower for welding as well as inspection.
+L7465: • Also, non-destructive evaluation may have to be carried out to detect defects in welds.
+L7466: • Welding in the field may be difficult due to the location or environment. Welded joints are highly prone to cracking
+L7467: under fatigue loading.
+L7468: • Large residual stresses and distortion are developed in welded connections.
+
+
+L7471: ===== Page 224 / 947 =====
+L7472: GATE WALLAH CIVIL HANDBOOK
+L7473: Steel Structures
+L7474: 5.16
+L7475: 3. Types of welds
+L7476: (a) Butt or Groove weld
+L7477: (b) Fillet or lap weld
+L7478: (c) Slot weld
+L7479: (d) Plug weld etc
+
+L7481: 4. Design of Butt (Groove) weld
+L7482: (a) Types of butt weld
+L7483: Square butt weld, Single V butt weld, Double V butt weld, Double V butt weld, Single Bevel butt weld, Double bevel
+L7484: butt weld, Single U butt weld, Double U butt weld, Single J butt weld and Double J butt weld etc.
+
+L7486: (b) Size of but t weld  (te)
+L7487: • The size of butt weld is specified by throat dimension and also called effective throat thickness ( tc)
+L7488: • te = as 5/8th thickness of thinner member in case of single V, Single U and single bevel bat t joint (i.e for partially
+L7489: penetrated butt welds).
+
+
+L7492: ===== Page 225 / 947 =====
+L7493: GATE WALLAH CIVIL HANDBOOK
+L7494: Steel Structures
+L7495: 5.17
+L7496: • tc = Thickness of thinner member in case of Double V, Double U and Double bevel out joints (i.e for fully
+L7497: penetrated butt welds)
+L7498: (c) Effective Area
+L7499: • The effective area of butt weld is the product of effective throat thickness and the effective length of the butt
+L7500: weld.
+L7501: (d) Design strength of butt weld
+L7502: • Design axial strength of butt weld
+L7503: The design strength of butt weld in tension or compression is governed by yield
+L7504: Tdw =
+L7505: y w e
+L7506: mw
+L7507: f L t
+L7508: 
+L7509: f y = smaller of yield stress of the weld ( fyw) and parent metal (fy) in Mpa
+L7510: L w = Effective length of weld in mm
+L7511: t e = Effective throat thickness of weld in mm
+L7512: γmw = Partial safety factor [γmw = 1.25 for shop welding and
+L7513: γmw = 1.50 for site (field) welding]
+L7514: • Design shear strength of butt weld
+L7515: The design strength of butt weld in shear is governed by yield
+L7516: Vdw =
+L7517: 1yw w e
+L7518: mw
+L7519: f L t
+L7520: 
+L7521: f ywl =  smaller of shear stress of the weld ( ) /3ywf  and parent metal ( ) /3yf  in Mpa
+L7522: 5. Design of Fillet weld
+
+L7524: (a) Size of fillet weld (s):  it is minimum leg length of cross section of fillet weld (in it distance from root to the toe
+L7525: of the fillet weld)
+L7526: (b) Minimum size of fillet weld (s min)
+L7527: • The size of a fillet weld should not be less than 3 mm or more than the thickness of the thinner part joined
+
+
+L7530: ===== Page 226 / 947 =====
+L7531: GATE WALLAH CIVIL HANDBOOK
+L7532: Steel Structures
+L7533: 5.18
+L7534: Thickness of thicker part Minimum size of fillet weld s
+L7535: (mm) Over (mm) Up to and including (mm)
+L7536: – 10 3
+L7537: 10 20 5
+L7538: 20 32 6
+L7539: 32 50 8 (First run) & 10
+L7540: (c) Maximum size of fillet weld (s max)
+L7541: • fillet weld is provided to square edges, the weld size should be at least 1.5 mm less than the edge thickness (i.e
+L7542: Thickness of thinner member – 1.5 mm)
+L7543: • for the rounded toe of a rolled section, the weld size should not exceed ¾ thickness of the section at the toe
+L7544: (i.e. = 3/4th thickness of rolled section at toe)
+
+L7546: (d) Effective throat thickness (t t)
+L7547: • It is perpendicular distance from right angle corner of fillet weld to the hypotenuse.
+L7548: • Minimum throat thickness of fillet weld not less than 3 mm
+L7549: • Tt = K × Size of the weld (K = constant depends on angle between fusion faces
+L7550: • Fillet welds are normally used for connecting parts whose fusion faces form angles between 60° and 120°.
+L7551: Angle between
+L7552: fusion faces α
+L7553: 60° – 90° 91° – 100° 101° – 106° 107° – 113° 114° – 120°
+L7554: Constant K 0.70 0.65 0.60 0.55 0.50
+L7555: (e) Effective length of fillet weld (L w)
+L7556: • It is actual length shown on the drawing
+L7557: • Lw = Overall length of weld (L) – 2 × size of fillet weld (2s)
+L7558: • Minimum effective length not less than four times size of weld (4 × s) or 40 mm whichever is higher
+L7559: (f) End Return
+L7560: • The fillet weld terminating at the end or side of the member should be returned around the corner when over
+L7561: practicable for a distance not less than twice the weld size as shown in figure
+
+
+L7564: ===== Page 227 / 947 =====
+L7565: GATE WALLAH CIVIL HANDBOOK
+L7566: Steel Structures
+L7567: 5.19
+
+L7569: • End returns are made twice the size of the weld to relive the high stress concentration at the ends
+L7570: • End returns must be provided for welded joints, which are subjected to eccentricity, stress reversals or impact
+L7571: loads. This particularly important on tension end of parts carrying bending loads
+L7572: (g) Overlap
+L7573: • The overlap of plates to be welded in lap joint should not less than four times thickness of thinner member (4t)
+L7574: or 40 mm whichever is more.
+
+L7576: (h) Intermediate fillet weld
+L7577: Intermediate fillet weld: when length of fillet weld required transmitting a force less than the continuous fillet weld
+L7578: (where t is thickness of thinner plate)
+L7579: • Clear spacing between intermediate filler weld should not more than
+L7580: • 12t or 200 mm whichever is less for compression member
+L7581: • 16t or 200 mm whichever is less for tension member
+L7582: (i) Design strength of fillet weld (Pdw)
+L7583: The design shear of fillet weld f wd = fwn/γmw, fwn = Nominal shear strength of fillet weld = fu/√3
+L7584: The design strength of a fillet weld (based on the throat area)
+L7585: Pdw =
+L7586: ( . )
+L7587: 33
+L7588: =w t u w u
+L7589: mw mw
+L7590: L t f L K s f
+L7591: L w = Effective length of fillet weld in mm
+L7592: t t = (K s) Effective throat thickness in mm
+L7593: s = size of weld in mm
+L7594: f u = Smaller of ultimate strength of weld and parent metal in Mpa
+L7595: γmw  = Partial safety factor
+L7596: [γmw = 1.25 for shop welding and γmw = 1.50 for site (field) welding]
+L7597: (j) Reduction factor for long Joint (Blw)
+L7598: • If the maximum length lf of the side welds transferring shear along its length exceeds 150 times the throat size
+L7599: of the weld, tt, the reduction in weld strength as per the long joint.
+
+
+L7602: ===== Page 228 / 947 =====
+L7603: GATE WALLAH CIVIL HANDBOOK
+L7604: Steel Structures
+L7605: 5.20
+L7606: • The design capacity of weld (fwd) reduced by a factor 0.21.2 1.0150 = − 
+L7607: j
+L7608: lw
+L7609: t
+L7610: l
+L7611: t
+L7612: lj = Length of joint in the direction of force transfer
+L7613: tt = throat size of the weld
+L7614: (k) Design of Plug (or) slot Welds
+L7615: • Plug and slot welds are used most often to tie two parts together and in particular to reduce the unsupported
+L7616: dimensions of cover plates in compression. There may also be used for shear transmission.
+L7617: • Plug and slot welds are used along with fillet weld, when sufficient welding length is not available along the
+L7618: edges of the members.
+L7619: • A slot is cut in one of overlapping members and having welding metal is filled in slot if the slot is small and
+L7620: completely filled with weld metal. It is known as plug weld
+L7621: • The following specifications are for design of plug on slot weld as per IS 816 — 1969.
+
+L7623: (a) The width and diameter of slot should not be less than three times the thickness of part which slot is formed
+L7624: or 25 mm which ever is greater.
+L7625: (b) Corner at enclosed ends should be rounded with a radius not less than 1.5 times the thickness of upper
+L7626: plate or 12 mm which ever is greater.
+L7627: (c) The distance between the edges of the plates and slot between edges of adjacent slot should not be less
+L7628: than twice the thickness of the upper plate.
+L7629: 
+
+
+L7632: ===== Page 229 / 947 =====
+L7633: GATE WALLAH CIVIL HANDBOOK
+L7634: Design Against Static Load
+L7635: 5.21
+L7636: 4
+L7637: ECCENTRIC
+L7638: CONNECTIONS
+
+L7640: 4.1. Eccentric Bolted Connection
+L7641: (1) Introduction
+L7642: Connections become complex when they have to transmit axial and shear forces in addition to bending moments or twisting
+L7643: moments, between structural members oriented in different directions.
+L7644: (2) Concentric load
+L7645: A load is said to be concentric load, when its line of action passes through centre of gravity of bolt group or rivet group
+L7646: or weld group
+L7647: (3) Eccentric load
+L7648: A load is called eccentric load when its line of action does not pass through centre of gravity of bolt or rivet or weld
+L7649: group. Because of eccentricity additional moment is induced in the joint.
+L7650: (4) Beam to Column Connections
+L7651: Beam to column connections can be classified as simple, semi-rigid and rigid depending on the amount of moment
+L7652: transfer taking place between the beam to the column.
+L7653: • Simple connections are assumed to transfer only shear at some nominal eccentricity. Therefore such connections can
+L7654: be used only in non-sway frames where the lateral loads are resisted by some alternative arrangement such as bracings
+L7655: or shear walls.
+L7656: • Rigid connections transfer significant moments
+L7657: to the columns and are assumed to undergo
+L7658: negligible deformations. Rigid connections are
+L7659: necessary in sway frames for stability and also
+L7660: contribute in resisting lateral loads.
+L7661: • A third type connection which resists end
+L7662: moments as well as permits relative rotation
+L7663: between the beam and column. The moment
+L7664: rotation relationship for different types of connection are shown in figure.
+
+
+L7667: ===== Page 230 / 947 =====
+L7668: GATE WALLAH CIVIL HANDBOOK
+L7669: Steel Structures
+L7670: 5.22
+L7671: (5) Analysis of Bolt Groups
+L7672: In general, any group of bolts resisting a moment can be classified into either of two cases depending on whether the
+L7673: moment is acting in the shear plane (Bracket type connection-I) or in a plane perpendicular (Bracket type connection –
+L7674: II) to it.
+L7675: (6) Bracket Type Connection-I (Elastic Analysis)
+
+L7677: (a) Load or moment is lying in the plane of Bolt group
+
+L7679: The eccentric load P may be replaced by concentric load and in plane moment (Twisting Moment) (P x e) acting on the
+L7680: joint.
+L7681: Bolts are subject to direct concentric factored load (P) and twisting moment (M = p x e).
+L7682: Direct vertical shear force in each bolt due to Direct axial load
+L7683: /af P n=  (n – Number of bolts in connection)
+L7684: Force in each bolt due to moment (M = P.e)
+
+L7686: 2/mF Per r= 
+L7687: n = Number of bols/rivets in a connection
+L7688: P = Eccentricity of a load
+L7689: r = Radial distance of bolt from C.G of bolt group
+L7690: 2 2 2r x y=+  
+L7691: The resultant of F a and Fm act on the bolt is FR and  is angle between Fa and Fm, the resultant force FR
+
+L7693: 22 2 cosR a m a mF F F F F= + + 
+L7694: • Critical bolt is that which is subjected to the maximum resultant force. Critical bolt which is farthest from C.G of the
+L7695: bolt group and nearest to the applied load line is most critical.
+L7696: • For safety of connection FR  ≤  design strength of the bolt (Vdb).
+L7697: • For design of joint approximate number of bolts in each vertical line
+L7698: 1 6
+L7699: db
+L7700: Mn mpV=
+L7701: N1 – Number of bolts required per each vertical line
+L7702: m – Number of lines in vertical
+L7703: p – Pitch of the bolt
+L7704: V db – design strength of the bolt.
+
+
+L7707: ===== Page 231 / 947 =====
+L7708: GATE WALLAH CIVIL HANDBOOK
+L7709: Steel Structures
+L7710: 5.23
+L7711: (b) Load or moment is not lying in the plane of Bolt group
+
+L7713: • The eccentric load P may be replaced by concentric load and moment ( )Pe  acting on the joint.
+L7714: • Bolts are subjected to Direct concentric factored load ( )P  and a bending moment (M=  P e)
+L7715: • Bolts are subjected to direct shear along with Tension due to moment
+L7716: Vertical shear force in each bolt due to
+L7717: Direct axial load
+L7718: bV P/ n=
+L7719: ( n  - Number of bolts in connection)
+L7720: Tensile force in any th i  bolt due to moment
+
+L7722: 1
+L7723: i
+L7724: bi 2
+L7725: t
+L7726: MyT  y= 
+
+L7728: Moment of resistance provide by bolt in tension 1M
+L7729: 1
+L7730: 221 21
+L7731: ii
+L7732: MM h yy
+L7733: = +
+L7734: 
+
+L7736: Tensile force in the extreme critical bolt
+
+L7738: 1
+L7739: 2
+L7740: n
+L7741: b
+L7742: i
+L7743: MyT y= 
+
+L7745: n  - Number of bolts in connection
+L7746: e  - Eccentricity of load
+L7747: h  - Height of bracket
+L7748: 1 2 ny , y , , y  - Distance of each bolts in tension from the axis of rotation
+L7749: • For safety of connection is checked in combined shear and tension by using interaction equation
+
+L7751: 22
+L7752: b
+L7753: db db
+L7754: vT 1.0vT
+L7755: b   +   
+L7756:    
+
+
+L7759: ===== Page 232 / 947 =====
+L7760: GATE WALLAH CIVIL HANDBOOK
+L7761: Steel Structures
+L7762: 5.24
+L7763: bV =  Factored shear force on bolt,
+L7764: dbV =  Design shear capacity
+L7765: bT = Factored Tensile force on bolt,
+L7766: dbV =  Design Tension capacity
+L7767: • For design of connection approximate no of bolts in each vertical line 1 6
+L7768: db
+L7769: Mn mpV=  m  - No of bolt lines in vertical
+L7770: p- Pitch of bolt
+L7771: dbV − Design strength of bolt
+L7772: 4.2. Eccentric Welded Connections
+L7773: (a) Bracket Type Connection – I (Fillet Weld) Load or moment is lying in the plane of fillet weld group
+
+L7775: Weld is subjected to Direct concentric load ( )P  and a twisting moment ( )M P e=
+L7776: Direct vertical shear stress in the weld
+L7777: ( )1 /2 tq P d b t=+
+L7778: d  - Depth of the bracket
+L7779: tt  - Effective throat thickness of fillet weld Ks−
+L7780: Maximum shear stress in weld at due to twisting moment (P.e)
+
+L7782: 2 max pq Per / I= .
+L7783: pI − Polar moment of inertia xx yyII−+
+L7784: P-Factored load
+L7785: e-Eccentricity of the load
+L7786: r  - Radial distance of weld from C.G of weld group
+
+
+L7789: ===== Page 233 / 947 =====
+L7790: GATE WALLAH CIVIL HANDBOOK
+L7791: Steel Structures
+L7792: 5.25
+L7793: The resultant stress of 1q  and 2q  act in the weld is Rq  and   is angle between 1q  and 2q , the resultant force Rq
+L7794: 22
+L7795: 1 2 1 2 2 cosRq q q q q= + + 
+L7796: For safety of connection the resultant shear stress ( ) maxRq   Design shear strength of weld ( ) /3wd u mwff = 
+L7797: (b) Bracket Type Connection – II (Fillet Weld)
+L7798: Load or moment is not lying in the plane of fillet weld group
+
+L7800: Weld is subjected to Direct concentric load (p) and a twisting (M =  P × e)
+L7801: Direct vertical shear stress in the weld
+L7802: q1cal = P/2d tt
+L7803: d – Depth of the bracket
+L7804: tt = Effective throat thickness of weld (K s)
+L7805: Bending stress in weld due to moment
+L7806: (M = P, e)
+L7807: Q2cal = P e (d/2) / [2 (tt d3/12)]
+L7808: e – Eccentricity of the load
+L7809: d – Depth of the bracket
+L7810: • The combined stress of q1cal and q2cal act on the fillet weld is fe
+
+L7812: 22
+L7813: 12 3
+L7814: u
+L7815: e cal cal
+L7816: mw
+L7817: ff q q= + 
+L7818: 
+
+L7820: • For safety of connection the resultant shear stress (fe)Max ≤ Design shear capacity of weld (fwd = fu/3 mw)
+L7821: e
+L7822: Bracket plate
+L7823: I -  column Section
+L7824: P
+L7825: d
+
+
+L7828: ===== Page 234 / 947 =====
+L7829: GATE WALLAH CIVIL HANDBOOK
+L7830: Steel Structures
+L7831: 5.26
+L7832: (c)   Load or moment is not lying in the plane of butt weld group
+
+L7834: Direct vertical shear stress in the weld
+L7835: qcal = P/d te
+L7836: d – Depth of the bracket
+L7837: te – Effective throat thickness of butt weld Bending stress in weld due to moment (P.e)
+L7838: fcal = P e (d/2) / [(ted3/12)]
+L7839: e – Eccentricity of the load
+L7840: d – Depth of the bracket
+L7841: The combined stress of fcal and qcal act on the butt weld is fe
+L7842: 22 3e cal calf f q=+
+L7843: The combined bending and shear stress in the butt weld may be checked by the interaction formula
+L7844: 22
+L7845: 0
+L7846: 3 y
+L7847: e cal cal
+L7848: m
+L7849: ff f q= +  
+L7850: 
+L7851: e
+L7852: Bracket plate
+L7853: I -  column Section
+L7854: P
+L7855: d
+
+
+L7858: ===== Page 235 / 947 =====
+L7859: GATE WALLAH CIVIL HANDBOOK
+L7860: Design Against Static Load
+L7861: 5.27
+L7862: 5
+L7863: TENSION MEMBERS
+
+L7865: 5.1. Introduction
+L7866: Tension members are linear members in which axial forces act so as to elongate (stretch) the member. A rope, for example, is
+L7867: a tension member. Tension members carry loads most efficiently, since the entire cross section is subjected to uniform stress .
+L7868: Unlike compression members, they do not fail by buckling. Ties of trusses, suspenders of cable stayed and suspension bridges,
+L7869: suspenders of buildings systems hung from a central core (such buildings are used in earthquake prone zones as a way of
+L7870: minimising inertia forces on the structure), and sag rods of roof purlins are other examples of tension members.
+L7871: Tension members are also encountered as bracings used for the lateral load resistance. In X type bracings the member which is
+L7872: under tension, due to lateral load acting in one direction, undergoes compressive force, when the direction of the lateral load is
+L7873: changed and vice versa. Hence, such members may have to be designed to resist tensile and compressive forces.
+
+
+L7876: 5.2. Types of Cross-sections
+L7877: The tension members can have a variety of cross sections. The single angle and double angle sections are used in light roof
+L7878: trusses as in industrial buildings. The tension members in bridge trusses are made of channels or I sections, acting individually
+L7879: or built-up. The circular rods are used in bracings designed to resist loads in tension only. They buckle at very low compression
+L7880: and are not considered effective. Steel wire ropes are used as suspenders in the cable suspended bridges and as main stays in
+L7881: the cable-stayed bridges.
+
+
+L7884: ===== Page 236 / 947 =====
+L7885: GATE WALLAH CIVIL HANDBOOK
+L7886: Steel Structures
+L7887: 5.28
+
+L7889: 5.3. Net Sectional Area (AD)
+L7890: An = Ag - Sectional area of holes
+L7891: (a) Plate with chain Bolting
+
+L7893: Net sectional area of plate with chain bolting along a-b-c-d-e
+L7894: A n =(B – ndo} for chain bolting
+L7895: (b) Plate with staggered(Zig-Zag) Bolting
+
+L7897: Net sectional area of plate with staggered bolting along a-b-c-d-e A =
+L7898: 22
+L7899: 12
+L7900: 0
+L7901: 12
+L7902: PPB nd t 4g 4g
+L7903: = − + +
+L7904: 
+L7905: for staggered bolting
+L7906: A g = Gross sectional area of plate
+L7907: A n = Net sectional area of plate
+L7908: B = Widtb of plate
+L7909: n = Number of bolts
+L7910: d o = Diameter of bolt hole
+L7911: t = Thickness of plate
+
+
+L7914: ===== Page 237 / 947 =====
+L7915: GATE WALLAH CIVIL HANDBOOK
+L7916: Steel Structures
+L7917: 5.29
+L7918: 5.4. Types of failures in tension member
+L7919: (a) Gross section yielding (Limit state of yielding in the gross section)
+L7920: (b) Net section rupture (Limit state of fracture or rupture)
+L7921: (c) Block shear failure
+L7922: 5.5. Design strength of tension member (T d)
+L7923: (a) Design tensile strength based on gross section yielding (T dg)
+L7924: factored design tension (T) < A g fy
+L7925: Design tension strength
+L7926: T dg = T/mo = Ag fy/mo
+L7927: (b) Design tensile strength based on net section ruptnre (T dn)
+L7928: ( i) A Tension member connected to other member or gusset plate by bolt or weld Factored design tension (T) < A n fu
+L7929: Design tension strength
+L7930: T dn = T/mo = 0.9 An fu /m1)
+L7931: ( ii) A tearing strength of an angle section connected through one leg
+L7932: Design tension strength
+L7933: T dn =
+L7934: go unc u
+L7935: m mo1
+L7936: AfAf0.9 +
+L7937:  = 1.4 – 0.076 (w/t) (fy/fu) (b/Lc)
+L7938:  = ( )u mo y m1f · / f · and 0.7   
+L7939: A n = Net area of total cross section
+L7940: A nc = Net area of connected leg
+L7941: A g = Gross area of the outstanding leg
+L7942: t = Thickness of the angle leg
+L7943: Lc = Length of end connection (Distance between the outermost bolt in the joint along the length or length of weld along
+L7944: load direction
+
+
+L7947: ===== Page 238 / 947 =====
+L7948: GATE WALLAH CIVIL HANDBOOK
+L7949: Steel Structures
+L7950: 5.30
+L7951: Note:
+L7952: • Above equation is valid for double angles, channels, I-sections and other rolled sections connected one or more
+L7953: elements to an end gusset.
+L7954: • For preliminary design of tension member IS800 code recommends following formula for design tearing strength
+L7955: of net section
+
+L7957: T dn =
+L7958: nu
+L7959: m1
+L7960: Af 
+L7961: a = 0.6 for one or two bolts (n   S 2)
+L7962: = 0.7 for three bolts (n = 3)
+L7963: = 0.8 for four or more bolts (n  3)
+L7964: = 0.8 for weld lengths
+L7965: (c) Design tensile strength based block shear (the block shear strength at end connection) (T db)
+L7966: ➢ For plates
+L7967: ( i) For shear yield and tension fracture
+L7968: T db1 = vg y tn u
+L7969: m1m0
+L7970: Af Af0.9
+L7971: 3
+L7972: + 
+
+L7974: ( ii) For shear fracture and tension yield
+L7975: T = tg y vn u
+L7976: m0 m1
+L7977: Af Af0.9
+L7978: 3
+L7979: + 
+
+
+L7982: where. A vg and A vn = minimum gross and net area in shear along a line of transmitted force, respectively, and A tg and
+L7983: Atn = minimum gross and net area in tension from the hole to the toe of the angle, perpendicular to the line of force,
+L7984: respectively.
+L7985: 5.6. Design of Axially loaded Tension member
+L7986: • In the design of a tension member, the design tensile force is given and the type of member and the size of the member
+L7987: have to be arrived at the type of member is usually dictated by the location where the member is used. In the case of
+L7988: roof trusses, for example, angles or pipes are commonly used. Depending upon the span of the truss, the location of the
+L7989: member in the truss and the force in the member either single angle or double angles may be used in roof trusses. Single
+L7990: angle is common in the web members of a roof truss and the double angles are common in rafter and tie members of a
+L7991: roof truss. Built-up members made of angles, channels and plates are used as heavy tension members, encountered in
+L7992: bridge trusses.
+
+
+L7995: ===== Page 239 / 947 =====
+L7996: GATE WALLAH CIVIL HANDBOOK
+L7997: Steel Structures
+L7998: 5.31
+L7999: • The design process is iterative, involving choice of a trial section and analysis of its capacity.
+L8000: • The net area required An to carry the factored design load T is n
+L8001: uu
+L8002: m1 m1
+L8003: TTA or 0.9f f= 
+L8004: 
+
+L8006: • The net area increased by 25% – 40% to compute the gross cross sectional area calculated by Ag
+L8007: • Gross area is also determined from its yield strength by Ag = g
+L8008: y
+L8009: m0
+L8010: TA f=
+L8011: 
+L8012: .
+L8013: • Select a suitable rolled steel section to match with computed gross area.
+L8014: • The number of bolts required to make the connection is calculated. These are arranged in a suitable pattern.
+L8015: • The design tensile strength of trail section is calculated by considering
+L8016: ➢ Strength in yielding of gross cross section
+L8017: ➢ Strength in rapture of critical section and
+L8018: ➢ Strength in block shear
+L8019: • The design strength Td should be greater than factored design load
+L8020: • The slenderness ratio of the member is checked as per IS 800.
+L8021: 5.7. Maximum or Limiting slenderness ratio (Stiffness Requirement)
+L8022: • The tension members, in addition to meeting the design strength requirement, frequently have to be checked for
+L8023: adequate stiffness. This is done to ensure that the member does not sag too much during service due to self-weight or
+L8024: the eccentricity of end plate connections.
+L8025: • Limitations on the slenderness ratio of members subjected to tension as per IS: 800
+L8026: (a) A tension member in which reversal of direct stress due to other than wind seismic loading l/r  180.
+L8027: (b) A member normally acting as a tie in roof truss or a bracing system but subjected to possible of reversal of
+L8028: stresses resulting from action of wind or earth quake forces l/r  350.
+L8029: (c) For any other tension members l/r  400
+L8030: Tension Splice
+L8031: • It is a joint for a tension member, tension splice is provided when Length of member required is lesser than available
+L8032: length from Indian rolling mills or factory or when two lengths of a tension member have different thickness (or cross
+L8033: section) are to be connected with filler plate
+L8034: • Tension splices are provided on both sides of member joined in the form of cover plates.
+
+
+L8037: ===== Page 240 / 947 =====
+L8038: GATE WALLAH CIVIL HANDBOOK
+L8039: Steel Structures
+L8040: 5.32
+L8041: • The strength of the splice plates and bolts/weld connecting them should have strength at least equal to design load
+L8042: • The design shear capacity of bolt carrying shear through packing plate in excess of 6mm shall be decreased by a factor
+L8043: pkg
+L8044: pkg = 1.0 – 0.0125 tpkg
+L8045: (where tpkg = thickness of thicker packing plate)
+L8046: 5.8. Lug Angle
+L8047: In order to increase the efficiency of the outstanding leg in single angles and to decrease the length of the end connections,
+L8048: sometimes a short length angle at the ends are connected to the gusset and the outstanding leg of the main angle directly,. Such
+L8049: angles are referred to as lug angles.
+L8050: • Lug angle is short length of an angle (or channel) used at a joint to reduce the length of connection of heavily loaded
+L8051: • tension member.
+L8052: • By using lug angle there will be saving in gusset plate, but additional fosterers and angle member required, hence now
+L8053: days it is not preferred IS 800:2007 specifications for lug angle are
+L8054: • The effective connection of lug angle shall as far as possible at the end of the connection
+L8055: • The connection of lug angle to main member shall preferably start in advance of the member to gusset plate
+L8056: • Minimum of two bolts or equivalent weld be used for attaching lug angle to gusset. If the main member is an angle
+L8057: • The whole area of the member shall be taken as effective section rather than net effective section (whole area of the
+L8058: member is gross area less deduction for bolt holes)
+L8059: • The strength of lug angle and fasteners connection to gusset plate or any other attachment should be at least 20% (10
+L8060: %, if main member is channel) more than the force in outstanding leg.
+L8061: • The strength of fasteners connection lug angle to main member shall be at least 40 % more than force carried by the
+L8062: • outstanding leg (20 %, if main member is channel)
+
+L8064: 
+
+
+L8067: ===== Page 241 / 947 =====
+L8068: GATE WALLAH CIVIL HANDBOOK
+L8069: Design Against Static Load
+L8070: 5.33
+L8071: 6
+L8072: COMPRESSION
+L8073: MEMBERS
+
+L8075: 6.1. Introduction
+L8076: • A compression member is a structural member which is subjected to two equal opposite compressive forces applied at its
+L8077: ends. There are may types of compression members, the column being the best known. Top chords of trusses, bracing
+L8078: members, boom is another principle compression member in a crane and compression flanges of built up beams and
+L8079: rolled beams are all examples of compression elements. Columns are usually though of a as straight vertical members
+L8080: whose lengths are considerably greater than their cross-sectional dimensions.
+L8081: • An initially straight strut or column, compressed by gradually increasing equal and opposite axial forces at the ends is
+L8082: considered first. Columns and struts are termed “long” or “short” depending on their proneness to buckling. If the strut is
+L8083: “short”, the applied forces will cause a compressive strain, which results in the shortening of the strut in the direction of
+L8084: the applied forces. Under incremental loading, this shortening continues until the column "squashes". However, if the
+L8085: strut is “long” , similar axial shortening is observed only at the initial stages of incremental loading. Therefore, as the
+L8086: applied forc es are increased in magnitude, the strut becomes “ unstable” and develops a deformation in a direction
+L8087: normal to the loading axis. The strut is in a “buckled” state.
+L8088: • Bucking (mainly in members subjected to compressive forces) behaviour is thus characterized by deformations
+L8089: developed in a direction (or plane) normal to that of the loading that produces it.
+L8090: 6.2. General failures in axially loaded columns
+L8091: • Very short columns subjected to axial compression fail by yielding or crushing.
+L8092: • Very long columns fail by elastic buckling in the Euler mode.
+L8093: • Intermediate columns generally fail by inelastic buckling.
+L8094: 6.3. Design Compressive strength (P d) of a member
+L8095: Slenderness ratio (KL/r) and material yield stress ( fy ) are dominant factors affecting the ultimate strengths of axially loaded
+L8096: columns.
+L8097: P d = Ae fcd
+L8098: Where   A e = Effective Sectional area.
+L8099: fcd = Desing stress in compression.
+
+
+L8102: ===== Page 242 / 947 =====
+L8103: GATE WALLAH CIVIL HANDBOOK 5.34
+L8104: Steel Structures
+
+
+L8107: • Code also recommends following equation for estimating design axial compressive stress (f cd) of axially loaded
+L8108: compression member, it considers the residual stress, initial imperfection and eccentricity of load
+
+L8110: y
+L8111: yymo
+L8112: cd 0.522 mo mo
+L8113: f
+L8114: fff = =    +  − 
+
+L8116: 20.5 1 ( 0.2) = +   − + 
+L8117:  = Non dimensional effective slenderness ratio =
+L8118: 2
+L8119: y 2
+L8120: y
+L8121: cc
+L8122: f KLf / Efr
+L8123: = 
+L8124: 
+
+L8126: fcc = Elastic critical stress =
+L8127: 2
+L8128: 2 KLE/ r
+L8129:  
+L8130: 
+
+L8132: KL/r = Effective slenderness ratio
+L8133:  = Imperfection factor
+L8134: Buckling class a b c d
+L8135:  0.21 0.34 0.49 0.76
+L8136: Stress reduction factor account for residual stresses =
+
+L8138: 2 2 0.5
+L8139: 1=  +  − 
+
+L8141: ___ = Partial safety factor for material strength.
+L8142: 6.4. Effective length of Columns (KL)
+L8143: The effective length KL, is calculated from the actual length (L) of the member, considering the rotational and relative
+L8144: translational boundary conditions at the ends.
+
+
+L8147: ===== Page 243 / 947 =====
+L8148: GATE WALLAH CIVIL HANDBOOK 5.35
+L8149: Steel Structures
+L8150: Boundary Conditions Schematic
+L8151: representation
+L8152: Effective length
+L8153: At one end At the other end
+L8154: Translation Rotation Translation Rotation
+L8155: Restrained Restrained Free Free
+L8156: 2.0 L
+L8157: Free Restrained Restrained Free
+
+L8159: Restrained Free Restrained Free
+
+L8161: 1.0 L
+L8162: Restrained Restrained Free Restrained
+
+L8164: 1.2 L
+L8165: Restrained Restrained Restrained Free
+
+L8167: 0.8 L
+L8168: Restrained Restrained Restrained Restrained
+
+L8170: 0.65 L
+L8171: L is the unsupported length of the compression member
+
+
+L8174: ===== Page 244 / 947 =====
+L8175: GATE WALLAH CIVIL HANDBOOK 5.36
+L8176: Steel Structures
+L8177: 6.5. Effective length for angle struts
+L8178: Type Section Effective length
+L8179: In plane of gusset Perpendicular to gusset
+L8180: Continuous angles (top or
+L8181: bottom chord of trusses)
+L8182: Single angle or double angle
+L8183: 0.7 L to 1.0 L 1.0 L
+L8184: Discontinuous angles
+L8185: Single angle connected with
+L8186: one bolt
+L8187: 0.85 L 1.0 L Single angle connected with
+L8188: more than one bolt are
+L8189: equivalent weld
+L8190: Discontinuous angles
+L8191: Double angles placed on either
+L8192: side of the gusset plate
+L8193: 0.70 L to 0.85 L 1.0 L
+L8194: Double angles placed on same
+L8195: side of the gusset plate
+L8196: 6.6. Buckling Class of Cross Sections
+L8197: Cross Section Limits Bucking about axis Bucking Class
+L8198: Rolled I-Section
+
+L8200: h/bf > 1.2 = tf ≤ 40 mm
+L8201: 40 mm < tf ≤100 mm
+L8202: z-z
+L8203: y-y
+L8204: z-z
+L8205: y-y
+L8206: a
+L8207: b
+L8208: b
+L8209: c
+L8210: h/bf ≤ 1.2 :
+L8211: tf ≤ 100 mm
+L8212: tf > 100 mm
+L8213: z-z
+L8214: y-y
+L8215: z-z
+L8216: y-y
+
+L8218: b
+L8219: c
+L8220: d
+L8221: d
+L8222: Welded I-Section
+
+L8224: tf ≤ 40 mm
+L8225: tf > 40 mm
+L8226: z-z
+L8227: y-y
+L8228: z-z
+L8229: y-y
+
+L8231: b
+L8232: c
+L8233: c
+L8234: d
+L8235: Hollow Section Hot rolled Any a
+L8236: Channel, Angle, T and Solid Sections Any c
+L8237: Built-up Member Any c
+
+
+L8240: ===== Page 245 / 947 =====
+L8241: GATE WALLAH CIVIL HANDBOOK 5.37
+L8242: Steel Structures
+L8243: 6.7. Design of Compression Member
+L8244: • Desing stress in compression (fcd) in the member is to be assumed.
+L8245: • For angles struts fcd = 90 N/mm2
+L8246: • For rolled steel beam sections fcd = 135 N/mm2
+L8247: • Column with heavy factored load fcd = 200 N/mm2
+L8248: • Effective cross sectional area required for factored load Pd; Ac = Pd/fcd
+L8249: • Select a suitable section to give effective area required and calculate minimum radius of gyration (r min) for selected
+L8250: section
+L8251: • The effective length of the column is calculated based on end conditions and the slenderness ratio is computed
+L8252: (KL/rmin), which should be less than permissible slenderness ratio.
+L8253: • For the estimated slenderness ratio, the design compressive stress fcd and design compressive strength of section Pd
+L8254: which should be higher than factored load. If not repeat above steps.
+L8255: 6.8. Maximum Slenderness Ratio (Stiffness Requirement)
+L8256: The IS: 800 impose the following limitations on the slenderness ratio of members subjected to compression.
+L8257: (a) A member carrying compressive loads from dead and imposed loads l/r ≤ 180.
+L8258: (b) A member subjected to compressive forces resulting only from combination with wind/earth quake actions l/r≤ 250.
+L8259: (c) Compression flange of a beam restrained against torsional buckling l/r ≤ 300.
+L8260: 6.9. Built up Columns
+L8261: (a) Used when rolled steel sections do not provide required section and ara or large radius of gyration of column section is
+L8262: required to different directions built up section.
+L8263: (b) It usually provided either lacing or batten system for built up columm.
+L8264: 6.10.  Lacing and Battening for built up Compression Members.
+L8265: (a) The different components of built up section are placed in such a way that the built up section has same radius of
+L8266: gyration about both axes. (i.e. rzz = ryy)
+L8267: (b) The different components of built up sections are connected together so that they act as a single column.
+L8268: (c) Lacing and battening systems are used to connect the members.
+L8269: (d) Lacing is generally preferred in case of eccentric loads. For axially loaded members, battening is preferred.
+L8270: 6.11. Lacing System
+L8271: General Specification
+L8272: • Flat bars, angle, channel and tubular sections are used for lacing.
+L8273: • Lacing system should not be varied throughout the length of the member.
+
+
+L8276: ===== Page 246 / 947 =====
+L8277: GATE WALLAH CIVIL HANDBOOK 5.38
+L8278: Steel Structures
+L8279: • The single – laced system on opposite sides of the main components should be in the same direction so that one be
+L8280: the shadow of the other.
+L8281: • Tie plates should be provided at the ends of the lacing system and at points where lacing systems are interrupted.
+L8282: Design Specifications
+L8283: • The effective slenderness ratio of laced column should be increased by 5% to account for shear deformations due to
+L8284: unbalance horizontal forces.
+L8285: • Angle of Inclination (θ) of lacing system with longitudinal axis should be between 40° and 70°. (i.e. 40°≤ θ ≤ 70° )
+L8286: • Effective slenderness ratio of lacing bar should not exceed 145.
+
+
+L8289: • Effective length of lacing member (le)
+L8290: For single lacing (Bolted) le = l
+L8291: • For double lacing Bolted at end le = 0.7 l
+L8292: • For welded lacing le = 0.7 l
+L8293: • For Bolted or welded lacing system, L/rc min ≤ 50 or ≤ 0.7 times KL/r of member as a whole, whichever is less.
+L8294: Where c
+L8295: minr =  minimum radius of gyration of the components of compression member
+
+
+L8298: ===== Page 247 / 947 =====
+L8299: GATE WALLAH CIVIL HANDBOOK 5.39
+L8300: Steel Structures
+L8301: • Minimum width of lacing bar in Bolted connection.
+L8302: Shank diameter of the bolt (d) inmin 22 20 18 16
+L8303: Width of lacing bar 65 60 55 50
+L8304: Width of lacing bar is approximately 3x nominal shank diameter of bolt.
+L8305: • Minimum thickness of lacing bar
+L8306: • tmin = l/40 for single lacing
+L8307: • tmin = l/60 for double lacing
+L8308: Where l = length of the lacing bar
+L8309: • The lacing should be designed to resist a transverse shear of 2.5% design column load (V = 2.5% of design
+L8310: axial load)
+L8311: • The lacing should be designed to resist additional shear due to bending if the compression member carries
+L8312: bending.
+L8313: • For single lacing, the force (Design compression or Design tensile) in each lacing bar,
+L8314: VF; Nsin= 
+L8315: VF 2sin=   for double lacing (N = 2)
+L8316: VF 4sin=   for double lacing (N = 4)
+L8317: 1.12. Batten System
+L8318: General Specification
+L8319: • The no. of battens should be such that the member is divided into not less than three parts longitudinally (i.e.
+L8320: minimum 4 batten plates or minimum two intermediate battens and two end battens)
+L8321: • Flat plates are used for battens.
+L8322: • Effective length of battened column should be increased by 10%.
+L8323: Design Specifications
+L8324: • Spacing of battens ‘C’ is such that, the slenderness ratio of the lesser main component,  c
+L8325: min
+L8326: C 50
+L8327: r
+L8328:  or 0.7 KL/r of the
+L8329: member as a whole about Z-Z axis (parallel to battens), whichever is less.
+
+
+L8332: ===== Page 248 / 947 =====
+L8333: GATE WALLAH CIVIL HANDBOOK 5.40
+L8334: Steel Structures
+
+
+
+L8338: Where
+L8339: c
+L8340: minr = minimum radius of gyration of component.
+L8341: S = transverse distance between centroids of bolt group or rivet group
+L8342: C = Spacing of battens
+L8343: l b = transverse distance between centroids of inner end bolt group or rivet group.
+L8344: • Battens should be designed to carry bending moment and shear forces arising from transverse shear (V) 2.5% of total
+L8345: design axial load on member.
+L8346: Longitudinal shear on batten,
+L8347: 1
+L8348: VCV NS=
+L8349: Moment of batten, VCM 2N=
+L8350: Where N = No. of parallel plates of battens = 2 in the above figures.
+L8351: • Thickness of batten, t > lb / 50 (lb = length of batten plate)
+L8352: • Effective Depth of batten
+L8353: d > (3a/4) for intermediate batten
+L8354: d > a for end batten
+L8355: d > 2b for any batten
+L8356: 
+
+
+L8359: ===== Page 249 / 947 =====
+L8360: GATE WALLAH CIVIL HANDBOOK
+L8361: Design Against Static Load
+L8362: 5.41
+L8363: 7
+L8364: COLUMN BASES &
+L8365: COLUMN SPLICES
+
+L8367: 7.1. Introduction
+L8368: The design compressive stress in a concrete footing is much smaller than it is in a steel column. So it becomes necessary that a
+L8369: suitable base plate should be provided below the column to distribute the load from it evenly to the footing below. The ma in
+L8370: function of the base plate is to spread the column load over a sufficiently wide area and keep the footing from being over
+L8371: stressed.
+L8372: 7.2. Types of Column bases
+L8373: For a purely axial load, a plain square steel plate or a slab attached to the column is adequate. For small columns these plates
+L8374: will be shop-welded to the columns, but for larger columns, it may be necessary to the plates separately and set them to the
+L8375: correct elevations. For this second case the columns are connected to the footing with anchor bolts that pass through the lug
+L8376: angles which have been shop-welded to the columns. When there is a large moment in relation to the vertically applied load a
+L8377: gusseted base may be required. This is intended to allow the lever arm from the holding down bolts to be increased to gi ve
+L8378: maximum efficiency while keeping the base plate thickness to an acceptable minimum.
+L8379: • Slab base
+L8380: • Gusseted base
+L8381: 7.3. Slab Base (Concentrically Loaded Columns)
+L8382: • The design compressive stress in a concrete footing is much smaller than it is in a steel column.
+L8383: • The main function of the base plate is to spread the column load over a sufficiently wide area and keep the footing from
+L8384: being over stressed.
+L8385: • For a purely axial load, a plain square steel plate or a slab base attached to the column is adequate.
+L8386: • When there is a large moment in relation to the vertically applied load a gusseted base may be required.
+L8387: • The minimum thickness, ts, of rectangular slab bases, supporting columns under axial compression shall be
+L8388: For I, H, channel, box or RHS
+
+
+L8391: ===== Page 250 / 947 =====
+L8392: GATE WALLAH CIVIL HANDBOOK
+L8393: Steel Structures
+L8394: 5.42
+
+L8396: Base plate thickness t s =
+L8397: ( )22
+L8398: m0
+L8399: f
+L8400: y
+L8401: 2.5w a 0.3b tf
+L8402: − 
+L8403: (Thickness of column flange)
+
+L8405: w = pressure in N/mm2 on underside of plate assuming a uniform distribution.
+L8406: a, b = larger and smaller projection of the slab base beyond the column,
+L8407: Maximum allowable bearing strength = 0.45 fck (where fck = cube strength of concrete)
+L8408: Note: A reduced value of 0.45 fck is used against maximum of 0.60 fck as recommended by the code fyp = design
+L8409: strength of plate, but not greater than 250 N/mm2 divided by m .
+L8410: Design procedure:
+L8411: • Assume a suitable grade of concrete. The bearing strength of concrete is 0.45 fck reactive
+L8412: • Area of slab base (A)
+L8413: =
+L8414: ( ) ck
+L8415: Factored column load (p)
+L8416: Bearing strength of  concrele 0.45 f
+
+
+L8419: ===== Page 251 / 947 =====
+L8420: GATE WALLAH CIVIL HANDBOOK
+L8421: Steel Structures
+L8422: 5.43
+L8423: • If square base plate is provided,
+L8424: Side of square base plate = L = B =
+L8425: A
+L8426: If projections of base plate beyond the column faces are a & b are kept equal (D + 2b) (bf + 2a) = A
+L8427: L = Length of base plate in mm
+L8428: B = Width of base plane in mm
+L8429: a = Bigger projection of base plate beyond column in mm
+L8430: bs = smaller projection of base plate beyond column in mm
+L8431: D = Width of the flange of column
+L8432: • The intensity of up to end bearing pressure is under slab base is N/mm2.
+L8433: w =
+L8434: 0
+L8435: P
+L8436: A
+
+L8438: Ag = Area of slab base plate is provided
+L8439: • Thickness ts of the slab base
+L8440: ts =
+L8441: 22 mo
+L8442: f
+L8443: y
+L8444: 2.5w(a 0.3b ) t f
+L8445: −
+L8446: • Holding down 2 or 4 in number and of 20 mm diameter are usually provided, when base is subjected to only axial
+L8447: compressive load, two bolts will be enough.
+L8448: • Thickness of the slab base
+L8449: ts  =
+L8450: 22 mo
+L8451: y
+L8452: 2.5w(a 0.3b ) f
+L8453: −
+L8454: =
+L8455: 22
+L8456: f
+L8457: 2.5 8(125 0.3 125 ) 1.10 31.02 mm t250
+L8458:  −   =
+L8459: Thickness of slab base ts = 31.02mm
+L8460: 7.4. Gusseted Bases
+L8461: • Column with gusseted bases, the gusset plates, angle cleats, stiffeners, fastenings, etc., in combination with the bearing
+L8462: area of the shaft, shall be sufficient to take the loads, bending moments and reactions to the base plate without exceeding
+L8463: specified strength.
+L8464: • Gusseted base keeps the base plate thickness to be minimum.
+L8465: • The thickness of Gusseted base is computed by equating the moment at critical section (i.e at root of gusset angle) and
+L8466: equating to moment of resistance of gusset.
+L8467: • Design bending strength at the critical section Md = 1.2 fy Z/mo
+L8468: • Thickness of gusseted base  t =
+L8469: y
+L8470: wc 2.75 f
+L8471: • Where, c = cantilever projection of base plate
+L8472: fy  = yield stress of steel in N/mm2
+L8473: t  = Aggregate thickness of base plate for bolted gusseted base and the thickness of base plate for welded base plate.
+
+
+L8476: ===== Page 252 / 947 =====
+L8477: GATE WALLAH CIVIL HANDBOOK
+L8478: Steel Structures
+L8479: 5.44
+L8480: 7.5. Column Splice
+L8481: • A joint is required in the length of column member is called column splice.
+L8482: • When the length of the column is more than the length of column section is available.
+L8483: • In multi-storied building the section column required for various floors may be different.
+L8484: Specifications of Column Splice
+L8485: • When the ends of compression member are faced (machined) for complete bearing over whole area they should be spli ce
+L8486: to whole the connected members accurately in position and this is tension if any bending pressure.
+L8487: • When such members are not faced (Machine) for complete bearing splice should designed to transmit all forces to which
+L8488: they are subjected
+L8489: • Column splices are designed as a short column.
+L8490: 
+
+
+L8493: ===== Page 253 / 947 =====
+L8494: GATE WALLAH CIVIL HANDBOOK
+L8495: Design Against Static Load
+L8496: 5.45
+L8497: 8
+L8498: BEAMS
+
+L8500: 8.1. Introduction
+L8501: 1. A structural member subjected to transverse loads (loads perpendicular to tis longitudinal axis) is called as beam. Beams
+L8502: may be classified as
+L8503: • Floor beam : A major beam of a floor system usually supporting joints in building.
+L8504: • Girder: In buildings, girders are the same as floor beams also a major beam in a structure.
+L8505: • Grit: A horizontal member fastened to and spanning between peripheral columns of an industrial building to support
+L8506: wall cladding.
+L8507: • Joist: A beam supporting floor construction but not major beams.
+L8508: • Lintel: Beam member used carry wall loads over wall opening for doors, windows etc.
+L8509: • Purlin: A roof beam, usually supported by roof trusses.
+L8510: • Rafter: A roof beam usually supporting purlins
+L8511: • Spandrels: Exterior beams at floor level of buildings, which carry part of floor load and the exterior wall
+L8512: • Stringers: Beam supporting steps step (in case of buildings).
+L8513: • Header: A beam at stair well openings.
+L8514: 2. Classifications of sections (depending on yield moment, plastic moment and rotational capacities, the four classes of
+L8515: section are the plastic, the compact, the semi compact and slender sections)
+L8516: • Plastic section: Cross sections which can develop plastic hinges and have rotation capacity required for failure of the
+L8517: section by formation of plastic mechanism are called plastic section.
+L8518: • Compact section: Cross sections which can develops plastic moment resistance but have inadequate plastic hinge
+L8519: rotation capacity for formation of a plastic machine before buckling are called as compact section
+L8520: • Semi compact section: Cross sections in which the extreme fibre compression can reach yield stress, but can’t develop
+L8521: the plastic moment of resistance due to local buckling are called semi compact section.
+L8522: • Slender section: Cross sections in which elements buckle locally even before attaining of yield stress are called as
+L8523: slender sections.
+
+
+L8526: ===== Page 254 / 947 =====
+L8527: GATE WALLAH CIVIL HANDBOOK
+L8528: Steel Structures
+L8529: 5.46
+
+L8531: 8.2. Bending (Flexural) strength
+L8532: Supported strength design of laterally supported beam is governed by yield stress and lateral or torsional buckling controls the
+L8533: design of laterally unsupported beams.
+L8534: (a) Laterally supported beams (For beam supported laterally against lateral – torsional buckling)
+L8535: • Factored design moment at any section (M) < Design bending strength of section Md)
+L8536: • When d/tw < 67  (No shear buckling web)
+L8537: • Nominal shear capacity (Vn) – Plastic shear strength of beam (Vp)
+L8538: • Design shear strength mo/dnVV=
+L8539: • When / 67wdt   (web of beam susceptible to shear buckling)
+L8540: Case I:
+L8541: Low shear case – (Factored design shear force V < 0.6 Vd)
+L8542: Design bending strength mod b p yM Z f=  mo1.2 eyZf  (For simply supported beams) mo1.5 eyZf  (For
+L8543: cantilever beams)
+L8544: Where 1.0b=  (for plastic and compact sections b e pZZ=  elastic and plastic section modulus of the cross section
+L8545: For slender sections 'd e yM Z f=  (f’y – Reduced design strength)
+L8546: Case II:
+L8547: High shear case – (factored design shear force V > 0.6 Vd)
+L8548: Design bending strength M d = Mdv (Mdv – design bending strength under high shear)
+L8549: For plastic or compact section
+
+
+L8552: ===== Page 255 / 947 =====
+L8553: GATE WALLAH CIVIL HANDBOOK
+L8554: Steel Structures
+L8555: 5.47
+L8556: ( )
+L8557: 2
+L8558: mo
+L8559: 1.2 2where 1ey
+L8560: dv d d fd
+L8561: d
+L8562: Zf VM M M M V
+L8563: = − −  = −  
+
+L8565: Md = Plastic design moment of the whole section neglecting high shear case and considering web buckling effect
+L8566: V = Factored applied shear force
+L8567: Vd = Design shear strength as governed by web yielding (or) web backing.
+L8568: Mfd = Plastic design strength of area of cross section excluding shear area.
+L8569: For Semi compact section ,  M dv = Ze fy /mo
+L8570: (b) Laterally unsupported beams (For beam unsupported laterally against lateral – torsional buckling)
+L8571: • Beam with major axis bending and compression flange not restrained against lateral bending fail by lateral. Torsional
+L8572: buckling before attaining their bending strength
+L8573: • The effect of lateral torsional neckline need to be considered when
+L8574: LT 0.4  (where LT  - no dimensional effective
+L8575: slenderness rating for lateral torsional buckling)
+L8576: The bending strength of laterally unsupported beam is given by
+L8577: Md = b.Zp.fcd
+L8578: b = 1.0 (For plastic and compact sections)
+L8579: = Z e/Zp (for semi compact sections)
+L8580: Z e = Elastic section modulus
+L8581: Z p = Plastic section modulus
+L8582: F cd = Design bending compressive stress
+L8583: fy. rmoCT=
+L8584: .LT=  Bending stress reduction factor to account for lateral torsional buckling.
+
+L8586: ( )
+L8587: 0.522
+L8588: 1 1.0
+L8589: LT LT LT
+L8590: = 
+L8591:  +  −
+
+L8593:   20.5 1 0.2LT LT LT = + − +
+L8594: LT=  Imperfection factor
+L8595: = 0.21 (For rolled sections)
+L8596: = 0.49 (Welded section)
+
+L8598: LT=  No dimensional slenderness ratio . / 1.2 . / .
+L8599: y
+L8600: b p y cr e y cr
+L8601: cx
+L8602: fZ f M Z f M fb=   =
+
+L8604: 22
+L8605: .22 ..w
+L8606: cr t b p cr b
+L8607: LT LT
+L8608: EIEIM GI Z f
+L8609: LL
+L8610:  = + =   
+
+L8612: Mcr = the moment at which a beam fail by lateral buckling when subjected to uniform moment s called elastic critical
+L8613: moment.
+
+
+L8616: ===== Page 256 / 947 =====
+L8617: GATE WALLAH CIVIL HANDBOOK
+L8618: Steel Structures
+L8619: 5.48
+L8620: 8.3. Shear Strength of Laterally Supported B eam
+L8621: Design shear strength of section
+
+L8623: mo3d v ywV A f=
+L8624: Av – shear area
+L8625: fyw – yield strength of web Shear area Av.
+L8626: (a) For I – section and channel section
+L8627: • Major axis bending:
+L8628: Hot rolled – Av = h tw
+L8629: Welded – Av = d tw
+L8630: • Minor axis bending :
+L8631: Hot rolled or welded – Av = 2 b tf
+L8632: (b) For rectangular hallow sections of uniform thickness
+L8633: • Load parallel to depth (h) Av = Ah/(b + h)
+L8634: • Load parallel to width (b) Av = Ab/(b + h)
+
+L8636: 8.4. Deflection Limit
+L8637: • Excessive deflections may lead to crack in the plaster or ceilings and may damage the martial attached (or) supported
+L8638: by the beam. This limits the maximum deflection. To the value given below
+L8639: • Other reasons for limiting the deflections are
+L8640: (a) Excessive deflection may create problems for roof drainage
+L8641: (b) These may cause undesirable twisting and distortion of connections and connected members and lead to high
+L8642: secondary stresses.
+
+
+L8645: ===== Page 257 / 947 =====
+L8646: GATE WALLAH CIVIL HANDBOOK
+L8647: Steel Structures
+L8648: 5.49
+L8649: • Deflection can be reduced by increasing the depth of beam section, reducing the spam, providing greater and restraints.
+L8650: • Vertical deflection for cantilever span
+L8651: Elastic cladding – span/240
+L8652: Brittle cladding – span/240
+L8653: • Vertical deflection for purlins and grit
+L8654: Elastic cladding – span/150
+L8655: Brittle cladding – span/180
+L8656: 8.5. Web Crippling
+L8657: • Loads and reactions concentrated along a short length of flange of beam are resisted by compressive stresses in the web
+L8658: which vary with distance from the load.
+L8659: • Stress concertation occurs at the junction of the web and the flange. As a result, large bearing is developed joint below
+L8660: the concentrated loads consequently the web near the portion of stress concentration tends to fold over the flange. This
+L8661: type of local bucking phenomena is called crimpling or crimpling of the web.
+L8662: • Web crippling is buckling of web caused buy the compressive force delivered through flange to keep the bearing
+L8663: stresses within permissible limits. The concentrated load should be transferred flange. To the web sufficiently large
+L8664: bearing area
+
+
+L8667: ===== Page 258 / 947 =====
+L8668: GATE WALLAH CIVIL HANDBOOK
+L8669: Steel Structures
+L8670: 5.50
+L8671: The bearing strength is e γw
+L8672: w
+L8673: mo
+L8674: A .fF= γ  fw = yield design strength of the web A e = effective area of the web = b 1tw . The
+L8675: angel of dispersion of the load is assumed to be 1:2.5
+L8676: Bearing length b1 = b =2n1 (under concentrated load) b1 = b + n1 (under reaction at support) n1 = 2.5 (tf + R1)
+L8677: • The bearing strength calculated should be greater than the concentrated load (it will safe for buckling)
+L8678: • To eliminate web criplling, bearing stiffeners are to be provided.
+L8679: • To provide thicker webs
+L8680: 8.7. Web Buckling
+L8681: • The web in rolled steel section behaves like a column when placed under concentrated loads. The web is await thin
+L8682: therefore subjected to buckling stress for the web acting as a column. The buckling of coloumn is much influenced by
+L8683: the restraints provided for the flanges.
+L8684: • Vertical buckling of web is not a problem with rolled beam sections, this possibility exits in the thin webs of deep plate
+L8685: girder.
+L8686: • The maximum diagonal compression occurs at NA will be inclined to 45° to it The web buckling strength of support
+L8687: will be
+L8688: F Wb = B.tw.fcd
+L8689: Fcd = Allowable compressive tress corresponding to the announced web strut according to buckling curve ‘C
+L8690: B = Length of steff portion of the bearing plus additional length is given dispersion 45° to the level of NA
+
+L8692: 8.8. Built – up beams (Plated Beams)
+L8693: • Used when long spans and heavy loads, large B.M are generated when available, rolled beam sections don’t provide
+L8694: sufficient strength to resist the external B.M.
+L8695: • When the depth of the beam may be restricted due to head room requirement
+
+
+L8698: ===== Page 259 / 947 =====
+L8699: GATE WALLAH CIVIL HANDBOOK
+L8700: Steel Structures
+L8701: 5.51
+
+L8703: Ia = Ip req – I (Divide by ‘h/2)
+L8704: p reqIII =h/2 h/2 h/2−
+L8705: a p.req pZ =Z Z ; −
+L8706: ./a a a aZ A h A Z h=  =
+L8707: h – Overall depth of I – section
+L8708: Zp = plastic modulus of I – section  = Mfy
+L8709: M = factored bending moment
+L8710: Za = Plastic section modulus of plates required
+L8711: Ip req = plastic moment of inertia of the section to resist the total bending moment
+L8712: I = Moment of inertia of the desirable beam section available
+L8713: Ia = Additional moment of inertia of the section required from plate section
+L8714: M.I of plates to be calculated
+L8715: A a = B × tfp.
+L8716: B = Width of flange cover plate
+L8717: Tfp = Thickness of flange cover plate
+L8718: Mcr = Elastic critical moment corresponding to lateral – torsional buckling of beam.
+L8719: 
+
+
+L8722: ===== Page 260 / 947 =====
+L8723: GATE WALLAH CIVIL HANDBOOK
+L8724: Design Against Static Load
+L8725: 5.52
+L8726: 9
+L8727: PLATE GIRDER
+
+L8729: 9.1. Introduction
+L8730: A fabricated plate girder is employed for supporting heavy loads over long spans. The bending moments and shear forces
+L8731: produced in such girders are well beyond the bending and shear resistance of rolled steel girders available. In such situations
+L8732: the designer has the choice of one the following solutions:
+
+L8734: • Use two or more regularly available sections, side-by-side. (my not satisfy deflection limitation)
+L8735: • Use a fabricated plate girder, (within limits) to choose the size of web and flanges, or use a steel truss
+L8736: 9.2. Elements of Plate Girder
+L8737: • Web plate
+L8738: • Flange angles with or without flange plates for bolted/riveted plate girder.
+L8739: • Stiffeners
+L8740: ▪ Vertical or transverse or stability stiffeners
+L8741: ▪ Horizontal or longitudinal stiffeners
+L8742: ▪ Load or end bearing stiffeners
+L8743: • Splices
+L8744: ▪ Flange splice
+L8745: ▪ Web splice
+L8746: 9.3.  Economical Depth of Plate Girder
+L8747: d = [M k/fy]13 (where k – d/tw)
+L8748: Where,  d – depth of the web and
+L8749: t w – thickness of web
+
+
+L8752: ===== Page 261 / 947 =====
+L8753: GATE WALLAH CIVIL HANDBOOK
+L8754: Steel Structures
+L8755: 5.53
+L8756: If d/tw ≤ 67 εw; (may be designed as ordinary beam)
+L8757: [where εw = (250/fyw)]
+L8758: fyw – yield stress of wed
+L8759: 9.5. Minimum Thickness of Web Plate
+L8760: Minimum web plate thickness should meet serviceability and compression flange bucking criterion.
+L8761: Minimum web plate thickness based on serviceability requirement
+L8762: (a) When transverse stiffeners are not provided,
+L8763: • d/tw ≤ 200 ε (Web connected to flanges along both longitudinal edges)
+L8764: • d/tw ≤ 90 ε (Web connected to flanges along both longitudinal edge only)
+L8765: (b) When transverse stiffeners are provided,
+L8766: • d/tw ≤ 200 εw  for 3d  c  d
+L8767: • c/tw ≤ 200 εw  for 0.74 d ≤ c ≤ d
+L8768: • d/tw ≤ 200 εw  for c ≤ 0.74 d
+L8769: (C – spacing of transverse stiffener)
+L8770: (c) When transverse stiffeners and longitudinal stiffeners at one level only provided (0.2d from compression flange)
+L8771: • d/tw ≤ 250 εw  for 2.4 d  c  d
+L8772: • c/tw ≤ 250 εw  for 0.74 d ≤ c ≤ d
+L8773: • d/tw ≤ 340 εw  for c ≤ 0.74 d
+L8774: (d) When transverse stiffeners and one longitudinal stiffener provided one at 0.2 d from compression flange and second
+L8775: longitudinal stiffener at N. A
+L8776: • d/tw ≤ 250 εw  Where εw = 250/fy
+L8777: 9.6. Minimum Web Thickness based on Compression Flange Bucking Requirement
+L8778: (a) When transverse stiffeners are not provided
+L8779: • d/tw ≤ 345 2
+L8780: f
+L8781: 
+L8782: [Where εf = (250/fyf]
+L8783: (b) When transverse stiffeners are provided
+L8784: • d/tw ≤ 345 2
+L8785: f
+L8786:   for c  1.5 d
+L8787: • d/tw ≤ 345 εf for c  1.5 d
+
+
+L8790: ===== Page 262 / 947 =====
+L8791: GATE WALLAH CIVIL HANDBOOK
+L8792: Steel Structures
+L8793: 5.54
+L8794: 9.7. Stiffeners
+L8795: (a) Transverse (stability or vertical) stiffener
+L8796: • Intermediate transverse stiffeners increase buckling resistance of web against shear
+
+L8798: • Angle section are provided for riveted or bolted plate girders and flat or plate section for welded plate girders
+L8799: • Spacing of intermediate stiffeners depends on thickness of web
+L8800: • To avoid local buckling of transverse stiffener, outstand from face of web should not exceed 20 tq (tq – Thickness of
+L8801: stiffener)
+L8802: • Minimum moment of inertia of transverse stiffener
+L8803: If  c/d  2 I s  0.75 d tw3
+L8804: If  c/d  2 I s  1.5 d3 tw3/ c2
+L8805: • Intermediate stiffener not subjected to external loading should connected to the web so as withstand to shear (in
+L8806: kN/mm) of not less than tw2 /5 bs kN/mm (bs– outstand of stiffener)
+L8807: (b)  Longitudinal (Horizonal) Stiffener
+L8808: • Longitudinal stiffener increases bucking resistance of web against bending
+L8809: • These are provided between transverse stiffener
+L8810: • Minimum moment of inertia of first longitudinal stiffener provided at 0.2d from compression flange 3
+L8811: wIt c
+L8812: • Minimum moment of inertia of second Longitudinal stiffener provided at N.A
+L8813: • 3
+L8814: 2wI d t  (d2 – 2 × distance from compression flange to N.A)
+L8815: 
+
+
+L8818: ===== Page 263 / 947 =====
+L8819: GATE WALLAH CIVIL HANDBOOK
+L8820: Design Against Static Load
+L8821: 5.55
+L8822: 10
+L8823: GRANTY GIRDER
+
+L8825: 10.1. Gantry Girders
+L8826: 1. These are laterally unsupported beams provided in industrial building to carry cranes.
+
+L8828: 2. Gantry girders are subjected to vertical, lateral and longitudinal
+L8829: • The lateral thrusts are caused due to sudden stopping or starting of the crab and these lateral forces act normal of
+L8830: the
+L8831: crab and these lateral forces act normal to the rails.
+L8832: • Longitudinal loads are caused due to stopping or starting of the crane girder, and  produce a thrust along the
+L8833: rails.
+L8834: 3. Section for a Gantry Girder
+
+L8836: • The compression flange of an I — section is reinforced with a channel to increase the lateral stability.
+
+
+L8839: ===== Page 264 / 947 =====
+L8840: GATE WALLAH CIVIL HANDBOOK
+L8841: Steel Structures
+L8842: 5.56
+L8843: • When greater laterally stability and torsional Rigidity are required in cas e of heavy lateral forces, a box type
+L8844: of girder is adopted.
+
+L8846: 4. As the loads are applied on the gantry girder suddenly, additional stresses ar e induced in the girder due to the impact effect.
+L8847: Additional loads for structures subjected to impact:
+L8848: Type of Load Additional Load
+L8849: (a) Vertical forces transferred to the rails
+L8850: (i)  For electric overhead cranes 25% of maximum static wheel load
+L8851: (ii) For hand operated cranes 10% of maximum static wheel load.
+L8852: (b) Horizontal forces transverse to the rails
+L8853: (i) For electric overhead cranes 10% of the weight of the crab and the weight lifted on the crane
+L8854: (ii) For hand operated cranes 5% of the weight of the crab and the weight lifted on the crane
+L8855: (c) Horizontal forces along the rails (longitudinal) 5% of the static wheel loads
+L8856: 10.2. Limiting Deflections
+L8857: The vertical deflection of a gantry girder should not exceed t he values specified below:
+L8858: • Where the cranes are manually operated L/500
+L8859: • Where the cranes are overhead traveling and operated electrically up to 500 kN L/750
+L8860: • Where the cranes are overhead traveling and operated electrically over 500 kN L/1000
+L8861: • Other moving loads, such as charging cars, etc. L/600
+L8862: Where L = Span of the gantry girder.
+L8863: 
+
+
+L8866: ===== Page 265 / 947 =====
+L8867: GATE WALLAH CIVIL HANDBOOK
+L8868: Design Against Static Load
+L8869: 5.57
+L8870: 11
+L8871: ROOF TRUSSES

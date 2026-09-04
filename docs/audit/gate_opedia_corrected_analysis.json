@@ -1,0 +1,3838 @@
+{
+  "metadata": {
+    "source_file": "GATE-O-PEDIA - CIVIL ENGINEERING.txt",
+    "publisher": "Physics Wallah",
+    "total_lines": 37734,
+    "total_chars": 1152250,
+    "total_repo_files": 216
+  },
+  "subjects": [
+    {
+      "num": 1,
+      "name": "Engineering Mechanics",
+      "start": 1,
+      "end": 1189,
+      "gate_chapters": 7,
+      "content_lines": 1189,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Fundamental Concepts of Mechanics",
+          "line": 106
+        },
+        {
+          "id": "1.1.1",
+          "name": "Basic Terminologies in Mechanics",
+          "line": 111
+        },
+        {
+          "id": "1.1.2",
+          "name": "Newton’s Law of Motion",
+          "line": 127
+        },
+        {
+          "id": "1.1.3",
+          "name": "Newton’s Law of Gravitational Attraction:",
+          "line": 144
+        },
+        {
+          "id": "2.1",
+          "name": "Force Vectors",
+          "line": 180
+        },
+        {
+          "id": "2.1.1",
+          "name": "System of Force",
+          "line": 192
+        },
+        {
+          "id": "1.2.2",
+          "name": "Vector Operations",
+          "line": 211
+        },
+        {
+          "id": "2.1.3",
+          "name": "Resultant Force:",
+          "line": 226
+        },
+        {
+          "id": "22496.4",
+          "name": "400 637.5 NR= + =",
+          "line": 330
+        },
+        {
+          "id": "22106.46",
+          "name": "51.80 118.39 N= + =R",
+          "line": 366
+        },
+        {
+          "id": "23.93",
+          "name": "30.84 Ncos(39.12)",
+          "line": 380
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 394
+        },
+        {
+          "id": "3.1.1",
+          "name": "Moment:",
+          "line": 395
+        },
+        {
+          "id": "3.1.2",
+          "name": "Couple",
+          "line": 424
+        },
+        {
+          "id": "3.1.3",
+          "name": "Varignon’s Principle of Moments",
+          "line": 441
+        },
+        {
+          "id": "221.53",
+          "name": "1 1.83 KN = + =R",
+          "line": 473
+        },
+        {
+          "id": "1759.8",
+          "name": "1.358 m1500",
+          "line": 510
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 529
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 789
+        },
+        {
+          "id": "6.1",
+          "name": "Trusses",
+          "line": 869
+        },
+        {
+          "id": "6.1.1",
+          "name": "Assumption",
+          "line": 872
+        },
+        {
+          "id": "6.1.2",
+          "name": "Zero Force Member",
+          "line": 876
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 996
+        },
+        {
+          "id": "7.1.1",
+          "name": "Locate the centroid of Circular Arc",
+          "line": 1010
+        },
+        {
+          "id": "7.1.2",
+          "name": "Basic Shape",
+          "line": 1035
+        }
+      ],
+      "source_topic_count": 25,
+      "source_formula_count": 8
+    },
+    {
+      "num": 2,
+      "name": "Strength of Materials",
+      "start": 1190,
+      "end": 3040,
+      "gate_chapters": 6,
+      "content_lines": 1851,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Rigid and Deformable Material",
+          "line": 1201
+        },
+        {
+          "id": "1.1.1",
+          "name": "Stresses and Strain",
+          "line": 1204
+        },
+        {
+          "id": "1.2",
+          "name": "Properties of Materials",
+          "line": 1421
+        },
+        {
+          "id": "1.3",
+          "name": "Visco-Elastic material",
+          "line": 1491
+        },
+        {
+          "id": "0.1",
+          "name": "0.2 for concrete/",
+          "line": 1623
+        },
+        {
+          "id": "0.5",
+          "name": "perfectly elastic rubber/",
+          "line": 1624
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 1705
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 1776
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 2078
+        },
+        {
+          "id": "6.1",
+          "name": "Combined Bending and Torsion",
+          "line": 2173
+        },
+        {
+          "id": "6.2",
+          "name": "Combined Bending and Axial Force",
+          "line": 2210
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 2245
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 2339
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 2549
+        },
+        {
+          "id": "10.1",
+          "name": "Introduction",
+          "line": 2675
+        }
+      ],
+      "source_topic_count": 15,
+      "source_formula_count": 19
+    },
+    {
+      "num": 3,
+      "name": "Structural Analysis",
+      "start": 3041,
+      "end": 4755,
+      "gate_chapters": 6,
+      "content_lines": 1715,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Structure",
+          "line": 3052
+        },
+        {
+          "id": "1.1.1",
+          "name": "Mechanism",
+          "line": 3054
+        },
+        {
+          "id": "1.1.2",
+          "name": "Classification of Structures",
+          "line": 3067
+        },
+        {
+          "id": "1.1.3",
+          "name": "Poissons Ratio ()",
+          "line": 3087
+        },
+        {
+          "id": "1.2",
+          "name": "Reaction",
+          "line": 3101
+        },
+        {
+          "id": "2.1",
+          "name": "Equation of Static Equilibrium",
+          "line": 3126
+        },
+        {
+          "id": "2.1.1",
+          "name": "Degree of Static Indeterminacy",
+          "line": 3136
+        },
+        {
+          "id": "2.1.2",
+          "name": "Support Reaction",
+          "line": 3140
+        },
+        {
+          "id": "2.1.3",
+          "name": "External Indeterminacy",
+          "line": 3160
+        },
+        {
+          "id": "2.1.4",
+          "name": "Internal Indeterminacy",
+          "line": 3163
+        },
+        {
+          "id": "2.2",
+          "name": "Truss (Static Indeterminacy)",
+          "line": 3176
+        },
+        {
+          "id": "2.3",
+          "name": "Frames/Beams",
+          "line": 3215
+        },
+        {
+          "id": "2.3.1",
+          "name": "Internal Pin/Hinge",
+          "line": 3216
+        },
+        {
+          "id": "2.4",
+          "name": "Restraining Members/Joint",
+          "line": 3239
+        },
+        {
+          "id": "2.4.1",
+          "name": "Rigid Frames",
+          "line": 3252
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 3419
+        },
+        {
+          "id": "3.2",
+          "name": "Overhanging Beam",
+          "line": 3468
+        },
+        {
+          "id": "3.2.1",
+          "name": "ILD – Truss Bridge",
+          "line": 3472
+        },
+        {
+          "id": "3.2.2",
+          "name": "ILD – Rolling Loads",
+          "line": 3493
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 3607
+        },
+        {
+          "id": "4.2",
+          "name": "MDM – Standard Case",
+          "line": 3687
+        },
+        {
+          "id": "4.3",
+          "name": "MDM – Standard Cases 4",
+          "line": 3720
+        },
+        {
+          "id": "4.4",
+          "name": "MDM – Standard Cases 5",
+          "line": 3762
+        },
+        {
+          "id": "4.5",
+          "name": "MDM – Standard Cases 6",
+          "line": 3795
+        },
+        {
+          "id": "4.4.1",
+          "name": "Sinking of Support",
+          "line": 3796
+        },
+        {
+          "id": "5.1",
+          "name": "Topics",
+          "line": 3879
+        },
+        {
+          "id": "5.2",
+          "name": "Introduction to Plastic Analysis",
+          "line": 3895
+        },
+        {
+          "id": "5.3",
+          "name": "Stress Strain Curve - Plastic Analysis",
+          "line": 3902
+        },
+        {
+          "id": "5.3.1",
+          "name": "Key Points of Mild Steel Curve",
+          "line": 3912
+        },
+        {
+          "id": "5.3.2",
+          "name": "Elastic Vs. Plastic Theory",
+          "line": 3922
+        },
+        {
+          "id": "5.4",
+          "name": "Assumptions - Plastic Analysis",
+          "line": 3939
+        },
+        {
+          "id": "5.4.1",
+          "name": "Bernoulli’s Assumption.",
+          "line": 3940
+        },
+        {
+          "id": "5.4.2",
+          "name": "Applicability",
+          "line": 3947
+        },
+        {
+          "id": "5.5",
+          "name": "Plastic Moment  - Plastic Analysis",
+          "line": 3959
+        },
+        {
+          "id": "5.6",
+          "name": "Shape Factor- Plastic Analysis",
+          "line": 3975
+        },
+        {
+          "id": "5.6.1",
+          "name": "Shape factor for Different c/s",
+          "line": 3978
+        },
+        {
+          "id": "5.7",
+          "name": "Moment Curvature Relation - Plastic Analysis",
+          "line": 3985
+        },
+        {
+          "id": "5.7.1",
+          "name": "Moment Curvature Graph",
+          "line": 4011
+        },
+        {
+          "id": "5.8",
+          "name": "Indeterminacy - Plastic Analysis",
+          "line": 4016
+        },
+        {
+          "id": "5.9",
+          "name": "Plastic Hinge Location",
+          "line": 4041
+        },
+        {
+          "id": "5.9.1",
+          "name": "Condition - Plastic Analysis",
+          "line": 4047
+        },
+        {
+          "id": "5.10",
+          "name": "Mechanism - Plastic Analysis",
+          "line": 4060
+        },
+        {
+          "id": "5.10.1",
+          "name": "Beam Mechanisms",
+          "line": 4065
+        },
+        {
+          "id": "5.10.2",
+          "name": "Sway Mechanisms",
+          "line": 4073
+        },
+        {
+          "id": "5.10.3",
+          "name": "Joint Mechanism",
+          "line": 4076
+        },
+        {
+          "id": "5.10.4",
+          "name": "Gable Mechanism",
+          "line": 4079
+        },
+        {
+          "id": "5.11",
+          "name": "Theorems - Plastic Analysis",
+          "line": 4087
+        },
+        {
+          "id": "5.11.1",
+          "name": "Static Theorem Procedure",
+          "line": 4100
+        },
+        {
+          "id": "5.11.2",
+          "name": "Kinematic Theorem Procedure",
+          "line": 4104
+        },
+        {
+          "id": "5.12",
+          "name": "Sequence of Plastic Hinge Formation",
+          "line": 4109
+        },
+        {
+          "id": "5.13",
+          "name": "Length of Plastic Hinge for Rectangular Section",
+          "line": 4214
+        },
+        {
+          "id": "5.13.1",
+          "name": "Bending Stress Diagram",
+          "line": 4216
+        },
+        {
+          "id": "5.14",
+          "name": "Collapse Diagram - Plastic Analysis",
+          "line": 4263
+        },
+        {
+          "id": "5.14.1",
+          "name": "Collapse diagram due to plastic hinge formation",
+          "line": 4264
+        },
+        {
+          "id": "6.1",
+          "name": "Properties of Fluid",
+          "line": 4344
+        },
+        {
+          "id": "6.2",
+          "name": "Classification of Arches",
+          "line": 4383
+        },
+        {
+          "id": "6.3",
+          "name": "Calculation of Horizontal Reactions",
+          "line": 4440
+        },
+        {
+          "id": "6.4",
+          "name": "ILD for 3-hinged Arches",
+          "line": 4478
+        },
+        {
+          "id": "6.5",
+          "name": "Radial shear & Normal Thrust",
+          "line": 4542
+        },
+        {
+          "id": "6.6",
+          "name": "Effect of Temperature on 3 hinged Arches",
+          "line": 4593
+        },
+        {
+          "id": "6.6.1",
+          "name": "Two Hinged Arches",
+          "line": 4616
+        },
+        {
+          "id": "6.7",
+          "name": "Cables",
+          "line": 4677
+        }
+      ],
+      "source_topic_count": 62,
+      "source_formula_count": 19
+    },
+    {
+      "num": 4,
+      "name": "Reinforced Cement Concrete",
+      "start": 4756,
+      "end": 6886,
+      "gate_chapters": 9,
+      "content_lines": 2131,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 4766
+        },
+        {
+          "id": "20.7",
+          "name": "N/mmckf",
+          "line": 4772
+        },
+        {
+          "id": "1.2",
+          "name": "Stress Strain Curve of Concrete",
+          "line": 4777
+        },
+        {
+          "id": "1.3",
+          "name": "Design Stress Strain Curve",
+          "line": 4805
+        },
+        {
+          "id": "0.002",
+          "name": "0.0035",
+          "line": 4833
+        },
+        {
+          "id": "1.2.1",
+          "name": "Reinforced Concrete",
+          "line": 4857
+        },
+        {
+          "id": "2.1",
+          "name": "Limit State Method",
+          "line": 4884
+        },
+        {
+          "id": "2.2",
+          "name": "Analysis & Design",
+          "line": 4946
+        },
+        {
+          "id": "0.87",
+          "name": "𝑓𝑦 Ast",
+          "line": 4949
+        },
+        {
+          "id": "0.36",
+          "name": "𝑓𝑐𝑘 b.d",
+          "line": 4950
+        },
+        {
+          "id": "2.3",
+          "name": "Design of Doubly Rectangular Section",
+          "line": 5063
+        },
+        {
+          "id": "2.4",
+          "name": "Analysis of Flanged Section (Singly Reinforced)",
+          "line": 5130
+        },
+        {
+          "id": "2.5",
+          "name": "Design of Flanged Section Beam",
+          "line": 5179
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 5301
+        },
+        {
+          "id": "0.51",
+          "name": "1.252 m+=  from the",
+          "line": 5427
+        },
+        {
+          "id": "4.1",
+          "name": "Bond and Anchorage",
+          "line": 5450
+        },
+        {
+          "id": "2.1.2",
+          "name": "Bond Failure Mechanism",
+          "line": 5526
+        },
+        {
+          "id": "5.1",
+          "name": "Design of Beam & Slab",
+          "line": 5601
+        },
+        {
+          "id": "1.5",
+          "name": ". 1.5 .",
+          "line": 5834
+        },
+        {
+          "id": "6.1",
+          "name": "Objective (Footings)",
+          "line": 5905
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 6138
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 6223
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 6380
+        }
+      ],
+      "source_topic_count": 23,
+      "source_formula_count": 5
+    },
+    {
+      "num": 5,
+      "name": "Steel Structures",
+      "start": 6887,
+      "end": 8872,
+      "gate_chapters": 10,
+      "content_lines": 1986,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 6901
+        },
+        {
+          "id": "1.2",
+          "name": "Introduction to Limit State",
+          "line": 7016
+        },
+        {
+          "id": "1.0",
+          "name": "0.8 0.8 0.8",
+          "line": 7098
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 7153
+        },
+        {
+          "id": "2.2",
+          "name": "Classification of Bolted Connection",
+          "line": 7160
+        },
+        {
+          "id": "2.3",
+          "name": "Types of Bolts",
+          "line": 7182
+        },
+        {
+          "id": "2.4",
+          "name": "Types of bolted joints",
+          "line": 7210
+        },
+        {
+          "id": "2.5",
+          "name": "Specifications of bolted joint",
+          "line": 7233
+        },
+        {
+          "id": "2.6",
+          "name": "Failure of Bolted Connections",
+          "line": 7279
+        },
+        {
+          "id": "2.7",
+          "name": "Design strength of bearing type Bolts against Factored Shear Force",
+          "line": 7287
+        },
+        {
+          "id": "1.075",
+          "name": "(0.75 1.0)200",
+          "line": 7340
+        },
+        {
+          "id": "1.25",
+          "name": "1.10nb",
+          "line": 7402
+        },
+        {
+          "id": "0.9",
+          "name": "yd sbub nb",
+          "line": 7406
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 7444
+        },
+        {
+          "id": "4.1",
+          "name": "Eccentric Bolted Connection",
+          "line": 7640
+        },
+        {
+          "id": "4.2",
+          "name": "Eccentric Welded Connections",
+          "line": 7772
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 7865
+        },
+        {
+          "id": "5.2",
+          "name": "Types of Cross-sections",
+          "line": 7876
+        },
+        {
+          "id": "5.3",
+          "name": "Net Sectional Area (AD)",
+          "line": 7889
+        },
+        {
+          "id": "5.4",
+          "name": "Types of failures in tension member",
+          "line": 7918
+        },
+        {
+          "id": "5.5",
+          "name": "Design strength of tension member (T d)",
+          "line": 7922
+        },
+        {
+          "id": "5.6",
+          "name": "Design of Axially loaded Tension member",
+          "line": 7985
+        },
+        {
+          "id": "5.7",
+          "name": "Maximum or Limiting slenderness ratio (Stiffness Requirement)",
+          "line": 8021
+        },
+        {
+          "id": "5.8",
+          "name": "Lug Angle",
+          "line": 8046
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 8075
+        },
+        {
+          "id": "6.2",
+          "name": "General failures in axially loaded columns",
+          "line": 8090
+        },
+        {
+          "id": "6.3",
+          "name": "Design Compressive strength (P d) of a member",
+          "line": 8094
+        },
+        {
+          "id": "20.5",
+          "name": "1 ( 0.2) = +   − + ",
+          "line": 8116
+        },
+        {
+          "id": "6.4",
+          "name": "Effective length of Columns (KL)",
+          "line": 8142
+        },
+        {
+          "id": "6.5",
+          "name": "Effective length for angle struts",
+          "line": 8177
+        },
+        {
+          "id": "0.7",
+          "name": "L to 1.0 L 1.0 L",
+          "line": 8183
+        },
+        {
+          "id": "0.85",
+          "name": "L 1.0 L Single angle connected with",
+          "line": 8187
+        },
+        {
+          "id": "0.70",
+          "name": "L to 0.85 L 1.0 L",
+          "line": 8193
+        },
+        {
+          "id": "6.6",
+          "name": "Buckling Class of Cross Sections",
+          "line": 8196
+        },
+        {
+          "id": "6.7",
+          "name": "Design of Compression Member",
+          "line": 8243
+        },
+        {
+          "id": "6.8",
+          "name": "Maximum Slenderness Ratio (Stiffness Requirement)",
+          "line": 8255
+        },
+        {
+          "id": "6.9",
+          "name": "Built up Columns",
+          "line": 8260
+        },
+        {
+          "id": "6.10",
+          "name": "Lacing and Battening for built up Compression Members.",
+          "line": 8264
+        },
+        {
+          "id": "6.11",
+          "name": "Lacing System",
+          "line": 8270
+        },
+        {
+          "id": "1.12",
+          "name": "Batten System",
+          "line": 8317
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 8367
+        },
+        {
+          "id": "7.2",
+          "name": "Types of Column bases",
+          "line": 8372
+        },
+        {
+          "id": "7.3",
+          "name": "Slab Base (Concentrically Loaded Columns)",
+          "line": 8381
+        },
+        {
+          "id": "7.4",
+          "name": "Gusseted Bases",
+          "line": 8460
+        },
+        {
+          "id": "7.5",
+          "name": "Column Splice",
+          "line": 8480
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 8500
+        },
+        {
+          "id": "8.2",
+          "name": "Bending (Flexural) strength",
+          "line": 8531
+        },
+        {
+          "id": "8.3",
+          "name": "Shear Strength of Laterally Supported B eam",
+          "line": 8620
+        },
+        {
+          "id": "8.4",
+          "name": "Deflection Limit",
+          "line": 8636
+        },
+        {
+          "id": "8.5",
+          "name": "Web Crippling",
+          "line": 8656
+        },
+        {
+          "id": "8.7",
+          "name": "Web Buckling",
+          "line": 8680
+        },
+        {
+          "id": "8.8",
+          "name": "Built – up beams (Plated Beams)",
+          "line": 8692
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 8729
+        },
+        {
+          "id": "9.2",
+          "name": "Elements of Plate Girder",
+          "line": 8736
+        },
+        {
+          "id": "9.3",
+          "name": "Economical Depth of Plate Girder",
+          "line": 8746
+        },
+        {
+          "id": "9.5",
+          "name": "Minimum Thickness of Web Plate",
+          "line": 8759
+        },
+        {
+          "id": "9.6",
+          "name": "Minimum Web Thickness based on Compression Flange Bucking Requirement",
+          "line": 8777
+        },
+        {
+          "id": "9.7",
+          "name": "Stiffeners",
+          "line": 8794
+        },
+        {
+          "id": "10.1",
+          "name": "Gantry Girders",
+          "line": 8825
+        },
+        {
+          "id": "10.2",
+          "name": "Limiting Deflections",
+          "line": 8856
+        }
+      ],
+      "source_topic_count": 60,
+      "source_formula_count": 12
+    },
+    {
+      "num": 6,
+      "name": "Environmental Engineering",
+      "start": 8873,
+      "end": 13930,
+      "gate_chapters": 5,
+      "content_lines": 5058,
+      "source_topics": [
+        {
+          "id": "11.1",
+          "name": "Introduction",
+          "line": 8873
+        },
+        {
+          "id": "11.2",
+          "name": "Types of Trusses",
+          "line": 8888
+        },
+        {
+          "id": "11.3",
+          "name": "Elements of Roof Truss",
+          "line": 8910
+        },
+        {
+          "id": "11.4",
+          "name": "Loads on Roof Trusses:",
+          "line": 8952
+        },
+        {
+          "id": "11.5",
+          "name": "Design of Purlin",
+          "line": 8995
+        },
+        {
+          "id": "1.1",
+          "name": "Water System",
+          "line": 9079
+        },
+        {
+          "id": "1.2",
+          "name": "Water Demand and Quantity",
+          "line": 9223
+        },
+        {
+          "id": "1.3",
+          "name": "Quality of Water",
+          "line": 9386
+        },
+        {
+          "id": "0.02",
+          "name": "N H2SO4 is used as titrant V ml = V mg of CaCO3 Alkanity",
+          "line": 9430
+        },
+        {
+          "id": "4.3",
+          "name": "This would directly measure the amount of any bicarbonate, carbonate, and hydroxide  alkalinity",
+          "line": 9638
+        },
+        {
+          "id": "8.3",
+          "name": "This would  measure the amount of half of carbonate and all hydroxide any carbonate or hydroxide",
+          "line": 9642
+        },
+        {
+          "id": "1.4",
+          "name": "Treatment of Water",
+          "line": 9805
+        },
+        {
+          "id": "1.5",
+          "name": "Conveyance of Water",
+          "line": 10446
+        },
+        {
+          "id": "1.7",
+          "name": "Distribution",
+          "line": 10568
+        },
+        {
+          "id": "2.1",
+          "name": "Hydraulic Design of Sewers",
+          "line": 10823
+        },
+        {
+          "id": "1.4.1",
+          "name": "Design Guidelines",
+          "line": 11474
+        },
+        {
+          "id": "1.6",
+          "name": "Digestion and disposal of Primary and Secondary sludge",
+          "line": 11999
+        },
+        {
+          "id": "3.1",
+          "name": "Definition",
+          "line": 12128
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 12328
+        },
+        {
+          "id": "4.2",
+          "name": "Photochemical Smog and Production of PAN and O zone",
+          "line": 12419
+        },
+        {
+          "id": "4.4",
+          "name": "Control of particulate pollutants in Industries",
+          "line": 12502
+        },
+        {
+          "id": "4.5",
+          "name": "Effective height of stack (MAINS)",
+          "line": 12579
+        },
+        {
+          "id": "4.7",
+          "name": "High Volume Sampler (MAINS)",
+          "line": 12615
+        },
+        {
+          "id": "5.1",
+          "name": "Definition",
+          "line": 13685
+        },
+        {
+          "id": "5.2",
+          "name": "Characteristics of Sound and Its Measurement",
+          "line": 13710
+        },
+        {
+          "id": "5.3",
+          "name": "Levels of Noise",
+          "line": 13739
+        },
+        {
+          "id": "5.4",
+          "name": "Frequency",
+          "line": 13768
+        },
+        {
+          "id": "5.5",
+          "name": "Averaging Sound Pressure Levels",
+          "line": 13785
+        },
+        {
+          "id": "5.6",
+          "name": "Noise Rating Systems",
+          "line": 13794
+        },
+        {
+          "id": "5.7",
+          "name": "Variation with Distance",
+          "line": 13817
+        },
+        {
+          "id": "5.8",
+          "name": "Ambient air quality standard in respect of noise",
+          "line": 13828
+        }
+      ],
+      "source_topic_count": 31,
+      "source_formula_count": 19
+    },
+    {
+      "num": 7,
+      "name": "Geotechnical Engineering",
+      "start": 13931,
+      "end": 17157,
+      "gate_chapters": 12,
+      "content_lines": 3227,
+      "source_topics": [
+        {
+          "id": "0.75",
+          "name": "– 1.25 Normal",
+          "line": 14590
+        },
+        {
+          "id": "2.303",
+          "name": "log haLK At h",
+          "line": 14969
+        },
+        {
+          "id": "5.7",
+          "name": "1 0CqN N N = = =",
+          "line": 16364
+        },
+        {
+          "id": "1.3",
+          "name": "( 1 ) 0.4nu C q rq CN q N B N= + − + ",
+          "line": 16374
+        },
+        {
+          "id": "0.3",
+          "name": "0.21 ( 1) 1 (0.5 )nu C q r",
+          "line": 16380
+        }
+      ],
+      "source_topic_count": 5,
+      "source_formula_count": 27
+    },
+    {
+      "num": 8,
+      "name": "Fluid Mechanics",
+      "start": 17158,
+      "end": 21098,
+      "gate_chapters": 8,
+      "content_lines": 3941,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Properties of Fluid",
+          "line": 17160
+        },
+        {
+          "id": "1.2",
+          "name": "Hydrostatic Forces on Surfaces",
+          "line": 17270
+        },
+        {
+          "id": "1.3",
+          "name": "Kinematics of Flow",
+          "line": 17335
+        },
+        {
+          "id": "1.4",
+          "name": "Fluid Dynamics",
+          "line": 17610
+        },
+        {
+          "id": "2.5",
+          "name": "1 2.5 1[]m s L T−− = .",
+          "line": 17684
+        },
+        {
+          "id": "1.5",
+          "name": "Dimensional and Model Analysis",
+          "line": 17746
+        },
+        {
+          "id": "1.6",
+          "name": "Notches and Weir",
+          "line": 17939
+        },
+        {
+          "id": "1.7",
+          "name": "Flow through Pipes",
+          "line": 18046
+        },
+        {
+          "id": "1.8",
+          "name": "Viscous Flow",
+          "line": 18234
+        },
+        {
+          "id": "1.9",
+          "name": "Turbulent Flow",
+          "line": 18386
+        },
+        {
+          "id": "1.10",
+          "name": "Boundary Layer",
+          "line": 18581
+        },
+        {
+          "id": "1.11",
+          "name": "Forces on Submerged Bodies (Drag and Lift)",
+          "line": 18797
+        },
+        {
+          "id": "200.2",
+          "name": "1 RetS =−  t",
+          "line": 18846
+        },
+        {
+          "id": "1.12",
+          "name": "Impact of Jets",
+          "line": 18852
+        },
+        {
+          "id": "1.13",
+          "name": "Turbines",
+          "line": 19094
+        },
+        {
+          "id": "1.14",
+          "name": "Pumps",
+          "line": 19525
+        },
+        {
+          "id": "1.15",
+          "name": "Miscellaneous",
+          "line": 19889
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 19991
+        },
+        {
+          "id": "2.2",
+          "name": "Uniform flow",
+          "line": 20204
+        },
+        {
+          "id": "2.3",
+          "name": "Energy Depth Relationship",
+          "line": 20351
+        },
+        {
+          "id": "2.4",
+          "name": "Gradually Varied Flow",
+          "line": 20574
+        },
+        {
+          "id": "4.5",
+          "name": "– 9 Steady jump  Stable, well-balanced, and insensitive to downstream conditions. Intense eddy",
+          "line": 20978
+        },
+        {
+          "id": "2.6",
+          "name": "Rapidly Varied Unsteady Flow",
+          "line": 20997
+        },
+        {
+          "id": "1.1.1",
+          "name": "Methods of Irrigation",
+          "line": 21081
+        }
+      ],
+      "source_topic_count": 24,
+      "source_formula_count": 12
+    },
+    {
+      "num": 9,
+      "name": "Irrigation Engineering",
+      "start": 21099,
+      "end": 22203,
+      "gate_chapters": 7,
+      "content_lines": 1105,
+      "source_topics": [
+        {
+          "id": "1.1.2",
+          "name": "Soil – Moisture – Plant Relationship",
+          "line": 21109
+        },
+        {
+          "id": "1.1.4",
+          "name": "Irrigation Water Quality",
+          "line": 21160
+        },
+        {
+          "id": "2.0",
+          "name": "Introduction",
+          "line": 21220
+        },
+        {
+          "id": "8.64",
+          "name": "BD = ",
+          "line": 21237
+        },
+        {
+          "id": "2.1.1",
+          "name": "Irrigation Efficiencies",
+          "line": 21302
+        },
+        {
+          "id": "2.1.2",
+          "name": "Irrigation Requirement of Crop",
+          "line": 21322
+        },
+        {
+          "id": "2.1.3",
+          "name": "Water Logging and Reclamation of Saline Soils",
+          "line": 21364
+        },
+        {
+          "id": "2.1.4",
+          "name": "Canal Design",
+          "line": 21440
+        },
+        {
+          "id": "2.1.5",
+          "name": "Actual distinct of Tractive Force in Trapezoidal Channel",
+          "line": 21470
+        },
+        {
+          "id": "0.056",
+          "name": "(for 6 mm)( 1)",
+          "line": 21476
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 21510
+        },
+        {
+          "id": "0.640.55",
+          "name": "( )omV m y=",
+          "line": 21528
+        },
+        {
+          "id": "3.1.1",
+          "name": "Design Procedures",
+          "line": 21531
+        },
+        {
+          "id": "1.76",
+          "name": "mmfd=",
+          "line": 21568
+        },
+        {
+          "id": "3.1.2",
+          "name": "Lining of Canal",
+          "line": 21608
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 21756
+        },
+        {
+          "id": "0.3",
+          "name": "times depth below water surface.",
+          "line": 21840
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 21990
+        },
+        {
+          "id": "4.5",
+          "name": "to 9, Steady jump (45 to 70%)",
+          "line": 21996
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 22039
+        },
+        {
+          "id": "6.1.1",
+          "name": "US.B.R. Stilling Basin",
+          "line": 22041
+        },
+        {
+          "id": "6.1.2",
+          "name": "Indian Standards Stilling Basin",
+          "line": 22049
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 22129
+        },
+        {
+          "id": "7.1.1",
+          "name": "Canal Regulation Work",
+          "line": 22148
+        }
+      ],
+      "source_topic_count": 24,
+      "source_formula_count": 8
+    },
+    {
+      "num": 10,
+      "name": "Engineering Hydrology",
+      "start": 22204,
+      "end": 23892,
+      "gate_chapters": 9,
+      "content_lines": 1689,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 22216
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 22271
+        },
+        {
+          "id": "2.1.1",
+          "name": "Weather Systems of Precipitation",
+          "line": 22279
+        },
+        {
+          "id": "2.1.2",
+          "name": "Types of Gauges",
+          "line": 22304
+        },
+        {
+          "id": "2.2",
+          "name": "Adequacy of Rain gauge Stations",
+          "line": 22321
+        },
+        {
+          "id": "2.2.1",
+          "name": "Estimation of Missing Data",
+          "line": 22367
+        },
+        {
+          "id": "2.2.2",
+          "name": "Preparation of data",
+          "line": 22384
+        },
+        {
+          "id": "2.2.3",
+          "name": "Depth Area Duration (DAD) Relationship",
+          "line": 22457
+        },
+        {
+          "id": "2.3.4",
+          "name": "Depth Area Relation",
+          "line": 22459
+        },
+        {
+          "id": "2.2.5",
+          "name": "Frequency of Point Rainfalls",
+          "line": 22481
+        },
+        {
+          "id": "2.2.6",
+          "name": "Maximum intensity -duration frequency relationship",
+          "line": 22507
+        },
+        {
+          "id": "2.2.7",
+          "name": "Intensity Duration Frequency Curves",
+          "line": 22520
+        },
+        {
+          "id": "2.2.8",
+          "name": "Probable Maximum Precipitation",
+          "line": 22523
+        },
+        {
+          "id": "2.3",
+          "name": "World’s Greatest Observed Rainfall",
+          "line": 22534
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 22550
+        },
+        {
+          "id": "3.2",
+          "name": "Evaporation Measurement",
+          "line": 22575
+        },
+        {
+          "id": "3.2.1",
+          "name": "Evapotranspiration",
+          "line": 22634
+        },
+        {
+          "id": "3.3",
+          "name": "Interception, Depression Storage and Infiltration",
+          "line": 22678
+        },
+        {
+          "id": "3.3.1",
+          "name": "Interception :",
+          "line": 22679
+        },
+        {
+          "id": "3.3.2",
+          "name": "Infiltration",
+          "line": 22690
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 22754
+        },
+        {
+          "id": "4.1.1",
+          "name": "Runoff Characteristics of Storm",
+          "line": 22785
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 22868
+        },
+        {
+          "id": "0.85",
+          "name": "to 0.95",
+          "line": 22904
+        },
+        {
+          "id": "5.1.1",
+          "name": "Discharge Measurements",
+          "line": 22914
+        },
+        {
+          "id": "5.2",
+          "name": "Classification of Rivers",
+          "line": 23143
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 23160
+        },
+        {
+          "id": "6.1.1",
+          "name": "Factors Affecting Flood Hydrograph",
+          "line": 23170
+        },
+        {
+          "id": "6.1.2",
+          "name": "Catchment Factors",
+          "line": 23188
+        },
+        {
+          "id": "6.2",
+          "name": "Components of a Hydrograph",
+          "line": 23226
+        },
+        {
+          "id": "6.2.1",
+          "name": "Base flow separation",
+          "line": 23237
+        },
+        {
+          "id": "6.2.2",
+          "name": "Assumption (as proposed by Sherman)",
+          "line": 23252
+        },
+        {
+          "id": "6.2.3",
+          "name": "UH from Complex Storm",
+          "line": 23263
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 23359
+        },
+        {
+          "id": "7.1.1",
+          "name": "Estimation of design flood for a particular return period",
+          "line": 23475
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 23493
+        },
+        {
+          "id": "8.2",
+          "name": "Attenuation, lag and storage characteristics",
+          "line": 23568
+        },
+        {
+          "id": "8.3",
+          "name": "Hydrological Channel Routing",
+          "line": 23589
+        },
+        {
+          "id": "8.3.1",
+          "name": "Muskinghum Method of Channel Routing",
+          "line": 23592
+        },
+        {
+          "id": "8.4",
+          "name": "Reservoir Sedimentation",
+          "line": 23651
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 23674
+        },
+        {
+          "id": "9.1.1",
+          "name": "Storage Coefficient (or Storability) S",
+          "line": 23684
+        },
+        {
+          "id": "9.1.2",
+          "name": "Confined Flow → Flow Steady",
+          "line": 23708
+        },
+        {
+          "id": "9.1.3",
+          "name": "Recuperating Test (Open Well)",
+          "line": 23765
+        }
+      ],
+      "source_topic_count": 44,
+      "source_formula_count": 20
+    },
+    {
+      "num": 11,
+      "name": "Surveying",
+      "start": 23893,
+      "end": 26530,
+      "gate_chapters": 12,
+      "content_lines": 2638,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Definition of Surveying",
+          "line": 23906
+        },
+        {
+          "id": "1.2",
+          "name": "Important Terms",
+          "line": 23910
+        },
+        {
+          "id": "1.3",
+          "name": "Primary Divisions of Survey",
+          "line": 23919
+        },
+        {
+          "id": "1.4",
+          "name": "Classification of Survey",
+          "line": 23943
+        },
+        {
+          "id": "1.5",
+          "name": "Principles of Surveying",
+          "line": 23952
+        },
+        {
+          "id": "1.6",
+          "name": "Scales",
+          "line": 23962
+        },
+        {
+          "id": "2.1",
+          "name": "Instruments used in Chaining",
+          "line": 24120
+        },
+        {
+          "id": "2.2",
+          "name": "Survey lines and Survey stations:",
+          "line": 24170
+        },
+        {
+          "id": "2.3",
+          "name": "Linear Measurement with Chains",
+          "line": 24202
+        },
+        {
+          "id": "2.4",
+          "name": "Errors and corrections in Chainings",
+          "line": 24236
+        },
+        {
+          "id": "2.5",
+          "name": "Limiting Length of an Offset",
+          "line": 24436
+        },
+        {
+          "id": "3.1",
+          "name": "Important Terms",
+          "line": 24475
+        },
+        {
+          "id": "3.2",
+          "name": "Included Angles and Bearing",
+          "line": 24515
+        },
+        {
+          "id": "3.3",
+          "name": "Magnetic Declination and Dip",
+          "line": 24542
+        },
+        {
+          "id": "3.4",
+          "name": "Magnetic Compasses",
+          "line": 24575
+        },
+        {
+          "id": "4.1",
+          "name": "Classification of Theodolites",
+          "line": 24603
+        },
+        {
+          "id": "4.2",
+          "name": "Basic Definitions",
+          "line": 24608
+        },
+        {
+          "id": "4.3",
+          "name": "Temporary Adjustments",
+          "line": 24619
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 24634
+        },
+        {
+          "id": "5.2",
+          "name": "Methods of Traversing",
+          "line": 24639
+        },
+        {
+          "id": "5.3",
+          "name": "Latitude and Departure",
+          "line": 24670
+        },
+        {
+          "id": "5.4",
+          "name": "Closing Error",
+          "line": 24719
+        },
+        {
+          "id": "5.5",
+          "name": "Balancing the Transverse (Correcting the Closing Error)",
+          "line": 24740
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 24801
+        },
+        {
+          "id": "6.2",
+          "name": "Important Terms",
+          "line": 24805
+        },
+        {
+          "id": "6.3",
+          "name": "Methods of Levelling",
+          "line": 24839
+        },
+        {
+          "id": "7.1",
+          "name": "Important Terms",
+          "line": 25021
+        },
+        {
+          "id": "7.1.1",
+          "name": "Important Properties of Contours",
+          "line": 25037
+        },
+        {
+          "id": "8.1",
+          "name": "INTRODUCTION",
+          "line": 25069
+        },
+        {
+          "id": "8.2",
+          "name": "Measurements of Volumes",
+          "line": 25129
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 25156
+        },
+        {
+          "id": "9.1.1",
+          "name": "Stadia Method",
+          "line": 25162
+        },
+        {
+          "id": "10.1",
+          "name": "Introduction",
+          "line": 25270
+        },
+        {
+          "id": "10.2",
+          "name": "Important Terms",
+          "line": 25290
+        },
+        {
+          "id": "10.3",
+          "name": "Designation of a Curve",
+          "line": 25334
+        },
+        {
+          "id": "10.4",
+          "name": "The methods of setting out",
+          "line": 25363
+        },
+        {
+          "id": "11.1",
+          "name": "Introduction",
+          "line": 25434
+        },
+        {
+          "id": "11.2",
+          "name": "Scale of a vertical Photograph",
+          "line": 25440
+        },
+        {
+          "id": "11.3",
+          "name": "Relief Displacement on a Vertical Photograph",
+          "line": 25510
+        },
+        {
+          "id": "11.4",
+          "name": "Flight Planning from Aerial Photogrammetry",
+          "line": 25535
+        },
+        {
+          "id": "12.1",
+          "name": "Definition of important terms",
+          "line": 25602
+        },
+        {
+          "id": "12.2",
+          "name": "Sources of Errors",
+          "line": 25614
+        },
+        {
+          "id": "12.2.1",
+          "name": "Types of Errors",
+          "line": 25623
+        },
+        {
+          "id": "12.3",
+          "name": "Theory of Probability",
+          "line": 25648
+        },
+        {
+          "id": "12.4",
+          "name": "Significant figures in measurement",
+          "line": 25685
+        },
+        {
+          "id": "12.5",
+          "name": "Propagation of Error",
+          "line": 25697
+        },
+        {
+          "id": "12.6",
+          "name": "Weighted Observations",
+          "line": 25761
+        },
+        {
+          "id": "13.1",
+          "name": "Introduction",
+          "line": 25892
+        },
+        {
+          "id": "21.500",
+          "name": "km in 3 orbital planes",
+          "line": 25915
+        },
+        {
+          "id": "40.000",
+          "name": "km t 32.000 km in different orbital",
+          "line": 25919
+        },
+        {
+          "id": "13.2",
+          "name": "Components of User Segment",
+          "line": 25999
+        },
+        {
+          "id": "14.1",
+          "name": "Introductions",
+          "line": 26054
+        },
+        {
+          "id": "14.1.1",
+          "name": "Development of GIS",
+          "line": 26066
+        },
+        {
+          "id": "14.1.2",
+          "name": "Components of GIS",
+          "line": 26096
+        },
+        {
+          "id": "15.1",
+          "name": "Introduction",
+          "line": 26146
+        },
+        {
+          "id": "15.2",
+          "name": "Active & Passive Remote Sensing",
+          "line": 26190
+        },
+        {
+          "id": "15.2.1",
+          "name": "Principle behind Remote Sensing",
+          "line": 26198
+        },
+        {
+          "id": "15.3",
+          "name": "Electromagnetic Energy",
+          "line": 26231
+        },
+        {
+          "id": "15.3.1",
+          "name": "Electromagnetic Energy",
+          "line": 26238
+        },
+        {
+          "id": "15.4",
+          "name": "Image Interpretation",
+          "line": 26371
+        },
+        {
+          "id": "15.4.1",
+          "name": "Image Resolution",
+          "line": 26392
+        },
+        {
+          "id": "15.4.2",
+          "name": "Advantages of Remote Sensing",
+          "line": 26429
+        },
+        {
+          "id": "15.4.3",
+          "name": "Advantages of remote sensing",
+          "line": 26458
+        }
+      ],
+      "source_topic_count": 63,
+      "source_formula_count": 18
+    },
+    {
+      "num": 12,
+      "name": "Highway Engineering",
+      "start": 26531,
+      "end": 29526,
+      "gate_chapters": 4,
+      "content_lines": 2996,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Geometrical Design",
+          "line": 26544
+        },
+        {
+          "id": "1.2",
+          "name": "Unevenness Index",
+          "line": 26597
+        },
+        {
+          "id": "1.3",
+          "name": "Cross Sectional Elements",
+          "line": 26603
+        },
+        {
+          "id": "1.4",
+          "name": "Sight Distances :",
+          "line": 26692
+        },
+        {
+          "id": "0.4",
+          "name": "0.36 0.35",
+          "line": 26737
+        },
+        {
+          "id": "0.7",
+          "name": "sec.     6 m",
+          "line": 26769
+        },
+        {
+          "id": "1.5",
+          "name": "Horizontal Curve & Alignment",
+          "line": 26807
+        },
+        {
+          "id": "2.5",
+          "name": "0.42 2(3)",
+          "line": 26888
+        },
+        {
+          "id": "1.6",
+          "name": "Setback Distance (m)",
+          "line": 27118
+        },
+        {
+          "id": "1.7",
+          "name": "Multi-Lane Road",
+          "line": 27149
+        },
+        {
+          "id": "1.8",
+          "name": "Curve Resistance",
+          "line": 27223
+        },
+        {
+          "id": "1.9",
+          "name": "Transition Curves",
+          "line": 27232
+        },
+        {
+          "id": "1.9.1",
+          "name": "Types",
+          "line": 27243
+        },
+        {
+          "id": "1.10",
+          "name": "Setting of Transition  Curve",
+          "line": 27293
+        },
+        {
+          "id": "1.11",
+          "name": "Grade Compensation",
+          "line": 27311
+        },
+        {
+          "id": "1.11.1",
+          "name": "Vertical Alignment",
+          "line": 27330
+        },
+        {
+          "id": "1.11.2",
+          "name": "Length of Curve",
+          "line": 27441
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 27579
+        },
+        {
+          "id": "2.2",
+          "name": "Poisson Distribution Module",
+          "line": 27937
+        },
+        {
+          "id": "2.2.1",
+          "name": "Traffic Control and Regulation",
+          "line": 27955
+        },
+        {
+          "id": "2.2.2",
+          "name": "Intersection Control",
+          "line": 27998
+        },
+        {
+          "id": "2.3",
+          "name": "Types of all Red",
+          "line": 28350
+        },
+        {
+          "id": "2.4",
+          "name": "Delay Analyser",
+          "line": 28364
+        },
+        {
+          "id": "3.1",
+          "name": "Flexible Pavement",
+          "line": 28403
+        },
+        {
+          "id": "3.2",
+          "name": "Rigid Pavement",
+          "line": 28432
+        },
+        {
+          "id": "3.3",
+          "name": "Design of Flexible Pavement",
+          "line": 28597
+        },
+        {
+          "id": "0.2",
+          "name": "0.005 0.01GI a ac bd= + +",
+          "line": 28600
+        },
+        {
+          "id": "3.3.1",
+          "name": "CBR Method",
+          "line": 28618
+        },
+        {
+          "id": "3.3.2",
+          "name": "IRC Design Criteria",
+          "line": 28652
+        },
+        {
+          "id": "3.3.3",
+          "name": "Triaxial Method",
+          "line": 28720
+        },
+        {
+          "id": "3.3.4",
+          "name": "Burmister Method:",
+          "line": 28751
+        },
+        {
+          "id": "3.4",
+          "name": "Design of Rigid Pavement",
+          "line": 28798
+        },
+        {
+          "id": "3.4.1",
+          "name": "Radius of Relative Stiffness",
+          "line": 28837
+        },
+        {
+          "id": "0.316",
+          "name": "4 log 1.069I",
+          "line": 28866
+        },
+        {
+          "id": "0.572",
+          "name": "4 log 0.359E",
+          "line": 28874
+        },
+        {
+          "id": "3.5",
+          "name": "Transverse Joint",
+          "line": 28989
+        },
+        {
+          "id": "3.6",
+          "name": "Contraction Joint",
+          "line": 29004
+        },
+        {
+          "id": "3.7",
+          "name": "Longitudinal Joints",
+          "line": 29036
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 29150
+        },
+        {
+          "id": "0.125",
+          "name": "cmPK =→",
+          "line": 29199
+        },
+        {
+          "id": "4.2",
+          "name": "Aggregator",
+          "line": 29229
+        },
+        {
+          "id": "4.3",
+          "name": "Specific Gravity",
+          "line": 29299
+        },
+        {
+          "id": "4.3.1",
+          "name": "Apparent Specific Gravity",
+          "line": 29300
+        },
+        {
+          "id": "4.4",
+          "name": "Bitumen",
+          "line": 29309
+        },
+        {
+          "id": "4.4.1",
+          "name": "Testing of Bitumen",
+          "line": 29313
+        },
+        {
+          "id": "4.4.2",
+          "name": "Cutback Bitumen",
+          "line": 29355
+        },
+        {
+          "id": "4.5.1",
+          "name": "Types of Mix",
+          "line": 29395
+        },
+        {
+          "id": "4.5.2",
+          "name": "Requirements of mix",
+          "line": 29414
+        },
+        {
+          "id": "4.5.3",
+          "name": "Plots",
+          "line": 29465
+        },
+        {
+          "id": "4.6",
+          "name": "EXTRA: ASPHALT PAVEMENT FAILURES",
+          "line": 29477
+        }
+      ],
+      "source_topic_count": 50,
+      "source_formula_count": 13
+    },
+    {
+      "num": 13,
+      "name": "Airport Engineering",
+      "start": 29527,
+      "end": 30151,
+      "gate_chapters": 10,
+      "content_lines": 625,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 29539
+        },
+        {
+          "id": "1.1.1",
+          "name": "Aircraft Components",
+          "line": 29542
+        },
+        {
+          "id": "2.1",
+          "name": "Introduction",
+          "line": 29584
+        },
+        {
+          "id": "3.1",
+          "name": "Runway Design",
+          "line": 29615
+        },
+        {
+          "id": "3.2",
+          "name": "Basic Runway Length",
+          "line": 29643
+        },
+        {
+          "id": "3.3",
+          "name": "Geometric design of Runway",
+          "line": 29688
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 29732
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 29776
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 29881
+        },
+        {
+          "id": "6.2",
+          "name": "Harbour Layout Elements",
+          "line": 29899
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 29946
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 29995
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 30028
+        },
+        {
+          "id": "10.1",
+          "name": "Introduction",
+          "line": 30061
+        },
+        {
+          "id": "10.1.1",
+          "name": "Advantages of Tunnel",
+          "line": 30064
+        }
+      ],
+      "source_topic_count": 15,
+      "source_formula_count": 8
+    },
+    {
+      "num": 14,
+      "name": "Railway Engineering",
+      "start": 30152,
+      "end": 30889,
+      "gate_chapters": 10,
+      "content_lines": 738,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 30165
+        },
+        {
+          "id": "1.1.1",
+          "name": "Permanent Way OR Railway Track",
+          "line": 30187
+        },
+        {
+          "id": "1.2",
+          "name": "Introduction",
+          "line": 30239
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 30285
+        },
+        {
+          "id": "3.1.1",
+          "name": "Depth of Ballast-Section",
+          "line": 30298
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 30334
+        },
+        {
+          "id": "0.14",
+          "name": "2 sin=    MHammer blow n g",
+          "line": 30342
+        },
+        {
+          "id": "4.1.1",
+          "name": "Inertia of Reciprocating Forces",
+          "line": 30359
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 30424
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 30563
+        },
+        {
+          "id": "7.1",
+          "name": "Track Junctions",
+          "line": 30674
+        },
+        {
+          "id": "7.2",
+          "name": "Design of Cross-Over",
+          "line": 30687
+        },
+        {
+          "id": "7.2.1",
+          "name": "Design of Diamond Crossing",
+          "line": 30716
+        },
+        {
+          "id": "8.1",
+          "name": "Introduction",
+          "line": 30737
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 30773
+        },
+        {
+          "id": "10.1",
+          "name": "Introduction",
+          "line": 30803
+        },
+        {
+          "id": "0.0002",
+          "name": "WD 4 For NG",
+          "line": 30820
+        }
+      ],
+      "source_topic_count": 17,
+      "source_formula_count": 13
+    },
+    {
+      "num": 15,
+      "name": "Construction Project Management",
+      "start": 30890,
+      "end": 32298,
+      "gate_chapters": 10,
+      "content_lines": 1409,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Objective of Project",
+          "line": 30897
+        },
+        {
+          "id": "1.2",
+          "name": "Methods of Project Management",
+          "line": 30927
+        }
+      ],
+      "source_topic_count": 2,
+      "source_formula_count": 20
+    },
+    {
+      "num": 16,
+      "name": "Building Materials & Construction",
+      "start": 32299,
+      "end": 33693,
+      "gate_chapters": 7,
+      "content_lines": 1395,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 32303
+        },
+        {
+          "id": "1.1.1",
+          "name": "Chemical Composition of Raw Materials",
+          "line": 32306
+        },
+        {
+          "id": "1.1.2",
+          "name": "Hydration of Cement",
+          "line": 32347
+        },
+        {
+          "id": "1.1.3",
+          "name": "Types of Cement",
+          "line": 32376
+        },
+        {
+          "id": "1.1.4",
+          "name": "Testing of Cement",
+          "line": 32433
+        },
+        {
+          "id": "2.1",
+          "name": "Introdution",
+          "line": 32547
+        },
+        {
+          "id": "2.2",
+          "name": "Measurement of Workability",
+          "line": 32716
+        },
+        {
+          "id": "3.1",
+          "name": "Introduction",
+          "line": 32926
+        },
+        {
+          "id": "3.1.1",
+          "name": "Characteristics of Aggregate",
+          "line": 32959
+        },
+        {
+          "id": "2.36",
+          "name": "mm, 4.75 mm, 10 mm, 12.5 mm, 20 mm, 63 m and 80 mm.",
+          "line": 33006
+        },
+        {
+          "id": "4.1",
+          "name": "Introduction",
+          "line": 33063
+        },
+        {
+          "id": "4.1.1",
+          "name": "Dimensions of Brick",
+          "line": 33064
+        },
+        {
+          "id": "4.1.2",
+          "name": "Properties of Good Brick",
+          "line": 33109
+        },
+        {
+          "id": "5.1",
+          "name": "Introduction",
+          "line": 33320
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 33376
+        },
+        {
+          "id": "6.1.1",
+          "name": "Selection of Mortar",
+          "line": 33400
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 33427
+        },
+        {
+          "id": "7.1.1",
+          "name": "Comparison of softwood and Hardwood",
+          "line": 33430
+        },
+        {
+          "id": "7.1.2",
+          "name": "Structure of Timber",
+          "line": 33453
+        },
+        {
+          "id": "7.1.3",
+          "name": "Properties of Timber",
+          "line": 33465
+        },
+        {
+          "id": "7.2",
+          "name": "Preservation of Timber (IS: 401)",
+          "line": 33561
+        },
+        {
+          "id": "7.2.1",
+          "name": "Requirements of Good Preservative",
+          "line": 33566
+        },
+        {
+          "id": "7.2.2",
+          "name": "Methods of Treatment (IS: 401)",
+          "line": 33590
+        },
+        {
+          "id": "7.3",
+          "name": "Natural Artificial",
+          "line": 33640
+        }
+      ],
+      "source_topic_count": 24,
+      "source_formula_count": 1
+    },
+    {
+      "num": 17,
+      "name": "Engineering Mathematics",
+      "start": 33694,
+      "end": 36879,
+      "gate_chapters": 7,
+      "content_lines": 3186,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Introduction",
+          "line": 33697
+        },
+        {
+          "id": "1.1.1",
+          "name": "Limits, Continuity and Differentiability",
+          "line": 33698
+        },
+        {
+          "id": "1.2",
+          "name": "Mean Value Theorems",
+          "line": 34009
+        },
+        {
+          "id": "1.2.1",
+          "name": "Lagrange’s Mean Value Theorem (LMVT):",
+          "line": 34010
+        },
+        {
+          "id": "1.2.2",
+          "name": "Rolle’s Mean Value Theorem",
+          "line": 34024
+        },
+        {
+          "id": "1.2.3",
+          "name": "Cauchy’s Mean Value Theorem",
+          "line": 34029
+        },
+        {
+          "id": "1.3",
+          "name": "Increasing and Decreasing Functions",
+          "line": 34036
+        },
+        {
+          "id": "1.3.1",
+          "name": "Increasing Functions",
+          "line": 34037
+        },
+        {
+          "id": "1.3.2",
+          "name": "Decreasing Functions",
+          "line": 34051
+        },
+        {
+          "id": "1.4",
+          "name": "Concept of Maxima and Minima",
+          "line": 34057
+        },
+        {
+          "id": "1.5",
+          "name": "Taylor Series",
+          "line": 34077
+        },
+        {
+          "id": "1.6",
+          "name": "Integral Calculus",
+          "line": 34120
+        },
+        {
+          "id": "1.6.1",
+          "name": "Mean Value Theorem of Integration",
+          "line": 34130
+        },
+        {
+          "id": "1.7",
+          "name": "Newton-Leibnitz Rule",
+          "line": 34144
+        },
+        {
+          "id": "1.8",
+          "name": "Some Standard Integrals",
+          "line": 34156
+        },
+        {
+          "id": "1.9",
+          "name": "Properties of Definite Integrals",
+          "line": 34206
+        },
+        {
+          "id": "1.10",
+          "name": "Length of a Curve",
+          "line": 34310
+        },
+        {
+          "id": "1.11",
+          "name": "Surface Area of Solid generated by revolving a curve about a fixed axis.",
+          "line": 34321
+        },
+        {
+          "id": "1.12",
+          "name": "Volume of the solid",
+          "line": 34339
+        },
+        {
+          "id": "1.13",
+          "name": "Gamma Function",
+          "line": 34357
+        },
+        {
+          "id": "1.13.1",
+          "name": "Properties of Gamma Function",
+          "line": 34362
+        },
+        {
+          "id": "1.14",
+          "name": "Beta Function",
+          "line": 34370
+        },
+        {
+          "id": "1.14.1",
+          "name": "Properties of  function",
+          "line": 34373
+        },
+        {
+          "id": "1.15",
+          "name": "Area under the curves",
+          "line": 34402
+        },
+        {
+          "id": "1.16",
+          "name": "Multi Variable Calculus",
+          "line": 34414
+        },
+        {
+          "id": "2.1",
+          "name": "Differential Equation",
+          "line": 34559
+        },
+        {
+          "id": "2.1.1",
+          "name": "Ordinary Differential Equations (ODE)",
+          "line": 34574
+        },
+        {
+          "id": "2.1.2",
+          "name": "Partial Differential Equations",
+          "line": 34582
+        },
+        {
+          "id": "2.1.3",
+          "name": "Order and Degree of a Differential Equation",
+          "line": 34604
+        },
+        {
+          "id": "2.1.4",
+          "name": "Degree of a Differential Equation",
+          "line": 34642
+        },
+        {
+          "id": "2.2",
+          "name": "Formation of Differential Equations",
+          "line": 34683
+        },
+        {
+          "id": "2.2.1",
+          "name": "First Order DE",
+          "line": 34693
+        },
+        {
+          "id": "2.2.2",
+          "name": "Linear ODE:",
+          "line": 34710
+        },
+        {
+          "id": "2.3",
+          "name": "Solving of Differential Equations",
+          "line": 34754
+        },
+        {
+          "id": "2.3.1",
+          "name": "Solving of 1st Order DE",
+          "line": 34755
+        },
+        {
+          "id": "2.3.2",
+          "name": "Exact Differential Equations",
+          "line": 34796
+        },
+        {
+          "id": "2.3.3",
+          "name": "Methods of Writing the Integrating Factors (I.F.)",
+          "line": 34818
+        },
+        {
+          "id": "2.3.4",
+          "name": "Leibnitz Linear Equation",
+          "line": 34839
+        },
+        {
+          "id": "2.3.5",
+          "name": "Non-linear Equations Convertible to Leibnitz Linear Form",
+          "line": 34851
+        },
+        {
+          "id": "2.3.6",
+          "name": "Applications of 1st order DE",
+          "line": 34904
+        },
+        {
+          "id": "2.4",
+          "name": "Higher Order Differential Equations",
+          "line": 34944
+        },
+        {
+          "id": "2.5",
+          "name": "Higher Order Linear Differential Equations with Constant Coefficients",
+          "line": 34958
+        },
+        {
+          "id": "2.5.1",
+          "name": "Solution of Higher order Linear Differential Equation",
+          "line": 34970
+        },
+        {
+          "id": "2.5.2",
+          "name": "Rules for Writing the Complete Solution of (𝒇(𝑫))𝒚 = 𝑿:",
+          "line": 34987
+        },
+        {
+          "id": "2.5.3",
+          "name": "Rules for Writing the Complementary Function",
+          "line": 34994
+        },
+        {
+          "id": "2.5.4",
+          "name": "Rules for writing the particular Integral",
+          "line": 35009
+        },
+        {
+          "id": "2.6",
+          "name": "Method of Variation of Parameters",
+          "line": 35155
+        },
+        {
+          "id": "2.7",
+          "name": "Euler Cauchy Equation (Higher order linear DE with Variable Coefficients)",
+          "line": 35170
+        },
+        {
+          "id": "2.7.1",
+          "name": "Procedure to solve Euler Cauchy Equations",
+          "line": 35180
+        },
+        {
+          "id": "2.8",
+          "name": "Partial differential equation",
+          "line": 35219
+        },
+        {
+          "id": "2.8.1",
+          "name": "The general form of a 2nd order Partial differential equation",
+          "line": 35220
+        },
+        {
+          "id": "2.9",
+          "name": "Heat Equation",
+          "line": 35236
+        },
+        {
+          "id": "2.10.1",
+          "name": "Possible solution of Laplace equation",
+          "line": 35254
+        },
+        {
+          "id": "3.1",
+          "name": "Vector Product / Cross Product",
+          "line": 35277
+        },
+        {
+          "id": "3.2",
+          "name": "Dot / Scalar Product",
+          "line": 35289
+        },
+        {
+          "id": "3.3",
+          "name": "Differentiation of Vector Point functions",
+          "line": 35318
+        },
+        {
+          "id": "3.3.1",
+          "name": "Differentiation of Product of two vectors",
+          "line": 35335
+        },
+        {
+          "id": "3.4",
+          "name": "Del operator",
+          "line": 35356
+        },
+        {
+          "id": "3.4.1",
+          "name": "Gradient of a Scalar Point Function",
+          "line": 35371
+        },
+        {
+          "id": "3.5",
+          "name": "Directional Derivative",
+          "line": 35427
+        },
+        {
+          "id": "3.5.1",
+          "name": "Del operated-on Vector Point functions",
+          "line": 35453
+        },
+        {
+          "id": "3.6",
+          "name": "Vector Integration",
+          "line": 35513
+        },
+        {
+          "id": "3.6.1",
+          "name": "Line Integrals",
+          "line": 35514
+        },
+        {
+          "id": "3.6.2",
+          "name": "Surface Integral",
+          "line": 35546
+        },
+        {
+          "id": "3.6.3",
+          "name": "Volume Integral",
+          "line": 35559
+        },
+        {
+          "id": "3.6.4",
+          "name": "Greens Theorem: (Connects closed line Integral to surface Integral)",
+          "line": 35565
+        },
+        {
+          "id": "3.6.5",
+          "name": "Gauss – Divergence Theorem: (Connects closed surface integral to a Volume Integral)",
+          "line": 35580
+        },
+        {
+          "id": "3.6.7",
+          "name": "Stokes Theorem: (Connect Closed line integral to surface Integral)",
+          "line": 35588
+        },
+        {
+          "id": "4.1.1",
+          "name": "Size of Matrix",
+          "line": 35608
+        },
+        {
+          "id": "4.1.2",
+          "name": "Addition of Matrices",
+          "line": 35628
+        },
+        {
+          "id": "4.1.3",
+          "name": "Multiplication of Matrices",
+          "line": 35633
+        },
+        {
+          "id": "4.1.4",
+          "name": "Properties of Multiplication of Matrices",
+          "line": 35662
+        },
+        {
+          "id": "4.2",
+          "name": "Types of Matrices",
+          "line": 35674
+        },
+        {
+          "id": "4.3",
+          "name": "Transpose of a Matrix",
+          "line": 35716
+        },
+        {
+          "id": "4.3.1",
+          "name": "Properties of Transpose of a Matrix",
+          "line": 35719
+        },
+        {
+          "id": "4.4",
+          "name": "Determinant",
+          "line": 35723
+        },
+        {
+          "id": "4.4.1",
+          "name": "Properties of Determinants",
+          "line": 35726
+        },
+        {
+          "id": "4.5",
+          "name": "Rank of a Matrix",
+          "line": 35754
+        },
+        {
+          "id": "4.5.1",
+          "name": "Properties of Rank of a Matrix",
+          "line": 35760
+        },
+        {
+          "id": "4.5.2",
+          "name": "Row Echleon Form",
+          "line": 35764
+        },
+        {
+          "id": "4.6.1",
+          "name": "Consistency of a non-homogeneous system of Equations",
+          "line": 35814
+        },
+        {
+          "id": "4.6.2",
+          "name": "Consistency of Homogeneous System of Equations",
+          "line": 35824
+        },
+        {
+          "id": "4.7",
+          "name": "Linear Combination of Vectors",
+          "line": 35852
+        },
+        {
+          "id": "4.7.1",
+          "name": "Eigen Values and Eigen Vectors",
+          "line": 35866
+        },
+        {
+          "id": "4.7.2",
+          "name": "Properties of Eigen Values",
+          "line": 35875
+        },
+        {
+          "id": "4.8.1",
+          "name": "Properties of Eigen Vectors",
+          "line": 35918
+        },
+        {
+          "id": "4.8.2",
+          "name": "Cayley Hamilton Theorem",
+          "line": 35923
+        },
+        {
+          "id": "5.1",
+          "name": "Random Experiment",
+          "line": 35936
+        },
+        {
+          "id": "5.1.1",
+          "name": "Sample Space",
+          "line": 35939
+        },
+        {
+          "id": "5.2",
+          "name": "Event",
+          "line": 35943
+        },
+        {
+          "id": "5.2.1",
+          "name": "Probability of an Event",
+          "line": 35947
+        },
+        {
+          "id": "5.2.2",
+          "name": "Axioms Probability",
+          "line": 35960
+        },
+        {
+          "id": "5.2.3",
+          "name": "Types of Events",
+          "line": 35974
+        },
+        {
+          "id": "5.3",
+          "name": "Addition Theorem of Probability",
+          "line": 36005
+        },
+        {
+          "id": "5.3.1",
+          "name": "Conditional Probability",
+          "line": 36020
+        },
+        {
+          "id": "5.3.2",
+          "name": "Multiplication Theorem of Probability",
+          "line": 36026
+        },
+        {
+          "id": "5.3.3",
+          "name": "Total Theorem of Probability",
+          "line": 36042
+        },
+        {
+          "id": "5.3.4",
+          "name": "Baye's Theorem",
+          "line": 36056
+        },
+        {
+          "id": "5.4",
+          "name": "Statistics",
+          "line": 36066
+        },
+        {
+          "id": "5.4.1",
+          "name": "Analysis of Ungrouped Data",
+          "line": 36069
+        },
+        {
+          "id": "5.4.2",
+          "name": "Median",
+          "line": 36096
+        },
+        {
+          "id": "5.4.4",
+          "name": "Absolute Mean Deviation",
+          "line": 36129
+        },
+        {
+          "id": "5.4.5",
+          "name": "Standard Deviation",
+          "line": 36134
+        },
+        {
+          "id": "5.5",
+          "name": "Random Variables",
+          "line": 36148
+        },
+        {
+          "id": "5.5.1",
+          "name": "Continuous RV",
+          "line": 36160
+        },
+        {
+          "id": "5.6",
+          "name": "Probability distribution Function (Pdf)",
+          "line": 36162
+        },
+        {
+          "id": "5.6.1",
+          "name": "Mean (or) Expectation",
+          "line": 36167
+        },
+        {
+          "id": "5.6.2",
+          "name": "Median",
+          "line": 36173
+        },
+        {
+          "id": "5.6.4",
+          "name": "Variance",
+          "line": 36179
+        },
+        {
+          "id": "5.7",
+          "name": "Continous RV Distributions",
+          "line": 36195
+        },
+        {
+          "id": "5.7.1",
+          "name": "Properties of Mean and Variance",
+          "line": 36259
+        },
+        {
+          "id": "5.8",
+          "name": "Discrete Random Variable Distributions",
+          "line": 36287
+        },
+        {
+          "id": "5.8.1",
+          "name": "Binomial Distribution",
+          "line": 36288
+        },
+        {
+          "id": "5.8.2",
+          "name": "Poisson Distribution",
+          "line": 36298
+        },
+        {
+          "id": "6.1",
+          "name": "Solving System of Linear Equations",
+          "line": 36362
+        },
+        {
+          "id": "6.1.1",
+          "name": "Gauss Elimination Method",
+          "line": 36363
+        },
+        {
+          "id": "6.2",
+          "name": "Solution of Algebraic Equations (Non-Linear)",
+          "line": 36429
+        },
+        {
+          "id": "6.2.1",
+          "name": "Bracketing Methods",
+          "line": 36430
+        },
+        {
+          "id": "6.2.2",
+          "name": "Newton Raphson Method",
+          "line": 36443
+        },
+        {
+          "id": "6.2.3",
+          "name": "Rate of Convergence Values of iterative Methods",
+          "line": 36450
+        },
+        {
+          "id": "6.3",
+          "name": "Numerical Integration",
+          "line": 36455
+        },
+        {
+          "id": "6.3.1",
+          "name": "Trapezoidal Rule",
+          "line": 36456
+        },
+        {
+          "id": "6.3.2",
+          "name": "Simpson's 1/3rd Rule",
+          "line": 36483
+        },
+        {
+          "id": "6.4",
+          "name": "Numerical Solutions of a 1st Order DE",
+          "line": 36500
+        },
+        {
+          "id": "6.4.1",
+          "name": "Explicit Euler Method (or) Forward Euler Method",
+          "line": 36501
+        },
+        {
+          "id": "6.4.2",
+          "name": "Implicit Euler Metohd (or) Backward Euler Method",
+          "line": 36524
+        },
+        {
+          "id": "6.4.3",
+          "name": "Modified Euler Method",
+          "line": 36549
+        },
+        {
+          "id": "6.4.4",
+          "name": "Runge – Kutta (R-K)  Methods",
+          "line": 36561
+        },
+        {
+          "id": "7.1",
+          "name": "Modulus – Amplitude form of a Complex Number",
+          "line": 36610
+        },
+        {
+          "id": "7.2",
+          "name": "Arithmetic Operations with Complex Numbers",
+          "line": 36621
+        },
+        {
+          "id": "7.3",
+          "name": "De-moivers Theorem",
+          "line": 36671
+        },
+        {
+          "id": "7.4",
+          "name": "Standard Complex Functions",
+          "line": 36687
+        },
+        {
+          "id": "7.5",
+          "name": "Periodic function",
+          "line": 36695
+        },
+        {
+          "id": "7.5.1",
+          "name": "Analytic Functions",
+          "line": 36698
+        },
+        {
+          "id": "7.6",
+          "name": "Comp lex Integration",
+          "line": 36745
+        },
+        {
+          "id": "7.6.1",
+          "name": "Cauchy Integral Theorem",
+          "line": 36756
+        },
+        {
+          "id": "7.6.2",
+          "name": "Cauchy Integral formula",
+          "line": 36773
+        },
+        {
+          "id": "7.7",
+          "name": "Taylor Series and Laurentz Series",
+          "line": 36795
+        }
+      ],
+      "source_topic_count": 138,
+      "source_formula_count": 8
+    },
+    {
+      "num": 18,
+      "name": "General Aptitude",
+      "start": 36880,
+      "end": 37734,
+      "gate_chapters": 12,
+      "content_lines": 855,
+      "source_topics": [
+        {
+          "id": "1.1",
+          "name": "Understanding Percentages",
+          "line": 36884
+        },
+        {
+          "id": "1.2",
+          "name": "Calculation of Percentage",
+          "line": 36897
+        },
+        {
+          "id": "1.2.1",
+          "name": "Calculation of Value:",
+          "line": 36907
+        },
+        {
+          "id": "1.3",
+          "name": "Percentages – Fractions Conversions:",
+          "line": 36926
+        },
+        {
+          "id": "1.4",
+          "name": "Percentage Change",
+          "line": 36980
+        },
+        {
+          "id": "1.5",
+          "name": "Percentage Difference",
+          "line": 36990
+        },
+        {
+          "id": "1.6",
+          "name": "Important Points to Note",
+          "line": 37008
+        },
+        {
+          "id": "2.1",
+          "name": "What is Average?",
+          "line": 37062
+        },
+        {
+          "id": "3.1",
+          "name": "What is Profit?",
+          "line": 37095
+        },
+        {
+          "id": "3.2",
+          "name": "What is Loss?",
+          "line": 37100
+        },
+        {
+          "id": "3.3",
+          "name": "Cost Price (CP)",
+          "line": 37104
+        },
+        {
+          "id": "3.4",
+          "name": "Selling Price (SP)",
+          "line": 37108
+        },
+        {
+          "id": "3.5",
+          "name": "Marked/Market/List Price (MP):",
+          "line": 37112
+        },
+        {
+          "id": "3.6",
+          "name": "Discount",
+          "line": 37115
+        },
+        {
+          "id": "3.7",
+          "name": "Relationship Among CP, SP and MP:",
+          "line": 37126
+        },
+        {
+          "id": "3.8",
+          "name": "Understanding Profit and Loss:",
+          "line": 37132
+        },
+        {
+          "id": "3.9",
+          "name": "Multiple Profits or Losses",
+          "line": 37150
+        },
+        {
+          "id": "4.1",
+          "name": "What is a Ratio?",
+          "line": 37193
+        },
+        {
+          "id": "5.1",
+          "name": "Speed",
+          "line": 37232
+        },
+        {
+          "id": "5.1.1",
+          "name": "Units of Speed",
+          "line": 37240
+        },
+        {
+          "id": "5.1.2",
+          "name": "Average Speed",
+          "line": 37245
+        },
+        {
+          "id": "6.1",
+          "name": "Introduction",
+          "line": 37316
+        },
+        {
+          "id": "7.1",
+          "name": "Introduction",
+          "line": 37386
+        },
+        {
+          "id": "5.5",
+          "name": "11 11== min .",
+          "line": 37425
+        },
+        {
+          "id": "8.1",
+          "name": "Calendars",
+          "line": 37457
+        },
+        {
+          "id": "8.2",
+          "name": "Working Rules",
+          "line": 37501
+        },
+        {
+          "id": "9.1",
+          "name": "Introduction",
+          "line": 37552
+        },
+        {
+          "id": "10.1",
+          "name": "Introduction",
+          "line": 37581
+        },
+        {
+          "id": "11.1",
+          "name": "Data Interpretation",
+          "line": 37624
+        },
+        {
+          "id": "11.2",
+          "name": "Types of Data Interpretation:",
+          "line": 37632
+        },
+        {
+          "id": "11.2.1",
+          "name": "Tables",
+          "line": 37638
+        },
+        {
+          "id": "11.2.2",
+          "name": "Line Graph",
+          "line": 37666
+        },
+        {
+          "id": "11.2.3",
+          "name": "Bar Graph",
+          "line": 37676
+        },
+        {
+          "id": "11.2.4",
+          "name": "Pie Chart",
+          "line": 37684
+        },
+        {
+          "id": "12.1",
+          "name": "Introduction",
+          "line": 37697
+        }
+      ],
+      "source_topic_count": 35,
+      "source_formula_count": 1
+    }
+  ],
+  "repository_coverage": {
+    "Engineering Mechanics": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Strength of Materials": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Structural Analysis": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Reinforced Cement Concrete": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Steel Structures": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Environmental Engineering": {
+      "files": [
+        "core\\environmental\\environmental-engineering.md",
+        "core\\hwre\\wastewater\\wastewater-engineering.md",
+        "software-and-tech\\environmental\\environmental-tech.md"
+      ],
+      "file_count": 3,
+      "total_lines": 1054,
+      "total_chars": 39168
+    },
+    "Geotechnical Engineering": {
+      "files": [
+        "core\\fundamentals\\civil-engineering-foundations.md",
+        "core\\geotechnical\\geotechnical.md",
+        "software-and-tech\\geotechnical\\geotechnical-tech.md"
+      ],
+      "file_count": 3,
+      "total_lines": 688,
+      "total_chars": 24742
+    },
+    "Fluid Mechanics": {
+      "files": [
+        "core\\hwre\\hydraulics\\hydraulics.md",
+        "core\\hwre\\hydraulics\\turbulence-modeling.md"
+      ],
+      "file_count": 2,
+      "total_lines": 968,
+      "total_chars": 46846
+    },
+    "Irrigation Engineering": {
+      "files": [
+        "core\\hwre\\irrigation\\irrigation-engineering.md"
+      ],
+      "file_count": 1,
+      "total_lines": 433,
+      "total_chars": 18859
+    },
+    "Engineering Hydrology": {
+      "files": [
+        "core\\hwre\\hydrology\\hydrology.md",
+        "core\\hwre\\hydrology\\sediment-transport.md",
+        "core\\hwre\\water_resources\\water-resources-engineering.md",
+        "software-and-tech\\hydrology\\hydrology-tech.md"
+      ],
+      "file_count": 4,
+      "total_lines": 1631,
+      "total_chars": 76290
+    },
+    "Surveying": {
+      "files": [
+        "core\\geoinformatics\\geoinformatics.md"
+      ],
+      "file_count": 1,
+      "total_lines": 779,
+      "total_chars": 34285
+    },
+    "Highway Engineering": {
+      "files": [
+        "core\\transportation\\transportation-engineering.md",
+        "core\\transportation\\transportation-software.md",
+        "software-and-tech\\transportation\\transportation-tech.md"
+      ],
+      "file_count": 3,
+      "total_lines": 869,
+      "total_chars": 29945
+    },
+    "Airport Engineering": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Railway Engineering": {
+      "files": [],
+      "file_count": 0,
+      "total_lines": 0,
+      "total_chars": 0
+    },
+    "Construction Project Management": {
+      "files": [
+        "software-and-tech\\construction\\construction-tech.md"
+      ],
+      "file_count": 1,
+      "total_lines": 177,
+      "total_chars": 5758
+    },
+    "Building Materials & Construction": {
+      "files": [
+        "docs\\placement-control-panel.md",
+        "non-core\\placement-roadmap.md",
+        "resources\\placement-data.md"
+      ],
+      "file_count": 3,
+      "total_lines": 544,
+      "total_chars": 27940
+    },
+    "Engineering Mathematics": {
+      "files": [
+        "non-core\\aptitude\\quantitative\\probability.md",
+        "non-core\\data-analyst\\statistics-practice.md"
+      ],
+      "file_count": 2,
+      "total_lines": 483,
+      "total_chars": 14958
+    },
+    "General Aptitude": {
+      "files": [
+        "non-core\\aptitude\\logical_reasoning\\reasoning-practice.md",
+        "non-core\\aptitude\\quantitative\\aptitude-basics.md",
+        "non-core\\aptitude\\quantitative\\averages.md",
+        "non-core\\aptitude\\quantitative\\data-interpretation.md",
+        "non-core\\aptitude\\quantitative\\number-system.md",
+        "non-core\\aptitude\\quantitative\\partnership.md",
+        "non-core\\aptitude\\quantitative\\percentages.md",
+        "non-core\\aptitude\\quantitative\\permutations-combinations.md",
+        "non-core\\aptitude\\quantitative\\probability.md",
+        "non-core\\aptitude\\quantitative\\problems-on-ages.md",
+        "non-core\\aptitude\\quantitative\\problems-on-train.md",
+        "non-core\\aptitude\\quantitative\\profit-loss-discount.md",
+        "non-core\\aptitude\\quantitative\\ratio-proportion.md",
+        "non-core\\aptitude\\quantitative\\speed-time-distance.md",
+        "non-core\\aptitude\\quantitative\\time-work.md",
+        "non-core\\aptitude\\shortcuts\\aptitude-shortcuts.md",
+        "non-core\\aptitude\\verbal\\verbal-ability.md",
+        "non-core\\common\\aptitude-bridge.md"
+      ],
+      "file_count": 18,
+      "total_lines": 3409,
+      "total_chars": 123175
+    }
+  },
+  "gap_matrix": [
+    {
+      "subject": "Engineering Mechanics",
+      "source_topics": 25,
+      "source_formulas": 8,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Strength of Materials",
+      "source_topics": 15,
+      "source_formulas": 19,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Structural Analysis",
+      "source_topics": 62,
+      "source_formulas": 19,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Reinforced Cement Concrete",
+      "source_topics": 23,
+      "source_formulas": 5,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Steel Structures",
+      "source_topics": 60,
+      "source_formulas": 12,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Environmental Engineering",
+      "source_topics": 31,
+      "source_formulas": 19,
+      "repo_files": 3,
+      "repo_lines": 1054,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Geotechnical Engineering",
+      "source_topics": 5,
+      "source_formulas": 27,
+      "repo_files": 3,
+      "repo_lines": 688,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Fluid Mechanics",
+      "source_topics": 24,
+      "source_formulas": 12,
+      "repo_files": 2,
+      "repo_lines": 968,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Irrigation Engineering",
+      "source_topics": 24,
+      "source_formulas": 8,
+      "repo_files": 1,
+      "repo_lines": 433,
+      "depth": "THIN",
+      "action": "DEEPEN"
+    },
+    {
+      "subject": "Engineering Hydrology",
+      "source_topics": 44,
+      "source_formulas": 20,
+      "repo_files": 4,
+      "repo_lines": 1631,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Surveying",
+      "source_topics": 63,
+      "source_formulas": 18,
+      "repo_files": 1,
+      "repo_lines": 779,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Highway Engineering",
+      "source_topics": 50,
+      "source_formulas": 13,
+      "repo_files": 3,
+      "repo_lines": 869,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Airport Engineering",
+      "source_topics": 15,
+      "source_formulas": 8,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Railway Engineering",
+      "source_topics": 17,
+      "source_formulas": 13,
+      "repo_files": 0,
+      "repo_lines": 0,
+      "depth": "NONE",
+      "action": "ADD"
+    },
+    {
+      "subject": "Construction Project Management",
+      "source_topics": 2,
+      "source_formulas": 20,
+      "repo_files": 1,
+      "repo_lines": 177,
+      "depth": "THIN",
+      "action": "DEEPEN"
+    },
+    {
+      "subject": "Building Materials & Construction",
+      "source_topics": 24,
+      "source_formulas": 1,
+      "repo_files": 3,
+      "repo_lines": 544,
+      "depth": "MODERATE",
+      "action": "KEEP"
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "source_topics": 138,
+      "source_formulas": 8,
+      "repo_files": 2,
+      "repo_lines": 483,
+      "depth": "THIN",
+      "action": "DEEPEN"
+    },
+    {
+      "subject": "General Aptitude",
+      "source_topics": 35,
+      "source_formulas": 1,
+      "repo_files": 18,
+      "repo_lines": 3409,
+      "depth": "DEEP",
+      "action": "KEEP"
+    }
+  ]
+}

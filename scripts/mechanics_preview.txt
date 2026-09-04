@@ -1,0 +1,1192 @@
+=== ENGINEERING MECHANICS CHAPTER EXTRACTION ===
+Source lines: 1-1189 (1189 lines)
+
+
+
+L3: ===== Page 1 / 947 =====
+L4: O PEDIAPEDIAPEDIAGATE
+L5: GATE
+L6: CIVIL ENGINEERING
+
+
+L9: ===== Page 2 / 947 =====
+L10: Published By:
+
+L12: Physics Wallah
+L13: ISBN: 978-93-94342-51-4
+L14: Mobile App: Physics Wallah (Available on Play Store)
+
+L16: Website: www.pw.live
+L17: Email: support@pw.live
+
+L19: Rights
+L20: All rights will be reserved by Publisher. No part of this book may be used or reproduced in any manner
+L21: whatsoever without the written permission from author or publisher.
+L22: In the interest of student's community:
+L23: Circulation of soft copy of Book(s) in PDF or other equivalen t format(s) through any social media channels,
+L24: emails, etc. or any other channels through mobiles, laptops or desktop is a criminal offence. Anybody
+L25: circulating, downloading, storing, soft copy of the book on his device(s) is in breach of Copyright Act. Further
+L26: Photocopying of this book or any of its material is also illegal. Do not download or forward in case you come
+L27: across any such soft copy material.
+
+L29: Disclaimer
+L30: A team of PW experts and faculties with an understanding of the subject has worked hard for the books.
+L31: While the author and publisher have used their best efforts in preparing these books. The content has been
+L32: checked for accuracy. As the book is intended for educational purposes, the author shall not be responsible for
+L33: any errors contained in the book.
+L34: The publication is designed to provide accurate and authoritative information with regard to the subject matter
+L35: covered.
+L36: This book and the individual contribution contained in it are protected under copyright by the publisher.
+L37: (This Module shall only be Used for Educational Purpose.)
+
+
+L40: ===== Page 3 / 947 =====
+L41: Design Against Static Load
+
+
+
+
+L46: 1. ENGINEERING MECHANICS   ...........................................................................................  1.1 – 1.36
+L47: 2. STRENGTH OF MATERIAL  ..............................................................................................  2.1 – 2.47
+L48: 3. STRUCTURAL ANALYSIS  ................................................................................................. . 3.1 – 3.54
+L49: 4. REINFORCED CEMENT CONCRETE  ...................................................................................  4.1 – 4.49
+L50: 5. STEEL STRUCTURE   .......................................................................................................  5.1 – 5.62
+L51: 6. ENVIRONMENT ENGINEERING  ........................................................................................  6.1 – 6.83
+L52: 7. GEOTECHNICAL ENGINEERING   .......................................................................................  7.1 – 7.78
+L53: 8. FLUID MECHANICS   ......................................................................................................  8.1 – 8.59
+L54: 9. IRRIGATION ENGINEERING    ............................................................................................  9.1 – 9.30
+L55: 10. ENGINEERING HYDROLOGY    ..........................................................................................  10.1 – 10.39
+L56: 11. SURVEYING   ...............................................................................................................  11.1 – 11.69
+L57: 12. HIGHWAY ENGINEERING    ..............................................................................................  12.1 – 12.70
+L58: 13. AIRPORT ENGINEERING    ...............................................................................................  13.1 – 13.25
+L59: 14. RAILWAY ENGINEERING    ...............................................................................................  14.1 – 14.29
+L60: 15. CONSTRUCTION PROJECT MANAGEMENT     .......................................................................  15.1 – 15.34
+L61: 16. BUILDING MATERIAL CONSTRUCTION     ............................................................................  16.1 – 16.39
+L62: 17. ENGINEERING MATHEMATICS     ......................................................................................  17.1 – 17.54
+L63: 18. GENERAL APTITUDE    ...................................................................................................  18.1 – 18.25
+L64: GATE-O-PEDIA
+L65: CIVIL ENGINEERING
+L66: COMPLETE INDEX
+L67: GATE-O-PEDIA CIVIL ENGINEERING
+
+
+L70: ===== Page 4 / 947 =====
+
+
+
+L74: ===== Page 5 / 947 =====
+L75: Design Against Static Load
+
+
+
+
+
+L81: 1. Fundamental of Engineering Mechanics ..............................................................................  1.1  –  1.2
+L82: 2. Vectors ................................................................................................................................. . 1.3  –  1.9
+L83: 3. Moment ................................................................................................................................  1.10  –  1.13
+L84: 4. Equilibrium ...........................................................................................................................  1.14  –  1.23
+L85: 5. Friction  .................................................................................................................................  1.24  –  1.26
+L86: 6. Truss .....................................................................................................................................  1.27  –  1.32
+L87: 7. Center of Mass .....................................................................................................................  1.33  –  1.36
+L88: ENGINEERING MECHANICS
+L89: INDEX
+L90: GATE-O-PEDIA CIVIL ENGINEERING
+
+
+L93: ===== Page 6 / 947 =====
+
+
+
+L97: ===== Page 7 / 947 =====
+L98: GATE WALLAH CIVIL HANDBOOK
+L99: Design Against Static Load
+L100: 1.1
+L101: 1
+L102: FUNDAMENTAL OF
+L103: ENGINEERING MECHANICS
+
+
+L106: 1.1. Fundamental Concepts of Mechanics
+L107: • Mechanics is a branch of physical science which deals with effects of force on objects.
+L108: • Application of law of mechanics to field problem is termed as Engineering mechanics.
+
+L110: • Static only-In Gate Syllabus.
+L111: 1.1.1. Basic Terminologies in Mechanics
+L112: • Length: Used to locate the position of point of space and thereby describe the size of physical system.
+L113: • Space: The geometrical region in which study of body is involved is called space.
+L114: • Time: It is a measure of succession of event. As static is time independent, this quantity plays an important role in
+L115: dynamics.
+L116: • Mass: Measure of inertia of body, which is its resistance to a change in velocity.
+L117: • Particle: It is a concentrated point mass of negligible dimension. Such body cannot exist theoretically.
+L118: e.g., a bomber aeroplane is a particle for a gunner operating from ground.
+L119: • Rigid body: A body is said to be rigid, if the relative position of any two points in it do not change under the action
+L120: of forces.
+
+
+L123: ===== Page 8 / 947 =====
+L124: GATE WALLAH CIVIL HANDBOOK
+L125: Engineering Mechanics
+L126: 1.2
+L127: 1.1.2. Newton’s Law of Motion
+L128: (1) First Law :
+L129: A particle remains at rest or continues to move with uniform velocity if there is no unbalanced force acting on it.
+L130: (2) Second Law:
+L131: The rate of change of momentum of a body is directly proportional to impressed force and it takes place in the di rection
+L132: of force acting on it.
+L133: () .= = = +
+L134: dp d mV mdV dmFV dt dt dt dt
+
+L136: If mass ‘m’ is constant  =
+L137: F ma
+L138: 0=dm
+L139: dt
+L140: (3) Third Law:
+L141: The force of action and reaction between interacting bodies are equal in magnitude , opposite in direction and collinear
+L142: (they lie on the same plane)
+
+L144: 1.1.3. Newton’s Law of Gravitational Attraction:
+L145: Gravitational attraction between any two particles is formulated as
+
+L147: 2= mMFG
+L148: r
+
+L150: F = Force of gravity between two particles
+L151: G = Universal constant of gravitation
+L152: G = 6.67 × 10–11 Nm2/kg2
+L153: Weight:
+L154: When particle is located at surface of earth, the force of gravity between them is called weight.
+
+L156: 2= e
+L157: e
+L158: mMWG
+L159: R
+
+L161:   2
+L162: 2 9.81m/s
+L163: e
+L164: GMeW mg g
+L165: R
+L166: = = = =
+
+L168: • For most engineering calculation ‘g’ is determined at sea level and at latitude of 45° (standard location)
+L169: “The most effective way of learning the principles of engineering mechanics is to solve problem”
+L170: 
+
+
+L173: ===== Page 9 / 947 =====
+L174: GATE WALLAH CIVIL HANDBOOK
+L175: Engineering Mechanics
+L176: 1.3
+L177: 2
+L178: VECTORS
+
+L180: 2.1. Force Vectors
+L181: In general force is considered as “Push” or “pull” exerted by one body on another.
+L182: A force is completely characterized by
+L183: (1) Magnitude
+L184: (2)   Direction
+L185: (3) Point of Application
+L186: (4)   Line of action
+L187: Eg.,
+L188: (1) Magnitude   10 kN
+L189: (2) Direction  Downward
+L190: (3) Point of Application  At C which is 1 m from left support, i.e., point A.
+L191: (4) Line of action  Vertical
+L192: 2.1.1. System of Force
+L193: When numerous amount of force are acting on a body simultaneously. They will form a system called force system
+
+L195: parallel to
+L196: parallel
+
+
+L199: ===== Page 10 / 947 =====
+L200: GATE WALLAH CIVIL HANDBOOK
+L201: Engineering Mechanics
+L202: 1.4
+
+
+L205: • Scalar: A scalar is any positive or negative physical quantity that can be completely specified by its magnitude.
+L206: e.g., Mass, Time etc.
+L207: • Vector: A vector is any physical quantity that can be completely specified by its magnitude as well as direction.
+L208: e.g., Force position, momentum, etc.
+
+
+L211: 1.2.2. Vector Operations
+L212: (1)  Vector Addition:
+
+L214: (1) Add given vector “Head to tail” fashion
+L215: (2) Resultant vector is extend from tail of first to head of last vector
+L216: (2) Vector Subtraction:
+
+L218: ()= + − − +
+L219: R A B A B  (not commutative)
+
+
+L222: ===== Page 11 / 947 =====
+L223: GATE WALLAH CIVIL HANDBOOK
+L224: Engineering Mechanics
+L225: 1.5
+L226: 2.1.3. Resultant Force:
+L227: If number of forces a re acting on a particle simultaneously then it is possible to find out a single-force which could replace
+L228: them i.e., which could produce the same effect as produced by all given forces. This single called as resultant force.
+L229: Process of finding out resultant force is called composition or compounding of force.
+
+L231: Parallelogram Law of Force:
+
+L233: 22
+L234: 1 2 1 2
+L235: 2
+L236: 12
+L237: 2 cos
+L238: sintan cos
+L239: = + + 
+L240: = +
+L241: R F F F F
+L242: F
+L243: FF
+
+L245: • 22
+L246: 1290=  = +R F F
+L247: • If 22
+L248: 1 2 1 260=  = + +R F F F F
+L249: • If 120=  = +R F F
+L250: • If 12180 – R F F=  =
+L251: • 12=FF  2 cos 2
+L252: = 
+L253: 
+L254: RF
+
+L256: Remember A:
+
+
+L259: ===== Page 12 / 947 =====
+L260: GATE WALLAH CIVIL HANDBOOK
+L261: Engineering Mechanics
+L262: 1.6
+L263: The magnitude and direction measured from horizontal of the resultant force is
+
+L265: 12 100 150 90 – 32 12 46= = = − = F N F N
+L266: 22
+L267: 1 2 1 2 2 cos= + + R F F F F
+L268: 22100 150 2 100 150 cos46 231 N= + +    =
+L269: 2
+L270: 12
+L271: sin 150 sin46tan 0.431 cos 150 100 cos46
+L272:  = = =  + 
+L273: F
+L274: FF
+
+L276:                                                    26.18 12 26.18 38 18=   = + =  
+
+L278: • The magnitude and direction measured from horizontal are:
+
+L280: Resultant 100 3 N
+L281: Angle = 60°
+L282: =
+
+L284: • If two force F1 and F 2 act at 60 ° their resultant is 13N   and if they act at right angle their resultant is 10 N
+L285: Find F1  and F2
+L286: (I)  When 90=   R = 2 2 2 2
+L287: 1 2 1 2 10+  = +F F F F
+L288: 22
+L289: 12 10 + =FF
+L290: (II)  When 2 2 2 2
+L291: 1 2 1 2 1 2 1 260 13=  = + +  = + +R F F F F F F F F
+L292: 13 = 22
+L293: 1 2 1 2++F F F F
+L294: 12 13 10 3= − =FF
+L295: 2 2 2
+L296: 1 2 1 2 1 2( ) 2 10 2 3 16+ = + + = +  =F F F F F F
+L297:  12 3 kN, 1kNFF==
+L298:  12 4+=FF       ….(1)
+L299: 2 2 2
+L300: 1 2 1 2 1 2( ) 2 10.2 3 4− = + − =  =F F F F F F
+L301:   12 2−=FF      ….(2)
+
+
+L304: ===== Page 13 / 947 =====
+L305: GATE WALLAH CIVIL HANDBOOK
+L306: Engineering Mechanics
+L307: 1.7
+L308: Methods of Resolution:
+L309: Steps:
+L310: (1) Resolve the forces horizontally and find algebraic sum of all horizontal component (  xF )
+L311: (2) Resolve the forces vertically and find algebraic sum of all vertical component () yF
+L312: (3) Resultant 22( ) ( ) + xyR F F
+L313: (4) Resultant force will be inclined at an angle  with horizontal
+L314: tan = 
+L315: y
+L316: x
+L317: F
+L318: F
+
+L320: Determine the magnitude and direction of resultant force
+
+
+
+L324: 1 4tan 53.133
+L325: −  = = 
+L326: 
+
+L328: 400cos30 300 250 cos53.13 496.4 N = + − =xF
+L329: 400sin30 250sin(53.13) 400 N = + =yF
+L330: 22496.4 400 637.5 NR= + =
+L331: 1 400tan 38.86496.4
+L332: − = =  
+L333: 
+
+L335: Find the direction of resultant force measured counter clockwise from positive x-axis.
+
+
+L338: ===== Page 14 / 947 =====
+L339: GATE WALLAH CIVIL HANDBOOK
+L340: Engineering Mechanics
+L341: 1.8
+
+L343: 1 12tan 67.383
+L344: − = =  
+L345: 
+
+L347: 26cos(67.38) 30sin30 25 kN =− − =−xF
+L348: 26sin(67.38) 30cos30 1.98 kN = − =−yF
+L349: 1 1.98tan 4.53 25
+L350: − −= =  −
+
+
+L353: • As both Fx and Fy are –ve   3rd quadrant.
+L354: 180 4.53 184.53 = + = 
+
+
+
+L358: 50cos30 80 sin60 5cos45 10 sin15 106.46 N = + − − =xF
+
+
+L361: ===== Page 15 / 947 =====
+L362: GATE WALLAH CIVIL HANDBOOK
+L363: Engineering Mechanics
+L364: 1.9
+L365: 50sin30 80 cos60 5sin45 10 cos15 51.80 N = + − − =yF
+L366: 22106.46 51.80 118.39 N= + =R
+
+L368: A system of force has resultant 80 N along positive x-axis find magnitude and inclination of unknown force P
+
+
+
+
+L373: 180 cos 150sin 45 100sin30 = + − −xFP
+L374: cos 23.93 0 cos 23.93= + =  =−PP
+L375: sin 150cos45 100cos30 = + −yFP
+L376: sin 19.46 0 sin 19.46= + =  =−PP
+L377: 19.46tan 39.1223.93
+L378: −= = −
+
+L380: 23.93 30.84 Ncos(39.12)
+L381: −= =−P
+
+L383: 
+
+
+L386: ===== Page 16 / 947 =====
+L387: GATE WALLAH CIVIL HANDBOOK
+L388: Design Against Static Load
+L389: 1.10
+L390: 3
+L391: MOMENT
+
+
+L394: 3.1. Introduction
+L395: 3.1.1. Moment:
+L396: • Turning effect of force.
+L397: • Moment of a force is equal to the product of Force and the perpendicular distance of the point about which moment is
+L398: required and line of action of force.
+L399: Moment at ‘O’ = P × L
+
+L401: Unit: KN-m
+L402: Types of Moment:
+L403: (1) Clockwise moment (2) Anticlockwise moment
+
+L405: ➢ Determine the moment about point O
+
+
+L408: ➢ Find moment of point O
+
+L410: Assuming c/w +ve
+
+L412: 10 (5 2cos45) 10 2sin 45 20(0) 20 2.5=  + −  + + oM
+
+
+L415: ===== Page 17 / 947 =====
+L416: GATE WALLAH CIVIL HANDBOOK
+L417: Engineering Mechanics
+L418: 1.11
+L419: ➢ Determine moment at point O
+
+
+L422: 100sin30 (2 2cos30 ) 100 cos 30 (2sin30 )oM =  +  −  
+
+L424: 3.1.2. Couple
+L425: • It is defined as two parallel forces that have the same magnitude and opposite direction and are separated by
+L426: perpendicular distance d.
+L427: • Resultant of force is zero
+L428: • Only effect is to produce rotation
+
+L430: Moment of couple
+L431: =M Fd
+
+L433: ➢ Determine the resultant couple moment acting on beam
+
+L435: MR = –300 × 2 + 400 × 5 + 100 × 0.2
+
+
+L438: ➢ Determine the magnitude of force F so that the resultant couple moment is 400 N.m clockwise.
+
+L440: = 204.4 00 Nm
+L441: 3.1.3. Varignon’s Principle of Moments
+L442: • It is the number of coplanar force are acting simultaneously on a particle, the algebraic sum of moments of all forces
+L443: about any point is equal to the moment of their resultant force about the same point”
+
+
+L446: ===== Page 18 / 947 =====
+L447: GATE WALLAH CIVIL HANDBOOK
+L448: Engineering Mechanics
+L449: 1.12
+L450: Application:
+L451: Position of resultant force for non-concurrent force system.
+
+L453: Four coplanar forces are acting on a square body having it side 1 m. Determine the position of single resultant force from
+L454: point A.
+
+
+L457: 4cos30 5 1.53 KN
+L458: 2 4sin30 3 1KN
+L459: = − =−
+L460: = + − =
+L461: 
+L462: 
+L463: fx
+L464: fy
+
+
+L467: 1tan 1.53
+L468: 33.16
+L469: = 
+L470: 
+L471: = 
+
+L473: 221.53 1 1.83 KN = + =R
+
+L475: By Vangon’s Theorem
+L476: 2 1 3 1 4cos30 1 2.46 m (Left of )1
+L477:  −  +  − = = =−A
+L478: y
+L479: MxA R
+
+L481: Replace the loading acting on beam by single resultant force. Specify where the force acts measured from B.
+
+
+L484: ===== Page 19 / 947 =====
+L485: GATE WALLAH CIVIL HANDBOOK
+L486: Engineering Mechanics
+L487: 1.13
+
+L489: 22
+L490: 1
+L491: 450sin60 300N + 700 cos 30 1295.92 N( )
+L492: 450cos60 700sin30 125 KN
+L493: (1295.92) (125) 1301.93 N
+L494: 1295.92= tan 84.5 125
+L495: −
+L496: = + = 
+L497: = − =−
+L498: = + =
+L499:  =  
+L500: 
+L501: 
+L502: 
+L503: fy
+L504: fx
+L505: R
+
+
+L508: 450sin 60 4 3 700 cos 30 1500 1759.8 N-m=  −  − =− BM
+L509: By Varignon’s principle
+L510: 1759.8 1.358 m1500
+L511: =
+L512:  = =
+L513: BRyd M
+L514: d
+
+
+
+L518: 
+
+
+L521: ===== Page 20 / 947 =====
+L522: GATE WALLAH CIVIL HANDBOOK
+L523: Design Against Static Load
+L524: 1.14
+L525: 4
+L526: EQUILIBRIUM
+
+
+L529: 4.1. Introduction
+L530: (a) Equilibrium of a Particle
+L531: A particle is said to be in equilibrium, if both resultant force ‘R’ and the resultant couple ‘M’ both are zero for 2D bodies.
+L532: 0Fx =  0Fy =   0M =
+L533: (b) Free body diagrams (FBD):
+L534: A diagram of a body in which the body under consideration is freed from all contact surface and is shown with all th e
+L535: force on it (including self weight and reaction from other contact surface) is called free body diagram.
+L536: Reacting Bodies FBD
+L537: 1
+
+L539: 2
+
+
+L542: 3
+
+L544: 4
+
+
+L547: ===== Page 21 / 947 =====
+L548: GATE WALLAH CIVIL HANDBOOK
+L549: Engineering Mechanics
+L550: 1.15
+L551: 5
+
+L553: 6
+
+L555: 7
+
+L557: 8
+
+
+L560: 9
+
+L562: 10
+
+L564: (c) Lami’s Theorem:
+L565: “If three coplanar force acting at a point be in equilibrium, then each force is proportional
+L566: to sine of the angle between other two”
+
+L568: sin sin sin
+L569: P Q R==  
+
+
+L572: ===== Page 22 / 947 =====
+L573: GATE WALLAH CIVIL HANDBOOK
+L574: Engineering Mechanics
+L575: 1.16
+L576: • Determine tension in cable AB and BC.
+
+L578: By Lami’s Theorem
+L579: 50 9.81 507.8sin120 sin135 sin105
+L580: BCBA FF = = =  
+L581:            FBA = 439.77 N and FBC = 395.06 N
+L582: • Determine magnitude of C and T
+
+L584: 16 8 sin20 cos40 0Fx C T= − + +  +  =
+L585: cos40 sin20 8TC +  =     …(i)
+L586: 3 cos20 sin40 0Fy C T= − − +  =
+L587: sin40 cos20 3TC −  =     …(ii)
+L588:     C = 3.03 KN
+L589: T = 9.09 KN
+
+
+L592: ===== Page 23 / 947 =====
+L593: GATE WALLAH CIVIL HANDBOOK
+L594: Engineering Mechanics
+L595: 1.17
+L596: • Identify each force
+
+
+L599: ( )
+L600: 500
+L601: sin135 sin120 sin 105
+L602: AB ADFF ==
+L603:            FAB = 366.02 N  FAD = 448.28 N
+
+L605: 0Fy =
+L606:   sin 200 366.02cos60 383.01BCF  = + =
+L607:   2 2 2 2 2 2cos sin 316.98 383.01BC BCFF  +  = +
+L608:   FBC = 497.16 N
+L609: • If undeformed length of spring AB is 0.5 m. Calculate the required length of chord AC.
+
+L611: 100
+L612: sin150 sin90 sin120
+L613: AC ABT T==  
+L614:  TAC = 200 N TAB = 173.2 N
+L615: '' 173.2 0.577300
+L616: AB AB AB ABTK =   = =
+L617: m
+
+
+L620: ===== Page 24 / 947 =====
+L621: GATE WALLAH CIVIL HANDBOOK
+L622: Engineering Mechanics
+L623: 1.18
+L624:             Stretched length = 0.5 + 0.577 = 1.077 m
+
+L626:    AC = cos30° + 1.077 = 2
+L627:    AC = 1.065 m
+L628: • A sphere weighing 100 N is tied to a smooth wall by a string as shown in figure. Find the tension T in the string and
+L629: reaction R from the wall.
+
+L631:        R = Tcos75° 0Fx =
+L632: 100 = Tsin75° 0Fy =
+L633:       T = 103.52 N
+L634: R = 26.79 N
+L635: • A smooth circular cylinder of radius 1.5 m is laying in triangular groove as shown in figure. Find the reaction at contact
+L636: surface. Assume surface is frictionless and cylinder weight is 100 N.
+
+
+L639: ===== Page 25 / 947 =====
+L640: GATE WALLAH CIVIL HANDBOOK
+L641: Engineering Mechanics
+L642: 1.19
+
+L644: ( ) ( )
+L645: 100
+L646: sin 140 sin 165 sin55
+L647: BARR ==
+L648:                       RA = 31.6 N RB = 78.5 N
+L649: • A uniform wheel of 500 mm weighing 10 kN rest against a rigid rectangular block of 100 mm height. Find the least
+L650: pull, through centre of wheel require to just turn the wheel over the corner A of block.
+
+L652: 22250 150 200x = − =
+L653: 0 250 10 200AMP=   = 
+L654:               Pmin = 8 kN
+L655: • Find reaction acting on the bar of weight 200 N.
+
+L657: 0AM =
+L658: RB × 4 + 200 × 2cos30° = 0
+L659: RB = 86.6 N
+L660: 0fx =
+L661: RB sin30° – 200 + VA = 0
+L662: VA  = 200 – 86.6 sin30° = 156.7 N
+L663: 0fy =
+L664: RB cos30° = HA
+L665: HA   = 75 N
+
+
+L668: ===== Page 26 / 947 =====
+L669: GATE WALLAH CIVIL HANDBOOK
+L670: Engineering Mechanics
+L671: 1.20
+L672: • If two identical cylinder each weighing 250 N then find the reaction at point A. (Assume all point of contact are smooth)
+
+L674: 250
+L675: sin135 sin135 sin90
+L676: CD RR ==  
+L677:                                     RC = 176.77 N
+
+L679: 0Fx =
+L680:  RA – RB cos45° – RC cos45° = 0
+L681:                                    RA – RB cos45° = 425  …(i)
+L682: 0Fy =
+L683: –250 – 276.77 sin45° + RB sin45° = 0
+L684: RB = 530.32 N
+L685: From (i) RA = 500 N
+L686: • A ladder weighting 250 N is to be kept in the position as shown in figure. Determine the horizontal force required at
+L687: floor level to prevent it from slipping.
+
+
+L690: ===== Page 27 / 947 =====
+L691: GATE WALLAH CIVIL HANDBOOK
+L692: Engineering Mechanics
+L693: 1.21
+L694:  4sin 60=
+
+L696:   = 4.62 m
+L697: 3"3 tan60x ==  m
+L698: 0AM =
+L699: 4 100 3 250 1.15 0BR−  +  +  =
+L700:  RB = 115.18 N
+L701: 0Fx =
+L702:  F = RB = 115.18 N
+L703: (d) Application to Beam problem
+L704: Type of Beam
+L705: 1 Simply supported
+
+L707: 2 Cantilever
+
+L709: 3 Both end hinge
+
+L711: 4 One end hinge other end rotter
+
+L713: 5 Overhanging
+
+L715: 6 Propped cantilever
+
+L717: 7 Fixed
+
+
+L720: ===== Page 28 / 947 =====
+L721: GATE WALLAH CIVIL HANDBOOK
+L722: Engineering Mechanics
+L723: 1.22
+L724: Type of Loading
+L725: 1 Concentrated point load
+
+L727: 2 Uniformly distributed load (UDL)
+
+L729: 3 Uniformly varying load (UVL)
+
+L731: 4 External moment
+
+L733: Conversion of load:
+
+L735: “Equivalent concentrated point load = Area of loading diagram which act at center of gravity of loading diagram”
+
+L737: Find the reaction at both end.
+
+L739: 0AM =
+L740:  ( )10 2
+L741: B
+L742: LR W L−  +   =
+L743: 2
+L744: B
+L745: WLR =
+L746: 0fy =
+L747:  RA + RB = WL
+
+
+L750: ===== Page 29 / 947 =====
+L751: GATE WALLAH CIVIL HANDBOOK
+L752: Engineering Mechanics
+L753: 1.23
+L754:  2
+L755: A
+L756: WLR =
+L757:  1 5 5 12.52   = KN
+
+L759: 0AM =
+L760: 55 12.5 0 3
+L761: BR−  +  =
+L762:  RB = 4.167 KN
+L763: 0fy =
+L764: RA + RB = 12.5
+L765: R A = 12.5 – 4.167 = 8.33 KN
+
+L767: 0BM =
+L768: RA × 10 – 15 × 7.5 – 5 × 2.5
+L769: –5 × 1.67 = 0
+L770:  RA = 13.335 KN
+L771: 0fy =
+L772: RA + RB = 15 + 5 + 5 =25
+L773:  RA = 11.665 KN
+L774: 
+L775: 5 m
+L776: 5 KN/m
+L777: 
+L778: 5/3 m 10/3 m
+L779: 12.5
+
+
+L782: ===== Page 30 / 947 =====
+L783: GATE WALLAH CIVIL HANDBOOK
+L784: Design Against Static Load
+L785: 1.24
+L786: 5
+L787: FRICTION
+
+L789: 5.1. Introduction
+L790: (a) Friction:
+L791: • It is a force that resist the movement of two contacting surface that slide relative to one another.
+
+
+L794: (b) Angle of Friction:
+L795: • Let the angle ( ) be gradually increased, till the body just starts sliding down the plane. This angle at which a body
+L796: just begins to slide down the plane, is called angle of friction/ angle of repose.
+
+
+L799: (c) Limiting Friction:
+L800: • When a body is at verge of moving, the force of friction acting at that time is called limiting friction or im pending
+L801: motion.
+L802: Mathematically  F s =
+L803: sN
+L804: =  F > Fs (slipping occurs) limitingfrictionalforcesF →
+L805: s → Coeff. of friction
+L806: F < Fs (Motion not impending)
+
+
+L809: ===== Page 31 / 947 =====
+L810: GATE WALLAH CIVIL HANDBOOK
+L811: Engineering Mechanics
+L812: 1.25
+L813: .
+L814: (d) Coefficient of Friction: -
+L815: • Ratio of limiting friction to normal reaction.
+L816: tanF
+L817: N = = 
+L818:  = Angle of friction
+L819: (e) Angle of Friction: -
+L820: • Ratio of limiting friction to normal reaction.
+L821: tan  = F
+L822: n
+
+L824: tan  =  
+
+L826: (f) Cone of Friction: -
+L827: • The inverted cone with semi central angle which is equal to limiting friction angle is called cone of friction.
+
+L829: (g) Kinetic Friction: -
+
+
+L832: ===== Page 32 / 947 =====
+L833: GATE WALLAH CIVIL HANDBOOK
+L834: Engineering Mechanics
+L835: 1.26
+L836: • After slipping occurs, a condition of kinetic friction accompanies the ensuring motion.
+
+L838: kF kN=
+L839: k→ Coeff. Of kinetic friction.
+L840: sk  
+L841: (0 to 1)=
+L842: 1  → Silicon rubber or acrylic rubber coated surface.
+L843: • Determine the magnitude of frictional force F exerted by the horizontal surface.
+
+L845: • Assume equilibrium
+
+
+L848: ∑ Fx = 0
+L849: 700 cos 30° – F = 0
+L850: F = 606 N
+L851: ∑ Fy = 0
+L852: N – 981 + 700 sin 30° = 0
+L853:  N = 631 N
+L854: Fmax = sN = 0.8   631 = 505 < F = 606 N
+L855: Motion occurs
+L856: F = kN = 0.6
+L857:   631 = 379 N
+L858: 
+
+
+L861: ===== Page 33 / 947 =====
+L862: GATE WALLAH CIVIL HANDBOOK
+L863: Design Against Static Load
+L864: 1.27
+L865: 6
+L866: TRUSSES
+
+
+L869: 6.1. Trusses
+L870: A truss is structure composed of slender member joined together at end points by bolting/Rivelting/welding. Ends of the
+L871: member are pointed to a common plate called Gusset plate
+L872: 6.1.1. Assumption
+L873: • Member joint together by smooth pin
+L874: • All loading are applied to joint
+L875: • Self Weight of member is negligible.
+L876: 6.1.2. Zero Force Member
+L877: They are provided to reduce effective length of other members.
+L878: • If two non – collinear member exist at a truss joint and no external force or support reaction is applied at joint, the
+L879: member must be zero force member.
+
+L881: • If 3 member joint at a point and out of 2 are collinear and also no external load acts at joint, then the third member is
+L882: zero force member.
+
+
+L885: ===== Page 34 / 947 =====
+L886: GATE WALLAH CIVIL HANDBOOK
+L887: Engineering Mechanics
+L888: 1.28
+
+L890: 1. Method of joint:-
+L891: • Equilibrium of each joint is considered
+L892: • Not applicable if number of unknown forces at the joint is more than 2
+L893: • Start from there where 2 member forces are unknown.
+
+L895: Sign Convention
+
+
+L898: ===== Page 35 / 947 =====
+L899: GATE WALLAH CIVIL HANDBOOK
+L900: Engineering Mechanics
+L901: 1.29
+L902: Ques. Calculate forces in all members given truss.
+L903: RP + RQ = 90
+L904: MP = 0
+L905: RQ × 3h = 30 × 2h + 60 × h
+L906: RQ = 40 kN
+L907:  RP = 50 kN
+
+L909: 0 cos45 0x PRf F F=   + =
+L910: 0 sin45 50 0x PRfF=  + =
+L911:    ( )70.71PRF kN c=−
+L912: ( )50PRF kN T=
+
+L914: ( )0 50x ruf F kN T= = +
+L915: ( )0 60y rRf F kN T= = +
+
+L917: 0xf =
+L918: , cos45, cos45RS RU RPF F F+=
+L919: 40RSF kN=−
+L920: 0yf =
+L921: sin 45 60 sin 45 0RP RUFF + + =
+L922:  14.14RUF kN=−
+
+
+L925: ===== Page 36 / 947 =====
+L926: GATE WALLAH CIVIL HANDBOOK
+L927: Engineering Mechanics
+L928: 1.30
+
+L930: 2.  Method of Section
+L931: • Used only if force in few member is required.
+L932: • Section line should not cut more than 3 member and whole truss is cut into two portion.
+L933: Find force in CD?
+
+L935: 0xf =
+L936: →      ( )TensileCDFP =
+
+L938: 0nM =
+L939: 10 . 2 0CEF−   =
+L940: 10BEF kN=−
+
+
+L943: ===== Page 37 / 947 =====
+L944: GATE WALLAH CIVIL HANDBOOK
+L945: Engineering Mechanics
+L946: 1.31
+L947: 1 0M =
+L948: 2 18 5 15 10 12 10 9 10 6 5 3 5 3R  =  +  +  +  +  + 
+L949:     R 2 = 20.833 kN
+L950: R 1 = 19.1667 kN
+L951: MP = 0
+L952: + F c × 3 + 5 × 3 + 19.167 × 6 = 5 × 3
+L953: F c = –38.334 kN
+L954: F A = 0
+L955: F y = 0
+L956: F B cos 45 + 19.167 = 5 + 10 → considering vertical equilibrium
+L957: → FB = - 5.89 kN
+L958: 3. Graphical Method
+L959: 4. Tension coeff Method.
+
+L961: Most of force acting at joint M joint = 0
+L962: Fac × sin 30+ 300 × 3 cos 30 = 0 × 6
+L963: Fac = –346.41 N (c)
+
+
+L966: ===== Page 38 / 947 =====
+L967: GATE WALLAH CIVIL HANDBOOK
+L968: Engineering Mechanics
+L969: 1.32
+L970: MJ = 0
+L971: Fbb × 6 – 300 × 3300 0cos30=
+L972: Fbb = 173.2 (T)
+
+L974: 3cos30 x=
+L975: 3
+L976: cos30x =
+L977: Find FGF and FGD.
+
+L979: MD = 0
+L980: F GF sin (26.6) × 6 + 7 × 3 = 0
+L981: F GF = – 7.83 kN (c)
+L982: MQ = 0
+L983: F GDsin 56.3 × 6 + 7 × 3 – 2 × 6 = 0
+L984: F GD = –1.8 kN (c)
+L985: 
+
+
+L988: ===== Page 39 / 947 =====
+L989: GATE WALLAH CIVIL HANDBOOK
+L990: Design Against Static Load
+L991: 1.33
+L992: 7
+L993: CENTER OF MASS
+
+
+L996: 7.1. Introduction
+L997: • Center of mass is defined as a point where the whole mass of the body appeared to be concentrated.
+L998: • Consider a body of mass ‘M’ whose center of mass is required to found out. Dividing the body into small masses of known
+L999: center of mass m1, m2, m3, … and centroid co-ordinates (x1, y1), (x2,y2), (x3, y3) x→ co-ordinate of center of mass of body.
+L1000: By principle of moments
+L1001: 1 1 2 2 3 3Mx m x m x m x= + +
+L1002: mxx M
+L1003: =
+
+L1005: xdm
+L1006: M=
+L1007: Similarly;
+L1008: ydmmyy MM
+L1009: == 
+L1010: 7.1.1. Locate the centroid of Circular Arc
+L1011: Symmetry    0y =
+L1012: dL =  rd
+L1013:   ( ) ( )2 cosdr a r rd
+L1014: 
+L1015: −
+L1016: =  
+L1017: 22 2 sinrx r = 
+L1018: sinrx = 
+
+
+L1021: ===== Page 40 / 947 =====
+L1022: GATE WALLAH CIVIL HANDBOOK
+L1023: Engineering Mechanics
+L1024: 1.34
+L1025: Find centroid from base.
+L1026: cAy y dA=
+
+L1028: ( ) 2
+L1029: 026
+L1030: h b h ybh bhy y dy h
+L1031: −==
+L1032: 3
+L1033: hy =
+
+L1035: 7.1.2. Basic Shape
+L1036: Area = bd 22bdxy==
+L1037: Area =  1
+L1038: 332
+L1039: bhhb x y =
+L1040: Area = 2r x r y r = =
+L1041: Area =
+L1042: 2 4
+L1043: 23
+L1044: rr x r y == 
+
+L1046: Area =
+L1047: 2 44
+L1048: 2 3 3
+L1049: r r r xy ==
+
+
+
+L1053: Area = 2 2 sin 03
+L1054: RR x y  = = 
+
+
+L1057: ===== Page 41 / 947 =====
+L1058: GATE WALLAH CIVIL HANDBOOK
+L1059: Engineering Mechanics
+L1060: 1.35
+L1061: Area = 33
+L1062: 3 4 10
+L1063: ah a h xy==
+L1064: Find centroid of 100 mm × 150 mm × 30 mm T section
+L1065: 1 1 2 2
+L1066: 12
+L1067: a x a xx aa
+L1068: += +
+
+L1070: 1 1 2 2
+L1071: 12
+L1072: a y a yy aa
+L1073: += +
+
+L1075: = ( )100 30 135 30 120 60
+L1076: 100 30 30 120
+L1077:   +  
+L1078:  + 
+
+L1080: 94.1y mm=
+L1081: Find position of center of gravity from point 0
+L1082: 100 300 150 50 300 150 150 50 150
+L1083: 100 300 50 300 150 50x   +   +  =  +  + 
+L1084: = 150 mm
+L1085: 100 300 50 50 300 250 150 50 425
+L1086: 100 300 50 300 150 50y   +   +  =  +  + 
+L1087: = 160.71 mm
+L1088: Find Centroid
+
+
+L1091: ===== Page 42 / 947 =====
+L1092: GATE WALLAH CIVIL HANDBOOK
+L1093: Engineering Mechanics
+L1094: 1.36
+
+
+L1097: 1 1 3 3 2 2
+L1098: 1 3 2
+L1099: a x a x a xx a a a
+L1100: +−= +−
+
+
+L1103: ( )
+L1104: 2
+L1105: 2
+L1106: 1 80 2 2030 80 40 80 30 40 202 3 2
+L1107: 130 80 80 30 202
+L1108:    +    − +
+L1109: =
+L1110:  +   −
+
+L1112: = 41.15 mm
+
+L1114: 2
+L1115: 2
+L1116: 1 30 20 4 2030 80 15 80 30 302 3 2 3
+L1117: 1 2030 80 80 3022
+L1118: y
+L1119:       +    + −        =  +   −
+
+L1121: = 26.47 mm
+L1122: 
+
+
+L1125: ===== Page 43 / 947 =====
+
+
+
+L1129: ===== Page 44 / 947 =====
+L1130: StrengthStrength
+L1131: of Materialof Material
+L1132: Strength
+L1133: of Material
+
+
+L1136: ===== Page 45 / 947 =====
+L1137: Published By:
+
+L1139: Physics Wallah
+L1140: ISBN: 978-93-94342-39-2
+L1141: Mobile App: Physics Wallah (Available on Play Store)
+
+L1143: Website:
+L1144: www.pw.live
+L1145: Email: support@pw.live
+
+L1147: Rights
+L1148: All rights will be reserved by Publisher. No part of this book may be used or reproduced in any manner
+L1149: whatsoever without the written permission from author or publisher.
+L1150: In the interest of student's community:
+L1151: Circulation of soft copy of Book(s) in PDF or other equivalent format(s) through any social media channels,
+L1152: emails, etc. or any other channels through mobiles, laptops or desktop is a criminal offence. Anybody
+L1153: circulating, downloading, storing, soft copy of the book on his device(s) is in breach of Copyright Act. Further
+L1154: Photocopying of this book or any of its material is also illegal. Do not download or forward in case you come
+L1155: across any such soft copy material.
+
+L1157: Disclaimer
+L1158: A team of PW experts and faculties with an understanding of the subject has worked hard for the books.
+L1159: While the author and publisher have used their best efforts in preparing these books. The content has been
+L1160: checked for accuracy. As the book is intended for educational purposes, the author shall not be responsible for
+L1161: any errors contained in the book.
+L1162: The publication is designed to provide accurate and authoritative information with regard to the subject matter
+L1163: covered.
+L1164: This book and the individual contribution contained in it are protected under copyright by the publisher.
+L1165: (This Module shall only be Used for Educational Purpose.)
+
+
+L1168: ===== Page 46 / 947 =====
+L1169: Design Against Static Load
+
+
+
+
+
+L1175: 1.  Properties of Metals, Stress and Strain ................................................................................  2.1 – 2.12
+L1176: 2.  Shear Force and Bending Moment .......................................................................................  2.13 – 2.16
+L1177: 3.  Principal Stress and Principal Strain .....................................................................................  2.17 – 2.19
+L1178: 4. Deflection of Beams .............................................................................................................  2.20 – 2.23
+L1179: 5.  Theories of Failure ................................................................................................................  2.24 – 2.26
+L1180: 6.  Combined Stress ...................................................................................................................  2.27 – 2.28
+L1181: 7.  Bending Stress in Beam ........................................................................................................  2.29 – 2.31
+L1182: 8.  Shear Stress in Beams ..........................................................................................................  2.32 – 2.36
+L1183: 9.  Torsion of Circular Shaft .......................................................................................................  2.37 – 2.40
+L1184: 10.  Columns ................................................................................................................................  2.41 – 2.42
+L1185: 11.  Springs ..................................................................................................................................  2.43 – 2.44
+L1186: 12.  Pressure Vessels ...................................................................................................................  2.45 – 2.47
+
+L1188: STRENGTH OF MATERIAL
+L1189: INDEX

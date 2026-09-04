@@ -1,0 +1,1718 @@
+=== STRUCTURAL ANALYSIS CHAPTER EXTRACTION ===
+Source lines: 3041-4755 (1715 lines)
+
+L3041: GATE-O-PEDIA CIVIL ENGINEERING
+
+
+L3044: ===== Page 98 / 947 =====
+L3045: GATE WALLAH CIVIL HANDBOOK
+L3046: Design Against Static Load
+L3047: 3.1
+L3048: 1
+L3049: INTRODUCTION
+L3050: TO STRUCTURE
+
+L3052: 1.1. Structure
+L3053: An elastic body is termed as structure when it provides resistance against deformation due to the load acting over it.
+L3054: 1.1.1. Mechanism
+L3055: In a mechanism no resistance is setup against deformation.
+L3056: Assumption
+L3057: • Elastic body
+L3058: • Homogenous
+L3059: • Isotropic
+L3060: • Continuous Solid Structure
+L3061: • Principal of Super position is valid.
+L3062: Validity of Super position Principle
+L3063: • Displacement is small.
+L3064: • Elastic material and linear structural response. Load vs deformation is a straight line.
+L3065: • Suppose are unyielding.
+L3066: • Not valid for sender columns.
+L3067: 1.1.2. Classification of Structures
+L3068: • Skeletal — e.g., Roof truss, building frames.
+L3069: • Surface — e.g., Slabs and shells
+L3070: • Solid — e.g., massive foundation
+L3071: Skeletal Structure
+L3072: • Pin Jointed : develop axial forces, external load @ joint, members are straight.
+L3073: • Rigid Jointed: Angle between the member meeting @ joint remain unchanged, Resist external forces by developing
+L3074: bending moment, shear force, axial force, twisting moments.
+
+
+L3077: ===== Page 99 / 947 =====
+L3078: GATE WALLAH CIVIL HANDBOOK
+L3079: Structure Analysis
+L3080: 3.2
+L3081: Plane Frame Space Frame
+L3082: All member and forces are in one plane. All members don’t lie on one plane.
+L3083: Axial Axial
+L3084: Shear Biaxial Shear
+L3085: Bending Moment Biaxial Moment
+L3086: Twisting Moment
+L3087: 1.1.3. Poissons Ratio ()
+L3088: Defined as the ratio of lateral strain to linear strain.
+L3089: Concrete = 0.15
+L3090: Steel = 0.33
+L3091: Cork = 0
+L3092: Isotropic material = 0.25
+L3093: max = 0.5 Ideal Elastic incompressible meter.
+L3094: Bernoulli's Assumption
+L3095: A plane section which are normal to the neutral axis before bending remain plane even after bending.
+L3096: It means strain varies linearly over the cross-section.
+L3097: Validity of Bernoulli's
+L3098: • Valid for elastic, limit, ultimate theories.
+L3099: • Valid for prismatic and non-prismatic.
+L3100: • Valid for shallow beams.
+L3101: 1.2. Reaction
+L3102: Reaction is the resistance against deformation.      Numbers (Planar Structure)
+L3103: • Free end     0
+L3104: • Roller end     1
+L3105: • Hinged Support     2
+L3106: • Fixed Support     3
+L3107: • Shear hinged – Horizontal & Vertical
+
+L3109: 2
+
+L3111: • Damper
+
+L3113: Horizontal Release
+L3114: 
+
+
+L3117: ===== Page 100 / 947 =====
+L3118: GATE WALLAH CIVIL HANDBOOK
+L3119: Structure Analysis
+L3120: 3.3
+L3121: 2
+L3122: DETERMINACY AND
+L3123: INDETERMINACY
+
+L3125: The structure that can be analysed by the equations of static equilibrium alone.
+L3126: 2.1. Equation of Static Equilibrium
+L3127: 2D Planar structure
+L3128:  Fx = 0
+L3129:  Fy = 0
+L3130:  M = 0
+L3131: 3D Space Structure
+L3132:  Fx = 0  mx  = 0
+L3133:  Fy = 0  my  = 0
+L3134:  Fz = 0  mz  = 0
+L3135: Statically indeterminate  structure are the one which cannot be found by equations of static equilibrium.
+L3136: 2.1.1. Degree of Static Indeterminacy
+L3137: Can be termed as equations in addition to static equilibrium equation required to completely analyse the structure.
+L3138: DS  = Number of unknown forces in member or at support – equation of static equilibrium available.
+
+L3140: 2.1.2. Support Reaction
+L3141: Plane
+L3142: – Fix  Rx,  Ry,  Mz Reactions
+L3143: x,  y,  z Restrains
+L3144: – Pin  Rx,  Ry,  Reactions
+L3145: x,  y,  Restrains
+L3146: – Roller   Ry Reactions
+L3147: y Restrains
+L3148: DS = D Si +    DSe
+L3149: Total Internal External
+
+
+L3152: ===== Page 101 / 947 =====
+L3153: GATE WALLAH CIVIL HANDBOOK
+L3154: Structure Analysis
+L3155: 3.4
+L3156: Space Structure
+L3157: – Fix  Rx,  Ry,  Rz, Mx,  My,  Mz Reactions
+L3158: – Pin  Rx,  Ry, Rz Reactions
+L3159: – Roller   Ry Reactions
+L3160: 2.1.3. External Indeterminacy
+L3161: Dse = R – 3 Plane
+L3162: = R – 6 Space
+L3163: 2.1.4. Internal Indeterminacy
+L3164: Dsi = m – (2j – 3) Truss plane
+L3165: = m – (3j – 6) Truss space
+L3166: = 3 C  Rigid plane frame
+L3167: = 6 C  Rigid space frame
+L3168: j = No. of Joints
+L3169: C = No. of  cuts required for obtaining open configuration.
+L3170: m = No. of members
+L3171: Simplified Formula of Ds
+L3172: • Plane truss DS = ( m + R) – 2j
+L3173: • Space truss DS = ( m + R) – 3j
+L3174: • Rigid plane frame DS = (3m + R) – 3j
+L3175: • Rigid space frame DS = (6m + R) – 6j
+L3176: 2.2. Truss (Static Indeterminacy)
+L3177: • Every joint is a Hinge Joint.
+L3178: • Each joint has 2 nos. of equation (planar)
+L3179: • Internal indeterminacy should be checked for individual loop. e.g.,
+
+L3181: • All support reactions should not be parallel as may lead to unstability e.g.,
+
+
+L3184: ===== Page 102 / 947 =====
+L3185: GATE WALLAH CIVIL HANDBOOK
+L3186: Structure Analysis
+L3187: 3.5
+
+L3189: • All support reactions should not be concurrent as may lead to unstability. e.g.,
+
+L3191: • If a truss is unstable we never discuss SD, or SID.
+L3192: • If in any truss are appreciable deformation which can be due to no proper bracing it makes the structure unstable. e.g.,
+
+L3194: Simple Truss
+L3195: In a triangle when two bar and one joint are progressively added to form a truss.
+L3196: Compound Truss
+L3197: Two simple truss connected by a set of joints and bars.
+L3198: Complex Truss
+L3199: There is no joint where only two bars meet.
+
+
+L3202: ===== Page 103 / 947 =====
+L3203: GATE WALLAH CIVIL HANDBOOK
+L3204: Structure Analysis
+L3205: 3.6
+L3206: • Truss having members which crossover each other or member that serves as side for more than 2 triangle are likely to
+L3207: be indeterminate.
+
+L3209: Difference between SD & SI
+L3210: Statically Determinate Statically Indeterminate
+L3211: (1) Equilibrium equation sufficient to analyse Insufficient
+L3212: (2) BM independent of material Dependent
+L3213: (3) BM is independent of sections Area Dependent
+L3214: (4) Stresses are not caused due to temperature change & lack of fit. Stresses caused
+L3215: 2.3. Frames/Beams
+L3216: 2.3.1. Internal Pin/Hinge
+L3217: Pin cannot transmit moment from one part to other. Thus, provides extra condition M = 0.
+L3218: Internal Link
+L3219: Bar with pin @ each end
+
+L3221: incapable of transmitting moment as well as horizontal force.
+L3222: Two  additional conditions are, M = 0,  H = 0
+L3223: Loading Type
+L3224: • General Loading has both vertical and horizontal component.
+L3225: • Vertical loading condition is important for beams but not frames.
+L3226: Open tree like Structure Concept used for Finding Indeterminacy
+L3227: • trees have only one root
+L3228: • trees cannot have closed looped branch.
+L3229: Unstable or Deficient Structure
+L3230: If there are not sufficient number of Restraint the structure under go Rigid Body movement upon application of a small
+L3231: displacement. e.g.,
+
+
+L3234: ===== Page 104 / 947 =====
+L3235: GATE WALLAH CIVIL HANDBOOK
+L3236: Structure Analysis
+L3237: 3.7
+
+L3239: 2.4. Restraining Members/Joint
+L3240: The concept relates to making structure completely rigid and then analyzing it for indeterminacy.
+L3241: • Plane frame = (m – 1)
+
+L3243: m' = no. of members joining the Hinged Joint.
+L3244: • Space frame = 3(m – 1)
+L3245: Concept  = Rotation of Members
+L3246: • RH & M are the restrains required to make rigid.
+
+L3248: • RH are the restrains required to make rigid.
+
+L3250: • Rv is restraint required to make rigid.
+
+L3252: 2.4.1. Rigid Frames
+L3253: In a plane frame, every member carries 3 forces. (BM, SF, Axial)
+L3254: Total no. of unknown =
+L3255: Supportmember
+L3256: reaction
+L3257: 3m R+
+L3258: At each joint equilibrium equation = 3j
+L3259: fx  = 0
+L3260: fy  = 0
+L3261: M = 0
+L3262: DS = 3 m + R – 3j
+L3263: DS = 3 m + R – 3j – (m – 1)
+L3264: where m' is the number of members @ hinge it.
+L3265: DS = 6 m + R – 6j – 3(m – 1)
+
+
+L3268: ===== Page 105 / 947 =====
+L3269: GATE WALLAH CIVIL HANDBOOK
+L3270: Structure Analysis
+L3271: 3.8
+L3272: Denote by DK.
+L3273: • Also called as degrees of freedom (DOF)
+L3274: • Kinematic indeterminacy:
+L3275: The no of unknown joint displacements is called degrees of freedom
+L3276: Types of joints Degrees of freedom
+L3277: 1 Rigid joint of a plane frame
+
+L3279: Note: At a rigid joint, the included angle remains the same before and after
+L3280: displacement
+L3281: 3 ( ,,xy   ).
+L3282: 2 Rigid joint of a space frame  6 (3 rotations xy, yz, xz and 3
+L3283: translations ,&x y z   )
+L3284: 3 Pin joint of a plane frame
+
+L3286: NOTE: As moments are not present, the design rotations are not considered in
+L3287: trusses.
+
+L3289: 4 Pin joint of a space frame 3 ( ,,x y z   )
+
+L3291: Types of support Degrees of Freedom
+L3292: 1 Free end.
+
+L3294: 3 ( ) ,,xy  
+L3295: 2 Roller support. 2 ( ), x .
+L3296: 
+L3297: Y
+L3298: X
+
+
+L3301: ===== Page 106 / 947 =====
+L3302: GATE WALLAH CIVIL HANDBOOK
+L3303: Structure Analysis
+L3304: 3.9
+
+L3306: 3 Hinged/Pinned support
+
+L3308: 1 ()
+L3309: 4 Joined support
+
+L3311: 0
+L3312: 5 Vertical shear hinge
+
+L3314: 1 (y)
+L3315: 6 Horizontal shear hinge
+
+L3317: 1 (x)
+L3318: 7 Damper support
+
+L3320: 1 (x).
+L3321: 8 Spring support
+
+L3323: Note: Reactions will resist displacements.
+L3324: Vertical, dv = 0
+L3325: Horizontal reaction, h = 0
+L3326: Moment reaction,    = 0
+L3327: 2 (,x).
+L3328: 
+L3329: x
+L3330: 
+L3331:  = 0   →x  0
+L3332: y
+
+
+L3335: ===== Page 107 / 947 =====
+L3336: GATE WALLAH CIVIL HANDBOOK
+L3337: Structure Analysis
+L3338: 3.10
+L3339: 2.3. Effect of force release on D.O.F.
+L3340: 1. Internal moment hinge.
+
+L3342: Note: Each member connected to a hinge can have its own notation, in addition to x and y.
+L3343: Example:
+
+L3345: 5 notations and 2 translations.
+L3346: 2. Horizontal shear releases.
+
+L3348: 3. Vertical, shear release
+
+L3350: 4. (2 rotations - 1 and 2 2 translations - x and y)
+
+L3352: y
+L3353: x
+L3354: 
+L3355: 2
+L3356: 
+L3357: x1 x2
+L3358: y
+L3359: 
+L3360: y1 y2
+L3361: x
+L3362: 2 x, y  
+
+
+L3365: ===== Page 108 / 947 =====
+L3366: GATE WALLAH CIVIL HANDBOOK
+L3367: Structure Analysis
+L3368: 3.11
+L3369: 4. D.O.F
+L3370: (2 horizontal trans- x1 and y1 vertical trans - y and .)
+L3371: 4. D.O.F
+L3372: ( y1, y2, x & ).
+L3373: D k of rigid jointed plane frame:
+
+
+L3376: For a rigid joint with infinite member, there is only single rotation for a hinged joint, there will be infinite rotations:
+L3377: Note: Practically the axial deformations of members or rigid jointed structures are negliglire.
+L3378: Assume axial deformation of all members are neglected then Dk = 52 – total no. of members.
+L3379: = 52 – 22 = 30 (neglection axial deformations)
+
+
+L3382: DK of Pin jointed Plane Frames:
+
+L3384: Note: Rotations are not considered in trusses the only possible D.O.F in trusses are axial deformations. Hence the equation of
+L3385: neglecting AD do not arise in pin-jointed trusses
+
+
+L3388: ===== Page 109 / 947 =====
+L3389: GATE WALLAH CIVIL HANDBOOK
+L3390: Structure Analysis
+L3391: 3.12
+L3392: Formula for DK:
+L3393: D K = NJ – C where  N = D.O.F at a joint
+L3394: J = no of joints
+L3395: N = 3 ; rigid jointed plane frame C = compatibility equations
+L3396: N = 6: rigid jointed space frame
+L3397: N = 2; pin jointed plane frame
+L3398: N = 3 ; pin jointed space frame
+L3399: J  = 4 (supports are also considered as jointed)
+L3400: O = Reactions, if actual deformations consider
+L3401: = m + r; if axial deformations are neglect
+L3402: Where m → no of members.
+L3403: D K = 3 × 4 – 6 = 6
+L3404: D K = 6 × 4 (joints)
+L3405: = 24 (considering AD)
+L3406: D K = 24 – 8 (member)
+L3407: = 16 (neglecting AD).
+
+L3409: 
+
+
+L3412: ===== Page 110 / 947 =====
+L3413: GATE WALLAH CIVIL HANDBOOK
+L3414: Design Against Static Load
+L3415: 3.13
+L3416: 3
+L3417: INFLUENCE LINE DIAGRAM
+
+L3419: 3.1. Introduction
+L3420: ILD –Definition & Diagrams
+L3421: It is the graphical representation of variation of following parameter - reaction, shear force, bending moment etc. as a unit load
+L3422: moves from one end of the structure to other end of the structure.
+
+L3424: ILD – Value of Parameter
+L3425: How to calculate value of Parameter (Reaction, Shear, Moment)due to external load using ILD
+L3426: Value of Parameter = ∑(Point Load x Ordinate of ILD at the location of load)
+L3427: +
+L3428: ∑ (Intensity of UDL x Area of ILD under the loading zone)
+L3429: ILD for Reaction of Simply Supported Beam
+
+L3431: 1
+L3432: 1
+L3433: A B
+L3434: RA
+L3435: RB
+
+
+L3438: ===== Page 111 / 947 =====
+L3439: GATE WALLAH CIVIL HANDBOOK
+L3440: Structure Analysis
+L3441: 3.14
+L3442: ILD for Reaction of Overhanging Beam
+
+L3444: ILD for Support Reaction of a Cantilever
+
+L3446: ILD –Beams with Internal Hinge
+L3447: In case Multiplan beam connected by means of a internal hinge, the ILD changes its direction or slope at the hinge lo cation or
+L3448: point.
+
+L3450: ILD – Beam Shear Force
+
+L3452: A B C
+L3453: L a
+L3454: 1
+L3455: 1
+L3456: a
+L3457: L
+L3458: a
+L3459: L1 +
+L3460: RA
+L3461: RB
+
+
+L3464: ===== Page 112 / 947 =====
+L3465: GATE WALLAH CIVIL HANDBOOK
+L3466: Structure Analysis
+L3467: 3.15
+L3468: 3.2. Overhanging Beam
+
+L3470: Cantilever
+
+L3472: 3.2.1. ILD – Truss Bridge
+L3473: Through
+L3474: • Vehicle travel inside the bridge
+L3475: • Loading point are the lower joints
+
+L3477: Deck
+L3478: • Vehicle travel over the Bridge
+L3479: • Loading points are the Upper joints
+
+
+L3482: ===== Page 113 / 947 =====
+L3483: GATE WALLAH CIVIL HANDBOOK
+L3484: Structure Analysis
+L3485: 3.16
+L3486: Trough
+L3487: Truss Bridge
+L3488: Member – Upper Chord, Lower Chord, Diagonal , Vertical Member
+
+L3490: Deck Truss Bridge
+L3491: Member – Upper Chord, Lower Chord, Diagonal , Vertical Member
+
+L3493: 3.2.2. ILD – Rolling Loads
+L3494: Maximum Bending Moment  at a given section:
+L3495: • For UDL
+
+L3497: 12
+L3498: bwwa
+L3499: LL=
+L3500: • Average load on left of section = Average load on right of section
+
+L3502: Maximum Bending Moment  at a given section:
+L3503: For wheel loads
+L3504: ‘Maximum’ BM at a given section of a beam occurs on a section when the average load on the left side of section minus
+L3505: the average load on right side of section changes sign when the point load passes over the section
+
+L3507: U0 U1 U2 U3 U4 U5 U6
+L3508: L0
+L3509: L1 L2 L3 L4 L5 L6
+L3510: U0 U1 U2 U3 U4 U5 U6
+L3511: L1 L2 L3 L4 L5
+L3512: Upper Chord = Compression
+L3513: Lower Chord = Tension
+L3514: Diagonal = Compression & Tension
+L3515: Vertical = Compression & Tension
+
+
+L3518: ===== Page 114 / 947 =====
+L3519: GATE WALLAH CIVIL HANDBOOK
+L3520: Structure Analysis
+L3521: 3.17
+L3522: Maximum Bending Moment at a section due to Rolling Point Loads
+
+L3524: Maximum Bending Moment under a chosen wheel load:  The BM under a chosen load of a wheel load system will be a
+L3525: maximum, when the load system is so placed on the girder that the chosen load and the resultant of all the wheel, loa ds are
+L3526: equidistant from the middle point of the girder.
+
+L3528: ILD – Müller-Breslau Principle
+L3529: The Müller-Breslau principle  is a method to determine influence lines. The principle states that the influence lines of an
+L3530: action (force or moment) assumes the scaled form of the deflection displacement.
+L3531: Simple Supported beam
+
+
+L3534: ===== Page 115 / 947 =====
+L3535: GATE WALLAH CIVIL HANDBOOK
+L3536: Structure Analysis
+L3537: 3.18
+L3538: Over Hanging beam
+
+L3540: Determinate Beam
+L3541: Straight Profiles
+
+
+
+
+L3546: A
+L3547: D B E C1 RA
+L3548: A
+L3549: D B E C1
+L3550: A
+L3551: D B E C1
+L3552: VD
+L3553: A
+L3554: D B E C
+L3555: 1 ME
+
+
+L3558: ===== Page 116 / 947 =====
+L3559: GATE WALLAH CIVIL HANDBOOK
+L3560: Structure Analysis
+L3561: 3.19
+L3562: Indeterminate Beam
+L3563: Curved Profiles
+
+
+
+L3567: A
+L3568: D B E C1 RA
+L3569: Selected point
+L3570: A B F C
+L3571: D
+L3572: M
+L3573: I
+L3574: f ( )D
+L3575: A
+L3576: D
+L3577: B F C
+L3578: 
+L3579: II
+L3580: =1
+
+
+L3583: ===== Page 117 / 947 =====
+L3584: GATE WALLAH CIVIL HANDBOOK
+L3585: Structure Analysis
+L3586: 3.20
+
+
+L3589: ===== Page 118 / 947 =====
+L3590: GATE WALLAH CIVIL HANDBOOK
+L3591: Structure Analysis
+L3592: 3.21
+
+
+L3595: 
+
+
+L3598: ===== Page 119 / 947 =====
+L3599: GATE WALLAH CIVIL HANDBOOK
+L3600: Design Against Static Load
+L3601: 3.22
+L3602: 4
+L3603: MOMENT
+L3604: DISTRIBUTION METHOD
+
+
+L3607: 4.1. Introduction
+L3608: 1.  Assumptions in moment distribution Method
+L3609: • The effect of Axial forces and axial deformations are Neglected in moment distribution method.
+L3610: • Clockwise and moments are taken as +ve and Anticlockwise end moment are taken a –ve {This sign convention is
+L3611: used while distributing the ends moments only}. In this case we will not see weather the end moment are sagging the
+L3612: beam or Hogging the Beam.
+L3613: • Sagging BM is taken as +ve and Hogging BM is taken as –ve. The sign convention is used while drawing BM dig.
+L3614: only.
+L3615: 2.  For cantilever Beam,  C.O.M = – M {–ve because applied moment & C.O.M are opposite to each other}
+L3616: (Applied Moment)
+
+L3618: 3. Carry Over Factor
+L3619: It is the Ratio of carry over Moment and Applied moment
+L3620: Case (1) :  When for end is fixed
+L3621: **
+L3622: C.O.M M a 1C.O.F Applied moment M 2= = =
+L3623: Case (2) : When for end is hinged =
+L3624: **0C.O.F. 0M==
+L3625: Case (3) :  For cantilever beam =
+L3626: **MC.O.F. 1 M
+L3627: −= = −
+L3628: 
+L3629: MB = MB
+L3630: B'
+L3631: MA = M
+L3632: (C.O.M)
+L3633: A
+
+
+L3636: ===== Page 120 / 947 =====
+L3637: GATE WALLAH CIVIL HANDBOOK
+L3638: Structure Analysis
+L3639: 3.23
+L3640: 4. Stiffness Factor
+L3641: It is the moment required to produce unit rotation
+L3642: Case (1) :  When for end is fixed stiffness factor = s = 4EI
+
+
+L3645: Case (2) : When for end is hinged, s = 3EI
+
+
+L3648: Case (3) : When for end is free, stiffness factor = s = 0
+
+L3650: 5.  Relative Stiffness (K)
+L3651: It is the ratio of moment of inertia and length of the member.
+L3652: Case (1) :  When for end is fixed, relative stiffness  IK=
+
+L3654: Case (2) : When for end is hinged, relative stiffness  3IK 4=
+
+L3656: 4EI I→
+
+L3658: 3EI 3 I
+L3659: 4→
+
+L3661: Case (3) It for end is free K0=  {Because s = 0}
+L3662: 6.    Distribution Factor
+L3663: It is the ratio in which the applied moment M is shared by the members meeting at any rigid joint.
+L3664: A 
+L3665: B = 1
+L3666: MB = 4EI
+L3667: 
+L3668: A
+L3669: B = 1 MB = 3EI
+L3670: 
+L3671: B
+L3672: B=1
+L3673: A m = 0 kN-m
+
+
+L3676: ===== Page 121 / 947 =====
+L3677: GATE WALLAH CIVIL HANDBOOK
+L3678: Structure Analysis
+L3679: 3.24
+
+L3681: ‘0’ is a Rigid joint {After application of loads, angle between member remain same}
+L3682: KD.F K=
+
+L3684: 7.  Note:
+L3685: (1) The sum of the distribution factor of all members meeting oat a Rigid Joint = 1
+L3686: (2) The concept of Distribution factor is Applicable to member metting at a Rigid Joint only.
+L3687: 4.2. MDM – Standard Case
+
+L3689: Bending Moment Diagram and Deflected Shape
+
+L3691: B
+L3692: C
+L3693: A
+L3694: O
+L3695: M
+L3696: 
+L3697:   
+L3698: 
+L3699: D
+L3700: E
+L3701: q KN/m
+L3702: Loaded Member
+L3703: Breakup Member
+L3704: Superimposed BMD
+
+
+L3707: ===== Page 122 / 947 =====
+L3708: GATE WALLAH CIVIL HANDBOOK
+L3709: Structure Analysis
+L3710: 3.25
+
+L3712: Bending Moment Diagram and Deflected Shape
+L3713: Example:
+
+L3715: 2
+L3716: AB
+L3717: 12 6M 36 kNm12
+L3718: −= −
+L3719: MBA = + 36 kNm
+L3720: 4.3. MDM – Standard Cases 4
+L3721: Example:
+L3722: MBA > MAB
+
+L3724: 2
+L3725: 30AB
+L3726: qLM −=
+L3727: 2
+L3728: 20BA
+L3729: qLM +=
+
+L3731: Deflected Shape
+L3732: Actual BMD on Tension Side
+
+
+L3735: ===== Page 123 / 947 =====
+L3736: GATE WALLAH CIVIL HANDBOOK
+L3737: Structure Analysis
+L3738: 3.26
+L3739: Bending Moment Diagram and Deflected Shape
+
+L3741: Example:
+L3742: Standard Case
+
+L3744: 25
+L3745: 96ABM wL=−
+
+L3747: 25
+L3748: 96BA
+L3749: wLM =+
+L3750: Bending Moment Diagram
+
+
+L3753: Loading diagram
+L3754: BMD
+L3755: Superimposed BMD
+
+
+L3758: ===== Page 124 / 947 =====
+L3759: GATE WALLAH CIVIL HANDBOOK
+L3760: Structure Analysis
+L3761: 3.27
+L3762: 4.4. MDM – Standard Cases 5
+
+L3764: 0AB 2
+L3765: M b(2a b)M
+L3766: L
+L3767: −=
+L3768: 0BA 2
+L3769: M a(2b a)M
+L3770: L
+L3771: −=
+L3772: Example:
+L3773: when a = b = L/2
+
+L3775: AB
+L3776: M.b(2a b)M L
+L3777: −=
+L3778: LLM. L22
+L3779: L
+L3780:  −
+L3781: =
+L3782: M
+L3783: 4=
+L3784: Bending Moment Diagram and Deflected Shape
+
+
+L3787: ===== Page 125 / 947 =====
+L3788: GATE WALLAH CIVIL HANDBOOK
+L3789: Structure Analysis
+L3790: 3.28
+L3791: Resultant BMD after Superposition
+
+L3793: 3 Point of Control Flexure and 4 Curvature
+
+L3795: 4.5. MDM – Standard Cases 6
+L3796: 4.4.1. Sinking of Support
+L3797: Relative to A, support B sinks by  value.
+
+
+L3800: ===== Page 126 / 947 =====
+L3801: GATE WALLAH CIVIL HANDBOOK
+L3802: Structure Analysis
+L3803: 3.29
+
+L3805: If A & B are made fixed  = 0.
+
+L3807: End Reaction
+
+L3809: Bending Moment diagram
+
+
+L3812: ===== Page 127 / 947 =====
+L3813: GATE WALLAH CIVIL HANDBOOK
+L3814: Structure Analysis
+L3815: 3.30
+L3816: Example:
+
+L3818: • A setells by 2
+L3819: 
+L3820: • B rises by 2
+L3821: AB 2
+L3822: 56EI 2M
+L3823: L
+L3824: − 
+L3825: =
+L3826: ,  Relative disp = 52 22
+L3827: + = 
+L3828: 4.5. Portal frame with sway – Moment distribution method
+L3829: (1) If the structure and loading are symmetrical, then the frame will not in any direction.
+
+L3831: (2) (a) Pure sway (Due to ‘P’ frame sways right words)
+
+
+L3834: (b) In this case loading is symmetrical but structure is not symmetrical so, frame sways towards weak column side.
+L3835: i.e frame sway left.
+
+
+L3838: ===== Page 128 / 947 =====
+L3839: GATE WALLAH CIVIL HANDBOOK
+L3840: Structure Analysis
+L3841: 3.31
+
+L3843: (c)  Structure is symmetrical loading is not symmetrical.
+
+L3845: (d) Cut the frame at centre and check the deflected shape of the cut frame in that direction frame also sways. In the
+L3846: above frame sways to the left.
+
+
+
+
+
+
+L3853: Frame sways to the right
+
+
+
+L3857: (3) Causes of side sway of frames:
+L3858: (a)  Unsymmetrical loading
+L3859: (b)  Unsymmetrical out line.
+L3860: (c)  Different end conditions of columns
+L3861: (d)  Non - uniform section of members
+L3862: (e)  Horizontal loading on columns
+L3863: (f)  Settlement of supports
+L3864: (g) Combination of above.
+L3865: 
+L3866: B C
+L3867: I lI l
+L3868: A D
+
+
+L3871: ===== Page 129 / 947 =====
+L3872: GATE WALLAH CIVIL HANDBOOK
+L3873: Design Against Static Load
+L3874: 3.32
+L3875: 5
+L3876: PLASTIC
+L3877: ANALYSIS
+
+L3879: 5.1. Topics
+L3880: • Stress Strain Diagram
+L3881: • Assumptions in plastic analysis
+L3882: • Plastic Moment of a Section
+L3883: • Shape factor
+L3884: • Moment Curvature relation
+L3885: • Determinacy and Indeterminacy
+L3886: • Locations of plastic hinge
+L3887: • Conditions in Plastic Analysis
+L3888: • Mechanism in Structures
+L3889: • Types of independent Mechanisms
+L3890: • Theorems of Plastic Analysis
+L3891: • Sequence of Plastic Hinge formation
+L3892: • Collapse load determination
+L3893: • Plastic Hinge length
+L3894: • Load Factor
+L3895: 5.2.  Introduction to Plastic Analysis
+L3896: • Plastic design of a structure limits the structural usefulness of the material of the structure up to ultimate load.
+L3897: • The load is found from the strength of steel in the plastic range.
+L3898: • The method has its main application in steel structures as the strength of steel beyond the yield stress is fully utilized
+L3899: in this method.
+L3900: • The method is economical
+L3901: • The new steel code IS 800 – 2007 utilizes this approach for Design
+L3902: 5.3.  Stress Strain Curve - Plastic Analysis
+L3903: • The concept of ductility forms the basis for the plastic theory.
+L3904: • Mild steel is a ductile material.
+
+
+L3907: ===== Page 130 / 947 =====
+L3908: GATE WALLAH CIVIL HANDBOOK
+L3909: Structure Analysis
+L3910: 3.33
+
+L3912: 5.3.1. Key Points of Mild Steel Curve
+L3913: • Pt. A – Proportional limit
+L3914: • Pt. B – Elastic limit
+L3915: • Pt. C – upper yield point
+L3916: • Pt. D – lower yield point
+L3917: • DE zone of Plastic deformation
+L3918: • Pt. F – ultimate stress point
+L3919: • EF Zone - Strain Hardening
+L3920: • Pt. G – Fracture point
+L3921: • FG Zone – Necking
+L3922: 5.3.2. Elastic Vs. Plastic Theory
+L3923: • Elastic method is based on Hook’s law. Hence the structural usefulness of the material of the structure is limited to a
+L3924: stage when the stress in  extreme fiber  reaches the yield stress  of material. The rest of the cross section remains
+L3925: unstressed, and the method do not take into account the strength beyond the yield stress point.
+L3926: • Plastic design the structural usefulness if found from the strength of steel in the plastic range . Plastic Analysis is
+L3927: also known as Ultimate load analysis.  The sections designed by this method are smaller in size.
+L3928: Important Note:
+L3929: • Strain controlled
+L3930: • Strain hardening and necking is neglected.
+L3931: • Lower yield point is considered.
+L3932: • Elasto Plastic curve forms the basis of design
+
+
+L3935: ===== Page 131 / 947 =====
+L3936: GATE WALLAH CIVIL HANDBOOK
+L3937: Structure Analysis
+L3938: 3.34
+L3939: 5.4.  Assumptions - Plastic Analysis
+L3940: 5.4.1. Bernoulli’s Assumption.
+
+L3942: • Axial and shear deformations are neglected
+L3943: • The cross section must be symmetrical w.r.t. the plane of loading
+L3944: • The stress strain relationship is assumed to be bi-linear i.e. it consists of 2 straight lines.
+L3945: • The material is homogeneous, and isotropic in both elastic and plastic state
+
+L3947: 5.4.2. Applicability
+L3948: • Plastic theory is not suitable for structures subjected to impact and fatigue
+L3949: • High tensile steel does not posses a defined yield point and the horizontal yielding part does not exist in the stress strain
+L3950: diagram hence its use is not applicable
+L3951: • The Plastic theory is not applicable in brittle material but in RCC it can be applied with limitation to rotation
+L3952: exceptionally.
+
+
+L3955: ===== Page 132 / 947 =====
+L3956: GATE WALLAH CIVIL HANDBOOK
+L3957: Structure Analysis
+L3958: 3.35
+L3959: 5.5. Plastic Moment  - Plastic Analysis
+L3960: Bending strain distribution because of Bernoulli’s assumption
+
+L3962: Bending stress (linear because of Hook’s law (Safe Moment)
+
+L3964: Bending stress diagram at yielding (Yield Moment)
+
+L3966: Bending stress diagram at plastic state (Plastic Moment)
+
+L3968: Bending strain distribution at collapse condition (linear)
+
+
+L3971: ===== Page 133 / 947 =====
+L3972: GATE WALLAH CIVIL HANDBOOK
+L3973: Structure Analysis
+L3974: 3.36
+L3975: 5.6. Shape Factor- Plastic Analysis
+L3976: • Shape factor represents “Reserved Strength “ of beam section beyond yield moment to reach plastic state
+L3977: • The more S.F. implies more reserve strength beyond yield moment to each plastic state
+L3978: 5.6.1. Shape factor for Different c/s
+L3979: • Rectangular Section 1.5
+L3980: • Circular Section 1.7
+L3981: • I section 1.14
+L3982: • H section 1.5
+L3983: • Diamond section 2.0
+L3984: • Triangular section 2.34
+L3985: 5.7. Moment Curvature Relation - Plastic Analysis
+L3986: Curvature is proportional to M , i.e. as the moment increases curvature also increases
+
+L3988: 2
+L3989: 2
+L3990: dy
+L3991: dx
+L3992: = 1d
+L3993: dx R
+L3994: =
+L3995: M
+L3996: I  = f
+L3997: yR=
+L3998: Where :  M  = Moment at Section
+L3999: I = Moment of Inertia
+L4000: Y  = distance from NA to extreme fibre of elastic state
+L4001: R  = radius of curvature of bent up beam
+L4002: 1/R = curvature i.e rate of change of slope 1
+L4003: y
+L4004: At fully plastic state curvature is infinity,
+
+
+L4007: ===== Page 134 / 947 =====
+L4008: GATE WALLAH CIVIL HANDBOOK
+L4009: Structure Analysis
+L4010: 3.37
+L4011: 5.7.1. Moment Curvature Graph
+
+L4013: Conclusion
+L4014: • Mp depends on the area of c/s and distribution of the area.
+L4015: • The most efficient c/s is  I - section (because for a given c/s area, centroidal distance are maximum.
+L4016: 5.8. Indeterminacy - Plastic Analysis
+L4017: How is Indeterminacy helpful in studying Plastic Analysis
+L4018: Considering the planar structure we know that there are 3 Equations of Equilibrium under general loading case.
+L4019: ∑Fx = 0, ∑Fy = 0, ∑Mz = 0
+L4020: Also for the planar structure as Beam subjected to vertical loading there are only 2 Equations of Equilibrium.
+L4021: ∑Fy = 0, ∑Mz = 0, horizontals are neglected
+L4022: In Regards to supports
+L4023: • Roller has one Normal Reaction
+L4024: • Hinged or Pinned has total of two reactions in Vertical and Horizontal
+L4025: • Fixed  support has total of three reactions in vertical , horizontal and moment
+L4026: • Internal Hinge has zero moment at the location and if present in sufficient number it make the structure unstable. It
+L4027: gives an additional equation due to which the indeterminacy of the structure decreases
+L4028: • Plastic hinge has Plastic Moment at the location and if present in sufficient number it make the structure unstable
+L4029: Static indeterminacy of any structure is given as
+L4030: SI = Reactions – Equilibrium equation – nos.of Hinge
+L4031: If SI < 0 Unstable, SI = 0 Determinate, SI>0 Indeterminate
+L4032: • If a structure is statically stable then the number of additional hinges (Plastic) required for the complete collapse of the
+L4033: structure is
+L4034: N = SI  + 1
+
+
+L4037: ===== Page 135 / 947 =====
+L4038: GATE WALLAH CIVIL HANDBOOK
+L4039: Structure Analysis
+L4040: 3.38
+L4041: 5.9 Plastic Hinge Location
+L4042: • Under the Point or Concentrated load
+L4043: • At the location of maximum moment
+L4044: • At the change of cross section
+L4045: • At location where material properties change
+L4046: • At fixed or continuous support pts.
+L4047: 5.9.1. Condition - Plastic Analysis
+L4048: There are 3 conditions in plastic equilibrium
+L4049: • Equilibrium condition
+L4050: • Mechanism condition
+L4051: • Yield condition
+L4052: Equilibrium Condition
+L4053: ∑Fx  = 0, ∑Fy = 0, ∑Mz = 0
+L4054: Mechanism condition
+L4055: At collapse, sufficient no. of plastic hinges must be developed so that a part or entire structure must transform in to a mechanism
+L4056: leading to its collapse.
+L4057: Number of mechanism = Probable Location – Static Indeterminacy
+L4058: Yield Condition
+L4059: At collapse the bending moment at any section should not exceed the plastic moment capacity i.e. M ≤ Mp
+L4060: 5.10. Mechanism - Plastic Analysis
+L4061: • Beam mechanisms
+L4062: • Sway mechanisms
+L4063: • Gable mechanism
+L4064: • Joint mechanism
+L4065: 5.10.1. Beam Mechanisms
+L4066: Takes place in simply supported, continuous, fixed beams etc.
+
+
+L4069: ===== Page 136 / 947 =====
+L4070: GATE WALLAH CIVIL HANDBOOK
+L4071: Structure Analysis
+L4072: 3.39
+L4073: 5.10.2. Sway Mechanisms
+L4074: Takes place in Frames due to drifting of the column top joints.
+
+L4076: 5.10.3. Joint Mechanism
+L4077: Occurs where more than two structural members meet. Plastic hinge is formed in all the members at that joint
+
+L4079: 5.10.4.  Gable Mechanism
+L4080: Columns spread more at the top than at the base. This occurs in Gable frames of a warehouse or gable frames.
+
+
+L4083: ===== Page 137 / 947 =====
+L4084: GATE WALLAH CIVIL HANDBOOK
+L4085: Structure Analysis
+L4086: 3.40
+L4087: 5.11. Theorems - Plastic Analysis
+L4088: Static Theorem
+L4089: • This theorem is based on the principles of statics
+L4090: • It utilizes two conditions that are Equilibrium and Yield
+L4091: • It is a lower bound theorem which states that for any distribution of moments the frame should be safe and admissible
+L4092: under the value of load W, where W is less than or equal to collapse load Wu
+L4093: • Hence W ≤ Wu,  M ≤ Mp
+L4094: Kinematic Theorem
+L4095: • It is based on the concept of work done and energy absorbed
+L4096: • It utilizes two conditions that are Equilibrium and Mechanism
+L4097: • It is a upper bound theorem which states that for a given frame subjected to load W, the W is found to correspond to
+L4098: any assumed mechanism, must be either greater or equal to the collapse load Wu
+L4099: • Hence W ≥ Wu
+L4100: 5.11.1. Static Theorem Procedure
+L4101: • Draw the Normal BMD for the load on member
+L4102: • Identify the locations where Plastic Moment capacity can be reached in a sequence.
+L4103: • Relate the load Wu with the last plastic hinge location in terms of the bending moment Mp
+L4104: 5.11.2. Kinematic Theorem Procedure
+L4105: • Locate the possible location of plastic hinges
+L4106: • Determine the number of possible independent and combined mechanisms
+L4107: • Write the equation of equilibrium by the principal of virtual work i.e.
+L4108: Work done = Energy stored
+L4109: 5.12. Sequence of Plastic Hinge Formation
+L4110: (1)  Load w1
+
+
+
+L4114: 2
+L4115: 1
+L4116: 12 y
+L4117: L M   or 1 2
+L4118: 12 yM
+L4119: L
+L4120: =
+
+
+L4123: ===== Page 138 / 947 =====
+L4124: GATE WALLAH CIVIL HANDBOOK
+L4125: Structure Analysis
+L4126: 3.41
+L4127: (2)  w2 > w1 Load Increases
+
+L4129: (3)  w3 > w2 Load Increased
+
+
+
+
+L4134: 2
+L4135: 3 28 P
+L4136: L M =  or 3 2
+L4137: 16 PM
+L4138: L
+L4139: =
+L4140: Hence, If
+L4141: 1 = 10 kN/m
+L4142: Then find 2 and 3 for Rectangular Section.
+L4143: (1)
+L4144: 2
+L4145: 2
+L4146: 21
+L4147: 12 /
+L4148: 12 /
+L4149: P
+L4150: y
+L4151: ML
+L4152: ML
+L4153:  =
+L4154: = 1.5P
+L4155: f
+L4156: y
+L4157: M SM ==
+L4158:    2  = 1.5,  1  = 15 kN/m
+L4159: (2)
+L4160: 2
+L4161: 3
+L4162: 22
+L4163: 16 /
+L4164: 12 /
+L4165: P
+L4166: P
+L4167: ML
+L4168: ML
+L4169:  =
+L4170: = 4
+L4171: 3
+L4172:  3  = 4 153 = 20 kN/m.
+
+L4174: Ques.  Find the Reaction at the Propped.
+L4175: (a) Elastic Condition
+L4176: (b) Collapse or Plastic Condition
+
+
+L4179: ===== Page 139 / 947 =====
+L4180: GATE WALLAH CIVIL HANDBOOK
+L4181: Structure Analysis
+L4182: 3.42
+L4183: Elastic Condition
+
+L4185: Taking M = 0   about (A)
+L4186: 3
+L4187: 3 .16 2
+L4188: LW WL RL− + −  = 0
+L4189: Hence,  RB = 5
+L4190: 16W
+L4191: Plastic Condition
+L4192: Considering the equilibrium of right side of beam.
+L4193: M = 0   about P.H.
+
+L4195: 2PB
+L4196: LMR+ −   = 0
+L4197:    RB = 2 PM
+L4198: L
+L4199: From standard case,
+L4200: We know, W = 6 PM
+L4201: L
+L4202: Hence,  RB = 2
+L4203: 63
+L4204: LW W
+L4205: L=
+L4206: RB = 3
+L4207: W
+
+
+L4210: ===== Page 140 / 947 =====
+L4211: GATE WALLAH CIVIL HANDBOOK
+L4212: Structure Analysis
+L4213: 3.43
+L4214: 5.13. Length of Plastic Hinge for Rectangular Section
+
+L4216: 5.13.1.  Bending Stress Diagram
+L4217: MP = 4
+L4218: PL
+L4219: For Rectangular Section, P
+L4220: y
+L4221: M
+L4222: M  = SF = 1.5
+L4223: From Bending Moment Dia.
+
+L4225: /2
+L4226: PM
+L4227: L  =
+L4228: 22
+L4229: yM
+L4230: Lx
+
+L4232:    ( L – x) = 2
+L4233: 3 L
+
+L4235:    x = 3
+L4236: L
+L4237: Therefore, the hinge length of the plastic zone in equal to 1/3rd of the span.
+L4238: Lf = u P
+L4239: w
+L4240: P M
+L4241: PM=
+L4242: Pu =  Collapse Load
+L4243: Pw = Working Load
+L4244: MP =  Plastic Moment
+L4245: M = Service Moment
+
+
+L4248: ===== Page 141 / 947 =====
+L4249: GATE WALLAH CIVIL HANDBOOK
+L4250: Structure Analysis
+L4251: 3.44
+L4252: Hence,  Lf = y p y
+L4253: f
+L4254: e
+L4255: f Z f Sf Z f
+L4256:  =
+L4257:    Lf = (Fos)  Sf
+L4258: uf
+L4259: f
+L4260: = Fos in elastic design.
+L4261: f = permissible bending stress
+L4262: = 0.66 fy  [As per 15800 – 1984]
+L4263: 5.14. Collapse Diagram - Plastic Analysis
+L4264: 5.14.1. Collapse diagram due to plastic hinge formation
+L4265: Rigid body motion is considered i.e. structure becomes unstable and Mechanism has formed.
+L4266: Hence to form a Mechanism in a statically indeterminate structure the nos. of plastic hinge required is equal to
+L4267: N = SI + 1
+L4268: There are 3 types of structural collapse based on number of plastic hinges formed
+L4269: • Partial collapse : the number of plastic hinges formed is less than that required for complete collapse. Hence only a
+L4270: part of the structure  becomes unstable
+L4271: • Complete collapse : the number of plastic hinges formed is SI + 1
+L4272: • Over Complete collapse : the number of plastic hinges formed is greater than that required for complete collapse.
+L4273: Hence there are chances of multiple mechanism occurring simultaneously.
+L4274: Plastic Hinge Length
+L4275: • Zone of yielding at which infinite rotations may take place.
+L4276: • Large changes of slope occur over small length of member at a position
+L4277: • The zone acts as if it was hinged with a constant moment Mp.
+L4278: • The length of the yielded zone is called the hinge length.
+L4279: • Plastic hinges are formed first at the sections subjected to greatest deformation(curvature).
+L4280: Load Factor - Plastic Analysis
+L4281: • It is defined as the ratio of collapse load to the working load
+L4282: • It can also be defined as the product of the factor of safety and shape factor
+L4283: • In practice a load factor varying from 1.7 to 2.0 is assumed depending upon the engineer’s judgment
+L4284: • IS800 – 2007 is silent on Load factor.
+L4285: • Load factor has been defined in IS800 – 1984
+L4286: • The prime function of load factor is to ensure that the structure is safe under working condition.
+
+
+L4289: ===== Page 142 / 947 =====
+L4290: GATE WALLAH CIVIL HANDBOOK
+L4291: Structure Analysis
+L4292: 3.45
+L4293: L f = u P
+L4294: w
+L4295: P M
+L4296: PM=
+L4297: Hence,  Lf =
+L4298: y p y
+L4299: f
+L4300: e
+L4301: f Z f Sf Z f
+L4302:  =
+L4303:    Lf = (Fos)  Sf
+L4304: P u =  Collapse Load
+L4305: P w = Working Load
+L4306: M P = Plastic Moment
+L4307: M = Service Moment
+L4308: uf
+L4309: f
+L4310: = Fos in elastic design.
+L4311: f = permissible bending stress
+L4312: = 0.66 fy    [As per 15800 – 1984]
+L4313: Example
+L4314: Load factor for Rectangular Section,
+L4315:    Lf = 1.50.66
+L4316: y
+L4317: y
+L4318: f
+L4319: f
+L4320:  
+L4321: 
+L4322: 
+L4323: = 2.26
+L4324: Load factor for I section,
+L4325:    Lf = 1.140.66
+L4326: y
+L4327: y
+L4328: f
+L4329: f
+L4330:  
+L4331: 
+L4332: 
+L4333: = 1.70
+L4334: 
+
+
+L4337: ===== Page 143 / 947 =====
+L4338: GATE WALLAH CIVIL HANDBOOK
+L4339: Design Against Static Load
+L4340: 3.46
+L4341: 6
+L4342: ARCHES & CABLES
+
+L4344: 6.1. Properties of Fluid
+L4345: An Anch is a curved beam in vertical plane
+L4346: • Design forces in an Arch:
+L4347: • Rn : normal thrust or axial compression
+L4348: • S : Radial shear force
+L4349: • M : Bending moment
+
+L4351: Advantages of Arches compared to SSB.
+L4352: For a SSB:
+
+L4354: For an Arch:
+
+
+L4357: ===== Page 144 / 947 =====
+L4358: GATE WALLAH CIVIL HANDBOOK
+L4359: Structure Analysis
+L4360: 3.47
+
+
+L4363: xm R x wxx A 2=−
+
+
+L4366: 2
+L4367: beam A
+L4368: wxm R x 2=−
+L4369: m x = March =
+L4370: 2
+L4371: A A beam A
+L4372: wxR .x H y M H y2
+L4373:  − − = −
+L4374: 
+L4375: 
+
+L4377: March = Mbeam – Hmoment
+L4378: (a)  An arch is economical for long spans compared to SSB
+L4379: (b) The horizontal reaction developed of the support of each will reduce the net moment compared to that of SSB.
+L4380: Note:
+L4381: Arches are primarily suby to axial compression. Hence stone which strong in axial compression were used in olden days for
+L4382: contraction of arches.
+L4383: 6.2. Classification of Arches
+L4384: 1.  Based on Shape
+L4385: (a) Parabolic
+L4386: (b) Semi-circular
+L4387: (c) Segmental
+L4388: 2.  Based on number of hinges (or Ds) :
+L4389: (a) Fixed arches (D s = 3, Dk = 0)
+L4390: (b) Two hinged arches (D s = 1, Dk = 2)
+L4391: (c) Three hinged arches (D s = D, Dk = 6 considering AD
+L4392: = 4 neglecting AD)
+
+L4394: 4
+L4395: 11
+
+L4397: Parabolic Arches
+L4398: ( )2
+L4399: 4hy x 1 x
+L4400: l
+L4401: =−
+L4402: (one of the support as origin)
+
+
+L4405: ===== Page 145 / 947 =====
+L4406: GATE WALLAH CIVIL HANDBOOK
+L4407: Structure Analysis
+L4408: 3.48
+L4409: ( )2
+L4410: 4tan 1 2
+L4411: 1
+L4412: dy h xdx= = −
+
+L4414: 2x
+L4415: y = const. (Crown as origin)
+L4416: y
+L4417: x
+L4418: L
+L4419: 
+L4420: h
+
+L4422: Calculation of Reactions at support of Arches
+L4423: (a)  Supports are at same level
+L4424: To calculate vertical reactions, if the supports are at same level, analysis is similar to that of a SSB.
+L4425: MA = 0
+L4426: 10 V B = 100 × 1
+L4427: V B = 10 KN & V A = 90 KN
+
+L4429: Horizontal reaction is not influencing the vertical reaction as their line of action through the support
+L4430: MA = 0
+L4431: ⸫  16 VB = 20 × 4 × 2
+L4432: VB = 10 KN ( )
+L4433: VA = 10 KN ( )
+
+
+L4436: ===== Page 146 / 947 =====
+L4437: GATE WALLAH CIVIL HANDBOOK
+L4438: Structure Analysis
+L4439: 3.49
+L4440: 6.3. Calculation of Horizontal Reactions
+L4441: (a) Three Hinged Arches. – parabolic arch suby. to wall throughout
+
+L4443: Apply, MC = 0 (from right)
+L4444:                                            1
+L4445: 2 4 2 2B
+L4446: wl l wlHh +  = 
+
+L4448: 2
+L4449: B
+L4450: wlH 8j=
+L4451: H A = H B = H (no other horizontal forces)
+
+L4453: 22
+L4454: x
+L4455: wl wl wxM x y 2 8h 2=  −  −  ( )
+L4456: 22
+L4457: 2
+L4458: wlx wl 4h wx x 1 x 02 8h 2 l
+L4459: = − − − =
+L4460: 
+
+L4462: M x = 0
+
+
+L4465: ===== Page 147 / 947 =====
+L4466: GATE WALLAH CIVIL HANDBOOK
+L4467: Structure Analysis
+L4468: 3.50
+
+L4470: 0 22
+L4471: 4
+L4472: c
+L4473: Wlm H h
+L4474: WlH h
+L4475:  =   = 
+L4476: =
+
+L4478: 6.4. ILD for 3-hinged Arches
+L4479: (a) ILD for Horizontal Thrust
+
+L4481: When unit to At support horizontal thrust = 0
+L4482: (a)  ILD for Mx
+L4483: M arch = M beam – Hy
+L4484: x & y are the coordinated of the choosen section where ILD is to be drawn for BM.
+
+L4486: (b) Supports at different level
+
+L4488: Calculate reaction the supports.
+
+
+L4491: ===== Page 148 / 947 =====
+L4492: GATE WALLAH CIVIL HANDBOOK
+L4493: Structure Analysis
+L4494: 3.51
+L4495: (1)  There hinged parabolic Unsymmetric Arches
+L4496: Step 1: Calculate horizontal distance of Ac & BC
+L4497: We known
+L4498: 2x
+L4499: y  = const. (For parabolic arch wrt crown as origin)
+L4500: x const
+L4501: y
+L4502: =
+L4503: 1 2 1 2
+L4504: 1 2 1 2 1 2
+L4505: const.l l l l l
+L4506: h h h h h h
+L4507: += = = =
+L4508: ++
+
+L4510: 1
+L4511: 11
+L4512: l 30
+L4513: L L b
+L4514: =
+L4515: +
+
+L4517:   1
+L4518: 60l 13.48 m
+L4519: 26
+L4520: ==
+L4521: +
+
+L4523: l 2  = 16.51 m
+L4524: As supports are not at same level, we cannot calculate vertical reactions by treating like a SSB initially
+L4525: Apply Mc = 0 (from left)
+
+L4527: 2
+L4528: A
+L4529: 13.48R 13.48 20 4H 2 =  +
+L4530: R A = 0.3 H + 134.9
+L4531: Apply Mc = 0 (from right)
+
+L4533: 2
+L4534: B
+L4535: 16.51R 16.51 20 6H 2 =  +
+L4536: RB = 165.1 + 0.363 H
+L4537: Apply  V = 0 for the entire arch,
+L4538: R A + RB = 20 × 30
+L4539: H = 455.2 KN
+L4540: RA = 269.64 KN
+L4541: RB = 330.36 KN
+L4542: 6.5. Radial shear & Normal Thrust
+L4543: Consider free body diagram of part AD.
+
+L4545: VD → net vertical reaction at D
+L4546: HD → net horizontal reaction at D
+L4547:  → angle b/w the tangent at D and horizontal
+
+
+L4550: ===== Page 149 / 947 =====
+L4551: GATE WALLAH CIVIL HANDBOOK
+L4552: Structure Analysis
+L4553: 3.52
+L4554: pn → normal thrust or axial compression
+L4555: S → radial SF.
+L4556: • pn is the resultant of HD & VD resolved in the direction of pn
+L4557: pn = HD cos  + VD sin
+L4558: • Radial shear, S is the resultant of HD & VD in the direction of s.
+L4559: S = HD sin – VD cos 
+L4560: • Prove that the shear force at any section of a 3-hinged parabolic arch subjected at well throughout is zero.
+L4561: For parabolic arch at any section,
+
+L4563: ( )2
+L4564: dy 4h 1 2x tandx l
+L4565: = − = 
+L4566: ( )
+L4567: ( )
+L4568: 242
+L4569: 4h 1 2xsin
+L4570: l 16h 1 2x
+L4571: −=
+L4572: +−
+
+
+L4575: ( )
+L4576: 2
+L4577: 242
+L4578: lcos
+L4579: l lbh 1 2x
+L4580: =
+L4581: +−
+
+L4583: DDS H sin V cos= − 
+L4584: ( )
+L4585: ( ) ( ) ( )
+L4586: 2 2 2
+L4587: 2 2 24 2 4 2 4 2
+L4588: 4h 1 2xwl wl l l wx.8h 2 l lbh 1 2x l lbh 1 2x l 16h 1 2x
+L4589: −=  − +
+L4590: + − + − + −
+
+L4592: = 0
+L4593: 6.6. Effect of Temperature on 3 hinged Arches
+L4594: As 3 hinged arch is statically determinate, no thermal stresses are developed. We know stresses depend upon BM. At a section.
+L4595: No stresses means no change in the moment of 3-hinged arch due to temperature change.
+
+L4597: Z
+L4598: MM F F Z=  =
+
+L4600: 22l 4h T4h
+L4601:  += 
+L4602: 
+L4603: 
+
+L4605: As T , y , H 
+L4606: M arch = M beam – Hy
+L4607: dH dh
+L4608: Hh
+L4609: −= –ve indicates that H and h vary in apposite directions.
+L4610: A cantilever suby to temperature change uniformly or temperature gradient dT 0dy
+L4611:  =
+L4612: 
+L4613: zero, then the cantilever is free to
+L4614: elongate.
+L4615: Here no resistance against deformation or no resistance against strain. No resistance means no strains
+L4616: 6.6.1. Two Hinged Arches
+L4617: Assume supports of two hinged arch will not yield laterally. According to cartigliands theorem, if no deformation, assuming
+L4618: horizontal reaction as redundant,
+
+
+L4621: ===== Page 150 / 947 =====
+L4622: GATE WALLAH CIVIL HANDBOOK
+L4623: Structure Analysis
+L4624: 3.53
+
+L4626: U 0H
+L4627:  =
+L4628: U
+L4629: R
+L4630:  =
+
+L4632:   2
+L4633: yM dsH
+L4634: y ds
+L4635: 
+L4636: 
+L4637: =  ; M = beam moment
+L4638: y
+L4639: 2
+L4640: M dsH
+L4641: y ds
+L4642: =
+L4643: 
+L4644: is useful for arches like 3–hinged arch with udl throughout. For unsymmetrical loads, numerator and denominator
+L4645: of above equation are not integrable.
+L4646: In order to analyse it is assumed that, I = Io sec  at any section I where IO is moment of inertia at the crown with this assumption,
+
+L4648: 2
+L4649: M ydxH
+L4650: y dx
+L4651: =
+L4652: 
+
+
+L4655: ILD for 2 hinged Arch:
+
+L4657: Two hinged semi circular Arches
+L4658: (1) Point load at Crown.
+
+L4660: (2) Temperature effect on 2 hinged Arches
+L4661: M arch  = M beam  – Hy
+L4662: (change) (const) (changes)
+
+
+L4665: ===== Page 151 / 947 =====
+L4666: GATE WALLAH CIVIL HANDBOOK
+L4667: Structure Analysis
+L4668: 3.54
+
+L4670: As there is no change at the crown, y won’t change
+L4671: But H changes
+L4672: As T , H
+L4673: If temperature increases, H increases. If temperature increases, no change in the value of rise. Hence temperature will try to
+L4674: push the supports out. But they will not. In this process, H will increase. As H, Hy increases. March decreases
+L4675: Effects of Rib Shorbening in 2 hinged Arches
+L4676: The effect of normal thrust in the arch is to shorten the rib of the arch and thus release part of horizontal thrust.
+L4677: 6.7. Cables
+L4678: Assumptions:
+
+L4680: (1) Cable is flexible
+L4681: BM @ every point is zero.
+L4682: (1) Self weight is neglected
+
+
+L4685: • Load along the horizontal span-Shape of cable is parabola
+L4686: • Udl is along the curve-shape of cable is catenary
+L4687: • In chain surveying also, correction to sag is catenary
+L4688: 
+
+
+L4691: ===== Page 152 / 947 =====
+
+
+
+L4695: ===== Page 153 / 947 =====
+L4696: ReinforcedReinforced
+L4697: CementCement
+L4698: ConcreteConcrete
+L4699: Reinforced
+L4700: Cement
+L4701: Concrete
+
+
+L4704: ===== Page 154 / 947 =====
+L4705: Published By:
+
+L4707: Physics Wallah
+L4708: ISBN: 978-93-94342-39-2
+L4709: Mobile App: Physics Wallah (Available on Play Store)
+
+L4711: Website:
+L4712: www.pw.live
+L4713: Email: support@pw.live
+
+L4715: Rights
+L4716: All rights will be reserved by Publisher. No part of this book may be used or reproduced in any manner
+L4717: whatsoever without the written permission from author or publisher.
+L4718: In the interest of student's community:
+L4719: Circulation of soft copy of Book(s) in PDF or other equivalent format(s) through any social media channels,
+L4720: emails, etc. or any other channels through mobiles, laptops or desktop is a criminal offence. Anybody
+L4721: circulating, downloading, storing, soft copy of the book on his device(s) is in breach of Copyright Act. Further
+L4722: Photocopying of this book or any of its material is also illegal. Do not download or forward in case you come
+L4723: across any such soft copy material.
+
+L4725: Disclaimer
+L4726: A team of PW experts and faculties with an understanding of the subject has worked hard for the books.
+L4727: While the author and publisher have used their best efforts in preparing these books. The content has been
+L4728: checked for accuracy. As the book is intended for educational purposes, the author shall not be responsible for
+L4729: any errors contained in the book.
+L4730: The publication is designed to provide accurate and authoritative information with regard to the subject matter
+L4731: covered.
+L4732: This book and the individual contribution contained in it are protected under copyright by the publisher.
+L4733: (This Module shall only be Used for Educational Purpose.)
+
+
+L4736: ===== Page 155 / 947 =====
+L4737: Design Against Static Load
+
+
+
+
+
+
+L4744: 1. Properties of Concrete  ........................................................................................................  4.1  –  4.3
+L4745: 2. LSM : Flexure  ....................................................................................................................... . 4.4  –  4.11
+L4746: 3. Shear   ................................................................................................................................... . 4.12  –  4.15
+L4747: 4. Bond  .................................................................................................................................... . 4.16  –  4.19
+L4748: 5. Slab   ..................................................................................................................................... . 4.20  –  4.26
+L4749: 6. Footings   .............................................................................................................................. . 4.27  –  4.31
+L4750: 7. Reinforced Brick Masonry   .................................................................................................. . 4.32  –  4.34
+L4751: 8. Column   ............................................................................................................................... . 4.35 –  4.38
+L4752: 9. Prestressed Concrete    ......................................................................................................... . 4.39 –  4.49
+L4753: REINFORCED
+L4754: CEMENT CONCRETE
+L4755: INDEX

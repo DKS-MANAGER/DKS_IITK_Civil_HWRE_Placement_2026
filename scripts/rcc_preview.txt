@@ -1,0 +1,2133 @@
+=== RCC CHAPTER EXTRACTION ===
+Source lines: 4756-6886 (2131 lines)
+
+L4756: GATE-O-PEDIA CIVIL ENGINEERING
+
+
+L4759: ===== Page 156 / 947 =====
+L4760: GATE WALLAH CIVIL HANDBOOK
+L4761: Design Against Static Load
+L4762: 4.1
+L4763: 1
+L4764: PROPERTIES OF CONCRETE
+
+L4766: 1.1. Introduction
+L4767: Strength of concrete RCC with Prestressed is size of specimen but beyond use no complete strength of concrete in structure is
+L4768: taken as 0.37 RCC in strength.
+L4769: Flexural Strength of Concrete (Modulus of Rupture)
+L4770: Tensile strength of concrete in flexure used to determine the onset of cracking.
+L4771: Fck  N/mm2 =
+L4772: 20.7 N/mmckf
+L4773: Tensile strength of concrete (given by splitting test)
+L4774: fck  = 2P
+L4775: DL  = 0.67 fck modulus of rapture
+L4776: • Direct tensile strength = (0.5 – 0.625) fck
+L4777: 1.2. Stress Strain Curve of Concrete
+L4778: • Cylinder is tested to obtain stress strain curve between we have to obtain condition for uniaxial stress condition?
+
+L4780: • Lower Strength concrete has greater ductility.
+L4781: • Curve – generally under upto a stress of (10-15) time the peak stress.
+L4782: • Modulus of elasticity – Second modulus at a stress of around 0.33 fck.
+L4783: • As per IS Code :
+L4784: ➢ Short Term:  E c =
+L4785: 5000 ckf  (Ece & fck in N/mm2)
+L4786: Long Term: Ece = 1
+L4787: cE
+L4788: +
+L4789:  = Creep coefficient = Ultimate Creep Stress
+L4790: Elastic strain at the age of loading
+L4791: • Ec primarily influenced by the elastic properties of aggregate with  in age, Ec .
+L4792: 150 mm
+L4793: 150 mmRepresents
+L4794: truly complete
+L4795: resistance
+L4796: 150 mm
+L4797: Stress
+L4798: Strain
+
+
+L4801: ===== Page 157 / 947 =====
+L4802: GATE WALLAH CIVIL HANDBOOK
+L4803: Reinforced Cement Concrete
+L4804: 4.2
+L4805: 1.3. Design Stress Strain Curve
+
+L4807: Creep
+L4808: Time dependent component of strain.
+L4809: Reasons:
+L4810: • Internal movement of adsorb water.
+L4811: • Viscous flow or sliding between get particles.
+L4812: • Moisture loss
+L4813: • Growth in microcracks.
+L4814: Effects of creep are:
+L4815: •  in deflection of beams & Slabs.
+L4816: •  deflection in slender column may lead to buckling
+L4817: • Loss of prestress reduction in stress induced by restrained shrinkage.
+L4818: • Creep  When – Cement content is high, W
+L4819: C  ratio is high, Aggregate content is low.
+L4820: • Air entrainment high, Relative humidity low, Temp. High, Size thickness Small Loading occurs at early age.
+L4821: • If stress & 1
+L4822: 3 ckf , Creep  Stress
+L4823: • Effect of creep can be reduced by using high strength concrete, adding reinforce stream curing under pressure reduces
+L4824: during shrinkage and moisture movement.
+L4825: Shrinkage
+L4826: Contraction due to drying when concrete sets.
+L4827: 2 Types:
+L4828: • Plastic Shrinkage: Soon after the concrete is placed in the formwork due to evaporation or by absorption by aggregate
+L4829: or cracks develop at Subgrade the surface due to restraining effect, prevented by using at powder & expanding cement.
+L4830: • Drying Shrinkage: An everlasting process mainly due to loss of water held us the gel pores, finer the gel more is the
+L4831: shrinkage  with  in size of member.  with  in relative humidity.
+L4832: 2nd degree porabola
+L4833: 0.002 0.0035
+L4834: Strain
+L4835: Stress
+L4836: 0.67 fr
+L4837: gm
+L4838: Strain at
+L4839: crashing
+L4840: strength
+L4841: Creep
+L4842: strain
+L4843: Time
+L4844: Ultimate
+L4845: Creep strain
+L4846: Instantaneous
+L4847: secondary creep
+L4848: recovery
+L4849: Residual
+L4850: creep strain
+
+
+L4853: ===== Page 158 / 947 =====
+L4854: GATE WALLAH CIVIL HANDBOOK
+L4855: Reinforced Cement Concrete
+L4856: 4.3
+L4857: 1.2.1. Reinforced Concrete
+L4858: • Besides strength required of RCC an important point of design is that the member must have ductile failure tension
+L4859: steel yield before failure.
+L4860: • In Fe250, Fe415, 250 & 415 → Specified yield strength guaranteed minimum.
+L4861: • By cold working on the steel (stretching & twisting), fy  but ductility falls.
+L4862: • In RCC, steel never reaches its ultimate strength.
+
+L4864: 
+
+L4866: 0.002
+L4867: High strength
+L4868: deformed bias
+L4869: fy
+L4870: Eb
+L4871: + 0.007
+L4872: Cold worked
+L4873: Hot relledfu
+L4874: Ym
+
+
+L4877: ===== Page 159 / 947 =====
+L4878: GATE WALLAH CIVIL HANDBOOK
+L4879: Reinforced Cement Concrete
+L4880: 4.4
+L4881: 2
+L4882: LSM : FLEXURE
+
+L4884: 2.1. Limit State Method
+L4885: • Safety at ultimate loads & serviceability at working loads.
+L4886: • Uses a partial safety factor format.
+L4887: • Two main limit states are:
+L4888: • Limit state of collapse – includes.
+L4889: • Limit state of flexure, comp. Torsion shear.
+L4890: • Limit state of serviceability – deflection checking & vibration must no be excessive.
+L4891: f ck = fm – 1.656
+L4892: • Characteristics Load
+L4893: Partial Safe Factors of Safety
+L4894: To account for uncertainly in material property & uncertainly in loading.
+L4895: m = 1.5 (for concrete)
+L4896: = 1.15 (for steel)
+L4897: Assumption – Limit State of Collapse: Flexure
+L4898: • Plane section remains plane even bending.
+L4899: • Maximum strain in concrete = 0.0035 (at outermost complete fibre)
+L4900: • The beam always fails by crushing of concrete.
+L4901: • Failure criteria – maximum principal strain theory.
+
+L4903: C1 = 0.193 fck bxu y 1 =
+L4904: 3
+L4905: 14 𝑥𝑢 from the top
+L4906: C2 = 0.171 fck bxu y2 =
+L4907: 9
+L4908: 14 𝑥𝑢 from the top
+L4909: C = 0.36 fck bxu     total complete force.
+L4910: fm
+L4911: 5%
+
+
+L4914: ===== Page 160 / 947 =====
+L4915: GATE WALLAH CIVIL HANDBOOK
+L4916: Reinforced Cement Concrete
+L4917: 4.5
+L4918: • Max strain in tension reflection  0.0035 0.008st
+L4919: s
+L4920: E E=+  → ensures ductility.
+
+L4922: Limiting depth of Neutral Axis
+L4923: ℇst =
+L4924: 0.87 𝑓𝑦
+L4925: 𝐸𝑠
+L4926: +  0.002
+L4927: 
+L4928: 𝑥𝑢
+L4929: 𝑑  <
+L4930: 0.0035
+L4931: 0.87 𝑓𝑦
+L4932: 𝐸𝑠  +0.0055
+
+L4934: (
+L4935: 𝑥𝑢
+L4936: 𝑑 )
+L4937: Iim
+L4938: =
+L4939: 0.0035
+L4940: 0.87𝑓𝑦
+L4941: 𝐸𝑠  +0.0055
+L4942: →
+L4943: Creep to balanced failure at ultimate limit state in flexure.
+L4944: • xu < xu lim under reinforced (ductile failure) Failure always occurs due to crushing of concrete on complete face.
+L4945: • xu < xu lim over reinforced (ductile failure)
+L4946: 2.2. Analysis & Design
+L4947: (a)  To determine Moment of Resistance (Mu) when c/s of a beam is known.
+L4948: C = T   
+L4949: 0.87 𝑓𝑦 Ast
+L4950: 0.36 𝑓𝑐𝑘 b.d
+L4951: (i)  If, ux
+L4952: d  = limux
+L4953: d
+L4954: Mu lim  = 0.36 𝑓𝑐𝑘 & 𝑥𝑢𝑙𝑖𝑚 (𝑑  −  0.42 𝑥𝑢𝑙𝑖𝑚 )
+L4955: 𝑀𝑢𝑙𝑖𝑚 = 0.87 1 y
+L4956: y st
+L4957: ck
+L4958: Ast ff A d bd f
+L4959:  −
+L4960: 
+
+L4962: 100stA
+L4963: bd   = , lim % liming tensiletP =
+L4964: 𝐴𝑠𝑡 𝑙𝑖𝑚 =
+L4965: 0.36 𝑓𝑐𝑘 𝑏 𝑥𝑢𝑙𝑖𝑚
+L4966: 0.87 𝑓𝑦
+
+L4968: 𝑃𝑡𝑙𝑖𝑚 = , lim41.38 ck u
+L4969: y
+L4970: fx
+L4971: fd
+L4972:      
+
+L4974: • Gain in Mur with  in point follows a linear relation up to balanced point.
+L4975: • Marginal gain in Mur with higher grade of concrete for low value of point.
+L4976: (ii) If , limuuxx
+L4977: dd , Mu < Mulim
+
+
+L4980: ===== Page 161 / 947 =====
+L4981: GATE WALLAH CIVIL HANDBOOK
+L4982: Reinforced Cement Concrete
+L4983: 4.6
+L4984: Mu = 20.36 1 st yu
+L4985: ck
+L4986: ck
+L4987: Afx bd fd bd f
+L4988:  −
+L4989: 
+L4990: = 0.36 𝑓𝑐𝑘𝑥𝑢𝑏𝑑  (1  −  0.42
+L4991: 𝑥𝑢
+L4992: 𝑑 )
+L4993: (iii)  If
+L4994: 𝑥𝑢
+L4995: 𝑑   >
+L4996: 𝑥𝑢𝑙𝑖𝑚
+L4997: 𝑑  i.e., section over reinforced.
+L4998: • MOR of ORS > MoR of balanced section, but limit it to MoR for balanced section.
+L4999: • To find Actual MoR : Trail value of xu →
+L5000: ℇ𝑠𝑡
+L5001: 0.0035= (
+L5002: 𝑑⋅ 𝑥𝑢
+L5003: 𝑥𝑢
+L5004: ) → fst from ℇst
+L5005: • Area of steel, Ast (under-reinforced section).
+L5006: Mu = 0.87 y st
+L5007: y st
+L5008: ck
+L5009: fAf A d f bd
+L5010:  −
+L5011: 
+L5012: …(A)
+L5013: Design
+L5014: • If width given, d = u
+L5015: u
+L5016: M
+L5017: Rb
+L5018: ddesign > d,           for under reference
+L5019: If section dimension given,
+L5020: If Mu < Mu, lim,  find Ast from equation (A)
+L5021: If Mu = Mu, lim, Ast = Pt bal or Ptlim
+L5022: If  Mu = Mu, lim, Redesign the section by dimension or doubly reinforce.
+L5023: Mu = 0.87 𝑓𝑦 (
+L5024: 𝑃𝑡
+L5025: 100) (1  −  1.005
+L5026: 𝑓𝑦
+L5027: 𝑓𝑐𝑘
+L5028: (
+L5029: 𝑃𝑡
+L5030: 100)) 𝑏𝑑2
+L5031: A st min
+L5032: 0.85
+L5033: 𝑓𝑦
+L5034: =
+L5035: 𝐴𝑠𝑡 𝑚𝑖𝑛
+L5036: 𝑏𝑑
+L5037: A st, provided  4% (BD)
+L5038: Doubly Reinforced Section
+L5039: • Used where chances of reversal of moment provided with stirrups to present their possible buckling.
+L5040: d
+L5041: d
+L5042:   = 0.05 – 0.2
+L5043: • Design stress in complete < 0.87 fy
+L5044: • Double reinforced less economical (as complete steel unutilized)
+L5045: C1 = 0.36 𝑓𝑐𝑘 𝑏𝑥𝑢 Lever arm = ( 0.42 ) udx−
+L5046: C 2 =  𝐴𝑆𝐶(𝑓𝑠𝑐   −   𝑓𝑐𝑘) Lever arm = ()dd −
+L5047: • Stress in steel c/p to strain of 0.0035 1
+L5048: u
+L5049: d
+L5050: x
+L5051:  −
+L5052: 
+L5053: .`
+L5054: • Depth of N.A.,  0.36 𝑓𝑐𝑘 𝑏𝑥𝑢   +   𝐴𝑠𝑐(𝑓𝑠𝑐   −   𝑓𝑐𝑘)   =  0.87 𝑓𝑦 𝐴𝑠𝑡
+L5055: • Trial & error procedure to find N.A. (as fsc & ffk depends on xu)
+L5056: • If xu  xu lim ,  0.36 ( 0.42 ) ( ) ( )ur ck u u sc ss ccM f b x d x A f f d d = − + + −
+
+
+L5059: ===== Page 162 / 947 =====
+L5060: GATE WALLAH CIVIL HANDBOOK
+L5061: Reinforced Cement Concrete
+L5062: 4.7
+L5063: 2.3. Design of Doubly Rectangular Section
+
+L5065: Section (A) → balanced rectangular
+L5066: Section (B) → an imaginary beam
+L5067: 𝑀𝑢   =   𝑀𝑢𝑙𝑖𝑚    +    𝑀2𝑢
+L5068: 𝐴𝑠𝑡   =   𝐴𝑠𝑡 𝑙𝑖𝑚  +    𝐴𝑠𝑡2
+L5069: 𝐴𝑠𝑐   =
+L5070: 𝑀𝑢 − 𝑀𝑢 𝑙𝑖𝑚
+L5071: (𝑓𝑠𝑐− 𝑓𝑐𝑘) (𝑑 − 𝑑′)
+L5072: 𝐴𝑠𝑡 2   =
+L5073: 𝑀𝑢 − 𝑀𝑢𝑙𝑖𝑚
+L5074: 0.87 𝑓𝑦(𝑑 − 𝑑′)
+L5075: Flanged beam
+L5076: recommended to provide greated overhead clearance designed as rectangular beam.
+L5077: Effective flange width
+L5078:  with  in span,  web width  flange thickness.
+
+L5080: IS Code Specification
+
+L5082: ( nverted beam) I
+L5083: a
+L5084: eq. width
+L5085: assumed distance
+L5086: Actual distance of
+L5087: complete stress in slab
+L5088: bf
+L5089: Df
+L5090: bw bw
+L5091: l1
+L5092: bf Flange
+L5093: Web
+
+
+L5096: ===== Page 163 / 947 =====
+L5097: GATE WALLAH CIVIL HANDBOOK
+L5098: Reinforced Cement Concrete
+L5099: 4.8
+L5100: L-beam
+L5101: bf = 3 12
+L5102: o
+L5103: wf
+L5104: LbD++
+L5105: bf   1
+L5106: 2w
+L5107: lb +
+L5108: T-beam
+L5109: bf = 6 6
+L5110: o
+L5111: wf
+L5112: lbD++ ,
+L5113: 12
+L5114: 2fw
+L5115: llbb ++
+L5116: lo → distance between points of zero moment in the beam mean shear 0.7 or (efficiency span) for
+L5117: continue beam.
+L5118: T or L-beams (Isolated)
+L5119: bf =
+L5120: 4
+L5121: o
+L5122: w
+L5123: o
+L5124: lbb l
+L5125: b
+L5126: +
+L5127: +
+
+
+L5130: 2.4. Analysis of Flanged Section (Singly Reinforced)
+L5131: Case I : N.A lies is flanged
+L5132: Below N.A. not effective in tension design as per rectangular beam of width ' bf' & depth 'd'
+L5133: to check location of N.A. Let us assume N.A. at bottom of flange.
+L5134: C = 0.36 fck bf Df   &  T =
+L5135: y stfA
+L5136: If C >  T, then N.A. must lie in the flange
+L5137: If C M T, then N.A. will be in web.
+L5138: Case II : When N.A. lies in web & Df < Xu < 7/3 Df
+L5139: When,  xu = Df,   average stress  = 0.36 fck =   0.8 × 0.48
+L5140: d
+L5141: b
+L5142: b
+L5143: w
+L5144: d
+L5145: bf
+L5146: N A
+
+
+L5149: ===== Page 164 / 947 =====
+L5150: GATE WALLAH CIVIL HANDBOOK
+L5151: Reinforced Cement Concrete
+L5152: 4.9
+L5153: xu =
+L5154: 7
+L5155: 3
+L5156: 𝐷 𝑓 average stress = 0.45 fck
+L5157: for  Df  < xu < 7
+L5158: 3 fD
+L5159: yf = (0.65  +  0.15
+L5160: 𝑥
+L5161: 𝐷 𝑓) 𝐷𝑓
+L5162: C1 + C2 = T1 + T2
+
+L5164: Find,  xu 0.36 fck bw xu + 0.45 fck (bf – bw)  (0.65 Df + 0.15 xu) = 0.87 fy Ast
+L5165: If, 𝐷𝑓   <   𝑥𝑢   <
+L5166: 7
+L5167: 3
+L5168: 𝐷𝑓   →  𝛼   &  𝑥𝑢   <   𝑥𝑢𝑙𝑖𝑚 →  𝛽
+L5169: MoR = 2 1 2 2C Z C Z+
+L5170: If () satisfied &  not satisfied, then xu = xulim
+L5171: Case III: When,  4
+L5172: 7
+L5173: 3 fxD
+L5174: Then,  yf = Df    0.45 ( ) 0.36 0.87ck f w f ck w u y stf b b D f b x f A− + =
+L5175: If, xu < xulim MuR = 0.45 𝑓𝑐𝑘(𝑏𝑓   −   𝑏𝑤) 𝐷𝑓 (𝑑  −
+L5176: 𝐷𝑓
+L5177: 2 )   +  0.36 𝑓𝑐𝑘𝑏𝑤 𝑥𝑢(𝑑 − 0.42 𝑥𝑢)
+L5178: If, xu < xulim, take  xu = xulim
+L5179: 2.5. Design of Flanged Section Beam
+L5180: • Beam at support designed as rectangular section for factored (–ve) moment.
+L5181: • Effective depth =
+L5182: 11
+L5183: 10 12+
+L5184: of spam.
+L5185: • If Mu(factors) M ()ur fM x D= , N.A. will be in flange then design like a singly rectifier rectangular section of width bf
+L5186: • If 𝐷𝑓   <   𝑥𝑢   <
+L5187: 7
+L5188: 3
+L5189: 𝐷𝑓,
+L5190: Find xu from, Mu = 0.45 𝑓𝑐𝑘(𝑏𝑓   −   𝑏𝑤) 4𝑓 (𝑑  −
+L5191: 𝑥𝑢
+L5192: 2 )   +  0.36 𝑓𝑐𝑘𝑏𝑤𝑥𝑢 (𝑑 − 0.42𝑥𝑢)
+L5193: yf = 0.65 𝐷𝑓   +  0.15 𝑥𝑢
+L5194: For Ast, 0.87 y stfA  = 0.45 ( ) 0.36ck f w f ck w uf b b y f b x−+
+L5195: • If 7
+L5196: 3ufxD , Mu = 0.45 𝑓𝑐𝑘(𝑏𝑓 − 𝑏𝑤) 𝐷𝑓 (𝑑  −
+L5197: 𝐷𝑓
+L5198: 2 )   +  0.36 𝑓𝑐𝑘𝑏𝑤𝑥𝑢(𝑑 − 0.42𝑥𝑢)
+L5199: For Ast, 0.87 y stfA  = 0.45 ( ) 0.36ck f w f ck w uf b b D f b x−+
+
+
+L5202: ===== Page 165 / 947 =====
+L5203: GATE WALLAH CIVIL HANDBOOK
+L5204: Reinforced Cement Concrete
+L5205: 4.10
+L5206: Load Combination Limit State of
+L5207: Collapse
+L5208: Limit state of
+L5209: Serviceability
+
+L5211: (1)
+L5212: (2)
+L5213: (3)
+L5214: D.L. + L.L
+L5215: D.L. + W.L. (E.L.)
+L5216: (i) For normal case
+L5217: (ii) Stress reversal
+L5218: D.L.
+L5219: L.L.
+L5220: W.L. (E.L.)
+L5221: 1.5
+L5222: 1.5
+L5223: 0.9
+L5224: 1.2
+L5225: 1.2
+L5226: 1.2
+L5227: 1
+L5228: 1
+L5229: 1
+L5230: 1
+L5231: 0.8
+L5232: 0.8
+L5233: IS–875 → Loads Calculation
+L5234: IS – 1843 → Prestress design
+L5235: IS – 1893 → EQ resistant
+L5236: IS – 3370 → Liquid rectangular
+L5237: structure
+
+
+L5240: Objectives
+L5241: • Primary in over reinforced beam complete failure → failure of concrete without yielding of steel.
+L5242: • Secondary complete failure → failure of concrete without yielding of steel
+L5243: • IS code permits only the use of cube test.
+L5244: • Structural design based on the basic principle of strong column & weak beam b/c : (i) During EQ, column member
+L5245: remain elastic, so it can provide stability & strength & make the structure more EQ resistance. (ii) Location of plastic
+L5246: hinge is desirable at the ends of the beam.
+L5247: • Under mild condition minimum cover-20 mm, severe condition, minimum cover- 45 mm.
+L5248: • Design mix concrete preferred over nominal mix concrete, as if involves weight batching method.
+L5249: • Stress-strain behaviour of concrete → linear up to 10-15% of the ultimate strength of concrete.
+L5250: • Final deflection due to all loads including the effects of temperature creep & shrinkage
+L5251: Span
+L5252: 250
+
+L5254: • Deflection including the effects of temperature creep after the erection of partition.
+L5255: Span
+L5256: 350
+L5257: or 20 mm. (No load)
+L5258: • The bond between concrete & steel restrains shrinkage. Thus, shrinkage deflection can be eliminated by making com.
+L5259: steel equal to tension steel.
+L5260: • In ultimate limit state, both creep & shrinkage effects can be ignored due to plastic flow.
+L5261: • Probability of failure implied in limit state design → 10–2.
+L5262: • Under reinforced section required deeper sections of resist a given moment.
+L5263: • Limit Sate Design based on the probabilistic concept.
+L5264: • Concrete  in sea water → at least M20 (Plain concrete), M30 (Reinforced concrete)
+L5265: • Use of slag or pozzolana cement → advantageous under such circumstances.
+L5266: • Ultrasonic pulse velocity test  → in-situ test of hardened concrete velocity of pulses greater, higher is the strength of
+L5267: concrete.
+L5268: V 
+L5269: E
+L5270: e
+
+L5272: • Shear structure of concrete   with the complete strength of concrete.
+
+
+L5275: ===== Page 166 / 947 =====
+L5276: GATE WALLAH CIVIL HANDBOOK
+L5277: Reinforced Cement Concrete
+L5278: 4.11
+L5279: Composite Construction
+L5280: • Pre cast prestressed members used in conjunction with concrete cast in-situ → monolithic unit as tension zone members
+L5281: used in conjunction with monolithic unit zone.
+L5282: • Composite interface slipping – prevented using shear connectors.
+L5283: • Plastic flow set up at the limit state of collapse, so large scale deformation occurs, that is why small creep & deformations
+L5284: can be ignored.
+L5285: • Provision for spacing of main rectifier → minimum criteria → easy placement of concrete maximum criteria → to control
+L5286: crack with improve bond & anchorage.
+L5287: • Compared to WSM, limit state method take concrete to a higher stress level by taking into account the non-linear stress,
+L5288: stress-strain diagram.
+L5289: • Footing shall be designed to sustain → Applied loads, moments & forces under relatable loading condition, Induced
+L5290: reactions.
+
+L5292: 
+
+
+L5295: ===== Page 167 / 947 =====
+L5296: GATE WALLAH CIVIL HANDBOOK
+L5297: Reinforced Cement Concrete
+L5298: 4.12
+L5299: 3 SHEAR
+
+L5301: 3.1. Introduction
+L5302: (a) Limit State of Collapse in Shear
+L5303: • Member subjected to →Flexural shear → One-way shear
+L5304: Punching shear →two-way shear (A slab carrying a concentrated column load)
+L5305: A footing slab carrying concentrated column load → subjected to both these shear
+L5306: • Torsion shear → a member subjected to torsion.
+L5307: • Shear failure not immediate, however, it  the flexural strength of member.
+L5308: • (i) If B.M. = 0, i.e.,   = 0, then 1 =   and 2 = −
+
+L5310: (ii)  When bending stress (  ) is maximum, while  = 0
+
+L5312: cracks develop vertically → flexural cracks
+L5313: Different modes of failure
+L5314: (1) Diagonal tension failure : Large shear force and near zero B.M. Cracks normally develop at 45° with horizontal.
+L5315: (2) Flexural shear failure : Under large B.M. and less shear force. Cracks are almost vertical.
+L5316: Flexural crack occurs in combination with diagonal tension cracks. Flexural cracks are formed first and then
+L5317: diagonal tension cracks due to shear stress develop.
+
+
+L5320: ===== Page 168 / 947 =====
+L5321: GATE WALLAH CIVIL HANDBOOK
+L5322: Reinforced Cement Concrete
+L5323: 4.13
+L5324: (3) Diagonal compression failure: Occur under large shear force due to crushing of concrete. It occurs in beam heavily
+L5325: reinforced against shear.
+L5326: Mechanism of shear resistance
+
+L5328: 2
+L5329: 20 093 50%20 40% (3) (2)(1)
+L5330: u c s ay d
+L5331: v
+L5332: v v v v v
+L5333: − −−
+L5334: = + + +
+L5335: • Relative proportion of these forces depend upon → loading stage, extent of cracking, material and geometric
+L5336: properties
+L5337: • First only V C→ then va and vd→ then vs develops .
+L5338: •  in longitudinal R/F,  in vd and the propagation of crack is checked.
+L5339: Shear Stress
+
+L5341: For beam of varying depth,
+L5342: b = breadth of member
+L5343: tanu
+L5344: u
+L5345: v
+L5346: mBv d
+L5347: bd
+L5348: 
+L5349: =  Mu = B.M. at the section
+L5350: ( – ve) sign is taken when BM  in the direction in which depth 
+L5351: • Design shear strength of concrete, c  depends on the % of tension steel. Greater the shear capacity, smaller the
+L5352: cracks formed.
+L5353: • If , max,vc    redesign the section.
+L5354: Design for shear
+L5355: • Shear r/f is provided for resisting shear force over and above shear resisted by the concrete ( )us v cV bd=  −
+L5356: • Stirrups carry tension (as explained from truss analogy)
+L5357: • Shear causing diagonal tension crack, increases the tension in the tension reinforcement.
+
+
+L5360: ===== Page 169 / 947 =====
+L5361: GATE WALLAH CIVIL HANDBOOK
+L5362: Reinforced Cement Concrete
+L5363: 4.14
+L5364: Shear reinforcement in Beams
+L5365: (1) Vertical stirrups – Resist shear, resist the growth of inclined crack, improve aggregate interlocks, tie the longitudinal
+L5366: bars in place.
+L5367: Closed stirrups resist torsion as well.
+
+L5369: usV =
+L5370: 0.87 . .y sv
+L5371: v
+L5372: f A d
+L5373: s
+L5374: where svA = Cross sectional Area of vertical legs of all Stirrups
+L5375: vs can’t be greater than minimum of 300mm or 0.75d.
+
+L5377: (2) Inclined stirrup – Number of stirrups crossing the crack, (1 cot )
+L5378: v
+L5379: dn s= + 
+L5380: usV = 0.87 yf Asv (sin  + cos )
+L5381: v
+L5382: d
+L5383: s
+L5384: , the angle  must not be less than 45 degrees otherwise inclined stirrups might
+L5385: slip.
+
+
+L5388: vs can’t be greater than minimum of 300mm or d.
+
+L5390: (3) Bent up bars
+
+L5392: usV = 0.87 yf Asv Sin  , where Asv = number of bars bent 2
+L5393: 4 d
+L5394: Bent up bars are not satisfactory for shear r/f.
+L5395: • Shear strength of a beam without shear reinforcement depends upon (shear span / effd )
+L5396: Minimum Shear R/F
+L5397: If 0.870.4, 0.87 0.4
+L5398: sv v
+L5399: v c v
+L5400: v
+L5401: A by As sbs by b     
+L5402: Reason for minimum shear reinforcement: Prevents sudden bursting of concrete, improve the ductility of c/s, hold
+L5403: the r/f together, improves dowel action, arrest the longitudinal cracks on side faces, prevents tension failure due to
+L5404: shrinkage, thermal stresses and internal cracking.
+L5405: Design steps:
+L5406: • Find ,u
+L5407: v
+L5408: v
+L5409: bd=  find ,maxc (based on grade of concrete) and check that v   ,maxc
+L5410: • Find c  (from percentage of tensile steel and grade of concrete). If 0.5vc   , no shear r/f is provided.
+L5411: • If 0.5 ,cvc      then provide minimum shear r/f.
+L5412: • If vc   . Provide shear reinforcement for shear force = () ve −  .bd
+L5413: • Spacing S v≯ 0.75d
+L5414: ≯ 300 mm
+L5415: • Bent up bars, as per IS code, can resist only upto 50% of total shear force for which shear r/f is required.
+L5416: • Critical section for shear confined by compressive reaction lies at distance d from the face of the support.
+
+
+L5419: ===== Page 170 / 947 =====
+L5420: GATE WALLAH CIVIL HANDBOOK
+L5421: Reinforced Cement Concrete
+L5422: 4.15
+
+L5424: However, if   then critical section will lie at the face of support.
+L5425: Ques:  Find the design shear force for given beam
+L5426: Ans: In this case, Critical section for shear will lie at distance ‘d’ from the face of support =
+L5427: 0.51 1.252 m+=  from the
+L5428: centre of support
+
+L5430: Thus,
+L5431: 10*10 1.25*10 37.52
+L5432: uv KN= − =
+L5433: Additional information:
+L5434: • In a reinforced concrete retaining wall, a shear key is provided to resist sliding tendency of the wall.
+L5435: • ,maxc is based on diagonal compression failure.
+L5436: • Diagonal tension resisted by bending the alternate main bars.
+L5437: • Shear resistance can be  by Axial prestressing, vertical prestressing and inclined prestressing.
+L5438: • If concrete below N.A. gets cracked, then shear stress increase parabolically upto the N.A. and then remains constant
+L5439: upto the tension steel.
+L5440: 
+
+
+L5443: ===== Page 171 / 947 =====
+L5444: GATE WALLAH CIVIL HANDBOOK
+L5445: Reinforced Cement Concrete
+L5446: 4.16
+L5447: 4
+L5448: BOND
+
+L5450: 4.1. Bond and Anchorage
+L5451: • Provides strain compatibility and ensures the composite action of concrete and steel.
+L5452: • Bond stress → longitudinal shear stress acting on the surface between concrete and steel.
+L5453: Bond strength of a RCC section is due to Adhesive power of concrete gum, frictional resistance developed due to gripping
+L5454: of steel bars caused by shrinkage of concrete and mechanical interlocking due to corrugations present on steel bars.
+L5455: Types of bond stress
+L5456: 1. Flexural Bond- Critical at points where V=  dM
+L5457: dx
+L5458: is significant
+
+L5460: M =  T.j.d  & M + dM = (T + dT). jd
+L5461: dMdT = jd  = change in bar force
+L5462: 10 , . 00bf bf of
+L5463: dm Vdx dT dx jd jd =  = →  =  
+
+L5465: • Flexural bonding stress → can be decreased by providing a large number of smaller diameter bars.
+L5466: 2. Anchorage Bond Stress-
+L5467: • When a bar is carrying a certain force, the length of bar required to transfer this force to the surrounding concrete is
+L5468: called Anchorage length (in case of axial tension or compression) or Development length (in case of flexural tension)
+
+
+L5471: ===== Page 172 / 947 =====
+L5472: GATE WALLAH CIVIL HANDBOOK
+L5473: Reinforced Cement Concrete
+L5474: 4.17
+
+L5476: 20.87 4
+L5477: yTf  =
+L5478: ( ) .bd dFL=   
+
+L5480: 0.87
+L5481: 4
+L5482: y
+L5483: d
+L5484: bd
+L5485: fL 
+L5486: =
+L5487: • For deformed bars, bd  increases by 60%
+L5488: • For bars in compression, bd  25%, because the end bearing of the bar helps in resisting compression.
+L5489: Development Length for Flexural Bond
+L5490: • Largest flexural bond stress occurs at the bar with the largest diameter.
+
+L5492: ( )
+L5493: 0.87 0.87 0.87 ( )
+L5494: ( 0) 0 0
+L5495: t t t
+L5496: bd
+L5497: fy A by A fy A JdV LdLd Jd Ld V = =  =  
+L5498: 1MLd V=  where 1M  → MOR w.r.t tension steel alone at the section under consideration
+L5499: • If bd not to be exceeded, then 1
+L5500: d
+L5501: M LV 
+L5502: As an addition FOS , 1
+L5503: 0
+L5504: MLd L V+
+L5505: •     According to IS 456 →At simply supports and at the points of inflection, positive moment reinforcement shall be
+L5506: limited to a diameter such that 1
+L5507: 0
+L5508: MLd L V+
+L5509: L0 = sum of anchorage beyond the centre of the support = deff or 12 , whichever is greater
+L5510: •     If ends of r/f are confined by a compressive reaction (e.g. simply supported beams on walls or columns)
+
+L5512: Ld  1
+L5513: 0
+L5514: 1.3M Lv +
+L5515: • Flexural bond becomes necessary → V is maximum or B.M. → zero
+L5516: • Beam supported on a supported on wall beam 1
+L5517: 0
+L5518: MLd L V+
+L5519: • dL is to be increased by 10% for 2 bars is contact (bundled bars)
+
+
+L5522: ===== Page 173 / 947 =====
+L5523: GATE WALLAH CIVIL HANDBOOK
+L5524: Reinforced Cement Concrete
+L5525: 4.18
+L5526: 2.1.2. Bond Failure Mechanism
+L5527: • Break up of adhesion between the steel bar and the concrete.
+L5528: • Longitudinal splitting of the concrete around the bar.
+L5529: • Crushing of the concrete in front of the bar ribs.
+L5530: Bond Strength is  by
+L5531: Using deformed bars, smaller diameter bars, higher grade of concrete and increase in length of embedment, bends, hooks.
+L5532: Bends  and hooks
+
+L5534: • Theoretical cut off pt. → at the pt. of contraflexure
+L5535: • Distance between theoretical and actual cut-off pt. →deff or 12 , whichever is more
+L5536: Curtailment
+L5537: • Flexural r/f can be terminated in a tension zone if
+L5538: 1. Shear at cut-off pt. < 2
+L5539: 3 rd
+L5540: of shear strength (includes web r/f).
+L5541: 2. Stirrup area in excess of that required for shear and torsion is provided along each terminated bar over a
+L5542: distance from the cut off point equal to three-fourths the effective depth of member. Excess stirrup area
+L5543: 0.4
+L5544: y
+L5545: bs
+L5546: f
+L5547: 3. For  36 mm, continuing bars shall provide double the area required for flexure at cut off pt. & shear 3
+L5548: 4th
+L5549: of permitted shear stress.
+L5550: • Extend the rebar beyond point where it is no longer needed by maximum of {d, 12 } except at Simple supports or
+L5551: end of cantilever.
+L5552: • Bar in tension → no end anchorage is required for deformed bars but for plain bars, hooks are to be provided.
+L5553: •         In compression→ Anchorage length = dL in compression.
+L5554: • In shear → distance between actual and theoretical cut-off pt. (12  or d)
+L5555: • Not necessary that at least 50% of bars should be bent at the cut-off pt.
+L5556: • Lap length in compression > 24 
+L5557: Lap length in flexural tension > dL  or 30 
+L5558: Lap length in  direct tension > 2 dL or 30 
+L5559: •
+
+
+L5562: ===== Page 174 / 947 =====
+L5563: GATE WALLAH CIVIL HANDBOOK
+L5564: Reinforced Cement Concrete
+L5565: 4.19
+L5566: R/F type Anchorage requirement
+L5567: Footing slab, tensile r/f                               dL  from the column face
+L5568: Cantilever, tensile r/f          dL  into the support
+L5569: Simply supported beam, tensile r/f
+L5570: 3
+L5571: dL  into the support
+L5572: Beam, shear stirrup          6  for 135° bend
+
+L5574: • Bond strength , if we use HYSD bars instead of mild steel bars.
+L5575: • The development length for HYSD Fe415 bars is more than that for mild steel plain bars.
+L5576: •       If splices are provided in the r/f bars, they must not be at sections where B.M. is more than 50% of MOR of  beam.
+L5577: Lap splices shall not be used for bars larger than 36mm when bars of difference diameter are to be spliced, the lap
+L5578: length shall be calculated on the basis of diameter of smaller bars. For larger diameter bars, welding could be used.
+L5579: Additional Points:
+L5580: • Reinforcement shall be bent and fixed in accordance with procedure specifie d – IS 2502
+L5581: Construction joints should adhere to IS 11517
+L5582: Concrete cubes shall be made, cured and tested at 28 days – IS 516
+L5583: • Bent up bars generally gives lower shear strength and often result in wider cracks than stirrups.
+L5584: • The critical section for shear in the heel slab of a cantilever retaining wall should be taken at the rear face of the
+L5585: stem.
+L5586: • Inclined stirrups are most effective in reducing the width of the inclined cracks.
+L5587: • The poor performance of the masonry building in Earthquakes is because of the following reasons:
+L5588: ➢ Masonry has greater weight because of thick walls.
+L5589: ➢ Large stiffness of the material
+L5590: ➢ Quality of construction being inconsistent.
+L5591: 
+
+
+L5594: ===== Page 175 / 947 =====
+L5595: GATE WALLAH CIVIL HANDBOOK
+L5596: Reinforced Cement Concrete
+L5597: 4.20
+L5598: 5
+L5599: SLAB
+
+L5601: 5.1. Design of Beam & Slab
+L5602: (1)  Effective Span
+L5603: (a) Simply supported beam or Slab
+L5604: L eff = (l0 + d) or (l0 + w)
+L5605: Whichever is less
+
+
+L5608: (b) Continuous Beam or slab
+L5609: Case 1.  If w<600mm and 0
+L5610: 1
+L5611: 12wl
+L5612: 00
+L5613: whichever is less
+L5614: oreffl l d l w= + +
+
+L5616: Case 2.  If w>600mm or 0
+L5617: 12
+L5618: lw 
+L5619: (i) One end fixed and other is continuous:
+
+L5621: eff oll = (clear span)
+
+L5623: (ii) One end discontinuous, other continuous:
+L5624: 00 or l whichever is less22eff
+L5625: dwll = + + 
+L5626: 
+
+
+L5629: (c)  Cantilever
+
+
+L5632: ===== Page 176 / 947 =====
+L5633: GATE WALLAH CIVIL HANDBOOK
+L5634: Reinforced Cement Concrete
+L5635: 4.21
+L5636: 0 2eff
+L5637: dll =+
+L5638: 0 2effll =+
+L5639: (d) For frames
+
+L5641: Leff = Centre to centre spacing b/w members
+L5642: (e) Spans with roller or rocket bearings → effective span shall always be the distance b/w the centres of bearing.
+L5643: (2) Deflection
+L5644: • For beams and one way slabs, vertical deflection will be within acceptable limits if
+L5645: For spans upto 10 m
+
+L5647: Span
+L5648: effective depthratio
+L5649:  7 Cantilever
+L5650: 20 supported A value
+L5651: 26 Continous
+L5652: Simply
+L5653: →
+L5654: → 
+L5655: → 
+
+L5657: ∴  Span either clear or effective span
+L5658: A valueeffd 
+L5659: (a) Span > 10 m (except for cantilever) → do actual deflection calculation
+L5660: 10A value Span(m)→
+L5661: Span
+L5662: 10A value Span(m)
+L5663: effd
+L5664: 
+
+L5666: • A large area of compression steel, will reduce the deflection.
+L5667: • For 2-way slab
+
+L5669: mild steel HYSD
+L5670: S.S.B. 35 28 (B)Continuous 40 32
+L5671: 
+L5672: 
+L5673: 
+
+
+L5676: Span
+L5677: -valueD B
+L5678: • Applicable only for Load < 3 kN/m and Span < 3.5 m
+L5679: Slenderness limits for beam to ensure lateral stability
+
+
+L5682: ===== Page 177 / 947 =====
+L5683: GATE WALLAH CIVIL HANDBOOK
+L5684: Reinforced Cement Concrete
+L5685: 4.22
+L5686: (a) For SSB or continuous beam
+
+L5688: 2
+L5689: 1 250 or 60b which ever is lessbL d
+L5690: 
+L5691:  
+L5692: 
+L5693: 
+
+L5695: b = breadth of the compression face midway between the lateral restraints
+L5696: (b)   For cantilever
+
+L5698: 2
+L5699: 1 25b or 250  whichever is lessbL d
+L5700: 
+L5701:  
+L5702: 
+L5703: 
+
+L5705: • Minimum tensile reinforcement
+L5706: For beams, 0.85st
+L5707: y
+L5708: A
+L5709: bd f
+L5710: • Maximum tensile/compressive r/f
+L5711: 4% of bD
+L5712: • For Slabs
+L5713: (i) Minimum R/F 0.12% of BD (for HYSD bars)
+L5714: 0.15% ofBD  (for Mild steel bars)
+L5715: (ii) Maximum dia. of R/F = Slab thickness
+L5716: 8
+L5717: • Nominal/clear cover   dia. of bars
+L5718: • Minimum distance b/w individual bars   maximum of {dia. of other largest bar, 5 mm more than the nominal
+L5719: maximum size of aggregate}
+L5720: Positive moment tension R/F
+L5721: • At Least 1
+L5722: 3rd  of tensile r/f in simply supported member & 1
+L5723: 4th  of tensile reinforcement in continuous member should
+L5724: be extended into the support to a length of 3
+L5725: dL .
+L5726: • In case of cantilever, extend for dL beyond the face of the support
+L5727: Negative Moment Tension R/F
+
+L5729: Continuous beam
+
+
+L5732: ===== Page 178 / 947 =====
+L5733: GATE WALLAH CIVIL HANDBOOK
+L5734: Reinforced Cement Concrete
+L5735: 4.23
+L5736: For maximum support moment
+
+L5738: For maximum span moment
+
+L5740: Bending Moment coefficient for continuous beams
+L5741: Type of load Span moments Support Moment
+L5742: Near middle of end
+L5743: span
+L5744: At middle of interior
+L5745: span
+L5746: At support next to the
+L5747: end support
+L5748: At other interior
+L5749: supports
+L5750: D.L. & I.L.(fixed) 1
+L5751: 12  1
+L5752: 16  1
+L5753: 10−  1
+L5754: 12−
+L5755: D.L. & I.L.(not fixed) 1
+L5756: 10+  1
+L5757: 12+  1
+L5758: 9−  1
+L5759: 9−
+L5760: Shear Force coefficient for continuous beams
+L5761: Type of load At end support At support to the end Outer Next support Inner At all other interior
+L5762: support
+L5763: D.L. + IL(fixed) 0.4 0.6 0.55 0.5
+L5764: I.L.(not fixed) 0.45 0.6 0.6 0.6
+
+L5766: One Way Slab
+L5767: One way slab if ly> 2lx. One-way slab primarily bends in the shorter direction.
+
+
+L5770: Two Way Slab
+
+
+L5773: ===== Page 179 / 947 =====
+L5774: GATE WALLAH CIVIL HANDBOOK
+L5775: Reinforced Cement Concrete
+L5776: 4.24
+
+L5778: Objectives
+L5779: • Yield line method of analysis for slabs → an upper bound approach for under-reinforced slabs.
+L5780: • The ultimate load is calculated by a suitable collapse mechanism.
+L5781: • Equation is achieved by equating the work done by external loads to work dissipated along certain particular lines,
+L5782: called yield lines.
+L5783: • In case of 2-way slab, limiting deflection of the slab is a function of short span
+L5784: • The addition of tensile r/f ↑ the effective depth of the beam.
+L5785: The addition of comp. r/f ↓ the effective depth of the beam
+
+L5787: Maximum sagging moment at support A → when Live load is placed on span next to the adjacent span of the support
+L5788: plus alternate span.
+L5789: • Deck slab bridge →Mostly used for culverts or small bridges.
+L5790: • Balanced Cantilever bridge →statically determinate. Used for span between 25-50 metres.
+L5791: • Arch Bridge → used for long sans
+L5792: • Rigid frame culvert→ for only small drains
+
+
+L5795: • For a bridge deck, most economical section → box section
+
+
+L5798: ===== Page 180 / 947 =====
+L5799: GATE WALLAH CIVIL HANDBOOK
+L5800: Reinforced Cement Concrete
+L5801: 4.25
+L5802: • MOR as per yield line theory =
+L5803: 2
+L5804: 24
+L5805: ewl
+L5806: • The dia. of r/f bars should not exceed 1
+L5807: 3rd  of the total thickness of slab.
+L5808: • In 2-way slab, restrained at all edges, torsional r/f req. is 0.75 Asteel at midspan in the same direction.
+L5809: • Side face r/f → when depth exceeds 750 mm in beam
+L5810: • Elastomeric bearing pads are more preferred over steel roller bearings since they do not require any periodical
+L5811: maintenance.
+L5812: • Notching in a 5.5 timber beam → 1/6 or 3d (whichever in less) from supports
+L5813: • In limit state method of design, the failure criterion for RCC beams & columns is governed by maximum principal
+L5814: strain theory.
+L5815: • In M15 & mild steel bars, to ensure adequate ductility for preventing failure during earthquakes,
+
+L5817: 0.15 ck
+L5818: c
+L5819: fPP fy+ Pc→percentage of Comp. r/f, P → % of tension r/f
+L5820: • For composite action, provide shear connector.
+L5821: • RCC frame subjected to lateral loads behave → as a cantilever frame if no. of storey 1no. of bay 
+L5822: And as portal frame if no. of storey 1no. of bay 
+L5823: • (-ve) moment in RC beams at the location of support is high due to curvature at the support being very high
+L5824: • For maximum sagging B.M. in a given span of a multiple span beam → that very span as well as alternate spans are
+L5825: loaded.
+L5826: • In case deep beams, shear deformation more important than flexure.
+L5827: • In deck bridges, slab is built monolithically with the girder. That is why road level becomes very high → main
+L5828: disadvantages of deck bridges.
+L5829: • As the span of a bridge ↑, the impact factor ↓.
+L5830: • A continuous R.C.C. beam spans 6 span moments, each supporting a monolithically casted slab.
+L5831: • The beam will best be designed as a T beam for span moment & as a rectangular beam for support moments.
+L5832: • For limit state of collapse, Design load will be
+
+L5834: 1.5 . 1.5 .
+L5835: maximumof 1.5 . 1.5 Seismic load/ wind load
+L5836: 1.2 . 1.2 . 1.2 Seimic load/ wind load
+L5837: D L L L
+L5838: DL
+L5839: D L L L
+L5840: =  + 
+L5841: =  + 
+L5842: =  +  + 
+
+L5844: Doubly r/f beams are recommended when the depth & breadth of the beam is restricted .
+L5845: • For lateral support of beams, provide bracing in comp ression flange, provide shear connectors and embed the
+L5846: compression flanges into slab.
+L5847: • Drop panel is a structural component in flat slab.
+
+
+L5850: ===== Page 181 / 947 =====
+L5851: GATE WALLAH CIVIL HANDBOOK
+L5852: Reinforced Cement Concrete
+L5853: 4.26
+
+L5855: • For T-beams 0 66
+L5856: ff
+L5857: lb bw d= + +
+L5858: • The nominal cover provided for R.CC beam exposed to sea water – 50 mm
+L5859: • Material efficiency of rectangular beam > T-beam
+L5860: < 2-way slab
+L5861: • In the   order of Span, Arch bridge → Truss bridge → Double Cantilever bridge→  suspension bridge
+L5862: • T-beam and slab → used for high rise or multi-storey buildings.
+L5863: •
+L5864: Maximum% of moment redistribution allowed in RCC beams → 30%
+L5865: • For a R.CC slab, area of r/f should be same in unit width of the slab, Area of r/f per unit width of slab,
+L5866: 2 1000
+L5867: 4 spacingA  =
+L5868: • Minimum clear cover in mm to the mains steel bars in
+L5869: slab,  beam,  column,  Footing
+L5870: (mm) 15     25 40 75
+L5871: • For slabs spanning in 2-directions, the shorter of the 2 spans shall be used to calculate
+L5872: eff
+L5873: span ratiod
+
+L5875: • If a 2-way slab is unsafe in shear, then  thickness of the slab adequately.
+L5876: • A S.S beam will be called a deep beam if effective span 2effective depth
+L5877: • In r/f brickwork slab, the dia. of main r/f shall not exceed 12 mm.
+L5878: • Minimum area of tension. r/f in beams when Fe 415 is used  0.85 0.85100 100 100 0.2%415
+L5879: Ast
+L5880: bd fy =  =  =
+L5881: • Slabs designed for bending & deflection but not designed for shear because slabs have much small depth than beams.
+L5882: • The horizontal distance between parallel main r/f bars shall to be more than
+L5883: 300
+L5884: 3
+L5885: mm
+L5886: d
+L5887: 
+L5888: 
+L5889: 
+L5890: whichever is smaller
+L5891: • The addition of tension r/f necessitates an increase in the effective depth of the beam. An  in the tension steel,  the
+L5892: depth of comp. Zone and subsequently, the effect of shrinkage. This results in greater curvature & creep deflection,
+L5893: Effective depth  with the  in comp. r/f.
+L5894: • The thickness of (slab + beam web) into a system of RCC columns is less as compared to masonry wall.
+L5895: 
+
+
+L5898: ===== Page 182 / 947 =====
+L5899: GATE WALLAH CIVIL HANDBOOK
+L5900: Reinforced Cement Concrete
+L5901: 4.27
+L5902: 6
+L5903: FOOTINGS
+
+L5905: 6.1. Objective (Footings)
+L5906: • Depth of footing below G.L.,
+L5907: 2
+L5908: 1 sin
+L5909: 1 sin
+L5910: ph 
+L5911: 
+L5912:  −=  +
+
+L5914: • A trapezoidal combined footing for 2 axially loaded columns is provided when
+L5915: — width of the footing near the heavier column is restricted.
+L5916: — length of the footing is restricted
+L5917: — projections of the footing beyond the heavier columns are restricted.
+L5918: • Bending moment— At the face of the column
+L5919: One way shear — at d distance from of the column
+L5920: Two way shear — At
+L5921: 2
+L5922: d  distance from the column
+L5923: • The design depth of the footing for an isolated column is governed by → maximum B.M , maximum shear force ,
+L5924: punching shear.
+L5925: • Additional moments considered for design of slender compression member in lieu of deflection in x & y direction =
+L5926: axM
+L5927: 2
+L5928: 2000
+L5929: u exPl
+L5930: D=   , ayM  =
+L5931: 2
+L5932: 2000
+L5933: u eyPl
+L5934: b
+
+L5936: Objective – Limit state method
+L5937: • From consideration of EQ loading and lateral stability of tall buildings, following measures can be taken:
+L5938: (i) Minimize gravity loads
+L5939: (ii)  Ensure ductility at the location of maximum movement
+L5940: (iii) Resisting elements such as bracing or shear walls must be provided evenly through the building.
+L5941: • Concrete spalling is usually caused by corrosion of steal r/f bars.
+L5942: • IS 875 is used for load calculation, IS – 1343 → Prestress design, IS (1893) → EQ resistant design IS – 3370 → Liquid
+L5943: retaining structure.
+
+
+L5946: ===== Page 183 / 947 =====
+L5947: GATE WALLAH CIVIL HANDBOOK
+L5948: Reinforced Cement Concrete
+L5949: 4.28
+L5950: Objective – Limit state of collapse in shear
+L5951: • Due to  in % tensile r/f, cracks formed are smaller which improves aggregate interlocking.
+L5952: • Due to axial compressive force, the shear strength of concrete beam is  by an amount 31 Ag f
+L5953: u
+L5954: ck
+L5955: P =+
+L5956: 
+L5957: , but not
+L5958: exceeding 1.5
+L5959: • The provision of minimum shear r/f → restrains the growth of inclined shear cracks, improves dowel action of the
+L5960: longitudinal tension bars, introduces ductility in section and provides a warning of the impending shear failure.
+L5961: • Diagonal tension is resisted by bending the alternate main bars.
+L5962: • Shear wall is a structure element used to resit lateral/horizontal shear forces. It resists in-plane bending of the wall.
+
+L5964: The shear force per unit width along the long and short span is given by shortf 2
+L5965: 1
+L5966: 3 lx= long, .,2x
+L5967: rl r +
+L5968: y
+L5969: x
+L5970: lr l=
+L5971: • Shear resistance of concrete in R.C.C beam depends upon the factors
+L5972: → grade of concrete, Tensile r/f, Axial compressive forces ,Axial tensile force
+L5973: Objective – Torsion
+L5974: • As the area of longitudinal & transverse r/f , stiffness of the RCC section  and hence, the torsion resisting capacity
+L5975: of the section . To resist torsion, section r/f must consist of closely spaced stirrups and longitudinal bars.
+
+L5977: • Maximum shear strain and stress occur at the centre line of the long sides of the rectangular c/s.
+L5978: • The shear strain and stress at the corners & at the centre of the rectangular c/s are zero.
+L5979: • Stress – strain variation→ non-linear.
+L5980: • The longitudinal r/f shall be designed to resist an equivalent B.M
+L5981: , . .e u t uM M M M B H= + =  at the c/s.
+
+
+L5984: ===== Page 184 / 947 =====
+L5985: GATE WALLAH CIVIL HANDBOOK
+L5986: Reinforced Cement Concrete
+L5987: 4.29
+
+L5989: 1
+L5990: D overall depth1.7
+L5991: b width
+L5992: t
+L5993: DbMT
+L5994:  +=→
+L5995: 
+L5996: →
+
+L5998: • Torsion r/f is provided at the corners of a 2-way slab for controlling the cracking at the corners.
+L5999: Objective – Design of beam & slab
+L6000: • Pigeaud’s curves → used for corrupting B.M. in panel of T-beam bridge, the curve uses elastic theory of the flexure
+L6001: & assuming 0.15 = . Only applicable to a single wheel load placed vertically.
+L6002: For columns, nominal cover
+L6003: bar
+L6004: 40mm> D
+L6005: 
+L6006: 
+L6007: 
+
+L6009: • for columns, whose minimum dimension is less than 200 mm & bars diameter not greater than 12mm → 25 mm cover
+L6010: may be used.
+L6011: • To analyze the dispersion of wheel loads on a bridge deck, the ‘effective width method’ requires the wheel load to be
+L6012: dispersed through the wearing coat as well as deck slab in the transverse direction.
+L6013: • The maximum area of compression r/f in a beam → 0.04 bD
+
+L6015: The nodal force acting at point O on any of the 4 triangular slabs, is equal to zero
+L6016: 2
+L6017: MOR 24
+L6018: uwl=  , uw  is factored load
+L6019: (including D.L.)
+L6020: Courbon’s Method of Analysis → analysis of bridge decks (Girder component).
+L6021: • The basic stress in masonry units having height to width ratio of 1.5, will be increased by a factor of 1.2
+L6022: • The B.M. coefficient for continuous RCC slabs in based on Yield Line Theory.
+L6023: • Total Area of side reinforcement shall not be less than 0.01%bD and distributed equally on 2 faces at a spacing not
+L6024: exceeding 300 mm or web thickness whichever is less.
+L6025: • Section designed using ultimate strength or limit state design will have smaller depth and more reinforcement than a
+L6026: section designed using WSM approach.
+L6027: • For the purpose of design, deflection of RCC slab or beam < 0.4% of span
+L6028: • Impact factor for r/f concrete bridge =
+L6029: 4.5
+L6030: 6 L+
+L6031: (for span between 3 m & 5 m and class A & B loading)
+L6032: • Deep beams or thin webbed RCC members have low flexural stress but high shear stress and hence, diagonal tension
+L6033: cracks develop in them.
+L6034: • For S.S.B,
+L6035: Span 1020Depth span tckK=   
+
+
+L6038: ===== Page 185 / 947 =====
+L6039: GATE WALLAH CIVIL HANDBOOK
+L6040: Reinforced Cement Concrete
+L6041: 4.30
+L6042: • Temp & shrinkage r/f are provided at right angles to the main longitudinal r/f in a slab because it occupies larger area.
+L6043: • The minimum mild steel r/f to be provided in the edge strip is 0.15% of the c/s area of the concrete.
+L6044: • The cover of longitudinal r/f bar in a beam subjected to sea spray ≮ 50 mm.
+L6045: • Flat slab → most suitable type of slab for shorter storey heights & has cheaper formwork.
+L6046: • Advantage of using comp. r/f → reduction in long term deflection due to shrinkage and scrap
+L6047: • In the limit state design, balanced design of a r/f concrete beam gives smallest concrete section & maximum area of
+L6048: r/f.
+L6049: • For EQ design.
+L6050: ➢ The top as well as bottom r/f shall consist of  at least 2 bars throughout the member
+L6051: ➢ The (+ ve) steel at a joint face must be at least equal to half the (- ve) steel at that face.
+L6052: ➢ The tension steel on any face ≮
+L6053: 0.24 ck
+L6054: y
+L6055: f
+L6056: f
+
+L6058: • Splicing should always be done where B.M is less than half of the maximum B.M. in beam & in column splicing is
+L6059: not done within
+L6060: rd
+L6061: 1
+L6062: 3
+L6063: length from both ends.
+L6064: • Yield lines → axis of rotation about which excessive deformation occurs.
+L6065: ➢ straight lines, act as plastic hinge of collapse mechanism.
+L6066: ➢ propagate outward from a point load
+L6067: ➢ end at the boundaries of the slab or at another yield line.
+L6068: • Critical section for shear in flat slabs → at a distance of
+L6069: 2
+L6070: d  from the periphery of the column.
+L6071: • For waist slab havi ng span ‘l’ in longitudinal length  in  staircases, the approximate slab thickness ‘t’ is 20
+L6072: l  (For S.S
+L6073: end condition) & 25
+L6074: l (For continuous end condition)
+L6075: • Soft storey concept has technical and functional advantages over the conventional construction
+L6076: ➢ In soft storey, there is reducing is spectral acceleration & base shear due to increase in natural period of vibration.
+L6077: ➢ A taller 1st storey is sometimes necessitated for parking of vehicle. For meeting this functional requirement, the
+L6078: 1st storey has lesser stiffness of columns as compared to stiff upper floors,which are generally constructed with
+L6079: masonry infill walls.
+L6080: Design of Brick wall & R/F masonry Beams & slabs
+L6081: • Wall → width > 4(thickness)
+L6082: If width < 4(thickness) ,then column.
+L6083: • Designed for 4 forces:-
+L6084: (i) shear force, (ii) Bending moment, (iii) Vertical loads, (iv) Overturning moment
+
+
+L6087: ===== Page 186 / 947 =====
+L6088: GATE WALLAH CIVIL HANDBOOK
+L6089: Reinforced Cement Concrete
+L6090: 4.31
+L6091: Effective Height & Effective Length of Wall
+L6092: Top Bottom Effective Height.
+L6093: Full Full 0.75 H
+L6094: Full Partial 0.85 H
+L6095: Partial Partial 1.00 H
+L6096: No full 1.5 H
+L6097: No Partial 2.0 H
+
+L6099: Condition of Support Effective Length
+L6100: Continuous wall supported by cross wall/piers/ buttress (no opening). 0.8 L
+L6101: Supported by a cross wall/pier/buttress at one end & c ontinuous with cross
+L6102: wall/pier/buttress supporting at the other end. 0.9 L
+L6103: Supported at each end by cross wall/pier/buttress 1.0 L
+L6104: Free at one end & condition with a cross wall/pier/buttress at the other end. 1.5 L
+L6105: Free at one end & supported by a cross wall/pier/buttress at other end 2.0 L
+L6106: Slenderness Ratio
+L6107: No. of storeys  Using Portland cement Using line mortar   •  for a load bearing
+L6108:  2   27  20  column ≯ 12
+L6109: > 2   27  13
+
+L6111: • Effective thickness of wall depends upon imposed loads, overall height of the wall, length of the wall, strength of
+L6112: brickwork etc.
+L6113: For non-load bearing wall, H  ≯ 30 (thickness)
+L6114: • Equivalent eccentricity, 12
+L6115: 212
+L6116: axialload
+L6117: eccentric load
+L6118: ee →= → + 
+L6119: • For load bearing wall, depth of vertical and horizontal chases should not be greater than &36
+L6120: tt respectively
+
+L6122: • Width of a vertical chase ≯ t (wall thickness)
+L6123: • Sum of length of all chases & recesses in any horizontal plane ≯
+L6124: 4
+L6125: l
+L6126: Permissible Stress: Multiple by stress reduction factor( & e), area reduction factor ( aK  = 0.7 + 1.5 A) & shape modification
+L6127: factor.
+L6128: 
+
+
+L6131: ===== Page 187 / 947 =====
+L6132: GATE WALLAH CIVIL HANDBOOK
+L6133: Reinforced Cement Concrete
+L6134: 4.32
+L6135: 7
+L6136: REINFORCED
+L6137: BRICK MASONRY
+L6138: 7.1. Introduction
+L6139: • Minimum r/f, in case of plain bars = 0.20% (c/s Area)
+L6140: Minimum r/f in case of deformed bars = 0.16% (c/s Area)
+L6141: • Horizontal spacing between main r/f
+L6142: 3   450 d or mm
+
+L6144: Distribution bars horizontal spacing 5   450 d or mm
+
+L6146: • Minimum cover = 25 mm
+L6147: • Design method based on the principles of elastic design of r/f concrete
+L6148: Stress Distance in brickwork
+
+
+L6151: 4
+L6152: 4
+L6153: 40
+L6154: xd  =  +
+
+L6156: • If the depth of the N.R is restricted to half the depth of the section, then the failure of the section is by yielding of steel.
+L6157: • The position of the N.A. in r/f brick masonry is at a depth of rd
+L6158: 1
+L6159: 3
+L6160: of the effd
+L6161: Arching Action & RB Lintels
+L6162: • For good arching action → masonry units should have good shear strength.
+L6163: • Arching is the phenomenon by which part of the loads over an opening in the wall gets transferred to the sides of the
+L6164: opening.
+
+
+L6167: ===== Page 188 / 947 =====
+L6168: GATE WALLAH CIVIL HANDBOOK
+L6169: Reinforced Cement Concrete
+L6170: 4.33
+
+L6172: (Arching possible)
+L6173: Assuming and triangular load, centreM = 6
+L6174: L
+
+L6176: R/F Brickwork Slabs
+L6177: • The diameter of the main r/f ≯ 12 mm
+L6178: • Minimum width of mortar joint > 35 mm or equal to bar dia.
+L6179: • Clear external cover = 13 mm or dia. of the bar} whichever is greater.
+L6180: • Area of  steel required to cater for temp & shrinkage = 20% of the main tension steel of +ve B.M.
+L6181: Additional Points
+L6182: • Tensile stresses & cracking are permitted under service loads in a partially prestressed members.
+L6183: • Cantilever wall is generally economical upto about 8 m.
+L6184: • Point of generation of an EQ → hypocentre/focus
+L6185: Point on the earth’s surface directly above focus → epicentre
+L6186: Distance from the hypocentre to any point of interest → focal distance
+L6187: • For a footing supporting masonry wall, footing base slab may be designed against flexure by considering the critical
+L6188: B.M section passing through halfway between the face & centreline of the wall.
+L6189: • The minimum thickness of shear walls & bearing walls may be taken as not less than the smaller of
+L6190: or ,25 25
+L6191: eff efflH
+L6192: but
+L6193: not less than 100 mm.
+L6194: • A R/F concrete slab, supported by columns with or without flared column heads & generally without beams → flat
+L6195: slab
+L6196: • Buttresses are structurally more efficient & economical than counterforts.
+
+
+L6199: ===== Page 189 / 947 =====
+L6200: GATE WALLAH CIVIL HANDBOOK
+L6201: Reinforced Cement Concrete
+L6202: 4.34
+L6203: • But still, the counterfort wall is preferred to the buttress wall as it provides more free usable space in front of the wall.
+L6204: • Bond strength is  when
+L6205: ➢ Stirrups  with increased area, reduced spacing and higher grade of steel
+L6206: ➢ Deformed (ribbed) bars used
+L6207: ➢ Smaller dia. Bar used longitudinally
+L6208: ➢ Increased cover is provided
+L6209: ➢ Mechanical anchorages are employed.
+L6210: • Higher the concrete grade, Steeper the initial portion of the stress strain curve and sharper the peak of the curve.
+L6211: For low strength concrete, the curve has a relatively flat top and a high failure strain.
+L6212: • Post – tensioning is used for strengthening concrete dams, involves stage prestressing.
+L6213: Most of the long span bridge structures are constructed using post – tensioning system
+L6214: 
+
+
+L6217: ===== Page 190 / 947 =====
+L6218: GATE WALLAH CIVIL HANDBOOK
+L6219: Reinforced Cement Concrete
+L6220: 4.35
+L6221: 8
+L6222: COLUMN
+L6223: 8.1. Introduction
+L6224: • Strut or Column → a comp member whose effl > 3 (least lateral dimension)
+L6225: • Pedestal → effl  < 3 (least Lateral dimension)
+L6226: • Stress-strain distribution in concrete → parabolic, maximum compressive stress = 0.67f 0.446 f1.5
+L6227: ck
+L6228: ck=
+L6229: • Maximum strain in outermost concrete fibre under axial compression = 0.002,
+L6230: Maximum strain = 0.0035 – 0.75 (strain in least compressed fibre)
+L6231: • Maximum compressive strain (axial comp. and bending, but tension) = 0.0035
+L6232: Based on Slenderness Ratio
+
+L6234: (1) About x – x if
+L6235: 12 short column
+L6236: 12 long column
+L6237: exl
+L6238: d =  →
+L6239: 
+L6240: →
+
+L6242: (2) About y – y if
+L6243: l 12 short column
+L6244: 12 long column
+L6245: ey
+L6246: B =  →
+L6247: 
+L6248: →
+
+L6250: Short column when both & 12
+L6251: eyex ll
+L6252: DB 
+L6253: Long column:- 12lex leyorDB 
+
+
+L6256: ===== Page 191 / 947 =====
+L6257: GATE WALLAH CIVIL HANDBOOK
+L6258: Reinforced Cement Concrete
+L6259: 4.36
+
+
+L6262: • effL depends upon end condition, height of column, and does not depend upon span of beam/column it supports.
+L6263: • Minimum eccentricities
+L6264: Rectangular section, ,mine 20 500 30
+L6265: x
+L6266: x
+L6267: Dl or mm +
+L6268: 
+L6269: (whichever is greater)
+L6270: Non-rectangular and non-circular cross-section shapes min 300
+L6271: 20
+L6272: el
+L6273: mm
+L6274: 
+L6275: 
+L6276: 
+L6277: 
+L6278: 
+L6279: (whichever is greater)
+L6280: Minimum R/F
+L6281: • Longitudinal bars c/s area ≮0.8% (gross area of the column section)
+L6282: • It is provided to ensure nominal flexural resistance, prevent yielding due to creep and shrinkage effects.
+L6283: Maximum R/F
+L6284: • ≯6% of the gross area of the column section
+L6285: • 4% for better placement and compaction,
+L6286: • In tall buildings, heavy r/f is in the lower most column.
+L6287: • Longitudinal bars ≮ 12 mm in diameter and not more than 300mm in spacing.
+L6288: At least 4 bars in rectangular section
+L6289: At least 6 bars in circular section
+L6290: • All longitudinal r/f in compression member enclosed within transverse r/f.
+L6291: —  prevent premature buckling, confine concrete in the core (  ductility and strength)
+L6292: — provide resistance against shear & torsion.
+L6293: • Lateral ties
+L6294:  of lateral ties depends upon stiffness and not on strength, hence independent of steel grade.
+L6295: Tie diameter should be the maximum of {
+L6296: max
+L6297: 4
+L6298:  , 6mm}
+L6299: Tie spacing should be the minimum of {D, .,min16 long ,300mm} where D → Least lateral dimension
+L6300: • Lateral ties are provided to reduce slenderness ratio of longitudinal rebars
+
+
+L6303: ===== Page 192 / 947 =====
+L6304: GATE WALLAH CIVIL HANDBOOK
+L6305: Reinforced Cement Concrete
+L6306: 4.37
+L6307: Spirals
+L6308: Helically reinforced column → very much suitable for EQ resistant structures. Core under triaxial compression which
+L6309: enhances significantly the ductility of the column at ultimate loads.
+L6310: Design of short columns under Axial comp.
+L6311: u ck c y scP =0.4f A +0.67f A  If the calculated mine ≯ 0.05 times least lateral dimension
+L6312: If helically reinforced columns, , 1.05(0.4 0.67 )u helical ck c y scP f A f A=+
+L6313: Columns subjected to Axial compression and Uniaxial Bending
+L6314: Interaction Curve
+
+L6316: • Pt.3 → e <e D , entire section under compression. For e > e D, N.A. located within the section & u  = 0.0035 at the
+L6317: highly compressed edge.
+L6318: • If uP   continuously from zero to high magnitudes, the magnitude of allowable moment first & then .
+L6319: Objectives
+L6320: • Collapse load = load factor working load
+
+L6322: The value of load factor is taken 1.5 in LSM.
+L6323: • In Chimneys, although axial comp. is induced due to its self-weight, buckling tendency is more critical for lateral wind
+L6324: pressure. The lateral wind pressure causes hoop compressive strain & accordingly its buckling tendency  with   in
+L6325: d
+L6326: t
+L6327: ratio.
+L6328: • To resist EQ induced accelerations, inertial forces are developed in the structure in opposite to the direction of EQ
+L6329: force, → there forces depend upon the mass of the structure only.
+L6330: • C/s area of the metal core < 20% of the gross area of column. In case of pedestals, longitudinal r/f > 0.15%. of  the c/s
+L6331: area.
+L6332: • effL of an R.C.C. column continuing through 2 storeys properly restrained at both ends in position and direction is 0.50
+L6333: L.
+
+
+L6336: ===== Page 193 / 947 =====
+L6337: GATE WALLAH CIVIL HANDBOOK
+L6338: Reinforced Cement Concrete
+L6339: 4.38
+L6340: • Ratio of volume of helical r/f to volume of core = 0.36 ck
+L6341: y
+L6342: fAg 1Ac f
+L6343:  −
+L6344: 
+
+L6346: • effH of a masonry wall of height H restrained fully at its top and partially at its bottom is 0.85 H.
+L6347: • effL  of masonry wall stiffened by buttresses on both ends and continuing beyond these buttresses at both ends is 0.8 L.
+L6348: • Lateral pressure of bulk storage material is greater at the time of emptying than at the time of filling.
+L6349: Design of Spacing of Helical R/F
+
+L6351: 0.36 1fck Ag Vn
+L6352: fy Ac Vc
+L6353:  −
+L6354: 
+
+L6356: Where cA is core area
+L6357: • Minimum clear cover for slab is 15 mm, for beam is 25mm, for column is 40mm and for footing is 75mm
+L6358: For long columns, reduction coefficient, 1.25 48
+L6359: e
+L6360: r
+L6361: lHC b=−  , where b is least lateral dimension
+L6362: • The vertical r/f shall be spaced, ≯
+L6363: 3× wall thickness
+L6364: 450 mm
+L6365: 
+L6366: 
+L6367: 
+
+L6369: 
+
+
+L6372: ===== Page 194 / 947 =====
+L6373: GATE WALLAH CIVIL HANDBOOK
+L6374: Reinforced Cement Concrete
+L6375: 4.39
+L6376: 9
+L6377: PRESTRESSED
+L6378: CONCRETE
+
+L6380: 9.1. Introduction
+L6381: Two ways :
+L6382: (i) Pre-tensioning → Prestress transferred to concrete from tendons due to bond
+L6383: (ii) Post tensioning → No contact between concrete and the tendons. Tensioning of tendons and pre-compression of concrete
+L6384: occur simultaneously.
+L6385: • Prestressed concrete requires high strength steel and high strength concrete (as loss would be around 160 – 200
+L6386: N/mm2)
+L6387: • Concrete of appreciable bond and bearing strength is quite essential for prestressed concrete. High strength concrete
+L6388: is less liable to shrinkage cracks, has higher modulus of elasticity, smaller ultimate creep strain and hence, smaller
+L6389: loss of prestress
+L6390: Advantages of Prestressed Concrete:  No cracking, more ductility, less deflection, higher shear resistance. Therefore, in
+L6391: prestressed members, high span/depth (L/D) ratio possible.
+L6392: Types:
+L6393: 1. Based on sources of pre-stressing:
+L6394: Hydraulic, Mechanical, Electrical or Thermal, Chemical (Self prestressing by using expanding cement)
+L6395: By means of support displacements
+L6396: 2. Based on extent of prestressing:
+L6397: Full prestressing → no tensile stresses in the member at service loads.
+L6398: Limited prestressing → Tensile stresses within the cracking stress of concrete
+L6399: Partial prestressing → Under tensile stresses > modulus of rupture, crack width is within the allowable limits.
+L6400: Advantages of pre-tensioning over post-tensioning:
+L6401: Suitable for pre-cast members produced in bulk, no large anchorage devices are required. Prestressed load gets transferred
+L6402: in a single stage process, but requires waiting period.
+L6403: Hoyer system of pre-tensioning is used for mass production of railway sleepers.
+L6404: Post-tensioning:
+L6405: • Suitable for heavy cast-in place members, transfer of prestress is independent of transmission length
+L6406: • For a Simply supported member, duct follows a sagging profile b/w ends.
+L6407: • For continuous member, duct will sag in the span and hog over the support.
+
+
+L6410: ===== Page 195 / 947 =====
+L6411: GATE WALLAH CIVIL HANDBOOK
+L6412: Reinforced Cement Concrete
+L6413: 4.40
+L6414: Objectives:
+L6415: • For Prestressed concrete girders used in bridges, combination of load factor used is 2.0 DL + 2.0 LL
+L6416: • Tensile stress in tendon immediately behind the anchorage ≯ 80% of ultimate tensile strength
+L6417: • Minimum clear spacing between groups of cables : Maximum of  
+L6418: 40 mm
+L6419: 5 mm plus maximum site of aggregate
+L6420: • Stress block in concrete (flexure) → any shape providing agreement with test results
+L6421: • IS : 1343 – 1980 (code for prestress concrete)
+L6422: Analysis
+L6423: Assumptions: Concrete is a homogeneous elastic material, concrete & steel behave elastically within working stress and
+L6424: variation of stress in steel due to external load is negligible.
+L6425: 3 Approaches:
+L6426: (1) Stress concept:
+L6427: (a) Concentric Tendon
+L6428: ,cb
+L6429: PM
+L6430: AZ =  = 
+
+L6432: cb
+L6433: PM
+L6434: AZ  =  = 
+L6435: (b) Eccentric Tendon
+
+L6437: → c/s area of high tensile steel is a very small percentage of the total concrete area, so stress computations are
+L6438: based on nominal cross-section properties.
+L6439: Cracking Moment →  B.M. at which visible cracks develop in pre-stressed concrete. Cracks get developed when
+L6440: tensile stress at the soffit = modulus of rupture
+L6441: Load factor against cracking =
+L6442: L.L. load required for cracking
+L6443: L.L. actually acting
+L6444: = L.L. moment required for cracking
+L6445: L.L. actually acting
+
+L6447: Stresses taken for analysis at Various Stages:
+L6448: (a) At the time of transfer of prestress to the concrete beam, stresses due D.L. & Prestressing force (without losses)
+
+
+L6451: ===== Page 196 / 947 =====
+L6452: GATE WALLAH CIVIL HANDBOOK
+L6453: Reinforced Cement Concrete
+L6454: 4.41
+
+L6456: (b)  At service load condition, stresses due to prestressing force (after losses)
+L6457: 2. Load Balancing Concept
+L6458: • Bent tendon exerts an upward pressure on the concrete beam.
+L6459: • Parabolic shape- uniformly distributed upward load
+L6460: • Sharp angles induces concentrated loads.
+
+L6462: • Cable profile corresponds to the B.M. diagram from external loads
+L6463: • Pt. load → BM triangular → cable profile triangular
+L6464: For udl → BMD parabolic → cable profile parabolic
+L6465: • Equation of the parabolic arch, 2
+L6466: 4 ( )lx l xy l
+L6467: −=
+
+L6469: so, 20
+L6470: 4tan [ 2 ]
+L6471: x
+L6472: dy P lxd l=
+L6473:  = = −
+
+
+L6476: ===== Page 197 / 947 =====
+L6477: GATE WALLAH CIVIL HANDBOOK
+L6478: Reinforced Cement Concrete
+L6479: 4.42
+L6480: Cable profile exactly balancing the external loading,
+
+
+L6483: 2 2 2
+L6484: ,22
+L6485: e e ew x x w x w xPy y c ZP P
+L6486: =  = =
+L6487: ∴
+L6488: 2
+L6489: 2
+L6490: xye
+L6491: l
+L6492: =
+L6493: Pressure Line or Thrust Line
+L6494: • The effect of the prestressing force & the externally applied load is combined into a single force.
+L6495: • Locus of the pt. of application of this resultant force → pressure or thrust line.
+L6496: • The resulting thrust →accounts for the combined effect of P, Pe & the external moment
+L6497: /
+L6498: e
+L6499: bt
+L6500: PPM
+L6501: A Z Z =  
+
+
+L6504: /2b
+L6505: P P M eA Z P
+L6506:  = − + 
+L6507: 
+
+L6509: ' Mee P=−
+L6510: ∴ The thrust line will be parabolic
+L6511: e →(+ve) when below N.A.
+L6512: 'ee+ = Shifting of P-line from cable line = MM
+L6513: PP
+L6514: +ve shift means above cable line
+L6515: – ve shift means below cable line
+L6516: 3.  Strength Concept/P-line concept/internal resisting couple or C-line concept:
+L6517: •  Change in External moments cause a shift of the pressure line (no increase in the resultant force)
+L6518: •     If member cracks, then it behaves similar to a Reinforced concrete section.
+L6519: •    Location of thrust line will be at the C.G. of stress prism not at the C.G. of stress diagram.
+
+
+L6522: ===== Page 198 / 947 =====
+L6523: GATE WALLAH CIVIL HANDBOOK
+L6524: Reinforced Cement Concrete
+L6525: 4.43
+L6526: •   As per IS : 1343 – 1980, the ultimate resistance of a section cracked in flexure, 20.67 0.8co t cp tV bD f f f=+
+L6527: ft = maximum principal tensile stress = 0.24 ckf
+L6528: fcp = Compressive stress at centroidal axis
+L6529: Kern Points
+
+L6531: 200t b t b
+L6532: NA
+L6533: Ck y Ck yCC
+L6534: A I A Ar
+L6535: −− + =  + =
+
+L6537: 2 . of gyration
+L6538: Lower edge from N.R.
+L6539: r rad
+L6540: t
+L6541: b
+L6542: rK y
+L6543: →=
+
+L6545: 2
+L6546: b
+L6547: t
+L6548: rK y=
+L6549: • To cause a tensile stress fcr at the bottom, incremental moment cr
+L6550: b
+L6551: fI
+L6552: y=
+L6553: • 0.7cr
+L6554: cr e cr ck
+L6555: bb
+L6556: fI PIM P where f fy Ay= + + =
+L6557: Limiting Zone:
+L6558: Zone for placing the C.G. of steel of the tendors such that C always lie within the kern zone
+
+L6560: Effect of Loading on Stress in Tendon
+
+
+
+L6564: 3
+L6565: 12 ,2 24
+L6566: e
+L6567: cc
+L6568: PL wL
+L6569: E I E I =  =  , Net slope, θ = θ2 – θ1
+
+
+L6572: ===== Page 199 / 947 =====
+L6573: GATE WALLAH CIVIL HANDBOOK
+L6574: Reinforced Cement Concrete
+L6575: 4.44
+L6576: If θ2> θ1, Net elongation of steel reinforcement = eθ = eθ = 2eθ,        Strain change = 2e
+L6577: L
+L6578: 
+L6579: 2
+L6580: s
+L6581: e EL
+L6582:  = 
+L6583: ∴ Change in force = 2
+L6584: sS
+L6585: e EAL
+L6586:  
+
+
+L6589: Elastic Shortening Loss
+L6590: • Pre-tensioned members – Concrete & tendon shorten immediately causing loss of prestress
+L6591: • Post-tensioned members- For one tendon no loss because prestress recovered offer elastic shortening. But, for more
+L6592: than one tendon, stretched sequentially, loss in the prestress is seen during subsequent stretching.
+L6593: c
+L6594: s s s s c s c
+L6595: c
+L6596: ff E E E mf E
+L6597:  =  =  = = 
+L6598: 
+
+
+L6601: 2
+L6602: d
+L6603: s
+L6604: MeP Pefm A I I
+L6605:  = + −
+L6606: 
+L6607: 
+
+
+L6610: In post tensioning, when 2 nd bar tensioned → No loss in 2nd one but loss will occur in Ist one
+L6611: • In the pre-tensioned beams > Loss in post-tensioned (Partially due to the effect of elastic shortening)
+L6612: Loss of prestress due to Friction
+L6613: • Doesn’t occur in pre-tensioned members because there is no concrete during stretching of the tendons.
+L6614: • In post-tensioned members, a loss in the prestress due to curvature of tendon & vertical component of prestress force
+L6615: is seen. Some prestress is lost also to overcome wobble of the tendon. Wobble is the change in position of the tendon
+L6616: along the duct.
+L6617: •
+L6618: Force in cable
+L6619: ()
+L6620: 0
+L6621: Kx
+L6622: xP P e − +=
+L6623: K → Wobble correction factor
+L6624: μ →coefficient of friction in curve
+L6625:  → Cumulative angle in radian between two points.
+
+
+L6628: ===== Page 200 / 947 =====
+L6629: GATE WALLAH CIVIL HANDBOOK
+L6630: Reinforced Cement Concrete
+L6631: 4.45
+L6632: P x = P0(1 – kx – μα)
+
+
+L6635: (a) When jacking from 3 end, x = 0 to L
+L6636: θ For Parabolic Cable Profile
+L6637: Jacking at one end, 820 e
+L6638: L = = , Jacking from both end, α = 0 = 4e
+L6639: L
+L6640: Loss of prestress = (μα + kx) Initial stress
+
+L6642: ΔP = Pμ α = 42* /2
+L6643: eePP ll
+L6644:     = =    
+L6645:    
+
+L6647: 22 PeP N P a =  =  = 
+
+L6649: Loss of prestress due to Anchorage Slip
+L6650: • Depends on the type of anchorage system
+L6651: Loss = ssEELL
+L6652:  = 
+L6653: 
+L6654: , Δ = anchorage slip
+L6655: • Loss higher for short members than for long ones.
+L6656: In pre-tensioning → ignored due to long length
+
+L6658: 4.  Loss of prestress due to creep of concrete
+L6659: Due to creep of concrete of concrete
+L6660: Loss of stress = mϕ fc = ϕ (elastic shortening)
+L6661: • Creep coefficient ↓ linearly with the log of time in days.
+L6662: • Generally, 2-3% of initial prestressing force
+L6663: Loss of prestress due to shrinkage of concrete
+L6664: • moist curing is done to prevent shrinkage, loss ∝ w
+L6665: c  in concrete.
+L6666: • Larger loss in pre-tensioned members in comparison with post-tensioned members
+
+
+L6669: ===== Page 201 / 947 =====
+L6670: GATE WALLAH CIVIL HANDBOOK
+L6671: Reinforced Cement Concrete
+L6672: 4.46
+L6673: By 50% in dry atmospheric, maximum value 3 × 10 –4
+L6674: ϵCS = 3 × 10–4 for pre-tensioning            and       ϵCS =
+L6675: 4
+L6676: 10
+L6677: 2 10
+L6678: log ( 2)t
+L6679: −
+L6680: +  for post-tensioning
+L6681: Loss of prestress = ϵCS* sE
+L6682: 5.     Loss of prestress due to relaxation of steel
+L6683: Influenced mainly by initial stress in steel. It is the decrease in stress with time under constant strain.
+L6684: It is generally 2 to 5% and is a function of (type of steel, initial prestress, Temp.)
+L6685: • Total loss in pre-tensioned members = 18%
+L6686: • Total loss in post-tensioned members = 15%
+L6687: Deflection:
+L6688: 1. Straight tendons
+L6689: 2
+L6690: 24
+L6691: 8
+L6692: LLPe peLa EI EI
+L6693: − −==
+
+L6695: 2. Trapezoidal tendons
+
+L6697: 2
+L6698: 1 1 2 2
+L6699: 22
+L6700: 1 1 2 2
+L6701: 12
+L6702: 2 3 2
+L6703: [2 6 3 ]6
+L6704: lPea l l l lEI
+L6705: Pe l l l lEI
+L6706: − = + +    
+L6707: −= + +
+
+
+L6710: ===== Page 202 / 947 =====
+L6711: GATE WALLAH CIVIL HANDBOOK
+L6712: Reinforced Cement Concrete
+L6713: 4.47
+L6714: 2
+L6715: 25
+L6716: 3 2 8 2
+L6717: 5
+L6718: 48
+L6719: Pe L La EI
+L6720: PeL
+L6721: EI
+L6722: − =   
+L6723: 
+L6724: =− 
+L6725: 
+L6726: 
+
+
+L6729: 2
+L6730: 12(5 )48
+L6731: Pla e e EI=+
+L6732: 2
+L6733: 12( 2 )24
+L6734: Pla e e EI= − +
+L6735: • Deflection due to self wt& imposed loads
+
+L6737: 45( )
+L6738: 384
+L6739: g q La EI
+L6740: +=
+L6741: Type of Shear Cracks:
+L6742: (1) Web shear cracks: Start from an interior point. Likely to develop in highly prestressed beams with thin webs when
+L6743: beam subjected to large concentrated loads near a simple support.
+
+L6745: (2) Flexural shear cracks: Combined shear & flexural tensile stresses produce principle tensile stresses exceeding the
+L6746: tensile strength of concrete.
+L6747: Propagation of a shear crack depend upon the shape of the C/s of the beam
+
+
+L6750: ===== Page 203 / 947 =====
+L6751: GATE WALLAH CIVIL HANDBOOK
+L6752: Reinforced Cement Concrete
+L6753: 4.48
+L6754: Transfer of Pre-stress in Pre-tensioned Member By bond
+
+L6756: Hoyer effect → Prestressing force becomes zero at the end of the wire.
+L6757: Transmission of prestressing force from steel to concrete through (i) adhesion, (ii) friction & (iii) shearing resistance (dilatancy)
+
+L6759: • Lt is a function of (dia. & surface characteristic of wire, Es & Ec, μ between steel & concrete)
+L6760: • Lt increases at a decreasing rate with time due to the effect of creep s shrinkage of concrete.
+L6761: Bond Stress
+
+
+L6764: Transverse tensile stress
+L6765: • due to concentration of tendons at the ends.
+L6766: • method of distributing tendons has an influence on the end zone cracking.
+L6767: End Zone Reinforcement
+L6768: • To prevent failure of the end zone due to the cracking of concrete.
+L6769: • About half of total r/f should lie within
+L6770: 1
+L6771: 3rd  of Lt from the end, the rest is distributed uniformly.
+L6772: Anchorage Zone Stresses in Post-tensioned member.
+L6773: • Large forces concentrated over very small areas applied on the end blocks.
+L6774: • High tensile stresses induced in the concrete & concrete starts spalling around the tendon & at anchorage zone.
+L6775: • Zone b/w the end & the section where only longitudinal stress exist – anchorage zone or end block.
+
+
+L6778: ===== Page 204 / 947 =====
+L6779: GATE WALLAH CIVIL HANDBOOK
+L6780: Reinforced Cement Concrete
+L6781: 4.49
+
+L6783: Concordant Cable Profile (not unique, but located in a narrow zone)
+L6784: • For continuous beams, prestressing generates reaction at the supports causing addition moments along the length of a
+L6785: beam.
+L6786: • A concordant profile → a profile of the cable which produces a pressure line coincident, with the profile itself. No
+L6787: reaction at the supports.
+L6788: • Every real B.M.D. for a continuous beam due to external loads → one location for a concordant cable profile in that
+L6789: beam.
+L6790: • Concept of load balancing → for determinate structure
+L6791: • Concept of concordant Cable → for indeterminate structure
+L6792: • Maximum strain taken by high tension steel → 4%.
+L6793: • Minimum grade of concrete →  30 MPa for post-tensioned member
+L6794: 40 MPa for pre-tensioned member
+L6795: Maximum grade of concrete → 60 MPa
+L6796: Objectives:
+L6797: • Hoyer system of prestressing → suitable for pre-tensioned members
+L6798: • Shear design for a prestressed concrete beam → based on elastic theory
+L6799: • Prestress profile in mass produced pre-tensioned slab → straight along bottom Kern
+L6800: • In the conventional prestressing, diagonal tension in concrete ↑.
+L6801: • Propagation of shear cracks depends upon the shape of the beam not on the amount of tension or compression or  shear
+L6802: r/f.
+L6803: • Upward deflection in a prestressed concrete member under serviceability limit state condition →
+L6804: Span
+L6805: 300
+L6806: 
+L6807: 
+L6808: 
+L6809: .
+L6810: • Fully prestressed concrete beams resist all the working loads by prestress.
+L6811: • Limit state criteria for the design of prestressing member → member fail if both the stress & strain exceeds their
+L6812: permissible limit.
+L6813: • Spalling stresses produced in post-tensioned prestressed concrete members b/c of highly concentrated tendon force.
+
+L6815: Post-tensioning system Arrangement of tendons
+L6816: Freyssinet System High tension steel wires about 8-12 in number form a group cable with a spiral spring.
+L6817: Conical serrated concrete wedges (used in India)
+L6818: Gifford-Udall System Wires stressed & anchored one by one in a separate cylinder. Split conical wedges.
+L6819: Lee-McCall System High strength Nuts are used
+L6820: Magnel Blaton System Anchored by wedging, 2 wires at a time into sandwich plates, 8 wires are used
+L6821: ❑❑❑
+
+
+L6824: ===== Page 205 / 947 =====
+
+
+
+L6828: ===== Page 206 / 947 =====
+L6829: SteelSteel
+L6830: StructuresStructures
+L6831: Steel
+L6832: Structures
+
+
+L6835: ===== Page 207 / 947 =====
+L6836: Published By:
+
+L6838: Physics Wallah
+L6839: ISBN: 978-93-94342-39-2
+L6840: Mobile App: Physics Wallah (Available on Play Store)
+
+L6842: Website:
+L6843: www.pw.live
+L6844: Email: support@pw.live
+
+L6846: Rights
+L6847: All rights will be reserved by Publisher. No part of this book may be used or reproduced in any manner
+L6848: whatsoever without the written permission from author or publisher.
+L6849: In the interest of student's community:
+L6850: Circulation of soft copy of Book(s) in PDF or other equivalent format(s) through any social media channels,
+L6851: emails, etc. or any other channels through mobiles, laptops or desktop is a criminal offence. Anybody
+L6852: circulating, downloading, storing, soft copy of the book on his device(s) is in breach of Copyright Act. Further
+L6853: Photocopying of this book or any of its material is also illegal. Do not download or forward in case you come
+L6854: across any such soft copy material.
+
+L6856: Disclaimer
+L6857: A team of PW experts and faculties with an understanding of the subject has worked hard for the books.
+L6858: While the author and publisher have used their best efforts in preparing these books. The content has been
+L6859: checked for accuracy. As the book is intended for educational purposes, the author shall not be responsible for
+L6860: any errors contained in the book.
+L6861: The publication is designed to provide accurate and authoritative information with regard to the subject matter
+L6862: covered.
+L6863: This book and the individual contribution contained in it are protected under copyright by the publisher.
+L6864: (This Module shall only be Used for Educational Purpose.)
+
+
+L6867: ===== Page 208 / 947 =====
+L6868: Design Against Static Load
+
+
+
+
+
+L6874: 1. Materials and Specifications .................................................................................................  5.1 – 5.6
+L6875: 2. Bolted Connections ..............................................................................................................  5.7 – 5.14
+L6876: 3. Welded Connections  ...........................................................................................................  5.15 – 5.20
+L6877: 4. Eccentric Connections ..........................................................................................................  5.21 – 5.26
+L6878: 5. Tension Members .................................................................................................................  5.27 – 5.32
+L6879: 6. Compression Members ........................................................................................................  5.33 – 5.40
+L6880: 7. Column Bases  and Column Splices ......................................................................................  5.41 – 5.44
+L6881: 8. Beams ...................................................................................................................................  5.45 – 5.51
+L6882: 9. Plate Girder ..........................................................................................................................  5.52 – 5.54
+L6883: 10. Glatry Girder .........................................................................................................................  5.55 – 5.56
+L6884: 15. Roof Trusses .........................................................................................................................  5.57 – 5.62
+

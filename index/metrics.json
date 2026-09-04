@@ -1,5 +1,5 @@
 {
-  "markdown_files": 218,
+  "markdown_files": 249,
   "interview_qa_total": 195,
   "interview_qa_breakdown": {
     "prep/technical/technical-interview-bank.md": 100,
@@ -13,7 +13,7 @@
     "non-core/consulting/case-bank.md": 10
   },
   "mock_sessions": 8,
-  "company_profiles": 12,
+  "company_profiles": 33,
   "numerical_examples": 15,
   "software_deep_dives": 7,
   "noncore_tracks": 14,

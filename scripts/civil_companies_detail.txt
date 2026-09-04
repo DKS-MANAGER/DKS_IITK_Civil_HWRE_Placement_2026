@@ -1,0 +1,1308 @@
+
+================================================================================
+COMPANY: ASC Infratech Pvt Ltd
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: ASC Infratech Pvt Ltd
+  Nature of Business: Construction, Design
+  Profile: Trainee Engineer
+  Job Location: Noida
+  Required Skill Set: Technical skills related to bridge design and construction.
+  Job Description: The Candidate shall be responsible for planning ,designing and overseeing construction of bridges and highways ,preparing of detailed project reports ,reviewing the entire project preparation and implementation activities.
+  CTC (in INR): ₹ 7,37,575.00
+  Cost To Company: Rupees 737575.00
+  Gross (per annum): ₹ 6,67,200.00
+  Fixed take home salary (per annum): ₹ 6,45,600.00
+  Base Salary: ₹ 18,000.00
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: Provident Fund.
+  1st Year CTC: ₹ 33000 .00  per month during the probation period of six months.
+  Perks: Performance linked incentives.
+  Bond Details: NA
+
+================================================================================
+COMPANY: Godrej Properties
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Godrej Properties
+  Nature of Business: Construction
+  Profile: Job Designation	Assistant Manager – Project Execution
+  Job Location: On-site locations across Mumbai Metropolitan region (MMR), Delhi-NCR, Bangalore, Hyderabad, Pune etc.
+(Please note that the actual site locations may extend beyond the above mentioned cities as per business requirements)
+  Required Skill Set: Refer JD
+  Job Description: We are looking for someone passionate and driven to join us in executing our projects on site. Someone detail-oriented, solution-centric and persistent in continuously raising the bar. Someone who thrives in dynamic, ambiguous, and fast paced environments, and is willing to roll up their sleeves and get the job done. 
+Read on, if this sounds interesting!
+ Role Offered: 
+Assistant Manager- Project Execution 
+This role is responsible for the execution of the project on site and monitoring all the 
+  CTC (in INR): 18,00,000
+  CTC (in foreign currency): -
+  Cost To Company: Total CTC: 18,00,000
+
+Joining Bonus (to be paid after 6 months of joining): 3,00,000
+
+Retention Bonus (to be paid after 2 years of joining): 3,00,000
+  Joining Bonus: 3,00,000 (to be paid after 6 months of joining)
+  Retention Bonus: 3,00,000 (to be paid after 2 years of joining)
+
+================================================================================
+COMPANY: Hilti Technology Solutions India
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Hilti Technology Solutions India
+  Nature of Business: Construction
+  Profile: Graduate Engineer
+  Job Location: Pune, India
+  Required Skill Set: Mentioned Above
+  Job Description: You will join our prestigious GET program in our global Value engineering Hub at Pune in the Energy & Industry business unit. Our select hires from IITs will go through a well-structured program(8 to 12 months) to succeed in the Technical Engineering role. He/she will be well supported by a senior mentor, program buddy and HR support through the initial phase. Initial month will be dedicated for business understanding and Hilti's onboarding & assimilation program followed by dedicated training p
+  CTC (in INR): 1700000
+  CTC (in foreign currency): 0
+  Cost To Company: Details will be explained during the placement talk
+  Gross (per annum): 0
+  Fixed take home salary (per annum): 0
+  Base Salary: 0
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: 0
+  Deductions: 0
+  1st Year CTC: 0
+  Total CTC: Full salary break up will be explained in the pre placement talk
+  Perks: 0
+  Bond Details: 0
+
+================================================================================
+COMPANY: Larsen & Toubro Limited
+ROWS: 2
+================================================================================
+
+--- Row 1 ---
+  Company Name: Larsen & Toubro Limited
+  Nature of Business: Core Engineering & Technology, Oil & Gas / Energy, Construction, Manufacturing, Edutech
+  Profile: Management Trainee
+  Job Location: PAN INDIA
+  Required Skill Set: Technical
+  Job Description: • Design/R&D • Sales & Marketing • Construction Management • Manufacturing Engineering • Erection, Testing & Commissioning • Technical Services • Project Management
+  CTC (in INR): 7,00,000
+
+--- Row 2 ---
+  Company Name: Larsen & Toubro Limited
+  Nature of Business: Core Engineering & Technology, Oil & Gas / Energy, Construction, Manufacturing, Infrastructure, Edutech
+  Profile: Post Graduate Engineer Trainee
+  Job Location: PAN INDIA
+  Required Skill Set: • Design/R&D • Sales & Marketing • Construction Management • Manufacturing Engineering • Erection, Testing & Commissioning • Technical Services • Project Management
+  Job Description: • Design/R&D • Sales & Marketing • Construction Management • Manufacturing Engineering • Erection, Testing & Commissioning • Technical Services • Project Management
+  CTC (in INR): 6,25,000
+  CTC (in foreign currency): INR
+
+================================================================================
+COMPANY: Reliance New Energy
+ROWS: 5
+================================================================================
+
+--- Row 1 ---
+  Company Name: Reliance New Energy
+  Nature of Business: Manufacturing
+  Profile: Team Member - Computer Science, Data Science
+  Job Location: Navi Mumbai/Bangalore/Jamnagar
+  Required Skill Set: Key Skills and Competencies:
+1.	Strong technical proficiency in developing MES applications, including customization, configuration, and development of interfaces for integration with ERP & other systems.
+2.	In-depth knowledge of discrete manufacturing processes, ideally in industries such as pharma, automotive, solar, or semiconductor.
+3.	Familiarity with manufacturing automation, robotics, and equipment interfacing with MES.
+4.	Experience in data integration and real-time monitoring solutions 
+  Job Description: Summary:
+Manufacturing Execution System (MES) Development Lead for Cell & Module Manufacturing, shall be responsible for designing, developing, and deploying MES solutions to optimize & streamline manufacturing processes. This role shall play a vital part in enhancing production efficiency, data integration, and real-time monitoring within the cell & module manufacturing environment. Previous experience in developing MES for discrete manufacturing, particularly in industries like solar, or semic
+  CTC (in INR): 1500000
+  CTC (in foreign currency): -
+  Cost To Company: Total Pay INR 15,00,000= Fixed Pay INR 13,00,000 + Annual Cash Bonus 2,00,000
+  Gross (per annum): -
+  Fixed take home salary (per annum): -
+  Base Salary: -
+  Joining Bonus: -
+  Relocation Bonus: -
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: -
+  Perks: INR 5,00,000 Deferred Bonus (To be paid at the end of 36 months with no claw back)
+  Bond Details: NO
+
+--- Row 2 ---
+  Company Name: Reliance New Energy
+  Nature of Business: Manufacturing
+  Profile: Team Member - Chemical/Materials
+  Job Location: Navi Mumbai/Bangalore/Jamnagar
+  Required Skill Set: JD
+  Job Description: Education: M Tech – Chemical/Material Engineering
+
+Detailed job description: The candidate will be required to work in the R&T laboratory of Reliance New Energy – Battery division. His brief job responsibilities are given below
+
+1. Will need to make various design basis of new projects
+2. Will need to do 3D electrochemical calculation/simulation of battery materials
+3. Will need to do simulation of battery cell property using software like phyton, Ansys, GT Auto lion.
+4. Will need to do basic de
+  CTC (in INR): 1500000
+  Total CTC: Total Pay INR 15,00,000= Fixed Pay INR 13,00,000 + Annual Cash Bonus 2,00,000
+
+--- Row 3 ---
+  Company Name: Reliance New Energy
+  Nature of Business: Manufacturing
+  Profile: Team Member – Civil/Geotech
+  Job Location: Navi Mumbai/Bangalore/Jamnagar
+  Required Skill Set: .
+  Job Description: Preparation of Site Geotech investigation program including work specification and BOQ of work, able to audit/ review of soil/rock sampling at site, laboratory testing and finalising Geotech investigation report submitted by the Geotech investigating agency.
+•           Analyse Geotech data and interpret results for geotechnical design
+•           Design and analyse foundation, retaining structure and other geotechnical systems
+•           Design & Analyse of Dynamic foundations (both shallow & 
+  CTC (in INR): 1500000
+  CTC (in foreign currency): -
+  Cost To Company: Total Pay INR 15,00,000= Fixed Pay INR 13,00,000 + Annual Cash Bonus 2,00,000
+  Gross (per annum): -
+  Fixed take home salary (per annum): -
+  Base Salary: -
+  Joining Bonus: -
+  Relocation Bonus: -
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: -
+  Perks: Any other perks/ benefits/ components company wants to declare	INR 5,00,000 Deferred Bonus (To be paid at the end of 36 months with no claw back)
+  Bond Details: No
+
+--- Row 4 ---
+  Company Name: Reliance New Energy
+  Nature of Business: Manufacturing
+  Profile: Team Member - Electrical
+  Job Location: Navi Mumbai/Bangalore/Jamnagar
+  Required Skill Set: .
+  Job Description: Should have good engineering, analytical skills, and hands on experience in ERP systems. 
+•           The ability to take decisions and initiate change Autonomy and self-development Diverse, multicultural teams
+•           Skilled with latest software, Good vendor relationship and innovative skills on cost cutting and ease of execution ideas
+•           Good knowledge and exposure to tendering and costing in the past both on Grid connected and off-grid projects
+  CTC (in INR): 1500000
+  Cost To Company: Total Pay INR 15,00,000= Fixed Pay INR 13,00,000 + Annual Cash Bonus 2,00,000
+  Perks: INR 5,00,000 Deferred Bonus (To be paid at the end of 36 months with no claw back)
+  Bond Details: No
+
+--- Row 5 ---
+  Company Name: Reliance New Energy
+  Nature of Business: Manufacturing
+  Profile: Team Member - Mechanical
+  Job Location: Navi Mumbai/Bangalore/Jamnagar
+  Required Skill Set: jd
+  Job Description: 1. Will need to make various design basis of new projects
+2. Will need to do thermal modelling of battery cell
+3. Will need to do simulation of battery cell property using software like phyton, Ansys, GT Auto lion.
+4. Will need to generate understanding of all the cell child parts and their quality control processes.
+5. Will need to plan a localization plan for cell child parts with supply chain team
+6. Will need to understand the execution of manufacturing execution system in the cell factory
+•
+  CTC (in INR): 1500000
+  Total CTC: Total Pay INR 15,00,000= Fixed Pay INR 13,00,000 + Annual Cash Bonus 2,00,000
+  Bond Details: No
+
+================================================================================
+COMPANY: Rodic Consultants
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Rodic Consultants
+  Nature of Business: Core Engineering & Technology
+  Profile: Management Trainee
+  Job Location: -
+  Required Skill Set: -
+  Job Description: Good understanding and Knowledge of the following :
+
+Design of water treatment, sewage treatment and industrial wastewater treatment systems
+Aerobic and anaerobic treatment technologies
+Primary, secondary and tertiary treatment systems
+Design of water distribution network and sewerage networks
+Environmental legislations
+Environmental impact assessment and proposed environmental management plans
+Air pollutants, their sources and control measures
+Air quality modelling
+Greenhouse gases, scope 1, sc
+  CTC (in INR): 8LPA
+  CTC (in foreign currency): -
+  Cost To Company: Compensation : 800000-850000 Per Annum.
+
+================================================================================
+COMPANY: SPECTRUM Techno Consultants Pvt Ltd
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: SPECTRUM Techno Consultants Pvt Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: Trainee Design Engineer - Structures
+  Job Location: Vashi, Navi Mumbai
+  Required Skill Set: Technical Skill Set Required to be acquired:
+
+• Good understanding of civil engineering.
+
+• Gaining knowledge related to construction material and its properties.
+
+• Understanding different analysis method/design method.
+
+• Familiar with software applications like AutoCad and other analysis softwares.
+
+Behavioral Skill Set Required:
+
+• Practical & Creative
+
+• Analytical Skills
+
+• Team work
+  Job Description: Objective of the Role:
+To assist in Designing the Structures with high quality, safety regulations, codal provisions and optimal cost.
+Major Responsibilities: • Assisting in designing all the Structural works in line with the project schedule.
+• The engineer trainee is responsible for managing the data and all the information related to the particular project he/ she is assigned to.
+• The trainee is responsible to follow all the directions given by his/ her mentor.
+• The trainee engineer is resp
+  CTC (in INR): 800000
+  Gross (per annum): 752000
+  Fixed take home salary (per annum): 752000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: Provident Fund
+  1st Year CTC: 800000
+  Total CTC: 800000
+  Bond Details: NA
+
+================================================================================
+COMPANY: Thornton Tomasetti
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Thornton Tomasetti
+  Nature of Business: Design
+  Profile: Engineer
+  Job Location: Mumbai, Pune, Chennai
+  Required Skill Set: •	Master’s degree in Structural Engineering.
+•	Working knowledge of current industry software, including SAP2000, ETABS, Ram, Risa3-D, PCA Software, Revit, and AutoCAD is preferred.
+•	Ability and willingness to travel within the India.
+  Job Description: Our Structural Engineering practice collaborates with architects, building owners and builders to design elegant solutions for projects of all types, sizes and levels of complexity. From designing the world’s tallest buildings and longest spans to engineering inventive “jewel-box” structures and designing major expansion projects, we continually seek the best balance among the demands of form, function, sustainability, constructability, schedule and budget. 
+The Role
+We have an opportunity for a
+  CTC (in INR): 750000
+  CTC (in foreign currency): 750000
+  Cost To Company: 7.5 lacs to 9.0 lacs (Salary + OT + Bonus + Health Insurance +Term Insurance)
+  Gross (per annum): 750000
+  Fixed take home salary (per annum): 750000
+  Base Salary: 750000
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  1st Year CTC: 750000
+  Total CTC: (OT + Bonus + Health Insurance +Term Insurance)
+  Bond Details: No bond
+
+================================================================================
+COMPANY: Vassarlabs IT Solutions Pvt Ltd
+ROWS: 4
+================================================================================
+
+--- Row 1 ---
+  Company Name: Vassarlabs IT Solutions Pvt Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: R&D Engineer
+  Job Location: Hyderabad - Onsite
+  Required Skill Set: -
+  Job Description: • Participate and contribute to Design, Development and QA discussions/processes
+• Develop the product specifications at the functional and implementation level
+• Develop the product as per the specifications
+• Evaluate various technologies for the product/platform
+• Mentor junior members of the team
+• Conduct and participate in code reviews to ensure product quality
+• Develop the overall product for secure, high performance, extendable enterprise platform
+• Prepare Operations, Interfaces, user 
+  CTC (in INR): 12 LPA
+  CTC (in foreign currency): -
+  Cost To Company: 12 LPA
+  Gross (per annum): 12 LPA
+  Fixed take home salary (per annum): -
+  Base Salary: -
+  Joining Bonus: -
+  Relocation Bonus: -
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: -
+  Total CTC: 12 LPA
+  Perks: -
+  Bond Details: 2 years of service agreement
+
+--- Row 2 ---
+  Company Name: Vassarlabs IT Solutions Pvt Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: SME Water Resources/hydrologist
+  Job Location: Hyderabad-Onsite
+  Required Skill Set: -
+  Job Description: • Understanding of hydraulic modeling, run-off models and hydraulics, hydrological studies, conceptual, analytical and numerical models and data analysis
+• Knowledge of hydraulic modeling software, HEC-RAS, HEC-HMS, Storm analysis, 1D and 2D hydraulic modeling, flood estimation and flood risk assessment
+• Knowledge of data manipulation abilities (FME/POWERBI/MS Excel/MS Access database type packages)
+• Knowledge of Optimisation Tools
+• Knowledge of Scripting: R, Python, SQL, advanced Excel
+• Kno
+  CTC (in INR): 8 LPA
+  CTC (in foreign currency): -
+  Gross (per annum): -
+  Fixed take home salary (per annum): -
+  Base Salary: -
+  Joining Bonus: -
+  Relocation Bonus: -
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: -
+  Total CTC: -
+  Perks: -
+  Bond Details: -
+
+--- Row 3 ---
+  Company Name: Vassarlabs IT Solutions Pvt Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: SME – GIS
+  Job Location: Hyderabad-Onsite
+  Required Skill Set: -
+  Job Description: • Perform any GIS tasks allocated as per project requirements like., GIS database preparation, cleaning, and standardization, digitisation, editing, and spatial data analysis
+• Good knowledge in Georeferencing, and Geo-Tagging
+• Perform GIS based Hydrological data preparation and analysis using ArcGIS
+• Capture the ground truth information based on the plans and digital sources provided and perform various analysis on satellite data
+• Integration of non-spatial (tabular) data with GIS layer
+• Pe
+  CTC (in INR): 8 LPA
+
+--- Row 4 ---
+  Company Name: Vassarlabs IT Solutions Pvt Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: Data Scientist
+  Job Location: Hyderabad
+  Required Skill Set: -
+  Job Description: • Proficiency in data mining, mathematics and statistical analysis
+• Advanced pattern recognition, quantitative analysis, data mining, statistical modelling and predictive modelling knowledge
+• Good with Excel, PowerPoint, SQL and programming languages
+• Good understanding of databases, data relationships and data integrity
+• Understanding of programming for data analysis
+• Excellent organizational skills and the ability to deal with conflicting demands
+• Strong attention to detail when designin
+  CTC (in INR): 12 LPA
+
+================================================================================
+COMPANY: Bharat Petroleum Corp. Ltd
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: BHARAT PETROLEUM CORP. LTD.
+  Nature of Business: , Oil & Gas / Energy, Core Engineering & Technology
+  Profile: Management Trainees
+  Job Location: PAN india
+  Required Skill Set: JD
+  Job Description: We will be recruiting for marketing and refinery roles. The candidates will be hired as Management Trainees in Job Group A1. After their probation period we will give them roles like Inspection Engineer, Process Engineer, Operations Officer, Engineering Officer & Sales Officer
+  CTC (in INR): Annual ctc    =2010768
+
+================================================================================
+COMPANY: Dimension Renewables Pvt. Ltd
+ROWS: 6
+================================================================================
+
+--- Row 1 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: Document Controller – Project Management
+  Job Location: Mohali
+  Required Skill Set: Proficient in Microsoft Office (Word, Excel, PowerPoint, etc.) and document management systems.
+
+•          Meticulous with a keen eye for detail.
+  Job Description: •          Manage and control all project documentation, ensuring accuracy, quality, and integrity.
+•          Develop, maintain, and update document control systems and procedures.
+•          Maintain document archives (both electronic & hard copy), ensuring all records-management activities adhere to good practices, policies, and legal requirements.
+•          Generate document control reports as needed (e.g., weekly reports).
+•          Ensure all documentation complies with company and regul
+  CTC (in INR): 800000
+  CTC (in foreign currency): NA
+  Cost To Company: 800000
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 660000
+  Base Salary: 50000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: PF
+  1st Year CTC: NA
+  Total CTC: Basic 50% HRA 50% of Basic TA/conveience allowance/ Special allowance rest percentage Additional 10% Bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+--- Row 2 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: Project Admin
+  Job Location: Mohali, Punjab
+  Required Skill Set: Required Skill(s): Microsoft Office
+
+- Preferably entry level specialized in Clerical / Administrative Support or equivalent
+
+- Good Command of English, Ownership of Tasks
+
+- Friendly and Pleasant Personality
+  Job Description: General Administrative Work, e.g., Data Entry, Filing, Record Keeping
+•          Minutes of meeting
+•          Project weekly report updates based on input from technical team
+- Submission of Documents, Drawings, Letters and preparation of Transmittals
+- Supporting Authority Submission by Executive Staffs
+- Regular Updating of Record and Summary to Company Managers
+- Maintain Proper Organization of Filing System, Storage of Documentation, and Information
+- Handling General Enquiries via Email or
+  CTC (in INR): 800000
+  CTC (in foreign currency): NA
+  Cost To Company: 800000
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 660000
+  Joining Bonus: NA
+  Relocation Bonus: NAPF
+  Retention Bonus: NA
+  Deductions: PF
+  1st Year CTC: NA
+  Total CTC: Basic 50% HRA 50% of basic TA/ Convenience allowance/ Special allowance rest percentage Additional 10% bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+--- Row 3 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: M&E Drafter
+  Job Location: Mohali
+  Required Skill Set: •	Diploma/Degree in Electrical/ Mechanical or related field;
+•	Working experience in M&E field.
+•	Basic computer skills: Microsoft Office and Microsoft Project.
+  Job Description: •          Diverse buildings projects – Commercial, Residential, Industrial, etc grant a competitive advantage for future career progression
+•          Excellent career progression + Equal opportunities for advancement
+Attractive employee welfare benefit
+•          Develop construction drawing / shop drawings for M&E services.
+•          Documentation and update of drawings as required during project construction.
+•          Prepare as-built drawings for OMM preparation and submission.
+•        
+  CTC (in INR): 800000
+  Cost To Company: 800000
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 600000
+  Base Salary: NA
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Deductions: PF
+  Total CTC: Basic 50% HRA 50% of basic TA/ Convenience allowance/ Special allowance rest percentage Additional 10% bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+--- Row 4 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: Project Engineers – Mechanical / Marine / Electrical
+  Job Location: Mohali
+  Required Skill Set: •	Have working knowledge of engineering principles and practices, as well as working knowledge of basic principles of design, systems design, installation, and mathematics
+•	Have the ability to select and apply standard guides, methods, and techniques
+•	Have strong communication skills and a good command of written and spoken English
+•	Have the ability to manage contracts from proposals through execution and closure
+•	Have an understanding of bidding and tendering activities
+•	Familiar with appl
+  Job Description: ·      Carryout design calculations for selection of machine elements such as bearings, gears, chain drives, rollers etc.
+·      Perform hydraulic system design calculations and prepare specifications for procurement of hydraulic system components.
+·      Perform calculations for motor and gearbox selection.
+·      Review piping schematic drawings, pressure loss calculations, sizing and wall thickness calculations.
+·      Prepare detailed design reports, installation manuals, test procedures and
+  CTC (in INR): 800000
+  Cost To Company: 800000
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 660000
+  Joining Bonus: NA
+  Retention Bonus: NA
+  Deductions: PF
+  Total CTC: Basic 50% HRA 50% of basic TA/ Convenience allowance/ Special allowance rest percentage Additional 10% bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+--- Row 5 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: MECHANICAL DESIGN ENGINEER
+  Job Location: Mohali
+  Required Skill Set: •	Hold an Engineering Degree or equivalent. A Master’s degree is desirable.
+•	Proficient with 2D/3D CAD software such as SOLIDWORKS and AutoCAD
+•	Familiar with FEMAP/NX, ANSYS or equivalent 
+•	Ability to perform engineering and structural calculations.
+•	Have the knowledge of industry standards and codes and the ability to apply standards to structural, naval, and operational documentation
+•	Have working knowledge of engineering principles and practices, as well as working knowledge of basic pri
+  Job Description: ·      Prepare engineering/structural design calculations for marine and cable laying equipment.
+·      Develop concept 3D models and prepare drawings.
+·      Prepare 3D models and perform detailed design calculations and FEA.
+·      Carryout design calculations for selection of machine elements such as bearings, gears, chain drives, rollers etc.
+·      Perform hydraulic system design calculations and prepare specifications for procurement of hydraulic system components.
+·      Perform calculati
+  CTC (in INR): 800000
+  Cost To Company: ·
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 660000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: PF
+  1st Year CTC: NA
+  Total CTC: Basic 50% HRA 50% of basic TA/ Convenience allowance/ Special allowance rest percentage Additional 10% bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+--- Row 6 ---
+  Company Name: Dimension Renewables Pvt. Ltd
+  Nature of Business: Oil & Gas / Energy
+  Profile: NAVAL ARCHITECT / STRUCTURAL ENGINEER
+  Job Location: Mohali
+  Required Skill Set: •	Hold an Engineering Degree or equivalent. A Master’s degree is desirable.
+•	Have the knowledge of industry standards and codes and the ability to apply standards to structural, naval, and operational documentation
+•	Possess spatial awareness with the ability to demonstrate skilled knowledge in analyzing technical solutions
+•	Have working knowledge of engineering principles and practices, as well as working knowledge of basic principles of design, systems design, installation, and mathematics
+•
+  Job Description: ·      Prepare project documentation, deliverables list, MDR and track the project on regular basis and report to the senior project team.
+·      Perform or assist in naval architectural calculations such as weight estimates, stability, mooring and hydrodynamic analysis.
+·      Carry out structural engineering calculations using first principles and FEA methods.
+·      Work independently or as part of the project team, ensure that the projects are delivered in accordance with the client contract
+  CTC (in INR): 800000
+  Gross (per annum): 720000
+  Fixed take home salary (per annum): 660000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: PF
+  Total CTC: Basic 50% HRA 50% of basic TA/ Convenience allowance/ Special allowance rest percentage Additional 10% bonus
+  Perks: NA
+  Bond Details: In case for any reason the employee leaves the service of the company before the said period of 2- 3 years then he/she shall forthwith to pay the sum of his 3 months' salary to the company.
+
+================================================================================
+COMPANY: GIST
+ROWS: 2
+================================================================================
+
+--- Row 1 ---
+  Company Name: GIST
+  Nature of Business: IT / Software,  Data Science/ AI/ ML,  Analytics, Analytics, Data Science/ AI/ ML
+  Profile: SDE I - AI/ML
+  Job Location: Mumbai / Noida - India
+  Required Skill Set: Required Qualifications:
+Educational Background: Final-year students or recent graduates (Master’s) in Computer Science, Data Science, Mathematics, Statistics, or related fields.
+AI/ML Expertise: Demonstrated understanding of machine learning techniques through academic projects, internships, or competitions.
+NLP Experience: Experience or coursework in natural language processing tasks such as text analysis, sentiment analysis, or language modelling.
+Technical Skills:
+Programming Languages: Prof
+  Job Description: About:
+GIST Impact is a leading impact data, analytics and product solutions provider that has been measuring, quantifying and valuing corporate impacts for more than 16 years. 
+With a team of 100+ scientists, engineers, data scientists and environmental economists, GIST Impact delivers market-leading impact platforms and datasets, covering 14,000+ companies with geographically precise, time-series data. 
+GIST Impact works with pioneering companies across all sectors and with investors represent
+  CTC (in INR): 12 LPA
+
+--- Row 2 ---
+  Company Name: GIST
+  Nature of Business: IT / Software, Analytics, Data Science/ AI/ ML
+  Profile: Analyst - Geospatial & GIS
+  Job Location: Mumbai, India
+  Required Skill Set: Geospatial Expertise: 
+Demonstrated understanding of geospatial data analysis, GIS tools, and spatial modelling through academic projects or internships.
+Experience with remote sensing data, including working with raw imagery and derived datasets for applications like land-use mapping and change detection.
+Technical Skills:
+GIS Software: Highly skilled with QGIS or comparable GIS tools.
+Geospatial Libraries: 
+Experience with geospatial libraries like GeoPandas, GDAL, and PostGIS. 
+Strong experie
+  Job Description: About:
+GIST Impact is a leading impact data, analytics and product solutions provider that has been measuring, quantifying and valuing corporate impacts for more than 16 years. 
+With a team of 100+ scientists, engineers, data scientists and environmental economists, GIST Impact delivers market-leading impact platforms and datasets, covering 14,000+ companies with geographically precise, time-series data. 
+GIST Impact works with pioneering companies across all sectors and with investors represent
+  CTC (in INR): 12 LPA
+
+================================================================================
+COMPANY: HPCL
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: HPCL
+  Nature of Business: Oil & Gas / Energy
+  Profile: Officer - Engineering
+  Job Location: Pan India
+  Required Skill Set: Engineering, Technical, Managerial
+  Gross (per annum): 1501440
+  Fixed take home salary (per annum): 1501440
+  Base Salary: 600000
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  1st Year CTC: 1741440
+  Perks: Loans, Allowances, Medical Benefits
+  Bond Details: NA
+
+================================================================================
+COMPANY: ITC Limited
+ROWS: 2
+================================================================================
+
+--- Row 1 ---
+  Company Name: ITC Limited
+  Nature of Business: IT / Software
+  Profile: PIO-PPO
+  Job Location: NA
+  Required Skill Set: NA
+  CTC (in INR): NA
+  CTC (in foreign currency): NA
+  Gross (per annum): NA
+  Fixed take home salary (per annum): NA
+  Base Salary: NA
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  Deductions: NA
+  1st Year CTC: NA
+  Perks: NA
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: ITC Limited
+  Nature of Business: IT / Software, Core Engineering & Technology
+  Profile: Assistant Under Training (AUT)
+  Job Location: Pan-India
+  Required Skill Set: NA
+  Job Description: To manage the production engineering project operations within the parameters of Cost, Quality, Technology, Productivity and Environment, Health and Safety. Key Result Areas (Across various roles): - Illustrative and not exhaustive. Monitor and ensure production through application of manufacturing technology and appropriatechuman resource management practices. Frame annual budgets and monitor activity/cost progress. Handlingcthe Quality Processes and carry out consultative work with other depar
+  CTC (in INR): 31,25,000 
+(Fixed) Rs 23,18,811 +Rs 50,000 (Leave Travel Allowance) + Rs 
+1,36,189 (Superannuation Funds) + Rs 50,000 (Product Sampling 
+Reimbursement) + Variable Pay (Rs 5,70,000)
+
+================================================================================
+COMPANY: JSW
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: JSW
+  Nature of Business: Core Engineering & Technology
+  Profile: GET
+  Job Location: Pan India
+  Required Skill Set: same as JD
+  Job Description: • Completing all tasks set by the Supervisor and assisting wherever possible. 
+• Observing existing strategies and techniques and offering suggestions for improvement. 
+• Conducting research and collating data. 
+• Traveling to different sites and gaining practical experience in new work zones. 
+• Working closely with staff to foster professional values and build good relationships. 
+• Observing health and safety guidelines at all times. 
+• Attending meetings and workshops. 
+• Submitting to all f
+  CTC (in INR): The CTC is INR 13 LPA - INR 10.40 LPA (Fixed) in addition to INR 2.60 Lacs (Variables)
+  CTC (in foreign currency): .
+  Cost To Company: INR 13 LPA
+  Fixed take home salary (per annum): INR 10.40 LPA
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: INR 2 lacs (*End of Year 1 - 50% and End of Year 2 - 50%) Split over 2 years with a claw back of 12 months upon receiving it
+  Deductions: NA
+  1st Year CTC: Post 1 Year confirmation the CTC shall be INR 16 LPA (Fixed + Variables)
+  Total CTC: The CTC is INR 13 LPA - INR 10.40 LPA (Fixed) in addition to INR 2.60 Lacs (Variables)
+Retention Bonus - INR 2 lacs (*End of Year 1 - 50% and End of Year 2 - 50%) Split over 2 years with a claw back of 12 months upon receiving it
+Post 1 Year confirmation the CTC shall be INR 16 LPA (Fixed + Variables)
+  Perks: NA
+  Bond Details: No Bond
+
+================================================================================
+COMPANY: Petronet LNG Limited
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Petronet LNG Limited
+  Nature of Business: Oil & Gas / Energy
+  Profile: Graduate Engineer Trainee (GET)
+  Job Location: HO-Delhi, Dahej-Gujarat & Kochi-Kerala, Gopalpur-Odisha.
+  Required Skill Set: Refer JD
+  Job Description: Petronet LNG Limited (PLL) is looking for promising, energetic and young professional in various engineering disciplines to be inducted as Graduate Engineer Trainee (GET) across its three locations. During the training period, the GETs will gain hands-on experience on various aspects of LNG terminal, process, equipment function and maintenance. Besides, they will also be involved in various project activities including petrochemical.
+  CTC (in INR): 19.92 Lacs per Annum
+  Gross (per annum): Gross (per Annum)
+19.92 Lacs per Annum
+  Fixed take home salary (per annum): 17.31 Lacs per Annum
+  Joining Bonus: No
+  Relocation Bonus: No
+  Total CTC: CTC- 19.92 Lacs per annum
+ Salary Break-up: 
+ (1) Basic Pay -6.97 per Annum 
+(2) Retirals (PF/SBF/Gratuity/NPS)-2.21 Lacs per Annum, 
+(3) Other benefits (HRA, Petrol Allowance, Vehicle Maintenance, LTA etc.)- 8.24 Lacs per Annum, 
+(4) Variable Pay-2.6 Lacs per Annum
+  Perks: 1.	Mobile Phone, Spectacles and Briefcase
+2.	Laptop along with Broadband & Furniture (on confirmation).
+3.	Corporate SIM Connection and Voice/Data usage 
+Other Benefits:
+4.	Domestic & Overseas Business Travel
+5.	Conveyance Policy
+6.	Canteen/ Cafeteria Policy
+7.	Medical & Hospitalisation
+8.	Group Term Life Insurance
+9.	Personal Accident Insurance
+10.	Policy on Benevolent Fund. Etc
+  Bond Details: Yes , Duration 2 years and amount 2 lakhs
+
+================================================================================
+COMPANY: Reliance Industries Limited
+ROWS: 5
+================================================================================
+
+--- Row 1 ---
+  Company Name: Reliance Industries Limited
+  Nature of Business: Analytics
+  Profile: Post Graduate trainee
+  Job Location: NA
+  Required Skill Set: NA
+  CTC (in INR): 15 LPA
+  CTC (in foreign currency): 15LPA
+  Gross (per annum): NA
+  Fixed take home salary (per annum): 13 LPA
+  Base Salary: NA
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: NA
+  1st Year CTC: NA
+  Total CTC: 13 + 2 LPA( 13 FIXED AND 2 IS VARIABLE)
+  Perks: A
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: Reliance Industries Limited
+  Nature of Business: Oil & Gas / Energy, Core Engineering & Technology
+  Profile: Graduate Engineering Trainee (GET)
+  Job Location: Pan India
+  Required Skill Set: NA
+  Job Description: The Graduate Engineer Trainee Program at Reliance aims to hand pick young, high-potential engineering talent across India and nurture them to take on key technical roles across Reliance.
+ Selected students can be placed in any businesses including Manufacturing, Reliance Project Management Division (RPMG), Exploration & Production (E&P), New Energy Initatives (NEI), Petrochemicals, Procurement & Contracts (P&C). They can be stationed at any of our manufacturing or non- manufacturing sites in Jam
+  CTC (in INR): On Joining
+
+Fixed Pay - Rs. 9.00 lacs p.a.
+
+On Completion of 12 months
+
+
+Fixed Pay - Rs. 9.50 lacs p.a.
+
+Annual Cash Bonus – 1.05 lacs p.a
+
+Will be confirmed in Grade "J" on successful completion of Training & Validation
+Post confirmation you will become eligible for annual increment and bonus, as per company policy
+
+Bonus
+
+One-Time Deferred Bonus of Rs.5 Lacs on completion of 2 years post confirmation
+
+Medical & Insurance
+
+Group Personal Accident Insurance worth Rs 25 Lacs p.a.
+
+Floater Medicla
+  Cost To Company: On Joining
+Fixed Pay - Rs. 9.00 lacs p.a.
+On Completion of 12 months
+
+Fixed Pay - Rs. 9.50 lacs p.a.
+Annual Cash Bonus – 1.05 lacs p.a
+
+Will be confirmed in Grade "J" on successful completion of Training & Validation
+Post confirmation you will become eligible for annual increment and bonus, as per company policy
+Bonus
+One-Time Deferred Bonus of Rs.5 Lacs on completion of 2 years post confirmation
+Medical & Insurance
+Group Personal Accident Insurance worth Rs 25 Lacs p.a.
+
+Floater Mediclaim polic
+
+--- Row 3 ---
+  Company Name: UST
+  Nature of Business: Design
+  Profile: Visual Designer
+  Job Location: Bangalore / Pune
+  Required Skill Set: Responsibilities 
+
+·       They should have a robust understanding of the design process and its application
+
+·       Experiment and develop original visual creatives
+
+·       Produce original assets, including visual components, icons and digital styles 
+
+·       Bring inspired ideas to the table and guide those ideas through to fruition with extreme attention to detail 
+
+·       Create design concepts with detailed micro-interactions 
+
+·       You may need to work closely with UST’s client tea
+  Job Description: As a Visual Designer at UST, you’re the cornerstone for aesthetics and visual excellence for each engagement that you are a part of. Apart from being a visual storyteller, you’re a creative who can catch every single misalignment, enjoys playing around with colour palettes, experiments with grids and concepts, passionate about typography, illustrations and style guides, possess a good understanding of visual principles and dare to visualise an experience in the abstract and driving that vision i
+  CTC (in INR): 11 lpa
+  CTC (in foreign currency): na
+
+--- Row 4 ---
+  Company Name: UST
+  Nature of Business: Design
+  Profile: Design Strategist/User researcher
+  Job Location: Banglore/Pune
+  Required Skill Set: Responsibilities of Design strategist/User researcher:
+Understand the needs, aim to get clarity in ambiguous scenarios and define design goals
+Create experience/ecosystem maps, develop insights, experience/service journeys and blueprints, interaction models, process flows and storyboards 
+Plan and execute generative and evaluative user experience research activities along with performing comprehensive analyses of the user, competitive landscape, stakeholder ecosystem, market forces, and trends s
+  Job Description: As a Design Strategist at UST, you will combine research from the domain, geography and the users as a primary driver for your design decisions. You will be expected to drive complex project scenarios along with your team. We expect you to be a strategic thinker with an ability to collaborate, create and articulate your thoughts and frameworks that pave way for experiences to be built upon.
+ A User Researcher at UST is a curious observer willing to deploy disruptive approaches to plan and execut
+  CTC (in INR): 11lpa
+
+--- Row 5 ---
+  Company Name: UST
+  Nature of Business: Design
+  Profile: User Experience Designer
+  Job Location: Banglore/Pune
+  Required Skill Set: .
+  Job Description: A User Experience Designer at UST believes and showcases a disruptive approach towards the practice and brings together empathy for users and understanding of business. They must possess a guerrilla-like attitude to quick visioning and lateral thinking combined with the ability to articulate design. Openness and flexibility to appreciate ideas from anywhere is important. 
+They should have a robust understanding of the design process and its application.
+Support new business initiatives and work 
+  CTC (in INR): 11lpa
+
+================================================================================
+COMPANY: Smarttrak AI
+ROWS: 3
+================================================================================
+
+--- Row 1 ---
+  Company Name: Smarttrak AI
+  Nature of Business: Core Engineering & Technology, Data Science/ AI/ ML
+  Profile: Electrical & Embedded System Design Engineer
+  Job Location: Remote
+  Required Skill Set: Proficient in analog and digital circuit design, Altium Designer, Eagle PCB, OrCAD, KiCad, etc. In-depth knowledge of inverters, trackers, and power management systems. Experience with ARM Cortex-M series, PIC, AVR, or similar microcontrollers, uVision, IAR Embedded Workbench, GCC toolchain. Familiarity with platforms like NVIDIA Jetson, Raspberry Pi, or custom embedded solutions. Proficient in MATLAB/Simulink for system modeling. Knowledge of MQTT, CoAP, HTTP/HTTPS for data transmission
+  Job Description: We are seeking dynamic and motivated Embedded system design engineer to join our Software and hardware development team. In this role, you will collaborate with senior leadership to identify and pursue new areas of research, design the hardware solutions that finally make it to the market as the products of company. This role offers an excellent opportunity to gain hands-on experience in a fast-paced, high-growth startup environment.  
+Key responsibilities -
+Designing the hardware that goes onsi
+  CTC (in INR): 1200000
+  CTC (in foreign currency): 14,220 USD
+  Cost To Company: Sr.no. Item Annual Monthly Instructions:
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Gross (per annum): 1200000
+  Fixed take home salary (per annum): 1200000
+  Base Salary: 1200000
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: NA
+  Deductions: NA
+  1st Year CTC: 1200000
+  Total CTC: Sr.no. Item Annual Monthly Instructions:
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Perks: Work from home
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: Smarttrak AI
+  Nature of Business: Core Engineering & Technology, Data Science/ AI/ ML
+  Profile: Structural & Mechanical Design Engineer
+  Job Location: Remote (Online)
+  Required Skill Set: Proficient in creating detailed 2D and 3D models. ANSYS, Abaqus, SolidWorks Simulation. Strong understanding of mechanics, kinematics, thermodynamics, and materials science. Wind load calculations, seismic considerations, and fatigue analysis. Six Sigma methodologies, Failure Mode and Effects Analysis (FMEA)
+  Job Description: As a Structural and mechanical design engineer your responsibility will be to develop in-house hardware components like the tracker rails and other infrastructure surrounding the deployment of a large solar energy project. The main focus here is the efficiency and cost effectiveness, without compromising in the quality. Your workflow also comprises of simulation and prototype testing of the product. In this role, you will design and develop robust mechanical and structural components that integr
+  CTC (in INR): 1200000
+  CTC (in foreign currency): 14220 USD
+  Cost To Company: Sr.no. Item Annual Monthly Instructions: 
+
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000 
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000 
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000  
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000 
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Gross (per annum): 1200000
+  Fixed take home salary (per annum): 1200000
+  Base Salary: 1200000
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: 0
+  Deductions: 0
+  1st Year CTC: 1200000
+  Total CTC: Sr.no. Item Annual Monthly Instructions: 
+
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000 
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000 
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000  
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000 
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Perks: Work from home
+  Bond Details: NA
+
+--- Row 3 ---
+  Company Name: Smarttrak AI
+  Nature of Business: Core Engineering & Technology, Data Science/ AI/ ML
+  Profile: Software, Deep Learning, and Game Dev
+  Job Location: Remote Online
+  Required Skill Set: Proficient in Python for general-purpose programming, scripting, and machine learning. Git, GitHub, GitLab. Pytorch/Tensorflow - Proficient in model development and experimentation. Utilizing built-in physics engines in Unity or Unreal for realistic simulations.
+  Job Description: At Smarttrak AI, we are pioneering the integration of advanced software solutions, deep learning algorithms, and interactive game development to deliver state-of-the-art AI-driven applications for the energy and manufacturing industries. We are seeking a versatile and innovative Software, Deep Learning, and Game Development Engineer to join our dynamic team. In this multifaceted role, you will develop sophisticated software systems, implement cutting-edge deep learning models, and create immersi
+  CTC (in INR): 1200000
+  CTC (in foreign currency): 14220
+  Cost To Company: Sr.no. Item Annual Monthly Instructions: 
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000 
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000 
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000  
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000 
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Gross (per annum): 1200000
+  Fixed take home salary (per annum): 1200000
+  Base Salary: 1200000
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: NA
+  Deductions: NA
+  1st Year CTC: 1200000
+  Total CTC: Sr.no. Item Annual Monthly Instructions: 
+Basic Salary: Yearly - ₹9,60,000, Monthly - ₹80,000
+House Rent Allowance: Yearly - ₹1,20,000, Monthly - ₹10,000 
+Transport Allowance: Yearly - ₹60,000, Monthly - ₹5,000 
+Special Allowance: Yearly - ₹24,000, Monthly - ₹2,000  
+Medical Allowance: Yearly - ₹36,000, Monthly - ₹3,000 
+Total Gross Salary: Yearly - ₹12,00,000, Monthly - ₹1,00,000
+  Perks: Work from home
+  Bond Details: NA
+
+================================================================================
+COMPANY: TuTr Hyperloop Pvt. Ltd
+ROWS: 7
+================================================================================
+
+--- Row 1 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: , Core Engineering & Technology
+  Profile: Power systems Engineer
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: NA
+  Job Description: (a) Good understanding on Basic physics (kinematics, current and electricity) (b) Good understanding of Cells and Battery pack designing
+(c) Basic knowledge on Battery pack modeling and simulations
+(d) Candidates with good project experience will have added advantage.
+  CTC (in INR): 11,00,000
+  Gross (per annum): 6,00,000
+  Fixed take home salary (per annum): 6,00,000
+  Base Salary: 6,00,000
+  Joining Bonus: -
+  Relocation Bonus: -
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: 6,00,000
+  Perks: -
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: , Core Engineering & Technology
+  Profile: Mechanical Design Engineer /Vehicle integration
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: na
+  Job Description: (a) Good understanding of basic physics (kinematics and dynamics) (b) Well-versed with cad modeling software for eg. Solidworks (b) Knowledge of simulation software Ansys Workbench (static structural module) (d) Candidates who have worked in teams participating in competitions like Supra, Baja or any equivalents mainly focusing on the mechanical design of chassis, suspension or similar components will have added advantage. (e) Candidates with good project experience will have an added advantage.
+  CTC (in INR): 11,00,000
+
+--- Row 3 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: Core Engineering & Technology, Academics/Research
+  Profile: CAE Engineer
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: .
+  Job Description: 1. Develop 3D models and finite element models.
+2. Create and refine meshing for accurate simulations.
+3. Perform dynamic simulations and analyses using CAE software (e.g.,
+ANSYS, LS DYNA).
+4. Analyze and interpret dynamic response data to improve designs.
+5. Collaborate with design and manufacturing teams.
+6. Document and report analysis findings.
+
+--- Row 4 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: Core Engineering & Technology, Academics/Research
+  Profile: Digital Twin stream
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: .
+  Job Description: (a) Good understanding on Basic computer science
+(b) Software development lifecycle and Software engineering
+(c) Hands-on development experience in atleast 2 Programming languages
+(d) Basic understanding of Full stack development
+(e) Python, RDBMS, Web App Development, Cloud concepts, QA
+
+--- Row 5 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: Core Engineering & Technology, Academics/Research
+  Profile: Embedded and Control System Engineer
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: NA
+  Job Description: (a) Good understanding on Basic physics (kinematics, electromagnetism) (b) Good understanding of microcontrollers (c) In depth knowledge in microcontroller programming (d) Candidates with projects in embedded systems domain will have an added advantage
+  CTC (in INR): 11,00,000
+
+--- Row 6 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: Core Engineering & Technology, Academics/Research
+  Profile: E Thermal/CFD Engineer
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: NA
+  Job Description: 1. Perform simulations and analyses using CFD software (e.g., ANSYS, OPENFOAM or similar). 2. Analyze and interpret output data to improve designs. 3. Collaborate with design and manufacturing teams. 4. Document and report analysis findings.
+  CTC (in INR): 11,00,000
+
+--- Row 7 ---
+  Company Name: TuTr Hyperloop Pvt. Ltd
+  Nature of Business: Core Engineering & Technology, Academics/Research
+  Profile: Vehicle dynamic engineer
+  Job Location: Chennai, Tamil Nadu
+  Required Skill Set: NA
+  Job Description: a) Good understanding of basic physics (simple harmonic motion) and vibrations (b) Well-versed with cad modeling software like Solidworks. (c) Knowledge of simulation software for linkages like Adams or similar software (d) Candidates who have worked in teams participating in competitions like Supra, Baja or any equivalents mainly focusing on the mechanical design of suspension or similar components will have added advantage.
+  CTC (in INR): 11,00,000
+
+================================================================================
+COMPANY: Delta Electronics
+ROWS: 2
+================================================================================
+
+--- Row 1 ---
+  Company Name: Delta Electronics
+  Nature of Business: Core Engineering & Technology
+  Profile: Senior Engineer
+  Job Location: Bangalore
+  Required Skill Set: Core Engineering Fileds
+  Job Description: The Delta Group, founded in 1971, is a Tier-1 supplier with around 80,000 employees for many successful companies in industrial automation, automotive industry, building automation as well as in the field of renewable energies. Delta has sales offices, manufacturing facilities and R&D centers worldwide. With its mission statement, "Innovative, clean and energy-efficient solutions for a better future," Delta emphasizes its role in addressing key environmental issues, such as climate change.
+ Delt
+  CTC (in INR): 1,061,000
+  CTC (in foreign currency): NA
+  Cost To Company: 10,61,000
+  Gross (per annum): 877,805
+  Fixed take home salary (per annum): 915,971
+  Base Salary: 0
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: NA
+  Deductions: -
+  1st Year CTC: 10,61,000
+  Total CTC: 10,61,000
+  Perks: -
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: Delta Electronics
+  Nature of Business: Core Engineering & Technology
+  Profile: Assistant Manager
+  Job Location: Bangalore
+  Required Skill Set: Core Engineering Field
+  Job Description: The Delta Group, founded in 1971, is a Tier-1 supplier with around 80,000 employees for many successful companies in industrial automation, automotive industry, building automation as well as in the field of renewable energies. Delta has sales offices, manufacturing facilities and R&D centers worldwide. With its mission statement, "Innovative, clean and energy-efficient solutions for a better future," Delta emphasizes its role in addressing key environmental issues, such as climate change.
+ Delt
+  CTC (in INR): 1,242,000
+  CTC (in foreign currency): NA
+  Cost To Company: 12,42,000
+  Gross (per annum): 985,034
+  Fixed take home salary (per annum): 1,027,862
+  Base Salary: NA
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: -
+  Deductions: -
+  1st Year CTC: 12,42,000
+  Total CTC: 12,42,000
+  Perks: -
+  Bond Details: NA
+
+================================================================================
+COMPANY: ISGEC
+ROWS: 4
+================================================================================
+
+--- Row 1 ---
+  Company Name: ISGEC
+  Nature of Business: Construction, Core Engineering & Technology
+  Profile: GET
+  Job Location: Noida
+  Required Skill Set: Chemical Profile - Equipment Sizing  & Process Calculations 
+Mechanical Profile - Mechanical Systems & Processes
+  Job Description: Chemical Engineer
+Chemical Engineer with strong understanding of PFD, P&ID and HTRI.
+Knowledge of Equipment Sizing, Process Calculations etc.
+Preferred - Projects completed in Sugar / Distillery / Ethanol domain
+Strong communication, creativity, and analytical skills are a must.
+
+Mechanical Engineer 
+(the below role is just the outline and is subject to vary to some extent depending on the departmental needs)
+Assist in the design, analysis, and improvement of mechanical systems and components.
+B
+  CTC (in INR): 9.5 LPA + 2 Lacs Retention Bonus per year (Payable at the end of 3 years Cycle)
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: 2 lacs per year
+  Deductions: PF & applicable Tax as per norms
+  1st Year CTC: 11.5 LPA
+  Bond Details: NA
+
+--- Row 2 ---
+  Company Name: ISGEC
+  Nature of Business: Core Engineering & Technology
+  Profile: Senior Engineer (B.Tech & M.Tech from IIT)
+  Job Location: Yamuna Nagar, Haryana
+  Required Skill Set: B.Tech - M.Tech in Mechanical
+  Job Description: Design and Manufacturing of Pressure Vessels, Heat Exchangers, Columns, Reactors for Refineries and Petro-Chemicals, , Hydraulic & Mechanical Presses.
+  CTC (in INR): 9,75,584/-
+  Cost To Company: Basic- Rs. 20,500/- p.m.
+HRA- Rs. 5,563/- p.m.
+Medical Allowances- Rs. 1,025/- p.m.
+Petrol Allowances- Rs. 2,375/- p.m. (based on variable market rate- @95/Ltr.)
+Other Allowances- Rs. 40,017/-
+  Gross (per annum): 8,01,240
+  Fixed take home salary (per annum): 2,46,000
+  Base Salary: 2,46,000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: 80,000 p.m. payable after 3 yrs
+  1st Year CTC: 8,95,584
+  Total CTC: Rs. 9,75,584/-
+  Bond Details: NA
+
+--- Row 3 ---
+  Company Name: ISGEC
+  Nature of Business: Core Engineering & Technology
+  Profile: Senior Engineer (M.Tech from IIT, B.Tech from other institute)
+  Job Location: Yamuna Nagar, Haryana
+  Required Skill Set: M.Tech in Mechanical
+  Job Description: Design and Manufacturing of Pressure Vessels, Heat Exchangers, Columns, Reactors for Refineries and Petro-Chemicals, , Hydraulic & Mechanical Presses.
+  CTC (in INR): 8,26,160
+  Cost To Company: Basic- Rs. 18,500/- p.m.
+HRA- Rs. 5,313/- p.m.
+Medical Allowance- Rs. 925/- p.m.
+Petrol Allowance- Rs. 2375/- p.m. (based on variable market rate- @95/Ltr.)
+Other Allowances- Rs. 30,417/-
+  Gross (per annum): Rs. 6,60,720/-
+  Fixed take home salary (per annum): Rs. 2,22,000/-
+  Base Salary: Rs. 2,22,000/-
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  Retention Bonus: Rs. 80,000/- p.m. payable after 3 years
+  1st Year CTC: Rs. 7,46,160/-
+  Total CTC: Rs. 8,26,160/-
+  Bond Details: NA
+
+--- Row 4 ---
+  Company Name: ISGEC
+  Nature of Business: Manufacturing, Core Engineering & Technology
+  Profile: Senior Engineer (B. Tech IIT)
+  Job Location: Yamuna Nagar Haryana PIN 135001
+  Required Skill Set: Have basic understanding of Mechanical Engineering, knowledge of materials and its properties
+  Job Description: Design and Manufacturing of Hydraulics and Mechanical Press, Heat Exchangers, Pressure Vessels
+  CTC (in INR): 8,26,160.00 per annum
+  Cost To Company: 8,26,160.00 per annum
+  Gross (per annum): 6,82,220
+  Fixed take home salary (per annum): 6,60,720
+  Base Salary: 18500
+  Joining Bonus: 0
+  Relocation Bonus: 0
+  Retention Bonus: PERFORMANCE BASED RETENTION BONUS - PBRB (Rs 2,40,000/-  Payable after completion of  three years of service i.e. ( Payable @ Rs. 80,000/- per year)
+  Deductions: PF, Gratuity
+  1st Year CTC: 7,46,160
+  Bond Details: no
+
+================================================================================
+COMPANY: KBR
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: KBR
+  Nature of Business: Oil & Gas / Energy
+  Profile: Associate Technical Professional-Process
+  Job Location: Gurgaon/Pune
+  Required Skill Set: M.Tech Chemical/Mechnical/Thermal
+  Job Description: OVERVIEW
+ KBR’s history is built on the pioneers that set the standard across a variety of industries over the last century. Today, we continue that legacy by developing groundbreaking solutions for government and industry clients. We deliver science, technology and engineering solutions to governments and companies around the world Our team comprise approximately 29,000 people globally, with customers in more than 80 countries and operations in 40 countries.
+ KBR is proud to work with its custo
+  CTC (in INR): INR 8.5 Lacs + Benefits
+  Cost To Company: CTC+ Insurance Benefits (Health, Life & Accidental), Awards & Rewards, Gratuity +Relocation Assistance, raise in 6 months based on performace.
+  Joining Bonus: NA
+  Relocation Bonus: As per policy
+  Retention Bonus: NA
+  Deductions: PF and Tax
+  1st Year CTC: Based on Performance
+  Bond Details: NA
+
+================================================================================
+COMPANY: Quest Global Engineering Services Pvt. Ltd
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Quest Global Engineering Services Pvt. Ltd
+  Nature of Business: Core Engineering & Technology
+  Profile: Senior Engineer
+  Job Location: Bangalore, Hyderabad, Pune, Chennai
+  Required Skill Set: Mentioned in JD
+  Job Description: Campus Graduates – Job Description
+
+Course: IIT M. E / M. Tech
+Position Overview: We are looking for bright and talented students who will be key contributors for engineering best products and solutions for our customers. Major Industries to work with: Industrial & Power, Mobility (Rail/ Automotive), Oil & Gas, Renewable Energy.
+Eligible Streams: Machine Design, Chemical Engineering, Instrumentation & Controls Engineering, Petroleum Engineering, Pipeline Engineering, Mechanical Engineering and M
+  CTC (in INR): 10,00,000
+  CTC (in foreign currency): NA
+  Gross (per annum): 9,00,000
+  Fixed take home salary (per annum): 8,14,608
+  Base Salary: 3,60,000
+  Joining Bonus: NA
+  Relocation Bonus: NA
+  1st Year CTC: NA
+  Bond Details: 3 Years; 2 Lakhs in case of breach in the first year and 1 Lakh thereafter
+
+================================================================================
+COMPANY: Saint-Gobain Research India
+ROWS: 1
+================================================================================
+
+--- Row 1 ---
+  Company Name: Saint-Gobain Research India
+  Nature of Business: Academics/Research, Manufacturing
+  Profile: RESEARCH ENGINEER 1
+  Job Location: CHENNAI
+  Required Skill Set: Materials Science, Ceramics
+  Job Description: Job Description 
+ Saint-Gobain Research India, a multidisciplinary and international R&D centre at the leading edge of innovation, is an equal opportunity employer, committed to achieving diversity and gender balance (about 36% of the employees are women). Together with and for our customers (represented by a large number of Saint- Gobain business units), we contribute to design, manufacture and distribute materials and solutions that have a positive impact on everyone's life and provide well-be
+  CTC (in INR): 1050000 MAX- MIN 945000
+  Gross (per annum): 750000MAX-700000MIN
+  Relocation Bonus: 30000 (As per invoice)
+  1st Year CTC: As per merit
+  Bond Details: NA
+
+================================================================================
+COMPANY: Tata Steel
+ROWS: 2
+================================================================================
+
+--- Row 1 ---
+  Company Name: Tata Steel
+  Nature of Business: Core Engineering & Technology, Manufacturing
+  Profile: Management Trainee R&T
+  Job Location: PAN INDIA
+  Required Skill Set: 65% throughout academics
+  Job Description: If you’re thinking ‘scale’, think bigger and don’t stop there. At Tata Steel, we don’t just innovate, we enable correlations across systems and different channels for the phase transformations during steel processing. Take a regular day at TSL and align that with several projects on life enhancement, developing the control systems, Man-power handling, Laboratory management & research experience. That’s Tata Steel for you.
+  CTC (in INR): 1307356(CTC at max potential)
+  CTC (in foreign currency): NA
+  Base Salary: 264000
+
+--- Row 2 ---
+  Company Name: Tata Steel
+  Nature of Business: Manufacturing
+  Profile: Job Designation	Management Trainee Technical- Steel Operations
+  Job Location: Banglore
+  Required Skill Set: N/A
+  Job Description: Purpose-
+Maintenance of Electrical, Electronic and Instrumentation facilities in respective area. Implementations of various goals and targets applicable to the areas/ sections where working and day to day monitoring of the results of the same. Review of the same in respective area and reporting the results. Maximize availability & Reliability of equipment’s & facilities in respective section to ensure that desired quantity and quality input material is provided as per requirement of the final c
+  CTC (in INR): 1217520 per annum

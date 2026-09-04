@@ -130,12 +130,12 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 
 | Metric | Count |
 |:-------|------:|
-| Markdown Files | 218 |
+| Markdown Files | 249 |
 | Subject Guides | 12 |
 | Interview Q&As | 195 |
 | Mock Interview Sessions | 8 |
 | Software Deep-Dives | 7 |
-| Company Profiles | 12+ |
+| Company Profiles | 33+ |
 | Non-Core Career Tracks | 14 |
 | Numerical Worked Examples | 15 |
 

@@ -1,0 +1,27 @@
+=== PAGE VERIFICATION: core/fundamentals/engineering-mechanics.md ===
+Lines: 616
+Bytes: 23026
+H1: # Engineering Mechanics
+H2 sections: 18
+H3 subsections: 59
+Tables: 64
+Formula delimiters: 360
+
+Interview question categories:
+  [OK] ### A. Basic
+  [OK] ### B. WHY
+  [OK] ### C. WHAT-IF
+  [OK] ### D. Comparison
+  [OK] ### E. Numerical
+  [OK] ### F. Rapid-Fire
+  [OK] ### G. Deep
+
+Cross-link targets:
+  [OK] structural-analysis/structural-analysis.md
+  [OK] structures/structures.md
+  [OK] rcc/rcc-design.md
+  [OK] steel/steel-design.md
+  [OK] structural-analysis/structural-analysis.md
+
+Broken cross-links: 0
+VERIFICATION COMPLETE
