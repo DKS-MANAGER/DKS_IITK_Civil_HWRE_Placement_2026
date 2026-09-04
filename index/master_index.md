@@ -1,4 +1,4 @@
-# Master Index — DKS IITK Civil / HWRE Placement 2026
+﻿# Master Index — DKS IITK Civil / HWRE Placement 2026
 
 ## Repository Overview
 
@@ -23,15 +23,15 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | 13 | Logical Reasoning | Puzzles, seating, arrangements, syllogisms, coding/decoding | Aptitude/README.md, Aptitude-For-Placements/ | non-core/aptitude/logical_reasoning/reasoning-practice.md | P0 | Merged from 2 sources |
 | 14 | Verbal Ability | Grammar, vocabulary, RC, idioms, para jumbles | Aptitude/README.md | non-core/aptitude/verbal/verbal-ability.md | P0 | Directly useful |
 | 15 | Behavioral Interview Guide | STAR method, behavioral tips, preparation grid | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | prep/behavioral/behavioral-interview-guide.md | P0 | Merged from 2 sources |
-| 16 | HR Interview Guide | Common HR questions, salary negotiation, exit interview tips | awesome-interview-questions/README.md, interview-handbook-2026/README.md | prep/hr/hr-interview-guide.md | P0 | Merged from 2 sources |
+| 16 | HR Interview Guide | Common HR questions, salary negotiation, exit interview tips | awesome-interview-questions/README.md, interview-handbook-2026/README.md | prep/interview/hr/hr-interview-guide.md | P0 | Merged from 2 sources |
 | 17 | Self Introduction | Frameworks and examples for "Tell me about yourself" | awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md | prep/behavioral/self_intro/self-introduction.md | P0 | Merged from 2 sources |
-| 18 | Project Discussion | How to present projects in interviews | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | prep/technical/project-discussion.md | P1 | Partially useful |
+| 18 | Project Discussion | How to present projects in interviews | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | prep/interview/technical/project-discussion.md | P1 | Partially useful |
 | 19 | Resume Preparation | Resume building tips, templates, verification | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | prep/templates/resume-template.md | P0 | Merged from 2 sources |
-| 20 | Technical Interview Bank | Core technical questions for civil/HWRE roles | Civil_Placement_IITK/README.md, Placement_Preparation/INTERVIEW EXPERIENCES/ | prep/technical/technical-interview-bank.md | P0 | Merged from 2 sources |
+| 20 | Technical Interview Bank | Core technical questions for civil/HWRE roles | Civil_Placement_IITK/README.md, Placement_Preparation/INTERVIEW EXPERIENCES/ | prep/interview/technical/technical-interview-bank.md | P0 | Merged from 2 sources |
 | 21 | GATE Civil Formulas | Key formulas for GATE Civil preparation | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | core/gate/formulas/gate-civil-formulas.md | P0 | Merged from 2 sources |
 | 22 | GATE Civil Revision | Topic-wise revision notes for GATE Civil | GATE_Civil_Study_Material_2027.md | core/gate/revision_notes/gate-civil-revision.md | P1 | Partially useful |
 | 23 | Placement Roadmap | Timeline, phases, targets for Dec 2026 placements | Civil_Placement_IITK/README.md | docs/roadmap.md | P0 | Directly useful |
-| 24 | Mock Interview Questions | Curated mock questions for practice | interview-handbook-2026/README.md, awesome-interview-questions/README.md | prep/mock-tests/mock-interview-questions.md | P0 | Merged from 2 sources |
+| 24 | Mock Interview Questions | Curated mock questions for practice | interview-handbook-2026/README.md, awesome-interview-questions/README.md | prep/interview/mock-tests/mock-interview-questions.md | P0 | Merged from 2 sources |
 | 25 | Company Profiles | Company-wise prep: PSUs, core design, analytics | Civil_Placement_IITK/README.md | prep/company-profiles/company-profiles.md | P1 | Directly useful |
 | 26 | Resources: Books | Recommended books for civil engineering and placement prep | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | resources/book-list.md | P1 | Merged from 2 sources |
 | 27 | Resources: Papers | Previous year GATE papers and placement papers | GATE_Civil_Study_Material_2027.md | resources/paper-list.md | P1 | Partially useful |

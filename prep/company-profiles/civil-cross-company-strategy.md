@@ -1,4 +1,4 @@
-# Civil Companies — Cross-Company Consolidated Strategy
+﻿# Civil Companies — Cross-Company Consolidated Strategy
 
 > Based on analysis of **25 civil-relevant companies** identified from the IITK 2025-26 placement dataset (516 postings, 276 unique companies). Created by DKS.
 
@@ -256,7 +256,7 @@ Topics appearing across **3+ companies** — must-know for any civil placement i
 ## Cross-Links
 
 - [Civil Companies — Individual Profiles](./company-profiles.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 - [Resume Template](../templates/resume-template.md)
 - [Placement Roadmap](../../docs/roadmap.md)
 - [Master Index](../../index/master_index.md)

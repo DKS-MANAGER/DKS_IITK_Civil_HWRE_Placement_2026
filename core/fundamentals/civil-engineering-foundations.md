@@ -4,7 +4,7 @@
 
 This file serves as a **one-page quick revision** covering all core civil engineering domains. Use it for rapid recall before interviews and GATE.
 
-> **Detailed topics:** [`hydraulics.md`](../hydraulics/hydraulics.md) · [`structures.md`](../structures/structures.md) · [`geotechnical.md`](../geotechnical/geotechnical.md) · [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`hydrology.md`](../hydrology/hydrology.md)
+> **Detailed topics:** [`hydraulics.md`](../hwre/hydraulics/hydraulics.md) · [`structures.md`](../structures/structures.md) · [`geotechnical.md`](../geotechnical/geotechnical.md) · [`open-channel-flow.md`](../hwre/open_channel_flow/open-channel-flow.md) · [`hydrology.md`](../hwre/hydrology/hydrology.md)
 
 ---
 

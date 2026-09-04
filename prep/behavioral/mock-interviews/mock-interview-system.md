@@ -1,4 +1,4 @@
-# 🎭 Mock Interview System — Structured Practice with Scoring
+﻿# 🎭 Mock Interview System — Structured Practice with Scoring
 
 > **Mock interviews are the single most effective way to prepare. This system gives you structured scenarios, scoring rubrics, and feedback templates.**
 
@@ -195,7 +195,7 @@ ACTION ITEMS (what to practice before next mock):
 - [`../answer-quality-checker.md`](../answer-quality-checker.md) — Score your answers
 - [`../pressure-interview-survival.md`](../pressure-interview-survival.md) — Stress mock techniques
 - [`../group-discussion-mastery.md`](../group-discussion-mastery.md) — GD practice
-- [`../../../prep/mock-tests/mock-interview-database.md`](../../../prep/mock-tests/mock-interview-database.md) — Technical mock database
+- [`../../../prep/interview/mock-tests/mock-interview-database.md`](../../../prep/interview/mock-tests/mock-interview-database.md) — Technical mock database
 
 ---
 

@@ -89,9 +89,9 @@ Every question can be tagged for filtering:
 
 | Bank | Coverage | Link |
 |:-----|:---------|:-----|
-| **Technical Interview Bank** | 100 Q&As by topic | [technical-interview-bank.md](../prep/technical/technical-interview-bank.md) |
-| **Mock Interview Database** | 8 full sessions | [mock-interview-database.md](../prep/mock-tests/mock-interview-database.md) |
-| **Mock Questions** | 50 curated questions | [mock-interview-questions.md](../prep/mock-tests/mock-interview-questions.md) |
+| **Technical Interview Bank** | 100 Q&As by topic | [technical-interview-bank.md](../prep/interview/technical/technical-interview-bank.md) |
+| **Mock Interview Database** | 8 full sessions | [mock-interview-database.md](../prep/interview/mock-tests/mock-interview-database.md) |
+| **Mock Questions** | 50 curated questions | [mock-interview-questions.md](../prep/interview/mock-tests/mock-interview-questions.md) |
 | **HR Questions Bank** | 50 HR questions | [hr-questions-bank.md](../prep/behavioral/hr_questions/hr-questions-bank.md) |
 | **HR+Technical Hybrid** | 26 final-round questions | [hr-technical-hybrid-questions.md](../prep/behavioral/hr_questions/hr-technical-hybrid-questions.md) |
 
@@ -108,7 +108,7 @@ Every question can be tagged for filtering:
 | SWMM | [swmm-guide.md](../software-and-tech/deep-dives/swmm-guide.md) |
 | PLAXIS | [plaxis-2d-tutorial.md](../software-and-tech/deep-dives/plaxis-2d-tutorial.md) |
 | SLOPE/W | [geostudio-slopew-tutorial.md](../software-and-tech/deep-dives/geostudio-slopew-tutorial.md) |
-| All tools | [software-interview-guide.md](../prep/software-interview-guide.md) |
+| All tools | [software-interview-guide.md](../prep/interview/software-interview-guide.md) |
 
 ---
 
@@ -116,8 +116,8 @@ Every question can be tagged for filtering:
 
 | Guide | Coverage |
 |:------|:---------|
-| [Project Defense Guide](../prep/technical/project-defense-guide.md) | Universal 20 Qs + CFD-Specific 15 Qs |
-| [Project Discussion](../prep/technical/project-discussion.md) | How to present projects |
+| [Project Defense Guide](../prep/interview/technical/project-defense-guide.md) | Universal 20 Qs + CFD-Specific 15 Qs |
+| [Project Discussion](../prep/interview/technical/project-discussion.md) | How to present projects |
 | [Resume Defense System](../prep/behavioral/resume-defense-system.md) | Resume-based questions |
 
 ---

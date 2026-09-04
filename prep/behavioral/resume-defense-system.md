@@ -1,4 +1,4 @@
-# 📄 Resume Defense System — Every Line is an Interview Question
+﻿# 📄 Resume Defense System — Every Line is an Interview Question
 
 > **Rule: If it's on your resume, you MUST be able to talk about it for 60+ seconds with confidence. Interviewers WILL ask about every line.**
 
@@ -152,7 +152,7 @@ Before each interview, map your resume items to the company's needs:
 
 - [`question-master-database.md`](question-master-database.md) — Questions 143-157 (IITK/PG specific)
 - [`self_intro/self-introduction-system.md`](self_intro/self-introduction-system.md) — Self-introduction that references resume
-- [`technical/project-defense-guide.md`](../../prep/technical/project-defense-guide.md) — Technical project defense
+- [`technical/project-defense-guide.md`](../../prep/interview/technical/project-defense-guide.md) — Technical project defense
 - [`strategies/answering-strategies.md`](strategies/answering-strategies.md) — STAR and CRIT frameworks
 
 ---

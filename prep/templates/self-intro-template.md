@@ -107,4 +107,4 @@ I'm looking to contribute rigorously analysed insights to [TEAM/OFFER] while gro
 ## References
 
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR method, "Tell me about yourself" sample, general tips
-* [behavioral-interview-guide](prep/behavioral/behavioral-interview-guide.md) — Company-specific question types
+* [behavioral-interview-guide](../behavioral/behavioral-interview-guide.md) — Company-specific question types

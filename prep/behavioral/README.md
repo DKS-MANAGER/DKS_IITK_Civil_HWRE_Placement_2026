@@ -183,10 +183,10 @@
 | Behavioral Topic | Technical Reference |
 |-----------------|-------------------|
 | CFD project stories | [`core/hwre/hydraulics/turbulence-modeling.md`](../../core/hwre/hydraulics/turbulence-modeling.md) |
-| OpenFOAM stories | [`prep/software-interview-guide.md`](../software-interview-guide.md) |
+| OpenFOAM stories | [`prep/software-interview-guide.md`](../interview/software-interview-guide.md) |
 | Bridge scour stories | [`core/hwre/hydrology/sediment-transport.md`](../../core/hwre/hydrology/sediment-transport.md) |
-| Project defense | [`prep/technical/project-defense-guide.md`](../technical/project-defense-guide.md) |
-| Mock technical+HR | [`prep/mock-tests/mock-interview-database.md`](../mock-tests/mock-interview-database.md) |
+| Project defense | [`prep/interview/technical/project-defense-guide.md`](../interview/technical/project-defense-guide.md) |
+| Mock technical+HR | [`prep/interview/mock-tests/mock-interview-database.md`](../interview/mock-tests/mock-interview-database.md) |
 
 ---
 

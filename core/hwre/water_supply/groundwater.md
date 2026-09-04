@@ -4,7 +4,7 @@
 
 Groundwater is water stored beneath the Earth's surface in pore spaces and fractures of rock and soil. It provides approximately 50% of global drinking water and is essential for agriculture and industry.
 
-> **Related topics:** [`water-supply.md`](water-supply.md) · [`../../core/hwre/hydrology/hydrology.md`](../../core/hwre/hydrology/hydrology.md) · [`../../core/hwre/water_resources/water-resources-engineering.md`](../../core/hwre/water_resources/water-resources-engineering.md)
+> **Related topics:** [`water-supply.md`](water-supply.md) · [`hydrology.md`](../hydrology/hydrology.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md)
 
 ---
 

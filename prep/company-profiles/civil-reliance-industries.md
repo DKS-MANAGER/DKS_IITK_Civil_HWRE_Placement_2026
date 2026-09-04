@@ -1,4 +1,4 @@
-# Reliance Industries Limited — Civil Placement Strategy
+﻿# Reliance Industries Limited — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) rows 380–381 (GET = 381; Analytics = 380 — not civil).
 
@@ -59,7 +59,7 @@ Day 7: Mock + behavioral
 
 ## Cross-Links
 - [RCC Design](../../core/rcc/rcc-design.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 
 ## References
 - Reliance Industries Corporate website (www.ril.com)

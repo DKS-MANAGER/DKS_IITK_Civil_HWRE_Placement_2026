@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 
 All notable changes to this repository are documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
@@ -23,7 +23,7 @@ All notable changes to this repository are documented in this file. The format i
 - Created 8 canonical content templates under `docs/templates/` (concept, numerical, interview, software, career, project, revision, resource).
 
 **Content Additions**
-- Created `prep/technical/thesis-defense-guide.md` — M.Tech thesis defense guide (43 questions + 5-min pitch framework).
+- Created `prep/interview/technical/thesis-defense-guide.md` — M.Tech thesis defense guide (43 questions + 5-min pitch framework).
 
 **Automation**
 - Created `scripts/quality_check.py` — automated quality control (broken links, headings, file sizes, README coverage, orphan pages).

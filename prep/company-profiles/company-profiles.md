@@ -83,12 +83,12 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 
 | Company | Experience Log | Key Questions | Notes |
 |---------|----------------|---------------|-------|
-| **BPCL** | [BPCL](./bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
-| **EIL** | [EIL](./eil.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
-| **L&T** | [L&T](./lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
-| **AECOM** | [AECOM](./aecom.md) | Data-backed project discussion, watershed logic | Prepare data, model assumptions, communication [web:] |
-| **Analytics** | [Analytics](./analytics.md) | EDA, metrics, reproducibility | Show coding, stats, business framing |
-| **Quant** | [Quant](./quant.md) | Probability, brainteasers, fast coding | Build from puzzle logs [web:73] |
+| **BPCL** | [BPCL](./civil-bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
+| **EIL** | [EIL](./civil-low-tier-all.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
+| **L&T** | [L&T](./civil-lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
+| **AECOM** | [AECOM](./civil-cross-company-strategy.md) | Data-backed project discussion, watershed logic | Prepare data, model assumptions, communication |
+| **Analytics** | [Analytics](./civil-cross-company-strategy.md) | EDA, metrics, reproducibility | Show coding, stats, business framing |
+| **Quant** | [Quant](./civil-cross-company-strategy.md) | Probability, brainteasers, fast coding | Build from puzzle logs [web:73] |
 
 ## Interview Experience Template
 

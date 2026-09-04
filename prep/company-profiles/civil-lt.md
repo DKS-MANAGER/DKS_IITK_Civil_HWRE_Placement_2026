@@ -1,4 +1,4 @@
-# Larsen & Toubro Limited — Civil Placement Strategy
+﻿# Larsen & Toubro Limited — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) rows 251–252.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences from company profile; `[PREDICTED]` for interview topic predictions.
@@ -428,7 +428,7 @@ Focus 60% on construction management + RCC, 25% on structural analysis + steel,
 - [Engineering Mechanics](../../core/fundamentals/engineering-mechanics.md)
 - [Geotechnical Engineering](../../core/geotechnical/geotechnical.md)
 - [Transportation Engineering](../../core/transportation/transportation-engineering.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 - [Resume Template](../templates/resume-template.md)
 
 ---

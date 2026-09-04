@@ -4,7 +4,7 @@
 
 Water supply engineering encompasses the collection, treatment, transmission, and distribution of potable water to consumers. It integrates hydrology, hydraulics, chemistry, and public health.
 
-> **Related topics:** [`groundwater.md`](groundwater.md) · [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) · [`../../core/hwre/water_resources/water-resources-engineering.md`](../../core/hwre/water_resources/water-resources-engineering.md)
+> **Related topics:** [`groundwater.md`](groundwater.md) · [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md)
 
 ---
 

@@ -110,7 +110,7 @@ The HR round evaluates cultural fit, motivation, communication, and salary expec
 ## 🎭 Common HR Questions & Model Answers
 
 ### Q1: Tell me about yourself. (90 sec)
-**Answer:** Use Present-Past-Future framework. See [`../../prep/behavioral/self_intro/self-introduction.md`](../../prep/behavioral/self_intro/self-introduction.md) for 5 samples.
+**Answer:** Use Present-Past-Future framework. See [`../../behavioral/self_intro/self-introduction.md`](../../behavioral/self_intro/self-introduction.md) for 5 samples.
 
 ### Q2: Why do you want to join our company?
 **Answer:** "I've researched [Company]'s recent work on [specific project]. What excites me is [specific aspect]. My thesis on [related topic] directly prepares me for this. Additionally, [Company]'s culture of [value] aligns with my commitment to [related value]."
@@ -238,6 +238,6 @@ The HR round evaluates cultural fit, motivation, communication, and salary expec
 ## References
 
 * [awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
-* [`../mock_questions/mock-interview-questions.md`](../mock_questions/mock-interview-questions.md) — 50 mock questions
-* [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) — 30 STAR examples
-* [`../../prep/behavioral/hr_questions/hr-questions-bank.md`](../../prep/behavioral/hr_questions/hr-questions-bank.md) — 50 HR Q&A
+* [`../mock-tests/mock-interview-questions.md`](../mock-tests/mock-interview-questions.md) — 50 mock questions
+* [`../../behavioral/behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — 30 STAR examples
+* [`../../behavioral/hr_questions/hr-questions-bank.md`](../../behavioral/hr_questions/hr-questions-bank.md) — 50 HR Q&A

@@ -4,7 +4,7 @@
 
 The hydrologic cycle describes the continuous movement of water on, above, and below the Earth's surface.
 
-> **Related topics:** [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`sediment-transport.md`](sediment-transport.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) · [`../core/hwre/flood_control/flood-control.md`](../../core/hwre/flood_control/flood-control.md)
+> **Related topics:** [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`sediment-transport.md`](sediment-transport.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) · [`flood-control.md`](../flood_control/flood-control.md)
 
 ---
 

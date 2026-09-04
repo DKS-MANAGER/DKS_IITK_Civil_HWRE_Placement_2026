@@ -1,10 +1,10 @@
-# 🎯 IITK Civil Non-Core Placement Operating System
+# ðŸŽ¯ IITK Civil Non-Core Placement Operating System
 
-> One-stop preparation system for IIT Kanpur Civil / M.Tech students targeting placements **outside traditional Civil Engineering** — consulting, analytics, product, operations, finance, and more.
+> One-stop preparation system for IIT Kanpur Civil / M.Tech students targeting placements **outside traditional Civil Engineering** â€” consulting, analytics, product, operations, finance, and more.
 
 ---
 
-## 🚀 Start Here
+## ðŸš€ Start Here
 
 | I want to... | Go to |
 |:-------------|:------|
@@ -20,12 +20,12 @@
 | **My interview is tomorrow** | [Quick Revision](quick-revision/quick-revision.md) |
 | **I need case interviews** | [Case Frameworks](case-interviews/framework-library.md) |
 | **I need guesstimates** | [Guesstimate Guide](guesstimates/guesstimate-guide.md) |
-| **I need to convert my Civil profile** | [Civil → Non-Core](resume-positioning/civil-to-noncore.md) |
+| **I need to convert my Civil profile** | [Civil â†’ Non-Core](resume-positioning/civil-to-noncore.md) |
 | **I need mock interviews** | [Mock Interview System](mock-interviews/mock-system.md) |
 
 ---
 
-## 🗺️ System Architecture
+## ðŸ—ºï¸ System Architecture
 
 ### Universal Foundation (Do These First)
 
@@ -35,19 +35,19 @@
 | **HR Prep** | [HR Questions](common/hr.md) | 50+ HR questions with model answers for non-core roles |
 | **Behavioral** | [Behavioral Prep](common/behavioral.md) | STAR stories adapted for non-core interviews |
 | **Communication** | [Business Communication](common/communication.md) | Structured thinking, email, presentation, synthesis |
-| **Business Basics** | [Business Fundamentals](common/business-fundamentals.md) | Revenue, margins, growth, unit economics — the language of business |
-| **Interview Frameworks** | [Interview Frameworks](common/interview-frameworks.md) | STAR, CARL, SOAR, PREP — which framework when |
+| **Business Basics** | [Business Fundamentals](common/business-fundamentals.md) | Revenue, margins, growth, unit economics â€” the language of business |
+| **Interview Frameworks** | [Interview Frameworks](common/interview-frameworks.md) | STAR, CARL, SOAR, PREP â€” which framework when |
 | **Aptitude Bridge** | [Aptitude Bridge](common/aptitude-bridge.md) | Connecting existing aptitude content to non-core prep |
 
 ### Role-Specific Tracks
 
 | Role | Directory | Core Files |
 |:-----|:----------|:-----------|
-| **Consulting** | [`consulting/`](consulting/) | [Overview](consulting/consulting-overview.md) · [Case Frameworks](consulting/case-frameworks.md) · [Case Bank](consulting/case-bank.md) |
+| **Consulting** | [`consulting/`](consulting/) | [Overview](consulting/consulting-overview.md) Â· [Case Frameworks](consulting/case-frameworks.md) Â· [Case Bank](consulting/case-bank.md) |
 | **Strategy** | [`strategy/`](strategy/) | [Overview](strategy/strategy-overview.md) |
-| **Business Analyst** | [`business-analyst/`](business-analyst/) | [Overview](business-analyst/ba-overview.md) · [SQL Practice](business-analyst/sql-practice.md) |
-| **Data Analyst** | [`data-analyst/`](data-analyst/) | [Overview](data-analyst/da-overview.md) · [Statistics](data-analyst/statistics-practice.md) |
-| **Product Manager** | [`product-management/`](product-management/) | [Overview](product-management/pm-overview.md) · [Product Sense](product-management/product-sense.md) · [Metrics & Strategy](product-management/pm-metrics-strategy.md) |
+| **Business Analyst** | [`business-analyst/`](business-analyst/) | [Overview](business-analyst/ba-overview.md) Â· [SQL Practice](business-analyst/sql-practice.md) |
+| **Data Analyst** | [`data-analyst/`](data-analyst/) | [Overview](data-analyst/da-overview.md) Â· [Statistics](data-analyst/statistics-practice.md) |
+| **Product Manager** | [`product-management/`](product-management/) | [Overview](product-management/pm-overview.md) Â· [Product Sense](product-management/product-sense.md) Â· [Metrics & Strategy](product-management/pm-metrics-strategy.md) |
 | **Product Analyst** | [`product-analyst/`](product-analyst/) | [Overview](product-analyst/pa-overview.md) |
 | **Operations** | [`operations/`](operations/) | [Overview](operations/operations-overview.md) |
 | **Supply Chain** | [`supply-chain/`](supply-chain/) | [Overview](supply-chain/supply-chain-overview.md) |
@@ -64,7 +64,7 @@
 | **Case Interviews** | [Case Communication](case-interviews/case-communication.md) | Thinking aloud, structuring, mental math, synthesis |
 | **Framework Library** | [Framework Library](case-interviews/framework-library.md) | All consulting frameworks with structure + questions + analysis |
 | **Guesstimates** | [Guesstimate Guide](guesstimates/guesstimate-guide.md) | 6 estimation methods + 100+ practice questions |
-| **Civil → Non-Core** | [Transferable Skills](resume-positioning/civil-to-noncore.md) | Map Civil experience → business competencies |
+| **Civil â†’ Non-Core** | [Transferable Skills](resume-positioning/civil-to-noncore.md) | Map Civil experience â†’ business competencies |
 | **Resume Templates** | [Resume Templates](resume-positioning/resume-templates.md) | Role-specific resume guidance (Consulting, PM, Analyst, etc.) |
 | **Mock Interviews** | [Mock System](mock-interviews/mock-system.md) | 10 mock formats with scoring rubrics |
 | **Quick Revision** | [Quick Revision](quick-revision/quick-revision.md) | Night-before cards, cheat sheets, power formulas |
@@ -73,21 +73,21 @@
 
 | Directory | Content |
 |:----------|:--------|
-| [`analytics/`](analytics/) | [Non-Core Prep Resources](analytics/non-core-prep.md) · [Technical Stack](analytics/technical-stack.md) |
-| [`aptitude/`](aptitude/) | 14 quantitative modules · [Logical Reasoning](aptitude/logical_reasoning/reasoning-practice.md) · [Verbal Ability](aptitude/verbal/verbal-ability.md) · [50+ Shortcuts](aptitude/shortcuts/aptitude-shortcuts.md) |
+| [`analytics/`](analytics/) | [Non-Core Prep Resources](analytics/non-core-prep.md) Â· [Technical Stack](analytics/technical-stack.md) |
+| [`aptitude/`](aptitude/) | 14 quantitative modules Â· [Logical Reasoning](aptitude/logical_reasoning/reasoning-practice.md) Â· [Verbal Ability](aptitude/verbal/verbal-ability.md) Â· [50+ Shortcuts](aptitude/shortcuts/aptitude-shortcuts.md) |
 
 ---
 
-## 🏷️ Priority Labels
+## ðŸ·ï¸ Priority Labels
 
 | Label | Meaning | Action |
 |:------|:--------|:-------|
-| **[P0]** | Must Know | 80%+ interviews test this — learn first |
-| **[P1]** | High Priority | 50-80% interviews — cover in first week |
-| **[P2]** | Useful | 20-50% interviews — good to know |
-| **[P3]** | Advanced | Niche / senior roles — optional depth |
+| **[P0]** | Must Know | 80%+ interviews test this â€” learn first |
+| **[P1]** | High Priority | 50-80% interviews â€” cover in first week |
+| **[P2]** | Useful | 20-50% interviews â€” good to know |
+| **[P3]** | Advanced | Niche / senior roles â€” optional depth |
 
-## 🎯 Role Tags
+## ðŸŽ¯ Role Tags
 
 | Tag | Role Cluster |
 |:----|:-------------|
@@ -102,31 +102,31 @@
 
 ---
 
-## 📋 Quick Navigation by Interview Stage
+## ðŸ“‹ Quick Navigation by Interview Stage
 
 ### Before the Interview
-1. Choose your target role → [Role Selector](role-selector.md)
-2. Build your resume → [Resume Templates](resume-positioning/resume-templates.md)
-3. Prepare your stories → [Behavioral Prep](common/behavioral.md)
-4. Learn business language → [Business Fundamentals](common/business-fundamentals.md)
+1. Choose your target role â†’ [Role Selector](role-selector.md)
+2. Build your resume â†’ [Resume Templates](resume-positioning/resume-templates.md)
+3. Prepare your stories â†’ [Behavioral Prep](common/behavioral.md)
+4. Learn business language â†’ [Business Fundamentals](common/business-fundamentals.md)
 
 ### During Preparation
-1. Master role-specific content → See role track above
-2. Practice case interviews → [Case Communication](case-interviews/case-communication.md)
-3. Drill guesstimates → [Guesstimate Guide](guesstimates/guesstimate-guide.md)
-4. Practice SQL / analytics → [SQL Practice](business-analyst/sql-practice.md)
+1. Master role-specific content â†’ See role track above
+2. Practice case interviews â†’ [Case Communication](case-interviews/case-communication.md)
+3. Drill guesstimates â†’ [Guesstimate Guide](guesstimates/guesstimate-guide.md)
+4. Practice SQL / analytics â†’ [SQL Practice](business-analyst/sql-practice.md)
 
 ### Night Before
-1. Quick revision → [Quick Revision](quick-revision/quick-revision.md)
-2. Review your resume → [Resume Positioning](resume-positioning/civil-to-noncore.md)
-3. Rehearse your intro → [HR Questions](common/hr.md)
-4. Calm your nerves → Trust your preparation
+1. Quick revision â†’ [Quick Revision](quick-revision/quick-revision.md)
+2. Review your resume â†’ [Resume Positioning](resume-positioning/civil-to-noncore.md)
+3. Rehearse your intro â†’ [HR Questions](common/hr.md)
+4. Calm your nerves â†’ Trust your preparation
 
 ---
 
-## 🎯 The IITK Civil Advantage
+## ðŸŽ¯ The IITK Civil Advantage
 
-Your Civil / M.Tech background is **not a weakness** — it's a differentiator:
+Your Civil / M.Tech background is **not a weakness** â€” it's a differentiator:
 
 | Civil Skill | Non-Core Translation |
 |:------------|:---------------------|
@@ -140,21 +140,21 @@ Your Civil / M.Tech background is **not a weakness** — it's a differentiator:
 | Teaching / TA | Communication, simplification, stakeholder management |
 | Team Projects | Cross-functional collaboration, coordination |
 
-> **Never exaggerate.** Use: Actual experience → Transferable competency → Evidence → Role relevance
+> **Never exaggerate.** Use: Actual experience â†’ Transferable competency â†’ Evidence â†’ Role relevance
 
 ---
 
-## 🔗 Cross-Links to Repository
+## ðŸ”— Cross-Links to Repository
 
 | Topic | Link |
 |:------|:-----|
 | Behavioral / HR System | [behavioral/](../prep/behavioral/) |
-| Technical Interview Bank | [technical-interview-bank](../prep/technical/technical-interview-bank.md) |
+| Technical Interview Bank | [technical-interview-bank](../prep/interview/technical/technical-interview-bank.md) |
 | Company Profiles | [company-profiles](../prep/company-profiles/) |
-| Software Interview Guide | [software-interview-guide](../prep/software-interview-guide.md) |
-| Quick Revision System | [quick-revision-system](../prep/quick-revision-system.md) |
-| Mock Interview Database | [mock-interview-database](../prep/mock-tests/mock-interview-database.md) |
+| Software Interview Guide | [software-interview-guide](../prep/interview/software-interview-guide.md) |
+| Quick Revision System | [quick-revision-system](../prep/interview/quick-revision-system.md) |
+| Mock Interview Database | [mock-interview-database](../prep/interview/mock-tests/mock-interview-database.md) |
 
 ---
 
-*This is the IITK Civil Non-Core Placement Operating System — built for IITK students, by understanding what IITK students actually face.*
+*This is the IITK Civil Non-Core Placement Operating System â€” built for IITK students, by understanding what IITK students actually face.*

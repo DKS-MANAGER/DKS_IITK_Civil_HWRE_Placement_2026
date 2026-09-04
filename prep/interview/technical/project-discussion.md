@@ -251,5 +251,5 @@ LEARNINGS & FUTURE WORK:
 
 ## 📚 References
 
-* [`../mock_questions/mock-interview-questions.md`](../mock_questions/mock-interview-questions.md) — 50 mock questions
-* [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) — STAR framework
+* [`../mock-tests/mock-interview-questions.md`](../mock-tests/mock-interview-questions.md) — 50 mock questions
+* [`../../behavioral/behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — STAR framework

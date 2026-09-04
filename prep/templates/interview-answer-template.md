@@ -113,4 +113,4 @@ OPTIONAL FOLLOW-UP: "The impact was <business/team value>, and I realized <refle
 
 * [behavioral-interview-list-of-questions](https://github.com/rShearer/behavioral-interview-list-of-questions) — STAR framework, assessment criteria, follow-up questions, category-wise question bank
 * [awesome-behavioral-interviews](https://github.com/arialdomartini/awesome-behavioral-interviews) — STAR steps, sample answers, general tips
-* [behavioral-interview-guide](prep/behavioral/behavioral-interview-guide.md) — Company-specific question types
+* [behavioral-interview-guide](../behavioral/behavioral-interview-guide.md) — Company-specific question types

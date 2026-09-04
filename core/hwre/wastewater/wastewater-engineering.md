@@ -4,7 +4,7 @@
 
 Wastewater engineering involves the collection, treatment, and disposal of domestic, industrial, and stormwater. It protects public health and the environment by removing contaminants before discharge or reuse.
 
-> **Related topics:** [`water-supply.md`](../water_supply/water-supply.md) · [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md) · [`../core/hwre/hydraulics/hydraulics.md`](../../core/hwre/hydraulics/hydraulics.md)
+> **Related topics:** [`water-supply.md`](../water_supply/water-supply.md) · [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md) · [`hydraulics.md`](../hydraulics/hydraulics.md)
 
 ---
 

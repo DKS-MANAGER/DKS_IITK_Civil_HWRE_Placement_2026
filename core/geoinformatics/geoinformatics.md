@@ -4,7 +4,7 @@
 
 Geoinformatics encompasses Geographic Information Systems (GIS), Remote Sensing (RS), Global Navigation Satellite Systems (GNSS), spatial analysis, and digital image processing — applying geospatial technology to civil engineering problems including urban planning, transportation network analysis, environmental monitoring, water resources management, and disaster risk assessment.
 
-> **Related topics:** [`geotechnical.md`](../geotechnical/geotechnical.md) · [`transportation-engineering.md`](../transportation/transportation-engineering.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) · [`environmental-engineering.md`](../environmental/environmental-engineering.md)
+> **Related topics:** [`geotechnical.md`](../geotechnical/geotechnical.md) · [`transportation-engineering.md`](../transportation/transportation-engineering.md) · [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) · [`environmental-engineering.md`](../environmental/environmental-engineering.md)
 
 ---
 
@@ -751,7 +751,7 @@ Three rainfall stations: A (2 km, 120 mm), B (5 km, 80 mm), C (1 km, 150 mm). Fi
 
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — GIS for network analysis & route planning
 - [`environmental-engineering.md`](../environmental/environmental-engineering.md) — RS for environmental monitoring
-- [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) — GIS for watershed & flood modeling
+- [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) — GIS for watershed & flood modeling
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — GIS for site suitability & hazard mapping
 - [`infrastructure-engineering-management.md`](../infrastructure/infrastructure-engineering-management.md) — GIS in infrastructure planning
 - [`gis-tools.md`](../../resources/gis-tools.md) — Software & tooling guide

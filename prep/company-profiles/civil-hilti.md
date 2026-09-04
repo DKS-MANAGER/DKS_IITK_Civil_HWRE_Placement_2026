@@ -1,4 +1,4 @@
-# Hilti Technology Solutions India — Civil Placement Strategy
+﻿# Hilti Technology Solutions India — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 191.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.
@@ -305,7 +305,7 @@ Day 5: Steel supports | Day 6: SAP2000/ETABS | Day 7: Mock + Hilti research
 - [RCC Design](../../core/rcc/rcc-design.md)
 - [Steel Design](../../core/steel/steel-design.md)
 - [Structural Analysis](../../core/structural-analysis/structural-analysis.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 
 ---
 

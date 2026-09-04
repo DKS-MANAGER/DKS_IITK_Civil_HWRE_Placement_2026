@@ -4,80 +4,364 @@
 
 **The structured, searchable placement system for IIT Kanpur Civil / HWRE students.**
 
-Branch → Career Target → Timeline → Roadmap → Learning → Practice → Interview → Revision
+*Everything you need — from core revision to interview execution — in one repository.*
+
+<br>
+
+<a href="docs/start-here.md"><img src="https://img.shields.io/badge/%F0%9F%9A%80-START%20HERE-blue?style=for-the-badge" alt="Start Here"></a>
+<a href="docs/roadmap.md"><img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F-ROADMAP-green?style=for-the-badge" alt="Roadmap"></a>
+<a href="prep/company-profiles/company-profiles.md"><img src="https://img.shields.io/badge/%F0%9F%8F%A2-COMPANIES-orange?style=for-the-badge" alt="Companies"></a>
+<a href="prep/interview/technical/technical-interview-bank.md"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-INTERVIEW-red?style=for-the-badge" alt="Interview"></a>
+<a href="prep/templates/resume-template.md"><img src="https://img.shields.io/badge/%F0%9F%93%84-CV%20TEMPLATE-purple?style=for-the-badge" alt="CV Template"></a>
+<a href="docs/placement-control-panel.md"><img src="https://img.shields.io/badge/%F0%9F%93%B0-CONTROL%20PANEL-darkblue?style=for-the-badge" alt="Control Panel"></a>
+
+<br>
+
+`250+ Files` · `10 Core Subjects` · `25+ Companies` · `100+ Interview Qs` · `14 Career Tracks`
+
+<br>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Content](https://img.shields.io/badge/Content-105%2B%20files-brightgreen)](index/master_index.md)
-[![Updated](https://img.shields.io/badge/Updated-2026--09--03-lightgrey)]()
+[![Content](https://img.shields.io/badge/Content-250%2B%20files-brightgreen)](index/master_index.md)
+[![Topics](https://img.shields.io/badge/Topics-50-blueviolet)](index/master_index.md)
+[![Updated](https://img.shields.io/badge/Updated-2026--09--04-lightgrey)]()
 
 </div>
 
 ---
 
-## 🚀 Choose Your Path
+## ⏰ Start Here — How Much Time Do You Have?
 
-> **New here?** → [**Start Here**](docs/start-here.md) · **Need everything at once?** → [**Control Panel**](docs/placement-control-panel.md)
+<table>
+<tr>
+<td align="center" width="25%">
 
-### By Career Target
+### 🔴 Tomorrow
 
-| I am preparing for… | Start here |
-|:---------------------|:-----------|
-| 🌊 **HWRE / Water Resources** | [Hydraulics](core/hwre/hydraulics/hydraulics.md) → [OCF](core/hwre/open_channel_flow/open-channel-flow.md) → [Hydrology](core/hwre/hydrology/hydrology.md) → [WRE](core/hwre/water_resources/water-resources-engineering.md) |
-| 🏗️ **Structural Engineering** | [Structures](core/structures/structures.md) → [Software](software-and-tech/bim/bim-tech.md) |
-| 🪨 **Geotechnical Engineering** | [Geotechnical](core/geotechnical/geotechnical.md) → [Software](software-and-tech/geotechnical/geotechnical-tech.md) |
-| 🌿 **Environmental Engineering** | [Environmental](core/environmental/environmental-engineering.md) |
-| 🚗 **Transportation Engineering** | [Transportation](core/transportation/transportation-engineering.md) |
-| 🗺️ **GIS / Geospatial** | [Geoinformatics](core/geoinformatics/geoinformatics.md) → [GIS Tools](software-and-tech/gis/gis-tech.md) |
-| 🔬 **CFD / Research** | [Turbulence](core/hwre/hydraulics/turbulence-modeling.md) → [OpenFOAM](software-and-tech/deep-dives/openfoam-case-study.md) |
-| 🏢 **Construction Management** | [Infrastructure](core/infrastructure/infrastructure-engineering-management.md) |
-| 💼 **Consulting** | [Consulting Track](non-core/consulting/consulting-overview.md) → [Case Bank](non-core/consulting/case-bank.md) |
-| 📊 **Data / Business Analyst** | [DA Track](non-core/data-analyst/da-overview.md) · [BA Track](non-core/business-analyst/ba-overview.md) |
-| 📱 **Product Manager** | [PM Track](non-core/product-management/pm-overview.md) |
-| ⚙️ **Operations / Supply Chain** | [Ops Track](non-core/operations/operations-overview.md) → [SC Track](non-core/supply-chain/supply-chain-overview.md) |
-| 📈 **Finance / Risk / Strategy** | [Finance](non-core/finance/finance-overview.md) · [Risk](non-core/risk/risk-overview.md) · [Strategy](non-core/strategy/strategy-overview.md) |
+**Stop everything.**
 
-### By Timeline
+→ [1-Day Crash Plan](prep/interview/quick-revision-system.md)
 
-| Time Available | Action | Link |
-|:---------------|:-------|:-----|
-| ⏰ **Interview is TOMORROW** | Stop everything → 1-Day Crash Plan | [Quick Revision](prep/quick-revision-system.md) |
-| 📅 **7 days** | 7-Day Sprint | [Quick Revision](prep/quick-revision-system.md) |
-| 📆 **30 days** | Structured roadmap | [Roadmap](docs/roadmap.md) |
-| 🗓️ **90 days** | Full preparation cycle | [Roadmap](docs/roadmap.md) |
+</td>
+<td align="center" width="25%">
 
-### By Need
+### 🟠 7 Days
 
-| I need help with… | Go to |
-|:------------------|:------|
-| 📝 Interview Questions | [Technical Q&A Bank (100)](prep/technical/technical-interview-bank.md) |
-| 🗣️ Self Introduction | [Self Intro System](prep/behavioral/self_intro/self-introduction-system.md) |
-| 💼 Project / Thesis Defense | [Project Defense Guide (35 Qs)](prep/technical/project-defense-guide.md) |
-| 🧠 Behavioral / STAR | [Behavioral Guide](prep/behavioral/behavioral-interview-guide.md) |
-| 🎤 Mock Interviews | [Mock Database (8 sessions)](prep/mock-tests/mock-interview-database.md) |
-| 📄 Resume | [Resume Template](prep/templates/resume-template.md) |
-| 💼 Case Interview | [Case Frameworks](non-core/case-interviews/framework-library.md) |
-| 📊 Guesstimates | [Guesstimate Guide](non-core/guesstimates/guesstimate-guide.md) |
-| 🖥️ Software Skills | [Software Decision System](software-and-tech/branch-roadmaps.md) |
-| 🔢 Aptitude | [Quantitative](non-core/aptitude/quantitative/aptitude-basics.md) |
+**Sprint mode.**
+
+→ [7-Day Sprint](prep/interview/quick-revision-system.md)
+
+</td>
+<td align="center" width="25%">
+
+### 🟡 30 Days
+
+**Structured prep.**
+
+→ [30-Day Roadmap](docs/roadmap.md)
+
+</td>
+<td align="center" width="25%">
+
+### 🟢 90 Days
+
+**Full cycle.**
+
+→ [Complete Roadmap](docs/roadmap.md)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📂 Repository Map
+## 🗺️ Your Journey
+
+```
+ 01                02              03                04               05              06
+UNDERSTAND    →   LEARN       →   PRACTICE     →   STRATEGIZE   →   INTERVIEW   →   PLACEMENT
+                 │                │                │                │                │
+Who am I?        Core subjects    Mock interviews  Company-wise    Execute          Postmortem
+What roles?      & non-core       & question banks  prep & CTC     & log results    & iterate
+```
+
+| Stage | What | Where |
+|:------|:-----|:------|
+| **01 Understand** | Identify your career track | [`docs/start-here.md`](docs/start-here.md) |
+| **02 Learn** | Core subjects, software, non-core | [`core/`](core/) · [`software-and-tech/`](software-and-tech/) · [`non-core/`](non-core/) |
+| **03 Practice** | Questions, mocks, aptitude | [`prep/interview/`](prep/interview/) · [`non-core/aptitude/`](non-core/aptitude/) |
+| **04 Strategize** | Company-wise prep | [`prep/company-profiles/`](prep/company-profiles/) |
+| **05 Interview** | Execution & survival | [`prep/interview/interview-day-survival.md`](prep/interview/interview-day-survival.md) |
+| **06 Placement** | Log, review, iterate | [`docs/placement-control-panel.md`](docs/placement-control-panel.md) |
+
+---
+
+## 🎯 Choose Your Track
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ Core Civil
+
+| Subject | Guide |
+|:--------|:------|
+| Structural Engineering | [structures.md](core/structures/structures.md) |
+| Geotechnical | [geotechnical.md](core/geotechnical/geotechnical.md) |
+| Transportation | [transportation-engineering.md](core/transportation/transportation-engineering.md) |
+| Environmental | [environmental-engineering.md](core/environmental/environmental-engineering.md) |
+| Infrastructure Mgmt | [infrastructure-engineering-management.md](core/infrastructure/infrastructure-engineering-management.md) |
+| Geoinformatics | [geoinformatics.md](core/geoinformatics/geoinformatics.md) |
+| Civil Foundations | [civil-engineering-foundations.md](core/fundamentals/civil-engineering-foundations.md) |
+
+</td>
+<td width="50%" valign="top">
+
+### 🌊 HWRE & Water Resources
+
+| Subject | Guide |
+|:--------|:------|
+| Hydraulics & CFD | [hydraulics.md](core/hwre/hydraulics/hydraulics.md) |
+| Turbulence Modeling | [turbulence-modeling.md](core/hwre/hydraulics/turbulence-modeling.md) |
+| Open Channel Flow | [open-channel-flow.md](core/hwre/open_channel_flow/open-channel-flow.md) |
+| Hydrology | [hydrology.md](core/hwre/hydrology/hydrology.md) |
+| Sediment Transport | [sediment-transport.md](core/hwre/hydrology/sediment-transport.md) |
+| Water Resources Eng. | [water-resources-engineering.md](core/hwre/water_resources/water-resources-engineering.md) |
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 💻 Software & Technology
+
+| Area | Guide |
+|:-----|:------|
+| Branch Decision System | [branch-roadmaps.md](software-and-tech/branch-roadmaps.md) |
+| HEC-RAS Walkthrough | [hec-ras-walkthrough.md](software-and-tech/deep-dives/hec-ras-walkthrough.md) |
+| OpenFOAM Case Study | [openfoam-case-study.md](software-and-tech/deep-dives/openfoam-case-study.md) |
+| HWRE Tech Roadmap | [hwre-tech-roadmap.md](software-and-tech/hwre/hwre-tech-roadmap.md) |
+| BIM & Structural | [bim-tech.md](software-and-tech/bim/bim-tech.md) |
+| GIS Tools | [gis-tech.md](software-and-tech/gis/gis-tech.md) |
+| Geotech Software | [geotechnical-tech.md](software-and-tech/geotechnical/geotechnical-tech.md) |
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Non-Core Tracks
+
+| Track | Guide |
+|:------|:------|
+| Consulting | [consulting-overview.md](non-core/consulting/consulting-overview.md) |
+| Data Analyst | [da-overview.md](non-core/data-analyst/da-overview.md) |
+| Business Analyst | [ba-overview.md](non-core/business-analyst/ba-overview.md) |
+| Product Manager | [pm-overview.md](non-core/product-management/pm-overview.md) |
+| Operations | [operations-overview.md](non-core/operations/operations-overview.md) |
+| Finance / Risk / Strategy | [finance](non-core/finance/finance-overview.md) · [risk](non-core/risk/risk-overview.md) · [strategy](non-core/strategy/strategy-overview.md) |
+| Supply Chain | [supply-chain-overview.md](non-core/supply-chain/supply-chain-overview.md) |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🏢 Company Navigation
+
+> **25 civil-relevant companies** from IITK 2025-26 placement data (516 postings, 276 companies).
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Tier 1 — Core Civil
+
+| Company | Role | CTC | Prep |
+|:--------|:-----|:----|:-----|
+| **L&T** | MT / PGET | ₹6.25–7L | [→](prep/company-profiles/civil-lt.md) |
+| **Godrej Properties** | AM — Projects | ₹18L | [→](prep/company-profiles/civil-godrej-properties.md) |
+| **Thornton Tomasetti** | Structural Eng. | ₹7.5–9L | [→](prep/company-profiles/civil-thornton-tomasetti.md) |
+| **Hilti Technology** | Graduate Eng. | ₹17L | [→](prep/company-profiles/civil-hilti.md) |
+| **Reliance New Energy** | Civil/Geotech | ₹15L | [→](prep/company-profiles/civil-reliance-new-energy.md) |
+| **Rodic Consultants** | MT — Water | ₹8–8.5L | [→](prep/company-profiles/civil-rodic.md) |
+| **SPECTRUM** | Design Engineer | ₹8L | [→](prep/company-profiles/civil-spectrum.md) |
+| **Vassarlabs** | SME — Water/GIS | ₹8L | [→](prep/company-profiles/civil-vassarlabs.md) |
+| **ASC Infratech** | Bridges/Highways | ₹7.4L | [→](prep/company-profiles/civil-asc-infratech.md) |
+
+</td>
+<td width="50%" valign="top">
+
+### Tier 2 — Energy & Infrastructure
+
+| Company | Role | CTC | Prep |
+|:--------|:-----|:----|:-----|
+| **BPCL** | Management Trainee | ₹20.1L | [→](prep/company-profiles/civil-bpcl.md) |
+| **HPCL** | Officer — Eng. | ₹17.4L | [→](prep/company-profiles/civil-hpcl.md) |
+| **ITC Limited** | AUT — Projects | ₹31.25L | [→](prep/company-profiles/civil-itc.md) |
+| **JSW** | GET | ₹13–16L | [→](prep/company-profiles/civil-jsw.md) |
+| **Petronet LNG** | GET | ₹19.9L | [→](prep/company-profiles/civil-petronet-lng.md) |
+| **Reliance Industries** | GET — EPC | ₹9–10.5L | [→](prep/company-profiles/civil-reliance-industries.md) |
+| **Dimension Renewables** | Structural Eng. | ₹8L | [→](prep/company-profiles/civil-dimension-renewables.md) |
+| **Smarttrak AI** | Structural — Solar | ₹12L | [→](prep/company-profiles/civil-smarttrak.md) |
+| **TuTr Hyperloop** | CAE Engineer | ₹11L | [→](prep/company-profiles/civil-tutr-hyperloop.md) |
+
+</td>
+</tr>
+</table>
+
+> 📋 [Cross-Company Strategy](prep/company-profiles/civil-cross-company-strategy.md) · [All Company Profiles](prep/company-profiles/company-profiles.md) · [Interview Experiences](prep/company-profiles/interview-experiences.md)
+
+---
+
+## 🎤 Interview Toolkit
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Technical
+
+- [**100+ Q&A Bank**](prep/interview/technical/technical-interview-bank.md) — by topic with difficulty levels
+- [**8 Mock Sessions**](prep/interview/mock-tests/mock-interview-database.md) — Easy → Expert
+- [**Project Defense**](prep/interview/technical/project-defense-guide.md) — 35 questions + framework
+
+</td>
+<td width="34%" valign="top">
+
+### Behavioural & HR
+
+- [**STAR Guide**](prep/behavioral/behavioral-interview-guide.md) — 30+ stories, frameworks
+- [**HR Questions**](prep/behavioral/hr_questions/hr-questions-bank.md) — 50 Qs + 26 hybrid
+- [**Self Introduction**](prep/behavioral/self_intro/self-introduction-system.md) — 5 role-specific samples
+
+</td>
+<td width="33%" valign="top">
+
+### Execution
+
+- [**Interview Day Survival**](prep/interview/interview-day-survival.md) — 24hr/3hr/30min playbook
+- [**Quick Revision**](prep/interview/quick-revision-system.md) — 1-Day, 7-Day, 30-Day
+- [**Resume Template**](prep/templates/resume-template.md) — ATS-friendly
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 Behavioural & Aptitude
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Behavioural (200+ Questions)
+
+| Area | Resource |
+|:-----|:---------|
+| STAR Story Bank | [behavioral-interview-guide.md](prep/behavioral/behavioral-interview-guide.md) |
+| HR Questions (50) | [hr-questions-bank.md](prep/behavioral/hr_questions/hr-questions-bank.md) |
+| Self Introduction | [self-introduction-system.md](prep/behavioral/self_intro/self-introduction-system.md) |
+| Conflict Resolution | [conflict-resolution.md](prep/behavioral/conflict_resolution/conflict-resolution.md) |
+| Leadership | [leadership.md](prep/behavioral/leadership/leadership.md) |
+| Teamwork | [teamwork.md](prep/behavioral/teamwork/teamwork.md) |
+| Story Bank | [story-bank/](prep/behavioral/story-bank/) |
+
+</td>
+<td width="50%" valign="top">
+
+### Aptitude & Reasoning
+
+| Area | Resource |
+|:-----|:---------|
+| Quantitative (14 topics) | [aptitude-basics.md](non-core/aptitude/quantitative/aptitude-basics.md) |
+| Data Interpretation | [data-interpretation.md](non-core/aptitude/quantitative/data-interpretation.md) |
+| Speed Shortcuts | [aptitude-shortcuts.md](non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
+| Logical Reasoning | [reasoning-practice.md](non-core/aptitude/logical_reasoning/reasoning-practice.md) |
+| Verbal Ability | [verbal-ability.md](non-core/aptitude/verbal/verbal-ability.md) |
+| Case Frameworks | [framework-library.md](non-core/case-interviews/framework-library.md) |
+| Guesstimates | [guesstimate-guide.md](non-core/guesstimates/guesstimate-guide.md) |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📋 Study Schedule
+
+<table>
+<tr>
+<td align="center">
+
+**Phase 0**
+<br>Bootstrap
+<br>Aug 21 – Sep 7
+<br><small>Resume · Syllabus · Setup</small>
+
+</td>
+<td align="center">→</td>
+<td align="center">
+
+**Phase 1**
+<br>Core Revision
+<br>Sep 8 – Sep 30
+<br><small>Hydraulics · Hydrology · Structures · Geotech</small>
+
+</td>
+<td align="center">→</td>
+<td align="center">
+
+**Phase 2**
+<br>Mock & Coding
+<br>Oct 1 – Oct 20
+<br><small>Mocks · Python/SQL · STAR Bank</small>
+
+</td>
+<td align="center">→</td>
+<td align="center">
+
+**Phase 3**
+<br>Company-Wise
+<br>Oct 21 – Nov 10
+<br><small>PSU · Core · Analytics</small>
+
+</td>
+<td align="center">→</td>
+<td align="center">
+
+**Phase 4**
+<br>Final Revision
+<br>Nov 11 – Dec 1
+<br><small>Flashcards · Cheatsheets</small>
+
+</td>
+<td align="center">→</td>
+<td align="center">
+
+**Phase 5**
+<br>Live Interviews
+<br>Dec 2026
+<br><small>Execute · Log · Iterate</small>
+
+</td>
+</tr>
+</table>
+
+> Full daily planner → [`docs/roadmap.md`](docs/roadmap.md)
+
+---
+
+## 🗂️ Repository Structure
+
+<details>
+<summary><strong>Click to expand full directory tree</strong></summary>
 
 ```
 DKS_IITK_Civil_HWRE_Placement_2026/
 │
 ├── core/                              ── Technical Core ──
 │   ├── hwre/                          HWRE: hydraulics, OCF, hydrology, WRE
-│   │   ├── hydraulics/                Bernoulli, pipe networks, turbulence
-│   │   ├── open_channel_flow/         GVF, RVF, hydraulic jump
-│   │   ├── hydrology/                 Unit hydrograph, flood routing, sediment
-│   │   ├── water_resources/           Reservoir, canal, stage-discharge
-│   │   ├── flood_control/             Flood modeling & drainage
-│   │   ├── irrigation/                Canal design & water distribution
-│   │   ├── wastewater/                Treatment, sewer modeling
-│   │   ├── water_supply/              Distribution, groundwater
-│   │   └── exam_notes/                Quick reference & cheat sheets
 │   ├── structures/                    SOM, RCC IS 456, Steel IS 800
 │   ├── geotechnical/                  Soil mechanics, bearing capacity, slopes
 │   ├── environmental/                 Water/air pollution, BOD/COD, EIA
@@ -100,22 +384,18 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 │   ├── aptitude/                      Quant, reasoning, verbal, shortcuts
 │   ├── guesstimates/                  Guesstimate guide
 │   ├── case-interviews/               Frameworks, communication
-│   ├── resume-positioning/            Civil → non-core transition
 │   └── common/                        Shared: behavioral, HR, resume
 │
 ├── prep/                              ── Interview Preparation ──
-│   ├── behavioral/                    STAR bank, HR, self-intros, leadership
-│   ├── technical/                     Technical Q&A, project defense
-│   ├── mock-tests/                    8 full mock sessions
-│   ├── company-profiles/              14+ company profiles
-│   ├── hr/                            HR interview guide
+│   ├── interview/                     Technical, HR, mock, revision
+│   ├── behavioral/                    STAR bank, self-intros, leadership
+│   ├── company-profiles/              25+ company strategies
 │   └── templates/                     Resume, self-intro, study plan
 │
 ├── software-and-tech/                 ── Software & Technology ──
 │   ├── programming/                   Python, MATLAB, SQL, Git, C/C++
-│   ├── deep-dives/                    HEC-RAS, OpenFOAM, SWMM, EPANET, PLAXIS…
-│   ├── branch-roadmaps.md             Branch → software decision system
-│   └── [role-specific]/               HWRE, structural, geo, enviro, GIS, CFD…
+│   ├── deep-dives/                    HEC-RAS, OpenFOAM, SWMM, EPANET, PLAXIS
+│   └── [role-specific]/               HWRE, structural, geo, enviro, GIS, CFD
 │
 ├── resources/                         Books, links, papers, placement data
 ├── index/                             Master index, topic map
@@ -124,83 +404,11 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 └── .github/                           CI, issue templates, PR template
 ```
 
----
-
-## 📊 At a Glance
-
-| Metric | Count |
-|:-------|------:|
-| Markdown Files | 249 |
-| Subject Guides | 12 |
-| Interview Q&As | 195 |
-| Mock Interview Sessions | 8 |
-| Software Deep-Dives | 7 |
-| Company Profiles | 33+ |
-| Non-Core Career Tracks | 14 |
-| Numerical Worked Examples | 15 |
+</details>
 
 ---
 
-## 🏗️ Core Subjects
-
-| # | Subject | Guide |
-|:-:|:--------|:------|
-| 1 | **Hydraulics & CFD** | [hydraulics.md](core/hwre/hydraulics/hydraulics.md) · [turbulence](core/hwre/hydraulics/turbulence-modeling.md) |
-| 2 | **Open Channel Flow** | [open-channel-flow.md](core/hwre/open_channel_flow/open-channel-flow.md) |
-| 3 | **Hydrology** | [hydrology.md](core/hwre/hydrology/hydrology.md) · [sediment](core/hwre/hydrology/sediment-transport.md) |
-| 4 | **Water Resources** | [water-resources-engineering.md](core/hwre/water_resources/water-resources-engineering.md) |
-| 5 | **Structural Engineering** | [structures.md](core/structures/structures.md) |
-| 6 | **Geotechnical** | [geotechnical.md](core/geotechnical/geotechnical.md) |
-| 7 | **Environmental** | [environmental-engineering.md](core/environmental/environmental-engineering.md) |
-| 8 | **Transportation** | [transportation-engineering.md](core/transportation/transportation-engineering.md) |
-| 9 | **Geoinformatics** | [geoinformatics.md](core/geoinformatics/geoinformatics.md) |
-| 10 | **Infrastructure Mgmt** | [infrastructure-engineering-management.md](core/infrastructure/infrastructure-engineering-management.md) |
-
----
-
-## 🎤 Interview Toolkit
-
-| Resource | Coverage |
-|:---------|:---------|
-| [**Technical Q&A Bank**](prep/technical/technical-interview-bank.md) | 100 questions by topic with numericals |
-| [**Mock Interview Database**](prep/mock-tests/mock-interview-database.md) | 8 full sessions — Easy → Expert |
-| [**Project Defense Guide**](prep/technical/project-defense-guide.md) | Universal 20 Qs + CFD-Specific 15 Qs |
-| [**Behavioral Guide**](prep/behavioral/behavioral-interview-guide.md) | STAR method, 30+ stories, conflict, leadership |
-| [**HR Questions Bank**](prep/behavioral/hr_questions/hr-questions-bank.md) | 50 HR questions + 26 hybrid Qs |
-| [**Self Introduction**](prep/behavioral/self_intro/self-introduction-system.md) | Frameworks + 5 role-specific samples |
-| [**Resume Template**](prep/templates/resume-template.md) | ATS-friendly template for core roles |
-| [**Quick Revision**](prep/quick-revision-system.md) | 1-Day, 7-Day, 30-Day crash plans |
-| [**Company Profiles**](prep/company-profiles/) | 14+ companies + interview transcripts |
-
----
-
-## 🧮 Aptitude & Behavioral
-
-| Area | Resources |
-|:-----|:----------|
-| **Quantitative** (14 topics) | [Aptitude Basics](non-core/aptitude/quantitative/aptitude-basics.md) · [Shortcuts](non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
-| **Logical Reasoning** | [Reasoning Practice](non-core/aptitude/logical_reasoning/reasoning-practice.md) |
-| **Verbal Ability** | [Verbal Guide](non-core/aptitude/verbal/verbal-ability.md) |
-| **Behavioral** | [Behavioral Guide](prep/behavioral/behavioral-interview-guide.md) · [Story Bank](prep/behavioral/story-bank/) |
-
----
-
-## 📋 Study Schedule
-
-| Phase | Window | Focus |
-|:------|:-------|:------|
-| **Phase 0: Bootstrap** | Aug 21 – Sep 07 | Resume, syllabus mapping, repo setup |
-| **Phase 1: Core Revision** | Sep 08 – Sep 30 | Hydraulics, Hydrology, Structures, Geotech |
-| **Phase 2: Mock & Coding** | Oct 01 – Oct 20 | Mock interviews, Python/SQL, STAR bank |
-| **Phase 3: Company-Wise** | Oct 21 – Nov 10 | PSU, Core, Analytics company prep |
-| **Phase 4: Final Revision** | Nov 11 – Dec 01 | Flashcards, cheat-sheets, final mocks |
-| **Phase 5: Live Interviews** | Dec 2026 | Execute, log, postmortem, iterate |
-
-> Full daily planner → [`docs/roadmap.md`](docs/roadmap.md)
-
----
-
-## 🚀 Getting Started
+## 🚀 Quick Setup
 
 ```bash
 # Clone the repository
@@ -211,8 +419,8 @@ cd DKS_IITK_Civil_HWRE_Placement_2026
 python scripts/validate_index.py
 ```
 
-| Index | Description |
-|:------|:------------|
+| Resource | Description |
+|:---------|:------------|
 | [`index/master_index.md`](index/master_index.md) | Complete topic index (50 topics) |
 | [`index/topic_map.md`](index/topic_map.md) | Topic → source → destination mapping |
 | [`docs/start-here.md`](docs/start-here.md) | New user onboarding |
@@ -225,12 +433,6 @@ python scripts/validate_index.py
 1. Fork → Branch → Commit → Push → PR
 2. Run `python scripts/validate_index.py` before committing
 3. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for content standards
-
----
-
-## 📜 License
-
-MIT — see [`LICENSE`](LICENSE)
 
 ---
 

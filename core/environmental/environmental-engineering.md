@@ -4,7 +4,7 @@
 
 Environmental engineering applies engineering principles to protect and restore the natural environment — covering water and air pollution control, solid and hazardous waste management, environmental impact assessment, climate resilience, and sustainability. Core competency for PSU roles (CPCB, SPCB, NEERI, CPHEEO) and consulting positions.
 
-> **Related topics:** [`water-supply.md`](../../core/hwre/water_supply/water-supply.md) · [`wastewater-engineering.md`](../../core/hwre/wastewater/wastewater-engineering.md) · [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
+> **Related topics:** [`water-supply.md`](../hwre/water_supply/water-supply.md) · [`wastewater-engineering.md`](../hwre/wastewater/wastewater-engineering.md) · [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
 
 ---
 

@@ -4,7 +4,7 @@
 
 Flood control encompasses structural and non-structural measures to reduce flood damage and protect life, property, and infrastructure. It draws on hydrology, hydraulics, and hydraulic structure design.
 
-> **Related topics:** [`../../core/hwre/hydrology/hydrology.md`](../../core/hwre/hydrology/hydrology.md) · [`../../core/hwre/open_channel_flow/open-channel-flow.md`](../../core/hwre/open_channel_flow/open-channel-flow.md) · [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md)
+> **Related topics:** [`hydrology.md`](../hydrology/hydrology.md) · [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md)
 
 ---
 

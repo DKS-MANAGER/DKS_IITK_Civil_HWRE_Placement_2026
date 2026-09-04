@@ -4,7 +4,7 @@
 
 Irrigation engineering deals with the planning, design, and management of water supply systems for agricultural crops. It bridges hydrology, soil science, crop physiology, and water resources engineering.
 
-> **Related topics:** [`water-resources-engineering.md`](../../core/hwre/water_resources/water-resources-engineering.md) · [`groundwater.md`](../water_supply/groundwater.md) · [`flood-control.md`](../flood_control/flood-control.md)
+> **Related topics:** [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) · [`groundwater.md`](../water_supply/groundwater.md) · [`flood-control.md`](../flood_control/flood-control.md)
 
 ---
 

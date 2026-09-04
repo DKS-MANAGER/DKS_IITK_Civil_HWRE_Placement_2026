@@ -1,4 +1,4 @@
-# Rodic Consultants — Civil Placement Strategy
+﻿# Rodic Consultants — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 389.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.
@@ -272,7 +272,7 @@ Day 5: Legislation + standards | Day 6: Numericals | Day 7: Mock interview
 - [Wastewater Engineering](../../core/hwre/wastewater/wastewater-engineering.md)
 - [Hydraulics](../../core/hwre/hydraulics/hydraulics.md)
 - [Open Channel Flow](../../core/hwre/open_channel_flow/open-channel-flow.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 
 ---
 

@@ -1,4 +1,4 @@
-# 🎓 IITK M.Tech / PG-Specific Questions — 30 Questions
+﻿# 🎓 IITK M.Tech / PG-Specific Questions — 30 Questions
 
 > **These questions are asked specifically because you're an IIT Kanpur postgraduate. They probe your academic journey, thesis depth, and why you chose this path.**
 
@@ -249,7 +249,7 @@
 - [`../question-master-database.md`](question-master-database.md) — Questions 143-157
 - [`../self_intro/self-introduction-system.md`](self_intro/self-introduction-system.md) — Intro that references IITK
 - [`../civil-hwre-behavioral.md`](civil-hwre-behavioral.md) — Civil/HWRE-specific prep
-- [`../../prep/technical/project-defense-guide.md`](../../prep/technical/project-defense-guide.md) — Technical project defense
+- [`../../prep/interview/technical/project-defense-guide.md`](../../prep/interview/technical/project-defense-guide.md) — Technical project defense
 
 ---
 

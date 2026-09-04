@@ -1,4 +1,4 @@
-# ITC Limited — Civil Placement Strategy
+﻿# ITC Limited — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 222.
 
@@ -68,7 +68,7 @@ Day 5: MEP basics | Day 6: ITC research | Day 7: Mock + behavioral
 ```
 
 ## Cross-Links
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 - [Resume Template](../templates/resume-template.md)
 
 ## References

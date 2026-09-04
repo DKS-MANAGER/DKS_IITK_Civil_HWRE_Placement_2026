@@ -1,6 +1,6 @@
-# Technology / Tech-Adjacent Roles — Preparation Guide
+# Technology / Tech-Adjacent Roles â€” Preparation Guide
 
-> For Civil students moving toward tech. Focus on roles realistically accessible to engineering graduates — not a full CS track.
+> For Civil students moving toward tech. Focus on roles realistically accessible to engineering graduates â€” not a full CS track.
 
 ---
 
@@ -79,7 +79,7 @@ Tech-adjacent roles use technology but aren't pure software engineering. They br
 ### Software Development Lifecycle (SDLC)
 
 ```
-Requirements → Design → Development → Testing → Deployment → Maintenance
+Requirements â†’ Design â†’ Development â†’ Testing â†’ Deployment â†’ Maintenance
 ```
 
 ### Agile / Scrum
@@ -135,7 +135,7 @@ Requirements → Design → Development → Testing → Deployment → Maintenan
 
 ---
 
-## Civil → Tech Advantage
+## Civil â†’ Tech Advantage
 
 | Civil Skill | Tech Translation |
 |:------------|:-----------------|
@@ -158,7 +158,7 @@ Requirements → Design → Development → Testing → Deployment → Maintenan
 **Bullet example:**
 - "Built Python (Pandas) analysis pipeline processing 50,000+ data points, automating reporting and reducing manual work by 60%"
 
-→ Full resume guide: [resume.md](../common/resume.md)
+â†’ Full resume guide: [resume.md](../common/resume.md)
 
 ---
 
@@ -169,7 +169,7 @@ Requirements → Design → Development → Testing → Deployment → Maintenan
 | SQL Practice | [sql-practice.md](../business-analyst/sql-practice.md) |
 | Statistics | [statistics-practice.md](../data-analyst/statistics-practice.md) |
 | Product Management | [pm-overview.md](../product-management/pm-overview.md) |
-| Software Interview Guide | [software-interview-guide](../../prep/software-interview-guide.md) |
+| Software Interview Guide | [software-interview-guide](../../prep/interview/software-interview-guide.md) |
 
 ---
 

@@ -1,4 +1,4 @@
-# Bharat Petroleum Corp. Ltd — Civil Placement Strategy
+﻿# Bharat Petroleum Corp. Ltd — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 54.
 
@@ -100,7 +100,7 @@ Day 5: Project management | Day 6: BPCL research | Day 7: Mock interview
 ## Cross-Links
 - [RCC Design](../../core/rcc/rcc-design.md)
 - [Steel Design](../../core/steel/steel-design.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 
 ## References
 - IS 456:2000, IS 800:2007

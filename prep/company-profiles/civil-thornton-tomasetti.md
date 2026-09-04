@@ -1,4 +1,4 @@
-# Thornton Tomasetti — Civil Placement Strategy
+﻿# Thornton Tomasetti — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 456.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.
@@ -365,7 +365,7 @@ judgment, innovative problem-solving, and international awareness.
 - [Steel Design](../../core/steel/steel-design.md)
 - [Strength of Materials](../../core/fundamentals/strength-of-materials.md)
 - [Engineering Mechanics](../../core/fundamentals/engineering-mechanics.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 
 ---
 

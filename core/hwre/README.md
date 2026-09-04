@@ -1,13 +1,13 @@
-# HWRE — Hydraulics & Water Resources Engineering
+# HWRE â€” Hydraulics & Water Resources Engineering
 
-> **The flagship specialization track.** A complete, connected pathway from core concepts to interview-ready — without leaving the HWRE system.
+> **The flagship specialization track.** A complete, connected pathway from core concepts to interview-ready â€” without leaving the HWRE system.
 
 ---
 
 ## The HWRE Journey
 
 ```
-CONCEPT → FORMULA → NUMERICAL → SOFTWARE → PROJECT → INTERVIEW → REVISION
+CONCEPT â†’ FORMULA â†’ NUMERICAL â†’ SOFTWARE â†’ PROJECT â†’ INTERVIEW â†’ REVISION
 ```
 
 Every topic below connects to its full preparation chain.
@@ -64,11 +64,11 @@ Every topic below connects to its full preparation chain.
 
 | Resource | Coverage |
 |:---------|:---------|
-| [Technical Interview Bank](../../prep/technical/technical-interview-bank.md) | 100 Q&As including HWRE topics |
-| [Project Defense Guide](../../prep/technical/project-defense-guide.md) | 35 defense questions |
-| [Software Interview Guide](../../prep/software-interview-guide.md) | 20+ tools with Q&A |
+| [Technical Interview Bank](../../prep/interview/technical/technical-interview-bank.md) | 100 Q&As including HWRE topics |
+| [Project Defense Guide](../../prep/interview/technical/project-defense-guide.md) | 35 defense questions |
+| [Software Interview Guide](../../prep/interview/software-interview-guide.md) | 20+ tools with Q&A |
 | [Behavioral Guide](../../prep/behavioral/behavioral-interview-guide.md) | STAR stories, project-specific |
-| [Mock Interview Database](../../prep/mock-tests/mock-interview-database.md) | 8 full sessions |
+| [Mock Interview Database](../../prep/interview/mock-tests/mock-interview-database.md) | 8 full sessions |
 
 ---
 
@@ -78,7 +78,7 @@ Every topic below connects to its full preparation chain.
 |:---------|:----|
 | [HWRE Exam Notes](exam_notes/hwre-exam-notes.md) | One-page cheat sheet |
 | [Formula Sheet](../../core/gate/formulas/gate-civil-formulas.md) | Complete formula reference |
-| [Quick Revision System](../../prep/quick-revision-system.md) | 1-Day, 7-Day, 30-Day plans |
+| [Quick Revision System](../../prep/interview/quick-revision-system.md) | 1-Day, 7-Day, 30-Day plans |
 
 ---
 
@@ -98,18 +98,18 @@ Every topic below connects to its full preparation chain.
 
 ```
 Hydraulics
-  ↔ Open Channel Flow
-  ↔ Hydrology
-  ↔ Water Resources
-  ↔ Sediment Transport
-  ↔ Turbulence / CFD
-  ↔ HEC-RAS / HEC-HMS / EPANET / SWMM / OpenFOAM
-  ↔ Python / MATLAB
-  ↔ Project Defense
-  ↔ Interview
-  ↔ Revision
+  â†” Open Channel Flow
+  â†” Hydrology
+  â†” Water Resources
+  â†” Sediment Transport
+  â†” Turbulence / CFD
+  â†” HEC-RAS / HEC-HMS / EPANET / SWMM / OpenFOAM
+  â†” Python / MATLAB
+  â†” Project Defense
+  â†” Interview
+  â†” Revision
 ```
 
 ---
 
-> **Back to:** [Core Civil](../README.md) · [Start Here](../../docs/start-here.md) · [Control Panel](../../docs/placement-control-panel.md)
+> **Back to:** [Core Civil](../README.md) Â· [Start Here](../../docs/start-here.md) Â· [Control Panel](../../docs/placement-control-panel.md)

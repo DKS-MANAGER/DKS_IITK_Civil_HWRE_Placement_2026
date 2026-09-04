@@ -197,10 +197,10 @@
 | Aptitude shortcuts | [`non-core/aptitude/shortcuts/aptitude-shortcuts.md`](../non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
 | Behavioral STAR | [`prep/behavioral/behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) |
 | HR questions | [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) |
-| Technical Q&A | [`prep/technical/technical-interview-bank.md`](../prep/technical/technical-interview-bank.md) |
-| Mock interviews | [`prep/mock-tests/mock-interview-questions.md`](../prep/mock-tests/mock-interview-questions.md) |
-| Project discussion | [`prep/technical/project-discussion.md`](../prep/technical/project-discussion.md) |
-| Salary negotiation | [`prep/hr/hr-interview-guide.md`](../prep/hr/hr-interview-guide.md) |
+| Technical Q&A | [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md) |
+| Mock interviews | [`prep/interview/mock-tests/mock-interview-questions.md`](../prep/interview/mock-tests/mock-interview-questions.md) |
+| Project discussion | [`prep/interview/technical/project-discussion.md`](../prep/interview/technical/project-discussion.md) |
+| Salary negotiation | [`prep/interview/hr/hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md) |
 | Resume template | [`prep/templates/resume-template.md`](../prep/templates/resume-template.md) |
 | Self-intro template | [`prep/templates/self-intro-template.md`](../prep/templates/self-intro-template.md) |
 | Study plan | [`prep/templates/study-plan-template.md`](../prep/templates/study-plan-template.md) |

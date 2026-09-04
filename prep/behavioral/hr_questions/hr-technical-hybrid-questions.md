@@ -1,4 +1,4 @@
-# HR + Technical Hybrid Questions — Final Round Preparation
+﻿# HR + Technical Hybrid Questions — Final Round Preparation
 
 > **When asked:** Final rounds, HR panel with technical members, Director-level interviews.
 > **Strategy:** These questions test if you can explain technical concepts to non-technical stakeholders AND show cultural fit. Answer format: Technical accuracy + Communication clarity + Company alignment.
@@ -211,8 +211,8 @@ For all behavioral/hybrid questions, use STAR+T:
 - [`hr-questions-bank.md`](hr-questions-bank.md) — 50 HR questions with model answers
 - [`behavioral-interview-guide.md`](../behavioral-interview-guide.md) — STAR format deep dive
 - [`self-introduction.md`](../self_intro/self-introduction.md) — Self-intro templates
-- [`mock-interview-database.md`](../../mock-tests/mock-interview-database.md) — Full mock interviews (Mock 7 is HR+Technical hybrid)
-- [`project-defense-guide.md`](../../technical/project-defense-guide.md) — Project defense Q&As
+- [`mock-interview-database.md`](../../interview/mock-tests/mock-interview-database.md) — Full mock interviews (Mock 7 is HR+Technical hybrid)
+- [`project-defense-guide.md`](../../interview/technical/project-defense-guide.md) — Project defense Q&As
 
 ---
 

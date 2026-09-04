@@ -3,6 +3,36 @@
 > **How to use:** Practice 2-layer answers: Concept → Application → Caveat.
 > Target: Answer any question in 60–90 seconds with a derivation or example.
 
+### Difficulty Legend
+
+| Level | Meaning | Strategy |
+|:------|:--------|:---------|
+| 🟢 **Easy** | Definition / recall — appears in 80%+ interviews | Know instantly, ≤30 sec |
+| 🟡 **Medium** | Applied concept / comparison — appears in 50–80% interviews | Structured 60-sec answer |
+| 🔴 **Hard** | Derivation / design / scenario — appears in 20–50% interviews | Practice with paper |
+| ⚫ **Expert** | Research / CFD depth / IITK PG level — niche roles | Deep understanding required |
+
+### Section Difficulty Guide
+
+| Section | Easy | Medium | Hard | Expert | Focus |
+|:--------|:----:|:------:|:----:|:------:|:------|
+| Fluid Mechanics & Hydraulics (Q1–Q20) | Q3, Q17 | Q1, Q2, Q4–Q16, Q18–Q20 | — | — | Foundations of HWRE |
+| Open Channel Flow (Q21–Q35) | Q25, Q29 | Q21–Q24, Q26–Q28, Q30–Q35 | — | — | Core interview topic |
+| Hydrology & WRE (Q36–Q50) | Q43, Q46 | Q36–Q42, Q44–Q45, Q47–Q50 | — | — | Core interview topic |
+| Turbulence & CFD (Q51–Q65) | Q61 | Q51–Q53, Q58, Q60, Q62 | Q54–Q57, Q59, Q63–Q65 | — | R&D / CFD roles |
+| Structures & Geotech (Q66–Q80) | Q68 | Q66–Q67, Q69–Q80 | — | — | Core design roles |
+| Environmental & Transport (Q81–Q100) | Q83, Q95 | Q81–Q82, Q84–Q94, Q96–Q100 | — | — | Core + PSU roles |
+
+### Answer Format: Concept → Application → Follow-up
+
+For each question, structure your answer as:
+
+```
+1. CONCEPT (15 sec): Define or state the principle
+2. APPLICATION (30 sec): How it's used, an example, or a comparison
+3. FOLLOW-UP PREP: What the interviewer might ask next
+```
+
 ---
 
 ## 🌊 Fluid Mechanics & Hydraulics (Q1–Q20)
@@ -349,5 +379,5 @@
 
 ## References
 
-* [`../core/hwre/hydraulics/hydraulics.md`](../../core/hwre/hydraulics/hydraulics.md) — Detailed hydraulics
-* [`../core/hwre/hydraulics/turbulence-modeling.md`](../../core/hwre/hydraulics/turbulence-modeling.md) — CFD details
+* [`hydraulics.md`](../../core/hwre/hydraulics/hydraulics.md) — Detailed hydraulics
+* [`turbulence-modeling.md`](../../core/hwre/hydraulics/turbulence-modeling.md) — CFD details

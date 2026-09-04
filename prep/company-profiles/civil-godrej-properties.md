@@ -1,4 +1,4 @@
-# Godrej Properties — Civil Placement Strategy
+﻿# Godrej Properties — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 166.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.
@@ -352,7 +352,7 @@ for on-site work and understand real-estate project lifecycle.
 
 - [RCC Design](../../core/rcc/rcc-design.md)
 - [Construction Management](../../core/infrastructure/infrastructure-engineering-management.md)
-- [Technical Interview Bank](../technical/technical-interview-bank.md)
+- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 - [Resume Template](../templates/resume-template.md)
 
 ---

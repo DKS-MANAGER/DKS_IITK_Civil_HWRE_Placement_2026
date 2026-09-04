@@ -4,7 +4,7 @@
 
 Water resources engineering encompasses the planning, development, distribution, and management of water for human and environmental needs. It integrates hydrology, hydraulics, groundwater, and irrigation into systems-level design.
 
-> **Related topics:** [`hydrology.md`](../hydrology/hydrology.md) · [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`../core/hwre/irrigation/irrigation-engineering.md`](../../core/hwre/irrigation/irrigation-engineering.md) · [`../core/hwre/water_supply/water-supply.md`](../../core/hwre/water_supply/water-supply.md)
+> **Related topics:** [`hydrology.md`](../hydrology/hydrology.md) · [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) · [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md) · [`water-supply.md`](../water_supply/water-supply.md)
 
 ---
 
