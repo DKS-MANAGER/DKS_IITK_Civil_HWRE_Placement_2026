@@ -19,14 +19,32 @@ desktop.ini
 # ============================
 # AI Coding Assistants & Model Frameworks
 # ============================
+# Directory-based configs
 .roo/
+.roomodes
 .cursor/
 .windsurf/
-.aider*
-.copilot*
-.claude*
-.github/copilot-instructions.md
+.claude*/
+.claude_projects/
+.cline/
 .kiro/
+.aider*
+.aiderignore
+.copilot*
+.github/copilot-instructions.md
+
+# AI instruction files
+.cursorrules
+.windsurfrules
+.copilotignore
+.clinerules
+AGENTS.md
+CLAUDE.md
+INSTRUCTIONS.md
+
+# AI session / setup docs (tool-specific, not repo content)
+**/fable-mode-setup.md
+.fable*
 
 # AI model files and weights
 *.pkl
@@ -59,10 +77,7 @@ model_outputs/
 
 # AI prompt/response files and session logs
 *.prompt
-.claude_projects/
-.cursorrules
-.windsurfrules
-.copilotignore
+.ai_sessions/
 ai_sessions/
 prompt_history/
 conversation_logs/
