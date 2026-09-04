@@ -17,7 +17,7 @@ desktop.ini
 *.sublime-workspace
 
 # ============================
-# AI Coding Assistants
+# AI Coding Assistants & Model Frameworks
 # ============================
 .roo/
 .cursor/
@@ -28,13 +28,62 @@ desktop.ini
 .github/copilot-instructions.md
 .kiro/
 
+# AI model files and weights
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.gguf
+*.bin
+model_weights/
+model_checkpoints/
+saved_models/
+pretrained_models/
+fine_tuned_models/
+lora_adapters/
+
+# AI training data and outputs
+training_data/
+training_logs/
+wandb/
+mlruns/
+tensorboard/
+runs/
+lightning_logs/
+output_dir/
+model_outputs/
+
+# AI prompt/response files and session logs
+*.prompt
+.claude_projects/
+.cursorrules
+.windsurfrules
+.copilotignore
+ai_sessions/
+prompt_history/
+conversation_logs/
+
 # ============================
-# Node / JS
+# Node / JS / TypeScript
 # ============================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+.npm/
+.yarn/
+dist/
+.next/
+.nuxt/
+.output/
+out/
+*.tsbuildinfo
+eslintcache
 
 # ============================
 # LaTeX
@@ -51,6 +100,15 @@ yarn-error.log*
 *.fdb_latexmk
 *.lof
 *.lot
+*.fdb
+*.spl
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+*.ist
 
 # ============================
 # Python
@@ -66,9 +124,20 @@ build/
 venv/
 env/
 .env
+.env.*
 pip-log.txt
 pip-delete-this-directory.txt
 *.whl
+*.egg
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.coverage
+coverage/
+htmlcov/
+.coverage.*
+*.cover
 
 # ============================
 # OpenFOAM
@@ -80,6 +149,46 @@ processor*/
 *.vtu
 *.raw
 *.foam
+
+# ============================
+# CFD / Simulation Data
+# ============================
+*.cgns
+*.enSight
+*.ensight
+*.fluent
+*.cas
+*.dat
+processor[0-9]*/
+case*/
+
+# ============================
+# MATLAB / Simulink
+# ============================
+*.slx
+*.slxc
+*.slprj
+*.autosave
+*.mex*
+*.mlappinstall
+*.mltbx
+*.mat
+
+# ============================
+# GIS / Geospatial
+# ============================
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gpkg
+*.gdb/
+*.tif
+*.tiff
+*.geodatabase/
 
 # ============================
 # Temp / Cache / Logs
@@ -101,6 +210,28 @@ logs/
 # Audit Reports (local-only)
 # ============================
 docs/deep-critical-audit.md
+
+# ============================
+# OS-Specific Large Files
+# ============================
+*.iso
+*.img
+*.dmg
+
+# ============================
+# Miscellaneous
+# ============================
+*.bak
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
 # ============================
 # Git

@@ -130,14 +130,14 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 
 | Metric | Count |
 |:-------|------:|
-| Markdown Files | 105+ |
-| Subject Guides | 14 |
-| Interview Q&As | 500+ |
+| Markdown Files | 218 |
+| Subject Guides | 12 |
+| Interview Q&As | 195 |
 | Mock Interview Sessions | 8 |
 | Software Deep-Dives | 7 |
-| Company Profiles | 14+ |
-| Non-Core Career Tracks | 10+ |
-| Numerical Worked Examples | 50+ |
+| Company Profiles | 12+ |
+| Non-Core Career Tracks | 14 |
+| Numerical Worked Examples | 15 |
 
 ---
 
@@ -237,6 +237,8 @@ MIT — see [`LICENSE`](LICENSE)
 <div align="center">
 
 **IIT Kanpur M.Tech Civil / HWRE · Placement 2026**
+
+*Created and Managed by DKS*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 

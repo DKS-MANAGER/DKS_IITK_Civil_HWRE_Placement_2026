@@ -1,0 +1,35 @@
+{
+  "markdown_files": 218,
+  "interview_qa_total": 195,
+  "interview_qa_breakdown": {
+    "prep/technical/technical-interview-bank.md": 100,
+    "prep/behavioral/hr_questions/hr-questions-bank.md": 50,
+    "core/hwre/hydraulics/hydraulics.md": 10,
+    "core/hwre/open_channel_flow/open-channel-flow.md": 6,
+    "core/hwre/hydrology/hydrology.md": 6,
+    "core/hwre/water_resources/water-resources-engineering.md": 4,
+    "core/structures/structures.md": 5,
+    "core/geotechnical/geotechnical.md": 4,
+    "non-core/consulting/case-bank.md": 10
+  },
+  "mock_sessions": 8,
+  "company_profiles": 12,
+  "numerical_examples": 15,
+  "software_deep_dives": 7,
+  "noncore_tracks": 14,
+  "subject_guides": 12,
+  "subject_names": [
+    "Hydraulics",
+    "Open Channel Flow",
+    "Hydrology",
+    "Water Resources",
+    "Flood Control",
+    "Irrigation",
+    "Structures",
+    "Geotechnical",
+    "Environmental",
+    "Transportation",
+    "Geoinformatics",
+    "Infrastructure"
+  ]
+}
