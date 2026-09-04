@@ -288,6 +288,72 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 
 ---
 
+## 🎯 Role-Based Navigation
+
+> **Preparing for a role, not a subject?** Find your role below to get the exact preparation path.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Core Civil Roles
+
+| Role | Key Subjects | Companies | Start Here |
+|:-----|:-------------|:----------|:-----------|
+| **Structural Engineer** | Structures, RCC, Steel IS 800 | L&T, Thornton Tomasetti, SPECTRUM | [Structures](core/structures/structures.md) |
+| **Geotechnical Engineer** | Soil Mechanics, Foundations | Reliance New Energy, L&T | [Geotechnical](core/geotechnical/geotechnical.md) |
+| **Transportation Engineer** | Highway, Pavement, Traffic | ASC Infratech | [Transportation](core/transportation/transportation-engineering.md) |
+| **Environmental Engineer** | BOD/COD, Treatment, EIA | Rodic, BPCL | [Environmental](core/environmental/environmental-engineering.md) |
+| **GIS / Geospatial** | GIS, Remote Sensing, GNSS | GIST, Vassarlabs | [Geoinformatics](core/geoinformatics/geoinformatics.md) |
+| **Construction Mgmt** | CPM/PERT, Estimation, PPP | L&T, Tata Projects | [Infrastructure](core/infrastructure/infrastructure-engineering-management.md) |
+
+</td>
+<td width="50%" valign="top">
+
+### HWRE & Specialized Roles
+
+| Role | Key Subjects | Companies | Start Here |
+|:-----|:-------------|:----------|:-----------|
+| **Hydraulic Engineer** | Hydraulics, OCF, Turbulence | NHPC, WAPCOS, AECOM | [Hydraulics](core/hwre/hydraulics/hydraulics.md) |
+| **Water Resources Eng.** | Hydrology, WRE, Sediment | WAPCOS, NTPC, Rodic | [WRE](core/hwre/water_resources/water-resources-engineering.md) |
+| **CFD / Research** | Turbulence, OpenFOAM, HPC | Labs, IITs, AgniKul | [Turbulence](core/hwre/hydraulics/turbulence-modeling.md) |
+| **Software / Data** | Python, SQL, Analytics | Barclays, Accenture | [Software Roadmap](software-and-tech/branch-roadmaps.md) |
+| **Consulting** | Case Frameworks, Guesstimates | BCG, Consulting firms | [Consulting](non-core/consulting/consulting-overview.md) |
+| **Data Analyst** | Statistics, Python, SQL | Accenture, Axtria | [DA Overview](non-core/data-analyst/da-overview.md) |
+
+</td>
+</tr>
+</table>
+
+> Not sure which role? → [`non-core/role-selector.md`](non-core/role-selector.md) (self-assessment tool)
+
+---
+
+## ❓ Question Navigation
+
+> **Need questions?** Find them by type, topic, or format — all linked to canonical concept pages.
+
+| I Need... | What It Tests | Where to Find |
+|:----------|:--------------|:--------------|
+| **Concept Questions** | Theory understanding | Subject guides — Sections A-B (e.g., [Hydraulics](core/hwre/hydraulics/hydraulics.md)) |
+| **WHY Questions** | Reasoning depth | Subject guides — Section B (e.g., [Hydrology](core/hwre/hydrology/hydrology.md)) |
+| **WHAT-IF Questions** | Applied thinking | Subject guides — Section C |
+| **Comparison Questions** | Conceptual differences | Subject guides — Section D |
+| **Numerical Problems** | Calculation speed | Subject guides — Section E + [GATE Practice](core/gate/practice/gate-civil-practice.md) |
+| **Rapid-Fire (30+ per topic)** | Quick recall | Subject guides — Section F |
+| **Deep Technical (PG Level)** | Research depth | Subject guides — Section G |
+| **100+ Interview Q&A** | Placement-style | [Technical Bank](prep/interview/technical/technical-interview-bank.md) |
+| **8 Mock Sessions** | Full simulation | [Mock Database](prep/interview/mock-tests/mock-interview-database.md) |
+| **50 HR Questions** | Behavioral fit | [HR Bank](prep/behavioral/hr_questions/hr-questions-bank.md) |
+| **35 Project Defense** | Thesis/project | [Project Defense](prep/interview/technical/project-defense-guide.md) |
+| **30+ STAR Stories** | Behavioral | [Behavioral Guide](prep/behavioral/behavioral-interview-guide.md) |
+| **15 Case Interview** | Consulting | [Case Bank](non-core/consulting/case-bank.md) |
+| **100+ Guesstimates** | Estimation | [Guesstimate Guide](non-core/guesstimates/guesstimate-guide.md) |
+
+> **Question labeling:** Questions in subject guides are tagged `[P0]`–`[P3]` by priority and labeled by type (CONCEPT, WHY, WHAT-IF, NUMERICAL, APPLICATION).
+
+---
+
 ## 📋 Study Schedule
 
 <table>
