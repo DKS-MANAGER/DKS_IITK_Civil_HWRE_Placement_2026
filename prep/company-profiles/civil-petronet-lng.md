@@ -13,6 +13,15 @@
 | **Location** | Delhi / Dahej / Kochi / Gopalpur `[CSV]` |
 | **Relevance** | **MEDIUM** — LNG terminal owner; major civil/marine/structural scope `[INFERRED]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| LNG terminal structural works | RCC/steel design for industrial/marine | Study IS 456 + IS 800 for industrial |
+| Jetty & marine construction | Marine structures, pile foundations | Study marine construction basics |
+| Storage tank foundations | Geotechnical, RCC mat foundations | Review tank foundation design |
+| Safety & quality management | Industrial safety, QC procedures | Study OSHA + industrial safety codes |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -33,7 +42,19 @@
 6. Why Petronet LNG? How does civil engineering fit in LNG operations?
 7. What do you know about Dahej LNG terminal?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | RCC Design — IS 456 for industrial structures, tank foundations |
+| 2 | Steel Design — IS 800 for marine/industrial structures |
+| 3 | Construction Technology — industrial construction, LNG terminal methods |
+| 4 | Marine Structures — jetty design, pile foundations, coastal construction |
+| 5 | LNG Operations — terminal infrastructure, storage tanks, safety |
+| 6 | Project Management + PSU prep — safety codes, HPCL/Petronet research |
+| 7 | Mock interview |
+
+## 6. Strategy Card
 
 ```
 COMPANY: Petronet LNG Limited

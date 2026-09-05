@@ -6,8 +6,8 @@ Total markdown files: 344
 ## Status Summary
 
 - **SUBSTANTIAL**: 116
-- **PARTIAL**: 163
-- **THIN**: 64
+- **PARTIAL**: 174
+- **THIN**: 53
 - **PLACEHOLDER**: 1
 
 ## Domain Summary
@@ -320,23 +320,23 @@ Total markdown files: 344
 | prep\company-profiles\civil-asc-infratech.md | PREP/COMPANY-PROFILES | △ PARTIAL | 793 | 10 | 5 |
 | prep\company-profiles\civil-bpcl.md | PREP/COMPANY-PROFILES | △ PARTIAL | 664 | 10 | 5 |
 | prep\company-profiles\civil-cross-company-strategy.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 1793 | 27 | 6 |
-| prep\company-profiles\civil-dimension-renewables.md | PREP/COMPANY-PROFILES | ◦ THIN | 396 | 8 | 4 |
-| prep\company-profiles\civil-gist.md | PREP/COMPANY-PROFILES | ◦ THIN | 411 | 8 | 3 |
+| prep\company-profiles\civil-dimension-renewables.md | PREP/COMPANY-PROFILES | △ PARTIAL | 573 | 10 | 4 |
+| prep\company-profiles\civil-gist.md | PREP/COMPANY-PROFILES | △ PARTIAL | 575 | 10 | 3 |
 | prep\company-profiles\civil-godrej-properties.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 2834 | 40 | 6 |
 | prep\company-profiles\civil-hilti.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 2413 | 35 | 6 |
-| prep\company-profiles\civil-hpcl.md | PREP/COMPANY-PROFILES | ◦ THIN | 425 | 8 | 4 |
-| prep\company-profiles\civil-itc.md | PREP/COMPANY-PROFILES | ◦ THIN | 467 | 8 | 4 |
-| prep\company-profiles\civil-jsw.md | PREP/COMPANY-PROFILES | ◦ THIN | 329 | 7 | 4 |
+| prep\company-profiles\civil-hpcl.md | PREP/COMPANY-PROFILES | △ PARTIAL | 523 | 9 | 4 |
+| prep\company-profiles\civil-itc.md | PREP/COMPANY-PROFILES | △ PARTIAL | 566 | 9 | 4 |
+| prep\company-profiles\civil-jsw.md | PREP/COMPANY-PROFILES | △ PARTIAL | 501 | 9 | 4 |
 | prep\company-profiles\civil-low-tier-all.md | PREP/COMPANY-PROFILES | △ PARTIAL | 743 | 10 | 4 |
 | prep\company-profiles\civil-lt.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 3761 | 47 | 11 |
-| prep\company-profiles\civil-petronet-lng.md | PREP/COMPANY-PROFILES | ◦ THIN | 351 | 7 | 4 |
-| prep\company-profiles\civil-reliance-industries.md | PREP/COMPANY-PROFILES | ◦ THIN | 385 | 7 | 4 |
+| prep\company-profiles\civil-petronet-lng.md | PREP/COMPANY-PROFILES | △ PARTIAL | 529 | 9 | 4 |
+| prep\company-profiles\civil-reliance-industries.md | PREP/COMPANY-PROFILES | △ PARTIAL | 560 | 9 | 4 |
 | prep\company-profiles\civil-reliance-new-energy.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 2560 | 33 | 5 |
 | prep\company-profiles\civil-rodic.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 2165 | 29 | 7 |
-| prep\company-profiles\civil-smarttrak.md | PREP/COMPANY-PROFILES | ◦ THIN | 458 | 8 | 4 |
+| prep\company-profiles\civil-smarttrak.md | PREP/COMPANY-PROFILES | △ PARTIAL | 650 | 10 | 4 |
 | prep\company-profiles\civil-spectrum.md | PREP/COMPANY-PROFILES | △ PARTIAL | 750 | 10 | 5 |
 | prep\company-profiles\civil-thornton-tomasetti.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 2906 | 38 | 8 |
-| prep\company-profiles\civil-tutr-hyperloop.md | PREP/COMPANY-PROFILES | ◦ THIN | 369 | 7 | 4 |
+| prep\company-profiles\civil-tutr-hyperloop.md | PREP/COMPANY-PROFILES | △ PARTIAL | 545 | 9 | 4 |
 | prep\company-profiles\civil-vassarlabs.md | PREP/COMPANY-PROFILES | △ PARTIAL | 1116 | 16 | 7 |
 | prep\company-profiles\company-profiles.md | PREP/COMPANY-PROFILES | ✓ SUBSTANTIAL | 1704 | 22 | 44 |
 | prep\company-profiles\darwinbox.md | PREP/COMPANY-PROFILES | △ PARTIAL | 605 | 9 | 3 |
@@ -347,8 +347,8 @@ Total markdown files: 344
 | prep\company-profiles\interview-experiences.md | PREP/COMPANY-PROFILES | △ PARTIAL | 1205 | 40 | 9 |
 | prep\company-profiles\johnson-controls.md | PREP/COMPANY-PROFILES | △ PARTIAL | 713 | 10 | 4 |
 | prep\company-profiles\mu-sigma.md | PREP/COMPANY-PROFILES | △ PARTIAL | 653 | 9 | 6 |
-| prep\company-profiles\schneider-electric.md | PREP/COMPANY-PROFILES | ◦ THIN | 329 | 9 | 0 |
-| prep\company-profiles\tech-mahindra.md | PREP/COMPANY-PROFILES | ◦ THIN | 372 | 12 | 0 |
+| prep\company-profiles\schneider-electric.md | PREP/COMPANY-PROFILES | △ PARTIAL | 936 | 12 | 2 |
+| prep\company-profiles\tech-mahindra.md | PREP/COMPANY-PROFILES | △ PARTIAL | 1017 | 12 | 3 |
 | **PREP/INTERVIEW** | | | | | |
 | prep\interview\README.md | PREP/INTERVIEW | ◦ THIN | 233 | 4 | 18 |
 | prep\interview\hr\hr-interview-guide.md | PREP/INTERVIEW | ✓ SUBSTANTIAL | 2218 | 39 | 5 |

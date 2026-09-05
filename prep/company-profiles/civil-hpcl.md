@@ -44,7 +44,19 @@
 7. Describe your project experience and its relevance to HPCL.
 8. What do you know about HPCL's recent projects or expansions?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | Construction Technology — industrial construction, refinery infrastructure |
+| 2 | RCC + Steel Design — IS 456 + IS 800 for industrial structures |
+| 3 | Project Management — scheduling, cost control, quality management |
+| 4 | Quality Control & Inspection — QC procedures, NDT methods |
+| 5 | Safety & Pipeline Basics — industrial safety, pipeline engineering |
+| 6 | HPCL Research — refinery operations, PSU culture, recent projects |
+| 7 | Mock interview + behavioral prep |
+
+## 6. Strategy Card
 
 ```
 COMPANY: HPCL

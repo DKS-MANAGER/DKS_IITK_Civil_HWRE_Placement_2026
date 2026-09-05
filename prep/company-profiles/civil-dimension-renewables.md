@@ -13,6 +13,15 @@
 | **Location** | Mohali `[CSV]` |
 | **Relevance** | **MEDIUM** — marine/offshore structural; structural, PMC, document-control, MEP-drafting roles are civil-accessible `[CSV]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| Structural analysis (FEA) for marine | FEA methods, steel design, structural mechanics | Practice FEA problems + IS 800 |
+| AutoCAD structural drawings | CAD drafting, shop drawings, detail drawings | Build AutoCAD portfolio |
+| Project management / PMC | Scheduling, cost control, document control | Study PM basics + MS Project |
+| MEP drafting & coordination | MEP systems, construction drawings | Learn Revit MEP basics |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -42,7 +51,19 @@
 5. What is the role of a structural engineer in marine cable-laying projects?
 6. What is the difference between design drawings and shop drawings?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | Structural Analysis — FEA methods, matrix analysis basics |
+| 2 | Steel Design — IS 800, marine/offshore structural concepts |
+| 3 | AutoCAD — structural drawings, shop drawings, detail drawings |
+| 4 | FEA Software — SACS/SESAM awareness, FEMAP basics |
+| 5 | Marine structures — offshore platforms, cable-laying, jetty design |
+| 6 | PMC/MEP basics — project management, M&E drawings |
+| 7 | Mock interview + company research |
+
+## 6. Strategy Card
 
 ```
 COMPANY: Dimension Renewables Pvt. Ltd

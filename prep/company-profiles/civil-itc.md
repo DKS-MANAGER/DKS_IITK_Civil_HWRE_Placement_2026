@@ -46,7 +46,19 @@
 7. Describe a scenario where you managed multiple priorities simultaneously.
 8. Why ITC? What do you know about ITC's infrastructure projects?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | Construction Management — project lifecycle, scheduling, resource planning |
+| 2 | Estimation & Cost Control — BOQ, quantity surveying, cost tracking |
+| 3 | Quality Control & EHS — QC procedures, safety management, EHS basics |
+| 4 | RCC Design basics — IS 456 fundamentals for factory/hotel structures |
+| 5 | MEP Coordination — building services, HVAC, fire protection basics |
+| 6 | ITC Research — business units, factory/hotel projects, values |
+| 7 | Mock interview + behavioral prep |
+
+## 6. Strategy Card
 
 ```
 COMPANY: ITC Limited

@@ -13,6 +13,15 @@
 | **Location** | PAN India `[CSV]` |
 | **Relevance** | **MEDIUM** — diversified infrastructure/steel/cement/ports group; generic GET open to civil `[INFERRED]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| Construction execution (infrastructure) | RCC design, steel structures, construction tech | Study IS codes + construction methods |
+| Project management | Scheduling, estimation, cost control | PM fundamentals (CPM, PERT) |
+| Steel/cement plant operations | Industrial construction, materials science | Understand steel manufacturing basics |
+| Port/mining infrastructure | Geotechnical, transportation, marine basics | Study port construction + mining civil works |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -33,7 +42,19 @@
 5. Describe a situation where you worked in a team under tight deadlines.
 6. What is your understanding of project lifecycle management?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | RCC Design — IS 456 fundamentals, beam/column design |
+| 2 | Steel Structures — IS 800 basics, connections, tension members |
+| 3 | Construction Technology — industrial construction methods |
+| 4 | Estimation & Project Management — CPM, PERT, cost control |
+| 5 | Infrastructure basics — ports, roads, mining civil works |
+| 6 | JSW company research — businesses, recent projects, values |
+| 7 | Mock interview + behavioral prep |
+
+## 6. Strategy Card
 
 ```
 COMPANY: JSW Group

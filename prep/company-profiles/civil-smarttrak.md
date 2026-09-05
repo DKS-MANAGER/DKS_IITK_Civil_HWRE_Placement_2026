@@ -14,6 +14,15 @@
 | **Relevance** | **MEDIUM** — "Structural Engineering" eligible; wind/seismic load calc for solar-plant structures `[CSV]` |
 | **Evidence** | `[CSV]` — "tracker rails and other infrastructure surrounding … large solar energy project … structural analysis … Wind load calculations, seismic considerations, and fatigue analysis" |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| Structural analysis (FEA) for solar | FEA methods, dynamic analysis, convergence | Practice FEA problems in ANSYS |
+| Wind load calculation | IS 875 Part 3, aerodynamic principles | Study wind load standards + examples |
+| Seismic design for structures | IS 1893, dynamic response, base shear | Practice seismic analysis problems |
+| Steel tracker frame design | IS 800, fatigue analysis, connection design | Study steel design for solar trackers |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -45,7 +54,19 @@
 6. What are the loading conditions for a solar panel support structure?
 7. How do you account for dynamic wind loads on a cantilevered structure?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | Wind Load Calculation — IS 875 Part 3, basic wind speed, design wind pressure |
+| 2 | Seismic Design — IS 1893, response spectrum, base shear calculation |
+| 3 | Steel Design — IS 800, tension/compression members, connections |
+| 4 | FEA Software — ANSYS/Abaqus basics, meshing, boundary conditions |
+| 5 | Fatigue Analysis — S-N curves, Miner's rule, fatigue life estimation |
+| 6 | Solar Structure Design — tracker systems, loading conditions, code compliance |
+| 7 | Mock interview |
+
+## 6. Strategy Card
 
 ```
 COMPANY: Smarttrak AI

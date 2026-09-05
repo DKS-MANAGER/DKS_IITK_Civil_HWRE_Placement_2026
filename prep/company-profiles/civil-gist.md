@@ -13,6 +13,15 @@
 | **Location** | Mumbai / Noida `[CSV]` |
 | **Relevance** | **MEDIUM** — geospatial/GIS analyst role open to civil graduates with GIS/remote-sensing skills; programming-heavy `[CSV]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| GIS data analysis & mapping | QGIS/ArcGIS, vector/raster analysis | Practice GIS workflows daily |
+| Spatial database management | PostGIS, SQL queries | Build PostGIS practice projects |
+| Land-use change detection | Remote sensing, satellite imagery | Study RS image interpretation |
+| Python geospatial processing | GeoPandas, Rasterio, Python scripting | Code geospatial pipelines |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -46,7 +55,19 @@
 7. What Python libraries have you used for geospatial analysis?
 8. How does remote sensing help in environmental impact assessment?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | GIS fundamentals — projections, vector vs raster, coordinate systems |
+| 2 | QGIS/ArcGIS practice — layer management, spatial queries, symbology |
+| 3 | PostGIS/SQL — spatial queries, joins, indexing |
+| 4 | Python for geospatial — GeoPandas, Rasterio, data pipelines |
+| 5 | Remote sensing — satellite bands, classification, GEE basics |
+| 6 | Land-use mapping project — change detection workflow |
+| 7 | Mock interview + company research |
+
+## 6. Strategy Card
 
 ```
 COMPANY: GIST

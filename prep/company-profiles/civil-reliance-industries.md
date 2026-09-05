@@ -13,6 +13,15 @@
 | **Location** | PAN India `[CSV]` |
 | **Relevance** | **MEDIUM** — branch-agnostic GET; RPMG executes mega-EPC projects with large civil scope `[INFERRED]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| EPC project execution | Construction tech, RCC design, PM | Study mega-EPC project phases |
+| Estimation & cost control | Bill of quantities, scheduling, cost tracking | Practice estimation problems |
+| Industrial facility construction | Oil & gas infrastructure, refinery basics | Study industrial civil works |
+| Quality & safety management | QC procedures, safety codes | Review IS codes + safety standards |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -35,7 +44,19 @@
 7. Describe a project where you demonstrated leadership.
 8. How do you handle working under pressure in large-scale projects?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | Construction Technology — EPC project phases, industrial construction |
+| 2 | RCC Design — IS 456 fundamentals for industrial structures |
+| 3 | Project Management — EPC management, scheduling, cost control |
+| 4 | Estimation — BOQ, quantity surveying, cost estimation |
+| 5 | Industrial Infrastructure — oil & gas facilities, refinery basics |
+| 6 | RIL/RPMG research — business units, mega-projects, values |
+| 7 | Mock interview + behavioral prep |
+
+## 6. Strategy Card
 
 ```
 COMPANY: Reliance Industries Limited

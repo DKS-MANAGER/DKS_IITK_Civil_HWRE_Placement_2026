@@ -13,6 +13,15 @@
 | **Location** | Chennai `[CSV]` |
 | **Relevance** | **MEDIUM** — IIT-Madras hyperloop; CAE/structural-dynamics accessible to structural graduates `[INFERRED]` |
 
+## 2. Role Reverse Engineering
+
+| Job Responsibility | Required Knowledge | Preparation Action |
+|---|---|---|
+| CAE simulation (FEA) | Finite element methods, meshing, boundary conditions | Practice FEA in ANSYS + LS-DYNA |
+| Structural dynamics analysis | Modal analysis, harmonic response, transient | Study vibrations + dynamics theory |
+| Digital twin modeling | Sensor data, model updating, real-time simulation | Understand digital twin concepts |
+| Vehicle dynamics / transport | Dynamic loading, impact analysis | Study transportation infrastructure basics |
+
 ## 3. Technical Syllabus
 
 | Priority | Topic | Depth |
@@ -36,7 +45,19 @@
 7. How would you mesh a complex geometry for FEA?
 8. What are convergence criteria in FEA?
 
-## 15. Strategy Card
+## 5. Preparation (7-Day)
+
+| Day | Focus |
+|---|---|
+| 1 | FEM Theory — shape functions, stiffness matrix, assembly, boundary conditions |
+| 2 | FEM Theory (contd.) — convergence, mesh refinement, h/p refinement |
+| 3 | ANSYS — preprocessing, meshing, solving, postprocessing |
+| 4 | Structural Dynamics — modal analysis, frequency response, damping |
+| 5 | LS-DYNA / Explicit Dynamics — impact, crash, high-deformation problems |
+| 6 | Digital Twin + Transportation — sensor integration, model updating |
+| 7 | Mock interview |
+
+## 6. Strategy Card
 
 ```
 COMPANY: TuTr Hyperloop Pvt. Ltd
