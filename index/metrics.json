@@ -1,5 +1,5 @@
 {
-  "markdown_files": 353,
+  "markdown_files": 357,
   "interview_qa_total": 96,
   "interview_qa_breakdown": {
     "prep/behavioral/hr_questions/hr-questions-bank.md": 50,
@@ -11,7 +11,7 @@
     "core/geotechnical/geotechnical.md": 4,
     "non-core/consulting/case-bank.md": 11
   },
-  "mock_sessions": 0,
+  "mock_sessions": 25,
   "company_profiles": 33,
   "numerical_examples": 15,
   "software_deep_dives": 7,

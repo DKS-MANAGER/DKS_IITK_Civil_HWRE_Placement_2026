@@ -133,17 +133,16 @@ def count_interview_questions():
 
 
 def count_mock_sessions():
-    """Count mock interview sessions."""
-    mock_db = os.path.join(REPO_ROOT, "prep/mock-tests/mock-interview-database.md")
-    if not os.path.exists(mock_db):
+    """Count role-specific mock test files in prep/mock-tests/."""
+    mock_dir = os.path.join(REPO_ROOT, "prep/mock-tests")
+    if not os.path.isdir(mock_dir):
         return 0
 
-    with open(mock_db, "r", encoding="utf-8", errors="ignore") as f:
-        content = f.read()
-
-    # Count ## Mock \d+ patterns (the actual format used)
-    sessions = re.findall(r"##\s+Mock\s+(\d+)", content, re.IGNORECASE)
-    return len(set(sessions)) if sessions else 0
+    count = 0
+    for f in os.listdir(mock_dir):
+        if f.startswith("mock-test-") and f.endswith(".md"):
+            count += 1
+    return count
 
 
 def count_company_profiles():
