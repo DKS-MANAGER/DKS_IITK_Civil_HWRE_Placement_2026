@@ -1,4 +1,4 @@
-﻿# Speed, Time & Distance
+# Speed, Time & Distance
 
 ## Concept Definitions
 

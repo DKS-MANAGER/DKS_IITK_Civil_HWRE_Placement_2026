@@ -1,4 +1,4 @@
-﻿# Thornton Tomasetti — Civil Placement Strategy
+# Thornton Tomasetti — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 456.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.

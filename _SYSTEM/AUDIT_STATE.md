@@ -1,88 +1,79 @@
 # AUDIT_STATE.md — Persistent Working Memory
 
-## Current Phase: 2 — Build Content Matrix
-## Last Updated: 2026-09-04T11:27:00Z
+## Current Phase: 8 — Audit Complete (Full Repository Audit)
+## Last Updated: 2026-09-05T07:30:00Z
 
 ## Completed Phases
 
 | Phase | Status | Summary |
 |-------|--------|---------|
-| PHASE 0 | ✅ DONE | Baseline captured: 246 md files, 1925 total files |
-| PHASE 1 | ✅ DONE | REPO_MAP.md generated: 89 SUBSTANTIAL, 116 PARTIAL, 40 THIN, 1 PLACEHOLDER |
+| PHASE 0 | ✅ DONE | Baseline captured: 353 md files (was 246 at prior audit) |
+| PHASE 1 | ✅ DONE | Complete repository inventory (353 files across 10 top-level dirs) |
+| PHASE 2 | ✅ DONE | Tracks identified: Core Civil, HWRE, CFD, Non-Core, Common, Software |
+| PHASE 3 | ✅ DONE | Roles identified: 25 roles (10 Tier A, 5 Tier B, 10 Tier C) |
+| PHASE 4 | ✅ DONE | Content depth audit: analyze_content.py → avg 8.2/10, 0 P0 gaps |
+| PHASE 5 | ✅ DONE | REQUIRED_FILE_MATRIX.md built (266 KEEP, 72 EXTEND, 3 CREATE) |
+| PHASE 6 | ✅ DONE | FINAL_REQUIRED_FILE_LIST.md built (target architecture) |
+| PHASE 7 | ✅ DONE | FINAL_AUDIT_REPORT.md built (A-H health report, overall 8.6/10) |
+| PHASE 8 | ✅ DONE | CONTENT_REGISTRY.md built (canonical source tracking) |
+| PREV | ✅ DONE | Fixed 90 heading issues (BOM strip 83 files + quality_check hardening) |
 
 ## In-Progress
 
 | Phase | Unit | Status | Notes |
 |-------|------|--------|-------|
-| PHASE 2 | Content Matrix | IN_PROGRESS | Building per-subject completeness matrix |
+| — | — | — | Audit complete. Ready for remediation phase. |
 
-## Pending Phases
+## Pending Phases (Remediation)
 
-- PHASE 3: Prioritize gaps → REMEDIATION_QUEUE.md
-- PHASE 4-5: Fix Core Civil study material
-- PHASE 6: Fix test/question banks
-- PHASE 7-8: Fix company preparation
-- PHASE 9: Fix behavioral/HR
-- PHASE 10: Fix non-core
-- PHASE 11-12: Navigation rebuild + link validation
-- PHASE 13-14: Duplication control + quality gate
-- PHASE 15-16: Final audit + completeness check
+- REM-1: Fix P0 extension gaps (7 files: quick-revision, self-intro, consulting×3, PM, HEC-RAS)
+- REM-2: Fix P1 extension gaps (7 files: foundations, GATE notes, non-core-prep, aptitude-basics, openfoam, behavioral-guide, answer-frameworks)
+- REM-3: Fix P2 extension gaps (GATE×3, transportation-software, turbulence, 12 thin companies)
+- REM-4: Regenerate REPO_MAP.md for 353 files
+- REM-5: Update count_metrics.py to count mock tests
+- REM-6: Update MASTER_COMPLETENESS.md + REMEDIATION_QUEUE.md
+- REM-7: Final quality gate (quality_check.py + analyze_content.py)
 
-## Content Analysis Findings
+## Audit Findings Summary
 
-### Core Civil Subjects (in core/)
-| Subject | File | Words | Has Theory | Has Formulae | Has Examples | Has MCQs | Has Interview | Has Revision |
-|---------|------|------:|:----------:|:------------:|:------------:|:--------:|:-------------:|:------------:|
-| Structures | structures.md | ~3000 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Structural Analysis | structural-analysis.md | ~2500 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| RCC Design | rcc-design.md | ~2500 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Steel Design | steel-design.md | ~2000 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Geotechnical | geotechnical.md | ~2500 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Transportation | transportation-engineering.md | ~3000 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Environmental | environmental-engineering.md | ~2500 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Foundations | civil-engineering-foundations.md | ~1500 | ✓ | △ | ✗ | ✗ | ✗ | ✗ |
-| Engineering Mechanics | engineering-mechanics.md | ~1500 | ✓ | ✓ | ✓ | △ | ✗ | ✗ |
-| Strength of Materials | strength-of-materials.md | ~1500 | ✓ | ✓ | ✓ | △ | ✗ | ✗ |
-| Geoinformatics | geoinformatics.md | ~2000 | ✓ | ✓ | ✓ | △ | △ | ✗ |
-| Infrastructure | infrastructure-engineering-management.md | ~2000 | ✓ | △ | △ | ✗ | △ | ✗ |
+### Repository Scale (2026-09-05)
+- Markdown files: **353**
+- Top-level directories: **10**
+- Role study plans: **25**
+- Company profiles: **33+**
+- Interview Q&As: **96**
+- Subject guides: **12**
+- Software deep-dives: **7**
+- Non-core tracks: **14**
+- Mock tests: **25** (all role-specific)
 
-### HWRE Subjects (in core/hwre/)
-| Subject | File | Words | Has Theory | Has Formulae | Has Examples | Has MCQs | Has Interview | Has Revision |
-|---------|------|------:|:----------:|:------------:|:------------:|:--------:|:-------------:|:------------:|
-| Hydraulics | hydraulics.md | ~5000 | ✓ | ✓ | ✓ | △ | ✓ | △ |
-| Hydrology | hydrology.md | ~5000 | ✓ | ✓ | ✓ | △ | ✓ | △ |
-| Open Channel Flow | open-channel-flow.md | ~5000 | ✓ | ✓ | ✓ | △ | ✓ | △ |
-| Water Resources | water-resources-engineering.md | ~5000 | ✓ | ✓ | ✓ | △ | ✓ | △ |
-| Flood Control | flood-control.md | ~2000 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Irrigation | irrigation-engineering.md | ~2000 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Wastewater | wastewater-engineering.md | ~2000 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Water Supply | water-supply.md | ~2000 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Groundwater | groundwater.md | ~1500 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Sediment Transport | sediment-transport.md | ~2000 | ✓ | ✓ | △ | △ | △ | ✗ |
-| Turbulence Modeling | turbulence-modeling.md | ~3000 | ✓ | △ | ✓ | △ | ✓ | ✗ |
+### Quality Check (2026-09-05)
+```
+Files scanned:     353
+Broken links:      0
+Heading issues:    0   ← was 90 (fixed via BOM strip + code-fence hardening)
+Large files:       5   (pre-existing)
+Missing READMEs:   0
+Orphan pages:      0
+```
 
-### Key Gaps Identified
+### Content Analysis (analyze_content.py)
+```
+Subjects analyzed: 50
+Average score:     8.2/10
+Strong (≥8):       32
+Good (6-7):        11
+Needs work (4-5):  7
+Weak (<4):         0
+P0 gaps:           0
+```
 
-#### P0 — No Rapid Revision Sheets for any subject
-Every subject needs a RAPID_REVISION.md for final 1-3 day prep.
-
-#### P0 — No subject-level MCQ/test files
-The questions/ directory has only 1 file. Need per-subject test banks.
-
-#### P1 — Company profiles vary wildly
-- Some (BPCL, L&T, Thornton Tomasetti): 1500+ words, good
-- Many (Hubstream 53 words, Hiremi 88 words): essentially empty
-
-#### P1 — Non-core subjects thin
-- consulting/case-bank.md, consulting-overview.md: need depth
-- data-analyst: only overview + statistics-practice
-- finance: only 1 overview file
-
-#### P2 — Core subjects lack modular structure
-Each core subject is 1 monolithic file. Could benefit from:
-- Separate formula sheets
-- Separate MCQ banks
-- Separate rapid revision
+### Key Gaps (from FINAL_AUDIT_REPORT.md)
+1. **72 files need EXTENSION** — mostly non-core roles (consulting, PM at 5.5/10)
+2. **3 system files created** — CONTENT_REGISTRY, FINAL_AUDIT_REPORT, FINAL_REQUIRED_FILE_LIST
+3. **count_metrics.py** reports "Mock Sessions: 0" — needs pattern update
+4. **REPO_MAP.md** outdated (246→353 files) — needs regeneration
+5. **12 thin company profiles** (<500 words) — need enrichment
 
 ## Next Action
-Build CONTENT_MATRIX.md with per-subject completeness scoring.
+Begin REM-1: Fix P0 extension gaps. Read each file before modifying. One logical unit at a time.

@@ -1,4 +1,4 @@
-﻿# Number System
+# Number System
 
 ## Concept Definitions
 

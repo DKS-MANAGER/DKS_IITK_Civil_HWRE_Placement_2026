@@ -1,4 +1,4 @@
-﻿# MuSigma
+# MuSigma
 
 ## Interview Process
 MuSigma's selection process consists of three main rounds:

@@ -1,4 +1,4 @@
-﻿# Partnership
+# Partnership
 
 ## Concept Definitions
 

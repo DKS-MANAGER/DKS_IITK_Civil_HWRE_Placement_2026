@@ -1,4 +1,4 @@
-﻿# Hubstream
+# Hubstream
 
 ## Interview Process
 Hubstream's process information is limited. Refer to the external experience log for details.

@@ -1,4 +1,4 @@
-﻿# GATE Civil Formulas — Complete Quick Reference
+# GATE Civil Formulas — Complete Quick Reference
 
 > **One-page formula sheet for GATE Civil + PSU interviews.**
 > Print this for daily revision. Target: recall any formula in < 10 seconds.

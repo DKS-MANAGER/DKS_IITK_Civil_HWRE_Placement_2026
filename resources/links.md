@@ -1,4 +1,4 @@
-﻿# Links & Resources
+# Links & Resources
 
 > **Curated collection of external resources for GATE Civil, placement preparation, and interview readiness.** All links verified and categorized for easy access.
 

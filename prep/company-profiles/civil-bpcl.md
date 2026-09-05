@@ -1,4 +1,4 @@
-﻿# Bharat Petroleum Corp. Ltd — Civil Placement Strategy
+# Bharat Petroleum Corp. Ltd — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 54.
 

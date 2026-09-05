@@ -1,4 +1,4 @@
-﻿# Reliance New Energy — Civil Placement Strategy
+# Reliance New Energy — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) rows 382–386 (Row 384 = Civil/Geotech track).
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.

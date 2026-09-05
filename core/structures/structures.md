@@ -1,4 +1,4 @@
-﻿# Structures
+# Structures
 
 ## Scope
 

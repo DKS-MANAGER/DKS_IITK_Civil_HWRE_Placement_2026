@@ -1,4 +1,4 @@
-﻿# Placement Data & Analysis
+# Placement Data & Analysis
 
 ## Overview
 This document summarizes placement trends based on the IITK Civil/HWRE placement data for 2026.

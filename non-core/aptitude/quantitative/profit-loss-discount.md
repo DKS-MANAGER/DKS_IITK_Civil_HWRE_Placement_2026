@@ -1,4 +1,4 @@
-﻿# Profit, Loss & Discount
+# Profit, Loss & Discount
 
 ## Concept Definitions
 

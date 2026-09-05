@@ -1,4 +1,4 @@
-﻿# Resume & CV Guide
+# Resume & CV Guide
 
 ## Resume Structure
 

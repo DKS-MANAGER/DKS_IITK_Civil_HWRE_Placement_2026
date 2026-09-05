@@ -1,4 +1,4 @@
-﻿# 📄 Resume Defense System — Every Line is an Interview Question
+# 📄 Resume Defense System — Every Line is an Interview Question
 
 > **Rule: If it's on your resume, you MUST be able to talk about it for 60+ seconds with confidence. Interviewers WILL ask about every line.**
 

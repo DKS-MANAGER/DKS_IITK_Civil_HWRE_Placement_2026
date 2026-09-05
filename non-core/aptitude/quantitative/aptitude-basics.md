@@ -1,4 +1,4 @@
-﻿# Quantitative Aptitude Basics
+# Quantitative Aptitude Basics
 
 ## Overview
 

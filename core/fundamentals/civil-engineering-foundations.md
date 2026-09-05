@@ -1,4 +1,4 @@
-﻿# Civil Engineering Foundations — Quick Revision Sheet
+# Civil Engineering Foundations — Quick Revision Sheet
 
 ## Overview
 

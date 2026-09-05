@@ -1,4 +1,4 @@
-﻿# Wastewater Engineering
+# Wastewater Engineering
 
 ## Overview
 

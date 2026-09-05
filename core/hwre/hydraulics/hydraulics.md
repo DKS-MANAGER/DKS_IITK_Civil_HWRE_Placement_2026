@@ -1,4 +1,4 @@
-﻿# Hydraulics
+# Hydraulics
 
 ## Scope
 

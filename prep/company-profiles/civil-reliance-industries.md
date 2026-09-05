@@ -1,4 +1,4 @@
-﻿# Reliance Industries Limited — Civil Placement Strategy
+# Reliance Industries Limited — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) rows 380–381 (GET = 381; Analytics = 380 — not civil).
 

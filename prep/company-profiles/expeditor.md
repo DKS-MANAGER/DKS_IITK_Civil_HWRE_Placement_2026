@@ -1,4 +1,4 @@
-﻿# Expeditors
+# Expeditors
 
 ## Interview Process
 Expeditors conducts technical interviews focusing on Java backend (Spring Boot) and Angular frontend.

@@ -1,4 +1,4 @@
-﻿# Topic Map — DKS IITK Civil / HWRE Placement 2026
+# Topic Map — DKS IITK Civil / HWRE Placement 2026
 
 ## How to Use This File
 This file maps each topic to its source files and the final merged destination file. It also identifies repeated topics across repos and the best source for each topic.

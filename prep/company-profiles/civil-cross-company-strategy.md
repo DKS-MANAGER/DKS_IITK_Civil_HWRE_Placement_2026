@@ -1,4 +1,4 @@
-﻿# Civil Companies — Cross-Company Consolidated Strategy
+# Civil Companies — Cross-Company Consolidated Strategy
 
 > Based on analysis of **25 civil-relevant companies** identified from the IITK 2025-26 placement dataset (516 postings, 276 unique companies). Created by DKS.
 

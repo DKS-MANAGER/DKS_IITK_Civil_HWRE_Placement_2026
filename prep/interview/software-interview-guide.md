@@ -1,4 +1,4 @@
-﻿# Software Interview Guide — Civil Engineering Placement 2026
+# Software Interview Guide — Civil Engineering Placement 2026
 
 > **How to use:** For each software, know: (1) What it does, (2) When you'd use it, (3) One project example, (4) Key interview questions. You don't need to be an expert in all — pick 3–4 per domain and go deep.
 

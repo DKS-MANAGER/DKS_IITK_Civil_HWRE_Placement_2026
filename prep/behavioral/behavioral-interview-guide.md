@@ -1,4 +1,4 @@
-﻿# Behavioral Interview Preparation Guide
+# Behavioral Interview Preparation Guide
 
 ## STAR Framework
 

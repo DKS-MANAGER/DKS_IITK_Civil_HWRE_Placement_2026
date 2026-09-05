@@ -1,4 +1,4 @@
-﻿# GATE Civil Engineering — Topic-wise Notes
+# GATE Civil Engineering — Topic-wise Notes
 
 ## Overview
 

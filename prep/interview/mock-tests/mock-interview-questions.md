@@ -1,4 +1,4 @@
-﻿# Mock Interview Questions — 50 Questions with Answers
+# Mock Interview Questions — 50 Questions with Answers
 
 > **How to use:** Practice answering aloud. Time yourself: 60-90 sec for technical, 90-120 sec for behavioral. Record and review.
 

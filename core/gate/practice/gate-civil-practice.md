@@ -1,4 +1,4 @@
-﻿# GATE Civil — Practice Problems with Solutions
+# GATE Civil — Practice Problems with Solutions
 
 ## Overview
 

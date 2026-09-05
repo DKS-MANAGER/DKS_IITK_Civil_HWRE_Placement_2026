@@ -1,4 +1,4 @@
-﻿# Recommended Books for Civil Engineering & Placement Preparation
+# Recommended Books for Civil Engineering & Placement Preparation
 
 > **Curated list of standard textbooks and reference books for GATE Civil, PSU exams, and placement preparation.** Organized by subject with priority ratings.
 

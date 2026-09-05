@@ -1,4 +1,4 @@
-﻿# Hiremi
+# Hiremi
 
 ## Interview Process
 Hiremi's selection process consists of multiple rounds:

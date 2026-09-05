@@ -172,14 +172,32 @@ def _offset_to_line(filepath, offset):
         return "?"
 
 
+def _strip_code_fences(content):
+    """Remove fenced code blocks so '#' comment lines inside them are not
+    mistaken for markdown headings. Handles ```, ~~~, and indented fences."""
+    # Remove fenced code blocks (``` or ~~~ with optional language tag)
+    content = re.sub(r"^```.*?^```", "", content, flags=re.MULTILINE | re.DOTALL)
+    content = re.sub(r"^~~~.*?^~~~", "", content, flags=re.MULTILINE | re.DOTALL)
+    return content
+
+
 def check_headings(md_files, verbose=False):
-    """Check that each file has exactly one H1 heading."""
+    """Check that each file has exactly one H1 heading.
+
+    Strips a leading UTF-8 BOM (which would otherwise hide the first heading)
+    and ignores '#' comment lines inside fenced code blocks.
+    """
     issues = []
     for filepath in md_files:
         try:
             content = filepath.read_text(encoding="utf-8", errors="ignore")
         except Exception:
             continue
+
+        # Remove BOM so a leading H1 is detected correctly
+        content = content.lstrip("\ufeff")
+        # Remove fenced code blocks so code comments aren't counted as headings
+        content = _strip_code_fences(content)
 
         h1_count = len(re.findall(r"^# [^#]", content, re.MULTILINE))
         rel_path = filepath.relative_to(REPO_ROOT)

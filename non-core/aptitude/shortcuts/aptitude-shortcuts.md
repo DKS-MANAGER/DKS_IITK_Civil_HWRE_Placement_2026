@@ -1,4 +1,4 @@
-﻿# ⚡ 50+ Speed Math Shortcuts for Placement Aptitude
+# ⚡ 50+ Speed Math Shortcuts for Placement Aptitude
 
 > Master these shortcuts to solve quantitative aptitude problems 3–5× faster in placement tests.
 > Target: < 1 minute per question for most problems.

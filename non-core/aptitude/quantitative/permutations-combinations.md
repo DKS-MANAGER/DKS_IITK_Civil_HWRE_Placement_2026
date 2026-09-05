@@ -1,4 +1,4 @@
-﻿# Permutations & Combinations
+# Permutations & Combinations
 
 ## Concept Definitions
 

@@ -1,4 +1,4 @@
-﻿# Logical Reasoning Practice
+# Logical Reasoning Practice
 
 ## Overview
 

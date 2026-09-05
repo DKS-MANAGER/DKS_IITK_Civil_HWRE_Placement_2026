@@ -1,4 +1,4 @@
-﻿# Information Architecture
+# Information Architecture
 
 > **Canonical reference for folder structure, naming, navigation, and content organization.**
 

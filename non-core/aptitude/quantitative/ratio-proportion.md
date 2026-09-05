@@ -1,4 +1,4 @@
-﻿# Ratio & Proportion
+# Ratio & Proportion
 
 ## Concept Definitions
 

@@ -1,4 +1,4 @@
-﻿# Rodic Consultants — Civil Placement Strategy
+# Rodic Consultants — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 389.
 > **Evidence tag:** `[CSV]` for facts drawn from the posting; `[INFERRED]` for inferences; `[PREDICTED]` for predictions.

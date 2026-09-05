@@ -1,4 +1,4 @@
-﻿# Verbal Ability
+# Verbal Ability
 
 ## Overview
 

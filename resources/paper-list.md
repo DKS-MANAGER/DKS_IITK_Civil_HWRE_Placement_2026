@@ -1,4 +1,4 @@
-﻿# GATE Civil Previous Year Question Papers
+# GATE Civil Previous Year Question Papers
 
 Solving previous year papers is one of the most valuable steps in GATE preparation. It builds confidence around time management, sharpens problem-solving speed, and gives a realistic sense of the difficulty level expected on exam day.
 

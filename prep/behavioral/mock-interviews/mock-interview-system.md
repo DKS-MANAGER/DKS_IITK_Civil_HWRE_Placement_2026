@@ -1,4 +1,4 @@
-﻿# 🎭 Mock Interview System — Structured Practice with Scoring
+# 🎭 Mock Interview System — Structured Practice with Scoring
 
 > **Mock interviews are the single most effective way to prepare. This system gives you structured scenarios, scoring rubrics, and feedback templates.**
 

@@ -1,4 +1,4 @@
-﻿# Problems on Ages
+# Problems on Ages
 
 ## Concept Definitions
 

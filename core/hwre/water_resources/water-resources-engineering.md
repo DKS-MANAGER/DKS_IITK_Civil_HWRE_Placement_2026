@@ -1,4 +1,4 @@
-﻿# Water Resources Engineering
+# Water Resources Engineering
 
 ## Scope
 

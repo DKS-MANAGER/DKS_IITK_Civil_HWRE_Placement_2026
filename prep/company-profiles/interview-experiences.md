@@ -1,4 +1,4 @@
-﻿# Interview Experiences
+# Interview Experiences
 
 > Consolidated summary of campus placement interview experiences from multiple companies. Each entry preserves the round structure, key themes, and takeaways for future candidates.
 

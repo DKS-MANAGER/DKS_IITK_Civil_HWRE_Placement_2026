@@ -1,4 +1,4 @@
-﻿# Geotechnical Engineering
+# Geotechnical Engineering
 
 ## Scope
 

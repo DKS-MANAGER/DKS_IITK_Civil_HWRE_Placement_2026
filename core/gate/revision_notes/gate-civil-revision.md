@@ -1,4 +1,4 @@
-﻿# GATE Civil — Rapid Revision Cards
+# GATE Civil — Rapid Revision Cards
 
 ## Overview
 

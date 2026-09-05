@@ -1,4 +1,4 @@
-﻿# HR + Technical Hybrid Questions — Final Round Preparation
+# HR + Technical Hybrid Questions — Final Round Preparation
 
 > **When asked:** Final rounds, HR panel with technical members, Director-level interviews.
 > **Strategy:** These questions test if you can explain technical concepts to non-technical stakeholders AND show cultural fit. Answer format: Technical accuracy + Communication clarity + Company alignment.

@@ -1,4 +1,4 @@
-﻿# Company Directory
+# Company Directory
 
 ## Overview
 Compilation of companies relevant to Civil, HWRE, and related disciplines. Based on IITK Phase 1 (2025-26) recruiter data.

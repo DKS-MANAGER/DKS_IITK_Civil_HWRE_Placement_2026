@@ -1,4 +1,4 @@
-﻿# Deltax
+# Deltax
 
 ## Interview Process
 Deltax's selection process consists of three rounds:

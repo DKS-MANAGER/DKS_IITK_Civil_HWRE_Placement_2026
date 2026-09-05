@@ -1,4 +1,4 @@
-﻿# Tech Mahindra
+# Tech Mahindra
 
 ## Process Overview
 

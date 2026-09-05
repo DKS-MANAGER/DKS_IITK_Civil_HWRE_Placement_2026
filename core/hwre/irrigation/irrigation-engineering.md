@@ -1,4 +1,4 @@
-﻿# Irrigation Engineering
+# Irrigation Engineering
 
 ## Scope
 

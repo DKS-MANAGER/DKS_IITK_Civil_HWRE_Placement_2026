@@ -1,4 +1,4 @@
-﻿# Master Index — DKS IITK Civil / HWRE Placement 2026
+# Master Index — DKS IITK Civil / HWRE Placement 2026
 
 ## Repository Overview
 

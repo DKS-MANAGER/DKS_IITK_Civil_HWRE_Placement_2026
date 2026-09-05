@@ -1,4 +1,4 @@
-﻿# CEI America
+# CEI America
 
 ## Interview Process
 CEI America's selection process consists of three rounds:

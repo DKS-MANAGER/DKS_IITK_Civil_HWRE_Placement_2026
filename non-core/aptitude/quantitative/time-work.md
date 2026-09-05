@@ -1,4 +1,4 @@
-﻿# Time & Work
+# Time & Work
 
 ## Concept Definitions
 

@@ -1,4 +1,4 @@
-﻿# Schneider Electric India Pvt Ltd
+# Schneider Electric India Pvt Ltd
 
 ## Process Overview
 

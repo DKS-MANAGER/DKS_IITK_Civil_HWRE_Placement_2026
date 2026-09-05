@@ -1,4 +1,4 @@
-﻿# Technical Interview Bank — 100 Q&A by Topic
+# Technical Interview Bank — 100 Q&A by Topic
 
 > **How to use:** Practice 2-layer answers: Concept → Application → Caveat.
 > Target: Answer any question in 60–90 seconds with a derivation or example.

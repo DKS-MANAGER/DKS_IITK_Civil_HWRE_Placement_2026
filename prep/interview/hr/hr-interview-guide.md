@@ -1,4 +1,4 @@
-﻿# HR Interview Guide — Salary Negotiation & HR Questions
+# HR Interview Guide — Salary Negotiation & HR Questions
 
 ## Overview
 

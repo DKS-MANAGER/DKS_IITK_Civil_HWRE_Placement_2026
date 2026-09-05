@@ -1,4 +1,4 @@
-﻿# Mock Interview Database — 8 Full Sessions by Difficulty
+# Mock Interview Database — 8 Full Sessions by Difficulty
 
 > **How to use:** Each mock is a complete 45–60 minute interview simulation with an interviewer script and expected answers. Practice with a friend playing the interviewer, or record yourself answering each question. Time each response.
 

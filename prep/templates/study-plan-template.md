@@ -1,4 +1,4 @@
-﻿# Study Plan & Timeline
+# Study Plan & Timeline
 
 > Based on Civil_Placement_IITK roadmap for Dec 2026 placements
 

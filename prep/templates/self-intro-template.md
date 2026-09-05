@@ -1,4 +1,4 @@
-﻿# Self Introduction Template (Tell Me About Yourself)
+# Self Introduction Template (Tell Me About Yourself)
 
 > A structured, fill-in-the-blank template for the opening interview question. Based on the **present-past-future** framework used in behavioral interview prep, customised for Civil/HWRE placement candidates.
 

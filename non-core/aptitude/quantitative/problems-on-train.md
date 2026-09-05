@@ -1,4 +1,4 @@
-﻿# Problems on Train
+# Problems on Train
 
 ## Concept Definitions
 

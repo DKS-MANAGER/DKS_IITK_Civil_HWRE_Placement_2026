@@ -1,4 +1,4 @@
-﻿# Non-Core Preparation Guide
+# Non-Core Preparation Guide
 
 For Civil/HWRE students targeting analytics, consulting, and tech-adjacent roles.
 

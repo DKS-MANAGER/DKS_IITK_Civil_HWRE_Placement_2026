@@ -1,4 +1,4 @@
-﻿# Hydrology
+# Hydrology
 
 ## Hydrologic Cycle
 

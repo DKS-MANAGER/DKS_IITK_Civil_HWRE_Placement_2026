@@ -1,4 +1,4 @@
-﻿# Percentages
+# Percentages
 
 ## Concept Definitions
 

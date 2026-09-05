@@ -1,4 +1,4 @@
-﻿# Averages & Mixtures
+# Averages & Mixtures
 
 ## Concept Definitions
 

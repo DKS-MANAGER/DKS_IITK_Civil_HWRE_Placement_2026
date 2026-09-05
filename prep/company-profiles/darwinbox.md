@@ -1,4 +1,4 @@
-﻿# Darwinbox
+# Darwinbox
 
 ## Interview Process
 Darwinbox's recruitment process consists of five rounds:

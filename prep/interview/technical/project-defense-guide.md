@@ -1,4 +1,4 @@
-﻿# Project Defense Guide — Universal + CFD-Specific
+# Project Defense Guide — Universal + CFD-Specific
 
 > **How to use:** Before any interview, prepare answers to the Universal 20 Questions below for your project. If your project involves CFD/simulation, also prepare the CFD-Specific 15 Questions. Practice with a timer: 2 min per answer.
 

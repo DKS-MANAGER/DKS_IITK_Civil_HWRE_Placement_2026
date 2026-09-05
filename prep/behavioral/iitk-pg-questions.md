@@ -1,4 +1,4 @@
-﻿# 🎓 IITK M.Tech / PG-Specific Questions — 30 Questions
+# 🎓 IITK M.Tech / PG-Specific Questions — 30 Questions
 
 > **These questions are asked specifically because you're an IIT Kanpur postgraduate. They probe your academic journey, thesis depth, and why you chose this path.**
 

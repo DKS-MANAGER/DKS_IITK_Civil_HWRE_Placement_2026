@@ -1,4 +1,4 @@
-﻿# Project Discussion Framework
+# Project Discussion Framework
 
 ## Overview
 

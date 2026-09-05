@@ -1,4 +1,4 @@
-﻿# Sediment Transport
+# Sediment Transport
 
 ## Overview
 

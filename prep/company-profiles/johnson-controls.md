@@ -1,4 +1,4 @@
-﻿# Johnson Controls
+# Johnson Controls
 
 ## Interview Process
 Johnson Controls' interview process consists of four rounds:

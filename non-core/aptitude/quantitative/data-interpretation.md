@@ -1,4 +1,4 @@
-﻿# Data Interpretation
+# Data Interpretation
 
 ## Concept Definitions
 

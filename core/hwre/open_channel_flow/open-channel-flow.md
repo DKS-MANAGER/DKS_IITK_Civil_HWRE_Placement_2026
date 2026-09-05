@@ -1,4 +1,4 @@
-﻿# Open Channel Flow
+# Open Channel Flow
 
 ## Definition & Scope
 

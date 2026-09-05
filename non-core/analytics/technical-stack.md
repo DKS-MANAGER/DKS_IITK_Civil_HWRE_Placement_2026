@@ -1,4 +1,4 @@
-﻿# Technical Stack
+# Technical Stack
 
 ## Core Engineering Software
 

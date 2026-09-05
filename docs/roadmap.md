@@ -1,4 +1,4 @@
-﻿# Placement Roadmap
+# Placement Roadmap
 
 ## Purpose
 

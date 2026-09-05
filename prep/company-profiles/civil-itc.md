@@ -1,4 +1,4 @@
-﻿# ITC Limited — Civil Placement Strategy
+# ITC Limited — Civil Placement Strategy
 
 > **Source of truth:** [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) row 222.
 

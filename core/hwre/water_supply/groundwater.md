@@ -1,4 +1,4 @@
-﻿# Groundwater Engineering
+# Groundwater Engineering
 
 ## Introduction
 
