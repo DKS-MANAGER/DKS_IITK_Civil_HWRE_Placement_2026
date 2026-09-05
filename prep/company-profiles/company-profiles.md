@@ -175,5 +175,24 @@ Use this format to log your interview experience:
 
 ---
 
+## Legacy / Additional Profiles
+
+> Additional company profiles retained for reference. These cover companies from earlier placement seasons and adjacent domains.
+
+| Company | Profile File |
+|:--------|:-------------|
+| **CEI American** | [cei-american.md](./cei-american.md) |
+| **Darwinbox** | [darwinbox.md](./darwinbox.md) |
+| **DeltaX** | [deltax.md](./deltax.md) |
+| **Expeditor** | [expeditor.md](./expeditor.md) |
+| **Hiremi** | [hiremi.md](./hiremi.md) |
+| **Hubstream** | [hubstream.md](./hubstream.md) |
+| **Johnson Controls** | [johnson-controls.md](./johnson-controls.md) |
+| **Mu Sigma** | [mu-sigma.md](./mu-sigma.md) |
+| **Schneider Electric** | [schneider-electric.md](./schneider-electric.md) |
+| **Tech Mahindra** | [tech-mahindra.md](./tech-mahindra.md) |
+
+---
+
 ## References
 

@@ -1,8 +1,7 @@
 {
-  "markdown_files": 249,
-  "interview_qa_total": 195,
+  "markdown_files": 353,
+  "interview_qa_total": 96,
   "interview_qa_breakdown": {
-    "prep/technical/technical-interview-bank.md": 100,
     "prep/behavioral/hr_questions/hr-questions-bank.md": 50,
     "core/hwre/hydraulics/hydraulics.md": 10,
     "core/hwre/open_channel_flow/open-channel-flow.md": 6,
@@ -10,9 +9,9 @@
     "core/hwre/water_resources/water-resources-engineering.md": 4,
     "core/structures/structures.md": 5,
     "core/geotechnical/geotechnical.md": 4,
-    "non-core/consulting/case-bank.md": 10
+    "non-core/consulting/case-bank.md": 11
   },
-  "mock_sessions": 8,
+  "mock_sessions": 0,
   "company_profiles": 33,
   "numerical_examples": 15,
   "software_deep_dives": 7,

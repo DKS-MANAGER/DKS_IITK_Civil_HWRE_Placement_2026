@@ -22,31 +22,31 @@ Why these resources are relevant for placement preparation.
 
 | Resource | Author | Level | Relevance | Recommended Use |
 |:---------|:-------|:------|:----------|:----------------|
-| [Title](link) | Author | Level | High/Medium/Low | use case |
+| [Title](../../resources/book-list.md) | Author | Level | High/Medium/Low | use case |
 
 ### Courses
 
 | Resource | Platform | Cost | Relevance | Recommended Use |
 |:---------|:---------|:-----|:----------|:----------------|
-| [Title](link) | Platform | Free/Paid | High/Medium/Low | use case |
+| [Title](../../resources/links.md) | Platform | Free/Paid | High/Medium/Low | use case |
 
 ### Documentation
 
 | Resource | Purpose | Recommended Use |
 |:---------|:--------|:----------------|
-| [Title](link) | purpose | use case |
+| [Title](../../resources/links.md) | purpose | use case |
 
 ### Software
 
 | Resource | Purpose | Recommended Use |
 |:---------|:--------|:----------------|
-| [Title](link) | purpose | use case |
+| [Title](../../software-and-tech/README.md) | purpose | use case |
 
 ### Practice / Interview
 
 | Resource | Purpose | Recommended Use |
 |:---------|:--------|:----------------|
-| [Title](link) | purpose | use case |
+| [Title](../../prep/interview/mock-tests/mock-interview-questions.md) | purpose | use case |
 
 ## Selection Criteria
 
@@ -62,7 +62,7 @@ How to choose which resources to use:
 
 ## Related Topics
 
-- [Related topic](link)
+- [Related topic](../../core/README.md)
 
 ## Quick Revision
 

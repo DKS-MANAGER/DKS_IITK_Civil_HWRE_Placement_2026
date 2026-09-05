@@ -90,11 +90,12 @@ Each role scored on 15 components (0–5 scale):
 
 ### Universal (All Roles)
 1. **No mock tests** — 0/25 roles have dedicated mock test files
-2. **22 missing READMEs** in subdirectories
-3. **25 orphan pages** not linked from navigation
+2. **Orphan pages** — 23 pages not linked from navigation (mostly `_SYSTEM/` system files + legacy company profiles)
+3. **35 broken links** — all pre-existing (template placeholders in `docs/templates/` + legacy `index/master_index.md` entries)
 
-### Tier C (Remaining)
-4. **All 25 roles now ≥80% READY** — Tier C complete (Pgm Mgmt, Operations, BIM, Technology, Strategy, BizOps all at 80%)
+### Resolved in Batch 6
+4. **✅ All 22 missing READMEs created** — every major directory now has a navigation hub (0 missing)
+5. **✅ All 25 roles ≥80% READY** — Tier A + Tier B + Tier C complete
 
 ---
 
@@ -175,6 +176,35 @@ Each role scored on 15 components (0–5 scale):
 | [role-study-plan.md](../non-core/business-operations/role-study-plan.md) | BizOps | Study plan | ~2,300 |
 | [biz-ops-rapid-revision.md](../non-core/business-operations/biz-ops-rapid-revision.md) | BizOps | Rapid revision | ~1,100 |
 
+## What Was Built — Batch 6 (Navigation Hubs — 22 READMEs)
+
+| Directory | README |
+|:----------|:-------|
+| `core/gate/` | [README.md](../core/gate/README.md) |
+| `core/structures/` | [README.md](../core/structures/README.md) |
+| `core/geotechnical/` | [README.md](../core/geotechnical/README.md) |
+| `core/environmental/` | [README.md](../core/environmental/README.md) |
+| `core/transportation/` | [README.md](../core/transportation/README.md) |
+| `core/geoinformatics/` | [README.md](../core/geoinformatics/README.md) |
+| `core/infrastructure/` | [README.md](../core/infrastructure/README.md) |
+| `core/fundamentals/` | [README.md](../core/fundamentals/README.md) |
+| `non-core/consulting/` | [README.md](../non-core/consulting/README.md) |
+| `non-core/data-analyst/` | [README.md](../non-core/data-analyst/README.md) |
+| `non-core/business-analyst/` | [README.md](../non-core/business-analyst/README.md) |
+| `non-core/product-management/` | [README.md](../non-core/product-management/README.md) |
+| `non-core/operations/` | [README.md](../non-core/operations/README.md) |
+| `non-core/finance/` | [README.md](../non-core/finance/README.md) |
+| `non-core/risk/` | [README.md](../non-core/risk/README.md) |
+| `non-core/strategy/` | [README.md](../non-core/strategy/README.md) |
+| `non-core/aptitude/` | [README.md](../non-core/aptitude/README.md) |
+| `prep/technical/` | [README.md](../prep/technical/README.md) |
+| `prep/mock-tests/` | [README.md](../prep/mock-tests/README.md) |
+| `prep/templates/` | [README.md](../prep/templates/README.md) |
+| `software-and-tech/programming/` | [README.md](../software-and-tech/programming/README.md) |
+| `index/` | [README.md](../index/README.md) |
+
+**Batch 6 result:** 22/22 missing READMEs → 0 missing · Broken links 36 → 35 · Orphan pages 25 → 23
+
 ## System Files
 
 | File | Type | Words |
@@ -183,9 +213,9 @@ Each role scored on 15 components (0–5 scale):
 | [ROLE_CONTENT_AUDIT.md](ROLE_CONTENT_AUDIT.md) | Audit | ~3,000 |
 | [count_roles.py](count_roles.py) | Analysis tool | ~100 |
 
-**Total new content: ~69,100 words across 54 files** (Batch 1: 16 + Batch 2: 8 + Batch 3: 10 + Batch 4: 8 + Batch 5: 12)
+**Total new content: ~69,100 words across 54 files** (Batch 1: 16 + Batch 2: 8 + Batch 3: 10 + Batch 4: 8 + Batch 5: 12) + **22 navigation READMEs** (Batch 6)
 
 ---
 
-*Generated: Phase 5 — Cross-Role Audit (Updated: ALL 25 ROLES PLACEMENT-READY — Tier A + Tier B + Tier C COMPLETE)*
+*Generated: Phase 5 — Cross-Role Audit (Updated: ALL 25 ROLES PLACEMENT-READY — Tier A + Tier B + Tier C COMPLETE + Navigation Hubs)*
 *Date: 2026-09-04*

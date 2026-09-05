@@ -82,8 +82,8 @@ How this project becomes a STAR story:
 
 ## Related Topics
 
-- [Related concept](link)
-- [Related software](link)
+- [Related concept](../../core/README.md)
+- [Related software](../../software-and-tech/README.md)
 
 ## Quick Revision
 

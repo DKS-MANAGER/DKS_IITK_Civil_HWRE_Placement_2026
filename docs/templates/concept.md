@@ -64,8 +64,8 @@ Real engineering applications and where this concept is used.
 
 ## Related Topics
 
-- [Related concept 1](link)
-- [Related concept 2](link)
+- [Related concept 1](../../core/README.md)
+- [Related concept 2](../../non-core/README.md)
 
 ## Quick Revision
 
@@ -75,5 +75,5 @@ Real engineering applications and where this concept is used.
 
 ## Further Resources
 
-- [Resource 1](link) — description
-- [Resource 2](link) — description
+- [Resource 1](../../resources/book-list.md) — description
+- [Resource 2](../../resources/links.md) — description

@@ -85,15 +85,15 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 
 | Need | Go To |
 |------|-------|
-| **Start Here** | [docs/start-here.md](docs/start-here.md) |
-| **Control Panel** | [docs/placement-control-panel.md](docs/placement-control-panel.md) |
-| **Roadmap** | [docs/roadmap.md](docs/roadmap.md) |
-| **One-Page Cheat Sheet** | [core/hwre/exam_notes/hwre-exam-notes.md](core/hwre/exam_notes/hwre-exam-notes.md) |
-| **Formula Sheet** | [core/gate/formulas/gate-civil-formulas.md](core/gate/formulas/gate-civil-formulas.md) |
-| **Revision Cards** | [core/gate/revision_notes/gate-civil-revision.md](core/gate/revision_notes/gate-civil-revision.md) |
-| **Question Engine** | [questions/README.md](questions/README.md) |
-| **Core Civil Hub** | [core/README.md](core/README.md) |
-| **HWRE Track** | [core/hwre/README.md](core/hwre/README.md) |
+| **Start Here** | [docs/start-here.md](../docs/start-here.md) |
+| **Control Panel** | [docs/placement-control-panel.md](../docs/placement-control-panel.md) |
+| **Roadmap** | [docs/roadmap.md](../docs/roadmap.md) |
+| **One-Page Cheat Sheet** | [core/hwre/exam_notes/hwre-exam-notes.md](../core/hwre/exam_notes/hwre-exam-notes.md) |
+| **Formula Sheet** | [core/gate/formulas/gate-civil-formulas.md](../core/gate/formulas/gate-civil-formulas.md) |
+| **Revision Cards** | [core/gate/revision_notes/gate-civil-revision.md](../core/gate/revision_notes/gate-civil-revision.md) |
+| **Question Engine** | [questions/README.md](../questions/README.md) |
+| **Core Civil Hub** | [core/README.md](../core/README.md) |
+| **HWRE Track** | [core/hwre/README.md](../core/hwre/README.md) |
 | **Validate Index** | `python scripts/validate_index.py` |
 | **Quality Check** | `python scripts/quality_check.py` |
 
@@ -116,8 +116,8 @@ This repository consolidates placement preparation material for IIT Kanpur M.Tec
 | Validate all links | Weekly | `python scripts/validate_index.py` |
 | Update file inventory | After changes | `python scripts/validate_index.py` |
 | Check cross-links | Monthly | Manual review |
-| Update company data | Per placement season | Edit [company-profiles.md](prep/company-profiles/company-profiles.md) |
-| Update placement data | Per placement season | Edit [placement-data.md](resources/placement-data.md) |
+| Update company data | Per placement season | Edit [company-profiles.md](../prep/company-profiles/company-profiles.md) |
+| Update placement data | Per placement season | Edit [placement-data.md](../resources/placement-data.md) |
 
 ---
 

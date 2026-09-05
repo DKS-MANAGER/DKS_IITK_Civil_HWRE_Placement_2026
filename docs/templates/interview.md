@@ -69,7 +69,7 @@ Why this interview topic is important and how it's typically asked.
 
 ## Related Topics
 
-- [Related topic](link)
+- [Related topic](../../prep/interview/technical/technical-interview-bank.md)
 
 ## Quick Revision
 

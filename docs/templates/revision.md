@@ -70,8 +70,8 @@ Prerequisites: [list of prerequisite concepts]
 
 ## Related Topics
 
-- [Full content page](link)
-- [Question bank](link)
+- [Full content page](../../core/README.md)
+- [Question bank](../../prep/interview/technical/technical-interview-bank.md)
 
 ## Quick Reference
 

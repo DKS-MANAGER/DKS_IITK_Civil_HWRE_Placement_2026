@@ -66,8 +66,8 @@ How to describe this software on your resume:
 
 ## Related Topics
 
-- [Related software](link)
-- [Related concept](link)
+- [Related software](../../software-and-tech/README.md)
+- [Related concept](../../core/README.md)
 
 ## Quick Revision
 

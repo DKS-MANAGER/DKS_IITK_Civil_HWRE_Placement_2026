@@ -379,5 +379,5 @@ For each question, structure your answer as:
 
 ## References
 
-* [`hydraulics.md`](../../core/hwre/hydraulics/hydraulics.md) — Detailed hydraulics
-* [`turbulence-modeling.md`](../../core/hwre/hydraulics/turbulence-modeling.md) — CFD details
+* [`hydraulics.md`](../../../core/hwre/hydraulics/hydraulics.md) — Detailed hydraulics
+* [`turbulence-modeling.md`](../../../core/hwre/hydraulics/turbulence-modeling.md) — CFD details

@@ -139,8 +139,10 @@ Career Target → Core Subjects → Software → Interview → Resume → Mock
 ### Link Format
 
 ```markdown
-[Display Text](relative/path/to/file.md)
+[Concept Template](templates/concept.md)
 ```
+
+> **Note:** The path above is an example. Replace `templates/concept.md` with an actual relative path from the current file's directory.
 
 Always use relative paths. Never use absolute URLs for internal links.
 
