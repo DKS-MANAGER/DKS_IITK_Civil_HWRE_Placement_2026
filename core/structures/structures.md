@@ -96,7 +96,9 @@ $$\frac{1}{P_R} = \frac{1}{P_C} + \frac{1}{P_E}$$
 
 ## Reinforced Cement Concrete (RCC) — IS 456:2000
 
-### Key Provisions
+> **Canonical source:** [`../rcc/rcc-design.md`](../rcc/rcc-design.md) — comprehensive RCC design guide with 15 practice problems, topic test, interview Q&A, and rapid revision.
+
+Key provisions and formulas are covered in the canonical RCC design file. This section provides a quick reference:
 
 | Parameter | IS 456 Value |
 |-----------|-------------|
@@ -151,6 +153,10 @@ $$P_u = 0.4 f_{ck} A_c + 0.67 f_y A_{sc}$$
 
 ## Steel Structures — IS 800:2007
 
+> **Canonical source:** [`../steel/steel-design.md`](../steel/steel-design.md) — comprehensive steel design guide with 15 practice problems, topic test, interview Q&A, and rapid revision.
+
+Key provisions and formulas are covered in the canonical steel design file. This section provides a quick reference:
+
 ### Key Provisions
 
 | Parameter | IS 800 Value |
@@ -180,6 +186,8 @@ where $f_{cd}$ depends on buckling class and slenderness ratio
 ---
 
 ## Worked Examples
+
+> **Full worked examples:** See [`../rcc/PRACTICE.md`](../rcc/PRACTICE.md) and [`../steel/PRACTICE.md`](../steel/PRACTICE.md) for 15 solved problems each with Given → Find → Method → Calculation → Answer → Trap format.
 
 ### Example 1: Beam Design (IS 456)
 **Problem:** Design a simply supported beam for $M_u = 150$ kN·m. $f_{ck} = 25$ MPa, $f_y = 415$ MPa, $b = 250$ mm.

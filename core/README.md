@@ -1,29 +1,31 @@
 # Core Civil — Technical Foundation
 
-> **The technical core of the placement system.** Every Civil branch, mapped to its full preparation chain: concept → formula → numerical → interview → software → revision.
+> **The technical core of the placement system.** Every Civil branch, mapped to its full preparation chain: concept → formula → numerical → practice → test → interview → software → revision.
 
 ---
 
 ## How to Use This Section
 
-1. **Find your branch** in the table below
-2. **Follow the chain** — each branch links to its concepts, formulas, numericals, interview questions, software, and revision
-3. **Practice** — don't just read; solve numericals and answer questions aloud
+1. **Start at the [Master Index](MASTER_INDEX.md)** — unified role → track → topic map
+2. **Find your branch** in the table below
+3. **Follow the chain** — each branch links to its concepts, formulas, numericals, practice, tests, interview questions, software, and revision
+4. **Practice** — don't just read; solve numericals and answer questions aloud
+5. **Test yourself** — take the topic test, then move to interview prep
 
 ---
 
 ## Branch Navigation
 
-| Branch | Concepts | Formula Sheet | Interview Qs | Software | Revision |
-|:-------|:---------|:--------------|:-------------|:---------|:---------|
-| 🌊 **HWRE / Water Resources** | [HWRE Hub](hwre/README.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [HWRE Tech](../software-and-tech/hwre/hwre-tech-roadmap.md) | [Exam Notes](hwre/exam_notes/hwre-exam-notes.md) |
-| 🏗️ **Structures** | [structures.md](structures/structures.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [BIM Tech](../software-and-tech/bim/bim-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 🪨 **Geotechnical** | [geotechnical.md](geotechnical/geotechnical.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [Geo Tech](../software-and-tech/geotechnical/geotechnical-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 🌿 **Environmental** | [environmental-engineering.md](environmental/environmental-engineering.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [Enviro Tech](../software-and-tech/environmental/environmental-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 🚗 **Transportation** | [transportation-engineering.md](transportation/transportation-engineering.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [Transport Software](transportation/transportation-software.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 🗺️ **Geoinformatics** | [geoinformatics.md](geoinformatics/geoinformatics.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [GIS Tech](../software-and-tech/gis/gis-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 🏢 **Infrastructure Mgmt** | [infrastructure-engineering-management.md](infrastructure/infrastructure-engineering-management.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | [Construction Tech](../software-and-tech/construction/construction-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
-| 📐 **Foundations** | [civil-engineering-foundations.md](fundamentals/civil-engineering-foundations.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | — | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
+| Branch | Concepts | Formula Sheet | Practice | Test | Interview | Software | Revision |
+|:-------|:---------|:--------------|:---------|:-----|:----------|:---------|:---------|
+| 🌊 **HWRE / Water Resources** | [HWRE Hub](hwre/README.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [Exam Notes](hwre/exam_notes/hwre-exam-notes.md) | — | — | [HWRE Tech](../software-and-tech/hwre/hwre-tech-roadmap.md) | [Exam Notes](hwre/exam_notes/hwre-exam-notes.md) |
+| 🏗️ **Structures** | [structures.md](structures/structures.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | — | — | — | [BIM Tech](../software-and-tech/bim/bim-tech.md) | [GATE Revision](../core/gate/revision_notes/gate-civil-revision.md) |
+| 🪨 **Geotechnical** | [geotechnical.md](geotechnical/geotechnical.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [PRACTICE.md](geotechnical/PRACTICE.md) | [TEST.md](geotechnical/TEST.md) | [INTERVIEW.md](geotechnical/INTERVIEW.md) | [Geo Tech](../software-and-tech/geotechnical/geotechnical-tech.md) | [geotechnical-rapid-revision.md](geotechnical/geotechnical-rapid-revision.md) |
+| 🌿 **Environmental** | [environmental-engineering.md](environmental/environmental-engineering.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [PRACTICE.md](environmental/PRACTICE.md) | [TEST.md](environmental/TEST.md) | [INTERVIEW.md](environmental/INTERVIEW.md) | [Enviro Tech](../software-and-tech/environmental/environmental-tech.md) | [environmental-rapid-revision.md](environmental/environmental-rapid-revision.md) |
+| 🚗 **Transportation** | [transportation-engineering.md](transportation/transportation-engineering.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [PRACTICE.md](transportation/PRACTICE.md) | [TEST.md](transportation/TEST.md) | [INTERVIEW.md](transportation/INTERVIEW.md) | [Transport Software](transportation/transportation-software.md) | [transportation-rapid-revision.md](transportation/transportation-rapid-revision.md) |
+| 🗺️ **Geoinformatics** | [geoinformatics.md](geoinformatics/geoinformatics.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [PRACTICE.md](geoinformatics/PRACTICE.md) | [TEST.md](geoinformatics/TEST.md) | [INTERVIEW.md](geoinformatics/INTERVIEW.md) | [GIS Tech](../software-and-tech/gis/gis-tech.md) | [geoinformatics-rapid-revision.md](geoinformatics/geoinformatics-rapid-revision.md) |
+| 🏢 **Infrastructure Mgmt** | [infrastructure-engineering-management.md](infrastructure/infrastructure-engineering-management.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | [PRACTICE.md](infrastructure/PRACTICE.md) | [TEST.md](infrastructure/TEST.md) | [INTERVIEW.md](infrastructure/INTERVIEW.md) | [Construction Tech](../software-and-tech/construction/construction-tech.md) | [infrastructure-rapid-revision.md](infrastructure/infrastructure-rapid-revision.md) |
+| 📐 **Foundations** | [civil-engineering-foundations.md](fundamentals/civil-engineering-foundations.md) | [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | — | — | — | — | [civil-rapid-revision.md](fundamentals/civil-rapid-revision.md) |
 
 ---
 
@@ -61,7 +63,7 @@
 For every branch, follow this sequence:
 
 ```
-CONCEPT → FORMULA → NUMERICAL → INTERVIEW → SOFTWARE → PROJECT → REVISION
+CONCEPT → FORMULA → NUMERICAL → PRACTICE → TEST → INTERVIEW → SOFTWARE → PROJECT → REVISION
 ```
 
 | Stage | What to Do | Where |
@@ -69,10 +71,12 @@ CONCEPT → FORMULA → NUMERICAL → INTERVIEW → SOFTWARE → PROJECT → REV
 | **Concept** | Read the subject guide, understand theory | [Branch guide](#branch-navigation) |
 | **Formula** | Memorize the formula sheet | [Formula Sheet](gate/formulas/gate-civil-formulas.md) |
 | **Numerical** | Solve worked examples + practice problems | [GATE Practice](gate/practice/gate-civil-practice.md) |
-| **Interview** | Answer concept/WHY/WHAT-IF questions aloud | [Technical Bank](../prep/interview/technical/technical-interview-bank.md) |
+| **Practice** | Solve topic-specific practice problems | [Branch PRACTICE.md](#branch-navigation) |
+| **Test** | Take the topic test | [Branch TEST.md](#branch-navigation) |
+| **Interview** | Answer concept/WHY/WHAT-IF questions aloud | [Branch INTERVIEW.md](#branch-navigation) |
 | **Software** | Learn role-relevant tools | [Software Roadmap](../software-and-tech/branch-roadmaps.md) |
 | **Project** | Connect to project defense | [Project Defense](../prep/interview/technical/project-defense-guide.md) |
-| **Revision** | Use quick revision before interview | [Quick Revision](../prep/interview/quick-revision-system.md) |
+| **Revision** | Use quick revision before interview | [Branch RAPID_REVISION.md](#branch-navigation) |
 
 ---
 
@@ -92,6 +96,18 @@ CONCEPT → FORMULA → NUMERICAL → INTERVIEW → SOFTWARE → PROJECT → REV
 | **P1** | Transportation | Transportation roles |
 | **P1** | Geoinformatics | GIS roles |
 | **P1** | Infrastructure Mgmt | Construction management |
+
+---
+
+## Quick Links
+
+| Resource | Link |
+|:---------|:-----|
+| **Master Index** | [MASTER_INDEX.md](MASTER_INDEX.md) |
+| **Company → Role Map** | [_SYSTEM/COMPANY_ROLE_MAP.md](_SYSTEM/COMPANY_ROLE_MAP.md) |
+| **Technical Interview Bank** | [../prep/interview/technical/technical-interview-bank.md](../prep/interview/technical/technical-interview-bank.md) |
+| **Behavioral Guide** | [../prep/behavioral/behavioral-interview-guide.md](../prep/behavioral/behavioral-interview-guide.md) |
+| **Project Defense** | [../prep/interview/technical/project-defense-guide.md](../prep/interview/technical/project-defense-guide.md) |
 
 ---
 

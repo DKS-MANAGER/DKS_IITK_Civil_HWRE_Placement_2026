@@ -1,16 +1,31 @@
-# HWRE â€” Hydraulics & Water Resources Engineering
+# HWRE — Hydraulics & Water Resources Engineering
 
-> **The flagship specialization track.** A complete, connected pathway from core concepts to interview-ready â€” without leaving the HWRE system.
+> **The flagship specialization track.** A complete, connected pathway from core concepts to interview-ready — without leaving the HWRE system.
+
+> **Start here:** [`MASTER_INDEX.md`](MASTER_INDEX.md) — reach any resource in 1–2 clicks.
 
 ---
 
 ## The HWRE Journey
 
 ```
-CONCEPT â†’ FORMULA â†’ NUMERICAL â†’ SOFTWARE â†’ PROJECT â†’ INTERVIEW â†’ REVISION
+SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → TESTS → ERRORS → REVISE
 ```
 
-Every topic below connects to its full preparation chain.
+| Stage | Resource | What You Get |
+| ----- | -------- | ------------ |
+| **Syllabus** | [`HWRE_ROADMAP.md`](HWRE_ROADMAP.md) | Subject coverage + priority map |
+| **Roadmap** | [`HWRE_ROADMAP.md`](HWRE_ROADMAP.md) | Foundation → Building → Practice → Test → Revision |
+| **Plan** | [`HWRE_30_60_90_DAY_PLAN.md`](HWRE_30_60_90_DAY_PLAN.md) | Realistic 30/60/90-day schedule |
+| **Learn** | Subject guides (below) | Topic-wise study notes |
+| **Formulas** | [`formulas/hwre-formulas.md`](formulas/hwre-formulas.md) | Canonical formula sheet, P0–P3 tagged |
+| **Solved Examples** | [`practice/hwre-practice.md`](practice/hwre-practice.md) | 21 verified solved problems |
+| **Mock Tests** | [`mocks/hwre-mock-1.md`](mocks/hwre-mock-1.md) | Full HWRE mock with solutions |
+| **Error Analysis** | [`ERROR_ANALYSIS.md`](ERROR_ANALYSIS.md) | Error tracking + reattempt system |
+| **Rapid Revision** | [`RAPID_REVISION.md`](RAPID_REVISION.md) | 30-min / 2-hr / 1-day revision |
+| **Traps** | [`TRAPS.md`](TRAPS.md) | Common mistakes to avoid |
+| **Interview** | [`INTERVIEW.md`](INTERVIEW.md) | 41 HWRE interview Q&As |
+| **Modelling** | [`MODELLING.md`](MODELLING.md) | HEC-HMS → HEC-RAS → GIS workflow |
 
 ---
 
@@ -53,10 +68,10 @@ Every topic below connects to its full preparation chain.
 | **OpenFOAM** | CFD simulation | [Case Study](../../software-and-tech/deep-dives/openfoam-case-study.md) |
 | **EPANET** | Water distribution | [Walkthrough](../../software-and-tech/deep-dives/epanet-walkthrough.md) |
 | **SWMM** | Urban drainage | [Guide](../../software-and-tech/deep-dives/swmm-guide.md) |
-| **Python** | Data analysis, scripting | [Python Guide](../../software-and-tech/programming/python.md) |
-| **MATLAB** | Numerical computing | [MATLAB Guide](../../software-and-tech/programming/matlab.md) |
+| **GeoStudio** | Slope stability | [Tutorial](../../software-and-tech/deep-dives/geostudio-slopew-tutorial.md) |
+| **PLAXIS 2D** | Geotechnical FEM | [Tutorial](../../software-and-tech/deep-dives/plaxis-2d-tutorial.md) |
 
-> Full roadmap: [HWRE Tech Roadmap](../../software-and-tech/hwre/hwre-tech-roadmap.md)
+> Full pipeline: [`MODELLING.md`](MODELLING.md) · Full roadmap: [HWRE Tech Roadmap](../../software-and-tech/hwre/hwre-tech-roadmap.md)
 
 ---
 
@@ -64,6 +79,7 @@ Every topic below connects to its full preparation chain.
 
 | Resource | Coverage |
 |:---------|:---------|
+| [HWRE Interview Bank](INTERVIEW.md) | 41 HWRE-specific Q&As |
 | [Technical Interview Bank](../../prep/interview/technical/technical-interview-bank.md) | 100 Q&As including HWRE topics |
 | [Project Defense Guide](../../prep/interview/technical/project-defense-guide.md) | 35 defense questions |
 | [Software Interview Guide](../../prep/interview/software-interview-guide.md) | 20+ tools with Q&A |
@@ -76,8 +92,10 @@ Every topic below connects to its full preparation chain.
 
 | Resource | Use |
 |:---------|:----|
+| [HWRE Rapid Revision](RAPID_REVISION.md) | 30-min / 2-hr / 1-day plans |
 | [HWRE Exam Notes](exam_notes/hwre-exam-notes.md) | One-page cheat sheet |
-| [Formula Sheet](../../core/gate/formulas/gate-civil-formulas.md) | Complete formula reference |
+| [Formula Sheet](formulas/hwre-formulas.md) | Canonical formula reference |
+| [GATE Civil Formula Sheet](../gate/formulas/gate-civil-formulas.md) | Complete GATE formula reference |
 | [Quick Revision System](../../prep/interview/quick-revision-system.md) | 1-Day, 7-Day, 30-Day plans |
 
 ---
@@ -98,18 +116,27 @@ Every topic below connects to its full preparation chain.
 
 ```
 Hydraulics
-  â†” Open Channel Flow
-  â†” Hydrology
-  â†” Water Resources
-  â†” Sediment Transport
-  â†” Turbulence / CFD
-  â†” HEC-RAS / HEC-HMS / EPANET / SWMM / OpenFOAM
-  â†” Python / MATLAB
-  â†” Project Defense
-  â†” Interview
-  â†” Revision
+  ↔ Open Channel Flow
+  ↔ Hydrology
+  ↔ Water Resources
+  ↔ Sediment Transport
+  ↔ Turbulence / CFD
+  ↔ HEC-RAS / HEC-HMS / EPANET / SWMM / OpenFOAM
+  ↔ Python / MATLAB
+  ↔ Project Defense
+  ↔ Interview
+  ↔ Revision
 ```
 
 ---
 
-> **Back to:** [Core Civil](../README.md) Â· [Start Here](../../docs/start-here.md) Â· [Control Panel](../../docs/placement-control-panel.md)
+## System Files
+
+- [`_SYSTEM/HWRE_FILE_INVENTORY.md`](_SYSTEM/HWRE_FILE_INVENTORY.md) — File inventory
+- [`_SYSTEM/HWRE_REPO_MAP.md`](_SYSTEM/HWRE_REPO_MAP.md) — Repository map
+- [`_SYSTEM/HWRE_AUDIT_STATE.md`](_SYSTEM/HWRE_AUDIT_STATE.md) — Audit state
+- [`_SYSTEM/HWRE_COMPLETENESS_MATRIX.md`](_SYSTEM/HWRE_COMPLETENESS_MATRIX.md) — Completeness scores
+
+---
+
+> **Back to:** [Core Civil](../README.md) · [Start Here](../../docs/start-here.md) · [Control Panel](../../docs/placement-control-panel.md)
