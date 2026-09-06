@@ -197,6 +197,17 @@ Project 6: Road Accessibility Analysis
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| QGIS / ArcGIS | [`tools/QGIS.md`](../tools/QGIS.md) |
+| Python (GeoPandas) | [`programming/python.md`](../programming/python.md) |
+| SQL (PostGIS) | [`programming/sql.md`](../programming/sql.md) |
+| HEC-RAS integration | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

@@ -162,6 +162,17 @@ Step 7: Close → As-built documentation, lessons learned
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| Primavera P6 / MS Project | [`tools/Primavera.md`](../tools/Primavera.md) |
+| Excel (BOQ) | [`tools/Excel.md`](../tools/Excel.md) |
+| Revit / BIM | [`tools/Revit.md`](../tools/Revit.md) |
+| AutoCAD | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

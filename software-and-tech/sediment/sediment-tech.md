@@ -217,6 +217,17 @@ LaTeX — include in thesis/paper
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+| Python | [`programming/python.md`](../programming/python.md) |
+| MATLAB | [`programming/matlab.md`](../programming/matlab.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

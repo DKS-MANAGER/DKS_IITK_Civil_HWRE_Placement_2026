@@ -61,6 +61,16 @@ It covers both **Core Civil** and **Non-Core / Tech-Adjacent** roles.
 
 | Section | Purpose | Files |
 |:--------|:--------|:------|
+| [**Role → Tool Matrix**](SOFTWARE_ROLE_MATRIX.md) | Which software for which role (company-evidenced) | 1 |
+| [**Tool Index**](TOOLS_INDEX.md) | Every tool, one row, canonical source | 1 |
+| [**Learning Roadmap**](SOFTWARE_ROADMAP.md) | 7/30/90-day plans by role | 1 |
+| [**Completeness Matrix**](SOFTWARE_COMPLETENESS_MATRIX.md) | Tool readiness score (target ≥8/10) | 1 |
+| [**Resume Strategy**](SOFTWARE_RESUME_STRATEGY.md) | Honest tool proficiency on resume | 1 |
+| [**Company Linkage**](SOFTWARE_COMPANY_LINKAGE.md) | Company → role → tool → study material | 1 |
+| [**Theory Linkage**](SOFTWARE_THEORY_LINKAGE.md) | Tool ↔ engineering fundamentals | 1 |
+| [**Canonical Tool Pages**](tools/AutoCAD.md) | AutoCAD, Excel, ETABS, STAAD, QGIS, Primavera, Revit, SAP2000 | 8 |
+| [**Practice System**](practice/README.md) | Basic → Intermediate → Role-specific exercises | 1 |
+| [**Test System**](tests/README.md) | Tool quiz, workflow, troubleshooting, interview tests | 1 |
 | [**Priority System**](priority-system.md) | L1–L4 proficiency levels + tagging | 1 |
 | [**Software Template**](software-template.md) | Standard format for every tool page | 1 |
 | [**Programming**](programming/python.md) | Python, MATLAB, SQL, C/C++, Git | 5 |
@@ -95,7 +105,7 @@ It covers both **Core Civil** and **Non-Core / Tech-Adjacent** roles.
 | [**M.Tech Advantage**](mtech-advantage.md) | Research → software → industry role | 1 |
 | [**Tool Deep-Dives**](deep-dives/README.md) | Hands-on step-by-step walkthroughs | 8 |
 
-**Total: 38 files across 22 directories**
+**Total: 58 files across 25 directories** (including new role-matrix, tool pages, practice & test systems)
 
 ---
 

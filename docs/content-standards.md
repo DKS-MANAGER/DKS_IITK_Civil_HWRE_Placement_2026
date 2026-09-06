@@ -199,3 +199,53 @@ Before submitting new content, verify:
 - [ ] No duplication of existing canonical content
 - [ ] Priority level is assigned
 - [ ] Metadata is included (if applicable)
+
+---
+
+## Source & Evidence Policy
+
+Every claim must be labeled with an evidence level. See [SOURCE_POLICY.md](SOURCE_POLICY.md) for the full policy.
+
+| Level | Label | Meaning |
+|:------|:------|:--------|
+| **VERIFIED** | ✅ | Confirmed against a reliable source |
+| **SOURCE-DERIVED** | 📚 | Derived from a named source |
+| **INFERRED** | 🔍 | Reasoned from first principles |
+| **PREDICTED** | ⚠️ | Forward-looking estimate (needs disclaimer) |
+
+**Rules:**
+- Label every claim in technical content.
+- Name the source for VERIFIED / SOURCE-DERIVED.
+- Never present INFERRED as VERIFIED.
+- PREDICTED content (CTC, forecasts) must carry a disclaimer.
+
+---
+
+## Naming Conventions
+
+Follow the naming rules in [architecture.md](architecture.md):
+
+- Folders: lowercase, hyphenated, descriptive (`open-channel-flow/`)
+- Files: lowercase, hyphenated, descriptive (`hydraulics.md`)
+- README.md in each major folder as entry point
+- Consistent suffixes: `overview.md`, `guide.md`, `practice.md`
+
+---
+
+## Link Conventions
+
+- Use relative paths for all internal links.
+- Use descriptive link text (never "click here").
+- Every content page links **up** to its section README.
+- Every content page links **sideways** to related topics.
+- Question banks link **back** to canonical concept pages.
+- Verify links before committing (see [DOCS_LINK_AUDIT.md](_SYSTEM/DOCS_LINK_AUDIT.md)).
+
+---
+
+## Update Conventions
+
+- Update the [Content Registry](_SYSTEM/DOCS_CONTENT_REGISTRY.md) when adding a new topic.
+- Update the [File Map](_SYSTEM/DOCS_FILE_MAP.md) when adding/moving/removing a file.
+- Keep the [Audit State](_SYSTEM/DOCS_AUDIT_STATE.md) current after meaningful changes.
+- Re-run the link audit after any edit to `docs/`.

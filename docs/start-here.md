@@ -1,6 +1,7 @@
-# Start Here â€” IITK Civil Placement OS
+# Start Here — IITK Civil Placement OS
 
 > **New to this repository?** This page tells you exactly where to go based on who you are and what you need.
+> For a quick-start guide, see [GETTING_STARTED.md](GETTING_STARTED.md).
 
 ---
 
@@ -8,24 +9,24 @@
 
 Pick the row that matches you. Click the link.
 
-### ðŸŽ“ IITK B.Tech Civil
+### 🎓 IITK B.Tech Civil
 
-| I want toâ€¦ | Start here |
-|:-----------|:-----------|
-| Prepare for **core Civil placement** (L&T, AECOM, Tata Projects) | [Core Civil Roadmap â†’](../core/fundamentals/civil-engineering-foundations.md) |
-| Prepare for **HWRE / Water Resources** (NHPC, WAPCOS, CWPRS) | [HWRE Start â†’](../core/hwre/hydraulics/hydraulics.md) |
-| Switch to **consulting / analytics / tech** | [Non-Core Guide â†’](../non-core/README.md) |
-| Prepare for **GATE 2027** | [GATE Notes â†’](../core/gate/civil/gate-civil-notes.md) |
+| I want to... | Start here |
+|:-------------|:-----------|
+| Prepare for **core Civil placement** (L&T, AECOM, Tata Projects) | [Core Civil Roadmap →](../core/fundamentals/civil-engineering-foundations.md) |
+| Prepare for **HWRE / Water Resources** (NHPC, WAPCOS, CWPRS) | [HWRE Start →](../core/hwre/hydraulics/hydraulics.md) |
+| Switch to **consulting / analytics / tech** | [Non-Core Guide →](../non-core/README.md) |
+| Prepare for **GATE 2027** | [GATE Notes →](../core/gate/civil/gate-civil-notes.md) |
 
-### ðŸŽ“ IITK M.Tech Civil / HWRE
+### 🎓 IITK M.Tech Civil / HWRE
 
-| I want toâ€¦ | Start here |
-|:-----------|:-----------|
-| **Core placement** with M.Tech thesis leverage | [Project Defense â†’](../prep/interview/technical/project-defense-guide.md) |
-| **HWRE / Research role** (CFD, numerical modeling) | [HWRE Deep Dive â†’](../core/hwre/hydraulics/turbulence-modeling.md) |
-| **Software / Data role** (Python, SQL, analytics) | [Software Roadmap â†’](../software-and-tech/branch-roadmaps.md) |
-| **Consulting / Non-core** role | [Non-Core Tracks â†’](../non-core/README.md) |
-| Defend my **M.Tech thesis** in an interview | [Project Defense â†’](../prep/interview/technical/project-defense-guide.md) |
+| I want to... | Start here |
+|:-------------|:-----------|
+| **Core placement** with M.Tech thesis leverage | [Project Defense →](../prep/interview/technical/project-defense-guide.md) |
+| **HWRE / Research role** (CFD, numerical modeling) | [HWRE Deep Dive →](../core/hwre/hydraulics/turbulence-modeling.md) |
+| **Software / Data role** (Python, SQL, analytics) | [Software Roadmap →](../software-and-tech/branch-roadmaps.md) |
+| **Consulting / Non-core** role | [Non-Core Tracks →](../non-core/README.md) |
+| Defend my **M.Tech thesis** in an interview | [Project Defense →](../prep/interview/technical/project-defense-guide.md) |
 
 ---
 
@@ -33,10 +34,10 @@ Pick the row that matches you. Click the link.
 
 | Time left | What to do | Link |
 |:----------|:-----------|:-----|
-| **Interview is TOMORROW** | Open the 1-Day Crash Plan | [Quick Revision â†’](../prep/interview/quick-revision-system.md) |
-| **1 week** | Follow the 7-Day Sprint | [7-Day Plan â†’](../prep/interview/quick-revision-system.md) |
-| **30 days** | Follow the 30-Day Roadmap | [30-Day Plan â†’](../docs/roadmap.md) |
-| **60â€“90 days** | Full preparation cycle | [Full Roadmap â†’](../docs/roadmap.md) |
+| **Interview is TOMORROW** | Open the 1-Day Crash Plan | [Quick Revision →](../prep/interview/quick-revision-system.md) |
+| **1 week** | Follow the 7-Day Sprint | [7-Day Plan →](../prep/interview/quick-revision-system.md) |
+| **30 days** | Follow the 30-Day Roadmap | [30-Day Plan →](../docs/roadmap.md) |
+| **60–90 days** | Full preparation cycle | [Full Roadmap →](../docs/roadmap.md) |
 
 ---
 
@@ -44,44 +45,44 @@ Pick the row that matches you. Click the link.
 
 ```
 START
-  â†“
-â‘  Choose Branch / Target Role
-  â†“
-â‘¡ Choose Timeline (1 day / 7 days / 30 days / 90 days)
-  â†“
-â‘¢ Study Core Concepts (formula sheets + key theory)
-  â†“
-â‘£ Practice Questions (concept + WHY + WHAT-IF + numerical)
-  â†“
-â‘¤ Software Skills (role-relevant tools only)
-  â†“
-â‘¥ Resume + Project Defense
-  â†“
-â‘¦ Mock Interviews (at least 3 full sessions)
-  â†“
-â‘§ Rapid Revision (night-before checklist)
-  â†“
-ðŸŽ¯ INTERVIEW
+  ↓
+① Choose Branch / Target Role
+  ↓
+② Choose Timeline (1 day / 7 days / 30 days / 90 days)
+  ↓
+③ Study Core Concepts (formula sheets + key theory)
+  ↓
+④ Practice Questions (concept + WHY + WHAT-IF + numerical)
+  ↓
+⑤ Software Skills (role-relevant tools only)
+  ↓
+⑥ Resume + Project Defense
+  ↓
+⑦ Mock Interviews (at least 3 full sessions)
+  ↓
+⑧ Rapid Revision (night-before checklist)
+  ↓
+🎯 INTERVIEW
 ```
 
 ---
 
 ## Step 4: Quick Access by Need
 
-| I need help withâ€¦ | Go to |
-|:------------------|:------|
-| ðŸ“ **Interview Questions** | [Technical Q&A Bank (100) â†’](../prep/interview/technical/technical-interview-bank.md) |
-| ðŸ”¢ **Numerical Problems** | [Formula Sheets â†’](../core/gate/formulas/gate-civil-formulas.md) |
-| ðŸ“„ **Resume** | [Resume Template â†’](../prep/templates/resume-template.md) |
-| ðŸ—£ï¸ **Self Introduction** | [Self Intro System â†’](../prep/behavioral/self_intro/self-introduction-system.md) |
-| ðŸ’¼ **Project Defense** | [Project Defense Guide â†’](../prep/interview/technical/project-defense-guide.md) |
-| ðŸ–¥ï¸ **Software Skills** | [Software Interview Guide â†’](../prep/interview/software-interview-guide.md) |
-| ðŸ§  **Behavioral / HR** | [Behavioral Guide â†’](../prep/behavioral/behavioral-interview-guide.md) |
-| ðŸŽ¤ **Mock Interviews** | [Mock Database (8 sessions) â†’](../prep/interview/mock-tests/mock-interview-database.md) |
-| ðŸ’¼ **Case Interview** | [Case Frameworks â†’](../non-core/case-interviews/framework-library.md) |
-| ðŸ“Š **Guesstimates** | [Guesstimate Guide â†’](../non-core/guesstimates/guesstimate-guide.md) |
-| âš¡ **Rapid Revision** | [Quick Revision System â†’](../prep/interview/quick-revision-system.md) |
-| ðŸ¢ **Company Profiles** | [Company Profiles â†’](../prep/company-profiles/) |
+| I need help with... | Go to |
+|:-------------------|:------|
+| 📝 **Interview Questions** | [Technical Q&A Bank (100) →](../prep/interview/technical/technical-interview-bank.md) |
+| 🔢 **Numerical Problems** | [Formula Sheets →](../core/gate/formulas/gate-civil-formulas.md) |
+| 📄 **Resume** | [Resume Template →](../prep/templates/resume-template.md) |
+| 🗣️ **Self Introduction** | [Self Intro System →](../prep/behavioral/self_intro/self-introduction-system.md) |
+| 💼 **Project Defense** | [Project Defense Guide →](../prep/interview/technical/project-defense-guide.md) |
+| 💻 **Software Skills** | [Software Interview Guide →](../prep/interview/software-interview-guide.md) |
+| 🧠 **Behavioral / HR** | [Behavioral Guide →](../prep/behavioral/behavioral-interview-guide.md) |
+| 🎤 **Mock Interviews** | [Mock Database (8 sessions) →](../prep/interview/mock-tests/mock-interview-database.md) |
+| 💼 **Case Interview** | [Case Frameworks →](../non-core/case-interviews/framework-library.md) |
+| 📊 **Guesstimates** | [Guesstimate Guide →](../non-core/guesstimates/guesstimate-guide.md) |
+| ⚡ **Rapid Revision** | [Quick Revision System →](../prep/interview/quick-revision-system.md) |
+| 🏢 **Company Profiles** | [Company Profiles →](../prep/company-profiles/) |
 
 ---
 
@@ -91,11 +92,11 @@ If you have no idea where to start, do this right now:
 
 | Time | Action | Link |
 |:-----|:-------|:-----|
-| 0â€“5 min | Read this page | You are here |
-| 5â€“10 min | Scan the [Control Panel](placement-control-panel.md) | Get oriented |
-| 10â€“20 min | Read your subject's [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | Refresh core knowledge |
-| 20â€“25 min | Attempt 3 questions from the [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | Test yourself |
-| 25â€“30 min | Review your [Self Introduction](../prep/behavioral/self_intro/self-introduction-system.md) | Practice out loud |
+| 0–5 min | Read this page | You are here |
+| 5–10 min | Scan the [Control Panel](placement-control-panel.md) | Get oriented |
+| 10–20 min | Read your subject's [Formula Sheet](../core/gate/formulas/gate-civil-formulas.md) | Refresh core knowledge |
+| 20–25 min | Attempt 3 questions from the [Technical Bank](../prep/interview/technical/technical-interview-bank.md) | Test yourself |
+| 25–30 min | Review your [Self Introduction](../prep/behavioral/self_intro/self-introduction-system.md) | Practice out loud |
 
 ---
 
@@ -103,32 +104,33 @@ If you have no idea where to start, do this right now:
 
 ```
 START HERE (this page)
-â”œâ”€â”€ Core Civil â†’ core/
-â”‚   â”œâ”€â”€ Hydraulics â†’ core/hwre/hydraulics/
-â”‚   â”œâ”€â”€ Open Channel Flow â†’ core/hwre/open_channel_flow/
-â”‚   â”œâ”€â”€ Hydrology â†’ core/hwre/hydrology/
-â”‚   â”œâ”€â”€ Water Resources â†’ core/hwre/water_resources/
-â”‚   â”œâ”€â”€ Structures â†’ core/structures/
-â”‚   â”œâ”€â”€ Geotechnical â†’ core/geotechnical/
-â”‚   â”œâ”€â”€ Environmental â†’ core/environmental/
-â”‚   â””â”€â”€ Transportation â†’ core/transportation/
-â”œâ”€â”€ Non-Core â†’ non-core/
-â”‚   â”œâ”€â”€ Consulting â†’ non-core/consulting/
-â”‚   â”œâ”€â”€ Data Analyst â†’ non-core/data-analyst/
-â”‚   â”œâ”€â”€ Business Analyst â†’ non-core/business-analyst/
-â”‚   â”œâ”€â”€ Product â†’ non-core/product-management/
-â”‚   â””â”€â”€ Operations â†’ non-core/operations/
-â”œâ”€â”€ Interview Prep â†’ prep/
-â”‚   â”œâ”€â”€ Behavioral â†’ prep/behavioral/
-â”‚   â”œâ”€â”€ Technical â†’ prep/interview/technical/
-â”‚   â”œâ”€â”€ Mock Interviews â†’ prep/interview/mock-tests/
-â”‚   â””â”€â”€ Company Profiles â†’ prep/company-profiles/
-â”œâ”€â”€ Software â†’ software-and-tech/
-â”œâ”€â”€ Aptitude â†’ non-core/aptitude/
-â”œâ”€â”€ GATE â†’ core/gate/
-â””â”€â”€ Resources â†’ resources/
+├── Core Civil → core/
+│   ├── Hydraulics → core/hwre/hydraulics/
+│   ├── Open Channel Flow → core/hwre/open_channel_flow/
+│   ├── Hydrology → core/hwre/hydrology/
+│   ├── Water Resources → core/hwre/water_resources/
+│   ├── Structures → core/structures/
+│   ├── Geotechnical → core/geotechnical/
+│   ├── Environmental → core/environmental/
+│   └── Transportation → core/transportation/
+├── Non-Core → non-core/
+│   ├── Consulting → non-core/consulting/
+│   ├── Data Analyst → non-core/data-analyst/
+│   ├── Business Analyst → non-core/business-analyst/
+│   ├── Product → non-core/product-management/
+│   └── Operations → non-core/operations/
+├── Interview Prep → prep/
+│   ├── Behavioral → prep/behavioral/
+│   ├── Technical → prep/interview/technical/
+│   ├── Mock Interviews → prep/interview/mock-tests/
+│   └── Company Profiles → prep/company-profiles/
+├── Software → software-and-tech/
+├── Aptitude → non-core/aptitude/
+├── GATE → core/gate/
+└── Resources → resources/
 ```
 
 ---
 
 > **Still confused?** Open the [Placement Control Panel](placement-control-panel.md) for a complete command-center view.
+> For a structured getting-started guide, see [GETTING_STARTED.md](GETTING_STARTED.md).

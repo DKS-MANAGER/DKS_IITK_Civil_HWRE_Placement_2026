@@ -176,6 +176,17 @@ Ask yourself:
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| Python | [`programming/python.md`](../programming/python.md) |
+| SQL | [`programming/sql.md`](../programming/sql.md) |
+| Excel | [`tools/Excel.md`](../tools/Excel.md) |
+| Git | [`programming/git.md`](../programming/git.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

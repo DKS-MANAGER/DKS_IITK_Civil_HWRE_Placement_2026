@@ -143,6 +143,16 @@ Skip SQL/Python IF:
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| Excel | [`tools/Excel.md`](../tools/Excel.md) |
+| SQL | [`programming/sql.md`](../programming/sql.md) |
+| Python | [`programming/python.md`](../programming/python.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

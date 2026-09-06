@@ -185,6 +185,17 @@ Rule of thumb:
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| AutoCAD vs Revit | [`tools/AutoCAD.md`](../tools/AutoCAD.md) · [`tools/Revit.md`](../tools/Revit.md) |
+| ETABS vs STAAD | [`tools/ETABS.md`](../tools/ETABS.md) · [`tools/STAAD.md`](../tools/STAAD.md) |
+| HEC-HMS vs HEC-RAS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) · [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+| Python vs MATLAB | [`programming/python.md`](../programming/python.md) · [`programming/matlab.md`](../programming/matlab.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

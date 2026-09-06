@@ -219,6 +219,20 @@ Project 3: BIM Coordination
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| AutoCAD | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
+| ETABS | [`tools/ETABS.md`](../tools/ETABS.md) |
+| STAAD.Pro | [`tools/STAAD.md`](../tools/STAAD.md) |
+| SAP2000 | [`tools/SAP2000.md`](../tools/SAP2000.md) |
+| Revit / BIM | [`tools/Revit.md`](../tools/Revit.md) |
+| Excel | [`tools/Excel.md`](../tools/Excel.md) |
+| Python | [`programming/python.md`](../programming/python.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

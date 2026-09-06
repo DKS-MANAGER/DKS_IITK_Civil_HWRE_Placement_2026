@@ -170,6 +170,16 @@ Step 6: Report — Findings, recommendations, exhibits
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| Excel | [`tools/Excel.md`](../tools/Excel.md) |
+| QGIS / GIS | [`tools/QGIS.md`](../tools/QGIS.md) |
+| Python | [`programming/python.md`](../programming/python.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |

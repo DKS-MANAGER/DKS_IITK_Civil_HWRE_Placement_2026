@@ -152,6 +152,17 @@ Step 6: Publish — Create flythroughs, reports, clash reports
 
 ---
 
+## Study Material
+
+| Tool | Canonical Study Page |
+|:-----|:---------------------|
+| Revit / Navisworks | [`tools/Revit.md`](../tools/Revit.md) |
+| AutoCAD | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
+| BIM Role Study Plan | [`bim/role-study-plan.md`](../bim/role-study-plan.md) |
+| BIM Rapid Revision | [`bim/bim-rapid-revision.md`](../bim/bim-rapid-revision.md) |
+
+---
+
 ## Cross-Links
 
 | Related Section | Link |
