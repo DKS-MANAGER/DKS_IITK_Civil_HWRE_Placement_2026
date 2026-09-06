@@ -233,6 +233,18 @@ __pycache__/
 *.pyo
 *.pyd
 
+# AI Working Memory & Temporary State
+*_STATE.md
+*_AUDIT_STATE.md
+*_QUEUE.md
+*_WORKING.md
+*_SCRATCH.md
+*_TEMP.md
+*_TMP.md
+AI_NOTES.md
+WORKING_NOTES.md
+TASK_STATE.md
+
 # ============================
 # OS-Specific Large Files
 # ============================

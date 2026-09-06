@@ -113,6 +113,7 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 | Infrastructure Mgmt | [infrastructure-engineering-management.md](core/infrastructure/infrastructure-engineering-management.md) |
 | Geoinformatics | [geoinformatics.md](core/geoinformatics/geoinformatics.md) |
 | Civil Foundations | [civil-engineering-foundations.md](core/fundamentals/civil-engineering-foundations.md) |
+| Common Professional Skills | [common-civil-skills/](core/common-civil-skills/README.md) |
 
 </td>
 <td width="50%" valign="top">

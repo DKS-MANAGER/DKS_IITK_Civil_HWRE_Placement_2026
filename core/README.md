@@ -80,6 +80,14 @@ CONCEPT → FORMULA → NUMERICAL → PRACTICE → TEST → INTERVIEW → SOFTWA
 
 ---
 
+## Common Professional Skills
+
+| Module | Content |
+|:-------|:--------|
+| [Common Civil Skills](common-civil-skills/README.md) | Practical execution, estimation, contracts, and QA/QC |
+
+---
+
 ## Priority Subjects
 
 | Priority | Subject | Why |
