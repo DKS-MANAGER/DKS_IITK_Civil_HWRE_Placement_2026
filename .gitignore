@@ -222,9 +222,16 @@ logs/
 *.csv
 
 # ============================
-# Audit Reports (local-only)
+# Audit Reports & System Artifacts (local-only)
 # ============================
 docs/deep-critical-audit.md
+_SYSTEM/*.txt
+_SYSTEM/*.py
+linkcheck_report.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
 # ============================
 # OS-Specific Large Files
