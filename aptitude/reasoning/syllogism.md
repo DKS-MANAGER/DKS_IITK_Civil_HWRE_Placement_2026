@@ -98,27 +98,27 @@ Modern exams (Accenture, Deloitte, SBI/IBPS PO, CAT) rarely use simple $A/E/I/O$
 
 ---
 
-## 2. The 8-Tier Question Hierarchy (40 Fully Solved Questions)
+## 2. Comprehensive Practice Set (40 Fully Solved Questions)
 
 ```
 ===================================================================================
-                               8-TIER DIFFICULTY ROADMAP
+                               8-LEVEL DIFFICULTY ROADMAP
 ===================================================================================
-Tier 1: Foundation (Q1–Q5)              -> A, E, I, O Conversion, Direct 2-Premise Syllogisms
-Tier 2: Intermediate (Q6–Q10)           -> 3 Statements, Standard Transitive Chains, Basic Negation
-Tier 3: Hard (Q11–Q15)                  -> 4 Statements, Validated Either-Or Pairs, Overlapping Sets
-Tier 4: Very Hard (Q16–Q20)             -> "Only a few" & "Only" Modern Placement Operators
-Tier 5: Expert (Q21–Q25)                -> 5-6 Statements, Multi-Conclusion Audits, Hidden Bounds
-Tier 6: Placement Traps (Q26–Q30)       -> Fallacy of Undistributed Middle, Illicit Major, A+E Traps
-Tier 7: Extreme Multi-Premise (Q31–Q37) -> Caselet 1 (6 Statements x 5 Simultaneous Conclusions)
+Level 1: Foundation (Q1–Q5)              -> A, E, I, O Conversion, Direct 2-Premise Syllogisms
+Level 2: Intermediate (Q6–Q10)           -> 3 Statements, Standard Transitive Chains, Basic Negation
+Level 3: Hard (Q11–Q15)                  -> 4 Statements, Validated Either-Or Pairs, Overlapping Sets
+Level 4: Very Hard (Q16–Q20)             -> "Only a few" & "Only" Modern Placement Operators
+Level 5: Expert (Q21–Q25)                -> 5-6 Statements, Multi-Conclusion Audits, Hidden Bounds
+Level 6: Placement Traps (Q26–Q30)       -> Fallacy of Undistributed Middle, Illicit Major, A+E Traps
+Level 7: Extreme Multi-Premise (Q31–Q37) -> Caselet 1 (6 Statements x 5 Simultaneous Conclusions)
                                            Caselet 2 (Reverse Syllogisms: Infer Statements from Concl)
-Tier 8: Advanced Hybrid (Q38–Q40)       -> Syllogisms + Seating Arrangement / Blood Relations / Quant
+Level 8: Advanced Hybrid (Q38–Q40)       -> Syllogisms + Seating Arrangement / Blood Relations / Quant
 ===================================================================================
 ```
 
 ---
 
-### Tier 1: Foundation (Q1–Q5)
+### Level 1: Foundation (Q1–Q5)
 
 #### Q1. Direct Universal Transitivity
 **Statements:**  
@@ -181,7 +181,7 @@ D) Neither follows
 
 ---
 
-### Tier 2: Intermediate (Q6–Q10)
+### Level 2: Intermediate (Q6–Q10)
 
 #### Q6. Three-Statement Chain with Negation
 **Statements:**  
@@ -249,7 +249,7 @@ D) Neither follows
 
 ---
 
-### Tier 3: Hard (Q11–Q15)
+### Level 3: Hard (Q11–Q15)
 
 #### Q11. Four-Statement Chained Possibility
 **Statements:**  
@@ -329,7 +329,7 @@ D) All follow
 
 ---
 
-### Tier 4: Very Hard ("Only" & "Only a few") (Q16–Q20)
+### Level 4: Very Hard ("Only" & "Only a few") (Q16–Q20)
 
 #### Q16. Pure "Only a few" Semantics
 **Statements:**  
@@ -403,7 +403,7 @@ D) All follow
 
 ---
 
-### Tier 5: Expert (Q21–Q25)
+### Level 5: Expert (Q21–Q25)
 
 #### Q21. 5-Statement Enterprise Network
 **Statements:**  
@@ -490,7 +490,7 @@ D) Only III and IV follow
 
 ---
 
-### Tier 6: Placement Traps & Flaw Identification (Q26–Q30)
+### Level 6: Placement Traps & Flaw Identification (Q26–Q30)
 
 #### Q26. Fallacy of the Undistributed Middle
 **Statements:**  
@@ -553,7 +553,7 @@ D) Neither follows
 
 ---
 
-### Tier 7: Extreme Multi-Premise Sets & Reverse Syllogisms (Q31–Q37)
+### Level 7: Extreme Multi-Premise Sets & Reverse Syllogisms (Q31–Q37)
 
 #### Caselet 1: The Six-Statement Master Analysis (Q31–Q34)
 **Scenario:**  
@@ -624,7 +624,7 @@ D) Cannot be determined
 
 ---
 
-### Tier 8: Advanced Hybrid Reasoning (Q38–Q40)
+### Level 8: Advanced Hybrid Reasoning (Q38–Q40)
 
 #### Q38. Syllogism + Circular Seating Hybrid
 Six people $A, B, C, D, E, F$ sit around a circle facing center. Each belongs to a profession: Doctor, Engineer, Artist.  
@@ -664,9 +664,26 @@ D) 70
 
 ---
 
-## 3. Comprehensive Step-by-Step Solutions
+## 3. Master Answer Key & Comprehensive Solutions
 
-### Solutions: Tier 1 (Foundation)
+### Master Answer Key (Q1–Q40)
+
+| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | C | **8** | C | **15** | A | **22** | A | **29** | A | **35** | C |
+| **2** | B | **9** | C | **16** | C | **23** | A | **30** | D | **36** | B |
+| **3** | A | **10** | C | **17** | B | **24** | C | **31** | B | **37** | A |
+| **4** | A | **11** | C | **18** | B | **25** | C | **32** | A | **38** | D |
+| **5** | A | **12** | B | **19** | B | **26** | D | **33** | B | **39** | B |
+| **6** | A | **13** | A | **20** | B | **27** | B | **34** | B | **40** | B |
+| **7** | C | **14** | D | **21** | A | **28** | D | - | - | - | - |
+
+---
+
+### Step-by-Step Derivations
+
+
+#### Level 1 (Foundation)
 
 #### Q1 Solution
 - Statements: $L \subseteq C$ and $C \subseteq E$.
@@ -704,7 +721,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 2 (Intermediate)
+#### Level 2 (Intermediate)
 
 #### Q6 Solution
 - Statements: $S \subseteq R$, $R \cap P \ne \emptyset$, $P \cap C = \emptyset$.
@@ -746,7 +763,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 3 (Hard)
+#### Level 3 (Hard)
 
 #### Q11 Solution
 - Statements: $A \subseteq F$, $F \cap B \ne \emptyset$, $B \cap O = \emptyset$, $O \subseteq C$.
@@ -790,7 +807,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 4 ("Only a few" & "Only")
+#### Level 4 ("Only a few" & "Only")
 
 #### Q16 Solution
 - Statements: "Only a few plants are trees" $\implies (P \cap T \ne \emptyset)$ AND $(P \setminus T \ne \emptyset)$.
@@ -836,7 +853,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 5 (Expert)
+#### Level 5 (Expert)
 
 #### Q21 Solution
 - Statements: $A \subseteq C$, "Only a few $C$ are $S$", $S \cap V = \emptyset$, $V \subseteq M$, $M \cap Sc \ne \emptyset$.
@@ -885,7 +902,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 6 (Traps & Inferences)
+#### Level 6 (Traps & Inferences)
 
 #### Q26 Solution
 - Both premises distribute $Mammals$ in predicate position of affirmative propositions (undistributed).
@@ -921,7 +938,7 @@ D) 70
 
 ---
 
-### Solutions: Tier 7 (Extreme Multi-Premise)
+#### Level 7 (Extreme Multi-Premise)
 
 #### Q31 Solution
 - Rains that are storms cannot be snow. Hence "Some rain is not snow" definitely follows.

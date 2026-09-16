@@ -92,27 +92,27 @@ When no direct deterministic deduction remains, identify the **Pivot Variable** 
 
 ---
 
-## 2. The 8-Tier Question Hierarchy (40 Fully Solved Questions)
+## 2. Comprehensive Practice Set (40 Fully Solved Questions)
 
 ```
 ===================================================================================
-                               8-TIER DIFFICULTY ROADMAP
+                               8-LEVEL DIFFICULTY ROADMAP
 ===================================================================================
-Tier 1: Foundation (Q1–Q5)              -> 1D Fixed Anchors, Basic Floor & Day Sequences
-Tier 2: Intermediate (Q6–Q10)           -> 5-7 Variables, 2 Orthogonal Attributes
-Tier 3: Hard (Q11–Q15)                  -> 7-8 Variables, Interval & Polyomino Constraints
-Tier 4: Very Hard (Q16–Q20)             -> 4-Variable Cross-Matrices, Vacant Floors
-Tier 5: Expert (Q21–Q25)                -> Conditional Rules, Contrapositives, Negation
-Tier 6: Placement Traps (Q26–Q30)       -> Boundary Extremes, Impossible States, Parity
-Tier 7: Extreme Caselets (Q31–Q37)      -> Caselet 1 (10-Person, 5-Day, 3-Team, 3-Loc)
+Level 1: Foundation (Q1–Q5)              -> 1D Fixed Anchors, Basic Floor & Day Sequences
+Level 2: Intermediate (Q6–Q10)           -> 5-7 Variables, 2 Orthogonal Attributes
+Level 3: Hard (Q11–Q15)                  -> 7-8 Variables, Interval & Polyomino Constraints
+Level 4: Very Hard (Q16–Q20)             -> 4-Variable Cross-Matrices, Vacant Floors
+Level 5: Expert (Q21–Q25)                -> Conditional Rules, Contrapositives, Negation
+Level 6: Placement Traps (Q26–Q30)       -> Boundary Extremes, Impossible States, Parity
+Level 7: Extreme Caselets (Q31–Q37)      -> Caselet 1 (10-Person, 5-Day, 3-Team, 3-Loc)
                                            Caselet 2 (8-Floor Double-Flat Multi-Car)
-Tier 8: Advanced Hybrid (Q38–Q40)       -> Puzzle + Seating / Direction / Blood Relations
+Level 8: Advanced Hybrid (Q38–Q40)       -> Puzzle + Seating / Direction / Blood Relations
 ===================================================================================
 ```
 
 ---
 
-### Tier 1: Foundation (Q1–Q5)
+### Level 1: Foundation (Q1–Q5)
 
 #### Q1. Basic Floor Sequence
 Seven persons $A, B, C, D, E, F, G$ live on floors 1 to 7 of a building (Floor 1 is bottom, Floor 7 is top). $E$ lives on an odd-numbered floor above Floor 4. Only two persons live between $E$ and $B$. $A$ lives immediately above $B$. $F$ lives on Floor 1. $G$ lives on an even-numbered floor. Who lives on Floor 4?  
@@ -151,7 +151,7 @@ D) Floor 5
 
 ---
 
-### Tier 2: Intermediate Multi-Variable Grids (Q6–Q10)
+### Level 2: Intermediate Multi-Variable Grids (Q6–Q10)
 
 #### Q6. Person x Day x Subject
 Five professors $A, B, C, D, E$ lecture from Monday to Friday, one per day, each teaching a different subject: AI, Robotics, Cyber, Cloud, and Data. $C$ lectures on Wednesday but does not teach AI or Cyber. $A$ lectures on the day immediately preceding the Robotics lecture. The Cyber lecture is on Friday. $E$ teaches Cloud on Tuesday. Who lectures on Monday and what subject do they teach?  
@@ -190,7 +190,7 @@ D) Cannot be determined
 
 ---
 
-### Tier 3: Hard Multi-Constraint Systems (Q11–Q15)
+### Level 3: Hard Multi-Constraint Systems (Q11–Q15)
 
 #### Q11. Eight-Floor Polyomino Interval
 Eight executives $A, B, C, D, E, F, G, H$ live on floors 1 to 8. $B$ lives on Floor 4. Exactly three persons live between $B$ and $G$. $A$ lives on an odd-numbered floor immediately above $C$. There are as many floors between $D$ and $E$ as between $E$ and $H$. $D$ lives on Floor 8. $F$ lives on an even-numbered floor below $B$. Who lives on Floor 5?  
@@ -229,7 +229,7 @@ D) $F$
 
 ---
 
-### Tier 4: Very Hard 4-Variable Cross Matrices (Q16–Q20)
+### Level 4: Very Hard 4-Variable Cross Matrices (Q16–Q20)
 
 #### Q16. Person x Floor x City x Department
 Seven professionals $P, Q, R, S, T, U, V$ reside on floors 1 to 7, each hailing from a different city (Delhi, Mumbai, Kolkata, Chennai, Bangalore, Pune, Hyderabad) and working in a different domain (IT, Finance, HR, Marketing, Operations, Legal, R&D).
@@ -312,7 +312,7 @@ D) Tuesday, Tokyo
 
 ---
 
-### Tier 5: Expert Conditional & Directional Clues (Q21–Q25)
+### Level 5: Expert Conditional & Directional Clues (Q21–Q25)
 
 #### Q21. Multi-Condition Implication Chain
 Seven analysts $A, B, C, D, E, F, G$ are assigned project presentations across days Monday through Sunday.
@@ -387,7 +387,7 @@ D) 95
 
 ---
 
-### Tier 6: Placement Traps & Boundary Inference (Q26–Q30)
+### Level 6: Placement Traps & Boundary Inference (Q26–Q30)
 
 #### Q26. The Parity Contradiction Trap
 Seven friends $A, B, C, D, E, F, G$ live on floors 1 to 7.
@@ -454,7 +454,7 @@ D) Either Tuesday or Saturday
 
 ---
 
-### Tier 7: Extreme Caselets (Q31–Q37)
+### Level 7: Extreme Caselets (Q31–Q37)
 
 #### Caselet 1: The Multi-Dimensional Enterprise Scheduler (Q31–Q34)
 **Scenario:**  
@@ -542,7 +542,7 @@ D) 4 floors
 
 ---
 
-### Tier 8: Advanced Hybrid Reasoning (Q38–Q40)
+### Level 8: Advanced Hybrid Reasoning (Q38–Q40)
 
 #### Q38. Puzzle + Circular Seating Hybrid
 Six executives $A, B, C, D, E, F$ work in departments $D_1$ to $D_6$ and live on floors 1 to 6. They sit around a circular table facing the center for a board meeting.
@@ -588,9 +588,26 @@ D) $S$, Son of $P$
 
 ---
 
-## 3. Comprehensive Step-by-Step Solutions
+## 3. Master Answer Key & Comprehensive Solutions
 
-### Solutions: Tier 1 (Foundation)
+### Master Answer Key (Q1–Q40)
+
+| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | B | **8** | C | **15** | B | **22** | A | **29** | D | **35** | B |
+| **2** | D | **9** | A | **16** | A | **23** | C | **30** | B | **36** | A |
+| **3** | C | **10** | B | **17** | B | **24** | B | **31** | A | **37** | C |
+| **4** | B | **11** | B | **18** | B | **25** | D | **32** | B | **38** | A |
+| **5** | A | **12** | A | **19** | B | **26** | D | **33** | B | **39** | B |
+| **6** | B | **13** | A | **20** | A | **27** | B | **34** | A | **40** | A |
+| **7** | C | **14** | A | **21** | B | **28** | A | - | - | - | - |
+
+---
+
+### Step-by-Step Derivations
+
+
+#### Level 1 (Foundation)
 
 #### Q1 Solution
 - Total floors: 1 to 7. $F = 1$.
@@ -638,7 +655,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 2 (Intermediate)
+#### Level 2 (Intermediate)
 
 #### Q6 Solution
 - Mon to Fri: 5 days.
@@ -684,7 +701,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 3 (Hard)
+#### Level 3 (Hard)
 
 #### Q11 Solution
 - Floors 1 to 8. $B = 4$. $D = 8$.
@@ -725,7 +742,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 4 (Very Hard)
+#### Level 4 (Very Hard)
 
 #### Q16 Solution
 - Mumbai on Floor 5 (HR). Bangalore on Floor 6 (R&D). Pune on Floor 7 ($U$).
@@ -762,7 +779,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 5 (Expert)
+#### Level 5 (Expert)
 
 #### Q21 Solution
 - Fact: $A = \text{Tue}$ (2).
@@ -801,7 +818,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 6 (Traps & Inferences)
+#### Level 6 (Traps & Inferences)
 
 #### Q26 Solution
 - Parity property: $\text{even} \pm 3 = \text{odd}$; $\text{odd} \pm 3 = \text{even}$.
@@ -840,7 +857,7 @@ D) $S$, Son of $P$
 
 ---
 
-### Solutions: Tier 7 (Extreme Caselets)
+#### Level 7 (Extreme Caselets)
 
 #### Q31 Solution
 - Deductions for Caselet 1:

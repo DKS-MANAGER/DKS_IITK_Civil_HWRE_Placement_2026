@@ -65,26 +65,26 @@ When given a series containing one single corrupted number, do NOT guess. Constr
 
 ---
 
-## 2. The 8-Tier Question Hierarchy (40 Fully Solved Questions)
+## 2. Comprehensive Practice Set (40 Fully Solved Questions)
 
 ```
 ===================================================================================
-                               8-TIER DIFFICULTY ROADMAP
+                               8-LEVEL DIFFICULTY ROADMAP
 ===================================================================================
-Tier 1: Foundation (Q1–Q5)              -> Pure AP, GP, Powers (n^2 +/- k, n^3 +/- k), Primes
-Tier 2: Intermediate (Q6–Q10)           -> Second Differences, Basic Alternating, Fibonacci
-Tier 3: Hard (Q11–Q15)                  -> Polynomial 3rd Diffs, Non-Constant Multipliers
-Tier 4: Very Hard (Q16–Q20)             -> Triply Interleaved, Prime/Factorial Hybrids, Wrong Term
-Tier 5: Expert (Q21–Q25)                -> Competing Rule Disambiguation, Missing Middle/Dual
-Tier 6: Placement Traps (Q26–Q30)       -> False Primes, Digital Roots, Non-Monotonic Sequences
-Tier 7: Extreme Caselets (Q31–Q37)      -> 2D Matrix Series & Alpha-Numeric Repositioning
-Tier 8: Advanced Hybrid (Q38–Q40)       -> Series + Coding / Direction / Clock Accelerations
+Level 1: Foundation (Q1–Q5)              -> Pure AP, GP, Powers (n^2 +/- k, n^3 +/- k), Primes
+Level 2: Intermediate (Q6–Q10)           -> Second Differences, Basic Alternating, Fibonacci
+Level 3: Hard (Q11–Q15)                  -> Polynomial 3rd Diffs, Non-Constant Multipliers
+Level 4: Very Hard (Q16–Q20)             -> Triply Interleaved, Prime/Factorial Hybrids, Wrong Term
+Level 5: Expert (Q21–Q25)                -> Competing Rule Disambiguation, Missing Middle/Dual
+Level 6: Placement Traps (Q26–Q30)       -> False Primes, Digital Roots, Non-Monotonic Sequences
+Level 7: Extreme Caselets (Q31–Q37)      -> 2D Matrix Series & Alpha-Numeric Repositioning
+Level 8: Advanced Hybrid (Q38–Q40)       -> Series + Coding / Direction / Clock Accelerations
 ===================================================================================
 ```
 
 ---
 
-### Tier 1: Foundation (Q1–Q5)
+### Level 1: Foundation (Q1–Q5)
 
 #### Q1. Basic Arithmetic Difference
 Find the missing term in the sequence:  
@@ -128,7 +128,7 @@ D) 225
 
 ---
 
-### Tier 2: Intermediate (Q6–Q10)
+### Level 2: Intermediate (Q6–Q10)
 
 #### Q6. Second-Order Constant Difference
 Find the next term in the sequence:  
@@ -172,7 +172,7 @@ D) B
 
 ---
 
-### Tier 3: Hard (Q11–Q15)
+### Level 3: Hard (Q11–Q15)
 
 #### Q11. Third Difference Polynomial
 Find the next term in the sequence:  
@@ -216,7 +216,7 @@ D) 3150
 
 ---
 
-### Tier 4: Very Hard (Q16–Q20)
+### Level 4: Very Hard (Q16–Q20)
 
 #### Q16. Triply Interleaved Stream
 Find the next two terms $(?, ?)$ in the triply-nested sequence:  
@@ -260,7 +260,7 @@ D) 57
 
 ---
 
-### Tier 5: Expert (Q21–Q25)
+### Level 5: Expert (Q21–Q25)
 
 #### Q21. Competing Recurrence Disambiguation (The 4-Term Ambiguity Trap)
 Consider the sequence:  
@@ -305,7 +305,7 @@ D) $P = 18, Q = 40320$
 
 ---
 
-### Tier 6: Placement Traps & Ambiguity Elimination (Q26–Q30)
+### Level 6: Placement Traps & Ambiguity Elimination (Q26–Q30)
 
 #### Q26. The False Prime Trap
 Which number does NOT belong in the following sequence?  
@@ -349,7 +349,7 @@ D) 311222
 
 ---
 
-### Tier 7: Extreme Caselets & Matrix Patterns (Q31–Q37)
+### Level 7: Extreme Caselets & Matrix Patterns (Q31–Q37)
 
 #### Caselet 1: The 3x3 Multi-Parameter Matrix Series (Q31–Q34)
 **Scenario:**  
@@ -419,7 +419,7 @@ D) 80
 
 ---
 
-### Tier 8: Advanced Hybrid Series (Q38–Q40)
+### Level 8: Advanced Hybrid Series (Q38–Q40)
 
 #### Q38. Series + Coding Cipher Hybrid
 A substitution cipher encrypts the $n$-th letter of a message by shifting its alphabetical position forward by $S_n$, where $S_n$ follows the recurrence:  
@@ -449,9 +449,26 @@ D) 510 seconds
 
 ---
 
-## 3. Comprehensive Step-by-Step Solutions
+## 3. Master Answer Key & Comprehensive Solutions
 
-### Solutions: Tier 1 (Foundation)
+### Master Answer Key (Q1–Q40)
+
+| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | C | **8** | C | **15** | B | **22** | A | **29** | A | **35** | A |
+| **2** | B | **9** | C | **16** | A | **23** | B | **30** | A | **36** | B |
+| **3** | B | **10** | C | **17** | C | **24** | D | **31** | A | **37** | B |
+| **4** | B | **11** | B | **18** | D | **25** | A | **32** | B | **38** | A |
+| **5** | C | **12** | C | **19** | B | **26** | C | **33** | A | **39** | B |
+| **6** | B | **13** | A | **20** | B | **27** | C | **34** | A | **40** | B |
+| **7** | C | **14** | B | **21** | B | **28** | C | - | - | - | - |
+
+---
+
+### Step-by-Step Derivations
+
+
+#### Level 1 (Foundation)
 
 #### Q1 Solution
 - Sequence: `7, 13, 19, 25, 31, ?`
@@ -491,7 +508,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 2 (Intermediate)
+#### Level 2 (Intermediate)
 
 #### Q6 Solution
 - Sequence: `4, 11, 22, 37, 56, 79, ?`
@@ -540,7 +557,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 3 (Hard)
+#### Level 3 (Hard)
 
 #### Q11 Solution
 - Sequence: `1, 6, 21, 56, 126, 252, ?`
@@ -601,7 +618,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 4 (Very Hard)
+#### Level 4 (Very Hard)
 
 #### Q16 Solution
 - Sequence: `2, 5, 10, 4, 10, 30, 8, 20, 90, ?, ?`
@@ -660,7 +677,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 5 (Expert)
+#### Level 5 (Expert)
 
 #### Q21 Solution
 - Sequence: `4, 9, 19, 42, 88, 181, ?`
@@ -769,7 +786,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 6 (Traps & Inferences)
+#### Level 6 (Traps & Inferences)
 
 #### Q26 Solution
 - Sequence: `2, 3, 5, 7, 11, 13, 17, 19, 21, 23`
@@ -814,7 +831,7 @@ D) 510 seconds
 
 ---
 
-### Solutions: Tier 7 (Extreme Caselets)
+#### Level 7 (Extreme Caselets)
 
 #### Q31 Solution
 - Grid analysis yields missing entry 146 through both row and column recurrences.

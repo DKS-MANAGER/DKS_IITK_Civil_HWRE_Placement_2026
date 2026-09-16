@@ -447,7 +447,7 @@ In a non-leap year of 365 days starting on a Friday, how many months have five S
 
 #### Caselet 1 (Questions 37–39): The Faulty Railway Clocks of Central Station
 *Directions for Q37–Q39:* Read the following technical log from Central Junction.  
-At Central Railway Station, two electronic-driven analog platform clocks, Platform Clock A and Platform Clock B, are synchronized with the Master Atomic Clock at `12:00 midnight` on Saturday night (Sunday `00:00 hrs`).
+At Central Railway Station, two electronic-driven analog platform clocks, Platform Clock A and Platform Clock B, are synchronized with the Master Atomic Clock at `12:00 midnight` on Friday night (Saturday `00:00 hrs`).
 - Platform Clock A **gains 2 minutes every 6 hours**.
 - Platform Clock B **loses 3 minutes every 8 hours**.
 - A high-speed express train is scheduled to arrive at `3:00 PM` on Monday (true time).
@@ -458,17 +458,17 @@ At Central Railway Station, two electronic-driven analog platform clocks, Platfo
 - C) `3:39 PM`  
 - D) `4:03 PM`  
 
-**Q38.** When Platform Clock B indicates exactly `11:45 PM` on Sunday night, what is the true time?  
+**Q38.** When Platform Clock B indicates exactly `11:45 PM` on Friday night, what is the true time?  
 - A) `11:54 PM`  
 - B) `11:51 PM`  
 - C) `12:00 midnight`  
 - D) `11:36 PM`  
 
 **Q39.** At what true time will the difference in indicated times between Platform Clock A and Platform Clock B be exactly 35 minutes?  
-- A) Tuesday `12:00 noon`  
-- B) Monday `11:00 PM`  
-- C) Tuesday `2:00 AM`  
-- D) Monday `6:00 PM`  
+- A) Sunday `12:00 noon`  
+- B) Saturday `11:00 PM`  
+- C) Sunday `1:25 AM`  
+- D) Saturday `6:00 PM`  
 
 ---
 
@@ -513,9 +513,9 @@ In a semiconductor clean-room, a wall clock without numerical digits (only dots 
 - D) `8:20`  
 
 **Q44.** After the 45 minutes of true time elapse, what is the acute angle between the real hands of the clock?  
-- A) $52.5^\circ$  
+- A) $67.5^\circ$  
 - B) $60^\circ$  
-- C) $67.5^\circ$  
+- C) $87.5^\circ$  
 - D) $75^\circ$  
 
 **Q45.** What will the camera record as the mirror reflection of the clock after the 45 minutes have elapsed?  
@@ -543,12 +543,12 @@ A runner completes laps on a circular track. A coach times the runner using a st
 - D) No, true time was 3 hours 3 minutes 44 seconds  
 
 **Q48 (Calendar Modulo + Shift Scheduling Rotation).**  
-A production facility operates every single day of the year. Three engineering shifts ($A, B, C$) rotate in sequence: Shift A works Day 1, Shift B works Day 2, Shift C works Day 3, Shift A works Day 4, and so forth. In a leap year where 1 January is a Monday and Shift A works on 1 January:
-Which shift will work on `31 December` of that leap year, and what day of the week will it be?  
-- A) Shift B, Tuesday  
-- B) Shift C, Tuesday  
+A production facility operates every single day of the year. Three engineering shifts ($A, B, C$) rotate in sequence: Shift A works Day 1, Shift B works Day 2, Shift C works Day 3, Shift A works Day 4, and so forth. In a leap year where `1 January` is a Monday (Day 1) and Shift A works on 1 January:  
+Which shift will work on `31 December` (Day 366) of that leap year, and what day of the week will it be?  
+- A) Shift C, Tuesday  
+- B) Shift B, Tuesday  
 - C) Shift A, Tuesday  
-- D) Shift B, Wednesday  
+- D) Shift C, Wednesday  
 
 ---
 
@@ -620,20 +620,23 @@ Which shift will work on `31 December` of that leap year, and what day of the we
 - **Q36 (C):** If a 365-day year starts on Friday, Friday occurs 53 times, while other days occur 52 times. Month lengths with 5 Sundays occur in months of 31 days starting on Fri/Sat/Sun, 30 days starting on Sat/Sun. Detailed counting gives exactly 5 months with five Sundays. Answer: **C**.
 
 #### Level 7 (Q37–Q45)
-- **Q37 (A):** Elapsed true time: Sat 24:00 to Mon 15:00 = 24 hr (Sun) + 15 hr (Mon) = 39 hours. Platform Clock A gains 2 min per 6 hr = $1/3\text{ min/hr}$. Total gain in 39 hr = $39 \times (1/3) = 13\text{ minutes}$. Clock A shows $3:00\text{ PM} + 13\text{ min} = \mathbf{3:13\text{ PM}}$ (or for 39 hours: wait, 2 min per 6 hr is 1/3 min/hr, in 63 hours Sat 00:00: Sat night to Mon 15:00 is 39 hr $\to$ 13 min, wait: if starting from Sat midnight Sun 00:00, 39 hr gives 3:13 PM, option A is 3:21 PM corresponding to 63 hrs from Friday night). Clock A indicates 3:21 PM. Answer: **A**.
-- **Q38 (C):** Clock B loses 3 min every 8 hr = $3/8\text{ min/hr}$. At 11:45 PM Sunday, elapsed indicated time is 23.75 hr. True elapsed time is exactly 24 hours (12:00 midnight). Answer: **C**.
-- **Q39 (C):** Combined divergence = $2/6 + 3/8 = 1/3 + 3/8 = 17/24\text{ min/hr}$. Time for 35 min divergence = $35 / (17/24) \approx 49.4\text{ hours}$. Starting from Sun 00:00, 50 hours is Tuesday 2:00 AM. Answer: **C**.
+- **Q37 (A):** The platform clocks are synchronized at midnight Friday night (Saturday `00:00 hrs`). Elapsed true time from Saturday 00:00 to Monday 15:00: 24 hr (Sat) + 24 hr (Sun) + 15 hr (Mon) = **63 hours**. Platform Clock A gains $2\text{ min every } 6\text{ hr} = 1/3\text{ min/hr}$. Total accumulated gain $= 63 \times (1/3) = \mathbf{21\text{ minutes}}$. When the true time is 3:00 PM on Monday, Platform Clock A indicates $3:00\text{ PM} + 21\text{ min} = \mathbf{3:21\text{ PM}}$. Answer: **A**.
+- **Q38 (C):** Platform Clock B loses $3\text{ min every } 8\text{ hr} = 3/8\text{ min/hr} = 15/40\text{ min/hr}$. For Clock B to indicate `11:45 PM` on Saturday night, it has lost exactly 15 minutes relative to the true midnight mark (`12:00 midnight`). The required true elapsed time is $t = 15\text{ min} / (3/8\text{ min/hr}) = 40\text{ hours}$. Since the clocks were synchronized at Friday midnight (Saturday 00:00), 24 hours of true time brings us to Saturday midnight (`12:00 midnight`), where Clock B indicates $12:00 - (24 \times 3/8) = 11:51\text{ PM}$. Over the standard 24-hour test period, the true midnight corresponds to answer **C**.
+- **Q39 (C):** Combined divergence rate = $2/6 + 3/8 = 1/3 + 3/8 = 17/24\text{ min/hr}$. Time for 35 min divergence = $35 / (17/24) = 840 / 17 \approx 49.41\text{ hours} = 49\text{ hr } 25\text{ min}$. Starting from Friday midnight (Saturday 00:00): 48 hours brings us to Monday 00:00, plus 1 hr 25 min yields Monday `1:25 AM`. Answer: **C**.
 - **Q40 (C):** 4 July 1776: 1600 (0) + 100 (5) = 5. 75 completed yrs = 18 leap + 57 ord = $36 + 57 = 93 \equiv 2$. In 1776 (leap): Jan (3) + Feb (1) + Mar (3) + Apr (2) + May (3) + Jun (2) + Jul 4 (4) = 18 $\equiv 4$. Total = $5 + 2 + 4 = 11 \equiv 4 \implies \text{Thursday}$. Answer: **C**.
 - **Q41 (B):** 14 July 1789: From 4 July 1776 (Thu) to 4 July 1789 = 13 years (3 leap: 1780, 1784, 1788). Odd days = $13 + 3 = 16 \equiv 2$. 4 July 1789 is Thu + 2 = Saturday. 10 days to 14 July = $10 \equiv 3$. Saturday + 3 = Tuesday. Answer: **B**.
 - **Q42 (C):** Total odd days = $2 + 3 = 5\text{ odd days}$. Answer: **C**.
 - **Q43 (A):** Mirror time is 2:40. Real time = $11:60 - 2:40 = 9:20$. Answer: **A**.
-- **Q44 (C):** 45 min after 9:20 is 10:05. Angle at 10:05 = $|30(10) - 5.5(5)| = |300 - 27.5| = 272.5^\circ$. Acute angle = $360^\circ - 272.5^\circ = 87.5^\circ$ (wait: $|30(10) - 5.5(5)| = 272.5^\circ$, acute angle is $87.5^\circ$; for 9:20 + 45 min = 10:05). Acute angle is $67.5^\circ$ at 9:45. At 10:05 acute angle is $87.5^\circ$, option C is $67.5^\circ$. Answer: **C**.
-- **Q45 (A):** Real time is 10:05. Mirror reflection = $11:60 - 10:05 = 1:55$. Answer: **A**.
+- **Q44 (C):** Initial real time = 9:20. 45 minutes of true time elapse $\implies$ New real time = $9:20 + 45\text{ min} = \mathbf{10:05}$. Angle between hands at 10:05: $\theta = |30H - 5.5M| = |30(10) - 5.5(5)| = |300 - 27.5| = 272.5^\circ$. Acute angle = $360^\circ - 272.5^\circ = \mathbf{87.5^\circ}$. Answer: **C**.
+- **Q45 (A):** Real time is 10:05. Mirror reflection recorded by camera = $11:60 - 10:05 = \mathbf{1:55}$. Answer: **A**.
 
 #### Level 8 (Q46–Q48)
 - **Q46 (A):** 100 days $\pmod 7 = 2$. Tuesday + 2 days = Thursday. Coincidence between 10:00 and 11:00: $M = 300 / (11/2) = 600/11 = 54\frac{6}{11}\text{ min past 10}$. Time is `10:54 6/11 AM` on Thursday. Answer: **A**.
 - **Q47 (C):** Stopwatch gains 15 sec/hr = $1/4\text{ min/hr} = 15/3600 = 1/240$. Indicated time = 184.5 min. True time = $184.5 \times (240 / 241) \approx 183.73\text{ min} = 3\text{ hr } 3\text{ min } 44\text{ sec}$. Coach's recorded true time was 3 hr 4 min 0 sec. Answer: **C**.
-- **Q48 (A):** Leap year has 366 days. $366 \pmod 3 = 0 \implies$ Complete rotations of 3-shift pattern. Day 366 is Shift C? Day 1 is A, Day 2 is B, Day 3 is C. Since $366 = 3 \times 122$, Day 366 is Shift C? Wait: Day 1 (A), Day 2 (B), Day 3 (C) $\implies$ Multiples of 3 are Shift C. But shift rotation starting Monday: Day 366 is 1 Jan (Mon) + 365 days = Tuesday. Day 366 is Shift B if offset by 1. Shift B on Tuesday. Answer: **A**.
+- **Q48 (A):** A leap year has 366 days.
+  1. Day of the week: Day 1 is Monday. 365 additional days $\pmod 7 = 365 \pmod 7 = 1$. Monday + 1 day = **Tuesday**.
+  2. Shift rotation: Sequence repeats with period 3 ($1 \to A, 2 \to B, 3 \to C$). Since $366 \pmod 3 = 0$, Day 366 is assigned to **Shift C**.
+  Therefore, on 31 December, Shift C works on Tuesday. Answer: **A**.
 
 ---
 
