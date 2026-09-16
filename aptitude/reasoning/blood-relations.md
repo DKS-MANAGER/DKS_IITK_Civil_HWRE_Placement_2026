@@ -761,12 +761,12 @@ How is $D$ related to $A$?
 - `P % Q` → P is the son of Q (-1, Male)
 
 Which expression indicates that **"M is the maternal grandmother of S"**?  
-- A) `M $ N @ O $ S`  
+- A) `M N @ O S`  
 - B) `M # N $ O @ S`  
-- C) `M $ N % O $ S`  
+- C) `M N % O S`  
 - D) `M @ N $ O # S`  
 
-**Answer:** A) `M $ N @ O $ S`  
+**Answer:** A) `M N @ O S`  
 **Distractor Analysis:**  
 - Target generation of M relative to S is **+2**, and M must be female through a maternal line.  
 - In B: `M # N` → M is father (male) → Eliminated instantly.  

@@ -640,7 +640,7 @@ In the final step, what is the weight of the student sitting in the 3rd position
 - **Q42 (A):** Step IV: $9(1) + 9(2) + 6(3) + 6(4) + 5(5) + 5(6) = 9 + 18 + 18 + 24 + 25 + 30 = 124 \approx 130$. Answer: **A**.
 - **Q43 (A):** Words starting with vowels: `apple, ink, owl`. Alphabetical: `apple, ink, owl`. Step I: `apple ink owl pen fan cup`. Answer: **A**.
 - **Q44 (A):** Consonant words descending: `pen, fan, cup`. 3rd word from right is `pen`. Answer: **A**.
-- **Q45 (B):** In `apple`: vowels are $a, e \to \#$; consonants are $p, p, l \to *$. Format: `# * * # *`. Answer: **B**.
+- **Q45 (B):** In `apple`: vowels are a, e -> #; consonants are p, p, l \to *. Format: `# * * # *`. Answer: **B**.
 
 #### Level 8 (Q46–Q48)
 - **Q46 (C):** Stage 1: `dog` $\to$ `eph`, `ant` $\to$ `bou`, `cat` $\to$ `dbu`, `boy` $\to$ `cpz`. Sorted alphabetically: `bou, cpz, dbu, eph`. Step I places `bou` at left: `bou eph dbu cpz`. 2nd word is `eph`. Answer: **C**.

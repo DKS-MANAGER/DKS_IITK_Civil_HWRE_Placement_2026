@@ -312,15 +312,15 @@ The final straight-line distance between $A$ and $B$ is $10\text{ m}$. Determine
 - `P # Q`: $P$ is $4\text{ m}$ North of $Q$
 - `P @ Q`: $P$ is $6\text{ m}$ East of $Q$
 - `P % Q`: $P$ is $4\text{ m}$ South of $Q$
-- `P $ Q`: $P$ is $6\text{ m}$ West of $Q$
+- `P [S] Q`: $P$ is $6\text{ m}$ West of $Q$
 
-If the coded expression `A # B @ C % D $ E` is true, what is the shortest distance between $A$ and $E$?  
+If the coded expression `A # B @ C % D [S] E` is true, what is the shortest distance between $A$ and $E$?  
 - A) $0\text{ m}$ (coincident)  
 - B) $4\text{ m}$  
 - C) $6\text{ m}$  
 - D) $12\text{ m}$  
 
-**Q26.** Using the coded direction symbols from Q25, in the expression `K @ L # M $ N % O`, if $K$ is at $(0, 0)$, what are the coordinates of $O$ relative to $K$?  
+**Q26.** Using the coded direction symbols from Q25, in the expression `K @ L # M [S] N % O`, if $K$ is at $(0, 0)$, what are the coordinates of $O$ relative to $K$?  
 - A) $(0, 0)$  
 - B) $(6, 4)$  
 - C) $(-6, -4)$  
