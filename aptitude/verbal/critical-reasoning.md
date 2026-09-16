@@ -75,7 +75,7 @@ Evaluate questions ask: *"Which inquiry is most useful to evaluate the validity 
 | **Q2** | Level 1 | Direct Assumption | **B** | Negation test: if automated screening rejects top talent, hiring quality will degrade |
 | **Q3** | Level 1 | Direct Weakener | **D** | External factor (weather seasonality) accounts for retail sales drop rather than price hike |
 | **Q4** | Level 1 | Direct Strengthener | **A** | Confirms pilot study participants are statistically representative of the general population |
-| **Q5** | Level 1 | Syllogistic Inference | **C** | Strict transitive deductive implication: All A are B, some B are C $\implies$ deduction limits |
+| **Q5** | Level 1 | Syllogistic Inference | **C** | Existential syllogistic deduction: Some T are B and No B are R $\implies$ Some T avoid R (C clients not guaranteed) |
 | **Q6** | Level 2 | Causal Weaken (Third Variable)| **B** | Confounding factor: affluent families both buy organic food and exercise regularly |
 | **Q7** | Level 2 | Necessary Assumption | **D** | Assumes consumers will not substitute competing products when prices rise |
 | **Q8** | Level 2 | Paradox Resolution | **C** | New safety features increase driver risk-taking (risk compensation behavior) |
