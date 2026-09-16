@@ -187,7 +187,7 @@
 9. **"What is specific energy in open channel flow?"** — E = y + V²/(2g); energy per unit weight measured from channel bed
 10. **"What is the critical depth?"** — Depth at which specific energy is minimum for a given discharge
 11. **"What is a hydraulic jump?"** — Rapid transition from supercritical to subcritical flow; dissipates energy
-12. **"What is the difference between PERT and CPM?"** — PERT is probabilistic (time不确定); CPM is deterministic (time已知)
+12. **"What is the difference between PERT and CPM?"** — PERT is probabilistic (activity times uncertain); CPM is deterministic (activity times known)
 13. **"What is the purpose of a shear key?"** — Provides additional shear resistance in beam-column joints and retaining walls
 14. **"What is the difference between working stress and limit state?"** — WS uses factor of safety on loads/stresses; LS uses partial safety factors on loads and materials
 15. **"What is the most common cause of structural failure?"** — Inadequate design, poor construction quality, overloading, or unexpected loading conditions

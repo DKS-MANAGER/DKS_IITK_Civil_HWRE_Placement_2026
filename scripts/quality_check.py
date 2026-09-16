@@ -220,6 +220,45 @@ def check_headings(md_files, verbose=False):
     return issues
 
 
+CJK_RE = re.compile(r"[　-鿿가-힣぀-ヿ]")
+
+
+def check_cjk_contamination(md_files, verbose=False):
+    """Flag stray CJK (Chinese/Japanese/Korean) characters left in English content
+    by machine translation during generation."""
+    issues = []
+    for filepath in md_files:
+        # Audit / review reports legitimately quote CJK examples when documenting
+        # this very check; skip them.
+        name = filepath.name.lower()
+        if "audit" in name or "review" in name:
+            continue
+        try:
+            content = filepath.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            continue
+        rel_path = filepath.relative_to(REPO_ROOT)
+        in_fence = False
+        for lineno, line in enumerate(content.splitlines(), 1):
+            if line.lstrip().startswith("```"):
+                in_fence = not in_fence
+                continue
+            if in_fence:
+                continue
+            # ignore text inside inline-code spans
+            bare = re.sub(r"`[^`]*`", "", line)
+            if CJK_RE.search(bare):
+                issues.append({
+                    "type": "CJK_CONTAMINATION",
+                    "file": str(rel_path),
+                    "line": lineno,
+                    "detail": line.strip()[:120],
+                })
+    if verbose:
+        print(f"  ✓ Checked {len(md_files)} files for CJK contamination")
+    return issues
+
+
 def check_file_sizes(md_files, verbose=False):
     """Check for files exceeding size limits."""
     issues = []
@@ -302,6 +341,7 @@ def generate_report(all_issues, orphans, md_files):
     headings = [i for i in all_issues if i["type"] in ("NO_H1", "MULTIPLE_H1")]
     large = [i for i in all_issues if i["type"] == "LARGE_FILE"]
     missing_readme = [i for i in all_issues if i["type"] == "MISSING_README"]
+    cjk = [i for i in all_issues if i["type"] == "CJK_CONTAMINATION"]
 
     print(f"\n--- Summary ---")
     print(f"   Files scanned:     {len(md_files)}")
@@ -309,6 +349,7 @@ def generate_report(all_issues, orphans, md_files):
     print(f"   Heading issues:    {len(headings)}")
     print(f"   Large files:       {len(large)}")
     print(f"   Missing READMEs:   {len(missing_readme)}")
+    print(f"   CJK contamination: {len(cjk)}")
     print(f"   Orphan pages:      {len(orphans)}")
 
     # Detailed issues
@@ -333,6 +374,11 @@ def generate_report(all_issues, orphans, md_files):
         for issue in missing_readme:
             print(f"   {issue['file']}: {issue['detail']}")
 
+    if cjk:
+        print(f"\n[!!] CJK Contamination ({len(cjk)})")
+        for issue in cjk:
+            print(f"   {issue['file']}:{issue['line']}: {issue['detail']}")
+
     if orphans:
         print(f"\n[*] Orphan Pages ({len(orphans)})")
         for orphan in orphans[:20]:  # Show first 20
@@ -341,7 +387,7 @@ def generate_report(all_issues, orphans, md_files):
             print(f"   ... and {len(orphans) - 20} more")
 
     # Pass/Fail
-    critical = len(broken) + len(missing_readme)
+    critical = len(broken) + len(missing_readme) + len(cjk)
     if critical == 0:
         print(f"\n[PASS] No critical issues found")
     else:
@@ -372,6 +418,9 @@ def main():
     print("Checking file sizes...")
     size_issues = check_file_sizes(md_files, verbose)
 
+    print("Checking for CJK contamination...")
+    cjk_issues = check_cjk_contamination(md_files, verbose)
+
     print("Checking README files...")
     readme_issues = check_readme_files(verbose)
 
@@ -379,7 +428,7 @@ def main():
     orphans = check_orphan_pages(md_files, link_targets, verbose)
 
     # Combine all issues
-    all_issues = link_issues + heading_issues + size_issues + readme_issues
+    all_issues = link_issues + heading_issues + size_issues + readme_issues + cjk_issues
 
     # Generate report
     passed = generate_report(all_issues, orphans, md_files)

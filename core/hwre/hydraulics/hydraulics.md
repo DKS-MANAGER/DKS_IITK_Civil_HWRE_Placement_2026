@@ -339,7 +339,7 @@ Reynolds/Froude         →  Pump curves & BEP         →  Model testing/simili
 **Commonly Confused Pairs:**
 - **Bernoulli vs Energy Equation:** Bernoulli assumes no friction; Energy Equation includes $h_L$
 - **Darcy vs Fanning:** $f_D = 4f_F$; Darcy standard in civil, Fanning in chemical engineering
-- **Manning vs Hazen-Williams:** Manning适用于open channel & closed conduit; H-W designed for water supply pipes only
+- **Manning vs Hazen-Williams:** Manning applies to open channel & closed conduit; H-W designed for water supply pipes only
 - **Pressure head vs Velocity head:** $P/\gamma$ (flow work) vs $V^2/2g$ (kinetic energy)
 - **Specific energy vs Total energy:** Specific = $y + V^2/2g$ (OCF context); Total = $P/\gamma + V^2/2g + z$
 

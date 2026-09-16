@@ -641,7 +641,7 @@ A 50-hectare catchment has C = 0.5 and design rainfall intensity = 60 mm/hr. Fin
    - Allowance (3–10%) for unforeseen items in construction cost estimation.
 
 8. **What is the Rational Method for peak runoff?**
-   - Q = CiA/360;适用于 small catchments (<5 km²).
+   - Q = CiA/360; applies to small catchments (<5 km²).
 
 ### B. WHY Questions
 

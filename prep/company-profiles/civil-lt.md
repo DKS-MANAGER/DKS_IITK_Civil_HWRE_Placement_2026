@@ -42,7 +42,7 @@ Same function areas as MT but for M.Tech holders — expect deeper domain questi
 
 | Priority | Topic | Subtopic | Why L&T Needs It | Depth Required |
 |---|---|---|---|---|
-| **P0** | RCC Design (IS 456) | Beam, slab, column, footing design | Core of every building/factory/bridge project at L&T | Interview-level + design计算 |
+| **P0** | RCC Design (IS 456) | Beam, slab, column, footing design | Core of every building/factory/bridge project at L&T | Interview-level + design calculations |
 | **P0** | Steel Structures (IS 800) | Connections, tension/compression members | Industrial structures, warehouses, metro viaducts | Strong understanding |
 | **P0** | Structural Analysis | Indeterminate structures, moment distribution, portal frames | Foundation of all structural work | Interview + numerical |
 | **P0** | Construction Technology | Concreting, formwork, curing, pre-stressing | Day-to-day execution work | Working level |

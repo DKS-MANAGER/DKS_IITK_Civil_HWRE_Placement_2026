@@ -57,6 +57,8 @@
 | [Placement Control Panel](placement-control-panel.md) | Command center |
 | [Start Here (legacy)](start-here.md) | Legacy onboarding — routes to GETTING_STARTED |
 | [Deep Critical Audit](deep-critical-audit.md) | Repository audit report (local-only) |
+| [Accuracy Review — Sep 2026](accuracy-review-2026-09.md) | Fact-check of placement data + technical content |
+| [Aptitude Audit — Sep 2026](audit/aptitude-audit-2026-09.md) | Independent audit + one-stop rebuild plan for `aptitude/` |
 
 ---
 

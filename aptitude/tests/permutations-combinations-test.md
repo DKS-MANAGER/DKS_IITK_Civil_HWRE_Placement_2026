@@ -8,64 +8,64 @@
 ## Questions
 
 ### Q1 (Easy)
-5P2 = ?
-- A) 20  B) 10  C) 25  D) 15
+⁵P₂ = ?
+- A) 10  B) 15  C) 20  D) 25
 
 ### Q2 (Easy)
-10C3 = ?
+¹⁰C₃ = ?
 - A) 120  B) 720  C) 60  D) 240
 
 ### Q3 (Easy)
-How many 4-digit numbers from 1-9 (no repetition)?
-- A) 3024  B) 6561  C) 5040  D) 4096
+How many 4-digit numbers can be formed from digits 1–9 with no repetition?
+- A) 6561  B) 5040  C) 4096  D) 3024
 
 ### Q4 (Easy)
-7 people in a line. How many arrangements?
-- A) 5040  B) 720  C) 2520  D) 40320
+7 distinct people stand in a line. How many arrangements?
+- A) 720  B) 5040  C) 2520  D) 40320
 
 ### Q5 (Easy)
-6C2 = ?
+⁶C₂ = ?
 - A) 15  B) 30  C) 12  D) 20
 
 ### Q6 (Medium)
-8C3 = ?
-- A) 56  B) 336  C) 28  D) 168
+⁸C₃ = ?
+- A) 336  B) 28  C) 56  D) 168
 
 ### Q7 (Medium)
-How many 3-letter codes from A-Z (repetition allowed)?
-- A) 17576  B) 15600  C) 2600  D) 17576
+How many 3-letter codes from A–Z with repetition allowed?
+- A) 17576  B) 15600  C) 2600  D) 19683
 
 ### Q8 (Medium)
-5 people around a circle. Arrangements?
-- A) 24  B) 120  C) 60  D) 20
+5 people sit around a circular table. Distinct arrangements?
+- A) 120  B) 60  C) 20  D) 24
 
 ### Q9 (Medium)
-From 10 books, choose 3 and arrange them.
-- A) 720  B) 120  C) 5040  D) 240
+From 10 distinct books, choose 3 and arrange them on a shelf.
+- A) 120  B) 720  C) 5040  D) 240
 
 ### Q10 (Medium)
-In how many ways can "DAUGHTER" be arranged?
-- A) 40320  B) 5040  C) 20160  D) 10080
+In how many ways can the letters of "DAUGHTER" be arranged?
+- A) 5040  B) 20160  C) 40320  D) 10080
 
 ### Q11 (Hard)
-How many arrangements of "MATHEMATICS" with vowels together?
+Arrangements of the letters of "MATHEMATICS" with all vowels together?
 - A) 120960  B) 60480  C) 241920  D) 30240
 
 ### Q12 (Hard)
-4 men, 3 women in a row, women not together.
-- A) 1440  B) 5040  C) 2880  D) 720
+4 men and 3 women stand in a row, no two women together. Number of ways?
+- A) 5040  B) 2880  C) 720  D) 1440
 
 ### Q13 (Hard)
-10 people, choose president, VP, secretary.
-- A) 720  B) 5040  C) 120  D) 1000
+From 10 people, choose a President, Vice-President and Secretary (distinct roles).
+- A) 5040  B) 720  C) 120  D) 1000
 
 ### Q14 (Hard)
-How many 5-digit numbers divisible by 5 using 1,2,3,4,5?
+How many 5-digit numbers using each of 1,2,3,4,5 once are divisible by 5?
 - A) 24  B) 120  C) 48  D) 60
 
 ### Q15 (Hard)
-In how many ways can 8 identical balls be distributed among 3 boxes?
-- A) 45  B) 36  C) 55  D) 28
+In how many ways can 8 identical balls be distributed among 3 distinct boxes (empty allowed)?
+- A) 36  B) 55  C) 45  D) 28
 
 ---
 
@@ -73,31 +73,31 @@ In how many ways can 8 identical balls be distributed among 3 boxes?
 
 | Q | Ans | Q | Ans |
 |:-:|:---:|:-:|:---:|
-| 1 | A | 9 | A |
-| 2 | A | 10 | A |
-| 3 | A | 11 | A |
-| 4 | A | 12 | A |
-| 5 | A | 13 | A |
-| 6 | A | 14 | A |
-| 7 | A | 15 | A |
-| 8 | A | | |
+| 1 | C | 9 | B |
+| 2 | A | 10 | C |
+| 3 | D | 11 | A |
+| 4 | B | 12 | D |
+| 5 | A | 13 | B |
+| 6 | C | 14 | A |
+| 7 | A | 15 | C |
+| 8 | D | | |
 
 ### Explanations
-1. 5×4 = 20. **A**
-2. 10×9×8/6 = 120. **A**
-3. 9P4 = 3024. **A**
-4. 7! = 5040. **A**
-5. 6×5/2 = 15. **A**
-6. 8×7×6/6 = 56. **A**
-7. 26³ = 17576. **A**
-8. (5-1)! = 24. **A**
-9. 10P3 = 720. **A**
-10. 8! = 40320. **A**
-11. Vowels AEI together as unit: 8!×3!/2! = 40320×3 = 120960. **A**
-12. Men 4! = 24. Women in 5 gaps: 5P3 = 60. Total = 1440. **A**
-13. 10P3 = 720. **A**
-14. Last digit 5 (1 way), arrange 4: 4! = 24. **A**
-15. C(8+3-1, 3-1) = C(10,2) = 45. **A**
+1. 5 × 4 = **20**. → C
+2. 10·9·8 / 3! = 720 / 6 = **120**. → A
+3. 9 · 8 · 7 · 6 = **3024**. → D
+4. 7! = **5040**. → B
+5. 6 · 5 / 2 = **15**. → A
+6. 8·7·6 / 6 = **56**. → C
+7. 26³ = **17576**. (26P3 = 15600 is the no-repetition trap.) → A
+8. (5 − 1)! = **24**. → D
+9. ¹⁰P₃ = 10·9·8 = **720**. → B
+10. 8 distinct letters: 8! = **40320**. → C
+11. Vowels A,A,E,I as one block: remaining units M,M,T,T,H,C,S + block = 8!/(2!·2!) = 10080; block internal 4!/2! = 12; total 10080 × 12 = **120960**. → A
+12. Men: 4! = 24. 5 gaps, place 3 distinct women: ⁵P₃ = 60. 24 × 60 = **1440**. → D
+13. ¹⁰P₃ = **720**. → B
+14. Units digit must be 5 (1 way); arrange remaining 4 digits: 4! = **24**. → A
+15. C(8 + 3 − 1, 3 − 1) = C(10, 2) = **45**. → C
 
 ---
 

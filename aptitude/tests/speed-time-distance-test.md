@@ -9,63 +9,63 @@
 
 ### Q1 (Easy)
 60 km in 3 h. Speed?
-- A) 20 km/h  B) 30 km/h  C) 15 km/h  D) 25 km/h
+- A) 15 km/h  B) 25 km/h  C) 20 km/h  D) 30 km/h
 
 ### Q2 (Easy)
 20 m/s in km/h?
-- A) 72  B) 60  C) 54  D) 90
+- A) 54  B) 60  C) 90  D) 72
 
 ### Q3 (Easy)
 90 km/h in m/s?
 - A) 25  B) 20  C) 30  D) 15
 
 ### Q4 (Easy)
-A train 100 m crosses pole in 10 s. Speed?
-- A) 36 km/h  B) 30 km/h  C) 40 km/h  D) 45 km/h
+A train 100 m long crosses a pole in 10 s. Speed?
+- A) 30 km/h  B) 40 km/h  C) 36 km/h  D) 45 km/h
 
 ### Q5 (Easy)
-Distance at 50 km/h for 2 h?
-- A) 100 km  B) 50 km  C) 150 km  D) 200 km
+Distance covered at 50 km/h in 2 h?
+- A) 50 km  B) 100 km  C) 150 km  D) 200 km
 
 ### Q6 (Medium)
-A man goes 20 km at 40 km/h and 20 km at 60 km/h. Average speed?
+20 km at 40 km/h and 20 km at 60 km/h. Average speed?
 - A) 48  B) 50  C) 45  D) 52
 
 ### Q7 (Medium)
-Two trains 100 m and 150 m cross each other moving same direction at 50 and 40 km/h. Time?
-- A) 90 s  B) 80 s  C) 100 s  D) 70 s
+Two trains 100 m and 150 m long, same direction at 50 and 40 km/h. Time to cross each other?
+- A) 80 s  B) 100 s  C) 70 s  D) 90 s
 
 ### Q8 (Medium)
-A boat goes 30 km upstream in 5 h, downstream in 3 h. Speed of boat?
-- A) 8 km/h  B) 6 km/h  C) 10 km/h  D) 7 km/h
+A boat goes 30 km upstream in 5 h and 30 km downstream in 3 h. Speed of the boat in still water?
+- A) 6 km/h  B) 10 km/h  C) 8 km/h  D) 7 km/h
 
 ### Q9 (Medium)
-A train 200 m crosses a platform 300 m in 25 s. Speed?
+A 200 m train crosses a 300 m platform in 25 s. Speed?
 - A) 72 km/h  B) 60 km/h  C) 80 km/h  D) 54 km/h
 
 ### Q10 (Medium)
 A car covers 240 km in 4 h. Speed in m/s?
-- A) 16.67  B) 20  C) 15  D) 18
+- A) 20  B) 16.67  C) 15  D) 18
 
 ### Q11 (Hard)
-A train overtakes a man walking at 3 km/h in 12 s. Train 120 m. Train speed?
-- A) 39 km/h  B) 36 km/h  C) 42 km/h  D) 33 km/h
+A train overtakes a man walking at 3 km/h in the same direction in 12 s. Train length 120 m. Train speed?
+- A) 36 km/h  B) 39 km/h  C) 42 km/h  D) 33 km/h
 
 ### Q12 (Hard)
-A boat's speed in still water is 8 km/h, stream 2 km/h. Time for 30 km downstream?
-- A) 3 h  B) 2.5 h  C) 3.5 h  D) 4 h
+Boat speed in still water 8 km/h, stream 2 km/h. Time for 30 km downstream?
+- A) 2.5 h  B) 3.5 h  C) 4 h  D) 3 h
 
 ### Q13 (Hard)
-Two trains cross each other in 10 s moving opposite at 36 and 54 km/h. Sum of lengths?
+Two trains cross each other in 10 s moving in opposite directions at 36 and 54 km/h. Sum of their lengths?
 - A) 250 m  B) 200 m  C) 300 m  D) 350 m
 
 ### Q14 (Hard)
-A man travels half distance at 40 km/h, other half at 60 km/h. Average?
-- A) 48  B) 50  C) 45  D) 52
+Half the distance at 40 km/h, the other half at 60 km/h. Average speed?
+- A) 50  B) 45  C) 48  D) 52
 
 ### Q15 (Hard)
-A train 150 m crosses a man in 6 s and a platform in 20 s. Platform length?
-- A) 350 m  B) 300 m  C) 400 m  D) 250 m
+A 150 m train crosses a man in 6 s and a platform in 20 s. Platform length?
+- A) 300 m  B) 400 m  C) 250 m  D) 350 m
 
 ---
 
@@ -73,31 +73,31 @@ A train 150 m crosses a man in 6 s and a platform in 20 s. Platform length?
 
 | Q | Ans | Q | Ans |
 |:-:|:---:|:-:|:---:|
-| 1 | A | 9 | A |
-| 2 | A | 10 | A |
-| 3 | A | 11 | A |
-| 4 | A | 12 | A |
-| 5 | A | 13 | A |
-| 6 | A | 14 | A |
-| 7 | A | 15 | A |
-| 8 | A | | |
+| 1 | C | 9 | A |
+| 2 | D | 10 | B |
+| 3 | A | 11 | B |
+| 4 | C | 12 | D |
+| 5 | B | 13 | A |
+| 6 | A | 14 | C |
+| 7 | D | 15 | D |
+| 8 | C | | |
 
 ### Explanations
-1. 60/3 = 20. **A**
-2. 20×18/5 = 72. **A**
-3. 90×5/18 = 25. **A**
-4. 100/10 = 10 m/s = 36 km/h. **A**
-5. 50×2 = 100. **A**
-6. 2×40×60/100 = 48. **A**
-7. Rel speed = 10 km/h = 2.78 m/s. Distance = 250. Time = 90 s. **A**
-8. Upstream=6, downstream=10. Boat=(10+6)/2=8. **A**
-9. Distance=500 m. Speed=20 m/s=72 km/h. **A**
-10. 240/4=60 km/h=16.67 m/s. **A**
-11. Rel speed = 120/12 = 10 m/s = 36 km/h. Train = 36+3 = 39. **A**
-12. Downstream = 8+2 = 10. Time = 30/10 = 3. **A**
-13. Rel speed = 90 km/h = 25 m/s. Distance = 25×10 = 250. **A**
-14. 2×40×60/100 = 48. **A**
-15. Speed = 150/6 = 25 m/s. Platform = 25×20 - 150 = 350. **A**
+1. 60 / 3 = **20 km/h**. → C
+2. 20 × 18/5 = **72**. → D
+3. 90 × 5/18 = **25**. → A
+4. 100/10 = 10 m/s = 10 × 18/5 = **36 km/h**. → C
+5. 50 × 2 = **100 km**. → B
+6. 2·40·60 / (40 + 60) = **48**. → A
+7. Relative speed = 10 km/h = 25/9 m/s; distance = 250 m; time = 250 ÷ 25/9 = **90 s**. → D
+8. Upstream 30/5 = 6, downstream 30/3 = 10; boat = (10 + 6)/2 = **8 km/h**. → C
+9. Distance = 500 m in 25 s = 20 m/s = **72 km/h**. → A
+10. 240/4 = 60 km/h = 60 × 5/18 = **16.67 m/s**. → B
+11. Relative speed = 120/12 = 10 m/s = 36 km/h; train = 36 + 3 = **39 km/h**. → B
+12. Downstream 8 + 2 = 10 km/h; 30/10 = **3 h**. → D
+13. Relative speed = 90 km/h = 25 m/s; 25 × 10 = **250 m**. → A
+14. 2·40·60 / 100 = **48**. → C
+15. Speed = 150/6 = 25 m/s; platform = 25 × 20 − 150 = **350 m**. → D
 
 ---
 

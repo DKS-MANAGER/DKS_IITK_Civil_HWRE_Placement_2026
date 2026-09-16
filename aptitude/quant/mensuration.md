@@ -33,8 +33,8 @@
 | Cuboid | l×b×h | 2(lb+bh+hl) |
 | Cylinder | πr²h | 2πr(r+h) |
 | Cone | ⅓πr²h | πr(r+l) |
-| Sphere | ¾πr³ | 4πr² |
-| Hemisphere | ⅔πr³ | 3πr² |
+| Sphere | (4/3)πr³ | 4πr² |
+| Hemisphere | (2/3)πr³ | 3πr² |
 
 ---
 

@@ -191,7 +191,7 @@
 **Answer Guide:**
 - Darcy's law, aquifer properties
 - Groundwater modeling (MODFLOW if familiar)
--可持续抽水, recharge techniques
+- Sustainable pumping, recharge techniques
 - Connect to HWRE: "Groundwater is a critical component of water resources management"
 
 ### Q25: How does your HWRE background prepare you for this specific role? 🟡 P1

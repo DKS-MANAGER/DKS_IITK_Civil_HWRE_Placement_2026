@@ -17,7 +17,7 @@
 
 <br>
 
-`250+ Files` · `10 Core Subjects` · `25+ Companies` · `100+ Interview Qs` · `14 Career Tracks`
+`250+ Files` · `10 Core Subjects` · `25 Civil Companies` · `100+ Interview Qs` · `14 Career Tracks`
 
 <br>
 
@@ -456,7 +456,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 ├── prep/                              ── Interview Preparation ──
 │   ├── interview/                     Technical, HR, mock, revision
 │   ├── behavioral/                    STAR bank, self-intros, leadership
-│   ├── company-profiles/              25+ company strategies
+│   ├── company-profiles/              25 civil company strategies (+ legacy profiles)
 │   └── templates/                     Resume, self-intro, study plan
 │
 ├── software-and-tech/                 ── Software & Technology ──

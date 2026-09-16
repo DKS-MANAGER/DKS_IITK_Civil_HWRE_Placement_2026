@@ -8,64 +8,64 @@
 ## Questions
 
 ### Q1 (Easy)
-SI on Rs. 4000 at 5% for 2 years?
-- A) 400  B) 300  C) 500  D) 450
+SI on Rs. 4000 at 5% p.a. for 2 years?
+- A) 300  B) 450  C) 400  D) 500
 
 ### Q2 (Easy)
-CI on Rs. 3000 at 10% for 1 year?
-- A) 300  B) 250  C) 350  D) 200
+CI on Rs. 3000 at 10% p.a. for 1 year?
+- A) 250  B) 350  C) 200  D) 300
 
 ### Q3 (Easy)
-If SI = Rs. 600, P = 5000, T = 3 years, find R.
+SI = Rs. 600, P = Rs. 5000, T = 3 years. Find R.
 - A) 4%  B) 5%  C) 6%  D) 3%
 
 ### Q4 (Easy)
-Amount under SI if P=2000, R=8%, T=2 years?
-- A) 2320  B) 2200  C) 2400  D) 2280
+Amount under SI if P = Rs. 2000, R = 8%, T = 2 years?
+- A) 2280  B) 2320  C) 2200  D) 2400
 
 ### Q5 (Easy)
-CI - SI for 2 years on Rs. 10000 at 5%?
-- A) 25  B) 20  C) 30  D) 15
+CI − SI for 2 years on Rs. 10000 at 5% p.a.?
+- A) 20  B) 30  C) 25  D) 15
 
 ### Q6 (Medium)
-Rs. 8000 becomes Rs. 9261 in 3 years at CI. Find rate.
+Rs. 8000 becomes Rs. 9261 in 3 years at CI. Find the rate.
 - A) 5%  B) 4%  C) 6%  D) 8%
 
 ### Q7 (Medium)
-At what rate does Rs. 5000 double in 5 years under SI?
-- A) 20%  B) 25%  C) 10%  D) 15%
+At what SI rate does a sum double in 5 years?
+- A) 25%  B) 10%  C) 15%  D) 20%
 
 ### Q8 (Medium)
-CI on Rs. 5000 at 10% for 3 years?
+CI on Rs. 5000 at 10% p.a. for 3 years?
 - A) 1655  B) 1500  C) 1700  D) 1600
 
 ### Q9 (Medium)
-A sum amounts to Rs. 4410 in 2 years at CI and Rs. 4200 in 2 years at SI. Find rate.
-- A) 10%  B) 8%  C) 12%  D) 5%
+The difference between CI and SI on a sum for 2 years at 10% p.a. is Rs. 50. Find the sum.
+- A) 4000  B) 5000  C) 5500  D) 4500
 
 ### Q10 (Medium)
-If CI for 2nd year is Rs. 110 and rate is 10%, find principal.
-- A) 1000  B) 1100  C) 900  D) 1200
+If the CI for the 2nd year is Rs. 110 and the rate is 10%, find the principal.
+- A) 1100  B) 900  C) 1000  D) 1200
 
 ### Q11 (Hard)
-A sum triples in 2 years at CI. Find rate.
-- A) 73.2%  B) 70%  C) 75%  D) 68%
+A sum triples in 2 years at CI. Find the rate (approx).
+- A) 70%  B) 75%  C) 68%  D) 73.2%
 
 ### Q12 (Hard)
-The difference between CI and SI for 3 years is Rs. 244 at 10%. Find principal.
+The difference between CI and SI for 3 years at 10% p.a. is Rs. 248. Find the principal.
 - A) 8000  B) 6000  C) 10000  D) 5000
 
 ### Q13 (Hard)
-Rs. 5000 invested at 10% CI compounded half-yearly for 1 year. Amount?
-- A) 5512.5  B) 5500  C) 5525  D) 5500
+Rs. 5000 at 10% p.a. CI compounded half-yearly for 1 year. Amount?
+- A) 5500  B) 5512.5  C) 5525  D) 5550
 
 ### Q14 (Hard)
-A machine worth Rs. 50000 depreciates at 10% per year. Value after 2 years?
-- A) 40500  B) 40000  C) 41000  D) 39500
+A machine worth Rs. 50000 depreciates 10% per year. Value after 2 years?
+- A) 40000  B) 41000  C) 40500  D) 39500
 
 ### Q15 (Hard)
-Rs. 10000 split into two parts: one at 8% SI, other at 12% CI for 2 years. If total interest is Rs. 2208, find the parts.
-- A) 4000, 6000  B) 5000, 5000  C) 3000, 7000  D) 6000, 4000
+Rs. 10000 is split into two parts, one lent at 8% SI and the other at 10% SI, both for 2 years. Total interest is Rs. 1720. Find the part lent at 8%.
+- A) 7000  B) 6000  C) 5000  D) 8000
 
 ---
 
@@ -73,31 +73,31 @@ Rs. 10000 split into two parts: one at 8% SI, other at 12% CI for 2 years. If to
 
 | Q | Ans | Q | Ans |
 |:-:|:---:|:-:|:---:|
-| 1 | A | 9 | A |
-| 2 | A | 10 | A |
-| 3 | A | 11 | A |
-| 4 | A | 12 | A |
-| 5 | A | 13 | A |
-| 6 | A | 14 | A |
-| 7 | A | 15 | A |
+| 1 | C | 9 | B |
+| 2 | D | 10 | C |
+| 3 | A | 11 | D |
+| 4 | B | 12 | A |
+| 5 | C | 13 | B |
+| 6 | A | 14 | C |
+| 7 | D | 15 | A |
 | 8 | A | | |
 
 ### Explanations
-1. 4000×5×2/100 = 400. **A**
-2. 3000×10×1/100 = 300. **A**
-3. R = 600×100/(5000×3) = 4%. **A**
-4. 2000×8×2/100 = 320. Amount = 2320. **A**
-5. 10000(0.05)² = 25. **A**
-6. 9261/8000 = 1.1576. (1+r/100)³ = 1.1576. r=5%. **A**
-7. SI = P. P×R×5/100 = P. R=20%. **A**
-8. 5000(1.1³-1) = 5000×0.331 = 1655. **A**
-9. CI-SI = 4410-4200 = 210 = P(r/100)². SI=4200. Solve: r=10%. **A**
-10. CI 2nd year = P(1.1)(0.1) = 0.11P = 110. P=1000. **A**
-11. (1+r/100)²=3. 1+r/100=1.732. r=73.2%. **A**
-12. P(0.1)²(3.1) = 244. P×0.031=244. P=7871≈8000. **A**
-13. 5000(1.05)² = 5512.5. **A**
-14. 50000(0.9)² = 40500. **A**
-15. Let x at 8% SI, (10000-x) at 12% CI. x×0.16 + (10000-x)(0.2544) = 2208. Solve: x=4000. **A**
+1. 4000 × 5 × 2 / 100 = **400**. → C
+2. 1 year: CI = SI = 3000 × 10 × 1 / 100 = **300**. → D
+3. R = 600 × 100 / (5000 × 3) = **4%**. → A
+4. SI = 2000 × 8 × 2 / 100 = 320; Amount = **2320**. → B
+5. CI − SI (2 yr) = P(r/100)² = 10000 × 0.0025 = **25**. → C
+6. 9261 / 8000 = 1.157625 = (1 + r/100)³ ⇒ 1 + r/100 = 1.05 ⇒ **r = 5%**. → A
+7. SI = P ⇒ P·R·5/100 = P ⇒ **R = 20%**. → D
+8. 5000(1.1³ − 1) = 5000 × 0.331 = **1655**. → A
+9. P(r/100)² = 50 ⇒ P(0.01) = 50 ⇒ **P = 5000**. → B
+10. CI(2nd yr) = P(1 + r/100)(r/100) = P(1.1)(0.1) = 0.11P = 110 ⇒ **P = 1000**. → C
+11. (1 + r/100)² = 3 ⇒ 1 + r/100 = 1.732 ⇒ **r ≈ 73.2%**. → D
+12. CI − SI (3 yr) = P(r/100)²(3 + r/100) = P(0.01)(3.1) = 0.031P = 248 ⇒ **P = 8000**. → A
+13. Half-yearly: 5% per period, 2 periods. 5000(1.05)² = **5512.5**. → B
+14. 50000(0.9)² = **40500**. → C
+15. 8% for 2 yr SI = 16% of part; 10% = 20%. 0.16x + 0.20(10000 − x) = 1720 ⇒ −0.04x = −280 ⇒ **x = 7000**. → A
 
 ---
 

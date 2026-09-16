@@ -17,7 +17,7 @@ Sales (in ₹ lakhs) of five products across four quarters:
 | B | 80 | 90 | 110 | 130 |
 | C | 200 | 180 | 160 | 150 |
 | D | 60 | 75 | 90 | 110 |
-| E | 140 | 130 | 120 | 100 |
+| E | 130 | 140 | 120 | 100 |
 
 ### Q1 (Easy)
 Which product had the highest total sales across all quarters?

@@ -1,162 +1,102 @@
-# Placement Data & Analysis
+# Placement Data & Analysis — Civil / HWRE
 
-## Overview
-This document summarizes placement trends based on the IITK Civil/HWRE placement data for 2026.
+> **Source of truth:** [`placement_data.csv`](../../Civil_Placement_IITK/placement_data.csv)
+> — IITK 2025-26 placement export: **516 postings across 276 unique companies** (all branches).
+> This page summarizes only the **civil / HWRE-relevant** subset. Every CTC below is taken
+> from that CSV or the matching company profile; nothing here is estimated.
+> Non-civil postings (software, analytics, quant, consulting) are out of scope for this page —
+> see the all-branch CSV directly if you need them.
 
-## Summary Statistics
+## How the civil subset was scoped
 
-| Metric | Value |
-|--------|-------|
-| **Total Companies** | 20+ unique companies tracked |
-| **Company Types** | Core Engineering (40%), Analytics/Data Science (35%), Consulting (15%), Tech (10%) |
-| **CTC Range** | ₹9–22 LPA (Core) · ₹12.5–27 LPA (Analytics/Tech) · ₹19–50 LPA (Finance/Tech abroad) |
-| **Top Picks** | Abacus.AI (60L), Accenture Japan (₹47.5L), Barclays (₹25L), Battery Smart (22L) |
+25 civil-relevant companies were identified from the 276 in the CSV and graded by how
+directly the posting targets a civil engineer. Full per-company strategies live in
+[`prep/company-profiles/`](../prep/company-profiles/company-profiles.md); this page is the
+index + CTC comparison.
 
-## Company Profiles
+## Tier 1 — HIGH relevance (posting directly targets civil engineering)
 
-### IT / Software & Analytics
-| Company | Profile | CTC (INR) | Location | Notes |
-|---------|---------|-----------|----------|-------|
-| **FN Mathlogic** | Analyst | ₹9.1 LPA | Gurugram | Focus: ML/DL algorithms, Python/R |
-| **Abacus.AI** | ML Engineer - Gen AI | ₹60LPA | Remote | Gen AI, LLMs, RAG |
-| **Abacus.AI** | ML Engineer | ₹60LPA | Remote | Fine-tuning, LLMs, open-weight |
-| **Abacus.AI** | Backend Engineer | ₹60LPA | Remote | Scalable backend, cloud infra |
-| **Accenture Japan** | Digital Consultant | ₹47.5L | Tokyo | Digital transformation, cloud |
-| **Accenture Japan** | Business Consultant | ¥8.13M | Tokyo | ~¥8.13M + relocation |
-| **Accenture Operations** | Data AI Senior Analyst | ₹19.34L | Bangalore | ML, big data, Spark/Hadoop |
-| **Accenture Solutions** | Data & AI Engineer | ₹20.15L | Mumbai/BLR/Gurgaon | SQL, Python, ML, Tableau |
-| **Accenture Solutions** | MC Delivery Associate | ₹15.92L | Multiple | Consulting, client facing |
-| **Acme** | Design Engineer | TBD | Will be informed | Hardware verification |
-| **Acme** | Software Engineer | TBD | Will be informed | Embedded software |
-| **AgniKul Cosmos** | Propulsion Systems | ₹15L | Chennai | CFD, rocket engines |
-| **AgniKul Cosmos** | Power Electronics | ₹15L | Chennai | SMPS, embedded systems |
-| **Aira Matrix** | Trainee Engineer | ₹21L | NA | ML, data analysis |
-| **Auro Digital** | Backend Developer | ₹15L | Virtual | Django/Flask, REST APIs |
-| **Auro Digital** | FrontEnd Developer | ₹15L | NA | JS frameworks, UI/UX |
-| **Auro Digital** | Full Stack | ₹15L | NA | Full-stack dev |
-| **Auro Digital** | Blockchain | ₹15L | NA | Blockchain dev |
-| **Auronova** | Quant Analyst | ₹14L | Mumbai/Delhi/BLR | Python/C++, trading |
-| **Auronova** | Pre-MBA Analyst | ₹50L | Mumbai | Real estate PE |
-| **Axtria** | UX Design Analyst | ₹14.5L | Multiple | Figma, user research |
-| **Axtria** | Analyst | ₹14.5L | Multiple | Life sciences, data science |
-| **Axxela** | Trainee Analyst | ₹14.1L | Mumbai/Delhi/BLR | Financial modeling, analytics |
-| **Barclays** | BUK-ACE | ₹17L+ | Noida | Decision analytics, ML |
-| **Barclays** | Quant Developer Intern | ₹2L | Mumbai | Python/C++, trading |
-| **Barclays** | Graduate Analyst (BA3) | ₹15.5L+ | Noida | Credit risk models |
-| **Barclays** | Graduate Analyst (BA4) | ₹17.5L+ | Noida | Predictive modeling, Python |
-| **Barclays** | IB Quants | ₹25.6L | Noida | Python/C++, quantitative research |
-| **Barclays** | Senior Analyst | ₹15.5L | Noida | Consumer credit risk |
-| **Battery Smart** | Business Analyst | ₹22L | Gurgaon | IoT analytics, BI |
-| **Battery Smart** | Associate Product Manager | ₹22L | Gurgaon | Product mgmt, analytics |
-| **Battery Smart** | Strategy Associate | Upto 22L | Gurgaon | Strategy, program mgmt |
-| **Baya Systems** | ASIC Hardware Engineer | ₹23.3L | Bangalore | VLSI, RTL, Python |
-| **Baya Systems** | Software Engineer | ₹21.5L | Bangalore | Python, C++, optimization |
-| **Bajaj Auto** | GTE 2025 | ₹20.74L | Pune | R&D, design, experimentation |
-| **Bajaj Auto** | PGTE 2025 | ₹21.74L | Pune | R&D (M.Tech), advanced roles |
-| **Blitz** | Business Analyst | ₹19.35L | Bangalore | SQL, Python, BI tools |
-| **Blitz** | Program Manager | ₹19.65L | Bangalore | Project management, Excel |
-| **Blitz** | Software Development Engineer | ₹25L | Bangalore | Java, Python, cloud |
-| **BNY Mellon** | Early Talent Analyst | ₹26.64L | Pune/Chennai | Python/C++, cybersecurity |
-| **Boston Consulting** | Associate | ₹23.5L | Multiple | Consulting, strategy |
-| **C3iHub** | Software Development Engineer | ₹24L | Kanpur | C/C++, security, scripting |
-| **Cadence** | Software Engineer II | ₹22-24.5L | Bangalore | Verilog, C/C++, graph theory |
-| **CapitalOne** | Software Engineering | ₹22L+ | Bangalore | Java, Python, AWS, ML |
+| Company | Role | CTC (INR) | Domain | Profile |
+|---|---|---|---|---|
+| Larsen & Toubro | MT / PGET | ₹7.0L / ₹6.25L | Construction & EPC | [civil-lt.md](../prep/company-profiles/civil-lt.md) |
+| Godrej Properties | AM — Project Execution | ₹18L (+₹6L bonuses) | Real Estate & Construction | [civil-godrej-properties.md](../prep/company-profiles/civil-godrej-properties.md) |
+| Thornton Tomasetti | Engineer — Structural | ₹7.5–9L | Structural Consultancy | [civil-thornton-tomasetti.md](../prep/company-profiles/civil-thornton-tomasetti.md) |
+| Hilti Technology Solutions | Graduate Engineer | ₹17L | Structural / Fastening | [civil-hilti.md](../prep/company-profiles/civil-hilti.md) |
+| Reliance New Energy | Team Member — Civil/Geotech | ₹15L (+₹5L deferred) | Geotechnical / Foundations | [civil-reliance-new-energy.md](../prep/company-profiles/civil-reliance-new-energy.md) |
+| Rodic Consultants | Management Trainee | ₹8–8.5L | Water & Environmental | [civil-rodic.md](../prep/company-profiles/civil-rodic.md) |
+| SPECTRUM Techno Consultants | Trainee Design Engineer | ₹8L | Structural Design | [civil-spectrum.md](../prep/company-profiles/civil-spectrum.md) |
+| Vassarlabs IT Solutions | SME — Water/GIS | ₹8L | Water Resources / GIS | [civil-vassarlabs.md](../prep/company-profiles/civil-vassarlabs.md) |
+| ASC Infratech | Trainee Engineer | ₹7.4L | Bridges / Highways | [civil-asc-infratech.md](../prep/company-profiles/civil-asc-infratech.md) |
 
-### Core Engineering
-| Company | Profile | CTC (INR) | Location | Notes |
-|---------|---------|-----------|----------|-------|
-| **BPCL** | Management Trainee | ₹20.11L | Pan India | Refinery, marketing roles |
-| **EIL** | Engineering | Standard | India | BMD, hydraulics, geotech |
-| **NHPC/NTPC** | Engineer | Competitive | India | Hydropower, power generation |
-| **WAPCOS** | Engineer | Standard | India | Water resources, irrigation |
-| **L&T** | Engineer | ₹10-12L | India | Construction, infrastructure |
-| **Tata Projects** | Engineer | ₹7-12L | India | Construction, execution |
-| **AECOM** | Engineer | ₹22-40L | Global | Design, consulting, water |
-| **Bhautiki Plus** | Trainee Faculty | ₹10L | Gwalior | Teaching, academics |
+## Tier 2 — MEDIUM relevance (civil graduates plausibly eligible)
 
-### Finance & Consulting
-| Company | Profile | CTC (INR) | Location | Notes |
-|---------|---------|-----------|----------|-------|
-| **BCG** | Associate | ₹23.5L | Multiple | Consulting, MBA feeder |
-| **Barclays** | Quantitative roles | ₹17-25L | Noida | Finance, analytics, ML |
+| Company | Role | CTC (INR) | Domain | Profile |
+|---|---|---|---|---|
+| BPCL | Management Trainee | ₹20.1L | Oil & Gas / Industrial | [civil-bpcl.md](../prep/company-profiles/civil-bpcl.md) |
+| HPCL | Officer — Engineering | ₹17.4L | Oil & Gas / Industrial | [civil-hpcl.md](../prep/company-profiles/civil-hpcl.md) |
+| ITC Limited | AUT — Projects | ₹31.25L | Construction Management | [civil-itc.md](../prep/company-profiles/civil-itc.md) |
+| JSW | GET | ₹13–16L | Infrastructure / Steel | [civil-jsw.md](../prep/company-profiles/civil-jsw.md) |
+| Dimension Renewables | Structural Engineer | ₹8L | Marine / Offshore | [civil-dimension-renewables.md](../prep/company-profiles/civil-dimension-renewables.md) |
+| GIST | GIS Analyst | ₹12L | Geospatial / Remote Sensing | [civil-gist.md](../prep/company-profiles/civil-gist.md) |
+| Petronet LNG | GET | ₹19.9L | LNG Infrastructure | [civil-petronet-lng.md](../prep/company-profiles/civil-petronet-lng.md) |
+| Reliance Industries | GET | ₹9–10.5L (+deferred) | EPC / RPMG | [civil-reliance-industries.md](../prep/company-profiles/civil-reliance-industries.md) |
+| Smarttrak AI | Structural Engineer | ₹12L | Solar Structural Design | [civil-smarttrak.md](../prep/company-profiles/civil-smarttrak.md) |
+| TuTr Hyperloop | CAE Engineer | ₹11L | Transport / FEA | [civil-tutr-hyperloop.md](../prep/company-profiles/civil-tutr-hyperloop.md) |
 
-## CTC Distribution Analysis
+## Tier 3 — LOW relevance (indirect / marginal civil hook)
 
-### By Category
-| Category | Min CTC | Max CTC | Average CTC |
-|----------|---------|---------|-------------|
-| **Software/Tech** | ₹9.1L | ₹60L | ~₹25L |
-| **Analytics/Data Science** | ₹12.5L | ₹27L | ~₹18L |
-| **Finance/Tech Abroad** | ₹46L | ₹50L | ~₹48L |
-| **Core Engineering** | ₹7L | ₹40L | ~₹15L |
-| **Consulting** | ₹14.1L | ₹23.5L | ~₹19L |
+| Company | Role | CTC (INR) | Civil hook |
+|---|---|---|---|
+| Tata Steel | MT | ₹12–13L | Plant civil / mining |
+| Saint-Gobain | Research Engineer | ₹10.5L | Materials / construction |
+| ISGEC | GET | ₹9.5L (+retention) | EPC (posting is mechanical) |
+| KBR | Associate Technical | ₹8.5L | EPC (posting is process) |
+| Quest Global | Senior Engineer | ₹10L | Rail / pipeline |
+| Delta Electronics | Sr Engineer | ₹10.6–12.4L | Building automation |
 
-## Company Category Breakdown
+> Consolidated strategy for Tier 3: [civil-low-tier-all.md](../prep/company-profiles/civil-low-tier-all.md)
 
-| Company Category | Count | Percentage |
-|-----------------|-------|------------|
-| IT / Software | 14 | 70% |
-| Data Science / AI / ML | 8 | 40% |
-| Finance & Consulting | 9 | 45% |
-| Core Engineering & Tech | 14 | 70% |
-| Infrastructure | 2 | 10% |
-| Manufacturing | 5 | 25% |
-| Analytics | 5 | 25% |
-| Management Trainee | 1 | 5% |
+## PSU track (recruit fresh Civil PGs via GATE / own exams)
 
-(Note: Companies can fall into multiple categories)
+| Company | Discipline | Notes |
+|---|---|---|
+| BPCL | All Civil | MT via GATE + GD/PI |
+| EIL | All Civil | Engineer — BMD, consolidation, pipe losses, hydraulics |
+| NHPC | Civil / WRE | Hydraulics, hydropower, fluid mechanics |
+| NTPC | Civil | Plant civil |
+| WAPCOS | Civil / WRE | Water resources, irrigation |
 
-## Key Insights
+CTCs for PSU roles vary year to year with DA/IDA revisions — confirm from the current
+advertisement rather than quoting a fixed figure.
 
-1. **Highest CTCs**: Abacus.AI offers the highest at ₹60LPA for ML Engineers
-2. **Analytics roles dominate**: 40% of roles are in data science/analytics
-3. **Foreign opportunities**: Accenture Japan offers ~₹47.5L INR equivalent
-4. **Core engineering**: Ranges from ₹7-12L for traditional roles, ₹20-40L for design/consulting
-5. **Bond patterns**: 6-18 months typical for entry-level; retention bonuses common (1-2 years)
-6. **ESOPs**: Standard benefit across tech/analytics companies (₹0.5-4L value)
-7. **Location trends**: Bangalore (28%), Gurgaon (20%), Mumbai (15%), Remote (15%), Tokyo (5%)
+## CTC snapshot (civil subset, from the table above)
 
-## Benefits Comparison
+| Band | Companies |
+|---|---|
+| ₹7–9L | L&T, Thornton Tomasetti, Rodic, SPECTRUM, Vassarlabs, ASC Infratech, Dimension Renewables |
+| ₹9–13L | Reliance Industries, GIST, Smarttrak, TuTr Hyperloop, Tata Steel, Saint-Gobain, Quest Global, Delta Electronics |
+| ₹13–20L | JSW, Reliance New Energy, Hilti, HPCL, Godrej Properties, Petronet LNG |
+| ₹20L+ | BPCL, ITC Limited |
 
-| Company | Joining Bonus | ESOPs | Insurance | Other Benefits |
-|---------|--------------|-------|-----------|----------------|
-| Abacus.AI | — | Stock options | Health, Life, Accident | Remote work, Offsites |
-| Accenture Japan | — | — | Full | Housing, flights, language training |
-| Barclays | — | — | — | Performance bonus, flexible work |
-| Battery Smart | ₹1L | ₹4L | — | Performance bonus (₹2L/year) |
-| Blitz | ₹65K-1L | ₹5-7L | Medical Insurance | — |
-| BNY Mellon | ₹50K | — | Medical & Term | — |
-| BCG | ₹50K | — | — | Performance bonus, relocation |
-| Auro Digital | — | — | Medical | — |
-| Axtria | ₹1L (anniversary) | — | — | Performance linked |
+## Preparation tips by role type
 
-## Preparation Tips by Company Type
+### Core engineering / design roles
+- Revise GATE fundamentals; practice numerical problems (15–20 min each).
+- Be ready for design and derivation questions; know the relevant IS codes.
+- Prepare a project defense with data, assumptions, and methodology.
 
-### For Analytics/ML Roles
-- Master Python/R, SQL, probability, statistics
-- Practice case studies and business framing
-- Review ML fundamentals (supervised/unsupervised learning)
-- Prepare for coding interviews (DSA in Python/C++)
+### Water resources / GIS roles (Vassarlabs, GIST, Rodic)
+- Hydrology modelling, flood risk, watershed delineation.
+- QGIS / ArcGIS, remote sensing basics, one modelling tool (HEC-RAS / SWMM).
 
-### For Core Engineering Roles
-- Review GATE syllabus fundamentals
-- Practice numerical problem-solving (15-20 min/problem)
-- Be ready for design/derivation questions
-- Know IS codes and standards relevant to your discipline
-
-### For Consulting Roles
-- Prepare for case interviews and market sizing
-- Brush up on business/economics concepts
-- Practice structured problem-solving frameworks
-- Prepare for market and industry questions
-
-### For Software Roles
-- Master DSA and algorithmic thinking
-- Practice on LeetCode, HackerRank, InterviewBit
-- Know system design basics (for senior roles)
-- Prepare for coding in preferred language
+### PSU roles
+- GATE score is the gate; then GD/PI on core civil + site awareness.
+- Know IS codes by clause reference and be ready to discuss relocation.
 
 ---
 
 ## References
 
+- [`placement_data.csv`](../../Civil_Placement_IITK/placement_data.csv) — IITK 2025-26 placement export (516 postings, 276 companies)
+- [`prep/company-profiles/company-profiles.md`](../prep/company-profiles/company-profiles.md) — per-company 16-section strategies
+- [`prep/company-profiles/civil-cross-company-strategy.md`](../prep/company-profiles/civil-cross-company-strategy.md) — common core, ROI path, CTC comparison

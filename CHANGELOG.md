@@ -6,6 +6,22 @@ All notable changes to this repository are documented in this file. The format i
 
 ## [Unreleased]
 
+### Aptitude Audit + Trust-Repair (Sep 2026)
+- Added `docs/audit/aptitude-audit-2026-09.md` — independent audit of `aptitude/` with gap analysis, target structure, master checklist, 9 test specs and a prioritised rebuild plan.
+- Re-keyed all 14 topic tests: randomised answer-option positions (6 tests previously had every answer = "A") and added a worked one-line solution for every question; fixed duplicate options and two under-specified questions.
+- Rebuilt `mocks/full-placement-mock-1.md` with fully verified answers (previously ~10 broken/contradictory items) and stripped model scratchpad from the solutions.
+- Fixed broken questions and removed left-in scratchpad from `di/tables-caselets.md`, `reasoning/coding-decoding.md`, `reasoning/puzzles-scheduling.md`, `reasoning/order-ranking.md`, `tests/seating-arrangement-test.md`, `tests/di-test.md`.
+- Corrected the sphere-volume formula (4⁄3 πr³) in `FORMULA_SHEET.md` and `quant/mensuration.md`.
+- Added status/limitation notes to `aptitude/README.md`, `_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md`, `_SYSTEM/APTITUDE_STATE.md`; the "placement-ready / 9-10 across the board" claims were not accurate.
+- `scripts/quality_check.py` CJK check now ignores fenced/inline code and audit reports.
+
+### Content Accuracy Review (Sep 2026)
+- Added `docs/accuracy-review-2026-09.md` — fact-check of placement data and technical content.
+- Rebuilt `resources/placement-data.md` from `placement_data.csv`, scoped to the 25 civil-relevant companies; removed a hallucinated "L&T ₹10-12L" entry and incoherent category stats.
+- Removed stray Chinese machine-translation text from 7 files (hydraulics, infrastructure, rapid-revision, HWRE behavioral, L&T profile, two `_SYSTEM` matrices).
+- Added a CJK-contamination check to `scripts/quality_check.py`.
+- Reconciled L&T CTC and the civil company count (25) across README and `company-profiles.md`.
+
 ### Platform Transformation (v4.0)
 
 **Navigation & Discoverability**

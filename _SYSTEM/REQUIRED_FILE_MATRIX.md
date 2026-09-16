@@ -23,7 +23,7 @@
 | Structural Analysis | `core/structural-analysis/structural-analysis.md` | ✅ YES | L5 (10/10) | — | KEEP |
 | RCC Design | `core/rcc/rcc-design.md` | ✅ YES | L5 (10/10) | — | KEEP |
 | Steel Design | `core/steel/steel-design.md` | ✅ YES | L5 (10/10) | — | KEEP |
-| Structures (综合) | `core/structures/structures.md` | ✅ YES | L4 (9/10) | Rapid revision section | KEEP |
+| Structures (combined) | `core/structures/structures.md` | ✅ YES | L4 (9/10) | Rapid revision section | KEEP |
 | Structures Role Study Plan | `core/structures/role-study-plan.md` | ✅ YES | PARTIAL | Needs depth | EXTEND |
 | Structural Rapid Revision | `core/structures/structural-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
 | Structures README | `core/structures/README.md` | ✅ YES | EXISTS | — | KEEP |

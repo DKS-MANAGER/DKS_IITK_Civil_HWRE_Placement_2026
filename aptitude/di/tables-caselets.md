@@ -93,12 +93,12 @@ The table below shows sales (in ₹ lakhs) of five products across four quarters
 ---
 
 ### Q5 (Hard, 2 min)
-**Which product showed a consistent decline in sales across all four quarters?**
-- A) A  B) B  C) C  D) D
+**Which product's sales fell by the largest total amount from Q1 to Q4?**
+- A) A  B) C  C) D  D) E
 
-**Answer:** C) C
-**Explanation:** C: 200→180→160→150 (declining every quarter). A, B, D increased. E declined in Q3 and Q4 but increased Q1→Q2.
-**Concept:** Pattern recognition. **Difficulty:** Hard. **Time:** 2 min. **Trap:** E looks like it declines overall but not consistently.
+**Answer:** B) C
+**Explanation:** C: 200 → 150, a fall of 50. E: 140 → 100, a fall of 40. A, B and D all rose.
+**Concept:** Comparison of net change. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Confusing "largest fall" with "steepest single-quarter drop".
 
 ---
 
@@ -132,9 +132,9 @@ The table shows marks (out of 100) of 6 students in 4 subjects.
 **What is the average score in Math for all 6 students?**
 - A) 72.5  B) 73.3  C) 75  D) 71.7
 
-**Answer:** B) 73.3
-**Explanation:** `(85+60+90+70+55+75)/6 = 435/6 = 72.5`. Wait — let me recompute: 85+60+90+70+55+75 = 435. 435/6 = 72.5.
-**Answer corrected:** A) 72.5
+**Answer:** A) 72.5
+**Explanation:** (85 + 60 + 90 + 70 + 55 + 75) / 6 = 435 / 6 = 72.5.
+**Concept:** Average. **Difficulty:** Medium. **Time:** 90 sec. **Trap:** Dividing by 5, or misreading the Math column.
 
 ---
 
@@ -149,12 +149,12 @@ The table shows marks (out of 100) of 6 students in 4 subjects.
 ---
 
 ### Q9 (Hard, 2 min)
-**In which subject is the standard deviation of marks the highest?**
-- A) Math  B) Physics  C) Chemistry  D) English
+**What is the difference between the highest and the lowest total marks (across all 4 subjects)?**
+- A) 25  B) 30  C) 35  D) 20
 
-**Answer:** D) English
-**Explanation:** English marks range 55–80, spread across 6 values with high variance. Math range 55–90 but more clustered. English has the widest spread relative to mean.
-**Concept:** Spread analysis. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Highest range ≠ highest SD.
+**Answer:** B) 30
+**Explanation:** Totals: Amit 290, Beena 295, Chetan 310, Deepa 285, Elena 310, Farhan 280. Highest 310 − lowest 280 = 30.
+**Concept:** Row sums + comparison. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Comparing single subjects instead of totals.
 
 ---
 
@@ -162,9 +162,9 @@ The table shows marks (out of 100) of 6 students in 4 subjects.
 **If each student's total marks across all 4 subjects is calculated, who ranks 3rd?**
 - A) Beena  B) Farhan  C) Deepa  D) Chetan
 
-**Answer:** B) Farhan
-**Explanation:** Amit=290, Beena=295, Chetan=310, Deepa=285, Elena=310, Farhan=280. Sorted: Chetan(310)=Elena(310), Beena(295), Amit(290), Deepa(285), Farhan(280). 3rd = Beena(295).
-**Answer corrected:** A) Beena
+**Answer:** A) Beena
+**Explanation:** Totals — Amit 290, Beena 295, Chetan 310, Deepa 285, Elena 310, Farhan 280. Ranked: Chetan 310 (1st), Elena 310 (2nd), Beena 295 (3rd).
+**Concept:** Ranking on row sums. **Difficulty:** Hard. **Time:** 2 min. **Trap:** The tie at 310 still leaves 3rd unambiguous at 295.
 
 ---
 
@@ -172,7 +172,7 @@ The table shows marks (out of 100) of 6 students in 4 subjects.
 
 **Read the following paragraph and answer questions 11–15.**
 
-A company has three divisions: Engineering, Marketing, and Finance. In 2024, the Engineering division generated ₹120 crore revenue, which was 40% of the company's total revenue. The Marketing division's revenue was ₹90 crore. The Finance division's revenue was 30% less than the Marketing division's revenue. In 2025, total company revenue grew by 20%. The Engineering division grew by 25% and the Marketing division grew by 15%. The remaining growth came entirely from the Finance division.
+A company has three divisions: Engineering, Marketing and Finance. In 2024, the Engineering division generated ₹120 crore revenue, which was exactly 40% of the company's total revenue. The Marketing division's revenue was ₹105 crore. The Finance division's revenue was the remainder. In 2025, total company revenue grew by 20%. The Engineering division grew by 25% and the Marketing division grew by 20%. The rest of the growth came entirely from the Finance division.
 
 ---
 
@@ -187,33 +187,31 @@ A company has three divisions: Engineering, Marketing, and Finance. In 2024, the
 
 ### Q12 (Medium, 2 min)
 **What was the Finance division's revenue in 2024?**
-- A) ₹54 crore  B) ₹63 crore  C) ₹70 crore  D) ₹60 crore
+- A) ₹54 crore  B) ₹63 crore  C) ₹75 crore  D) ₹90 crore
 
-**Answer:** B) ₹63 crore
-**Explanation:** Finance = 70% of Marketing = 0.70 × 90 = 63.
-**Concept:** Percentage of a value. **Difficulty:** Medium. **Time:** 90 sec. **Trap:** 30% less ≠ 30% of.
+**Answer:** C) ₹75 crore
+**Explanation:** Total = 300; Finance = 300 − 120 (Eng) − 105 (Mkt) = 75.
+**Concept:** Remainder from a total. **Difficulty:** Medium. **Time:** 90 sec. **Trap:** Treating Finance as a stated percentage.
 
 ---
 
 ### Q13 (Hard, 2 min)
 **What was the Finance division's revenue in 2025?**
-- A) ₹103.5 crore  B) ₹81 crore  C) ₹90 crore  D) ₹117 crore
+- A) ₹84 crore  B) ₹81 crore  C) ₹90 crore  D) ₹78 crore
 
-**Answer:** D) ₹117 crore
-**Explanation:** Total 2025 = 300 × 1.20 = 360. Eng 2025 = 120 × 1.25 = 150. Mkt 2025 = 90 × 1.15 = 103.5. Finance = 360 - 150 - 103.5 = 106.5.
-**Answer corrected:** Finance = 360 - 150 - 103.5 = 106.5 crore.
-**Option not listed — recalculating.** Finance 2025 = 106.5. Closest option D) 117 is wrong. Let me fix: **Answer: ₹106.5 crore** (the correct answer, though not in options — this tests whether you verify your calculation).
-**Concept:** Multi-step calculation. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Forgetting to subtract from total.
+**Answer:** A) ₹84 crore
+**Explanation:** Total 2025 = 300 × 1.20 = 360. Eng = 120 × 1.25 = 150. Mkt = 105 × 1.20 = 126. Finance = 360 − 150 − 126 = 84.
+**Concept:** Multi-step calculation. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Forgetting to subtract from the new total.
 
 ---
 
 ### Q14 (Hard, 2 min)
 **By what percentage did the Finance division's revenue grow from 2024 to 2025?**
-- A) 40%  B) 50%  C) 69%  D) 35%
+- A) 9%  B) 12%  C) 15%  D) 20%
 
-**Answer:** C) 69%
-**Explanation:** `(106.5 - 63)/63 × 100 = 43.5/63 × 100 = 69.05%`.
-**Concept:** Growth rate. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Using wrong base.
+**Answer:** B) 12%
+**Explanation:** (84 − 75) / 75 × 100 = 9 / 75 × 100 = 12%.
+**Concept:** Growth rate. **Difficulty:** Hard. **Time:** 2 min. **Trap:** Using 2025 revenue as the base.
 
 ---
 
@@ -222,8 +220,8 @@ A company has three divisions: Engineering, Marketing, and Finance. In 2024, the
 - A) Engineering  B) Marketing  C) Finance  D) Cannot be determined
 
 **Answer:** A) Engineering
-**Explanation:** Eng = 150/360 = 41.7%. Marketing = 103.5/360 = 28.8%. Finance = 106.5/360 = 29.6%. Engineering is highest.
-**Concept:** Comparison. **Difficulty:** Very Hard. **Time:** 3 min. **Trap:** Finance grew fastest but Eng still highest.
+**Explanation:** Eng = 150/360 = 41.7%, Marketing = 126/360 = 35%, Finance = 84/360 = 23.3%. Engineering is highest.
+**Concept:** Comparison of shares. **Difficulty:** Very Hard. **Time:** 3 min. **Trap:** Finance grew, but Engineering still leads.
 
 ---
 

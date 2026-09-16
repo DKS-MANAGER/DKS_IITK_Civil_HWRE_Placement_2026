@@ -7,6 +7,12 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 
 > Civil branch package signals ranged roughly ₹7–12 LPA, with top offers reaching ₹22–40 LPA.
 > Phase 1 saw 250+ firms and 1,202 offers overall.
+>
+> **Note:** the category tables immediately below (Analytics, Technology/Software, Startup)
+> are *all-branch* context, not civil-targeted roles. The canonical civil / HWRE list —
+> 25 companies graded by relevance, with CTCs reconciled against
+> [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) — is the
+> **"Civil Engineering — Company-Specific Placement Strategies"** section further down this page.
 
 ## Company Categories
 
@@ -26,7 +32,7 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 
 | Company | Profile | CTC (INR) | Location | Rounds | Prep Focus |
 |---------|---------|-----------|----------|--------|------------|
-| **L&T** | Civil Engineer | ₹10-12L | Multiple | Technical x2 + HR | BBS, footing quantities, soil classification, IRC basics |
+| **L&T** | MT / PGET | ₹7.0L / ₹6.25L | PAN India | Technical x2 + HR | BBS, footing quantities, soil classification, IRC basics |
 | **AECOM** | Water Resources/Design | ₹22-40L | Global | Case + Technical | Hydrology modeling, flood risk, GIS |
 | **Tata Projects** | Civil Engineer | ₹7-12L | Multiple | Technical + HR | Construction methods, scheduling, QA/QC |
 | **Bajaj Auto** | R&D Engineer | ₹20.74L | Pune | Technical + HR | R&D, experimentation, design |
