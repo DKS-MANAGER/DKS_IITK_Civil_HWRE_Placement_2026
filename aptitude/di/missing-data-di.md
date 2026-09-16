@@ -32,14 +32,14 @@ Missing Data DI problems present partially filled tables, bar distributions, or 
 
 ### 1.2 Mathematical Infill Propagation Strategies
 
-#### 1. The Single Degree-of-Freedom Sweep
+### 1.2.1 The Single Degree-of-Freedom Sweep
 Scan rows and columns to locate lines containing **exactly one missing cell**. Resolve that cell immediately via linear subtraction, updating marginal sums before moving to adjacent lines.
 
-#### 2. Ratio & Percentage Coupling
+### 1.2.2 Ratio & Percentage Coupling
 When a row or column contains two missing variables $x$ and $y$, standard subtraction yields their sum $(x + y = S)$. A secondary constraint from the narrative (e.g., $x : y = a : b$ or $x = (1 + p)y$) resolves the unique pair:
 $$x = S \times \left(\frac{a}{a + b}\right), \quad y = S \times \left(\frac{b}{a + b}\right)$$
 
-#### 3. Dynamic Inventory Conservation Equations
+### 1.2.3 Dynamic Inventory Conservation Equations
 In supply chain and manufacturing tables:
 $$\text{Opening Stock}_t + \text{Production}_t - \text{Sales}_t - \text{Scrap}_t = \text{Closing Stock}_t$$
 Since $\text{Opening Stock}_{t+1} \equiv \text{Closing Stock}_t$, missing values propagate diagonally across time periods.

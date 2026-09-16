@@ -498,7 +498,7 @@ What is the total annual direct logistics expenditure (Freight + Handling) incur
 
 #### Q38
 Annual inventory carrying cost for a hub is calculated as:
-$$\text{Carrying Cost} = \text{Annual Volume} \times \left(\frac{\text{Dwell Days}}{365}\right) \times \text{Unit Value (₹500)} \times 15\%$$
+$$\text{Carrying Cost} = \text{Annual Volume} \times \left(\frac{\text{Dwell Days}}{365}\right) \times \text{Unit Value (INR 500)} \times 15\%$$
 What is the annual inventory carrying cost for Hub East?
 - (A) `₹23.5 crore`
 - (B) `₹28.77 crore`
