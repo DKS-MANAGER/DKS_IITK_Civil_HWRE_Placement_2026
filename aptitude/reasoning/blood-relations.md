@@ -1,7 +1,7 @@
 # Blood Relations
 
-> **Priority:** P1 · **Role relevance:** High (Universal across Core, IT, Analytics, Consulting & Banking)
-> **Difficulty range:** Easy → Expert / Extreme · **Target speed:** 30 sec (Direct) – 90 sec (Complex/Puzzle)
+> **Priority:** P1 · **Role relevance:** High (Universal across Core, IT, Analytics, Consulting & Banking)  
+> **Difficulty range:** Foundation → Super-Expert · **Target speed:** 30 sec (Direct) – 90–120 sec (Complex / Multi-Constraint / Hybrid)
 
 ---
 
@@ -55,8 +55,8 @@ Drawing a standardized visual family tree removes ambiguity and prevents working
 | **Nephew** | Brother's son OR Sister's son |
 | **Niece** | Brother's daughter OR Sister's daughter |
 | **Cousin** | Child of paternal or maternal uncle/aunt (Never say "cousin brother/sister") |
-| **Brother-in-law** | Spouse's brother OR Sister's husband |
-| **Sister-in-law** | Spouse's sister OR Brother's wife |
+| **Brother-in-law** | Spouse's brother OR Sister's husband OR Husband of spouse's sister |
+| **Sister-in-law** | Spouse's sister OR Brother's wife OR Wife of spouse's brother |
 | **Father-in-law** | Spouse's father |
 | **Mother-in-law** | Spouse's mother |
 | **Son-in-law** | Daughter's husband |
@@ -68,11 +68,11 @@ Drawing a standardized visual family tree removes ambiguity and prevents working
 
 ### 3.1 The Generation Score Method (for Coded Relations)
 Assign an integer generation value to each operator:
-- Parent/Father/Mother/Uncle/Aunt $\to \mathbf{+1}$
-- Brother/Sister/Husband/Wife/Cousin $\to \mathbf{0}$
-- Son/Daughter/Nephew/Niece $\to \mathbf{-1}$
-- Grandfather/Grandmother $\to \mathbf{+2}$
-- Grandson/Granddaughter $\to \mathbf{-2}$
+- Parent / Father / Mother / Uncle / Aunt $\to \mathbf{+1}$
+- Brother / Sister / Husband / Wife / Cousin $\to \mathbf{0}$
+- Son / Daughter / Nephew / Niece $\to \mathbf{-1}$
+- Grandfather / Grandmother $\to \mathbf{+2}$
+- Grandson / Granddaughter $\to \mathbf{-2}$
 
 **Application:** If asked *"Which expression shows $P$ is the Uncle of $Q$?"*, the target generation of $P$ relative to $Q$ must be $\mathbf{+1}$. Sum the operator values from $P$ to $Q$. Any option whose net sum $\ne +1$ is eliminated instantly without drawing the family tree!
 
@@ -100,19 +100,26 @@ Break narrative sentences from the possessive pronoun **"my"** or **"his/her"** 
 In massive relational chains, 60% of the nodes are often **distractors** designed to consume time.
 - **Rule:** Identify the target pair ($X$ and $Y$). Identify the common link or family junction between them. Prune all unreferenced branches immediately.
 
+### 3.6 Parity & Tree-Collapse Principle
+When multiple candidate trees can be constructed from a dense puzzle prompt:
+1. Count the total stated married couples and male/female counts.
+2. Check single-parent constraints ("No single parent has a child").
+3. Any candidate tree violating parity or single-parent constraints is discarded, leaving a single unique configuration.
+
 ---
 
 ## 4. Advanced Placement Reasoning Strategies
 
 | Level | Link Count | Key Challenge | Target Approach |
 |:------|:----------:|:--------------|:----------------|
-| **Hard** | 6–8 links | 3 generations, mixed in-laws | Forward tree diagramming |
-| **Very Hard** | 8–12 links | Dual-family marriages, branch crossover | Node-by-node unification |
-| **Expert** | 12–18 links | Distractor networks, indirect parentage | Graph pruning to target pair |
-| **Code-Expert** | 4–6 operators | Multi-tiered coded conditions | Generation sum + Gender filter |
-| **Traps** | Variable | "Only", "exactly", gender indeterminacy | Explicit verification of edge cases |
-| **Extreme** | Paragraph | 1 caselet $\to$ 2–4 questions | Master family tree before answering |
-| **Hybrid** | Variable | Relations combined with seating/direction | Multi-grid solving |
+| **Level 1: Foundation** | 2–3 links | Direct narrative pointers & single-operator baseline | Direct backward reading |
+| **Level 2: Intermediate** | 4–5 links | Basic coded relations & 2-generation family logic | Simple tree sketching |
+| **Level 3: Hard** | 6–8 links | 3 generations, mixed in-laws, gender-count constraints | Forward tree diagramming |
+| **Level 4: Very Hard** | 8–12 links | Dual-family marriages, branch crossover, great-grandparent span | Node-by-node unification |
+| **Level 5: Expert** | 12–16 links | 5+ nested operators, distractor networks, indirect parentage | Generation sum + Gender filter + Pruning |
+| **Level 6: Trap / Inference** | Variable | "Only", "exactly", gender indeterminacy, reciprocal traps | Strict verification of edge cases |
+| **Level 7: Extreme Caselet** | Paragraph | Multi-person paragraph $\to$ 3–4 questions (Hybrid Seating/Direction) | Master relational grid before answering |
+| **Level 8: Super-Expert** | 15–22 links | Multi-marriage in-laws, incomplete genders, dual-tree parity collapse | Global constraint constraint-satisfaction |
 
 ---
 
@@ -157,7 +164,7 @@ Which expression indicates that **"$M$ is the maternal uncle of $N$"**?
 2. Locate statements containing $B$:
    - "$A$ is the only daughter of $B$." $\to B$ is the father of $A$ (or parent).
    - "$M$'s daughter $N$ is the mother of $A$." $\to N$ is the mother of $A$.
-   - Since $B$ is the father and $N$ is the mother of $A$, **$B$ and $N$ are married couple ($[B] = (N)$)**!
+   - Since $B$ is the father and $N$ is the mother of $A$, **$B$ and $N$ are a married couple ($[B] = (N)$)**!
 3. Locate statements connecting to $N$ and $K$:
    - "$K$'s father is $L$, who is the only son of $M$."
    - "$M$'s daughter $N$..."
@@ -171,7 +178,7 @@ Which expression indicates that **"$M$ is the maternal uncle of $N$"**?
 
 ---
 
-## 6. Comprehensive Practice Set (32 Placement Questions)
+## 6. Comprehensive Practice Set (46 Placement Questions)
 
 ### Level 1: Foundation (Q1–Q5)
 
@@ -345,7 +352,7 @@ How is $Y$ related to $U$?
 
 ---
 
-### Level 5: Expert & Code-Expert (Q21–Q24)
+### Level 5: Expert & Code-Expert (Q21–Q26)
 
 **Q21.** If:
 - $A \ \& \ B \implies A$ is the wife of $B$
@@ -385,28 +392,80 @@ Which of the following expressions represents that **"$A$ is the son-in-law of $
 - C) Paternal Aunt  
 - D) Wife  
 
+**Q25.** If:
+- $A \div B$ means $A$ is the father of $B$
+- $A \times B$ means $A$ is the sister of $B$
+- $A + B$ means $A$ is the brother of $B$
+- $A - B$ means $A$ is the mother of $B$
+
+Which of the following expressions shows that **"$K$ is the nephew of $T$"**?  
+- A) $T \times M \div K + N$  
+- B) $T + M - K \times N$  
+- C) $K + N \div M \times T$  
+- D) $T \div M + K - N$  
+
+**Q26.** In a business family of eight members across three generations:
+- $A$ is the CEO and father of two children: $B$ and $C$.
+- $B$ is married to $D$, an architect.
+- $D$ is the daughter-in-law of $E$, who is the CFO.
+- $C$ is unmarried and is the maternal uncle of $F$.
+- $G$ is the sister of $F$, and both are children of $B$.
+- $H$ is the father of $D$.
+
+How is $H$ related to $B$?  
+- A) Uncle  
+- B) Father-in-law  
+- C) Brother-in-law  
+- D) Son-in-law  
+
 ---
 
-### Level 6: Trap & Disambiguation Sets (Q25–Q26)
+### Level 6: Trap, Inference & Indeterminacy Sets (Q27–Q31)
 
-**Q25 (The "Only Daughter" Ambiguity).** A person said, *"That girl is the daughter of the only daughter-in-law of the father of my only sister."* If the speaker is a female, who is the girl to the speaker?  
+**Q27 (The "Only Daughter" Ambiguity).** A person said, *"That girl is the daughter of the only daughter-in-law of the father of my only sister."* If the speaker is a female, who is the girl to the speaker?  
 - A) Daughter  
 - B) Niece  
 - C) Sister  
 - D) Sister-in-law  
 
-**Q26 (Pronoun Reference Trap).** $A$ is the father-in-law of $B$ who is the brother-in-law of $C$. $C$ is the unmarried sister of $D$, the mother of $E$. $A$ has only two children. How is $E$ related to $A$?  
+**Q28 (Pronoun Reference Trap).** $A$ is the father-in-law of $B$ who is the brother-in-law of $C$. $C$ is the unmarried sister of $D$, the mother of $E$. $A$ has only two children. How is $E$ related to $A$?  
 - A) Granddaughter  
 - B) Grandson  
-- C) Grandchild (Gender not determinable)  
+- C) Grandchild (Gender cannot be determined)  
 - D) Son  
+
+**Q29 (Parity Indeterminacy).** In a family of seven members ($J, K, L, M, N, O, P$):
+- $J$ is the father of $K$ and has at least two children.
+- $L$ is the brother of $K$.
+- $M$ is the mother of $N$.
+- $O$ is the spouse of $J$.
+- $P$ is the child of $L$.
+- No gender is specified for $K$ or $N$.
+
+How is $K$ related to $P$?  
+- A) Uncle  
+- B) Aunt  
+- C) Either Uncle or Aunt (Cannot be determined)  
+- D) Father  
+
+**Q30 (The Reciprocal Perspective Trap).** If $A$ is the paternal uncle of $B$, what is $B$ to $A$?  
+- A) Nephew  
+- B) Niece  
+- C) Cousin  
+- D) Either Nephew or Niece (Cannot be determined)  
+
+**Q31 (The Name-Gender Trap).** Introducing a visitor, Rohit said: *"Kiran is the only sibling of my wife's only brother-in-law."* Rohit has no brothers. How is Kiran related to Rohit?  
+- A) Brother  
+- B) Sister  
+- C) Wife  
+- D) Cannot be determined  
 
 ---
 
-### Level 7: Extreme Multi-Question Caselets (Q27–Q32)
+### Level 7: Extreme Caselets (Q32–Q41)
 
-#### Caselet 1 (Questions 27–29): The Three-Generation Joint Family
-*Directions for Q27–Q29:* Read the following paragraph carefully and answer the questions.  
+#### Caselet 1 (Questions 32–34): The Three-Generation Joint Family
+*Directions for Q32–Q34:* Read the following paragraph carefully and answer the questions.  
 Eight members of a family—$A, B, C, D, E, F, G, H$—belong to three generations. There are three married couples.
 - $C$ is the sister-in-law of $E$, who is the daughter of $A$.
 - $G$ is the only brother of $C$.
@@ -416,19 +475,19 @@ Eight members of a family—$A, B, C, D, E, F, G, H$—belong to three generatio
 - $F$ is the brother-in-law of $G$, and $F$ is married.
 - No single parent has a child.
 
-**Q27.** How is $C$ related to $D$?  
+**Q32.** How is $C$ related to $D$?  
 - A) Mother  
 - B) Maternal Aunt  
 - C) Paternal Aunt  
 - D) Grandmother  
 
-**Q28.** How is $F$ related to $B$?  
+**Q33.** How is $F$ related to $B$?  
 - A) Son  
 - B) Son-in-law  
 - C) Brother-in-law  
 - D) Nephew  
 
-**Q29.** How many female members are there in the family?  
+**Q34.** How many female members are there in the family?  
 - A) 3  
 - B) 4  
 - C) 5  
@@ -436,8 +495,8 @@ Eight members of a family—$A, B, C, D, E, F, G, H$—belong to three generatio
 
 ---
 
-#### Caselet 2 (Questions 30–32): Hybrid Blood Relations + Circular Seating
-*Directions for Q30–Q32:* Read the following information carefully.  
+#### Caselet 2 (Questions 35–37): Hybrid Blood Relations + Circular Seating
+*Directions for Q35–Q37:* Read the following information carefully.  
 Six family members—$P, Q, R, S, T, U$—are seated in a circle facing the center.
 - There are two married couples in the group.
 - $P$ is the father-in-law of $T$.
@@ -447,19 +506,19 @@ Six family members—$P, Q, R, S, T, U$—are seated in a circle facing the cent
 - $S$ is the mother of $R$ and sits adjacent to her husband.
 - $U$ is the son of $T$.
 
-**Q30.** Who is the husband of $Q$?  
+**Q35.** Who is the husband of $Q$?  
 - A) $P$  
 - B) $T$  
 - C) Cannot be determined  
 - D) The person sitting opposite $S$  
 
-**Q31.** How is $U$ related to $P$?  
+**Q36.** How is $U$ related to $P$?  
 - A) Son  
 - B) Grandson  
 - C) Nephew  
 - D) Brother  
 
-**Q32.** Who sits immediately to the right of $U$'s mother?  
+**Q37.** Who sits immediately to the right of $U$'s mother?  
 - A) $P$  
 - B) $Q$  
 - C) $R$  
@@ -467,113 +526,283 @@ Six family members—$P, Q, R, S, T, U$—are seated in a circle facing the cent
 
 ---
 
+#### Caselet 3 (Questions 38–41): Hybrid Blood Relations + Direction Sense
+*Directions for Q38–Q41:* Read the following positional and genealogical data carefully.  
+A family of seven members—$A, B, C, D, E, F, G$—are positioned on an open field:
+- $A$ is the father of $B$ and stands $12\text{ m}$ North of $B$.
+- $B$ is the brother of $C$, who is married to $D$.
+- $D$ stands $9\text{ m}$ East of $C$.
+- $E$ is the mother of $B$ and stands $5\text{ m}$ West of $A$.
+- $F$ is the son of $D$ and stands $6\text{ m}$ South of $D$.
+- $G$ is the brother of $E$ and stands $8\text{ m}$ North of $E$.
+- $C$ stands at the exact midpoint of the line segment joining $B$ and a point directly South of $A$.
+
+**Q38.** In which direction and at what shortest straight-line distance is $B$ located with respect to $A$'s wife $E$?  
+- A) South-East, $13\text{ m}$  
+- B) South-West, $13\text{ m}$  
+- C) South-East, $17\text{ m}$  
+- D) South, $12\text{ m}$  
+
+**Q39.** How is $G$ related to $C$?  
+- A) Paternal Uncle  
+- B) Maternal Uncle  
+- C) Grandfather  
+- D) Father  
+
+**Q40.** How is $F$ related to $A$?  
+- A) Grandson  
+- B) Son  
+- C) Nephew  
+- D) Son-in-law  
+
+**Q41.** If $C$ is at $(0, 0)$, $B$ is at $(-4, 0)$, and $D$ is at $(9, 0)$, in which quadrant/direction is $F$ positioned with respect to his maternal grandfather $A$?  
+- A) North-East  
+- B) South-East  
+- C) South-West  
+- D) North-West  
+
+---
+
+### Level 8: Super-Expert — Multi-Marriage, Parity Collapse & 15+ Constraints (Q42–Q46)
+
+**Q42 (Dual-Tree Parity Collapse).**  
+A family of 10 members ($A, B, C, D, E, F, G, H, I, J$) spans three generations.
+- There are exactly three married couples and exactly four females in the family.
+- $A$ is the paternal grandfather of $G$ and $H$.
+- $B$ is the wife of $A$.
+- $C$ is the brother of $D$, who is the father of $G$.
+- $E$ is the sister-in-law of $D$, and $E$ is married with two children ($I$ and $J$).
+- $F$ is the daughter-in-law of $A$.
+- No unmarried member has children, and no individual has married more than once.
+- $H$ is the only sister of $G$.
+
+How is $C$ related to $I$?  
+- A) Father  
+- B) Paternal Uncle  
+- C) Maternal Uncle  
+- D) Brother  
+
+**Q43 (Co-Sibling & In-Law Web).**  
+In an interconnected joint family:
+- $P$ is the father-in-law of $Q$, who is the brother-in-law of $R$.
+- $R$ is the only son of $S$, who is married to $P$.
+- $T$ is the daughter-in-law of $P$ and is the sister of $U$.
+- $V$ is the maternal aunt of $W$, who is the son of $Q$.
+- $U$ is married to the only brother of $T$'s husband.
+- $P$ has only two sons and no daughters.
+
+How is $V$ related to $Q$?  
+- A) Wife  
+- B) Sister  
+- C) Sister-in-law  
+- D) Mother  
+
+**Q44 (The 18-Constraint Distractor Network).**  
+Read the following relational network:
+- $K$ is the only brother of $L$, whose daughter $M$ is married to $N$.
+- $N$'s mother $O$ is the only daughter of $P$.
+- $P$ is married to $Q$.
+- $Q$'s brother $R$ is the father of $S$.
+- $S$'s maternal grandmother is $T$.
+- $U$ is the father of $K$ and is married to $V$.
+- $W$ is the son of $M$.
+- $X$ is the sister-in-law of $N$, having no brothers.
+
+How is $W$ related to $K$?  
+- A) Grandson  
+- B) Great-nephew (Sister's grandson)  
+- C) Nephew  
+- D) Son  
+
+**Q45 (Nested Multi-Tier Coded Kinship with Incomplete Leaf).**  
+Symbols are defined as:
+- $P \ \uparrow \ Q \implies P$ is the mother of $Q$
+- $P \ \downarrow \ Q \implies P$ is the father of $Q$
+- $P \ \leftrightarrow \ Q \implies P$ is the spouse of $Q$
+- $P \ \Rightarrow \ Q \implies P$ is the brother of $Q$
+- $P \ \Leftarrow \ Q \implies P$ is the sister of $Q$
+
+Given the composite expression:  
+$$Z \ \downarrow \ Y \ \leftrightarrow \ X \ \Leftarrow \ W \ \downarrow \ V \ \Rightarrow \ U \ \leftrightarrow \ T$$  
+Which of the following statements is **definitely TRUE**?  
+- A) $X$ is the paternal aunt of $V$  
+- B) $W$ is the brother-in-law of $Y$  
+- C) $T$ is the daughter-in-law of $W$  
+- D) $Z$ is the grandfather of $U$  
+
+**Q46 (The Ultimate Master Puzzle: Complete Kinship Graph Reconstruction).**  
+A group of nine professionals ($A, B, C, D, E, F, G, H, I$) belong to one family spanning three generations.
+- There are three married couples, each having at least one child.
+- $A$, a surgeon, is the father-in-law of $E$, who is an advocate.
+- $B$ is the grandmother of $H$ and $I$.
+- $D$ is the maternal uncle of $H$.
+- $C$ is the mother of $H$ and is married to $F$.
+- $F$ is an architect and the only son of $A$.
+- $G$ is the daughter of $E$.
+- $I$ is the grandson of $A$.
+- Exactly four members are females.
+
+How is $D$ related to $A$?  
+- A) Son  
+- B) Son-in-law  
+- C) Brother-in-law  
+- D) Brother  
+
+---
+
 ## 7. Answer Key & Comprehensive Solutions
 
-| Q | Ans | Q | Ans | Q | Ans | Q | Ans |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **1** | A | **9** | A | **17** | A | **25** | B |
-| **2** | A | **10** | A | **18** | B | **26** | C |
-| **3** | B | **11** | B | **19** | B | **27** | A |
-| **4** | C | **12** | A | **20** | B | **28** | B |
-| **5** | C | **13** | B | **21** | B | **29** | B |
-| **6** | B | **14** | B | **22** | C | **30** | D |
-| **7** | A | **15** | B | **23** | C | **31** | B |
-| **8** | A | **16** | B | **24** | B | **32** | A |
+### Master Answer Key (Q1–Q46)
+
+| Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans | Q | Ans |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **1** | A | **9** | A | **17** | A | **25** | A | **33** | B | **41** | B |
+| **2** | A | **10** | A | **18** | B | **26** | B | **34** | B | **42** | A |
+| **3** | B | **11** | B | **19** | B | **27** | B | **35** | D | **43** | C |
+| **4** | C | **12** | A | **20** | B | **28** | C | **36** | B | **44** | B |
+| **5** | C | **13** | B | **21** | B | **29** | C | **37** | A | **45** | C |
+| **6** | B | **14** | B | **22** | C | **30** | D | **38** | A | **46** | B |
+| **7** | A | **15** | B | **23** | C | **31** | C | **39** | B | — | — |
+| **8** | A | **16** | D | **24** | B | **32** | A | **40** | A | — | — |
 
 ---
 
 ### Step-by-Step Derivations
 
+#### Level 1 (Q1–Q5)
 - **Q1 (A):** "Only daughter of my mother" = the woman herself. Her statement: "His mother is me." Hence, **Mother**.
 - **Q2 (A):** If $A$ is the father of $B$ and $B$ is not a son, $B$ must be the **Daughter**.
 - **Q3 (B):** "My mother's mother" = maternal grandmother. "Only son of maternal grandmother" = maternal uncle. The man is her maternal uncle; she is his **Niece**.
 - **Q4 (C):** $P, Q, R$ are siblings ($P$ male, $Q$ female, $R$ male). $R$ is the father of $S$. $P$ is father's brother = **Paternal Uncle**.
 - **Q5 (C):** "My daughter's father" = Deepak himself. "Father of Deepak" = Deepak's father. The gentleman's only brother is Deepak's father $\implies$ the gentleman is Deepak's **Paternal Uncle**.
+
+#### Level 2 (Q6–Q10)
 - **Q6 (B):** "Lady's mother's husband" = Lady's father. "Father's sister" = Lady's paternal aunt. That aunt is also the man's aunt. Hence, the lady is the man's **Sister**.
 - **Q7 (A):** $P + R \implies P$ is son of $R$. $R - Q \implies R$ is wife of $Q$ ($Q$ is male). $Q$ is the **Father** of $P$.
 - **Q8 (A):** "My grandfather's only son" = Anita's father (since grandfather has only one child). "Son of Anita's father" = Anita's **Brother**.
 - **Q9 (A):** $[P] = (Q)$. $Q$ is daughter-in-law of $U \implies U$ is parent of $P$. Since $U$'s husband died, $U$ is female $\implies U$ is the **Mother** of $P$.
 - **Q10 (A):** $T @ R \implies T$ is sister of $R$. $R \$ M \implies R$ is father of $M$. $M @ K \implies M$ is sister of $K$ ($M$ is female). $T$ is paternal aunt of $M \implies M$ is the **Niece** of $T$.
+
+#### Level 3 (Q11–Q15)
 - **Q11 (B):** $J \star K \implies J$ is father of $K$. $K \star T \implies K$ is father of $T$. Father's father = **Paternal Grandfather**.
 - **Q12 (A):** "My son's only brother" = my other son. "Son's daughter" = granddaughter. The child's father is the speaker's son. Paternal grandmother of the child is the speaker's **Wife**.
 - **Q13 (B):** $[F] = (D)$. Their son is $[B]$ (engineer). $B$'s wife is $(A)$ (mother of $C$). Children of $B$ and $A$ are $C$ and $E$. Hence, $A$ is the **Wife** of $B$.
 - **Q14 (B):** $P + Q$ ($P$ is father of $Q$). $Q \times R$ ($Q$ brother of $R$). $R - S$ ($R$ mother of $S$). $S \div T$ ($S$ sister of $T$). $R$ is mother of $T$, and $P$ is father of $R$. Mother's father = **Maternal Grandfather**.
 - **Q15 (B):** $Q$ is son of $R$, but $R$ not mother $\implies R$ is father (Male). $P$ is married to $R \implies P$ is female (1). $Y$ is brother of $R$ (Male). $X$ is daughter of $P$ (Female 2). $Z$ is brother of $P$ (Male). Total females = **2** ($P, X$).
-- **Q16 (B):** Trace family tree: $M$ has two children: a son and a daughter. $N$ is married to $M$'s son. $P$ is the unmarried daughter ($P$ is paternal aunt of $Q \implies Q$ is child of $M$'s son and $N$). $T$ is the only nephew of $P \implies T$ is $Q$'s brother (or $Q$ is female and $T$ is male). $R$ is brother of $M$. $S$ is daughter-in-law of $R$. But wait, $S$ has no siblings and is married into $R$'s line. Now re-evaluating: $M$ is father-in-law of $N$. Could $S$ be $N$? If $S$ is married to $M$'s son, then $S=N$, meaning $S$ is the **Mother** of $Q$!
-- **Q17 (A):** $A$ is paternal grandfather of $B \implies A$'s only son $H$ is the father of $B$ and $C$. $C$ is married to $D$. Since $C$ is child of $H$, $C$'s spouse $D$ is $H$'s **Son-in-law or Daughter-in-law** (depending on $C$'s gender).
+
+#### Level 4 (Q16–Q20)
+- **Q16 (D):** $M$ has two children: a son and a daughter ($P$). $N$ is married to $M$'s son. $Q$ is child of $M$'s son and $N$. $R$ is brother of $M$. $S$ is daughter-in-law of $R$. Since $S$ is married to $R$'s son (who is a cousin of $Q$'s father), $S$ is the **Paternal Aunt-in-law / Cousin's mother** to $Q$.
+- **Q17 (A):** $A$ has only one son $H$, married to $I$. Children of $H$ are $B$ and $C$. $C$ is married to $D$. Since $D$ is the spouse of $H$'s child $C$, $D$ is $H$'s **Son-in-law or Daughter-in-law** (depending on $C$'s gender).
 - **Q18 (B):** $P$ is mother of $K$ and $S$. $S$ is married to $T$. $V$ is daughter of $T$ and $S$. Since $S$ is $P$'s child, $V$ is $P$'s **Granddaughter**.
 - **Q19 (B):** $[U] = (W)$. Their children are $[Z]$ and $(X)$. $[Z] = (Y)$. Since $Y$ is the wife of $U$'s son $Z$, $Y$ is the **Daughter-in-law** of $U$.
-- **Q20 (B):** $M$ and $W$ are sisters, daughters of $R$. $K$ and $T$ are sons of $M$. $S$ is daughter of $T$. Generations: $R$ (+2 from $T$) $\to S$ is generation -1 from $T$. Total gap between $R$ and $S$ is +3 generations! Thus $R$ is the **Great-grandfather** of $S$.
-- **Q21 (B):** Break down: $P @ Q$ ($P$ is son of $Q$). $Q \# R$ ($Q$ is father of $R \implies P$ and $R$ are brothers). $R \& S$ ($R$ is wife of $S \implies R$ is sister of $P$). $S \# T$ ($S$ is father of $T$, so $R$ is mother of $T$). Since $P$ is the brother of $T$'s mother $R$, $P$ is the **Maternal Uncle** of $T$.
+- **Q20 (B):** $M$ and $W$ are sisters, daughters of $R$. $K$ and $T$ are sons of $M$. $S$ is daughter of $T$. Generational difference between $R$ and $S$ is $+3$. Thus $R$ is the **Great-grandfather** of $S$.
+
+#### Level 5 (Q21–Q26)
+- **Q21 (B):** $P @ Q$ ($P$ is son of $Q$). $Q \# R$ ($Q$ is father of $R \implies P$ and $R$ are brothers). $R \& S$ ($R$ is wife of $S \implies R$ is sister of $P$). $S \# T$ ($S$ is father of $T$, so $R$ is mother of $T$). Since $P$ is the brother of $T$'s mother $R$, $P$ is the **Maternal Uncle** of $T$.
 - **Q22 (C):** Paternal aunt means $D$ is sister of $H$'s father. In C: $E \# D$ ($E$ is father of $D$). $D \% F$ ($D$ is sister of $F$). $F \# H$ ($F$ is father of $H$). Since $D$ is the sister of $H$'s father $F$, $D$ is the **Paternal Aunt** of $H$.
-- **Q23 (C):** $A(5)B$ ($A$ married to $B$). $B(3)C$ ($B$ sister of $C$). $C(2)E$ ($C$ mother of $E$). $E(5)F$ where $E$ is male $\implies F$ is female. $A$ being son-in-law of $F$ requires $A$ married to $F$'s child. In C: $B$ is daughter of $F$ if $E$ and $F$ are parents of $B, C$. Here $C(2)E(5)F$ connects to $F$. Trace: $A$ male married to $B$ female, daughter of $F \implies A$ is **Son-in-law** of $F$.
+- **Q23 (C):** $A(5)B$ ($A$ married to $B$). $B(3)C$ ($B$ sister of $C$). $C(2)E$ ($C$ mother of $E$). $E(5)F$ where $E$ is male $\implies F$ is female. Deducing $A$ male married to $B$ female, daughter of $F \implies A$ is **Son-in-law** of $F$.
 - **Q24 (B):** "My father, who has only one daughter" $\to$ Vikram's father has only 1 daughter. "Her only brother's only nephew's paternal grandfather is Vikram's father." Vikram's father is the paternal grandfather of the nephew $\implies$ the nephew's father is Vikram (or Vikram's brother). Vikram's father's only daughter is Vikram's **Sister**.
-- **Q25 (B):** Speaker is female. "Father of my only sister" = my father. "Only daughter-in-law of my father" = wife of my only brother. "Daughter of my brother's wife" = daughter of my brother = **Niece**.
-- **Q26 (C):** $D$ is married to $B$. $D$'s mother is not $A$, $A$ is father-in-law of $B$, so $A$ is father of $D$. $D$ is mother of $E$. Therefore $A$ is grandfather of $E$. But $E$'s gender is nowhere stated! Hence **Grandchild (Gender not determinable)**.
-- **Q27 (A):** Trace Caselet 1: $B$ is husband of $A$. Their children are son $G$ and daughter $E$. $G$ is married to $C$. $E$ is married to $F$. $C$'s children are $D$ and $H$ (or $G$ and $C$ are parents of $D$). $H$ is mother of $D \implies H=C$. Hence, $C$ is the **Mother** of $D$.
-- **Q28 (B):** $F$ is married to $E$ (the daughter of $B$). Therefore, $F$ is the **Son-in-law** of $B$.
-- **Q29 (B):** Females are $A$ (grandmother), $E$ (daughter), $C$ (daughter-in-law), $D$ (granddaughter). Males are $B, G, F$, and one child if male. Exactly **4 females** ($A, C, E, D$).
-- **Q30 (D):** Circular seating trace: $P$ (male) is married to $S$ (female). Their son is $R$, daughter is $Q$. $Q$ is married to $T$'s brother or $P$'s other child. $T$ is female, married to $R$. $Q$'s husband sits opposite $S$.
-- **Q31 (B):** $U$ is son of $T$ and $R$. Since $R$ is son of $P$, $U$ is the **Grandson** of $P$.
-- **Q32 (A):** $U$'s mother is $T$. In the circle, $T$ sits opposite $P$. Moving clockwise, immediately to the right of $T$ sits **$P$**.
+- **Q25 (A):** In A: $T \times M$ ($T$ is sister of $M$). $M \div K$ ($M$ is father of $K$). $K + N$ ($K$ is brother of $N$, hence $K$ is male). $K$ is the son of $T$'s brother $M \implies K$ is the **Nephew** of $T$.
+- **Q26 (B):** $A$ and $E$ are parents of $B$ and $C$. $B$ is married to $D$. $H$ is the father of $D$. Hence, $H$ is the father of $B$'s wife $\implies H$ is $B$'s **Father-in-law**.
+
+#### Level 6 (Q27–Q31)
+- **Q27 (B):** Speaker is female. "Father of my only sister" = my father. "Only daughter-in-law of my father" = wife of my only brother. "Daughter of my brother's wife" = daughter of my brother = **Niece**.
+- **Q28 (C):** $D$ is married to $B$. $A$ is father-in-law of $B$, so $A$ is father of $D$. $D$ is mother of $E$. Therefore $A$ is grandfather of $E$. But $E$'s gender is nowhere stated! Hence **Grandchild (Gender cannot be determined)**.
+- **Q29 (C):** $J$ is father of $K$ and $L$. $P$ is child of $L$. $K$ is sibling of $L$. Since $K$'s gender is unspecified, $K$ can be either uncle or aunt to $P$. Answer: **Either Uncle or Aunt (Cannot be determined)**.
+- **Q30 (D):** $A$ is the paternal uncle of $B$. $B$ is the child of $A$'s brother. Since $B$'s gender is not given, $B$ could be male (nephew) or female (niece). Answer: **Either Nephew or Niece (Cannot be determined)**.
+- **Q31 (C):** "My wife's only brother-in-law" $\to$ Since Rohit has no brothers, his wife's only brother-in-law would normally be her sister's husband. But the statement specifies *"Kiran is the only sibling of my wife's only brother-in-law"*. In families with no other brothers or sisters, Rohit's wife is the unique solution when parsed as Rohit's own spouse: Kiran is Rohit's **Wife**.
+
+#### Level 7 (Q32–Q41)
+- **Q32 (A):** In Caselet 1: $B$ is husband of $A$. Their children are son $G$ and daughter $E$. $G$ is married to $C$. $E$ is married to $F$. $H$ is mother of $D \implies H = C$. Hence, $C$ is the **Mother** of $D$.
+- **Q33 (B):** $F$ is married to $E$ (the daughter of $B$). Therefore, $F$ is the **Son-in-law** of $B$.
+- **Q34 (B):** Females are $A$ (grandmother), $E$ (daughter), $C$ (daughter-in-law), $D$ (granddaughter). Males are $B, G, F$, and one child if male. Exactly **4 females** ($A, C, E, D$).
+- **Q35 (D):** In Caselet 2: $P$ (male) is married to $S$ (female). Their son is $R$, daughter is $Q$. $T$ is female, married to $R$. $Q$'s husband is the person sitting opposite $S$.
+- **Q36 (B):** $U$ is son of $T$ and $R$. Since $R$ is son of $P$, $U$ is the **Grandson** of $P$.
+- **Q37 (A):** $U$'s mother is $T$. In the circle, $T$ sits opposite $P$. Moving clockwise, immediately to the right of $T$ sits **$P$**.
+- **Q38 (A):** In Caselet 3: Let $B$ be at $(0, 0)$. $A$ is $12\text{ m}$ North of $B \implies A = (0, 12)$. $E$ is $5\text{ m}$ West of $A \implies E = (-5, 12)$. The vector from $E$ to $B$ is $(0 - (-5), 0 - 12) = (+5, -12)$. Distance $= \sqrt{5^2 + (-12)^2} = \sqrt{25 + 144} = \sqrt{169} = 13\text{ m}$. Direction is South-East. Answer: **South-East, $13\text{ m}$**.
+- **Q39 (B):** $E$ is mother of $B$ and $C$. $G$ is brother of $E$. Mother's brother = **Maternal Uncle**.
+- **Q40 (A):** $A$ is father of $C$. $C$ is mother of $F$. Daughter's son = **Grandson**.
+- **Q41 (B):** $A$ is at $(0, 12)$. $F$ is $6\text{ m}$ South of $D(9, 0) \implies F = (9, -6)$. Vector from $A$ to $F$ is $(9 - 0, -6 - 12) = (9, -18)$ $\implies$ East and South. Hence **South-East**.
+
+#### Level 8 (Q42–Q46)
+- **Q42 (A):** Generational analysis of 10 members: Generation 1: $[A] = (B)$ (2 members). Generation 2: Sons $[C]$ and $[D]$. $[D] = (F)$ (parents of $G, H$). For 3 married couples, $E$ must be married to $C$ ($[C] = (E)$). Their children are $I$ and $J$. Since $C$ is the husband of $E$, $C$ is the **Father** of $I$.
+- **Q43 (C):** Trace constraints: $P$ is married to $S$. Their two sons are $R$ and another son (say $X$). $T$ is married to $R$ or $X$. $U$ is married to the other brother. $Q$ is brother-in-law of $R$. $W$ is son of $Q$. $V$ is maternal aunt of $W \implies V$ is sister of $W$'s mother (who is $Q$'s wife). Hence $V$ is $Q$'s **Sister-in-law**.
+- **Q44 (B):** Pruning analysis: Target is relationship between $W$ and $K$. $K$ and $L$ are brother and sister. $L$'s daughter is $M$. $M$'s son is $W$. Thus $W$ is the grandson of $K$'s sister $L$. $W$ is $K$'s sister's grandson = **Great-nephew**.
+- **Q45 (C):** In the coded chain: $W \ \downarrow \ V$ ($W$ father of $V$). $V \ \Rightarrow \ U$ ($V$ brother of $U \implies W$ is father of $U$). $U \ \leftrightarrow \ T$ ($U$ married to $T$). Since $W$ is father of $U$, $U$'s wife $T$ is the daughter-in-law of $W$. Hence **$T$ is the daughter-in-law of $W$** is definitely TRUE.
+- **Q46 (B):** Three couples across three generations: Gen 1: $[A] = (B)$. Gen 2: Son $[F] = (C)$ (parents of $H, I$). Since $D$ is maternal uncle of $H$, $D$ is the brother of $C$. $A$ is father-in-law of $E$. Since $F$ is the only son of $A$, $A$ must also have a daughter who is married to $D$, or $D$ is married into the family. With 3 married couples: $[A]=(B)$, $[F]=(C)$, $[D]=(E)$. Since $D$ is married to $A$'s daughter $E$, $D$ is the **Son-in-law** of $A$.
 
 ---
 
-## 8. Placement-Specific MCQs
+## 8. Placement-Specific High-Tier MCQs
 
-### Q1 (TCS / Infosys Style — Distractor Trap)
-**Q:** Pointing to a person in a photograph, Raman said, *"My only brother's wife's only daughter is the person."* How is the person in the photograph related to Raman?  
-- A) Daughter  
-- B) Niece  
-- C) Sister  
+### Q1 (Accenture / Deloitte Style — Multi-Branch Distractor Trap)
+**Q:** $A$ is the brother of $B$. $B$ is the father of $C$. $D$ is the wife of $A$. $E$ is the daughter of $D$. $F$ is the sister of $B$. $G$ is the brother of $E$. How is $G$ related to $B$?  
+- A) Son  
+- B) Nephew  
+- C) Brother  
+- D) Cousin  
+
+**Answer:** B) Nephew  
+**Distractor Analysis:**  
+- $A$ and $D$ are husband and wife. Their children are daughter $E$ and son $G$.  
+- $B$ is the brother of $A$.  
+- Therefore, $G$ is the son of $B$'s brother $A \implies G$ is $B$'s **Nephew**.  
+- Option A (Son) is the classic trap for candidates confusing $A$ and $B$'s parental roles.
+
+---
+
+### Q2 (TCS Digital / Infosys DSE Style — Coded Generation Elimination)
+**Q:** Given:
+- $P \ \# \ Q \implies P$ is the father of $Q$ (+1, Male)
+- $P \ \$ \ Q \implies P$ is the mother of $Q$ (+1, Female)
+- $P \ @ \ Q \implies P$ is the sister of $Q$ (0, Female)
+- $P \ \% \ Q \implies P$ is the son of $Q$ (-1, Male)
+
+Which expression indicates that **"$M$ is the maternal grandmother of $S$"**?  
+- A) $M \ \$ \ N \ @ \ O \ \$ \ S$  
+- B) $M \ \# \ N \ \$ \ O \ @ \ S$  
+- C) $M \ \$ \ N \ \% \ O \ \$ \ S$  
+- D) $M \ @ \ N \ \$ \ O \ \# \ S$  
+
+**Answer:** A) $M \ \$ \ N \ @ \ O \ \$ \ S$  
+**Distractor Analysis:**  
+- Target generation of $M$ relative to $S$ is $\mathbf{+2}$, and $M$ must be female through a maternal line.  
+- In B: $M \ \# \ N \implies M$ is father (male) $\to$ Eliminated instantly.  
+- In C: Generation sum: $+1 - 1 + 1 = +1 \ne +2 \to$ Eliminated.  
+- In D: $M @ N \implies$ Generation sum: $0 + 1 + 1 = +2$, but $M$ is sister of $N$ who is mother $\implies M$ is maternal grand-aunt, not grandmother $\to$ Eliminated.  
+- In A: $M$ is mother of $N$ ($+1$). $N$ is sister of $O$ ($0$). $O$ is mother of $S$ ($+1$). Net $= +2$. $M$ is mother of $O$ (mother of $S$) $\implies$ **Maternal Grandmother**!
+
+---
+
+### Q3 (Cognizant / Capgemini Style — Reciprocal Perspective Trap)
+**Q:** Pointing to a woman, a man says, *"Her father-in-law is the father of my paternal uncle."* How is the woman related to the man?  
+- A) Mother  
+- B) Aunt  
+- C) Either Mother or Aunt  
 - D) Sister-in-law  
 
-**Answer:** B) Niece  
-**Explanation:**  
-- "My only brother's wife" = Raman's sister-in-law.  
-- "Only daughter of Raman's sister-in-law" = Raman's brother's daughter.  
-- Brother's daughter = **Niece** (Common trap: Selecting "Daughter" due to misreading "only daughter").
-
-### Q2 (Cognizant / Accenture Style — Coded Deduction)
-**Q:** If '$A \$ B$' means '$A$ is father of $B$', '$A \# B$' means '$A$ is daughter of $B$', and '$A @ B$' means '$A$ is sister of $B$'. In the expression $K \$ L @ M \# N$, how is $K$ related to $N$?  
-- A) Brother  
-- B) Husband  
-- C) Father-in-law  
-- D) Son  
-
-**Answer:** B) Husband  
-**Explanation:**  
-- $K \$ L$: $K$ is father of $L$ ($[K]$ is male).  
-- $L @ M$: $L$ is sister of $M$ ($(L)$ is female).  
-- $M \# N$: $M$ is daughter of $N$ ($(M)$ is female, $N$ is parent).  
-- Since $K$ is father of $L$, and $L, M$ are siblings, $K$ is also the father of $M$.  
-- Since $N$ is also the parent of $M$ and $K$ is male father, $N$ must be the mother.  
-- Thus, $K$ is the **Husband** of $N$.
-
-### Q3 (Wipro / Capgemini Style — Speaker Ambiguity)
-**Q:** A lady introduces a man saying, *"His wife is the only daughter of my father."* How is the man related to the lady?  
-- A) Brother  
-- B) Father  
-- C) Husband  
-- D) Uncle  
-
-**Answer:** C) Husband  
-**Explanation:**  
-- The speaker is a **lady**.  
-- "The only daughter of my father" $\implies$ Because the speaker is a female and her father has only one daughter, the only daughter must be the lady herself!  
-- "His wife is [the lady herself]" $\implies$ The man is the lady's **Husband**.
+**Answer:** C) Either Mother or Aunt  
+**Distractor Analysis:**  
+- "Father of my paternal uncle" = Man's paternal grandfather.  
+- "Her father-in-law is [my paternal grandfather]" $\implies$ The woman is married to a son of the man's paternal grandfather.  
+- A son of the grandfather could be:
+  1. The man's own father $\implies$ Woman is the man's **Mother**.
+  2. The man's paternal uncle $\implies$ Woman is the man's **Aunt** (Paternal Aunt by marriage).  
+- Since the problem does NOT state "only son", both cases are valid.  
+- Correct Answer: **C) Either Mother or Aunt**.
 
 ---
 
 ## 9. Rapid Revision & Exam Checklist
 
-- [ ] **Generation Score Shortcut:** Match $+1, 0, -1$ before drawing trees in coded relations.
+- [ ] **Generation Score Shortcut:** Pre-calculate $+1, 0, -1$ to eliminate 2–3 options in coded relations within 10 seconds.
 - [ ] **Gender Elimination:** Discard options where target person has the wrong gender or appears at the end without gender definition.
 - [ ] **Pointing Problems:** Backward parsing from "my" solves 90% of questions in under 30 seconds.
-- [ ] **Graph Pruning:** In 10+ link chains, immediately cross out branches that do not link the source and target.
+- [ ] **Graph Pruning:** In 10+ link chains, cross out branches that do not link the source and target.
 - [ ] **Trap Alert 1:** "Only son" does NOT mean "Only child" — sisters may exist!
 - [ ] **Trap Alert 2:** Never assume gender from Indian personal names (Suman, Snehal, Kiran).
 - [ ] **Trap Alert 3:** Always re-check the question subject: *"How is A related to B?"* is the reciprocal of *"How is B related to A?"*
+- [ ] **Parity Check:** In caselets, use the number of married couples and female count constraints to eliminate candidate trees.
 
 ---
 
@@ -581,5 +810,5 @@ Six family members—$P, Q, R, S, T, U$—are seated in a circle facing the cent
 
 - [Seating Arrangement](seating-arrangement.md) — Complex circular & linear family arrangements
 - [Puzzles & Scheduling](puzzles-scheduling.md) — Multi-parameter family floor/profession puzzles
+- [Direction Sense](direction-sense.md) — Positional vectors and coordinate-based kinship grids
 - [Formula Sheet](../FORMULA_SHEET.md) — Comprehensive aptitude formula reference
-
