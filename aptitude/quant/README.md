@@ -57,20 +57,31 @@ All upgraded Quantitative Aptitude modules in this repository adhere strictly to
 
 ---
 
-## 3. Master Quant Module Index (Phase 1 Upgraded Chapters)
+## 3. Master Quant Module Index (Complete 18-Chapter Placement Inventory)
 
 Each chapter contains **Section 1 (Analytical Theory)**, **Section 2 (Master Key Table Q1–Q40)**, **Section 3 (Practice Questions)**, **Section 4 (Worked Deductive Solutions with Distractor Audits)**, and **Section 5 (Rapid Revision & Strategic Traps)**.
 
 | Module | Core Concepts & Analytical Frameworks | Caliber & Questions | Status |
 |:---|:---|:---:|:---:|
+| [**Number System**](number-system.md) | Modular arithmetic, Euler's Totient, Chinese Remainder Theorem, Cyclicity & Unit Digits, Base conversion, High-exponent prime factorization. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**HCF & LCM**](hcf-lcm.md) | Euclidean division algorithm, Simultaneous remainder congruences, Circular lap synchronization, Fractional HCF/LCM, Coprime lattice models. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Percentages**](percentages.md) | Successive change multiplier, base shift identity $\Delta B = \frac{x}{100\pm x}$, set-theoretic Venn distributions, demographic cohort decay. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Profit, Loss & Markup**](profit-loss.md) | Unified Golden Identity $\frac{MP}{CP} = \frac{100+P}{100-D}$, Dishonest Merchant multiplier, False arm balances, Symmetric Equal SP loss $\left(\frac{x}{10}\right)^2\%$. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Simple & Compound Interest**](simple-compound-interest.md) | Continuous compounding $Pe^{rt}$, $\Delta_3 / \Delta_2 = 3 + R/100$, Equated Annual Installments (EMI), Fisher real return equation, Macaulay duration. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Ratio & Proportion**](ratio-proportion.md) | Multi-ratio linking algorithm, Componendo-Dividendo proofs, Broken diamond law $V \propto W^2$, Dynamic cross-multiplication, Active partner profit splits. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Partnership & Equity**](partnership.md) | Time-weighted capital integrals, Working partner management salaries, Waterfall distributions, Preferred returns, Venture capital dilution. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Averages & Weighted Mixtures**](averages.md) | Assumed mean deviation method, Weighted group cohorts, Moving averages, Bowling/Batting index adjustments, Simpson's paradox. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Problems on Ages**](problems-on-ages.md) | Temporal age difference invariance, Unitary ratio transformation, Past-future symmetrical dialogue, Diophantine age bounds, Actuarial models. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Mixtures & Alligation**](mixtures-alligation.md) | Alligation cross rule, General Repeated Dilution Law $V(1-x/V)^n$, CSTR continuous dilution kinetics, Base weighting traps, Refinery crude blending. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Time, Speed & Distance**](time-speed-distance.md) | Relative velocity vectors, Circular track meeting points, Escalator relative velocity, Headway physics, Variable velocity harmonic pacing. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Time & Work**](time-work.md) | LCM unit efficiency, Negative/destruction work, Staggered/alternate shift work, Man-Day-Hour work equivalence, Non-linear fatigue functions. | 40 Qs (Cat-8) | `VERIFIED` |
 | [**Pipes & Cisterns**](pipes-cisterns.md) | Filling vs emptying leaks, Height-dependent Torricelli outflow $\sqrt{h}$, Staggered multi-inlet filling schedules, Dynamic tank cross-sections. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Permutations & Combinations**](permutations-combinations.md) | Stars-and-bars partitions, Circular arrangements with flip invariance, Dearrangements $D_n$, Burnside's lemma, Multi-constraint selection lattices. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Probability**](probability.md) | Bayes' theorem, Total probability law, Binomial & Poisson distributions, Geometric distributions, Martingale asset walk models. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Progressions & Series**](progressions.md) | Arithmetic/Geometric/Harmonic progressions, Arithmetico-Geometric (AGP), Telescoping sums, AM-GM-HM inequality, Recurrence matrix powers. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Mensuration & Geometry**](mensuration.md) | Dimensional scaling invariants, Conical frustums, Spherical caps, Pappus-Guldinus solids of revolution, Hydraulic cross-section optimization. | 40 Qs (Cat-8) | `VERIFIED` |
+| [**Simplification & Surds**](simplification.md) | Surd denesting $\sqrt{a \pm \sqrt{b}}$, Infinite continued fractions, Ramanujan radicals, Sophie Germain factorization, Fast decimal asymptotics. | 40 Qs (Cat-8) | `VERIFIED` |
+| **Total Quantitative Aptitude Bank** | **18 Chapters · Complete Corporate Placement Caliber** | **720 Qs (Cat-8)** | **100% VERIFIED** |
 
 ---
 
