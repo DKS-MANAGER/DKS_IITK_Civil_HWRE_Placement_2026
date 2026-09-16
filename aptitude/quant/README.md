@@ -2,7 +2,7 @@
 
 > **Domain:** Quantitative Aptitude & Mathematical Reasoning · **Target:** IIT Kanpur Postgraduate Placements 2026  
 > **Benchmark Standards:** McKinsey, BCG, Bain, Goldman Sachs Quant / Strats, WorldQuant, Morgan Stanley, Google PM, Core Engineering PSUs  
-> **Total Questions in Upgraded Modules:** 320+ Placement-Caliber Problems across 8 Core Focus Areas  
+> **Total Questions in Upgraded Modules:** 720 Placement-Caliber Problems across 18 Chapters (40 Qs / Chapter)  
 > **Pedagogical Standard:** Cat-8 Cognitive Taxonomy (Level 1: Foundation $\to$ Level 8: Industrial Caselets) · 100% Verified Algebraic Solutions · Strategic Distractor Audits
 
 ---

@@ -51,6 +51,8 @@
 | [**Mock 03**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-03.md) | Competitive Mixed | $39.50 / 50.00$ ($79.0\%$) | $93.0\text{th}$ | $71\text{ s}$ | $75.0\%$ | 🟢 Cleared | No |
 | [**Mock 04**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-04.md) | High-Bar Flagship | $38.75 / 50.00$ ($77.5\%$) | $92.5\text{th}$ | $72\text{ s}$ | $73.0\%$ | 🟢 Cleared | No |
 | [**Mock 05**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-05.md) | Institutional Caliber | $40.50 / 50.00$ ($81.0\%$) | $95.1\text{th}$ | $69\text{ s}$ | $77.5\%$ | 🟢 Cleared | No |
+| [**Hard Mock 01**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/hard-placement-mock-01.md) | High-Pressure Selective | $46.50 / 60.00$ ($77.5\%$) | $96.5\text{th}$ | $70\text{ s}$ | $76.0\%$ | 🟢 Cleared | No |
+| [**Expert Mock 01**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/expert-placement-mock-01.md) | Extreme Multi-Caselets | $37.25 / 50.00$ ($74.5\%$) | $97.2\text{th}$ | $71\text{ s}$ | $72.0\%$ | 🟢 Cleared | No |
 
 ---
 
