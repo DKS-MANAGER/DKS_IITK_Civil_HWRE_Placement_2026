@@ -175,7 +175,9 @@ processor*/
 *.cas
 *.dat
 processor[0-9]*/
-case*/
+0[0-9]*/
+case_[0-9]*/
+cfd_case*/
 
 # ============================
 # MATLAB / Simulink
