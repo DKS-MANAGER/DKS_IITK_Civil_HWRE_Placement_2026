@@ -144,17 +144,17 @@ When multiple candidate trees can be constructed from a dense puzzle prompt:
 Which expression indicates that **"$M$ is the maternal uncle of $N$"**?  
 - A) $M \times R + N$  
 - B) $M \times R \div N$  
-- C) $M - R \div N$  
+- C) `M - R ÷ N`  
 - D) $M + R \times N$  
 
 **Step-by-step Solution:**
 1. **Target Analysis:** Maternal uncle means $M$ is **male**, generation of $M$ relative to $N$ is $\mathbf{+1}$, through $N$'s mother.
 2. **Gender Check:**
-   - In C: $M - R \implies M$ is female $\to$ **Eliminated**.
+   - In C: `M - R` → M is female $\to$ **Eliminated**.
    - In D: $M + R \implies M$ is father, but $R \times N$ makes $R$ brother $\to M$ is father of $N \to$ **Eliminated**.
 3. **Generation & Path Check:**
    - In A: $M \times R$ ($M$ brother of $R$) $\to R + N$ ($R$ father of $N$) $\implies M$ is paternal uncle $\to$ **Eliminated**.
-   - In B: $M \times R$ ($M$ brother of $R$) $\to R \div N$ ($R$ mother of $N$) $\implies M$ is brother of $N$'s mother $\implies$ **Maternal Uncle**!
+   - In B: `M × R` (M brother of R) → `R ÷ N` (R mother of N) → M is brother of N's mother → **Maternal Uncle**!
 4. **Answer:** **B) $M \times R \div N$**.
 
 ### Example 3: The 14-Link Graph Pruning Master Example (Expert)
@@ -240,27 +240,27 @@ Which expression indicates that **"$M$ is the maternal uncle of $N$"**?
 - C) Mother-in-law  
 - D) Aunt  
 
-**Q10.** If $X @ Y$ means "$X$ is sister of $Y$"; $X \# Y$ means "$X$ is mother of $Y$"; $X \$ Y$ means "$X$ is father of $Y$". Which of the following means **"$M$ is the niece of $T$"**?  
-- A) $T @ R \$ M @ K$  
-- B) $M @ K \# T \$ R$  
-- C) $T \$ R @ M @ K$  
-- D) $R \$ T @ M @ K$  
+**Q10.** If `X @ Y` means "X is sister of Y"; `X # Y` means "X is mother of Y"; `X $ Y` means "X is father of Y". Which of the following means **"M is the niece of T"**?  
+- A) `T @ R $ M @ K`  
+- B) `M @ K # T $ R`  
+- C) `T $ R @ M @ K`  
+- D) `R $ T @ M @ K`  
 
 ---
 
 ### Level 3: Hard — 6–8 Links & Multi-Generation (Q11–Q15)
 
 **Q11.** Read the relations:
-- $P \star Q \implies P$ is the father of $Q$
-- $P \Delta Q \implies P$ is the daughter of $Q$
-- $P \square Q \implies P$ is the sister of $Q$
-- $P \circ Q \implies P$ is the husband of $Q$
+- `P ★ Q` → P is the father of Q
+- `P Δ Q` → P is the daughter of Q
+- `P □ Q` → P is the sister of Q
+- `P ○ Q` → P is the husband of Q
 
 Which expression indicates that **"$J$ is the paternal grandfather of $T$"**?  
-- A) $J \star K \circ L \star T$  
-- B) $J \star K \star T \square M$  
-- C) $J \circ K \Delta L \star T$  
-- D) $J \star K \square L \star T$  
+- A) `J ★ K ○ L ★ T`  
+- B) `J ★ K ★ T □ M`  
+- C) `J ○ K Δ L ★ T`  
+- D) `J ★ K □ L ★ T`  
 
 **Q12.** Pointing to a photograph of a woman, a man says, *"She is the grandmother of my son's only brother's daughter."* How is the woman in the photograph related to the man?  
 - A) Wife  
@@ -355,36 +355,36 @@ How is $Y$ related to $U$?
 ### Level 5: Expert & Code-Expert (Q21–Q26)
 
 **Q21.** If:
-- $A \ \& \ B \implies A$ is the wife of $B$
-- $A \ \# \ B \implies A$ is the father of $B$
-- $A \ @ \ B \implies A$ is the son of $B$
-- $A \ \% \ B \implies A$ is the sister of $B$
-- $A \ \star \ B \implies A$ is the brother of $B$
+- `A & B` → A is the wife of B
+- `A # B` → A is the father of B
+- `A @ B` → A is the son of B
+- `A % B` → A is the sister of B
+- `A ★ B` → A is the brother of B
 
-In the expression $P \ @ \ Q \ \# \ R \ \& \ S \ \# \ T \ \% \ U$, how is $P$ related to $T$?  
+In the expression `P @ Q # R & S # T % U`, how is P related to T?  
 - A) Paternal Uncle  
 - B) Maternal Uncle  
 - C) Brother  
 - D) Father  
 
-**Q22.** Using the codes from Q21, which of the following expressions establishes that **"$D$ is the paternal aunt of $H$"**?  
-- A) $D \ \% \ E \ \# \ H \ @ \ K$  
-- B) $D \ \& \ E \ \# \ H \ \star \ K$  
-- C) $E \ \# \ D \ \% \ F \ \# \ H$  
-- D) $D \ \% \ E \ @ \ F \ \# \ H$  
+**Q22.** Using the codes from Q21, which of the following expressions establishes that **"D is the paternal aunt of H"**?  
+- A) `D % E # H @ K`  
+- B) `D & E # H ★ K`  
+- C) `E # D % F # H`  
+- D) `D % E @ F # H`  
 
 **Q23.** In a coded kinship system:
-- $P(1)Q \implies P$ is the father of $Q$
-- $P(2)Q \implies P$ is the mother of $Q$
-- $P(3)Q \implies P$ is the sister of $Q$
-- $P(4)Q \implies P$ is the brother of $Q$
-- $P(5)Q \implies P$ is the spouse of $Q$
+- `P(1)Q` → P is the father of Q
+- `P(2)Q` → P is the mother of Q
+- `P(3)Q` → P is the sister of Q
+- `P(4)Q` → P is the brother of Q
+- `P(5)Q` → P is the spouse of Q
 
 Which of the following expressions represents that **"$A$ is the son-in-law of $F$"**?  
-- A) $A(5)B(3)C(2)F$  
-- B) $A(5)B(4)C(1)F$  
-- C) $A(5)B(3)C(2)E(5)F$ where $E$ is male  
-- D) $A(5)B(3)C$ and $B(2)F$  
+- A) `A(5)B(3)C(2)F`  
+- B) `A(5)B(4)C(1)F`  
+- C) `A(5)B(3)C(2)E(5)F` where E is male  
+- D) `A(5)B(3)C` and `B(2)F`  
 
 **Q24.** Consider the statement: *"Pointing to a woman in a painting, Vikram said: 'Her only brother's only nephew's paternal grandfather is my father, who has only one daughter.' "* If Vikram has only one brother, how is the woman in the painting related to Vikram?  
 - A) Mother  
@@ -393,16 +393,16 @@ Which of the following expressions represents that **"$A$ is the son-in-law of $
 - D) Wife  
 
 **Q25.** If:
-- $A \div B$ means $A$ is the father of $B$
-- $A \times B$ means $A$ is the sister of $B$
-- $A + B$ means $A$ is the brother of $B$
-- $A - B$ means $A$ is the mother of $B$
+- `A ÷ B` means A is the father of B
+- `A × B` means A is the sister of B
+- `A + B` means A is the brother of B
+- `A - B` means A is the mother of B
 
 Which of the following expressions shows that **"$K$ is the nephew of $T$"**?  
-- A) $T \times M \div K + N$  
-- B) $T + M - K \times N$  
-- C) $K + N \div M \times T$  
-- D) $T \div M + K - N$  
+- A) `T × M ÷ K + N`  
+- B) `T + M - K × N`  
+- C) `K + N ÷ M × T`  
+- D) `T ÷ M + K - N`  
 
 **Q26.** In a business family of eight members across three generations:
 - $A$ is the CEO and father of two children: $B$ and $C$.
@@ -616,14 +616,16 @@ How is $W$ related to $K$?
 
 **Q45 (Nested Multi-Tier Coded Kinship with Incomplete Leaf).**  
 Symbols are defined as:
-- $P \ \uparrow \ Q \implies P$ is the mother of $Q$
-- $P \ \downarrow \ Q \implies P$ is the father of $Q$
-- $P \ \leftrightarrow \ Q \implies P$ is the spouse of $Q$
-- $P \ \Rightarrow \ Q \implies P$ is the brother of $Q$
-- $P \ \Leftarrow \ Q \implies P$ is the sister of $Q$
+- `P ↑ Q` → P is the mother of Q
+- `P ↓ Q` → P is the father of Q
+- `P ↔ Q` → P is the spouse of Q
+- `P ⇒ Q` → P is the brother of Q
+- `P ⇐ Q` → P is the sister of Q
 
 Given the composite expression:  
-$$Z \ \downarrow \ Y \ \leftrightarrow \ X \ \Leftarrow \ W \ \downarrow \ V \ \Rightarrow \ U \ \leftrightarrow \ T$$  
+```
+Z ↓ Y ↔ X ⇐ W ↓ V ⇒ U ↔ T
+```  
 Which of the following statements is **definitely TRUE**?  
 - A) $X$ is the paternal aunt of $V$  
 - B) $W$ is the brother-in-law of $Y$  
@@ -678,16 +680,16 @@ How is $D$ related to $A$?
 
 #### Level 2 (Q6–Q10)
 - **Q6 (B):** "Lady's mother's husband" = Lady's father. "Father's sister" = Lady's paternal aunt. That aunt is also the man's aunt. Hence, the lady is the man's **Sister**.
-- **Q7 (A):** $P + R \implies P$ is son of $R$. $R - Q \implies R$ is wife of $Q$ ($Q$ is male). $Q$ is the **Father** of $P$.
+- **Q7 (A):** `P + R` (P is son of R). `R - Q` (R is wife of Q, so Q is male). Q is the **Father** of P.
 - **Q8 (A):** "My grandfather's only son" = Anita's father (since grandfather has only one child). "Son of Anita's father" = Anita's **Brother**.
 - **Q9 (A):** $[P] = (Q)$. $Q$ is daughter-in-law of $U \implies U$ is parent of $P$. Since $U$'s husband died, $U$ is female $\implies U$ is the **Mother** of $P$.
-- **Q10 (A):** $T @ R \implies T$ is sister of $R$. $R \$ M \implies R$ is father of $M$. $M @ K \implies M$ is sister of $K$ ($M$ is female). $T$ is paternal aunt of $M \implies M$ is the **Niece** of $T$.
+- **Q10 (A):** `T @ R` (T is sister of R). `R $ M` (R is father of M). `M @ K` (M is sister of K, so M is female). T is paternal aunt of M → M is the **Niece** of T.
 
 #### Level 3 (Q11–Q15)
-- **Q11 (B):** $J \star K \implies J$ is father of $K$. $K \star T \implies K$ is father of $T$. Father's father = **Paternal Grandfather**.
+- **Q11 (B):** `J ★ K` (J is father of K). `K ★ T` (K is father of T). Father's father = **Paternal Grandfather**.
 - **Q12 (A):** "My son's only brother" = my other son. "Son's daughter" = granddaughter. The child's father is the speaker's son. Paternal grandmother of the child is the speaker's **Wife**.
 - **Q13 (B):** $[F] = (D)$. Their son is $[B]$ (engineer). $B$'s wife is $(A)$ (mother of $C$). Children of $B$ and $A$ are $C$ and $E$. Hence, $A$ is the **Wife** of $B$.
-- **Q14 (B):** $P + Q$ ($P$ is father of $Q$). $Q \times R$ ($Q$ brother of $R$). $R - S$ ($R$ mother of $S$). $S \div T$ ($S$ sister of $T$). $R$ is mother of $T$, and $P$ is father of $R$. Mother's father = **Maternal Grandfather**.
+- **Q14 (B):** `P + Q` (P is father of Q). `Q × R` (Q brother of R). `R - S` (R mother of S). `S ÷ T` (S sister of T). R is mother of T, and P is father of R. Mother's father = **Maternal Grandfather**.
 - **Q15 (B):** $Q$ is son of $R$, but $R$ not mother $\implies R$ is father (Male). $P$ is married to $R \implies P$ is female (1). $Y$ is brother of $R$ (Male). $X$ is daughter of $P$ (Female 2). $Z$ is brother of $P$ (Male). Total females = **2** ($P, X$).
 
 #### Level 4 (Q16–Q20)
@@ -698,11 +700,11 @@ How is $D$ related to $A$?
 - **Q20 (B):** $M$ and $W$ are sisters, daughters of $R$. $K$ and $T$ are sons of $M$. $S$ is daughter of $T$. Generational difference between $R$ and $S$ is $+3$. Thus $R$ is the **Great-grandfather** of $S$.
 
 #### Level 5 (Q21–Q26)
-- **Q21 (B):** $P @ Q$ ($P$ is son of $Q$). $Q \# R$ ($Q$ is father of $R \implies P$ and $R$ are brothers). $R \& S$ ($R$ is wife of $S \implies R$ is sister of $P$). $S \# T$ ($S$ is father of $T$, so $R$ is mother of $T$). Since $P$ is the brother of $T$'s mother $R$, $P$ is the **Maternal Uncle** of $T$.
-- **Q22 (C):** Paternal aunt means $D$ is sister of $H$'s father. In C: $E \# D$ ($E$ is father of $D$). $D \% F$ ($D$ is sister of $F$). $F \# H$ ($F$ is father of $H$). Since $D$ is the sister of $H$'s father $F$, $D$ is the **Paternal Aunt** of $H$.
+- **Q21 (B):** `P @ Q` (P is son of Q). `Q # R` (Q is father of R → P and R are brothers). `R & S` (R is wife of S → R is sister of P). `S # T` (S is father of T, so R is mother of T). Since P is the brother of T's mother R, P is the **Maternal Uncle** of T.
+- **Q22 (C):** Paternal aunt means D is sister of H's father. In C: `E # D` (E is father of D). `D % F` (D is sister of F). `F # H` (F is father of H). Since D is the sister of H's father F, D is the **Paternal Aunt** of H.
 - **Q23 (C):** $A(5)B$ ($A$ married to $B$). $B(3)C$ ($B$ sister of $C$). $C(2)E$ ($C$ mother of $E$). $E(5)F$ where $E$ is male $\implies F$ is female. Deducing $A$ male married to $B$ female, daughter of $F \implies A$ is **Son-in-law** of $F$.
 - **Q24 (B):** "My father, who has only one daughter" $\to$ Vikram's father has only 1 daughter. "Her only brother's only nephew's paternal grandfather is Vikram's father." Vikram's father is the paternal grandfather of the nephew $\implies$ the nephew's father is Vikram (or Vikram's brother). Vikram's father's only daughter is Vikram's **Sister**.
-- **Q25 (A):** In A: $T \times M$ ($T$ is sister of $M$). $M \div K$ ($M$ is father of $K$). $K + N$ ($K$ is brother of $N$, hence $K$ is male). $K$ is the son of $T$'s brother $M \implies K$ is the **Nephew** of $T$.
+- **Q25 (A):** In A: `T × M` (T is sister of M). `M ÷ K` (M is father of K). `K + N` (K is brother of N, hence K is male). K is the son of T's brother M → K is the **Nephew** of T.
 - **Q26 (B):** $A$ and $E$ are parents of $B$ and $C$. $B$ is married to $D$. $H$ is the father of $D$. Hence, $H$ is the father of $B$'s wife $\implies H$ is $B$'s **Father-in-law**.
 
 #### Level 6 (Q27–Q31)
@@ -728,7 +730,7 @@ How is $D$ related to $A$?
 - **Q42 (A):** Generational analysis of 10 members: Generation 1: $[A] = (B)$ (2 members). Generation 2: Sons $[C]$ and $[D]$. $[D] = (F)$ (parents of $G, H$). For 3 married couples, $E$ must be married to $C$ ($[C] = (E)$). Their children are $I$ and $J$. Since $C$ is the husband of $E$, $C$ is the **Father** of $I$.
 - **Q43 (C):** Trace constraints: $P$ is married to $S$. Their two sons are $R$ and another son (say $X$). $T$ is married to $R$ or $X$. $U$ is married to the other brother. $Q$ is brother-in-law of $R$. $W$ is son of $Q$. $V$ is maternal aunt of $W \implies V$ is sister of $W$'s mother (who is $Q$'s wife). Hence $V$ is $Q$'s **Sister-in-law**.
 - **Q44 (B):** Pruning analysis: Target is relationship between $W$ and $K$. $K$ and $L$ are brother and sister. $L$'s daughter is $M$. $M$'s son is $W$. Thus $W$ is the grandson of $K$'s sister $L$. $W$ is $K$'s sister's grandson = **Great-nephew**.
-- **Q45 (C):** In the coded chain: $W \ \downarrow \ V$ ($W$ father of $V$). $V \ \Rightarrow \ U$ ($V$ brother of $U \implies W$ is father of $U$). $U \ \leftrightarrow \ T$ ($U$ married to $T$). Since $W$ is father of $U$, $U$'s wife $T$ is the daughter-in-law of $W$. Hence **$T$ is the daughter-in-law of $W$** is definitely TRUE.
+- **Q45 (C):** In the coded chain: `W ↓ V` (W father of V). `V ⇒ U` (V brother of U → W is father of U). `U ↔ T` (U married to T). Since W is father of U, U's wife T is the daughter-in-law of W. Hence **T is the daughter-in-law of W** is definitely TRUE.
 - **Q46 (B):** Three couples across three generations: Gen 1: $[A] = (B)$. Gen 2: Son $[F] = (C)$ (parents of $H, I$). Since $D$ is maternal uncle of $H$, $D$ is the brother of $C$. $A$ is father-in-law of $E$. Since $F$ is the only son of $A$, $A$ must also have a daughter who is married to $D$, or $D$ is married into the family. With 3 married couples: $[A]=(B)$, $[F]=(C)$, $[D]=(E)$. Since $D$ is married to $A$'s daughter $E$, $D$ is the **Son-in-law** of $A$.
 
 ---
@@ -753,24 +755,24 @@ How is $D$ related to $A$?
 
 ### Q2 (TCS Digital / Infosys DSE Style — Coded Generation Elimination)
 **Q:** Given:
-- $P \ \# \ Q \implies P$ is the father of $Q$ (+1, Male)
-- $P \ \$ \ Q \implies P$ is the mother of $Q$ (+1, Female)
-- $P \ @ \ Q \implies P$ is the sister of $Q$ (0, Female)
-- $P \ \% \ Q \implies P$ is the son of $Q$ (-1, Male)
+- `P # Q` → P is the father of Q (+1, Male)
+- `P $ Q` → P is the mother of Q (+1, Female)
+- `P @ Q` → P is the sister of Q (0, Female)
+- `P % Q` → P is the son of Q (-1, Male)
 
-Which expression indicates that **"$M$ is the maternal grandmother of $S$"**?  
-- A) $M \ \$ \ N \ @ \ O \ \$ \ S$  
-- B) $M \ \# \ N \ \$ \ O \ @ \ S$  
-- C) $M \ \$ \ N \ \% \ O \ \$ \ S$  
-- D) $M \ @ \ N \ \$ \ O \ \# \ S$  
+Which expression indicates that **"M is the maternal grandmother of S"**?  
+- A) `M $ N @ O $ S`  
+- B) `M # N $ O @ S`  
+- C) `M $ N % O $ S`  
+- D) `M @ N $ O # S`  
 
-**Answer:** A) $M \ \$ \ N \ @ \ O \ \$ \ S$  
+**Answer:** A) `M $ N @ O $ S`  
 **Distractor Analysis:**  
-- Target generation of $M$ relative to $S$ is $\mathbf{+2}$, and $M$ must be female through a maternal line.  
-- In B: $M \ \# \ N \implies M$ is father (male) $\to$ Eliminated instantly.  
-- In C: Generation sum: $+1 - 1 + 1 = +1 \ne +2 \to$ Eliminated.  
-- In D: $M @ N \implies$ Generation sum: $0 + 1 + 1 = +2$, but $M$ is sister of $N$ who is mother $\implies M$ is maternal grand-aunt, not grandmother $\to$ Eliminated.  
-- In A: $M$ is mother of $N$ ($+1$). $N$ is sister of $O$ ($0$). $O$ is mother of $S$ ($+1$). Net $= +2$. $M$ is mother of $O$ (mother of $S$) $\implies$ **Maternal Grandmother**!
+- Target generation of M relative to S is **+2**, and M must be female through a maternal line.  
+- In B: `M # N` → M is father (male) → Eliminated instantly.  
+- In C: Generation sum: $+1 - 1 + 1 = +1 \ne +2$ → Eliminated.  
+- In D: `M @ N` → Generation sum: $0 + 1 + 1 = +2$, but M is sister of N who is mother → M is maternal grand-aunt, not grandmother → Eliminated.  
+- In A: M is mother of N (+1). N is sister of O (0). O is mother of S (+1). Net = +2. M is mother of O (mother of S) → **Maternal Grandmother**!
 
 ---
 
