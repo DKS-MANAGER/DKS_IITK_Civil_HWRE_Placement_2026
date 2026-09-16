@@ -1160,8 +1160,8 @@ What is the profit-maximizing daily production quantity of enterprise server uni
 
 ## 🔗 Cross-Links & Conceptual Continuations
 
-- [Bar & Line Graphs](bar-line-graphs.md) — Temporal Trend Analysis & Dual-Axis Interpretation
-- [Tables & Caselets](tables-caselets.md) — Complex Tabular Matrices & Multi-Attribute Caselets
+- [Bar & Line Graphs](bar-and-line-graphs.md) — Temporal Trend Analysis & Dual-Axis Interpretation
+- [Tables & Caselets](tables-and-caselets.md) — Complex Tabular Matrices & Multi-Attribute Caselets
 - [Pie Charts](pie-charts.md) — Proportional Angle ($\theta$) and Multi-Tier Portfolio Share
 - [Mixed Graphs](mixed-graphs.md) — Multi-Chart Synthesis & Integrated Caselets
 - [Formula Sheet](../FORMULA_SHEET.md) — Quantitative Shortcuts, Number Theory & Mensuration

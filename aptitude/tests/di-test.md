@@ -110,5 +110,5 @@ If total supply increases to 60 ML and domestic stays at 45%, what is the increa
 
 ## 🔗 Related
 
-- [DI Modules](../di/tables-caselets.md)
+- [DI Modules](../di/tables-and-caselets.md)
 - [Formula Sheet](../FORMULA_SHEET.md)

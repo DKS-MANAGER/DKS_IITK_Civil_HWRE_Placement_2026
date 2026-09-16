@@ -120,6 +120,6 @@ Mixed graphs combine two or more chart types (e.g., bar + line, table + pie). Yo
 
 ## 🔗 Cross-Links
 
-- [Tables & Caselets](tables-caselets.md)
-- [Bar & Line Graphs](bar-line-graphs.md)
+- [Tables & Caselets](tables-and-caselets.md)
+- [Bar & Line Graphs](bar-and-line-graphs.md)
 - [Pie Charts](pie-charts.md)

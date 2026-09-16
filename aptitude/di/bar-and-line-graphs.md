@@ -613,7 +613,7 @@ D) Statements 1 and 2 together are NOT sufficient
 
 ## 🔗 Cross-Links & Conceptual Continuations
 
-- [Tables & Caselets](tables-caselets.md) — Complex Multi-Row Cross-Tabulation & Case Studies
+- [Tables & Caselets](tables-and-caselets.md) — Complex Multi-Row Cross-Tabulation & Case Studies
 - [Pie Charts](pie-charts.md) — Proportional Angle ($\theta$) and Multi-Tier Portfolio Share
 - [Mixed Graphs](mixed-graphs.md) — Multi-Chart Synthesis & Integrated Caselets
 - [Data Sufficiency](data-sufficiency.md) — Statement Evaluation & Structural Uniqueness

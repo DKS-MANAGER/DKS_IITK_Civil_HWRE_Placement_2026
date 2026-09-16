@@ -82,8 +82,8 @@ APTITUDE
 ### Data Interpretation
 | Topic | Link | Priority |
 |:------|:-----|:--------:|
-| Tables & Caselets | [di/tables-caselets.md](di/tables-caselets.md) | P0 |
-| Bar & Line Graphs | [di/bar-line-graphs.md](di/bar-line-graphs.md) | P0 |
+| Tables & Caselets | [di/tables-and-caselets.md](di/tables-and-caselets.md) | P0 |
+| Bar & Line Graphs | [di/bar-and-line-graphs.md](di/bar-and-line-graphs.md) | P0 |
 | Pie Charts | [di/pie-charts.md](di/pie-charts.md) | P0 |
 | Mixed Graphs | [di/mixed-graphs.md](di/mixed-graphs.md) | P1 |
 | Data Sufficiency | [di/data-sufficiency.md](di/data-sufficiency.md) | P1 |

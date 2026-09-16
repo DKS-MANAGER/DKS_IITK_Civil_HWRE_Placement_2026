@@ -252,7 +252,7 @@ A company has three divisions: Engineering, Marketing and Finance. In 2024, the 
 
 ## 🔗 Cross-Links
 
-- [Bar & Line Graphs](bar-line-graphs.md)
+- [Bar & Line Graphs](bar-and-line-graphs.md)
 - [Pie Charts](pie-charts.md)
 - [Formula Sheet](../FORMULA_SHEET.md)
 - [Topic Test: DI](../tests/di-test.md)
