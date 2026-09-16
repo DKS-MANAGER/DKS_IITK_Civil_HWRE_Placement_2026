@@ -1,210 +1,107 @@
-# MASTER PREP PLAN
-
-> **The central execution hub for placement preparation.** Start here. This page tells you what to do before, during, and immediately before the selection process — and links to the actual content.
+# MASTER PLACEMENT PREPARATION & EXECUTION PLAN
+**Target:** IIT Kanpur Postgraduate Placements 2026 (M.Tech Civil / HWRE / Engineering Candidates)  
+**Role:** The Central Execution Engine — connecting preparation, assessment, weakness diagnosis, and live interview simulation.
 
 ---
 
-## 🎯 The Placement Flow
+## 🎯 The Continuous Placement Feedback Loop
+
+Placement preparation is not a rigid linear checklist. It is an **iterative closed-loop optimization cycle**:
 
 ```
-SELF-ASSESSMENT
-      ↓
-RESUME
-      ↓
-TARGET ROLE
-      ↓
-TARGET COMPANIES
-      ↓
-APTITUDE / ASSESSMENT
-      ↓
-TECHNICAL PREPARATION
-      ↓
-INTERVIEW
-      ↓
-BEHAVIOURAL / HR
-      ↓
-MOCK
-      ↓
-FINAL REVISION
-      ↓
-INTERVIEW DAY
-```
-
-Each stage below links to the **canonical source** for that stage. `prep/` is the execution layer — the actual technical content lives in `core/`, `software-and-tech/`, and `aptitude/`.
-
----
-
-## 🚀 Quick Entry Points
-
-| I need… | Go to |
-|:--------|:------|
-| **Interview is TOMORROW** | [INTERVIEW_TOMORROW.md](INTERVIEW_TOMORROW.md) |
-| **A full timeline** | [30_14_7_DAY_PLAN.md](30_14_7_DAY_PLAN.md) |
-| **What to bring / do** | [PLACEMENT_CHECKLIST.md](PLACEMENT_CHECKLIST.md) |
-| **How selection works** | [SELECTION_STAGE_MAP.md](SELECTION_STAGE_MAP.md) |
-| **Resume audit + defence** | [RESUME/](RESUME/) |
-| **Project defence** | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| **Mock interviews** | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| **Last-minute revision** | [RAPID_REVISION.md](RAPID_REVISION.md) |
-| **Aptitude practice** | [APTITUDE/](APTITUDE/) |
-| **Case / GD (non-core)** | [CASE_GD.md](CASE_GD.md) |
-| **Professional emails** | [PLACEMENT_COMMUNICATION.md](PLACEMENT_COMMUNICATION.md) |
-
----
-
-## 📋 Stage-by-Stage Execution
-
-### 1. SELF-ASSESSMENT
-
-**Goal:** Know your strengths, weaknesses, and target roles before you start.
-
-| Action | Resource |
-|:-------|:---------|
-| Map your skills to roles | [Role Matrix](../aptitude/ROLE_MATRIX.md) |
-| Assess aptitude readiness | [Aptitude Audit](../_SYSTEM/APTITUDE_AUDIT.md) |
-| Identify target track (Core/HWRE/CFD/Non-Core) | [Core Hub](../core/README.md) · [Non-Core Hub](../non-core/README.md) |
-
-### 2. RESUME
-
-**Goal:** A one-page, ATS-friendly, defensible CV.
-
-| Action | Resource |
-|:-------|:---------|
-| Build your resume | [Resume Template](templates/resume-template.md) |
-| Audit it (metrics, ATS, grammar) | [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) |
-| Prepare to defend every line | [RESUME/RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
-
-### 3. TARGET ROLE
-
-**Goal:** Pick 1–3 roles and prepare specifically for them.
-
-| Action | Resource |
-|:-------|:---------|
-| Understand role requirements | [Role Matrix](../aptitude/ROLE_MATRIX.md) |
-| Prepare role-specific mock test | [Mock Tests](mock-tests/) |
-| Study role-specific software | [Software Role Matrix](../software-and-tech/SOFTWARE_ROLE_MATRIX.md) |
-
-### 4. TARGET COMPANIES
-
-**Goal:** Know your companies deeply.
-
-| Action | Resource |
-|:-------|:---------|
-| Research company profiles | [Company Profiles](company-profiles/) |
-| Prepare company-specific strategy | [Cross-Company Strategy](company-profiles/civil-cross-company-strategy.md) |
-| Review interview experiences | [Interview Experiences](company-profiles/interview-experiences.md) |
-
-### 5. APTITUDE / ASSESSMENT
-
-**Goal:** Clear the aptitude/assessment round.
-
-| Action | Resource |
-|:-------|:---------|
-| Study quant/reasoning/verbal | [Aptitude Hub](../aptitude/README.md) |
-| Take topic tests | [Aptitude Tests](../aptitude/tests/) |
-| Take full placement mock | [Full Placement Mock](../aptitude/mocks/full-placement-mock-1.md) |
-| Track errors & weak topics | [Error Log](../aptitude/ERROR_LOG.md) |
-
-### 6. TECHNICAL PREPARATION
-
-**Goal:** Master the technical content for your target role.
-
-| Action | Resource |
-|:-------|:---------|
-| Study core subjects | [Core Hub](../core/README.md) |
-| Study software tools | [Software Hub](../software-and-tech/README.md) |
-| Practice technical Q&A | [Technical Interview Bank](interview/technical/technical-interview-bank.md) |
-
-### 7. INTERVIEW
-
-**Goal:** Perform well in technical, behavioural, and HR rounds.
-
-| Action | Resource |
-|:-------|:---------|
-| Technical interview prep | [Technical Bank](interview/technical/technical-interview-bank.md) |
-| Behavioural prep | [Behavioral Hub](behavioral/) |
-| HR prep | [HR Interview Guide](interview/hr/hr-interview-guide.md) |
-| Interview day playbook | [Interview Day Survival](interview/interview-day-survival.md) |
-
-### 8. BEHAVIOURAL / HR
-
-**Goal:** Answer behavioural questions with structure and evidence.
-
-| Action | Resource |
-|:-------|:---------|
-| Learn STAR/CARL frameworks | [Answering Strategies](behavioral/strategies/answering-strategies.md) |
-| Build your story bank | [Story Bank](behavioral/story-bank/) |
-| Practice 200+ questions | [Question Master Database](behavioral/question-master-database.md) |
-| Prepare self-introduction | [Self Intro System](behavioral/self_intro/self-introduction-system.md) |
-
-### 9. MOCK
-
-**Goal:** Simulate the real interview under pressure.
-
-| Action | Resource |
-|:-------|:---------|
-| Run a structured mock | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| Take a role-specific mock test | [Mock Tests](mock-tests/) |
-| Score yourself honestly | [Answer Quality Checker](behavioral/answer-quality-checker.md) |
-
-### 10. FINAL REVISION
-
-**Goal:** Consolidate everything before interview day.
-
-| Action | Resource |
-|:-------|:---------|
-| Follow the rapid revision plan | [RAPID_REVISION.md](RAPID_REVISION.md) |
-| Review formula sheets | [Formula Sheet](../aptitude/FORMULA_SHEET.md) |
-| Review high-ROI topics | [Quick Revision System](interview/quick-revision-system.md) |
-
-### 11. INTERVIEW DAY
-
-**Goal:** Execute flawlessly on the day.
-
-| Action | Resource |
-|:-------|:---------|
-| Follow the day-of playbook | [Interview Day Survival](interview/interview-day-survival.md) |
-| Use the interview-tomorrow path | [INTERVIEW_TOMORROW.md](INTERVIEW_TOMORROW.md) |
-
----
-
-## 🧭 Role / Track Linkage
-
-Every prep component supports all four tracks without duplicating common material.
-
-| Track | Aptitude | Behavioural | Technical | Software |
-|:------|:---------|:------------|:----------|:---------|
-| **Core Civil** | [Aptitude](../aptitude/) | [Behavioral](behavioral/) | [Core](../core/) | [Software](../software-and-tech/) |
-| **HWRE** | [Aptitude](../aptitude/) | [Behavioral](behavioral/) | [HWRE](../core/hwre/) | [Software](../software-and-tech/) |
-| **CFD** | [Aptitude](../aptitude/) | [Behavioral](behavioral/) | [CFD](../core/) | [Software](../software-and-tech/) |
-| **Non-Core** | [Aptitude](../aptitude/) | [Behavioral](behavioral/) | [Non-Core](../non-core/) | [Software](../software-and-tech/) |
-
----
-
-## 📚 Prep Directory Map
-
-```
-prep/
-├── MASTER_PREP_PLAN.md          ← You are here
-├── 30_14_7_DAY_PLAN.md          ← Timelines
-├── PLACEMENT_CHECKLIST.md       ← Logistics
-├── INTERVIEW_TOMORROW.md        ← Rapid path
-├── SELECTION_STAGE_MAP.md       ← Process
-├── PLACEMENT_COMMUNICATION.md   ← Emails/etiquette
-├── CASE_GD.md                   ← Non-core case/GD
-├── PROJECT_DEFENCE.md           ← Project defence
-├── MOCK_INTERVIEW.md            ← Mock system
-├── RAPID_REVISION.md            ← Revision plans
-├── APTITUDE/                    ← → root aptitude/
-├── RESUME/                      ← Resume audit + defence
-├── behavioral/                  ← Behavioural/HR
-├── interview/                   ← Interview rounds
-├── mock-tests/                  ← Role mock tests
-├── company-profiles/            ← Company intel
-├── templates/                   ← Reusable templates
-└── _SYSTEM/                     ← Audit infrastructure
+                  THE CLOSED-LOOP CALIBRATION CYCLE
+        ┌──────────────────────────────────────────────────┐
+        │  1. PLAN: Set target role & diagnostic baseline  │
+        │     → READINESS_SCORECARD.md                     │
+        └─────────────────────────┬────────────────────────┘
+                                  │
+        ┌─────────────────────────▼────────────────────────┐
+        │  2. PREPARE: Core & Non-Core Subject Modules     │
+        │     → core/ · software-and-tech/ · non-core/     │
+        └─────────────────────────┬────────────────────────┘
+                                  │
+        ┌─────────────────────────▼────────────────────────┐
+        │  3. TEST: Full Placement Mocks & Role OAs        │
+        │     → aptitude/mocks/ (M01-M05) · mock-tests/    │
+        └─────────────────────────┬────────────────────────┘
+                                  │
+        ┌─────────────────────────▼────────────────────────┐
+        │  4. ANALYZE: Classify errors & measure velocity  │
+        │     → Concept Gap / Execution Slip / Pacing Trap │
+        └─────────────────────────┬────────────────────────┘
+                                  │
+        ┌─────────────────────────▼────────────────────────┐
+        │  5. PATCH: Re-solve Level 4-7 Module Caselets    │
+        │     → Targeted Chapter Deep-Dives                │
+        └─────────────────────────┬────────────────────────┘
+                                  │
+        ┌─────────────────────────▼────────────────────────┐
+        │  6. RETEST: Unseen Topic Diagnostic Tests (15 Qs)│
+        └──────────────────────────────────────────────────┘
 ```
 
 ---
 
-> **Back to:** [Prep Hub](README.md) · [Start Here](../docs/start-here.md) · [Main README](../README.md)
+## 🚀 Central Execution Control & Quick Entry Points
+
+| Execution Need | Action Link | Key Deliverable / Output |
+|:---|:---|:---|
+| **Live Multi-Dimensional Readiness** | [**READINESS_SCORECARD.md**](READINESS_SCORECARD.md) | Central control matrix, target benchmarks, and score tracker |
+| **Emergency T-24h Protocol** | [**INTERVIEW_TOMORROW.md**](INTERVIEW_TOMORROW.md) | High-yield 3-hour rapid triage & checklist |
+| **Sprints & Countdown (30/14/7 Days)** | [**30_14_7_DAY_PLAN.md**](30_14_7_DAY_PLAN.md) | Day-by-day study roadmap and milestones |
+| **Resume Audit & 3-Layer Defense** | [**RESUME/**](RESUME/) | Line-by-line claims verification and technical proof |
+| **M.Tech Thesis Project Defense** | [**PROJECT_DEFENCE.md**](PROJECT_DEFENCE.md) | Defending CFD, boundary conditions, and GCI mesh metrics |
+| **Full 45-min Interview Simulation** | [**interview-readiness.md**](../non-core/common/interview-readiness.md) | End-to-end 100-point interview performance rubric |
+| **General Full Placement Mocks** | [**aptitude/mocks/**](../aptitude/mocks/README.md) | 5 progressive 50-Q/60-min institutional placement mocks |
+| **25 Role-Specific Technical OAs** | [**mock-tests/**](mock-tests/) | Domain-specific technical screening tests |
+| **Non-Core Case & GD Drills** | [**CASE_GD.md**](CASE_GD.md) | Quick operational case entry point into canonical non-core |
+| **Day-of-Interview Playbook** | [**PLACEMENT_CHECKLIST.md**](PLACEMENT_CHECKLIST.md) | Document checklists, attire, and institute placement rules |
+
+---
+
+## 📋 Iterative Stage-by-Stage Execution Protocol
+
+### Stage 1: Self-Assessment & Diagnostic Baseline
+- **Goal:** Audit current competencies and establish baseline velocity and accuracy.
+- **Action:** Open [READINESS_SCORECARD.md](READINESS_SCORECARD.md), record baseline scores from [Mock 01: Diagnostic Baseline](../aptitude/mocks/full-placement-mock-01.md), and identify target role track in [Role Matrix](../aptitude/ROLE_MATRIX.md).
+
+### Stage 2: Resume Hardening & Claim Defense
+- **Goal:** Single-page, ATS-optimized, 100% defensible resume with zero unverified claims.
+- **Action:** Run [RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) against your CV; script answers to all 3-layer interrogation probes in [RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md).
+
+### Stage 3: Target Role & Company Intelligence
+- **Goal:** Map target company assessment processes and hiring profiles.
+- **Action:** Review [Company Profiles](company-profiles/) and [Cross-Company Strategy](company-profiles/civil-cross-company-strategy.md) for past interview formats, OA structures, and technical deep dives.
+
+### Stage 4: Aptitude & Cognitive Screening Mastery
+- **Goal:** Consistent $\ge 80\%$ score on timed 60-minute placement tests.
+- **Action:** Complete progressive mocks in [Full Placement Mock Suite](../aptitude/mocks/README.md) (Mocks 01 to 05), logging errors into Conceptual, Execution, or Pacing categories.
+
+### Stage 5: Core & Technical Preparation
+- **Goal:** Flawless defense of engineering fundamentals, CFD/modeling, or programming.
+- **Action:** Study canonical modules in [Core Hub](../core/README.md) (HWRE, Hydraulics, OpenFOAM) and [Software Hub](../software-and-tech/README.md) (Python, SQL, Linux).
+
+### Stage 6: Behavioral & Cultural Fit Story Bank
+- **Goal:** Master 7–10 structured STAR-L stories covering leadership, conflict, failure, and ambiguity.
+- **Action:** Internalize answering strategies from [Behavioral Hub](behavioral/) and test stories against interviewer counter-probes in [interview-readiness.md](../non-core/common/interview-readiness.md).
+
+### Stage 7: Non-Core Business Reasoning & Cases
+- **Goal:** Master P&L unit economics, EBITDA vs. OCF mechanics, and MECE issue trees.
+- **Action:** Solve quantitative mini-cases in [Business Fundamentals](../non-core/common/business-fundamentals.md) and practice consulting/product cases in [Case Interviews](../non-core/case-interviews/).
+
+### Stage 8: Live Simulation & Mock Interview Drills
+- **Goal:** Grade performance on an objective 100-point rubric under timed conditions.
+- **Action:** Execute peer mock sessions using [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) and [Interview Readiness Scorecard](../non-core/common/interview-readiness.md).
+
+---
+
+## 🧭 Multi-Track Canonical Hub Alignment
+
+| Placement Track | Aptitude Canonical | Core / Technical Canonical | Role OA Mock Test | Behavioral / Interview Layer |
+|:---|:---|:---|:---|:---|
+| **Core Civil / Infra** | [aptitude/](../aptitude/) | [core/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/README.md) | [Civil General OA](mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
+| **HWRE / Water Resources** | [aptitude/](../aptitude/) | [core/hwre/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hwre/README.md) | [Water Resources OA](mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
+| **CFD & Fluid Modeling** | [aptitude/](../aptitude/) | [core/hydrodynamics/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hydrodynamics/README.md) | [CFD Modeling OA](mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
+| **Consulting & Strategy** | [aptitude/](../aptitude/) | [non-core/consulting/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/consulting/README.md) | [Consulting OA](mock-tests/14_CONSULTING_CASE_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Analytics & Data Science**| [aptitude/](../aptitude/) | [non-core/data-analyst/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/data-analyst/README.md) | [Data Analyst OA](mock-tests/11_DATA_ANALYST_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Product Management** | [aptitude/](../aptitude/) | [non-core/product-management/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/product-management/README.md) | [Product Manager OA](mock-tests/13_PRODUCT_MANAGEMENT_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
