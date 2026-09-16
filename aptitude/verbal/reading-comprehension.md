@@ -37,7 +37,7 @@ At the premier postgraduate placement tier (e.g., McKinsey, BCG, Bain, Goldman S
 ---
 
 ### 1.2 The Anatomy of High-Difficulty Distractors
-In IIT Kanpur placement tests, 70% of errors arise not from misreading the passage, but from succumbing to carefully engineered answer choice traps:
+In advanced postgraduate placement assessments, the primary failure mode stems not from superficial misreading of the text, but from succumbing to carefully engineered distractor archetypes:
 
 1. **The Scope Shift Trap**: Uses exact vocabulary from the passage but switches the domain (e.g., from *urban stormwater drainage* to *all national civil infrastructure*).
 2. **The True-But-Unanswered Trap**: The option is a completely true factual statement directly quoted from the text, but it does **not** answer the specific question asked (e.g., answering an *inference* question with a verbatim *premise*).
