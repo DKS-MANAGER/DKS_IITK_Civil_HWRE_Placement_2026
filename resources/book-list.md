@@ -1,209 +1,75 @@
-# Recommended Books for Civil Engineering & Placement Preparation
-
-> **Curated list of standard textbooks and reference books for GATE Civil, PSU exams, and placement preparation.** Organized by subject with priority ratings.
-
----
-
-## 📐 Engineering Mathematics
-
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Higher Engineering Mathematics** | B.S. Grewal | Arihant Publications | ⭐⭐⭐ | Comprehensive coverage of all GATE math topics |
-| **Engineering Mathematics** | B.S. Grewal | Wiley India | ⭐⭐⭐ | Focused GATE math preparation |
-| **Advanced Engineering Mathematics** | Erwin Kreyszig | Wiley India | ⭐⭐ | Rigorous treatment, deeper understanding |
-| **Engineering Mathematics** | N.P. Bali | Laxmi Publications | ⭐⭐ | Alternative with more solved examples |
+# Recommended Textbooks & Reference Authority
+**Scope:** Core Civil Engineering, Hydraulics & Water Resources (HWRE), Environmental & Quantitative Placement Prep  
+**Organization:** Classified by Subject $\to$ Purpose Priority ($\text{P0} \to \text{P2}$) $\to$ Dependent Repository Modules $\to$ High-Yield Chapters
 
 ---
 
-## 🏗️ Structural Engineering
+## 1. Reference Priority Tier Definitions
 
-### Strength of Materials / Solid Mechanics
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Strength of Materials** | R.K. Rajput | Arihant Publications | ⭐⭐⭐ | Essential for GATE problems, many solved examples |
-| **Strength of Materials** | S.S. Bhavikatti | Vikas Publishing | ⭐⭐ | Clear explanations, good for basics |
-| **Mechanics of Materials** | R.C. Hibbeler | Pearson | ⭐⭐ | Excellent visual explanations, good for concepts |
-
-### Structural Analysis
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Structural Analysis** | R.C. Hibbeler | Pearson | ⭐⭐⭐ | Clear explanations with many examples |
-| **Structural Analysis** | C.S. Reddy | Tata McGraw-Hill | ⭐⭐⭐ | Excellent for GATE, matrix methods covered well |
-| **Theory of Structures** | R.C. Leong | Pearson | ⭐⭐ | Strong foundation, good for theory |
-
-### Concrete Structures (RCC)
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Limit State Design of Reinforced Concrete** | P.C. Varghese | PHI Learning | ⭐⭐⭐ | Best for IS 456 limit state design |
-| **Reinforced Concrete Design** | S. Ramamrutham | Dhanpat Rai | ⭐⭐⭐ | Classic, many solved GATE problems |
-| **Design of Reinforced Concrete Structures** | S. Unnikrishna Pillai & Devdas Menon | Tata McGraw-Hill | ⭐⭐ | Good for advanced topics |
-
-### Steel Structures
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Design of Steel Structures** | S.K. Duggal | Tata McGraw-Hill | ⭐⭐⭐ | Best for IS 800:2007 limit state design |
-| **Design of Steel Structures** | N. Subramanian | Oxford University Press | ⭐⭐ | Good for concepts and connections |
-| **Steel Structures** | S.K. Duggal | Tata McGraw-Hill | ⭐⭐ | Alternative with more problems |
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                              REFERENCE PRIORITY TAXONOMY                               │
+├─────────────────────┬──────────────────────────────────────────────────────────────────┤
+│ Priority Level      │ Definition & Direct Operational Use                              │
+├─────────────────────┼──────────────────────────────────────────────────────────────────┤
+│ P0 (Primary)        │ Essential core placement & interview reference. Master these     │
+│                     │ formulas, derivations, and problem archetypes first.             │
+├─────────────────────┼──────────────────────────────────────────────────────────────────┤
+│ P1 (Supplementary)  │ Excellent for deeper conceptual clarity and solving challenging  │
+│                     │ GATE / PSU / Tier-1 corporate interview questions.               │
+├─────────────────────┼──────────────────────────────────────────────────────────────────┤
+│ P2 (Advanced/Thesis)│ Research monographs and specialized advanced references for      │
+│                     │ M.Tech thesis defense, OpenFOAM CFD, and complex modeling.       │
+└─────────────────────┴──────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🪨 Geotechnical Engineering
+## 2. Water Resources & Hydrodynamics (HWRE / CFD)
 
-### Soil Mechanics
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Soil Mechanics and Foundation Engineering** | B.M. Das | Cengage Learning | ⭐⭐⭐ | Standard textbook, comprehensive |
-| **Soil Mechanics** | Gopal Ranjan & A.S.R. Rao | New Age International | ⭐⭐⭐ | Excellent for GATE, Indian context |
-| **Soil Mechanics** | T.W. Lambe & R.V. Whitman | Wiley | ⭐⭐ | Classic, strong theoretical base |
-
-### Foundation Engineering
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Foundation Engineering** | B.M. Das | Cengage Learning | ⭐⭐⭐ | Standard for shallow/deep foundations |
-| **Foundation Analysis and Design** | J.E. Bowles | McGraw-Hill | ⭐⭐ | Detailed design procedures |
-| **Foundation Engineering** | V.N.S. Murthy | CBS Publishers | ⭐⭐ | Good for Indian conditions |
+| Textbook Title | Author(s) | Publisher | Priority | Supported Repository Module | High-Yield Chapters & Concepts |
+|:---|:---|:---|:---:|:---|:---|
+| **Flow in Open Channels** | K. Subramanya | Tata McGraw-Hill | **P0** | [core/hwre/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hwre/README.md) | Ch 2 (Specific Energy & Critical Flow), Ch 4 (Gradually Varied Flow $GVF$), Ch 5 (Hydraulic Jump & Energy Dissipation) |
+| **Engineering Hydrology** | K. Subramanya | Tata McGraw-Hill | **P0** | [core/hwre/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hwre/README.md) | Ch 3 (Infiltration Indices $\Phi, W$), Ch 4 (Unit Hydrograph & $S\text{-Curve}$), Ch 7 (Flood Routing & Muskingum) |
+| **Fluid Mechanics & Hydraulic Machines** | Modi & Seth | Standard Book House | **P0** | [core/hydrodynamics/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hydrodynamics/README.md) | Ch 8 (Navier-Stokes & Boundary Layer), Ch 11 (Pipe Flow & Moody Chart), Ch 18 (Pelton & Francis Turbines) |
+| **Open-Channel Hydraulics** | Ven Te Chow | McGraw-Hill Classic | **P1** | [core/hwre/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hwre/README.md) | Dynamic equation of unsteady flow, St. Venant equations, water surface profile classification |
+| **Computational Methods for Fluid Dynamics** | Ferziger, Perić & Street | Springer | **P2** | [core/hydrodynamics/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hydrodynamics/README.md) | Finite Volume Method ($FVM$), PISO/SIMPLE pressure-velocity coupling, $k-\varepsilon$ / $k-\omega\text{ SST}$ turbulence |
+| **Groundwater Hydrology** | D.K. Todd & L.W. Mays | Wiley | **P1** | [core/hwre/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/hwre/README.md) | Darcy's law, Theis & Cooper-Jacob unsteady well hydraulics, saltwater intrusion dynamics |
 
 ---
 
-## 💧 Water Resources Engineering
+## 3. Structural Engineering & Solid Mechanics
 
-### Fluid Mechanics & Hydraulics
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Fluid Mechanics** | R.K. Bansal | Laxmi Publications | ⭐⭐⭐ | Standard GATE textbook, many problems |
-| **Fluid Mechanics** | Modi & Seth | Standard Book House | ⭐⭐⭐ | Classic, comprehensive |
-| **Fluid Mechanics** | Fox, McDonald & Pritchard | Wiley | ⭐⭐ | Strong conceptual foundation |
-
-### Open Channel Flow
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Open Channel Flow** | K. Subramanya | Tata McGraw-Hill | ⭐⭐⭐ | Best for GATE, detailed GVF/RVF |
-| **Open Channel Hydraulics** | V.T. Chow | McGraw-Hill | ⭐⭐ | Classic reference, detailed theory |
-| **Flow in Open Channels** | K. Subramanya | Tata McGraw-Hill | ⭐⭐ | Good for problems |
-
-### Hydrology
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Engineering Hydrology** | K. Subramanya | Tata McGraw-Hill | ⭐⭐⭐ | Best for GATE, complete coverage |
-| **Hydrology** | H.M. Raghunath | New Age International | ⭐⭐ | Good for Indian context |
-| **Applied Hydrology** | V.T. Chow, D.R. Maidment, L.W. Mays | McGraw-Hill | ⭐⭐ | Advanced reference |
-
-### Groundwater
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Groundwater** | H.M. Raghunath | New Age International | ⭐⭐⭐ | Best for GATE, Indian conditions |
-| **Groundwater Hydrology** | D.K. Todd & L.W. Mays | Wiley | ⭐⭐ | International standard |
-| **Groundwater** | R.A. Freeze & J.A. Cherry | Prentice Hall | ⭐⭐ | Classic, theoretical depth |
+| Textbook Title | Author(s) | Publisher | Priority | Supported Repository Module | High-Yield Chapters & Concepts |
+|:---|:---|:---|:---:|:---|:---|
+| **Mechanics of Materials** | R.C. Hibbeler | Pearson | **P0** | [core/structures/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/structures/) | Ch 6 (Bending Stress & Flexure Formula), Ch 7 (Transverse Shear), Ch 9 (Stress Transformation & Mohr's Circle) |
+| **Limit State Design of Reinforced Concrete** | P.C. Varghese | PHI Learning | **P0** | [core/structures/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/structures/) | IS 456:2000 Limit State Philosophy, Singly/Doubly Reinforced Beams, Shear & Torsional reinforcement |
+| **Design of Steel Structures (Limit State)** | S.K. Duggal | Tata McGraw-Hill | **P0** | [core/structures/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/structures/) | IS 800:2007 Bolted/Welded Connections, Tension/Compression Members, Plate Girder stiffeners |
+| **Structural Analysis** | C.S. Reddy | Tata McGraw-Hill | **P1** | [core/structures/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/structures/) | Moment Distribution Method, Slope-Deflection, Flexibility & Stiffness Matrix Methods |
 
 ---
 
-## 🌍 Environmental Engineering
+## 4. Geotechnical & Foundation Engineering
 
-### Water Supply Engineering
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Water Supply Engineering** | B.C. Punmia, A.K. Jain, A.K. Jain | Laxmi Publications | ⭐⭐⭐ | Standard GATE textbook |
-| **Water Supply Engineering** | S.K. Garg | Khanna Publishers | ⭐⭐ | Good for design problems |
-| **CPHEEO Manual on Water Supply** | CPHEEO | MoHUA | ⭐⭐ | Official design manual |
-
-### Wastewater Engineering
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Wastewater Engineering** | B.C. Punmia, A.K. Jain, A.K. Jain | Laxmi Publications | ⭐⭐⭐ | Standard GATE textbook |
-| **Wastewater Engineering: Treatment and Reuse** | Metcalf & Eddy | McGraw-Hill | ⭐⭐⭐ | International standard, detailed |
-| **CPHEEO Manual on Sewerage** | CPHEEO | MoHUA | ⭐⭐ | Official design manual |
+| Textbook Title | Author(s) | Publisher | Priority | Supported Repository Module | High-Yield Chapters & Concepts |
+|:---|:---|:---|:---:|:---|:---|
+| **Soil Mechanics and Foundation Engineering** | Gopal Ranjan & A.S.R. Rao | New Age | **P0** | [core/geotech/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/geotech/) | Ch 5 (Compaction & Consolidation $C_c$), Ch 9 (Mohr-Coulomb Shear Strength), Ch 13 (Rankine & Coulomb Earth Pressure) |
+| **Principles of Foundation Engineering** | Braja M. Das | Cengage Learning | **P0** | [core/geotech/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/geotech/) | Terzaghi & Meyerhof bearing capacity equations, Pile group settlement, Negative skin friction |
+| **Soil Mechanics** | Lambe & Whitman | Wiley | **P1** | [core/geotech/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/core/geotech/) | Effective stress paths ($p-q$ diagrams), critical state soil mechanics |
 
 ---
 
-## 🛣️ Transportation Engineering
+## 5. Quantitative Aptitude & Mathematical Logic
 
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Highway Engineering** | S.K. Khanna & C.E.G. Justo | Nem Chand & Bros | ⭐⭐⭐ | Standard GATE textbook |
-| **Highway Engineering** | S.K. Khurmi | S. Chand | ⭐⭐ | Good for problems |
-| **Traffic Engineering** | R.J. Roess, E.S. Prassas, W.R. McShane | Pearson | ⭐⭐ | Modern approach |
-| **Principles of Transportation Engineering** | M.M. Mekonnen | Pearson | ⭐⭐ | Modern approach |
-
----
-
-## 📏 Surveying & Geomatics
-
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Surveying (Vol I & II)** | B.C. Punmia, A.K. Jain | Laxmi Publications | ⭐⭐⭐ | Standard GATE textbook |
-| **Surveying** | S.K. Duggal | Tata McGraw-Hill | ⭐⭐ | Good for modern surveying |
-| **Advanced Surveying** | P.B. Shah | Tata McGraw-Hill | ⭐⭐ | GPS, remote sensing |
+| Textbook Title | Author(s) | Publisher | Priority | Supported Repository Module | High-Yield Chapters & Concepts |
+|:---|:---|:---|:---:|:---|:---|
+| **Quantitative Aptitude for Competitive Examinations** | R.S. Aggarwal | S. Chand | **P0** | [aptitude/quant/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/quant/README.md) | Standard arithmetic problem archetypes, time & work, ratios, mixtures |
+| **Higher Engineering Mathematics** | B.S. Grewal | Khanna Publishers | **P0** | [aptitude/quant/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/quant/README.md) | Linear Algebra (Eigenvalues/Vectors), Multivariable Calculus, Ordinary Differential Equations |
+| **How to Prepare for Quantitative Aptitude for CAT** | Arun Sharma | McGraw-Hill | **P1** | [aptitude/quant/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/quant/README.md) | Level 2/3 Permutations & Combinations, Probability Bayes, Number Systems |
 
 ---
 
-## 🎯 GATE & Placement Specific
-
-### GATE Preparation
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **GATE Civil Engineering** | GK Publications | GK Publications | ⭐⭐⭐ | Topic-wise theory + PYQs |
-| **GATE Civil Engineering** | Made Easy Publications | Made Easy | ⭐⭐⭐ | Topic-wise theory + solutions |
-| **GATE Civil Engineering** | ACE Engineering Academy | ACE | ⭐⭐ | Good for practice |
-
-### Quantitative Aptitude
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **Quantitative Aptitude** | R.S. Aggarwal | S. Chand | ⭐⭐⭐ | Standard for all placement exams |
-| **Quantitative Aptitude for Competitive Exams** | Abhijit Guha | Tata McGraw-Hill | ⭐⭐ | Good for shortcuts |
-| **Fast Track Objective Arithmetic** | Rajesh Verma | Arihant | ⭐⭐ | Speed techniques |
-
-### Reasoning & Verbal
-| Book | Author | Publisher | Priority | Best For |
-|------|--------|-----------|----------|----------|
-| **A Modern Approach to Verbal & Non-Verbal Reasoning** | R.S. Aggarwal | S. Chand | ⭐⭐⭐ | Standard for reasoning |
-| **Word Power Made Easy** | Norman Lewis | Goyal Publishers | ⭐⭐⭐ | Vocabulary building |
-| **High School English Grammar & Composition** | Wren & Martin | S. Chand | ⭐⭐ | Grammar fundamentals |
-
----
-
-## 📚 Quick Reference: Top 10 Must-Have Books
-
-| # | Book | Subject | Why Essential |
-|---|------|---------|---------------|
-| 1 | **Higher Engineering Mathematics** by B.S. Grewal | Mathematics | Complete GATE math coverage |
-| 2 | **Strength of Materials** by R.K. Rajput | SOM | GATE problems, clear concepts |
-| 3 | **Structural Analysis** by C.S. Reddy | Structural Analysis | Matrix methods, GATE focused |
-| 4 | **Limit State Design of RCC** by P.C. Varghese | RCC Design | IS 456:2000 limit state |
-| 5 | **Design of Steel Structures** by S.K. Duggal | Steel Design | IS 800:2007 limit state |
-| 6 | **Soil Mechanics & Foundation Engg** by B.M. Das | Geotech | Complete GATE coverage |
-| 7 | **Engineering Hydrology** by K. Subramanya | Hydrology | Complete GATE coverage |
-| 8 | **Open Channel Flow** by K. Subramanya | OCF | GVF/RVF, hydraulic jump |
-| 9 | **Fluid Mechanics** by R.K. Bansal | Fluid Mechanics | Complete GATE coverage |
-| 10 | **Quantitative Aptitude** by R.S. Aggarwal | Aptitude | All placement exams |
-
----
-
-## 📖 How to Use These Books
-
-### For GATE Preparation
-1. **Start with one standard textbook per subject** (don't buy multiple for same topic)
-2. **Solve all worked examples** before attempting exercises
-3. **Mark important formulas** and create your own formula sheet
-4. **Solve previous year GATE questions** topic-wise after each chapter
-
-### For Placement Preparation
-1. **Focus on core civil subjects** for technical interviews
-2. **Use aptitude books** for daily 30-min practice
-3. **Refer to IS codes** (IS 456, IS 800, IS 1893) for design questions
-4. **Practice numerical problems** from textbooks for technical rounds
-
----
-
-## 🔗 Digital Resources
-
-| Resource | Link | Description |
-|----------|------|-------------|
-| **NPTEL Civil Engineering** | [nptel.ac.in](https://nptel.ac.in/courses/105/) | Free video lectures by IIT professors |
-| **MIT OpenCourseWare** | [ocw.mit.edu](https://ocw.mit.edu/courses/civil-and-environmental-engineering/) | Advanced topics |
-| **GATE Official Website** | [gate.iitkgp.ac.in](https://gate.iitkgp.ac.in) | Official syllabus, PYQs |
-| **NPTEL YouTube** | [YouTube NPTEL](https://www.youtube.com/user/nptelhrd) | Free lectures |
-
----
-
-## References
-
+## 6. Cross-Reference Links to Preparation Tracks
+- [Aptitude Formula Sheet](../aptitude/FORMULA_SHEET.md)
+- [Project & Thesis Defense Playbook](../prep/PROJECT_DEFENCE.md)
+- [Master Placement Readiness Scorecard](../prep/READINESS_SCORECARD.md)

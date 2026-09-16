@@ -1,66 +1,57 @@
-# GIS & Surveying Tools
+# GIS, Remote Sensing & Geospatial Intelligence Guide
+**Scope:** Hydraulics, Water Resources (HWRE), Environmental & Spatial Analytics  
+**Target Roles:** SME Water/GIS (Vassarlabs), GIS Analyst (GIST), Spatial Data Science, Smart Infrastructure  
+**Structure:** Operational Decision Matrix $\to$ Task-to-Tool Mapping $\to$ Interview Probes $\to$ Technical Evidence
 
-## Desktop GIS
+---
 
-| Software | Application |
-|----------|-------------|
-| [ArcGIS](https://www.esri.com/en-us/arcgis/about-arcgis/overview) | Full-featured GIS software by Esri |
-| [QGIS](https://qgis.org/) | Open-source GIS software |
-| [SAGA](https://saga-gis.sourceforge.io/) | GIS for editing and analyzing spatial data |
-| [GRASS GIS](https://grass.osgeo.org/) | GIS suite for geospatial data management, analysis, modeling |
-| [Global Mapper](https://www.globalmapper.com/) | GIS and remote sensing software |
-| [AutoCAD Map 3D](https://www.autodesk.com/products/autocad-map-3d/overview) | GIS and mapping software |
-| [OpenCities Map](https://www.bentley.com/software/opencities-map/) | Bentley geospatial mapping and infrastructure GIS |
+## 1. Geospatial Task-to-Tool Decision Matrix
 
-## 3D & Urban GIS
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        GEOSPATIAL PROBLEM-SOLVING DECISION TREE                        │
+├─────────────────────────┬───────────────────────────────┬──────────────────────────────┤
+│ Engineering Task        │ Primary Recommended Tool      │ Python / Open-Source Stack   │
+├─────────────────────────┼───────────────────────────────┼──────────────────────────────┤
+│ Watershed Delineation   │ QGIS / ArcGIS Spatial Analyst │ WhiteboxTools / GeoPandas    │
+│ Flood Inundation Models │ HEC-RAS (1D/2D) + RAS Mapper  │ GDAL / Rasterio / Shapely    │
+│ Satellite Remote Sensing│ Google Earth Engine (GEE)     │ Planetary Computer / Rasterio│
+│ Road Network & Routing  │ OSMnx / PostGIS (pgRouting)   │ NetworkX / GeoPandas         │
+│ Point Cloud LiDAR & DEM │ CloudCompare / PDAL           │ PyVista / Open3D             │
+└─────────────────────────┴───────────────────────────────┴──────────────────────────────┘
+```
 
-| Software | Application |
-|----------|-------------|
-| [ArcGIS CityEngine](https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview) | 3D urban design and modeling |
-| [Cesium](https://cesium.com/) | Platform for 3D geospatial visualization |
+---
 
-## Web GIS & Spatial Data
+## 2. Comprehensive Task, Tool & Interview Decision Guide
 
-| Software | Application |
-|----------|-------------|
-| [GeoServer](https://geoserver.org/) | Open-source server for sharing geospatial data |
-| [PostGIS](https://postgis.net/) | Spatial database extender for PostgreSQL |
-| [Mapbox](https://www.mapbox.com/) | Maps, geocoding, routing, and location APIs |
-| [Google Earth Engine](https://earthengine.google.com/) | Planetary-scale geospatial analysis |
-| [Kepler.gl](https://kepler.gl/) | Open-source geospatial analysis and visualization |
-| [Felt](https://felt.com/) | Collaborative cloud GIS |
+| Engineering & Analytics Task | Recommended Tool | Expected Level of Proficiency | Core Interview Topics & Technical Probes | Practical Project / Resume Evidence |
+|:---|:---|:---|:---|:---|
+| **Watershed & Catchment Delineation** | **QGIS / ArcGIS Pro** (Hydrology Toolset) | **Advanced:** Sink filling, Flow Direction (D8/D-infinity), Flow Accumulation, Stream Order (Strahler). | *"Explain the difference between D8 and D-infinity flow algorithms. How do flat areas/depressions distort flow routing?"* | Automated watershed delineation across $1,200\text{ km}^2$ river basin from $30\text{m}$ SRTM DEM. |
+| **Flood Inundation & Hazard Mapping** | **HEC-RAS 2D + QGIS** | **Intermediate–Advanced:** Mesh generation, Manning's $n$ spatial layering, boundary condition setup. | *"How do you couple 1D river hydraulics with 2D floodplain diffusion wave equations?"* | Hydrodynamic 2D flood inundation map for 100-year return period rainfall event. |
+| **Planetary Remote Sensing & LULC** | **Google Earth Engine (GEE)** | **Intermediate:** Cloud masking, Landsat/Sentinel-2 spectral indices ($\text{NDVI}, \text{NDWI}, \text{MNDWI}$). | *"Why is MNDWI superior to NDVI for water body extraction in urban built-up environments?"* | 10-year multi-temporal surface water body shrinkage analysis in GEE using JavaScript API. |
+| **Vector & Raster Data Pipelines** | **GeoPandas + Rasterio** | **Advanced:** CRS re-projection (EPSG:4326 vs UTM), spatial joins, affine transformations, raster zonal statistics. | *"What happens when you perform a spatial overlay between layers in different coordinate reference systems?"* | Python pipeline processing $50\text{GB}$ multi-band GeoTIFF satellite rainfall grids. |
+| **Spatial Database Management** | **PostgreSQL / PostGIS** | **Intermediate:** Spatial indexing (`GIST`), `ST_Intersects`, `ST_Buffer`, `ST_Distance_Sphere`, spatial aggregation. | *"How does a R-Tree or GIST index accelerate 2D nearest-neighbor spatial queries over standard B-Trees?"* | Scalable PostGIS database storing 500,000 hydrological monitoring sensor nodes. |
+| **LiDAR Point Cloud DEM Extraction** | **CloudCompare / PDAL** | **Intermediate:** Ground point classification (CSF filter), rasterization, Digital Surface Model ($\text{DSM}$) to $\text{DTM}$ filtering. | *"How do you isolate vegetation canopy from bare earth terrain in airborne LiDAR point clouds?"* | High-resolution $1\text{m}$ DTM generation for urban drainage channel grading. |
 
-## Remote Sensing & Photogrammetry
+---
 
-| Software | Application |
-|----------|-------------|
-| [ENVI](https://www.hexagon.com/products/geospatial-data-management/envi-software) | Remote sensing and image analysis |
-| [Agisoft Metashape](https://www.agisoft.com/) | Photogrammetry software |
-| [Pix4Dmapper](https://www.pix4d.com/) | Photogrammetry and drone mapping |
-| [OpenDroneMap](https://www.opendronemap.org/) | Open-source aerial imagery toolkit |
-| [RealityCapture](https://www.capturingreality.com/) | Photogrammetry software for 3D reconstruction |
-| [Autodesk ReCap Pro](https://www.autodesk.com/products/recap/overview) | Reality capture and point cloud processing |
+## 3. High-Frequency GIS & Remote Sensing Interview Q&A
 
-## Surveying & Point Clouds
+### Q1: "Explain the fundamental difference between Geographic Coordinate Systems (GCS) and Projected Coordinate Systems (PCS)."
+- **Defensible Response:**  
+  *"A Geographic Coordinate System (e.g., WGS84, EPSG:4326) defines locations on a 3D spherical/ellipsoidal surface using angular units (degrees of latitude and longitude). It cannot accurately measure linear distances or surface areas without distortion.*  
+  *A Projected Coordinate System (e.g., UTM Zone 44N, EPSG:32644) mathematically flattens the 3D ellipsoid onto a 2D Cartesian plane using linear units (meters), preserving specific properties (conformal, equal-area, or equidistant) for accurate engineering volume and distance calculations."*
 
-| Software | Application |
-|----------|-------------|
-| [Leica Cyclone 3DR](https://leica-geosystems.com/products/point-cloud-software/leica-cyclone-3dr) | Point cloud processing and mesh creation |
-| [Leica Infinity](https://leica-geosystems.com/products/survey-software/leica-infinity) | Survey data processing |
-| [Trimble Business Center](https://geospatial.trimble.com/en/products/trimble-business-center) | Survey CAD, GNSS, scanning, photogrammetry workflows |
-| [CloudCompare](https://www.cloudcompare.org/) | Open-source point cloud and mesh processing |
-| [Potree](https://potree.org/) | Web-based point cloud renderer |
+### Q2: "How do you calculate Normalized Difference Vegetation Index (NDVI) and Modified Normalized Difference Water Index (MNDWI)?"
+- **Defensible Response:**
+  - $\text{NDVI} = \frac{\text{NIR} - \text{Red}}{\text{NIR} + \text{Red}}$: Leverages high chlorophyll reflectance in Near-Infrared ($\text{NIR}$) and absorption in visible Red.
+  - $\text{MNDWI} = \frac{\text{Green} - \text{SWIR}}{\text{Green} + \text{SWIR}}$: Replaces $\text{NIR}$ with Short-Wave Infrared ($\text{SWIR}$) to suppress false positives from built-up urban concrete and asphalt, cleanly isolating open water bodies.
 
-## Python Geospatial Libraries
+---
 
-| Library | Application |
-|---------|-------------|
-| [GeoPandas](https://geopandas.org/) | Geospatial data analysis using pandas-like workflows |
-| [Shapely](https://shapely.readthedocs.io/) | Planar geometry operations for GIS and CAD |
-| [Rasterio](https://rasterio.readthedocs.io/) | Reading, writing, and processing raster datasets |
-| [PySAL](https://pysal.org/) | Spatial analysis and geostatistics |
-| [OSMnx](https://osmnx.readthedocs.io/) | Download and analyze street networks from OpenStreetMap |
-
-## References
-
-* Curated from [awesome-civil-engineering](https://github.com/mikeroyal/awesome-civil-engineering)
+## 4. Cross-Reference Links to Preparation Tracks
+- [Water Resources Mock Test (Test 04)](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md)
+- [Vassarlabs Placement Profile](../prep/company-profiles/civil-vassarlabs.md)
+- [GIST Geospatial Placement Profile](../prep/company-profiles/civil-gist.md)
+- [Core HWRE Curriculum](../core/hwre/README.md)
