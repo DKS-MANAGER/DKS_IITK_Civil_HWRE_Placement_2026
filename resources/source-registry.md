@@ -6,16 +6,19 @@
 
 ## 1. Evidentiary Provenance Classification Scheme
 
-Every numerical claim, company policy, interview format, and preparation benchmark across the repository is classified under one of four unambiguous evidentiary labels:
+Every numerical claim, company policy, interview format, and preparation benchmark across the repository is classified under one of six canonical evidentiary labels:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              THE 4 EVIDENTIARY STATUS LABELS                           │
+│                              THE 6 EVIDENTIARY STATUS LABELS                           │
 ├──────────────────────────┬─────────────────────────────────────────────────────────────┤
 │ Label                    │ Evidentiary Standard & Criteria                             │
 ├──────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ [VERIFIED]               │ Directly extracted from official institute placement files, │
-│                          │ corporate filings, or verified company job notifications.   │
+│ [VERIFIED]               │ Directly supported by authoritative, primary sources        │
+│                          │ (official institute placement files, papers, textbooks).    │
+├──────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ [SOURCE-DERIVED]         │ Faithfully extracted or adapted from cited external         │
+│                          │ repositories or engineering standards (BIS codes, handbooks)│
 ├──────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ [INFERRED]               │ Derived via verified mathematical calculations, statistical │
 │                          │ models, or systematic cross-referencing of verified data.   │
@@ -23,8 +26,11 @@ Every numerical claim, company policy, interview format, and preparation benchma
 │ [PREPARATION HEURISTIC]  │ Repository pedagogical design targets, pacing rules, and   │
 │                          │ competency screening benchmarks (not hard external laws).   │
 ├──────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ [USER / SELF-REPORTED]   │ Anecdotal testimony from past candidate interviews, alumni   │
+│ [SELF-REPORTED]          │ Anecdotal testimony from candidate interviews, alumni       │
 │                          │ debriefs, or student peer reviews.                          │
+├──────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ [PREDICTED]              │ Forward-looking estimates, hiring projections, or           │
+│                          │ anticipated market compensation ranges.                     │
 └──────────────────────────┴─────────────────────────────────────────────────────────────┘
 ```
 

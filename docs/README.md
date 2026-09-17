@@ -18,6 +18,7 @@
 
 | Guide | Purpose |
 |:------|:--------|
+| [IITK Placement Map](IITK_PLACEMENT_MAP.md) | **Institutional routing specifically for IIT Kanpur M.Tech Civil & HWRE candidates** |
 | [Tracks](TRACKS.md) | Track documentation (Core Civil, HWRE, Non-Core, Software) |
 | [Roles](ROLES.md) | Role documentation (role → track → topics → links) |
 | [Companies](COMPANIES.md) | Company index (company → domain → role → prep) |
@@ -30,9 +31,10 @@
 | Guide | Purpose |
 |:------|:--------|
 | [Preparation Workflow](PREPARATION_WORKFLOW.md) | Full system workflow (visual) |
+| [Assessment Architecture](ASSESSMENT_ARCHITECTURE.md) | **8-level assessment engine, scoring, pacing, and diagnostic loop** |
+| [Testing Guide](TESTING_GUIDE.md) | Practical test-taking guide across all 8 assessment levels |
 | [Interview Guide](INTERVIEW_GUIDE.md) | Technical + behavioural interview system |
 | [Behavioural & HR Guide](BEHAVIOURAL_HR_GUIDE.md) | Behavioural / HR preparation |
-| [Testing Guide](TESTING_GUIDE.md) | Testing system (topic → subject → mixed → role → mock) |
 | [Rapid Revision Guide](RAPID_REVISION_GUIDE.md) | 1-day / 3-day / 7-day revision |
 
 ---

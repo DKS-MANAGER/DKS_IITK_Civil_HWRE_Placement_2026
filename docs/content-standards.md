@@ -204,20 +204,22 @@ Before submitting new content, verify:
 
 ## Source & Evidence Policy
 
-Every claim must be labeled with an evidence level. See [SOURCE_POLICY.md](SOURCE_POLICY.md) for the full policy.
+Every factual claim, benchmark, and interview projection must be labeled with an evidence level. See [SOURCE_POLICY.md](SOURCE_POLICY.md) and [resources/source-registry.md](../resources/source-registry.md) for the complete policy and register.
 
-| Level | Label | Meaning |
-|:------|:------|:--------|
-| **VERIFIED** | ✅ | Confirmed against a reliable source |
-| **SOURCE-DERIVED** | 📚 | Derived from a named source |
-| **INFERRED** | 🔍 | Reasoned from first principles |
-| **PREDICTED** | ⚠️ | Forward-looking estimate (needs disclaimer) |
+| Level | Tag | Meaning & Standard |
+|:------|:----|:-------------------|
+| **VERIFIED** | `[VERIFIED]` | Confirmed against primary authoritative source (placement cell records, standard textbooks, IS codes, official company JDs). |
+| **SOURCE-DERIVED** | `[SOURCE-DERIVED]` | Derived or adapted faithfully from a cited external standard, syllabus, or technical reference. |
+| **INFERRED** | `[INFERRED]` | Derived by strict mathematical calculation or logical deduction from verified empirical premises. |
+| **PREPARATION HEURISTIC** | `[PREPARATION HEURISTIC]` | Recommended internal repository benchmark, pacing guideline, or diagnostic cutoff. Never claimed as official recruiter criteria. |
+| **SELF-REPORTED** | `[SELF-REPORTED]` | Candidate debriefs, alumni testimonies, and unverified student interview recollections. |
+| **PREDICTED** | `[PREDICTED]` | Forward-looking market projection, hiring trend estimate, or CTC forecast (requires explicit uncertainty disclaimer). |
 
 **Rules:**
-- Label every claim in technical content.
-- Name the source for VERIFIED / SOURCE-DERIVED.
-- Never present INFERRED as VERIFIED.
-- PREDICTED content (CTC, forecasts) must carry a disclaimer.
+- Label every empirical claim or benchmark in preparation and interview content.
+- Cite the canonical source for `[VERIFIED]` and `[SOURCE-DERIVED]` entries.
+- Never present `[INFERRED]` or `[PREPARATION HEURISTIC]` as `[VERIFIED]`.
+- All `[PREDICTED]` and `[SELF-REPORTED]` metrics must carry appropriate disclaimers.
 
 ---
 

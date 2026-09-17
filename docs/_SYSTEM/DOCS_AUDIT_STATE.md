@@ -1,6 +1,6 @@
 # DOCS Audit State
 
-> **Live tracking document for the `docs/` audit and rebuild.**
+> **Live tracking document for the `docs/` audit, rebuild, and repository synchronization.**
 > Maintained by the repository maintainer. Update after every meaningful change to `docs/`.
 
 ---
@@ -9,113 +9,68 @@
 
 | Field | Value |
 |:------|:------|
-| **Audit start** | 2026-09-06 |
-| **Audit scope** | Entire `docs/` directory + root `README.md` integration |
-| **Docs files inventoried** | 20 (10 top-level, 8 templates, 2 audit/source) |
-| **Files classified** | KEEP: 8 · IMPROVE: 4 · CREATE: 17 |
-| **Files created** | 17 (4 `_SYSTEM` + 13 user-facing guides) |
-| **Files modified** | 4 (README, start-here, placement-control-panel, content-standards) |
-| **Broken links found** | 0 (600 internal links verified) |
-| **Status** | COMPLETE |
+| **Audit Baseline** | 2026-09-06 (Initial architecture) |
+| **Last Synchronization Audit** | 2026-09-17 (Post-mock expansion & provenance unification) |
+| **Git Commit Anchor** | `bbc0e55` (Sectional assessments) + Docs Synchronization Commit |
+| **Audit Scope** | Entire `docs/` directory, assessment routing, provenance taxonomy, and root navigation |
+| **Docs Files Inventoried** | 43 total (24 top-level, 4 `_SYSTEM`, 9 templates, 5 audit, 1 sources) |
+| **Files Classified** | ACTIVE: 41 · ARCHIVE: 1 · AUDIT: 1 |
+| **Files Created (Sep 17 Sync)** | 2 (`IITK_PLACEMENT_MAP.md`, `ASSESSMENT_ARCHITECTURE.md`) |
+| **Files Synchronized (Sep 17 Sync)**| 6 (`TESTING_GUIDE.md`, `MASTER_NAVIGATION.md`, `PREPARATION_WORKFLOW.md`, `content-standards.md`, `SOURCE_POLICY.md`, `README.md`) |
+| **Broken Links Found** | 0 (All internal relative paths verified) |
+| **Status** | **SYNCHRONIZED & COMPLETE** |
 
 ---
 
-## Completed
+## Synchronization Log (2026-09-17)
 
-- [x] **Inventory** — Recursively inspected every file under `docs/` (see [`DOCS_FILE_MAP.md`](DOCS_FILE_MAP.md))
-- [x] **Classification** — Assigned KEEP / IMPROVE / MERGE / MOVE / DELETE / CREATE to every file
-- [x] **Purpose definition** — Documented what `docs/` must answer (repository understanding, navigation, usage, system docs)
-- [x] **Architecture design** — Final documentation architecture defined (see below)
-- [x] **`_SYSTEM/DOCS_FILE_MAP.md`** — Created
-- [x] **`_SYSTEM/DOCS_AUDIT_STATE.md`** — Created (this file)
-- [x] **`_SYSTEM/DOCS_LINK_AUDIT.md`** — Created
-- [x] **`_SYSTEM/DOCS_CONTENT_REGISTRY.md`** — Created
-- [x] **`docs/README.md`** — Rebuilt as documentation hub
-- [x] **`GETTING_STARTED.md`** — Created
-- [x] **`MASTER_NAVIGATION.md`** — Created
-- [x] **`TRACKS.md`** — Created
-- [x] **`ROLES.md`** — Created
-- [x] **`COMPANIES.md`** — Created
-- [x] **`HOW_TO_USE.md`** — Created
-- [x] **`INTERVIEW_GUIDE.md`** — Created
-- [x] **`BEHAVIOURAL_HR_GUIDE.md`** — Created
-- [x] **`TESTING_GUIDE.md`** — Created
-- [x] **`RAPID_REVISION_GUIDE.md`** — Created
-- [x] **`PREPARATION_WORKFLOW.md`** — Created
-- [x] **`SOURCE_POLICY.md`** — Created
-- [x] **`CONTENT_STANDARDS.md`** — Improved (source policy, naming, links, updates)
-- [x] **`CONTRIBUTING.md`** — Created
-- [x] **`start-here.md`** — Mojibake fixed + routed to GETTING_STARTED
-- [x] **`placement-control-panel.md`** — Mojibake fixed
-- [x] **Link validation** — Terminal-verified: 600 internal links, 0 broken
-- [x] **README integration** — Root README routes into docs/ correctly (115 links, 0 missing)
-- [x] **Mojibake fix** — start-here.md and placement-control-panel.md verified clean
+Following the major September 16–17 repository content expansion, the documentation layer underwent a comprehensive audit and synchronization:
 
----
-
-## Modified
-
-| File | Change |
-|:-----|:-------|
-| `README.md` | Rebuilt as documentation hub with START HERE flow |
-| `start-here.md` | Fixed mojibake; added link to GETTING_STARTED |
-| `placement-control-panel.md` | Fixed mojibake |
-| `content-standards.md` | Added source/evidence policy, naming, link, update conventions |
+- [x] **Assessment Architecture Formalized** (`docs/ASSESSMENT_ARCHITECTURE.md` created):
+  - Codified the definitive **8-Level Assessment Ladder** spanning Level 1 (Topic Diagnostics) to Level 8 (Full Live Simulation).
+  - Defined scoring formulas ($+1 / -0.25$), section-wise time budgets, and the 90-second skip rule.
+  - Implemented the 4-bucket error classification taxonomy ($C, A, T, M$) and the 6-step closed-loop retest engine.
+- [x] **Testing Guide Synchronized** (`docs/TESTING_GUIDE.md` updated):
+  - Removed obsolete 5-tier structure and deprecated `non-core/aptitude/` references.
+  - Aligned testing instructions with the new `aptitude/mocks/` suite (7 full mocks + Hard/Expert) and `aptitude/tests/section/` (5 tests, 140 questions).
+- [x] **IITK Placement Map Created** (`docs/IITK_PLACEMENT_MAP.md` created):
+  - Added dedicated institutional routing for IIT Kanpur M.Tech Civil & HWRE candidates.
+  - Mapped out the 6 key recruitment pathways: Core HWRE, CFD R&D, Infratech EPC, PSUs, Analytics, and Management Consulting.
+  - Formulated the 3-minute thesis presentation pitch (**P-A-R-I-C** framework) for academic project defense.
+- [x] **Provenance Taxonomy Unified**:
+  - Eliminated conflicting evidence models across `content-standards.md`, `SOURCE_POLICY.md`, and `resources/source-registry.md`.
+  - Established the unified canonical 6-tier system:
+    1. `[VERIFIED]`
+    2. `[SOURCE-DERIVED]`
+    3. `[INFERRED]`
+    4. `[PREPARATION HEURISTIC]`
+    5. `[SELF-REPORTED]`
+    6. `[PREDICTED]`
+- [x] **Master Navigation & Workflow Realigned** (`MASTER_NAVIGATION.md` & `PREPARATION_WORKFLOW.md`):
+  - Updated all paths to active root folders (`core/`, `aptitude/`, `non-core/`, `prep/`, `software-and-tech/`).
+  - Added direct routes to Layer 2 Sectional Tests and technical branching trees.
+  - Documented $\le 3$ clicks as a target design goal.
+- [x] **Documentation Hub Indexed** (`docs/README.md`):
+  - Integrated `IITK_PLACEMENT_MAP.md` and `ASSESSMENT_ARCHITECTURE.md` into primary navigation tables.
+- [x] **System Control Files Updated**:
+  - `DOCS_FILE_MAP.md` updated to 43 entries.
+  - `DOCS_AUDIT_STATE.md` updated to 2026-09-17 status.
 
 ---
 
-## Remaining
+## Maintenance & Governance Controls
 
-- [ ] Continuous maintenance: keep `DOCS_FILE_MAP.md` and `DOCS_CONTENT_REGISTRY.md` in sync with new files
-- [ ] Periodic link re-audit (run `python scripts/validate_index.py` + manual docs link check)
-- [ ] User journey re-test after any future docs changes
-
----
-
-## Next
-
-1. Verify all new docs files render correctly on GitHub
-2. Re-run link audit after any future edits
-3. Update this file after every meaningful change
+| Audit Dimension | Target Verification | Cadence | Next Audit Due |
+|:---|:---|:---:|:---:|
+| **Broken Link Check** | 0 dead relative Markdown links across repository | Weekly / Post-Commit | 2026-09-24 |
+| **Assessment Key Concordance** | 100% agreement between answer keys, choices, and explanations | Per test suite addition | Continuous |
+| **Provenance Label Compliance** | 100% empirical/placement claims tagged with canonical labels | Monthly | 2026-10-01 |
+| **Thesis Defense Relevance** | Current HWRE lab experimental & OpenFOAM mesh practices | Bi-monthly | 2026-10-15 |
 
 ---
 
-## Final Documentation Architecture
-
-```
-docs/
-├── README.md                    ← Documentation hub (START HERE)
-├── GETTING_STARTED.md           ← "I just cloned this repo. What do I do?"
-├── HOW_TO_USE.md                ← Practical user manual (workflows by scenario)
-├── MASTER_NAVIGATION.md         ← Single routing document (track/role/company)
-├── TRACKS.md                    ← Track documentation (Core Civil, HWRE, CFD, Non-Core)
-├── ROLES.md                     ← Role documentation (role → track → topics → links)
-├── COMPANIES.md                 ← Company index (company → domain → role → prep)
-├── INTERVIEW_GUIDE.md           ← Interview system (technical + behavioural)
-├── BEHAVIOURAL_HR_GUIDE.md      ← Behavioural / HR preparation guide
-├── TESTING_GUIDE.md             ← Testing system (topic → subject → mixed → role → mock)
-├── RAPID_REVISION_GUIDE.md      ← Rapid revision (1-day / 3-day / 7-day)
-├── PREPARATION_WORKFLOW.md      ← Full system workflow (visual)
-├── CONTENT_STANDARDS.md         ← Content quality gates (improved)
-├── SOURCE_POLICY.md             ← Source / evidence policy (VERIFIED / SOURCE-DERIVED / INFERRED / PREDICTED)
-├── CONTRIBUTING.md              ← Practical contribution guide
-├── start-here.md                ← Legacy onboarding (kept, fixed, routes to GETTING_STARTED)
-├── architecture.md              ← Canonical information architecture (kept)
-├── placement-control-panel.md   ← Command center (kept, fixed)
-├── roadmap.md                   ← Phased timeline (kept)
-├── setup.md                     ← GitHub setup checklist (kept)
-├── deep-critical-audit.md       ← Repository audit report (kept)
-├── templates/                   ← 8 canonical page templates (kept)
-├── audit/                       ← GATE-O-Pedia analysis (kept)
-├── sources/                     ← Source provenance (kept)
-└── _SYSTEM/
-    ├── DOCS_FILE_MAP.md         ← Complete file inventory
-    ├── DOCS_AUDIT_STATE.md      ← Live audit state (this file)
-    ├── DOCS_LINK_AUDIT.md       ← Link audit
-    └── DOCS_CONTENT_REGISTRY.md ← Content registry (prevents sprawl)
-```
-
----
-
-> **Last Updated:** 2026-09-06
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Last Verified:** 2026-09-17  
+> **Git Commit Baseline:** `bbc0e55`  
+> **Files Covered:** 43 docs files, 5 sectional tests, 7 mocks, 14 topic diagnostics  
+> **Status:** Fully Synchronized  
+> **Next Scheduled Audit:** 2026-09-24  

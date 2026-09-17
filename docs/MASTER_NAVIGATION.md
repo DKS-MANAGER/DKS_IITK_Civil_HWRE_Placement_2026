@@ -1,94 +1,95 @@
 # Master Navigation
 
-> **Single routing document.** Find any resource in ≤3 clicks by track, role, or company.
+> **Single routing document.** Find any resource in ≤3 clicks (Design Target) across tracks, roles, testing layers, or companies.
 
 ---
 
-## The Three Dimensions
+## 1. The Three Structural Dimensions
 
-The repository is organized along three orthogonal dimensions (see [architecture.md](architecture.md)):
+The repository organizes placement preparation along three orthogonal dimensions (see [architecture.md](architecture.md)):
 
-1. **Domain** — what subject/topic
-2. **Career Target** — what role you want
-3. **Preparation Stage** — learn / practice / interview / revise
-
----
-
-## Route by Track
-
-| Track | Entry Point |
-|:------|:------------|
-| Core Civil | [`core/README.md`](../core/README.md) |
-| HWRE / Water Resources | [`core/hwre/README.md`](../core/hwre/README.md) |
-| Non-Core | [`non-core/README.md`](../non-core/README.md) |
-| Software & Tech | [`software-and-tech/README.md`](../software-and-tech/README.md) |
-
-Full detail → [TRACKS.md](TRACKS.md)
-
----
-
-## Route by Role
-
-| Role | Entry Point |
-|:-----|:------------|
-| Civil / Structural Engineer | [`core/README.md`](../core/README.md) |
-| HWRE Engineer | [`core/hwre/README.md`](../core/hwre/README.md) |
-| Data / Business Analyst | [`non-core/README.md`](../non-core/README.md) |
-| Product Manager | [`non-core/README.md`](../non-core/README.md) |
-| Software Engineer | [`software-and-tech/README.md`](../software-and-tech/README.md) |
-
-Full detail → [ROLES.md](ROLES.md)
+```
+       DOMAIN (What subject?)
+         ├── Core Civil & HWRE
+         ├── Quantitative & Logical Aptitude
+         ├── Non-Core Business & Strategy
+         └── Software, Data & Computing
+                   ↓
+       CAREER TARGET (What corporate role?)
+         ├── Core HWRE / Water Resources / Infrastructure
+         ├── CFD / Hydrodynamics / Thermal Fluids R&D
+         ├── Public Sector Undertakings (PSUs)
+         ├── Management Consulting & Corporate Strategy
+         ├── Data Science, BI & Quantitative Analytics
+         └── Product Management & Technology Operations
+                   ↓
+       PREPARATION STAGE (What are you doing today?)
+         ├── Learn: Deep conceptual notes & governing equations
+         ├── Practice: Granular topic drills, sectionals & full mocks
+         ├── Interview: Branching question trees, case dialogues, STAR-L stories
+         └── Revise: Rapid revision sheets, formula cards & cheat sheets
+```
 
 ---
 
-## Route by Company
+## 2. Route by Preparation Track
 
-| Company Type | Entry Point |
-|:-------------|:------------|
-| PSU | [`prep/company-profiles/company-profiles.md`](../prep/company-profiles/company-profiles.md) |
-| Core Design / Consulting | same |
-| Analytics / Data Science | same |
-| Technology / Software | same |
-| Infrastructure / Real Estate | same |
+| Track | Core Coverage Scope | Primary Entry Point |
+|:------|:---|:------------|
+| **Core Civil Engineering** | Structures, Geotechnical, Transportation, Environmental | [`core/README.md`](../core/README.md) |
+| **HWRE & Hydrodynamics** | Open Channel Flow, Hydrology, CFD, Coastal, Groundwater | [`core/hwre/README.md`](../core/hwre/README.md) · [`core/hydrodynamics/`](../core/hydrodynamics/) |
+| **Aptitude & Reasoning** | 720 Quant Qs, 10 DI Chapters, 9 Verbal Modules, 14 Topic Tests, 5 Sectionals, 7 Full Mocks | [`aptitude/README.md`](../aptitude/README.md) |
+| **Non-Core & Consulting** | Consulting Cases, Business Fundamentals, Guesstimates, Finance, Product | [`non-core/README.md`](../non-core/README.md) |
+| **Software & Analytics** | Python, SQL, Git, Linux, C++, Data Structures & Algorithms | [`software-and-tech/README.md`](../software-and-tech/README.md) |
+| **Central Execution Hub** | Master Plan, Readiness Scorecard, Technical Bank, Company Profiles | [`prep/README.md`](../prep/README.md) |
 
-Full detail → [COMPANIES.md](COMPANIES.md)
-
----
-
-## Route by Preparation Stage
-
-| Stage | Entry Point |
-|:------|:------------|
-| **Learn** | [`core/`](../core/) · [`non-core/`](../non-core/) · [`software-and-tech/`](../software-and-tech/) |
-| **Practice** | [`questions/README.md`](../questions/README.md) · [`prep/mock-tests/README.md`](../prep/mock-tests/README.md) |
-| **Interview** | [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md) · [BEHAVIOURAL_HR_GUIDE.md](BEHAVIOURAL_HR_GUIDE.md) |
-| **Revise** | [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md) |
+*Full detail → [TRACKS.md](TRACKS.md) · [IITK_PLACEMENT_MAP.md](IITK_PLACEMENT_MAP.md)*
 
 ---
 
-## Master Index
+## 3. Route by Preparation Stage
 
-For topic-level search across all 50+ topics, use the [Master Index](../index/master_index.md).
+| Stage | What You Need | Primary Entry Points |
+|:------|:--------------|:---------------------|
+| **Learn** | Concept notes, derivations, IS codes | [`core/`](../core/) · [`aptitude/quant/`](../aptitude/quant/README.md) · [`non-core/common/`](../non-core/common/) |
+| **Practice (L1–L2)** | Topic diagnostics & pure domain sectionals | [`aptitude/tests/`](../aptitude/tests/README.md) · [`aptitude/tests/section/`](../aptitude/tests/section/README.md) |
+| **Mock (L3–L5)** | Full placement mocks & company OAs | [`aptitude/mocks/`](../aptitude/mocks/README.md) · [`prep/mock-tests/`](../prep/mock-tests/README.md) |
+| **Interview (L6–L7)**| Technical branching trees & case simulations | [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) · [`non-core/case-interviews/`](../non-core/case-interviews/case-simulation-suite.md) |
+| **Simulate (L8)** | 45-min end-to-end interview & scorecard | [`prep/MOCK_INTERVIEW.md`](../prep/MOCK_INTERVIEW.md) · [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) |
+| **Revise** | Formula sheets & rapid revision | [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md) · [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) |
 
 ---
 
-## Quick Reference Table
+## 4. Route by Placement Role & Recruiter Target
 
-| Need | Go to |
-|:-----|:------|
-| Where do I start? | [GETTING_STARTED.md](GETTING_STARTED.md) |
-| How do I use this daily? | [HOW_TO_USE.md](HOW_TO_USE.md) |
-| Which track? | [TRACKS.md](TRACKS.md) |
-| Which role? | [ROLES.md](ROLES.md) |
-| Which company? | [COMPANIES.md](COMPANIES.md) |
-| Interview prep | [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md) |
-| Behavioural / HR | [BEHAVIOURAL_HR_GUIDE.md](BEHAVIOURAL_HR_GUIDE.md) |
-| Testing / mocks | [TESTING_GUIDE.md](TESTING_GUIDE.md) |
-| Rapid revision | [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md) |
-| Full workflow | [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md) |
-| Content standards | [content-standards.md](content-standards.md) |
-| Source policy | [SOURCE_POLICY.md](SOURCE_POLICY.md) |
-| Contribute | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| Role Target | Target Companies at IITK | Core Prep Pathway | Testing & Interview Assets |
+|:---|:---|:---|:---|
+| **HWRE / Water Resources** | Vassarlabs, Rodic Consultants, DHI, AECOM | [`core/hwre/`](../core/hwre/) · [`resources/gis-tools.md`](../resources/gis-tools.md) | [Test 04 OA](../prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) · [Tech Bank](../prep/interview/technical/technical-interview-bank.md) |
+| **CFD / Hydrodynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS | [`core/hydrodynamics/`](../core/hydrodynamics/) · [`prep/PROJECT_DEFENCE.md`](../prep/PROJECT_DEFENCE.md) | [Test 03 CFD](../prep/mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) · [Navier-Stokes Tree](../prep/interview/technical/technical-interview-bank.md) |
+| **Core Civil Infrastructure** | L&T, Godrej Properties, Tata Projects, Afcons | [`core/structures/`](../core/structures/) · [`core/geotech/`](../core/geotech/) | [Test 01 General OA](../prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Civil Core Sectional](../aptitude/tests/section/sectional-civil-core-01.md) |
+| **PSU Engineering** | BPCL, HPCL, IOCL, ONGC, GAIL | [`core/`](../core/) · [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md) | [GATE Question Engine](../questions/README.md) · [Technical Interview Bank](../prep/interview/technical/technical-interview-bank.md) |
+| **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy& | [`non-core/consulting/`](../non-core/consulting/) · [`non-core/case-interviews/`](../non-core/case-interviews/) | [Full Mock 03/04](../aptitude/mocks/README.md) · [Case Simulation Suite](../non-core/case-interviews/case-simulation-suite.md) |
+| **Data Analytics / Tech PM** | Google, Amazon, Flipkart, Tiger Analytics | [`non-core/data-analyst/`](../non-core/data-analyst/) · [`non-core/product-management/`](../non-core/product-management/) | [Test 11/13 OAs](../prep/mock-tests/README.md) · [DI Sectional Test](../aptitude/tests/section/sectional-di-01.md) |
+
+*Full role profiles → [ROLES.md](ROLES.md) · [COMPANIES.md](COMPANIES.md)*
+
+---
+
+## 5. Master Navigation Index
+
+| Quick Link | Destination Document | Functional Purpose |
+|:-----------|:---------------------|:-------------------|
+| **Getting Started** | [GETTING_STARTED.md](GETTING_STARTED.md) | Onboarding orientation (first 15 minutes) |
+| **Daily How-To** | [HOW_TO_USE.md](HOW_TO_USE.md) | Daily study workflows by time & goal |
+| **IITK Placement Map** | [IITK_PLACEMENT_MAP.md](IITK_PLACEMENT_MAP.md) | Dedicated operational guide for IITK M.Tech candidates |
+| **Assessment Ladder** | [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) | Complete 8-level testing framework & score heuristics |
+| **Testing Guide** | [TESTING_GUIDE.md](TESTING_GUIDE.md) | Testing directory & error triage protocols |
+| **Readiness Control Panel** | [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) | 100-point composite readiness dashboard & mock logger |
+| **End-to-End Workflow** | [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md) | 6-stage lifecycle from Learn to Offer Letter |
+| **Technical Interview Bank**| [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) | 10 branching technical question trees |
+| **Consulting Simulations** | [`non-core/case-interviews/`](../non-core/case-interviews/case-simulation-suite.md) | Full dialogue case interview simulation suite |
+| **Content Standards** | [content-standards.md](content-standards.md) | 8 quality gates & definition of done |
+| **Source Provenance** | [SOURCE_POLICY.md](SOURCE_POLICY.md) · [`resources/source-registry.md`](../resources/source-registry.md) | 6-level canonical evidence taxonomy |
 
 ---
 
