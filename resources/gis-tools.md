@@ -51,7 +51,7 @@
 ---
 
 ## 4. Cross-Reference Links to Preparation Tracks
-- [Water Resources Mock Test (Test 04)](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md)
+- [Water Resources Mock Test (Test 04)](../prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md)
 - [Vassarlabs Placement Profile](../prep/company-profiles/civil-vassarlabs.md)
 - [GIST Geospatial Placement Profile](../prep/company-profiles/civil-gist.md)
 - [Core HWRE Curriculum](../core/hwre/README.md)

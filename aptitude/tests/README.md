@@ -9,7 +9,7 @@
 
 ## 1. Pedagogical Architecture & Diagnostic Function
 
-Topic tests constitute **Layer 2** of the IIT Kanpur Placement Testing System. Unlike full mixed mocks (which test multi-domain cognitive switching and speed endurance), topic tests diagnose **granular mathematical and logical competency** within isolated functional modules.
+Topic tests constitute **Layer 1** of the IIT Kanpur Placement Testing System. Unlike **Layer 2 Sectional Tests** ([aptitude/tests/section/](section/README.md), which test pure domain speed pacing) and **Layer 3 Full Placement Mocks** ([aptitude/mocks/](../mocks/README.md), which test multi-domain cognitive endurance), topic tests diagnose **granular mathematical and logical competency** within isolated functional modules.
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -55,11 +55,11 @@ After attempting any diagnostic test, log your score in [READINESS_SCORECARD.md]
 
 ```
 +------------------------------------------------------------------------------------+
-| RAW SCORE (Out of 15) | STATUS                 | RECOMMENDED ACTION PROTOCOL       |
+| RAW SCORE (Out of 15) | STATUS [PREP BENCHMARK]| RECOMMENDED ACTION PROTOCOL       |
 +-----------------------+------------------------+-----------------------------------+
-| 13.50 – 15.00         | 🟢 Mastered (99th %ile)| Proceed to Layer 3 Full Mocks     |
-| 11.00 – 13.25         | 🟡 Proficient (90th)   | Review distractor post-mortems    |
-| 8.00 – 10.75          | 🟠 Vulnerable (75th)   | Re-solve Level 4-6 module drills  |
+| 13.50 – 15.00         | 🟢 Tier 1 (High Select)| Proceed to Layer 2 Sectionals/Mocks|
+| 11.00 – 13.25         | 🟡 Tier 2 (Proficient) | Review distractor post-mortems    |
+| 8.00 – 10.75          | 🟠 Tier 3 (Vulnerable) | Re-solve Level 4-6 module drills  |
 | < 8.00                | 🔴 Critical Remediation| Full theoretical module re-read   |
 +------------------------------------------------------------------------------------+
 ```

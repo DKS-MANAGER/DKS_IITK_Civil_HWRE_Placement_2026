@@ -39,15 +39,15 @@ The verbal preparation suite contains **9 comprehensive chapters** comprising **
 
 | Module File | Target Domain | Question Count | Core Tested Competencies | Difficulty Span |
 |:---|:---|:---:|:---|:---:|
-| [reading-comprehension.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/reading-comprehension.md) | Dense Analytical Passages | **52 Qs** (8 Passages) | Main idea, global inference, author tone, structural role, micro-detail | Level 1 → Level 8 |
-| [critical-reasoning.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/critical-reasoning.md) | Argument Analysis & Logic | **40 Qs** | Assumptions, weaken/strengthen, paradoxes, causal flaws, boldface role | Level 1 → Level 8 |
-| [para-jumbles.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/para-jumbles.md) | Sentence Rearrangement | **40 Qs** | Mandatory pairs, anaphoric binding, contrast pivots, false openers | Level 1 → Level 8 |
-| [odd-sentence-out.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/odd-sentence-out.md) | Misfit Sentence Elimination | **40 Qs** | Semantic sub-topic drift, micro/macro mismatch, causal contradictions | Level 1 → Level 8 |
-| [grammar-error-spotting.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/grammar-error-spotting.md) | Error Identification | **40 Qs** | Subject-verb inversion, dangling modifiers, subjunctive mood, case | Level 1 → Level 8 |
-| [sentence-improvement.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/sentence-improvement.md) | Sentence Correction & Register | **40 Qs** | Nominalization elimination, comparative ellipsis, legal phrasing, conciseness | Level 1 → Level 8 |
-| [sentence-completion.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/sentence-completion.md) | Text Completion & Logic | **40 Qs** | Single/double/triple blanks, structural signposts, tone concordance | Level 1 → Level 8 |
-| [summary-inference.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/summary-inference.md) | Précis & Must-Be-True | **40 Qs** | Paragraph summary, necessary deductions, boldface sentence roles | Level 1 → Level 8 |
-| [vocabulary.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/vocabulary.md) | Diction & Etymology | **40 Qs** | Greek/Latin roots, "False Friends", confusing twins, contextual register | Level 1 → Level 8 |
+| [reading-comprehension.md](reading-comprehension.md) | Dense Analytical Passages | **52 Qs** (8 Passages) | Main idea, global inference, author tone, structural role, micro-detail | Level 1 → Level 8 |
+| [critical-reasoning.md](critical-reasoning.md) | Argument Analysis & Logic | **40 Qs** | Assumptions, weaken/strengthen, paradoxes, causal flaws, boldface role | Level 1 → Level 8 |
+| [para-jumbles.md](para-jumbles.md) | Sentence Rearrangement | **40 Qs** | Mandatory pairs, anaphoric binding, contrast pivots, false openers | Level 1 → Level 8 |
+| [odd-sentence-out.md](odd-sentence-out.md) | Misfit Sentence Elimination | **40 Qs** | Semantic sub-topic drift, micro/macro mismatch, causal contradictions | Level 1 → Level 8 |
+| [grammar-error-spotting.md](grammar-error-spotting.md) | Error Identification | **40 Qs** | Subject-verb inversion, dangling modifiers, subjunctive mood, case | Level 1 → Level 8 |
+| [sentence-improvement.md](sentence-improvement.md) | Sentence Correction & Register | **40 Qs** | Nominalization elimination, comparative ellipsis, legal phrasing, conciseness | Level 1 → Level 8 |
+| [sentence-completion.md](sentence-completion.md) | Text Completion & Logic | **40 Qs** | Single/double/triple blanks, structural signposts, tone concordance | Level 1 → Level 8 |
+| [summary-inference.md](summary-inference.md) | Précis & Must-Be-True | **40 Qs** | Paragraph summary, necessary deductions, boldface sentence roles | Level 1 → Level 8 |
+| [vocabulary.md](vocabulary.md) | Diction & Etymology | **40 Qs** | Greek/Latin roots, "False Friends", confusing twins, contextual register | Level 1 → Level 8 |
 | **TOTAL VERBAL SUITE** | **9 Core Modules** | **372 Questions** | **Comprehensive IIT Kanpur Postgraduate Placement Standard** | **Cat-1 → Cat-8** |
 
 ---
@@ -110,22 +110,22 @@ gantt
 
 ### Phase 1 (Week 1): Structural Syntax & Grammar Precision
 - Master the **6 Pillars of Advanced Grammar**: Subject-Verb Inversion, Dangling Participles, Correlative Parallelism, Mandative Subjunctive, Gerund Possessives, and Idiomatic Prepositions.
-- Complete all 40 questions in [grammar-error-spotting.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/grammar-error-spotting.md) and [sentence-improvement.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/sentence-improvement.md).
+- Complete all 40 questions in [grammar-error-spotting.md](grammar-error-spotting.md) and [sentence-improvement.md](sentence-improvement.md).
 - Target: Solve under 35 seconds per question with zero false-error traps.
 
 ### Phase 2 (Week 2): Critical Reasoning & Deductive Inference
 - Master argument mapping: Premise, Hidden Assumption, Counter-Premise, Conclusion.
 - Practice the **Negation Test** on assumption questions and strict boundary limits on Must-Be-True inference questions.
-- Complete all 40 questions in [critical-reasoning.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/critical-reasoning.md) and [summary-inference.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/summary-inference.md).
+- Complete all 40 questions in [critical-reasoning.md](critical-reasoning.md) and [summary-inference.md](summary-inference.md).
 
 ### Phase 3 (Week 3): Discourse Architecture & Jumble Rearrangement
-- Master the **Mandatory Pair (MP) Protocol** and false-opener elimination in [para-jumbles.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/para-jumbles.md).
-- Learn to detect **semantic sub-topic drift** and scope mismatches in [odd-sentence-out.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/odd-sentence-out.md).
+- Master the **Mandatory Pair (MP) Protocol** and false-opener elimination in [para-jumbles.md](para-jumbles.md).
+- Learn to detect **semantic sub-topic drift** and scope mismatches in [odd-sentence-out.md](odd-sentence-out.md).
 
 ### Phase 4 (Week 4): Reading Comprehension & Multi-Blank Precision
 - Practice active structural reading on dense academic passages (Philosophy of Science, Semiconductor Geopolitics, Quantitative Finance, Macroeconomics).
-- Complete all 52 questions across the 8 long passages in [reading-comprehension.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/reading-comprehension.md).
-- Solidify high-register vocabulary, Latin/Greek roots, and false friends in [sentence-completion.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/sentence-completion.md) and [vocabulary.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/vocabulary.md).
+- Complete all 52 questions across the 8 long passages in [reading-comprehension.md](reading-comprehension.md).
+- Solidify high-register vocabulary, Latin/Greek roots, and false friends in [sentence-completion.md](sentence-completion.md) and [vocabulary.md](vocabulary.md).
 
 ---
 

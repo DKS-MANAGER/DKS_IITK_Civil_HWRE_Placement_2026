@@ -26,15 +26,15 @@ This document provides verified institutional hiring data derived directly from 
 
 | Company | Role Title | Total CTC | Base / Fixed | Variable / Bonus | Deferred / Retention | Eligibility | Role Mock & Prep Strategy |
 |:---|:---|:---:|:---:|:---:|:---:|:---|:---|
-| **Larsen & Toubro (L&T)** | Management Trainee (MT) / PGET | **₹7.0L / ₹6.25L** | ₹6.0L / ₹5.5L | ₹1.0L / ₹0.75L | — | B.Tech / M.Tech Civil | [Civil General Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-lt.md) |
-| **Godrej Properties** | Asst. Manager — Project Execution | **₹24.0L** | ₹18.0L | ₹4.0L performance | ₹2.0L joining | M.Tech Civil / Construction | [Construction Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/02_CONSTRUCTION_MANAGEMENT_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-godrej-properties.md) |
+| **Larsen & Toubro (L&T)** | Management Trainee (MT) / PGET | **₹7.0L / ₹6.25L** | ₹6.0L / ₹5.5L | ₹1.0L / ₹0.75L | — | B.Tech / M.Tech Civil | [Civil General Mock](../prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-lt.md) |
+| **Godrej Properties** | Asst. Manager — Project Execution | **₹24.0L** | ₹18.0L | ₹4.0L performance | ₹2.0L joining | M.Tech Civil / Construction | [Construction Mock](../prep/mock-tests/02_CONSTRUCTION_MANAGEMENT_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-godrej-properties.md) |
 | **Thornton Tomasetti** | Engineer — Structural | **₹7.5–9.0L** | ₹7.5L | Performance bonus | — | M.Tech Structural / Civil | [Structural Prep](../core/structures/) · [Profile](../prep/company-profiles/civil-thornton-tomasetti.md) |
 | **Hilti Technology Solutions** | Graduate Engineer | **₹17.0L** | ₹14.0L | ₹2.0L | ₹1.0L retention | B.Tech / M.Tech Civil | [Fastening & Concrete](../core/structures/) · [Profile](../prep/company-profiles/civil-hilti.md) |
-| **Reliance New Energy** | Team Member — Geotech / Solar Infra | **₹20.0L** | ₹15.0L | — | ₹5.0L (3-yr vesting) | M.Tech Geotech / Civil | [Geotech Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/06_GEOTECHNICAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-reliance-new-energy.md) |
-| **Rodic Consultants** | Management Trainee (Water / Infra) | **₹8.0–8.5L** | ₹7.5L | ₹1.0L | — | M.Tech HWRE / Civil | [Water Resources Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-rodic.md) |
+| **Reliance New Energy** | Team Member — Geotech / Solar Infra | **₹20.0L** | ₹15.0L | — | ₹5.0L (3-yr vesting) | M.Tech Geotech / Civil | [Geotech Mock](../prep/mock-tests/06_GEOTECHNICAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-reliance-new-energy.md) |
+| **Rodic Consultants** | Management Trainee (Water / Infra) | **₹8.0–8.5L** | ₹7.5L | ₹1.0L | — | M.Tech HWRE / Civil | [Water Resources Mock](../prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-rodic.md) |
 | **SPECTRUM Techno Consultants**| Trainee Design Engineer | **₹8.0L** | ₹7.2L | ₹0.8L | — | M.Tech Structural / Civil | [Structural Analysis](../core/structures/) · [Profile](../prep/company-profiles/civil-spectrum.md) |
-| **Vassarlabs IT Solutions** | Subject Matter Expert — Water / GIS | **₹8.0L** | ₹7.2L | ₹0.8L | — | M.Tech HWRE / Remote Sensing | [Hydrodynamics CFD Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-vassarlabs.md) |
-| **ASC Infratech** | Trainee Engineer (Highways / Bridges)| **₹7.4L** | ₹6.8L | ₹0.6L | — | B.Tech / M.Tech Civil | [Transportation Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/05_TRANSPORTATION_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-asc-infratech.md) |
+| **Vassarlabs IT Solutions** | Subject Matter Expert — Water / GIS | **₹8.0L** | ₹7.2L | ₹0.8L | — | M.Tech HWRE / Remote Sensing | [Hydrodynamics CFD Mock](../prep/mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-vassarlabs.md) |
+| **ASC Infratech** | Trainee Engineer (Highways / Bridges)| **₹7.4L** | ₹6.8L | ₹0.6L | — | B.Tech / M.Tech Civil | [Transportation Mock](../prep/mock-tests/05_TRANSPORTATION_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-asc-infratech.md) |
 
 ---
 
@@ -42,7 +42,7 @@ This document provides verified institutional hiring data derived directly from 
 
 | Company | Role Title | Total CTC | Base / Fixed | Variable / Bonus | Deferred / Retention | Eligibility | Role Mock & Prep Strategy |
 |:---|:---|:---:|:---:|:---:|:---:|:---|:---|
-| **ITC Limited** | Asst. Under Training (AUT) — Projects | **₹31.25L** | ₹24.0L | ₹4.25L | ₹3.0L joining | All Civil PGs ($\ge 8.0\text{ CPI}$) | [Operations Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/12_OPERATIONS_RESEARCH_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-itc.md) |
+| **ITC Limited** | Asst. Under Training (AUT) — Projects | **₹31.25L** | ₹24.0L | ₹4.25L | ₹3.0L joining | All Civil PGs ($\ge 8.0\text{ CPI}$) | [Operations Mock](../prep/mock-tests/12_OPERATIONS_RESEARCH_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-itc.md) |
 | **BPCL** | Management Trainee | **₹20.1L** | ₹16.0L | Performance linked | Benefits + PF | Civil eligible via GATE/OA | [PSU & Energy Strategy](../prep/company-profiles/civil-bpcl.md) |
 | **Petronet LNG** | Graduate Engineer Trainee (GET) | **₹19.9L** | ₹15.5L | ₹2.4L | ₹2.0L | M.Tech Civil / Mechanical | [Industrial Infrastructure](../core/README.md) · [Profile](../prep/company-profiles/civil-petronet-lng.md) |
 | **HPCL** | Officer — Engineering | **₹17.4L** | ₹14.0L | Performance | Allowances | Civil eligible | [PSU Technical Bank](../prep/interview/technical/technical-interview-bank.md) · [Profile](../prep/company-profiles/civil-hpcl.md) |
@@ -50,7 +50,7 @@ This document provides verified institutional hiring data derived directly from 
 | **GIST Geospatial** | GIS Analyst / Spatial Modeler | **₹12.0L** | ₹10.5L | ₹1.5L | — | M.Tech HWRE / GIS | [GIS Tools Guide](gis-tools.md) · [Profile](../prep/company-profiles/civil-gist.md) |
 | **Smarttrak AI** | Structural Design Engineer (Solar) | **₹12.0L** | ₹10.0L | ₹2.0L | — | M.Tech Structural / Civil | [Structural Analysis](../core/structures/) · [Profile](../prep/company-profiles/civil-smarttrak.md) |
 | **TuTr Hyperloop** | CAE Engineer (Structures/Fluids) | **₹11.0L** | ₹9.5L | ₹1.5L | ESOPs | M.Tech HWRE / CFD / Mech | [OpenFOAM CFD Defense](../prep/PROJECT_DEFENCE.md) · [Profile](../prep/company-profiles/civil-tutr-hyperloop.md) |
-| **Reliance Industries (RPMG)** | GET — Civil Infrastructure | **₹9.0–10.5L** | ₹8.0L | ₹1.5L | ₹1.0L deferred | B.Tech / M.Tech Civil | [Civil General Mock](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-reliance-industries.md) |
+| **Reliance Industries (RPMG)** | GET — Civil Infrastructure | **₹9.0–10.5L** | ₹8.0L | ₹1.5L | ₹1.0L deferred | B.Tech / M.Tech Civil | [Civil General Mock](../prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Profile](../prep/company-profiles/civil-reliance-industries.md) |
 | **Dimension Renewables** | Offshore Structural Modeler | **₹8.0L** | ₹7.2L | ₹0.8L | — | M.Tech Ocean / Civil | [Fluid-Structure Hydrodynamics](../core/hydrodynamics/) · [Profile](../prep/company-profiles/civil-dimension-renewables.md) |
 
 ---

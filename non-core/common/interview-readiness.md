@@ -182,6 +182,6 @@ Use this objective evaluation rubric for peer mock interviews and self-recorded 
 ---
 
 ## 9. Next Steps in the Preparation Loop
-- Review role-specific deep dives in [Consulting](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/consulting/README.md), [Data Analyst](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/data-analyst/README.md), and [Product Management](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/product-management/README.md).
-- Complete the full topic and sectional assessments in [Aptitude Mocks](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/README.md).
+- Review role-specific deep dives in [Consulting](../consulting/README.md), [Data Analyst](../data-analyst/README.md), and [Product Management](../product-management/README.md).
+- Complete the full topic and sectional assessments in [Aptitude Mocks](../../aptitude/mocks/README.md).
 - Re-run mock interview video recordings against the 100-Point Scorecard until achieving $\ge 88.0$ consistently.

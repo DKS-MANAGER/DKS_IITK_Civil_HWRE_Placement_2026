@@ -17,14 +17,14 @@ A genuine corporate placement mock test is not merely a collection of topic exer
 +--------------------------+------------------------------------------+------------------------------+
 | Testing Tier             | Target Scope & Architecture              | Primary Pedagogical Function |
 +--------------------------+------------------------------------------+------------------------------+
-| Layer 1: Topic Tests     | 15–20 Questions per Topic                | Fine-grained skill diagnosis |
-| (aptitude/tests/topic/)  | Cat-8 Cognitive Hierarchy                | and formula mastery.         |
+| Layer 1: Topic Tests     | 15 Questions Timed (20 min)               | Fine-grained skill diagnosis |
+| [aptitude/tests/](../tests/README.md) | Cat-8 Cognitive Hierarchy (14 Tests)     | and formula mastery.         |
 +--------------------------+------------------------------------------+------------------------------+
 | Layer 2: Sectional Tests | 25–30 Questions Timed (30–40 min)        | Speed pacing across broad    |
-| (aptitude/tests/section/)| Quant, Reasoning, DI, Verbal             | domain categories.           |
+| [aptitude/tests/section/](../tests/section/README.md) | Quant, Reasoning, DI, Verbal, Civil      | domain categories.           |
 +--------------------------+------------------------------------------+------------------------------+
 | Layer 3: Full Mocks      | 50–60 Questions Timed (60–75 min)        | Exact corporate recruitment  |
-| (aptitude/mocks/)        | Interleaved Multi-Domain Mock Suite      | simulation with negative mk. |
+| [aptitude/mocks/](README.md) | Interleaved Multi-Domain Mock Suite      | simulation with negative mk. |
 +--------------------------+------------------------------------------+------------------------------+
 ```
 
@@ -51,26 +51,29 @@ Every mock in this repository utilizes standardized institutional scoring:
 - **Incorrect Answer:** $-0.25$ Mark (Standard) or $-0.33$ Mark (High-Selectivity)
 - **Unattempted Question:** $0.00$ Marks
 
-### Raw Score to IIT Kanpur Percentile Translation Matrix
+### Internal Preparation Benchmarking & Target Readiness Matrix [PREPARATION HEURISTIC]
+
+> [!NOTE]
+> **Methodological Note on Percentiles:** Percentiles are empirical population parameters requiring a standardized cohort distribution. The score bands below represent **internal preparation targets** calibrated to typical historical OA cutoffs, rather than formal statistical percentiles or official corporate guarantees.
 
 For a standard **50-Question / 60-Minute Mock Test**:
 
 ```
 +-----------------------------------------------------------------------------------+
-| RAW SCORE (Out of 50) | PERCENTILE BRACKET | TARGET CORPORATE SHORTLISTING TIER   |
+| RAW SCORE (Out of 50) | INTERNAL PREP BAND | TARGET PRACTICE CALIBER              |
 +-----------------------+--------------------+--------------------------------------+
-| 42.50 – 50.00         | 99.5th+ Percentile | Goldman Sachs Quant, WorldQuant,     |
-|                       |                    | McKinsey & Co., BCG Senior Associate |
+| 42.50 – 50.00         | Tier 1 Target      | High-Selectivity Quantitative Screening|
+|                       | (Top Readiness)    | (Advanced Quant / Strategy Profiles) |
 +-----------------------+--------------------+--------------------------------------+
-| 36.00 – 42.25         | 95.0th – 99.0th    | Bain & Co., Google PM, Morgan Stanley|
-|                       |                    | Tier-1 Analytics, ITC Management     |
+| 36.00 – 42.25         | Tier 2 Target      | Selective Non-Core / Analytics       |
+|                       | (Solid Shortlist)  | (Product, Strategy, Tier-1 Analytics)|
 +-----------------------+--------------------+--------------------------------------+
-| 30.00 – 35.75         | 85.0th – 94.0th    | Amazon SDE/BI, Unilever Commercial,  |
-|                       |                    | Core PSUs (IOCL, ONGC, HPCL)         |
+| 30.00 – 35.75         | Tier 3 Target      | Core Engineering / Tech Operations   |
+|                       | (Baseline Pass)    | (PSUs, Core Civil EPC, General Tech) |
 +-----------------------+--------------------+--------------------------------------+
-| 22.00 – 29.75         | 70.0th – 84.0th    | Standard Tech MNCs & Large IT Ops    |
+| 22.00 – 29.75         | Vulnerable         | Foundation Practice Required         |
 +-----------------------+--------------------+--------------------------------------+
-| < 22.00               | Below 70th         | Critical Gap: Diagnostic Remediate   |
+| < 22.00               | Below Threshold    | Critical Gap: Diagnostic Remediation |
 +-----------------------+--------------------+--------------------------------------+
 ```
 

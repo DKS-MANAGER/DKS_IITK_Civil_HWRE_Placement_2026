@@ -26,14 +26,14 @@ The `non-core/common/` directory serves as the universal foundation across all c
 
 | # | Module | Core Content & Objectives | Key Tools & Frameworks |
 |:---:|:---|:---|:---|
-| **01** | [**Resume Strategy**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/resume.md) | Defensible Civil $\to$ Non-Core reframing, action-verb taxonomy, metric validation, single-page campus format. | $XYZ$ bullet formula, quantifiable impact audits. |
-| **02** | [**Behavioral Stories**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/behavioral.md) | 10 competency archetypes (leadership, conflict, failure, data-driven decisions) with structured follow-up probes. | $\text{STAR-L}$ methodology, failure post-mortems. |
-| **03** | [**Business Fundamentals**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/business-fundamentals.md) | Quantitative business metrics, unit economics, P&L mechanics, EBITDA vs OCF, price-volume elasticity. | Mini-case quantitative reasoning, P&L cascading. |
-| **04** | [**Executive Communication**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/communication.md) | Structured thinking, top-down synthesis, Pyramid Principle, MECE issue decomposition, chart narration. | Answer-First, MECE Issue Trees, Executive Memos. |
-| **05** | [**HR & Cultural Fit**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/hr.md) | Comprehensive institutional HR question banks, why-this-company heuristics, logistical alignment. | Structured PPP, Company Research Scorecard. |
-| **06** | [**Interview Frameworks**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/interview-frameworks.md) | Dynamic framework selection under uncertainty, avoiding mechanical recitation, top-down structuring. | STAR, CARL, Issue Trees, 3C/4P, PREP. |
-| **07** | [**Aptitude Bridge**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/aptitude-bridge.md) | Direct translation of quantitative aptitude (percentages, DI, Bayes, probability) to business decision-making. | Mental math heuristics, statistical signal extraction. |
-| **08** | [**Interview Readiness & Simulation**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/interview-readiness.md) | Full 45-minute end-to-end simulation arc, 3-layer resume line-by-line defense, 100-point performance rubric. | PPP 90s intro, 3-layer interrogation pyramid, 100-pt scorecard. |
+| **01** | [**Resume Strategy**](resume.md) | Defensible Civil $\to$ Non-Core reframing, action-verb taxonomy, metric validation, single-page campus format. | $XYZ$ bullet formula, quantifiable impact audits. |
+| **02** | [**Behavioral Stories**](behavioral.md) | 10 competency archetypes (leadership, conflict, failure, data-driven decisions) with structured follow-up probes. | $\text{STAR-L}$ methodology, failure post-mortems. |
+| **03** | [**Business Fundamentals**](business-fundamentals.md) | Quantitative business metrics, unit economics, P&L mechanics, EBITDA vs OCF, price-volume elasticity. | Mini-case quantitative reasoning, P&L cascading. |
+| **04** | [**Executive Communication**](communication.md) | Structured thinking, top-down synthesis, Pyramid Principle, MECE issue decomposition, chart narration. | Answer-First, MECE Issue Trees, Executive Memos. |
+| **05** | [**HR & Cultural Fit**](hr.md) | Comprehensive institutional HR question banks, why-this-company heuristics, logistical alignment. | Structured PPP, Company Research Scorecard. |
+| **06** | [**Interview Frameworks**](interview-frameworks.md) | Dynamic framework selection under uncertainty, avoiding mechanical recitation, top-down structuring. | STAR, CARL, Issue Trees, 3C/4P, PREP. |
+| **07** | [**Aptitude Bridge**](aptitude-bridge.md) | Direct translation of quantitative aptitude (percentages, DI, Bayes, probability) to business decision-making. | Mental math heuristics, statistical signal extraction. |
+| **08** | [**Interview Readiness & Simulation**](interview-readiness.md) | Full 45-minute end-to-end simulation arc, 3-layer resume line-by-line defense, 100-point performance rubric. | PPP 90s intro, 3-layer interrogation pyramid, 100-pt scorecard. |
 
 ---
 
@@ -55,8 +55,8 @@ Step 5: Full Mock Simulation (interview-readiness.md)
 ---
 
 ## 4. Cross-Reference Links to Role Tracks
-- [Consulting Track](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/consulting/README.md)
-- [Data Analyst Track](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/data-analyst/README.md)
-- [Product Management Track](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/product-management/README.md)
-- [Quantitative Aptitude Suite](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/quant/README.md)
-- [Full Placement Mock Suite](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/README.md)
+- [Consulting Track](../consulting/README.md)
+- [Data Analyst Track](../data-analyst/README.md)
+- [Product Management Track](../product-management/README.md)
+- [Quantitative Aptitude Suite](../../aptitude/quant/README.md)
+- [Full Placement Mock Suite](../../aptitude/mocks/README.md)

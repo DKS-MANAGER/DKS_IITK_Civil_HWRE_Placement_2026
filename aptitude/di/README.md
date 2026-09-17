@@ -49,12 +49,12 @@ Every module follows an identical 8-level cognitive taxonomy designed to elimina
 
 | Target Sector | Top Recruiting Companies | Key Focus Modules | Common Question Archetypes |
 |:---|:---|:---|:---|
-| **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy&, Oliver Wyman | [Advanced DI Caselets](file:///aptitude/di/advanced-di-caselets.md)<br>[Tables & Caselets](file:///aptitude/di/tables-and-caselets.md)<br>[Data Comparison](file:///aptitude/di/data-comparison.md) | Price-Volume-Mix (PVM) decomposition, SaaS unit economics (CAC, LTV, Churn), market sizing, margin dilution |
-| **Quant Trading & Prop Shops** | Jane Street, WorldQuant, Optiver, Tower Research, Graviton | [Data Sufficiency](file:///aptitude/di/data-sufficiency.md)<br>[Data Comparison](file:///aptitude/di/data-comparison.md)<br>[Mixed Graphs](file:///aptitude/di/mixed-graphs.md) | Uniqueness proofs, 3-statement sufficiency, strict inequality bounds, normalization, Z-scores |
-| **Investment Banking & PE** | Goldman Sachs, Morgan Stanley, J.P. Morgan, Blackstone | [Advanced DI Caselets](file:///aptitude/di/advanced-di-caselets.md)<br>[Bar & Line Graphs](file:///aptitude/di/bar-and-line-graphs.md)<br>[Missing Data DI](file:///aptitude/di/missing-data-di.md) | LBO cash flow waterfalls, EBITDA bridge, debt repayment schedules, inventory working capital cycles |
-| **Tech Product & Analytics** | Google, Microsoft, Uber, Amazon, Flipkart | [Quantitative Caselets](file:///aptitude/di/quantitative-caselets.md)<br>[Mixed Graphs](file:///aptitude/di/mixed-graphs.md)<br>[Pie Charts](file:///aptitude/di/pie-charts.md) | Funnel conversion drops, multi-cohort retention matrices, A/B test relative lifts vs %-points |
-| **Core Engineering & PSUs** | IOCL, ONGC, NTPC, Tata Steel, L&T | [Radar & Stacked Area](file:///aptitude/di/radar-area-graphs.md)<br>[Bar & Line Graphs](file:///aptitude/di/bar-and-line-graphs.md)<br>[Tables & Caselets](file:///aptitude/di/tables-and-caselets.md) | Power grid merit-order dispatch, refinery yield balances, heat rate efficiency, equipment uptime |
-| **Banking & Public Service** | SBI PO, RBI Grade B, SEBI Grade A, IBPS PO | [Missing Data DI](file:///aptitude/di/missing-data-di.md)<br>[Data Sufficiency](file:///aptitude/di/data-sufficiency.md)<br>[Bar & Line Graphs](file:///aptitude/di/bar-and-line-graphs.md) | High-speed missing table in-fill, 3-statement sufficiency, compound interest and NPA trends |
+| **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy&, Oliver Wyman | [Advanced DI Caselets](advanced-di-caselets.md)<br>[Tables & Caselets](tables-and-caselets.md)<br>[Data Comparison](data-comparison.md) | Price-Volume-Mix (PVM) decomposition, SaaS unit economics (CAC, LTV, Churn), market sizing, margin dilution |
+| **Quant Trading & Prop Shops** | Jane Street, WorldQuant, Optiver, Tower Research, Graviton | [Data Sufficiency](data-sufficiency.md)<br>[Data Comparison](data-comparison.md)<br>[Mixed Graphs](mixed-graphs.md) | Uniqueness proofs, 3-statement sufficiency, strict inequality bounds, normalization, Z-scores |
+| **Investment Banking & PE** | Goldman Sachs, Morgan Stanley, J.P. Morgan, Blackstone | [Advanced DI Caselets](advanced-di-caselets.md)<br>[Bar & Line Graphs](bar-and-line-graphs.md)<br>[Missing Data DI](missing-data-di.md) | LBO cash flow waterfalls, EBITDA bridge, debt repayment schedules, inventory working capital cycles |
+| **Tech Product & Analytics** | Google, Microsoft, Uber, Amazon, Flipkart | [Quantitative Caselets](quantitative-caselets.md)<br>[Mixed Graphs](mixed-graphs.md)<br>[Pie Charts](pie-charts.md) | Funnel conversion drops, multi-cohort retention matrices, A/B test relative lifts vs %-points |
+| **Core Engineering & PSUs** | IOCL, ONGC, NTPC, Tata Steel, L&T | [Radar & Stacked Area](radar-area-graphs.md)<br>[Bar & Line Graphs](bar-and-line-graphs.md)<br>[Tables & Caselets](tables-and-caselets.md) | Power grid merit-order dispatch, refinery yield balances, heat rate efficiency, equipment uptime |
+| **Banking & Public Service** | SBI PO, RBI Grade B, SEBI Grade A, IBPS PO | [Missing Data DI](missing-data-di.md)<br>[Data Sufficiency](data-sufficiency.md)<br>[Bar & Line Graphs](bar-and-line-graphs.md) | High-speed missing table in-fill, 3-statement sufficiency, compound interest and NPA trends |
 
 ---
 
@@ -122,52 +122,52 @@ $$\Delta \text{Revenue} = \text{Revenue}_1 - \text{Revenue}_0 = \Delta_{\text{Vo
 
 ## 5. Module-by-Module Curriculum Guide
 
-### 1. [Bar and Line Graphs](file:///aptitude/di/bar-and-line-graphs.md)
+### 1. [Bar and Line Graphs](bar-and-line-graphs.md)
 - **Core Topics:** Single/grouped/stacked bar charts, dual-axis line charts, secondary axis scaling, index re-basing, CAGR, volume vs value divergence.
 - **Key Traps:** Left vs right Y-axis misattribution, non-zero truncated baselines, deceptive visual slopes.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 2. [Pie Charts](file:///aptitude/di/pie-charts.md)
+### 2. [Pie Charts](pie-charts.md)
 - **Core Topics:** Single pie degree/percentage conversions, concentric doughnuts, multi-year share shifts, sub-category decomposition.
 - **Key Traps:** Expanding percentage on a shrinking total base (Small-Base Fallacy), degree vs percent symbol confusion.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 3. [Tables and Caselets](file:///aptitude/di/tables-and-caselets.md)
+### 3. [Tables and Caselets](tables-and-caselets.md)
 - **Core Topics:** Dense multi-column financial statements, fleet routing matrices, SaaS cohort retention grids, conditional filtering.
 - **Key Traps:** Denominator misidentification, selective row exclusion, subtle footnote constraints.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 4. [Mixed Graphs](file:///aptitude/di/mixed-graphs.md)
+### 4. [Mixed Graphs](mixed-graphs.md)
 - **Core Topics:** Bar + Line + Pie cross-chart reconciliation, production-cost-profit pipelines, yield optimization.
 - **Key Traps:** Mismatched time horizons between charts, inconsistent currency/metric units across sources.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 5. [Data Sufficiency](file:///aptitude/di/data-sufficiency.md)
+### 5. [Data Sufficiency](data-sufficiency.md)
 - **Core Topics:** 2-Statement & 3-Statement sufficiency, geometric/algebraic uniqueness proofs, sufficiency vs calculability.
 - **Key Traps:** Statement 1 bias (carrying over Statement 1 assumptions into Statement 2), positive/negative root ambiguity.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 6. [Missing Data DI](file:///aptitude/di/missing-data-di.md)
+### 6. [Missing Data DI](missing-data-di.md)
 - **Core Topics:** Row/column sum conservation, inventory balance equations, single degree-of-freedom sweep, multi-cell linked systems.
 - **Key Traps:** Over-specifying equations, circular dependency loops, sign inversion in inventory reconciliation.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 7. [Quantitative Caselets](file:///aptitude/di/quantitative-caselets.md)
+### 7. [Quantitative Caselets](quantitative-caselets.md)
 - **Core Topics:** Translating unstructured descriptive text into algebraic models, multi-echelon supply chains, project scheduling.
 - **Key Traps:** Implicit constraints hidden in narrative prose, double-counting intermediate transshipments.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 8. [Advanced DI Caselets](file:///aptitude/di/advanced-di-caselets.md)
+### 8. [Advanced DI Caselets](advanced-di-caselets.md)
 - **Core Topics:** McKinsey/Bain/PE standards, LBO debt waterfall modeling, SaaS unit economics, multi-facility logistics dispatch.
 - **Key Traps:** Amortization interest tax shields, working capital lead-time drag, multi-product cannibalization.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 9. [Data Comparison](file:///aptitude/di/data-comparison.md)
+### 9. [Data Comparison](data-comparison.md)
 - **Core Topics:** Absolute vs percentage deltas, percentage point shifts, min-max normalization, Z-scores, Price-Volume-Mix.
 - **Key Traps:** Simpson's paradox, small-base mirage, comparing compounding frequencies without standardization.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.
 
-### 10. [Radar and Stacked Area Graphs](file:///aptitude/di/radar-area-graphs.md)
+### 10. [Radar and Stacked Area Graphs](radar-area-graphs.md)
 - **Core Topics:** Radial Kiviat geometry, polygon area calculations, stacked area layer subtraction, power grid merit-order dispatch.
 - **Key Traps:** Spoke-ordering area illusion (permuting axes changes area by 30%+), wavy baseline optical illusion.
 - **Problem Set:** 40 Questions (Levels 1–8) with complete solutions.

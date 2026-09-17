@@ -2,7 +2,7 @@
 
 > **Time Allowed:** 20 Minutes · **Questions:** 15 · **Marking Scheme:** $+1.00$ correct, $-0.25$ incorrect, $0.00$ unattempted  
 > **Diagnostic Focus:** Nominal vs Effective Yields, Multi-Period Compounding Differences, Installment Equated Cash Flows & Continuous Accumulations  
-> **Target Percentile Standard:** $\ge 12.50\text{ Marks} \implies 99\text{th Percentile}$ (High-Selectivity Shortlist)
+> **Target Preparation Standard:** $\ge 12.50 / 15.00\text{ Marks}$ (Internal Target Benchmark: High-Selectivity Cutoff [PREPARATION HEURISTIC])
 
 ---
 

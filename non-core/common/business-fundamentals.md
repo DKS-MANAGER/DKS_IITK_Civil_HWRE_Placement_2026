@@ -30,6 +30,14 @@ Revenue (Top Line)
 | **Operating Cash Flow ($OCF$)** | $\text{EBITDA} - \text{Taxes} - \Delta\text{WC}$ | True cash generated from operational cycle available for debt service and reinvestment. | Ignoring accounts receivable build-up when evaluating profitable growth. |
 | **Net Profit** | $\text{EBIT} - \text{Interest} - \text{Taxes}$ | Residual earnings available to equity shareholders ("Bottom Line"). | Forgetting interest payments on debt obligations. |
 
+> [!WARNING]
+> **Financial Governance Rule: EBITDA is NOT Operating Cash Flow ($OCF$)**  
+> EBITDA ($\text{EBIT} + \text{D\&A}$) measures operational accounting profitability before non-cash capital depreciation. It does **not** equal cash generated from operations because:
+> 1. **Working Capital Changes ($\Delta WC$):** Rapid revenue growth recognized on credit locks cash into unpaid receivables ($\text{AR}$), draining liquidity.
+> 2. **Taxes:** Income taxes must be settled in cash, not non-cash accounting items.
+> 3. **CapEx:** Physical plant, fleet, and hardware require maintenance capital expenditure just to sustain ongoing operations.  
+> *True Operating Cash Flow:* $\text{OCF} = \text{EBITDA} - \text{Taxes} - \Delta\text{WC}$. Always distinguish accounting earnings from liquid cash flow.
+
 ---
 
 ### 1.2 Quantitative Mini-Case: EBITDA vs. Operating Cash Flow Divergence
@@ -109,7 +117,11 @@ $$Q_{\text{required}} = \frac{20,00,000 + 20,00,000}{3,000} = \frac{40,00,000}{3
 - **CAC Payback Period:**
   $$\text{Payback Period (Months)} = \frac{CAC}{\text{Monthly ARPU} \times \text{Gross Margin \%}}$$
 
-### 3.2 Contextual LTV:CAC Benchmarks (Business-Model Specific Heuristics)
+### 3.2 Contextual LTV:CAC Benchmarks [PREPARATION HEURISTIC]
+
+> [!NOTE]
+> **Methodological Status: [PREPARATION HEURISTIC]**  
+> The $LTV:CAC$ ratio bands below represent private equity, venture capital, and corporate finance practitioner rules-of-thumb rather than empirical statistical distributions or strict company screening cutoffs. Use them to structure strategic interview recommendations, not as absolute mathematical laws.
 
 | Business Model Type | Typical Healthy $LTV:CAC$ | Why the Benchmark Differs | Danger Zone |
 |:---|:---:|:---|:---|

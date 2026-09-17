@@ -25,34 +25,37 @@
 
 ## 2. Multi-Dimensional Readiness Matrix
 
-| Preparation Dimension | Current Status | Key Governing Metric | Target Benchmark | Actual Score / Progress | Diagnostic Action Link |
+| Preparation Dimension | Current Status | Key Governing Metric | Target Benchmark | Observed Diagnostic Progress | Diagnostic Action Link |
 |:---|:---:|:---|:---:|:---:|:---|
-| **1. Resume & Claim Defense** | 🟢 | Unverified claims count / GCI error defense | $0$ weak claims, $100\%$ defense pass | $0$ unverified, 3-layer defense validated | [RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
-| **2. Quantitative Aptitude** | 🟢 | Accuracy across Hard+ (Cat-8 Level 3+) | $\ge 80.0\%$ | $86.5\%$ on 40-Q Quant modules | [aptitude/quant/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/quant/README.md) |
-| **3. Logical & Data Interpretation** | 🟢 | Caselet & multi-variable matrix error rate | $\le 10.0\%$ | $8.0\%$ error rate | [aptitude/di/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/di/README.md) |
-| **4. Verbal & Reading Comprehension** | 🟢 | CR & multi-hop passage inference accuracy | $\ge 85.0\%$ | $91.2\%$ accuracy | [aptitude/verbal/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/verbal/README.md) |
-| **5. Full Placement Mocks** | 🟢 | Progressive Mock Scores (Mock 01 to 05) | $\ge 75.0\%$ under $60\text{ min}$ | M01: $82\%$, M02: $84\%$, M03: $78\%$ | [aptitude/mocks/](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/README.md) |
-| **6. Core Technical (Civil/HWRE)** | 🟢 | OpenFOAM / Hydrodynamics / Hydrology depth | $\ge 85.0\%$ on core bank | $100\%$ covered | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| **7. Behavioral & HR Stories** | 🟢 | STAR-L stories tested under follow-up probes | $\ge 7$ distinct tested stories | $10$ stories scripted & audited | [behavioral/](behavioral/question-master-database.md) |
-| **8. Non-Core Business Reasoning** | 🟢 | EBITDA vs OCF, unit economics mini-cases | $\ge 85.0\%$ case solve rate | $100\%$ pass | [business-fundamentals.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/business-fundamentals.md) |
-| **9. Guesstimates & Case Structuring** | 🟡 | MECE issue decomposition & sanity checking | $\ge 80.0\%$ on 7-pt rubric | $76.0\%$ (speed bottleneck) | [CASE_GD.md](CASE_GD.md) |
-| **10. End-to-End Mock Interview** | 🟢 | 100-Point Scorecard composite grade | $\ge 85.0 / 100$ | $88.5 / 100$ | [interview-readiness.md](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/non-core/common/interview-readiness.md) |
+| **1. Resume & Claim Defense** | 🟢 | Unverified claims count / GCI error defense | $0$ weak claims, $100\%$ defense pass | $0$ unverified, 3-layer defense validated `[SELF-REPORTED]` | [RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
+| **2. Quantitative Aptitude** | 🟢 | Accuracy across Hard+ (Cat-8 Level 3+) | $\ge 80.0\%$ | $86.5\%$ on 40-Q Quant modules `[OBSERVED IN TIMED RUN]` | [aptitude/quant/](../aptitude/quant/README.md) |
+| **3. Logical & Data Interpretation** | 🟢 | Caselet & multi-variable matrix error rate | $\le 10.0\%$ | $8.0\%$ error rate `[OBSERVED IN TIMED RUN]` | [aptitude/di/](../aptitude/di/README.md) |
+| **4. Verbal & Reading Comprehension** | 🟢 | CR & multi-hop passage inference accuracy | $\ge 85.0\%$ | $91.2\%$ accuracy `[OBSERVED IN TIMED RUN]` | [aptitude/verbal/](../aptitude/verbal/README.md) |
+| **5. Full Placement Mocks** | 🟢 | Progressive Mock Scores (Mock 01 to 05) | $\ge 75.0\%$ under $60\text{ min}$ | M01: $82\%$, M02: $84\%$, M03: $78\%$ `[OBSERVED IN TIMED RUN]` | [aptitude/mocks/](../aptitude/mocks/README.md) |
+| **6. Core Technical (Civil/HWRE)** | 🟢 | OpenFOAM / Hydrodynamics / Hydrology depth | $\ge 85.0\%$ on core bank | $100\%$ syllabus covered `[SELF-REPORTED]` | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
+| **7. Behavioral & HR Stories** | 🟢 | STAR-L stories tested under follow-up probes | $\ge 7$ distinct tested stories | $10$ stories scripted & audited `[SELF-REPORTED]` | [behavioral/](behavioral/question-master-database.md) |
+| **8. Non-Core Business Reasoning** | 🟢 | EBITDA vs OCF, unit economics mini-cases | $\ge 85.0\%$ case solve rate | $100\%$ pass on core cases `[OBSERVED IN TIMED RUN]` | [business-fundamentals.md](../non-core/common/business-fundamentals.md) |
+| **9. Guesstimates & Case Structuring** | 🟡 | MECE issue decomposition & sanity checking | $\ge 80.0\%$ on 7-pt rubric | $76.0\%$ (speed bottleneck) `[OBSERVED IN TIMED RUN]` | [CASE_GD.md](CASE_GD.md) |
+| **10. End-to-End Mock Interview** | 🟢 | 100-Point Scorecard composite grade | $\ge 85.0 / 100$ | $88.5 / 100$ `[OBSERVED IN TIMED RUN]` | [interview-readiness.md](../non-core/common/interview-readiness.md) |
 
 ---
 
 ## 3. Objective Assessment Tracking & Velocity Metrics
 
+> [!NOTE]
+> **Evidentiary Standard:** Scores below reflect individual timed practice runs (`[OBSERVED IN TIMED RUN]`). Benchmarks reflect internal aspirational cutoff targets (`[PREPARATION HEURISTIC]`), not empirical population percentiles.
+
 ### 3.1 Full Aptitude Mock Progression Log
 
-| Mock Examination | Target Standard | Total Score ($+1 / -0.25$) | Net Percentile | Median Time / Q | Hard+ Accuracy | Status | Retest Required? |
+| Mock Examination | Target Standard | Total Score ($+1 / -0.25$) | Target Benchmark Tier `[PREPARATION HEURISTIC]` | Median Time / Q | Hard+ Accuracy | Status | Retest Required? |
 |:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| [**Mock 01**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-01.md) | Diagnostic Baseline | $41.25 / 50.00$ ($82.5\%$) | $94.2\text{th}$ | $68\text{ s}$ | $78.0\%$ | 🟢 Cleared | No |
-| [**Mock 02**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-02.md) | Standard Placement | $42.00 / 50.00$ ($84.0\%$) | $95.8\text{th}$ | $65\text{ s}$ | $81.5\%$ | 🟢 Cleared | No |
-| [**Mock 03**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-03.md) | Competitive Mixed | $39.50 / 50.00$ ($79.0\%$) | $93.0\text{th}$ | $71\text{ s}$ | $75.0\%$ | 🟢 Cleared | No |
-| [**Mock 04**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-04.md) | High-Bar Flagship | $38.75 / 50.00$ ($77.5\%$) | $92.5\text{th}$ | $72\text{ s}$ | $73.0\%$ | 🟢 Cleared | No |
-| [**Mock 05**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/full-placement-mock-05.md) | Institutional Caliber | $40.50 / 50.00$ ($81.0\%$) | $95.1\text{th}$ | $69\text{ s}$ | $77.5\%$ | 🟢 Cleared | No |
-| [**Hard Mock 01**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/hard-placement-mock-01.md) | High-Pressure Selective | $46.50 / 60.00$ ($77.5\%$) | $96.5\text{th}$ | $70\text{ s}$ | $76.0\%$ | 🟢 Cleared | No |
-| [**Expert Mock 01**](file:///f:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026/aptitude/mocks/expert-placement-mock-01.md) | Extreme Multi-Caselets | $37.25 / 50.00$ ($74.5\%$) | $97.2\text{th}$ | $71\text{ s}$ | $72.0\%$ | 🟢 Cleared | No |
+| [**Mock 01**](../aptitude/mocks/full-placement-mock-01.md) | Diagnostic Baseline | $41.25 / 50.00$ ($82.5\%$) | Tier 2 Target (Benchmark Met) | $68\text{ s}$ | $78.0\%$ | 🟢 Cleared | No |
+| [**Mock 02**](../aptitude/mocks/full-placement-mock-02.md) | Standard Placement | $42.00 / 50.00$ ($84.0\%$) | Tier 2 Target (Benchmark Met) | $65\text{ s}$ | $81.5\%$ | 🟢 Cleared | No |
+| [**Mock 03**](../aptitude/mocks/full-placement-mock-03.md) | Competitive Mixed | $39.50 / 50.00$ ($79.0\%$) | Tier 2 Target (Benchmark Met) | $71\text{ s}$ | $75.0\%$ | 🟢 Cleared | No |
+| [**Mock 04**](../aptitude/mocks/full-placement-mock-04.md) | High-Bar Flagship | $38.75 / 50.00$ ($77.5\%$) | Tier 2 Target (Benchmark Met) | $72\text{ s}$ | $73.0\%$ | 🟢 Cleared | No |
+| [**Mock 05**](../aptitude/mocks/full-placement-mock-05.md) | Institutional Caliber | $40.50 / 50.00$ ($81.0\%$) | Tier 2 Target (Benchmark Met) | $69\text{ s}$ | $77.5\%$ | 🟢 Cleared | No |
+| [**Hard Mock 01**](../aptitude/mocks/hard-placement-mock-01.md) | High-Pressure Selective | $46.50 / 60.00$ ($77.5\%$) | Tier 1 Target (Benchmark Met) | $70\text{ s}$ | $76.0\%$ | 🟢 Cleared | No |
+| [**Expert Mock 01**](../aptitude/mocks/expert-placement-mock-01.md) | Extreme Multi-Caselets | $37.25 / 50.00$ ($74.5\%$) | Tier 1 Target (High-Selectivity Met) | $71\text{ s}$ | $72.0\%$ | 🟢 Cleared | No |
 
 ---
 
@@ -98,16 +101,17 @@ To ensure clarity on which mock or assessment to take at each stage:
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             THE 6-TIER ASSESSMENT HIERARCHY                              │
+│                             THE 7-TIER ASSESSMENT HIERARCHY                              │
 ├──────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
 │ Tier                     │ Evaluation Target           │ Primary File Repository         │
 ├──────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ Tier 1: Aptitude Mocks   │ General OA screening        │ aptitude/mocks/ (M01 to M05)    │
-│ Tier 2: Topic Tests      │ Granular topic diagnostics  │ aptitude/tests/ (15-Q tests)    │
-│ Tier 3: Role OA Mocks    │ Company-specific technical  │ prep/mock-tests/ (25 tests)     │
-│ Tier 4: Case Simulation  │ Consulting & Product cases  │ non-core/case-interviews/       │
-│ Tier 5: Behavioral Mocks │ HR & Leadership probes      │ prep/behavioral/ & common/hr.md │
-│ Tier 6: Full Live Sim    │ End-to-end 45-min interview │ prep/MOCK_INTERVIEW.md          │
+│ Tier 1: Full Mocks       │ General OA multi-domain sim │ aptitude/mocks/ (7 full mocks)  │
+│ Tier 2: Sectional Tests  │ Domain pacing (30-40 min)   │ aptitude/tests/section/ (4 tests│
+│ Tier 3: Topic Tests      │ Granular topic diagnostics  │ aptitude/tests/ (14 tests)      │
+│ Tier 4: Role OA Mocks    │ Company-specific technical  │ prep/mock-tests/ (25 tests)     │
+│ Tier 5: Case Simulation  │ Consulting & Product cases  │ non-core/case-interviews/       │
+│ Tier 6: Behavioral Mocks │ HR & Leadership probes      │ prep/behavioral/ & common/hr.md │
+│ Tier 7: Full Live Sim    │ End-to-end 45-min interview │ prep/MOCK_INTERVIEW.md          │
 └──────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
 ```
 

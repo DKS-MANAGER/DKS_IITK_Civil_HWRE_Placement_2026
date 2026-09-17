@@ -17,7 +17,7 @@
 
 ## Case 1: Restaurant Profitability
 
-**Prompt:** "A chain of 12 restaurants in Mumbai has seen profits drop 20% over the past year, despite revenue remaining flat. The CEO wants to understand why and get recommendations."
+**Prompt:** "A chain of 12 restaurants in Mumbai has seen profits drop 40% over the past year (from ₹3.0 Cr to ₹1.8 Cr), despite revenue remaining flat at ₹12 Cr. The CEO wants to understand why and get recommendations."
 
 ### Structure (Try Before Looking)
 
@@ -272,10 +272,11 @@
 | **Total** | **570** | **800** | **+40%** |
 
 **Analysis:**
-- Land acquisition (+₹60 Cr): 75% of the total overrun. Causes: delayed acquisition, litigation, increased circle rates.
-- Bridges (+₹30 Cr): Design changes during construction, unexpected soil conditions at pier foundations.
-- Contingency (+₹100 Cr): Used to cover scope changes, weather delays, and rework.
-- Earthwork and pavement are close to budget — execution was fine.
+- Land acquisition (+₹60 Cr): 26.1% of the total project overrun (₹60 Cr / ₹230 Cr total overrun; a +50% surge over original land budget). Causes: delayed acquisition, compensation litigation, increased state circle rates.
+- Contingency (+₹100 Cr): 43.5% of total overrun. Used to cover scope changes, severe monsoon washouts, and contractor claims.
+- Bridges & Crossings (+₹30 Cr): 13.0% of total overrun. Design alterations during execution, unexpected scour and soil conditions at pier foundations.
+- Project Management (+₹20 Cr): 8.7% of total overrun. Extended project schedule directly inflated supervision, idling, and consultant billing.
+- Earthwork (+₹10 Cr) and Pavement (+₹10 Cr): Together 8.7% of total overrun — execution was relatively disciplined (+12% and +7% respectively).
 
 **Recommendation:**
 1. **Land:** Front-load acquisition by 12 months, use direct purchase over acquisition proceedings where possible
