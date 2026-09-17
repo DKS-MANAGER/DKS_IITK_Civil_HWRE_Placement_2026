@@ -153,25 +153,35 @@ Excel → Quantity Surveying → IS 1200 (measurement)
 
 ## Interview Defense Pattern
 
-For any tool, connect: **Tool → Theory → Setting → Result → Interpretation**
+For any engineering software, structure your interview defense using the five-step chain:
+**Tool → Governing Theory → Setting / Input Choice → Analytical Result → Engineering Interpretation**
+
+> [!NOTE]
+> Numerical values below are **illustrative examples**. In actual interview defenses, always explicitly state your load combinations, code references, boundary assumptions, and project acceptance criteria.
 
 ```
-Example (HEC-RAS):
+Illustrative Example 1 (HEC-RAS — 1D Backwater Defense):
     Tool: HEC-RAS
-    Theory: Energy equation, Manning's equation
-    Setting: Manning's n = 0.035 (main channel)
-    Result: Water surface = 102.4 m at section 3
-    Interpretation: "The water surface rises 0.8m above normal depth due to
-                    bridge constriction — consistent with backwater theory"
+    Governing Theory: 1D Standard Step Method, Energy Equation, Manning's Equation
+    Illustrative Setting: Manning's n = 0.035 (calibrated for natural gravel bed with slight meander)
+    Simulated Result: Water surface elevation = 102.40 m at River Station 3.00
+    Engineering Interpretation:
+    "The modeled water surface exhibits a 0.80 m backwater rise upstream of the pier
+     contraction relative to uniform flow depth. This conforms to specific energy
+     conservation through a constricted cross-section under subcritical regime (Fr < 1.0)."
 ```
 
 ```
-Example (ETABS):
+Illustrative Example 2 (ETABS — Seismic Drift Check Defense):
     Tool: ETABS
-    Theory: Response spectrum analysis (IS 1893)
-    Setting: Zone III, R=5, I=1
-    Result: Inter-story drift = 0.0035
-    Interpretation: "Drift is below the 0.004 limit — the lateral system is adequate"
+    Governing Theory: Dynamic Response Spectrum Analysis (Modal Combination via CQC)
+    Illustrative Setting: IS 1893:2016 Zone III (Z = 0.16), SMRF (R = 5), Medium Soil (Type II), I = 1.0
+    Simulated Result: Maximum elastic inter-story drift ratio = 0.0032 under DL + 0.8LL + 1.2EQX
+    Engineering Interpretation:
+    "Under this illustrative load combination, the maximum computed elastic drift ratio of
+     0.0032 satisfies the permissible limit of 0.0040 specified under IS 1893:2016 Cl 7.11.1.
+     However, full lateral compliance also requires verifying P-Delta amplification,
+     torsional irregularity limits (< 1.5), and soft-story stiffness criteria."
 ```
 
 ---

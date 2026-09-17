@@ -105,7 +105,7 @@ It covers both **Core Civil** and **Non-Core / Tech-Adjacent** roles.
 | [**M.Tech Advantage**](mtech-advantage.md) | Research → software → industry role | 1 |
 | [**Tool Deep-Dives**](deep-dives/README.md) | Hands-on step-by-step walkthroughs | 8 |
 
-**Total: 58 files across 25 directories** (including new role-matrix, tool pages, practice & test systems)
+**Total: 71 files across 27 subdirectories** (including canonical tool pages, deep-dives, branch tech, programming, practice & test systems)
 
 ---
 
@@ -159,7 +159,7 @@ The [**Tool Deep-Dives**](deep-dives/README.md) directory provides step-by-step 
 | Core Civil Subjects | [`core/`](../core/) |
 | Non-Core Placement | [`non-core/`](../non-core/) |
 | Behavioral / HR | [`prep/behavioral/`](../prep/behavioral/) |
-| Aptitude | [`non-core/aptitude/`](../non-core/aptitude/) |
+| Aptitude Assessment | [`aptitude/`](../aptitude/) |
 | GIS Tools (Existing) | [`resources/gis-tools.md`](../resources/gis-tools.md) |
 | Transportation Software (Existing) | [`core/transportation/transportation-software.md`](../core/transportation/transportation-software.md) |
 | Technical Stack (Existing) | [`non-core/analytics/technical-stack.md`](../non-core/analytics/technical-stack.md) |
