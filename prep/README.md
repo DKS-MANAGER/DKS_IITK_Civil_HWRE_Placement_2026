@@ -54,7 +54,7 @@ Aligned with the authoritative [Assessment Architecture](../docs/ASSESSMENT_ARCH
 ├──────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
 │ Level                    │ Evaluation Target           │ Primary Live Repository         │
 ├──────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ Level 1: Topic Tests     │ Granular topic diagnostics  │ [aptitude/tests/](../aptitude/tests/) (14 diagnostic tests)   │
+│ Level 1: Topic Tests     │ Granular topic diagnostics  │ [aptitude/tests/](../aptitude/tests/) (17 diagnostic tests)   │
 │ Level 2: Sectional Tests │ Domain pacing (30–40 min)   │ [aptitude/tests/section/](../aptitude/tests/section/) (5 tests) │
 │ Level 3: Full Mocks      │ Standard OA screening (60m) │ [aptitude/mocks/](../aptitude/mocks/README.md) (Mocks 01–05)  │
 │ Level 4: Hard & Expert   │ High-selectivity analytics  │ [aptitude/mocks/](../aptitude/mocks/) (Hard & Expert 01)     │

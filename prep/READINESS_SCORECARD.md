@@ -114,7 +114,7 @@ Aligned with [`docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE
 ├──────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
 │ Level                    │ Evaluation Target           │ Primary File Repository         │
 ├──────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ Level 1: Topic Tests     │ Granular topic diagnostics  │ aptitude/tests/ (14 tests)      │
+│ Level 1: Topic Tests     │ Granular topic diagnostics  │ aptitude/tests/ (17 tests)      │
 │ Level 2: Sectional Tests │ Domain pacing (30–40 min)   │ aptitude/tests/section/ (5 tests│
 │ Level 3: Full Mocks      │ Standard OA 50-Q multi-field│ aptitude/mocks/ (Mocks 01–05)   │
 │ Level 4: Hard & Expert   │ High-selectivity analytics  │ aptitude/mocks/ (Hard & Expert) │

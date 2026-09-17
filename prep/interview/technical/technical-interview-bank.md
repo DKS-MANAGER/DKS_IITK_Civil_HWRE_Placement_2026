@@ -412,9 +412,66 @@ $$s(r, t) \approx \frac{2.303 Q}{4\pi T} \log_{10}\left(\frac{2.25 T t}{r^2 S}\r
 
 ---
 
+---
+
+## 📚 Authoritative Primary Literature, Textbooks & Code Standards Registry
+
+To defend advanced HWRE, Hydraulics, and CFD answers under rigorous cross-examination by senior faculty or corporate technical directors, every question tree is anchored in primary engineering authorities:
+
+### 1. Classical & Advanced Textbooks
+
+| Domain | Primary Textbook Reference | Specific High-Yield Chapters / Sections | Relevant Trees |
+|:---|:---|:---|:---:|
+| **Fluid Mechanics & Hydrodynamics** | White, F. M. (2016). *Fluid Mechanics* (8th ed.). McGraw-Hill. | Ch. 4 (Differential Relations), Ch. 5 (Dimensional Analysis & Similitude), Ch. 7 (Flow Past Immersed Bodies) | Trees 1–8 |
+| **Boundary Layer Theory** | Schlichting, H., & Gersten, K. (2017). *Boundary-Layer Theory* (9th ed.). Springer. | Ch. 6 (Prandtl's Boundary-Layer Equations), Ch. 8 (Separation), Ch. 17 (Turbulent Wall Boundary Layers) | Trees 2, 4, 7 |
+| **Open Channel Flow** | Chow, V. T. (1959). *Open-Channel Hydraulics*. McGraw-Hill. | Ch. 3 (Energy & Momentum Principles), Ch. 8–10 (Gradually Varied Flow), Ch. 15 (Hydraulic Jump) | Trees 9–14 |
+| **Turbulence Modeling & CFD** | Pope, S. B. (2000). *Turbulent Flows*. Cambridge University Press. | Ch. 5 (Free Shear Flows), Ch. 7 (Wall-Bounded Turbulent Flows), Ch. 10–11 (RANS Closures & Spectral Cascade) | Trees 15–18 |
+| **CFD & Two-Equation Models** | Wilcox, D. C. (2006). *Turbulence Modeling for CFD* (3rd ed.). DCW Industries. | Ch. 3 (Algebraic Models), Ch. 4 ($k$-$\epsilon$ and $k$-$\omega$ Models), Ch. 7 (Near-Wall Treatment & $y^+$) | Trees 16, 17, 19 |
+| **Sediment Transport & Fluvial** | Garcia, M. H. (Ed.). (2008). *Sedimentation Engineering* (ASCE Manual 110). ASCE. | Ch. 2 (Incipient Motion & Bedload), Ch. 3 (Suspended Load Dynamics), Ch. 6 (Bridge Scour & Morphodynamics) | Trees 21–25 |
+| **Applied Hydrology & Groundwater** | Chow, V. T., Maidment, D. R., & Mays, L. W. (1988). *Applied Hydrology*. McGraw-Hill. | Ch. 7 (Hydrographs & Unit Hydrograph Theory), Ch. 9 (Hydrologic Routing), Ch. 4 (Subsurface Flow & Aquifers) | Trees 26–30 |
+
+---
+
+### 2. Code Standards, Engineering Manuals & Guidelines
+
+| Code / Manual | Issuing Agency / Standard Body | Applied Regulatory Scope | Relevant Trees |
+|:---|:---|:---|:---:|
+| **FHWA HEC-18** | Federal Highway Administration (FHWA) | *Evaluating Scour at Bridges* (5th ed., 2012): Pier scour, contraction scour, abutment scour equations | Trees 23, 24 |
+| **USACE EM 1110-2-1601** | U.S. Army Corps of Engineers (USACE) | *Hydraulic Design of Flood Control Channels*: Manning's roughness calibration, super-elevation in bends | Trees 9, 12 |
+| **BIS IS 10430:2000** | Bureau of Indian Standards (BIS) | *Criteria for Design of Lined Canals and Guidelines for Selection of Type of Lining* | Trees 10, 11 |
+| **BIS IS 4410** | Bureau of Indian Standards (BIS) | *Glossary of Terms Relating to River Valley Projects*: Hydraulic jump basins, sill design, sediment traps | Trees 13, 14 |
+| **ASME V&V 20-2009** | American Society of Mechanical Engineers | *Standard for Verification and Validation in Computational Fluid Dynamics and Heat Transfer* (GCI Metric) | Trees 18, 20 |
+
+---
+
+### 3. OpenFOAM & CFD Numerical Architecture Documentation
+
+| Architectural Component | Official Reference Source | Applied Verification Concept | Relevant Trees |
+|:---|:---|:---|:---:|
+| **Wall Functions (`yPlus`)** | OpenFOAM Foundation v10 / ESI v2312 User Guide | `nutkWallFunction`, `omegaWallFunction`, $y^+ \le 1$ resolved vs $30 \le y^+ \le 300$ wall function | Trees 16, 17 |
+| **PIMPLE & SIMPLE Algorithms** | OpenFOAM Programmer's Guide (ESI v2312) | Segregated Navier-Stokes pressure-velocity coupling, `fvSolution` relaxation factors ($\alpha_p \approx 0.3, \alpha_U \approx 0.7$) | Trees 15, 19 |
+| **Grid Convergence Index (GCI)** | Roache, P. J. (1998). *Verification and Validation in Computational Science and Engineering*. | Richardson extrapolation, grid refinement ratio $r = h_2/h_1 \ge 1.3$, asymptotic range verification | Trees 18, 20 |
+| **Discretization Schemes (`fvSchemes`)**| Jasak, H. (1996). *Error Analysis and Estimation for the Finite Volume Method with Arbitrary Polyhedral Mesh* (Ph.D. Thesis, Imperial College). | `upwind` (1st-order bounded), `linearUpwind` (2nd-order TVD), unbounded central differencing instability | Tree 19 |
+
+---
+
+### 4. Landmark Peer-Reviewed Classical Literature
+
+| Landmark Paper | Seminal Contribution | Interview Defense Application | Relevant Trees |
+|:---|:---|:---|:---:|
+| **Shields, A. (1936)** | *Application of Similarity Principles and Turbulence Research to Bed-Load Movement*. Mitt. Preuss. Versuchsanst. Wasserbau Schiffbau, 26. | Entrainment threshold parameter $\theta_c = \frac{\tau_b}{(\gamma_s - \gamma) d_{50}}$, viscous sublayer particle shielding | Tree 21 |
+| **Rouse, H. (1937)** | *Modern Conceptions of the Mechanics of Fluid Turbulence*. Trans. ASCE, 102(1), 463–505. | Rouse suspension profile $\frac{c(z)}{c_a} = \left(\frac{h-z}{z} \frac{a}{h-a}\right)^{Z_R}$, Rouse number $Z_R = \frac{w_s}{\kappa u_*}$ | Tree 22 |
+| **Theis, C. V. (1935)** | *The relation between the lowering of the piezometric surface and the rate and duration of discharge of a well using groundwater storage*. Trans. AGU, 16(2), 519–524. | Transient unconfined-confined non-equilibrium exponential integral well solution $s = \frac{Q}{4\pi T} W(u)$ | Tree 29 |
+| **Cooper, H. H., & Jacob, C. E. (1946)**| *A generalized graphical method for evaluating formation constants and summarizing well-field history*. Trans. AGU, 27(4), 526–534. | Semi-logarithmic asymptotic approximation of Theis well function for small $u \le 0.01$ | Tree 30 |
+| **Menter, F. R. (1994)** | *Two-equation eddy-viscosity turbulence models for engineering applications*. AIAA Journal, 32(8), 1598–1605. | Baseline (BSL) and Shear Stress Transport (SST) $k$-$\omega$ formulation, blending function $F_1, F_2$ | Trees 16, 17 |
+| **Smagorinsky, J. (1963)** | *General circulation experiments with the primitive equations: I. The basic experiment*. Monthly Weather Review, 91(3), 99–164. | Large Eddy Simulation (LES) subgrid-scale eddy viscosity $\nu_{sgs} = (C_s \Delta)^2 |\bar{S}|$ | Tree 20 |
+
+---
+
 ## 🎯 Master Technical Interview Execution Protocol
 
 When answering technical questions in IIT Kanpur corporate placement interviews:
-1. **First 15 Seconds (Theorem & Formulation):** State the exact governing equation, non-dimensional numbers, and primary physical principle.
+1. **First 15 Seconds (Theorem & Formulation):** State the exact governing equation, non-dimensional numbers, and primary physical principle (e.g., cite Navier-Stokes, Darcy, or Saint-Venant).
 2. **Next 30 Seconds (Assumptions & Derivation Scope):** State what was neglected (e.g., "assuming incompressible, steady, boundary layer approximations").
-3. **Final 30 Seconds (Application & Caveat):** Connect to computational modeling (OpenFOAM, HEC-RAS) or practical civil infrastructure failure modes.
+3. **Third 30 Seconds (Application & Caveat):** Connect to computational modeling (OpenFOAM, HEC-RAS) or practical civil infrastructure failure modes.
+4. **Final 15 Seconds (Primary Reference Anchor):** Conclude by naming the foundational standard or authoritative reference (e.g., "consistent with FHWA HEC-18 pier scour provisions and Menter's SST $k$-$\omega$ wall blending").

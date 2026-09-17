@@ -16,11 +16,11 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 ├───────┬──────────────────────────┬─────────────────────────────┬───────────────────────────────┤
 │ Level │ Assessment Tier          │ Scope & Time                │ Primary Target & File Location│
 ├───────┼──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
-│ L1    │ Topic Diagnostic Tests   │ 15 Qs · 20 min per topic    │ Granular formula & trap audit │
-│       │                          │ Cat-8 Cognitive Hierarchy   │ aptitude/tests/ (14 tests)    │
+│ Level 1: Topic Tests     │ Isolated functional test │ 15 Qs · 20 min          │ Level 1: Diagnostic Baseline   │
+│                          │                          │ Cat-8 Cognitive Hierarchy   │ aptitude/tests/ (17 tests)    │
 ├───────┼──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
 │ L2    │ Sectional Speed Tests    │ 25–30 Qs · 30–40 min        │ Domain pacing & stamina       │
-│       │                          │ Quant, Reasoning, DI, Verbal│ aptitude/tests/section/ (5 Qs)│
+│       │                          │ Quant, Reasoning, DI, Verbal│ aptitude/tests/section/ (5 tests)│
 ├───────┼──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
 │ L3    │ Full Placement Mocks     │ 50 Qs · 60 min              │ General multi-domain OA sim   │
 │       │                          │ Baseline to Institutional   │ aptitude/mocks/ (M01 to M05)  │

@@ -2,7 +2,7 @@
 
 > **Domain:** Micro-Targeted Aptitude Diagnostic Testing · **Target:** IIT Kanpur Postgraduate Placements 2026  
 > **Diagnostic Standard:** Cat-8 Progressive Caliber (Foundation $\to$ Intermediate $\to$ Hard $\to$ Very Hard $\to$ Expert $\to$ Trap)  
-> **Total Battery:** 14 Standardized Topic Diagnostic Tests (210 High-Yield Diagnostic Questions)  
+> **Total Battery:** 17 Standardized Topic Diagnostic Tests (255 High-Yield Diagnostic Questions)  
 > **Assessment Rules:** 20 Minutes per Test · 15 Questions · Negative Marking ($+1.00$ / $-0.25$) · 100% Master Key & Rigorous Solution Parity
 
 ---
@@ -42,8 +42,11 @@ Topic tests constitute **Layer 1** of the IIT Kanpur Placement Testing System. U
 | [**Speed, Time & Distance Test**](speed-time-distance-test.md) | Quantitative Aptitude | Relative Speed, Upstream/Downstream, Circular Tracks | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Permutations & Combinations Test**](permutations-combinations-test.md) | Quantitative Aptitude | Derangements ($D_n$), Circular Symmetry, Stars & Bars Partition | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Probability Test**](probability-test.md) | Quantitative Aptitude | Bayes' Rule, Binomial Distributions, Total Probability Law | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
+| [**Engineering Mathematics Test**](engineering-math-test.md) | Quant / Tech Analytics | Eigen-Systems, Multivariable Calculus, Exact ODEs, Bivariate Normal | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Series & Progression Test**](series-test.md) | Logical Reasoning | Two-Tier Differences, Geometric Factors, Alphanumeric Offsets | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Seating Arrangement Test**](seating-arrangement-test.md) | Logical Reasoning | Inward/Outward Circles, Parallel Rows, 8-Floor Towers | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
+| [**Critical Reasoning & Arguments Test**](critical-reasoning-test.md) | Analytical Reasoning | Assumptions, Strong/Weak Arguments, Course of Action, Causal Bias | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
+| [**Non-Verbal & Spatial Reasoning Test**](non-verbal-reasoning-test.md) | Visual-Spatial | Cubes & Dice, Pattern Matrix, Paper Folding, 3D Rotations | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Data Interpretation Test**](di-test.md) | Data Interpretation | SaaS Unit Economics, Water Allocation, Portfolio Sharpe Ratios | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 | [**Verbal Ability Test**](verbal-test.md) | Verbal Ability & RC | Mandative Subjunctive, Dangling Modifiers, Quantum RC | 15 Qs · 20 min | $\ge 12.50\text{ M}$ |
 
