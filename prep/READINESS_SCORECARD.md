@@ -55,7 +55,15 @@
 | [**Mock 04**](../aptitude/mocks/full-placement-mock-04.md) | High-Bar Flagship | $38.75 / 50.00$ ($77.5\%$) | Tier 2 Target (Benchmark Met) | $72\text{ s}$ | $73.0\%$ | 🟢 Cleared | No |
 | [**Mock 05**](../aptitude/mocks/full-placement-mock-05.md) | Institutional Caliber | $40.50 / 50.00$ ($81.0\%$) | Tier 2 Target (Benchmark Met) | $69\text{ s}$ | $77.5\%$ | 🟢 Cleared | No |
 | [**Hard Mock 01**](../aptitude/mocks/hard-placement-mock-01.md) | High-Pressure Selective | $46.50 / 60.00$ ($77.5\%$) | Tier 1 Target (Benchmark Met) | $70\text{ s}$ | $76.0\%$ | 🟢 Cleared | No |
-| [**Expert Mock 01**](../aptitude/mocks/expert-placement-mock-01.md) | Extreme Multi-Caselets | $37.25 / 50.00$ ($74.5\%$) | Tier 1 Target (High-Selectivity Met) | $71\text{ s}$ | $72.0\%$ | 🟢 Cleared | No |
+### 3.2 Layer 2 Sectional Assessment Progression Log
+
+| Sectional Assessment | Question Count & Time | Score Achieved ($+1 / -0.25$) | Benchmark Tier `[PREPARATION HEURISTIC]` | Median Time / Q | Error Breakdown ($C, A, T, M$) | Status | Retest Required? |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| [**Quant Sectional 01**](../aptitude/tests/section/sectional-quant-01.md) | 30 Qs · 40 min | $25.25 / 30.00$ ($84.2\%$) | $\ge 22.50 / 30.00$ ($\ge 75\%$) | $68\text{ s}$ | $C: 1, A: 2, T: 1, M: 1$ | 🟢 Cleared | No |
+| [**Reasoning Sectional 01**](../aptitude/tests/section/sectional-reasoning-01.md) | 30 Qs · 40 min | $26.00 / 30.00$ ($86.7\%$) | $\ge 22.50 / 30.00$ ($\ge 75\%$) | $58\text{ s}$ | $C: 0, A: 1, T: 2, M: 0$ | 🟢 Cleared | No |
+| [**Data Interpretation 01**](../aptitude/tests/section/sectional-di-01.md) | 25 Qs · 35 min | $21.25 / 25.00$ ($85.0\%$) | $\ge 18.75 / 25.00$ ($\ge 75\%$) | $76\text{ s}$ | $C: 0, A: 2, T: 1, M: 1$ | 🟢 Cleared | No |
+| [**Verbal & RC Sectional 01**](../aptitude/tests/section/sectional-verbal-01.md) | 25 Qs · 30 min | $22.50 / 25.00$ ($90.0\%$) | $\ge 18.75 / 25.00$ ($\ge 75\%$) | $44\text{ s}$ | $C: 0, A: 0, T: 2, M: 0$ | 🟢 Cleared | No |
+| [**Civil Core Aptitude 01**](../aptitude/tests/section/sectional-civil-core-01.md) | 25 Qs · 35 min | $22.00 / 25.00$ ($88.0\%$) | $\ge 18.75 / 25.00$ ($\ge 75\%$) | $52\text{ s}$ | $C: 1, A: 1, T: 0, M: 0$ | 🟢 Cleared | No |
 
 ---
 
@@ -78,40 +86,42 @@ Preparation is an iterative closed-loop optimization system, not a linear syllab
         └─────────────────────────┬────────────────────────┘
                                   │
         ┌─────────────────────────▼────────────────────────┐
-        │  4. ANALYZE: Classify errors into 3 buckets      │
-        │     • Conceptual Gap (Formula/Theorem forgotten) │
-        │     • Execution Slip (Algebraic / Misread trap)  │
-        │     • Pacing Bottleneck (> 90s spent on 1 Q)     │
+        │  4. ANALYZE: Classify errors into 4 buckets      │
+        │     • [C] Conceptual Gap (Formula/Theorem gap)   │
+        │     • [A] Execution Slip (Algebraic/Calculation) │
+        │     • [T] Trap (Misread stem / distractor choice)│
+        │     • [M] Pacing Bottleneck (> 90s on single Q)  │
         └─────────────────────────┬────────────────────────┘
                                   │
         ┌─────────────────────────▼────────────────────────┐
-        │  5. PATCH: Re-solve Level 4-7 Module Caselets    │
+        │  5. PATCH: Re-solve targeted caselets & guides   │
         └─────────────────────────┬────────────────────────┘
                                   │
         ┌─────────────────────────▼────────────────────────┐
-        │  6. RETEST: Unseen Topic Diagnostic Test (15 Qs) │
+        │  6. RETEST: Alternative module or sectional test │
         └──────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 5. Comprehensive 6-Tier Assessment Hierarchy
+## 5. Authoritative 8-Level Assessment Ladder
 
-To ensure clarity on which mock or assessment to take at each stage:
+Aligned with [`docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE.md) and [`docs/TESTING_GUIDE.md`](../docs/TESTING_GUIDE.md):
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             THE 7-TIER ASSESSMENT HIERARCHY                              │
+│                            THE 8-LEVEL ASSESSMENT LADDER                                 │
 ├──────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
-│ Tier                     │ Evaluation Target           │ Primary File Repository         │
+│ Level                    │ Evaluation Target           │ Primary File Repository         │
 ├──────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ Tier 1: Full Mocks       │ General OA multi-domain sim │ aptitude/mocks/ (7 full mocks)  │
-│ Tier 2: Sectional Tests  │ Domain pacing (30-40 min)   │ aptitude/tests/section/ (4 tests│
-│ Tier 3: Topic Tests      │ Granular topic diagnostics  │ aptitude/tests/ (14 tests)      │
-│ Tier 4: Role OA Mocks    │ Company-specific technical  │ prep/mock-tests/ (25 tests)     │
-│ Tier 5: Case Simulation  │ Consulting & Product cases  │ non-core/case-interviews/       │
-│ Tier 6: Behavioral Mocks │ HR & Leadership probes      │ prep/behavioral/ & common/hr.md │
-│ Tier 7: Full Live Sim    │ End-to-end 45-min interview │ prep/MOCK_INTERVIEW.md          │
+│ Level 1: Topic Tests     │ Granular topic diagnostics  │ aptitude/tests/ (14 tests)      │
+│ Level 2: Sectional Tests │ Domain pacing (30–40 min)   │ aptitude/tests/section/ (5 tests│
+│ Level 3: Full Mocks      │ Standard OA 50-Q multi-field│ aptitude/mocks/ (Mocks 01–05)   │
+│ Level 4: Hard & Expert   │ High-selectivity analytics  │ aptitude/mocks/ (Hard & Expert) │
+│ Level 5: Role OA Mocks   │ Company-calibrated technical│ prep/mock-tests/ (25 tests)     │
+│ Level 6: Technical Trees │ Branching oral defense      │ prep/technical/civil-technical..│
+│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ non-core/consulting/ & prep/hr..│
+│ Level 8: Full Live Sim   │ End-to-end 45-min panel     │ prep/MOCK_INTERVIEW.md          │
 └──────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
 ```
 

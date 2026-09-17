@@ -1,139 +1,120 @@
-# SELECTION STAGE MAP
+# Selection Stage Map & Recruiter Process Blueprint
 
-> **How the selection process typically works.** This documents common stages so you know what to expect and how to prepare for each. Information is labelled `VERIFIED` (confirmed from interview experiences), `GENERAL` (common industry practice), or `PREDICTED` (likely but unconfirmed).
-
-> ⚠️ **Not all companies follow the same process.** Always check the specific company profile for its actual process.
+> **The institutional selection progression for campus recruitment.**
+> Maps the standard recruitment funnel from initial resume shortlisting to final panel rounds.
+> All factual statements carry authoritative provenance tags: `[VERIFIED]`, `[SOURCE-DERIVED]`, `[INFERRED]`, `[PREPARATION HEURISTIC]`, or `[SELF-REPORTED]`.
 
 ---
 
-## 🗺️ Common Selection Stages
+## 1. Universal Selection Funnel
 
 ```
-APPLICATION
-      ↓
-SCREENING
-      ↓
-APTITUDE
-      ↓
-TECHNICAL
-      ↓
-CASE / GD (where applicable)
-      ↓
-HR
+STAGE 1: RESUME & ELIGIBILITY SCREENING  (SPO Portal CGPA & Branch criteria)
+                   ↓
+STAGE 2: SPEED APTITUDE & OA SCREENING   (60-min timed OA: Quant, DI, Logic, Verbal)
+                   ↓
+STAGE 3: CORE TECHNICAL / CODING TEST   (Domain MCQs, GATE-level checks, or SQL/DSA)
+                   ↓
+STAGE 4: TECHNICAL ORAL INTERVIEW       (M.Tech thesis defense & branching theory trees)
+                   ↓
+STAGE 5: CASE INTERVIEW / GROUP TASK     (Consulting cases, guesstimates, EPC site dilemmas)
+                   ↓
+STAGE 6: HR & BEHAVIORAL PROBES          (STAR stories, culture fit, relocation, compensation)
 ```
 
 ---
 
-## Stage 1 — Application
+## 2. Detailed Stage Breakdown
 
-**What:** Submit resume + application.
+### Stage 1: Application & Eligibility Screening
 
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Portal | Company portal / campus placement portal | GENERAL |
-| Documents | Resume, transcripts, sometimes cover letter | GENERAL |
-| Deadline | Strict — submit early | GENERAL |
-
-**Prepare:** [PLACEMENT_CHECKLIST.md](PLACEMENT_CHECKLIST.md) · [RESUME/](RESUME/)
+- **Focus:** Minimum CGPA cutoff (typically $\ge 6.5$ or $\ge 7.0$ for Day 1 firms `[VERIFIED]`), zero active backlogs, M.Tech specialization eligibility.
+- **Evidentiary Standard:** `[SOURCE-DERIVED]` from IITK SPO recruiter job notification forms (JNF).
+- **Preparation Anchor:** [`PLACEMENT_CHECKLIST.md`](PLACEMENT_CHECKLIST.md) · [`RESUME/RESUME_AUDIT.md`](RESUME/RESUME_AUDIT.md).
 
 ---
 
-## Stage 2 — Screening
+### Stage 2: Aptitude & Online Assessment (OA)
 
-**What:** Initial shortlisting based on resume + eligibility.
-
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Criteria | CGPA cutoff, backlog count, branch eligibility | GENERAL |
-| Resume | ATS scan for keywords | GENERAL |
-| Result | Shortlist for next round | GENERAL |
-
-**Prepare:** [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md)
+- **Focus:** High-speed quantitative calculation, multi-table data interpretation, logical reasoning, and reading comprehension under negative marking ($+1 / -0.25$).
+- **Benchmarking `[PREPARATION HEURISTIC]`:** Target composite score $\ge 75\%$ with median time per question $\le 75\text{ s}$.
+- **Preparation Ladder:**
+  - Granular topic diagnostic tests: [`aptitude/tests/`](../aptitude/tests/)
+  - Timed sectional drills (30–40 min): [`aptitude/tests/section/`](../aptitude/tests/section/)
+  - Full campus OA simulations: [`aptitude/mocks/`](../aptitude/mocks/)
+  - Testing guide & pacing rules: [`../docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE.md)
 
 ---
 
-## Stage 3 — Aptitude
+### Stage 3: Domain Technical Screening
 
-**What:** Online aptitude/assessment test.
-
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Sections | Quant, reasoning, verbal (varies by company) | GENERAL |
-| Format | MCQ, timed, sometimes negative marking | GENERAL |
-| Cutoff | Often a hard cutoff for next round | GENERAL |
-
-**Prepare:** [APTITUDE/](APTITUDE/) · [Aptitude Hub](../aptitude/README.md)
+- **Focus:** Core civil and computational MCQs (Open channel flow, fluid mechanics, soil mechanics, structural analysis, concrete/steel design, or SQL/Python queries).
+- **Format:** 25–40 MCQs in 30–45 minutes, administered immediately following the general aptitude section.
+- **Preparation Anchor:**
+  - Civil core aptitude test: [`aptitude/tests/section/sectional-civil-core-01.md`](../aptitude/tests/section/sectional-civil-core-01.md)
+  - Role-specific mock tests (25 tests): [`mock-tests/`](mock-tests/)
+  - Formula review: [`../core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md)
 
 ---
 
-## Stage 4 — Technical
+### Stage 4: Technical Oral Interview & Thesis Defense
 
-**What:** Technical interview / test.
-
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Content | Subject knowledge, projects, problem-solving | GENERAL |
-| Format | Panel interview, sometimes written test | GENERAL |
-| Depth | Ranges from fundamentals to deep project grilling | GENERAL |
-
-**Prepare:** [Technical Bank](interview/technical/technical-interview-bank.md) · [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md)
+- **Focus:** Rigorous oral inquiry into fundamental engineering physics, mathematical derivations, boundary conditions, software settings, and M.Tech thesis research.
+- **Methodology:** Branching oral inquiry trees testing Level 1 recall up to Level 5 edge-case judgment.
+- **Preparation Anchor:**
+  - Branching technical question trees: [`technical/civil-technical-interview-bank.md`](technical/civil-technical-interview-bank.md)
+  - 3-Minute thesis pitch (P-A-R-I-C) & project defense: [`PROJECT_DEFENCE.md`](PROJECT_DEFENCE.md)
+  - Software theory linkage: [`../software-and-tech/SOFTWARE_THEORY_LINKAGE.md`](../software-and-tech/SOFTWARE_THEORY_LINKAGE.md)
 
 ---
 
-## Stage 5 — Case / GD (Where Applicable)
+### Stage 5: Case Interview & Group Interaction (Where Applicable)
 
-**What:** Case interview or group discussion — mainly for consulting/product/management roles.
-
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Case | Market sizing, profitability, guesstimates | GENERAL |
-| GD | Group discussion on a topic | GENERAL |
-| Relevance | Not used by all companies | GENERAL |
-
-**Prepare:** [CASE_GD.md](CASE_GD.md) · [Group Discussion Mastery](behavioral/group-discussion-mastery.md)
+- **Focus:**
+  - *Consulting / Analytics:* Structured problem decomposition (MECE issue trees, market sizing, profit diagnostics, cost reduction).
+  - *Construction & EPC Giants (L&T, Godrej):* Group task on project resource constraints, safety vs deadline dilemmas, material substitution.
+- **Preparation Anchor:**
+  - Management consulting case simulations: [`../non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md)
+  - Group task & GD frameworks: [`CASE_GD.md`](CASE_GD.md) · [`behavioral/group-discussion-mastery.md`](behavioral/group-discussion-mastery.md)
 
 ---
 
-## Stage 6 — HR
+### Stage 6: HR, Behavioral & Cultural Alignment
 
-**What:** HR / behavioural round.
-
-| Aspect | Detail | Label |
-|:-------|:-------|:------|
-| Content | Motivation, career plans, relocation, role fit | GENERAL |
-| Format | Usually 1:1 or small panel | GENERAL |
-| Purpose | Assess fit, not technical depth | GENERAL |
-
-**Prepare:** [Behavioral Hub](behavioral/) · [HR Interview Guide](interview/hr/hr-interview-guide.md)
+- **Focus:** Leadership under pressure, handling peer conflict, explaining weaknesses, career longevity, relocation flexibility.
+- **Methodology:** Structured behavioral STAR-L format (Situation, Task, Action, Result, Learning) with aggressive pushback probes.
+- **Preparation Anchor:**
+  - HR interview master database: [`behavioral/question-master-database.md`](behavioral/question-master-database.md)
+  - Behavioral guide: [`../docs/BEHAVIOURAL_HR_GUIDE.md`](../docs/BEHAVIOURAL_HR_GUIDE.md)
 
 ---
 
-## 📋 Company-Specific Processes (VERIFIED)
+## 3. Verified Company Selection Workflows
 
-> These are confirmed from interview experience logs. Always check the individual company profile for the latest.
+The following recruitment workflows are confirmed from verified campus candidate interview experiences (`[VERIFIED]` / `[SELF-REPORTED]`):
 
-| Company | Process | Source |
-|:--------|:--------|:-------|
-| Tech Mahindra | 5-round process | [tech-mahindra.md](company-profiles/tech-mahindra.md) |
-| Schneider Electric | Aptitude + GD + Technical | [schneider-electric.md](company-profiles/schneider-electric.md) |
-| Mu Sigma | 3-round process | [mu-sigma.md](company-profiles/mu-sigma.md) |
-| Johnson Controls | Technical + HR | [johnson-controls.md](company-profiles/johnson-controls.md) |
-| Expeditor | Technical + HR | [expeditor.md](company-profiles/expeditor.md) |
-| Hiremi | Technical + HR | [hiremi.md](company-profiles/hiremi.md) |
-| Darwinbox | Technical + HR | [darwinbox.md](company-profiles/darwinbox.md) |
-| Deltax | Technical + HR | [deltax.md](company-profiles/deltax.md) |
-| CEI American | Technical + HR | [cei-american.md](company-profiles/cei-american.md) |
-| Hubstream | Technical + HR | [hubstream.md](company-profiles/hubstream.md) |
-
----
-
-## 🧭 How to Use This Map
-
-1. Identify your target company
-2. Check its specific process (company profile)
-3. Prepare for each stage using the linked resources
-4. For stages not in the company's process, skip (don't over-prepare)
+| Company | Sector | Verified Selection Stages | Primary Profile Dossier |
+|:---|:---|:---|:---|
+| **Larsen & Toubro (L&T)** | EPC / Construction | Online OA (Aptitude + Technical) $\to$ Group Task $\to$ Tech/HR Panel | [`company-profiles/civil-lt.md`](company-profiles/civil-lt.md) |
+| **Godrej Properties** | Real Estate EPC | Aptitude Screening $\to$ Technical Evaluation $\to$ Case Presentation $\to$ Final HR | [`company-profiles/civil-godrej-properties.md`](company-profiles/civil-godrej-properties.md) |
+| **Vassar Labs** | HWRE / Infratech | Technical OA (Water/GIS) $\to$ Technical Round 1 $\to$ Project Defense $\to$ Leadership | [`company-profiles/civil-vassarlabs.md`](company-profiles/civil-vassarlabs.md) |
+| **Thornton Tomasetti** | Structural R&D | Structural Technical Screening $\to$ ETABS/SAP2000 Modeling Test $\to$ Director Interview | [`company-profiles/civil-thornton-tomasetti.md`](company-profiles/civil-thornton-tomasetti.md) |
+| **BPCL / HPCL** | Energy PSU | CBT Technical OA (100 Qs) $\to$ Group Discussion $\to$ Senior Chief Engineer Panel | [`company-profiles/civil-bpcl.md`](company-profiles/civil-bpcl.md) · [`civil-hpcl.md`](company-profiles/civil-hpcl.md) |
+| **Rodic Consultants** | Infrastructure PM | Screening Test $\to$ Water Network Technical Interview $\to$ HR Round | [`company-profiles/civil-rodic.md`](company-profiles/civil-rodic.md) |
+| **TuTr Hyperloop** | Aerospace / R&D | Aerodynamics / CFD Screening $\to$ OpenFOAM/ANSYS Technical Interview $\to$ Founder Round | [`company-profiles/civil-tutr-hyperloop.md`](company-profiles/civil-tutr-hyperloop.md) |
+| **Schneider Electric** | Energy Automation | Online Aptitude Test $\to$ Group Discussion $\to$ Technical Panel Interview | [`company-profiles/schneider-electric.md`](company-profiles/schneider-electric.md) |
+| **Mu Sigma** | Decision Sciences | Mu Sigma Aptitude Test $\to$ Video Synthesis / Case Round $\to$ Personal Interview | [`company-profiles/mu-sigma.md`](company-profiles/mu-sigma.md) |
+| **Tech Mahindra** | Tech Consulting | 5-Round Funnel: General Aptitude $\to$ Essay $\to$ Technical $\to$ Management $\to$ HR | [`company-profiles/tech-mahindra.md`](company-profiles/tech-mahindra.md) |
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+## 4. Tactical Execution Protocol
+
+1. **Target Identification**: Check specific company profiles in [`company-profiles/`](company-profiles/) to see exact past stage structures.
+2. **Eliminate Non-Tested Preparation**: If a company does not hold a group task or coding round, skip that module and concentrate 100% on their primary filter.
+3. **Log Progress**: Track performance and calibration status in [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md).
+
+---
+
+> **Related Navigation:**
+> [MASTER_PREP_PLAN.md](MASTER_PREP_PLAN.md) · [READINESS_SCORECARD.md](READINESS_SCORECARD.md) · [../docs/IITK_PLACEMENT_MAP.md](../docs/IITK_PLACEMENT_MAP.md) · [README.md](README.md)

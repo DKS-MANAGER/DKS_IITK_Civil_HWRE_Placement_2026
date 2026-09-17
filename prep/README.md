@@ -46,20 +46,22 @@ prep/
 
 ## 🧭 Multi-Tier Assessment & Execution Architecture
 
-To eliminate fragmentation and provide unambiguous guidance on assessment sequencing:
+Aligned with the authoritative [Assessment Architecture](../docs/ASSESSMENT_ARCHITECTURE.md) and [Testing Guide](../docs/TESTING_GUIDE.md):
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                             THE 6-TIER ASSESSMENT HIERARCHY                              │
+│                            THE 8-LEVEL ASSESSMENT LADDER                                 │
 ├──────────────────────────┬─────────────────────────────┬─────────────────────────────────┤
-│ Tier                     │ Evaluation Target           │ Primary Live Repository         │
+│ Level                    │ Evaluation Target           │ Primary Live Repository         │
 ├──────────────────────────┼─────────────────────────────┼─────────────────────────────────┤
-│ Tier 1: Aptitude Mocks   │ General OA screening (60m)  │ [aptitude/mocks/](../aptitude/mocks/README.md) (Mocks 01–05) │
-│ Tier 2: Topic Tests      │ Granular topic diagnostics  │ [aptitude/tests/](../aptitude/tests/) (15-Q diagnostic tests) │
-│ Tier 3: Role OA Mocks    │ Company-specific technical  │ [prep/mock-tests/](mock-tests/) (25 role tests) │
-│ Tier 4: Case Simulation  │ Consulting & Product cases  │ [non-core/case-interviews/](../non-core/case-interviews/) │
-│ Tier 5: Behavioral Mocks │ HR & Leadership probes      │ [prep/behavioral/](behavioral/) & [non-core/common/hr.md](../non-core/common/hr.md) │
-│ Tier 6: Full Live Sim    │ End-to-end 45-min interview │ [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) & [interview-readiness.md](../non-core/common/interview-readiness.md) │
+│ Level 1: Topic Tests     │ Granular topic diagnostics  │ [aptitude/tests/](../aptitude/tests/) (14 diagnostic tests)   │
+│ Level 2: Sectional Tests │ Domain pacing (30–40 min)   │ [aptitude/tests/section/](../aptitude/tests/section/) (5 tests) │
+│ Level 3: Full Mocks      │ Standard OA screening (60m) │ [aptitude/mocks/](../aptitude/mocks/README.md) (Mocks 01–05)  │
+│ Level 4: Hard & Expert   │ High-selectivity analytics  │ [aptitude/mocks/](../aptitude/mocks/) (Hard & Expert 01)     │
+│ Level 5: Role OA Mocks   │ Company-specific technical  │ [prep/mock-tests/](mock-tests/) (25 role tests)             │
+│ Level 6: Technical Trees │ Branching oral defense      │ [prep/technical/](technical/civil-technical-interview-bank.md)│
+│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ [non-core/consulting/](../non-core/consulting/case-bank.md) │
+│ Level 8: Full Live Sim   │ End-to-end 45-min interview │ [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md)                      │
 └──────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
 ```
 
@@ -73,18 +75,21 @@ $$\text{PLAN} \longrightarrow \text{PREPARE} \longrightarrow \text{TEST} \longri
 
 1. **Plan & Benchmark:** Assess baseline readiness via [READINESS_SCORECARD.md](READINESS_SCORECARD.md).
 2. **Execute Preparation:** Study canonical modules in `aptitude/`, `core/`, or `non-core/`.
-3. **Timed Testing:** Complete an official [Full Placement Mock](../aptitude/mocks/README.md) or [Role Mock Test](mock-tests/).
-4. **Error Classification:** Log mistakes into Conceptual, Execution, or Pacing buckets.
+3. **Timed Testing:** Complete a [Sectional Test](../aptitude/tests/section/README.md) or [Full Placement Mock](../aptitude/mocks/README.md).
+4. **Error Classification:** Log mistakes into $[C]$ Conceptual, $[A]$ Arithmetic, $[T]$ Trap, or $[M]$ Time Bottleneck.
 5. **Patch Weaknesses:** Re-solve Level 4–7 caselets in target topic files.
-6. **Retest & Verify:** Validate score improvement on an unseen diagnostic test.
+6. **Retest & Verify:** Validate score improvement on an unseen diagnostic test or sectional module.
 
 ---
 
 ## 🔗 Cross-Directory Canonical Links
+- [**Institutional IITK Placement Map**](../docs/IITK_PLACEMENT_MAP.md)
+- [**Placement Assessment Architecture**](../docs/ASSESSMENT_ARCHITECTURE.md)
+- [**Layer 2 Sectional Assessment Suite (5 Tests, 140 Qs)**](../aptitude/tests/section/README.md)
+- [**Full Placement Mock Suite (7 Full Mocks)**](../aptitude/mocks/README.md)
 - [**Quantitative Aptitude Suite (18 Chapters, 720 Qs)**](../aptitude/quant/README.md)
 - [**Data Interpretation & Caselets (10 Chapters, 400 Qs)**](../aptitude/di/README.md)
 - [**Logical Reasoning Suite (10 Chapters, 400 Qs)**](../aptitude/reasoning/README.md)
 - [**Verbal Ability & RC Suite (9 Chapters, 372 Qs)**](../aptitude/verbal/README.md)
-- [**Full Placement Mock Suite (Mocks 01 to 05)**](../aptitude/mocks/README.md)
-- [**Common Non-Core Preparation Layer**](../non-core/common/README.md)
-- [**End-to-End Interview Readiness Simulation**](../non-core/common/interview-readiness.md)
+- [**Civil Technical Interview Branching Bank**](technical/civil-technical-interview-bank.md)
+- [**Interactive Management Consulting Case Simulations**](../non-core/consulting/case-bank.md)
