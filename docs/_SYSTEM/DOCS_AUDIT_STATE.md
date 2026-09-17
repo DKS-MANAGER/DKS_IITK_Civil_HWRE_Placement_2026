@@ -11,7 +11,7 @@
 |:------|:------|
 | **Audit Baseline** | 2026-09-06 (Initial architecture) |
 | **Last Synchronization Audit** | 2026-09-17 (Post-mock expansion & provenance unification) |
-| **Git Commit Anchor** | `bbc0e55` (Sectional assessments) + Docs Synchronization Commit |
+| **Git Commit Anchor** | `72a1df3` (Docs Synchronization & Institutional Overhaul) |
 | **Audit Scope** | Entire `docs/` directory, assessment routing, provenance taxonomy, and root navigation |
 | **Docs Files Inventoried** | 43 total (24 top-level, 4 `_SYSTEM`, 9 templates, 5 audit, 1 sources) |
 | **Files Classified** | ACTIVE: 41 · ARCHIVE: 1 · AUDIT: 1 |
