@@ -1,134 +1,160 @@
 # Master Index — DKS IITK Civil / HWRE Placement 2026
 
-## Repository Overview
-
-This repository consolidates placement preparation material for IIT Kanpur M.Tech Civil / HWRE (DEEC 2026 batch). Content is extracted, paraphrased, and synthesized from 10 downloaded repositories and 1 gist.
-
-## Topic Index
-
-| # | Topic | Description | Source Path | Destination Path | Priority | Duplicate / Conflict Notes |
-|---|-------|-------------|-------------|------------------|----------|---------------------------|
-| 1 | Civil Engineering Foundations | Core civil concepts: fluid mechanics, hydraulics, SOM, geotech, structures | Civil_Placement_IITK/README.md, awesome-civil-engineering/README.md | core/fundamentals/civil-engineering-foundations.md | P0 | Merged from 2 sources |
-| 2 | Hydraulics | Bernoulli, continuity, momentum, pipe friction, laminar/turbulent flow | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/hwre/hydraulics/hydraulics.md | P0 | High priority per IITK repo |
-| 3 | Open Channel Flow | GVF, RVF, hydraulic jump, unsteady flow | Civil_Placement_IITK/README.md | core/hwre/open_channel_flow/open-channel-flow.md | P0 | Directly useful |
-| 4 | Hydrology | Unit hydrograph, flood routing, hydrograph separation, rainfall-runoff | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/hwre/hydrology/hydrology.md | P0 | High priority per IITK repo |
-| 5 | Water Resources Engineering | Reservoir/canal design, stage-discharge, controls | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/hwre/water_resources/water-resources-engineering.md | P0 | Merged from 2 sources |
-| 6 | Irrigation Engineering | Canal design, irrigation methods, water distribution | Civil_Placement_IITK/README.md, Aptitude-For-Placements/ | core/hwre/irrigation/irrigation-engineering.md | P1 | Partially useful |
-| 7 | Groundwater | Darcy, Theis, aquifer properties, well hydraulics | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/hwre/water_supply/groundwater.md | P1 | Merged from 2 sources |
-| 8 | Wastewater Engineering | Collection systems, treatment, sewer modeling | awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md | core/hwre/wastewater/wastewater-engineering.md | P1 | Merged from 2 sources |
-| 9 | Geotechnical | Soil mechanics, consolidation, bearing capacity, slope stability | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/geotechnical/geotechnical.md | P1 | Breadth for core-design roles |
-| 10 | Structures | SOM, RCC, steel basics, IS codes | Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json | core/structures/structures.md | P1 | Breadth for core-design roles |
-| 11 | Aptitude Basics | Quantitative aptitude fundamentals | Aptitude/README.md, Aptitude-For-Placements/ | non-core/aptitude/quantitative/aptitude-basics.md | P0 | Merged from 2 sources |
-| 12 | Aptitude Shortcuts | Speed math, percentage tricks, time-saving methods | Aptitude/README.md | non-core/aptitude/shortcuts/aptitude-shortcuts.md | P0 | Directly useful |
-| 13 | Logical Reasoning | Puzzles, seating, arrangements, syllogisms, coding/decoding | Aptitude/README.md, Aptitude-For-Placements/ | non-core/aptitude/logical_reasoning/reasoning-practice.md | P0 | Merged from 2 sources |
-| 14 | Verbal Ability | Grammar, vocabulary, RC, idioms, para jumbles | Aptitude/README.md | non-core/aptitude/verbal/verbal-ability.md | P0 | Directly useful |
-| 15 | Behavioral Interview Guide | STAR method, behavioral tips, preparation grid | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | prep/behavioral/behavioral-interview-guide.md | P0 | Merged from 2 sources |
-| 16 | HR Interview Guide | Common HR questions, salary negotiation, exit interview tips | awesome-interview-questions/README.md, interview-handbook-2026/README.md | prep/interview/hr/hr-interview-guide.md | P0 | Merged from 2 sources |
-| 17 | Self Introduction | Frameworks and examples for "Tell me about yourself" | awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md | prep/behavioral/self_intro/self-introduction.md | P0 | Merged from 2 sources |
-| 18 | Project Discussion | How to present projects in interviews | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | prep/interview/technical/project-discussion.md | P1 | Partially useful |
-| 19 | Resume Preparation | Resume building tips, templates, verification | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | prep/templates/resume-template.md | P0 | Merged from 2 sources |
-| 20 | Technical Interview Bank | Core technical questions for civil/HWRE roles | Civil_Placement_IITK/README.md, Placement_Preparation/INTERVIEW EXPERIENCES/ | prep/interview/technical/technical-interview-bank.md | P0 | Merged from 2 sources |
-| 21 | GATE Civil Formulas | Key formulas for GATE Civil preparation | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | core/gate/formulas/gate-civil-formulas.md | P0 | Merged from 2 sources |
-| 22 | GATE Civil Revision | Topic-wise revision notes for GATE Civil | GATE_Civil_Study_Material_2027.md | core/gate/revision_notes/gate-civil-revision.md | P1 | Partially useful |
-| 23 | Placement Roadmap | Timeline, phases, targets for Dec 2026 placements | Civil_Placement_IITK/README.md | docs/roadmap.md | P0 | Directly useful |
-| 24 | Mock Interview Questions | Curated mock questions for practice | interview-handbook-2026/README.md, awesome-interview-questions/README.md | prep/interview/mock-tests/mock-interview-questions.md | P0 | Merged from 2 sources |
-| 25 | Company Profiles | Company-wise prep: PSUs, core design, analytics | Civil_Placement_IITK/README.md | prep/company-profiles/company-profiles.md | P1 | Directly useful |
-| 26 | Resources: Books | Recommended books for civil engineering and placement prep | GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md | resources/book-list.md | P1 | Merged from 2 sources |
-| 27 | Resources: Papers | Previous year GATE papers and placement papers | GATE_Civil_Study_Material_2027.md | resources/paper-list.md | P1 | Partially useful |
-| 28 | Resources: Links | Curated external links for prep | awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md, campus-placement-prep/README.md | resources/links.md | P1 | Merged from 3 sources |
-| 29 | Templates: Self Intro | Template for self introduction | awesome-behavioral-interviews/README.md | prep/templates/self-intro-template.md | P0 | Directly useful |
-| 30 | Templates: Interview Answer | Template for answering interview questions | behavioral-interview-list-of-questions/README.md | prep/templates/interview-answer-template.md | P0 | Directly useful |
-| 31 | Templates: Study Plan | Study plan template for placement prep | Civil_Placement_IITK/README.md | prep/templates/study-plan-template.md | P0 | Directly useful |
-| 32 | Conflict Resolution | Behavioral questions and frameworks for conflict resolution | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | prep/behavioral/conflict_resolution/conflict-resolution.md | P0 | Merged from 2 sources |
-| 33 | Leadership | Behavioral questions and tips for leadership scenarios | awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md | prep/behavioral/leadership/leadership.md | P0 | Merged from 2 sources |
-| 34 | Teamwork | Behavioral questions and examples for teamwork | awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md | prep/behavioral/teamwork/teamwork.md | P0 | Merged from 2 sources |
-| 35 | Flood Control | Flood modeling, floodplain management, drainage | awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md | core/hwre/flood_control/flood-control.md | P1 | Merged from 2 sources |
-| 36 | HR Questions Bank | Curated HR interview questions | Placement_Preparation/INTERVIEW EXPERIENCES/, awesome-interview-questions/README.md | prep/behavioral/hr_questions/hr-questions-bank.md | P0 | Merged from 2 sources |
-| 37 | Interview Experiences | Company-wise interview experiences | Placement_Preparation/INTERVIEW EXPERIENCES/ | prep/company-profiles/interview-experiences.md | P0 | Directly useful |
-| 38 | Aptitude Data Interpretation | Tables, caselets, bar/line graphs, pie charts, data sufficiency | Aptitude/README.md | non-core/aptitude/quantitative/data-interpretation.md | P0 | Directly useful |
-| 39 | GATE Civil Practice | Practice problems and question banks for GATE Civil | GATE_Civil_Study_Material_2027.md, Aptitude-For-Placements/ | core/gate/practice/gate-civil-practice.md | P1 | Partially useful |
-| 40 | Water Supply | Water distribution systems, treatment, supply networks | awesome-civil-engineering/data/resources.json | core/hwre/water_supply/water-supply.md | P1 | Directly useful |
-| 41 | Turbulence Modeling | RANS, LES, DNS, k-epsilon, k-omega, wall functions | Civil_Placement_IITK/README.md | core/hwre/hydraulics/turbulence-modeling.md | P0 | High priority per IITK repo |
-| 42 | Sediment Transport | Sediment transport, scour, erosion mechanics | Civil_Placement_IITK/README.md | core/hwre/hydrology/sediment-transport.md | P0 | High priority per IITK repo |
-| 43 | Technical Stack | Python, MATLAB, LaTeX, OpenFOAM, QGIS, Git | Civil_Placement_IITK/README.md | non-core/analytics/technical-stack.md | P1 | Directly useful |
-| 44 | Non-Core Prep | Data analytics, SQL, Python, Excel, case studies | Civil_Placement_IITK/README.md | non-core/analytics/non-core-prep.md | P1 | Directly useful |
-| 45 | Placement Data | Company-wise CTC, profile, skills from IITK placement data | Civil_Placement_IITK/placement_data.csv | resources/placement-data.md | P0 | Directly useful |
-| 46 | Study Plan Template | Daily/weekly/monthly study plan for placement prep | Civil_Placement_IITK/README.md | prep/templates/study-plan-template.md | P0 | Directly useful |
-| 47 | Environmental Engineering | Water/air pollution, BOD/COD, treatment, EIA, solid waste, climate | awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md | core/environmental/environmental-engineering.md | P1 | New comprehensive guide |
-| 48 | Geoinformatics | GIS, Remote Sensing, GNSS, LiDAR, spatial analysis, image processing | awesome-civil-engineering/data/resources.json, resources/gis-tools.md | core/geoinformatics/geoinformatics.md | P1 | New comprehensive guide |
-| 49 | Infrastructure Engineering & Management | CPM/PERT, construction mgmt, cost estimation, PPP, urban planning | Civil_Placement_IITK/README.md, campus-placement-prep/README.md | core/infrastructure/infrastructure-engineering-management.md | P1 | New comprehensive guide |
-| 50 | Transportation Engineering | Highway design, pavement, traffic, railway, airport, harbour | awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md | core/transportation/transportation-engineering.md | P1 | Enhanced from software-only v1.0 |
+> **Repository Master Directory & Canonical System Registry**  
+> **Target Audience:** IIT Kanpur M.Tech Civil Engineering / HWRE (DEEC 2026 Batch)  
+> **Total Battery:** 592 Markdown Files · 9 Subsystems · 54 Standardized Assessments · 33 Company Profiles · 30 Technical Trees  
+> **Provenance Standard:** Unified 6-Tier Institutional Taxonomy (`[VERIFIED]`, `[SOURCE-DERIVED]`, `[INFERRED]`, `[PREPARATION HEURISTIC]`, `[SELF-REPORTED]`, `[PREDICTED]`)
 
 ---
 
-## 📋 Repository Statistics
+## 1. System Navigation Hierarchy
 
-| Metric | Count |
-|--------|-------|
-| Total Markdown Files | 110+ |
-| Core Civil Files | 16 |
-| HWRE Files | 7 |
-| Aptitude Files | 10 |
-| Behavioral Files | 6 |
-| Interview Files | 7 |
-| GATE Files | 5 |
-| Template Files | 4 |
-| Resource Files | 7 |
-| Index/Config Files | 5 |
-| Navigation Hubs | 8+ |
-| Software Deep-Dives | 7 |
-| Non-Core Career Tracks | 10+ |
+To eliminate ambiguity across multiple index and navigation files, this repository implements a strict 5-level index hierarchy:
 
----
-
-## 🔗 Quick Links
-
-| Need | Go To |
-|------|-------|
-| **Start Here** | [docs/start-here.md](../docs/start-here.md) |
-| **Control Panel** | [docs/placement-control-panel.md](../docs/placement-control-panel.md) |
-| **Roadmap** | [docs/roadmap.md](../docs/roadmap.md) |
-| **One-Page Cheat Sheet** | [core/hwre/exam_notes/hwre-exam-notes.md](../core/hwre/exam_notes/hwre-exam-notes.md) |
-| **Formula Sheet** | [core/gate/formulas/gate-civil-formulas.md](../core/gate/formulas/gate-civil-formulas.md) |
-| **Revision Cards** | [core/gate/revision_notes/gate-civil-revision.md](../core/gate/revision_notes/gate-civil-revision.md) |
-| **Question Engine** | [questions/README.md](../questions/README.md) |
-| **Core Civil Hub** | [core/README.md](../core/README.md) |
-| **HWRE Track** | [core/hwre/README.md](../core/hwre/README.md) |
-| **Validate Index** | `python scripts/validate_index.py` |
-| **Quality Check** | `python scripts/quality_check.py` |
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ LEVEL 1: Repository Navigation                                              │
+│ └── docs/MASTER_NAVIGATION.md  (Global routing across all subsystems, ≤3 clicks)│
+└──────────────────────────────────────┬──────────────────────────────────────┘
+                                       │
+┌──────────────────────────────────────▼──────────────────────────────────────┐
+│ LEVEL 2: Domain Master Index (This File)                                    │
+│ └── index/master_index.md      (Master domain-to-canonical-page registry)   │
+└──────────────────────────────────────┬──────────────────────────────────────┘
+                                       │
+┌──────────────────────────────────────▼──────────────────────────────────────┐
+│ LEVEL 3: Subject & Topic Index                                              │
+│ └── index/topics.md            (694+ granular syllabus topics & readiness)  │
+└──────────────────────────────────────┬──────────────────────────────────────┘
+                                       │
+┌──────────────────────────────────────▼──────────────────────────────────────┐
+│ LEVEL 4: Software & Technology Index                                        │
+│ └── software-and-tech/TOOLS_INDEX.md (Complete 17-tool matrix & deep dives) │
+└──────────────────────────────────────┬──────────────────────────────────────┘
+                                       │
+┌──────────────────────────────────────▼──────────────────────────────────────┐
+│ LEVEL 5: Preparation & Assessment Index                                     │
+│ └── prep/READINESS_SCORECARD.md (8-level assessment ladder & scoring engine)│
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 📋 Version History
+## 2. Canonical Domain Master Registry
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 3.0 | 2026-09-03 | Added Environmental, Geoinformatics, Infrastructure Engg & Mgmt; enhanced Transportation to full guide |
-| 2.0 | 2026-09-03 | Major enhancement: 35 files enhanced, cross-links added, navigation aids |
-| 1.0 | 2026-08-15 | Initial consolidation from 10 source repos |
+| Domain | Topic | Canonical Page | Status | Priority | Questions | Numericals | Software | Interview | Revision | Source |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **HWRE** | Hydraulics | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Open Channel Flow | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Hydrology | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Water Resources Engg | [`core/hwre/water_resources/water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Flood Control & Drainage | [`core/hwre/flood_control/flood-control.md`](../core/hwre/flood_control/flood-control.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **HWRE** | Irrigation Engineering | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **HWRE** | Groundwater Hydrology | [`core/hwre/water_supply/groundwater.md`](../core/hwre/water_supply/groundwater.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Water Supply Engg | [`core/hwre/water_supply/water-supply.md`](../core/hwre/water_supply/water-supply.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **HWRE** | Wastewater Engineering | [`core/hwre/wastewater/wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **HWRE** | Turbulence Modeling | [`core/hwre/hydraulics/turbulence-modeling.md`](../core/hwre/hydraulics/turbulence-modeling.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **HWRE** | Sediment Transport & Scour | [`core/hwre/hydrology/sediment-transport.md`](../core/hwre/hydrology/sediment-transport.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | Civil Foundations | [`core/fundamentals/civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | Engineering Mechanics | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | Strength of Materials | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | Structural Analysis | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | RCC Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Core Civil** | Steel Structures | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Core Civil** | Geotechnical Engineering | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Core Civil** | Environmental Engg | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Core Civil** | Transportation Engg | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Core Civil** | Geoinformatics & RS | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Core Civil** | Infrastructure Mgmt | [`core/infrastructure/infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **GATE** | GATE Civil Formulas | [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) | ✅ Active | P0 | ✅ | ✅ | — | — | ✅ | `[VERIFIED]` |
+| **GATE** | GATE Civil Revision | [`core/gate/revision_notes/gate-civil-revision.md`](../core/gate/revision_notes/gate-civil-revision.md) | ✅ Active | P1 | — | — | — | — | ✅ | `[SOURCE-DERIVED]` |
+| **GATE** | GATE Civil Practice | [`core/gate/practice/gate-civil-practice.md`](../core/gate/practice/gate-civil-practice.md) | ✅ Active | P1 | ✅ | ✅ | — | — | — | `[VERIFIED]` |
+| **Aptitude** | Quantitative Aptitude | [`aptitude/quant/percentages.md`](../aptitude/quant/percentages.md) | ✅ Active | P0 | ✅ | ✅ | — | — | ✅ | `[VERIFIED]` |
+| **Aptitude** | Data Interpretation | [`aptitude/di/README.md`](../aptitude/di/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | ✅ | `[VERIFIED]` |
+| **Aptitude** | Logical Reasoning | [`aptitude/reasoning/seating-arrangement.md`](../aptitude/reasoning/seating-arrangement.md) | ✅ Active | P0 | ✅ | — | — | — | ✅ | `[VERIFIED]` |
+| **Aptitude** | Verbal Ability & RC | [`aptitude/verbal/README.md`](../aptitude/verbal/README.md) | ✅ Active | P0 | ✅ | — | — | — | ✅ | `[VERIFIED]` |
+| **Aptitude** | Aptitude Formula Sheet | [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) | ✅ Active | P0 | — | — | — | — | ✅ | `[VERIFIED]` |
+| **Assessment** | Topic Diagnostics (17 tests) | [`aptitude/tests/README.md`](../aptitude/tests/README.md) | ✅ Active | P0 | ✅ | ✅ | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Assessment** | Sectional Tests (5 tests) | [`aptitude/tests/section/README.md`](../aptitude/tests/section/README.md) | ✅ Active | P0 | ✅ | ✅ | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Assessment** | Full Placement Mocks (7 mocks)| [`aptitude/mocks/README.md`](../aptitude/mocks/README.md) | ✅ Active | P0 | ✅ | ✅ | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Software** | Software Tools Index | [`software-and-tech/TOOLS_INDEX.md`](../software-and-tech/TOOLS_INDEX.md) | ✅ Active | P0 | — | — | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | Software Role Matrix | [`software-and-tech/SOFTWARE_ROLE_MATRIX.md`](../software-and-tech/SOFTWARE_ROLE_MATRIX.md) | ✅ Active | P0 | — | — | ✅ | ✅ | — | `[INFERRED]` |
+| **Software** | OpenFOAM CFD Case | [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | HEC-RAS River Modeling | [`software-and-tech/deep-dives/hec-ras-walkthrough.md`](../software-and-tech/deep-dives/hec-ras-walkthrough.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | EPANET Distribution | [`software-and-tech/deep-dives/epanet-walkthrough.md`](../software-and-tech/deep-dives/epanet-walkthrough.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | SWMM Urban Hydrology | [`software-and-tech/deep-dives/swmm-guide.md`](../software-and-tech/deep-dives/swmm-guide.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | GeoStudio SLOPE/W | [`software-and-tech/deep-dives/geostudio-slopew-tutorial.md`](../software-and-tech/deep-dives/geostudio-slopew-tutorial.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | PLAXIS 2D Geotech | [`software-and-tech/deep-dives/plaxis-2d-tutorial.md`](../software-and-tech/deep-dives/plaxis-2d-tutorial.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Software** | Daily Hands-On Practice | [`software-and-tech/practice/README.md`](../software-and-tech/practice/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | — | `[PREPARATION HEURISTIC]` |
+| **Software** | Software Test Battery | [`software-and-tech/tests/README.md`](../software-and-tech/tests/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | — | `[PREPARATION HEURISTIC]` |
+| **Non-Core** | Consulting Case Bank | [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | — | `[SOURCE-DERIVED]` |
+| **Non-Core** | Consulting Frameworks | [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md) | ✅ Active | P0 | — | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Guesstimates & Sizing | [`non-core/guesstimates/guesstimate-guide.md`](../non-core/guesstimates/guesstimate-guide.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Technical Stack & SQL | [`non-core/analytics/technical-stack.md`](../non-core/analytics/technical-stack.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Non-Core** | Product Management | [`non-core/product-management/pm-overview.md`](../non-core/product-management/pm-overview.md) | ✅ Active | P1 | ✅ | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Finance for Engineers | [`non-core/finance/finance-overview.md`](../non-core/finance/finance-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Supply Chain Management | [`non-core/supply-chain/supply-chain-overview.md`](../non-core/supply-chain/supply-chain-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Prep Hub** | Readiness Scorecard | [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | 30-14-7 Day Execution Plan | [`prep/30_14_7_DAY_PLAN.md`](../prep/30_14_7_DAY_PLAN.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | Selection Stage Map | [`prep/SELECTION_STAGE_MAP.md`](../prep/SELECTION_STAGE_MAP.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
+| **Prep Hub** | Placement Checklist | [`prep/PLACEMENT_CHECKLIST.md`](../prep/PLACEMENT_CHECKLIST.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | Technical Bank (30 Trees) | [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Prep Hub** | Project Defense Guide | [`prep/interview/technical/project-defense-guide.md`](../prep/interview/technical/project-defense-guide.md) | ✅ Active | P0 | ✅ | — | ✅ | ✅ | ✅ | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | Thesis Defense Guide | [`prep/interview/technical/thesis-defense-guide.md`](../prep/interview/technical/thesis-defense-guide.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | Behavioral & STAR Grid | [`prep/behavioral/behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) | ✅ Active | P0 | ✅ | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Prep Hub** | HR Questions Bank | [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) | ✅ Active | P0 | ✅ | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Prep Hub** | Role Mocks (25 tests) | [`prep/mock-tests/README.md`](../prep/mock-tests/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | — | `[PREPARATION HEURISTIC]` |
+| **Prep Hub** | Company Profiles (33+) | [`prep/company-profiles/README.md`](../prep/company-profiles/README.md) | ✅ Active | P0 | — | — | — | ✅ | — | `[VERIFIED]` |
+| **Prep Hub** | Live Simulation Panel | [`prep/MOCK_INTERVIEW.md`](../prep/MOCK_INTERVIEW.md) | ✅ Active | P0 | ✅ | — | — | ✅ | — | `[PREPARATION HEURISTIC]` |
+| **Resources** | IITK Placement Data | [`resources/placement-data.md`](../resources/placement-data.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
+| **Resources** | Source Registry | [`resources/source-registry.md`](../resources/source-registry.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
+| **Resources** | Recommended Books | [`resources/book-list.md`](../resources/book-list.md) | ✅ Active | P1 | — | — | — | — | — | `[VERIFIED]` |
+| **Resources** | Research Papers | [`resources/paper-list.md`](../resources/paper-list.md) | ✅ Active | P1 | — | — | — | — | — | `[VERIFIED]` |
+| **Resources** | Technical Links | [`resources/links.md`](../resources/links.md) | ✅ Active | P1 | — | — | — | — | — | `[VERIFIED]` |
+| **Docs** | Master Navigation | [`docs/MASTER_NAVIGATION.md`](../docs/MASTER_NAVIGATION.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
+| **Docs** | Preparation Workflow | [`docs/PREPARATION_WORKFLOW.md`](../docs/PREPARATION_WORKFLOW.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
+| **Docs** | Testing Guide | [`docs/TESTING_GUIDE.md`](../docs/TESTING_GUIDE.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Docs** | Assessment Architecture | [`docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
+| **Docs** | IITK Placement Map | [`docs/IITK_PLACEMENT_MAP.md`](../docs/IITK_PLACEMENT_MAP.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
 
 ---
 
-## 📋 Maintenance
+## 3. Live Repository Statistics
 
-| Task | Frequency | Command |
-|------|-----------|---------|
-| Validate all links | Weekly | `python scripts/validate_index.py` |
-| Update file inventory | After changes | `python scripts/validate_index.py` |
-| Check cross-links | Monthly | Manual review |
-| Update company data | Per placement season | Edit [company-profiles.md](../prep/company-profiles/company-profiles.md) |
-| Update placement data | Per placement season | Edit [placement-data.md](../resources/placement-data.md) |
+*(Machine-generated and synchronized via `python scripts/count_metrics.py` and `python scripts/validate_index.py`)*
+
+| Metric Dimension | Current Verified Count | Target Placement Baseline |
+|:---|:---:|:---|
+| **Total Markdown Files** | **592** | Comprehensive repository coverage |
+| ├── `core/` (Civil Engineering & HWRE) | 130 files | Complete GATE + Industrial syllabus |
+| ├── `prep/` (Interview, Mocks & Scorecards) | 129 files | Assessment and interview execution |
+| ├── `non-core/` (Consulting, Analytics, PM, Finance) | 93 files | Multi-track career versatility |
+| ├── `aptitude/` (Quant, Reasoning, DI, Verbal, Mocks)| 90 files | Layer 1–4 standardized test battery |
+| ├── `software-and-tech/` (CFD, GIS, BIM, Coding) | 71 files | Complete computational tool suite |
+| ├── `docs/` (Architecture, Standards, Workflows) | 42 files | Institutional governance layer |
+| ├── `_SYSTEM/` (Control, Audits, State Files) | 22 files | Autonomous state validation |
+| ├── `resources/` (Placement CSVs, Books, Papers) | 7 files | Verified empirical records |
+| ├── `index/` (Registries, Inventories, Maps) | 5 files | Live machine-validated registry |
+| └── `root` & `questions/` | 3 files | Root entry points |
+| **Assessment Battery Total** | **54 tests** | 8-Level Assessment Ladder |
+| ├── Layer 1: Topic Diagnostic Tests | 17 tests | 255 Cat-8 progressive questions |
+| ├── Layer 2: Sectional Speed Tests | 5 tests | 140 timed questions (Quant/Reas/DI/Verb/Core) |
+| ├── Layer 3: Full Placement Mocks | 5 mocks | 250 standard campus OA simulation Qs |
+| ├── Layer 4: Hard & Expert Mocks | 2 mocks | 110 high-selectivity analytics Qs |
+| └── Layer 5: Role & Company Tests | 25 tests | 625+ company-calibrated blended Qs |
+| **Technical Interview Branching Trees** | **30 trees** | Multi-tier oral defense probes across 5 sections |
+| **Management Consulting Cases** | **12 cases** | Structured MECE business simulations |
+| **Company Corporate Profiles** | **33+ companies** | CTC, OA format, interview focus, and alumni insights |
 
 ---
 
-## 📞 Support & Contribution
+## 4. Index Maintenance & Validation Protocol
 
-- **Issues:** Report broken links or missing content via GitHub Issues
-- **Contributions:** PRs welcome for new content, corrections, or formatting
-- **Validation:** Run `python scripts/validate_index.py` before committing
+The `index/` layer operates as a **live, machine-validated registry** rather than a static hand-maintained catalog:
 
----
-
-> **Last Updated:** 2026-09-03  
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026  
-> **License:** MIT
+1. **Pre-Commit Verification:** Run `python scripts/validate_index.py` to ensure:
+   - 100% of referenced canonical pages in `master_index.md` exist on the filesystem.
+   - All relative links in `topics.md` resolve cleanly.
+   - `file_inventory.csv` is regenerated across all 10 filesystem categories.
+   - `metrics.json` is updated with exact file counts, test batteries, and subsystem metrics.
+2. **Historical Migration Ledger:** Original file migrations from external GitHub repositories are preserved in [`index/SOURCE_MIGRATION_MAP.csv`](SOURCE_MIGRATION_MAP.csv). Do not use `SOURCE_MIGRATION_MAP.csv` for live navigation; always navigate via `master_index.md` or `docs/MASTER_NAVIGATION.md`.

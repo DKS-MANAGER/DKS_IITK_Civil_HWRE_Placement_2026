@@ -222,6 +222,8 @@ logs/
 # Large Binary / Data Files
 # ============================
 *.csv
+!index/*.csv
+!resources/*.csv
 
 # ============================
 # Audit Reports & System Artifacts (local-only)

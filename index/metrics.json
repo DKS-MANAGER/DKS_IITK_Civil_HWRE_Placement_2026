@@ -1,7 +1,21 @@
 {
-  "markdown_files": 421,
-  "interview_qa_total": 96,
+  "markdown_files": 592,
+  "markdown_files_by_subsystem": {
+    "root": 3,
+    "aptitude": 90,
+    "core": 130,
+    "docs": 42,
+    "index": 4,
+    "non-core": 93,
+    "prep": 129,
+    "questions": 1,
+    "resources": 7,
+    "software-and-tech": 71,
+    "_SYSTEM": 22
+  },
+  "interview_qa_total": 106,
   "interview_qa_breakdown": {
+    "prep/interview/technical/technical-interview-bank.md": 10,
     "prep/behavioral/hr_questions/hr-questions-bank.md": 50,
     "core/hwre/hydraulics/hydraulics.md": 10,
     "core/hwre/open_channel_flow/open-channel-flow.md": 6,
@@ -15,6 +29,7 @@
   "company_profiles": 33,
   "numerical_examples": 15,
   "software_deep_dives": 7,
+  "software_files_total": 71,
   "noncore_tracks": 14,
   "subject_guides": 12,
   "subject_names": [
@@ -30,5 +45,12 @@
     "Transportation",
     "Geoinformatics",
     "Infrastructure"
-  ]
+  ],
+  "assessment_battery": {
+    "topic_diagnostic_tests": 17,
+    "sectional_tests": 5,
+    "full_placement_mocks": 7,
+    "role_specific_tests": 25,
+    "total_assessment_tests": 54
+  }
 }

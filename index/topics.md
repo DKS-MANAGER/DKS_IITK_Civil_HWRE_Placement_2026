@@ -1,275 +1,261 @@
-# Topic Master Index
+# Topic Master Index — Subject & Syllabus Catalog
 
-**Purpose:** Canonical index of all civil engineering topics in the repository, mapping each topic to its primary page, source coverage, placement priority, and supporting resources.
-
-**Last Updated:** 2026-09-04
-**Total Topics Indexed:** 18 subjects, 694+ subtopics from GATE-O-PEDIA, 216 repository files
-
----
-
-## How to Use This Index
-
-1. Find your subject below
-2. Locate the specific topic
-3. Follow the canonical page link
-4. Check question bank, numericals, software, and revision links
-5. Priority labels: **P0** = mandatory, **P1** = high value, **P2** = role-dependent, **P3** = specialized
+> **Repository Subject Directory & Placement Readiness Catalog**  
+> **Target Audience:** IIT Kanpur M.Tech Civil Engineering / HWRE (DEEC 2026 Batch)  
+> **Last Updated:** 2026-09-17 · **Total Files Monitored:** 592 Markdown Files · 18 Core Disciplines  
+> **Navigation Tier:** Level 3 Subject Index (Governed by [master_index.md](master_index.md) and [docs/MASTER_NAVIGATION.md](../docs/MASTER_NAVIGATION.md))
 
 ---
 
-## 1. Engineering Mechanics `[P0]` `[COVERED]`
+## 1. How to Use This Index: The 6-Dimensional Readiness Model
+
+A topic being marked "Covered" or "Active" indicates that baseline notes exist. For **IIT Kanpur corporate placement readiness**, candidates must evaluate preparation across 6 distinct competency dimensions:
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                       6-DIMENSIONAL PLACEMENT READINESS                     │
+├───────────────────┬─────────────────────────────────────────────────────────┤
+│ Dimension         │ Evaluation Requirement & Standard Location              │
+├───────────────────┼─────────────────────────────────────────────────────────┤
+│ 1. Theory Notes   │ Core theoretical principles & derivations in subject doc│
+│ 2. Numericals     │ Multi-step worked engineering problems & boundary limits│
+│ 3. Interview Oral │ Branching oral defense trees in prep/interview/technical│
+│ 4. Rapid Revision │ Formula cheatsheet / summary cards for 24h recall       │
+│ 5. Software/CFD   │ Computational modeling case study in software-and-tech/ │
+│ 6. Assessment Mock│ Standardized timed test in aptitude/tests/ or prep/mocks│
+└───────────────────┴─────────────────────────────────────────────────────────┘
+```
+
+**Priority Labels:**
+- **P0:** Mandatory core competencies tested in 90%+ of shortlists and technical panels.
+- **P1:** High-value domain topics tested in specialized technical tracks (e.g., CFD, Water Resources, EPC).
+- **P2:** Secondary electives or role-dependent topics.
+
+---
+
+## 2. Subject Catalog & Canonical Page Registry
+
+### 1. Engineering Mechanics `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
+|:---|:---|:---:|:---:|
 | Newton's Laws & Equilibrium | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
 | Free Body Diagrams | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
 | Moment & Couple | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
 | Friction (Static/Dynamic) | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
-| Truss Analysis | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
+| Truss Analysis (Method of Joints/Sections) | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P0 | ✅ Active |
 | Centroid & Moment of Inertia | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P1 | ✅ Active |
 | Virtual Work | [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md) | P1 | ✅ Active |
 
 ---
 
-## 2. Strength of Materials `[P0]` `[MISSING — PLANNED]`
+### 2. Strength of Materials `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Stress & Strain | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Mohr's Circle | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Principal Stresses | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Bending of Beams | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Shear Stress Distribution | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Torsion | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Deflection of Beams | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
-| Thermal Stresses | `core/fundamentals/strength-of-materials.md` | P1 | Planned |
-| Thin/Thick Cylinders | `core/fundamentals/strength-of-materials.md` | P1 | Planned |
-| Column Buckling | `core/fundamentals/strength-of-materials.md` | P0 | Planned |
+|:---|:---|:---:|:---:|
+| Stress, Strain & Hooke's Law | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Mohr's Circle & Principal Stresses | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Bending & Flexural Stresses | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Shear Stress Distribution in Beams | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Torsion of Circular Shafts | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Deflection of Beams (Macaulay / Energy) | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
+| Thermal Stresses & Combined Loading | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P1 | ✅ Active |
+| Thin & Thick Cylinders | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P1 | ✅ Active |
+| Column Buckling & Euler Theory | [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md) | P0 | ✅ Active |
 
 ---
 
-## 3. Structural Analysis `[P0]` `[COVERED]`
+### 3. Structural Analysis `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Determinacy & Stability | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Degree of Indeterminacy | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Influence Lines | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Slope Deflection Method | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Moment Distribution | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Matrix Methods | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P1 | ✅ Active |
-| Plastic Analysis | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
-| Arches | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P2 | ✅ Active |
-| Cables | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P2 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Static & Kinematic Indeterminacy | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
+| Influence Lines for Statically Determinate Beams | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
+| Slope Deflection & Moment Distribution | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
+| Matrix Stiffness & Flexibility Methods | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P1 | ✅ Active |
+| Plastic Analysis & Collapse Mechanisms | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P0 | ✅ Active |
+| Three-Hinged & Two-Hinged Arches | [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md) | P2 | ✅ Active |
+| Structural Software Modeling | [`software-and-tech/structural/structural-tech.md`](../software-and-tech/structural/structural-tech.md) | P1 | ✅ Active |
 
 ---
 
-## 4. Reinforced Cement Concrete `[P0]` `[COVERED]`
+### 4. Reinforced Cement Concrete `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| IS 456 Provisions | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Working Stress vs Limit State | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Flexural Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Shear Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Bond & Development Length | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Slab Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Column Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Footing Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
-| Pre-stressed Concrete | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| IS 456:2000 Limit State Philosophy | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Singly & Doubly Reinforced Flexure | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Shear, Diagonal Tension & Torsion | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Bond, Anchorage & Development Length | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| One-Way & Two-Way Slabs | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Axially & Uniaxially Loaded Columns | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Isolated Footing Design | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P0 | ✅ Active |
+| Prestressed Concrete Losses & Deflections | [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md) | P1 | ✅ Active |
 
 ---
 
-## 5. Steel Structures `[P0]` `[COVERED]`
+### 5. Steel Structures `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| IS 800:2007 Provisions | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Tension Members | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Compression Members | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Bolted Connections | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Welded Connections | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Beam Design | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
-| Eccentric Connections | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P1 | ✅ Active |
-| Plate Girder | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P2 | ✅ Active |
+|:---|:---|:---:|:---:|
+| IS 800:2007 Limit State Specifications | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
+| High-Strength Bolted & Welded Connections | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
+| Tension Member Net Section Rupture & Block Shear | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
+| Compression Members, Column Curves & Lacing | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
+| Laterally Supported & Unsupported Beams | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P0 | ✅ Active |
+| Plate Girders & Web Stiffeners | [`core/steel/steel-design.md`](../core/steel/steel-design.md) | P1 | ✅ Active |
 
 ---
 
-## 6. Environmental Engineering `[P0]` `[COVERED]`
+### 6. Environmental Engineering `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Water Treatment | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P0 | ✅ Active |
-| Wastewater Treatment | [`core/hwre/wastewater/wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md) | P0 | ✅ Active |
-| BOD/COD/DO | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P0 | ✅ Active |
-| Sludge Treatment | [`core/hwre/wastewater/wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md) | P1 | ✅ Active |
-| Air Pollution | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P1 | ✅ Active |
-| Software | [`software-and-tech/environmental/environmental-tech.md`](../software-and-tech/environmental/environmental-tech.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Water Quality Parameters & Standards | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P0 | ✅ Active |
+| Coagulation, Flocculation & Rapid Filtration | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P0 | ✅ Active |
+| Wastewater Characterization, BOD, COD & DO Sag | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P0 | ✅ Active |
+| Activated Sludge & Anaerobic Digestion | [`core/hwre/wastewater/wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md) | P0 | ✅ Active |
+| Air Pollution & Dispersion Modeling | [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md) | P1 | ✅ Active |
+| Environmental Modeling Software | [`software-and-tech/environmental/environmental-tech.md`](../software-and-tech/environmental/environmental-tech.md) | P1 | ✅ Active |
 
 ---
 
-## 7. Geotechnical Engineering `[P0]` `[COVERED]`
+### 7. Geotechnical Engineering `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Soil Properties & Classification | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Permeability & Seepage | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Compaction | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Consolidation | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Shear Strength | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Bearing Capacity | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Earth Pressure | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
-| Slope Stability | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P1 | ✅ Active |
-| Pile Foundations | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P1 | ✅ Active |
-| Software | [`software-and-tech/geotechnical/geotechnical-tech.md`](../software-and-tech/geotechnical/geotechnical-tech.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Phase Relations & Atterberg Limits | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| Permeability, Seepage & Flow Nets | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| 1D Consolidation & Settlement Time | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| Shear Strength (Direct Shear & Triaxial) | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| Rankine & Coulomb Lateral Earth Pressures | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| Terzaghi & Meyerhof Bearing Capacity | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P0 | ✅ Active |
+| Slope Stability & Bishop Method | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P1 | ✅ Active |
+| Pile Foundation Capacity & Settlement | [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md) | P1 | ✅ Active |
+| Numerical Geotechnics (PLAXIS / SLOPE/W) | [`software-and-tech/geotechnical/geotechnical-tech.md`](../software-and-tech/geotechnical/geotechnical-tech.md) | P1 | ✅ Active |
 
 ---
 
-## 8. Fluid Mechanics `[P0]` `[COVERED]`
+### 8. Fluid Mechanics & Hydrodynamics `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅ · Software (OpenFOAM) ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Fluid Properties | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
-| Bernoulli Equation | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
-| Pipe Flow & Head Loss | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
-| Boundary Layer | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P1 | ✅ Active |
-| Turbulence Modeling | [`core/hwre/hydraulics/turbulence-modeling.md`](../core/hwre/hydraulics/turbulence-modeling.md) | P1 | ✅ Active |
-| Dimensional Analysis | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P1 | ✅ Active |
-| Pump Selection | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Navier-Stokes & Continuity Equations | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
+| Bernoulli Equation & Energy Grade Lines | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
+| Pipe Friction (Darcy-Weisbach & Colebrook) | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
+| Boundary Layer Growth & Separation | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P1 | ✅ Active |
+| Turbulence Modeling (RANS, $k$-$\epsilon$, $k$-$\omega$ SST) | [`core/hwre/hydraulics/turbulence-modeling.md`](../core/hwre/hydraulics/turbulence-modeling.md) | P0 | ✅ Active |
+| Dimensional Analysis & Similitude | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P1 | ✅ Active |
+| Centrifugal Pumps & Turbines | [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md) | P0 | ✅ Active |
 
 ---
 
-## 9. Irrigation Engineering `[P0]` `[PARTIAL]`
+### 9. Open Channel Hydraulics `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅ · Software (HEC-RAS) ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Irrigation Methods | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ✅ Active |
-| Crop Water Requirements | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ✅ Active |
-| Canal Design | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ⚠️ Thin |
-| Irrigation Efficiencies | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ⚠️ Thin |
-| Water Logging | — | P1 | Missing |
-| Canal Regulation | — | P2 | Missing |
+|:---|:---|:---:|:---:|
+| Specific Energy & Critical Flow Conditions | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | P0 | ✅ Active |
+| Uniform Flow & Manning-Chezy Calibration | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | P0 | ✅ Active |
+| Gradually Varied Flow (GVF) Backwater Curves | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | P0 | ✅ Active |
+| Hydraulic Jump Energy Dissipation & Conjugate Depths | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | P0 | ✅ Active |
+| Unsteady Open Channel Flow & Saint-Venant | [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md) | P1 | ✅ Active |
 
 ---
 
-## 10. Engineering Hydrology `[P0]` `[COVERED]`
+### 10. Engineering Hydrology & Catchments `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅ · Software (HEC-HMS) ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Hydrologic Cycle | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
-| Unit Hydrograph | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
-| Flood Frequency Analysis | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
-| Muskingum Routing | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
-| Sediment Transport | [`core/hwre/hydrology/sediment-transport.md`](../core/hwre/hydrology/sediment-transport.md) | P0 | ✅ Active |
-| Groundwater | [`core/hwre/water_resources/water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md) | P0 | ✅ Active |
-| Software (HEC-HMS) | [`software-and-tech/hydrology/hydrology-tech.md`](../software-and-tech/hydrology/hydrology-tech.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Infiltration Indices ($\phi, W$) & Rainfall Excess | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
+| Unit Hydrograph (UH & S-Curve) Synthesis | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
+| Flood Frequency (Gumbel & Log-Pearson III) | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
+| Muskingum Channel & Modified Puls Reservoir Routing | [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md) | P0 | ✅ Active |
+| Incipient Motion, Shields Parameter & Fluvial Scour | [`core/hwre/hydrology/sediment-transport.md`](../core/hwre/hydrology/sediment-transport.md) | P0 | ✅ Active |
+| Confined/Unconfined Well Hydraulics (Theis/Jacob) | [`core/hwre/water_supply/groundwater.md`](../core/hwre/water_supply/groundwater.md) | P0 | ✅ Active |
 
 ---
 
-## 11. Surveying / Geomatics `[P1]` `[COVERED]`
+### 11. Water Resources & Irrigation Engineering `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Surveying Fundamentals | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
-| Leveling | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
-| Traversing | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
-| GIS/Remote Sensing | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Reservoir Storage Elevation & Mass Curve Analysis | [`core/hwre/water_resources/water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md) | P0 | ✅ Active |
+| Crop Water Requirements, Consumptive Use & Duty-Delta | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ✅ Active |
+| Kennedy & Lacey Silt Theories for Canal Design | [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md) | P0 | ✅ Active |
+| Gravity Dam Stability & Uplift Distribution | [`core/hwre/water_resources/water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md) | P0 | ✅ Active |
+| Flood Routing & Embankment Protection | [`core/hwre/flood_control/flood-control.md`](../core/hwre/flood_control/flood-control.md) | P1 | ✅ Active |
 
 ---
 
-## 12. Highway Engineering `[P0]` `[COVERED]`
+### 12. Transportation & Highway Engineering `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅ · Assessment ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Geometric Design | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
-| Pavement Design | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
-| Traffic Engineering | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
-| Software | [`software-and-tech/transportation/transportation-tech.md`](../software-and-tech/transportation/transportation-tech.md) | P1 | ✅ Active |
+|:---|:---|:---:|:---:|
+| Sight Distances (SSD, OSD) & Horizontal Curves | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
+| Vertical Alignment, Summit & Valley Curves | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
+| Flexible Pavement Design (IRC 37 / CBR) | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
+| Rigid Pavement Westergaard Stresses (IRC 58) | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
+| Traffic Flow Theory, Speed-Density & Signal Timing | [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md) | P0 | ✅ Active |
+| Highway Software Integration | [`software-and-tech/transportation/transportation-tech.md`](../software-and-tech/transportation/transportation-tech.md) | P1 | ✅ Active |
 
 ---
 
-## 13. Airport Engineering `[P2]` `[MISSING]`
+### 13. Geoinformatics & Surveying `[P1]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Software (QGIS/ArcGIS) ✅ · Interview ✅ · Revision ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Runway Design | — | P2 | Missing |
-| Taxiway Design | — | P2 | Missing |
-| Airport Planning | — | P3 | Missing |
+|:---|:---|:---:|:---:|
+| Triangulation, EDM & Modern Total Stations | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
+| Coordinate Reference Systems, Projections & Datums | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
+| Remote Sensing Electromagnetic Spectrum & Indices | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
+| GIS Vector/Raster Operations & DEM Hydrologic Analysis | [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md) | P1 | ✅ Active |
 
 ---
 
-## 14. Railway Engineering `[P2]` `[MISSING]`
+### 14. Infrastructure Engineering & Project Management `[P1]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Interview ✅ · Revision ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Permanent Way | — | P2 | Missing |
-| Track Geometry | — | P2 | Missing |
-| Stations & Junctions | — | P3 | Missing |
+|:---|:---|:---:|:---:|
+| CPM & PERT Activity Network Analysis | [`core/infrastructure/infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md) | P0 | ✅ Active |
+| Crashing, Project Cost Optimization & Floats | [`core/infrastructure/infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md) | P0 | ✅ Active |
+| Life Cycle Costing, PPP Models & Concession Agreements | [`core/infrastructure/infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md) | P1 | ✅ Active |
+| Construction Tech & BIM Tools | [`software-and-tech/construction/construction-tech.md`](../software-and-tech/construction/construction-tech.md) | P1 | ✅ Active |
 
 ---
 
-## 15. Construction Project Management `[P1]` `[THIN]`
+### 15. Engineering Mathematics & Analytics `[P0]` `[COVERED]`
+- **Readiness Profile:** Theory ✅ · Numericals ✅ · Diagnostic Tests (Layer 1) ✅ · Revision ✅
 
 | Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| CPM/PERT | [`software-and-tech/construction/construction-tech.md`](../software-and-tech/construction/construction-tech.md) | P1 | ⚠️ Thin |
-| Estimation | — | P1 | Missing |
-| Resource Leveling | — | P2 | Missing |
+|:---|:---|:---:|:---:|
+| Linear Algebra (Eigenvalues, Rank, Inverse) | [`aptitude/tests/engineering-math-test.md`](../aptitude/tests/engineering-math-test.md) | P0 | ✅ Active |
+| Multivariable Calculus & Gradient Vectors | [`aptitude/tests/engineering-math-test.md`](../aptitude/tests/engineering-math-test.md) | P0 | ✅ Active |
+| Ordinary & Partial Differential Equations | [`aptitude/tests/engineering-math-test.md`](../aptitude/tests/engineering-math-test.md) | P0 | ✅ Active |
+| Probability Distributions & Bayes' Theorem | [`aptitude/quant/probability.md`](../aptitude/quant/probability.md) | P0 | ✅ Active |
+| Statistical Inference & Hypothesis Testing | [`non-core/data-analyst/statistics-practice.md`](../non-core/data-analyst/statistics-practice.md) | P1 | ✅ Active |
 
 ---
 
-## 16. Building Materials `[P1]` `[COVERED]`
+### 16. General Aptitude & Placement Assessment `[P0]` `[COVERED]`
+- **Readiness Profile:** Complete 8-Level Assessment Battery (54 Tests · 1,380+ Questions · 100% Key Parity)
 
-| Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Cement | [`core/fundamentals/civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md) | P1 | ✅ Active |
-| Concrete | [`core/fundamentals/civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md) | P1 | ✅ Active |
-| Steel Properties | [`core/fundamentals/civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md) | P1 | ✅ Active |
-
----
-
-## 17. Engineering Mathematics `[P1]` `[THIN]`
-
-| Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Linear Algebra | — | P1 | Missing |
-| Calculus | — | P1 | Missing |
-| Differential Equations | — | P1 | Missing |
-| Probability | [`non-core/aptitude/quantitative/probability.md`](../non-core/aptitude/quantitative/probability.md) | P1 | ✅ Active |
-| Statistics | [`non-core/data-analyst/statistics-practice.md`](../non-core/data-analyst/statistics-practice.md) | P1 | ✅ Active |
-| Numerical Methods | — | P2 | Missing |
-
----
-
-## 18. General Aptitude `[P0]` `[EXCELLENT]`
-
-| Topic | Canonical Page | Priority | Status |
-|-------|---------------|----------|--------|
-| Quantitative | [`non-core/aptitude/quantitative/aptitude-basics.md`](../non-core/aptitude/quantitative/aptitude-basics.md) | P0 | ✅ Deep |
-| Logical Reasoning | [`non-core/aptitude/logical_reasoning/reasoning-practice.md`](../non-core/aptitude/logical_reasoning/reasoning-practice.md) | P0 | ✅ Deep |
-| Verbal Ability | [`non-core/aptitude/verbal/verbal-ability.md`](../non-core/aptitude/verbal/verbal-ability.md) | P1 | ✅ Active |
-| Data Interpretation | [`non-core/aptitude/quantitative/data-interpretation.md`](../non-core/aptitude/quantitative/data-interpretation.md) | P0 | ✅ Active |
-
----
-
-## Coverage Summary
-
-| Status | Count | Percentage |
-|--------|-------|-----------|
-| ✅ Active (adequate) | 10 subjects | 56% |
-| ⚠️ Thin (needs enhancement) | 3 subjects | 17% |
-| Planned (P0 — critical) | 5 subjects | 28% |
-| **Total** | **18 subjects** | **100%** |
-
-### By Priority
-
-| Priority | Subjects | Action |
-|----------|----------|--------|
-| P0 | Mechanics, SOM, Structural Analysis, RCC, Steel, Hydrology, Fluids, Geotech, Environmental, Highway, Aptitude | CREATE/MAINTAIN |
-| P1 | Irrigation, Surveying, Math, CPM, Building Materials | DEEPEN |
-| P2 | Airport, Railway, Arches, Cable | ADD LATER |
-| P3 | Specialized topics | IF NEEDED |
-
----
-
-*This index should be updated whenever new content is added or existing content is significantly modified.*
+| Domain | Canonical Page | Assessment Suite | Shortlist Cutoff |
+|:---|:---|:---|:---:|
+| Quantitative Aptitude | [`aptitude/quant/percentages.md`](../aptitude/quant/percentages.md) | 10 Topic Tests + Sectional 01 | $\ge 75\%$ score |
+| Logical Reasoning | [`aptitude/reasoning/seating-arrangement.md`](../aptitude/reasoning/seating-arrangement.md) | 4 Topic Tests + Sectional 01 | $\ge 75\%$ score |
+| Data Interpretation | [`aptitude/di/README.md`](../aptitude/di/README.md) | DI Topic Test + Sectional 01 | $\ge 75\%$ score |
+| Verbal Ability & RC | [`aptitude/verbal/README.md`](../aptitude/verbal/README.md) | Verbal Topic Test + Sectional 01 | $\ge 75\%$ score |
+| Full Campus Mocks | [`aptitude/mocks/README.md`](../aptitude/mocks/README.md) | 5 Standard + Hard 01 + Expert 01 | $\ge 70\text{–}75\%$ |

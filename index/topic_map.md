@@ -1,316 +1,255 @@
 # Topic Map — DKS IITK Civil / HWRE Placement 2026
 
-## How to Use This File
-This file maps each topic to its source files and the final merged destination file. It also identifies repeated topics across repos and the best source for each topic.
+> **Repository Provenance & Consolidation Mapping Registry**  
+> **Target Audience:** IIT Kanpur M.Tech Civil / HWRE (DEEC 2026 Batch)  
+> **Last Updated:** 2026-09-17  
+> **Core Architecture Principle:** Clear separation between **Historical Source Provenance** (where content originated during initial ingestion) and **Current Canonical Destination** (the live, active file in the repository tree).
 
-## Topic → Source Files → Destination File
+---
 
-### Civil Engineering
-- **civil-engineering-foundations.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/README.md
-  - Status: Merged
+## 1. Architectural Model
 
-- **hydraulics.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+```
+┌──────────────────────────────────────────────┐
+│ HISTORICAL SOURCE PROVENANCE                 │
+│ (10 Ingested Repositories + Primary Codes)   │
+└──────────────────────┬───────────────────────┘
+                       │ Content Paraphrasing, Verification & Expansion
+┌──────────────────────▼───────────────────────┐
+│ CURRENT CANONICAL DESTINATION                │
+│ (Active repository file with live hyperlinks)│
+└──────────────────────────────────────────────┘
+```
 
-- **turbulence-modeling.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+---
 
-- **open-channel-flow.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+## 2. Topic → Source Provenance → Canonical Destination
 
-- **hydrology.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+### Core Civil & Structural Engineering
 
-- **sediment-transport.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Civil Engineering Foundations**
+  - **Canonical Destination:** [`core/fundamentals/civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/README.md`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Merged, expanded with IITK course linkage
 
-- **water-resources-engineering.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+- **Engineering Mechanics**
+  - **Canonical Destination:** [`core/fundamentals/engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md)
+  - **Source Provenance:** `GATE_Civil_Study_Material_2027.md`, `Civil_Placement_IITK/README.md`
+  - **Best Source:** `GATE_Civil_Study_Material_2027.md`
+  - **Consolidation Status:** Comprehensive guide with worked examples
 
-- **geotechnical.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+- **Strength of Materials**
+  - **Canonical Destination:** [`core/fundamentals/strength-of-materials.md`](../core/fundamentals/strength-of-materials.md)
+  - **Source Provenance:** `GATE_Civil_Study_Material_2027.md`, Gere & Timoshenko standards
+  - **Best Source:** `GATE_Civil_Study_Material_2027.md`
+  - **Consolidation Status:** Comprehensive guide with Mohr's circle & beam deflection
 
-- **structures.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+- **Structural Analysis**
+  - **Canonical Destination:** [`core/structural-analysis/structural-analysis.md`](../core/structural-analysis/structural-analysis.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Merged, slope deflection & plastic analysis
 
-- **environmental-engineering.md**
-  - Sources: awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md
-  - Best source: awesome-civil-engineering/data/resources.json
-  - Repeated in: None
-  - Status: New comprehensive guide (v1.0)
+- **Reinforced Cement Concrete (RCC)**
+  - **Canonical Destination:** [`core/rcc/rcc-design.md`](../core/rcc/rcc-design.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, BIS IS 456:2000
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Full limit-state design guide with code provisions
 
-- **geoinformatics.md**
-  - Sources: awesome-civil-engineering/data/resources.json, resources/gis-tools.md
-  - Best source: resources/gis-tools.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: New comprehensive guide (v1.0)
+- **Steel Structures**
+  - **Canonical Destination:** [`core/steel/steel-design.md`](../core/steel/steel-design.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, BIS IS 800:2007
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Connection & member design with code provisions
 
-- **infrastructure-engineering-management.md**
-  - Sources: Civil_Placement_IITK/README.md, campus-placement-prep/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: campus-placement-prep/README.md
-  - Status: New comprehensive guide (v1.0)
+- **Geotechnical Engineering**
+  - **Canonical Destination:** [`core/geotechnical/geotechnical.md`](../core/geotechnical/geotechnical.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Merged, soil mechanics & bearing capacity
 
-- **transportation-engineering.md**
-  - Sources: awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md
-  - Best source: awesome-civil-engineering/README.md
-  - Repeated in: Civil_Placement_IITK/README.md
-  - Status: Enhanced from software-only v1.0 to full guide v2.0
+- **Environmental Engineering**
+  - **Canonical Destination:** [`core/environmental/environmental-engineering.md`](../core/environmental/environmental-engineering.md)
+  - **Source Provenance:** `awesome-civil-engineering/data/resources.json`, `Civil_Placement_IITK/README.md`
+  - **Best Source:** `awesome-civil-engineering/data/resources.json`
+  - **Consolidation Status:** Comprehensive environmental guide
 
-### HWRE
-- **irrigation-engineering.md**
-  - Sources: Civil_Placement_IITK/README.md, Aptitude-For-Placements/
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: Aptitude-For-Placements/
-  - Status: Merged
+- **Transportation Engineering**
+  - **Canonical Destination:** [`core/transportation/transportation-engineering.md`](../core/transportation/transportation-engineering.md)
+  - **Source Provenance:** `awesome-civil-engineering/README.md`, `Civil_Placement_IITK/README.md`
+  - **Best Source:** `awesome-civil-engineering/README.md`
+  - **Consolidation Status:** Enhanced guide with geometric & pavement design
 
-- **groundwater.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+- **Geoinformatics & Remote Sensing**
+  - **Canonical Destination:** [`core/geoinformatics/geoinformatics.md`](../core/geoinformatics/geoinformatics.md)
+  - **Source Provenance:** `awesome-civil-engineering/data/resources.json`, `resources/gis-tools.md`
+  - **Best Source:** `resources/gis-tools.md`
+  - **Consolidation Status:** GIS, RS, and GPS spatial modeling guide
 
-- **wastewater-engineering.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: awesome-civil-engineering/data/resources.json
-  - Repeated in: Civil_Placement_IITK/README.md
-  - Status: Merged
+- **Infrastructure Engineering & Management**
+  - **Canonical Destination:** [`core/infrastructure/infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `campus-placement-prep/README.md`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** CPM/PERT, cost estimation & construction management guide
 
-- **water-supply.md**
-  - Sources: awesome-civil-engineering/data/resources.json
-  - Best source: awesome-civil-engineering/data/resources.json
-  - Repeated in: None
-  - Status: Directly extracted
+---
 
-- **flood-control.md**
-  - Sources: awesome-civil-engineering/data/resources.json, Civil_Placement_IITK/README.md
-  - Best source: awesome-civil-engineering/data/resources.json
-  - Repeated in: Civil_Placement_IITK/README.md
-  - Status: Merged
+### Hydraulics & Water Resources Engineering (HWRE)
 
-### Aptitude
-- **aptitude-basics.md**
-  - Sources: Aptitude/README.md, Aptitude-For-Placements/README.md
-  - Best source: Aptitude/README.md
-  - Repeated in: Aptitude-For-Placements/README.md
-  - Status: Merged
+- **Hydraulics**
+  - **Canonical Destination:** [`core/hwre/hydraulics/hydraulics.md`](../core/hwre/hydraulics/hydraulics.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Bernoulli, pipe friction, pumps, and momentum theorems
 
-- **aptitude-shortcuts.md**
-  - Sources: Aptitude/README.md
-  - Best source: Aptitude/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Turbulence Modeling**
+  - **Canonical Destination:** [`core/hwre/hydraulics/turbulence-modeling.md`](../core/hwre/hydraulics/turbulence-modeling.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, Wilcox / Pope turbulence literature
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** RANS ($k$-$\epsilon$, $k$-$\omega$ SST), LES, and wall functions
 
-- **reasoning-practice.md**
-  - Sources: Aptitude/README.md, Aptitude-For-Placements/
-  - Best source: Aptitude/README.md
-  - Repeated in: Aptitude-For-Placements/
-  - Status: Merged
+- **Open Channel Flow**
+  - **Canonical Destination:** [`core/hwre/open_channel_flow/open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, Chow OCF standards
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** GVF backwater curves, hydraulic jumps, and channel controls
 
-- **verbal-ability.md**
-  - Sources: Aptitude/README.md
-  - Best source: Aptitude/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Hydrology**
+  - **Canonical Destination:** [`core/hwre/hydrology/hydrology.md`](../core/hwre/hydrology/hydrology.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Hydrograph analysis, unit hydrograph, and Muskingum flood routing
 
-- **data-interpretation.md**
-  - Sources: Aptitude/README.md
-  - Best source: Aptitude/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Sediment Transport & Scour**
+  - **Canonical Destination:** [`core/hwre/hydrology/sediment-transport.md`](../core/hwre/hydrology/sediment-transport.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, Shields / Rouse / Garcia literature
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Shields threshold, suspended sediment Rouse profiles, and bridge pier scour
 
-### Behavioral
-- **behavioral-interview-guide.md**
-  - Sources: awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md, interview-handbook-2026/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: behavioral-interview-list-of-questions/README.md, interview-handbook-2026/README.md
-  - Status: Merged from 3 sources
+- **Water Resources Engineering**
+  - **Canonical Destination:** [`core/hwre/water_resources/water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Reservoir capacity, dam stability, and water budgeting
 
-- **self-introduction.md**
-  - Sources: awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: interview-handbook-2026/README.md
-  - Status: Merged
+- **Irrigation Engineering**
+  - **Canonical Destination:** [`core/hwre/irrigation/irrigation-engineering.md`](../core/hwre/irrigation/irrigation-engineering.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `Aptitude-For-Placements/`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Duty-delta, canal design (Kennedy/Lacey), and irrigation methods
 
-- **teamwork.md**
-  - Sources: awesome-behavioral-interviews/README.md, interview-handbook-2026/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: interview-handbook-2026/README.md
-  - Status: Merged
+- **Groundwater Hydrology**
+  - **Canonical Destination:** [`core/hwre/water_supply/groundwater.md`](../core/hwre/water_supply/groundwater.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Darcy's law, Theis exponential integral $W(u)$, Cooper-Jacob method
 
-- **leadership.md**
-  - Sources: awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: behavioral-interview-list-of-questions/README.md
-  - Status: Merged
+- **Wastewater Engineering**
+  - **Canonical Destination:** [`core/hwre/wastewater/wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md)
+  - **Source Provenance:** `awesome-civil-engineering/data/resources.json`, `Civil_Placement_IITK/README.md`
+  - **Best Source:** `awesome-civil-engineering/data/resources.json`
+  - **Consolidation Status:** Sewer design, activated sludge, and anaerobic digestion
 
-- **conflict-resolution.md**
-  - Sources: awesome-behavioral-interviews/README.md, behavioral-interview-list-of-questions/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: behavioral-interview-list-of-questions/README.md
-  - Status: Merged
+- **Water Supply Engineering**
+  - **Canonical Destination:** [`core/hwre/water_supply/water-supply.md`](../core/hwre/water_supply/water-supply.md)
+  - **Source Provenance:** `awesome-civil-engineering/data/resources.json`
+  - **Best Source:** `awesome-civil-engineering/data/resources.json`
+  - **Consolidation Status:** Water distribution networks, Hardy Cross method, and water treatment
 
-- **hr-questions-bank.md**
-  - Sources: awesome-interview-questions/README.md, Placement_Preparation/INTERVIEW EXPERIENCES/
-  - Best source: awesome-interview-questions/README.md
-  - Repeated in: Placement_Preparation/INTERVIEW EXPERIENCES/
-  - Status: Merged
+- **Flood Control & Management**
+  - **Canonical Destination:** [`core/hwre/flood_control/flood-control.md`](../core/hwre/flood_control/flood-control.md)
+  - **Source Provenance:** `awesome-civil-engineering/data/resources.json`, `Civil_Placement_IITK/README.md`
+  - **Best Source:** `awesome-civil-engineering/data/resources.json`
+  - **Consolidation Status:** Flood plain delineation, levees, and drainage engineering
 
-### Interviews
-- **hr-interview-guide.md**
-  - Sources: awesome-interview-questions/README.md, interview-handbook-2026/README.md
-  - Best source: awesome-interview-questions/README.md
-  - Repeated in: interview-handbook-2026/README.md
-  - Status: Merged
+---
 
-- **technical-interview-bank.md**
-  - Sources: Civil_Placement_IITK/README.md, interview-handbook-2026/README.md, campus-placement-prep/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: interview-handbook-2026/README.md, campus-placement-prep/README.md
-  - Status: Merged
+### Aptitude & Assessment Battery
 
-- **mock-interview-questions.md**
-  - Sources: interview-handbook-2026/README.md, awesome-interview-questions/README.md, behavioral-interview-list-of-questions/README.md
-  - Best source: interview-handbook-2026/README.md
-  - Repeated in: awesome-interview-questions/README.md, behavioral-interview-list-of-questions/README.md
-  - Status: Merged from 3 sources
+- **Quantitative Aptitude**
+  - **Canonical Destination:** [`aptitude/quant/percentages.md`](../aptitude/quant/percentages.md)
+  - **Source Provenance:** `Aptitude/README.md`, `Aptitude-For-Placements/README.md`
+  - **Best Source:** `Aptitude/README.md`
+  - **Consolidation Status:** Modular topic series with 10 topic diagnostic tests
 
-- **company-profiles.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Logical Reasoning**
+  - **Canonical Destination:** [`aptitude/reasoning/seating-arrangement.md`](../aptitude/reasoning/seating-arrangement.md)
+  - **Source Provenance:** `Aptitude/README.md`, `Aptitude-For-Placements/`
+  - **Best Source:** `Aptitude/README.md`
+  - **Consolidation Status:** Complete analytical puzzle battery
 
-- **interview-experiences.md**
-  - Sources: Placement_Preparation/INTERVIEW EXPERIENCES/
-  - Best source: Placement_Preparation/INTERVIEW EXPERIENCES/
-  - Repeated in: None
-  - Status: Directly extracted
+- **Verbal Ability & Reading Comprehension**
+  - **Canonical Destination:** [`aptitude/verbal/README.md`](../aptitude/verbal/README.md)
+  - **Source Provenance:** `Aptitude/README.md`
+  - **Best Source:** `Aptitude/README.md`
+  - **Consolidation Status:** Grammar, sentence correction, and RC passage bank
 
-### GATE
-- **gate-civil-formulas.md**
-  - Sources: GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: Civil_Placement_IITK/README.md
-  - Status: Merged
+- **Data Interpretation**
+  - **Canonical Destination:** [`aptitude/di/README.md`](../aptitude/di/README.md)
+  - **Source Provenance:** `Aptitude/README.md`
+  - **Best Source:** `Aptitude/README.md`
+  - **Consolidation Status:** Multi-tier datasets, caselets, radar charts, and tables
 
-- **gate-civil-revision.md**
-  - Sources: GATE_Civil_Study_Material_2027.md
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Standardized Assessment Suite (54 Tests)**
+  - **Canonical Destination:** [`docs/TESTING_GUIDE.md`](../docs/TESTING_GUIDE.md) & [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md)
+  - **Source Provenance:** Primary creation calibrated against IITK OA papers
+  - **Best Source:** Repository Original Testing Engine
+  - **Consolidation Status:** 17 Topic Diagnostics + 5 Sectionals + 7 Full Mocks + 25 Role Tests
 
-- **gate-civil-practice.md**
-  - Sources: GATE_Civil_Study_Material_2027.md, Aptitude-For-Placements/
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: Aptitude-For-Placements/
-  - Status: Merged
+---
 
-### Resources
-- **book_list.md**
-  - Sources: GATE_Civil_Study_Material_2027.md, Civil_Placement_IITK/README.md
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: Civil_Placement_IITK/README.md
-  - Status: Merged
+### Software & Technology
 
-- **paper_list.md**
-  - Sources: GATE_Civil_Study_Material_2027.md
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **OpenFOAM CFD Case Study**
+  - **Canonical Destination:** [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, OpenFOAM Foundation v10 Guide
+  - **Best Source:** OpenFOAM Official Documentation
+  - **Consolidation Status:** Complete end-to-end tutorial with `nutkWallFunction` and PIMPLE setup
 
-- **links.md**
-  - Sources: awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md, campus-placement-prep/README.md, GATE_Civil_Study_Material_2027.md
-  - Best source: GATE_Civil_Study_Material_2027.md
-  - Repeated in: awesome-civil-engineering/README.md, Civil_Placement_IITK/README.md, campus-placement-prep/README.md
-  - Status: Merged from 4 sources
+- **HEC-RAS River Hydraulics**
+  - **Canonical Destination:** [`software-and-tech/deep-dives/hec-ras-walkthrough.md`](../software-and-tech/deep-dives/hec-ras-walkthrough.md)
+  - **Source Provenance:** USACE HEC-RAS User Manual
+  - **Best Source:** USACE Official Technical Documentation
+  - **Consolidation Status:** 1D steady and 2D unsteady flow modeling walkthrough
 
-- **technical-stack.md**
-  - Sources: Civil_Placement_IITK/README.md, awesome-civil-engineering/data/resources.json
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: awesome-civil-engineering/data/resources.json
-  - Status: Merged
+- **EPANET Water Distribution**
+  - **Canonical Destination:** [`software-and-tech/deep-dives/epanet-walkthrough.md`](../software-and-tech/deep-dives/epanet-walkthrough.md)
+  - **Source Provenance:** US EPA Documentation
+  - **Best Source:** EPA Technical Manual
+  - **Consolidation Status:** Pipe network calibration, pump head curves, water quality tracking
 
-- **non-core-prep.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **SWMM Urban Stormwater**
+  - **Canonical Destination:** [`software-and-tech/deep-dives/swmm-guide.md`](../software-and-tech/deep-dives/swmm-guide.md)
+  - **Source Provenance:** US EPA SWMM Reference Manual
+  - **Best Source:** EPA Technical Manual
+  - **Consolidation Status:** Catchment discretization, hydrograph routing, LID controls
 
-- **placement-data.md**
-  - Sources: Civil_Placement_IITK/placement_data.csv
-  - Best source: Civil_Placement_IITK/placement_data.csv
-  - Repeated in: None
-  - Status: Directly extracted
+---
 
-### Templates
-- **resume-template.md**
-  - Sources: Civil_Placement_IITK/README.md, campus-placement-prep/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: campus-placement-prep/README.md
-  - Status: Merged
+### Interview Preparation & Career Hub
 
-- **self_intro_template.md**
-  - Sources: awesome-behavioral-interviews/README.md
-  - Best source: awesome-behavioral-interviews/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Technical Interview Oral Bank (30 Trees)**
+  - **Canonical Destination:** [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)
+  - **Source Provenance:** `Civil_Placement_IITK/README.md`, `interview-handbook-2026/README.md`
+  - **Best Source:** `Civil_Placement_IITK/README.md`
+  - **Consolidation Status:** Branching question trees with literature references
 
-- **interview_answer_template.md**
-  - Sources: behavioral-interview-list-of-questions/README.md
-  - Best source: behavioral-interview-list-of-questions/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Behavioral & HR Interview Bank**
+  - **Canonical Destination:** [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md)
+  - **Source Provenance:** `awesome-behavioral-interviews/README.md`, `Placement_Preparation/INTERVIEW EXPERIENCES/`
+  - **Best Source:** `awesome-behavioral-interviews/README.md`
+  - **Consolidation Status:** STAR framework, 50 curated questions with corporate rubric
 
-- **study-plan-template.md**
-  - Sources: Civil_Placement_IITK/README.md
-  - Best source: Civil_Placement_IITK/README.md
-  - Repeated in: None
-  - Status: Directly extracted
+- **Consulting Case Bank & Frameworks**
+  - **Canonical Destination:** [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) & [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md)
+  - **Source Provenance:** Case in Point, Victor Cheng LOMS, IITK Casebook
+  - **Best Source:** IITK Consulting Casebook
+  - **Consolidation Status:** 12 worked case simulations with quantitative math verification
 
-## Repeated Topics Across Repos
-| Topic | Repos | Resolution |
-|-------|-------|------------|
-| Behavioral Interview Tips | awesome-behavioral-interviews, behavioral-interview-list-of-questions, interview-handbook-2026 | Merged into prep/behavioral/behavioral-interview-guide.md |
-| Technical Questions | Civil_Placement_IITK, interview-handbook-2026, campus-placement-prep | Merged into prep/interview/technical/technical-interview-bank.md |
-| Aptitude Basics | Aptitude, Aptitude-For-Placements, campus-placement-prep | Merged into non-core/aptitude/quantitative/aptitude-basics.md |
-| Hydraulics/Water Resources | Civil_Placement_IITK, awesome-civil-engineering | Merged into core/hwre/hydraulics/hydraulics.md |
-| Resume Tips | Civil_Placement_IITK, campus-placement-prep | Merged into prep/templates/resume-template.md |
+---
 
-## Best Source per Topic
-| Topic | Best Source | Reason |
-|-------|-------------|--------|
-| Civil Foundations | Civil_Placement_IITK/README.md | IITK-specific roadmap and milestones |
-| Hydraulics | Civil_Placement_IITK/README.md | Detailed IITK HWRE course coverage |
-| Behavioral | awesome-behavioral-interviews/README.md | STAR method, grid, and examples |
-| Aptitude | Aptitude/README.md | 340 solved problems across 34 topics |
-| Technical Interview | Civil_Placement_IITK/README.md | Company-specific question patterns |
-| GATE Civil | GATE_Civil_Study_Material_2027.md | Chapter-wise notes and book list |
-| Software/Tools | awesome-civil-engineering/README.md | Comprehensive software catalog |
+## 3. Historical Migration Reference
+
+For candidates or developers auditing original file movements from the initial 10-repository consolidation (September 3, 2026), refer to the historical migration ledger:
+- [`index/SOURCE_MIGRATION_MAP.csv`](SOURCE_MIGRATION_MAP.csv)

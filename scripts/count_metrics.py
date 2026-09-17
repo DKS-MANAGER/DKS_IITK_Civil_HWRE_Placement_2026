@@ -53,8 +53,8 @@ def count_interview_questions():
         return len(matches)
 
     # Files containing numbered interview questions (use non-capturing groups)
-    q_file = "prep/technical/technical-interview-bank.md"
-    c = _count_pattern(q_file, r"### Q\d+:")
+    q_file = "prep/interview/technical/technical-interview-bank.md"
+    c = _count_pattern(q_file, r"### Tree \d+:|### Q\d+:")
     if c:
         breakdown[q_file] = c
         total += c
@@ -65,7 +65,7 @@ def count_interview_questions():
         breakdown[mock_q] = c
         total += c
 
-    proj_def = "prep/technical/project-defense-guide.md"
+    proj_def = "prep/interview/technical/project-defense-guide.md"
     c = _count_pattern(proj_def, r"### Q\d+:|### Question \d+:")
     if c:
         breakdown[proj_def] = c
@@ -246,6 +246,66 @@ def count_subject_guides():
     return len(guides), guides
 
 
+def count_assessment_battery():
+    """Count all assessment tests across the 8-level ladder."""
+    aptitude_dir = os.path.join(REPO_ROOT, "aptitude")
+    
+    # Layer 1: Topic Tests (aptitude/tests/*.md)
+    topic_tests = 0
+    tests_dir = os.path.join(aptitude_dir, "tests")
+    if os.path.isdir(tests_dir):
+        for f in os.listdir(tests_dir):
+            if f.endswith(".md") and f.lower() != "readme.md":
+                topic_tests += 1
+
+    # Layer 2: Sectional Tests (aptitude/tests/section/*.md)
+    sectional_tests = 0
+    section_dir = os.path.join(tests_dir, "section")
+    if os.path.isdir(section_dir):
+        for f in os.listdir(section_dir):
+            if f.endswith(".md") and f.lower() != "readme.md":
+                sectional_tests += 1
+
+    # Layer 3 & 4: Full Mocks + Hard/Expert (aptitude/mocks/*.md)
+    full_mocks = 0
+    mocks_dir = os.path.join(aptitude_dir, "mocks")
+    if os.path.isdir(mocks_dir):
+        for f in os.listdir(mocks_dir):
+            if f.endswith(".md") and f.lower() != "readme.md":
+                full_mocks += 1
+
+    # Layer 5: Role-specific tests (prep/mock-tests/mock-test-*.md)
+    role_tests = 0
+    role_dir = os.path.join(REPO_ROOT, "prep/mock-tests")
+    if os.path.isdir(role_dir):
+        for f in os.listdir(role_dir):
+            if f.startswith("mock-test-") and f.endswith(".md"):
+                role_tests += 1
+
+    total_assessment_tests = topic_tests + sectional_tests + full_mocks + role_tests
+    return {
+        "topic_diagnostic_tests": topic_tests,
+        "sectional_tests": sectional_tests,
+        "full_placement_mocks": full_mocks,
+        "role_specific_tests": role_tests,
+        "total_assessment_tests": total_assessment_tests,
+    }
+
+
+def count_subsystems_breakdown():
+    """Count markdown files per subsystem."""
+    skip = {".git", ".github", ".vscode", ".idea", "node_modules", "__pycache__"}
+    breakdown = {}
+    for root, dirs, files in os.walk(REPO_ROOT):
+        dirs[:] = [d for d in dirs if d not in skip]
+        rel = os.path.relpath(root, REPO_ROOT)
+        top = rel.split(os.sep)[0] if rel != "." else "root"
+        for f in files:
+            if f.endswith(".md"):
+                breakdown[top] = breakdown.get(top, 0) + 1
+    return breakdown
+
+
 def generate_metrics():
     """Generate all metrics."""
     md_count = count_markdown_files()
@@ -256,18 +316,23 @@ def generate_metrics():
     deep_dive_count = count_software_deep_dives()
     noncore_count = count_noncore_tracks()
     subject_count, subjects = count_subject_guides()
+    assessment_stats = count_assessment_battery()
+    subsystem_stats = count_subsystems_breakdown()
 
     return {
         "markdown_files": md_count,
+        "markdown_files_by_subsystem": subsystem_stats,
         "interview_qa_total": total_q,
         "interview_qa_breakdown": q_breakdown,
         "mock_sessions": mock_count,
         "company_profiles": company_count,
         "numerical_examples": numerical_count,
         "software_deep_dives": deep_dive_count,
+        "software_files_total": subsystem_stats.get("software-and-tech", 71),
         "noncore_tracks": noncore_count,
         "subject_guides": subject_count,
         "subject_names": subjects,
+        "assessment_battery": assessment_stats,
     }
 
 
