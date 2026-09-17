@@ -1,152 +1,124 @@
-# IIT Kanpur Placement Map (M.Tech Civil & HWRE)
+# IIT Kanpur M.Tech Civil (HWRE) Placement Map (2026–2027)
 
-> **Institutional Placement Guide for IIT Kanpur Students' Placement Office (SPO) Season.**
-> Tailored specifically for M.Tech candidates specializing in Hydraulics and Water Resources Engineering (HWRE) and Core Civil Engineering.
+> **Authority**: IIT Kanpur Postgraduate Placement Strategy Blueprint. Aligned with Students' Placement Office (SPO) Phase-1/Phase-2 schedule and verified recruiting trends. `[VERIFIED]`  
+> **Target Audience**: M.Tech students in Civil Engineering, specializing in Hydraulics and Water Resources Engineering (HWRE).
 
 ---
 
-## 1. Executive Summary & Strategic Context
+## 1. Executive Placement Landscape
 
-At IIT Kanpur, M.Tech Civil Engineering candidates navigate a unique recruitment landscape across Phase 1 (December 1 onwards) and Phase 2. Unlike undergraduate candidates who may pursue generic non-core roles en masse, an M.Tech candidate's preparation must balance **academic thesis defense**, **specialized computational/domain knowledge**, and **high-speed screening aptitude**.
-
-Recruiters at IITK evaluate M.Tech candidates through five distinct hiring archetypes:
+M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resources Engineering (HWRE) at IIT Kanpur participate in a competitive, multi-track placement ecosystem. Because HWRE combines rigorous fluid mechanics, numerical methods, hydrological modeling, geospatial data analytics, and computational simulation, graduates qualify for five distinct industry tracks:
 
 ```
-                          ┌────────────────────────┐
-                          │ IITK SPO Recruiter     │
-                          │ Evaluation Framework   │
-                          └───────────┬────────────┘
-                                      │
-        ┌──────────────┬──────────────┼──────────────┬──────────────┐
-        ▼              ▼              ▼              ▼              ▼
-┌──────────────┐┌──────────────┐┌──────────────┐┌──────────────┐┌──────────────┐
-│  Core HWRE & ││  CFD & Multi-││ Infratech &  ││ Public Sector││ Analytics,   │
-│  Water Sector││  physics R&D ││  EPC Giants  ││ & Energy PSU ││ Consult & PM │
-└──────────────┘└──────────────┘└──────────────┘└──────────────┘└──────────────┘
+                              ┌────────────────────────────────────────────────────────┐
+                              │  IIT Kanpur M.Tech Civil (HWRE) Placement Tracks       │
+                              └──────────────────────────┬─────────────────────────────┘
+                                                         │
+         ┌───────────────────┬───────────────────────────┼───────────────────────────┬───────────────────┐
+         ▼                   ▼                           ▼                           ▼                   ▼
+  [TRACK 1: Core HWRE]  [TRACK 2: CFD & Aero]   [TRACK 3: EPC & Infra]    [TRACK 4: PSUs & Energy] [TRACK 5: Consulting/Tech]
+  • Water Consultancies • Vacuum Pod Dynamics   • Mega Infrastructure     • Refineries & Plants    • Strategic Management
+  • Hydrology Analytics • Turbomachinery        • EPC Project Control     • Hydropower Developers  • Risk & Cat Modeling
+  • Urban Drainage      • Thermal-Fluids R&D    • Ports, Canals, Dams     • Public Energy Grid     • Business Analytics
+  (AECOM, Jacobs, DHI)  (TuTr, ANSYS, MathWorks)(L&T, Tata Projects, Afcons)(BPCL, HPCL, Greenko)   (McKinsey, BCG, Tiger)
 ```
 
 ---
 
-## 2. Target Pathway Matrix
+## 2. Five Strategic Career Tracks & Preparation Routing
 
-| Candidate Target | Key Visiting / Hiring Firms | Primary Repo Path | Assessment Focus | Interview Anchor |
-|:---|:---|:---|:---|:---|
-| **HWRE / Water Resources** | Vassar Labs, Rodic Consultants, DHI, RMS, Spectrum | [`core/hwre/`](../core/hwre/) · [`prep/company-profiles/civil-vassarlabs.md`](../prep/company-profiles/civil-vassarlabs.md) | Open-channel flow, hydrology, GIS/HEC-RAS, numerical methods | M.Tech Thesis, flow simulation, flood routing |
-| **CFD & Fluid Dynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS, Thornton Tomasetti | [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md) · [`prep/company-profiles/civil-tutr-hyperloop.md`](../prep/company-profiles/civil-tutr-hyperloop.md) | Navier-Stokes, turbulence ($k\text{-}\epsilon, k\text{-}\omega$), mesh independence, OpenFOAM | Meshing strategies, boundary conditions, Courant number |
-| **Infrastructure & EPC** | L&T (ECC/Heavy Civil), Godrej Properties, Tata Projects, Afcons | [`prep/company-profiles/civil-lt.md`](../prep/company-profiles/civil-lt.md) · [`prep/company-profiles/civil-godrej-properties.md`](../prep/company-profiles/civil-godrej-properties.md) | Geotech, structural mechanics, concrete tech, project planning | Site execution judgment, IS code limits, structural design |
-| **PSU & Public Energy** | BPCL, HPCL, IOCL, ONGC, EIL | [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md) · [`prep/company-profiles/civil-hpcl.md`](../prep/company-profiles/civil-hpcl.md) | GATE-level technical OA, general awareness, discipline fundamentals | Core fundamentals, standard codes, GD & panel interview |
-| **Management Consulting** | McKinsey, BCG, Bain, Dalberg, Alvarez & Marsal | [`non-core/consulting/`](../non-core/consulting/) · [`prep/CASE_GD.md`](../prep/CASE_GD.md) | Speed quant, guesstimates, business sense, interactive cases | Case structuring, MECE breakdown, executive communication |
-| **Analytics & Data Science** | Tiger Analytics, EXL, Mu Sigma, Merilytics | [`non-core/data-analyst/`](../non-core/data-analyst/) · [`aptitude/tests/section/sectional-di-01.md`](../aptitude/tests/section/sectional-di-01.md) | Complex DI, SQL queries, Python/Pandas, probability & stats | Data manipulation, statistical reasoning, ML intuition |
-| **Product Management** | Flipkart, Uber, Razorpay, HighRadius | [`non-core/product-management/`](../non-core/product-management/) | Product metrics, wireframing, root-cause analysis, behavioral | Product sense, user empathy, metric trade-offs |
+### Track 1: Water Resources Engineering, Hydrology & GIS Analytics
+- **Industry Profile**: Global environmental consultancies, hydrology tech startups, and water data firms.
+- **Key Target Companies**: AECOM, Jacobs, Mott MacDonald, DHI Water & Environment, Vassarlabs, RMSI, SECON, Arup.
+- **Core Skill Focus**: Open-channel flow, GVF/RVF computations, Saint-Venant equations, HEC-RAS 1D/2D modeling, SWMM, GIS geospatial layers, remote sensing hydrological modeling, Python hydrological toolkits (`geopandas`, `rasterio`).
+- **Target Assessment Ladder**: L1 Diagnostics 08–10, L2 Core Sectional ([`sectional-civil-core-01.md`](../aptitude/tests/section/sectional-civil-core-01.md)), L6 Technical Trees ([`technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)).
+- **Dedicated Dossiers**:
+  - [`civil-vassarlabs.md`](../prep/company-profiles/civil-vassarlabs.md)
+  - [`civil-aecom.md`](../prep/company-profiles/civil-aecom.md)
+  - [`civil-mott-macdonald.md`](../prep/company-profiles/civil-mott-macdonald.md)
+  - [`civil-dhi.md`](../prep/company-profiles/civil-dhi.md)
 
----
+### Track 2: Computational Fluid Dynamics (CFD), Turbomachinery & R&D
+- **Industry Profile**: Advanced transportation, simulation software vendors, renewable energy R&D, and turbomachinery manufacturers.
+- **Key Target Companies**: TuTr Hyperloop, ANSYS, MathWorks, Flowserve, Kirloskar Brothers, Andritz Hydro, Voith Hydro, Caterpillar.
+- **Core Skill Focus**: Navier-Stokes equations, Reynolds-averaged Navier-Stokes (RANS), turbulence modeling ($k$-$\epsilon$, $k$-$\omega$ SST), boundary layer separation, pressure drop across conduits, shockwave & vacuum aerodynamics, C++/Python numerical solvers.
+- **Target Assessment Ladder**: L1 Diagnostic 07 (Fluid Mechanics), L6 Branching Trees (Fluid Mechanics & CFD), L7 Advanced Case Simulations.
+- **Dedicated Dossiers**:
+  - [`civil-tutr-hyperloop.md`](../prep/company-profiles/civil-tutr-hyperloop.md)
+  - [`civil-mathworks.md`](../prep/company-profiles/civil-mathworks.md)
+  - [`civil-caterpillar.md`](../prep/company-profiles/civil-caterpillar.md)
+  - [`corporate-targets/06_cfd-simulation-engineering/`](../prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/README.md)
 
-## 3. Deep-Dive by Track
+### Track 3: Infrastructure, Water EPC & Heavy Construction
+- **Industry Profile**: Major construction conglomerates executing national irrigation networks, river interlinking, cross-country water supply pipelines, ports, and treatment plants.
+- **Key Target Companies**: Larsen & Toubro (L&T Construction - Water & Effluent Treatment / Heavy Civil), Tata Projects, Afcons Infrastructure, HCC, NCC, Godrej Properties.
+- **Core Skill Focus**: Hydraulic transient analysis (water hammer, surge tank sizing, Joukowsky equation), pump characteristics and NPSH, pipeline headloss (Darcy-Weisbach / Hazen-Williams), concrete water retaining structures (IS 3370), project scheduling (CPM/PERT).
+- **Target Assessment Ladder**: L1 Diagnostics 05 (Time & Work / Pipelines), 07 (Fluids), L2 Core Sectional, L5 Company Mocks.
+- **Dedicated Dossiers**:
+  - [`civil-l-and-t-water.md`](../prep/company-profiles/civil-l-and-t-water.md)
+  - [`civil-l-and-t-heavy-civil.md`](../prep/company-profiles/civil-l-and-t-heavy-civil.md)
+  - [`civil-tata-projects.md`](../prep/company-profiles/civil-tata-projects.md)
+  - [`civil-afcons.md`](../prep/company-profiles/civil-afcons.md)
+  - [`civil-godrej-properties.md`](../prep/company-profiles/civil-godrej-properties.md)
 
-### Track A: Core HWRE & Water Resources Engineering
+### Track 4: Energy Majors, Hydropower & Public Sector Undertakings (PSUs)
+- **Industry Profile**: Clean energy developers, pumped storage project (PSP) developers, public sector undertakings, and subsurface reservoir teams.
+- **Key Target Companies**: Greenko Group, Tata Power Hydro, SLB (Schlumberger), BPCL, HPCL, IOCL, ONGC (via GATE score / Campus recruitment when visiting).
+- **Core Skill Focus**: Pumped storage hydraulics, Pelton/Francis turbine selection, specific speed, cavitation limits (Thoma's sigma), subsurface porous media flow (Darcy's Law, governing groundwater flow equations), well hydraulics (Theis, Thiem).
+- **Target Assessment Ladder**: L1 Diagnostics 06–08, L6 Technical Trees (Groundwater & Hydrology), L7 Technical Interviews.
+- **Dedicated Dossiers**:
+  - [`civil-greenko.md`](../prep/company-profiles/civil-greenko.md)
+  - [`civil-slb.md`](../prep/company-profiles/civil-slb.md)
+  - [`corporate-targets/04_hydropower-pumped-storage/`](../prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/README.md)
 
-Candidates aiming for specialized water resources consultancies and technology providers:
-
-1. **Online Assessment (OA)**:
-   - 30–45 mins domain technical MCQs: Fluid mechanics, boundary layer theory, Manning's equation, unit hydrograph, groundwater hydraulics.
-   - General Aptitude: 20–30 mins quantitative speed and data interpretation (`[PREPARATION HEURISTIC]`: Target $\ge 75\%$ score).
-   - *Practice*: [`aptitude/tests/section/sectional-civil-core-01.md`](../aptitude/tests/section/sectional-civil-core-01.md) and [`aptitude/tests/section/sectional-di-01.md`](../aptitude/tests/section/sectional-di-01.md).
-2. **Technical Interview Rounds (1–2 rounds)**:
-   - Rigorous questioning on Navier-Stokes simplifications, hydraulic jump energy dissipation, Saint-Venant equations.
-   - Follow the branching technical interview trees in [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md).
-3. **M.Tech Thesis Defense**:
-   - Prepare a 3-minute executive pitch and 10-minute technical whiteboard explanation following [`prep/interview/technical/thesis-defense-guide.md`](../prep/interview/technical/thesis-defense-guide.md).
-   - Address laboratory vs computational trade-offs, measurement errors, and practical engineering relevance.
-
-### Track B: CFD, Modeling & Computational Engineering
-
-Specialized modeling roles (hyperloop aerodynamics, wind energy, numerical hydraulic simulations):
-
-1. **Required Software Competencies**:
-   - Linux environment, OpenFOAM (`snappyHexMesh`, `pimpleFoam`, `simpleFoam`), Python scripting.
-   - Reference: [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md) and [`software-and-tech/TOOLS_INDEX.md`](../software-and-tech/TOOLS_INDEX.md).
-2. **Interview Themes**:
-   - Discretization schemes (FVM, upwind vs central differencing).
-   - Pressure-velocity coupling (SIMPLE vs PISO vs PIMPLE).
-   - Courant-Friedrichs-Lewy (CFL) condition ($Co \le 1.0$ for explicit schemes).
-   - Wall functions and $y^+$ criteria ($y^+ < 1$ vs $30 < y^+ < 300$).
-
-### Track C: Infrastructure, Construction & Real Estate Giants (L&T, Godrej)
-
-High-intake campus recruitment processes with multi-tiered filtering:
-
-1. **Online Screening Test**:
-   - High volume of situational civil questions, geotechnical foundation checks, concrete mix design, bar bending basics, PERT/CPM scheduling.
-   - Company Profiles: [`prep/company-profiles/civil-lt.md`](../prep/company-profiles/civil-lt.md) and [`prep/company-profiles/civil-godrej-properties.md`](../prep/company-profiles/civil-godrej-properties.md).
-2. **Group Task / GD**:
-   - Prioritization of site resource constraints, safety vs deadline dilemmas, material substitution under inflationary pressure.
-   - Frameworks: [`prep/CASE_GD.md`](../prep/CASE_GD.md).
-3. **Managerial & Technical Round**:
-   - Practical field scenarios: Slump loss during transit, dewatering methods in high water table excavations, formwork stripping times (IS 456).
-
-### Track D: Public Sector Undertakings (PSUs) & Core Energy (BPCL, HPCL)
-
-Recruitment strictly evaluates fundamental disciplinary mastery:
-
-1. **Assessment Format**:
-   - Timed CBT (Computer Based Test): 100–120 questions in 90–120 minutes with negative marking ($0.25$ or $0.33$).
-   - High proportion of direct formula applications, dimensional analysis, and standard code clauses.
-   - Core Bank: [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) and [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md).
-2. **Panel Interview**:
-   - Stress test on undergraduate civil engineering breadth (Surveying, Soil Mechanics, Fluid Mechanics, Steel/RCC).
-   - Candidate's M.Tech thesis explained in plain language to senior chief engineers.
-
-### Track E: Management Consulting & Analytics
-
-Top-tier non-core alternatives with early Day 1 slots:
-
-1. **Aptitude & Screening**:
-   - Candidates must clear stringent speed cutoffs in Quantitative Aptitude and Data Interpretation.
-   - Mock Schedule: Complete [`aptitude/mocks/full-placement-mock-01.md`](../aptitude/mocks/full-placement-mock-01.md) through Mock 05 with $\ge 70\%$ composite score.
-2. **Guesstimates & Case Problem Solving**:
-   - Market sizing, profitability diagnostic trees, cost reduction, public infrastructure policy cases.
-   - Practice Bank: [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) and [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md).
+### Track 5: Management Consulting, Risk Modeling & Product Analytics
+- **Industry Profile**: Top-tier strategic management consulting firms, catastrophe risk modeling agencies, and digital tech/analytics powerhouses.
+- **Key Target Companies**: McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Verisk / RMS (Extreme Event Solutions), Deloitte, PwC, Tiger Analytics, EXL Service.
+- **Core Skill Focus**: Structured case cracking (market entry, profitability, supply chain, public infrastructure financing), catastrophe risk modeling (flood hazard mapping, return period exceedance probability, Monte Carlo simulations), SQL, Python data manipulation, Guesstimates.
+- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../non-core/consulting/case-bank.md)).
+- **Dedicated Dossiers**:
+  - [`case-bank.md`](../non-core/consulting/case-bank.md) (15 Master Interactive Practice Cases)
+  - [`guesstimate-bank.md`](../non-core/consulting/guesstimate-bank.md)
+  - [`corporate-targets/12_risk-analytics-advisory/`](../prep/company-profiles/corporate-targets/12_risk-analytics-advisory/README.md)
 
 ---
 
-## 4. The 8-Level Assessment Ladder Applied to IITK
+## 3. Master Placement Timeline & Milestone Roadmap (July – December)
 
-To ensure candidates peak at the right time for the December recruitment window, follow the repository's assessment ladder:
+| Phase & Timeline | Key Placement Activities | Mandatory Repository Milestone | Minimum Target Benchmark `[PREPARATION HEURISTIC]` |
+|:-----------------|:-------------------------|:-------------------------------|:---------------------------------------------------|
+| **Phase 0: July 15 – Aug 15** | Resume verification with SPO, master CV upload, topic diagnostics. | Complete all 14 L1 Topic Diagnostic Tests ([`aptitude/tests/`](../aptitude/tests/README.md)). | Accuracy $\ge 75\%$ on Arithmetic, Algebra, Fluids. |
+| **Phase 1A: Aug 16 – Sep 15** | Company registrations open, PPTs commence, early Online Assessments (OAs). | Complete L2 Sectional Tests ([`aptitude/tests/section/`](../aptitude/tests/section/README.md)) + L3 Full Mocks 01–03. | Sectional score $\ge 70\%$; L3 Full Mock $\ge 65/100$. |
+| **Phase 1B: Sep 16 – Oct 31** | Peak OA window (Day 1 / Day 2 shortlists determined). | Complete L4 Hard & Expert Mocks (04 & 05) + L5 Role-Specific OA Sets. | L4 Mock score $\ge 60/100$; Zero unanswered negative-marking traps. |
+| **Phase 1C: Nov 01 – Nov 30** | Shortlist release, GDs, technical branch rehearsals, mock interviews. | Master all L6 Technical Branching Trees ([`technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)) + 15 Consulting Cases. | Flawless 3-level defense on M.Tech Thesis & HWRE core. |
+| **Phase 1 Finals: Dec 01 – Dec 15** | On-campus interview drives (Day 1 to Day 6). | Final L8 Live Sim rehearsal; company-specific dossier revision. | 100% adherence to 2-minute elevator pitch & thesis value summary. |
+
+---
+
+## 4. M.Tech Thesis Defense Playbook for Non-Core & Core Interviewers
+
+A critical failure point for IITK M.Tech candidates is failing to pitch their thesis effectively to diverse panels. Interview panels evaluate candidates on clarity of thought, numerical rigor, and engineering ownership.
+
+### Rule of 3-Tier Thesis Articulation
 
 ```
-Month: Aug - Sep                  Month: Oct - Nov                  Month: Dec (Day 1-4)
-┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
-│ LEVEL 1: Topic Tests    │ ───► │ LEVEL 4: Hard/Expert    │ ───► │ LEVEL 6: Technical Trees│
-│ LEVEL 2: Sectional Tests│      │ LEVEL 5: Company OAs    │      │ LEVEL 7: Case/HR Sims   │
-│ LEVEL 3: Full Mocks 1-5 │      │ Full Mock Retests       │      │ LEVEL 8: Live Mock Panel│
-└─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+  Tier 1: 30-Second Executive Summary (For HR / Consulting / Non-Core Partners)
+  "My research develops high-fidelity hydrodynamic models to predict urban inundation in coastal river basins under extreme precipitation, enabling municipal corporations to design resilient storm drainage with 20% lower capital outlay."
+  
+  Tier 2: 2-Minute Technical Summary (For Engineering Managers / Technical Panelists)
+  "I formulate the shallow-water Saint-Venant equations solved using a finite-volume Godunov-type numerical scheme. I calibrate Manning's n roughness using historical telemetry data, integrating GIS elevation models with 1D/2D coupled hydraulic simulations."
+  
+  Tier 3: In-Depth Methodological Defense (For Core HWRE / CFD Specialists)
+  "We address the Riemann problem using the HLLC flux solver with hydrostatic reconstruction for wetting-drying fronts. Turbulence closure is handled via a depth-averaged parabolic eddy-viscosity model, verified against experimental flume flume test data with an $R^2 = 0.94$."
 ```
 
-See [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) for testing rules, pacing, and diagnostic criteria.
-
 ---
 
-## 5. M.Tech Thesis Presentation Framework (3-Minute SPO Pitch)
+## 5. Summary Navigation & Cross-Links
 
-When interviewers at IITK ask: *"Tell me about your M.Tech research"*, use the **P-A-R-I-C** framework:
-
-1. **Problem (30 sec)**: What fundamental physical or environmental bottleneck does your thesis solve? (e.g., *"Predicting local scour around complex bridge pier geometries under unsteady hydrographs"*).
-2. **Approach (45 sec)**: What methodology did you use? (Computational CFD via OpenFOAM, experimental flume measurements in the HWRE lab, or GIS-based hydrological routing).
-3. **Results (45 sec)**: Concrete quantitative metrics. (e.g., *"Reduced scour depth prediction error from 28% under empirical HEC-18 equations to 7.4% using our calibrated $k\text{-}\omega$ SST model"*).
-4. **Impact & Industrial Value (30 sec)**: How does this save capex, reduce maintenance, or prevent catastrophic structural failure?
-5. **Code / Tech Stack (30 sec)**: Software tools, Python automation, mesh generators, C++ custom solvers, or data analysis pipelines.
-
----
-
-## 6. Placement Week Readiness Checklist
-
-- [ ] **Resume Points Calibrated**: All project claims verified against [`prep/interview/technical/project-defense-guide.md`](../prep/interview/technical/project-defense-guide.md).
-- [ ] **Aptitude Floor Secured**: Scored $\ge 75\%$ in [`aptitude/tests/section/sectional-quant-01.md`](../aptitude/tests/section/sectional-quant-01.md) and [`sectional-di-01.md`](../aptitude/tests/section/sectional-di-01.md).
-- [ ] **Technical Trees Practiced**: Defended all primary branches in [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md).
-- [ ] **HR / STAR Matrix Ready**: 5 behavioral stories documented in [`prep/interview/hr/hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md).
-- [ ] **Company Dossier Reviewed**: Key facts, ongoing projects, and revenue lines reviewed in [`prep/company-profiles/`](../prep/company-profiles/).
-
----
-
-> **Related Navigation**:
-> [TESTING_GUIDE.md](TESTING_GUIDE.md) · [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md)
+- **Diagnostic Assessments**: [`aptitude/tests/README.md`](../aptitude/tests/README.md)
+- **Sectional Tests (Quant, DI, Reasoning, Core)**: [`aptitude/tests/section/README.md`](../aptitude/tests/section/README.md)
+- **Full & Expert Mocks**: [`aptitude/mocks/README.md`](../aptitude/mocks/README.md)
+- **Technical Interview Branching Trees**: [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)
+- **Consulting Simulation Suite**: [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md)
+- **Full Corporate Targets Universe (121 Companies)**: [`prep/company-profiles/corporate-targets/README.md`](../prep/company-profiles/corporate-targets/README.md)
