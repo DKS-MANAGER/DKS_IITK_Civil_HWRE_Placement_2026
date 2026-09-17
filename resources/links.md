@@ -194,7 +194,7 @@
 | Quick formula lookup | [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) |
 | Rapid revision | [`core/gate/revision_notes/gate-civil-revision.md`](../core/gate/revision_notes/gate-civil-revision.md) |
 | Practice problems | [`core/gate/practice/gate-civil-practice.md`](../core/gate/practice/gate-civil-practice.md) |
-| Aptitude shortcuts | [`non-core/aptitude/shortcuts/aptitude-shortcuts.md`](../non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
+| Aptitude shortcuts | [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) |
 | Behavioral STAR | [`prep/behavioral/behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) |
 | HR questions | [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) |
 | Technical Q&A | [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md) |

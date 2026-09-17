@@ -70,7 +70,7 @@ The repository is a mature, genuinely studyable placement preparation OS. It has
 | `core/fundamentals/civil-engineering-foundations.md` | L3 (6.5) | No conceptQ/MCQs/interview | Add solved examples, interview prep |
 | `core/gate/civil/gate-civil-notes.md` | L3 (6.5) | No conceptQ/interview | Add conceptual deep-dive Qs |
 | `non-core/analytics/non-core-prep.md` | L3 (6.0) | No MCQs/interview | Add practice Qs, interview prep |
-| `non-core/aptitude/quantitative/aptitude-basics.md` | L3 (6.0) | Few MCQs | Add more MCQs, speed tricks |
+| `aptitude/quant/README.md` | L3 (6.0) | Few MCQs | Add more MCQs, speed tricks |
 | `software-and-tech/deep-dives/openfoam-case-study.md` | L3 (6.0) | No interview/revision | Add interview Qs, revision |
 | `prep/behavioral/behavioral-interview-guide.md` | L3 (7.0) | No examples/revision | Add example answers, revision |
 | `core/transportation/transportation-software.md` | L3 (6.5) | No examples/MCQs | Add software usage guides |

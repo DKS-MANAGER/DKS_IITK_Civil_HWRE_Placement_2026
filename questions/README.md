@@ -81,7 +81,7 @@ Every question can be tagged for filtering:
 | Hydrology | [hydrology.md](../core/hwre/hydrology/hydrology.md) Section E | 10+ |
 | Water Resources | [water-resources-engineering.md](../core/hwre/water_resources/water-resources-engineering.md) Section E | 10+ |
 | GATE Practice | [gate-civil-practice.md](../core/gate/practice/gate-civil-practice.md) | 50+ |
-| Aptitude | [aptitude-basics.md](../non-core/aptitude/quantitative/aptitude-basics.md) | 15+ |
+| Aptitude | [aptitude-basics.md](../aptitude/quant/README.md) | 15+ |
 
 ---
 
@@ -143,7 +143,7 @@ Every question can be tagged for filtering:
 | Guesstimates | [guesstimate-guide.md](../non-core/guesstimates/guesstimate-guide.md) |
 | Data Analyst | [statistics-practice.md](../non-core/data-analyst/statistics-practice.md) |
 | SQL | [sql-practice.md](../non-core/business-analyst/sql-practice.md) |
-| Aptitude | [aptitude-basics.md](../non-core/aptitude/quantitative/aptitude-basics.md) |
+| Aptitude | [aptitude-basics.md](../aptitude/quant/README.md) |
 
 ---
 

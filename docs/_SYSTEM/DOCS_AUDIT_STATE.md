@@ -31,7 +31,7 @@ Following the major September 16–17 repository content expansion, the document
   - Defined scoring formulas ($+1 / -0.25$), section-wise time budgets, and the 90-second skip rule.
   - Implemented the 4-bucket error classification taxonomy ($C, A, T, M$) and the 6-step closed-loop retest engine.
 - [x] **Testing Guide Synchronized** (`docs/TESTING_GUIDE.md` updated):
-  - Removed obsolete 5-tier structure and deprecated `non-core/aptitude/` references.
+  - Removed obsolete 5-tier structure and deprecated `aptitude/` references.
   - Aligned testing instructions with the new `aptitude/mocks/` suite (7 full mocks + Hard/Expert) and `aptitude/tests/section/` (5 tests, 140 questions).
 - [x] **IITK Placement Map Created** (`docs/IITK_PLACEMENT_MAP.md` created):
   - Added dedicated institutional routing for IIT Kanpur M.Tech Civil & HWRE candidates.

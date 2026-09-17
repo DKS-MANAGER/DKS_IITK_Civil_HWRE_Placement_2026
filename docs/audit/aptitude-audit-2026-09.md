@@ -38,7 +38,7 @@ aptitude/                    61 files, ~4,900 lines
 └── mocks/                    1 full mock (50 Q / 60 min)
 ```
 
-Plus three **other** overlapping aptitude corpora in the workspace that the repo's own audit already identified: `Aptitude/` (34 files, root sibling), `Aptitude-For-Placements/` (~60 solved examples), and `non-core/aptitude/` (20 condensed modules, still linked from the repo README role-navigation). Consolidation is unfinished.
+Plus three **other** overlapping aptitude corpora in the workspace that the repo's own audit already identified: `Aptitude/` (34 files, root sibling), `Aptitude-For-Placements/` (~60 solved examples), and `aptitude/` (20 condensed modules, still linked from the repo README role-navigation). Consolidation is unfinished.
 
 **Approximate question count:** ~950–1,000 items total, but only ~55–60% have a worked answer. The ~255 "Practice — Basic/Intermediate/Advanced" questions inside the quant modules and the ~130 practice items inside the reasoning modules have **no answer key at all**.
 
@@ -159,7 +159,7 @@ Keep **engineering mathematics / physics screening** strictly separate (the user
 | Q7 | **Factual error** | Sphere volume `¾πr³` (should be `4⁄3 πr³`) in `FORMULA_SHEET.md` and `quant/mensuration.md`. | HIGH |
 | Q8 | **Cross-file answer contradictions** | Coding "TIGER" = 59 (`reasoning/coding-decoding.md`) vs 58 (mock Q20). Series wrong-term item uses "…47, 94, 191" (mock Q28) vs "…47, 95" (`reasoning/series.md` practice Q14). | MEDIUM |
 | Q9 | **Answer options not randomised** | Even where keys are correct, correct answer is disproportionately option A/B. Tests are not "blind." | MEDIUM |
-| Q10 | **Four overlapping aptitude corpora** unconsolidated | `aptitude/`, `Aptitude/`, `Aptitude-For-Placements/`, `non-core/aptitude/` (last still linked from repo README). | MEDIUM |
+| Q10 | **Four overlapping aptitude corpora** unconsolidated | `aptitude/`, `Aptitude/`, `Aptitude-For-Placements/`, `aptitude/` (last still linked from repo README). | MEDIUM |
 | Q11 | **Trivial "jumbles"** | `verbal/para-jumbles.md` Q6, Q8, Q9, Q10, Q12 answer = sentences already in order. | LOW |
 | Q12 | Typos | "perillous" (`verbal/vocabulary.md` L72); CJK stray text was fixed separately in the Sep-2026 accuracy review. | LOW |
 
@@ -609,7 +609,7 @@ All tests: no calculator unless the company allows one; maintain an error log; r
 5. **Add answer keys + 1-line solutions to every unanswered practice block** in `quantitative/*` and `logical_reasoning/*` (~400 solutions). This alone moves the folder from "notes" to "practice."
 6. Convert `verbal/critical-reasoning.md` practice stubs into full items; fix `verbal/para-jumbles.md` trivial jumbles; fix "perillous".
 7. **De-duplicate DI:** author 10 new unique datasets; repoint the mock and `di-test` to fresh data.
-8. Rename folders to the §8 scheme (`quant/`→`quantitative/`, `reasoning/`→`logical_reasoning/`, `di/`→`data_interpretation/`, `tests/`→`timed_tests/`, `mocks/`→`mixed_tests/`) and update links. Retire `non-core/aptitude/` (redirect its README to `aptitude/`).
+8. Rename folders to the §8 scheme (`quant/`→`quantitative/`, `reasoning/`→`logical_reasoning/`, `di/`→`data_interpretation/`, `tests/`→`timed_tests/`, `mocks/`→`mixed_tests/`) and update links. Retire `aptitude/` (redirect its README to `aptitude/`).
 
 ### Phase 2 — Fill the CRITICAL / HIGH domain gaps (~2–3 weeks)
 9. New quant modules: `algebra-equations`, `surds-indices-logarithms`, `geometry`, `coordinate-geometry` (section), `set-theory-venn`, `calculation-speed-drills`; split `trains` and `boats-streams`.

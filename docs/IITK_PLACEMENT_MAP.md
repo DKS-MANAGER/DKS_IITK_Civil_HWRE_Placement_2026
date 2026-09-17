@@ -32,7 +32,7 @@ Recruiters at IITK evaluate M.Tech candidates through five distinct hiring arche
 | Candidate Target | Key Visiting / Hiring Firms | Primary Repo Path | Assessment Focus | Interview Anchor |
 |:---|:---|:---|:---|:---|
 | **HWRE / Water Resources** | Vassar Labs, Rodic Consultants, DHI, RMS, Spectrum | [`core/hwre/`](../core/hwre/) · [`prep/company-profiles/civil-vassarlabs.md`](../prep/company-profiles/civil-vassarlabs.md) | Open-channel flow, hydrology, GIS/HEC-RAS, numerical methods | M.Tech Thesis, flow simulation, flood routing |
-| **CFD & Fluid Dynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS, Thornton Tomasetti | [`software-and-tech/openfoam/`](../software-and-tech/openfoam/) · [`prep/company-profiles/civil-tutr-hyperloop.md`](../prep/company-profiles/civil-tutr-hyperloop.md) | Navier-Stokes, turbulence ($k\text{-}\epsilon, k\text{-}\omega$), mesh independence, OpenFOAM | Meshing strategies, boundary conditions, Courant number |
+| **CFD & Fluid Dynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS, Thornton Tomasetti | [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md) · [`prep/company-profiles/civil-tutr-hyperloop.md`](../prep/company-profiles/civil-tutr-hyperloop.md) | Navier-Stokes, turbulence ($k\text{-}\epsilon, k\text{-}\omega$), mesh independence, OpenFOAM | Meshing strategies, boundary conditions, Courant number |
 | **Infrastructure & EPC** | L&T (ECC/Heavy Civil), Godrej Properties, Tata Projects, Afcons | [`prep/company-profiles/civil-lt.md`](../prep/company-profiles/civil-lt.md) · [`prep/company-profiles/civil-godrej-properties.md`](../prep/company-profiles/civil-godrej-properties.md) | Geotech, structural mechanics, concrete tech, project planning | Site execution judgment, IS code limits, structural design |
 | **PSU & Public Energy** | BPCL, HPCL, IOCL, ONGC, EIL | [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md) · [`prep/company-profiles/civil-hpcl.md`](../prep/company-profiles/civil-hpcl.md) | GATE-level technical OA, general awareness, discipline fundamentals | Core fundamentals, standard codes, GD & panel interview |
 | **Management Consulting** | McKinsey, BCG, Bain, Dalberg, Alvarez & Marsal | [`non-core/consulting/`](../non-core/consulting/) · [`prep/CASE_GD.md`](../prep/CASE_GD.md) | Speed quant, guesstimates, business sense, interactive cases | Case structuring, MECE breakdown, executive communication |
@@ -53,9 +53,9 @@ Candidates aiming for specialized water resources consultancies and technology p
    - *Practice*: [`aptitude/tests/section/sectional-civil-core-01.md`](../aptitude/tests/section/sectional-civil-core-01.md) and [`aptitude/tests/section/sectional-di-01.md`](../aptitude/tests/section/sectional-di-01.md).
 2. **Technical Interview Rounds (1–2 rounds)**:
    - Rigorous questioning on Navier-Stokes simplifications, hydraulic jump energy dissipation, Saint-Venant equations.
-   - Follow the branching technical interview trees in [`prep/technical/civil-technical-interview-bank.md`](../prep/technical/civil-technical-interview-bank.md).
+   - Follow the branching technical interview trees in [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md).
 3. **M.Tech Thesis Defense**:
-   - Prepare a 3-minute executive pitch and 10-minute technical whiteboard explanation following [`prep/PROJECT_DEFENCE.md`](../prep/PROJECT_DEFENCE.md).
+   - Prepare a 3-minute executive pitch and 10-minute technical whiteboard explanation following [`prep/interview/technical/thesis-defense-guide.md`](../prep/interview/technical/thesis-defense-guide.md).
    - Address laboratory vs computational trade-offs, measurement errors, and practical engineering relevance.
 
 ### Track B: CFD, Modeling & Computational Engineering
@@ -64,7 +64,7 @@ Specialized modeling roles (hyperloop aerodynamics, wind energy, numerical hydra
 
 1. **Required Software Competencies**:
    - Linux environment, OpenFOAM (`snappyHexMesh`, `pimpleFoam`, `simpleFoam`), Python scripting.
-   - Reference: [`software-and-tech/openfoam/`](../software-and-tech/openfoam/) and [`software-and-tech/python/`](../software-and-tech/python/).
+   - Reference: [`software-and-tech/deep-dives/openfoam-case-study.md`](../software-and-tech/deep-dives/openfoam-case-study.md) and [`software-and-tech/TOOLS_INDEX.md`](../software-and-tech/TOOLS_INDEX.md).
 2. **Interview Themes**:
    - Discretization schemes (FVM, upwind vs central differencing).
    - Pressure-velocity coupling (SIMPLE vs PISO vs PIMPLE).
@@ -91,7 +91,7 @@ Recruitment strictly evaluates fundamental disciplinary mastery:
 1. **Assessment Format**:
    - Timed CBT (Computer Based Test): 100–120 questions in 90–120 minutes with negative marking ($0.25$ or $0.33$).
    - High proportion of direct formula applications, dimensional analysis, and standard code clauses.
-   - Core Bank: [`core/gate/`](../core/gate/) and [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md).
+   - Core Bank: [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) and [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md).
 2. **Panel Interview**:
    - Stress test on undergraduate civil engineering breadth (Surveying, Soil Mechanics, Fluid Mechanics, Steel/RCC).
    - Candidate's M.Tech thesis explained in plain language to senior chief engineers.
@@ -102,10 +102,10 @@ Top-tier non-core alternatives with early Day 1 slots:
 
 1. **Aptitude & Screening**:
    - Candidates must clear stringent speed cutoffs in Quantitative Aptitude and Data Interpretation.
-   - Mock Schedule: Complete [`aptitude/mocks/full-placement-mock-01/`](../aptitude/mocks/full-placement-mock-01/) through Mock 05 with $\ge 70\%$ composite score.
+   - Mock Schedule: Complete [`aptitude/mocks/full-placement-mock-01.md`](../aptitude/mocks/full-placement-mock-01.md) through Mock 05 with $\ge 70\%$ composite score.
 2. **Guesstimates & Case Problem Solving**:
    - Market sizing, profitability diagnostic trees, cost reduction, public infrastructure policy cases.
-   - Practice Bank: [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) and [`non-core/consulting/case-interview-guide.md`](../non-core/consulting/case-interview-guide.md).
+   - Practice Bank: [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) and [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md).
 
 ---
 
@@ -140,10 +140,10 @@ When interviewers at IITK ask: *"Tell me about your M.Tech research"*, use the *
 
 ## 6. Placement Week Readiness Checklist
 
-- [ ] **Resume Points Calibrated**: All project claims verified against [`prep/PROJECT_DEFENCE.md`](../prep/PROJECT_DEFENCE.md).
+- [ ] **Resume Points Calibrated**: All project claims verified against [`prep/interview/technical/project-defense-guide.md`](../prep/interview/technical/project-defense-guide.md).
 - [ ] **Aptitude Floor Secured**: Scored $\ge 75\%$ in [`aptitude/tests/section/sectional-quant-01.md`](../aptitude/tests/section/sectional-quant-01.md) and [`sectional-di-01.md`](../aptitude/tests/section/sectional-di-01.md).
-- [ ] **Technical Trees Practiced**: Defended all primary branches in [`prep/technical/civil-technical-interview-bank.md`](../prep/technical/civil-technical-interview-bank.md).
-- [ ] **HR / STAR Matrix Ready**: 5 behavioral stories documented in [`prep/behavioral/hr-interview-guide.md`](../prep/behavioral/hr-interview-guide.md).
+- [ ] **Technical Trees Practiced**: Defended all primary branches in [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md).
+- [ ] **HR / STAR Matrix Ready**: 5 behavioral stories documented in [`prep/interview/hr/hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md).
 - [ ] **Company Dossier Reviewed**: Key facts, ongoing projects, and revenue lines reviewed in [`prep/company-profiles/`](../prep/company-profiles/).
 
 ---

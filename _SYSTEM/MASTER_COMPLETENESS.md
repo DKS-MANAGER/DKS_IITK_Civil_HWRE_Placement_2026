@@ -69,7 +69,7 @@
 2. `non-core/consulting/consulting-overview.md` (5.5) — needs examples, MCQs
 3. `non-core/product-management/pm-overview.md` (5.5) — needs conceptQ, interview
 4. `non-core/analytics/non-core-prep.md` (6.0) — needs MCQs, interview
-5. `non-core/aptitude/quantitative/aptitude-basics.md` (6.0) — needs more MCQs
+5. `aptitude/quant/README.md` (6.0) — needs more MCQs
 6. `prep/interview/quick-revision-system.md` (5.0) — needs enrichment
 7. `software-and-tech/deep-dives/hec-ras-walkthrough.md` (5.0) — needs examples
 

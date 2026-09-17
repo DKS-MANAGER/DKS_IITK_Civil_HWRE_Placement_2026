@@ -57,7 +57,7 @@ Career tracks beyond traditional civil engineering. See [`non-core/README.md`](.
 | Risk | [`non-core/risk/`](../non-core/risk/) |
 | Strategy | [`non-core/strategy/`](../non-core/strategy/) |
 | Supply Chain | [`non-core/supply-chain/`](../non-core/supply-chain/) |
-| Aptitude | [`non-core/aptitude/`](../non-core/aptitude/) |
+| Aptitude | [`aptitude/`](../aptitude/) |
 | Guesstimates | [`non-core/guesstimates/`](../non-core/guesstimates/) |
 | Case Interviews | [`non-core/case-interviews/`](../non-core/case-interviews/) |
 

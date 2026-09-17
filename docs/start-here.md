@@ -125,7 +125,7 @@ START HERE (this page)
 │   ├── Mock Interviews → prep/interview/mock-tests/
 │   └── Company Profiles → prep/company-profiles/
 ├── Software → software-and-tech/
-├── Aptitude → non-core/aptitude/
+├── Aptitude → aptitude/
 ├── GATE → core/gate/
 └── Resources → resources/
 ```

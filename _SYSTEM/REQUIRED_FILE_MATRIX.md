@@ -430,24 +430,24 @@
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| Aptitude Basics | `non-core/aptitude/quantitative/aptitude-basics.md` | ✅ YES | L3 (6.0/10) | More MCQs | EXTEND |
-| Averages | `non-core/aptitude/quantitative/averages.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Data Interpretation | `non-core/aptitude/quantitative/data-interpretation.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Number System | `non-core/aptitude/quantitative/number-system.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Partnership | `non-core/aptitude/quantitative/partnership.md` | ✅ YES | EXISTS | — | KEEP |
-| Percentages | `non-core/aptitude/quantitative/percentages.md` | ✅ YES | EXISTS | — | KEEP |
-| Permutations/Combinations | `non-core/aptitude/quantitative/permutations-combinations.md` | ✅ YES | EXISTS | — | KEEP |
-| Probability | `non-core/aptitude/quantitative/probability.md` | ✅ YES | EXISTS | — | KEEP |
-| Problems on Ages | `non-core/aptitude/quantitative/problems-on-ages.md` | ✅ YES | EXISTS | — | KEEP |
-| Problems on Train | `non-core/aptitude/quantitative/problems-on-train.md` | ✅ YES | EXISTS | — | KEEP |
-| Profit/Loss/Discount | `non-core/aptitude/quantitative/profit-loss-discount.md` | ✅ YES | EXISTS | — | KEEP |
-| Ratio/Proportion | `non-core/aptitude/quantitative/ratio-proportion.md` | ✅ YES | EXISTS | — | KEEP |
-| Speed/Time/Distance | `non-core/aptitude/quantitative/speed-time-distance.md` | ✅ YES | EXISTS | — | KEEP |
-| Time/Work | `non-core/aptitude/quantitative/time-work.md` | ✅ YES | EXISTS | — | KEEP |
-| Reasoning Practice | `non-core/aptitude/logical_reasoning/reasoning-practice.md` | ✅ YES | EXISTS | — | KEEP |
-| Aptitude Shortcuts | `non-core/aptitude/shortcuts/aptitude-shortcuts.md` | ✅ YES | EXISTS | — | KEEP |
-| Verbal Ability | `non-core/aptitude/verbal/verbal-ability.md` | ✅ YES | EXISTS | — | KEEP |
-| Aptitude README | `non-core/aptitude/README.md` | ✅ YES | EXISTS | — | KEEP |
+| Aptitude Basics | `aptitude/quant/README.md` | ✅ YES | L3 (6.0/10) | More MCQs | EXTEND |
+| Averages | `aptitude/quant/averages.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Data Interpretation | `aptitude/di/README.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Number System | `aptitude/quant/number-system.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Partnership | `aptitude/quant/partnership.md` | ✅ YES | EXISTS | — | KEEP |
+| Percentages | `aptitude/quant/percentages.md` | ✅ YES | EXISTS | — | KEEP |
+| Permutations/Combinations | `aptitude/quant/permutations-combinations.md` | ✅ YES | EXISTS | — | KEEP |
+| Probability | `aptitude/quant/probability.md` | ✅ YES | EXISTS | — | KEEP |
+| Problems on Ages | `aptitude/quant/problems-on-ages.md` | ✅ YES | EXISTS | — | KEEP |
+| Problems on Train | `aptitude/quant/problems-on-trains.md` | ✅ YES | EXISTS | — | KEEP |
+| Profit/Loss/Discount | `aptitude/quant/profit-loss-discount.md` | ✅ YES | EXISTS | — | KEEP |
+| Ratio/Proportion | `aptitude/quant/ratio-proportion.md` | ✅ YES | EXISTS | — | KEEP |
+| Speed/Time/Distance | `aptitude/quant/speed-time-distance.md` | ✅ YES | EXISTS | — | KEEP |
+| Time/Work | `aptitude/quant/time-work.md` | ✅ YES | EXISTS | — | KEEP |
+| Reasoning Practice | `aptitude/reasoning/README.md` | ✅ YES | EXISTS | — | KEEP |
+| Aptitude Shortcuts | `aptitude/FORMULA_SHEET.md` | ✅ YES | EXISTS | — | KEEP |
+| Verbal Ability | `aptitude/verbal/README.md` | ✅ YES | EXISTS | — | KEEP |
+| Aptitude README | `aptitude/README.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 25. Templates
 

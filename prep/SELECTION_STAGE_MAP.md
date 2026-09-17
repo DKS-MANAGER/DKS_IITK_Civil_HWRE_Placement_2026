@@ -62,8 +62,8 @@ STAGE 6: HR & BEHAVIORAL PROBES          (STAR stories, culture fit, relocation,
 - **Focus:** Rigorous oral inquiry into fundamental engineering physics, mathematical derivations, boundary conditions, software settings, and M.Tech thesis research.
 - **Methodology:** Branching oral inquiry trees testing Level 1 recall up to Level 5 edge-case judgment.
 - **Preparation Anchor:**
-  - Branching technical question trees: [`technical/civil-technical-interview-bank.md`](technical/civil-technical-interview-bank.md)
-  - 3-Minute thesis pitch (P-A-R-I-C) & project defense: [`PROJECT_DEFENCE.md`](PROJECT_DEFENCE.md)
+  - Branching technical question trees: [`interview/technical/technical-interview-bank.md`](interview/technical/technical-interview-bank.md)
+  - 3-Minute thesis pitch (P-A-R-I-C) & project defense: [`interview/technical/project-defense-guide.md`](interview/technical/project-defense-guide.md)
   - Software theory linkage: [`../software-and-tech/SOFTWARE_THEORY_LINKAGE.md`](../software-and-tech/SOFTWARE_THEORY_LINKAGE.md)
 
 ---

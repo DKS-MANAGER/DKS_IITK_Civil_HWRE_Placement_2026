@@ -231,7 +231,7 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 
 **Actions:**
 - [ ] Create one-page cheat-sheets per core topic (10 sheets)
-- [ ] Drill aptitude daily (20–30 min) — [`non-core/aptitude/shortcuts/aptitude-shortcuts.md`](../non-core/aptitude/shortcuts/aptitude-shortcuts.md)
+- [ ] Drill aptitude daily (20–30 min) — [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md)
 - [ ] SQL/Python daily (20 min) — [`non-core/analytics/non-core-prep.md`](../non-core/analytics/non-core-prep.md)
 - [ ] Conduct final round mocks: technical, HR, and case-study reps (5+)
 - [ ] Review interview-experience logs and fill knowledge gaps
@@ -249,7 +249,7 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 |----------|------|
 | GATE Formulas (Cheat Sheet) | [`core/gate/formulas/gate-civil-formulas.md`](../core/gate/formulas/gate-civil-formulas.md) |
 | GATE Revision | [`core/gate/revision_notes/gate-civil-revision.md`](../core/gate/revision_notes/gate-civil-revision.md) |
-| Aptitude Shortcuts | [`non-core/aptitude/shortcuts/aptitude-shortcuts.md`](../non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
+| Aptitude Shortcuts | [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) |
 | Behavioral Guide | [`prep/behavioral/behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) |
 | HR Questions Bank | [`prep/behavioral/hr_questions/hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) |
 | Mock Questions | [`prep/interview/mock-tests/mock-interview-questions.md`](../prep/interview/mock-tests/mock-interview-questions.md) |

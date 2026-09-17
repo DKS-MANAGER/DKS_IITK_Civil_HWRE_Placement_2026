@@ -93,7 +93,7 @@ Day 6: System design | Day 7: Full mock (timed)
 ## Cross-Links
 - [Programming Fundamentals](../../software-and-tech/programming/)
 - [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Aptitude Basics](../../non-core/aptitude/quantitative/aptitude-basics.md)
+- [Aptitude Basics](../../aptitude/quant/README.md)
 - [Tech Careers](../../software-and-tech/technology-careers/tech-careers.md)
 
 ## Sources

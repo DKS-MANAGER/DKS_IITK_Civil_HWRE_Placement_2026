@@ -104,7 +104,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 | Core Civil | `core/` |
 | Non-Core | `non-core/` |
 | Behavioral | `prep/behavioral/` |
-| Aptitude | `non-core/aptitude/` |
+| Aptitude | `aptitude/` |
 | Software | `software-and-tech/` |
 | Interview | `prep/` |
 | Resources | `resources/` |

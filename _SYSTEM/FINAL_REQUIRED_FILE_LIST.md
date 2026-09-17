@@ -98,7 +98,7 @@
 | Program Management | `non-core/program-management/` (3 files) | ✅ EXISTS |
 | Business Operations | `non-core/business-operations/` (3 files) | ✅ EXISTS |
 | Analytics | `non-core/analytics/` (2 files) | ✅ EXISTS |
-| Aptitude | `non-core/aptitude/` (18 files) | ✅ EXISTS |
+| Aptitude | `aptitude/` (18 files) | ✅ EXISTS |
 | Common | `non-core/common/` (7 files) | ✅ EXISTS |
 | Guesstimates | `non-core/guesstimates/guesstimate-guide.md` | ✅ EXISTS |
 | Mock Interviews | `non-core/mock-interviews/mock-system.md` | ✅ EXISTS |
@@ -182,7 +182,7 @@
 | `core/fundamentals/civil-engineering-foundations.md` | 6.5/10 — needs conceptQ, MCQs, interview |
 | `core/gate/civil/gate-civil-notes.md` | 6.5/10 — needs conceptQ, interview |
 | `non-core/analytics/non-core-prep.md` | 6.0/10 — needs MCQs, interview |
-| `non-core/aptitude/quantitative/aptitude-basics.md` | 6.0/10 — needs more MCQs |
+| `aptitude/quant/README.md` | 6.0/10 — needs more MCQs |
 | `software-and-tech/deep-dives/openfoam-case-study.md` | 6.0/10 — needs interview Qs, revision |
 | `prep/behavioral/behavioral-interview-guide.md` | 7.0/10 — needs examples, revision |
 | `prep/behavioral/frameworks/answer-framework-library.md` | 6.5/10 — needs more frameworks |

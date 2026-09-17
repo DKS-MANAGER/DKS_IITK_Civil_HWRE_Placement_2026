@@ -1,12 +1,13 @@
 {
-  "markdown_files": 592,
+  "markdown_files": 594,
   "markdown_files_by_subsystem": {
     "root": 3,
-    "aptitude": 90,
+    "aptitude": 91,
+    "archive": 19,
     "core": 130,
     "docs": 42,
     "index": 4,
-    "non-core": 93,
+    "non-core": 75,
     "prep": 129,
     "questions": 1,
     "resources": 7,

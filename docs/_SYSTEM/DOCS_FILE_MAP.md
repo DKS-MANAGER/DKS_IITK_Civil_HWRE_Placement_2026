@@ -64,6 +64,7 @@
 
 | File | Purpose |
 |:-----|:--------|
+| [`aptitude-audit-2026-09.md`](../audit/aptitude-audit-2026-09.md) | Independent audit & rebuild plan for `aptitude/` layer |
 | [`gate-o-pedia-gap-analysis.md`](../audit/gate-o-pedia-gap-analysis.md) | Gap analysis of GATE-O-Pedia |
 | [`gate_opedia_full_analysis.md`](../audit/gate_opedia_full_analysis.md) | Full content analysis |
 | [`gate_opedia_structure.md`](../audit/gate_opedia_structure.md) | Structural breakdown |
@@ -80,14 +81,14 @@
 
 ## File Count Summary
 
-| Scope | Count |
-|:------|:------|
-| Top-level files | 24 |
-| `_SYSTEM/` | 4 |
-| `templates/` | 9 |
-| `audit/` | 5 |
-| `sources/` | 1 |
-| **Total** | **43** |
+| Scope | Markdown Files | JSON Files | Total Files |
+|:------|:--------------:|:----------:|:-----------:|
+| Top-level files | 24 | — | 24 |
+| `_SYSTEM/` | 4 | — | 4 |
+| `templates/` | 9 | — | 9 |
+| `audit/` | 4 | 2 | 6 |
+| `sources/` | 1 | — | 1 |
+| **Total** | **42** | **2** | **44** |
 
 ---
 

@@ -87,7 +87,7 @@ All notable changes to this repository are documented in this file. The format i
 
 - Classified 46 topics by priority (P0/P1) and domain.
 - Resolved duplicate/conflict sources by merging notes from multiple repositories.
-- Assigned destination paths under `civil/`, `hwre/`, `non-core/aptitude/`, `prep/behavioral/`, `interviews/`, `core/gate/`, `prep/templates/`, and `resources/`.
+- Assigned destination paths under `civil/`, `hwre/`, `aptitude/`, `prep/behavioral/`, `interviews/`, `core/gate/`, `prep/templates/`, and `resources/`.
 
 ### Indexing
 

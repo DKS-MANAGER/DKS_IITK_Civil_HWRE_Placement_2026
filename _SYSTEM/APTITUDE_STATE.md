@@ -50,7 +50,7 @@
 
 - `Aptitude/` — 34 topic files (GOOD per-topic content, no system layer)
 - `Aptitude-For-Placements/` — ~60 solved examples (PARTIAL, practice bank only)
-- `non-core/aptitude/` — 20 condensed modules (GOOD, duplicates Aptitude/)
+- `aptitude/` — 20 condensed modules (GOOD, duplicates Aptitude/)
 
 ---
 

@@ -14,7 +14,7 @@ Three aptitude sources exist in the workspace. This audit covers all of them and
 |:-------|:-----|:-----|
 | **Aptitude/** (root) | `Aptitude/` | 34-topic study kit (richest per-topic content) |
 | **Aptitude-For-Placements/** | `Aptitude-For-Placements/` | ~60 single solved problems (no `.md` ext) |
-| **Canonical repo** | `DKS_IITK_Civil_HWRE_Placement_2026/non-core/aptitude/` | Condensed topic modules + shortcuts + reasoning/verbal |
+| **Canonical repo** | `DKS_IITK_Civil_HWRE_Placement_2026/aptitude/` | Condensed topic modules + shortcuts + reasoning/verbal |
 
 **Canonical decision:** The rebuild lives in `DKS_IITK_Civil_HWRE_Placement_2026/aptitude/` (new canonical hub). The root `Aptitude/` files are treated as a **reference source** for high-quality per-topic content. `Aptitude-For-Placements/` is a **practice bank** of solved examples.
 
@@ -89,28 +89,28 @@ Three aptitude sources exist in the workspace. This audit covers all of them and
 | `Aptitude-For-Placements/Time, Speed and Distance/...-1..7` | 7 solved examples | TSD | ❌ | ✅ | ✅ | ❌ | ❌ | PARTIAL | Duplicates Aptitude/Speed_Time_Distance | No study material | Reference bank only |
 | `Aptitude-For-Placements/README.md` | Index | All | — | — | — | — | — | RESOURCE_ONLY | — | No navigation to system | Link to canonical hub |
 
-### 2.5 Canonical `non-core/aptitude/` — Condensed Modules
+### 2.5 Canonical `aptitude/` — Condensed Modules
 
 | Path | Purpose | Topic | Study? | Practice? | Solutions? | Difficulty? | Timed? | Quality | Duplicate | Missing Content | Required Fix |
 |:-----|:--------|:------|:------:|:---------:|:----------:|:-----------:|:------:|:-------:|:---------|:----------------|:-------------|
-| `non-core/aptitude/README.md` | Index | All | — | — | — | — | — | GOOD | — | No roadmap/role matrix | Link to new system |
-| `non-core/aptitude/quantitative/aptitude-basics.md` | Overview + 15 examples | All | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Keep as overview |
-| `non-core/aptitude/quantitative/number-system.md` | Study + 10 Q | Number System | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Number_System | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/percentages.md` | Study + 15 Q | Percentages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Percentages | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/ratio-proportion.md` | Study + 10 Q | Ratio | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Ratio | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/profit-loss-discount.md` | Study + 10 Q | P&L | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Profit_Loss | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/time-work.md` | Study + 10 Q | Time & Work | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Time_Work | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/speed-time-distance.md` | Study + 10 Q | TSD | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Speed_Time_Distance | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/averages.md` | Study + 10 Q | Averages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Averages | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/partnership.md` | Study + 10 Q | Partnership | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/permutations-combinations.md` | Study + 10 Q | P&C | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/P&C | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/probability.md` | Study + 10 Q | Probability | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Probability | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/problems-on-ages.md` | Study + 10 Q | Ages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Ages | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/problems-on-train.md` | Study + 10 Q | Trains | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/TSD | Difficulty, traps | Upgrade |
-| `non-core/aptitude/quantitative/data-interpretation.md` | Study + 10 Q | DI | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Set-based DI | Upgrade to DI sets |
-| `non-core/aptitude/logical_reasoning/reasoning-practice.md` | Practice | Reasoning | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
-| `non-core/aptitude/verbal/verbal-ability.md` | Practice | Verbal | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
-| `non-core/aptitude/shortcuts/aptitude-shortcuts.md` | 50+ shortcuts | All | ✅ | — | — | — | — | GOOD | — | Derived explanations | Keep as shortcut reference |
+| `aptitude/README.md` | Index | All | — | — | — | — | — | GOOD | — | No roadmap/role matrix | Link to new system |
+| `aptitude/quant/README.md` | Overview + 15 examples | All | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Keep as overview |
+| `aptitude/quant/number-system.md` | Study + 10 Q | Number System | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Number_System | Difficulty, traps | Upgrade |
+| `aptitude/quant/percentages.md` | Study + 15 Q | Percentages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Percentages | Difficulty, traps | Upgrade |
+| `aptitude/quant/ratio-proportion.md` | Study + 10 Q | Ratio | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Ratio | Difficulty, traps | Upgrade |
+| `aptitude/quant/profit-loss-discount.md` | Study + 10 Q | P&L | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Profit_Loss | Difficulty, traps | Upgrade |
+| `aptitude/quant/time-work.md` | Study + 10 Q | Time & Work | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Time_Work | Difficulty, traps | Upgrade |
+| `aptitude/quant/speed-time-distance.md` | Study + 10 Q | TSD | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Speed_Time_Distance | Difficulty, traps | Upgrade |
+| `aptitude/quant/averages.md` | Study + 10 Q | Averages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Averages | Difficulty, traps | Upgrade |
+| `aptitude/quant/partnership.md` | Study + 10 Q | Partnership | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
+| `aptitude/quant/permutations-combinations.md` | Study + 10 Q | P&C | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/P&C | Difficulty, traps | Upgrade |
+| `aptitude/quant/probability.md` | Study + 10 Q | Probability | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Probability | Difficulty, traps | Upgrade |
+| `aptitude/quant/problems-on-ages.md` | Study + 10 Q | Ages | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/Ages | Difficulty, traps | Upgrade |
+| `aptitude/quant/problems-on-trains.md` | Study + 10 Q | Trains | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | Duplicates Aptitude/TSD | Difficulty, traps | Upgrade |
+| `aptitude/di/README.md` | Study + 10 Q | DI | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Set-based DI | Upgrade to DI sets |
+| `aptitude/reasoning/README.md` | Practice | Reasoning | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
+| `aptitude/verbal/README.md` | Practice | Verbal | ✅ | ✅ | ✅ | ❌ | ❌ | GOOD | — | Difficulty, traps | Upgrade |
+| `aptitude/FORMULA_SHEET.md` | 50+ shortcuts | All | ✅ | — | — | — | — | GOOD | — | Derived explanations | Keep as shortcut reference |
 
 ---
 
@@ -122,7 +122,7 @@ Three aptitude sources exist in the workspace. This audit covers all of them and
 | HEADINGS_ONLY | 0 | — |
 | RESOURCE_ONLY | 1 | `Aptitude-For-Placements/README.md` |
 | PARTIAL | 11 | All `Aptitude-For-Placements/*` topic folders |
-| GOOD | 55 | All `Aptitude/*.md` + `non-core/aptitude/*` |
+| GOOD | 55 | All `Aptitude/*.md` + `aptitude/*` |
 | PLACEMENT_READY | 0 | — |
 
 **No file is currently PLACEMENT_READY.** Every topic lacks the full system layer (difficulty, timed tests, traps, revision, role matrix).

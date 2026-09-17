@@ -41,7 +41,7 @@ For your chosen track, work through the subject guides. Each major folder has a 
 
 - Question banks → [`questions/README.md`](../questions/README.md)
 - Mock tests → [`prep/mock-tests/README.md`](../prep/mock-tests/README.md)
-- Aptitude → [`non-core/aptitude/`](../non-core/aptitude/)
+- Aptitude → [`aptitude/`](../aptitude/)
 - See [TESTING_GUIDE.md](TESTING_GUIDE.md) for the full testing system.
 
 ---

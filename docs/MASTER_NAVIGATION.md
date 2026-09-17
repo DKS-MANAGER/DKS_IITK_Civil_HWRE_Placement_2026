@@ -37,8 +37,8 @@ The repository organizes placement preparation along three orthogonal dimensions
 | Track | Core Coverage Scope | Primary Entry Point |
 |:------|:---|:------------|
 | **Core Civil Engineering** | Structures, Geotechnical, Transportation, Environmental | [`core/README.md`](../core/README.md) |
-| **HWRE & Hydrodynamics** | Open Channel Flow, Hydrology, CFD, Coastal, Groundwater | [`core/hwre/README.md`](../core/hwre/README.md) · [`core/hydrodynamics/`](../core/hydrodynamics/) |
-| **Aptitude & Reasoning** | 720 Quant Qs, 10 DI Chapters, 9 Verbal Modules, 14 Topic Tests, 5 Sectionals, 7 Full Mocks | [`aptitude/README.md`](../aptitude/README.md) |
+| **HWRE & Hydrodynamics** | Open Channel Flow, Hydrology, CFD, Coastal, Groundwater | [`core/hwre/README.md`](../core/hwre/README.md) |
+| **Aptitude & Reasoning** | 720 Quant Qs, 10 DI Chapters, 9 Verbal Modules, 17 Topic Tests, 5 Sectionals, 7 Full Mocks | [`aptitude/README.md`](../aptitude/README.md) |
 | **Non-Core & Consulting** | Consulting Cases, Business Fundamentals, Guesstimates, Finance, Product | [`non-core/README.md`](../non-core/README.md) |
 | **Software & Analytics** | Python, SQL, Git, Linux, C++, Data Structures & Algorithms | [`software-and-tech/README.md`](../software-and-tech/README.md) |
 | **Central Execution Hub** | Master Plan, Readiness Scorecard, Technical Bank, Company Profiles | [`prep/README.md`](../prep/README.md) |
@@ -64,12 +64,12 @@ The repository organizes placement preparation along three orthogonal dimensions
 
 | Role Target | Target Companies at IITK | Core Prep Pathway | Testing & Interview Assets |
 |:---|:---|:---|:---|
-| **HWRE / Water Resources** | Vassarlabs, Rodic Consultants, DHI, AECOM | [`core/hwre/`](../core/hwre/) · [`resources/gis-tools.md`](../resources/gis-tools.md) | [Test 04 OA](../prep/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) · [Tech Bank](../prep/interview/technical/technical-interview-bank.md) |
-| **CFD / Hydrodynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS | [`core/hydrodynamics/`](../core/hydrodynamics/) · [`prep/PROJECT_DEFENCE.md`](../prep/PROJECT_DEFENCE.md) | [Test 03 CFD](../prep/mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) · [Navier-Stokes Tree](../prep/interview/technical/technical-interview-bank.md) |
-| **Core Civil Infrastructure** | L&T, Godrej Properties, Tata Projects, Afcons | [`core/structures/`](../core/structures/) · [`core/geotech/`](../core/geotech/) | [Test 01 General OA](../prep/mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) · [Civil Core Sectional](../aptitude/tests/section/sectional-civil-core-01.md) |
+| **HWRE / Water Resources** | Vassarlabs, Rodic Consultants, DHI, AECOM | [`core/hwre/`](../core/hwre/) · [`resources/gis-tools.md`](../resources/gis-tools.md) | [Test Water Resources OA](../prep/mock-tests/mock-test-water-resources.md) · [Tech Bank](../prep/interview/technical/technical-interview-bank.md) |
+| **CFD / Hydrodynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS | [`core/hwre/hydraulics/`](../core/hwre/hydraulics/) · [`prep/interview/technical/project-defense-guide.md`](../prep/interview/technical/project-defense-guide.md) | [Test Hydraulics CFD](../prep/mock-tests/mock-test-hydraulics-cfd.md) · [Navier-Stokes Tree](../prep/interview/technical/technical-interview-bank.md) |
+| **Core Civil Infrastructure** | L&T, Godrej Properties, Tata Projects, Afcons | [`core/structures/`](../core/structures/) · [`core/geotechnical/`](../core/geotechnical/) | [Test Civil General OA](../prep/mock-tests/mock-test-civil-general.md) · [Civil Core Sectional](../aptitude/tests/section/sectional-civil-core-01.md) |
 | **PSU Engineering** | BPCL, HPCL, IOCL, ONGC, GAIL | [`core/`](../core/) · [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md) | [GATE Question Engine](../questions/README.md) · [Technical Interview Bank](../prep/interview/technical/technical-interview-bank.md) |
 | **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy& | [`non-core/consulting/`](../non-core/consulting/) · [`non-core/case-interviews/`](../non-core/case-interviews/) | [Full Mock 03/04](../aptitude/mocks/README.md) · [Case Simulation Suite](../non-core/case-interviews/case-simulation-suite.md) |
-| **Data Analytics / Tech PM** | Google, Amazon, Flipkart, Tiger Analytics | [`non-core/data-analyst/`](../non-core/data-analyst/) · [`non-core/product-management/`](../non-core/product-management/) | [Test 11/13 OAs](../prep/mock-tests/README.md) · [DI Sectional Test](../aptitude/tests/section/sectional-di-01.md) |
+| **Data Analytics / Tech PM** | Google, Amazon, Flipkart, Tiger Analytics | [`non-core/data-analyst/`](../non-core/data-analyst/) · [`non-core/product-management/`](../non-core/product-management/) | [Role Mock Tests](../prep/mock-tests/README.md) · [DI Sectional Test](../aptitude/tests/section/sectional-di-01.md) |
 
 *Full role profiles → [ROLES.md](ROLES.md) · [COMPANIES.md](COMPANIES.md)*
 

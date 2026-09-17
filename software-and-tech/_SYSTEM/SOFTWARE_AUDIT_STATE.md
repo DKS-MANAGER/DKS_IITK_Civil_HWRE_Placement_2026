@@ -41,7 +41,7 @@ Following the comprehensive audit of September 17, 2026, the following architect
 - [x] **Illustrative Code Limit Framing** (`SOFTWARE_THEORY_LINKAGE.md`):
   - Explicitly framed ETABS drift checks (IS 1893 Cl 7.11.1) and HEC-RAS Manning's roughness parameters as illustrative engineering examples subject to project-specific codes, load combinations, and soil conditions.
 - [x] **Cross-Repository Link Correction**:
-  - Corrected legacy relative links pointing to `../non-core/aptitude/` to the consolidated root `../aptitude/`.
+  - Corrected legacy relative links pointing to `../aptitude/` to the consolidated root `../aptitude/`.
 
 ---
 

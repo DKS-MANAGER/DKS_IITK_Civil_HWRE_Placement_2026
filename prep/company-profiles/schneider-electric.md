@@ -122,7 +122,7 @@ Day 4: Analog electronics | Day 5: Aptitude | Day 6: GD + research | Day 7: Mock
 
 ## Cross-Links
 - [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Aptitude Basics](../../non-core/aptitude/quantitative/aptitude-basics.md)
+- [Aptitude Basics](../../aptitude/quant/README.md)
 
 ## Key Takeaways
 - GD topics are abstract and value-based; prepare balanced viewpoints with real-world examples.

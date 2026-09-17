@@ -127,7 +127,7 @@ Use this to track your preparation across all dimensions:
 | Core Technical | [Subject Guides](../core/) | ⬜ |
 | HWRE Specialization | [HWRE Track](../core/hwre/) | ⬜ |
 | Software Skills | [Software Guide](../prep/interview/software-interview-guide.md) | ⬜ |
-| Aptitude | [Quantitative](../non-core/aptitude/quantitative/aptitude-basics.md) | ⬜ |
+| Aptitude | [Quantitative](../aptitude/quant/README.md) | ⬜ |
 | Behavioral | [Behavioral Guide](../prep/behavioral/behavioral-interview-guide.md) | ⬜ |
 | Self Introduction | [Self Intro](../prep/behavioral/self_intro/self-introduction-system.md) | ⬜ |
 | Resume | [Resume Template](../prep/templates/resume-template.md) | ⬜ |

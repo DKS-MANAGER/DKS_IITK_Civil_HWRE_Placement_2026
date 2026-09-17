@@ -428,7 +428,7 @@ Finance interviews increasingly use case studies and guesstimates to test analyt
 → [Finance Overview](finance-overview.md) — Complete preparation system
 
 **Study:**
-→ [Quantitative Aptitude](../../non-core/aptitude/quantitative/aptitude-basics.md) — Math fundamentals
+→ [Quantitative Aptitude](../../aptitude/quant/README.md) — Math fundamentals
 → [Technical Stack](../analytics/technical-stack.md) — Tools for finance roles
 
 **Interview:**

@@ -16,7 +16,7 @@
 | Verbal study | [Verbal](../../aptitude/verbal/) |
 | Data interpretation | [DI](../../aptitude/di/) |
 | Topic tests | [Aptitude Tests](../../aptitude/tests/) |
-| Full placement mock | [Full Mock](../../aptitude/mocks/full-placement-mock-1.md) |
+| Full placement mock | [Full Mock](../../aptitude/mocks/full-placement-mock-01.md) |
 | Track errors | [Error Log](../../aptitude/ERROR_LOG.md) |
 | Formula sheet | [Formula Sheet](../../aptitude/FORMULA_SHEET.md) |
 | Aptitude revision | [Aptitude Rapid Revision](../../aptitude/RAPID_REVISION.md) |
@@ -36,7 +36,7 @@ TOPIC TEST → SECTION TEST → MIXED TEST → FULL PLACEMENT MOCK
 | **Topic Test** | [Aptitude Tests](../../aptitude/tests/) — one test per topic |
 | **Section Test** | Quant/reasoning/verbal sections |
 | **Mixed Test** | Combined practice |
-| **Full Placement Mock** | [Full Mock](../../aptitude/mocks/full-placement-mock-1.md) |
+| **Full Placement Mock** | [Full Mock](../../aptitude/mocks/full-placement-mock-01.md) |
 
 Each test includes: questions → answer key → solutions → difficulty → timing.
 
@@ -56,7 +56,7 @@ Track your performance to identify whether your problem is **conceptual** or **s
 | **Reattempt** | Re-solve missed questions | Revisit topic tests |
 
 > **"My problem is conceptual"** → Re-study the topic → [Quant](../../aptitude/quant/) · [Reasoning](../../aptitude/reasoning/)
-> **"My problem is speed"** → Timed drills + full mocks → [Tests](../../aptitude/tests/) · [Full Mock](../../aptitude/mocks/full-placement-mock-1.md)
+> **"My problem is speed"** → Timed drills + full mocks → [Tests](../../aptitude/tests/) · [Full Mock](../../aptitude/mocks/full-placement-mock-01.md)
 
 ---
 

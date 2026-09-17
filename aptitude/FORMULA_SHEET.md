@@ -157,5 +157,5 @@
 ## 🔗 Related
 
 - [Rapid Revision](RAPID_REVISION.md)
-- [Aptitude Shortcuts](../non-core/aptitude/shortcuts/aptitude-shortcuts.md)
+- [Aptitude Shortcuts](../aptitude/FORMULA_SHEET.md)
 - [Roadmap](ROADMAP.md)

@@ -196,7 +196,7 @@ Each role scored on 15 components (0–5 scale):
 | `non-core/finance/` | [README.md](../non-core/finance/README.md) |
 | `non-core/risk/` | [README.md](../non-core/risk/README.md) |
 | `non-core/strategy/` | [README.md](../non-core/strategy/README.md) |
-| `non-core/aptitude/` | [README.md](../non-core/aptitude/README.md) |
+| `aptitude/` | [README.md](../aptitude/README.md) |
 | `prep/technical/` | [README.md](../prep/technical/README.md) |
 | `prep/mock-tests/` | [README.md](../prep/mock-tests/README.md) |
 | `prep/templates/` | [README.md](../prep/templates/README.md) |

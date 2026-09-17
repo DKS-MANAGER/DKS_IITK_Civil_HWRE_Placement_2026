@@ -128,7 +128,7 @@ Day 4: OOP + DBMS | Day 5: OS + resume | Day 6: Mock coding | Day 7: Full mock
 
 ## Cross-Links
 - [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Aptitude Basics](../../non-core/aptitude/quantitative/aptitude-basics.md)
+- [Aptitude Basics](../../aptitude/quant/README.md)
 - [Python Fundamentals](../../software-and-tech/programming/python.md)
 
 ## Key Takeaways

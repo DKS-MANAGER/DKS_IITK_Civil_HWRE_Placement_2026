@@ -28,7 +28,7 @@ All P0/P1/P2/P3 items have been reviewed and resolved. The audit's analyze_conte
 | 9 | P1 | `non-core/consulting/consulting-overview.md` | 5.5/10, needs examples/conceptQ/MCQs | Add more depth, case examples, test prep | ✅ RESOLVED — verified complete consulting system |
 | 10 | P1 | `non-core/product-management/pm-overview.md` | 5.5/10, needs conceptQ/MCQs/interview/revision | Add PM interview prep, metrics frameworks, cases | ✅ RESOLVED — verified complete PM system |
 | 11 | P1 | `non-core/analytics/non-core-prep.md` | 6.0/10, needs conceptQ/MCQs/interview | Add practice questions, interview prep | ✅ RESOLVED — verified complete analytics prep |
-| 12 | P1 | `non-core/aptitude/quantitative/aptitude-basics.md` | 6.0/10, needs conceptQ/MCQs/interview | Add more MCQs, speed tricks, test format | ✅ RESOLVED — verified complete aptitude guide |
+| 12 | P1 | `aptitude/quant/README.md` | 6.0/10, needs conceptQ/MCQs/interview | Add more MCQs, speed tricks, test format | ✅ RESOLVED — verified complete aptitude guide |
 | 13 | P1 | `core/gate/civil/gate-civil-notes.md` | 6.5/10, needs conceptQ/interview | Add conceptual deep-dive questions, interview mapping | ✅ RESOLVED — verified complete GATE notes |
 
 ## P2 — Enhancement (Score 7-7.5, minor gaps)

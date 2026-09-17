@@ -229,7 +229,7 @@
 | [`self-introduction.md`](../prep/behavioral/self_intro/self-introduction.md) | 1840 | Self-intro samples + rubric |
 | [`mock-interview-questions.md`](../prep/interview/mock-tests/mock-interview-questions.md) | ~2000+ | Mock interview sets |
 | [`hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md) | ~2500+ | HR interview + negotiation |
-| [`aptitude-basics.md`](../non-core/aptitude/quantitative/aptitude-basics.md) | ~2000+ | Quantitative aptitude |
+| [`aptitude-basics.md`](../aptitude/quant/README.md) | ~2000+ | Quantitative aptitude |
 | [`guesstimate-guide.md`](../non-core/guesstimates/guesstimate-guide.md) | ~4000+ | 100+ guesstimate questions |
 | [`non-core-prep.md`](../non-core/analytics/non-core-prep.md) | ~1500+ | Analytics prep overview |
 | [`technical-stack.md`](../non-core/analytics/technical-stack.md) | 1479 | Software tools guide |

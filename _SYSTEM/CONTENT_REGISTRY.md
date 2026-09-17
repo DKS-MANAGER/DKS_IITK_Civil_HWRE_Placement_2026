@@ -52,7 +52,7 @@ This registry tracks which file is the **canonical source** for each topic, and 
 | Risk | `non-core/risk/risk-overview.md` | `risk-rapid-revision.md` | KEEP canonical |
 | Strategy | `non-core/strategy/strategy-overview.md` | `strategy-rapid-revision.md` | KEEP canonical |
 | Technology | `non-core/technology/tech-overview.md` | `tech-rapid-revision.md` | KEEP canonical |
-| Aptitude | `non-core/aptitude/quantitative/aptitude-basics.md` | 14 quantitative topic files | KEEP canonical |
+| Aptitude | `aptitude/quant/README.md` | 14 quantitative topic files | KEEP canonical |
 | Guesstimates | `non-core/guesstimates/guesstimate-guide.md` | — | KEEP canonical |
 
 ## Interview/Behavioral Topics

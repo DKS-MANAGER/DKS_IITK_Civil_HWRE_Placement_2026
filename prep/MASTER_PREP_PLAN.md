@@ -99,9 +99,9 @@ Placement preparation is not a rigid linear checklist. It is an **iterative clos
 
 | Placement Track | Aptitude Canonical | Core / Technical Canonical | Role OA Mock Test | Behavioral / Interview Layer |
 |:---|:---|:---|:---|:---|
-| **Core Civil / Infra** | [aptitude/](../aptitude/) | [core/](../core/README.md) | [Civil General OA](mock-tests/01_CIVIL_GENERAL_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| **HWRE / Water Resources** | [aptitude/](../aptitude/) | [core/hwre/](../core/hwre/README.md) | [Water Resources OA](mock-tests/04_WATER_RESOURCES_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| **CFD & Fluid Modeling** | [aptitude/](../aptitude/) | [core/hydrodynamics/](../core/hydrodynamics/README.md) | [CFD Modeling OA](mock-tests/03_HYDRODYNAMICS_CFD_MOCK_TEST.md) | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| **Consulting & Strategy** | [aptitude/](../aptitude/) | [non-core/consulting/](../non-core/consulting/README.md) | [Consulting OA](mock-tests/14_CONSULTING_CASE_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
-| **Analytics & Data Science**| [aptitude/](../aptitude/) | [non-core/data-analyst/](../non-core/data-analyst/README.md) | [Data Analyst OA](mock-tests/11_DATA_ANALYST_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
-| **Product Management** | [aptitude/](../aptitude/) | [non-core/product-management/](../non-core/product-management/README.md) | [Product Manager OA](mock-tests/13_PRODUCT_MANAGEMENT_MOCK_TEST.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Core Civil / Infra** | [aptitude/](../aptitude/) | [core/](../core/README.md) | [Civil General OA](mock-tests/mock-test-civil-general.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
+| **HWRE / Water Resources** | [aptitude/](../aptitude/) | [core/hwre/](../core/hwre/README.md) | [Water Resources OA](mock-tests/mock-test-water-resources.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
+| **CFD & Fluid Modeling** | [aptitude/](../aptitude/) | [core/hwre/hydraulics/](../core/hwre/hydraulics/hydraulics.md) | [CFD Modeling OA](mock-tests/mock-test-hydraulics-cfd.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
+| **Consulting & Strategy** | [aptitude/](../aptitude/) | [non-core/consulting/](../non-core/consulting/README.md) | [Consulting OA](mock-tests/mock-test-consulting.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Analytics & Data Science**| [aptitude/](../aptitude/) | [non-core/data-analyst/](../non-core/data-analyst/README.md) | [Data Analyst OA](mock-tests/mock-test-data-analyst.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Product Management** | [aptitude/](../aptitude/) | [non-core/product-management/](../non-core/product-management/README.md) | [Product Manager OA](mock-tests/mock-test-product-manager.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |

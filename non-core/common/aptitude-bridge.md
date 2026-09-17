@@ -1,12 +1,12 @@
 # Aptitude Bridge: Connecting Existing Content to Non-Core Prep
 
-> How to leverage the existing aptitude modules in `non-core/aptitude/` for non-core placement preparation.
+> How to leverage the existing aptitude modules in `aptitude/` for non-core placement preparation.
 
 ---
 
 ## What You Already Have
 
-The repository already contains comprehensive aptitude content in [`non-core/aptitude/`](../aptitude/):
+The repository already contains comprehensive aptitude content in [`aptitude/`](../aptitude/):
 
 ### Quantitative (14 modules)
 | Module | File | Relevance |

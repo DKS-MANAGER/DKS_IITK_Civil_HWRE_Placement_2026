@@ -69,12 +69,12 @@
 | **Mock Interviews** | [Mock System](mock-interviews/mock-system.md) | 10 mock formats with scoring rubrics |
 | **Quick Revision** | [Quick Revision](quick-revision/quick-revision.md) | Night-before cards, cheat sheets, power formulas |
 
-### Existing Content (Preserved)
+### Related Preparation Subsystems
 
-| Directory | Content |
-|:----------|:--------|
-| [`analytics/`](analytics/) | [Non-Core Prep Resources](analytics/non-core-prep.md) Â· [Technical Stack](analytics/technical-stack.md) |
-| [`aptitude/`](aptitude/) | 14 quantitative modules Â· [Logical Reasoning](aptitude/logical_reasoning/reasoning-practice.md) Â· [Verbal Ability](aptitude/verbal/verbal-ability.md) Â· [50+ Shortcuts](aptitude/shortcuts/aptitude-shortcuts.md) |
+| Subsystem | Content | Canonical Location |
+|:----------|:--------|:-------------------|
+| [`analytics/`](analytics/) | Non-Core Prep Resources · Technical Stack | [`non-core/analytics/`](analytics/non-core-prep.md) |
+| **Aptitude System** | 720 Quant Qs · 400 Reasoning Qs · 372 Verbal Qs · Formula Sheets | [`aptitude/`](../aptitude/README.md) |
 
 ---
 

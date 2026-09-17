@@ -89,7 +89,7 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 |:------|:-----|:------|
 | **01 Understand** | Identify your career track | [`docs/start-here.md`](docs/start-here.md) |
 | **02 Learn** | Core subjects, software, non-core | [`core/`](core/) · [`software-and-tech/`](software-and-tech/) · [`non-core/`](non-core/) |
-| **03 Practice** | Questions, mocks, aptitude | [`prep/interview/`](prep/interview/) · [`non-core/aptitude/`](non-core/aptitude/) |
+| **03 Practice** | Questions, mocks, aptitude | [`prep/interview/`](prep/interview/) · [`aptitude/`](aptitude/) |
 | **04 Strategize** | Company-wise prep | [`prep/company-profiles/`](prep/company-profiles/) |
 | **05 Interview** | Execution & survival | [`prep/interview/interview-day-survival.md`](prep/interview/interview-day-survival.md) |
 | **06 Placement** | Log, review, iterate | [`docs/placement-control-panel.md`](docs/placement-control-panel.md) |
@@ -275,11 +275,11 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 
 | Area | Resource |
 |:-----|:---------|
-| Quantitative (14 topics) | [aptitude-basics.md](non-core/aptitude/quantitative/aptitude-basics.md) |
-| Data Interpretation | [data-interpretation.md](non-core/aptitude/quantitative/data-interpretation.md) |
-| Speed Shortcuts | [aptitude-shortcuts.md](non-core/aptitude/shortcuts/aptitude-shortcuts.md) |
-| Logical Reasoning | [reasoning-practice.md](non-core/aptitude/logical_reasoning/reasoning-practice.md) |
-| Verbal Ability | [verbal-ability.md](non-core/aptitude/verbal/verbal-ability.md) |
+| Quantitative (14 topics) | [aptitude-basics.md](aptitude/quant/README.md) |
+| Data Interpretation | [data-interpretation.md](aptitude/di/README.md) |
+| Speed Shortcuts | [aptitude-shortcuts.md](aptitude/FORMULA_SHEET.md) |
+| Logical Reasoning | [reasoning-practice.md](aptitude/reasoning/README.md) |
+| Verbal Ability | [verbal-ability.md](aptitude/verbal/README.md) |
 | Case Frameworks | [framework-library.md](non-core/case-interviews/framework-library.md) |
 | Guesstimates | [guesstimate-guide.md](non-core/guesstimates/guesstimate-guide.md) |
 

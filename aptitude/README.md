@@ -37,8 +37,9 @@ APTITUDE
 | 📐 **Formula Sheet** | [FORMULA_SHEET.md](FORMULA_SHEET.md) | High-value formulas & methods |
 | ⚡ **Rapid Revision** | [RAPID_REVISION.md](RAPID_REVISION.md) | Final 1–3 day revision |
 | 📓 **Error Log** | [ERROR_LOG.md](ERROR_LOG.md) | Track & fix mistakes |
-| 📝 **Topic Tests** | [tests/](tests/) | 10–20 Q timed per topic |
-| 🏆 **Mock Tests** | [mocks/full-placement-mock-1.md](mocks/full-placement-mock-1.md) | Full timed placement paper (50 Q, 60 min) |
+| 📝 **Topic Tests** | [tests/](tests/README.md) | 14 Cat-8 topic diagnostic assessments |
+| ⚡ **Sectional Tests** | [tests/section/](tests/section/README.md) | 5 standardized timed tests (Quant, Reasoning, DI, Verbal, Core) |
+| 🏆 **Mock Tests** | [mocks/](mocks/README.md) | 7 full placement mocks (Full, Hard, Expert) |
 
 ---
 
@@ -52,7 +53,7 @@ APTITUDE
 | Averages & Mixtures | [quant/averages.md](quant/averages.md) | P0 |
 | Profit, Loss & Discount | [quant/profit-loss.md](quant/profit-loss.md) | P0 |
 | Time & Work | [quant/time-work.md](quant/time-work.md) | P0 |
-| Speed, Time & Distance | [quant/speed-time-distance.md](quant/speed-time-distance.md) | P0 |
+| Speed, Time & Distance | [quant/time-speed-distance.md](quant/time-speed-distance.md) | P0 |
 | Number System | [quant/number-system.md](quant/number-system.md) | P0 |
 | Simple & Compound Interest | [quant/simple-compound-interest.md](quant/simple-compound-interest.md) | P1 |
 | Mixtures & Alligation | [quant/mixtures-alligation.md](quant/mixtures-alligation.md) | P1 |
@@ -135,7 +136,7 @@ Aptitude serves ALL roles. See [ROLE_MATRIX.md](ROLE_MATRIX.md) to prioritize by
 ## 🔗 Related
 
 - [Non-Core Hub](../non-core/README.md)
-- [Aptitude Shortcuts](../non-core/aptitude/shortcuts/aptitude-shortcuts.md)
+- [Aptitude Shortcuts](../aptitude/FORMULA_SHEET.md)
 - [Placement Roadmap](../docs/roadmap.md)
 - [System Audit](../_SYSTEM/APTITUDE_AUDIT.md)
 - [Completeness Matrix](../_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md)

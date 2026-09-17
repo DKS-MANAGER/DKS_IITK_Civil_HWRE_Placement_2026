@@ -15,7 +15,7 @@
 | 1 | Self-assessment | Map skills to roles, pick target track | [Role Matrix](../aptitude/ROLE_MATRIX.md) |
 | 2 | Resume | Draft full resume | [Resume Template](templates/resume-template.md) |
 | 3 | Resume | Audit + fix metrics/ATS | [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) |
-| 4 | Aptitude | Diagnostic test → identify weak topics | [Full Mock](../aptitude/mocks/full-placement-mock-1.md) |
+| 4 | Aptitude | Diagnostic test → identify weak topics | [Full Mock](../aptitude/mocks/full-placement-mock-01.md) |
 | 5 | Aptitude | Study weak quant topics | [Aptitude Quant](../aptitude/quant/) |
 | 6 | Aptitude | Study weak reasoning topics | [Aptitude Reasoning](../aptitude/reasoning/) |
 | 7 | Behavioural | Learn STAR/CARL frameworks | [Answering Strategies](behavioral/strategies/answering-strategies.md) |
@@ -41,7 +41,7 @@
 | 17 | Mock | Take role-specific mock test | [Mock Tests](mock-tests/) |
 | 18 | Project | Prepare project defence | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
 | 19 | Behavioural | Practice 200+ questions | [Question Master Database](behavioral/question-master-database.md) |
-| 20 | Aptitude | Full placement mock + error log | [Full Mock](../aptitude/mocks/full-placement-mock-1.md) · [Error Log](../aptitude/ERROR_LOG.md) |
+| 20 | Aptitude | Full placement mock + error log | [Full Mock](../aptitude/mocks/full-placement-mock-01.md) · [Error Log](../aptitude/ERROR_LOG.md) |
 | 21 | Company | Prepare company-specific strategy | [Cross-Company Strategy](company-profiles/civil-cross-company-strategy.md) |
 
 ### Week 4 — Consolidation (Days 22–30)
@@ -76,7 +76,7 @@
 | 8 | Project | Project defence prep | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
 | 9 | Company | Research target companies | [Company Profiles](company-profiles/) |
 | 10 | Mock | First mock interview | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| 11 | Aptitude | Full placement mock + error log | [Full Mock](../aptitude/mocks/full-placement-mock-1.md) |
+| 11 | Aptitude | Full placement mock + error log | [Full Mock](../aptitude/mocks/full-placement-mock-01.md) |
 | 12 | Behavioural | HR + behavioural practice | [HR Guide](interview/hr/hr-interview-guide.md) |
 | 13 | Mock | Role-specific mock test | [Mock Tests](mock-tests/) |
 | 14 | Revision | Rapid revision + checklist | [RAPID_REVISION.md](RAPID_REVISION.md) · [Checklist](PLACEMENT_CHECKLIST.md) |
