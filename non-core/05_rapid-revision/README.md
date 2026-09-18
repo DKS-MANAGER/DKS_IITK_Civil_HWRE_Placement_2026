@@ -1,32 +1,41 @@
 # 05. Rapid Revision Hub
 
-> High-yield, last-minute interview cheat sheets and role summaries for test day and interview eve.
+> High-yield, last-minute 60-minute revision sheets for test day and interview morning.  
+> Designed with ultra-condensed formulas, mental frameworks, and key pitfalls to avoid duplicate bloat.
 
 ---
 
-## Role-Wise Revision Cheat Sheets
+## 🚀 Priority Role Revision Cards
 
-| Track | Revision Guide | Key Topics |
+| Track | Revision Guide | Focus Area |
 |:------|:---------------|:-----------|
-| **Management Consulting** | [consulting.md](consulting.md) | Profitability trees, market entry, M&A, pricing frameworks |
-| **Analytics** | [analytics.md](analytics.md) | SQL order of execution, window functions, probability distributions, A/B testing |
-| **Business Analyst** | [business-analyst.md](business-analyst.md) | Business requirements, SQL queries, metric hierarchies, stakeholder mapping |
-| **Data Analyst** | [data-analyst.md](data-analyst.md) | Statistical inference, data cleaning, exploratory data analysis, dashboard metrics |
-| **Business Operations** | [business-operations.md](business-operations.md) | Bottleneck analysis, process optimization, unit economics, supply-demand balancing |
-| **Operations Management** | [operations.md](operations.md) | Little's Law, queueing theory, inventory models (EOQ), Six Sigma DMAIC |
-| **Product Management** | [product-management.md](product-management.md) | CIRCLES method, north star metrics, prioritization frameworks (RICE), execution trade-offs |
-| **Product Analyst** | [product-analyst.md](product-analyst.md) | Funnel drop-offs, user cohorts, feature experimentation, engagement telemetry |
-| **Program Management** | [program-management.md](program-management.md) | Critical path method (CPM/PERT), risk registers, RACI matrix, stakeholder governance |
-| **Corporate Strategy** | [strategy.md](strategy.md) | Porter's 5 Forces, 3Cs, 7 Powers, Blue Ocean, organic vs inorganic growth |
-| **Supply Chain** | [supply-chain.md](supply-chain.md) | Bullwhip effect, safety stock, lead time variability, multi-echelon inventory |
-| **Finance & FinTech** | [finance.md](finance.md) | 3-statement linking, DCF modeling, working capital cycles, valuation multiples |
-| **Risk Management** | [risk.md](risk.md) | Credit risk, market VaR, Basel frameworks, stress testing, default probability |
-| **Technology & Systems** | [technology.md](technology.md) | System design basics, APIs, microservices, databases (SQL vs NoSQL), scaling |
-| **Master Overview** | [master-quick-revision.md](master-quick-revision.md) | Comprehensive cross-domain emergency review |
+| **Management Consulting** | [consulting/revision-sheet.md](consulting/revision-sheet.md) | Profitability trees, market entry, M&A, pricing formulas |
+| **Analytics & Quant** | [analytics/revision-sheet.md](analytics/revision-sheet.md) | SQL order of execution, window functions, A/B test power formulas |
+| **Business Analyst** | [business-analyst/revision-sheet.md](business-analyst/revision-sheet.md) | Metric trees, cohort breakdown, root-cause segmentation |
+| **Product Management** | [product-management/revision-sheet.md](product-management/revision-sheet.md) | CIRCLES framework, RICE prioritization, AARRR funnel metrics |
+
+---
+
+## 📚 Specialized Role Revision Sheets
+
+| Track | Guide Link | Focus Area |
+|:------|:-----------|:-----------|
+| **Finance & FinTech** | [other-roles/finance.md](other-roles/finance.md) | 3-Statement financial linking, DCF multiples, working capital |
+| **Operations Management** | [other-roles/operations.md](other-roles/operations.md) | Little's Law, queueing, inventory EOQ models, Six Sigma DMAIC |
+| **Product Analyst** | [other-roles/product-analyst.md](other-roles/product-analyst.md) | Funnel drop-off analytics, feature experiments, retention heatmaps |
+| **Program Management** | [other-roles/program-management.md](other-roles/program-management.md) | CPM/PERT scheduling, risk registers, stakeholder RACI |
+| **Corporate Strategy** | [other-roles/strategy.md](other-roles/strategy.md) | Porter's 5 Forces, 3Cs, 7 Powers, organic vs inorganic growth |
+| **Supply Chain** | [other-roles/supply-chain.md](other-roles/supply-chain.md) | Bullwhip effect, safety stock, multi-echelon inventory |
+| **Risk Management** | [other-roles/risk.md](other-roles/risk.md) | Credit risk, market VaR, Basel frameworks, stress testing |
+| **Technology & Systems** | [other-roles/technology.md](other-roles/technology.md) | System design, APIs, databases (SQL vs NoSQL), scalability |
+| **Master Overview** | [other-roles/master-quick-revision.md](other-roles/master-quick-revision.md) | Emergency comprehensive non-core summary |
 
 ---
 
 ## Navigation
-- [Non-Core Master Index](../README.md)
+- [Non-Core Master Hub](../README.md)
+- [Master Role Directory](../ROLE_DIRECTORY.md)
 - [01 Role Tracks](../01_roles/)
 - [02 Interview Preparation](../02_interview-preparation/)
+- [03 Common Skills](../03_common-skills/)
+- [04 Career Preparation](../04_career-preparation/)

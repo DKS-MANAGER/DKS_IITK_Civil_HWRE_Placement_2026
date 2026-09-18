@@ -9,7 +9,7 @@
 ```text
 non-core/
 ├── README.md                                              ← Hub navigation
-├── ROLE_DIRECTORY.md                                      ← 14-role catalog
+├── ROLE_DIRECTORY.md                                      ← Comprehensive 14-role catalog
 │
 ├── 01_roles/                                              ← Layer 1: Role Tracks
 │   ├── analytics/
@@ -106,7 +106,7 @@ non-core/
 │       ├── behavioral-mastery.md
 │       └── hr-questions.md
 │
-├── 03_common-skills/                                      ← Layer 3: Common Skills
+├── 03_common-skills/                                      ← Layer 3: Common Transferable Skills
 │   ├── README.md
 │   ├── business-fundamentals/
 │   │   └── business-fundamentals.md
@@ -138,23 +138,28 @@ non-core/
 │       ├── README.md
 │       └── placement-roadmap.md
 │
-├── 05_rapid-revision/                                     ← Layer 5: Fast Revision Cards
+├── 05_rapid-revision/                                     ← Layer 5: High-Density Revision Cards
 │   ├── README.md
-│   ├── consulting.md
-│   ├── analytics.md
-│   ├── business-analyst.md
-│   ├── data-analyst.md
-│   ├── business-operations.md
-│   ├── operations.md
-│   ├── product-management.md
-│   ├── product-analyst.md
-│   ├── program-management.md
-│   ├── strategy.md
-│   ├── supply-chain.md
-│   ├── finance.md
-│   ├── risk.md
-│   ├── technology.md
-│   └── master-quick-revision.md
+│   ├── consulting/
+│   │   └── revision-sheet.md
+│   ├── analytics/
+│   │   └── revision-sheet.md
+│   ├── business-analyst/
+│   │   └── revision-sheet.md
+│   ├── product-management/
+│   │   └── revision-sheet.md
+│   └── other-roles/
+│       ├── business-operations.md
+│       ├── data-analyst.md
+│       ├── finance.md
+│       ├── master-quick-revision.md
+│       ├── operations.md
+│       ├── product-analyst.md
+│       ├── program-management.md
+│       ├── risk.md
+│       ├── strategy.md
+│       ├── supply-chain.md
+│       └── technology.md
 │
 └── _SYSTEM/                                               ← Governance
     ├── CONTENT_MAP.md
