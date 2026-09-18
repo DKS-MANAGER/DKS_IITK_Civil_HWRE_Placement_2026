@@ -174,8 +174,11 @@ processor*/
 *.fluent
 *.cas
 *.dat
+# OpenFOAM time directories (root-level simulation time steps only, e.g. 0.001, 01/)
+# Ensure non-core/ numbered folders are preserved
+!non-core/
+!non-core/**
 processor[0-9]*/
-0[0-9]*/
 case_[0-9]*/
 cfd_case*/
 

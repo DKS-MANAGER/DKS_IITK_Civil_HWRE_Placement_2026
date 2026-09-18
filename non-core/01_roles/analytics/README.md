@@ -1,0 +1,23 @@
+# Analytics Preparation Track
+
+> Comprehensive preparation guide, role study plan, core concepts, and rapid revision for Analytics.
+
+---
+
+## Module Navigation
+
+| File | Content Description |
+|:-----|:--------------------|
+| [01_role-overview.md](01_role-overview.md) | Role fundamentals, industry landscape, team positioning, and career trajectory |
+| [04_tools-and-technical-stack.md](04_tools-and-technical-stack.md) | Technical toolsets, SQL/analytics practice, and technical stack essentials |
+
+---
+
+## Reusable Resources & Cross-Links
+
+- **Interview Practice**: [Case Interviews](../../02_interview-preparation/case-interviews/framework-library.md) | [Guesstimates](../../02_interview-preparation/guesstimates/guesstimate-guide.md) | [Behavioral](../../02_interview-preparation/behavioral/behavioral-mastery.md)
+- **Common Skills**: [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) | [Communication](../../03_common-skills/communication/communication.md)
+- **Career Track**: [Resume Positioning](../../04_career-preparation/resume-positioning/civil-to-noncore.md) | [Placement Roadmap](../../04_career-preparation/placement-roadmap/placement-roadmap.md)
+- **Fast Revision**: [Rapid Revision Hub](../../05_rapid-revision/analytics.md)
+- **Main Hub**: [Non-Core Master Index](../../README.md)
+
