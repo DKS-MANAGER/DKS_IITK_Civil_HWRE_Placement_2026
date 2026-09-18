@@ -1,53 +1,48 @@
-# Applied Statistics for Business Analysts
+# 04. Business Analyst: Applied Statistics & Experimentation
 
-> Core statistical concepts, probability distributions, hypothesis testing, and analytical inference for BA problem solving and OA tests.
-
----
-
-## 1. Descriptive Statistics & Data Distribution
-
-### Central Tendency & Dispersion
-- **Mean vs. Median vs. Mode**:
-  - *Symmetric distributions*: Mean $\approx$ Median $\approx$ Mode.
-  - *Right-skewed (e.g., customer income, order values)*: Mean $>$ Median $>$ Mode.
-  - *Left-skewed*: Mean $<$ Median $<$ Mode.
-- **Measures of Spread**:
-  - **Variance ($\sigma^2$) & Standard Deviation ($\sigma$)**: Dispersion around the mean.
-  - **Interquartile Range (IQR)**: $Q_3 - Q_1$, resistant to extreme outliers.
-  - **Outlier Detection Rule**: Any point $< Q_1 - 1.5 \times \text{IQR}$ or $> Q_3 + 1.5 \times \text{IQR}$.
+> Practical, placement-focused statistical techniques: A/B testing, hypothesis testing, sample size calculation, and statistical bias diagnosis.
 
 ---
 
-## 2. Probability & Key Distributions
+## 1. Applied Experimentation & A/B Testing Framework
 
-- **Normal Distribution**: 68% within $\pm 1\sigma$, 95% within $\pm 2\sigma$, 99.7% within $\pm 3\sigma$.
-- **Binomial Distribution**: Models binary outcomes (Converted vs. Bounced) over $n$ independent trials with success probability $p$.
-- **Poisson Distribution**: Models frequency of discrete events occurring in a fixed interval (e.g., customer support tickets per hour, website server errors per minute).
-- **Central Limit Theorem (CLT)**: The sampling distribution of the sample mean approaches normality as sample size $n \ge 30$, regardless of underlying population shape.
+Business Analysts use A/B testing to validate product, pricing, and algorithmic changes before full rollout.
 
----
+```text
+                             A/B TESTING WORKFLOW
+┌──────────────────────┐     ┌──────────────────────┐     ┌──────────────────────┐
+│  1. HYPOTHESIS & MDE │ ──> │  2. SAMPLE SIZING    │ ──> │ 3. SPLIT & EXECUTION │
+│  State null ($H_0$)  │     │  Power = 80% (β=0.20)│     │  50/50 Randomization │
+│  Target lift ($\Delta$)│   │  Significance α=0.05 │     │  Check SRM Bias      │
+└──────────────────────┘     └──────────────────────┘     └──────────────────────┘
+                                                                     │
+┌──────────────────────┐     ┌──────────────────────┐                │
+│ 5. DECISION & ROLLOUT│ <── │ 4. HYPOTHESIS TEST   │ <──────────────┘
+│ Rollout if p < 0.05  │     │ 2-sample Z-test /    │
+│ & Guardrails intact  │     │ Chi-Square test      │
+└──────────────────────┘     └──────────────────────┘
+```
 
-## 3. Hypothesis Testing & Business Experimentation
-
-### Hypothesis Testing Workflow
-1. **State Hypotheses**:
-   - $H_0$ (Null Hypothesis): No effect / No difference (e.g., new checkout flow has same conversion rate as old).
-   - $H_1$ (Alternative Hypothesis): Significant difference exists.
-2. **Choose Significance Level ($\alpha$)**: Standard $\alpha = 0.05$ (5% risk of False Positive).
-3. **Compute Test Statistic & p-value**:
-   - If $p < \alpha \implies$ Reject $H_0$ (statistically significant effect).
-   - If $p \ge \alpha \implies$ Fail to reject $H_0$.
-
-### Error Types Matrix
-| Reality \ Decision | Reject $H_0$ | Fail to Reject $H_0$ |
+### Key Statistical Formulas
+| Concept | Mathematical Formula | Practical Placement Interpretation |
 |:---|:---|:---|
-| **$H_0$ is True** | **Type I Error ($\alpha$)** (False Positive) | Correct Decision ($1 - \alpha$) |
-| **$H_0$ is False** | Correct Decision (**Power** = $1 - \beta$) | **Type II Error ($\beta$)** (False Negative) |
+| **Sample Size per Variant ($N$)** | $N pprox rac{16 \cdot p(1-p)}{\Delta^2}$ | For baseline conversion $p = 5\%$ ($0.05$) and absolute MDE $\Delta = 0.5\%$ ($0.005$):<br>$N pprox rac{16 	imes 0.05 	imes 0.95}{(0.005)^2} = rac{0.76}{0.000025} = \mathbf{30,400	ext{ users/variant}}$. |
+| **Z-Score for Proportions** | $Z = rac{\hat{p}_B - \hat{p}_A}{\sqrt{\hat{p}(1-\hat{p})\left(rac{1}{N_A} + rac{1}{N_B}ight)}}$ | Test statistic to evaluate if conversion difference between Variant B and Variant A is statistically significant ($|Z| > 1.96 \implies p < 0.05$). |
+| **Sample Ratio Mismatch (SRM)**| $\chi^2 = \sum rac{(O_i - E_i)^2}{E_i}$ | Validates if traffic allocation split (e.g. 50/50) was corrupted by technical redirection or bot-filtering bugs ($p < 0.001$ invalidates test). |
 
 ---
 
-## 4. Correlation vs. Causation
+## 2. Statistical Traps & Interview Gotchas
 
-- **Pearson Correlation ($r$)**: Measures linear relationship between $-1$ and $+1$.
-- **Confounding Variables**: Lurking variables driving both metrics simultaneously (e.g., marketing ad spend driving both website traffic and total returns).
-- **Simpson's Paradox**: A trend appears in different groups of data but disappears or reverses when these groups are combined (crucial in segmented conversion analyses).
+### 1. Simpson's Paradox
+- **Phenomenon**: A trend appears in different groups of data but disappears or reverses when these groups are combined.
+- **Classic BA Case**: Variant B has a higher overall conversion rate (4.2% vs 3.8%) than Variant A, but Variant A had higher conversion in both Mobile (5% vs 4.8%) and Desktop (2% vs 1.9%).
+- **Root Cause**: Traffic allocation mix shift—Variant B was accidentally shown to 80% Mobile users (higher baseline conversion), confounding overall results.
+
+### 2. Type I vs. Type II Errors
+- **Type I Error ($lpha$, False Positive)**: Concluding a feature increased conversion when it actually had no effect (controlled at 5%).
+- **Type II Error ($eta$, False Negative)**: Missing a true positive lift because sample size was too small (Power $1-eta = 80\%$).
+
+### 3. Correlation vs. Causation
+- **Classic BA Case**: Users who add $\ge 3$ items to their wishlist have $4	imes$ higher 30-day retention.
+- **Trap**: Forcing users to add items to their wishlist will not increase retention 4x. Wishlist usage is a symptom of high organic intent, not the causal driver.

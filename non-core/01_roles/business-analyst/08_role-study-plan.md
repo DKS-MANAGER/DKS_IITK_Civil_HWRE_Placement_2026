@@ -1,98 +1,56 @@
-# 08. Business Analyst: 4-Week Milestone Study Plan
+# 08. Business Analyst: Operational Study & Execution Plans
 
-> Structured 4-week preparation roadmap for IIT Kanpur Civil Engineering & M.Tech students targeting Business Analyst placement profiles.
+> Structured 30-Day, 14-Day, and 7-Day preparation schedules for IIT Kanpur Business Analyst placement preparation.
 
 ---
 
-## 📅 Roadmap Overview
+## 1. The 30-Day Comprehensive Master Roadmap
 
 ```text
-WEEK 1: SQL Mastery & Relational Databases
-  ↳ Focus: Joins, Aggregations, Subqueries, CTEs, Window Functions
-
-WEEK 2: Excel & Applied Statistics
-  ↳ Focus: Lookups, Pivot Tables, Normal Distribution, A/B Testing Fundamentals
-
-WEEK 3: Business Problem Solving & Case Structuring
-  ↳ Focus: Metric Trees, MECE Deconstruction, Funnel Analytics, Root Cause Diagnosis
-
-WEEK 4: Mock Tests, Technical Drills & Behavioral Polish
-  ↳ Focus: Timed SQL Coding, Live Case Simulations, STAR Stories
+┌─────────────────────────┬─────────────────────────┬─────────────────────────┬─────────────────────────┐
+│         WEEK 1          │         WEEK 2          │         WEEK 3          │         WEEK 4          │
+│      SQL Mastery        │     Excel & Stats       │ Business Knowledge & OA │ Full Mocks & Fit Polish │
+├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ • 25 SQL query drills   │ • 10 Excel drills       │ • Metric trees & cases  │ • 3 Timed mock exams    │
+│ • Window functions      │ • A/B testing & stats   │ • 10 Worked cases       │ • "Why BA from Civil?"  │
+│ • LeetCode / Hackerrank │ • Data interpretation   │ • Fast OA quant tests   │ • Resume alignment      │
+└─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
 ```
 
----
-
-## Week 1: SQL & Data Manipulation (30% Weight)
-
-### Core Objectives
-- Write multi-table queries without syntax lookup.
-- Master ranking, running sums, lagging metrics with window functions.
-
-### Study & Practice Links
-- 📖 [SQL Practice Bank (30+ Problems)](04_data-and-analytics/sql-practice.md)
-- 📖 [Question Bank — SQL Drills](06_question-bank.md)
-
-### Checklist
-- [ ] Practice 10 Basic queries (SELECT, WHERE, GROUP BY, HAVING)
-- [ ] Practice 10 Intermediate queries (Multi-table INNER/LEFT JOINs, CASE WHEN)
-- [ ] Practice 10 Advanced queries (Window functions: `ROW_NUMBER`, `RANK`, `LAG`, `LEAD`, CTEs)
+### Day-by-Day Execution Schedule
+- **Days 1–4**: Master Basic to Intermediate SQL (Joins, Aggregation, Subqueries) in [04_data-and-analytics/sql-practice.md](04_data-and-analytics/sql-practice.md).
+- **Days 5–7**: Master Advanced SQL (CTEs, Window Functions, Cohorts, Streaks). Solve Q1–Q15 in [06_question-bank.md](06_question-bank.md).
+- **Days 8–10**: Complete Excel Drills 01–05 in [04_data-and-analytics/excel-and-spreadsheets.md](04_data-and-analytics/excel-and-spreadsheets.md).
+- **Days 11–12**: Complete Excel Drills 06–10. Master Data Tables, Lookups, and Pivot Tables.
+- **Days 13–14**: Study Applied Statistics & A/B Testing in [04_data-and-analytics/statistics.md](04_data-and-analytics/statistics.md). Solve sample size & SRM problems.
+- **Days 15–18**: Study Business Models & Unit Economics in [03_business-knowledge.md](03_business-knowledge.md).
+- **Days 19–21**: Work through Cases 1–10 in [07_case-practice.md](07_case-practice.md).
+- **Days 22–24**: Practice timed quantitative aptitude and data interpretation tests.
+- **Days 25–27**: Complete 3 Full Mock Assessments in [12_mock-assessment.md](12_mock-assessment.md).
+- **Days 28–30**: Final review of [09_rapid-revision.md](09_rapid-revision.md) and rehearse behavioral fit stories.
 
 ---
 
-## Week 2: Spreadsheets & Applied Statistics (20% Weight)
+## 2. The 14-Day Fast-Track Sprint
 
-### Core Objectives
-- Build dynamic financial models and multi-variable pivot tables.
-- Master statistical hypothesis testing and outlier detection.
-
-### Study & Practice Links
-- 📖 [Excel & Spreadsheets Guide](04_data-and-analytics/excel-and-spreadsheets.md)
-- 📖 [Applied Statistics Guide](04_data-and-analytics/statistics.md)
-- 📖 [Quantitative Reasoning Bridge](../../03_common-skills/quantitative-reasoning/aptitude-bridge.md)
-
-### Checklist
-- [ ] Solve 5 complex lookup scenarios with `XLOOKUP` and `INDEX-MATCH`
-- [ ] Create 2 Pivot Tables with Calculated Fields and Slicers
-- [ ] Master Type I vs. Type II error and sample size power calculation
+| Day | Focus Area | Mandatory Daily Output |
+|:---|:---|:---|
+| **Days 1–4** | **SQL Intensive** | Solve 20 SQL problems daily (CTEs + Window functions). |
+| **Days 5–7** | **Excel & Stats** | Complete 5 Excel drills + Master A/B testing sample size math. |
+| **Days 8–10**| **Business Cases** | Solve Cases 1–6 in [07_case-practice.md](07_case-practice.md) + Unit economics drills. |
+| **Days 11–12**| **OA & DI Drills** | 3 timed aptitude tests + 15 Data Interpretation chart questions. |
+| **Days 13–14**| **Mocks & Fit** | 2 Full Mock Assessments + Rehearse Civil-to-BA narrative. |
 
 ---
 
-## Week 3: Business Acumen & Case Structuring (30% Weight)
+## 3. The 7-Day Emergency Countdown
 
-### Core Objectives
-- Deconstruct business models across e-commerce, SaaS, and FinTech.
-- Solve diagnostic business cases using hypothesis-driven MECE trees.
-
-### Study & Practice Links
-- 📖 [Business Knowledge & Industry Models](03_business-knowledge.md)
-- 📖 [Data Interpretation Framework](04_data-and-analytics/data-interpretation.md)
-- 📖 [BA Case Practice Bank](07_case-practice.md)
-- 📖 [Business Fundamentals Master Module](../../03_common-skills/business-fundamentals/business-fundamentals.md)
-- 📖 [Structured Problem Solving (MECE)](../../03_common-skills/structured-problem-solving/structured-problem-solving.md)
-
-### Checklist
-- [ ] Work through all 4 detailed cases in `07_case-practice.md`
-- [ ] Practice deconstructing a KPI drop for 3 different industry verticals
-
----
-
-## Week 4: Interview Simulation & Behavioral Alignment (20% Weight)
-
-### Core Objectives
-- Complete 90-minute timed mock tests.
-- Re-position Civil/HWRE research into high-impact corporate evidence.
-
-### Study & Practice Links
-- 📖 [Interview Preparation & Evaluation Rubrics](05_interview-preparation.md)
-- 📖 [Mock Interview System](../../02_interview-preparation/mock-interviews/mock-system.md)
-- 📖 [Behavioral Mastery (STAR Stories)](../../02_interview-preparation/behavioral/behavioral-mastery.md)
-- 📖 [Civil to Non-Core Resume Positioning](../../04_career-preparation/resume-positioning/civil-to-noncore.md)
-- 📖 [BA Rapid Revision Card](09_rapid-revision.md)
-
-### Mock Assessment Benchmark
-| Module | Target Format | Benchmark Time | Pass Criterion |
-|:---|:---|:---:|:---|
-| **SQL Coderpad** | 3 queries (Agg, Join, Window) | 30 min | 100% correct output |
-| **Business Case** | Live KPI Diagnostic | 25 min | MECE tree + 3 testable hypotheses |
-| **Excel Drill** | Pivot table + Modeling | 20 min | Zero formula errors |
-| **Behavioral** | 2 STAR stories | 15 min | Clear situation-action-result metrics |
+```text
+DAY 1: SQL Window Functions & Multi-Table Joins (15 queries)
+DAY 2: Excel XLOOKUP, SUMIFS & Pivot Table Drills
+DAY 3: A/B Testing Sample Sizing & Metric Drop Framework
+DAY 4: Unit Economics (CAC, LTV, CM1, CM2) & E-Commerce/SaaS KPI trees
+DAY 5: Solve 4 Business Cases (Cart abandonment, Dark store economics)
+DAY 6: Timed Mock Assessment + Rehearse 4 STAR behavioral stories
+DAY 7: Review 09_rapid-revision.md, sleep well, arrive confident
+```
