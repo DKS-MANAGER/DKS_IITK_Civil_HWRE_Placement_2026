@@ -269,14 +269,17 @@ A: 3PL (Third-Party Logistics) handles specific logistics functions: warehousing
 ## Cross-Links
 
 **Supply Chain:**
-→ [Supply Chain Overview](supply-chain-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Supply Chain Overview](../../01_roles/supply-chain/01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](../../01_roles/supply-chain/08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Operations Overview](../operations/operations-overview.md) — Operational optimization
-→ [Risk Rapid Revision](../risk/risk-rapid-revision.md) — Supply chain risk
-→ [Finance Rapid Revision](../finance/finance-rapid-revision.md) — Financial analysis
+→ [Operations Overview](../operations/../../01_roles/operations/01_role-overview.md) — Operational optimization
+→ [Risk Rapid Revision](../../01_roles/risk/09_rapid-revision.md) — Supply chain risk
+→ [Finance Rapid Revision](../../01_roles/finance/09_rapid-revision.md) — Financial analysis
 
 ---
 
 *Last updated: 2026-09-04*
+
+
+

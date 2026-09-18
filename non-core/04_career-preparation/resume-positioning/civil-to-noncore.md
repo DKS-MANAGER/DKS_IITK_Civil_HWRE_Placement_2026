@@ -148,10 +148,11 @@ If you genuinely don't have hard numbers, use honest relative terms:
 
 | Resource | Link |
 |:---------|:-----|
-| Resume Guide | [resume.md](../common/resume.md) |
+| Resume Guide | [resume.md](resume-strategy.md) |
 | Resume Templates | [resume-templates.md](resume-templates.md) |
-| Role Selector | [role-selector.md](../role-selector.md) |
+| Role Selector | [role-selector.md](../role-selection/role-selector.md) |
 
 ---
 
 *Your Civil background is an asset. The skill is in translating it honestly into the language of the role you want.*
+

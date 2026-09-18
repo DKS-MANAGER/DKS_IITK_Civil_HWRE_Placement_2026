@@ -206,14 +206,15 @@ A: Compare before/after on key metrics: throughput, cycle time, defect rate, cos
 ## Cross-Links
 
 **Operations:**
-→ [Operations Overview](operations-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Operations Overview](01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Supply Chain Overview](../supply-chain/supply-chain-overview.md) — Supply chain role
-→ [Program Mgmt Overview](../program-management/pgm-overview.md) — PM role
-→ [Case Frameworks](../consulting/case-frameworks.md) — Case interview prep
+→ [Supply Chain Overview](../supply-chain/01_role-overview.md) — Supply chain role
+→ [Program Mgmt Overview](../program-management/01_role-overview.md) — PM role
+→ [Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case interview prep
 
 ---
 
 *Last updated: 2026-09-04*
+

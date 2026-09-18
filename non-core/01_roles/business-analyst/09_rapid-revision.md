@@ -62,3 +62,4 @@ When asked to diagnose any metric drop:
 3. **External Checks**: Seasonality, holidays, network outage, competitor campaign.
 4. **Internal Checks**: Bug in latest deployment, checkout policy change, pricing adjustment.
 5. **Formulate Hypothesis $\to$ Request Data $\to$ Quantify ROI of Fix**.
+

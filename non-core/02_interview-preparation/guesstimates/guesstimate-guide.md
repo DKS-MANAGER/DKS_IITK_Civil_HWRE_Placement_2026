@@ -414,11 +414,12 @@ These questions are gold for Civil candidates because you have domain knowledge 
 
 | Resource | Link |
 |:---------|:-----|
-| Consulting Overview | [consulting-overview.md](../consulting/consulting-overview.md) |
-| Case Frameworks | [case-frameworks.md](../consulting/case-frameworks.md) |
-| Aptitude Bridge | [aptitude-bridge.md](../common/aptitude-bridge.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
+| Consulting Overview | [consulting-overview.md](../../01_roles/consulting/01_role-overview.md) |
+| Case Frameworks | [case-frameworks.md](../case-interviews/framework-library.md) |
+| Aptitude Bridge | [aptitude-bridge.md](../../03_common-skills/quantitative-reasoning/aptitude-bridge.md) |
+| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
 
 ---
 
 *The best guesstimators don't guess — they structure their way to a reasonable answer.*
+

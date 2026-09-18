@@ -212,13 +212,13 @@ A: Diagnose first — is it price, product, distribution, or competition? Then r
 ## Cross-Links
 
 **Strategy:**
-→ [Strategy Overview](strategy-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Strategy Overview](01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Consulting Overview](../consulting/consulting-overview.md) — Consulting role
-→ [Business Fundamentals](../common/business-fundamentals.md) — Business basics
-→ [Case Frameworks](../consulting/case-frameworks.md) — Case interview prep
+→ [Consulting Overview](../consulting/01_role-overview.md) — Consulting role
+→ [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) — Business basics
+→ [Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case interview prep
 
 ---
 

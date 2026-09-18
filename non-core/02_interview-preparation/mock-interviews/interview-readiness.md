@@ -182,6 +182,8 @@ Use this objective evaluation rubric for peer mock interviews and self-recorded 
 ---
 
 ## 9. Next Steps in the Preparation Loop
-- Review role-specific deep dives in [Consulting](../consulting/README.md), [Data Analyst](../data-analyst/README.md), and [Product Management](../product-management/README.md).
-- Complete the full topic and sectional assessments in [Aptitude Mocks](../../aptitude/mocks/README.md).
+- Review role-specific deep dives in [Consulting](../../01_roles/consulting/README.md), [Data Analyst](../../01_roles/data-analyst/README.md), and [Product Management](../../01_roles/product-management/README.md).
+- Complete the full topic and sectional assessments in [Aptitude Mocks](../../../aptitude/README.md).
 - Re-run mock interview video recordings against the 100-Point Scorecard until achieving $\ge 88.0$ consistently.
+
+

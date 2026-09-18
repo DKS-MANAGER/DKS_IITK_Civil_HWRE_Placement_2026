@@ -265,14 +265,17 @@ A: VaR is the threshold loss at a given confidence level (e.g., 99th percentile)
 ## Cross-Links
 
 **Risk:**
-→ [Risk Overview](risk-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Risk Overview](../../01_roles/risk/01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](../../01_roles/risk/08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Finance Rapid Revision](../finance/finance-rapid-revision.md) — Financial formulas
-→ [Consulting Case Frameworks](../consulting/case-frameworks.md) — Case interview prep
-→ [Operations Overview](../operations/operations-overview.md) — Operational risk
+→ [Finance Rapid Revision](../../01_roles/finance/09_rapid-revision.md) — Financial formulas
+→ [Consulting Case Frameworks](../../02_interview-preparation/case-interviews/case-frameworks.md) — Case interview prep
+→ [Operations Overview](../operations/../../01_roles/operations/01_role-overview.md) — Operational risk
 
 ---
 
 *Last updated: 2026-09-04*
+
+
+

@@ -152,11 +152,13 @@ df['new_col'] = df['col1'] / df['col2']
 
 | Resource | Link |
 |:---------|:-----|
-| Full Study Plan | [role-study-plan.md](role-study-plan.md) |
-| Statistics Practice | [statistics-practice.md](statistics-practice.md) |
-| SQL Practice | [../business-analyst/sql-practice.md](../business-analyst/sql-practice.md) |
-| Behavioral Guide | [../../prep/behavioral/behavioral-interview-guide.md](../../prep/behavioral/behavioral-interview-guide.md) |
+| Full Study Plan | [08_role-study-plan.md](08_role-study-plan.md) |
+| Statistics Practice | [04_tools-and-technical-stack.md](04_tools-and-technical-stack.md) |
+| SQL Practice | [../business-analyst/04_data-and-analytics/sql-practice.md](../business-analyst/04_data-and-analytics/sql-practice.md) |
+| Behavioral Guide | [../../../prep/behavioral/behavioral-interview-guide.md](../../../prep/behavioral/behavioral-interview-guide.md) |
 
 ---
 
 *Print this sheet 1 hour before your DA interview.*
+
+

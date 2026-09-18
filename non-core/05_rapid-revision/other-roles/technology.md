@@ -235,14 +235,16 @@ A: Check data quality first, then segment (platform, geography, user type), chec
 ## Cross-Links
 
 **Technology:**
-→ [Technology Overview](tech-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Technology Overview](../../01_roles/technology/01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](../../01_roles/technology/08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [SQL Practice](../business-analyst/sql-practice.md) — SQL problems
-→ [Statistics Practice](../data-analyst/statistics-practice.md) — Stats for analysis
-→ [Software Interview Guide](../../prep/interview/software-interview-guide.md) — Interview prep
+→ [SQL Practice](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) — SQL problems
+→ [Statistics Practice](../data-analyst/../../01_roles/data-analyst/04_tools-and-technical-stack.md) — Stats for analysis
+→ [Software Interview Guide](../../../prep/README.md) — Interview prep
 
 ---
 
 *Last updated: 2026-09-04*
+
+

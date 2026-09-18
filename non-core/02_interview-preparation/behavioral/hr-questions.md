@@ -155,7 +155,7 @@
 **Avoid:** Passive activities (watching TV, sleeping)
 
 ### Q40: Do you have any questions for us?
-**Always have 3+ prepared.** See [Questions to Ask](../../prep/behavioral/questions-to-ask-interviewer.md).
+**Always have 3+ prepared.** See [Questions to Ask](../../../prep/behavioral/behavioral-interview-guide.md).
 
 ---
 
@@ -200,11 +200,13 @@
 
 | Resource | Link |
 |:---------|:-----|
-| STAR Framework | [interview-frameworks.md](interview-frameworks.md) |
-| Behavioral Prep | [behavioral.md](behavioral.md) |
-| HR Questions Bank (Technical) | [HR Questions Bank](../../prep/behavioral/hr_questions/hr-questions-bank.md) |
-| Behavioral Interview Guide | [Behavioral Guide](../../prep/behavioral/behavioral-interview-guide.md) |
+| STAR Framework | [../case-interviews/interview-frameworks.md](../case-interviews/interview-frameworks.md) |
+| Behavioral Prep | [../behavioral/behavioral-mastery.md](../behavioral/behavioral-mastery.md) |
+| HR Questions Bank (Technical) | [HR Questions Bank](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Behavioral Interview Guide | [Behavioral Guide](../../../prep/behavioral/behavioral-interview-guide.md) |
 
 ---
 
 *The best HR answer sounds like you practiced it 5 times, not 50 times.*
+
+

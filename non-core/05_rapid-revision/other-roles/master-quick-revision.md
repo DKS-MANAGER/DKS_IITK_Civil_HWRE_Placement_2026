@@ -225,11 +225,14 @@ SELECT * FROM cte WHERE total > 1000;
 
 | Resource | Link |
 |:---------|:-----|
-| Full Roadmap | [placement-roadmap.md](../placement-roadmap.md) |
-| Role Selector | [role-selector.md](../role-selector.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
-| Case Frameworks | [case-frameworks.md](../consulting/case-frameworks.md) |
+| Full Roadmap | [placement-roadmap.md](../../04_career-preparation/placement-roadmap/placement-roadmap.md) |
+| Role Selector | [role-selector.md](../../04_career-preparation/role-selection/role-selector.md) |
+| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Case Frameworks | [case-frameworks.md](../../02_interview-preparation/case-interviews/case-frameworks.md) |
 
 ---
 
 *The night before, you're not learning — you're reminding yourself of what you already know. Trust your preparation.*
+
+
+

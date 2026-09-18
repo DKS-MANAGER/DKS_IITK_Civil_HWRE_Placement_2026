@@ -361,12 +361,12 @@
 
 | Resource | Link |
 |:---------|:-----|
-| Frameworks | [`case-frameworks.md`](./case-frameworks.md) |
-| Consulting Overview | [`consulting-overview.md`](./consulting-overview.md) |
-| Guesstimates | [`../guesstimates/guesstimate-guide.md`](../guesstimates/guesstimate-guide.md) |
-| Mock Interviews | [`../mock-interviews/mock-system.md`](../mock-interviews/mock-system.md) |
-| Behavioral Guide | [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) |
-| Resume Positioning | [`../resume-positioning/civil-to-noncore.md`](../resume-positioning/civil-to-noncore.md) |
+| Frameworks | [`../../02_interview-preparation/case-interviews/framework-library.md`](../../02_interview-preparation/case-interviews/framework-library.md) |
+| Consulting Overview | [`consulting-overview.md`](01_role-overview.md) |
+| Guesstimates | [`../../02_interview-preparation/guesstimates/guesstimate-guide.md`](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| Mock Interviews | [`../../02_interview-preparation/mock-interviews/mock-system.md`](../../02_interview-preparation/mock-interviews/mock-system.md) |
+| Behavioral Guide | [`../../../prep/behavioral/behavioral-interview-guide.md`](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Resume Positioning | [`../../04_career-preparation/resume-positioning/civil-to-noncore.md`](../../04_career-preparation/resume-positioning/civil-to-noncore.md) |
 
 ---
 
@@ -402,11 +402,12 @@
 
 | Resource | Link |
 |:---------|:-----|
-| Frameworks | [case-frameworks.md](case-frameworks.md) |
-| Case Communication | [case-communication.md](../case-interviews/case-communication.md) |
-| Guesstimates | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
-| Mock Interviews | [mock-system.md](../mock-interviews/mock-system.md) |
+| Frameworks | [../../02_interview-preparation/case-interviews/framework-library.md](../../02_interview-preparation/case-interviews/framework-library.md) |
+| Case Communication | [case-communication.md](../../02_interview-preparation/case-interviews/case-communication.md) |
+| Guesstimates | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| Mock Interviews | [mock-system.md](../../02_interview-preparation/mock-interviews/mock-system.md) |
 
 ---
 
 *Practice 2-3 cases per week. Quality of practice beats quantity. Always debrief after each case.*
+

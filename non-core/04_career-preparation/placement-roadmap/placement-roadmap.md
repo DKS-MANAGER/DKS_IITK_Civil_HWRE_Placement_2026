@@ -9,24 +9,24 @@
 > **Target:** Maximum impact in minimum time. Focus on what 80% of interviews test.
 
 ### Hour 1: Foundation
-- [ ] Review [Business Fundamentals](common/business-fundamentals.md) — revenue, profit, margin, growth, unit economics
-- [ ] Read [Interview Frameworks](common/interview-frameworks.md) — STAR structure, when to use each
-- [ ] Skim [HR Questions](common/hr.md) — 10 most common questions
+- [ ] Review [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) — revenue, profit, margin, growth, unit economics
+- [ ] Read [Interview Frameworks](../../02_interview-preparation/case-interviews/interview-frameworks.md) — STAR structure, when to use each
+- [ ] Skim [HR Questions](../../02_interview-preparation/behavioral/hr-questions.md) — 10 most common questions
 
 ### Hour 2: Your Role
-- [ ] Read your target role's [Overview](role-selector.md) — know what the role does, what they test
+- [ ] Read your target role's [Overview](../role-selection/role-selector.md) — know what the role does, what they test
 - [ ] Review 5 key concepts for your role
 - [ ] Prepare 2-3 STAR stories mapped to the role
 
 ### Hour 3: Practice
-- [ ] Do 5 [Guesstimate](guesstimates/guesstimate-guide.md) problems mentally
-- [ ] Review [Case Framework](consulting/case-frameworks.md) if targeting consulting
-- [ ] Practice [SQL](business-analyst/sql-practice.md) if targeting BA/DA
+- [ ] Do 5 [Guesstimate](../../02_interview-preparation/guesstimates/guesstimate-guide.md) problems mentally
+- [ ] Review [Case Framework](../../02_interview-preparation/case-interviews/case-frameworks.md) if targeting consulting
+- [ ] Practice [SQL](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) if targeting BA/DA
 
 ### Hour 4: Polish
-- [ ] Review [Civil → Non-Core](resume-positioning/civil-to-noncore.md) — know your transferable skills
+- [ ] Review [Civil → Non-Core](../resume-positioning/civil-to-noncore.md) — know your transferable skills
 - [ ] Prepare your self-introduction (2 minutes)
-- [ ] Read [Quick Revision](quick-revision/quick-revision.md) cards
+- [ ] Read [Quick Revision](../../05_rapid-revision/other-roles/master-quick-revision.md) cards
 
 ### Hour 5: Calm
 - [ ] Review your resume — know every line
@@ -40,14 +40,14 @@
 > **Target:** Solid preparation across fundamentals + role-specific content.
 
 ### Day 1: Orientation + Business Basics
-- [ ] Choose target role via [Role Selector](role-selector.md)
-- [ ] Complete [Business Fundamentals](common/business-fundamentals.md)
-- [ ] Read [Non-Core Resume](common/resume.md) — understand what to emphasize
-- [ ] Start [Civil → Non-Core](resume-positioning/civil-to-noncore.md) mapping
+- [ ] Choose target role via [Role Selector](../role-selection/role-selector.md)
+- [ ] Complete [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md)
+- [ ] Read [Non-Core Resume](../resume-positioning/resume-strategy.md) — understand what to emphasize
+- [ ] Start [Civil → Non-Core](../resume-positioning/civil-to-noncore.md) mapping
 
 ### Day 2: Communication + Behavioral
-- [ ] Study [Business Communication](common/communication.md) — structured thinking, synthesis
-- [ ] Read [Behavioral Prep](common/behavioral.md) — prepare 3 STAR stories
+- [ ] Study [Business Communication](../../03_common-skills/communication/communication.md) — structured thinking, synthesis
+- [ ] Read [Behavioral Prep](../../02_interview-preparation/behavioral/behavioral-mastery.md) — prepare 3 STAR stories
 - [ ] Practice telling stories out loud (3 min each)
 
 ### Day 3: Role Fundamentals
@@ -56,24 +56,24 @@
 - [ ] Note 10 questions you need to be able to answer
 
 ### Day 4: Quantitative + SQL
-- [ ] Review [Aptitude Bridge](common/aptitude-bridge.md) — connect to existing aptitude content
-- [ ] Practice [SQL](business-analyst/sql-practice.md) OR [Statistics](data-analyst/statistics-practice.md) based on role
+- [ ] Review [Aptitude Bridge](../../03_common-skills/quantitative-reasoning/aptitude-bridge.md) — connect to existing aptitude content
+- [ ] Practice [SQL](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) OR [Statistics](../../01_roles/data-analyst/04_tools-and-technical-stack.md) based on role
 - [ ] Do 10 guesstimate problems
 
 ### Day 5: Case / Role-Specific Practice
-- [ ] If consulting: [Case Frameworks](consulting/case-frameworks.md) + 2 practice cases
-- [ ] If PM: [Product Sense](product-management/product-sense.md) + 3 product questions
-- [ ] If BA/DA: [SQL Practice](business-analyst/sql-practice.md) + 5 problems
-- [ ] If operations/SC: [Operations Overview](operations/operations-overview.md) + 3 cases
+- [ ] If consulting: [Case Frameworks](../../02_interview-preparation/case-interviews/case-frameworks.md) + 2 practice cases
+- [ ] If PM: [Product Sense](../../01_roles/product-management/05_interview-preparation.md) + 3 product questions
+- [ ] If BA/DA: [SQL Practice](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) + 5 problems
+- [ ] If operations/SC: [Operations Overview](../../01_roles/operations/01_role-overview.md) + 3 cases
 
 ### Day 6: Mock + Refinement
-- [ ] Do a [Mock Interview](mock-interviews/mock-system.md) (solo or with friend)
-- [ ] Review [Interview Frameworks](common/interview-frameworks.md) — practice switching frameworks
+- [ ] Do a [Mock Interview](../../02_interview-preparation/mock-interviews/mock-system.md) (solo or with friend)
+- [ ] Review [Interview Frameworks](../../02_interview-preparation/case-interviews/interview-frameworks.md) — practice switching frameworks
 - [ ] Refine your self-introduction
 - [ ] Practice 5 role-specific questions
 
 ### Day 7: Final Polish
-- [ ] Review [Quick Revision](quick-revision/quick-revision.md) cards
+- [ ] Review [Quick Revision](../../05_rapid-revision/other-roles/master-quick-revision.md) cards
 - [ ] Do a final mock interview
 - [ ] Review your resume one more time
 - [ ] Prepare questions for the interviewer
@@ -91,13 +91,13 @@
 
 | Day | Activity | Resource |
 |:----|:---------|:---------|
-| 1 | Choose target role(s) | [Role Selector](role-selector.md) |
-| 2 | Business fundamentals | [Business Fundamentals](common/business-fundamentals.md) |
-| 3 | Non-core resume writing | [Non-Core Resume](common/resume.md) |
-| 4 | Civil → Non-Core mapping | [Civil to Non-Core](resume-positioning/civil-to-noncore.md) |
-| 5 | Business communication | [Business Communication](common/communication.md) |
-| 6 | Interview frameworks | [Interview Frameworks](common/interview-frameworks.md) |
-| 7 | HR questions practice | [HR Questions](common/hr.md) |
+| 1 | Choose target role(s) | [Role Selector](../role-selection/role-selector.md) |
+| 2 | Business fundamentals | [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| 3 | Non-core resume writing | [Non-Core Resume](../resume-positioning/resume-strategy.md) |
+| 4 | Civil → Non-Core mapping | [Civil to Non-Core](../resume-positioning/civil-to-noncore.md) |
+| 5 | Business communication | [Business Communication](../../03_common-skills/communication/communication.md) |
+| 6 | Interview frameworks | [Interview Frameworks](../../02_interview-preparation/case-interviews/interview-frameworks.md) |
+| 7 | HR questions practice | [HR Questions](../../02_interview-preparation/behavioral/hr-questions.md) |
 
 ### Week 2: Role-Specific Core (Days 8-14)
 
@@ -110,8 +110,8 @@
 | 10 | Question bank — basic | Your role's question bank |
 | 11 | Question bank — intermediate | Your role's question bank |
 | 12 | Scenario / "what would you do" | Role-specific scenarios |
-| 13 | SQL / Statistics practice | [SQL](business-analyst/sql-practice.md) or [Statistics](data-analyst/statistics-practice.md) |
-| 14 | Behavioral stories (5 stories) | [Behavioral Prep](common/behavioral.md) |
+| 13 | SQL / Statistics practice | [SQL](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) or [Statistics](../../01_roles/data-analyst/04_tools-and-technical-stack.md) |
+| 14 | Behavioral stories (5 stories) | [Behavioral Prep](../../02_interview-preparation/behavioral/behavioral-mastery.md) |
 
 ### Week 3: Practice & Depth (Days 15-21)
 
@@ -119,13 +119,13 @@
 
 | Day | Activity | Resource |
 |:----|:---------|:---------|
-| 15 | Case interview frameworks | [Case Frameworks](consulting/case-frameworks.md) |
-| 16 | 2 practice cases (full solve) | [Case Bank](consulting/case-bank.md) |
-| 17 | Guesstimate framework | [Guesstimate Guide](guesstimates/guesstimate-guide.md) |
-| 18 | 10 guesstimate problems | [Guesstimate Guide](guesstimates/guesstimate-guide.md) |
+| 15 | Case interview frameworks | [Case Frameworks](../../02_interview-preparation/case-interviews/case-frameworks.md) |
+| 16 | 2 practice cases (full solve) | [Case Bank](../../01_roles/consulting/06_case-practice.md) |
+| 17 | Guesstimate framework | [Guesstimate Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| 18 | 10 guesstimate problems | [Guesstimate Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
 | 19 | Role-specific advanced topics | Your role's advanced content |
-| 20 | Resume defense prep | [Non-Core Resume](common/resume.md) |
-| 21 | Mock interview #1 | [Mock System](mock-interviews/mock-system.md) |
+| 20 | Resume defense prep | [Non-Core Resume](../resume-positioning/resume-strategy.md) |
+| 21 | Mock interview #1 | [Mock System](../../02_interview-preparation/mock-interviews/mock-system.md) |
 
 ### Week 4: Polish & Mock (Days 22-28)
 
@@ -133,12 +133,12 @@
 
 | Day | Activity | Resource |
 |:----|:---------|:---------|
-| 22 | Mock interview #2 (different format) | [Mock System](mock-interviews/mock-system.md) |
+| 22 | Mock interview #2 (different format) | [Mock System](../../02_interview-preparation/mock-interviews/mock-system.md) |
 | 23 | Review weakest areas | Your notes |
-| 24 | Company research (if known) | [Company Profiles](../prep/company-profiles/) |
-| 25 | Mock interview #3 (stress format) | [Mock System](mock-interviews/mock-system.md) |
-| 26 | Quick revision cards | [Quick Revision](quick-revision/quick-revision.md) |
-| 27 | Final self-introduction practice | [HR Questions](common/hr.md) |
+| 24 | Company research (if known) | [Company Profiles](../../../prep/company-profiles/) |
+| 25 | Mock interview #3 (stress format) | [Mock System](../../02_interview-preparation/mock-interviews/mock-system.md) |
+| 26 | Quick revision cards | [Quick Revision](../../05_rapid-revision/other-roles/master-quick-revision.md) |
+| 27 | Final self-introduction practice | [HR Questions](../../02_interview-preparation/behavioral/hr-questions.md) |
 | 28 | Rest + light review | Quick Revision cards |
 
 ### Days 29-30: Buffer
@@ -228,11 +228,13 @@ Use this to focus your limited time on what matters most for your target role.
 
 | Resource | Link |
 |:---------|:-----|
-| Quick Revision (night-before) | [Quick Revision](quick-revision/quick-revision.md) |
-| Mock Interview System | [Mock System](mock-interviews/mock-system.md) |
-| Role Selector | [Role Selector](role-selector.md) |
+| Quick Revision (night-before) | [Quick Revision](../../05_rapid-revision/other-roles/master-quick-revision.md) |
+| Mock Interview System | [Mock System](../../02_interview-preparation/mock-interviews/mock-system.md) |
+| Role Selector | [Role Selector](../role-selection/role-selector.md) |
 | Full System Map | [README](README.md) |
 
 ---
 
 *Plans are guides, not rules. Adjust to your pace, your role, and your life.*
+
+

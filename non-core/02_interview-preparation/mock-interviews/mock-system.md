@@ -360,11 +360,13 @@ RECOMMENDATION: ___________________
 
 | Resource | Link |
 |:---------|:-----|
-| Role Selector | [role-selector.md](../role-selector.md) |
-| Case Bank | [case-bank.md](../consulting/case-bank.md) |
+| Role Selector | [role-selector.md](../../04_career-preparation/role-selection/role-selector.md) |
+| Case Bank | [case-bank.md](../../01_roles/consulting/06_case-practice.md) |
 | Guesstimates | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
-| SQL Practice | [sql-practice.md](../business-analyst/sql-practice.md) |
+| SQL Practice | [sql-practice.md](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) |
 
 ---
 
 *Mock interviews are where preparation becomes performance. Practice until it feels natural.*
+
+

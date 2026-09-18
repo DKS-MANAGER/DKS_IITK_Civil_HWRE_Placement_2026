@@ -83,7 +83,7 @@ graph TD
 - **Selection Architecture**: Aptitude & Data Interpretation OA $\rightarrow$ SQL/Guesstimate Round $\rightarrow$ Business Problem Solving Round $\rightarrow$ Behavioral.
 - **Core Modules**:
   * [Role Overview](01_roles/business-analyst/01_role-overview.md)
-  * [Tools, Dashboards & SQL](01_roles/business-analyst/04_tools-and-technical-stack.md)
+  * [Tools, Dashboards & SQL](01_roles/business-analyst/04_data-and-analytics/sql-practice.md)
   * [Study Plan](01_roles/business-analyst/08_role-study-plan.md)
   * [Rapid Revision](01_roles/business-analyst/09_rapid-revision.md)
 
@@ -209,3 +209,4 @@ graph TD
 3. **Deep Dive by Role**: Go through the dedicated `01_roles/<role>/` study plans.
 4. **Drill Shared Methods**: Practice [Case Interviews](02_interview-preparation/case-interviews/framework-library.md) and [Guesstimates](02_interview-preparation/guesstimates/guesstimate-guide.md).
 5. **Simulate & Polish**: Conduct peer cases using [Mock Interview Systems](02_interview-preparation/mock-interviews/mock-system.md) and review with [Rapid Revision Hub](05_rapid-revision/).
+

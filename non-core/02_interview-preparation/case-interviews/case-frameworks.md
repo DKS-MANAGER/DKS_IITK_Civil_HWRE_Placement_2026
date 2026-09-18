@@ -388,13 +388,14 @@ Apply each framework to these civil-engineering scenarios:
 
 | Resource | Link |
 |:---------|:-----|
-| Case Practice Bank | [`case-bank.md`](./case-bank.md) |
-| Consulting Overview | [`consulting-overview.md`](./consulting-overview.md) |
+| Case Practice Bank | [`case-bank.md`](../../01_roles/consulting/06_case-practice.md) |
+| Consulting Overview | [`consulting-overview.md`](../../01_roles/consulting/01_role-overview.md) |
 | Guesstimates | [`../guesstimates/guesstimate-guide.md`](../guesstimates/guesstimate-guide.md) |
-| Business Fundamentals | [`../common/business-fundamentals.md`](../common/business-fundamentals.md) |
-| Behavioral Interview | [`../../prep/behavioral/behavioral-interview-guide.md`](../../prep/behavioral/behavioral-interview-guide.md) |
-| Resume Positioning | [`../resume-positioning/civil-to-noncore.md`](../resume-positioning/civil-to-noncore.md) |
+| Business Fundamentals | [`../../03_common-skills/business-fundamentals/business-fundamentals.md`](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Behavioral Interview | [`../../../prep/behavioral/behavioral-interview-guide.md`](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Resume Positioning | [`../../04_career-preparation/resume-positioning/civil-to-noncore.md`](../../04_career-preparation/resume-positioning/civil-to-noncore.md) |
 
 ---
 
 *Frameworks are training wheels. Eventually, you should be able to structure any problem without reaching for a named framework.*
+

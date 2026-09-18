@@ -229,10 +229,11 @@ If you can't explain your point in 30 seconds, you don't understand it well enou
 
 | Resource | Link |
 |:---------|:-----|
-| Interview Frameworks | [interview-frameworks.md](interview-frameworks.md) |
-| Case Interview Communication | [case-communication.md](../case-interviews/case-communication.md) |
-| Behavioral Prep | [behavioral.md](behavioral.md) |
+| Interview Frameworks | [../../02_interview-preparation/case-interviews/interview-frameworks.md](../../02_interview-preparation/case-interviews/interview-frameworks.md) |
+| Case Interview Communication | [case-communication.md](../../02_interview-preparation/case-interviews/case-communication.md) |
+| Behavioral Prep | [../../02_interview-preparation/behavioral/behavioral-mastery.md](../../02_interview-preparation/behavioral/behavioral-mastery.md) |
 
 ---
 
 *Communication is not about talking more — it's about making every sentence count.*
+

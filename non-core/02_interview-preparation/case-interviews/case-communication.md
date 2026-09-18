@@ -239,11 +239,12 @@ Summarize your analysis into a clear, actionable recommendation.
 
 | Resource | Link |
 |:---------|:-----|
-| Case Frameworks | [case-frameworks.md](../consulting/case-frameworks.md) |
+| Case Frameworks | [case-frameworks.md](../case-interviews/framework-library.md) |
 | Framework Library | [framework-library.md](framework-library.md) |
-| Case Bank | [case-bank.md](../consulting/case-bank.md) |
-| Communication Skills | [communication.md](../common/communication.md) |
+| Case Bank | [case-bank.md](../../01_roles/consulting/06_case-practice.md) |
+| Communication Skills | [../../03_common-skills/communication/communication.md](../common/../../03_common-skills/communication/communication.md) |
 
 ---
 
 *In a case interview, how you think is more important than what you think. Show your work.*
+

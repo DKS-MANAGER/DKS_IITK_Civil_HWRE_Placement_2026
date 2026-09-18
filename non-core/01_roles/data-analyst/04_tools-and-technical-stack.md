@@ -288,11 +288,12 @@ y = β₀ + β₁x₁ + β₂x₂ + ... + ε
 
 | Resource | Link |
 |:---------|:-----|
-| Data Analyst Overview | [da-overview.md](da-overview.md) |
-| SQL Practice | [sql-practice.md](../business-analyst/sql-practice.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
-| Aptitude (Probability) | [probability.md](../aptitude/quantitative/probability.md) |
+| Data Analyst Overview | [01_role-overview.md](01_role-overview.md) |
+| SQL Practice | [sql-practice.md](../business-analyst/04_data-and-analytics/sql-practice.md) |
+| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Aptitude (Probability) | [probability.md](../../../aptitude/README.md) |
 
 ---
 
 *Statistics is the language of data. Master it, and you can speak to any business.*
+

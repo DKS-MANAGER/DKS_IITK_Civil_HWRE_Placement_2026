@@ -209,9 +209,10 @@ Role — Organization | Duration
 | Resource | Link |
 |:---------|:-----|
 | Civil → Non-Core Skills | [civil-to-noncore.md](civil-to-noncore.md) |
-| Resume Guide | [resume.md](../common/resume.md) |
-| Role Selector | [role-selector.md](../role-selector.md) |
+| Resume Guide | [resume.md](resume-strategy.md) |
+| Role Selector | [role-selector.md](../role-selection/role-selector.md) |
 
 ---
 
 *Your resume is a marketing document. Sell outcomes, not inputs — but never sell what you can't deliver.*
+

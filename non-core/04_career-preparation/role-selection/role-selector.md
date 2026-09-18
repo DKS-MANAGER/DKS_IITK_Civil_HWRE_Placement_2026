@@ -70,7 +70,7 @@
 
 **What recruiters test:** Case interviews (80%), behavioral (15%), resume (5%)
 
-→ [Consulting Overview](consulting/consulting-overview.md)
+→ [Consulting Overview](../../01_roles/consulting/01_role-overview.md)
 
 ---
 
@@ -90,7 +90,7 @@
 
 **What recruiters test:** Case/study interviews, business knowledge, analytical thinking
 
-→ [Strategy Overview](strategy/strategy-overview.md)
+→ [Strategy Overview](../../01_roles/strategy/01_role-overview.md)
 
 ---
 
@@ -110,7 +110,7 @@
 
 **What recruiters test:** SQL rounds, case questions, analytical reasoning, communication
 
-→ [BA Overview](business-analyst/ba-overview.md)
+→ [BA Overview](../../01_roles/business-analyst/01_role-overview.md)
 
 ---
 
@@ -130,7 +130,7 @@
 
 **What recruiters test:** SQL, statistics, Python/Pandas, case studies, communication
 
-→ [DA Overview](data-analyst/da-overview.md)
+→ [DA Overview](../../01_roles/data-analyst/01_role-overview.md)
 
 ---
 
@@ -150,7 +150,7 @@
 
 **What recruiters test:** Product sense, metrics, strategy, behavioral, execution
 
-→ [PM Overview](product-management/pm-overview.md)
+→ [PM Overview](../../01_roles/product-management/01_role-overview.md)
 
 ---
 
@@ -170,7 +170,7 @@
 
 **What recruiters test:** SQL, product metrics, funnel analysis, A/B testing, communication
 
-→ [PA Overview](product-analyst/pa-overview.md)
+→ [PA Overview](../../01_roles/product-analyst/01_role-overview.md)
 
 ---
 
@@ -190,7 +190,7 @@
 
 **What recruiters test:** Process cases, quantitative reasoning, behavioral, operational frameworks
 
-→ [Operations Overview](operations/operations-overview.md)
+→ [Operations Overview](../../01_roles/operations/01_role-overview.md)
 
 ---
 
@@ -210,7 +210,7 @@
 
 **What recruiters test:** Quantitative problems, EOQ/inventory cases, behavioral, process understanding
 
-→ [Supply Chain Overview](supply-chain/supply-chain-overview.md)
+→ [Supply Chain Overview](../../01_roles/supply-chain/01_role-overview.md)
 
 ---
 
@@ -230,7 +230,7 @@
 
 **What recruiters test:** Behavioral (primary), planning scenarios, stakeholder management, risk identification
 
-→ [Program Management Overview](program-management/pgm-overview.md)
+→ [Program Management Overview](../../01_roles/program-management/01_role-overview.md)
 
 ---
 
@@ -250,7 +250,7 @@
 
 **What recruiters test:** Financial concepts, numerical ability, valuation cases, behavioral
 
-→ [Finance Overview](finance/finance-overview.md)
+→ [Finance Overview](../../01_roles/finance/01_role-overview.md)
 
 ---
 
@@ -270,7 +270,7 @@
 
 **What recruiters test:** Quantitative reasoning, risk frameworks, scenario analysis, behavioral
 
-→ [Risk Overview](risk/risk-overview.md)
+→ [Risk Overview](../../01_roles/risk/01_role-overview.md)
 
 ---
 
@@ -290,7 +290,7 @@
 
 **What recruiters test:** Process questions, KPI analysis, behavioral, organizational thinking
 
-→ [Biz Ops Overview](business-operations/biz-ops-overview.md)
+→ [Biz Ops Overview](../../01_roles/business-operations/01_role-overview.md)
 
 ---
 
@@ -310,7 +310,7 @@
 
 **What recruiters test:** Technical literacy, SQL, problem solving, behavioral, role-specific questions
 
-→ [Tech Overview](technology/tech-overview.md)
+→ [Tech Overview](../../01_roles/technology/01_role-overview.md)
 
 ---
 
@@ -345,14 +345,14 @@ After selecting your target role, use this template:
 
 | Gap | Resource | Time |
 |:----|:---------|:-----|
-| SQL basics | [SQL Practice](business-analyst/sql-practice.md) | 1 week |
-| Statistics | [Statistics Practice](data-analyst/statistics-practice.md) | 2 weeks |
-| Business fundamentals | [Business Fundamentals](common/business-fundamentals.md) | 3 days |
-| Case interviews | [Case Frameworks](consulting/case-frameworks.md) | 2 weeks |
-| Guesstimates | [Guesstimate Guide](guesstimates/guesstimate-guide.md) | 1 week |
-| PM concepts | [PM Overview](product-management/pm-overview.md) | 1 week |
-| Finance basics | [Finance Overview](finance/finance-overview.md) | 1 week |
-| Resume repositioning | [Civil → Non-Core](resume-positioning/civil-to-noncore.md) | 2 days |
+| SQL basics | [SQL Practice](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) | 1 week |
+| Statistics | [Statistics Practice](../../01_roles/data-analyst/04_tools-and-technical-stack.md) | 2 weeks |
+| Business fundamentals | [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) | 3 days |
+| Case interviews | [Case Frameworks](../../02_interview-preparation/case-interviews/case-frameworks.md) | 2 weeks |
+| Guesstimates | [Guesstimate Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md) | 1 week |
+| PM concepts | [PM Overview](../../01_roles/product-management/01_role-overview.md) | 1 week |
+| Finance basics | [Finance Overview](../../01_roles/finance/01_role-overview.md) | 1 week |
+| Resume repositioning | [Civil → Non-Core](../resume-positioning/civil-to-noncore.md) | 2 days |
 
 ---
 
@@ -390,3 +390,5 @@ Step 4: How much time do you have?
 ---
 
 *Pick 1-2 roles. Go deep. Depth beats breadth in placement preparation.*
+
+

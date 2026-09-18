@@ -139,12 +139,14 @@ Framework First:
 
 | Resource | Link |
 |:---------|:-----|
-| Full Study Plan | [role-study-plan.md](role-study-plan.md) |
-| Case Frameworks | [case-frameworks.md](case-frameworks.md) |
-| Case Practice Bank | [case-bank.md](case-bank.md) |
-| Guesstimates | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
-| Behavioral Guide | [../../prep/behavioral/behavioral-interview-guide.md](../../prep/behavioral/behavioral-interview-guide.md) |
+| Full Study Plan | [08_role-study-plan.md](08_role-study-plan.md) |
+| Case Frameworks | [../../02_interview-preparation/case-interviews/framework-library.md](../../02_interview-preparation/case-interviews/framework-library.md) |
+| Case Practice Bank | [06_case-practice.md](06_case-practice.md) |
+| Guesstimates | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| Behavioral Guide | [../../../prep/behavioral/behavioral-interview-guide.md](../../../prep/behavioral/behavioral-interview-guide.md) |
 
 ---
 
 *Print this sheet 1 hour before your consulting interview.*
+
+

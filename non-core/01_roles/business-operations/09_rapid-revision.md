@@ -217,14 +217,15 @@ A: Compare before/after on key metrics: cycle time, throughput, cost, defect rat
 ## Cross-Links
 
 **BizOps:**
-→ [BizOps Overview](biz-ops-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [BizOps Overview](01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Operations Overview](../operations/operations-overview.md) — Operations role
-→ [Strategy Overview](../strategy/strategy-overview.md) — Strategy role
-→ [Business Fundamentals](../common/business-fundamentals.md) — Business basics
+→ [Operations Overview](../operations/01_role-overview.md) — Operations role
+→ [Strategy Overview](../strategy/01_role-overview.md) — Strategy role
+→ [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) — Business basics
 
 ---
 
 *Last updated: 2026-09-04*
+

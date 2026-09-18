@@ -167,3 +167,4 @@ Contribution Margin per Order          -35.00                 +29.50            
 2. **Formulate Hypotheses Early:** State your working hypothesis (e.g., *"I hypothesize this is a unit-cost inflation rather than a top-line volume issue"*).
 3. **Drive the Analysis:** Calculate proactively from exhibits, state the strategic implication of every number, and lead the interviewer to the next logical branch.
 4. **Synthesize with Actionable Recommendations:** Deliver a structured recommendation: Bottom-Line Verdict $\to$ 3 Strategic Pillars $\to$ Key Operational Risks & Mitigations.
+

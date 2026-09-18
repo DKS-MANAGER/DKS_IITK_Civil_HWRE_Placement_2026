@@ -200,16 +200,17 @@
 
 ## 🔗 Cross-Links
 
-*   **CFD Deep Dive:** [`software-and-tech/cfd/cfd-tech.md`](../../software-and-tech/cfd/cfd-tech.md)
-*   **Python Programming:** [`software-and-tech/programming/python.md`](../../software-and-tech/programming/python.md)
-*   **HEC-RAS Tutorial:** [`software-and-tech/deep-dives/hec-ras-walkthrough.md`](../../software-and-tech/deep-dives/hec-ras-walkthrough.md)
-*   **OpenFOAM Case Study:** [`software-and-tech/deep-dives/openfoam-case-study.md`](../../software-and-tech/deep-dives/openfoam-case-study.md)
-*   **Non-Core Prep:** [`non-core/01_roles/analytics/non-core-prep.md`](./non-core-prep.md)
-*   **Interview Questions:** [`prep/interview/technical/technical-interview-bank.md`](../../prep/interview/technical/technical-interview-bank.md)
+*   **CFD Deep Dive:** [`software-and-tech/cfd/cfd-tech.md`](../../../software-and-tech/cfd/cfd-tech.md)
+*   **Python Programming:** [`software-and-tech/programming/python.md`](../../../software-and-tech/programming/python.md)
+*   **HEC-RAS Tutorial:** [`software-and-tech/deep-dives/hec-ras-walkthrough.md`](../../../software-and-tech/deep-dives/hec-ras-walkthrough.md)
+*   **OpenFOAM Case Study:** [`software-and-tech/deep-dives/openfoam-case-study.md`](../../../software-and-tech/deep-dives/openfoam-case-study.md)
+*   **Non-Core Prep:** [`non-core/01_roles/analytics/non-core-prep.md`](01_role-overview.md)
+*   **Interview Questions:** [`prep/interview/technical/technical-interview-bank.md`](../../../prep/interview/technical/technical-interview-bank.md)
 
 ---
 
 ## References
 
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering) — Programming libraries and tools
+
 

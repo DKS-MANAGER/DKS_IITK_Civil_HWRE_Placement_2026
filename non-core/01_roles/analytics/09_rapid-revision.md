@@ -32,3 +32,4 @@
 ## 3. Top Interview Drill Prompts
 1. *"How would you detect outliers in skewed transaction data?"* (IQR method:  - 1.5 \times \text{IQR}$,  + 1.5 \times \text{IQR}$; or log-transform followed by Z-score).
 2. *"How do you evaluate an A/B test with low sample size?"* (Power analysis, Mann-Whitney U non-parametric test, Bootstrap sampling).
+

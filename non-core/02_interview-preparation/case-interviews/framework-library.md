@@ -455,10 +455,12 @@ Positioning
 | Resource | Link |
 |:---------|:-----|
 | Case Communication | [case-communication.md](case-communication.md) |
-| Consulting Frameworks | [case-frameworks.md](../consulting/case-frameworks.md) |
-| Case Bank | [case-bank.md](../consulting/case-bank.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
+| Consulting Frameworks | [case-frameworks.md](../case-interviews/framework-library.md) |
+| Case Bank | [case-bank.md](../../01_roles/consulting/06_case-practice.md) |
+| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
 
 ---
 
 *Frameworks are thinking tools, not scripts. Master the logic, adapt to the case, and communicate clearly.*
+
+

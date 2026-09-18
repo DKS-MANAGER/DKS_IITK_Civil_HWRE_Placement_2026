@@ -283,14 +283,17 @@ A: The single metric that best captures the core value your product delivers to 
 ## Cross-Links
 
 **Product Analyst:**
-→ [PA Overview](pa-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [PA Overview](../../01_roles/product-analyst/01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](../../01_roles/product-analyst/08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Data Analyst Study Plan](../data-analyst/role-study-plan.md) — Deeper SQL/stats
-→ [Product Management](../product-management/role-study-plan.md) — PM context
-→ [Consulting Case Frameworks](../consulting/case-frameworks.md) — Case prep
+→ [Data Analyst Study Plan](../data-analyst/../../01_roles/product-analyst/08_role-study-plan.md) — Deeper SQL/stats
+→ [Product Management](../product-management/../../01_roles/product-analyst/08_role-study-plan.md) — PM context
+→ [Consulting Case Frameworks](../../02_interview-preparation/case-interviews/case-frameworks.md) — Case prep
 
 ---
 
 *Last updated: 2026-09-04*
+
+
+

@@ -230,11 +230,12 @@ Key: Where is the biggest drop-off? That's where to focus.
 
 | Resource | Link |
 |:---------|:-----|
-| PM Overview | [pm-overview.md](pm-overview.md) |
-| Product Sense | [product-sense.md](product-sense.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
-| Product Analyst | [pa-overview.md](../product-analyst/pa-overview.md) |
+| PM Overview | [01_role-overview.md](01_role-overview.md) |
+| Product Sense | [05_interview-preparation.md](05_interview-preparation.md) |
+| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Product Analyst | [pa-overview.md](../product-analyst/01_role-overview.md) |
 
 ---
 
 *Metrics tell you what happened; strategy tells you what to do about it. A great PM masters both.*
+

@@ -384,9 +384,10 @@ FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT
 | Resource | What It Covers |
 |:---------|:---------------|
 | [SQL Practice (this file)](sql-practice.md) | 24 problems with solutions |
-| [Data Analyst Statistics](../data-analyst/statistics-practice.md) | Statistical analysis |
-| [Analytics Resources](../analytics/non-core-prep.md) | External SQL resources |
+| [Data Analyst Statistics](../../data-analyst/04_tools-and-technical-stack.md) | Statistical analysis |
+| [Analytics Resources](../../analytics/01_role-overview.md) | External SQL resources |
 
 ---
 
 *SQL is a means to an end — the end is business insight. Always ask "so what?" after every query.*
+

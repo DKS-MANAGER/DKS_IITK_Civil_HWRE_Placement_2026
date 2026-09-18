@@ -6,32 +6,32 @@
 
 ## What You Already Have
 
-The repository already contains comprehensive aptitude content in [`aptitude/`](../aptitude/):
+The repository already contains comprehensive aptitude content in [`aptitude/`](../../../aptitude/):
 
 ### Quantitative (14 modules)
 | Module | File | Relevance |
 |:-------|:-----|:----------|
-| Basics | [aptitude-basics.md](../aptitude/quantitative/aptitude-basics.md) | Foundation for all topics |
-| Percentages | [percentages.md](../aptitude/quantitative/percentages.md) | BA, DA, Finance, Consulting |
-| Ratio & Proportion | [ratio-proportion.md](../aptitude/quantitative/ratio-proportion.md) | All quantitative roles |
-| Profit & Loss | [profit-loss-discount.md](../aptitude/quantitative/profit-loss-discount.md) | Finance, Consulting, Operations |
-| Time & Work | [time-work.md](../aptitude/quantitative/time-work.md) | Operations, Consulting |
-| Speed, Time & Distance | [speed-time-distance.md](../aptitude/quantitative/speed-time-distance.md) | Consulting guesstimates |
-| Averages | [averages.md](../aptitude/quantitative/averages.md) | All analytical roles |
-| Probability | [probability.md](../aptitude/quantitative/probability.md) | DA, Risk, Finance |
-| P&C | [permutations-combinations.md](../aptitude/quantitative/permutations-combinations.md) | DA, Risk |
-| Data Interpretation | [data-interpretation.md](../aptitude/quantitative/data-interpretation.md) | BA, DA, Consulting |
-| Number System | [number-system.md](../aptitude/quantitative/number-system.md) | Foundation |
-| Ages | [problems-on-ages.md](../aptitude/quantitative/problems-on-ages.md) | Aptitude tests |
-| Trains | [problems-on-train.md](../aptitude/quantitative/problems-on-train.md) | Aptitude tests |
-| Partnership | [partnership.md](../aptitude/quantitative/partnership.md) | Finance, Business |
+| Basics | [aptitude-basics.md](../../../aptitude/README.md) | Foundation for all topics |
+| Percentages | [percentages.md](../../../aptitude/README.md) | BA, DA, Finance, Consulting |
+| Ratio & Proportion | [ratio-proportion.md](../../../aptitude/README.md) | All quantitative roles |
+| Profit & Loss | [profit-loss-discount.md](../../../aptitude/README.md) | Finance, Consulting, Operations |
+| Time & Work | [time-work.md](../../../aptitude/README.md) | Operations, Consulting |
+| Speed, Time & Distance | [speed-time-distance.md](../../../aptitude/README.md) | Consulting guesstimates |
+| Averages | [averages.md](../../../aptitude/README.md) | All analytical roles |
+| Probability | [probability.md](../../../aptitude/README.md) | DA, Risk, Finance |
+| P&C | [permutations-combinations.md](../../../aptitude/README.md) | DA, Risk |
+| Data Interpretation | [data-interpretation.md](../../../aptitude/README.md) | BA, DA, Consulting |
+| Number System | [number-system.md](../../../aptitude/README.md) | Foundation |
+| Ages | [problems-on-ages.md](../../../aptitude/README.md) | Aptitude tests |
+| Trains | [problems-on-train.md](../../../aptitude/README.md) | Aptitude tests |
+| Partnership | [partnership.md](../../../aptitude/README.md) | Finance, Business |
 
 ### Other Modules
 | Module | File | Relevance |
 |:-------|:-----|:----------|
-| Logical Reasoning | [reasoning-practice.md](../aptitude/logical_reasoning/reasoning-practice.md) | All aptitude tests |
-| Verbal Ability | [verbal-ability.md](../aptitude/verbal/verbal-ability.md) | Communication, verbal tests |
-| Speed Shortcuts | [aptitude-shortcuts.md](../aptitude/shortcuts/aptitude-shortcuts.md) | Time management in tests |
+| Logical Reasoning | [reasoning-practice.md](../../../aptitude/README.md) | All aptitude tests |
+| Verbal Ability | [verbal-ability.md](../../../aptitude/README.md) | Communication, verbal tests |
+| Speed Shortcuts | [aptitude-shortcuts.md](../../../aptitude/README.md) | Time management in tests |
 
 ---
 
@@ -56,7 +56,7 @@ The repository already contains comprehensive aptitude content in [`aptitude/`](
 
 | Stage | Focus | Modules to Use |
 |:------|:------|:---------------|
-| Online Assessment (OA) | Speed + Accuracy | All quantitative + [Shortcuts](../aptitude/shortcuts/aptitude-shortcuts.md) |
+| Online Assessment (OA) | Speed + Accuracy | All quantitative + [Shortcuts](../../../aptitude/README.md) |
 | Case Interview Prep | Business math | Percentages, Ratio, Profit/Loss, Averages |
 | Analytics Round | Statistical thinking | Probability, P&C, DI |
 | Finance Round | Financial calculations | Percentages, Profit/Loss, Partnership |
@@ -111,11 +111,11 @@ The existing content covers standard aptitude well. For non-core, add these busi
 ## Study Plan Integration
 
 ### If You Have 1 Week
-1. Day 1: Review [aptitude-basics.md](../aptitude/quantitative/aptitude-basics.md) + [Shortcuts](../aptitude/shortcuts/aptitude-shortcuts.md)
-2. Day 2: [Percentages](../aptitude/quantitative/percentages.md) + [Ratio](../aptitude/quantitative/ratio-proportion.md)
-3. Day 3: [DI](../aptitude/quantitative/data-interpretation.md) + [Averages](../aptitude/quantitative/averages.md)
-4. Day 4: [Probability](../aptitude/quantitative/probability.md) + [Profit/Loss](../aptitude/quantitative/profit-loss-discount.md)
-5. Day 5: [Logical Reasoning](../aptitude/logical_reasoning/reasoning-practice.md)
+1. Day 1: Review [aptitude-basics.md](../../../aptitude/README.md) + [Shortcuts](../../../aptitude/README.md)
+2. Day 2: [Percentages](../../../aptitude/README.md) + [Ratio](../../../aptitude/README.md)
+3. Day 3: [DI](../../../aptitude/README.md) + [Averages](../../../aptitude/README.md)
+4. Day 4: [Probability](../../../aptitude/README.md) + [Profit/Loss](../../../aptitude/README.md)
+5. Day 5: [Logical Reasoning](../../../aptitude/README.md)
 6. Day 6: Practice test (timed, 30 questions)
 7. Day 7: Review weak areas + business math shortcuts
 
@@ -125,7 +125,7 @@ The existing content covers standard aptitude well. For non-core, add these busi
 3. Day 3: Timed practice + Review shortcuts
 
 ### If You Have 1 Day
-1. Review [Shortcuts](../aptitude/shortcuts/aptitude-shortcuts.md) — memorize the top 10
+1. Review [Shortcuts](../../../aptitude/README.md) — memorize the top 10
 2. Practice 10 DI questions (timed)
 3. Do 5 percentage/ratio problems
 4. Review mental math table above
@@ -163,11 +163,13 @@ The existing content covers standard aptitude well. For non-core, add these busi
 
 | Resource | Link |
 |:---------|:-----|
-| Business Fundamentals | [business-fundamentals.md](business-fundamentals.md) |
-| Guesstimate Guide | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
-| SQL Practice | [sql-practice.md](../business-analyst/sql-practice.md) |
-| Role Selector | [role-selector.md](../role-selector.md) |
+| Business Fundamentals | [../business-fundamentals/business-fundamentals.md](../business-fundamentals/business-fundamentals.md) |
+| Guesstimate Guide | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| SQL Practice | [sql-practice.md](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) |
+| Role Selector | [role-selector.md](../../04_career-preparation/role-selection/role-selector.md) |
 
 ---
 
 *You already have the aptitude foundation. This bridge connects it to where it matters.*
+
+

@@ -189,11 +189,13 @@ Prepare these 10 stories — they cover 90% of behavioral questions across all n
 
 | Resource | Link |
 |:---------|:-----|
-| Interview Frameworks | [interview-frameworks.md](interview-frameworks.md) |
-| HR Questions | [hr.md](hr.md) |
-| Story Bank (Legacy) | [behavioral-interview-guide](../../prep/behavioral/behavioral-interview-guide.md) |
-| Answer Quality Checker | [answer-quality-checker](../../prep/behavioral/answer-quality-checker.md) |
+| Interview Frameworks | [../case-interviews/interview-frameworks.md](../case-interviews/interview-frameworks.md) |
+| HR Questions | [../behavioral/hr-questions.md](../behavioral/hr-questions.md) |
+| Story Bank (Legacy) | [behavioral-interview-guide](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Answer Quality Checker | [answer-quality-checker](../../../prep/behavioral/behavioral-interview-guide.md) |
 
 ---
 
 *Authenticity beats perfection. Interviewers can tell when you're reciting versus sharing.*
+
+

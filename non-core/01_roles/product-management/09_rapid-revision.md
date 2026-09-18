@@ -183,13 +183,15 @@ Low Impact, High Effort  → DROP (time wasters)
 
 | Resource | Link |
 |:---------|:-----|
-| Full Study Plan | [role-study-plan.md](role-study-plan.md) |
-| Product Sense Practice | [product-sense.md](product-sense.md) |
-| Metrics & Strategy | [pm-metrics-strategy.md](pm-metrics-strategy.md) |
-| Behavioral Guide | [../../prep/behavioral/behavioral-interview-guide.md](../../prep/behavioral/behavioral-interview-guide.md) |
-| Self-Introduction | [../../prep/behavioral/self_intro/self-introduction.md](../../prep/behavioral/self_intro/self-introduction.md) |
-| Mock Questions | [../../prep/interview/mock-tests/mock-interview-questions.md](../../prep/interview/mock-tests/mock-interview-questions.md) |
+| Full Study Plan | [08_role-study-plan.md](08_role-study-plan.md) |
+| Product Sense Practice | [05_interview-preparation.md](05_interview-preparation.md) |
+| Metrics & Strategy | [03_core-knowledge.md](03_core-knowledge.md) |
+| Behavioral Guide | [../../../prep/behavioral/behavioral-interview-guide.md](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Self-Introduction | [../../../prep/behavioral/behavioral-interview-guide.md](../../../prep/behavioral/behavioral-interview-guide.md) |
+| Mock Questions | [../../../prep/README.md](../../../prep/README.md) |
 
 ---
 
 *Print this sheet 1 hour before your PM interview.*
+
+

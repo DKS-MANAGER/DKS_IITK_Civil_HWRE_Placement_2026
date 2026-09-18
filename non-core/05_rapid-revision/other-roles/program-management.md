@@ -193,14 +193,17 @@ A: On-time, within budget, meeting scope/quality requirements, and stakeholder s
 ## Cross-Links
 
 **Program Mgmt:**
-→ [Program Mgmt Overview](pgm-overview.md) — Complete preparation system
-→ [Role Study Plan](role-study-plan.md) — Structured study plan
+→ [Program Mgmt Overview](../../01_roles/program-management/01_role-overview.md) — Complete preparation system
+→ [Role Study Plan](../../01_roles/program-management/08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Operations Overview](../operations/operations-overview.md) — Operations role
-→ [Risk Rapid Revision](../risk/risk-rapid-revision.md) — Risk management
-→ [Behavioral Guide](../../prep/behavioral/behavioral-interview-guide.md) — STAR stories
+→ [Operations Overview](../operations/../../01_roles/operations/01_role-overview.md) — Operations role
+→ [Risk Rapid Revision](../../01_roles/risk/09_rapid-revision.md) — Risk management
+→ [Behavioral Guide](../../../prep/behavioral/behavioral-interview-guide.md) — STAR stories
 
 ---
 
 *Last updated: 2026-09-04*
+
+
+
