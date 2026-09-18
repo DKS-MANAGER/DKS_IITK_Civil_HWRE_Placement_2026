@@ -55,7 +55,7 @@ The repository structures assessment as an integrated progressive ladder. Rather
 | **Level 4** | **Hard & Expert Mocks** | 50–60 MCQs with complex multi-table DI caselets, multi-statement logic, and advanced algebra. | 60 min | $\ge 70\%$ composite score | [`aptitude/mocks/`](../aptitude/mocks/) |
 | **Level 5** | **Role & Company OAs** | Company-calibrated technical + aptitude blend (L&T, Godrej, BPCL, Vassar Labs). | 45–90 min | Meets company cutoff tier | [`prep/mock-tests/`](../prep/mock-tests/) |
 | **Level 6** | **Technical Branching Trees** | Multi-level oral inquiry (Core theory $\to$ Mathematical derivation $\to$ Edge case $\to$ Industrial application). | 30–45 min | Level 4+ defense on core thesis | [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md) |
-| **Level 7** | **Case & Behavioral Sims** | Management consulting caselets, guesstimates, and structured STAR behavioral probes. | 30–40 min | Clear MECE structure, 0 contradictions | [`non-core/consulting/`](../non-core/consulting/) · [`prep/CASE_GD.md`](../prep/CASE_GD.md) |
+| **Level 7** | **Case & Behavioral Sims** | Management consulting caselets, guesstimates, and structured STAR behavioral probes. | 30–40 min | Clear MECE structure, 0 contradictions | [`non-core/01_roles/consulting/`](../non-core/01_roles/consulting/) · [`prep/CASE_GD.md`](../prep/CASE_GD.md) |
 | **Level 8** | **Full Live Simulation** | End-to-end 45-minute mock interview panel covering Resume, Core Thesis, Aptitude, Case, and HR. | 45 min | Composite Score $\ge 85/100$ | [`prep/MOCK_INTERVIEW.md`](../prep/MOCK_INTERVIEW.md) |
 
 ---
@@ -143,3 +143,4 @@ All test results should be logged in [`prep/READINESS_SCORECARD.md`](../prep/REA
 
 > **Related Navigation**:
 > [TESTING_GUIDE.md](TESTING_GUIDE.md) · [IITK_PLACEMENT_MAP.md](IITK_PLACEMENT_MAP.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [READINESS_SCORECARD.md](../prep/READINESS_SCORECARD.md)
+

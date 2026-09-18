@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/risk/role-study-plan.md)
-- [Risk Overview](../../non-core/risk/risk-overview.md)
+- [Role Study Plan](../../non-core/01_roles/risk/role-study-plan.md)
+- [Risk Overview](../../non-core/01_roles/risk/risk-overview.md)
 - [Mock Test Hub](README.md)

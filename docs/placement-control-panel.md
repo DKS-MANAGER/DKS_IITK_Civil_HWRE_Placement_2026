@@ -24,16 +24,16 @@
 
 | Role | Start Here | Key Skills |
 |:-----|:-----------|:-----------|
-| Consulting | [Consulting Overview](../non-core/consulting/consulting-overview.md) → [Case Bank](../non-core/consulting/case-bank.md) | Frameworks, market sizing, profitability |
-| Data Analyst | [DA Overview](../non-core/data-analyst/da-overview.md) → [SQL Practice](../non-core/business-analyst/sql-practice.md) | SQL, Python, statistics, dashboards |
-| Business Analyst | [BA Overview](../non-core/business-analyst/ba-overview.md) → [SQL Practice](../non-core/business-analyst/sql-practice.md) | Requirements, SQL, process mapping |
-| Product Manager | [PM Overview](../non-core/product-management/pm-overview.md) → [Product Sense](../non-core/product-management/product-sense.md) | Metrics, strategy, product sense |
-| Product Analyst | [PA Overview](../non-core/product-analyst/pa-overview.md) | Analytics, A/B testing, metrics |
-| Operations | [Ops Overview](../non-core/operations/operations-overview.md) | Process optimization, supply chain |
-| Supply Chain | [SC Overview](../non-core/supply-chain/supply-chain-overview.md) | Logistics, inventory, procurement |
-| Finance / Risk | [Finance](../non-core/finance/finance-overview.md) → [Risk](../non-core/risk/risk-overview.md) | Valuation, risk modeling |
-| Strategy | [Strategy Overview](../non-core/strategy/strategy-overview.md) | Competitive analysis, frameworks |
-| Program Management | [PGM Overview](../non-core/program-management/pgm-overview.md) | Execution, stakeholder management |
+| Consulting | [Consulting Overview](../non-core/01_roles/consulting/consulting-overview.md) → [Case Bank](../non-core/01_roles/consulting/case-bank.md) | Frameworks, market sizing, profitability |
+| Data Analyst | [DA Overview](../non-core/01_roles/data-analyst/da-overview.md) → [SQL Practice](../non-core/01_roles/business-analyst/sql-practice.md) | SQL, Python, statistics, dashboards |
+| Business Analyst | [BA Overview](../non-core/01_roles/business-analyst/ba-overview.md) → [SQL Practice](../non-core/01_roles/business-analyst/sql-practice.md) | Requirements, SQL, process mapping |
+| Product Manager | [PM Overview](../non-core/01_roles/product-management/pm-overview.md) → [Product Sense](../non-core/01_roles/product-management/product-sense.md) | Metrics, strategy, product sense |
+| Product Analyst | [PA Overview](../non-core/01_roles/product-analyst/pa-overview.md) | Analytics, A/B testing, metrics |
+| Operations | [Ops Overview](../non-core/01_roles/operations/operations-overview.md) | Process optimization, supply chain |
+| Supply Chain | [SC Overview](../non-core/01_roles/supply-chain/supply-chain-overview.md) | Logistics, inventory, procurement |
+| Finance / Risk | [Finance](../non-core/01_roles/finance/finance-overview.md) → [Risk](../non-core/01_roles/risk/risk-overview.md) | Valuation, risk modeling |
+| Strategy | [Strategy Overview](../non-core/01_roles/strategy/strategy-overview.md) | Competitive analysis, frameworks |
+| Program Management | [PGM Overview](../non-core/01_roles/program-management/pgm-overview.md) | Execution, stakeholder management |
 
 ---
 
@@ -61,11 +61,11 @@
 | 💼 **I can't defend my project** | Prepare with 35 defense questions | [Project Defense](../prep/interview/technical/project-defense-guide.md) |
 | 🧠 **I bomb behavioral questions** | Build your STAR story bank | [Behavioral Guide](../prep/behavioral/behavioral-interview-guide.md) |
 | 🎤 **I need mock practice** | Run 8 full mock sessions | [Mock Database](../prep/interview/mock-tests/mock-interview-database.md) |
-| 💼 **I have a case interview** | Review frameworks + practice cases | [Case Bank (15 cases)](../non-core/consulting/case-bank.md) |
-| 📊 **I need guesstimate practice** | Follow the guide | [Guesstimate Guide](../non-core/guesstimates/guesstimate-guide.md) |
+| 💼 **I have a case interview** | Review frameworks + practice cases | [Case Bank (15 cases)](../non-core/01_roles/consulting/case-bank.md) |
+| 📊 **I need guesstimate practice** | Follow the guide | [Guesstimate Guide](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) |
 | 🏢 **I'm preparing for a specific company** | Check company profiles | [Company Profiles](../prep/company-profiles/) |
 | 💻 **I don't know which software to learn** | Use the decision system | [Software Roadmap](../software-and-tech/branch-roadmaps.md) |
-| 🔍 **I want to switch from Civil to non-core** | Follow the transition guide | [Civil → Non-Core](../non-core/resume-positioning/civil-to-noncore.md) |
+| 🔍 **I want to switch from Civil to non-core** | Follow the transition guide | [Civil → Non-Core](../non-core/04_career-preparation/resume-positioning/civil-to-noncore.md) |
 
 ---
 
@@ -140,3 +140,4 @@ Use this to track your preparation across all dimensions:
 ---
 
 > **Back to:** [Start Here](start-here.md) · [Main README](../README.md)
+

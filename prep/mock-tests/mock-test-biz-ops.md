@@ -65,5 +65,5 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/business-operations/role-study-plan.md)
+- [Role Study Plan](../../non-core/01_roles/business-operations/role-study-plan.md)
 - [Mock Test Hub](README.md)

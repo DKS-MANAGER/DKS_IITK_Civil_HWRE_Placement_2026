@@ -63,7 +63,8 @@ Given tables `orders(order_id, customer_id, amount, order_date)` and `customers(
 
 ## Related
 
-- [Role Study Plan](../../non-core/data-analyst/role-study-plan.md)
-- [DA Overview](../../non-core/data-analyst/da-overview.md)
-- [Statistics Practice](../../non-core/data-analyst/statistics-practice.md)
+- [Role Study Plan](../../non-core/01_roles/data-analyst/role-study-plan.md)
+- [DA Overview](../../non-core/01_roles/data-analyst/da-overview.md)
+- [Statistics Practice](../../non-core/01_roles/data-analyst/statistics-practice.md)
 - [Mock Test Hub](README.md)
+

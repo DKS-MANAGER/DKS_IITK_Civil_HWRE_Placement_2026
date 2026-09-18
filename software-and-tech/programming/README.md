@@ -33,4 +33,4 @@ LANGUAGE → PRACTICE → INTERVIEW
 ## Related
 
 - [Software & Tech Hub](../README.md)
-- [Technology Role Study Plan](../../non-core/technology/role-study-plan.md)
+- [Technology Role Study Plan](../../non-core/01_roles/technology/role-study-plan.md)

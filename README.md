@@ -153,13 +153,13 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 
 | Track | Guide |
 |:------|:------|
-| Consulting | [consulting-overview.md](non-core/consulting/consulting-overview.md) |
-| Data Analyst | [da-overview.md](non-core/data-analyst/da-overview.md) |
-| Business Analyst | [ba-overview.md](non-core/business-analyst/ba-overview.md) |
-| Product Manager | [pm-overview.md](non-core/product-management/pm-overview.md) |
-| Operations | [operations-overview.md](non-core/operations/operations-overview.md) |
-| Finance / Risk / Strategy | [finance](non-core/finance/finance-overview.md) · [risk](non-core/risk/risk-overview.md) · [strategy](non-core/strategy/strategy-overview.md) |
-| Supply Chain | [supply-chain-overview.md](non-core/supply-chain/supply-chain-overview.md) |
+| Consulting | [consulting-overview.md](non-core/01_roles/consulting/consulting-overview.md) |
+| Data Analyst | [da-overview.md](non-core/01_roles/data-analyst/da-overview.md) |
+| Business Analyst | [ba-overview.md](non-core/01_roles/business-analyst/ba-overview.md) |
+| Product Manager | [pm-overview.md](non-core/01_roles/product-management/pm-overview.md) |
+| Operations | [operations-overview.md](non-core/01_roles/operations/operations-overview.md) |
+| Finance / Risk / Strategy | [finance](non-core/01_roles/finance/finance-overview.md) · [risk](non-core/01_roles/risk/risk-overview.md) · [strategy](non-core/01_roles/strategy/strategy-overview.md) |
+| Supply Chain | [supply-chain-overview.md](non-core/01_roles/supply-chain/supply-chain-overview.md) |
 
 </td>
 </tr>
@@ -280,8 +280,8 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 | Speed Shortcuts | [aptitude-shortcuts.md](aptitude/FORMULA_SHEET.md) |
 | Logical Reasoning | [reasoning-practice.md](aptitude/reasoning/README.md) |
 | Verbal Ability | [verbal-ability.md](aptitude/verbal/README.md) |
-| Case Frameworks | [framework-library.md](non-core/case-interviews/framework-library.md) |
-| Guesstimates | [guesstimate-guide.md](non-core/guesstimates/guesstimate-guide.md) |
+| Case Frameworks | [framework-library.md](non-core/02_interview-preparation/case-interviews/framework-library.md) |
+| Guesstimates | [guesstimate-guide.md](non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) |
 
 </td>
 </tr>
@@ -319,14 +319,14 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 | **Water Resources Eng.** | Hydrology, WRE, Sediment | WAPCOS, NTPC, Rodic | [WRE](core/hwre/water_resources/water-resources-engineering.md) |
 | **CFD / Research** | Turbulence, OpenFOAM, HPC | Labs, IITs, AgniKul | [Turbulence](core/hwre/hydraulics/turbulence-modeling.md) |
 | **Software / Data** | Python, SQL, Analytics | Barclays, Accenture | [Software Roadmap](software-and-tech/branch-roadmaps.md) |
-| **Consulting** | Case Frameworks, Guesstimates | BCG, Consulting firms | [Consulting](non-core/consulting/consulting-overview.md) |
-| **Data Analyst** | Statistics, Python, SQL | Accenture, Axtria | [DA Overview](non-core/data-analyst/da-overview.md) |
+| **Consulting** | Case Frameworks, Guesstimates | BCG, Consulting firms | [Consulting](non-core/01_roles/consulting/consulting-overview.md) |
+| **Data Analyst** | Statistics, Python, SQL | Accenture, Axtria | [DA Overview](non-core/01_roles/data-analyst/da-overview.md) |
 
 </td>
 </tr>
 </table>
 
-> Not sure which role? → [`non-core/role-selector.md`](non-core/role-selector.md) (self-assessment tool)
+> Not sure which role? → [`non-core/04_career-preparation/role-selection/role-selector.md`](non-core/04_career-preparation/role-selection/role-selector.md) (self-assessment tool)
 
 ---
 
@@ -348,8 +348,8 @@ What roles?      & non-core       & question banks  prep & CTC     & log results
 | **50 HR Questions** | Behavioral fit | [HR Bank](prep/behavioral/hr_questions/hr-questions-bank.md) |
 | **35 Project Defense** | Thesis/project | [Project Defense](prep/interview/technical/project-defense-guide.md) |
 | **30+ STAR Stories** | Behavioral | [Behavioral Guide](prep/behavioral/behavioral-interview-guide.md) |
-| **15 Case Interview** | Consulting | [Case Bank](non-core/consulting/case-bank.md) |
-| **100+ Guesstimates** | Estimation | [Guesstimate Guide](non-core/guesstimates/guesstimate-guide.md) |
+| **15 Case Interview** | Consulting | [Case Bank](non-core/01_roles/consulting/case-bank.md) |
+| **100+ Guesstimates** | Estimation | [Guesstimate Guide](non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) |
 
 > **Question labeling:** Questions in subject guides are tagged `[P0]`–`[P3]` by priority and labeled by type (CONCEPT, WHY, WHAT-IF, NUMERICAL, APPLICATION).
 
@@ -512,3 +512,4 @@ python scripts/validate_index.py
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
+

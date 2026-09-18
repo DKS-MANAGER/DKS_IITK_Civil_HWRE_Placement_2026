@@ -138,11 +138,11 @@ Every question can be tagged for filtering:
 
 | Track | Question Source |
 |:------|:----------------|
-| Consulting | [case-bank.md](../non-core/consulting/case-bank.md) — 15 worked cases |
-| Case Frameworks | [framework-library.md](../non-core/case-interviews/framework-library.md) |
-| Guesstimates | [guesstimate-guide.md](../non-core/guesstimates/guesstimate-guide.md) |
-| Data Analyst | [statistics-practice.md](../non-core/data-analyst/statistics-practice.md) |
-| SQL | [sql-practice.md](../non-core/business-analyst/sql-practice.md) |
+| Consulting | [case-bank.md](../non-core/01_roles/consulting/case-bank.md) — 15 worked cases |
+| Case Frameworks | [framework-library.md](../non-core/02_interview-preparation/case-interviews/framework-library.md) |
+| Guesstimates | [guesstimate-guide.md](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| Data Analyst | [statistics-practice.md](../non-core/01_roles/data-analyst/statistics-practice.md) |
+| SQL | [sql-practice.md](../non-core/01_roles/business-analyst/sql-practice.md) |
 | Aptitude | [aptitude-basics.md](../aptitude/quant/README.md) |
 
 ---
@@ -159,3 +159,4 @@ Every question can be tagged for filtering:
 ---
 
 > **Back to:** [Start Here](../docs/start-here.md) · [Control Panel](../docs/placement-control-panel.md) · [Main README](../README.md)
+

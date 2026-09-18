@@ -48,18 +48,18 @@ Career tracks beyond traditional civil engineering. See [`non-core/README.md`](.
 
 | Track | Folder |
 |:------|:-------|
-| Consulting | [`non-core/consulting/`](../non-core/consulting/) |
-| Data Analyst | [`non-core/data-analyst/`](../non-core/data-analyst/) |
-| Business Analyst | [`non-core/business-analyst/`](../non-core/business-analyst/) |
-| Product Management | [`non-core/product-management/`](../non-core/product-management/) |
-| Operations | [`non-core/operations/`](../non-core/operations/) |
-| Finance | [`non-core/finance/`](../non-core/finance/) |
-| Risk | [`non-core/risk/`](../non-core/risk/) |
-| Strategy | [`non-core/strategy/`](../non-core/strategy/) |
-| Supply Chain | [`non-core/supply-chain/`](../non-core/supply-chain/) |
+| Consulting | [`non-core/01_roles/consulting/`](../non-core/01_roles/consulting/) |
+| Data Analyst | [`non-core/01_roles/data-analyst/`](../non-core/01_roles/data-analyst/) |
+| Business Analyst | [`non-core/01_roles/business-analyst/`](../non-core/01_roles/business-analyst/) |
+| Product Management | [`non-core/01_roles/product-management/`](../non-core/01_roles/product-management/) |
+| Operations | [`non-core/01_roles/operations/`](../non-core/01_roles/operations/) |
+| Finance | [`non-core/01_roles/finance/`](../non-core/01_roles/finance/) |
+| Risk | [`non-core/01_roles/risk/`](../non-core/01_roles/risk/) |
+| Strategy | [`non-core/01_roles/strategy/`](../non-core/01_roles/strategy/) |
+| Supply Chain | [`non-core/01_roles/supply-chain/`](../non-core/01_roles/supply-chain/) |
 | Aptitude | [`aptitude/`](../aptitude/) |
-| Guesstimates | [`non-core/guesstimates/`](../non-core/guesstimates/) |
-| Case Interviews | [`non-core/case-interviews/`](../non-core/case-interviews/) |
+| Guesstimates | [`non-core/02_interview-preparation/guesstimates/`](../non-core/02_interview-preparation/guesstimates/) |
+| Case Interviews | [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/) |
 
 ---
 
@@ -79,3 +79,4 @@ Not sure? Use the decision flow in [GETTING_STARTED.md](GETTING_STARTED.md) and 
 ---
 
 > **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [Main README](../README.md)
+

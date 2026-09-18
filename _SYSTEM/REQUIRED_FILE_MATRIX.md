@@ -145,85 +145,85 @@
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| Consulting Overview | `non-core/consulting/consulting-overview.md` | ✅ YES | L2 (5.5/10) | Examples, MCQs | EXTEND |
-| Case Frameworks | `non-core/consulting/case-frameworks.md` | ✅ YES | L2 (5.5/10) | Worked examples | EXTEND |
-| Case Bank | `non-core/consulting/case-bank.md` | ✅ YES | L2 (5.5/10) | Solved cases | EXTEND |
-| Consulting Rapid Revision | `non-core/consulting/consulting-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
-| Consulting Role Study Plan | `non-core/consulting/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
-| Consulting README | `non-core/consulting/README.md` | ✅ YES | EXISTS | — | KEEP |
+| Consulting Overview | `non-core/01_roles/consulting/consulting-overview.md` | ✅ YES | L2 (5.5/10) | Examples, MCQs | EXTEND |
+| Case Frameworks | `non-core/01_roles/consulting/case-frameworks.md` | ✅ YES | L2 (5.5/10) | Worked examples | EXTEND |
+| Case Bank | `non-core/01_roles/consulting/case-bank.md` | ✅ YES | L2 (5.5/10) | Solved cases | EXTEND |
+| Consulting Rapid Revision | `non-core/01_roles/consulting/consulting-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
+| Consulting Role Study Plan | `non-core/01_roles/consulting/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
+| Consulting README | `non-core/01_roles/consulting/README.md` | ✅ YES | EXISTS | — | KEEP |
 | Consulting Mock Test | `prep/mock-tests/mock-test-consulting.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 13. Non-Core — Product Management
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| PM Overview | `non-core/product-management/pm-overview.md` | ✅ YES | L2 (5.5/10) | ConceptQ, interview | EXTEND |
-| Product Sense | `non-core/product-management/product-sense.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| PM Metrics & Strategy | `non-core/product-management/pm-metrics-strategy.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| PM Rapid Revision | `non-core/product-management/pm-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
-| PM Role Study Plan | `non-core/product-management/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
-| PM README | `non-core/product-management/README.md` | ✅ YES | EXISTS | — | KEEP |
+| PM Overview | `non-core/01_roles/product-management/pm-overview.md` | ✅ YES | L2 (5.5/10) | ConceptQ, interview | EXTEND |
+| Product Sense | `non-core/01_roles/product-management/product-sense.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| PM Metrics & Strategy | `non-core/01_roles/product-management/pm-metrics-strategy.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| PM Rapid Revision | `non-core/01_roles/product-management/pm-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
+| PM Role Study Plan | `non-core/01_roles/product-management/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
+| PM README | `non-core/01_roles/product-management/README.md` | ✅ YES | EXISTS | — | KEEP |
 | PM Mock Test | `prep/mock-tests/mock-test-product-manager.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 14. Non-Core — Data Analyst
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| DA Overview | `non-core/data-analyst/da-overview.md` | ✅ YES | L4 (8/10) | — | KEEP |
-| DA Rapid Revision | `non-core/data-analyst/da-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
-| Statistics Practice | `non-core/data-analyst/statistics-practice.md` | ✅ YES | L4 (9/10) | — | KEEP |
-| DA Role Study Plan | `non-core/data-analyst/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
-| DA README | `non-core/data-analyst/README.md` | ✅ YES | EXISTS | — | KEEP |
+| DA Overview | `non-core/01_roles/data-analyst/da-overview.md` | ✅ YES | L4 (8/10) | — | KEEP |
+| DA Rapid Revision | `non-core/01_roles/data-analyst/da-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
+| Statistics Practice | `non-core/01_roles/data-analyst/statistics-practice.md` | ✅ YES | L4 (9/10) | — | KEEP |
+| DA Role Study Plan | `non-core/01_roles/data-analyst/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
+| DA README | `non-core/01_roles/data-analyst/README.md` | ✅ YES | EXISTS | — | KEEP |
 | DA Mock Test | `prep/mock-tests/mock-test-data-analyst.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 15. Non-Core — Business Analyst
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| BA Overview | `non-core/business-analyst/ba-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| BA Rapid Revision | `non-core/business-analyst/ba-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
-| SQL Practice | `non-core/business-analyst/sql-practice.md` | ✅ YES | EXISTS | — | KEEP |
-| BA Role Study Plan | `non-core/business-analyst/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
-| BA README | `non-core/business-analyst/README.md` | ✅ YES | EXISTS | — | KEEP |
+| BA Overview | `non-core/01_roles/business-analyst/ba-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| BA Rapid Revision | `non-core/01_roles/business-analyst/ba-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
+| SQL Practice | `non-core/01_roles/business-analyst/sql-practice.md` | ✅ YES | EXISTS | — | KEEP |
+| BA Role Study Plan | `non-core/01_roles/business-analyst/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
+| BA README | `non-core/01_roles/business-analyst/README.md` | ✅ YES | EXISTS | — | KEEP |
 | BA Mock Test | `prep/mock-tests/mock-test-business-analyst.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 16. Non-Core — Finance
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| Finance Overview | `non-core/finance/finance-overview.md` | ✅ YES | L4 (8/10) | — | KEEP |
-| Finance Rapid Revision | `non-core/finance/finance-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
-| Finance Role Study Plan | `non-core/finance/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
-| Finance README | `non-core/finance/README.md` | ✅ YES | EXISTS | — | KEEP |
+| Finance Overview | `non-core/01_roles/finance/finance-overview.md` | ✅ YES | L4 (8/10) | — | KEEP |
+| Finance Rapid Revision | `non-core/01_roles/finance/finance-rapid-revision.md` | ✅ YES | EXISTS | Needs verification | EXTEND |
+| Finance Role Study Plan | `non-core/01_roles/finance/role-study-plan.md` | ✅ YES | EXISTS | — | KEEP |
+| Finance README | `non-core/01_roles/finance/README.md` | ✅ YES | EXISTS | — | KEEP |
 | Finance Mock Test | `prep/mock-tests/mock-test-finance.md` | ✅ YES | EXISTS | — | KEEP |
 
 ## 17. Non-Core — Other Roles
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| Operations Overview | `non-core/operations/operations-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Operations Rapid Revision | `non-core/operations/operations-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Operations Overview | `non-core/01_roles/operations/operations-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Operations Rapid Revision | `non-core/01_roles/operations/operations-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Operations Mock Test | `prep/mock-tests/mock-test-operations.md` | ✅ YES | EXISTS | — | KEEP |
-| Supply Chain Overview | `non-core/supply-chain/supply-chain-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Supply Chain Rapid Revision | `non-core/supply-chain/supply-chain-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Supply Chain Overview | `non-core/01_roles/supply-chain/supply-chain-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Supply Chain Rapid Revision | `non-core/01_roles/supply-chain/supply-chain-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Supply Chain Mock Test | `prep/mock-tests/mock-test-supply-chain.md` | ✅ YES | EXISTS | — | KEEP |
-| Risk Overview | `non-core/risk/risk-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Risk Rapid Revision | `non-core/risk/risk-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Risk Overview | `non-core/01_roles/risk/risk-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Risk Rapid Revision | `non-core/01_roles/risk/risk-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Risk Mock Test | `prep/mock-tests/mock-test-risk.md` | ✅ YES | EXISTS | — | KEEP |
-| Strategy Overview | `non-core/strategy/strategy-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Strategy Rapid Revision | `non-core/strategy/strategy-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Strategy Overview | `non-core/01_roles/strategy/strategy-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Strategy Rapid Revision | `non-core/01_roles/strategy/strategy-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Strategy Mock Test | `prep/mock-tests/mock-test-strategy.md` | ✅ YES | EXISTS | — | KEEP |
-| Tech Overview | `non-core/technology/tech-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Tech Rapid Revision | `non-core/technology/tech-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Tech Overview | `non-core/01_roles/technology/tech-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Tech Rapid Revision | `non-core/01_roles/technology/tech-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Tech Mock Test | `prep/mock-tests/mock-test-technology.md` | ✅ YES | EXISTS | — | KEEP |
-| Product Analyst Overview | `non-core/product-analyst/pa-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Product Analyst Rapid Revision | `non-core/product-analyst/pa-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Product Analyst Overview | `non-core/01_roles/product-analyst/pa-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Product Analyst Rapid Revision | `non-core/01_roles/product-analyst/pa-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Product Analyst Mock Test | `prep/mock-tests/mock-test-product-analyst.md` | ✅ YES | EXISTS | — | KEEP |
-| Program Management Overview | `non-core/program-management/pgm-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
-| Program Management Rapid Revision | `non-core/program-management/pgm-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Program Management Overview | `non-core/01_roles/program-management/pgm-overview.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
+| Program Management Rapid Revision | `non-core/01_roles/program-management/pgm-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | Program Management Mock Test | `prep/mock-tests/mock-test-program-management.md` | ✅ YES | EXISTS | — | KEEP |
-| BizOps Overview | `non-core/business-operations/biz-ops-overview.md` | ✅ YES | EXISTS | — | KEEP |
-| BizOps Rapid Revision | `non-core/business-operations/biz-ops-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| BizOps Overview | `non-core/01_roles/business-operations/biz-ops-overview.md` | ✅ YES | EXISTS | — | KEEP |
+| BizOps Rapid Revision | `non-core/01_roles/business-operations/biz-ops-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
 | BizOps Mock Test | `prep/mock-tests/mock-test-biz-ops.md` | ✅ YES | EXISTS | — | KEEP |
 | BIM Overview | `software-and-tech/bim/bim-tech.md` | ✅ YES | EXISTS | Needs scoring | EXTEND |
 | BIM Rapid Revision | `software-and-tech/bim/bim-rapid-revision.md` | ✅ YES | EXISTS | — | KEEP |
@@ -393,8 +393,8 @@
 | Metrics | `index/metrics.json` | ✅ YES | EXISTS | — | KEEP |
 | Index README | `index/README.md` | ✅ YES | EXISTS | — | KEEP |
 | Non-Core README | `non-core/README.md` | ✅ YES | EXISTS | — | KEEP |
-| Non-Core Role Selector | `non-core/role-selector.md` | ✅ YES | EXISTS | — | KEEP |
-| Non-Core Placement Roadmap | `non-core/placement-roadmap.md` | ✅ YES | EXISTS | — | KEEP |
+| Non-Core Role Selector | `non-core/04_career-preparation/role-selection/role-selector.md` | ✅ YES | EXISTS | — | KEEP |
+| Non-Core Placement Roadmap | `non-core/04_career-preparation/placement-roadmap/placement-roadmap.md` | ✅ YES | EXISTS | — | KEEP |
 | Prep README | `prep/README.md` | ✅ YES | EXISTS | — | KEEP |
 | Docs README | `docs/README.md` | ✅ YES | EXISTS | — | KEEP |
 | Docs Architecture | `docs/architecture.md` | ✅ YES | EXISTS | — | KEEP |
@@ -411,20 +411,20 @@
 
 | Unit | Existing File | Required? | Current Level | Missing Content | Action |
 |------|--------------|-----------|---------------|-----------------|--------|
-| Common HR | `non-core/common/hr.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Behavioral | `non-core/common/behavioral.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Communication | `non-core/common/communication.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Resume | `non-core/common/resume.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Interview Frameworks | `non-core/common/interview-frameworks.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Aptitude Bridge | `non-core/common/aptitude-bridge.md` | ✅ YES | EXISTS | — | KEEP |
-| Common Business Fundamentals | `non-core/common/business-fundamentals.md` | ✅ YES | EXISTS | — | KEEP |
-| Guesstimate Guide | `non-core/guesstimates/guesstimate-guide.md` | ✅ YES | EXISTS | — | KEEP |
-| Quick Revision | `non-core/quick-revision/quick-revision.md` | ✅ YES | EXISTS | — | KEEP |
-| Resume Positioning | `non-core/resume-positioning/civil-to-noncore.md` | ✅ YES | EXISTS | — | KEEP |
-| Resume Templates | `non-core/resume-positioning/resume-templates.md` | ✅ YES | EXISTS | — | KEEP |
-| Mock System (Non-Core) | `non-core/mock-interviews/mock-system.md` | ✅ YES | EXISTS | — | KEEP |
-| Non-Core Prep | `non-core/analytics/non-core-prep.md` | ✅ YES | L3 (6.0/10) | MCQs, interview | EXTEND |
-| Technical Stack | `non-core/analytics/technical-stack.md` | ✅ YES | L4 (8.5/10) | — | KEEP |
+| Common HR | `non-core/02_interview-preparation/behavioral/hr-questions.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Behavioral | `non-core/02_interview-preparation/behavioral/behavioral-mastery.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Communication | `non-core/03_common-skills/communication/communication.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Resume | `non-core/04_career-preparation/resume-positioning/resume-strategy.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Interview Frameworks | `non-core/02_interview-preparation/case-interviews/interview-frameworks.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Aptitude Bridge | `non-core/03_common-skills/quantitative-reasoning/aptitude-bridge.md` | ✅ YES | EXISTS | — | KEEP |
+| Common Business Fundamentals | `non-core/03_common-skills/business-fundamentals/business-fundamentals.md` | ✅ YES | EXISTS | — | KEEP |
+| Guesstimate Guide | `non-core/02_interview-preparation/guesstimates/guesstimate-guide.md` | ✅ YES | EXISTS | — | KEEP |
+| Quick Revision | `non-core/05_rapid-revision/quick-revision.md` | ✅ YES | EXISTS | — | KEEP |
+| Resume Positioning | `non-core/04_career-preparation/resume-positioning/civil-to-noncore.md` | ✅ YES | EXISTS | — | KEEP |
+| Resume Templates | `non-core/04_career-preparation/resume-positioning/resume-templates.md` | ✅ YES | EXISTS | — | KEEP |
+| Mock System (Non-Core) | `non-core/02_interview-preparation/mock-interviews/mock-system.md` | ✅ YES | EXISTS | — | KEEP |
+| Non-Core Prep | `non-core/01_roles/analytics/non-core-prep.md` | ✅ YES | L3 (6.0/10) | MCQs, interview | EXTEND |
+| Technical Stack | `non-core/01_roles/analytics/technical-stack.md` | ✅ YES | L4 (8.5/10) | — | KEEP |
 
 ## 24. Non-Core — Aptitude
 
@@ -496,3 +496,4 @@
 5. **The biggest gaps are in non-core roles** (consulting, PM) and **system-level files** (quick revision system, self-introduction)
 6. **All 25 mock tests exist** — this was completed in the previous session
 7. **All company profiles exist** — 33+ profiles covering civil and non-core companies
+

@@ -43,9 +43,9 @@
 |------|--------|-------------:|------------:|
 | `core/transportation/transportation-software.md` | Enriched with usage guides, examples, interview Qs | 245 | 729 |
 | `prep/behavioral/self_intro/self-introduction.md` | Added follow-up Qs, scoring rubric, cross-links | 1,425 | 1,840 |
-| `non-core/analytics/technical-stack.md` | Added role guide, interview Qs, learning priority | 919 | 1,479 |
-| `non-core/consulting/case-frameworks.md` | Added worked examples, practice drills | 1,471 | 2,100 |
-| `non-core/consulting/case-bank.md` | Added civil-specific cases, interview tips | 1,640 | 2,358 |
+| `non-core/01_roles/analytics/technical-stack.md` | Added role guide, interview Qs, learning priority | 919 | 1,479 |
+| `non-core/01_roles/consulting/case-frameworks.md` | Added worked examples, practice drills | 1,471 | 2,100 |
+| `non-core/01_roles/consulting/case-bank.md` | Added civil-specific cases, interview tips | 1,640 | 2,358 |
 | `core/fundamentals/civil-engineering-foundations.md` | Added worked examples, cross-links, references | 1,034 | 1,450 |
 
 **Total content added:** ~2,818 words across 6 files
@@ -66,9 +66,9 @@
 
 ### P1 — High Value (Score 5-6, need enrichment)
 1. `core/gate/civil/gate-civil-notes.md` (6.5) — needs conceptQ, interview mapping
-2. `non-core/consulting/consulting-overview.md` (5.5) — needs examples, MCQs
-3. `non-core/product-management/pm-overview.md` (5.5) — needs conceptQ, interview
-4. `non-core/analytics/non-core-prep.md` (6.0) — needs MCQs, interview
+2. `non-core/01_roles/consulting/consulting-overview.md` (5.5) — needs examples, MCQs
+3. `non-core/01_roles/product-management/pm-overview.md` (5.5) — needs conceptQ, interview
+4. `non-core/01_roles/analytics/non-core-prep.md` (6.0) — needs MCQs, interview
 5. `aptitude/quant/README.md` (6.0) — needs more MCQs
 6. `prep/interview/quick-revision-system.md` (5.0) — needs enrichment
 7. `software-and-tech/deep-dives/hec-ras-walkthrough.md` (5.0) — needs examples
@@ -108,3 +108,4 @@
 | No broken internal links | △ PARTIAL | 36 remaining (mostly false positives) |
 | No unnecessary duplication | ✅ PASS | Cross-links used instead of content copying |
 | Every unit has quality score | ✅ PASS | 50 subjects scored via CONTENT_MATRIX.md |
+

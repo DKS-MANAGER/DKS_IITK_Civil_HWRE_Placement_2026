@@ -93,7 +93,7 @@ Day 5: SQL | Day 6: Angular + project | Day 7: Mock interview
 - [Programming Fundamentals](../../software-and-tech/programming/)
 - [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
 - [Tech Careers](../../software-and-tech/technology-careers/tech-careers.md)
-- [Supply Chain](../../non-core/supply-chain/)
+- [Supply Chain](../../non-core/01_roles/supply-chain/)
 
 ## Common Technical Reference
 
@@ -109,3 +109,4 @@ Day 5: SQL | Day 6: Angular + project | Day 7: Mock interview
 ## Sources
 - Expeditors website (www.expeditors.com)
 - Java documentation (docs.oracle.com)
+

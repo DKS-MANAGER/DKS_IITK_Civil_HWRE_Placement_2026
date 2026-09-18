@@ -60,7 +60,7 @@ Aligned with the authoritative [Assessment Architecture](../docs/ASSESSMENT_ARCH
 │ Level 4: Hard & Expert   │ High-selectivity analytics  │ [aptitude/mocks/](../aptitude/mocks/) (Hard & Expert 01)     │
 │ Level 5: Role OA Mocks   │ Company-specific technical  │ [prep/mock-tests/](mock-tests/) (25 role tests)             │
 │ Level 6: Technical Trees │ Branching oral defense      │ [prep/interview/technical/](interview/technical/technical-interview-bank.md)│
-│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ [non-core/consulting/](../non-core/consulting/case-bank.md) │
+│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ [non-core/01_roles/consulting/](../non-core/01_roles/consulting/case-bank.md) │
 │ Level 8: Full Live Sim   │ End-to-end 45-min interview │ [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md)                      │
 └──────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
 ```
@@ -92,4 +92,5 @@ $$\text{PLAN} \longrightarrow \text{PREPARE} \longrightarrow \text{TEST} \longri
 - [**Logical Reasoning Suite (10 Chapters, 400 Qs)**](../aptitude/reasoning/README.md)
 - [**Verbal Ability & RC Suite (9 Chapters, 372 Qs)**](../aptitude/verbal/README.md)
 - [**Civil Technical Interview Branching Bank**](interview/technical/technical-interview-bank.md)
-- [**Interactive Management Consulting Case Simulations**](../non-core/consulting/case-bank.md)
+- [**Interactive Management Consulting Case Simulations**](../non-core/01_roles/consulting/case-bank.md)
+

@@ -51,10 +51,10 @@ The repository organizes placement preparation along three orthogonal dimensions
 
 | Stage | What You Need | Primary Entry Points |
 |:------|:--------------|:---------------------|
-| **Learn** | Concept notes, derivations, IS codes | [`core/`](../core/) · [`aptitude/quant/`](../aptitude/quant/README.md) · [`non-core/common/`](../non-core/common/) |
+| **Learn** | Concept notes, derivations, IS codes | [`core/`](../core/) · [`aptitude/quant/`](../aptitude/quant/README.md) · [`non-core/03_common-skills/`](../non-core/03_common-skills/) |
 | **Practice (L1–L2)** | Topic diagnostics & pure domain sectionals | [`aptitude/tests/`](../aptitude/tests/README.md) · [`aptitude/tests/section/`](../aptitude/tests/section/README.md) |
 | **Mock (L3–L5)** | Full placement mocks & company OAs | [`aptitude/mocks/`](../aptitude/mocks/README.md) · [`prep/mock-tests/`](../prep/mock-tests/README.md) |
-| **Interview (L6–L7)**| Technical branching trees & case simulations | [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) · [`non-core/case-interviews/`](../non-core/case-interviews/case-simulation-suite.md) |
+| **Interview (L6–L7)**| Technical branching trees & case simulations | [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) · [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) |
 | **Simulate (L8)** | 45-min end-to-end interview & scorecard | [`prep/MOCK_INTERVIEW.md`](../prep/MOCK_INTERVIEW.md) · [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) |
 | **Revise** | Formula sheets & rapid revision | [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md) · [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) |
 
@@ -68,8 +68,8 @@ The repository organizes placement preparation along three orthogonal dimensions
 | **CFD / Hydrodynamics R&D** | TuTr Hyperloop, Dimension Renewables, ANSYS | [`core/hwre/hydraulics/`](../core/hwre/hydraulics/) · [`prep/interview/technical/project-defense-guide.md`](../prep/interview/technical/project-defense-guide.md) | [Test Hydraulics CFD](../prep/mock-tests/mock-test-hydraulics-cfd.md) · [Navier-Stokes Tree](../prep/interview/technical/technical-interview-bank.md) |
 | **Core Civil Infrastructure** | L&T, Godrej Properties, Tata Projects, Afcons | [`core/structures/`](../core/structures/) · [`core/geotechnical/`](../core/geotechnical/) | [Test Civil General OA](../prep/mock-tests/mock-test-civil-general.md) · [Civil Core Sectional](../aptitude/tests/section/sectional-civil-core-01.md) |
 | **PSU Engineering** | BPCL, HPCL, IOCL, ONGC, GAIL | [`core/`](../core/) · [`prep/company-profiles/civil-bpcl.md`](../prep/company-profiles/civil-bpcl.md) | [GATE Question Engine](../questions/README.md) · [Technical Interview Bank](../prep/interview/technical/technical-interview-bank.md) |
-| **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy& | [`non-core/consulting/`](../non-core/consulting/) · [`non-core/case-interviews/`](../non-core/case-interviews/) | [Full Mock 03/04](../aptitude/mocks/README.md) · [Case Simulation Suite](../non-core/case-interviews/case-simulation-suite.md) |
-| **Data Analytics / Tech PM** | Google, Amazon, Flipkart, Tiger Analytics | [`non-core/data-analyst/`](../non-core/data-analyst/) · [`non-core/product-management/`](../non-core/product-management/) | [Role Mock Tests](../prep/mock-tests/README.md) · [DI Sectional Test](../aptitude/tests/section/sectional-di-01.md) |
+| **Management Consulting** | McKinsey, BCG, Bain, Kearney, Strategy& | [`non-core/01_roles/consulting/`](../non-core/01_roles/consulting/) · [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/) | [Full Mock 03/04](../aptitude/mocks/README.md) · [Case Simulation Suite](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) |
+| **Data Analytics / Tech PM** | Google, Amazon, Flipkart, Tiger Analytics | [`non-core/01_roles/data-analyst/`](../non-core/01_roles/data-analyst/) · [`non-core/01_roles/product-management/`](../non-core/01_roles/product-management/) | [Role Mock Tests](../prep/mock-tests/README.md) · [DI Sectional Test](../aptitude/tests/section/sectional-di-01.md) |
 
 *Full role profiles → [ROLES.md](ROLES.md) · [COMPANIES.md](COMPANIES.md)*
 
@@ -87,10 +87,11 @@ The repository organizes placement preparation along three orthogonal dimensions
 | **Readiness Control Panel** | [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) | 100-point composite readiness dashboard & mock logger |
 | **End-to-End Workflow** | [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md) | 6-stage lifecycle from Learn to Offer Letter |
 | **Technical Interview Bank**| [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) | 10 branching technical question trees |
-| **Consulting Simulations** | [`non-core/case-interviews/`](../non-core/case-interviews/case-simulation-suite.md) | Full dialogue case interview simulation suite |
+| **Consulting Simulations** | [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) | Full dialogue case interview simulation suite |
 | **Content Standards** | [content-standards.md](content-standards.md) | 8 quality gates & definition of done |
 | **Source Provenance** | [SOURCE_POLICY.md](SOURCE_POLICY.md) · [`resources/source-registry.md`](../resources/source-registry.md) | 6-level canonical evidence taxonomy |
 
 ---
 
 > **Back to:** [README](README.md) · [Main README](../README.md)
+

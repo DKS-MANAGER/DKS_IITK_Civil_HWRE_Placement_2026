@@ -104,14 +104,14 @@ Each role scored on 15 components (0–5 scale):
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
 | [role-study-plan-template.md](../prep/templates/role-study-plan-template.md) | Template | Reusable template | ~400 |
-| [role-study-plan.md](../non-core/product-management/role-study-plan.md) | PM | Study plan | ~1,200 |
-| [pm-rapid-revision.md](../non-core/product-management/pm-rapid-revision.md) | PM | Rapid revision | ~800 |
-| [role-study-plan.md](../non-core/consulting/role-study-plan.md) | Consulting | Study plan | ~1,100 |
-| [consulting-rapid-revision.md](../non-core/consulting/consulting-rapid-revision.md) | Consulting | Rapid revision | ~600 |
-| [role-study-plan.md](../non-core/data-analyst/role-study-plan.md) | Data Analyst | Study plan | ~1,000 |
-| [da-rapid-revision.md](../non-core/data-analyst/da-rapid-revision.md) | Data Analyst | Rapid revision | ~600 |
-| [role-study-plan.md](../non-core/business-analyst/role-study-plan.md) | Business Analyst | Study plan | ~900 |
-| [ba-rapid-revision.md](../non-core/business-analyst/ba-rapid-revision.md) | Business Analyst | Rapid revision | ~400 |
+| [role-study-plan.md](../non-core/01_roles/product-management/role-study-plan.md) | PM | Study plan | ~1,200 |
+| [pm-rapid-revision.md](../non-core/01_roles/product-management/pm-rapid-revision.md) | PM | Rapid revision | ~800 |
+| [role-study-plan.md](../non-core/01_roles/consulting/role-study-plan.md) | Consulting | Study plan | ~1,100 |
+| [consulting-rapid-revision.md](../non-core/01_roles/consulting/consulting-rapid-revision.md) | Consulting | Rapid revision | ~600 |
+| [role-study-plan.md](../non-core/01_roles/data-analyst/role-study-plan.md) | Data Analyst | Study plan | ~1,000 |
+| [da-rapid-revision.md](../non-core/01_roles/data-analyst/da-rapid-revision.md) | Data Analyst | Rapid revision | ~600 |
+| [role-study-plan.md](../non-core/01_roles/business-analyst/role-study-plan.md) | Business Analyst | Study plan | ~900 |
+| [ba-rapid-revision.md](../non-core/01_roles/business-analyst/ba-rapid-revision.md) | Business Analyst | Rapid revision | ~400 |
 | [role-study-plan.md](../core/hwre/role-study-plan.md) | Water Resources | Study plan | ~1,300 |
 | [hwre-rapid-revision.md](../core/hwre/hwre-rapid-revision.md) | Water Resources | Rapid revision | ~700 |
 | [role-study-plan.md](../core/structures/role-study-plan.md) | Structural | Study plan | ~1,200 |
@@ -150,31 +150,31 @@ Each role scored on 15 components (0–5 scale):
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
 | [role-study-plan.md](../core/environmental/role-study-plan.md) | Environmental | Expansion (+2 worked examples) | ~400 |
-| [role-study-plan.md](../non-core/finance/role-study-plan.md) | Finance | Study plan | ~2,300 |
-| [finance-rapid-revision.md](../non-core/finance/finance-rapid-revision.md) | Finance | Rapid revision | ~1,200 |
-| [role-study-plan.md](../non-core/risk/role-study-plan.md) | Risk | Study plan | ~2,300 |
-| [risk-rapid-revision.md](../non-core/risk/risk-rapid-revision.md) | Risk | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/supply-chain/role-study-plan.md) | Supply Chain | Study plan | ~2,200 |
-| [supply-chain-rapid-revision.md](../non-core/supply-chain/supply-chain-rapid-revision.md) | Supply Chain | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/product-analyst/role-study-plan.md) | Product Analyst | Study plan | ~2,200 |
-| [pa-rapid-revision.md](../non-core/product-analyst/pa-rapid-revision.md) | Product Analyst | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/finance/role-study-plan.md) | Finance | Study plan | ~2,300 |
+| [finance-rapid-revision.md](../non-core/01_roles/finance/finance-rapid-revision.md) | Finance | Rapid revision | ~1,200 |
+| [role-study-plan.md](../non-core/01_roles/risk/role-study-plan.md) | Risk | Study plan | ~2,300 |
+| [risk-rapid-revision.md](../non-core/01_roles/risk/risk-rapid-revision.md) | Risk | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/supply-chain/role-study-plan.md) | Supply Chain | Study plan | ~2,200 |
+| [supply-chain-rapid-revision.md](../non-core/01_roles/supply-chain/supply-chain-rapid-revision.md) | Supply Chain | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/product-analyst/role-study-plan.md) | Product Analyst | Study plan | ~2,200 |
+| [pa-rapid-revision.md](../non-core/01_roles/product-analyst/pa-rapid-revision.md) | Product Analyst | Rapid revision | ~1,100 |
 
 ## What Was Built — Batch 5 (Pgm Mgmt, Operations, BIM, Technology, Strategy, BizOps)
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan.md](../non-core/program-management/role-study-plan.md) | Pgm Mgmt | Study plan | ~2,300 |
-| [pgm-rapid-revision.md](../non-core/program-management/pgm-rapid-revision.md) | Pgm Mgmt | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/operations/role-study-plan.md) | Operations | Study plan | ~2,300 |
-| [operations-rapid-revision.md](../non-core/operations/operations-rapid-revision.md) | Operations | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/program-management/role-study-plan.md) | Pgm Mgmt | Study plan | ~2,300 |
+| [pgm-rapid-revision.md](../non-core/01_roles/program-management/pgm-rapid-revision.md) | Pgm Mgmt | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/operations/role-study-plan.md) | Operations | Study plan | ~2,300 |
+| [operations-rapid-revision.md](../non-core/01_roles/operations/operations-rapid-revision.md) | Operations | Rapid revision | ~1,100 |
 | [role-study-plan.md](../software-and-tech/bim/role-study-plan.md) | BIM Engineer | Study plan | ~2,300 |
 | [bim-rapid-revision.md](../software-and-tech/bim/bim-rapid-revision.md) | BIM Engineer | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/technology/role-study-plan.md) | Technology | Study plan | ~2,300 |
-| [tech-rapid-revision.md](../non-core/technology/tech-rapid-revision.md) | Technology | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/strategy/role-study-plan.md) | Strategy | Study plan | ~2,300 |
-| [strategy-rapid-revision.md](../non-core/strategy/strategy-rapid-revision.md) | Strategy | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/business-operations/role-study-plan.md) | BizOps | Study plan | ~2,300 |
-| [biz-ops-rapid-revision.md](../non-core/business-operations/biz-ops-rapid-revision.md) | BizOps | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/technology/role-study-plan.md) | Technology | Study plan | ~2,300 |
+| [tech-rapid-revision.md](../non-core/01_roles/technology/tech-rapid-revision.md) | Technology | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/strategy/role-study-plan.md) | Strategy | Study plan | ~2,300 |
+| [strategy-rapid-revision.md](../non-core/01_roles/strategy/strategy-rapid-revision.md) | Strategy | Rapid revision | ~1,100 |
+| [role-study-plan.md](../non-core/01_roles/business-operations/role-study-plan.md) | BizOps | Study plan | ~2,300 |
+| [biz-ops-rapid-revision.md](../non-core/01_roles/business-operations/biz-ops-rapid-revision.md) | BizOps | Rapid revision | ~1,100 |
 
 ## What Was Built — Batch 6 (Navigation Hubs — 22 READMEs)
 
@@ -188,14 +188,14 @@ Each role scored on 15 components (0–5 scale):
 | `core/geoinformatics/` | [README.md](../core/geoinformatics/README.md) |
 | `core/infrastructure/` | [README.md](../core/infrastructure/README.md) |
 | `core/fundamentals/` | [README.md](../core/fundamentals/README.md) |
-| `non-core/consulting/` | [README.md](../non-core/consulting/README.md) |
-| `non-core/data-analyst/` | [README.md](../non-core/data-analyst/README.md) |
-| `non-core/business-analyst/` | [README.md](../non-core/business-analyst/README.md) |
-| `non-core/product-management/` | [README.md](../non-core/product-management/README.md) |
-| `non-core/operations/` | [README.md](../non-core/operations/README.md) |
-| `non-core/finance/` | [README.md](../non-core/finance/README.md) |
-| `non-core/risk/` | [README.md](../non-core/risk/README.md) |
-| `non-core/strategy/` | [README.md](../non-core/strategy/README.md) |
+| `non-core/01_roles/consulting/` | [README.md](../non-core/01_roles/consulting/README.md) |
+| `non-core/01_roles/data-analyst/` | [README.md](../non-core/01_roles/data-analyst/README.md) |
+| `non-core/01_roles/business-analyst/` | [README.md](../non-core/01_roles/business-analyst/README.md) |
+| `non-core/01_roles/product-management/` | [README.md](../non-core/01_roles/product-management/README.md) |
+| `non-core/01_roles/operations/` | [README.md](../non-core/01_roles/operations/README.md) |
+| `non-core/01_roles/finance/` | [README.md](../non-core/01_roles/finance/README.md) |
+| `non-core/01_roles/risk/` | [README.md](../non-core/01_roles/risk/README.md) |
+| `non-core/01_roles/strategy/` | [README.md](../non-core/01_roles/strategy/README.md) |
 | `aptitude/` | [README.md](../aptitude/README.md) |
 | `prep/technical/` | [README.md](../prep/technical/README.md) |
 | `prep/mock-tests/` | [README.md](../prep/mock-tests/README.md) |
@@ -219,3 +219,4 @@ Each role scored on 15 components (0–5 scale):
 
 *Generated: Phase 5 — Cross-Role Audit (Updated: ALL 25 ROLES PLACEMENT-READY — Tier A + Tier B + Tier C COMPLETE + Navigation Hubs)*
 *Date: 2026-09-04*
+

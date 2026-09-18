@@ -227,8 +227,9 @@ Resume value: High
 | Consulting Tech | [`consulting/`](../consulting/consulting-tech.md) |
 | Product Tech | [`product/`](../product/product-tech.md) |
 | Operations Tech | [`operations/`](../operations/operations-tech.md) |
-| Non-Core Prep | [`non-core/analytics/non-core-prep.md`](../../non-core/analytics/non-core-prep.md) |
+| Non-Core Prep | [`non-core/01_roles/analytics/non-core-prep.md`](../../non-core/01_roles/analytics/non-core-prep.md) |
 
 ---
 
 *See also: [`tech-careers.md`](../technology-careers/tech-careers.md) for role-specific tracks.*
+

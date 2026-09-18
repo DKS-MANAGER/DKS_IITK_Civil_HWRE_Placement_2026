@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/operations/role-study-plan.md)
-- [Operations Overview](../../non-core/operations/operations-overview.md)
+- [Role Study Plan](../../non-core/01_roles/operations/role-study-plan.md)
+- [Operations Overview](../../non-core/01_roles/operations/operations-overview.md)
 - [Mock Test Hub](README.md)

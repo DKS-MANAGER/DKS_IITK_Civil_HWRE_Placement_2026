@@ -51,7 +51,7 @@ Placement preparation is not a rigid linear checklist. It is an **iterative clos
 | **Sprints & Countdown (30/14/7 Days)** | [**30_14_7_DAY_PLAN.md**](30_14_7_DAY_PLAN.md) | Day-by-day study roadmap and milestones |
 | **Resume Audit & 3-Layer Defense** | [**RESUME/**](RESUME/) | Line-by-line claims verification and technical proof |
 | **M.Tech Thesis Project Defense** | [**PROJECT_DEFENCE.md**](PROJECT_DEFENCE.md) | Defending CFD, boundary conditions, and GCI mesh metrics |
-| **Full 45-min Interview Simulation** | [**interview-readiness.md**](../non-core/common/interview-readiness.md) | End-to-end 100-point interview performance rubric |
+| **Full 45-min Interview Simulation** | [**interview-readiness.md**](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md) | End-to-end 100-point interview performance rubric |
 | **General Full Placement Mocks** | [**aptitude/mocks/**](../aptitude/mocks/README.md) | 5 progressive 50-Q/60-min institutional placement mocks |
 | **25 Role-Specific Technical OAs** | [**mock-tests/**](mock-tests/) | Domain-specific technical screening tests |
 | **Non-Core Case & GD Drills** | [**CASE_GD.md**](CASE_GD.md) | Quick operational case entry point into canonical non-core |
@@ -83,15 +83,15 @@ Placement preparation is not a rigid linear checklist. It is an **iterative clos
 
 ### Stage 6: Behavioral & Cultural Fit Story Bank
 - **Goal:** Master 7–10 structured STAR-L stories covering leadership, conflict, failure, and ambiguity.
-- **Action:** Internalize answering strategies from [Behavioral Hub](behavioral/) and test stories against interviewer counter-probes in [interview-readiness.md](../non-core/common/interview-readiness.md).
+- **Action:** Internalize answering strategies from [Behavioral Hub](behavioral/) and test stories against interviewer counter-probes in [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md).
 
 ### Stage 7: Non-Core Business Reasoning & Cases
 - **Goal:** Master P&L unit economics, EBITDA vs. OCF mechanics, and MECE issue trees.
-- **Action:** Solve quantitative mini-cases in [Business Fundamentals](../non-core/common/business-fundamentals.md) and practice consulting/product cases in [Case Interviews](../non-core/case-interviews/).
+- **Action:** Solve quantitative mini-cases in [Business Fundamentals](../non-core/03_common-skills/business-fundamentals/business-fundamentals.md) and practice consulting/product cases in [Case Interviews](../non-core/02_interview-preparation/case-interviews/).
 
 ### Stage 8: Live Simulation & Mock Interview Drills
 - **Goal:** Grade performance on an objective 100-point rubric under timed conditions.
-- **Action:** Execute peer mock sessions using [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) and [Interview Readiness Scorecard](../non-core/common/interview-readiness.md).
+- **Action:** Execute peer mock sessions using [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) and [Interview Readiness Scorecard](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md).
 
 ---
 
@@ -102,6 +102,7 @@ Placement preparation is not a rigid linear checklist. It is an **iterative clos
 | **Core Civil / Infra** | [aptitude/](../aptitude/) | [core/](../core/README.md) | [Civil General OA](mock-tests/mock-test-civil-general.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
 | **HWRE / Water Resources** | [aptitude/](../aptitude/) | [core/hwre/](../core/hwre/README.md) | [Water Resources OA](mock-tests/mock-test-water-resources.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
 | **CFD & Fluid Modeling** | [aptitude/](../aptitude/) | [core/hwre/hydraulics/](../core/hwre/hydraulics/hydraulics.md) | [CFD Modeling OA](mock-tests/mock-test-hydraulics-cfd.md) | [project-defense-guide.md](interview/technical/project-defense-guide.md) |
-| **Consulting & Strategy** | [aptitude/](../aptitude/) | [non-core/consulting/](../non-core/consulting/README.md) | [Consulting OA](mock-tests/mock-test-consulting.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
-| **Analytics & Data Science**| [aptitude/](../aptitude/) | [non-core/data-analyst/](../non-core/data-analyst/README.md) | [Data Analyst OA](mock-tests/mock-test-data-analyst.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
-| **Product Management** | [aptitude/](../aptitude/) | [non-core/product-management/](../non-core/product-management/README.md) | [Product Manager OA](mock-tests/mock-test-product-manager.md) | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **Consulting & Strategy** | [aptitude/](../aptitude/) | [non-core/01_roles/consulting/](../non-core/01_roles/consulting/README.md) | [Consulting OA](mock-tests/mock-test-consulting.md) | [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md) |
+| **Analytics & Data Science**| [aptitude/](../aptitude/) | [non-core/01_roles/data-analyst/](../non-core/01_roles/data-analyst/README.md) | [Data Analyst OA](mock-tests/mock-test-data-analyst.md) | [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md) |
+| **Product Management** | [aptitude/](../aptitude/) | [non-core/01_roles/product-management/](../non-core/01_roles/product-management/README.md) | [Product Manager OA](mock-tests/mock-test-product-manager.md) | [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md) |
+

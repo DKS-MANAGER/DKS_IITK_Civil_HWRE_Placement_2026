@@ -79,8 +79,8 @@ START
 | 💻 **Software Skills** | [Software Interview Guide →](../prep/interview/software-interview-guide.md) |
 | 🧠 **Behavioral / HR** | [Behavioral Guide →](../prep/behavioral/behavioral-interview-guide.md) |
 | 🎤 **Mock Interviews** | [Mock Database (8 sessions) →](../prep/interview/mock-tests/mock-interview-database.md) |
-| 💼 **Case Interview** | [Case Frameworks →](../non-core/case-interviews/framework-library.md) |
-| 📊 **Guesstimates** | [Guesstimate Guide →](../non-core/guesstimates/guesstimate-guide.md) |
+| 💼 **Case Interview** | [Case Frameworks →](../non-core/02_interview-preparation/case-interviews/framework-library.md) |
+| 📊 **Guesstimates** | [Guesstimate Guide →](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) |
 | ⚡ **Rapid Revision** | [Quick Revision System →](../prep/interview/quick-revision-system.md) |
 | 🏢 **Company Profiles** | [Company Profiles →](../prep/company-profiles/) |
 
@@ -114,11 +114,11 @@ START HERE (this page)
 │   ├── Environmental → core/environmental/
 │   └── Transportation → core/transportation/
 ├── Non-Core → non-core/
-│   ├── Consulting → non-core/consulting/
-│   ├── Data Analyst → non-core/data-analyst/
-│   ├── Business Analyst → non-core/business-analyst/
-│   ├── Product → non-core/product-management/
-│   └── Operations → non-core/operations/
+│   ├── Consulting → non-core/01_roles/consulting/
+│   ├── Data Analyst → non-core/01_roles/data-analyst/
+│   ├── Business Analyst → non-core/01_roles/business-analyst/
+│   ├── Product → non-core/01_roles/product-management/
+│   └── Operations → non-core/01_roles/operations/
 ├── Interview Prep → prep/
 │   ├── Behavioral → prep/behavioral/
 │   ├── Technical → prep/interview/technical/
@@ -134,3 +134,4 @@ START HERE (this page)
 
 > **Still confused?** Open the [Placement Control Panel](placement-control-panel.md) for a complete command-center view.
 > For a structured getting-started guide, see [GETTING_STARTED.md](GETTING_STARTED.md).
+

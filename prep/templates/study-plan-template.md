@@ -118,7 +118,7 @@
 ### Analytics/Quant Track (Oct 21–Nov 10)
 - **Target companies**: Abacus.AI, Accenture, Barclays, Merilytics
 - **Focus areas**: Python, SQL, stats, ML fundamentals
-- **Deliverable**: `non-core/analytics/non-core-prep.md` (Analytics section)
+- **Deliverable**: `non-core/01_roles/analytics/non-core-prep.md` (Analytics section)
 
 ---
 
@@ -170,4 +170,5 @@
 ---
 
 ## References
+
 

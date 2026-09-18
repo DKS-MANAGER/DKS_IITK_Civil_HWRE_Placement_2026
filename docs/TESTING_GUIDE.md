@@ -35,7 +35,7 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 │       │                          │ 5-Level Deep Probes         │ prep/interview/technical/     │
 ├───────┼──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
 │ L7    │ Case & Behavioral Sims   │ 30–45 min Dialogues         │ Consulting cases & STAR-L HR  │
-│       │                          │ Exhibits & Pushback Trees   │ non-core/case-interviews/     │
+│       │                          │ Exhibits & Pushback Trees   │ non-core/02_interview-preparation/case-interviews/     │
 ├───────┼──────────────────────────┼─────────────────────────────┼───────────────────────────────┤
 │ L8    │ Full Live Simulation     │ 45 min End-to-End Interview │ 100-pt scorecard & PPP defense│
 │       │                          │ 3-Layer Interrogation       │ prep/MOCK_INTERVIEW.md        │
@@ -79,7 +79,7 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 - **Protocol:** Primary Question $\to$ Derivation $\to$ Physical Application $\to$ Assumptions $\to$ Numerical Failure Modes.
 
 ### Level 7 & Level 8: Case Simulations & Full Mock Interview
-- **Case Interviews:** [`non-core/case-interviews/case-simulation-suite.md`](../non-core/case-interviews/case-simulation-suite.md) featuring full dialogues, exhibits, MECE issue trees, and interviewer pushback.
+- **Case Interviews:** [`non-core/02_interview-preparation/case-interviews/case-simulation-suite.md`](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) featuring full dialogues, exhibits, MECE issue trees, and interviewer pushback.
 - **Full Live Sim:** [`prep/MOCK_INTERVIEW.md`](../prep/MOCK_INTERVIEW.md) graded on the 100-point performance rubric in [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md).
 
 ---
@@ -103,3 +103,4 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 ---
 
 > **Related Guides:** [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md)
+

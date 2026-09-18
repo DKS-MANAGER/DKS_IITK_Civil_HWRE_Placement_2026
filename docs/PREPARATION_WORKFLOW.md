@@ -20,7 +20,7 @@ What roles?      & non-core       & Full Mocks     prep & CTC      & Case Sims  
 | **02 Learn** | Core subjects, software, non-core fundamentals | [`core/`](../core/) · [`software-and-tech/`](../software-and-tech/) · [`non-core/`](../non-core/) |
 | **03 Practice** | Topic diagnostics, sectionals, full placement mocks | [TESTING_GUIDE.md](TESTING_GUIDE.md) · [`aptitude/`](../aptitude/) · [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) |
 | **04 Strategize** | Company-wise research & compensation review | [COMPANIES.md](COMPANIES.md) · [`resources/placement-data.md`](../resources/placement-data.md) |
-| **05 Interview** | Technical question trees, case sims, behavioral HR | [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md) · [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) · [`non-core/case-interviews/`](../non-core/case-interviews/case-simulation-suite.md) |
+| **05 Interview** | Technical question trees, case sims, behavioral HR | [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md) · [`prep/interview/technical/`](../prep/interview/technical/technical-interview-bank.md) · [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) |
 | **06 Placement** | Composite evaluation, weakness logging & retest | [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) · [`placement-control-panel.md`](placement-control-panel.md) |
 
 ---
@@ -35,7 +35,7 @@ What roles?      & non-core       & Full Mocks     prep & CTC      & Case Sims  
 ### Stage 02 — Learn
 1. Master core engineering and water resources curriculum in [`core/`](../core/) and [`core/hwre/`](../core/hwre/).
 2. Acquire essential computational tools (Python, OpenFOAM, GIS) → [`software-and-tech/README.md`](../software-and-tech/README.md).
-3. Build business and unit economics literacy → [`non-core/common/business-fundamentals.md`](../non-core/common/business-fundamentals.md).
+3. Build business and unit economics literacy → [`non-core/03_common-skills/business-fundamentals/business-fundamentals.md`](../non-core/03_common-skills/business-fundamentals/business-fundamentals.md).
 
 ### Stage 03 — Practice (Assessment Ladder)
 1. **Level 1 (Diagnose):** Take 15-question topic tests to isolate weak modules → [`aptitude/tests/`](../aptitude/tests/README.md).
@@ -50,7 +50,7 @@ What roles?      & non-core       & Full Mocks     prep & CTC      & Case Sims  
 
 ### Stage 05 — Interview
 1. Master the 10 branching technical interview question trees in [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md).
-2. Conduct interactive case simulations with exhibits and pushbacks → [`non-core/case-interviews/case-simulation-suite.md`](../non-core/case-interviews/case-simulation-suite.md).
+2. Conduct interactive case simulations with exhibits and pushbacks → [`non-core/02_interview-preparation/case-interviews/case-simulation-suite.md`](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md).
 3. Prepare the 10 STAR-L behavioral competency archetypes → [BEHAVIOURAL_HR_GUIDE.md](BEHAVIOURAL_HR_GUIDE.md).
 4. Execute day-of-interview triage protocols → [`prep/interview/interview-day-survival.md`](../prep/interview/interview-day-survival.md).
 

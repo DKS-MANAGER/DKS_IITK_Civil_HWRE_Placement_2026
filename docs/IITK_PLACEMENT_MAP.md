@@ -75,10 +75,10 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Industry Profile**: Top-tier strategic management consulting firms, catastrophe risk modeling agencies, and digital tech/analytics powerhouses.
 - **Key Target Companies**: McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Verisk / RMS (Extreme Event Solutions), Deloitte, PwC, Tiger Analytics, EXL Service.
 - **Core Skill Focus**: Structured case cracking (market entry, profitability, supply chain, public infrastructure financing), catastrophe risk modeling (flood hazard mapping, return period exceedance probability, Monte Carlo simulations), SQL, Python data manipulation, Guesstimates.
-- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../non-core/consulting/case-bank.md)).
+- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../non-core/01_roles/consulting/case-bank.md)).
 - **Dedicated Dossiers**:
-  - [`case-bank.md`](../non-core/consulting/case-bank.md) (15 Master Interactive Practice Cases)
-  - [`guesstimate-bank.md`](../non-core/consulting/guesstimate-bank.md)
+  - [`case-bank.md`](../non-core/01_roles/consulting/case-bank.md) (15 Master Interactive Practice Cases)
+  - [`guesstimate-bank.md`](../non-core/01_roles/consulting/guesstimate-bank.md)
   - [`corporate-targets/12_risk-analytics-advisory/`](../prep/company-profiles/corporate-targets/12_risk-analytics-advisory/README.md)
 
 ---
@@ -120,5 +120,6 @@ A critical failure point for IITK M.Tech candidates is failing to pitch their th
 - **Sectional Tests (Quant, DI, Reasoning, Core)**: [`aptitude/tests/section/README.md`](../aptitude/tests/section/README.md)
 - **Full & Expert Mocks**: [`aptitude/mocks/README.md`](../aptitude/mocks/README.md)
 - **Technical Interview Branching Trees**: [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)
-- **Consulting Simulation Suite**: [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md)
+- **Consulting Simulation Suite**: [`non-core/01_roles/consulting/case-bank.md`](../non-core/01_roles/consulting/case-bank.md)
 - **Full Corporate Targets Universe (121 Companies)**: [`prep/company-profiles/corporate-targets/README.md`](../prep/company-profiles/corporate-targets/README.md)
+

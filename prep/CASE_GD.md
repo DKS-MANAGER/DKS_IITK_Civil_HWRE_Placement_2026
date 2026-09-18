@@ -53,7 +53,7 @@ A business problem presented to you to solve aloud. Interviewers assess **struct
 
 | Resource | Content |
 |:---------|:--------|
-| [**Case Simulation Suite**](../non-core/case-interviews/case-simulation-suite.md) | Full-dialogue consulting cases with pushback |
+| [**Case Simulation Suite**](../non-core/02_interview-preparation/case-interviews/case-simulation-suite.md) | Full-dialogue consulting cases with pushback |
 | [Consulting Mock Test](mock-tests/mock-test-consulting.md) | Timed consulting case test |
 | [Strategy Mock Test](mock-tests/mock-test-strategy.md) | Strategy case test |
 | [Product Manager Mock Test](mock-tests/mock-test-product-manager.md) | Product case test |
@@ -103,3 +103,4 @@ A group of candidates discusses a topic. Assessors evaluate **communication, str
 ---
 
 > **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+

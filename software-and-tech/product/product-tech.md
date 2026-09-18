@@ -213,9 +213,10 @@ Step 4: Prioritize improvements
 |:----------------|:-----|
 | Data/Analytics Stack | [`data/`](../data/data-analytics-stack.md) |
 | SQL | [`programming/sql.md`](../programming/sql.md) |
-| Non-Core PM | [`non-core/product-management/`](../../non-core/product-management/pm-overview.md) |
+| Non-Core PM | [`non-core/01_roles/product-management/`](../../non-core/01_roles/product-management/pm-overview.md) |
 | Tech Careers | [`technology-careers/`](../technology-careers/tech-careers.md) |
 
 ---
 
 *See also: [`tech-careers.md`](../technology-careers/tech-careers.md) for the Technical PM track.*
+

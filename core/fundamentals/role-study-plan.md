@@ -337,9 +337,10 @@ Getting selected at a PSU is not just about technical knowledge — it's about u
 
 **Related:**
 → [GATE Civil Notes](../gate/civil/gate-civil-notes.md) — If also preparing for GATE
-→ [Role Selector](../../non-core/role-selector.md) — Compare with other roles
+→ [Role Selector](../../non-core/04_career-preparation/role-selection/role-selector.md) — Compare with other roles
 
 ---
 
 *This study plan follows the [Role Study Plan Template](../../prep/templates/role-study-plan-template.md).*
 *Last updated: 2026-09-04*
+

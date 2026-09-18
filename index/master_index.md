@@ -87,13 +87,13 @@ To eliminate ambiguity across multiple index and navigation files, this reposito
 | **Software** | PLAXIS 2D Geotech | [`software-and-tech/deep-dives/plaxis-2d-tutorial.md`](../software-and-tech/deep-dives/plaxis-2d-tutorial.md) | ✅ Active | P1 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
 | **Software** | Daily Hands-On Practice | [`software-and-tech/practice/README.md`](../software-and-tech/practice/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | — | `[PREPARATION HEURISTIC]` |
 | **Software** | Software Test Battery | [`software-and-tech/tests/README.md`](../software-and-tech/tests/README.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | — | — | `[PREPARATION HEURISTIC]` |
-| **Non-Core** | Consulting Case Bank | [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | — | `[SOURCE-DERIVED]` |
-| **Non-Core** | Consulting Frameworks | [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md) | ✅ Active | P0 | — | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
-| **Non-Core** | Guesstimates & Sizing | [`non-core/guesstimates/guesstimate-guide.md`](../non-core/guesstimates/guesstimate-guide.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
-| **Non-Core** | Technical Stack & SQL | [`non-core/analytics/technical-stack.md`](../non-core/analytics/technical-stack.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
-| **Non-Core** | Product Management | [`non-core/product-management/pm-overview.md`](../non-core/product-management/pm-overview.md) | ✅ Active | P1 | ✅ | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
-| **Non-Core** | Finance for Engineers | [`non-core/finance/finance-overview.md`](../non-core/finance/finance-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
-| **Non-Core** | Supply Chain Management | [`non-core/supply-chain/supply-chain-overview.md`](../non-core/supply-chain/supply-chain-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Consulting Case Bank | [`non-core/01_roles/consulting/case-bank.md`](../non-core/01_roles/consulting/case-bank.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | — | `[SOURCE-DERIVED]` |
+| **Non-Core** | Consulting Frameworks | [`non-core/01_roles/consulting/case-frameworks.md`](../non-core/01_roles/consulting/case-frameworks.md) | ✅ Active | P0 | — | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Guesstimates & Sizing | [`non-core/02_interview-preparation/guesstimates/guesstimate-guide.md`](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) | ✅ Active | P0 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Technical Stack & SQL | [`non-core/01_roles/analytics/technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md) | ✅ Active | P0 | ✅ | ✅ | ✅ | ✅ | ✅ | `[VERIFIED]` |
+| **Non-Core** | Product Management | [`non-core/01_roles/product-management/pm-overview.md`](../non-core/01_roles/product-management/pm-overview.md) | ✅ Active | P1 | ✅ | — | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Finance for Engineers | [`non-core/01_roles/finance/finance-overview.md`](../non-core/01_roles/finance/finance-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
+| **Non-Core** | Supply Chain Management | [`non-core/01_roles/supply-chain/supply-chain-overview.md`](../non-core/01_roles/supply-chain/supply-chain-overview.md) | ✅ Active | P1 | ✅ | ✅ | — | ✅ | ✅ | `[SOURCE-DERIVED]` |
 | **Prep Hub** | Readiness Scorecard | [`prep/READINESS_SCORECARD.md`](../prep/READINESS_SCORECARD.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
 | **Prep Hub** | 30-14-7 Day Execution Plan | [`prep/30_14_7_DAY_PLAN.md`](../prep/30_14_7_DAY_PLAN.md) | ✅ Active | P0 | — | — | — | — | — | `[PREPARATION HEURISTIC]` |
 | **Prep Hub** | Selection Stage Map | [`prep/SELECTION_STAGE_MAP.md`](../prep/SELECTION_STAGE_MAP.md) | ✅ Active | P0 | — | — | — | — | — | `[VERIFIED]` |
@@ -158,3 +158,4 @@ The `index/` layer operates as a **live, machine-validated registry** rather tha
    - `file_inventory.csv` is regenerated across all 10 filesystem categories.
    - `metrics.json` is updated with exact file counts, test batteries, and subsystem metrics.
 2. **Historical Migration Ledger:** Original file migrations from external GitHub repositories are preserved in [`index/SOURCE_MIGRATION_MAP.csv`](SOURCE_MIGRATION_MAP.csv). Do not use `SOURCE_MIGRATION_MAP.csv` for live navigation; always navigate via `master_index.md` or `docs/MASTER_NAVIGATION.md`.
+

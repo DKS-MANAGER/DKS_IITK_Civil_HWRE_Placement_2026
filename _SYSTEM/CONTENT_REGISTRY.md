@@ -42,18 +42,18 @@ This registry tracks which file is the **canonical source** for each topic, and 
 
 | Topic | Canonical File | Related Locations | Action |
 |-------|---------------|-------------------|--------|
-| Consulting | `non-core/consulting/consulting-overview.md` | `non-core/consulting/case-frameworks.md`, `case-bank.md` | KEEP canonical |
-| Product Management | `non-core/product-management/pm-overview.md` | `product-sense.md`, `pm-metrics-strategy.md` | KEEP canonical |
-| Data Analyst | `non-core/data-analyst/da-overview.md` | `statistics-practice.md`, `da-rapid-revision.md` | KEEP canonical |
-| Business Analyst | `non-core/business-analyst/ba-overview.md` | `sql-practice.md`, `ba-rapid-revision.md` | KEEP canonical |
-| Finance | `non-core/finance/finance-overview.md` | `finance-rapid-revision.md` | KEEP canonical |
-| Operations | `non-core/operations/operations-overview.md` | `operations-rapid-revision.md` | KEEP canonical |
-| Supply Chain | `non-core/supply-chain/supply-chain-overview.md` | `supply-chain-rapid-revision.md` | KEEP canonical |
-| Risk | `non-core/risk/risk-overview.md` | `risk-rapid-revision.md` | KEEP canonical |
-| Strategy | `non-core/strategy/strategy-overview.md` | `strategy-rapid-revision.md` | KEEP canonical |
-| Technology | `non-core/technology/tech-overview.md` | `tech-rapid-revision.md` | KEEP canonical |
+| Consulting | `non-core/01_roles/consulting/consulting-overview.md` | `non-core/01_roles/consulting/case-frameworks.md`, `case-bank.md` | KEEP canonical |
+| Product Management | `non-core/01_roles/product-management/pm-overview.md` | `product-sense.md`, `pm-metrics-strategy.md` | KEEP canonical |
+| Data Analyst | `non-core/01_roles/data-analyst/da-overview.md` | `statistics-practice.md`, `da-rapid-revision.md` | KEEP canonical |
+| Business Analyst | `non-core/01_roles/business-analyst/ba-overview.md` | `sql-practice.md`, `ba-rapid-revision.md` | KEEP canonical |
+| Finance | `non-core/01_roles/finance/finance-overview.md` | `finance-rapid-revision.md` | KEEP canonical |
+| Operations | `non-core/01_roles/operations/operations-overview.md` | `operations-rapid-revision.md` | KEEP canonical |
+| Supply Chain | `non-core/01_roles/supply-chain/supply-chain-overview.md` | `supply-chain-rapid-revision.md` | KEEP canonical |
+| Risk | `non-core/01_roles/risk/risk-overview.md` | `risk-rapid-revision.md` | KEEP canonical |
+| Strategy | `non-core/01_roles/strategy/strategy-overview.md` | `strategy-rapid-revision.md` | KEEP canonical |
+| Technology | `non-core/01_roles/technology/tech-overview.md` | `tech-rapid-revision.md` | KEEP canonical |
 | Aptitude | `aptitude/quant/README.md` | 14 quantitative topic files | KEEP canonical |
-| Guesstimates | `non-core/guesstimates/guesstimate-guide.md` | — | KEEP canonical |
+| Guesstimates | `non-core/02_interview-preparation/guesstimates/guesstimate-guide.md` | — | KEEP canonical |
 
 ## Interview/Behavioral Topics
 
@@ -64,7 +64,7 @@ This registry tracks which file is the **canonical source** for each topic, and 
 | HR Interview | `prep/interview/hr/hr-interview-guide.md` | `prep/behavioral/hr_questions/hr-questions-bank.md` | KEEP canonical |
 | Behavioral Guide | `prep/behavioral/behavioral-interview-guide.md` | `prep/behavioral/strategies/answering-strategies.md` | KEEP canonical |
 | Self Introduction | `prep/behavioral/self_intro/self-introduction.md` | `prep/behavioral/self_intro/self-introduction-system.md` | KEEP canonical |
-| Resume Defense | `prep/behavioral/resume-defense-system.md` | `non-core/common/resume.md` | KEEP canonical |
+| Resume Defense | `prep/behavioral/resume-defense-system.md` | `non-core/04_career-preparation/resume-positioning/resume-strategy.md` | KEEP canonical |
 | Story Bank | `prep/behavioral/story-bank/` (6 files) | `prep/behavioral/strategies/follow-up-attack-system.md` | KEEP canonical |
 | HR Questions Bank | `prep/behavioral/hr_questions/hr-questions-bank.md` | `prep/behavioral/hr_questions/hr-technical-hybrid-questions.md` | KEEP canonical |
 
@@ -74,7 +74,7 @@ This registry tracks which file is the **canonical source** for each topic, and 
 |-------|---------------|-------------------|--------|
 | CFD | `software-and-tech/cfd/cfd-tech.md` | `core/hwre/hydraulics/turbulence-modeling.md` | KEEP canonical |
 | Python | `software-and-tech/programming/python.md` | `software-and-tech/automation/automation.md` | KEEP canonical |
-| SQL | `software-and-tech/programming/sql.md` | `non-core/business-analyst/sql-practice.md` | KEEP canonical |
+| SQL | `software-and-tech/programming/sql.md` | `non-core/01_roles/business-analyst/sql-practice.md` | KEEP canonical |
 | MATLAB | `software-and-tech/programming/matlab.md` | — | KEEP canonical |
 | Git | `software-and-tech/programming/git.md` | — | KEEP canonical |
 | HEC-RAS | `software-and-tech/deep-dives/hec-ras-walkthrough.md` | `core/hwre/flood_control/flood-control.md` | KEEP canonical |
@@ -106,9 +106,9 @@ This registry tracks which file is the **canonical source** for each topic, and 
 
 These areas have intentional overlap but serve different audiences. Monitor to prevent drift:
 
-1. **Behavioral/HR:** `prep/behavioral/` (31 files) vs `non-core/common/` (7 files) — core vs non-core framing
-2. **Resume:** `prep/behavioral/resume-defense-system.md` vs `non-core/common/resume.md` vs `non-core/resume-positioning/` (2 files)
-3. **Mock tests:** `prep/mock-tests/` (25 role tests) vs `prep/interview/mock-tests/` (2 files) vs `non-core/mock-interviews/mock-system.md`
+1. **Behavioral/HR:** `prep/behavioral/` (31 files) vs `non-core/03_common-skills/` (7 files) — core vs non-core framing
+2. **Resume:** `prep/behavioral/resume-defense-system.md` vs `non-core/04_career-preparation/resume-positioning/resume-strategy.md` vs `non-core/04_career-preparation/resume-positioning/` (2 files)
+3. **Mock tests:** `prep/mock-tests/` (25 role tests) vs `prep/interview/mock-tests/` (2 files) vs `non-core/02_interview-preparation/mock-interviews/mock-system.md`
 4. **Software deep-dives:** `software-and-tech/deep-dives/` (8 files) vs domain tech files in `software-and-tech/{domain}/`
 
 ## Rules

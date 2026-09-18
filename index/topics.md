@@ -245,7 +245,7 @@ A topic being marked "Covered" or "Active" indicates that baseline notes exist. 
 | Multivariable Calculus & Gradient Vectors | [`aptitude/tests/engineering-math-test.md`](../aptitude/tests/engineering-math-test.md) | P0 | ✅ Active |
 | Ordinary & Partial Differential Equations | [`aptitude/tests/engineering-math-test.md`](../aptitude/tests/engineering-math-test.md) | P0 | ✅ Active |
 | Probability Distributions & Bayes' Theorem | [`aptitude/quant/probability.md`](../aptitude/quant/probability.md) | P0 | ✅ Active |
-| Statistical Inference & Hypothesis Testing | [`non-core/data-analyst/statistics-practice.md`](../non-core/data-analyst/statistics-practice.md) | P1 | ✅ Active |
+| Statistical Inference & Hypothesis Testing | [`non-core/01_roles/data-analyst/statistics-practice.md`](../non-core/01_roles/data-analyst/statistics-practice.md) | P1 | ✅ Active |
 
 ---
 
@@ -259,3 +259,4 @@ A topic being marked "Covered" or "Active" indicates that baseline notes exist. 
 | Data Interpretation | [`aptitude/di/README.md`](../aptitude/di/README.md) | DI Topic Test + Sectional 01 | $\ge 75\%$ score |
 | Verbal Ability & RC | [`aptitude/verbal/README.md`](../aptitude/verbal/README.md) | Verbal Topic Test + Sectional 01 | $\ge 75\%$ score |
 | Full Campus Mocks | [`aptitude/mocks/README.md`](../aptitude/mocks/README.md) | 5 Standard + Hard 01 + Expert 01 | $\ge 70\text{–}75\%$ |
+

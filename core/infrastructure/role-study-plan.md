@@ -45,7 +45,7 @@ PMBOK knowledge areas and the project lifecycle are the foundation of any PM int
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) | §1 PM Fundamentals (lines 11-102) | 92 |
-| [`technical-stack.md`](../../non-core/analytics/technical-stack.md) | PM tools | 215 |
+| [`technical-stack.md`](../../non-core/01_roles/analytics/technical-stack.md) | PM tools | 215 |
 
 ### Worked Example: CPM Network Analysis
 
@@ -418,7 +418,7 @@ Prepare 3 STAR stories for PM context:
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Transport infrastructure
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Construction, compaction
 - [`structures.md`](../structures/structures.md) — Structural integration
-- [`technical-stack.md`](../../non-core/analytics/technical-stack.md) — PM software tools
+- [`technical-stack.md`](../../non-core/01_roles/analytics/technical-stack.md) — PM software tools
 - [`technical-interview-bank.md`](../../prep/interview/technical/technical-interview-bank.md) — 100+ interview questions
 - [`company-profiles.md`](../../prep/company-profiles/company-profiles.md) — Company-specific strategies
 
@@ -433,3 +433,4 @@ Prepare 3 STAR stories for PM context:
 - Gati Shakti Master Plan
 - IS 516, IS 1199, IS 2720, IS 2911, IS 5093
 * [awesome-civil-engineering](https://github.com/awesome-civil-engineering/awesome-civil-engineering)
+

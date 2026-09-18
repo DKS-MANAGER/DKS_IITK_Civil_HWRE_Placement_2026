@@ -180,8 +180,9 @@ See [`software-interview-questions.md`](software-interview-questions.md) for the
 | Software Interview Questions | [`software-interview-questions.md`](software-interview-questions.md) |
 | Project-First Learning | [`project-first-learning.md`](project-first-learning.md) |
 | Priority System | [`priority-system.md`](priority-system.md) |
-| Non-Core Resume | [`non-core/common/resume.md`](../non-core/common/resume.md) |
+| Non-Core Resume | [`non-core/04_career-preparation/resume-positioning/resume-strategy.md`](../non-core/04_career-preparation/resume-positioning/resume-strategy.md) |
 
 ---
 
 *See also: [`software-interview-questions.md`](software-interview-questions.md) for interview prep.*
+

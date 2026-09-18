@@ -1,5 +1,5 @@
 {
-  "markdown_files": 594,
+  "markdown_files": 729,
   "markdown_files_by_subsystem": {
     "root": 3,
     "aptitude": 91,
@@ -8,7 +8,7 @@
     "docs": 42,
     "index": 4,
     "non-core": 75,
-    "prep": 129,
+    "prep": 264,
     "questions": 1,
     "resources": 7,
     "software-and-tech": 71,

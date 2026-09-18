@@ -38,7 +38,7 @@
 
 ### 4. Consulting
 - **Track:** Non-Core
-- **Files:** [`consulting-overview.md`](../non-core/consulting/consulting-overview.md), [`case-frameworks.md`](../non-core/consulting/case-frameworks.md), [`case-bank.md`](../non-core/consulting/case-bank.md)
+- **Files:** [`consulting-overview.md`](../non-core/01_roles/consulting/consulting-overview.md), [`case-frameworks.md`](../non-core/01_roles/consulting/case-frameworks.md), [`case-bank.md`](../non-core/01_roles/consulting/case-bank.md)
 - **Total Words:** 5,421 | **Files:** 3 | **Status:** STRONG
 - **Study Files:** ✅ Frameworks, 15+ cases, worked examples
 - **Question Files:** ✅ 15 questions + 8 behavioral
@@ -109,7 +109,7 @@
 
 ### 11. Product Manager
 - **Track:** Non-Core
-- **Files:** [`pm-overview.md`](../non-core/product-management/pm-overview.md), [`product-sense.md`](../non-core/product-management/product-sense.md), [`pm-metrics-strategy.md`](../non-core/product-management/pm-metrics-strategy.md)
+- **Files:** [`pm-overview.md`](../non-core/01_roles/product-management/pm-overview.md), [`product-sense.md`](../non-core/01_roles/product-management/product-sense.md), [`pm-metrics-strategy.md`](../non-core/01_roles/product-management/pm-metrics-strategy.md)
 - **Total Words:** 2,978 | **Files:** 3 | **Status:** ADEQUATE
 - **Study Files:** ✅ Product sense, metrics, strategy frameworks
 - **Question Files:** ✅ 20 questions across categories
@@ -119,7 +119,7 @@
 
 ### 12. Data Analyst
 - **Track:** Non-Core
-- **Files:** [`da-overview.md`](../non-core/data-analyst/da-overview.md), [`statistics-practice.md`](../non-core/data-analyst/statistics-practice.md)
+- **Files:** [`da-overview.md`](../non-core/01_roles/data-analyst/da-overview.md), [`statistics-practice.md`](../non-core/01_roles/data-analyst/statistics-practice.md)
 - **Total Words:** 2,605 | **Files:** 2 | **Status:** ADEQUATE
 - **Study Files:** ✅ Statistics, SQL, Python basics
 - **Question Files:** ✅ 15 questions + analytical problems
@@ -129,7 +129,7 @@
 
 ### 13. Business Analyst
 - **Track:** Non-Core
-- **Files:** [`ba-overview.md`](../non-core/business-analyst/ba-overview.md), [`sql-practice.md`](../non-core/business-analyst/sql-practice.md)
+- **Files:** [`ba-overview.md`](../non-core/01_roles/business-analyst/ba-overview.md), [`sql-practice.md`](../non-core/01_roles/business-analyst/sql-practice.md)
 - **Total Words:** 2,520 | **Files:** 2 | **Status:** ADEQUATE
 - **Study Files:** ✅ SQL, Excel, data interpretation
 - **Question Files:** ✅ 15 questions + case questions
@@ -159,37 +159,37 @@
 
 ### 16. Finance
 - **Track:** Non-Core
-- **Files:** [`finance-overview.md`](../non-core/finance/finance-overview.md)
+- **Files:** [`finance-overview.md`](../non-core/01_roles/finance/finance-overview.md)
 - **Total Words:** 1,003 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 17. Risk
 - **Track:** Non-Core
-- **Files:** [`risk-overview.md`](../non-core/risk/risk-overview.md)
+- **Files:** [`risk-overview.md`](../non-core/01_roles/risk/risk-overview.md)
 - **Total Words:** 978 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 18. Supply Chain
 - **Track:** Non-Core
-- **Files:** [`supply-chain-overview.md`](../non-core/supply-chain/supply-chain-overview.md)
+- **Files:** [`supply-chain-overview.md`](../non-core/01_roles/supply-chain/supply-chain-overview.md)
 - **Total Words:** 976 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 19. Product Analyst
 - **Track:** Non-Core
-- **Files:** [`pa-overview.md`](../non-core/product-analyst/pa-overview.md)
+- **Files:** [`pa-overview.md`](../non-core/01_roles/product-analyst/pa-overview.md)
 - **Total Words:** 830 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 20. Program/Project Management
 - **Track:** Non-Core
-- **Files:** [`pgm-overview.md`](../non-core/program-management/pgm-overview.md)
+- **Files:** [`pgm-overview.md`](../non-core/01_roles/program-management/pgm-overview.md)
 - **Total Words:** 830 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 21. Operations
 - **Track:** Non-Core
-- **Files:** [`operations-overview.md`](../non-core/operations/operations-overview.md)
+- **Files:** [`operations-overview.md`](../non-core/01_roles/operations/operations-overview.md)
 - **Total Words:** 815 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
@@ -201,19 +201,19 @@
 
 ### 23. Technology (Tech-Adjacent)
 - **Track:** Non-Core
-- **Files:** [`tech-overview.md`](../non-core/technology/tech-overview.md)
+- **Files:** [`tech-overview.md`](../non-core/01_roles/technology/tech-overview.md)
 - **Total Words:** 792 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 24. Strategy
 - **Track:** Non-Core
-- **Files:** [`strategy-overview.md`](../non-core/strategy/strategy-overview.md)
+- **Files:** [`strategy-overview.md`](../non-core/01_roles/strategy/strategy-overview.md)
 - **Total Words:** 751 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
 ### 25. Business Operations
 - **Track:** Non-Core
-- **Files:** [`biz-ops-overview.md`](../non-core/business-operations/biz-ops-overview.md)
+- **Files:** [`biz-ops-overview.md`](../non-core/01_roles/business-operations/biz-ops-overview.md)
 - **Total Words:** 642 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
@@ -230,9 +230,9 @@
 | [`mock-interview-questions.md`](../prep/interview/mock-tests/mock-interview-questions.md) | ~2000+ | Mock interview sets |
 | [`hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md) | ~2500+ | HR interview + negotiation |
 | [`aptitude-basics.md`](../aptitude/quant/README.md) | ~2000+ | Quantitative aptitude |
-| [`guesstimate-guide.md`](../non-core/guesstimates/guesstimate-guide.md) | ~4000+ | 100+ guesstimate questions |
-| [`non-core-prep.md`](../non-core/analytics/non-core-prep.md) | ~1500+ | Analytics prep overview |
-| [`technical-stack.md`](../non-core/analytics/technical-stack.md) | 1479 | Software tools guide |
+| [`guesstimate-guide.md`](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) | ~4000+ | 100+ guesstimate questions |
+| [`non-core-prep.md`](../non-core/01_roles/analytics/non-core-prep.md) | ~1500+ | Analytics prep overview |
+| [`technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md) | 1479 | Software tools guide |
 | [`company-profiles.md`](../prep/company-profiles/company-profiles.md) | ~2000+ | Company profiles hub |
 
 ---
@@ -265,3 +265,4 @@ The core subject files are strong, but the **role-level orchestration** (study p
 
 *Generated: Phase 1 — Role Discovery*
 *Next: Phase 2 — Role Completeness Audit*
+

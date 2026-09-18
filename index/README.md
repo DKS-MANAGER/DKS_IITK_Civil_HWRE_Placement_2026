@@ -79,11 +79,11 @@ Every major repository subsystem is accessible directly from this index:
 
 ### 💼 Non-Core Career Tracks
 - **Hub:** [`non-core/README.md`](../non-core/README.md)
-- **Management Consulting:** [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) & [`case-frameworks.md`](../non-core/consulting/case-frameworks.md)
-- **Guesstimates & Market Sizing:** [`non-core/guesstimates/guesstimate-guide.md`](../non-core/guesstimates/guesstimate-guide.md)
-- **Data Analytics & SQL:** [`non-core/analytics/technical-stack.md`](../non-core/analytics/technical-stack.md)
-- **Product Management:** [`non-core/product-management/pm-overview.md`](../non-core/product-management/pm-overview.md)
-- **Finance & Supply Chain:** [`non-core/finance/finance-overview.md`](../non-core/finance/finance-overview.md), [`non-core/supply-chain/supply-chain-overview.md`](../non-core/supply-chain/supply-chain-overview.md)
+- **Management Consulting:** [`non-core/01_roles/consulting/case-bank.md`](../non-core/01_roles/consulting/case-bank.md) & [`case-frameworks.md`](../non-core/01_roles/consulting/case-frameworks.md)
+- **Guesstimates & Market Sizing:** [`non-core/02_interview-preparation/guesstimates/guesstimate-guide.md`](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md)
+- **Data Analytics & SQL:** [`non-core/01_roles/analytics/technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md)
+- **Product Management:** [`non-core/01_roles/product-management/pm-overview.md`](../non-core/01_roles/product-management/pm-overview.md)
+- **Finance & Supply Chain:** [`non-core/01_roles/finance/finance-overview.md`](../non-core/01_roles/finance/finance-overview.md), [`non-core/01_roles/supply-chain/supply-chain-overview.md`](../non-core/01_roles/supply-chain/supply-chain-overview.md)
 
 ### 🚀 Preparation, Interview & Readiness Hub
 - **Hub:** [`prep/README.md`](../prep/README.md)

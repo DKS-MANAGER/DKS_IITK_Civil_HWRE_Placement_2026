@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/finance/role-study-plan.md)
-- [Finance Overview](../../non-core/finance/finance-overview.md)
+- [Role Study Plan](../../non-core/01_roles/finance/role-study-plan.md)
+- [Finance Overview](../../non-core/01_roles/finance/finance-overview.md)
 - [Mock Test Hub](README.md)

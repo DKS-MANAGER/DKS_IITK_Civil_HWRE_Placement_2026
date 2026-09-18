@@ -60,7 +60,7 @@
 | [`docs/audit/gate_opedia_structure.md`](docs/audit/gate_opedia_structure.md) | [`docs/audit/gate-opedia-structure.md`](docs/audit/gate-opedia-structure.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`index/master_index.md`](index/master_index.md) | [`index/master-index.md`](index/master-index.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`index/topic_map.md`](index/topic_map.md) | [`index/topic-map.md`](index/topic-map.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
-| [`non-core/resume-positioning/resume-templates.md`](non-core/resume-positioning/resume-templates.md) | [`non-core/resume-positioning/resume-templates.md`](non-core/resume-positioning/resume-templates.md) | Generic or ambiguous name | Internal links in parent indices | Low |
+| [`non-core/04_career-preparation/resume-positioning/resume-templates.md`](non-core/04_career-preparation/resume-positioning/resume-templates.md) | [`non-core/04_career-preparation/resume-positioning/resume-templates.md`](non-core/04_career-preparation/resume-positioning/resume-templates.md) | Generic or ambiguous name | Internal links in parent indices | Low |
 | [`prep/30_14_7_DAY_PLAN.md`](prep/30_14_7_DAY_PLAN.md) | [`prep/30-14-7-DAY-PLAN.md`](prep/30-14-7-DAY-PLAN.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`prep/CASE_GD.md`](prep/CASE_GD.md) | [`prep/CASE-GD.md`](prep/CASE-GD.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`prep/INTERVIEW_TOMORROW.md`](prep/INTERVIEW_TOMORROW.md) | [`prep/INTERVIEW-TOMORROW.md`](prep/INTERVIEW-TOMORROW.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
@@ -96,3 +96,4 @@
 | [`software-and-tech/_SYSTEM/SOFTWARE_REPO_MAP.md`](software-and-tech/_SYSTEM/SOFTWARE_REPO_MAP.md) | [`software-and-tech/_SYSTEM/SOFTWARE-REPO-MAP.md`](software-and-tech/_SYSTEM/SOFTWARE-REPO-MAP.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`software-and-tech/_SYSTEM/SOFTWARE_REQUIRED_FILES.md`](software-and-tech/_SYSTEM/SOFTWARE_REQUIRED_FILES.md) | [`software-and-tech/_SYSTEM/SOFTWARE-REQUIRED-FILES.md`](software-and-tech/_SYSTEM/SOFTWARE-REQUIRED-FILES.md) | Underscore instead of hyphen | Internal links in parent indices | Low |
 | [`software-and-tech/software-template.md`](software-and-tech/software-template.md) | [`software-and-tech/software-template.md`](software-and-tech/software-template.md) | Generic or ambiguous name | Internal links in parent indices | Low |
+

@@ -56,7 +56,8 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/product-management/role-study-plan.md)
-- [PM Overview](../../non-core/product-management/pm-overview.md)
-- [Product Sense](../../non-core/product-management/product-sense.md)
+- [Role Study Plan](../../non-core/01_roles/product-management/role-study-plan.md)
+- [PM Overview](../../non-core/01_roles/product-management/pm-overview.md)
+- [Product Sense](../../non-core/01_roles/product-management/product-sense.md)
 - [Mock Test Hub](README.md)
+

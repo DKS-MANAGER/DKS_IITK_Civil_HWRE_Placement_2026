@@ -242,7 +242,7 @@
   - **Consolidation Status:** STAR framework, 50 curated questions with corporate rubric
 
 - **Consulting Case Bank & Frameworks**
-  - **Canonical Destination:** [`non-core/consulting/case-bank.md`](../non-core/consulting/case-bank.md) & [`non-core/consulting/case-frameworks.md`](../non-core/consulting/case-frameworks.md)
+  - **Canonical Destination:** [`non-core/01_roles/consulting/case-bank.md`](../non-core/01_roles/consulting/case-bank.md) & [`non-core/01_roles/consulting/case-frameworks.md`](../non-core/01_roles/consulting/case-frameworks.md)
   - **Source Provenance:** Case in Point, Victor Cheng LOMS, IITK Casebook
   - **Best Source:** IITK Consulting Casebook
   - **Consolidation Status:** 12 worked case simulations with quantitative math verification
@@ -253,3 +253,4 @@
 
 For candidates or developers auditing original file movements from the initial 10-repository consolidation (September 3, 2026), refer to the historical migration ledger:
 - [`index/SOURCE_MIGRATION_MAP.csv`](SOURCE_MIGRATION_MAP.csv)
+

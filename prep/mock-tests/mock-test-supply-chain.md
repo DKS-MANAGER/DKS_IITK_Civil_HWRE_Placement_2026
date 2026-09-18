@@ -113,5 +113,5 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/supply-chain/role-study-plan.md)
+- [Role Study Plan](../../non-core/01_roles/supply-chain/role-study-plan.md)
 - [Mock Test Hub](README.md)

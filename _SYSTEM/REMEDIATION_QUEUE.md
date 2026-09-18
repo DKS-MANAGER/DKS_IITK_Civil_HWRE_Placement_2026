@@ -14,9 +14,9 @@ All P0/P1/P2/P3 items have been reviewed and resolved. The audit's analyze_conte
 |---|----------|------|---------|--------------|--------|
 | 1 | P0 | `core/transportation/transportation-software.md` | 245 words, no examples/MCQs/interview/revision | Enrich with civil software coverage (MS Project, Primavera, AutoCAD Civil, STAAD, etc.) + examples + interview Qs | ✅ RESOLVED — verified 103 lines with full software tables, workflows, case studies, interview Qs |
 | 2 | P0 | `prep/behavioral/self_intro/self-introduction.md` | 3.5/10, no conceptQ/MCQs/interview/revision/links | Add self-interview framework, role-specific variants, follow-ups, common mistakes | ✅ RESOLVED — verified 5 samples, framework, checklist, mistakes, follow-ups, rubric |
-| 3 | P0 | `non-core/analytics/technical-stack.md` | 4.5/10, no examples/MCQs/interview/revision/links | Add interview-relevant Qs, tool comparison tables, project examples | ✅ RESOLVED — verified complete analytics stack guide |
-| 4 | P0 | `non-core/consulting/case-frameworks.md` | 4.0/10, no examples/conceptQ/MCQs/interview/revision | Add worked case examples, framework application guides, interview prep | ✅ RESOLVED — verified 401 lines, 8+ frameworks with diagrams |
-| 5 | P0 | `non-core/consulting/case-bank.md` | 4.0/10, no examples/conceptQ/MCQs/interview/revision | Add solved cases with frameworks, practice cases, interview format | ✅ RESOLVED — verified 412 lines, 12+ cases with full solutions |
+| 3 | P0 | `non-core/01_roles/analytics/technical-stack.md` | 4.5/10, no examples/MCQs/interview/revision/links | Add interview-relevant Qs, tool comparison tables, project examples | ✅ RESOLVED — verified complete analytics stack guide |
+| 4 | P0 | `non-core/01_roles/consulting/case-frameworks.md` | 4.0/10, no examples/conceptQ/MCQs/interview/revision | Add worked case examples, framework application guides, interview prep | ✅ RESOLVED — verified 401 lines, 8+ frameworks with diagrams |
+| 5 | P0 | `non-core/01_roles/consulting/case-bank.md` | 4.0/10, no examples/conceptQ/MCQs/interview/revision | Add solved cases with frameworks, practice cases, interview format | ✅ RESOLVED — verified 412 lines, 12+ cases with full solutions |
 
 ## P1 — High Value (Score 5-6, significant gaps)
 
@@ -25,9 +25,9 @@ All P0/P1/P2/P3 items have been reviewed and resolved. The audit's analyze_conte
 | 6 | P1 | `core/fundamentals/civil-engineering-foundations.md` | 5.0/10, no examples/conceptQ/MCQs/interview | Add solved examples, conceptual Qs, interview prep | ✅ RESOLVED — verified complete foundations guide |
 | 7 | P1 | `prep/interview/quick-revision-system.md` | 5.0/10, thin on content | Enrich with actual revision content per subject | ✅ RESOLVED — verified 1-day/7-day/30-day plans + formulas + checklist (system file, not subject file) |
 | 8 | P1 | `software-and-tech/deep-dives/hec-ras-walkthrough.md` | 5.0/10, needs examples/interview/revision | Add worked examples, interview Qs, quick reference | ✅ RESOLVED — verified 12-step walkthrough + interview Qs |
-| 9 | P1 | `non-core/consulting/consulting-overview.md` | 5.5/10, needs examples/conceptQ/MCQs | Add more depth, case examples, test prep | ✅ RESOLVED — verified complete consulting system |
-| 10 | P1 | `non-core/product-management/pm-overview.md` | 5.5/10, needs conceptQ/MCQs/interview/revision | Add PM interview prep, metrics frameworks, cases | ✅ RESOLVED — verified complete PM system |
-| 11 | P1 | `non-core/analytics/non-core-prep.md` | 6.0/10, needs conceptQ/MCQs/interview | Add practice questions, interview prep | ✅ RESOLVED — verified complete analytics prep |
+| 9 | P1 | `non-core/01_roles/consulting/consulting-overview.md` | 5.5/10, needs examples/conceptQ/MCQs | Add more depth, case examples, test prep | ✅ RESOLVED — verified complete consulting system |
+| 10 | P1 | `non-core/01_roles/product-management/pm-overview.md` | 5.5/10, needs conceptQ/MCQs/interview/revision | Add PM interview prep, metrics frameworks, cases | ✅ RESOLVED — verified complete PM system |
+| 11 | P1 | `non-core/01_roles/analytics/non-core-prep.md` | 6.0/10, needs conceptQ/MCQs/interview | Add practice questions, interview prep | ✅ RESOLVED — verified complete analytics prep |
 | 12 | P1 | `aptitude/quant/README.md` | 6.0/10, needs conceptQ/MCQs/interview | Add more MCQs, speed tricks, test format | ✅ RESOLVED — verified complete aptitude guide |
 | 13 | P1 | `core/gate/civil/gate-civil-notes.md` | 6.5/10, needs conceptQ/interview | Add conceptual deep-dive questions, interview mapping | ✅ RESOLVED — verified complete GATE notes |
 
@@ -39,10 +39,10 @@ All P0/P1/P2/P3 items have been reviewed and resolved. The audit's analyze_conte
 | 15 | P2 | `core/gate/practice/gate-civil-practice.md` | 7.5/10, needs conceptQ/interview | Add explanation depth | ✅ RESOLVED — verified complete practice set |
 | 16 | P2 | `core/gate/revision_notes/gate-civil-revision.md` | 7.5/10, needs conceptQ/interview | Add key insights | ✅ RESOLVED — verified complete revision notes |
 | 17 | P2 | `prep/behavioral/behavioral-interview-guide.md` | 7.0/10, needs examples/revision | Add more example answers, quick revision | ✅ RESOLVED — verified complete behavioral guide |
-| 18 | P2 | `non-core/consulting/case-frameworks.md` | 7.0/10 (if counted) | Add worked examples | ✅ RESOLVED — verified 401 lines with worked examples |
+| 18 | P2 | `non-core/01_roles/consulting/case-frameworks.md` | 7.0/10 (if counted) | Add worked examples | ✅ RESOLVED — verified 401 lines with worked examples |
 | 19 | P2 | `software-and-tech/deep-dives/openfoam-case-study.md` | 6.0/10 | Add interview Qs, revision | ✅ RESOLVED — verified complete case study |
-| 20 | P2 | `non-core/product-management/pm-metrics-strategy.md` | Not yet scored | Audit & enrich | ✅ RESOLVED — verified complete metrics guide |
-| 21 | P2 | `non-core/product-management/product-sense.md` | Not yet scored | Audit & enrich | ✅ RESOLVED — verified complete product sense guide |
+| 20 | P2 | `non-core/01_roles/product-management/pm-metrics-strategy.md` | Not yet scored | Audit & enrich | ✅ RESOLVED — verified complete metrics guide |
+| 21 | P2 | `non-core/01_roles/product-management/product-sense.md` | Not yet scored | Audit & enrich | ✅ RESOLVED — verified complete product sense guide |
 
 ## P3 — Systemic Gaps (Cross-cutting)
 
@@ -70,3 +70,4 @@ All P0/P1/P2/P3 items have been reviewed and resolved. The audit's analyze_conte
 - Update AUDIT_STATE.md after each unit
 - Do not overwrite good content — extend it
 - Never create empty placeholders
+

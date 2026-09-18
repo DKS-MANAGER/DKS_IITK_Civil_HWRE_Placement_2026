@@ -158,9 +158,10 @@ Skip SQL/Python IF:
 | Related Section | Link |
 |:----------------|:-----|
 | Data/Analytics Stack | [`data/`](../data/data-analytics-stack.md) |
-| Non-Core Consulting | [`non-core/consulting/`](../../non-core/consulting/consulting-overview.md) |
-| Non-Core Case Frameworks | [`non-core/consulting/case-frameworks.md`](../../non-core/consulting/case-frameworks.md) |
+| Non-Core Consulting | [`non-core/01_roles/consulting/`](../../non-core/01_roles/consulting/consulting-overview.md) |
+| Non-Core Case Frameworks | [`non-core/01_roles/consulting/case-frameworks.md`](../../non-core/01_roles/consulting/case-frameworks.md) |
 
 ---
 
 *See also: [`data-analytics-stack.md`](../data/data-analytics-stack.md) for the full data stack.*
+

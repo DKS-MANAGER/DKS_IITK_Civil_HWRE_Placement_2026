@@ -73,7 +73,7 @@
 
 | Subsystem | Content | Canonical Location |
 |:----------|:--------|:-------------------|
-| [`analytics/`](analytics/) | Non-Core Prep Resources · Technical Stack | [`non-core/analytics/`](analytics/non-core-prep.md) |
+| [`analytics/`](analytics/) | Non-Core Prep Resources · Technical Stack | [`non-core/01_roles/analytics/`](analytics/non-core-prep.md) |
 | **Aptitude System** | 720 Quant Qs · 400 Reasoning Qs · 372 Verbal Qs · Formula Sheets | [`aptitude/`](../aptitude/README.md) |
 
 ---
@@ -158,3 +158,4 @@ Your Civil / M.Tech background is **not a weakness** â€” it's a differentia
 ---
 
 *This is the IITK Civil Non-Core Placement Operating System â€” built for IITK students, by understanding what IITK students actually face.*
+

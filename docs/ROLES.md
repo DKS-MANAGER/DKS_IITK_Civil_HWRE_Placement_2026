@@ -10,12 +10,12 @@
 |:-----|:------|:------------|:--------------|
 | **Civil / Structural Engineer** | Core Civil | Structures, geotech, transport, env | [`core/README.md`](../core/README.md) |
 | **HWRE Engineer** | HWRE | Hydraulics, hydrology, water resources | [`core/hwre/README.md`](../core/hwre/README.md) |
-| **Data Analyst** | Non-Core | Statistics, SQL, Python, visualization | [`non-core/data-analyst/`](../non-core/data-analyst/) |
-| **Business Analyst** | Non-Core | Case interviews, guesstimates, aptitude | [`non-core/business-analyst/`](../non-core/business-analyst/) |
-| **Product Manager** | Non-Core | Product sense, case, behavioural | [`non-core/product-management/`](../non-core/product-management/) |
+| **Data Analyst** | Non-Core | Statistics, SQL, Python, visualization | [`non-core/01_roles/data-analyst/`](../non-core/01_roles/data-analyst/) |
+| **Business Analyst** | Non-Core | Case interviews, guesstimates, aptitude | [`non-core/01_roles/business-analyst/`](../non-core/01_roles/business-analyst/) |
+| **Product Manager** | Non-Core | Product sense, case, behavioural | [`non-core/01_roles/product-management/`](../non-core/01_roles/product-management/) |
 | **Software Engineer** | Software & Tech | DSA, programming, system design | [`software-and-tech/README.md`](../software-and-tech/README.md) |
-| **Consultant** | Non-Core | Case interviews, frameworks | [`non-core/consulting/`](../non-core/consulting/) |
-| **Finance / Risk** | Non-Core | Quant, financial concepts | [`non-core/finance/`](../non-core/finance/) · [`non-core/risk/`](../non-core/risk/) |
+| **Consultant** | Non-Core | Case interviews, frameworks | [`non-core/01_roles/consulting/`](../non-core/01_roles/consulting/) |
+| **Finance / Risk** | Non-Core | Quant, financial concepts | [`non-core/01_roles/finance/`](../non-core/01_roles/finance/) · [`non-core/01_roles/risk/`](../non-core/01_roles/risk/) |
 
 ---
 
@@ -42,3 +42,4 @@ Which companies hire for which role → [COMPANIES.md](COMPANIES.md).
 ---
 
 > **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [Main README](../README.md)
+

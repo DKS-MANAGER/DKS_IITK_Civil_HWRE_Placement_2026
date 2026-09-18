@@ -56,6 +56,6 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/strategy/role-study-plan.md)
-- [Strategy Overview](../../non-core/strategy/strategy-overview.md)
+- [Role Study Plan](../../non-core/01_roles/strategy/role-study-plan.md)
+- [Strategy Overview](../../non-core/01_roles/strategy/strategy-overview.md)
 - [Mock Test Hub](README.md)

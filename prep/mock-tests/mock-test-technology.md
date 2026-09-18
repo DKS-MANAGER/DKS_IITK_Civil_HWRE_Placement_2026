@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../non-core/technology/role-study-plan.md)
+- [Role Study Plan](../../non-core/01_roles/technology/role-study-plan.md)
 - [Programming](../../software-and-tech/programming/README.md)
 - [Mock Test Hub](README.md)

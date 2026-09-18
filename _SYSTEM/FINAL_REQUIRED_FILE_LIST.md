@@ -84,26 +84,26 @@
 
 | Unit | File | Status |
 |------|------|--------|
-| Consulting | `non-core/consulting/` (6 files) | ✅ EXISTS |
-| Product Management | `non-core/product-management/` (6 files) | ✅ EXISTS |
-| Data Analyst | `non-core/data-analyst/` (5 files) | ✅ EXISTS |
-| Business Analyst | `non-core/business-analyst/` (5 files) | ✅ EXISTS |
-| Finance | `non-core/finance/` (4 files) | ✅ EXISTS |
-| Operations | `non-core/operations/` (4 files) | ✅ EXISTS |
-| Supply Chain | `non-core/supply-chain/` (3 files) | ✅ EXISTS |
-| Risk | `non-core/risk/` (4 files) | ✅ EXISTS |
-| Strategy | `non-core/strategy/` (4 files) | ✅ EXISTS |
-| Technology | `non-core/technology/` (3 files) | ✅ EXISTS |
-| Product Analyst | `non-core/product-analyst/` (3 files) | ✅ EXISTS |
-| Program Management | `non-core/program-management/` (3 files) | ✅ EXISTS |
-| Business Operations | `non-core/business-operations/` (3 files) | ✅ EXISTS |
-| Analytics | `non-core/analytics/` (2 files) | ✅ EXISTS |
+| Consulting | `non-core/01_roles/consulting/` (6 files) | ✅ EXISTS |
+| Product Management | `non-core/01_roles/product-management/` (6 files) | ✅ EXISTS |
+| Data Analyst | `non-core/01_roles/data-analyst/` (5 files) | ✅ EXISTS |
+| Business Analyst | `non-core/01_roles/business-analyst/` (5 files) | ✅ EXISTS |
+| Finance | `non-core/01_roles/finance/` (4 files) | ✅ EXISTS |
+| Operations | `non-core/01_roles/operations/` (4 files) | ✅ EXISTS |
+| Supply Chain | `non-core/01_roles/supply-chain/` (3 files) | ✅ EXISTS |
+| Risk | `non-core/01_roles/risk/` (4 files) | ✅ EXISTS |
+| Strategy | `non-core/01_roles/strategy/` (4 files) | ✅ EXISTS |
+| Technology | `non-core/01_roles/technology/` (3 files) | ✅ EXISTS |
+| Product Analyst | `non-core/01_roles/product-analyst/` (3 files) | ✅ EXISTS |
+| Program Management | `non-core/01_roles/program-management/` (3 files) | ✅ EXISTS |
+| Business Operations | `non-core/01_roles/business-operations/` (3 files) | ✅ EXISTS |
+| Analytics | `non-core/01_roles/analytics/` (2 files) | ✅ EXISTS |
 | Aptitude | `aptitude/` (18 files) | ✅ EXISTS |
-| Common | `non-core/common/` (7 files) | ✅ EXISTS |
-| Guesstimates | `non-core/guesstimates/guesstimate-guide.md` | ✅ EXISTS |
-| Mock Interviews | `non-core/mock-interviews/mock-system.md` | ✅ EXISTS |
-| Quick Revision | `non-core/quick-revision/quick-revision.md` | ✅ EXISTS |
-| Resume Positioning | `non-core/resume-positioning/` (2 files) | ✅ EXISTS |
+| Common | `non-core/03_common-skills/` (7 files) | ✅ EXISTS |
+| Guesstimates | `non-core/02_interview-preparation/guesstimates/guesstimate-guide.md` | ✅ EXISTS |
+| Mock Interviews | `non-core/02_interview-preparation/mock-interviews/mock-system.md` | ✅ EXISTS |
+| Quick Revision | `non-core/05_rapid-revision/quick-revision.md` | ✅ EXISTS |
+| Resume Positioning | `non-core/04_career-preparation/resume-positioning/` (2 files) | ✅ EXISTS |
 | Hub | `non-core/README.md`, `role-selector.md`, `placement-roadmap.md` | ✅ EXISTS |
 
 ## Software & Tech (`software-and-tech/`)
@@ -170,10 +170,10 @@
 |------|-----|
 | `prep/interview/quick-revision-system.md` | 5.0/10 — needs actual revision content |
 | `prep/behavioral/self_intro/self-introduction.md` | 5.5/10 — needs follow-ups, variants |
-| `non-core/consulting/case-frameworks.md` | 5.5/10 — needs worked examples |
-| `non-core/consulting/case-bank.md` | 5.5/10 — needs solved cases |
-| `non-core/consulting/consulting-overview.md` | 5.5/10 — needs examples, MCQs |
-| `non-core/product-management/pm-overview.md` | 5.5/10 — needs conceptQ, interview |
+| `non-core/01_roles/consulting/case-frameworks.md` | 5.5/10 — needs worked examples |
+| `non-core/01_roles/consulting/case-bank.md` | 5.5/10 — needs solved cases |
+| `non-core/01_roles/consulting/consulting-overview.md` | 5.5/10 — needs examples, MCQs |
+| `non-core/01_roles/product-management/pm-overview.md` | 5.5/10 — needs conceptQ, interview |
 | `software-and-tech/deep-dives/hec-ras-walkthrough.md` | 5.0/10 — needs examples, interview |
 
 ### P1 — High Value
@@ -181,7 +181,7 @@
 |------|-----|
 | `core/fundamentals/civil-engineering-foundations.md` | 6.5/10 — needs conceptQ, MCQs, interview |
 | `core/gate/civil/gate-civil-notes.md` | 6.5/10 — needs conceptQ, interview |
-| `non-core/analytics/non-core-prep.md` | 6.0/10 — needs MCQs, interview |
+| `non-core/01_roles/analytics/non-core-prep.md` | 6.0/10 — needs MCQs, interview |
 | `aptitude/quant/README.md` | 6.0/10 — needs more MCQs |
 | `software-and-tech/deep-dives/openfoam-case-study.md` | 6.0/10 — needs interview Qs, revision |
 | `prep/behavioral/behavioral-interview-guide.md` | 7.0/10 — needs examples, revision |
@@ -221,3 +221,4 @@ A student can:
 7. Map to companies (33+ profiles)
 
 **All without hitting a placeholder or heading-only file.**
+

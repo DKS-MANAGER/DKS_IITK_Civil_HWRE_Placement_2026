@@ -100,4 +100,5 @@ To operationalize this hiring data into daily preparation workflows:
 - **Core Engineering:** [HWRE Hub](../core/hwre/README.md) · [Hydrodynamics & CFD](../core/hydrodynamics/README.md)
 - **Role Mock Tests:** [prep/mock-tests/](../prep/mock-tests/)
 - **General Aptitude Mocks:** [aptitude/mocks/](../aptitude/mocks/README.md)
-- **Claim Defense:** [RESUME_DEFENSE.md](../prep/RESUME/RESUME_DEFENSE.md) · [interview-readiness.md](../non-core/common/interview-readiness.md)
+- **Claim Defense:** [RESUME_DEFENSE.md](../prep/RESUME/RESUME_DEFENSE.md) · [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md)
+

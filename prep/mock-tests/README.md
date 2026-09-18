@@ -9,7 +9,7 @@
 | Resource | Content |
 |:---------|:--------|
 | [Mock Interview Questions](../interview/mock-tests/mock-interview-questions.md) | Mock interview question bank with scorecard |
-| [Mock Interview System](../../non-core/mock-interviews/mock-system.md) | 10 mock formats with scoring rubrics |
+| [Mock Interview System](../../non-core/02_interview-preparation/mock-interviews/mock-system.md) | 10 mock formats with scoring rubrics |
 
 ---
 
@@ -63,7 +63,7 @@ MOCK QUESTIONS → MOCK SYSTEM → ROLE-SPECIFIC TEST → SCORECARD
 | Stage | What to Do | Where |
 |:------|:-----------|:------|
 | **Mock Questions** | Practice the question bank | [Mock Interview Questions](../interview/mock-tests/mock-interview-questions.md) |
-| **Mock System** | Run structured mock formats | [Mock Interview System](../../non-core/mock-interviews/mock-system.md) |
+| **Mock System** | Run structured mock formats | [Mock Interview System](../../non-core/02_interview-preparation/mock-interviews/mock-system.md) |
 | **Role-Specific Test** | Take the timed test for your target role | [Role Mock Tests](#role-specific-mock-tests-25) |
 | **Scorecard** | Self-assess and revisit weak areas | Each mock test includes a scorecard |
 

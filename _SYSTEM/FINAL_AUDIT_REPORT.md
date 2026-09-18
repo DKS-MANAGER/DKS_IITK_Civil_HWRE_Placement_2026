@@ -61,15 +61,15 @@ The repository is a mature, genuinely studyable placement preparation OS. It has
 | File | Level | Problem | Fix Required |
 |------|-------|---------|--------------|
 | `prep/interview/quick-revision-system.md` | L2 (5.0) | Thin on actual revision content | Add per-subject revision content |
-| `non-core/consulting/case-frameworks.md` | L2 (5.5) | No worked examples | Add solved framework applications |
-| `non-core/consulting/case-bank.md` | L2 (5.5) | No solved cases | Add solved cases with frameworks |
-| `non-core/consulting/consulting-overview.md` | L2 (5.5) | No examples/MCQs | Add depth, case examples |
-| `non-core/product-management/pm-overview.md` | L2 (5.5) | No conceptQ/interview | Add PM interview prep, metrics |
+| `non-core/01_roles/consulting/case-frameworks.md` | L2 (5.5) | No worked examples | Add solved framework applications |
+| `non-core/01_roles/consulting/case-bank.md` | L2 (5.5) | No solved cases | Add solved cases with frameworks |
+| `non-core/01_roles/consulting/consulting-overview.md` | L2 (5.5) | No examples/MCQs | Add depth, case examples |
+| `non-core/01_roles/product-management/pm-overview.md` | L2 (5.5) | No conceptQ/interview | Add PM interview prep, metrics |
 | `prep/behavioral/self_intro/self-introduction.md` | L2 (5.5) | No follow-ups/variants | Add role-specific variants |
 | `software-and-tech/deep-dives/hec-ras-walkthrough.md` | L2 (5.0) | No examples/interview | Add worked examples, interview Qs |
 | `core/fundamentals/civil-engineering-foundations.md` | L3 (6.5) | No conceptQ/MCQs/interview | Add solved examples, interview prep |
 | `core/gate/civil/gate-civil-notes.md` | L3 (6.5) | No conceptQ/interview | Add conceptual deep-dive Qs |
-| `non-core/analytics/non-core-prep.md` | L3 (6.0) | No MCQs/interview | Add practice Qs, interview prep |
+| `non-core/01_roles/analytics/non-core-prep.md` | L3 (6.0) | No MCQs/interview | Add practice Qs, interview prep |
 | `aptitude/quant/README.md` | L3 (6.0) | Few MCQs | Add more MCQs, speed tricks |
 | `software-and-tech/deep-dives/openfoam-case-study.md` | L3 (6.0) | No interview/revision | Add interview Qs, revision |
 | `prep/behavioral/behavioral-interview-guide.md` | L3 (7.0) | No examples/revision | Add example answers, revision |
@@ -83,9 +83,9 @@ The repository is a mature, genuinely studyable placement preparation OS. It has
 
 | Canonical | Duplicate | Action |
 |-----------|-----------|--------|
-| `prep/behavioral/behavioral-interview-guide.md` | `non-core/common/behavioral.md` | KEEP both — different audiences (core vs non-core) |
-| `prep/behavioral/hr_questions/hr-questions-bank.md` | `non-core/common/hr.md` | KEEP both — HR bank is detailed, common/hr is overview |
-| `prep/behavioral/resume-defense-system.md` | `non-core/common/resume.md` | KEEP both — different depth |
+| `prep/behavioral/behavioral-interview-guide.md` | `non-core/02_interview-preparation/behavioral/behavioral-mastery.md` | KEEP both — different audiences (core vs non-core) |
+| `prep/behavioral/hr_questions/hr-questions-bank.md` | `non-core/02_interview-preparation/behavioral/hr-questions.md` | KEEP both — HR bank is detailed, common/hr is overview |
+| `prep/behavioral/resume-defense-system.md` | `non-core/04_career-preparation/resume-positioning/resume-strategy.md` | KEEP both — different depth |
 | `prep/mock-tests/` (25 tests) | `prep/interview/mock-tests/` (2 files) | KEEP both — different formats (role tests vs interview Qs) |
 | `core/hwre/hydrology/hydrology.md` | `core/hwre/water_resources/water-resources-engineering.md` | KEEP both — distinct subjects |
 
@@ -188,3 +188,4 @@ These materially reduce placement readiness and should be addressed in priority 
 The repository **passes the success criterion**. A student can choose a role (25 available) or company (33+ profiles), reach the relevant material, study it (theory + formulae + examples), practice it (numerical problems), test themselves (25 role mock tests), prepare interview questions (96 Q&As + behavioral), and perform rapid revision — **without discovering a placeholder or heading-only file**.
 
 The remaining work is **enrichment, not creation**. No study-material files are missing. The 72 EXTEND items and 3 CREATE items (all system files) represent the path from 8.6/10 to 9.5+/10.
+

@@ -162,7 +162,7 @@ The [**Tool Deep-Dives**](deep-dives/README.md) directory provides step-by-step 
 | Aptitude Assessment | [`aptitude/`](../aptitude/) |
 | GIS Tools (Existing) | [`resources/gis-tools.md`](../resources/gis-tools.md) |
 | Transportation Software (Existing) | [`core/transportation/transportation-software.md`](../core/transportation/transportation-software.md) |
-| Technical Stack (Existing) | [`non-core/analytics/technical-stack.md`](../non-core/analytics/technical-stack.md) |
+| Technical Stack (Existing) | [`non-core/01_roles/analytics/technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md) |
 
 ---
 
@@ -203,3 +203,4 @@ Priority order:
 ---
 
 *Created as part of the IITK Civil & HWRE Placement Preparation 2026 repository.*
+

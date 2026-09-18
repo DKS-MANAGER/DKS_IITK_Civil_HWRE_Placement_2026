@@ -34,9 +34,9 @@
 | **5. Full Placement Mocks** | 🟢 | Progressive Mock Scores (Mock 01 to 05) | $\ge 75.0\%$ under $60\text{ min}$ | M01: $82\%$, M02: $84\%$, M03: $78\%$ `[OBSERVED IN TIMED RUN]` | [aptitude/mocks/](../aptitude/mocks/README.md) |
 | **6. Core Technical (Civil/HWRE)** | 🟢 | OpenFOAM / Hydrodynamics / Hydrology depth | $\ge 85.0\%$ on core bank | $100\%$ syllabus covered `[SELF-REPORTED]` | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
 | **7. Behavioral & HR Stories** | 🟢 | STAR-L stories tested under follow-up probes | $\ge 7$ distinct tested stories | $10$ stories scripted & audited `[SELF-REPORTED]` | [behavioral/](behavioral/question-master-database.md) |
-| **8. Non-Core Business Reasoning** | 🟢 | EBITDA vs OCF, unit economics mini-cases | $\ge 85.0\%$ case solve rate | $100\%$ pass on core cases `[OBSERVED IN TIMED RUN]` | [business-fundamentals.md](../non-core/common/business-fundamentals.md) |
+| **8. Non-Core Business Reasoning** | 🟢 | EBITDA vs OCF, unit economics mini-cases | $\ge 85.0\%$ case solve rate | $100\%$ pass on core cases `[OBSERVED IN TIMED RUN]` | [business-fundamentals.md](../non-core/03_common-skills/business-fundamentals/business-fundamentals.md) |
 | **9. Guesstimates & Case Structuring** | 🟡 | MECE issue decomposition & sanity checking | $\ge 80.0\%$ on 7-pt rubric | $76.0\%$ (speed bottleneck) `[OBSERVED IN TIMED RUN]` | [CASE_GD.md](CASE_GD.md) |
-| **10. End-to-End Mock Interview** | 🟢 | 100-Point Scorecard composite grade | $\ge 85.0 / 100$ | $88.5 / 100$ `[OBSERVED IN TIMED RUN]` | [interview-readiness.md](../non-core/common/interview-readiness.md) |
+| **10. End-to-End Mock Interview** | 🟢 | 100-Point Scorecard composite grade | $\ge 85.0 / 100$ | $88.5 / 100$ `[OBSERVED IN TIMED RUN]` | [interview-readiness.md](../non-core/02_interview-preparation/mock-interviews/interview-readiness.md) |
 
 ---
 
@@ -120,7 +120,7 @@ Aligned with [`docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE
 │ Level 4: Hard & Expert   │ High-selectivity analytics  │ aptitude/mocks/ (Hard & Expert) │
 │ Level 5: Role OA Mocks   │ Company-calibrated technical│ prep/mock-tests/ (25 tests)     │
 │ Level 6: Technical Trees │ Branching oral defense      │ prep/technical/civil-technical..│
-│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ non-core/consulting/ & prep/hr..│
+│ Level 7: Case & HR Sims  │ Consulting & STAR probes    │ non-core/01_roles/consulting/ & prep/hr..│
 │ Level 8: Full Live Sim   │ End-to-end 45-min panel     │ prep/MOCK_INTERVIEW.md          │
 └──────────────────────────┴─────────────────────────────┴─────────────────────────────────┘
 ```
@@ -131,6 +131,7 @@ Aligned with [`docs/ASSESSMENT_ARCHITECTURE.md`](../docs/ASSESSMENT_ARCHITECTURE
 
 - [ ] **Resume Verification:** Re-read all 3-layer defense talking points in [RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md).
 - [ ] **Introduction Tuning:** Deliver the 90-second PPP introduction aloud 3 times with stopwatch ($75\text{–}90\text{ s}$).
-- [ ] **Core Formula Mental Run:** Quick 15-minute scan of [Aptitude Formula Sheet](../aptitude/FORMULA_SHEET.md) and [Business Fundamentals](../non-core/common/business-fundamentals.md).
+- [ ] **Core Formula Mental Run:** Quick 15-minute scan of [Aptitude Formula Sheet](../aptitude/FORMULA_SHEET.md) and [Business Fundamentals](../non-core/03_common-skills/business-fundamentals/business-fundamentals.md).
 - [ ] **Company Strategic Dossier:** Review 3 recent strategic initiatives and specific team challenges for tomorrow's firm in [Company Profiles](company-profiles/).
 - [ ] **Emergency Triage Protocol:** If compressed for time, execute [INTERVIEW_TOMORROW.md](INTERVIEW_TOMORROW.md).
+
