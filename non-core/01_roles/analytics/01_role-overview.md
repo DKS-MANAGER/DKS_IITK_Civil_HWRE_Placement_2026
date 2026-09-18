@@ -1,134 +1,32 @@
-# Non-Core Preparation Guide
+# 01. Analytics & Business Intelligence: Role Overview
 
-For Civil/HWRE students targeting analytics, consulting, and tech-adjacent roles.
-
-## Data Analytics & Quant
-
-### SQL
-| Topic | Resource | Notes |
-|-------|----------|-------|
-| **SQL basics** | [Data-Analysis-Questions-Pandas-NumPy-SQL](https://github.com/vansh-py04/Data-Analysis-Questions-Pandas-NumPy-SQL) | 450+ hands-on Pandas/NumPy/SQL problems; shortlist filter for analytics roles [web:51] |
-| **SQL interview depth** | [Data-Science-Interview-Resources](https://github.com/rbhatia46/Data-Science-Interview-Resources) | SQL + stats + case studies; good for structured prep and portfolio framing [web:58] |
-| **Pandas interview drill** | [Pandas-Interview-Preparation](https://github.com/rohanmistry231/Pandas-Interview-Preparation) | Interview-style data wrangling; focus on joins, groupby, reshaping, missing-data handling [web:53] |
-| **SQL commands** | [Interviewbit SQL Commands](https://www.interviewbit.com/tutorial/sql-command-help/) | Reference for common SQL operations |
-
-### Statistics & Probability
-| Topic | Resource | Notes |
-|-------|----------|-------|
-| **Probability & Stats** | Sheldon Ross (textbook) | Quant screening, PSU aptitude, analytics OA |
-| **Conditional probability** | Textbooks + online | Focus on Bayes theorem applications |
-| **Random variables** | Ross / online courses | Mean, variance, moment generating functions |
-| **Distributions** | NumPy/SciPy documentation | Normal, binomial, Poisson, t-distribution |
-| **Hypothesis testing** | Online courses | Type I/II errors, confidence intervals |
-
-### Excel / Power BI
-| Tool | Use Case |
-|------|----------|
-| **Microsoft Excel** | Pivot tables, VLOOKUP/HLOOKUP, macros, data analysis |
-| **Power BI** | Dashboards, KPI storytelling, data visualization |
-
-### Python for Analytics
-| Library | Use Case |
-|---------|----------|
-| **Pandas** | Data cleaning, manipulation, EDA |
-| **NumPy** | Numerical operations, vectorization |
-| **Matplotlib/Seaborn** | Visualization, plotting |
-| **Scikit-learn** | Machine learning models, preprocessing |
-| **Statsmodels** | Statistical tests, regression analysis |
-
-### Case Study Practice
-- [Data-Science-Analytical-Handbook](https://moshesham.github.io/Data-Science-Analytical-Handbook/exercises/) - Simulate timed solve → explain → review loop; strong for interview cadence [web:54]
-
-## Aptitude & Logical Reasoning
-
-### Quantitative Aptitude
-| Topic | Resource | Notes |
-|-------|----------|-------|
-| **Speed math** | RS Aggarwal | Percentages, ratios, time-work, TSD |
-| **Data interpretation** | Spreadsheet drills | Tables, charts, growth rates, ratio comparisons |
-| **Practice** | [IndiaBix](https://www.indiabix.com/) | At least 1 hour per week |
-
-### Logical Reasoning
-| Topic | Resource |
-|-------|----------|
-| **Puzzles** | [Aptitude-and-reasoning-100-interview](https://github.com/rShearer/behavioral-interview-list-of-questions) | Seating, arrangements, constraints [web:50] |
-| **Graph theory** | Hackerearth tutorials | Graph representation, traversal |
-| **Visual Algo** | [Visualgo](https://visualgo.net/en) | Algorithm visualization |
-
-### Verbal Ability
-| Topic | Resource |
-|-------|----------|
-| **Vocabulary** | GRE-level word lists | For HR/GD rounds |
-| **Grammar** | Online resources | Error spotting, sentence correction |
-| **Communication** | [Communication Skills YT](https://www.youtube.com/watch?v=iqeghm8Uut8) | Presentation skills |
-
-## Targeted Drill Protocol
-
-### Daily (20–30 min)
-1. **Aptitude drill**: 5–10 problems (speed math, DI)
-2. **SQL/Python**: 1–2 coding problems
-
-### Weekly
-1. **1 timed analytics OA set** (simulate company test environment)
-2. **1 PSU-style technical quiz**
-3. **1 mock HR/GD**
-
-### Monthly
-1. **Full-length quant mock** (3 hours)
-2. **Case summary** (business case write-up)
-3. **Resume refresh** (update with latest projects/skills)
-4. **Error-log revision** (review mistakes from past month)
-
-## Output Tracking
-
-- Every solved problem set archived with timestamp
-- Mistakes logged with corrected method/explanation
-- Performance metrics tracked: accuracy, time per question, topic-wise scores
-
-## Analytics/Quant Track Companies
-
-### Case + Coding Companies
-| Company | Profile | Focus Areas |
-|---------|---------|-------------|
-| **Merilytics** | Analyst | EDA, metrics, reproducibility, insight synthesis |
-| **DE Shaw** | Quant | Probability, coding, combinatorics, brainteasers |
-| **Tower/Tower Research** | Quant | Estimation, fast implementation |
-| **Optiver** | Quant | Probability, combinatorics, fast mental math |
-| **AgniKul Cosmos** | Engineer | CFD, propulsion, system modeling |
-
-### Data Science Companies
-| Company | Profile | Focus Areas |
-|---------|---------|-------------|
-| **Abacus.AI** | ML Engineer | LLMs, RAG, generative AI, cloud |
-| **Accenture** | Data AI Analyst | Python, SQL, ML, statistics |
-| **American Express** | Management Trainee | Data science, analytics, business intelligence |
-| **Barclays** | Quant/Analyst | Statistical programming, risk models |
-
-## Preparation Templates
-
-### SQL Practice Template
-```sql
--- Topic: JOINs + Aggregation
--- Problem: Find the top 3 customers by total order value
-SELECT c.customer_id, c.name, SUM(o.amount) AS total_spend
-FROM customers c
-JOIN orders o ON c.customer_id = o.customer_id
-GROUP BY c.customer_id, c.name
-ORDER BY total_spend DESC
-LIMIT 3;
-```
-
-### Python Practice Template
-```python
-# Problem: Group sales by region and compute mean/std
-import pandas as pd
-
-df = pd.read_csv('sales.csv')
-summary = df.groupby('region')['amount'].agg(['mean', 'std', 'count'])
-print(summary.sort_values('mean', ascending=False))
-```
+> Comprehensive overview of the Analytics & Business Intelligence track, day-to-day work, core recruiter evaluation rubrics, and Civil/HWRE alignment.
 
 ---
 
-## References
+## 1. What This Role Does
+Commercial analytics, decision science, metric telemetry, experimentation, and business growth modeling.
 
+### Core Responsibilities
+- Translate ambiguous business/technical challenges into structured problem statements.
+- Build quantitative, operational, or strategic models to support executive decision-making.
+- Coordinate across cross-functional teams to drive measurable business impact.
+- Present data-driven findings with top-down executive synthesis.
+
+---
+
+## 2. Recruiter Evaluation Rubric & Interview Format
+
+| Stage | Format | Core Skills Tested | Weight |
+|:---|:---|:---|:---:|
+| **Online Assessment (OA)** | 60–90 min test | Aptitude, quantitative reasoning, domain logic, speed & accuracy | 25% |
+| **Technical / Domain Round** | 45 min deep dive | Technical proficiency, modeling, structured problem solving | 30% |
+| **Case / Problem Solving** | 45–60 min case | Issue trees, root-cause diagnosis, domain frameworks | 25% |
+| **Behavioral & Leadership Fit** | 30–45 min interview | STAR stories, stakeholder influence, ownership, communication | 20% |
+
+---
+
+## 3. Civil / HWRE Competitive Strengths
+- **Complex Systems Thinking**: Experience with physical and mathematical network modeling translates directly to business ecosystems.
+- **Quantitative & Numerical Rigor**: Comfort with large datasets, fluid dynamics equations, and statistical analysis.
+- **Project Execution Experience**: Multi-variable scheduling, resource constraints, and milestone-driven delivery.

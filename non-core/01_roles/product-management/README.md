@@ -1,26 +1,31 @@
-# Product Management Preparation Track
+# Product Management (PM) Preparation Track
 
-> Comprehensive preparation guide, role study plan, core concepts, and rapid revision for Product Management.
+> Structured preparation curriculum, domain frameworks, question banks, study plans, and rapid revision for Product Management (PM).
 
 ---
 
-## Module Navigation
+## 🏛️ Module Directory
 
 | File | Content Description |
 |:-----|:--------------------|
-| [01_role-overview.md](01_role-overview.md) | Role fundamentals, industry landscape, team positioning, and career trajectory |
-| [03_core-knowledge.md](03_core-knowledge.md) | Core domain frameworks, metrics, business levers, and terminology |
-| [05_interview-preparation.md](05_interview-preparation.md) | Role-specific interview questions, product sense, and behavioral alignment |
-| [08_role-study-plan.md](08_role-study-plan.md) | Structured 4-block preparation milestone study plan |
-| [09_rapid-revision.md](09_rapid-revision.md) | High-yield rapid revision cheat sheet for test day / interview eve |
+| [01_role-overview.md](01_role-overview.md) | Role definitions, team structure, industry landscape, and recruiter evaluation rubrics |
+| [03_core-knowledge.md](03_core-knowledge.md) | Domain reference guide and preparation module |
+| [03_domain-knowledge.md](03_domain-knowledge.md) | Essential domain frameworks, equations, and industry models |
+| [04_tools-and-technical.md](04_tools-and-technical.md) | Software tooling, technical stack, and computational modeling environments |
+| [05_interview-preparation.md](05_interview-preparation.md) | Round-by-round interview strategy, evaluation rubrics, and tactics |
+| [06_question-bank.md](06_question-bank.md) | Curated conceptual, analytical, and scenario-based interview questions |
+| [07_practice-and-cases.md](07_practice-and-cases.md) | Applied problem sets, worked business scenarios, and domain cases |
+| [08_role-study-plan.md](08_role-study-plan.md) | 4-week structured milestone roadmap with preparation checklists |
+| [09_rapid-revision.md](09_rapid-revision.md) | High-density 1-page emergency review card for interview eve |
+| [10_resources.md](10_resources.md) | Curated reading lists, online sandboxes, and repository cross-links |
 
 ---
 
-## Reusable Resources & Cross-Links
-
-- **Interview Practice**: [Case Interviews](../../02_interview-preparation/case-interviews/framework-library.md) | [Guesstimates](../../02_interview-preparation/guesstimates/guesstimate-guide.md) | [Behavioral](../../02_interview-preparation/behavioral/behavioral-mastery.md)
-- **Common Skills**: [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) | [Communication](../../03_common-skills/communication/communication.md)
-- **Career Track**: [Resume Positioning](../../04_career-preparation/resume-positioning/civil-to-noncore.md) | [Placement Roadmap](../../04_career-preparation/placement-roadmap/placement-roadmap.md)
-- **Fast Revision**: [Rapid Revision Hub](../../05_rapid-revision/product-management.md)
-- **Main Hub**: [Non-Core Master Index](../../README.md)
+## 🧭 Cross-Repository Navigation
+- [Master Role Directory](../../ROLE_DIRECTORY.md)
+- [Non-Core Hub](../../README.md)
+- [02 Interview Preparation](../../02_interview-preparation/)
+- [03 Common Skills](../../03_common-skills/)
+- [04 Career Preparation](../../04_career-preparation/)
+- [05 Rapid Revision](../../05_rapid-revision/)
 

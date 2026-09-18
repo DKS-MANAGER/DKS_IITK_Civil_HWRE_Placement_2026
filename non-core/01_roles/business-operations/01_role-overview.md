@@ -1,143 +1,32 @@
-# Business Operations — Complete Preparation System
+# 01. Business Operations (BizOps): Role Overview
 
-> What business operations roles do, what companies test, and how to prepare.
-
----
-
-## What Business Operations Does
-
-Business Operations (BizOps) manages the internal processes, KPIs, and cross-functional coordination that keep a business running efficiently. It's the operational backbone of a company.
-
-**Core responsibilities:**
-- KPI management and reporting
-- Process design and improvement
-- Cross-functional coordination
-- Operations strategy
-- Decision support
-- Escalation management
-
-### Day-to-Day Work
-
-| Task | Example | % of Time |
-|:-----|:--------|:---------:|
-| **KPI tracking** | "Monitor business metrics, report trends" | 25% |
-| **Process improvement** | "Streamline workflows" | 20% |
-| **Coordination** | "Align sales, marketing, product, finance" | 20% |
-| **Analysis** | "Analyze business performance" | 20% |
-| **Reporting** | "Prepare management reports" | 15% |
+> Comprehensive overview of the Business Operations (BizOps) track, day-to-day work, core recruiter evaluation rubrics, and Civil/HWRE alignment.
 
 ---
 
-## What Recruiters Test
+## 1. What This Role Does
+Internal strategy, cross-functional scaling, process re-engineering, unit economics, and operational resource balancing.
 
-### Interview Process (Typical)
-
-| Round | Format | What's Tested |
-|:------|:-------|:--------------|
-| **Online Assessment** | Aptitude + logical reasoning | Quantitative ability |
-| **Case / Analytical** | Business scenario | Structured thinking |
-| **Behavioral** | STAR questions | Coordination, execution |
-| **Fit** | Motivation, judgment | Business acumen |
-
-### Core Skills Tested
-
-| Skill | Weight | How to Prepare |
-|:------|:------:|:---------------|
-| **KPI analysis** | 25% | Metrics, dashboards, trends |
-| **Process thinking** | 20% | Process design, improvement |
-| **Coordination** | 20% | Cross-functional management |
-| **Analytical** | 20% | Business analysis |
-| **Communication** | 15% | Reporting, escalation |
+### Core Responsibilities
+- Translate ambiguous business/technical challenges into structured problem statements.
+- Build quantitative, operational, or strategic models to support executive decision-making.
+- Coordinate across cross-functional teams to drive measurable business impact.
+- Present data-driven findings with top-down executive synthesis.
 
 ---
 
-## Topic Checklist
+## 2. Recruiter Evaluation Rubric & Interview Format
 
-### Must Know [P0]
-
-- [ ] KPI management (what metrics matter)
-- [ ] Process design and mapping
-- [ ] Cross-functional coordination
-- [ ] Reporting and dashboards
-- [ ] Decision-making frameworks
-- [ ] Escalation management
-
-### Should Know [P1]
-
-- [ ] Operations strategy
-- [ ] Process improvement (Lean basics)
-- [ ] Business fundamentals
-- [ ] Stakeholder management
-
-### Good to Know [P2]
-
-- [ ] Project management
-- [ ] Data analysis
-- [ ] Financial analysis
+| Stage | Format | Core Skills Tested | Weight |
+|:---|:---|:---|:---:|
+| **Online Assessment (OA)** | 60–90 min test | Aptitude, quantitative reasoning, domain logic, speed & accuracy | 25% |
+| **Technical / Domain Round** | 45 min deep dive | Technical proficiency, modeling, structured problem solving | 30% |
+| **Case / Problem Solving** | 45–60 min case | Issue trees, root-cause diagnosis, domain frameworks | 25% |
+| **Behavioral & Leadership Fit** | 30–45 min interview | STAR stories, stakeholder influence, ownership, communication | 20% |
 
 ---
 
-## Question Bank
-
-### Basic
-1. What does business operations do?
-2. What KPIs would you track for a business?
-3. How do you improve a process?
-4. What's the difference between operations and strategy?
-5. How do you handle escalations?
-
-### Intermediate
-6. A KPI is declining. How do you investigate?
-7. Two departments have conflicting priorities. How do you align them?
-8. How do you design a reporting dashboard?
-9. A process is inefficient. How do you improve it?
-10. How do you prioritize business initiatives?
-
-### Advanced
-11. A business is growing but operations can't keep up. What do you do?
-12. How do you measure the impact of a process change?
-13. A key stakeholder disagrees with your recommendation. What do you do?
-14. How do you balance short-term efficiency and long-term growth?
-15. Design an operations plan for a new business unit.
-
----
-
-## Scenario Questions
-
-| Scenario | What They Test |
-|:---------|:---------------|
-| "A KPI fell 20%." | Root-cause analysis |
-| "Two teams want different things." | Coordination |
-| "A process is broken." | Process improvement |
-| "A report is due but data is incomplete." | Prioritization |
-| "A stakeholder disagrees." | Communication |
-
----
-
-## Resume Tips for BizOps
-
-**Emphasize:**
-- Process improvement
-- Coordination
-- KPI/reporting experience
-- Business analysis
-
-**Bullet example:**
-- "Tracked and reported on 15+ business KPIs, identifying trends that informed [decision]"
-- "Streamlined cross-functional reporting process, reducing report generation time by 50%"
-
-→ Full resume guide: [resume.md](../common/resume.md)
-
----
-
-## Cross-Links
-
-| Resource | Link |
-|:---------|:-----|
-| Operations | [operations-overview.md](../operations/operations-overview.md) |
-| Business Fundamentals | [business-fundamentals.md](../common/business-fundamentals.md) |
-| Strategy | [strategy-overview.md](../strategy/strategy-overview.md) |
-
----
-
-*Business operations is where strategy becomes daily reality. It's about making things work, at scale, every day.*
+## 3. Civil / HWRE Competitive Strengths
+- **Complex Systems Thinking**: Experience with physical and mathematical network modeling translates directly to business ecosystems.
+- **Quantitative & Numerical Rigor**: Comfort with large datasets, fluid dynamics equations, and statistical analysis.
+- **Project Execution Experience**: Multi-variable scheduling, resource constraints, and milestone-driven delivery.
