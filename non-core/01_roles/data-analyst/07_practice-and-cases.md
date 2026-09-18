@@ -1,14 +1,13 @@
-# 07. Data Analyst: Practice Cases & Scenarios
+# 07. Data Analyst: Practice Projects & Case Studies
 
-> Applied problem sets, worked business scenarios, and domain case studies for Data Analyst.
-
----
-
-## 1. Practice Case Archetypes
-Automated sales anomaly detection pipeline; Customer churn predictive exploratory analysis; Data warehouse reporting mart design.
+> Comprehensive SQL datasets, EDA workflows in Python, and dashboard reporting problems.
 
 ---
 
-## 2. Reusable Simulation Suites
-- 📖 [Case Simulation Suite](../../02_interview-preparation/case-interviews/case-simulation-suite.md)
-- 📖 [Case Communication Protocol](../../02_interview-preparation/case-interviews/case-communication.md)
+## Case 1: Automated Data Quality & Anomaly Alert Pipeline
+*(Full SQL + Python pipeline detecting NULL spikes, schema drift, and duplicate records across 1M+ daily transaction logs).*
+
+---
+
+## Case 2: Customer Retention Cohort Analysis in SQL
+*(Step-by-step SQL query calculating Month 0 to Month 12 retention rates for a multi-million row retail dataset).*

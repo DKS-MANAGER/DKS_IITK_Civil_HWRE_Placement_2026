@@ -1,27 +1,22 @@
-# 06. Finance & FinTech: Question Bank
+# 06. Finance & FinTech: High-Yield Question Bank
 
-> Curated conceptual, analytical, and scenario-based interview questions for Finance & FinTech.
-
----
-
-## Core Question Bank
-
-1. **Walk me through how a 100 INR increase in depreciation affects all 3 financial statements (tax rate = 25%).**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **How do you calculate Weighted Average Cost of Capital (WACC), and when does cost of debt need adjustment for tax shield?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **What is the difference between Enterprise Value (EV) and Equity Value?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **Why might a company with positive net income face impending bankruptcy?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **How do you model and value a high-growth fintech startup with negative current EBITDA?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
+> Categorized interview questions with model answers, technical solutions, and interviewer follow-up questions.
 
 ---
 
-## Shared Behavioral & Fit Questions
+### Question 1: [P0][FINANCE] Walk me through how a 100 INR increase in depreciation affects the 3 financial statements (tax rate = 25%).
+
+**Direct Answer / Solution Approach:**
+```text
+1. Income Statement: Operating Income (EBIT) drops by 100 INR. Tax drops by 25 INR. Net Income decreases by 75 INR. 2. Cash Flow Statement: Net Income starts -75 INR. Add back non-cash depreciation +100 INR. Cash Flow from Operations increases by +25 INR (the tax shield benefit!). 3. Balance Sheet: Cash increases by +25 INR. Net PP&E decreases by -100 INR (Total Assets = -75 INR). Retained Earnings decreases by -75 INR (Total Liabilities & Equity = -75 INR). Balance Sheet balances perfectly.
+```
+
+**Interviewer Follow-Up & Deep Dive:**
+> Interviewer follow-up: What happens if the tax rate is 0%? (Net Income drops by 100, add back 100 on CFS -> zero net change in cash).
+
+
+---
+
+## Related Question Banks in Repository
 - 📖 [HR & Behavioral Question Bank](../../02_interview-preparation/behavioral/hr-questions.md)
+- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)

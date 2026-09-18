@@ -1,32 +1,24 @@
-# 02. Business Analyst: Skills & Competencies
+# 02. Business Analyst (BA): Required Skills & Competencies
 
-> Standard competency framework across technical tools, analytical problem solving, business acumen, and communication.
+> Clear breakdown of required technical, analytical, and communication skills tested by hiring companies.
 
 ---
 
-## 1. Competency Matrix
+## 1. Core Competency Matrix
 
-| Competency Area | Priority | Must-Have Capabilities | Evaluation Method |
+| Competency Area | Priority | Key Capabilities Tested | Selection Evaluation Round |
 |:---|:---:|:---|:---|
-| **SQL & Database Querying** | **P0** | Multi-table JOINs, GROUP BY, HAVING, CTEs, Window Functions (`RANK`, `LAG`, `LEAD`), Aggregations | Live coding / OA queries |
-| **Excel & Spreadsheets** | **P0** | XLOOKUP, INDEX-MATCH, SUMIFS, Pivot Tables, Calculated Fields, Data Tables | Take-home case / Live sheet |
-| **Structured Problem Solving** | **P0** | MECE issue trees, metric deconstruction, hypothesis-driven root-cause analysis | Business case round |
-| **Data Interpretation** | **P1** | Reading funnels, cohort heatmaps, waterfall charts, diagnosing KPI variance | Case study discussion |
-| **Business Acumen** | **P1** | Unit economics (CAC, LTV, AOV, Gross Margin), understanding business models | Case & strategy questions |
-| **Data Visualization** | **P1** | Dashboard design in Power BI / Tableau, selecting appropriate chart types | Portfolio / Case discussion |
-| **Python / Automation** | **P2** | Pandas, NumPy, basic script automation for EDA | Technical round (optional) |
+| **Required Skills** | **P0** | SQL (Advanced Joins, Group By, Window Functions), Advanced Excel (Lookups, Pivot Tables, Modeling), KPI Analysis & Metric Trees, Data Interpretation, Business Problem Solving, Stakeholder Communication | OA / Technical & Case Rounds |
+| **Tooling & Software** | **P0** | SQL (PostgreSQL / MySQL / Snowflake), Excel / Google Sheets, Power BI / Tableau, Jira / Confluence basics | Live Coding / Technical Round |
+| **Structured Problem Solving** | **P0** | MECE issue trees, hypothesis formulation, root-cause diagnosis | Business Problem / Case Round |
+| **Executive Communication** | **P1** | Pyramid Principle, concise executive delivery, stakeholder influence | HR / Fit / Partner Rounds |
 
 ---
 
-## 2. Skill Progression Ladder
+## 2. Skill Benchmark Ladder
 
 ```text
-LEVEL 1: Data Extraction (SQL Basic + Excel Fundamentals)
-  ↳ Writing syntax, pulling raw data, filtering anomalies.
-
-LEVEL 2: Metric Modeling (Advanced SQL + Business KPIs)
-  ↳ Building multi-table CTEs, calculating conversion rates, cohort analysis.
-
-LEVEL 3: Root Cause & Storytelling (Case Structuring + Executive Synthesis)
-  ↳ Formulating hypotheses on KPI drops, building MECE trees, presenting recommendations.
+BENCHMARK 1 (OA Ready): High numerical speed, flawless basic SQL / quantitative logic under time pressure.
+BENCHMARK 2 (Technical Ready): Fluid live modeling, explaining schema/math trade-offs out loud.
+BENCHMARK 3 (Partner Ready): Confident executive synthesis, defending hypotheses with data, strong STAR stories.
 ```

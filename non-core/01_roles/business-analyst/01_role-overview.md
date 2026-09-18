@@ -1,49 +1,35 @@
-# 01. Business Analyst: Role Overview
+# 01. Business Analyst (BA): Placement & Job Guide
 
-> Comprehensive overview of the Business Analyst function, day-to-day responsibilities, industry positioning, recruiter testing rubrics, and Civil/HWRE alignment.
-
----
-
-## 1. What a Business Analyst Does
-
-A Business Analyst (BA) bridges business strategy and data execution. They translate ambiguous business questions into structured analytical investigations, and raw data findings into actionable executive decisions.
-
-### Core Responsibilities
-- **Translating Business Problems**: Formulate measurable analytical hypotheses from business objectives.
-- **Data Querying & Extraction**: Write SQL queries to extract, join, and clean data from relational databases.
-- **Reporting & Visualization**: Build automated dashboards in Power BI/Tableau/Excel for cross-functional stakeholders.
-- **Root-Cause Analysis**: Diagnose metric deviations (e.g., churn spikes, conversion drops, margin contractions).
-- **Stakeholder Communication**: Present data storytelling to non-technical executives and product/ops leads.
+> Comprehensive IIT Kanpur placement guide for **Business Analyst (BA)** profiles: Target companies, salary benchmarks, hiring roles, eligibility, day-to-day deliverables, and placement preparation roadmap.
 
 ---
 
-## 2. Day-to-Day Allocation
+## 1. Target Companies & Job Offerings at IITK
 
-| Activity | Description & Example | % of Time |
-|:---|:---|:---:|
-| **SQL & Data Querying** | Pulling multi-table joins, calculating cohort metrics, aggregating revenue | 30% |
-| **Exploratory Data Analysis** | Investigating why a metric moved; segmenting user behaviors | 25% |
-| **Dashboard & Reporting** | Designing and maintaining automated executive KPI trackers | 15% |
-| **Stakeholder Synthesis** | Executive briefings, presenting deck insights to leadership | 15% |
-| **Requirements Gathering** | Documenting data requirements with engineering and business teams | 10% |
-| **Process Automation** | Scripting repetitive reporting pipelines in Python or Excel VBA | 5% |
+| Dimension | Details |
+|:---|:---|
+| **Target Hiring Companies** | Deloitte USI, PwC DI, EY GDS, KPMG, Accenture Strategy & Consulting, American Express, Capital One, Flipkart, Amazon, Swiggy, Zomato, EXL, Mu Sigma, Fractal |
+| **Typical Job Designations** | Associate Business Analyst, Graduate Analyst, Decision Analytics Associate, Business Operations Analyst, Strategy & Operations Associate |
+| **Placement CTC Range** | 10 LPA - 22 LPA (Fixed + Variable Base) |
+| **Department Eligibility** | B.Tech / M.Tech / Dual Degree across all engineering branches (Open to Civil / HWRE). Minimum CPI cutoff: Typically 6.5 - 7.5 CPI. |
 
 ---
 
-## 3. What Recruiters Test & Evaluation Rubric
+## 2. Job-to-Preparation Matrix
 
-| Interview Round | Format | Core Competencies Evaluated | Weight |
-|:---|:---|:---|:---:|
-| **Online Assessment (OA)** | 60-90 min test | Speed math, data interpretation, basic-to-intermediate SQL queries | 25% |
-| **Technical SQL / Data Round** | Live 45 min session | Joins, aggregations, window functions, CTEs, error handling | 30% |
-| **Business Case & Problem Solving** | 45-60 min case | Metric trees, MECE root-cause analysis, business sense | 25% |
-| **Behavioral & Stakeholder Fit** | 30-45 min interview | STAR stories, conflict management, cross-functional ownership | 20% |
+| Job Requirement | What Company Tests in Selection | Repository Preparation Module | Evidence to Showcase on Resume |
+|:---|:---|:---|:---|
+| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](04_tools-and-technical.md) | Coursework / Computational Project |
+| **Domain Problem Solving** | Business Case / Diagnostic Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Case Study / Thesis System Model |
+| **Speed & Accuracy** | Online Assessment (OA) Aptitude | [05_interview-preparation.md](05_interview-preparation.md) | High OA Percentile / Quant Drills |
+| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../03_common-skills/communication/communication.md) | Project Presentation / POR Leadership |
+| **Civil/HWRE Background** | Interview Alignment Discussion | [11_projects.md](11_projects.md) | Applied Thesis Research Telemetry |
 
 ---
 
-## 4. IIT Kanpur Civil & HWRE Competitive Advantage
+## 3. What the Job Involves (Day-to-Day Deliverables)
 
-Students with a Civil Engineering and Hydro-systems (HWRE) background bring strong transferable assets to BA roles:
-1. **Large-Scale Data Handling**: Experience analyzing large spatial, hydrological, or sensor time-series datasets translates directly into enterprise customer data handling.
-2. **Deterministic & Probabilistic Modeling**: Numerical modeling experience builds an intuitive understanding of multi-variable dependencies.
-3. **Structured Engineering Logic**: Deconstructing complex physical systems mirrors deconstructing corporate value chains.
+- **Problem Structuring**: Deconstructing complex business, operational, or data challenges into clear mathematical and decision trees.
+- **Analysis & Modeling**: Building robust quantitative models, queries, or frameworks to evaluate strategic options.
+- **Cross-Functional Collaboration**: Interfacing between engineering, product, marketing, and executive stakeholders.
+- **Executive Presentation**: Delivering concise, top-down synthesis of recommendations and operational impact.

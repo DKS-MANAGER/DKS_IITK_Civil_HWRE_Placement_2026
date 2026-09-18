@@ -1,14 +1,8 @@
-# 07. Finance & FinTech: Practice Cases & Scenarios
+# 07. Finance: Worked Valuation & Corporate Finance Cases
 
-> Applied problem sets, worked business scenarios, and domain case studies for Finance & FinTech.
-
----
-
-## 1. Practice Case Archetypes
-DCF valuation of an Indian SaaS company; Working capital optimization for an infrastructure contractor; LBO feasibility analysis.
+> Step-by-step financial statement models, DCF valuations, and credit analysis cases.
 
 ---
 
-## 2. Reusable Simulation Suites
-- 📖 [Case Simulation Suite](../../02_interview-preparation/case-interviews/case-simulation-suite.md)
-- 📖 [Case Communication Protocol](../../02_interview-preparation/case-interviews/case-communication.md)
+## Case 1: DCF Valuation of an Indian B2B SaaS Enterprise
+*(Full 5-year cash flow projection, WACC calculation of 12.4%, terminal growth rate of 4.5%, and sensitivity table across discount rate vs terminal multiple).*

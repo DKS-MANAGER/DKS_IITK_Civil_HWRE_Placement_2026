@@ -1,56 +1,39 @@
-# Business Analyst (BA) Preparation Track
+# Business Analyst (BA) Placement Track
 
-> Complete preparation curriculum for IIT Kanpur students targeting Business Analyst roles at top consulting, product, analytics, and financial firms.
-
----
-
-## 🏛️ Module Directory
-
-```text
-business-analyst/
-├── README.md                           ← Track Master Navigation (this file)
-│
-├── 01_role-overview.md                 ← What BAs do, day-to-day, recruiter testing
-├── 02_skills-and-competencies.md       ← Technical & analytical competency matrix
-├── 03_business-knowledge.md            ← Business models, unit economics & KPI formulas
-├── 04_data-and-analytics/              ← Technical Preparation Modules
-│   ├── sql-practice.md                 ← 30+ comprehensive SQL interview problems
-│   ├── excel-and-spreadsheets.md       ← Lookups, pivot tables & analytical modeling
-│   ├── statistics.md                   ← Applied statistics, hypothesis testing & distributions
-│   └── data-interpretation.md          ← Reading business charts, funnels & cohort heatmaps
-│
-├── 05_interview-preparation.md         ← Multi-round interview guide & scoring rubrics
-├── 06_question-bank.md                 ← Basic, intermediate, advanced & scenario questions
-├── 07_case-practice.md                 ← 4 worked business case studies
-├── 08_role-study-plan.md               ← 4-week structured milestone roadmap
-├── 09_rapid-revision.md                ← High-density 1-page test day cheat sheet
-│
-└── 10_resources.md                     ← Books, SQL sandboxes & cross-repository links
-```
+> Placement-focused preparation curriculum for IIT Kanpur students targeting **Business Analyst (BA)** roles at top recruiting firms.
 
 ---
 
-## 🗺️ Module Index & Preparation Sequence
+## 📋 Role Snapshot
+- **Target Companies**: Deloitte USI, PwC DI, EY GDS, KPMG, Accenture Strategy & Consulting, American Express, Capital One, Flipkart, Amazon, Swiggy, Zomato, EXL, Mu Sigma, Fractal
+- **Typical CTC Range**: 10 LPA - 22 LPA (Fixed + Variable Base)
+- **Department Eligibility**: B.Tech / M.Tech / Dual Degree across all engineering branches (Open to Civil / HWRE). Minimum CPI cutoff: Typically 6.5 - 7.5 CPI.
+- **Core Skills Tested**: SQL (Advanced Joins, Group By, Window Functions), Advanced Excel (Lookups, Pivot Tables, Modeling), KPI Analysis & Metric Trees, Data Interpretation, Business Problem Solving, Stakeholder Communication
 
-| Module | Purpose & Content | Link |
+---
+
+## 🗺️ Placement Module Index
+
+| Module | Placement Objective | Document Link |
 |:---|:---|:---|
-| **01. Role Overview** | Understanding the role, team placement, day-to-day tasks, and recruiter evaluation weights | [01_role-overview.md](01_role-overview.md) |
-| **02. Skills & Competencies** | Priority matrix for SQL, Excel, analytical thinking, and business communication | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
-| **03. Business Knowledge** | Industry models (E-Commerce, SaaS, FinTech, On-Demand) and unit economics | [03_business-knowledge.md](03_business-knowledge.md) |
-| **04. Data & Analytics** | Technical preparation: SQL practice bank, Excel modeling, Statistics, and Data Interpretation | [04_data-and-analytics/](04_data-and-analytics/) |
-| **05. Interview Preparation** | Round-by-round strategy from Online Assessment to Manager Case rounds | [05_interview-preparation.md](05_interview-preparation.md) |
-| **06. Question Bank** | Curated interview questions (Basic, Intermediate, Advanced, and Scenario Prompts) | [06_question-bank.md](06_question-bank.md) |
-| **07. Case Practice** | 4 full business cases: KPI drops, margin compression, checkout funnels, campaign ROI | [07_case-practice.md](07_case-practice.md) |
-| **08. Role Study Plan** | Week-by-week 4-week preparation plan with milestone checklists | [08_role-study-plan.md](08_role-study-plan.md) |
-| **09. Rapid Revision** | High-density 1-page formula and framework cheat sheet for interview eve | [09_rapid-revision.md](09_rapid-revision.md) |
-| **10. Resources** | Curated books, interactive SQL platforms, and repository links | [10_resources.md](10_resources.md) |
+| **01. Role Overview** | Target companies, job descriptions, eligibility, and Day-to-Day deliverables | [01_role-overview.md](01_role-overview.md) |
+| **02. Skills & Competencies** | Required skills, tools, and technical benchmark ladder | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
+| **03. Domain Knowledge** | Core business frameworks, equations, and industry models | [03_domain-knowledge.md](03_domain-knowledge.md) |
+| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_tools-and-technical.md](04_tools-and-technical.md) |
+| **05. Selection Process** | Stage-by-stage guide: OA pattern, Technical, Case, and HR rounds | [05_interview-preparation.md](05_interview-preparation.md) |
+| **06. Question Bank** | Curated questions with model answers and interviewer follow-ups | [06_question-bank.md](06_question-bank.md) |
+| **07. Practice & Cases** | Realistic case studies and fully worked problem sets | [07_practice-and-cases.md](07_practice-and-cases.md) |
+| **08. Role Study Plan** | 4-week milestone preparation roadmap | [08_role-study-plan.md](08_role-study-plan.md) |
+| **09. Rapid Revision** | High-density 1-page test eve cheat sheet | [09_rapid-revision.md](09_rapid-revision.md) |
+| **10. Resources** | Curated books, sandboxes, and repository cross-links | [10_resources.md](10_resources.md) |
+| **11. Resume & Projects** | Civil/HWRE resume project alignment & "Why Non-Core?" framing | [11_projects.md](11_projects.md) |
+| **12. Mock Assessment** | Timed mock assessment with evaluation rubric | [12_mock-assessment.md](12_mock-assessment.md) |
 
 ---
 
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
-- [Non-Core Hub](../../README.md)
+- [Non-Core Master Hub](../../README.md)
 - [02 Interview Preparation](../../02_interview-preparation/)
 - [03 Common Skills](../../03_common-skills/)
 - [04 Career Preparation](../../04_career-preparation/)
-- [05 Rapid Revision](../../05_rapid-revision/business-analyst/revision-sheet.md)

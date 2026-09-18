@@ -1,27 +1,23 @@
-# 05. Management Consulting: Interview Preparation & Format
+# 05. Management Consulting: Selection Process & Interview Strategy
 
-> Round-by-round interview strategy, evaluation rubrics, and high-frequency interview tactics for Management Consulting.
-
----
-
-## 1. Round-by-Round Breakdown
-
-### Round 1: Online Assessment (OA)
-- **Format**: 60–90 min timed test. Aptitude, quantitative reasoning, and domain scenario MCQs.
-- **Tactic**: Maintain high accuracy; avoid negative marking traps.
-
-### Round 2: Technical / Case Round
-- **Format**: 45 min live problem solving.
-- **Tactic**: Clarify objective $\to$ Structure with issue tree $\to$ Formulate hypothesis $\to$ Calculate $\to$ Synthesize.
-
-### Round 3: Leadership & Behavioral Fit
-- **Format**: 30–45 min partner/manager round.
-- **Tactic**: Deliver STAR stories focused on leadership, teamwork, cross-functional conflict, and resilience.
+> Stage-by-stage guide from Online Assessment (OA) cutoffs to Technical, Case, and Partner rounds.
 
 ---
 
-## 2. Reusable Interview Modules
-- 📖 [Case Interview Frameworks](../../02_interview-preparation/case-interviews/framework-library.md)
-- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)
-- 📖 [Mock Interview System & Scoring](../../02_interview-preparation/mock-interviews/mock-system.md)
-- 📖 [Behavioral Mastery & STAR Guide](../../02_interview-preparation/behavioral/behavioral-mastery.md)
+## 1. Selection Process Stages
+
+### Stage 1: Online Assessment (OA)
+- **Format & Pattern**: Imbellus / Solve Game (McKinsey Ecosystem Simulation), Pymetrics / Chatbot Case (BCG/Bain), Aptitude & Critical Reasoning OA (60-90 min). Focus: Cognitive flexibility, scenario optimization under constraints, numerical speed.
+- **Winning Strategy**: Solve high-scoring technical/case questions first; maintain speed on speed math.
+
+### Stage 2: Technical & Modeling Round
+- **Format & Focus**: Buddy Round / Case Round 1: Individual live case with Senior Consultant (Profitability or Market Sizing). 30-45 mins. Expect fast math drills and hypothesis defense.
+- **Key Tactic**: Think out loud, clarify edge cases before typing code or writing equations.
+
+### Stage 3: Case / Business Problem Round
+- **Format & Focus**: Partner Case Rounds (2-3 rounds): Complex unstructured cases (Market Entry, M&A Synergy, Operational Turnaround, Pricing Strategy). High focus on synthesis, business judgment, and coachability.
+- **Key Tactic**: Clarify goal -> Build MECE structure -> State hypothesis -> Calculate -> Synthesize.
+
+### Stage 4: HR & Behavioral Round
+- **Format & Focus**: Personal Experience Interview (PEI) / Fit Round: 3 core dimensions tested deeply: (1) Inclusive Leadership, (2) Entrepreneurial Drive / Overcoming Failure, (3) Personal Impact / Influencing without Authority.
+- **Key Tactic**: Deliver structured STAR stories with quantified outcomes; emphasize why your Civil/HWRE background is an asset.

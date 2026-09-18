@@ -1,24 +1,24 @@
-# 02. Business Operations: Skills & Competencies
+# 02. Business Operations (BizOps): Required Skills & Competencies
 
-> Competency framework, required skill matrix, and skill progression ladder for Business Operations.
+> Clear breakdown of required technical, analytical, and communication skills tested by hiring companies.
 
 ---
 
-## 1. Required Skill Matrix
+## 1. Core Competency Matrix
 
-| Competency Area | Priority | Key Capabilities | Evaluation Method |
+| Competency Area | Priority | Key Capabilities Tested | Selection Evaluation Round |
 |:---|:---:|:---|:---|
-| **Core Domain Skills** | **P0** | Process Mapping (BPMN), Multi-Variable Resource Allocation, Metric Tree Design, Stakeholder Alignment | Case interview / Technical round |
-| **Structured Problem Solving** | **P0** | MECE issue trees, hypothesis-driven deconstruction, root-cause diagnosis | Business problem round |
-| **Quantitative Rigor** | **P1** | Mental math, metric equations, statistical analysis, data interpretation | OA / Case calculations |
-| **Executive Communication** | **P1** | Top-down synthesis (Pyramid Principle), structured stakeholder presentation | Behavioral & Partner rounds |
+| **Required Skills** | **P0** | Process Optimization, BPMN Workflows, Unit Economics (Contribution Margin), Vendor SLA Governance, Root-Cause Analysis | OA / Technical & Case Rounds |
+| **Tooling & Software** | **P0** | Excel, SQL, Lucidchart / Miro, Jira | Live Coding / Technical Round |
+| **Structured Problem Solving** | **P0** | MECE issue trees, hypothesis formulation, root-cause diagnosis | Business Problem / Case Round |
+| **Executive Communication** | **P1** | Pyramid Principle, concise executive delivery, stakeholder influence | HR / Fit / Partner Rounds |
 
 ---
 
-## 2. Skill Progression Ladder
+## 2. Skill Benchmark Ladder
 
-`	ext
-LEVEL 1: Foundational Literacy (Understanding metrics, basic syntax, and terminology)
-LEVEL 2: Problem Structuring (Building MECE issue trees, running quantitative models)
-LEVEL 3: Executive Synthesis (Delivering prioritized, actionable business solutions)
-``n
+```text
+BENCHMARK 1 (OA Ready): High numerical speed, flawless basic SQL / quantitative logic under time pressure.
+BENCHMARK 2 (Technical Ready): Fluid live modeling, explaining schema/math trade-offs out loud.
+BENCHMARK 3 (Partner Ready): Confident executive synthesis, defending hypotheses with data, strong STAR stories.
+```

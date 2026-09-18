@@ -1,27 +1,23 @@
-# 05. Product Management (PM): Interview Preparation & Format
+# 05. Product Management (APM): Selection Process & Interview Strategy
 
-> Round-by-round interview strategy, evaluation rubrics, and high-frequency interview tactics for Product Management (PM).
-
----
-
-## 1. Round-by-Round Breakdown
-
-### Round 1: Online Assessment (OA)
-- **Format**: 60–90 min timed test. Aptitude, quantitative reasoning, and domain scenario MCQs.
-- **Tactic**: Maintain high accuracy; avoid negative marking traps.
-
-### Round 2: Technical / Case Round
-- **Format**: 45 min live problem solving.
-- **Tactic**: Clarify objective $\to$ Structure with issue tree $\to$ Formulate hypothesis $\to$ Calculate $\to$ Synthesize.
-
-### Round 3: Leadership & Behavioral Fit
-- **Format**: 30–45 min partner/manager round.
-- **Tactic**: Deliver STAR stories focused on leadership, teamwork, cross-functional conflict, and resilience.
+> Stage-by-stage guide from Online Assessment (OA) cutoffs to Technical, Case, and Partner rounds.
 
 ---
 
-## 2. Reusable Interview Modules
-- 📖 [Case Interview Frameworks](../../02_interview-preparation/case-interviews/framework-library.md)
-- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)
-- 📖 [Mock Interview System & Scoring](../../02_interview-preparation/mock-interviews/mock-system.md)
-- 📖 [Behavioral Mastery & STAR Guide](../../02_interview-preparation/behavioral/behavioral-mastery.md)
+## 1. Selection Process Stages
+
+### Stage 1: Online Assessment (OA)
+- **Format & Pattern**: Product Assignment / Teardown Submission or Case Assessment (Product Critique, Guesstimates, Prioritization Scenarios).
+- **Winning Strategy**: Solve high-scoring technical/case questions first; maintain speed on speed math.
+
+### Stage 2: Technical & Modeling Round
+- **Format & Focus**: Product Design Round (CIRCLES framework live problem solving), Technical Feasibility & Architecture Discussion (APIs, Webhooks, DB schema trade-offs).
+- **Key Tactic**: Think out loud, clarify edge cases before typing code or writing equations.
+
+### Stage 3: Case / Business Problem Round
+- **Format & Focus**: Product Strategy & Metrics Round: 'Set the North Star for Spotify Podcasts', 'Prioritize 3 features for Swiggy Instamart with RICE', 'Diagnose 15% drop in checkout completion'.
+- **Key Tactic**: Clarify goal -> Build MECE structure -> State hypothesis -> Calculate -> Synthesize.
+
+### Stage 4: HR & Behavioral Round
+- **Format & Focus**: Executive Bar Raiser: Handling engineering pushback, ethical product dilemmas, leadership without authority, personal product passion.
+- **Key Tactic**: Deliver structured STAR stories with quantified outcomes; emphasize why your Civil/HWRE background is an asset.

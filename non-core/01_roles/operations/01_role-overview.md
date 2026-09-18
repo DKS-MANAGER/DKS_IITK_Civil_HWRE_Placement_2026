@@ -1,32 +1,35 @@
-# 01. Operations Management: Role Overview
+# 01. Operations Management: Placement & Job Guide
 
-> Comprehensive overview of the Operations Management track, day-to-day work, core recruiter evaluation rubrics, and Civil/HWRE alignment.
-
----
-
-## 1. What This Role Does
-Plant operations, supply-demand balancing, queueing theory, inventory models (EOQ), and Lean Six Sigma.
-
-### Core Responsibilities
-- Translate ambiguous business/technical challenges into structured problem statements.
-- Build quantitative, operational, or strategic models to support executive decision-making.
-- Coordinate across cross-functional teams to drive measurable business impact.
-- Present data-driven findings with top-down executive synthesis.
+> Comprehensive IIT Kanpur placement guide for **Operations Management** profiles: Target companies, salary benchmarks, hiring roles, eligibility, day-to-day deliverables, and placement preparation roadmap.
 
 ---
 
-## 2. Recruiter Evaluation Rubric & Interview Format
+## 1. Target Companies & Job Offerings at IITK
 
-| Stage | Format | Core Skills Tested | Weight |
-|:---|:---|:---|:---:|
-| **Online Assessment (OA)** | 60–90 min test | Aptitude, quantitative reasoning, domain logic, speed & accuracy | 25% |
-| **Technical / Domain Round** | 45 min deep dive | Technical proficiency, modeling, structured problem solving | 30% |
-| **Case / Problem Solving** | 45–60 min case | Issue trees, root-cause diagnosis, domain frameworks | 25% |
-| **Behavioral & Leadership Fit** | 30–45 min interview | STAR stories, stakeholder influence, ownership, communication | 20% |
+| Dimension | Details |
+|:---|:---|
+| **Target Hiring Companies** | Procter & Gamble, Unilever (HUL), ITC, Tata Steel, Reliance Industries, L'Oréal, JSW, Schneider Electric |
+| **Typical Job Designations** | Operations Manager, Plant Operations Associate, Supply & Operations Associate |
+| **Placement CTC Range** | 12 LPA - 24 LPA |
+| **Department Eligibility** | B.Tech / M.Tech engineering branches (Civil engineering strongly valued for plant, site, and infrastructure logistics). |
 
 ---
 
-## 3. Civil / HWRE Competitive Strengths
-- **Complex Systems Thinking**: Experience with physical and mathematical network modeling translates directly to business ecosystems.
-- **Quantitative & Numerical Rigor**: Comfort with large datasets, fluid dynamics equations, and statistical analysis.
-- **Project Execution Experience**: Multi-variable scheduling, resource constraints, and milestone-driven delivery.
+## 2. Job-to-Preparation Matrix
+
+| Job Requirement | What Company Tests in Selection | Repository Preparation Module | Evidence to Showcase on Resume |
+|:---|:---|:---|:---|
+| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](04_tools-and-technical.md) | Coursework / Computational Project |
+| **Domain Problem Solving** | Business Case / Diagnostic Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Case Study / Thesis System Model |
+| **Speed & Accuracy** | Online Assessment (OA) Aptitude | [05_interview-preparation.md](05_interview-preparation.md) | High OA Percentile / Quant Drills |
+| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../03_common-skills/communication/communication.md) | Project Presentation / POR Leadership |
+| **Civil/HWRE Background** | Interview Alignment Discussion | [11_projects.md](11_projects.md) | Applied Thesis Research Telemetry |
+
+---
+
+## 3. What the Job Involves (Day-to-Day Deliverables)
+
+- **Problem Structuring**: Deconstructing complex business, operational, or data challenges into clear mathematical and decision trees.
+- **Analysis & Modeling**: Building robust quantitative models, queries, or frameworks to evaluate strategic options.
+- **Cross-Functional Collaboration**: Interfacing between engineering, product, marketing, and executive stakeholders.
+- **Executive Presentation**: Delivering concise, top-down synthesis of recommendations and operational impact.

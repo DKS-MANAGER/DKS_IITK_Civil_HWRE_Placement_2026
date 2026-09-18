@@ -1,14 +1,8 @@
-# 07. Operations Management: Practice Cases & Scenarios
+# 07. Operations: Worked Factory & Process Cases
 
-> Applied problem sets, worked business scenarios, and domain case studies for Operations Management.
-
----
-
-## 1. Practice Case Archetypes
-Production bottleneck relief in steel fabrication; Inventory holding cost reduction in consumer goods; Warehouse layout re-design.
+> Manufacturing bottleneck relief, warehouse layout optimization, and queueing models.
 
 ---
 
-## 2. Reusable Simulation Suites
-- 📖 [Case Simulation Suite](../../02_interview-preparation/case-interviews/case-simulation-suite.md)
-- 📖 [Case Communication Protocol](../../02_interview-preparation/case-interviews/case-communication.md)
+## Case 1: Relieving Bottlenecks in an Industrial Assembly Line
+*(Step-by-step application of Theory of Constraints and Little's Law to increase plant throughput by 22%).*

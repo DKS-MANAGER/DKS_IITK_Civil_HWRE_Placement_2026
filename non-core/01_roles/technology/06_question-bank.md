@@ -1,27 +1,22 @@
-# 06. Technology & Systems Consulting: Question Bank
+# 06. Technology & Systems Consulting: High-Yield Question Bank
 
-> Curated conceptual, analytical, and scenario-based interview questions for Technology & Systems Consulting.
-
----
-
-## Core Question Bank
-
-1. **Explain the CAP theorem and trade-offs between consistency and availability.**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **Design a scalable URL shortening service (like Bitly) supporting 100M daily writes.**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **When should a business choose a NoSQL database (Document/Key-Value) over a Relational SQL database?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **How does caching (Redis/Memcached) optimize database read latency in high-traffic applications?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **How would you advise an enterprise client migrating a monolithic legacy ERP to cloud microservices?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
+> Categorized interview questions with model answers, technical solutions, and interviewer follow-up questions.
 
 ---
 
-## Shared Behavioral & Fit Questions
+### Question 1: [P0][SYSTEM] Explain the CAP Theorem and how to choose between Consistency and Availability for a financial transaction system vs a social media feed.
+
+**Direct Answer / Solution Approach:**
+```text
+CAP Theorem states a distributed system can guarantee at most 2 of Consistency, Availability, and Partition Tolerance. In network partitions: Financial systems choose CP (Consistency + Partition Tolerance) - reject transactions if exact account balance cannot be confirmed. Social media feeds choose AP (Availability + Partition Tolerance) - serve slightly stale posts to keep app online.
+```
+
+**Interviewer Follow-Up & Deep Dive:**
+> Interviewer follow-up: How does eventual consistency work in AP distributed databases like Cassandra?
+
+
+---
+
+## Related Question Banks in Repository
 - 📖 [HR & Behavioral Question Bank](../../02_interview-preparation/behavioral/hr-questions.md)
+- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)

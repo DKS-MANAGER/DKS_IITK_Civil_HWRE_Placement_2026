@@ -1,27 +1,22 @@
-# 06. Product Analyst: Question Bank
+# 06. Product Analyst: High-Yield Question Bank
 
-> Curated conceptual, analytical, and scenario-based interview questions for Product Analyst.
-
----
-
-## Core Question Bank
-
-1. **How do you detect Sample Ratio Mismatch (SRM) in a live A/B test?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **What is an 'Aha! moment' metric and how do you statistically validate it for a social app?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **How do you handle variance reduction (CUPED) in mobile experimentation?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **A new feature increased 1-day retention but decreased 30-day retention. How do you interpret this?**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
-
-1. **Write the event instrumentation schema for a video-sharing app's comment flow.**
-   - *Approach*: Structure with clear MECE logic, state assumptions, calculate accurately, and synthesize business implications.
+> Categorized interview questions with model answers, technical solutions, and interviewer follow-up questions.
 
 ---
 
-## Shared Behavioral & Fit Questions
+### Question 1: [P0][EXPERIMENTATION] A new onboarding flow increased Day-1 Activation by 8%, but Day-30 Retention dropped by 5%. How do you explain this?
+
+**Direct Answer / Solution Approach:**
+```text
+The new flow likely lowered friction artificially (e.g. skipping user preference setup), causing low-intent users to activate quickly but churn later due to un-personalized content feeds. Action: Segment by long-term user cohorts and evaluate Net Retention Impact.
+```
+
+**Interviewer Follow-Up & Deep Dive:**
+> Interviewer follow-up: Would you roll out this feature? (No, long-term retention dominates short-term activation).
+
+
+---
+
+## Related Question Banks in Repository
 - 📖 [HR & Behavioral Question Bank](../../02_interview-preparation/behavioral/hr-questions.md)
+- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)
