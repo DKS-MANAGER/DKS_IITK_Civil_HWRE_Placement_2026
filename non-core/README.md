@@ -1,161 +1,360 @@
-# ðŸŽ¯ IITK Civil Non-Core Placement Operating System
+# IITK Civil / M.Tech Non-Core Placement Preparation
 
-> One-stop preparation system for IIT Kanpur Civil / M.Tech students targeting placements **outside traditional Civil Engineering** â€” consulting, analytics, product, operations, finance, and more.
-
----
-
-## ðŸš€ Start Here
-
-| I want to... | Go to |
-|:-------------|:------|
-| **I want Consulting** | [Consulting Preparation](consulting/consulting-overview.md) |
-| **I want Product Management** | [PM Preparation](product-management/pm-overview.md) |
-| **I want Analytics / Data** | [Data Analyst](data-analyst/da-overview.md) / [Business Analyst](business-analyst/ba-overview.md) |
-| **I want Strategy** | [Strategy Roles](strategy/strategy-overview.md) |
-| **I want Operations** | [Operations](operations/operations-overview.md) / [Supply Chain](supply-chain/supply-chain-overview.md) |
-| **I want Finance / Risk** | [Finance](finance/finance-overview.md) / [Risk](risk/risk-overview.md) |
-| **I want Product Analyst** | [Product Analyst](product-analyst/pa-overview.md) |
-| **I don't know which role suits me** | [Role Selector](role-selector.md) |
-| **I have 30 days** | [30-Day Roadmap](placement-roadmap.md#30-day-roadmap) |
-| **My interview is tomorrow** | [Quick Revision](quick-revision/quick-revision.md) |
-| **I need case interviews** | [Case Frameworks](case-interviews/framework-library.md) |
-| **I need guesstimates** | [Guesstimate Guide](guesstimates/guesstimate-guide.md) |
-| **I need to convert my Civil profile** | [Civil â†’ Non-Core](resume-positioning/civil-to-noncore.md) |
-| **I need mock interviews** | [Mock Interview System](mock-interviews/mock-system.md) |
+> Structured preparation system for IIT Kanpur Civil Engineering and M.Tech students targeting non-core career paths: consulting, analytics, business analysis, product management, operations, strategy, finance, risk, technology, and general management.
 
 ---
 
-## ðŸ—ºï¸ System Architecture
+## 1. Purpose
 
-### Universal Foundation (Do These First)
+This section provides a structured, evidence-based pathway for students moving from a Civil Engineering / Hydro-systems Engineering (HWRE) background into competitive non-core placement profiles.
 
-| Module | File | What It Covers |
-|:-------|:-----|:---------------|
-| **Resume** | [Non-Core Resume](common/resume.md) | How to write a non-core resume from a Civil background |
-| **HR Prep** | [HR Questions](common/hr.md) | 50+ HR questions with model answers for non-core roles |
-| **Behavioral** | [Behavioral Prep](common/behavioral.md) | STAR stories adapted for non-core interviews |
-| **Communication** | [Business Communication](common/communication.md) | Structured thinking, email, presentation, synthesis |
-| **Business Basics** | [Business Fundamentals](common/business-fundamentals.md) | Revenue, margins, growth, unit economics â€” the language of business |
-| **Interview Frameworks** | [Interview Frameworks](common/interview-frameworks.md) | STAR, CARL, SOAR, PREP â€” which framework when |
-| **Aptitude Bridge** | [Aptitude Bridge](common/aptitude-bridge.md) | Connecting existing aptitude content to non-core prep |
+The system is organized into five formal operational layers:
 
-### Role-Specific Tracks
-
-| Role | Directory | Core Files |
-|:-----|:----------|:-----------|
-| **Consulting** | [`consulting/`](consulting/) | [Overview](consulting/consulting-overview.md) Â· [Case Frameworks](consulting/case-frameworks.md) Â· [Case Bank](consulting/case-bank.md) |
-| **Strategy** | [`strategy/`](strategy/) | [Overview](strategy/strategy-overview.md) |
-| **Business Analyst** | [`business-analyst/`](business-analyst/) | [Overview](business-analyst/ba-overview.md) Â· [SQL Practice](business-analyst/sql-practice.md) |
-| **Data Analyst** | [`data-analyst/`](data-analyst/) | [Overview](data-analyst/da-overview.md) Â· [Statistics](data-analyst/statistics-practice.md) |
-| **Product Manager** | [`product-management/`](product-management/) | [Overview](product-management/pm-overview.md) Â· [Product Sense](product-management/product-sense.md) Â· [Metrics & Strategy](product-management/pm-metrics-strategy.md) |
-| **Product Analyst** | [`product-analyst/`](product-analyst/) | [Overview](product-analyst/pa-overview.md) |
-| **Operations** | [`operations/`](operations/) | [Overview](operations/operations-overview.md) |
-| **Supply Chain** | [`supply-chain/`](supply-chain/) | [Overview](supply-chain/supply-chain-overview.md) |
-| **Program/Project Mgmt** | [`program-management/`](program-management/) | [Overview](program-management/pgm-overview.md) |
-| **Finance** | [`finance/`](finance/) | [Overview](finance/finance-overview.md) |
-| **Risk** | [`risk/`](risk/) | [Overview](risk/risk-overview.md) |
-| **Business Operations** | [`business-operations/`](business-operations/) | [Overview](business-operations/biz-ops-overview.md) |
-| **Technology** | [`technology/`](technology/) | [Overview](technology/tech-overview.md) |
-
-### Cross-Cutting Systems
-
-| System | File | What It Covers |
-|:-------|:-----|:---------------|
-| **Case Interviews** | [Case Communication](case-interviews/case-communication.md) | Thinking aloud, structuring, mental math, synthesis |
-| **Framework Library** | [Framework Library](case-interviews/framework-library.md) | All consulting frameworks with structure + questions + analysis |
-| **Guesstimates** | [Guesstimate Guide](guesstimates/guesstimate-guide.md) | 6 estimation methods + 100+ practice questions |
-| **Civil â†’ Non-Core** | [Transferable Skills](resume-positioning/civil-to-noncore.md) | Map Civil experience â†’ business competencies |
-| **Resume Templates** | [Resume Templates](resume-positioning/resume-templates.md) | Role-specific resume guidance (Consulting, PM, Analyst, etc.) |
-| **Mock Interviews** | [Mock System](mock-interviews/mock-system.md) | 10 mock formats with scoring rubrics |
-| **Quick Revision** | [Quick Revision](quick-revision/quick-revision.md) | Night-before cards, cheat sheets, power formulas |
-
-### Related Preparation Subsystems
-
-| Subsystem | Content | Canonical Location |
-|:----------|:--------|:-------------------|
-| [`analytics/`](analytics/) | Non-Core Prep Resources · Technical Stack | [`non-core/01_roles/analytics/`](analytics/non-core-prep.md) |
-| **Aptitude System** | 720 Quant Qs · 400 Reasoning Qs · 372 Verbal Qs · Formula Sheets | [`aptitude/`](../aptitude/README.md) |
+```text
+ROLE SELECTION
+      ↓
+ROLE-SPECIFIC PREPARATION (01_roles/)
+      ↓
+INTERVIEW PREPARATION (02_interview-preparation/)
+      ↓
+COMMON BUSINESS / ANALYTICAL SKILLS (03_common-skills/)
+      ↓
+CAREER & FINAL REVISION (04_career-preparation/ & 05_rapid-revision/)
+```
 
 ---
 
-## ðŸ·ï¸ Priority Labels
+## 2. Start Here
 
-| Label | Meaning | Action |
-|:------|:--------|:-------|
-| **[P0]** | Must Know | 80%+ interviews test this â€” learn first |
-| **[P1]** | High Priority | 50-80% interviews â€” cover in first week |
-| **[P2]** | Useful | 20-50% interviews â€” good to know |
-| **[P3]** | Advanced | Niche / senior roles â€” optional depth |
-
-## ðŸŽ¯ Role Tags
-
-| Tag | Role Cluster |
-|:----|:-------------|
-| `[CONSULTING]` | Management consulting, strategy consulting |
-| `[STRATEGY]` | Corporate strategy, business strategy |
-| `[ANALYTICS]` | Business analytics, decision analytics |
-| `[DATA]` | Data analyst, data scientist, BI analyst |
-| `[PRODUCT]` | Product manager, product analyst |
-| `[OPERATIONS]` | Operations, supply chain, logistics |
-| `[FINANCE]` | Corporate finance, FP&A, valuation |
-| `[MANAGEMENT]` | Program management, project management, general management |
+| Objective | Start Here |
+|:---|:---|
+| **I do not know which non-core role suits me** | [Role Directory](ROLE_DIRECTORY.md) & [Role Selector](04_career-preparation/role-selection/role-selector.md) |
+| **I want to prepare for a specific role** | [Role Tracks](01_roles/) |
+| **I need case interview preparation** | [Case Interviews](02_interview-preparation/case-interviews/framework-library.md) |
+| **I need guesstimate practice** | [Guesstimates](02_interview-preparation/guesstimates/guesstimate-guide.md) |
+| **I need mock interviews & scoring** | [Mock Interviews](02_interview-preparation/mock-interviews/mock-system.md) |
+| **I need behavioral / fit interview skills** | [Behavioral Preparation](02_interview-preparation/behavioral/behavioral-mastery.md) |
+| **I need common business & quantitative skills** | [Common Skills](03_common-skills/) |
+| **I need to reposition my Civil / HWRE profile** | [Resume Positioning](04_career-preparation/resume-positioning/civil-to-noncore.md) |
+| **I need a comprehensive placement strategy** | [Placement Strategy](04_career-preparation/placement-strategy/placement-strategy.md) |
+| **My interview is close (< 24 hours)** | [Rapid Revision](05_rapid-revision/) |
 
 ---
 
-## ðŸ“‹ Quick Navigation by Interview Stage
+## 3. Non-Core Architecture
 
-### Before the Interview
-1. Choose your target role â†’ [Role Selector](role-selector.md)
-2. Build your resume â†’ [Resume Templates](resume-positioning/resume-templates.md)
-3. Prepare your stories â†’ [Behavioral Prep](common/behavioral.md)
-4. Learn business language â†’ [Business Fundamentals](common/business-fundamentals.md)
+```text
+non-core/
+│
+├── README.md
+├── ROLE_DIRECTORY.md
+│
+├── 01_roles/
+│   ├── consulting/
+│   ├── analytics/
+│   ├── business-analyst/
+│   ├── data-analyst/
+│   ├── business-operations/
+│   ├── operations/
+│   ├── product-management/
+│   ├── product-analyst/
+│   ├── program-management/
+│   ├── strategy/
+│   ├── supply-chain/
+│   ├── finance/
+│   ├── risk/
+│   └── technology/
+│
+├── 02_interview-preparation/
+│   ├── case-interviews/
+│   ├── guesstimates/
+│   ├── mock-interviews/
+│   └── behavioral/
+│
+├── 03_common-skills/
+│   ├── quantitative-reasoning/
+│   ├── communication/
+│   ├── business-fundamentals/
+│   ├── structured-problem-solving/
+│   └── data-interpretation/
+│
+├── 04_career-preparation/
+│   ├── resume-positioning/
+│   ├── role-selection/
+│   ├── placement-strategy/
+│   └── placement-roadmap/
+│
+├── 05_rapid-revision/
+│   ├── consulting/
+│   ├── analytics/
+│   ├── business-analyst/
+│   ├── product-management/
+│   └── other-roles/
+│
+└── _SYSTEM/
+    ├── CONTENT_MAP.md
+    ├── ROLE_SCHEMA.md
+    ├── MIGRATION_MAP.md
+    └── SOURCES.md
+```
 
-### During Preparation
-1. Master role-specific content â†’ See role track above
-2. Practice case interviews â†’ [Case Communication](case-interviews/case-communication.md)
-3. Drill guesstimates â†’ [Guesstimate Guide](guesstimates/guesstimate-guide.md)
-4. Practice SQL / analytics â†’ [SQL Practice](business-analyst/sql-practice.md)
+### [01 — Role Tracks](01_roles/)
+Contains preparation material specific to individual non-core career paths:
 
-### Night Before
-1. Quick revision â†’ [Quick Revision](quick-revision/quick-revision.md)
-2. Review your resume â†’ [Resume Positioning](resume-positioning/civil-to-noncore.md)
-3. Rehearse your intro â†’ [HR Questions](common/hr.md)
-4. Calm your nerves â†’ Trust your preparation
+| Role Track | Primary Focus & Levers | Module Link |
+|:---|:---|:---|
+| **Consulting** | Case solving, structured problem solving, business analysis | [01_roles/consulting/](01_roles/consulting/) |
+| **Strategy** | Corporate strategy, strategic analysis, market / business thinking | [01_roles/strategy/](01_roles/strategy/) |
+| **Analytics** | Quantitative analysis, data interpretation, analytical reasoning | [01_roles/analytics/](01_roles/analytics/) |
+| **Business Analyst** | SQL, business analysis, requirements and problem solving | [01_roles/business-analyst/](01_roles/business-analyst/) |
+| **Data Analyst** | Statistics, SQL, Python, dashboards and data interpretation | [01_roles/data-analyst/](01_roles/data-analyst/) |
+| **Product Management** | Product sense, metrics, prioritization and execution | [01_roles/product-management/](01_roles/product-management/) |
+| **Product Analyst** | Product analytics, metrics and experimentation | [01_roles/product-analyst/](01_roles/product-analyst/) |
+| **Business Operations** | Process improvement, business performance and execution | [01_roles/business-operations/](01_roles/business-operations/) |
+| **Operations** | Operations management, process thinking and optimization | [01_roles/operations/](01_roles/operations/) |
+| **Program Management** | Cross-functional planning, execution and delivery | [01_roles/program-management/](01_roles/program-management/) |
+| **Supply Chain** | Procurement, inventory, logistics and operations | [01_roles/supply-chain/](01_roles/supply-chain/) |
+| **Finance** | Financial analysis, accounting, valuation and business finance | [01_roles/finance/](01_roles/finance/) |
+| **Risk** | Risk analysis, quantitative reasoning and decision making | [01_roles/risk/](01_roles/risk/) |
+| **Technology** | Technology-oriented non-core roles and preparation | [01_roles/technology/](01_roles/technology/) |
 
 ---
 
-## ðŸŽ¯ The IITK Civil Advantage
+## 4. [Interview Preparation](02_interview-preparation/)
 
-Your Civil / M.Tech background is **not a weakness** â€” it's a differentiator:
+The interview layer contains reusable interview methods that apply across multiple roles:
 
-| Civil Skill | Non-Core Translation |
-|:------------|:---------------------|
-| CFD / Modelling | Quantitative modeling, analytical thinking |
-| Hydraulics / Hydrology | Quantitative problem solving at scale |
-| Research / Thesis | Independent problem solving, ambiguity tolerance |
-| Site / Project Management | Ownership, execution, delivery under constraints |
-| Lab Experiments | Data analysis, experimentation, hypothesis testing |
-| GIS / Spatial Data | Spatial analytics, data visualization |
-| Python / MATLAB | Quantitative automation, data manipulation |
-| Teaching / TA | Communication, simplification, stakeholder management |
-| Team Projects | Cross-functional collaboration, coordination |
+```text
+02_interview-preparation/
+├── case-interviews/
+├── guesstimates/
+├── mock-interviews/
+└── behavioral/
+```
 
-> **Never exaggerate.** Use: Actual experience â†’ Transferable competency â†’ Evidence â†’ Role relevance
-
----
-
-## ðŸ”— Cross-Links to Repository
-
-| Topic | Link |
-|:------|:-----|
-| Behavioral / HR System | [behavioral/](../prep/behavioral/) |
-| Technical Interview Bank | [technical-interview-bank](../prep/interview/technical/technical-interview-bank.md) |
-| Company Profiles | [company-profiles](../prep/company-profiles/) |
-| Software Interview Guide | [software-interview-guide](../prep/interview/software-interview-guide.md) |
-| Quick Revision System | [quick-revision-system](../prep/interview/quick-revision-system.md) |
-| Mock Interview Database | [mock-interview-database](../prep/interview/mock-tests/mock-interview-database.md) |
+- **[Case Interviews](02_interview-preparation/case-interviews/framework-library.md)**: Case structuring, framework selection, hypothesis-driven analysis, quantitative case solving, data interpretation, synthesis, and recommendation.
+- **[Guesstimates](02_interview-preparation/guesstimates/guesstimate-guide.md)**: Estimation methodology, assumption building, mental mathematics, sanity checking, market sizing, capacity / demand estimation.
+- **[Mock Interviews](02_interview-preparation/mock-interviews/mock-system.md)**: Structured interview simulations, evaluation criteria, readiness rubrics, and peer practice workflows.
+- **[Behavioral Interviews](02_interview-preparation/behavioral/behavioral-mastery.md)**: Self-introduction, STAR / CAR response structures, leadership, conflict, failure, teamwork, ownership, motivation, and role-specific behavioral questions.
 
 ---
 
-*This is the IITK Civil Non-Core Placement Operating System â€” built for IITK students, by understanding what IITK students actually face.*
+## 5. [Common Skills](03_common-skills/)
 
+Transferable capabilities shared across multiple non-core roles:
+
+```text
+03_common-skills/
+├── quantitative-reasoning/
+├── communication/
+├── business-fundamentals/
+├── structured-problem-solving/
+└── data-interpretation/
+```
+
+> **Note**: These are not separate career tracks. They are reusable competencies that support multiple roles.
+
+---
+
+## 6. [Career Preparation](04_career-preparation/)
+
+This layer connects preparation to actual placement execution:
+
+```text
+04_career-preparation/
+├── resume-positioning/
+├── role-selection/
+├── placement-strategy/
+└── placement-roadmap/
+```
+
+- **[Resume Positioning](04_career-preparation/resume-positioning/civil-to-noncore.md)**: Translates Civil / HWRE experience into role-relevant evidence without exaggerating experience.
+- **[Role Selection](04_career-preparation/role-selection/role-selector.md)**: Helps identify suitable non-core role families based on existing skills, technical background, transferable experience, interest, preparation requirements, and interview format.
+- **[Placement Strategy](04_career-preparation/placement-strategy/placement-strategy.md)**: Covers practical preparation planning across multiple non-core role families and slotting optimization.
+- **[Placement Roadmap](04_career-preparation/placement-roadmap/placement-roadmap.md)**: Provides time-based preparation plans from Month -6 to Day 1.
+
+---
+
+## 7. [Rapid Revision Hub](05_rapid-revision/)
+
+Dedicated for final-stage preparation (test eve and interview morning):
+- **Consulting**: [05_rapid-revision/consulting/revision-sheet.md](05_rapid-revision/consulting/revision-sheet.md)
+- **Analytics**: [05_rapid-revision/analytics/revision-sheet.md](05_rapid-revision/analytics/revision-sheet.md)
+- **Business Analyst**: [05_rapid-revision/business-analyst/revision-sheet.md](05_rapid-revision/business-analyst/revision-sheet.md)
+- **Product Management**: [05_rapid-revision/product-management/revision-sheet.md](05_rapid-revision/product-management/revision-sheet.md)
+- **Specialized Roles**: [05_rapid-revision/other-roles/](05_rapid-revision/other-roles/)
+
+> **Rule**: Rapid revision must summarize canonical material in high-density cheat sheets rather than becoming a second independent knowledge base.
+
+---
+
+## 8. Role → Skill → Preparation Model
+
+Every role follows the same conceptual chain:
+
+```text
+TARGET ROLE
+    ↓
+ROLE RESPONSIBILITIES
+    ↓
+REQUIRED COMPETENCIES
+    ↓
+KNOWLEDGE AREAS
+    ↓
+TOOLS / METHODS
+    ↓
+INTERVIEW FORMAT
+    ↓
+PRACTICE
+    ↓
+REVISION
+```
+
+**Example (Business Analyst)**:
+```text
+Business Analyst 
+  ↳ Business problem solving 
+  ↳ Structured thinking + SQL + analytics 
+  ↳ Business fundamentals + data interpretation 
+  ↳ SQL / Excel / analytics tools 
+  ↳ Case + technical + behavioral interview 
+  ↳ Practice 
+  ↳ Rapid revision
+```
+
+---
+
+## 9. Civil / HWRE → Non-Core Transfer
+
+A Civil or HWRE background contains several transferable capabilities:
+
+| Civil / HWRE Experience | Possible Non-Core Competency |
+|:---|:---|
+| **CFD / Numerical Modelling** | Quantitative modelling, parameter tuning, algorithm design |
+| **Hydraulics / Hydrology** | Analytical problem solving, network flow analysis |
+| **Research / Thesis** | Independent problem solving, deep-dive root cause analysis |
+| **Experimental Work** | Data analysis, hypothesis testing, experimentation |
+| **Python / MATLAB** | Quantitative automation, scripting, data manipulation |
+| **GIS / Spatial Analysis** | Data visualization, spatial analytics, clustering |
+| **Project Work** | Execution, scheduling, and milestone ownership |
+| **Field Work** | Operational understanding, real-world constraints |
+| **Team Projects** | Collaboration, cross-functional leadership |
+| **Teaching / TA Work** | Communication, executive presentation, synthesis |
+
+> **Rule**: Do not claim a non-core competency merely because a Civil subject exists on the resume. Show the competency through actual evidence, project work or demonstrated practice.
+
+---
+
+## 10. Repository Integration
+
+Non-core preparation connects to the broader placement system:
+
+| Resource | Canonical Location |
+|:---|:---|
+| **Aptitude** | [../aptitude/](../aptitude/) |
+| **Behavioral Interview System** | [../prep/behavioral/](../prep/behavioral/) |
+| **Technical Interview Bank** | [../prep/interview/technical/](../prep/interview/technical/) |
+| **Company Profiles** | [../prep/company-profiles/](../prep/company-profiles/) |
+| **Software Preparation** | [../software-and-tech/](../software-and-tech/) |
+| **Placement Readiness** | [../prep/](../prep/) |
+
+---
+
+## 11. Priority System
+
+| Priority | Meaning |
+|:---|:---|
+| **P0** | Fundamental / required before proceeding |
+| **P1** | High-priority interview preparation |
+| **P2** | Useful supporting knowledge |
+| **P3** | Advanced or specialized material |
+
+*Priority labels describe preparation importance, not probability of selection.*
+
+---
+
+## 12. Navigation Rule
+
+```text
+non-core/README.md
+    ↓
+ROLE_DIRECTORY.md
+    ↓
+01_roles/
+    ↓
+02_interview-preparation/  03_common-skills/  04_career-preparation/  05_rapid-revision/
+```
+
+1. The **README** is the landing page.
+2. **ROLE_DIRECTORY.md** is the role-selection index.
+3. Individual **role folders** are the canonical source for role-specific preparation.
+
+---
+
+## 13. Content Ownership
+
+To avoid duplication across directories:
+
+| Content Type | Canonical Location |
+|:---|:---|
+| **Role-specific knowledge** | `01_roles/` |
+| **Case / guesstimate / mock / behavioral methods** | `02_interview-preparation/` |
+| **Transferable business skills** | `03_common-skills/` |
+| **Resume / role selection / placement planning** | `04_career-preparation/` |
+| **Last-minute summaries** | `05_rapid-revision/` |
+| **Governance / metadata / migration** | `_SYSTEM/` |
+
+---
+
+## 14. Quality Standards
+
+- **Evidence-based**: No fabricated company recruitment information or unsupported salary/hiring claims.
+- **Clear Distinction**: Clear boundary between knowledge and preparation heuristics.
+- **Requirement-linked**: Role-specific material linked directly to interview format requirements.
+- **Single Source of Truth**: Reusable content has one canonical location.
+- **High-Density Summaries**: Revision material summarizes rather than duplicates.
+- **Zero Broken Links**: All internal links validated and operational.
+
+---
+
+## 15. Recommended Preparation Flow
+
+```text
+STEP 1: Choose target role (04_career-preparation/role-selection/)
+  ↓
+STEP 2: Read role overview (01_roles/<role>/01_role-overview.md)
+  ↓
+STEP 3: Identify required skills & tools (01_roles/<role>/04_tools-and-technical-stack.md)
+  ↓
+STEP 4: Study common fundamentals (03_common-skills/)
+  ↓
+STEP 5: Practice role-specific problems (01_roles/<role>/08_role-study-plan.md)
+  ↓
+STEP 6: Practice relevant interview format (02_interview-preparation/)
+  ↓
+STEP 7: Run mock interviews & diagnostics (02_interview-preparation/mock-interviews/)
+  ↓
+STEP 8: Review resume positioning (04_career-preparation/resume-positioning/)
+  ↓
+STEP 9: Use rapid revision (05_rapid-revision/)
+```
+
+---
+
+## 16. Important Repository Rule
+
+> **`non-core/` is a preparation system, not the company database.**  
+> - Company-specific intelligence belongs in `prep/company-profiles/`.  
+> - Software documentation belongs in `software-and-tech/`.  
+> - Aptitude question banks belong in `aptitude/`.  
+> - General interview infrastructure belongs in the canonical `prep/` system.  
+> The purpose of `non-core/` is to connect these resources into coherent role-specific preparation pathways.
+
+---
+
+### Global Repository Navigation
+- [📁 Root Repository](../README.md)
+- [📁 Core Civil / HWRE](../core/)
+- [📁 Aptitude Engine](../aptitude/)
+- [📁 Preparation Hub](../prep/)
+- [📁 Software & Technology](../software-and-tech/)
