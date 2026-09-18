@@ -1,11 +1,11 @@
-# Product Management — Rapid Revision Sheet
+# Operations Management — Rapid Revision Sheet
 
-> Canonical, condensed 60/30/10/5-minute emergency revision sheet for Product Management interviews and Online Assessments.
+> Canonical, condensed 60/30/10/5-minute emergency revision sheet for Operations Management interviews and Online Assessments.
 
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Product Management Preparation Track](../../01_roles/product-management/README.md)
+- 📖 [Complete Operations Management Preparation Track](../../01_roles/operations/README.md)
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## 1. 60-Minute Deep Revision: Core Frameworks
 
-### 1. Core Product Management Diagnostic Tree
+### 1. Core Operations Management Diagnostic Tree
 $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longrightarrow \text{Root-Cause Isolation} \longrightarrow \text{Executive Action Plan}$$
 
 ---
@@ -32,7 +32,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 
 | Domain Dimension | Core Equations / Methods | Context |
 |:---|:---|:---|
-| **Core Operational Metrics** | P&L Driver Decomposition | PRD specs, User Journey Mapping, prioritization frameworks (RICE), feature metrics. |
+| **Core Operational Metrics** | P&L Driver Decomposition | Little's Law, bottleneck analysis, OEE, EOQ inventory modeling, DMAIC Six Sigma. |
 | **Efficiency & Utilization** | Bottleneck & Capacity Models | High-frequency placement evaluation |
 
 ---
@@ -44,7 +44,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 - Neglecting stakeholder alignment and cross-functional implementation constraints.
 
 ### ⚡ Rapid Practice Questions & Answers
-1. **Q**: *How do you evaluate performance in Product Management?* -> **A**: Deconstruct core North Star metric into operational leading and lagging indicators.
+1. **Q**: *How do you evaluate performance in Operations Management?* -> **A**: Deconstruct core North Star metric into operational leading and lagging indicators.
 
 ---
 
@@ -53,7 +53,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 ### 🎯 5-Minute Readiness Audit
 - [ ] Core domain formulas and metrics reviewed.
 - [ ] Structured problem solving framework ready.
-- [ ] Civil-to-Product Management project narrative rehearsed.
+- [ ] Civil-to-Operations Management project narrative rehearsed.
 
-### 🗣️ The 60-Second "Why Product Management from Civil?" Pitch
-> *"My Civil Engineering background at IIT Kanpur grounded me in rigorous quantitative problem solving, data modeling under physical constraints, and analyzing complex networks. I am applying this structured, analytical discipline to high-velocity decision-making in Product Management."*
+### 🗣️ The 60-Second "Why Operations Management from Civil?" Pitch
+> *"My Civil Engineering background at IIT Kanpur grounded me in rigorous quantitative problem solving, data modeling under physical constraints, and analyzing complex networks. I am applying this structured, analytical discipline to high-velocity decision-making in Operations Management."*

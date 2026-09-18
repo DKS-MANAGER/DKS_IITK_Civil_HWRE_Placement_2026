@@ -1,41 +1,32 @@
 # 05. Rapid Revision Hub
 
-> High-yield, last-minute 60-minute revision sheets for test day and interview morning.  
-> Designed with ultra-condensed formulas, mental frameworks, and key pitfalls to avoid duplicate bloat.
+> Canonical last-minute emergency preparation hub. Contains 14 standardized role-specific revision sheets and 1 master cross-role sheet structured with 60/30/10/5-minute time hierarchies.
 
 ---
 
-## 🚀 Priority Role Revision Cards
+## 📑 Rapid Revision Directory
 
-| Track | Revision Guide | Focus Area |
-|:------|:---------------|:-----------|
-| **Management Consulting** | [consulting/revision-sheet.md](consulting/revision-sheet.md) | Profitability trees, market entry, M&A, pricing formulas |
-| **Analytics & Quant** | [analytics/revision-sheet.md](analytics/revision-sheet.md) | SQL order of execution, window functions, A/B test power formulas |
-| **Business Analyst** | [business-analyst/revision-sheet.md](business-analyst/revision-sheet.md) | Metric trees, cohort breakdown, root-cause segmentation |
-| **Product Management** | [product-management/revision-sheet.md](product-management/revision-sheet.md) | CIRCLES framework, RICE prioritization, AARRR funnel metrics |
-
----
-
-## 📚 Specialized Role Revision Sheets
-
-| Track | Guide Link | Focus Area |
-|:------|:-----------|:-----------|
-| **Finance & FinTech** | [other-roles/finance.md](other-roles/finance.md) | 3-Statement financial linking, DCF multiples, working capital |
-| **Operations Management** | [other-roles/operations.md](other-roles/operations.md) | Little's Law, queueing, inventory EOQ models, Six Sigma DMAIC |
-| **Product Analyst** | [other-roles/product-analyst.md](other-roles/product-analyst.md) | Funnel drop-off analytics, feature experiments, retention heatmaps |
-| **Program Management** | [other-roles/program-management.md](other-roles/program-management.md) | CPM/PERT scheduling, risk registers, stakeholder RACI |
-| **Corporate Strategy** | [other-roles/strategy.md](other-roles/strategy.md) | Porter's 5 Forces, 3Cs, 7 Powers, organic vs inorganic growth |
-| **Supply Chain** | [other-roles/supply-chain.md](other-roles/supply-chain.md) | Bullwhip effect, safety stock, multi-echelon inventory |
-| **Risk Management** | [other-roles/risk.md](other-roles/risk.md) | Credit risk, market VaR, Basel frameworks, stress testing |
-| **Technology & Systems** | [other-roles/technology.md](other-roles/technology.md) | System design, APIs, databases (SQL vs NoSQL), scalability |
-| **Master Overview** | [other-roles/master-quick-revision.md](other-roles/master-quick-revision.md) | Emergency comprehensive non-core summary |
+| Track | Revision Sheet | Focus Areas |
+|:---|:---|:---|
+| **Master Cross-Role** | [master/revision-sheet.md](master/revision-sheet.md) | Universal quant formulas, SQL execution order, STAR stories, 5-min checklist |
+| **Management Consulting** | [consulting/revision-sheet.md](consulting/revision-sheet.md) | Profitability trees, Market Entry, Rule of 72, PEI fit stories |
+| **Business Analyst** | [business-analyst/revision-sheet.md](business-analyst/revision-sheet.md) | Metric drop framework, AARRR funnels, unit economics ($LTV/CAC$), SQL |
+| **Risk Analyst** | [risk/revision-sheet.md](risk/revision-sheet.md) | $EL=PD \times LGD \times EAD$, WoE/IV, VaR math, Basel III, Three Lines of Defense |
+| **Analytics & Decision Science**| [analytics/revision-sheet.md](analytics/revision-sheet.md) | A/B testing sample size, SRM $\chi^2$ test, Pandas wrangling, DAU/MAU |
+| **Data Analyst** | [data-analyst/revision-sheet.md](data-analyst/revision-sheet.md) | SQL window functions, cohort retention queries, Power BI ETL dashboards |
+| **Corporate Finance** | [finance/revision-sheet.md](finance/revision-sheet.md) | DCF valuation, WACC, working capital cycle, 3-statement bridges |
+| **Product Management** | [product-management/revision-sheet.md](product-management/revision-sheet.md) | Product sense, user journeys, RICE prioritization, North Star metrics |
+| **Product Analyst** | [product-analyst/revision-sheet.md](product-analyst/revision-sheet.md) | Feature conversion funnels, engagement cohorts, A/B test telemetry |
+| **Corporate Strategy** | [strategy/revision-sheet.md](strategy/revision-sheet.md) | Market sizing, competitive moats, M&A synergies, strategic roadmaps |
+| **Operations Management** | [operations/revision-sheet.md](operations/revision-sheet.md) | Little's Law, bottleneck cycle times, EOQ inventory, Six Sigma DMAIC |
+| **Business Operations** | [business-operations/revision-sheet.md](business-operations/revision-sheet.md) | Operational OKRs, cross-functional SLA governance, unit economics turnaround |
+| **Supply Chain Management** | [supply-chain/revision-sheet.md](supply-chain/revision-sheet.md) | Bullwhip effect, safety stock calculations, multi-echelon dark store logistics |
+| **Technical Program Mgmt** | [program-management/revision-sheet.md](program-management/revision-sheet.md) | Critical Path Method (CPM), PERT duration, RACI matrix, risk registers |
+| **Technology Consulting** | [technology/revision-sheet.md](technology/revision-sheet.md) | System architectures, API specifications, microservices, cloud economics |
 
 ---
 
-## Navigation
-- [Non-Core Master Hub](../README.md)
-- [Master Role Directory](../ROLE_DIRECTORY.md)
-- [01 Role Tracks](../01_roles/)
-- [02 Interview Preparation](../02_interview-preparation/)
-- [03 Common Skills](../03_common-skills/)
-- [04 Career Preparation](../04_career-preparation/)
+## ⏱️ How to Use This Hub During Placement Week
+1. **Night Before Interview (60 mins)**: Read Section 1 & 2 of your target role sheet to review core frameworks and formulas.
+2. **Morning of Interview (30 mins)**: Review Section 3 to avoid common traps and rehearse rapid practice Q&As.
+3. **10 Minutes Before Entering Room (10 mins)**: Audit Section 4 (Pre-Interview Checklist) and review your 60-second pitch.

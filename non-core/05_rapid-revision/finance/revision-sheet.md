@@ -1,11 +1,11 @@
-# Product Management — Rapid Revision Sheet
+# Corporate Finance & Investment Banking — Rapid Revision Sheet
 
-> Canonical, condensed 60/30/10/5-minute emergency revision sheet for Product Management interviews and Online Assessments.
+> Canonical, condensed 60/30/10/5-minute emergency revision sheet for Corporate Finance & Investment Banking interviews and Online Assessments.
 
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Product Management Preparation Track](../../01_roles/product-management/README.md)
+- 📖 [Complete Corporate Finance & Investment Banking Preparation Track](../../01_roles/finance/README.md)
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## 1. 60-Minute Deep Revision: Core Frameworks
 
-### 1. Core Product Management Diagnostic Tree
+### 1. Core Corporate Finance & Investment Banking Diagnostic Tree
 $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longrightarrow \text{Root-Cause Isolation} \longrightarrow \text{Executive Action Plan}$$
 
 ---
@@ -32,7 +32,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 
 | Domain Dimension | Core Equations / Methods | Context |
 |:---|:---|:---|
-| **Core Operational Metrics** | P&L Driver Decomposition | PRD specs, User Journey Mapping, prioritization frameworks (RICE), feature metrics. |
+| **Core Operational Metrics** | P&L Driver Decomposition | DCF valuation, WACC, working capital cycle, 3-statement financial modeling, EBITDA bridges. |
 | **Efficiency & Utilization** | Bottleneck & Capacity Models | High-frequency placement evaluation |
 
 ---
@@ -44,7 +44,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 - Neglecting stakeholder alignment and cross-functional implementation constraints.
 
 ### ⚡ Rapid Practice Questions & Answers
-1. **Q**: *How do you evaluate performance in Product Management?* -> **A**: Deconstruct core North Star metric into operational leading and lagging indicators.
+1. **Q**: *How do you evaluate performance in Corporate Finance & Investment Banking?* -> **A**: Deconstruct core North Star metric into operational leading and lagging indicators.
 
 ---
 
@@ -53,7 +53,7 @@ $$\text{Scoping & Baseline} \longrightarrow \text{Mathematical Modeling} \longri
 ### 🎯 5-Minute Readiness Audit
 - [ ] Core domain formulas and metrics reviewed.
 - [ ] Structured problem solving framework ready.
-- [ ] Civil-to-Product Management project narrative rehearsed.
+- [ ] Civil-to-Corporate Finance & Investment Banking project narrative rehearsed.
 
-### 🗣️ The 60-Second "Why Product Management from Civil?" Pitch
-> *"My Civil Engineering background at IIT Kanpur grounded me in rigorous quantitative problem solving, data modeling under physical constraints, and analyzing complex networks. I am applying this structured, analytical discipline to high-velocity decision-making in Product Management."*
+### 🗣️ The 60-Second "Why Corporate Finance & Investment Banking from Civil?" Pitch
+> *"My Civil Engineering background at IIT Kanpur grounded me in rigorous quantitative problem solving, data modeling under physical constraints, and analyzing complex networks. I am applying this structured, analytical discipline to high-velocity decision-making in Corporate Finance & Investment Banking."*
