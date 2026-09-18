@@ -1,100 +1,64 @@
-# Business Analyst — Rapid Revision Sheet
+# 09. Business Analyst: Rapid Revision Sheet
 
-> Last-minute revision for BA interviews. SQL, Excel, KPI analysis quick reference in 15 minutes.
+> High-density, 1-page formula and framework cheat sheet for test day and interview morning.
 
 ---
 
-## SQL Quick Reference
+## 1. SQL Query Architecture & Quick Syntax
 
-### Essential Patterns
+### Clause Execution Order
+```text
+1. FROM / JOIN
+2. WHERE (Row-level filter)
+3. GROUP BY (Aggregation buckets)
+4. HAVING (Aggregate filter)
+5. SELECT (Column projection)
+6. DISTINCT
+7. ORDER BY
+8. LIMIT / OFFSET
+```
+
+### Essential Snippets
 ```sql
--- Ranking
-SELECT *, RANK() OVER (ORDER BY metric DESC) AS rank FROM table;
-
--- Running total
-SELECT *, SUM(metric) OVER (ORDER BY date ROWS UNBOUNDED PRECEDING) AS running_total FROM table;
-
--- Previous/next row
-SELECT *, LAG(metric, 1) OVER (ORDER BY date) AS prev FROM table;
-
--- Top N per group
-WITH ranked AS (
-    SELECT *, ROW_NUMBER() OVER (PARTITION BY group ORDER BY metric DESC) AS rn
-    FROM table
+-- Monthly Cohort Aggregation with Window Lag
+WITH monthly_rev AS (
+    SELECT 
+        DATE_TRUNC('month', order_date) AS order_month,
+        category,
+        SUM(total_amount) AS revenue
+    FROM orders o
+    JOIN products p ON o.product_id = p.product_id
+    WHERE status = 'Completed'
+    GROUP BY 1, 2
 )
-SELECT * FROM ranked WHERE rn <= 3;
-
--- CTE for readability
-WITH cte AS (SELECT ... FROM ... WHERE ...)
-SELECT ... FROM cte WHERE ...;
-```
-
-### JOIN Types
-```
-INNER JOIN → Matching rows only
-LEFT JOIN  → All left rows + matching right
-FULL JOIN  → All rows from both
+SELECT 
+    order_month,
+    category,
+    revenue,
+    LAG(revenue, 1) OVER (PARTITION BY category ORDER BY order_month) AS prev_month_rev,
+    ROUND(100.0 * (revenue - LAG(revenue, 1) OVER (PARTITION BY category ORDER BY order_month)) / NULLIF(LAG(revenue, 1) OVER (PARTITION BY category ORDER BY order_month), 0), 2) AS mom_growth_pct
+FROM monthly_rev;
 ```
 
 ---
 
-## Excel Quick Reference
+## 2. Business Metric Equations & Ratios
 
-### Key Formulas
-| Formula | Purpose |
-|:--------|:--------|
-| VLOOKUP(value, range, col, FALSE) | Look up value in table |
-| INDEX(MATCH()) | Flexible lookup (better than VLOOKUP) |
-| IF(condition, true, false) | Conditional logic |
-| SUMIF(range, criteria, sum_range) | Conditional sum |
-| COUNTIF(range, criteria) | Conditional count |
-| PIVOT TABLE | Summarize large datasets |
+| Metric | Formula | Benchmark / Target |
+|:---|:---|:---:|
+| **Customer Acquisition Cost (CAC)** | $\frac{\text{Total Sales \& Marketing Expenses}}{\text{Number of New Customers Acquired}}$ | Lower is better |
+| **Customer Lifetime Value (LTV)** | $\frac{\text{ARPU} \times \text{Gross Margin \%}}{\text{Monthly Churn Rate}}$ | $\ge 3\times \text{CAC}$ |
+| **Conversion Rate** | $\frac{\text{Total Successful Conversions}}{\text{Total Unique Visitors}} \times 100\%$ | $2\% - 5\%$ (E-commerce) |
+| **Average Order Value (AOV)** | $\frac{\text{Total Revenue}}{\text{Total Orders Placed}}$ | Growth driver |
+| **Net Promoter Score (NPS)** | $\% \text{Promoters (9-10)} - \% \text{Detractors (0-6)}$ | $> +40$ (Good), $> +70$ (World-class) |
 
 ---
 
-## KPI Quick Reference
+## 3. Emergency Case Deconstruction Heuristic
 
-| Business | Key KPIs |
-|:---------|:---------|
-| E-commerce | Conversion rate, AOV, cart abandonment, repeat rate |
-| SaaS | MRR, churn, activation rate, NPS |
-| Banking | CAC, LTV, default rate, NPS |
-| Ride-hailing | Ride completion, surge frequency, driver utilization |
-| Social media | DAU/MAU, engagement rate, content creation rate |
-
-### Root-Cause Analysis Framework
-```
-1. DEFINE → What exactly happened? By how much? Since when?
-2. SEGMENT → By customer type? Region? Product? Channel?
-3. EXTERNAL → Seasonality? Competitor? Regulation?
-4. INTERNAL → Product change? Process change? System issue?
-5. HYPOTHESIS → Form 2-3 hypotheses
-6. VALIDATE → Check data for each
-7. RECOMMEND → Fix + prevent recurrence
-```
-
----
-
-## Last-Minute Checklist
-
-- [ ] Practiced 5 SQL queries (JOINs, window functions)
-- [ ] Reviewed pivot table creation
-- [ ] Reviewed KPI frameworks for 3 business types
-- [ ] Reviewed root-cause analysis framework
-- [ ] Prepared 4 STAR stories
-- [ ] Researched [company] business model
-
----
-
-## Cross-Links
-
-| Resource | Link |
-|:---------|:-----|
-| Full Study Plan | [role-study-plan.md](role-study-plan.md) |
-| SQL Practice | [sql-practice.md](sql-practice.md) |
-| Statistics | [../data-analyst/statistics-practice.md](../data-analyst/statistics-practice.md) |
-| Behavioral Guide | [../../prep/behavioral/behavioral-interview-guide.md](../../prep/behavioral/behavioral-interview-guide.md) |
-
----
-
-*Print this sheet 1 hour before your BA interview.*
+When asked to diagnose any metric drop:
+1. **Define Metric**: What is the numerator and denominator?
+2. **Segment the Drop**: Segment across Geography, Platform (iOS/Android/Web), User Cohort (New vs Retained).
+3. **External Checks**: Seasonality, holidays, network outage, competitor campaign.
+4. **Internal Checks**: Bug in latest deployment, checkout policy change, pricing adjustment.
+5. **Formulate Hypothesis $\to$ Request Data $\to$ Quantify ROI of Fix**.
