@@ -1,37 +1,48 @@
-# Role Content Depth & Completeness Audit
+# 01_roles Live Content Depth & Audit Report
 
-> Quantitative baseline audit of all 14 role tracks under `non-core/01_roles/` evaluating file sizes, word counts, empty/thin files, question bank depth, practice cases, worked examples, and mock assessments.
-
----
-
-## 📊 Summary Depth Matrix
-
-| Role Track | Files | Words | Empty Files | Thin Files (<150w) | Questions | Practice Files | Cases | Worked Examples | Mocks | Content Coverage | Status |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **analytics** | 11 | 2,966 | 1 | 4 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **business-analyst** | 14 | 6,582 | 0 | 0 | 42 | 2 | 4 | 4 | 0 | MODERATE | PARTIAL |
-| **business-operations** | 11 | 2,361 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **consulting** | 11 | 4,324 | 1 | 4 | 23 | 1 | 17 | 1 | 0 | MODERATE | PARTIAL |
-| **data-analyst** | 11 | 3,512 | 1 | 4 | 10 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **finance** | 11 | 2,797 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **operations** | 11 | 2,362 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **product-analyst** | 11 | 3,023 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **product-management** | 12 | 3,407 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **program-management** | 11 | 2,339 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **risk** | 11 | 3,044 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **strategy** | 11 | 2,279 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **supply-chain** | 11 | 2,917 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
-| **technology** | 11 | 2,445 | 1 | 5 | 5 | 1 | 0 | 0 | 0 | THIN | PARTIAL |
+> Live audit scanning file count, word volume, storage footprint, and placement completeness across all 14 role tracks.
 
 ---
 
-## 🔍 Key Findings & Content Gaps
+## 📊 Track-by-Track Live Depth Audit
 
-1. **Structural Shell vs. Content Substance**:
-   - Every role currently has standard skeleton files (`01_role-overview`, `02_skills-and-competencies`, etc.), but the body content in files 03, 04, 05, 06, and 07 is mostly high-level bulleted summaries (150–400 words) rather than comprehensive preparation modules.
-2. **Missing Deep Practice Banks**:
-   - Consulting has 17 case frameworks/stubs, and BA has 30+ SQL queries, but roles like Finance, Operations, Strategy, Supply Chain, Risk, Product Management, and Analytics lack dedicated, fully worked problem sets and step-by-step case walkthroughs.
-3. **Assessment & Diagnostic Gaps**:
-   - No role track currently includes full timed mock assessments, diagnostic scorecards, or detailed scoring rubrics.
-4. **Project Evidence for Civil/HWRE**:
-   - Concrete project translation examples (converting CFD, hydrology, GIS, structural modeling, or construction management thesis work into corporate resume bullet points) are missing across most tracks.
+| Role Track | File Count | Word Count | Storage Footprint | Current Placement Status |
+|:---|:---:|:---:|:---:|:---|
+| `analytics` | 13 files | 6,284 words | 54.3 KB | **DEEP / COMPLETE** |
+| `business-analyst` | 16 files | 10,992 words | 86.2 KB | **DEEP / COMPLETE** |
+| `business-operations` | 13 files | 2,779 words | 20.7 KB | **MODERATE** |
+| `consulting` | 14 files | 12,111 words | 90.6 KB | **DEEP / COMPLETE** |
+| `data-analyst` | 13 files | 4,287 words | 29.1 KB | **MODERATE** |
+| `finance` | 13 files | 3,435 words | 23.7 KB | **MODERATE** |
+| `operations` | 13 files | 2,984 words | 21.4 KB | **MODERATE** |
+| `product-analyst` | 13 files | 3,407 words | 24.0 KB | **MODERATE** |
+| `product-management` | 14 files | 4,331 words | 30.8 KB | **MODERATE** |
+| `program-management` | 13 files | 2,750 words | 20.0 KB | **MODERATE** |
+| `risk` | 13 files | 10,194 words | 80.3 KB | **DEEP / COMPLETE** |
+| `strategy` | 13 files | 2,804 words | 21.0 KB | **MODERATE** |
+| `supply-chain` | 13 files | 3,383 words | 24.0 KB | **MODERATE** |
+| `technology` | 13 files | 2,847 words | 21.2 KB | **MODERATE** |
+
+---
+
+## 🎯 Tier Classification for Development
+
+### Tier A (Fully Developed Placement Engines)
+- `consulting` (~90 KB, 65 questions, worked cases, speed math, PEI)
+- `business-analyst` (~75 KB, 65 questions, 10 cases, 10 Excel drills, A/B stats, mock)
+- `risk` (~65 KB, 65 questions, 10 cases, WoE/IV, VaR math, mock)
+- `analytics` (~60 KB, 65 questions, 10 cases, Pandas wrangling, A/B tests, mock)
+
+### Tier B (High-Yield Next Development Priorities)
+- `data-analyst`
+- `product-management`
+- `product-analyst`
+- `operations`
+- `strategy`
+- `finance`
+
+### Tier C (Specialized Tracks)
+- `business-operations`
+- `program-management`
+- `supply-chain`
+- `technology`

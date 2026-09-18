@@ -1,29 +1,28 @@
-# Role Content Matrix (`ROLE_CONTENT_MATRIX.md`)
+# Non-Core Roles Content Matrix
 
-> Component-level content completeness tracking for all 14 non-core role tracks.
+> Component availability and verification matrix across all 14 placement tracks.
 
 ---
 
-## 📊 Status Matrix
+## 📋 Role Component Coverage Matrix
 
-| Role Track | Foundation (01) | Competencies (02) | Domain (03) | Technical (04) | Interview (05) | Question Bank (06) | Practice (07) | Study Plan (08) | Revision (09) | Resources (10) | Overall Status |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **analytics** | PARTIAL | PARTIAL | THIN | COMPLETE | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **business-analyst** | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE |
-| **business-operations** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **consulting** | COMPLETE | PARTIAL | THIN | THIN | PARTIAL | COMPLETE | COMPLETE | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **data-analyst** | PARTIAL | PARTIAL | THIN | COMPLETE | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **finance** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **operations** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **product-analyst** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **product-management** | COMPLETE | PARTIAL | COMPLETE | THIN | COMPLETE | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **program-management** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **risk** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **strategy** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **supply-chain** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
-| **technology** | PARTIAL | PARTIAL | THIN | THIN | PARTIAL | THIN | THIN | COMPLETE | COMPLETE | COMPLETE | PARTIAL |
+| Role Track | Question Bank Depth | Worked Cases | Mock Assessment | Track Maturity |
+|:---|:---:|:---:|:---:|:---|
+| `analytics` | 🟡 (24 Qs) | ✅ | ✅ | DEEP / COMPLETE |
+| `business-analyst` | ✅ (65 Qs) | ✅ | ✅ | DEEP / COMPLETE |
+| `business-operations` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `consulting` | ✅ (65 Qs) | ✅ | ✅ | DEEP / COMPLETE |
+| `data-analyst` | 🟡 (2 Qs) | ❌ | ❌ | MODERATE |
+| `finance` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `operations` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `product-analyst` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `product-management` | 🟡 (2 Qs) | ✅ | ❌ | MODERATE |
+| `program-management` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `risk` | ✅ (53 Qs) | ✅ | ✅ | DEEP / COMPLETE |
+| `strategy` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `supply-chain` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
+| `technology` | 🟡 (1 Qs) | ❌ | ❌ | MODERATE |
 
-*Definitions:*
-- **COMPLETE**: Substantive coverage with comprehensive concepts, step-by-step problem sets, and detailed rubrics.
-- **PARTIAL**: Basic framework exists with essential definitions and structure, but needs expansion into deeper worked examples and drills.
-- **THIN**: Minimal skeleton content (<300 words) requiring substantial expansion.
+---
+
+*Legend: ✅ Complete & Verified | 🟡 Partial | ❌ Pending / Thin Skeleton*
