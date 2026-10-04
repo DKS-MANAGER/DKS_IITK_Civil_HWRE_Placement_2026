@@ -124,11 +124,11 @@ Questions should test these levels (in order of value):
 Every concept has **one canonical explanation**. All other references link to it.
 
 ```
-Canonical: core/hwre/hydraulics/hydraulics.md (Bernoulli section)
-    ↑ linked from: prep/interview/technical/technical-interview-bank.md
-    ↑ linked from: prep/interview/mock-tests/mock-interview-database.md
-    ↑ linked from: core/gate/formulas/gate-civil-formulas.md
-    ↑ linked from: prep/interview/quick-revision-system.md
+Canonical: 02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md (Bernoulli section)
+    ↑ linked from: 01_common/interview-fundamentals/technical/technical-interview-bank.md
+    ↑ linked from: 01_common/interview-fundamentals/mock-tests/mock-interview-database.md
+    ↑ linked from: 02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md
+    ↑ linked from: 01_common/interview-fundamentals/quick-revision-system.md
 ```
 
 ### What Counts as Duplication
@@ -204,7 +204,7 @@ Before submitting new content, verify:
 
 ## Source & Evidence Policy
 
-Every factual claim, benchmark, and interview projection must be labeled with an evidence level. See [SOURCE_POLICY.md](SOURCE_POLICY.md) and [resources/source-registry.md](../resources/source-registry.md) for the complete policy and register.
+Every factual claim, benchmark, and interview projection must be labeled with an evidence level. See [SOURCE_POLICY.md](SOURCE_POLICY.md) and [07_resources/reference-material/source-registry.md](../07_resources/reference-material/source-registry.md) for the complete policy and register.
 
 | Level | Tag | Meaning & Standard |
 |:------|:----|:-------------------|

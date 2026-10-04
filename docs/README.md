@@ -22,7 +22,7 @@
 | [Tracks](TRACKS.md) | Track documentation (Core Civil, HWRE, Non-Core, Software) |
 | [Roles](ROLES.md) | Role documentation (role → track → topics → links) |
 | [Companies](COMPANIES.md) | Company index (company → domain → role → prep) |
-| [Master Index](../index/master_index.md) | 50-topic topic-level search |
+| [Master Index](../archive/legacy_indexes/master_index.md) | 50-topic topic-level search |
 
 ---
 
@@ -60,7 +60,7 @@
 | [Start Here (legacy)](start-here.md) | Legacy onboarding — routes to GETTING_STARTED |
 | [Deep Critical Audit](deep-critical-audit.md) | Repository audit report (local-only) |
 | [Accuracy Review — Sep 2026](accuracy-review-2026-09.md) | Fact-check of placement data + technical content |
-| [Aptitude Audit — Sep 2026](audit/aptitude-audit-2026-09.md) | Independent audit + one-stop rebuild plan for `aptitude/` |
+| [Aptitude Audit — Sep 2026](audit/aptitude-audit-2026-09.md) | Independent audit + one-stop rebuild plan for `01_common/aptitude/` |
 
 ---
 

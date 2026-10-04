@@ -8,35 +8,35 @@
 
 | Track | Folder | Focus |
 |:------|:-------|:------|
-| **Core Civil** | [`core/`](../core/) | Structural, geotech, transport, environmental, infrastructure, geoinformatics |
-| **HWRE / Water Resources** | [`core/hwre/`](../core/hwre/) | Hydraulics, hydrology, water resources (flagship) |
-| **Non-Core** | [`non-core/`](../non-core/) | Consulting, data, product, finance, operations, etc. |
-| **Software & Tech** | [`software-and-tech/`](../software-and-tech/) | Programming, tools, role-specific software |
+| **Core Civil** | [`02_02_core/`](../02_02_core/) | Structural, geotech, transport, environmental, infrastructure, geoinformatics |
+| **HWRE / Water Resources** | [`02_02_02_02_core/hwre/`](../02_02_02_02_core/hwre/) | Hydraulics, hydrology, water resources (flagship) |
+| **Non-Core** | [`03_non_core/`](../03_non_core/) | Consulting, data, product, finance, operations, etc. |
+| **Software & Tech** | [`software-and-tech/`](../../03_non_core/software-engineering/) | Programming, tools, role-specific software |
 
 ---
 
 ## 1. Core Civil
 
-The technical backbone. Subjects live under [`core/`](../core/).
+The technical backbone. Subjects live under [`02_02_core/`](../02_02_core/).
 
 | Subject | Guide |
 |:--------|:------|
-| Structural Engineering | [`core/structures/`](../core/structures/) |
-| Geotechnical | [`core/geotechnical/`](../core/geotechnical/) |
-| Transportation | [`core/transportation/`](../core/transportation/) |
-| Environmental | [`core/environmental/`](../core/environmental/) |
-| Infrastructure Mgmt | [`core/infrastructure/`](../core/infrastructure/) |
-| Geoinformatics | [`core/geoinformatics/`](../core/geoinformatics/) |
-| Fundamentals | [`core/fundamentals/`](../core/fundamentals/) |
-| GATE | [`core/gate/`](../core/gate/) |
+| Structural Engineering | [`02_02_02_core/civil-engineering/structures/`](../02_02_02_core/civil-engineering/structures/) |
+| Geotechnical | [`02_02_02_core/civil-engineering/geotechnical/`](../02_02_02_core/civil-engineering/geotechnical/) |
+| Transportation | [`02_02_02_core/civil-engineering/transportation/`](../02_02_02_core/civil-engineering/transportation/) |
+| Environmental | [`02_02_02_core/civil-engineering/environmental/`](../02_02_02_core/civil-engineering/environmental/) |
+| Infrastructure Mgmt | [`02_02_02_core/civil-engineering/infrastructure/`](../02_02_02_core/civil-engineering/infrastructure/) |
+| Geoinformatics | [`02_02_02_core/civil-engineering/geoinformatics/`](../02_02_02_core/civil-engineering/geoinformatics/) |
+| Fundamentals | [`02_02_02_core/civil-engineering/fundamentals/`](../02_02_02_core/civil-engineering/fundamentals/) |
+| GATE | [`02_02_02_02_core/gate/`](../02_02_02_02_core/gate/) |
 
-Entry point → [`core/README.md`](../core/README.md)
+Entry point → [`02_02_02_02_core/README.md`](../02_02_02_02_core/README.md)
 
 ---
 
 ## 2. HWRE / Water Resources
 
-The flagship specialization. See [`core/hwre/README.md`](../core/hwre/README.md).
+The flagship specialization. See [`02_02_02_02_02_02_core/hwre/README.md`](../02_02_02_02_02_02_core/hwre/README.md).
 
 Covers hydraulics, open-channel flow, hydrology, sediment transport, and water resources engineering.
 
@@ -44,31 +44,31 @@ Covers hydraulics, open-channel flow, hydrology, sediment transport, and water r
 
 ## 3. Non-Core
 
-Career tracks beyond traditional civil engineering. See [`non-core/README.md`](../non-core/README.md).
+Career tracks beyond traditional civil engineering. See [`03_non_core/README.md`](../03_non_core/README.md).
 
 | Track | Folder |
 |:------|:-------|
-| Consulting | [`non-core/01_roles/consulting/`](../non-core/01_roles/consulting/) |
-| Data Analyst | [`non-core/01_roles/data-analyst/`](../non-core/01_roles/data-analyst/) |
-| Business Analyst | [`non-core/01_roles/business-analyst/`](../non-core/01_roles/business-analyst/) |
-| Product Management | [`non-core/01_roles/product-management/`](../non-core/01_roles/product-management/) |
-| Operations | [`non-core/01_roles/operations/`](../non-core/01_roles/operations/) |
-| Finance | [`non-core/01_roles/finance/`](../non-core/01_roles/finance/) |
-| Risk | [`non-core/01_roles/risk/`](../non-core/01_roles/risk/) |
-| Strategy | [`non-core/01_roles/strategy/`](../non-core/01_roles/strategy/) |
-| Supply Chain | [`non-core/01_roles/supply-chain/`](../non-core/01_roles/supply-chain/) |
-| Aptitude | [`aptitude/`](../aptitude/) |
-| Guesstimates | [`non-core/02_interview-preparation/guesstimates/`](../non-core/02_interview-preparation/guesstimates/) |
-| Case Interviews | [`non-core/02_interview-preparation/case-interviews/`](../non-core/02_interview-preparation/case-interviews/) |
+| Consulting | [`03_non_02_02_core/consulting/`](../03_non_02_02_core/consulting/) |
+| Data Analyst | [`03_non_02_02_core/analytics/data-analyst/`](../03_non_02_02_core/analytics/data-analyst/) |
+| Business Analyst | [`03_non_02_02_core/analytics/business-analyst/`](../03_non_02_02_core/analytics/business-analyst/) |
+| Product Management | [`03_non_02_02_core/product/product-management/`](../03_non_02_02_core/product/product-management/) |
+| Operations | [`03_non_02_02_core/operations/operations/`](../03_non_02_02_core/operations/operations/) |
+| Finance | [`03_non_02_02_core/finance/finance/`](../03_non_02_02_core/finance/finance/) |
+| Risk | [`03_non_02_02_core/finance/risk/`](../03_non_02_02_core/finance/risk/) |
+| Strategy | [`03_non_02_02_core/consulting/strategy/`](../03_non_02_02_core/consulting/strategy/) |
+| Supply Chain | [`03_non_02_02_core/operations/supply-chain/`](../03_non_02_02_core/operations/supply-chain/) |
+| Aptitude | [`01_common/aptitude/`](../01_common/aptitude/) |
+| Guesstimates | [`05_interview/case-interview/guesstimates/`](../05_interview/case-interview/guesstimates/) |
+| Case Interviews | [`05_interview/case-interview/case-interviews/`](../05_interview/case-interview/case-interviews/) |
 
 ---
 
 ## 4. Software & Tech
 
-Software skills and tools. See [`software-and-tech/README.md`](../software-and-tech/README.md).
+Software skills and tools. See [`archive/legacy_software/README.md`](../archive/legacy_software/README.md).
 
-- Programming → [`software-and-tech/programming/`](../software-and-tech/programming/)
-- Tools (AutoCAD, ETABS, STAAD, QGIS, Primavera, Revit, SAP2000) → [`software-and-tech/tools/`](../software-and-tech/tools/)
+- Programming → [`03_non_02_core/software-engineering/programming/`](../03_non_02_core/software-engineering/programming/)
+- Tools (AutoCAD, ETABS, STAAD, QGIS, Primavera, Revit, SAP2000) → [`02_02_core/civil-engineering/tools/`](../02_02_core/civil-engineering/tools/)
 
 ---
 

@@ -18,10 +18,10 @@ Ask yourself: **"Which career track am I targeting?"**
 
 | Track | Where to go |
 |:------|:------------|
-| Core Civil (structures, geotech, transport, env, infra, geoinformatics) | [`core/README.md`](../core/README.md) |
-| HWRE / Water Resources (flagship) | [`core/hwre/README.md`](../core/hwre/README.md) |
-| Non-Core (consulting, data, product, finance, etc.) | [`non-core/README.md`](../non-core/README.md) |
-| Software & Technology | [`software-and-tech/README.md`](../software-and-tech/README.md) |
+| Core Civil (structures, geotech, transport, env, infra, geoinformatics) | [`02_02_02_02_core/README.md`](../02_02_02_02_core/README.md) |
+| HWRE / Water Resources (flagship) | [`02_02_02_02_02_02_core/hwre/README.md`](../02_02_02_02_02_02_core/hwre/README.md) |
+| Non-Core (consulting, data, product, finance, etc.) | [`03_non_core/README.md`](../03_non_core/README.md) |
+| Software & Technology | [`archive/legacy_software/README.md`](../archive/legacy_software/README.md) |
 
 See [TRACKS.md](TRACKS.md) for the full track breakdown and [ROLES.md](ROLES.md) for role-specific paths.
 
@@ -31,17 +31,17 @@ See [TRACKS.md](TRACKS.md) for the full track breakdown and [ROLES.md](ROLES.md)
 
 For your chosen track, work through the subject guides. Each major folder has a `README.md` that routes you to the right content.
 
-- Core subjects → [`core/`](../core/)
-- Non-core tracks → [`non-core/`](../non-core/)
-- Software tools → [`software-and-tech/`](../software-and-tech/)
+- Core subjects → [`02_02_core/`](../02_02_core/)
+- Non-core tracks → [`03_non_core/`](../03_non_core/)
+- Software tools → [`software-and-tech/`](../../03_non_core/software-engineering/)
 
 ---
 
 ## Step 4 — Practice and test
 
-- Question banks → [`questions/README.md`](../questions/README.md)
-- Mock tests → [`prep/mock-tests/README.md`](../prep/mock-tests/README.md)
-- Aptitude → [`aptitude/`](../aptitude/)
+- Question banks → [`05_interview/technical/questions-bank-overview.md`](../05_interview/technical/questions-bank-overview.md)
+- Mock tests → [`05_interview/mock-interviews/mock-tests/README.md`](../05_interview/mock-interviews/mock-tests/README.md)
+- Aptitude → [`01_common/aptitude/`](../01_common/aptitude/)
 - See [TESTING_GUIDE.md](TESTING_GUIDE.md) for the full testing system.
 
 ---

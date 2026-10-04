@@ -23,7 +23,7 @@ To eliminate governance ambiguity across technical notes, placement statistics, 
 
 1. **Mandatory Labeling:** Every statistical claim, compensation figure, and benchmark table must display its canonical tag inline or in section headers.
 2. **No False Equivalence:** Never present an `[INFERRED]` derivation or `[PREPARATION HEURISTIC]` as a `[VERIFIED]` institutional fact.
-3. **Citation Requirement:** For all `[VERIFIED]` and `[SOURCE-DERIVED]` claims, cite the exact source document, chapter, or dataset filename in the supporting text or central [Source Registry](../resources/source-registry.md).
+3. **Citation Requirement:** For all `[VERIFIED]` and `[SOURCE-DERIVED]` claims, cite the exact source document, chapter, or dataset filename in the supporting text or central [Source Registry](../07_resources/reference-material/source-registry.md).
 4. **Heuristic Safeguards:** All percentile mappings, target OA cutoffs, and mock score bands must be explicitly labeled `[PREPARATION HEURISTIC]` to prevent misinterpreting self-study benchmarks as official population percentiles.
 5. **Transparency in Reporting:** Personal interview performance logs and mock completion velocity must be tagged `[SELF-REPORTED]` or `[OBSERVED IN TIMED RUN]`.
 
@@ -35,7 +35,7 @@ To eliminate governance ambiguity across technical notes, placement statistics, 
 When adding or updating content:
    1. Determine the evidentiary basis of the claim.
    2. Assign the appropriate canonical label from the 6-tier taxonomy.
-   3. If [VERIFIED] or [SOURCE-DERIVED], record origin in resources/source-registry.md.
+   3. If [VERIFIED] or [SOURCE-DERIVED], record origin in 07_resources/reference-material/source-registry.md.
    4. If [PREPARATION HEURISTIC] or [PREDICTED], append an explanatory note.
    5. Run repository quality checks to ensure zero unlabeled claims in technical notes.
 ```
@@ -45,7 +45,7 @@ When adding or updating content:
 ## 4. Cross-Reference Governance Documents
 
 - [Content Standards](content-standards.md) — 8 quality gates & definition of done
-- [Source Registry](../resources/source-registry.md) — central catalog of repository data sources
+- [Source Registry](../07_resources/reference-material/source-registry.md) — central catalog of repository data sources
 - [Contributing Guide](CONTRIBUTING.md) — instructions for external PRs and additions
 
 ---

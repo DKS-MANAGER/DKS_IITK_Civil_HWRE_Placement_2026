@@ -42,7 +42,7 @@
 
 ## Scenario 5 — "I need to find a specific topic"
 
-1. Use the [Master Index](../index/master_index.md) for topic search.
+1. Use the [Master Index](../archive/legacy_indexes/master_index.md) for topic search.
 2. Or route by track/role/company via [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md).
 
 ---
@@ -50,15 +50,15 @@
 ## Scenario 6 — "I want to test my knowledge"
 
 1. Follow the testing ladder in [TESTING_GUIDE.md](TESTING_GUIDE.md).
-2. Use mock tests → [`prep/mock-tests/README.md`](../prep/mock-tests/README.md).
-3. Use question banks → [`questions/README.md`](../questions/README.md).
+2. Use mock tests → [`05_interview/mock-interviews/mock-tests/README.md`](../05_interview/mock-interviews/mock-tests/README.md).
+3. Use question banks → [`05_interview/technical/questions-bank-overview.md`](../05_interview/technical/questions-bank-overview.md).
 
 ---
 
 ## Scenario 7 — "I need behavioural / HR help"
 
 1. Read [BEHAVIOURAL_HR_GUIDE.md](BEHAVIOURAL_HR_GUIDE.md).
-2. Practice with the behavioural question bank → [`prep/behavioral/`](../prep/behavioral/).
+2. Practice with the behavioural question bank → [`01_common/behavioral/`](../01_common/behavioral/).
 
 ---
 
@@ -66,7 +66,7 @@
 
 1. Use [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md).
 2. Use revision templates → [`templates/revision.md`](templates/revision.md).
-3. Use the quick revision system → [`prep/interview/quick-revision-system.md`](../prep/interview/quick-revision-system.md).
+3. Use the quick revision system → [`01_common/interview-fundamentals/quick-revision-system.md`](../01_common/interview-fundamentals/quick-revision-system.md).
 
 ---
 

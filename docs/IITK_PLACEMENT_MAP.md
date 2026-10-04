@@ -31,12 +31,12 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Industry Profile**: Global environmental consultancies, hydrology tech startups, and water data firms.
 - **Key Target Companies**: AECOM, Jacobs, Mott MacDonald, DHI Water & Environment, Vassarlabs, RMSI, SECON, Arup.
 - **Core Skill Focus**: Open-channel flow, GVF/RVF computations, Saint-Venant equations, HEC-RAS 1D/2D modeling, SWMM, GIS geospatial layers, remote sensing hydrological modeling, Python hydrological toolkits (`geopandas`, `rasterio`).
-- **Target Assessment Ladder**: L1 Diagnostics 08–10, L2 Core Sectional ([`sectional-civil-core-01.md`](../aptitude/tests/section/sectional-civil-core-01.md)), L6 Technical Trees ([`technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)).
+- **Target Assessment Ladder**: L1 Diagnostics 08–10, L2 Core Sectional ([`sectional-civil-core-01.md`](../01_common/aptitude/mocks/section-tests/section/sectional-civil-core-01.md)), L6 Technical Trees ([`technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md)).
 - **Dedicated Dossiers**:
-  - [`civil-vassarlabs.md`](../prep/company-profiles/civil-vassarlabs.md)
-  - [`civil-aecom.md`](../prep/company-profiles/civil-aecom.md)
-  - [`civil-mott-macdonald.md`](../prep/company-profiles/civil-mott-macdonald.md)
-  - [`civil-dhi.md`](../prep/company-profiles/civil-dhi.md)
+  - [`civil-vassarlabs.md`](../04_company-prep/hwre-companies/civil-vassarlabs.md)
+  - [`civil-aecom.md`](../04_company-prep/civil-aecom.md)
+  - [`civil-mott-macdonald.md`](../04_company-prep/civil-mott-macdonald.md)
+  - [`civil-dhi.md`](../04_company-prep/civil-dhi.md)
 
 ### Track 2: Computational Fluid Dynamics (CFD), Turbomachinery & R&D
 - **Industry Profile**: Advanced transportation, simulation software vendors, renewable energy R&D, and turbomachinery manufacturers.
@@ -44,10 +44,10 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Core Skill Focus**: Navier-Stokes equations, Reynolds-averaged Navier-Stokes (RANS), turbulence modeling ($k$-$\epsilon$, $k$-$\omega$ SST), boundary layer separation, pressure drop across conduits, shockwave & vacuum aerodynamics, C++/Python numerical solvers.
 - **Target Assessment Ladder**: L1 Diagnostic 07 (Fluid Mechanics), L6 Branching Trees (Fluid Mechanics & CFD), L7 Advanced Case Simulations.
 - **Dedicated Dossiers**:
-  - [`civil-tutr-hyperloop.md`](../prep/company-profiles/civil-tutr-hyperloop.md)
-  - [`civil-mathworks.md`](../prep/company-profiles/civil-mathworks.md)
-  - [`civil-caterpillar.md`](../prep/company-profiles/civil-caterpillar.md)
-  - [`corporate-targets/06_cfd-simulation-engineering/`](../prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/README.md)
+  - [`civil-tutr-hyperloop.md`](../04_company-prep/core-companies/civil-tutr-hyperloop.md)
+  - [`civil-mathworks.md`](../04_company-prep/civil-mathworks.md)
+  - [`civil-caterpillar.md`](../04_company-prep/civil-caterpillar.md)
+  - [`corporate-targets/06_cfd-simulation-engineering/`](../02_02_02_core/cfd/simulation-engineering/README.md)
 
 ### Track 3: Infrastructure, Water EPC & Heavy Construction
 - **Industry Profile**: Major construction conglomerates executing national irrigation networks, river interlinking, cross-country water supply pipelines, ports, and treatment plants.
@@ -55,11 +55,11 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Core Skill Focus**: Hydraulic transient analysis (water hammer, surge tank sizing, Joukowsky equation), pump characteristics and NPSH, pipeline headloss (Darcy-Weisbach / Hazen-Williams), concrete water retaining structures (IS 3370), project scheduling (CPM/PERT).
 - **Target Assessment Ladder**: L1 Diagnostics 05 (Time & Work / Pipelines), 07 (Fluids), L2 Core Sectional, L5 Company Mocks.
 - **Dedicated Dossiers**:
-  - [`civil-l-and-t-water.md`](../prep/company-profiles/civil-l-and-t-water.md)
-  - [`civil-l-and-t-heavy-civil.md`](../prep/company-profiles/civil-l-and-t-heavy-civil.md)
-  - [`civil-tata-projects.md`](../prep/company-profiles/civil-tata-projects.md)
-  - [`civil-afcons.md`](../prep/company-profiles/civil-afcons.md)
-  - [`civil-godrej-properties.md`](../prep/company-profiles/civil-godrej-properties.md)
+  - [`civil-l-and-t-water.md`](../04_company-prep/civil-l-and-t-water.md)
+  - [`civil-l-and-t-heavy-civil.md`](../04_company-prep/civil-l-and-t-heavy-civil.md)
+  - [`civil-tata-projects.md`](../04_company-prep/civil-tata-projects.md)
+  - [`civil-afcons.md`](../04_company-prep/civil-afcons.md)
+  - [`civil-godrej-properties.md`](../04_company-prep/core-companies/civil-godrej-properties.md)
 
 ### Track 4: Energy Majors, Hydropower & Public Sector Undertakings (PSUs)
 - **Industry Profile**: Clean energy developers, pumped storage project (PSP) developers, public sector undertakings, and subsurface reservoir teams.
@@ -67,19 +67,19 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Core Skill Focus**: Pumped storage hydraulics, Pelton/Francis turbine selection, specific speed, cavitation limits (Thoma's sigma), subsurface porous media flow (Darcy's Law, governing groundwater flow equations), well hydraulics (Theis, Thiem).
 - **Target Assessment Ladder**: L1 Diagnostics 06–08, L6 Technical Trees (Groundwater & Hydrology), L7 Technical Interviews.
 - **Dedicated Dossiers**:
-  - [`civil-greenko.md`](../prep/company-profiles/civil-greenko.md)
-  - [`civil-slb.md`](../prep/company-profiles/civil-slb.md)
-  - [`corporate-targets/04_hydropower-pumped-storage/`](../prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/README.md)
+  - [`civil-greenko.md`](../04_company-prep/civil-greenko.md)
+  - [`civil-slb.md`](../04_company-prep/civil-slb.md)
+  - [`corporate-targets/04_hydropower-pumped-storage/`](../04_company-prep/hwre-companies/04_hydropower-pumped-storage/README.md)
 
 ### Track 5: Management Consulting, Risk Modeling & Product Analytics
 - **Industry Profile**: Top-tier strategic management consulting firms, catastrophe risk modeling agencies, and digital tech/analytics powerhouses.
 - **Key Target Companies**: McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Verisk / RMS (Extreme Event Solutions), Deloitte, PwC, Tiger Analytics, EXL Service.
 - **Core Skill Focus**: Structured case cracking (market entry, profitability, supply chain, public infrastructure financing), catastrophe risk modeling (flood hazard mapping, return period exceedance probability, Monte Carlo simulations), SQL, Python data manipulation, Guesstimates.
-- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../non-core/01_roles/consulting/case-bank.md)).
+- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../03_non_02_02_core/consulting/case-bank.md)).
 - **Dedicated Dossiers**:
-  - [`case-bank.md`](../non-core/01_roles/consulting/case-bank.md) (15 Master Interactive Practice Cases)
-  - [`guesstimate-bank.md`](../non-core/01_roles/consulting/guesstimate-bank.md)
-  - [`corporate-targets/12_risk-analytics-advisory/`](../prep/company-profiles/corporate-targets/12_risk-analytics-advisory/README.md)
+  - [`case-bank.md`](../03_non_02_02_core/consulting/case-bank.md) (15 Master Interactive Practice Cases)
+  - [`guesstimate-bank.md`](../03_non_02_02_core/consulting/guesstimate-bank.md)
+  - [`corporate-targets/12_risk-analytics-advisory/`](../04_company-prep/consulting-companies/12_risk-analytics-advisory/README.md)
 
 ---
 
@@ -87,10 +87,10 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 
 | Phase & Timeline | Key Placement Activities | Mandatory Repository Milestone | Minimum Target Benchmark `[PREPARATION HEURISTIC]` |
 |:-----------------|:-------------------------|:-------------------------------|:---------------------------------------------------|
-| **Phase 0: July 15 – Aug 15** | Resume verification with SPO, master CV upload, topic diagnostics. | Complete all 14 L1 Topic Diagnostic Tests ([`aptitude/tests/`](../aptitude/tests/README.md)). | Accuracy $\ge 75\%$ on Arithmetic, Algebra, Fluids. |
-| **Phase 1A: Aug 16 – Sep 15** | Company registrations open, PPTs commence, early Online Assessments (OAs). | Complete L2 Sectional Tests ([`aptitude/tests/section/`](../aptitude/tests/section/README.md)) + L3 Full Mocks 01–03. | Sectional score $\ge 70\%$; L3 Full Mock $\ge 65/100$. |
+| **Phase 0: July 15 – Aug 15** | Resume verification with SPO, master CV upload, topic diagnostics. | Complete all 14 L1 Topic Diagnostic Tests ([`01_common/aptitude/mocks/section-tests/`](../01_common/aptitude/mocks/section-tests/README.md)). | Accuracy $\ge 75\%$ on Arithmetic, Algebra, Fluids. |
+| **Phase 1A: Aug 16 – Sep 15** | Company registrations open, PPTs commence, early Online Assessments (OAs). | Complete L2 Sectional Tests ([`01_common/aptitude/mocks/section-tests/section/`](../01_common/aptitude/mocks/section-tests/section/README.md)) + L3 Full Mocks 01–03. | Sectional score $\ge 70\%$; L3 Full Mock $\ge 65/100$. |
 | **Phase 1B: Sep 16 – Oct 31** | Peak OA window (Day 1 / Day 2 shortlists determined). | Complete L4 Hard & Expert Mocks (04 & 05) + L5 Role-Specific OA Sets. | L4 Mock score $\ge 60/100$; Zero unanswered negative-marking traps. |
-| **Phase 1C: Nov 01 – Nov 30** | Shortlist release, GDs, technical branch rehearsals, mock interviews. | Master all L6 Technical Branching Trees ([`technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)) + 15 Consulting Cases. | Flawless 3-level defense on M.Tech Thesis & HWRE core. |
+| **Phase 1C: Nov 01 – Nov 30** | Shortlist release, GDs, technical branch rehearsals, mock interviews. | Master all L6 Technical Branching Trees ([`technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md)) + 15 Consulting Cases. | Flawless 3-level defense on M.Tech Thesis & HWRE core. |
 | **Phase 1 Finals: Dec 01 – Dec 15** | On-campus interview drives (Day 1 to Day 6). | Final L8 Live Sim rehearsal; company-specific dossier revision. | 100% adherence to 2-minute elevator pitch & thesis value summary. |
 
 ---
@@ -116,10 +116,10 @@ A critical failure point for IITK M.Tech candidates is failing to pitch their th
 
 ## 5. Summary Navigation & Cross-Links
 
-- **Diagnostic Assessments**: [`aptitude/tests/README.md`](../aptitude/tests/README.md)
-- **Sectional Tests (Quant, DI, Reasoning, Core)**: [`aptitude/tests/section/README.md`](../aptitude/tests/section/README.md)
-- **Full & Expert Mocks**: [`aptitude/mocks/README.md`](../aptitude/mocks/README.md)
-- **Technical Interview Branching Trees**: [`prep/interview/technical/technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md)
-- **Consulting Simulation Suite**: [`non-core/01_roles/consulting/case-bank.md`](../non-core/01_roles/consulting/case-bank.md)
-- **Full Corporate Targets Universe (121 Companies)**: [`prep/company-profiles/corporate-targets/README.md`](../prep/company-profiles/corporate-targets/README.md)
+- **Diagnostic Assessments**: [`01_common/aptitude/mocks/section-tests/README.md`](../01_common/aptitude/mocks/section-tests/README.md)
+- **Sectional Tests (Quant, DI, Reasoning, Core)**: [`01_common/aptitude/mocks/section-tests/section/README.md`](../01_common/aptitude/mocks/section-tests/section/README.md)
+- **Full & Expert Mocks**: [`01_common/aptitude/mocks/README.md`](../01_common/aptitude/mocks/README.md)
+- **Technical Interview Branching Trees**: [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+- **Consulting Simulation Suite**: [`03_non_02_02_core/consulting/case-bank.md`](../03_non_02_02_core/consulting/case-bank.md)
+- **Full Corporate Targets Universe (121 Companies)**: [`04_company-prep/hwre-companies/README.md/`](../04_company-prep/hwre-companies/README.md/)
 

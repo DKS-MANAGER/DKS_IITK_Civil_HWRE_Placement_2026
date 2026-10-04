@@ -18,7 +18,7 @@
 
 ```
 DKS_IITK_Civil_HWRE_Placement_2026/
-├── core/                    # Technical subject content
+├── 02_02_core/                    # Technical subject content
 │   ├── hwre/               # HWRE specialization (flagship)
 │   ├── structures/
 │   ├── geotechnical/
@@ -28,7 +28,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 │   ├── infrastructure/
 │   ├── fundamentals/
 │   └── gate/
-├── non-core/                # Non-technical career tracks
+├── 03_non_core/                # Non-technical career tracks
 │   ├── consulting/
 │   ├── data-analyst/
 │   ├── business-analyst/
@@ -38,7 +38,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 │   ├── risk/
 │   ├── strategy/
 │   ├── supply-chain/
-│   ├── aptitude/
+│   ├── 01_common/aptitude/
 │   ├── guesstimates/
 │   ├── case-interviews/
 │   ├── resume-positioning/
@@ -101,10 +101,10 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 
 | Domain | Location |
 |:-------|:---------|
-| Core Civil | `core/` |
-| Non-Core | `non-core/` |
-| Behavioral | `prep/behavioral/` |
-| Aptitude | `aptitude/` |
+| Core Civil | `02_02_core/` |
+| Non-Core | `03_non_core/` |
+| Behavioral | `01_common/behavioral/` |
+| Aptitude | `01_common/aptitude/` |
 | Software | `software-and-tech/` |
 | Interview | `prep/` |
 | Resources | `resources/` |

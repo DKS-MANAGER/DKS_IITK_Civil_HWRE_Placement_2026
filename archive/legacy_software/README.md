@@ -1,0 +1,206 @@
+# 💻 IITK Civil — Software & Technology Operating System
+
+> **"What software should I learn for my Civil specialization and target role?"**
+
+This section is a **decision system**, not a software list. It answers:
+
+**Civil Branch → Job Role → Required Skills → Software/Technology → Learning Level → Projects → Resume → Interview Questions**
+
+It covers both **Core Civil** and **Non-Core / Tech-Adjacent** roles.
+
+---
+
+## 🎯 Start Here — Find Your Path
+
+### "I am a..."
+
+| Civil Specialization | Jump to |
+|:---------------------|:--------|
+| Structural | [`structural/`](structural/structural-tech.md) |
+| Geotechnical | [`geotechnical/`](geotechnical/geotechnical-tech.md) |
+| Transportation | [`transportation/`](transportation/transportation-tech.md) |
+| Environmental | [`environmental/`](environmental/environmental-tech.md) |
+| Hydraulics | [`hwre/`](hwre/hwre-tech-roadmap.md) |
+| Water Resources / HWRE | [`hwre/`](hwre/hwre-tech-roadmap.md) |
+| Hydrology | [`hydrology/`](hydrology/hydrology-tech.md) |
+| Construction Management | [`construction/`](construction/construction-tech.md) |
+| Geoinformatics / GIS | [`gis/`](gis/gis-tech.md) |
+| Sediment Transport / River Engg | [`sediment/`](sediment/sediment-tech.md) |
+| CFD / Computational | [`cfd/`](cfd/cfd-tech.md) |
+| Research / M.Tech | [`research/`](research/research-tech.md) |
+| General Civil | See "Role" selector below ↓ |
+
+### "I want a job in..."
+
+| Target Role | Jump to |
+|:------------|:--------|
+| Core Civil Engineer | [`branch-roadmaps.md`](branch-roadmaps.md) |
+| Structural Design Engineer | [`structural/`](structural/structural-tech.md) |
+| Geotechnical Engineer | [`geotechnical/`](geotechnical/geotechnical-tech.md) |
+| Transportation Engineer | [`transportation/`](transportation/transportation-tech.md) |
+| Water / HWRE Engineer | [`hwre/`](hwre/hwre-tech-roadmap.md) |
+| Environmental Engineer | [`environmental/`](environmental/environmental-tech.md) |
+| Hydrologist | [`hydrology/`](hydrology/hydrology-tech.md) |
+| GIS / Remote Sensing | [`gis/`](gis/gis-tech.md) |
+| BIM Engineer | [`bim/`](bim/bim-tech.md) |
+| Construction / EPC | [`construction/`](construction/construction-tech.md) |
+| CFD / Simulation Engineer | [`cfd/`](cfd/cfd-tech.md) |
+| Research / R&D | [`research/`](research/research-tech.md) |
+| Project Management | [`construction/`](construction/construction-tech.md) |
+| Consulting / Strategy | [`consulting/`](consulting/consulting-tech.md) |
+| Business Analyst | [`data/data-analytics-stack.md`](data/data-analytics-stack.md) |
+| Data Analyst | [`data/data-analytics-stack.md`](data/data-analytics-stack.md) |
+| Product Analyst | [`product/`](product/product-tech.md) |
+| Product Manager | [`product/`](product/product-tech.md) |
+| Operations / Supply Chain | [`operations/`](operations/operations-tech.md) |
+| Technology / Software-Adjacent | [`technology-careers/`](technology-careers/tech-careers.md) |
+
+---
+
+## 🗺️ System Map
+
+| Section | Purpose | Files |
+|:--------|:--------|:------|
+| [**Role → Tool Matrix**](SOFTWARE_ROLE_MATRIX.md) | Which software for which role (company-evidenced) | 1 |
+| [**Tool Index**](TOOLS_INDEX.md) | Every tool, one row, canonical source | 1 |
+| [**Learning Roadmap**](SOFTWARE_ROADMAP.md) | 7/30/90-day plans by role | 1 |
+| [**Completeness Matrix**](SOFTWARE_COMPLETENESS_MATRIX.md) | Tool readiness score (target ≥8/10) | 1 |
+| [**Resume Strategy**](SOFTWARE_RESUME_STRATEGY.md) | Honest tool proficiency on resume | 1 |
+| [**Company Linkage**](SOFTWARE_COMPANY_LINKAGE.md) | Company → role → tool → study material | 1 |
+| [**Theory Linkage**](SOFTWARE_THEORY_LINKAGE.md) | Tool ↔ engineering fundamentals | 1 |
+| [**Canonical Tool Pages**](tools/AutoCAD.md) | AutoCAD, Excel, ETABS, STAAD, QGIS, Primavera, Revit, SAP2000 | 8 |
+| [**Practice System**](practice/README.md) | Basic → Intermediate → Role-specific exercises | 1 |
+| [**Test System**](tests/README.md) | Tool quiz, workflow, troubleshooting, interview tests | 1 |
+| [**Priority System**](priority-system.md) | L1–L4 proficiency levels + tagging | 1 |
+| [**Software Template**](software-template.md) | Standard format for every tool page | 1 |
+| [**Programming**](programming/python.md) | Python, MATLAB, SQL, C/C++, Git | 5 |
+| [**HWRE / Hydraulics**](hwre/hwre-tech-roadmap.md) | HEC-RAS, EPANET, SWMM, OpenFOAM + more | 1 |
+| [**Hydrology**](hydrology/hydrology-tech.md) | HEC-HMS, GEE, rainfall, flood modelling | 1 |
+| [**Sediment / River**](sediment/sediment-tech.md) | CFD, morphology, numerical modelling | 1 |
+| [**Structural**](structural/structural-tech.md) | STAAD, ETABS, SAP2000, Revit, AutoCAD | 1 |
+| [**Geotechnical**](geotechnical/geotechnical-tech.md) | PLAXIS, GeoStudio, FEM, slope stability | 1 |
+| [**Transportation**](transportation/transportation-tech.md) | VISSIM, OpenRoads, TransCAD, traffic sim | 1 |
+| [**Environmental**](environmental/environmental-tech.md) | Water/wastewater, air quality, modelling | 1 |
+| [**GIS / Remote Sensing**](gis/gis-tech.md) | ArcGIS, QGIS, GEE, GeoPandas | 1 |
+| [**Construction / PM**](construction/construction-tech.md) | Primavera, MS Project, estimation, BIM | 1 |
+| [**BIM**](bim/bim-tech.md) | Revit, Navisworks, clash detection, 4D/5D | 1 |
+| [**CFD / Computational**](cfd/cfd-tech.md) | OpenFOAM, ANSYS, ParaView, full workflow | 1 |
+| [**Research / M.Tech**](research/research-tech.md) | HPC, LaTeX, reproducibility, research stack | 1 |
+| [**Data / Analytics**](data/data-analytics-stack.md) | Excel, SQL, Python, BI, statistics | 1 |
+| [**Consulting**](consulting/consulting-tech.md) | Excel, PowerPoint, structured analysis | 1 |
+| [**Product**](product/product-tech.md) | PM tech, APIs, experimentation, analytics | 1 |
+| [**Operations / Supply Chain**](operations/operations-tech.md) | Optimization, ERP, simulation, SQL | 1 |
+| [**Tech Careers**](technology-careers/tech-careers.md) | DA, BA, PA, Tech-PM, software-adjacent | 1 |
+| [**Developer Tools**](developer-tools/linux-dev-tools.md) | Linux, shell, Git, SSH, HPC basics | 1 |
+| [**Cloud / HPC**](computing/cloud-hpc.md) | CPU/GPU, SLURM, cloud, parallel computing | 1 |
+| [**Automation**](automation/automation.md) | Python/MATLAB/Bash automation examples | 1 |
+| [**Software Comparisons**](comparisons/software-comparison.md) | Tool vs Tool decision tables | 1 |
+| [**Branch Roadmaps**](branch-roadmaps.md) | Minimum / Strong / Advanced stacks per branch | 1 |
+| [**Role Roadmaps**](role-roadmaps.md) | Required tech per job role | 1 |
+| [**Project-First Learning**](project-first-learning.md) | Learn to DO something, not just learn | 1 |
+| [**Software Interview Qs**](software-interview-questions.md) | Question bank per tool/role | 1 |
+| [**Resume Positioning**](resume-positioning.md) | Proficiency labels, honest claims | 1 |
+| [**Learning Roadmaps**](learning-roadmaps.md) | 7-day, 30-day, 3-month, 6-month plans | 1 |
+| [**Anti-Overload**](anti-overload.md) | One primary + one complementary + one automation | 1 |
+| [**M.Tech Advantage**](mtech-advantage.md) | Research → software → industry role | 1 |
+| [**Tool Deep-Dives**](deep-dives/README.md) | Hands-on step-by-step walkthroughs | 8 |
+
+**Total: 71 files across 27 subdirectories** (including canonical tool pages, deep-dives, branch tech, programming, practice & test systems)
+
+---
+
+## 🔬 Tool Deep-Dives (Hands-On Walkthroughs)
+
+> **"I know I need to learn HEC-RAS. But how do I actually *build* a model?"**
+
+The [**Tool Deep-Dives**](deep-dives/README.md) directory provides step-by-step tutorials for the most important tools. Each guide builds a **real model end-to-end** and ends with **interview questions you can answer** after completing it.
+
+| Tool | Branch | What You Build |
+|:-----|:-------|:---------------|
+| [HEC-RAS](deep-dives/hec-ras-walkthrough.md) | HWRE / River | 1D steady river model + bridge + 2D floodplain |
+| [HEC-HMS](deep-dives/hec-hms-tutorial.md) | Hydrology | Rainfall-runoff model + flood hydrograph |
+| [SWMM](deep-dives/swmm-guide.md) | Urban Drainage | Urban drainage network + LID control |
+| [EPANET](deep-dives/epanet-walkthrough.md) | Water Distribution | Water network + extended period simulation |
+| [PLAXIS 2D](deep-dives/plaxis-2d-tutorial.md) | Geotechnical | Braced excavation + retaining wall + FoS |
+| [SLOPE/W](deep-dives/geostudio-slopew-tutorial.md) | Geotechnical | Embankment slope stability + FoS |
+| [OpenFOAM](deep-dives/openfoam-case-study.md) | CFD / Research | Flow around cylinder + mesh independence |
+
+👉 **Full index:** [`deep-dives/README.md`](deep-dives/README.md)
+
+---
+
+## 📊 Proficiency Levels
+
+| Level | Label | Meaning |
+|:-----:|:------|:--------|
+| **L1** | Awareness | Know what it does and where it's used |
+| **L2** | Basic | Can perform standard workflows |
+| **L3** | Working | Can independently complete a realistic project |
+| **L4** | Advanced | Can handle complex modelling, automation, customization |
+
+> ⚠️ **Never recommend L4 knowledge unless there is a genuine role-specific reason.**
+
+### Priority Tags
+
+| Tag | Meaning |
+|:----|:--------|
+| `[MUST LEARN]` | Non-negotiable for this role/branch |
+| `[HIGH ROI]` | High placement return for effort invested |
+| `[ROLE DEPENDENT]` | Required only for specific roles |
+| `[SPECIALIZED]` | Needed for niche positions (R&D, CFD, etc.) |
+| `[OPTIONAL]` | Nice to have, not required |
+
+---
+
+## 🔗 Cross-Repository Links
+
+| Section | Link |
+|:--------|:-----|
+| Core Civil Subjects | [`core/`](../core/) |
+| Non-Core Placement | [`non-core/`](../non-core/) |
+| Behavioral / HR | [`prep/behavioral/`](../prep/behavioral/) |
+| Aptitude Assessment | [`aptitude/`](../aptitude/) |
+| GIS Tools (Existing) | [`resources/gis-tools.md`](../resources/gis-tools.md) |
+| Transportation Software (Existing) | [`core/transportation/transportation-software.md`](../core/transportation/transportation-software.md) |
+| Technical Stack (Existing) | [`non-core/01_roles/analytics/technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md) |
+
+---
+
+## ⚡ Quick Decision Guide
+
+> **"I have 2 hours. What should I do right now?"**
+
+1. Open [`branch-roadmaps.md`](branch-roadmaps.md) → Find your branch → Learn the **Minimum Stack**
+2. Open [`learning-roadmaps.md`](learning-roadmaps.md) → Pick the plan that matches your timeline
+3. Open [`anti-overload.md`](anti-overload.md) → Read the "one + one + one" rule
+4. Start a project from [`project-first-learning.md`](project-first-learning.md)
+
+> **"I have 30 days before placements."**
+
+1. [`anti-overload.md`](anti-overload.md) — Identify your ONE primary tool
+2. [`project-first-learning.md`](project-first-learning.md) — Pick ONE project
+3. [`resume-positioning.md`](resume-positioning.md) — Write your resume bullet
+4. [`software-interview-questions.md`](software-interview-questions.md) — Prepare 5 Q&As
+5. [`learning-roadmaps.md`](learning-roadmaps.md) — Follow the 30-day plan
+
+---
+
+## 🎯 Final Quality Standard
+
+This section answers:
+
+> "I am an IITK Civil student. What technology should I learn to maximize my placement chances?"
+
+**Without** giving a generic list. Instead it provides:
+
+**Branch → Role → Skill → Tool → Proficiency → Project → Resume → Interview**
+
+Priority order:
+1. **ROI** → industry relevance
+2. **Role fit** → project application
+3. **Interview defensibility** → not collecting software names
+
+---
+
+*Created as part of the IITK Civil & HWRE Placement Preparation 2026 repository.*
+

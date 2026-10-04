@@ -1,0 +1,4872 @@
+[
+  {
+    "src": ".editorconfig",
+    "dst": ".editorconfig",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".gitignore",
+    "dst": ".gitignore",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".pre-commit-config.yaml",
+    "dst": ".pre-commit-config.yaml",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "CHANGELOG.md",
+    "dst": "CHANGELOG.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "CITATION.cff",
+    "dst": "CITATION.cff",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "CONTRIBUTING.md",
+    "dst": "CONTRIBUTING.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "LICENSE",
+    "dst": "LICENSE",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "linkcheck_report.txt",
+    "dst": "archive/reports/linkcheck_report.txt",
+    "action": "ARCHIVE_REPORT"
+  },
+  {
+    "src": "README.md",
+    "dst": "README.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".github/PULL_REQUEST_TEMPLATE.md",
+    "dst": ".github/PULL_REQUEST_TEMPLATE.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".github/ISSUE_TEMPLATE/bug-report.md",
+    "dst": ".github/ISSUE_TEMPLATE/bug-report.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".github/ISSUE_TEMPLATE/feature-request.md",
+    "dst": ".github/ISSUE_TEMPLATE/feature-request.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".github/ISSUE_TEMPLATE/material-request.md",
+    "dst": ".github/ISSUE_TEMPLATE/material-request.md",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": ".github/workflows/ci.yml",
+    "dst": ".github/workflows/ci.yml",
+    "action": "KEEP_ROOT"
+  },
+  {
+    "src": "aptitude/7_14_30_DAY_PLAN.md",
+    "dst": "01_common/aptitude/7_14_30_DAY_PLAN.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/DAILY_PLAN.md",
+    "dst": "01_common/aptitude/DAILY_PLAN.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/ERROR_LOG.md",
+    "dst": "01_common/aptitude/ERROR_LOG.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/FORMULA_SHEET.md",
+    "dst": "01_common/aptitude/rapid-revision/FORMULA_SHEET.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/RAPID_REVISION.md",
+    "dst": "01_common/aptitude/rapid-revision/RAPID_REVISION.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/README.md",
+    "dst": "01_common/aptitude/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/ROADMAP.md",
+    "dst": "01_common/aptitude/ROADMAP.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/ROLE_MATRIX.md",
+    "dst": "01_common/aptitude/ROLE_MATRIX.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/advanced-di-caselets.md",
+    "dst": "01_common/aptitude/data-interpretation/advanced-di-caselets.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/bar-and-line-graphs.md",
+    "dst": "01_common/aptitude/data-interpretation/bar-and-line-graphs.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/data-comparison.md",
+    "dst": "01_common/aptitude/data-interpretation/data-comparison.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/data-sufficiency.md",
+    "dst": "01_common/aptitude/data-interpretation/data-sufficiency.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/missing-data-di.md",
+    "dst": "01_common/aptitude/data-interpretation/missing-data-di.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/mixed-graphs.md",
+    "dst": "01_common/aptitude/data-interpretation/mixed-graphs.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/pie-charts.md",
+    "dst": "01_common/aptitude/data-interpretation/pie-charts.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/quantitative-caselets.md",
+    "dst": "01_common/aptitude/data-interpretation/quantitative-caselets.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/radar-area-graphs.md",
+    "dst": "01_common/aptitude/data-interpretation/radar-area-graphs.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/README.md",
+    "dst": "01_common/aptitude/data-interpretation/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/di/tables-and-caselets.md",
+    "dst": "01_common/aptitude/data-interpretation/tables-and-caselets.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/expert-placement-mock-01.md",
+    "dst": "01_common/aptitude/mocks/expert-placement-mock-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/full-placement-mock-01.md",
+    "dst": "01_common/aptitude/mocks/full-placement-mock-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/full-placement-mock-02.md",
+    "dst": "01_common/aptitude/mocks/full-placement-mock-02.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/full-placement-mock-03.md",
+    "dst": "01_common/aptitude/mocks/full-placement-mock-03.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/full-placement-mock-04.md",
+    "dst": "01_common/aptitude/mocks/full-placement-mock-04.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/full-placement-mock-05.md",
+    "dst": "01_common/aptitude/mocks/full-placement-mock-05.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/hard-placement-mock-01.md",
+    "dst": "01_common/aptitude/mocks/hard-placement-mock-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/mocks/README.md",
+    "dst": "01_common/aptitude/mocks/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/averages.md",
+    "dst": "01_common/aptitude/quantitative/averages.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/hcf-lcm.md",
+    "dst": "01_common/aptitude/quantitative/hcf-lcm.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/mensuration.md",
+    "dst": "01_common/aptitude/quantitative/mensuration.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/mixtures-alligation.md",
+    "dst": "01_common/aptitude/quantitative/mixtures-alligation.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/number-system.md",
+    "dst": "01_common/aptitude/quantitative/number-system.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/partnership.md",
+    "dst": "01_common/aptitude/quantitative/partnership.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/percentages.md",
+    "dst": "01_common/aptitude/quantitative/percentages.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/permutations-combinations.md",
+    "dst": "01_common/aptitude/quantitative/permutations-combinations.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/pipes-cisterns.md",
+    "dst": "01_common/aptitude/quantitative/pipes-cisterns.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/probability.md",
+    "dst": "01_common/aptitude/quantitative/probability.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/problems-on-ages.md",
+    "dst": "01_common/aptitude/quantitative/problems-on-ages.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/profit-loss.md",
+    "dst": "01_common/aptitude/quantitative/profit-loss.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/progressions.md",
+    "dst": "01_common/aptitude/quantitative/progressions.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/ratio-proportion.md",
+    "dst": "01_common/aptitude/quantitative/ratio-proportion.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/README.md",
+    "dst": "01_common/aptitude/quantitative/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/simple-compound-interest.md",
+    "dst": "01_common/aptitude/quantitative/simple-compound-interest.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/simplification.md",
+    "dst": "01_common/aptitude/quantitative/simplification.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/time-speed-distance.md",
+    "dst": "01_common/aptitude/quantitative/time-speed-distance.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/quant/time-work.md",
+    "dst": "01_common/aptitude/quantitative/time-work.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/blood-relations.md",
+    "dst": "01_common/aptitude/logical-reasoning/blood-relations.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/clocks-calendars.md",
+    "dst": "01_common/aptitude/logical-reasoning/clocks-calendars.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/coding-decoding.md",
+    "dst": "01_common/aptitude/logical-reasoning/coding-decoding.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/direction-sense.md",
+    "dst": "01_common/aptitude/logical-reasoning/direction-sense.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/input-output.md",
+    "dst": "01_common/aptitude/logical-reasoning/input-output.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/order-ranking.md",
+    "dst": "01_common/aptitude/logical-reasoning/order-ranking.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/puzzles-scheduling.md",
+    "dst": "01_common/aptitude/logical-reasoning/puzzles-scheduling.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/README.md",
+    "dst": "01_common/aptitude/logical-reasoning/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/seating-arrangement.md",
+    "dst": "01_common/aptitude/logical-reasoning/seating-arrangement.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/series.md",
+    "dst": "01_common/aptitude/logical-reasoning/series.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/reasoning/syllogism.md",
+    "dst": "01_common/aptitude/logical-reasoning/syllogism.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/averages-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/averages-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/critical-reasoning-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/critical-reasoning-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/di-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/di-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/engineering-math-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/engineering-math-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/non-verbal-reasoning-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/non-verbal-reasoning-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/number-system-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/number-system-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/percentages-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/percentages-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/permutations-combinations-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/permutations-combinations-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/probability-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/probability-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/profit-loss-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/profit-loss-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/ratio-proportion-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/ratio-proportion-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/README.md",
+    "dst": "01_common/aptitude/mocks/section-tests/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/seating-arrangement-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/seating-arrangement-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/series-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/series-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/si-ci-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/si-ci-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/speed-time-distance-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/speed-time-distance-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/time-work-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/time-work-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/verbal-test.md",
+    "dst": "01_common/aptitude/mocks/section-tests/verbal-test.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/README.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/sectional-civil-core-01.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/sectional-civil-core-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/sectional-di-01.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/sectional-di-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/sectional-quant-01.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/sectional-quant-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/sectional-reasoning-01.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/sectional-reasoning-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/tests/section/sectional-verbal-01.md",
+    "dst": "01_common/aptitude/mocks/section-tests/section/sectional-verbal-01.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/critical-reasoning.md",
+    "dst": "01_common/aptitude/verbal/critical-reasoning.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/grammar-error-spotting.md",
+    "dst": "01_common/aptitude/verbal/grammar-error-spotting.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/odd-sentence-out.md",
+    "dst": "01_common/aptitude/verbal/odd-sentence-out.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/para-jumbles.md",
+    "dst": "01_common/aptitude/verbal/para-jumbles.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/reading-comprehension.md",
+    "dst": "01_common/aptitude/verbal/reading-comprehension.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/README.md",
+    "dst": "01_common/aptitude/verbal/README.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/sentence-completion.md",
+    "dst": "01_common/aptitude/verbal/sentence-completion.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/sentence-improvement.md",
+    "dst": "01_common/aptitude/verbal/sentence-improvement.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/summary-inference.md",
+    "dst": "01_common/aptitude/verbal/summary-inference.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "aptitude/verbal/vocabulary.md",
+    "dst": "01_common/aptitude/verbal/vocabulary.md",
+    "action": "MOVE_APT"
+  },
+  {
+    "src": "archive/README.md",
+    "dst": "archive/README.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/README.md",
+    "dst": "archive/legacy-non-core-aptitude/README.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/logical_reasoning/reasoning-practice.md",
+    "dst": "archive/legacy-non-core-aptitude/logical_reasoning/reasoning-practice.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/aptitude-basics.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/aptitude-basics.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/averages.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/averages.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/data-interpretation.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/data-interpretation.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/number-system.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/number-system.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/partnership.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/partnership.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/percentages.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/percentages.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/permutations-combinations.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/permutations-combinations.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/probability.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/probability.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/problems-on-ages.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/problems-on-ages.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/problems-on-train.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/problems-on-train.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/profit-loss-discount.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/profit-loss-discount.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/ratio-proportion.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/ratio-proportion.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/speed-time-distance.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/speed-time-distance.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/quantitative/time-work.md",
+    "dst": "archive/legacy-non-core-aptitude/quantitative/time-work.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/shortcuts/aptitude-shortcuts.md",
+    "dst": "archive/legacy-non-core-aptitude/shortcuts/aptitude-shortcuts.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "archive/legacy-non-core-aptitude/verbal/verbal-ability.md",
+    "dst": "archive/legacy-non-core-aptitude/verbal/verbal-ability.md",
+    "action": "KEEP_ARCHIVE"
+  },
+  {
+    "src": "companies/accenture-japan/BEHAVIOURAL_HR.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/BEHAVIOURAL_HR.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/CONSULTING_CASES.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/CONSULTING_CASES.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/INTERVIEW.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/PLACEMENT_FACTS.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/PLACEMENT_FACTS.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/PROJECT_STRATEGY.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/PROJECT_STRATEGY.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/QUESTION_BANK.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/QUESTION_BANK.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/RAPID_REVISION.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/RAPID_REVISION.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/README.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/README.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/RESUME_STRATEGY.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/RESUME_STRATEGY.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/ROLE.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/ROLE.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/SELECTION_PROCESS.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/SELECTION_PROCESS.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/TECHNICAL_TEST.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/TECHNICAL_TEST.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "companies/accenture-japan/WHAT_TO_STUDY.md",
+    "dst": "04_company-prep/company-specific-prep/accenture-japan/WHAT_TO_STUDY.md",
+    "action": "MOVE_CO_SPECIFIC"
+  },
+  {
+    "src": "core/MASTER_INDEX.md",
+    "dst": "archive/legacy_indexes/core_master_index.md",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "core/README.md",
+    "dst": "02_core/README.md",
+    "action": "MOVE_CORE"
+  },
+  {
+    "src": "core/common-civil-skills/contracts-and-tendering.md",
+    "dst": "01_common/professional-skills/contracts-and-tendering.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "core/common-civil-skills/estimation-and-quantity-surveying.md",
+    "dst": "01_common/professional-skills/estimation-and-quantity-surveying.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "core/common-civil-skills/practical-site-execution.md",
+    "dst": "01_common/professional-skills/practical-site-execution.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "core/common-civil-skills/qa-qc-and-site-safety.md",
+    "dst": "01_common/professional-skills/qa-qc-and-site-safety.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "core/common-civil-skills/README.md",
+    "dst": "01_common/professional-skills/README.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "core/environmental/environmental-engineering.md",
+    "dst": "02_core/civil-engineering/environmental/environmental-engineering.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/environmental-rapid-revision.md",
+    "dst": "02_core/civil-engineering/environmental/environmental-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/environmental/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/PRACTICE.md",
+    "dst": "02_core/civil-engineering/environmental/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/README.md",
+    "dst": "02_core/civil-engineering/environmental/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/role-study-plan.md",
+    "dst": "02_core/civil-engineering/environmental/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/environmental/TEST.md",
+    "dst": "02_core/civil-engineering/environmental/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/civil-engineering-foundations.md",
+    "dst": "02_core/civil-engineering/fundamentals/civil-engineering-foundations.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/civil-rapid-revision.md",
+    "dst": "02_core/civil-engineering/fundamentals/civil-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/engineering-mechanics.md",
+    "dst": "02_core/civil-engineering/fundamentals/engineering-mechanics.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/README.md",
+    "dst": "02_core/civil-engineering/fundamentals/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/role-study-plan.md",
+    "dst": "02_core/civil-engineering/fundamentals/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/fundamentals/strength-of-materials.md",
+    "dst": "02_core/civil-engineering/fundamentals/strength-of-materials.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/gate/ERROR_ANALYSIS.md",
+    "dst": "02_core/gate/ERROR_ANALYSIS.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/GATE_30_60_90_DAY_PLAN.md",
+    "dst": "02_core/gate/GATE_30_60_90_DAY_PLAN.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/GATE_ROADMAP.md",
+    "dst": "02_core/gate/GATE_ROADMAP.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/MASTER_INDEX.md",
+    "dst": "02_core/gate/MASTER_INDEX.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/RAPID_REVISION.md",
+    "dst": "02_core/gate/RAPID_REVISION.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/README.md",
+    "dst": "02_core/gate/README.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/civil/gate-civil-notes.md",
+    "dst": "02_core/gate/civil/gate-civil-notes.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/formulas/gate-civil-formulas.md",
+    "dst": "02_core/gate/formulas/gate-civil-formulas.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/mocks/gate-civil-mock-1.md",
+    "dst": "02_core/gate/mocks/gate-civil-mock-1.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/practice/gate-civil-practice.md",
+    "dst": "02_core/gate/practice/gate-civil-practice.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/pyq/gate-civil-pyq.md",
+    "dst": "02_core/gate/pyq/gate-civil-pyq.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/revision_notes/gate-civil-revision.md",
+    "dst": "02_core/gate/revision_notes/gate-civil-revision.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/_SYSTEM/GATE_AUDIT_STATE.md",
+    "dst": "02_core/gate/_SYSTEM/GATE_AUDIT_STATE.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/_SYSTEM/GATE_COMPLETENESS_MATRIX.md",
+    "dst": "02_core/gate/_SYSTEM/GATE_COMPLETENESS_MATRIX.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/_SYSTEM/GATE_FILE_INVENTORY.md",
+    "dst": "02_core/gate/_SYSTEM/GATE_FILE_INVENTORY.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/gate/_SYSTEM/GATE_REPO_MAP.md",
+    "dst": "02_core/gate/_SYSTEM/GATE_REPO_MAP.md",
+    "action": "MOVE_GATE"
+  },
+  {
+    "src": "core/geoinformatics/geoinformatics-rapid-revision.md",
+    "dst": "02_core/civil-engineering/geoinformatics/geoinformatics-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/geoinformatics.md",
+    "dst": "02_core/civil-engineering/geoinformatics/geoinformatics.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/geoinformatics/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/PRACTICE.md",
+    "dst": "02_core/civil-engineering/geoinformatics/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/README.md",
+    "dst": "02_core/civil-engineering/geoinformatics/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/role-study-plan.md",
+    "dst": "02_core/civil-engineering/geoinformatics/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geoinformatics/TEST.md",
+    "dst": "02_core/civil-engineering/geoinformatics/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/geotechnical-rapid-revision.md",
+    "dst": "02_core/civil-engineering/geotechnical/geotechnical-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/geotechnical.md",
+    "dst": "02_core/civil-engineering/geotechnical/geotechnical.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/geotechnical/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/PRACTICE.md",
+    "dst": "02_core/civil-engineering/geotechnical/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/README.md",
+    "dst": "02_core/civil-engineering/geotechnical/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/role-study-plan.md",
+    "dst": "02_core/civil-engineering/geotechnical/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/geotechnical/TEST.md",
+    "dst": "02_core/civil-engineering/geotechnical/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/hwre/ERROR_ANALYSIS.md",
+    "dst": "02_core/hwre/ERROR_ANALYSIS.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hwre-rapid-revision.md",
+    "dst": "02_core/hwre/hwre-rapid-revision.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/HWRE_30_60_90_DAY_PLAN.md",
+    "dst": "02_core/hwre/HWRE_30_60_90_DAY_PLAN.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/HWRE_ROADMAP.md",
+    "dst": "02_core/hwre/HWRE_ROADMAP.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/INTERVIEW.md",
+    "dst": "02_core/hwre/INTERVIEW.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/MASTER_INDEX.md",
+    "dst": "02_core/hwre/MASTER_INDEX.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/MODELLING.md",
+    "dst": "02_core/hwre/MODELLING.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/RAPID_REVISION.md",
+    "dst": "02_core/hwre/RAPID_REVISION.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/README.md",
+    "dst": "02_core/hwre/README.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/role-study-plan.md",
+    "dst": "02_core/hwre/role-study-plan.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/TRAPS.md",
+    "dst": "02_core/hwre/TRAPS.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/exam_notes/hwre-exam-notes.md",
+    "dst": "02_core/hwre/exam_notes/hwre-exam-notes.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/flood_control/flood-control.md",
+    "dst": "02_core/hwre/flood_control/flood-control.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/formulas/hwre-formulas.md",
+    "dst": "02_core/hwre/formulas/hwre-formulas.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydraulics/hydraulics-rapid-revision.md",
+    "dst": "02_core/hwre/hydraulics/hydraulics-rapid-revision.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydraulics/hydraulics.md",
+    "dst": "02_core/hwre/hydraulics/hydraulics.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydraulics/role-study-plan.md",
+    "dst": "02_core/hwre/hydraulics/role-study-plan.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydraulics/turbulence-modeling.md",
+    "dst": "02_core/hwre/hydraulics/turbulence-modeling.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydrology/hydrology-rapid-revision.md",
+    "dst": "02_core/hwre/hydrology/hydrology-rapid-revision.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydrology/hydrology.md",
+    "dst": "02_core/hwre/hydrology/hydrology.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydrology/role-study-plan.md",
+    "dst": "02_core/hwre/hydrology/role-study-plan.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/hydrology/sediment-transport.md",
+    "dst": "02_core/hwre/hydrology/sediment-transport.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/irrigation/irrigation-engineering.md",
+    "dst": "02_core/hwre/irrigation/irrigation-engineering.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/mocks/hwre-mock-1.md",
+    "dst": "02_core/hwre/mocks/hwre-mock-1.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/open_channel_flow/open-channel-flow.md",
+    "dst": "02_core/hwre/open_channel_flow/open-channel-flow.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/practice/hwre-practice.md",
+    "dst": "02_core/hwre/practice/hwre-practice.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/wastewater/wastewater-engineering.md",
+    "dst": "02_core/hwre/wastewater/wastewater-engineering.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/water_resources/water-resources-engineering.md",
+    "dst": "02_core/hwre/water_resources/water-resources-engineering.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/water_supply/groundwater.md",
+    "dst": "02_core/hwre/water_supply/groundwater.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/water_supply/water-supply.md",
+    "dst": "02_core/hwre/water_supply/water-supply.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/_SYSTEM/HWRE_AUDIT_STATE.md",
+    "dst": "02_core/hwre/_SYSTEM/HWRE_AUDIT_STATE.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/_SYSTEM/HWRE_COMPLETENESS_MATRIX.md",
+    "dst": "02_core/hwre/_SYSTEM/HWRE_COMPLETENESS_MATRIX.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/_SYSTEM/HWRE_FILE_INVENTORY.md",
+    "dst": "02_core/hwre/_SYSTEM/HWRE_FILE_INVENTORY.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/hwre/_SYSTEM/HWRE_REPO_MAP.md",
+    "dst": "02_core/hwre/_SYSTEM/HWRE_REPO_MAP.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "core/infrastructure/construction-rapid-revision.md",
+    "dst": "02_core/civil-engineering/infrastructure/construction-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/construction-role-study-plan.md",
+    "dst": "02_core/civil-engineering/infrastructure/construction-role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/infrastructure-engineering-management.md",
+    "dst": "02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/infrastructure-rapid-revision.md",
+    "dst": "02_core/civil-engineering/infrastructure/infrastructure-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/infrastructure/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/PRACTICE.md",
+    "dst": "02_core/civil-engineering/infrastructure/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/README.md",
+    "dst": "02_core/civil-engineering/infrastructure/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/role-study-plan.md",
+    "dst": "02_core/civil-engineering/infrastructure/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/infrastructure/TEST.md",
+    "dst": "02_core/civil-engineering/infrastructure/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/rcc/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/PRACTICE.md",
+    "dst": "02_core/civil-engineering/rcc/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/RAPID_REVISION.md",
+    "dst": "02_core/civil-engineering/rcc/RAPID_REVISION.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/rcc-design.md",
+    "dst": "02_core/civil-engineering/rcc/rcc-design.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/role-study-plan.md",
+    "dst": "02_core/civil-engineering/rcc/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/rcc/TEST.md",
+    "dst": "02_core/civil-engineering/rcc/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/steel/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/steel/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/steel/PRACTICE.md",
+    "dst": "02_core/civil-engineering/steel/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/steel/RAPID_REVISION.md",
+    "dst": "02_core/civil-engineering/steel/RAPID_REVISION.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/steel/steel-design.md",
+    "dst": "02_core/civil-engineering/steel/steel-design.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/steel/TEST.md",
+    "dst": "02_core/civil-engineering/steel/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structural-analysis/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/structural-analysis/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structural-analysis/PRACTICE.md",
+    "dst": "02_core/civil-engineering/structural-analysis/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structural-analysis/RAPID_REVISION.md",
+    "dst": "02_core/civil-engineering/structural-analysis/RAPID_REVISION.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structural-analysis/structural-analysis.md",
+    "dst": "02_core/civil-engineering/structural-analysis/structural-analysis.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structural-analysis/TEST.md",
+    "dst": "02_core/civil-engineering/structural-analysis/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structures/README.md",
+    "dst": "02_core/civil-engineering/structures/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structures/role-study-plan.md",
+    "dst": "02_core/civil-engineering/structures/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structures/structural-rapid-revision.md",
+    "dst": "02_core/civil-engineering/structures/structural-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/structures/structures.md",
+    "dst": "02_core/civil-engineering/structures/structures.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/INTERVIEW.md",
+    "dst": "02_core/civil-engineering/transportation/INTERVIEW.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/PRACTICE.md",
+    "dst": "02_core/civil-engineering/transportation/PRACTICE.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/README.md",
+    "dst": "02_core/civil-engineering/transportation/README.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/role-study-plan.md",
+    "dst": "02_core/civil-engineering/transportation/role-study-plan.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/TEST.md",
+    "dst": "02_core/civil-engineering/transportation/TEST.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/transportation-engineering.md",
+    "dst": "02_core/civil-engineering/transportation/transportation-engineering.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/transportation-rapid-revision.md",
+    "dst": "02_core/civil-engineering/transportation/transportation-rapid-revision.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/transportation/transportation-software.md",
+    "dst": "02_core/civil-engineering/transportation/transportation-software.md",
+    "action": "MOVE_CIVIL"
+  },
+  {
+    "src": "core/_SYSTEM/COMPANY_ROLE_MAP.md",
+    "dst": "_SYSTEM/legacy/core/COMPANY_ROLE_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CONTENT_REGISTRY.md",
+    "dst": "_SYSTEM/legacy/core/CONTENT_REGISTRY.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_AUDIT_STATE.md",
+    "dst": "_SYSTEM/legacy/core/CORE_AUDIT_STATE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_CONTENT_MATRIX.md",
+    "dst": "_SYSTEM/legacy/core/CORE_CONTENT_MATRIX.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_REMEDIATION_QUEUE.md",
+    "dst": "_SYSTEM/legacy/core/CORE_REMEDIATION_QUEUE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_REPO_MAP.md",
+    "dst": "_SYSTEM/legacy/core/CORE_REPO_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_REQUIRED_FILES.md",
+    "dst": "_SYSTEM/legacy/core/CORE_REQUIRED_FILES.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_ROLE_INVENTORY.md",
+    "dst": "_SYSTEM/legacy/core/CORE_ROLE_INVENTORY.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "core/_SYSTEM/CORE_TRACK_INVENTORY.md",
+    "dst": "_SYSTEM/legacy/core/CORE_TRACK_INVENTORY.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "docs/accuracy-review-2026-09.md",
+    "dst": "archive/reports/accuracy-review-2026-09.md",
+    "action": "ARCHIVE_REPORT"
+  },
+  {
+    "src": "docs/architecture.md",
+    "dst": "docs/architecture.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/ASSESSMENT_ARCHITECTURE.md",
+    "dst": "05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "docs/BEHAVIOURAL_HR_GUIDE.md",
+    "dst": "01_common/behavioral/BEHAVIOURAL_HR_GUIDE.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "docs/COMPANIES.md",
+    "dst": "04_company-prep/company-directory/COMPANIES.md",
+    "action": "MOVE_CO_DIR"
+  },
+  {
+    "src": "docs/content-standards.md",
+    "dst": "docs/content-standards.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/CONTRIBUTING.md",
+    "dst": "docs/CONTRIBUTING.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/GETTING_STARTED.md",
+    "dst": "docs/GETTING_STARTED.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/HOW_TO_USE.md",
+    "dst": "docs/HOW_TO_USE.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/IITK_PLACEMENT_MAP.md",
+    "dst": "docs/IITK_PLACEMENT_MAP.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/INTERVIEW_GUIDE.md",
+    "dst": "05_interview/INTERVIEW_GUIDE.md",
+    "action": "MOVE_INTERVIEW"
+  },
+  {
+    "src": "docs/MASTER_NAVIGATION.md",
+    "dst": "docs/MASTER_NAVIGATION.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/placement-control-panel.md",
+    "dst": "docs/placement-control-panel.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/PREPARATION_WORKFLOW.md",
+    "dst": "docs/PREPARATION_WORKFLOW.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/RAPID_REVISION_GUIDE.md",
+    "dst": "06_revision/RAPID_REVISION_GUIDE.md",
+    "action": "MOVE_REVISION"
+  },
+  {
+    "src": "docs/README.md",
+    "dst": "docs/README.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/roadmap.md",
+    "dst": "docs/roadmap.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/ROLES.md",
+    "dst": "03_non_core/ROLES.md",
+    "action": "MOVE_NON_CORE"
+  },
+  {
+    "src": "docs/setup.md",
+    "dst": "docs/setup.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/SOURCE_POLICY.md",
+    "dst": "docs/SOURCE_POLICY.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/start-here.md",
+    "dst": "docs/start-here.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/TESTING_GUIDE.md",
+    "dst": "05_interview/mock-interviews/TESTING_GUIDE.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "docs/TRACKS.md",
+    "dst": "docs/TRACKS.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/audit/aptitude-audit-2026-09.md",
+    "dst": "archive/reports/audit/aptitude-audit-2026-09.md",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/audit/gate-o-pedia-gap-analysis.md",
+    "dst": "archive/reports/audit/gate-o-pedia-gap-analysis.md",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/audit/gate_opedia_corrected_analysis.json",
+    "dst": "archive/reports/audit/gate_opedia_corrected_analysis.json",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/audit/gate_opedia_full_analysis.md",
+    "dst": "archive/reports/audit/gate_opedia_full_analysis.md",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/audit/gate_opedia_structure.md",
+    "dst": "archive/reports/audit/gate_opedia_structure.md",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/audit/gate_opedia_taxonomy.json",
+    "dst": "archive/reports/audit/gate_opedia_taxonomy.json",
+    "action": "ARCHIVE_AUDIT"
+  },
+  {
+    "src": "docs/sources/gate-o-pedia.md",
+    "dst": "archive/legacy_docs/sources/gate-o-pedia.md",
+    "action": "ARCHIVE_DOCS"
+  },
+  {
+    "src": "docs/templates/career.md",
+    "dst": "docs/templates/career.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/concept.md",
+    "dst": "docs/templates/concept.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/interview.md",
+    "dst": "docs/templates/interview.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/numerical.md",
+    "dst": "docs/templates/numerical.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/project.md",
+    "dst": "docs/templates/project.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/README.md",
+    "dst": "docs/templates/README.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/resource.md",
+    "dst": "docs/templates/resource.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/revision.md",
+    "dst": "docs/templates/revision.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/templates/software.md",
+    "dst": "docs/templates/software.md",
+    "action": "KEEP_DOCS"
+  },
+  {
+    "src": "docs/_SYSTEM/DOCS_AUDIT_STATE.md",
+    "dst": "_SYSTEM/legacy/docs/DOCS_AUDIT_STATE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "docs/_SYSTEM/DOCS_CONTENT_REGISTRY.md",
+    "dst": "_SYSTEM/legacy/docs/DOCS_CONTENT_REGISTRY.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "docs/_SYSTEM/DOCS_FILE_MAP.md",
+    "dst": "_SYSTEM/legacy/docs/DOCS_FILE_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "docs/_SYSTEM/DOCS_LINK_AUDIT.md",
+    "dst": "_SYSTEM/legacy/docs/DOCS_LINK_AUDIT.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "index/file_inventory.csv",
+    "dst": "archive/legacy_indexes/file_inventory.csv",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/master_index.md",
+    "dst": "archive/legacy_indexes/master_index.md",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/metrics.json",
+    "dst": "archive/legacy_indexes/metrics.json",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/README.md",
+    "dst": "archive/legacy_indexes/README.md",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/source_map.csv",
+    "dst": "archive/legacy_indexes/source_map.csv",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/SOURCE_MIGRATION_MAP.csv",
+    "dst": "archive/legacy_indexes/SOURCE_MIGRATION_MAP.csv",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/topics.md",
+    "dst": "archive/legacy_indexes/topics.md",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "index/topic_map.md",
+    "dst": "archive/legacy_indexes/topic_map.md",
+    "action": "ARCHIVE_INDEX"
+  },
+  {
+    "src": "non-core/README.md",
+    "dst": "03_non_core/README.md",
+    "action": "MOVE_NON_CORE"
+  },
+  {
+    "src": "non-core/ROLE_DIRECTORY.md",
+    "dst": "03_non_core/ROLE_DIRECTORY.md",
+    "action": "MOVE_NON_CORE"
+  },
+  {
+    "src": "non-core/01_roles/analytics/01_role-overview.md",
+    "dst": "03_non_core/analytics/analytics/01_role-overview.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/02_skills-and-competencies.md",
+    "dst": "03_non_core/analytics/analytics/02_skills-and-competencies.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/03_domain-knowledge.md",
+    "dst": "03_non_core/analytics/analytics/03_domain-knowledge.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/04_tools-and-technical-stack.md",
+    "dst": "03_non_core/analytics/analytics/04_tools-and-technical-stack.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/05_interview-preparation.md",
+    "dst": "03_non_core/analytics/analytics/05_interview-preparation.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/06_question-bank.md",
+    "dst": "03_non_core/analytics/analytics/06_question-bank.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/07_practice-and-cases.md",
+    "dst": "03_non_core/analytics/analytics/07_practice-and-cases.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/08_role-study-plan.md",
+    "dst": "03_non_core/analytics/analytics/08_role-study-plan.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/09_rapid-revision.md",
+    "dst": "03_non_core/analytics/analytics/09_rapid-revision.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/10_resources.md",
+    "dst": "03_non_core/analytics/analytics/10_resources.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/11_projects.md",
+    "dst": "03_non_core/analytics/analytics/11_projects.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/12_mock-assessment.md",
+    "dst": "03_non_core/analytics/analytics/12_mock-assessment.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/analytics/README.md",
+    "dst": "03_non_core/analytics/analytics/README.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/01_role-overview.md",
+    "dst": "03_non_core/analytics/business-analyst/01_role-overview.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/02_skills-and-competencies.md",
+    "dst": "03_non_core/analytics/business-analyst/02_skills-and-competencies.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/03_business-knowledge.md",
+    "dst": "03_non_core/analytics/business-analyst/03_business-knowledge.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/05_interview-preparation.md",
+    "dst": "03_non_core/analytics/business-analyst/05_interview-preparation.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/06_question-bank.md",
+    "dst": "03_non_core/analytics/business-analyst/06_question-bank.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/07_case-practice.md",
+    "dst": "03_non_core/analytics/business-analyst/07_case-practice.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/08_role-study-plan.md",
+    "dst": "03_non_core/analytics/business-analyst/08_role-study-plan.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/09_rapid-revision.md",
+    "dst": "03_non_core/analytics/business-analyst/09_rapid-revision.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/10_resources.md",
+    "dst": "03_non_core/analytics/business-analyst/10_resources.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/11_projects.md",
+    "dst": "03_non_core/analytics/business-analyst/11_projects.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/12_mock-assessment.md",
+    "dst": "03_non_core/analytics/business-analyst/12_mock-assessment.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/README.md",
+    "dst": "03_non_core/analytics/business-analyst/README.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/04_data-and-analytics/data-interpretation.md",
+    "dst": "03_non_core/analytics/business-analyst/04_data-and-analytics/data-interpretation.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/04_data-and-analytics/excel-and-spreadsheets.md",
+    "dst": "03_non_core/analytics/business-analyst/04_data-and-analytics/excel-and-spreadsheets.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/04_data-and-analytics/sql-practice.md",
+    "dst": "03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-analyst/04_data-and-analytics/statistics.md",
+    "dst": "03_non_core/analytics/business-analyst/04_data-and-analytics/statistics.md",
+    "action": "MOVE_BA"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/01_role-overview.md",
+    "dst": "03_non_core/operations/business-operations/01_role-overview.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/02_skills-and-competencies.md",
+    "dst": "03_non_core/operations/business-operations/02_skills-and-competencies.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/03_domain-knowledge.md",
+    "dst": "03_non_core/operations/business-operations/03_domain-knowledge.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/04_tools-and-technical.md",
+    "dst": "03_non_core/operations/business-operations/04_tools-and-technical.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/05_interview-preparation.md",
+    "dst": "03_non_core/operations/business-operations/05_interview-preparation.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/06_question-bank.md",
+    "dst": "03_non_core/operations/business-operations/06_question-bank.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/07_practice-and-cases.md",
+    "dst": "03_non_core/operations/business-operations/07_practice-and-cases.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/08_role-study-plan.md",
+    "dst": "03_non_core/operations/business-operations/08_role-study-plan.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/09_rapid-revision.md",
+    "dst": "03_non_core/operations/business-operations/09_rapid-revision.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/10_resources.md",
+    "dst": "03_non_core/operations/business-operations/10_resources.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/11_projects.md",
+    "dst": "03_non_core/operations/business-operations/11_projects.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/12_mock-assessment.md",
+    "dst": "03_non_core/operations/business-operations/12_mock-assessment.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/business-operations/README.md",
+    "dst": "03_non_core/operations/business-operations/README.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/consulting/01_role-overview.md",
+    "dst": "03_non_core/consulting/01_role-overview.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/02_problem-solving.md",
+    "dst": "03_non_core/consulting/02_problem-solving.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/02_skills-and-competencies.md",
+    "dst": "03_non_core/consulting/02_skills-and-competencies.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/03_business-cases.md",
+    "dst": "03_non_core/consulting/03_business-cases.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/03_domain-knowledge.md",
+    "dst": "03_non_core/consulting/03_domain-knowledge.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/04_guesstimates.md",
+    "dst": "03_non_core/consulting/04_guesstimates.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/04_tools-and-technical.md",
+    "dst": "03_non_core/consulting/04_tools-and-technical.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/05_consulting-math.md",
+    "dst": "03_non_core/consulting/05_consulting-math.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/05_interview-preparation.md",
+    "dst": "03_non_core/consulting/05_interview-preparation.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/06_case-practice.md",
+    "dst": "03_non_core/consulting/06_case-practice.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/06_question-bank.md",
+    "dst": "03_non_core/consulting/06_question-bank.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/07_interview-preparation.md",
+    "dst": "03_non_core/consulting/07_interview-preparation.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/07_practice-and-cases.md",
+    "dst": "03_non_core/consulting/07_practice-and-cases.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/08_mock-assessment.md",
+    "dst": "03_non_core/consulting/08_mock-assessment.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/08_role-study-plan.md",
+    "dst": "03_non_core/consulting/08_role-study-plan.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/09_rapid-revision.md",
+    "dst": "03_non_core/consulting/09_rapid-revision.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/10_resources.md",
+    "dst": "03_non_core/consulting/10_resources.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/11_projects.md",
+    "dst": "03_non_core/consulting/11_projects.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/12_mock-assessment.md",
+    "dst": "03_non_core/consulting/12_mock-assessment.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/consulting/README.md",
+    "dst": "03_non_core/consulting/README.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/01_role-overview.md",
+    "dst": "03_non_core/analytics/data-analyst/01_role-overview.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/02_skills-and-competencies.md",
+    "dst": "03_non_core/analytics/data-analyst/02_skills-and-competencies.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/03_domain-knowledge.md",
+    "dst": "03_non_core/analytics/data-analyst/03_domain-knowledge.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/04_tools-and-technical-stack.md",
+    "dst": "03_non_core/analytics/data-analyst/04_tools-and-technical-stack.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/05_interview-preparation.md",
+    "dst": "03_non_core/analytics/data-analyst/05_interview-preparation.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/06_question-bank.md",
+    "dst": "03_non_core/analytics/data-analyst/06_question-bank.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/07_practice-and-cases.md",
+    "dst": "03_non_core/analytics/data-analyst/07_practice-and-cases.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/08_role-study-plan.md",
+    "dst": "03_non_core/analytics/data-analyst/08_role-study-plan.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/09_rapid-revision.md",
+    "dst": "03_non_core/analytics/data-analyst/09_rapid-revision.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/10_resources.md",
+    "dst": "03_non_core/analytics/data-analyst/10_resources.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/11_projects.md",
+    "dst": "03_non_core/analytics/data-analyst/11_projects.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/12_mock-assessment.md",
+    "dst": "03_non_core/analytics/data-analyst/12_mock-assessment.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/data-analyst/README.md",
+    "dst": "03_non_core/analytics/data-analyst/README.md",
+    "action": "MOVE_ANALYTICS"
+  },
+  {
+    "src": "non-core/01_roles/finance/01_role-overview.md",
+    "dst": "03_non_core/finance/finance/01_role-overview.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/02_skills-and-competencies.md",
+    "dst": "03_non_core/finance/finance/02_skills-and-competencies.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/03_domain-knowledge.md",
+    "dst": "03_non_core/finance/finance/03_domain-knowledge.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/04_tools-and-technical.md",
+    "dst": "03_non_core/finance/finance/04_tools-and-technical.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/05_interview-preparation.md",
+    "dst": "03_non_core/finance/finance/05_interview-preparation.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/06_question-bank.md",
+    "dst": "03_non_core/finance/finance/06_question-bank.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/07_practice-and-cases.md",
+    "dst": "03_non_core/finance/finance/07_practice-and-cases.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/08_role-study-plan.md",
+    "dst": "03_non_core/finance/finance/08_role-study-plan.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/09_rapid-revision.md",
+    "dst": "03_non_core/finance/finance/09_rapid-revision.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/10_resources.md",
+    "dst": "03_non_core/finance/finance/10_resources.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/11_projects.md",
+    "dst": "03_non_core/finance/finance/11_projects.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/12_mock-assessment.md",
+    "dst": "03_non_core/finance/finance/12_mock-assessment.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/finance/README.md",
+    "dst": "03_non_core/finance/finance/README.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/operations/01_role-overview.md",
+    "dst": "03_non_core/operations/operations/01_role-overview.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/02_skills-and-competencies.md",
+    "dst": "03_non_core/operations/operations/02_skills-and-competencies.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/03_domain-knowledge.md",
+    "dst": "03_non_core/operations/operations/03_domain-knowledge.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/04_tools-and-technical.md",
+    "dst": "03_non_core/operations/operations/04_tools-and-technical.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/05_interview-preparation.md",
+    "dst": "03_non_core/operations/operations/05_interview-preparation.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/06_question-bank.md",
+    "dst": "03_non_core/operations/operations/06_question-bank.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/07_practice-and-cases.md",
+    "dst": "03_non_core/operations/operations/07_practice-and-cases.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/08_role-study-plan.md",
+    "dst": "03_non_core/operations/operations/08_role-study-plan.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/09_rapid-revision.md",
+    "dst": "03_non_core/operations/operations/09_rapid-revision.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/10_resources.md",
+    "dst": "03_non_core/operations/operations/10_resources.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/11_projects.md",
+    "dst": "03_non_core/operations/operations/11_projects.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/12_mock-assessment.md",
+    "dst": "03_non_core/operations/operations/12_mock-assessment.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/operations/README.md",
+    "dst": "03_non_core/operations/operations/README.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/01_role-overview.md",
+    "dst": "03_non_core/product/product-analyst/01_role-overview.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/02_skills-and-competencies.md",
+    "dst": "03_non_core/product/product-analyst/02_skills-and-competencies.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/03_domain-knowledge.md",
+    "dst": "03_non_core/product/product-analyst/03_domain-knowledge.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/04_tools-and-technical.md",
+    "dst": "03_non_core/product/product-analyst/04_tools-and-technical.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/05_interview-preparation.md",
+    "dst": "03_non_core/product/product-analyst/05_interview-preparation.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/06_question-bank.md",
+    "dst": "03_non_core/product/product-analyst/06_question-bank.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/07_practice-and-cases.md",
+    "dst": "03_non_core/product/product-analyst/07_practice-and-cases.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/08_role-study-plan.md",
+    "dst": "03_non_core/product/product-analyst/08_role-study-plan.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/09_rapid-revision.md",
+    "dst": "03_non_core/product/product-analyst/09_rapid-revision.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/10_resources.md",
+    "dst": "03_non_core/product/product-analyst/10_resources.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/11_projects.md",
+    "dst": "03_non_core/product/product-analyst/11_projects.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/12_mock-assessment.md",
+    "dst": "03_non_core/product/product-analyst/12_mock-assessment.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-analyst/README.md",
+    "dst": "03_non_core/product/product-analyst/README.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/01_role-overview.md",
+    "dst": "03_non_core/product/product-management/01_role-overview.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/02_skills-and-competencies.md",
+    "dst": "03_non_core/product/product-management/02_skills-and-competencies.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/03_core-knowledge.md",
+    "dst": "03_non_core/product/product-management/03_core-knowledge.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/03_domain-knowledge.md",
+    "dst": "03_non_core/product/product-management/03_domain-knowledge.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/04_tools-and-technical.md",
+    "dst": "03_non_core/product/product-management/04_tools-and-technical.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/05_interview-preparation.md",
+    "dst": "03_non_core/product/product-management/05_interview-preparation.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/06_question-bank.md",
+    "dst": "03_non_core/product/product-management/06_question-bank.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/07_practice-and-cases.md",
+    "dst": "03_non_core/product/product-management/07_practice-and-cases.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/08_role-study-plan.md",
+    "dst": "03_non_core/product/product-management/08_role-study-plan.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/09_rapid-revision.md",
+    "dst": "03_non_core/product/product-management/09_rapid-revision.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/10_resources.md",
+    "dst": "03_non_core/product/product-management/10_resources.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/11_projects.md",
+    "dst": "03_non_core/product/product-management/11_projects.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/12_mock-assessment.md",
+    "dst": "03_non_core/product/product-management/12_mock-assessment.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/product-management/README.md",
+    "dst": "03_non_core/product/product-management/README.md",
+    "action": "MOVE_PRODUCT"
+  },
+  {
+    "src": "non-core/01_roles/program-management/01_role-overview.md",
+    "dst": "03_non_core/operations/program-management/01_role-overview.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/02_skills-and-competencies.md",
+    "dst": "03_non_core/operations/program-management/02_skills-and-competencies.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/03_domain-knowledge.md",
+    "dst": "03_non_core/operations/program-management/03_domain-knowledge.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/04_tools-and-technical.md",
+    "dst": "03_non_core/operations/program-management/04_tools-and-technical.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/05_interview-preparation.md",
+    "dst": "03_non_core/operations/program-management/05_interview-preparation.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/06_question-bank.md",
+    "dst": "03_non_core/operations/program-management/06_question-bank.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/07_practice-and-cases.md",
+    "dst": "03_non_core/operations/program-management/07_practice-and-cases.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/08_role-study-plan.md",
+    "dst": "03_non_core/operations/program-management/08_role-study-plan.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/09_rapid-revision.md",
+    "dst": "03_non_core/operations/program-management/09_rapid-revision.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/10_resources.md",
+    "dst": "03_non_core/operations/program-management/10_resources.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/11_projects.md",
+    "dst": "03_non_core/operations/program-management/11_projects.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/12_mock-assessment.md",
+    "dst": "03_non_core/operations/program-management/12_mock-assessment.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/program-management/README.md",
+    "dst": "03_non_core/operations/program-management/README.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/risk/01_role-overview.md",
+    "dst": "03_non_core/finance/risk/01_role-overview.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/02_skills-and-competencies.md",
+    "dst": "03_non_core/finance/risk/02_skills-and-competencies.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/03_domain-knowledge.md",
+    "dst": "03_non_core/finance/risk/03_domain-knowledge.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/04_tools-and-technical.md",
+    "dst": "03_non_core/finance/risk/04_tools-and-technical.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/05_interview-preparation.md",
+    "dst": "03_non_core/finance/risk/05_interview-preparation.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/06_question-bank.md",
+    "dst": "03_non_core/finance/risk/06_question-bank.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/07_practice-and-cases.md",
+    "dst": "03_non_core/finance/risk/07_practice-and-cases.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/08_role-study-plan.md",
+    "dst": "03_non_core/finance/risk/08_role-study-plan.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/09_rapid-revision.md",
+    "dst": "03_non_core/finance/risk/09_rapid-revision.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/10_resources.md",
+    "dst": "03_non_core/finance/risk/10_resources.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/11_projects.md",
+    "dst": "03_non_core/finance/risk/11_projects.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/12_mock-assessment.md",
+    "dst": "03_non_core/finance/risk/12_mock-assessment.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/risk/README.md",
+    "dst": "03_non_core/finance/risk/README.md",
+    "action": "MOVE_FINANCE"
+  },
+  {
+    "src": "non-core/01_roles/strategy/01_role-overview.md",
+    "dst": "03_non_core/consulting/strategy/01_role-overview.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/02_skills-and-competencies.md",
+    "dst": "03_non_core/consulting/strategy/02_skills-and-competencies.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/03_domain-knowledge.md",
+    "dst": "03_non_core/consulting/strategy/03_domain-knowledge.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/04_tools-and-technical.md",
+    "dst": "03_non_core/consulting/strategy/04_tools-and-technical.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/05_interview-preparation.md",
+    "dst": "03_non_core/consulting/strategy/05_interview-preparation.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/06_question-bank.md",
+    "dst": "03_non_core/consulting/strategy/06_question-bank.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/07_practice-and-cases.md",
+    "dst": "03_non_core/consulting/strategy/07_practice-and-cases.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/08_role-study-plan.md",
+    "dst": "03_non_core/consulting/strategy/08_role-study-plan.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/09_rapid-revision.md",
+    "dst": "03_non_core/consulting/strategy/09_rapid-revision.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/10_resources.md",
+    "dst": "03_non_core/consulting/strategy/10_resources.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/11_projects.md",
+    "dst": "03_non_core/consulting/strategy/11_projects.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/12_mock-assessment.md",
+    "dst": "03_non_core/consulting/strategy/12_mock-assessment.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/strategy/README.md",
+    "dst": "03_non_core/consulting/strategy/README.md",
+    "action": "MOVE_CONSULTING"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/01_role-overview.md",
+    "dst": "03_non_core/operations/supply-chain/01_role-overview.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/02_skills-and-competencies.md",
+    "dst": "03_non_core/operations/supply-chain/02_skills-and-competencies.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/03_domain-knowledge.md",
+    "dst": "03_non_core/operations/supply-chain/03_domain-knowledge.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/04_tools-and-technical.md",
+    "dst": "03_non_core/operations/supply-chain/04_tools-and-technical.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/05_interview-preparation.md",
+    "dst": "03_non_core/operations/supply-chain/05_interview-preparation.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/06_question-bank.md",
+    "dst": "03_non_core/operations/supply-chain/06_question-bank.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/07_practice-and-cases.md",
+    "dst": "03_non_core/operations/supply-chain/07_practice-and-cases.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/08_role-study-plan.md",
+    "dst": "03_non_core/operations/supply-chain/08_role-study-plan.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/09_rapid-revision.md",
+    "dst": "03_non_core/operations/supply-chain/09_rapid-revision.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/10_resources.md",
+    "dst": "03_non_core/operations/supply-chain/10_resources.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/11_projects.md",
+    "dst": "03_non_core/operations/supply-chain/11_projects.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/12_mock-assessment.md",
+    "dst": "03_non_core/operations/supply-chain/12_mock-assessment.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/supply-chain/README.md",
+    "dst": "03_non_core/operations/supply-chain/README.md",
+    "action": "MOVE_OPS"
+  },
+  {
+    "src": "non-core/01_roles/technology/01_role-overview.md",
+    "dst": "03_non_core/software-engineering/01_role-overview.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/02_skills-and-competencies.md",
+    "dst": "03_non_core/software-engineering/02_skills-and-competencies.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/03_domain-knowledge.md",
+    "dst": "03_non_core/software-engineering/03_domain-knowledge.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/04_tools-and-technical.md",
+    "dst": "03_non_core/software-engineering/04_tools-and-technical.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/05_interview-preparation.md",
+    "dst": "03_non_core/software-engineering/05_interview-preparation.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/06_question-bank.md",
+    "dst": "03_non_core/software-engineering/06_question-bank.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/07_practice-and-cases.md",
+    "dst": "03_non_core/software-engineering/07_practice-and-cases.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/08_role-study-plan.md",
+    "dst": "03_non_core/software-engineering/08_role-study-plan.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/09_rapid-revision.md",
+    "dst": "03_non_core/software-engineering/09_rapid-revision.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/10_resources.md",
+    "dst": "03_non_core/software-engineering/10_resources.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/11_projects.md",
+    "dst": "03_non_core/software-engineering/11_projects.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/12_mock-assessment.md",
+    "dst": "03_non_core/software-engineering/12_mock-assessment.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/01_roles/technology/README.md",
+    "dst": "03_non_core/software-engineering/README.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "non-core/02_interview-preparation/README.md",
+    "dst": "05_interview/case-interview/README.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/behavioral/behavioral-mastery.md",
+    "dst": "05_interview/case-interview/behavioral/behavioral-mastery.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/behavioral/hr-questions.md",
+    "dst": "05_interview/case-interview/behavioral/hr-questions.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/case-communication.md",
+    "dst": "05_interview/case-interview/case-interviews/case-communication.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/case-frameworks.md",
+    "dst": "05_interview/case-interview/case-interviews/case-frameworks.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/case-simulation-suite.md",
+    "dst": "05_interview/case-interview/case-interviews/case-simulation-suite.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/framework-library.md",
+    "dst": "05_interview/case-interview/case-interviews/framework-library.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/interview-frameworks.md",
+    "dst": "05_interview/case-interview/case-interviews/interview-frameworks.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/case-interviews/README.md",
+    "dst": "05_interview/case-interview/case-interviews/README.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/guesstimates/guesstimate-guide.md",
+    "dst": "05_interview/case-interview/guesstimates/guesstimate-guide.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/mock-interviews/interview-readiness.md",
+    "dst": "05_interview/case-interview/mock-interviews/interview-readiness.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/02_interview-preparation/mock-interviews/mock-system.md",
+    "dst": "05_interview/case-interview/mock-interviews/mock-system.md",
+    "action": "MOVE_CASE_INTERVIEW"
+  },
+  {
+    "src": "non-core/03_common-skills/README.md",
+    "dst": "01_common/placement-math/README.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/business-fundamentals/business-fundamentals.md",
+    "dst": "01_common/placement-math/business-fundamentals/business-fundamentals.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/communication/communication.md",
+    "dst": "01_common/placement-math/communication/communication.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/data-interpretation/data-interpretation.md",
+    "dst": "01_common/placement-math/data-interpretation/data-interpretation.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/data-interpretation/README.md",
+    "dst": "01_common/placement-math/data-interpretation/README.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/quantitative-reasoning/aptitude-bridge.md",
+    "dst": "01_common/placement-math/quantitative-reasoning/aptitude-bridge.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/structured-problem-solving/README.md",
+    "dst": "01_common/placement-math/structured-problem-solving/README.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/03_common-skills/structured-problem-solving/structured-problem-solving.md",
+    "dst": "01_common/placement-math/structured-problem-solving/structured-problem-solving.md",
+    "action": "MOVE_PLACEMENT_MATH"
+  },
+  {
+    "src": "non-core/04_career-preparation/README.md",
+    "dst": "01_common/resume/career-preparation/README.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/placement-roadmap/placement-roadmap.md",
+    "dst": "01_common/resume/career-preparation/placement-roadmap/placement-roadmap.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/placement-roadmap/README.md",
+    "dst": "01_common/resume/career-preparation/placement-roadmap/README.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/placement-strategy/placement-strategy.md",
+    "dst": "01_common/resume/career-preparation/placement-strategy/placement-strategy.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/placement-strategy/README.md",
+    "dst": "01_common/resume/career-preparation/placement-strategy/README.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/resume-positioning/civil-to-noncore.md",
+    "dst": "01_common/resume/career-preparation/resume-positioning/civil-to-noncore.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/resume-positioning/README.md",
+    "dst": "01_common/resume/career-preparation/resume-positioning/README.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/resume-positioning/resume-strategy.md",
+    "dst": "01_common/resume/career-preparation/resume-positioning/resume-strategy.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/resume-positioning/resume-templates.md",
+    "dst": "01_common/resume/career-preparation/resume-positioning/resume-templates.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/role-selection/README.md",
+    "dst": "01_common/resume/career-preparation/role-selection/README.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/04_career-preparation/role-selection/role-selector.md",
+    "dst": "01_common/resume/career-preparation/role-selection/role-selector.md",
+    "action": "MOVE_CAREER_PREP"
+  },
+  {
+    "src": "non-core/05_rapid-revision/README.md",
+    "dst": "06_revision/roles/README.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/analytics/revision-sheet.md",
+    "dst": "06_revision/roles/analytics/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/business-analyst/revision-sheet.md",
+    "dst": "06_revision/roles/business-analyst/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/business-operations/revision-sheet.md",
+    "dst": "06_revision/roles/business-operations/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/consulting/revision-sheet.md",
+    "dst": "06_revision/roles/consulting/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/data-analyst/revision-sheet.md",
+    "dst": "06_revision/roles/data-analyst/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/finance/revision-sheet.md",
+    "dst": "06_revision/roles/finance/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/master/revision-sheet.md",
+    "dst": "06_revision/roles/master/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/operations/revision-sheet.md",
+    "dst": "06_revision/roles/operations/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/product-analyst/revision-sheet.md",
+    "dst": "06_revision/roles/product-analyst/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/product-management/revision-sheet.md",
+    "dst": "06_revision/roles/product-management/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/program-management/revision-sheet.md",
+    "dst": "06_revision/roles/program-management/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/risk/revision-sheet.md",
+    "dst": "06_revision/roles/risk/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/strategy/revision-sheet.md",
+    "dst": "06_revision/roles/strategy/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/supply-chain/revision-sheet.md",
+    "dst": "06_revision/roles/supply-chain/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/05_rapid-revision/technology/revision-sheet.md",
+    "dst": "06_revision/roles/technology/revision-sheet.md",
+    "action": "MOVE_REVISION_ROLES"
+  },
+  {
+    "src": "non-core/_SYSTEM/CONTENT_MAP.md",
+    "dst": "_SYSTEM/legacy/non-core/CONTENT_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "non-core/_SYSTEM/MIGRATION_MAP.md",
+    "dst": "_SYSTEM/legacy/non-core/MIGRATION_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "non-core/_SYSTEM/ROLE_CONTENT_DEPTH_AUDIT.md",
+    "dst": "_SYSTEM/legacy/non-core/ROLE_CONTENT_DEPTH_AUDIT.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "non-core/_SYSTEM/ROLE_CONTENT_MATRIX.md",
+    "dst": "_SYSTEM/legacy/non-core/ROLE_CONTENT_MATRIX.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "non-core/_SYSTEM/ROLE_SCHEMA.md",
+    "dst": "_SYSTEM/legacy/non-core/ROLE_SCHEMA.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "non-core/_SYSTEM/SOURCES.md",
+    "dst": "_SYSTEM/legacy/non-core/SOURCES.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "prep/30_14_7_DAY_PLAN.md",
+    "dst": "06_revision/14-day/30_14_7_DAY_PLAN.md",
+    "action": "MOVE_REV_14"
+  },
+  {
+    "src": "prep/CASE_GD.md",
+    "dst": "01_common/group-discussion/CASE_GD.md",
+    "action": "MOVE_GD"
+  },
+  {
+    "src": "prep/INTERVIEW_TOMORROW.md",
+    "dst": "06_revision/interview-tomorrow/INTERVIEW_TOMORROW.md",
+    "action": "MOVE_REV_TOMORROW"
+  },
+  {
+    "src": "prep/MASTER_PREP_PLAN.md",
+    "dst": "06_revision/30-day/MASTER_PREP_PLAN.md",
+    "action": "MOVE_REV_30"
+  },
+  {
+    "src": "prep/MOCK_INTERVIEW.md",
+    "dst": "05_interview/mock-interviews/MOCK_INTERVIEW.md",
+    "action": "MOVE_MOCK_INT"
+  },
+  {
+    "src": "prep/PLACEMENT_CHECKLIST.md",
+    "dst": "01_common/resume/PLACEMENT_CHECKLIST.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "prep/PLACEMENT_COMMUNICATION.md",
+    "dst": "01_common/interview-fundamentals/PLACEMENT_COMMUNICATION.md",
+    "action": "MOVE_INT_FUND"
+  },
+  {
+    "src": "prep/PROJECT_DEFENCE.md",
+    "dst": "05_interview/project-defense/PROJECT_DEFENCE.md",
+    "action": "MOVE_PROJ_DEF"
+  },
+  {
+    "src": "prep/RAPID_REVISION.md",
+    "dst": "06_revision/3-day/RAPID_REVISION.md",
+    "action": "MOVE_REV_3"
+  },
+  {
+    "src": "prep/READINESS_SCORECARD.md",
+    "dst": "05_interview/mock-interviews/READINESS_SCORECARD.md",
+    "action": "MOVE_MOCK_INT"
+  },
+  {
+    "src": "prep/README.md",
+    "dst": "archive/legacy_prep/README.md",
+    "action": "ARCHIVE_PREP"
+  },
+  {
+    "src": "prep/SELECTION_STAGE_MAP.md",
+    "dst": "01_common/interview-fundamentals/SELECTION_STAGE_MAP.md",
+    "action": "MOVE_INT_FUND"
+  },
+  {
+    "src": "prep/APTITUDE/README.md",
+    "dst": "archive/legacy_prep/APTITUDE_README.md",
+    "action": "ARCHIVE_PREP"
+  },
+  {
+    "src": "prep/behavioral/answer-quality-checker.md",
+    "dst": "01_common/behavioral/answer-quality-checker.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/behavioral-interview-guide.md",
+    "dst": "01_common/behavioral/behavioral-interview-guide.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/civil-hwre-behavioral.md",
+    "dst": "01_common/behavioral/civil-hwre-behavioral.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/company-fit-analysis.md",
+    "dst": "01_common/behavioral/company-fit-analysis.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/group-discussion-mastery.md",
+    "dst": "01_common/behavioral/group-discussion-mastery.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/iitk-pg-questions.md",
+    "dst": "01_common/behavioral/iitk-pg-questions.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/pressure-interview-survival.md",
+    "dst": "01_common/behavioral/pressure-interview-survival.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/question-master-database.md",
+    "dst": "01_common/behavioral/question-master-database.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/questions-to-ask-interviewer.md",
+    "dst": "01_common/behavioral/questions-to-ask-interviewer.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/rapid-revision-cards.md",
+    "dst": "01_common/behavioral/rapid-revision-cards.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/README.md",
+    "dst": "01_common/behavioral/README.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/resume-defense-system.md",
+    "dst": "01_common/behavioral/resume-defense-system.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/revision-roadmaps.md",
+    "dst": "01_common/behavioral/revision-roadmaps.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/situational-judgment-questions.md",
+    "dst": "01_common/behavioral/situational-judgment-questions.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/conflict_resolution/conflict-resolution.md",
+    "dst": "01_common/behavioral/conflict_resolution/conflict-resolution.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/frameworks/answer-framework-library.md",
+    "dst": "01_common/behavioral/frameworks/answer-framework-library.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/hr_questions/hr-questions-bank.md",
+    "dst": "01_common/behavioral/hr_questions/hr-questions-bank.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/hr_questions/hr-technical-hybrid-questions.md",
+    "dst": "01_common/behavioral/hr_questions/hr-technical-hybrid-questions.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/leadership/leadership.md",
+    "dst": "01_common/behavioral/leadership/leadership.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/mock-interviews/mock-interview-system.md",
+    "dst": "01_common/behavioral/mock-interviews/mock-interview-system.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/self_intro/self-introduction-system.md",
+    "dst": "01_common/behavioral/self_intro/self-introduction-system.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/self_intro/self-introduction.md",
+    "dst": "01_common/behavioral/self_intro/self-introduction.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/adaptability-stories.md",
+    "dst": "01_common/behavioral/story-bank/adaptability-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/communication-stories.md",
+    "dst": "01_common/behavioral/story-bank/communication-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/integrity-stories.md",
+    "dst": "01_common/behavioral/story-bank/integrity-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/leadership-stories.md",
+    "dst": "01_common/behavioral/story-bank/leadership-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/problem-solving-stories.md",
+    "dst": "01_common/behavioral/story-bank/problem-solving-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/story-bank/teamwork-stories.md",
+    "dst": "01_common/behavioral/story-bank/teamwork-stories.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/strategies/answering-strategies.md",
+    "dst": "01_common/behavioral/strategies/answering-strategies.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/strategies/follow-up-attack-system.md",
+    "dst": "01_common/behavioral/strategies/follow-up-attack-system.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/behavioral/teamwork/teamwork.md",
+    "dst": "01_common/behavioral/teamwork/teamwork.md",
+    "action": "MOVE_BEHAVIORAL"
+  },
+  {
+    "src": "prep/company-profiles/cei-american.md",
+    "dst": "04_company-prep/software-companies/cei-american.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-asc-infratech.md",
+    "dst": "04_company-prep/core-companies/civil-asc-infratech.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-bpcl.md",
+    "dst": "04_company-prep/core-companies/civil-bpcl.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-cross-company-strategy.md",
+    "dst": "04_company-prep/company-directory/civil-cross-company-strategy.md",
+    "action": "MOVE_CO_DIR"
+  },
+  {
+    "src": "prep/company-profiles/civil-dimension-renewables.md",
+    "dst": "04_company-prep/hwre-companies/civil-dimension-renewables.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-gist.md",
+    "dst": "04_company-prep/software-companies/civil-gist.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-godrej-properties.md",
+    "dst": "04_company-prep/core-companies/civil-godrej-properties.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-hilti.md",
+    "dst": "04_company-prep/core-companies/civil-hilti.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-hpcl.md",
+    "dst": "04_company-prep/core-companies/civil-hpcl.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-itc.md",
+    "dst": "04_company-prep/software-companies/civil-itc.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-jsw.md",
+    "dst": "04_company-prep/core-companies/civil-jsw.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-low-tier-all.md",
+    "dst": "04_company-prep/core-companies/civil-low-tier-all.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-lt.md",
+    "dst": "04_company-prep/core-companies/civil-lt.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-petronet-lng.md",
+    "dst": "04_company-prep/core-companies/civil-petronet-lng.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-reliance-industries.md",
+    "dst": "04_company-prep/core-companies/civil-reliance-industries.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-reliance-new-energy.md",
+    "dst": "04_company-prep/core-companies/civil-reliance-new-energy.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-rodic.md",
+    "dst": "04_company-prep/core-companies/civil-rodic.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-smarttrak.md",
+    "dst": "04_company-prep/hwre-companies/civil-smarttrak.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-spectrum.md",
+    "dst": "04_company-prep/core-companies/civil-spectrum.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-thornton-tomasetti.md",
+    "dst": "04_company-prep/core-companies/civil-thornton-tomasetti.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-tutr-hyperloop.md",
+    "dst": "04_company-prep/core-companies/civil-tutr-hyperloop.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/civil-vassarlabs.md",
+    "dst": "04_company-prep/hwre-companies/civil-vassarlabs.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/company-profiles.md",
+    "dst": "04_company-prep/company-directory/company-profiles.md",
+    "action": "MOVE_CO_DIR"
+  },
+  {
+    "src": "prep/company-profiles/darwinbox.md",
+    "dst": "04_company-prep/software-companies/darwinbox.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/deltax.md",
+    "dst": "04_company-prep/software-companies/deltax.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/expeditor.md",
+    "dst": "04_company-prep/software-companies/expeditor.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/hiremi.md",
+    "dst": "04_company-prep/software-companies/hiremi.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/hubstream.md",
+    "dst": "04_company-prep/software-companies/hubstream.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/interview-experiences.md",
+    "dst": "04_company-prep/company-directory/interview-experiences.md",
+    "action": "MOVE_CO_DIR"
+  },
+  {
+    "src": "prep/company-profiles/johnson-controls.md",
+    "dst": "04_company-prep/software-companies/johnson-controls.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/mu-sigma.md",
+    "dst": "04_company-prep/consulting-companies/mu-sigma.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/README.md",
+    "dst": "04_company-prep/company-directory/README.md",
+    "action": "MOVE_CO_DIR"
+  },
+  {
+    "src": "prep/company-profiles/schneider-electric.md",
+    "dst": "04_company-prep/software-companies/schneider-electric.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/tech-mahindra.md",
+    "dst": "04_company-prep/software-companies/tech-mahindra.md",
+    "action": "MOVE_SWE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/README.md",
+    "dst": "04_company-prep/hwre-companies/README.md/",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/022_aecom.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/022_aecom.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/023_mott-macdonald.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/023_mott-macdonald.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/024_jacobs.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/024_jacobs.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/026_stantec.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/026_stantec.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/027_ramboll.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/027_ramboll.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/028_royal-haskoningdhv.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/028_royal-haskoningdhv.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/029_black-and-veatch.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/029_black-and-veatch.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/032_atkinsrealis.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/032_atkinsrealis.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/033_wsp.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/033_wsp.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/034_arcadis.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/034_arcadis.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/038_cdm-smith.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/038_cdm-smith.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/039_tetra-tech.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/039_tetra-tech.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/041_nippon-koei.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/041_nippon-koei.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/072_ghd.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/072_ghd.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/073_cowi.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/073_cowi.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/080_lea-associates.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/080_lea-associates.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/081_mahindra-consulting.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/081_mahindra-consulting.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/082_ipe-global.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/082_ipe-global.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/01_water-consulting/README.md",
+    "dst": "04_company-prep/hwre-companies/01_water-consulting/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/02_water-resources-gis/001_vassarlabs.md",
+    "dst": "04_company-prep/hwre-companies/02_water-resources-gis/001_vassarlabs.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/02_water-resources-gis/036_rmsi.md",
+    "dst": "04_company-prep/hwre-companies/02_water-resources-gis/036_rmsi.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/02_water-resources-gis/077_secon.md",
+    "dst": "04_company-prep/hwre-companies/02_water-resources-gis/077_secon.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/02_water-resources-gis/README.md",
+    "dst": "04_company-prep/hwre-companies/02_water-resources-gis/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/044_lt-water-effluent.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/044_lt-water-effluent.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/045_lt-heavy-civil.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/045_lt-heavy-civil.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/046_tata-projects.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/046_tata-projects.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/047_afcons-infrastructure.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/047_afcons-infrastructure.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/048_hcc.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/048_hcc.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/049_megha-engineering.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/049_megha-engineering.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/050_patel-engineering.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/050_patel-engineering.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/051_kec-international.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/051_kec-international.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/052_kalpataru-projects.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/052_kalpataru-projects.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/053_itd-cementation.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/053_itd-cementation.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/054_shapoorji-pallonji.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/054_shapoorji-pallonji.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/055_ncc.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/055_ncc.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/056_dilip-buildcon.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/056_dilip-buildcon.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/095_pnc-infratech.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/095_pnc-infratech.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/096_welspun-enterprises.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/096_welspun-enterprises.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/103_lt-minerals-metals.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/103_lt-minerals-metals.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/119_bechtel-fluor.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/119_bechtel-fluor.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/03_water-epc-infrastructure/README.md",
+    "dst": "04_company-prep/hwre-companies/03_water-epc-infrastructure/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/017_dimension-renewables.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/017_dimension-renewables.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/063_greenko-group.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/063_greenko-group.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/088_tata-power-hydro.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/088_tata-power-hydro.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/089_adani-green-hydro.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/089_adani-green-hydro.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/090_statkraft.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/090_statkraft.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/091_renew-power.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/091_renew-power.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/092_sembcorp.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/092_sembcorp.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/04_hydropower-pumped-storage/README.md",
+    "dst": "04_company-prep/hwre-companies/04_hydropower-pumped-storage/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/007_caterpillar.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/007_caterpillar.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/064_andritz-hydro.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/064_andritz-hydro.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/065_voith-hydro.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/065_voith-hydro.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/066_ge-vernova-hydro.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/066_ge-vernova-hydro.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/067_kirloskar-brothers.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/067_kirloskar-brothers.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/068_ksb-pumps.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/068_ksb-pumps.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/069_flowserve-sulzer.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/069_flowserve-sulzer.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/107_triveni-engineering.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/107_triveni-engineering.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/05_hydraulic-machinery-pumps/README.md",
+    "dst": "04_company-prep/hwre-companies/05_hydraulic-machinery-pumps/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/002_tutr-hyperloop.md",
+    "dst": "02_core/cfd/simulation-engineering/002_tutr-hyperloop.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/013_sedemac.md",
+    "dst": "02_core/cfd/simulation-engineering/013_sedemac.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/016_mathworks.md",
+    "dst": "02_core/cfd/simulation-engineering/016_mathworks.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/035_dhi-water-environment.md",
+    "dst": "02_core/cfd/simulation-engineering/035_dhi-water-environment.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/037_bentley-systems.md",
+    "dst": "02_core/cfd/simulation-engineering/037_bentley-systems.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/070_lt-technology-services.md",
+    "dst": "02_core/cfd/simulation-engineering/070_lt-technology-services.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/108_siemens-digital-starccm.md",
+    "dst": "02_core/cfd/simulation-engineering/108_siemens-digital-starccm.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/109_altair-engineering.md",
+    "dst": "02_core/cfd/simulation-engineering/109_altair-engineering.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/110_dassault-simulia.md",
+    "dst": "02_core/cfd/simulation-engineering/110_dassault-simulia.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/111_quest-global.md",
+    "dst": "02_core/cfd/simulation-engineering/111_quest-global.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/113_tata-technologies.md",
+    "dst": "02_core/cfd/simulation-engineering/113_tata-technologies.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/114_tata-elxsi.md",
+    "dst": "02_core/cfd/simulation-engineering/114_tata-elxsi.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/115_zeus-numerix.md",
+    "dst": "02_core/cfd/simulation-engineering/115_zeus-numerix.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/116_tridiagonal-solutions.md",
+    "dst": "02_core/cfd/simulation-engineering/116_tridiagonal-solutions.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/117_detroit-engineered-products.md",
+    "dst": "02_core/cfd/simulation-engineering/117_detroit-engineered-products.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/118_assystem.md",
+    "dst": "02_core/cfd/simulation-engineering/118_assystem.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/120_buro-happold-cundall.md",
+    "dst": "02_core/cfd/simulation-engineering/120_buro-happold-cundall.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/06_cfd-simulation-engineering/README.md",
+    "dst": "02_core/cfd/simulation-engineering/README.md",
+    "action": "MOVE_CFD_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/003_thornton-tomasetti.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/003_thornton-tomasetti.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/004_spectrum-techno.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/004_spectrum-techno.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/008_hilti.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/008_hilti.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/009_godrej-properties.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/009_godrej-properties.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/020_smarttrak-ai.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/020_smarttrak-ai.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/043_arup.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/043_arup.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/075_stup-consultants.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/075_stup-consultants.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/07_structural-civil-consulting/README.md",
+    "dst": "04_company-prep/core-companies/07_structural-civil-consulting/README.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/005_rodic-consultants.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/005_rodic-consultants.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/058_va-tech-wabag.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/058_va-tech-wabag.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/059_ion-exchange.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/059_ion-exchange.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/060_thermax-water.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/060_thermax-water.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/061_suez.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/061_suez.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/062_veolia.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/062_veolia.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/104_aquatech-systems.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/104_aquatech-systems.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/08_water-treatment-environment/README.md",
+    "dst": "04_company-prep/hwre-companies/08_water-treatment-environment/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/006_slb-schlumberger.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/006_slb-schlumberger.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/011_chevron.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/011_chevron.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/012_exxonmobil.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/012_exxonmobil.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/014_tata-steel.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/014_tata-steel.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/015_reliance-new-energy.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/015_reliance-new-energy.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/105_praj-industries.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/105_praj-industries.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/112_cyient.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/112_cyient.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/09_energy-fluids-rnd/README.md",
+    "dst": "04_company-prep/hwre-companies/09_energy-fluids-rnd/README.md",
+    "action": "MOVE_HWRE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/057_lt-transportation-infra.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/057_lt-transportation-infra.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/093_azure-power.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/093_azure-power.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/094_ayana-renewable.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/094_ayana-renewable.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/097_j-kumar-infra.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/097_j-kumar-infra.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/098_jaiprakash-associates.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/098_jaiprakash-associates.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/099_gammon-engineers.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/099_gammon-engineers.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/100_ashoka-buildcon.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/100_ashoka-buildcon.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/101_gr-infraprojects.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/101_gr-infraprojects.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/102_hg-infra.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/102_hg-infra.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/106_doshion-wog.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/106_doshion-wog.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/10_infrastructure-highway-epc/README.md",
+    "dst": "04_company-prep/core-companies/10_infrastructure-highway-epc/README.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/010_kbr.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/010_kbr.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/025_tata-consulting-engineers.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/025_tata-consulting-engineers.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/030_tractebel-engie.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/030_tractebel-engie.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/031_smec-surbana-jurong.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/031_smec-surbana-jurong.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/040_fichtner.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/040_fichtner.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/042_egis.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/042_egis.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/074_systra.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/074_systra.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/076_aarvee-associates.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/076_aarvee-associates.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/078_voyants-solutions.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/078_voyants-solutions.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/079_consulting-engineers-group.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/079_consulting-engineers-group.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/11_multidisciplinary-consulting/README.md",
+    "dst": "04_company-prep/consulting-companies/11_multidisciplinary-consulting/README.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/071_verisk-moodys-rms.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/071_verisk-moodys-rms.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/083_kadam-environmental.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/083_kadam-environmental.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/084_deloitte-infrastructure.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/084_deloitte-infrastructure.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/085_pwc-infrastructure.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/085_pwc-infrastructure.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/086_ey-infrastructure.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/086_ey-infrastructure.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/087_kpmg-infrastructure.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/087_kpmg-infrastructure.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/121_swiss-re-munich-re.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/121_swiss-re-munich-re.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/12_risk-analytics-advisory/README.md",
+    "dst": "04_company-prep/consulting-companies/12_risk-analytics-advisory/README.md",
+    "action": "MOVE_CONSULT_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/13_materials-applied-rnd/018_saint-gobain.md",
+    "dst": "04_company-prep/core-companies/13_materials-applied-rnd/018_saint-gobain.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/13_materials-applied-rnd/019_isgec-heavy.md",
+    "dst": "04_company-prep/core-companies/13_materials-applied-rnd/019_isgec-heavy.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/13_materials-applied-rnd/021_aditya-birla-stc.md",
+    "dst": "04_company-prep/core-companies/13_materials-applied-rnd/021_aditya-birla-stc.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/company-profiles/corporate-targets/13_materials-applied-rnd/README.md",
+    "dst": "04_company-prep/core-companies/13_materials-applied-rnd/README.md",
+    "action": "MOVE_CORE_CO"
+  },
+  {
+    "src": "prep/interview/interview-day-survival.md",
+    "dst": "01_common/interview-fundamentals/interview-day-survival.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/quick-revision-system.md",
+    "dst": "01_common/interview-fundamentals/quick-revision-system.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/README.md",
+    "dst": "01_common/interview-fundamentals/README.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/software-interview-guide.md",
+    "dst": "01_common/interview-fundamentals/software-interview-guide.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/hr/hr-interview-guide.md",
+    "dst": "01_common/interview-fundamentals/hr/hr-interview-guide.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/mock-tests/mock-interview-database.md",
+    "dst": "01_common/interview-fundamentals/mock-tests/mock-interview-database.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/mock-tests/mock-interview-questions.md",
+    "dst": "01_common/interview-fundamentals/mock-tests/mock-interview-questions.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/technical/project-defense-guide.md",
+    "dst": "01_common/interview-fundamentals/technical/project-defense-guide.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/technical/project-discussion.md",
+    "dst": "01_common/interview-fundamentals/technical/project-discussion.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/technical/technical-interview-bank.md",
+    "dst": "01_common/interview-fundamentals/technical/technical-interview-bank.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/interview/technical/thesis-defense-guide.md",
+    "dst": "01_common/interview-fundamentals/technical/thesis-defense-guide.md",
+    "action": "MOVE_INTERVIEW_FUND"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-bim.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-bim.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-biz-ops.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-biz-ops.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-business-analyst.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-business-analyst.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-civil-general.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-civil-general.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-construction.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-construction.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-consulting.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-consulting.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-data-analyst.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-data-analyst.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-environmental.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-environmental.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-finance.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-finance.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-geotechnical.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-geotechnical.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-gis-survey.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-gis-survey.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-hydraulics-cfd.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-hydraulics-cfd.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-hydrologist.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-hydrologist.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-infrastructure-pm.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-infrastructure-pm.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-operations.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-operations.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-product-analyst.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-product-analyst.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-product-manager.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-product-manager.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-program-management.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-program-management.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-risk.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-risk.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-strategy.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-strategy.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-structural.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-structural.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-supply-chain.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-supply-chain.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-technology.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-technology.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-transportation.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-transportation.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/mock-test-water-resources.md",
+    "dst": "05_interview/mock-interviews/mock-tests/mock-test-water-resources.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/mock-tests/README.md",
+    "dst": "05_interview/mock-interviews/mock-tests/README.md",
+    "action": "MOVE_MOCKS"
+  },
+  {
+    "src": "prep/RESUME/README.md",
+    "dst": "01_common/resume/README.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "prep/RESUME/RESUME_AUDIT.md",
+    "dst": "01_common/resume/RESUME_AUDIT.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "prep/RESUME/RESUME_DEFENSE.md",
+    "dst": "01_common/resume/RESUME_DEFENSE.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "prep/technical/README.md",
+    "dst": "05_interview/technical/README.md",
+    "action": "MOVE_TECH_INT"
+  },
+  {
+    "src": "prep/templates/interview-answer-template.md",
+    "dst": "01_common/interview-fundamentals/interview-answer-template.md",
+    "action": "MOVE_INT_TPL"
+  },
+  {
+    "src": "prep/templates/README.md",
+    "dst": "01_common/professional-skills/README.md",
+    "action": "MOVE_SKILLS_TPL"
+  },
+  {
+    "src": "prep/templates/resume-template.md",
+    "dst": "01_common/resume/resume-template.md",
+    "action": "MOVE_RESUME_TPL"
+  },
+  {
+    "src": "prep/templates/role-study-plan-template.md",
+    "dst": "01_common/professional-skills/role-study-plan-template.md",
+    "action": "MOVE_SKILLS_TPL"
+  },
+  {
+    "src": "prep/templates/self-intro-template.md",
+    "dst": "01_common/interview-fundamentals/self-intro-template.md",
+    "action": "MOVE_INT_TPL"
+  },
+  {
+    "src": "prep/templates/study-plan-template.md",
+    "dst": "01_common/professional-skills/study-plan-template.md",
+    "action": "MOVE_SKILLS_TPL"
+  },
+  {
+    "src": "prep/_SYSTEM/PREP_COMPLETENESS_MATRIX.md",
+    "dst": "_SYSTEM/legacy/prep/PREP_COMPLETENESS_MATRIX.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "prep/_SYSTEM/PREP_FOLDER_QUEUE.md",
+    "dst": "_SYSTEM/legacy/prep/PREP_FOLDER_QUEUE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "prep/_SYSTEM/PREP_PROCESS_STATE.md",
+    "dst": "_SYSTEM/legacy/prep/PREP_PROCESS_STATE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "prep/_SYSTEM/PREP_REQUIRED_FILES.md",
+    "dst": "_SYSTEM/legacy/prep/PREP_REQUIRED_FILES.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "questions/README.md",
+    "dst": "05_interview/technical/questions-bank-overview.md",
+    "action": "MOVE_TECH_INT"
+  },
+  {
+    "src": "resources/book-list.md",
+    "dst": "07_resources/books/book-list.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/gis-tools.md",
+    "dst": "07_resources/reference-material/gis-tools.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/links.md",
+    "dst": "07_resources/websites/links.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/paper-list.md",
+    "dst": "07_resources/reference-material/paper-list.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/placement-data.md",
+    "dst": "07_resources/websites/placement-data.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/README.md",
+    "dst": "07_resources/README.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "resources/source-registry.md",
+    "dst": "07_resources/reference-material/source-registry.md",
+    "action": "MOVE_RES"
+  },
+  {
+    "src": "scripts/check_deepdive_links.py",
+    "dst": "scripts/check_deepdive_links.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/config.py",
+    "dst": "scripts/config.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/count_metrics.py",
+    "dst": "scripts/count_metrics.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/quality_check.py",
+    "dst": "scripts/quality_check.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/validate_docs_links.py",
+    "dst": "scripts/validate_docs_links.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/validate_index.py",
+    "dst": "scripts/validate_index.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/validate_prep_links.py",
+    "dst": "scripts/validate_prep_links.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/verify_page.py",
+    "dst": "scripts/verify_page.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/analyze_gate_opedia.py",
+    "dst": "scripts/extraction/analyze_gate_opedia.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/corrected_gate_analysis.py",
+    "dst": "scripts/extraction/corrected_gate_analysis.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_civil_companies.py",
+    "dst": "scripts/extraction/extract_civil_companies.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_gate_structure.py",
+    "dst": "scripts/extraction/extract_gate_structure.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_mechanics.py",
+    "dst": "scripts/extraction/extract_mechanics.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_rcc.py",
+    "dst": "scripts/extraction/extract_rcc.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_steel.py",
+    "dst": "scripts/extraction/extract_steel.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/extract_struct_analysis.py",
+    "dst": "scripts/extraction/extract_struct_analysis.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/find_subject_headers.py",
+    "dst": "scripts/extraction/find_subject_headers.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/extraction/full_gate_analysis.py",
+    "dst": "scripts/extraction/full_gate_analysis.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/migration/restructure_monorepo.py",
+    "dst": "scripts/migration/restructure_monorepo.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/migration/update_links.py",
+    "dst": "scripts/migration/update_links.py",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/civil_companies_data.json",
+    "dst": "scripts/_artifacts/civil_companies_data.json",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/civil_companies_detail.txt",
+    "dst": "scripts/_artifacts/civil_companies_detail.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/gate_preview.txt",
+    "dst": "scripts/_artifacts/gate_preview.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/mechanics_preview.txt",
+    "dst": "scripts/_artifacts/mechanics_preview.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/rcc_preview.txt",
+    "dst": "scripts/_artifacts/rcc_preview.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/steel_preview.txt",
+    "dst": "scripts/_artifacts/steel_preview.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/struct_analysis_preview.txt",
+    "dst": "scripts/_artifacts/struct_analysis_preview.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/subject_headers.txt",
+    "dst": "scripts/_artifacts/subject_headers.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/verify_page_report.txt",
+    "dst": "scripts/_artifacts/verify_page_report.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "scripts/_artifacts/verify_rcc_report.txt",
+    "dst": "scripts/_artifacts/verify_rcc_report.txt",
+    "action": "KEEP_SCRIPTS"
+  },
+  {
+    "src": "software-and-tech/anti-overload.md",
+    "dst": "06_revision/anti-overload.md",
+    "action": "MOVE_REVISION"
+  },
+  {
+    "src": "software-and-tech/branch-roadmaps.md",
+    "dst": "07_resources/reference-material/branch-roadmaps.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/learning-roadmaps.md",
+    "dst": "07_resources/reference-material/learning-roadmaps.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/mtech-advantage.md",
+    "dst": "01_common/resume/mtech-advantage.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "software-and-tech/priority-system.md",
+    "dst": "07_resources/reference-material/priority-system.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/project-first-learning.md",
+    "dst": "08_projects/project-first-learning.md",
+    "action": "MOVE_PROJECTS"
+  },
+  {
+    "src": "software-and-tech/README.md",
+    "dst": "archive/legacy_software/README.md",
+    "action": "ARCHIVE_SOFT"
+  },
+  {
+    "src": "software-and-tech/resume-positioning.md",
+    "dst": "01_common/resume/resume-positioning.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "software-and-tech/role-roadmaps.md",
+    "dst": "07_resources/reference-material/role-roadmaps.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/software-interview-questions.md",
+    "dst": "05_interview/technical/software-interview-questions.md",
+    "action": "MOVE_TECH_INT"
+  },
+  {
+    "src": "software-and-tech/software-template.md",
+    "dst": "07_resources/reference-material/software-template.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_COMPANY_LINKAGE.md",
+    "dst": "04_company-prep/role-matrix/SOFTWARE_COMPANY_LINKAGE.md",
+    "action": "MOVE_ROLE_MATRIX"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_COMPLETENESS_MATRIX.md",
+    "dst": "archive/legacy_software/SOFTWARE_COMPLETENESS_MATRIX.md",
+    "action": "ARCHIVE_SOFT"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_RESUME_STRATEGY.md",
+    "dst": "01_common/resume/SOFTWARE_RESUME_STRATEGY.md",
+    "action": "MOVE_RESUME"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_ROADMAP.md",
+    "dst": "07_resources/reference-material/SOFTWARE_ROADMAP.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_ROLE_MATRIX.md",
+    "dst": "04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md",
+    "action": "MOVE_ROLE_MATRIX"
+  },
+  {
+    "src": "software-and-tech/SOFTWARE_THEORY_LINKAGE.md",
+    "dst": "04_company-prep/role-matrix/SOFTWARE_THEORY_LINKAGE.md",
+    "action": "MOVE_ROLE_MATRIX"
+  },
+  {
+    "src": "software-and-tech/TOOLS_INDEX.md",
+    "dst": "07_resources/reference-material/TOOLS_INDEX.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/automation/automation.md",
+    "dst": "03_non_core/software-engineering/automation/automation.md",
+    "action": "MOVE_SWE_AUTO"
+  },
+  {
+    "src": "software-and-tech/bim/bim-rapid-revision.md",
+    "dst": "02_core/civil-engineering/infrastructure/bim/bim-rapid-revision.md",
+    "action": "MOVE_BIM"
+  },
+  {
+    "src": "software-and-tech/bim/bim-tech.md",
+    "dst": "02_core/civil-engineering/infrastructure/bim/bim-tech.md",
+    "action": "MOVE_BIM"
+  },
+  {
+    "src": "software-and-tech/bim/role-study-plan.md",
+    "dst": "02_core/civil-engineering/infrastructure/bim/role-study-plan.md",
+    "action": "MOVE_BIM"
+  },
+  {
+    "src": "software-and-tech/cfd/cfd-tech.md",
+    "dst": "02_core/cfd/cfd-tech.md",
+    "action": "MOVE_CFD"
+  },
+  {
+    "src": "software-and-tech/comparisons/software-comparison.md",
+    "dst": "07_resources/reference-material/software-comparison.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/computing/cloud-hpc.md",
+    "dst": "03_non_core/software-engineering/computing/cloud-hpc.md",
+    "action": "MOVE_SWE_COMP"
+  },
+  {
+    "src": "software-and-tech/construction/construction-tech.md",
+    "dst": "02_core/civil-engineering/infrastructure/construction/construction-tech.md",
+    "action": "MOVE_CONSTR"
+  },
+  {
+    "src": "software-and-tech/consulting/consulting-tech.md",
+    "dst": "03_non_core/consulting/consulting-tech.md",
+    "action": "MOVE_CONSULT_TECH"
+  },
+  {
+    "src": "software-and-tech/data/data-analytics-stack.md",
+    "dst": "03_non_core/data-science/data-analytics-stack.md",
+    "action": "MOVE_DATA_SCIENCE"
+  },
+  {
+    "src": "software-and-tech/deep-dives/epanet-walkthrough.md",
+    "dst": "02_core/hwre/software-deep-dives/epanet-walkthrough.md",
+    "action": "MOVE_HWRE_DEEP"
+  },
+  {
+    "src": "software-and-tech/deep-dives/geostudio-slopew-tutorial.md",
+    "dst": "02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md",
+    "action": "MOVE_CIVIL_DEEP"
+  },
+  {
+    "src": "software-and-tech/deep-dives/hec-hms-tutorial.md",
+    "dst": "02_core/hwre/software-deep-dives/hec-hms-tutorial.md",
+    "action": "MOVE_HWRE_DEEP"
+  },
+  {
+    "src": "software-and-tech/deep-dives/hec-ras-walkthrough.md",
+    "dst": "02_core/hwre/software-deep-dives/hec-ras-walkthrough.md",
+    "action": "MOVE_HWRE_DEEP"
+  },
+  {
+    "src": "software-and-tech/deep-dives/openfoam-case-study.md",
+    "dst": "02_core/cfd/openfoam-case-study.md",
+    "action": "MOVE_CFD"
+  },
+  {
+    "src": "software-and-tech/deep-dives/plaxis-2d-tutorial.md",
+    "dst": "02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md",
+    "action": "MOVE_CIVIL_DEEP"
+  },
+  {
+    "src": "software-and-tech/deep-dives/README.md",
+    "dst": "07_resources/reference-material/README.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/deep-dives/swmm-guide.md",
+    "dst": "02_core/hwre/software-deep-dives/swmm-guide.md",
+    "action": "MOVE_HWRE_DEEP"
+  },
+  {
+    "src": "software-and-tech/developer-tools/linux-dev-tools.md",
+    "dst": "03_non_core/software-engineering/developer-tools/linux-dev-tools.md",
+    "action": "MOVE_SWE_DEV"
+  },
+  {
+    "src": "software-and-tech/environmental/environmental-tech.md",
+    "dst": "02_core/civil-engineering/environmental/environmental-tech.md",
+    "action": "MOVE_ENV"
+  },
+  {
+    "src": "software-and-tech/geotechnical/geotechnical-tech.md",
+    "dst": "02_core/civil-engineering/geotechnical/geotechnical-tech.md",
+    "action": "MOVE_GEO"
+  },
+  {
+    "src": "software-and-tech/gis/gis-tech.md",
+    "dst": "02_core/civil-engineering/geoinformatics/gis-tech.md",
+    "action": "MOVE_GIS"
+  },
+  {
+    "src": "software-and-tech/hwre/hwre-tech-roadmap.md",
+    "dst": "02_core/hwre/hwre-tech-roadmap.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "software-and-tech/hydrology/hydrology-tech.md",
+    "dst": "02_core/hwre/hydrology-tech.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "software-and-tech/operations/operations-tech.md",
+    "dst": "03_non_core/operations/operations-tech.md",
+    "action": "MOVE_OPS_TECH"
+  },
+  {
+    "src": "software-and-tech/practice/README.md",
+    "dst": "03_non_core/software-engineering/practice-README.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "software-and-tech/product/product-tech.md",
+    "dst": "03_non_core/product/product-tech.md",
+    "action": "MOVE_PROD_TECH"
+  },
+  {
+    "src": "software-and-tech/programming/c-cpp.md",
+    "dst": "03_non_core/software-engineering/programming/c-cpp.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/programming/git.md",
+    "dst": "03_non_core/software-engineering/programming/git.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/programming/matlab.md",
+    "dst": "03_non_core/software-engineering/programming/matlab.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/programming/python.md",
+    "dst": "03_non_core/software-engineering/programming/python.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/programming/README.md",
+    "dst": "03_non_core/software-engineering/programming/README.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/programming/sql.md",
+    "dst": "03_non_core/software-engineering/programming/sql.md",
+    "action": "MOVE_SWE_PROG"
+  },
+  {
+    "src": "software-and-tech/research/research-tech.md",
+    "dst": "07_resources/reference-material/research-tech.md",
+    "action": "MOVE_REF"
+  },
+  {
+    "src": "software-and-tech/sediment/sediment-tech.md",
+    "dst": "02_core/hwre/sediment-tech.md",
+    "action": "MOVE_HWRE"
+  },
+  {
+    "src": "software-and-tech/structural/structural-tech.md",
+    "dst": "02_core/civil-engineering/structures/structural-tech.md",
+    "action": "MOVE_STRUCT"
+  },
+  {
+    "src": "software-and-tech/technology-careers/tech-careers.md",
+    "dst": "03_non_core/software-engineering/tech-careers.md",
+    "action": "MOVE_SWE_CAREERS"
+  },
+  {
+    "src": "software-and-tech/tests/README.md",
+    "dst": "03_non_core/software-engineering/tests-README.md",
+    "action": "MOVE_SWE"
+  },
+  {
+    "src": "software-and-tech/tools/AutoCAD.md",
+    "dst": "02_core/civil-engineering/tools/AutoCAD.md",
+    "action": "MOVE_CIVIL_TOOLS"
+  },
+  {
+    "src": "software-and-tech/tools/ETABS.md",
+    "dst": "02_core/civil-engineering/tools/ETABS.md",
+    "action": "MOVE_CIVIL_TOOLS"
+  },
+  {
+    "src": "software-and-tech/tools/Excel.md",
+    "dst": "01_common/placement-math/Excel.md",
+    "action": "MOVE_MATH_EXCEL"
+  },
+  {
+    "src": "software-and-tech/tools/Primavera.md",
+    "dst": "01_common/professional-skills/Primavera.md",
+    "action": "MOVE_PROF_SKILLS"
+  },
+  {
+    "src": "software-and-tech/tools/QGIS.md",
+    "dst": "02_core/civil-engineering/geoinformatics/QGIS.md",
+    "action": "MOVE_GIS"
+  },
+  {
+    "src": "software-and-tech/tools/Revit.md",
+    "dst": "02_core/civil-engineering/tools/Revit.md",
+    "action": "MOVE_CIVIL_TOOLS"
+  },
+  {
+    "src": "software-and-tech/tools/SAP2000.md",
+    "dst": "02_core/civil-engineering/tools/SAP2000.md",
+    "action": "MOVE_CIVIL_TOOLS"
+  },
+  {
+    "src": "software-and-tech/tools/STAAD.md",
+    "dst": "02_core/civil-engineering/tools/STAAD.md",
+    "action": "MOVE_CIVIL_TOOLS"
+  },
+  {
+    "src": "software-and-tech/transportation/transportation-tech.md",
+    "dst": "02_core/civil-engineering/transportation/transportation-tech.md",
+    "action": "MOVE_TRANS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/FOLDER_PROCESS_STATE.md",
+    "dst": "_SYSTEM/legacy/software/FOLDER_PROCESS_STATE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/FOLDER_QUEUE.md",
+    "dst": "_SYSTEM/legacy/software/FOLDER_QUEUE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/SOFTWARE_AUDIT_STATE.md",
+    "dst": "_SYSTEM/legacy/software/SOFTWARE_AUDIT_STATE.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/SOFTWARE_CONTENT_REGISTRY.md",
+    "dst": "_SYSTEM/legacy/software/SOFTWARE_CONTENT_REGISTRY.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/SOFTWARE_REPO_MAP.md",
+    "dst": "_SYSTEM/legacy/software/SOFTWARE_REPO_MAP.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "software-and-tech/_SYSTEM/SOFTWARE_REQUIRED_FILES.md",
+    "dst": "_SYSTEM/legacy/software/SOFTWARE_REQUIRED_FILES.md",
+    "action": "MOVE_SYS"
+  },
+  {
+    "src": "_SYSTEM/analyze_content.py",
+    "dst": "_SYSTEM/analyze_content.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/APTITUDE_AUDIT.md",
+    "dst": "_SYSTEM/APTITUDE_AUDIT.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md",
+    "dst": "_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/APTITUDE_STATE.md",
+    "dst": "_SYSTEM/APTITUDE_STATE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/AUDIT_STATE.md",
+    "dst": "_SYSTEM/AUDIT_STATE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/BASELINE.md",
+    "dst": "_SYSTEM/BASELINE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/build_migration_plan.py",
+    "dst": "_SYSTEM/build_migration_plan.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/build_repo_map.py",
+    "dst": "_SYSTEM/build_repo_map.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/CONSULTING_STATE.md",
+    "dst": "_SYSTEM/CONSULTING_STATE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/CONTENT_MATRIX.md",
+    "dst": "_SYSTEM/CONTENT_MATRIX.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/CONTENT_REGISTRY.md",
+    "dst": "_SYSTEM/CONTENT_REGISTRY.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/count_roles.py",
+    "dst": "_SYSTEM/count_roles.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/execute_full_migration.py",
+    "dst": "_SYSTEM/execute_full_migration.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/FINAL_AUDIT_REPORT.md",
+    "dst": "_SYSTEM/FINAL_AUDIT_REPORT.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/FINAL_REQUIRED_FILE_LIST.md",
+    "dst": "_SYSTEM/FINAL_REQUIRED_FILE_LIST.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/fix_software_links.py",
+    "dst": "_SYSTEM/fix_software_links.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/MASTER_COMPLETENESS.md",
+    "dst": "_SYSTEM/MASTER_COMPLETENESS.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/migrate_repo.py",
+    "dst": "_SYSTEM/migrate_repo.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/NAMING_AUDIT_STATE.md",
+    "dst": "_SYSTEM/NAMING_AUDIT_STATE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/REMEDIATION_QUEUE.md",
+    "dst": "_SYSTEM/REMEDIATION_QUEUE.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/RENAME_PLAN.md",
+    "dst": "_SYSTEM/RENAME_PLAN.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/REPOSITORY_NAMING_AUDIT.md",
+    "dst": "_SYSTEM/REPOSITORY_NAMING_AUDIT.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/REPO_MAP.md",
+    "dst": "_SYSTEM/REPO_MAP.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/REQUIRED_FILE_MATRIX.md",
+    "dst": "_SYSTEM/REQUIRED_FILE_MATRIX.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/ROLE_CONTENT_AUDIT.md",
+    "dst": "_SYSTEM/ROLE_CONTENT_AUDIT.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/ROLE_INVENTORY.md",
+    "dst": "_SYSTEM/ROLE_INVENTORY.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/ROLE_READINESS_MATRIX.md",
+    "dst": "_SYSTEM/ROLE_READINESS_MATRIX.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/role_wordcount.txt",
+    "dst": "_SYSTEM/role_wordcount.txt",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/scan_software.py",
+    "dst": "_SYSTEM/scan_software.py",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/SOFTWARE_FINAL_REPORT.md",
+    "dst": "_SYSTEM/SOFTWARE_FINAL_REPORT.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/SOFTWARE_REVIEW.md",
+    "dst": "_SYSTEM/SOFTWARE_REVIEW.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/SOFTWARE_SCAN.txt",
+    "dst": "_SYSTEM/SOFTWARE_SCAN.txt",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/SOFTWARE_VERIFY.txt",
+    "dst": "_SYSTEM/SOFTWARE_VERIFY.txt",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/TERMINOLOGY_STANDARD.md",
+    "dst": "_SYSTEM/TERMINOLOGY_STANDARD.md",
+    "action": "KEEP_SYSTEM"
+  },
+  {
+    "src": "_SYSTEM/verify_software.py",
+    "dst": "_SYSTEM/verify_software.py",
+    "action": "KEEP_SYSTEM"
+  }
+]

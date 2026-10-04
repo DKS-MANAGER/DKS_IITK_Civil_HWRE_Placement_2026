@@ -30,7 +30,7 @@ pip install pre-commit
 pre-commit install
 ```
 
-This ensures `index/master_index.md` references are validated and `index/file_inventory.csv` is regenerated on every commit.
+This ensures `archive/legacy_indexes/master_index.md` references are validated and `archive/legacy_indexes/file_inventory.csv` is regenerated on every commit.
 
 ## 5. Community Files
 

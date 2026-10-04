@@ -55,8 +55,8 @@ What this role does, typical employers, and career trajectory.
 
 ## Practice Resources
 
-- [Resource 1](../../resources/book-list.md)
-- [Resource 2](../../resources/links.md)
+- [Resource 1](../../07_resources/books/book-list.md)
+- [Resource 2](../../07_resources/websites/links.md)
 
 ## Resume Positioning
 
@@ -83,7 +83,7 @@ How to leverage your Civil engineering background:
 
 ## Related Topics
 
-- [Related role](../../non-core/README.md)
+- [Related role](../../03_non_core/README.md)
 
 ## Quick Revision
 
