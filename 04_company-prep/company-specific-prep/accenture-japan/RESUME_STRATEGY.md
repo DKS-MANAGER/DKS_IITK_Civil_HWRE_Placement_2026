@@ -72,5 +72,6 @@ Do **NOT** invent consulting experience. Instead, translate technical project bu
 ## 5. Canonical Repository Resume References
 
 For standard resume templates and formatting:
-* Link: [`01_common/resume/resume-framework.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/resume/resume-framework.md)
+* Link: [`01_common/resume/resume-template.md`](../../../01_common/resume/resume-template.md)
 * Link: [`01_common/interview-fundamentals/self-intro-template.md`](../../../01_common/interview-fundamentals/self-intro-template.md)
+
