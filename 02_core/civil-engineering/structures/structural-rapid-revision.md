@@ -112,7 +112,7 @@
 | Structural Analysis | [../structural-analysis/structural-analysis.md](../structural-analysis/structural-analysis.md) |
 | RCC Design | [../rcc/rcc-design.md](../rcc/rcc-design.md) |
 | Steel Design | [../steel/steel-design.md](../steel/steel-design.md) |
-| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
+| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../../05_interview/technical/technical-interview-bank.md) |
 
 ---
 

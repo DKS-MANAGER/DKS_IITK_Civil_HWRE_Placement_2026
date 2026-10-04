@@ -287,9 +287,9 @@ A: The single metric that best captures the core value your product delivers to 
 → [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Data Analyst Study Plan](../data-analyst/08_role-study-plan.md) — Deeper SQL/stats
+→ [Data Analyst Study Plan](../../analytics/data-analyst/08_role-study-plan.md) — Deeper SQL/stats
 → [Product Management](../product-management/08_role-study-plan.md) — PM context
-→ [Consulting Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case prep
+→ [Consulting Case Frameworks](../../../05_interview/case-interview/case-interviews/framework-library.md) — Case prep
 
 ---
 

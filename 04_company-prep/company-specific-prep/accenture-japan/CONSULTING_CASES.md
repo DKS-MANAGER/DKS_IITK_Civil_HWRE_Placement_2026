@@ -105,5 +105,5 @@ Unlike traditional management consulting cases (which focus purely on financial 
 
 For classic Business Strategy cases (Profitability, Market Sizing, Operations), leverage our canonical consulting case guide:
 
-* Link: [`03_non_02_02_core/consulting/06_case-practice.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/06_case-practice.md)
-* Link: [`01_common/group-discussion/CASE_GD.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/group-discussion/CASE_GD.md)
+* Link: [`03_non_core/consulting/06_case-practice.md`](../../../03_non_core/consulting/06_case-practice.md)
+* Link: [`01_common/group-discussion/CASE_GD.md`](../../../01_common/group-discussion/CASE_GD.md)

@@ -217,7 +217,7 @@
 
 - [`../iitk-pg-questions.md`](iitk-pg-questions.md) — IITK-specific questions
 - [`../question-master-database.md`](question-master-database.md) — Questions 158-172
-- [`../resume-defense-system.md`](resume-defense-system.md) — Defense your resume
+- [`../resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) — Defense your resume
 - [`../company-fit-analysis.md`](company-fit-analysis.md) — Company-specific preparation
 - [`../story-bank/`](story-bank/) — Stories for these questions
 

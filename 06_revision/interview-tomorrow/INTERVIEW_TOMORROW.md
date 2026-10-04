@@ -36,9 +36,9 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Read your company profile | [Company Profiles](company-profiles/) |
-| Review cross-company strategy | [Cross-Company Strategy](company-profiles/civil-cross-company-strategy.md) |
-| Review interview experiences | [Interview Experiences](company-profiles/interview-experiences.md) |
+| Read your company profile | [Company Profiles](../../04_company-prep/README.md) |
+| Review cross-company strategy | [Cross-Company Strategy](../../04_company-prep/company-directory/civil-cross-company-strategy.md) |
+| Review interview experiences | [Interview Experiences](../../04_company-prep/company-directory/interview-experiences.md) |
 
 **Know:** What the company does · recent projects · why you fit · the role.
 
@@ -50,8 +50,8 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Map role requirements | [Role Matrix](../01_common/aptitude/ROLE_MATRIX.md) |
-| Review role-specific mock test | [Mock Tests](mock-tests/) |
+| Map role requirements | [Role Matrix](../../01_common/aptitude/ROLE_MATRIX.md) |
+| Review role-specific mock test | [Mock Tests](../01_common/aptitude/mocks/) |
 
 **Know:** Key responsibilities · required skills · how your background maps to it.
 
@@ -78,7 +78,7 @@ RAPID REVISION
 | CFD | CFD, Turbulence, Numerical Methods |
 | Non-Core | Data, Analytics, Product, Consulting |
 
-**Resource:** [Core Hub](../02_02_02_02_core/README.md) · [Non-Core Hub](../03_non_core/README.md)
+**Resource:** [Core Hub](../../README.md) · [Non-Core Hub](../../03_non_core/README.md)
 
 ---
 
@@ -88,9 +88,9 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Answer 20 rapid-fire questions aloud | [Technical Interview Bank](interview/technical/technical-interview-bank.md) |
-| Review 12 key formulas | [Interview Day Survival](interview/interview-day-survival.md) |
-| Review software Q&A | [Software Interview Guide](interview/software-interview-guide.md) |
+| Answer 20 rapid-fire questions aloud | [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md) |
+| Review 12 key formulas | [Interview Day Survival](../../01_common/interview-fundamentals/interview-day-survival.md) |
+| Review software Q&A | [Software Interview Guide](../../05_interview/technical/non-core/software-interview-guide.md) |
 
 ---
 
@@ -100,8 +100,8 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Prepare 30-sec + 2-min project explanations | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| Prepare for "what was innovative?" and "limitations?" | [Project Defense Guide](interview/technical/project-defense-guide.md) |
+| Prepare 30-sec + 2-min project explanations | [PROJECT_DEFENCE.md](../../05_interview/project-defense/PROJECT_DEFENCE.md) |
+| Prepare for "what was innovative?" and "limitations?" | [Project Defense Guide](../../05_interview/project-defense/project-defense-guide.md) |
 
 ---
 
@@ -111,10 +111,10 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Rehearse self-intro (3 versions) | [Self Intro System](behavioral/self_intro/self-introduction-system.md) |
-| Review 5 core STAR stories | [Story Bank](behavioral/story-bank/) |
-| Review HR questions | [HR Questions Bank](behavioral/hr_questions/hr-questions-bank.md) |
-| Prepare 3 questions to ask | [Questions to Ask](behavioral/questions-to-ask-interviewer.md) |
+| Rehearse self-intro (3 versions) | [Self Intro System](../../01_common/behavioral/self_intro/self-introduction-system.md) |
+| Review 5 core STAR stories | [Story Bank](story-bank/) |
+| Review HR questions | [HR Questions Bank](../../01_common/behavioral/hr_questions/hr-questions-bank.md) |
+| Prepare 3 questions to ask | [Questions to Ask](../../01_common/behavioral/questions-to-ask-interviewer.md) |
 
 ---
 
@@ -124,8 +124,8 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Audit your resume | [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) |
-| Prepare claim → question → answer | [RESUME/RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
+| Audit your resume | [RESUME/RESUME_AUDIT.md](../../01_common/resume/RESUME_AUDIT.md) |
+| Prepare claim → question → answer | [RESUME/RESUME_DEFENSE.md](../../01_common/resume/RESUME_DEFENSE.md) |
 
 ---
 
@@ -135,10 +135,10 @@ RAPID REVISION
 
 | Action | Resource |
 |:-------|:---------|
-| Follow the 1-day revision plan | [RAPID_REVISION.md](RAPID_REVISION.md) |
-| Review formula sheet | [Formula Sheet](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
-| Read the day-of playbook | [Interview Day Survival](interview/interview-day-survival.md) |
-| Run the checklist | [PLACEMENT_CHECKLIST.md](PLACEMENT_CHECKLIST.md) |
+| Follow the 1-day revision plan | [RAPID_REVISION.md](../../01_common/aptitude/rapid-revision/RAPID_REVISION.md) |
+| Review formula sheet | [Formula Sheet](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
+| Read the day-of playbook | [Interview Day Survival](../../01_common/interview-fundamentals/interview-day-survival.md) |
+| Run the checklist | [PLACEMENT_CHECKLIST.md](../../01_common/resume/PLACEMENT_CHECKLIST.md) |
 
 ---
 
@@ -151,4 +151,4 @@ RAPID REVISION
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)

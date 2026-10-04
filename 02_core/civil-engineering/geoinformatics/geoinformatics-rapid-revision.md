@@ -260,8 +260,8 @@ A: SVAMITVA is India's scheme to map rural land parcels using drone surveys and 
 
 - [`geoinformatics.md`](geoinformatics.md) — Full subject reference
 - [`role-study-plan.md`](role-study-plan.md) — Detailed study plan with worked examples
-- [`gis-tech.md`](../../02_02_02_core/civil-engineering/geoinformatics/gis-tech.md) — GIS software tools
-- [`hydrology.md`](../hwre/hydrology/hydrology.md) — Watershed modeling
+- [`gis-tech.md`](gis-tech.md) — GIS software tools
+- [`hydrology.md`](../../hwre/hydrology/hydrology.md) — Watershed modeling
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Transport GIS
 
 ---

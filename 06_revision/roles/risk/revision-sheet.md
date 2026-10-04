@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Risk Analyst Preparation Track](../../01_roles/risk/README.md)
+- 📖 [Complete Risk Analyst Preparation Track](../../../03_non_core/finance/risk/README.md)
 
 ---
 

@@ -201,10 +201,10 @@ Project 6: Road Accessibility Analysis
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| QGIS / ArcGIS | [`tools/QGIS.md`](../tools/QGIS.md) |
-| Python (GeoPandas) | [`programming/python.md`](../programming/python.md) |
-| SQL (PostGIS) | [`programming/sql.md`](../programming/sql.md) |
-| HEC-RAS integration | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
+| QGIS / ArcGIS | [`tools/QGIS.md`](QGIS.md) |
+| Python (GeoPandas) | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
+| SQL (PostGIS) | [`programming/sql.md`](../../../03_non_core/software-engineering/programming/sql.md) |
+| HEC-RAS integration | [`deep-dives/hec-ras-walkthrough.md`](../../hwre/software-deep-dives/hec-ras-walkthrough.md) |
 
 ---
 
@@ -212,11 +212,11 @@ Project 6: Road Accessibility Analysis
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core GIS | [`02_02_02_core/civil-engineering/geoinformatics/`](../../02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md) |
-| Existing GIS Tools | [`07_resources/reference-material/gis-tools.md`](../../07_resources/reference-material/gis-tools.md) |
-| Python for GIS | [`programming/python.md`](../programming/python.md) |
-| HWRE Tech (GIS usage) | [`hwre/`](../hwre/hwre-tech-roadmap.md) |
+| Core GIS | [`02_core/civil-engineering/geoinformatics/`](geoinformatics.md) |
+| Existing GIS Tools | [`07_resources/reference-material/gis-tools.md`](../../../07_resources/reference-material/gis-tools.md) |
+| Python for GIS | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
+| HWRE Tech (GIS usage) | [`hwre/`](../../hwre/hwre-tech-roadmap.md) |
 
 ---
 
-*See also: [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`branch-roadmaps.md`](../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

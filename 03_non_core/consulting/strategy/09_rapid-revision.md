@@ -216,9 +216,9 @@ A: Diagnose first — is it price, product, distribution, or competition? Then r
 → [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [Consulting Overview](../consulting/01_role-overview.md) — Consulting role
-→ [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) — Business basics
-→ [Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case interview prep
+→ [Consulting Overview](../../consulting/01_role-overview.md) — Consulting role
+→ [Business Fundamentals](../../../01_common/placement-math/business-fundamentals/business-fundamentals.md) — Business basics
+→ [Case Frameworks](../../../05_interview/case-interview/case-interviews/framework-library.md) — Case interview prep
 
 ---
 

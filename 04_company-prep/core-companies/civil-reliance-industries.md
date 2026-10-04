@@ -79,8 +79,8 @@ Day 7: Mock + behavioral
 ```
 
 ## Cross-Links
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ## References
 - Reliance Industries Corporate website (www.ril.com)

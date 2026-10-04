@@ -1,6 +1,6 @@
 # Ayana Renewable Power — Corporate Placement Profile
 
-> **Target ID:** CORP-094 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-094 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 10_infrastructure-highway-epc | **Priority Tier:** C (Priority B - Extended Network) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

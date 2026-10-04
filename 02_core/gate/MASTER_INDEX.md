@@ -27,19 +27,19 @@ SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → PYQs → TESTS → 
 | Subject | Study | Formulas | Detailed Theory |
 | ------- | ----- | -------- | --------------- |
 | Engineering Mathematics | [Notes §1](civil/gate-civil-notes.md#1-engineering-mathematics) | [Formulas §1](formulas/gate-civil-formulas.md#1-engineering-mathematics) | — |
-| Engineering Mechanics | [Notes §2](civil/gate-civil-notes.md#2-engineering-mechanics) | [Formulas §2](formulas/gate-civil-formulas.md#2-engineering-mechanics) | [02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md](../fundamentals/engineering-mechanics.md) |
-| Strength of Materials | [Notes §3](civil/gate-civil-notes.md#3-strength-of-materials) | [Formulas §3](formulas/gate-civil-formulas.md#3-strength-of-materials) | [02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md](../fundamentals/strength-of-materials.md) |
-| Structural Analysis | [Notes §4](civil/gate-civil-notes.md#4-structural-analysis) | [Formulas §4](formulas/gate-civil-formulas.md#4-structural-analysis) | [02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md](../structural-analysis/structural-analysis.md) |
-| RCC | [Notes §5](civil/gate-civil-notes.md#5-reinforced-concrete-structures) | [Formulas §5](formulas/gate-civil-formulas.md#5-reinforced-concrete-structures) | [02_02_02_core/civil-engineering/rcc/rcc-design.md](../rcc/rcc-design.md) |
-| Steel | [Notes §6](civil/gate-civil-notes.md#6-steel-structures) | [Formulas §6](formulas/gate-civil-formulas.md#6-steel-structures) | [02_02_02_core/civil-engineering/steel/steel-design.md](../steel/steel-design.md) |
-| Geotechnical | [Notes §7](civil/gate-civil-notes.md#7-geotechnical-engineering) | [Formulas §7](formulas/gate-civil-formulas.md#7-geotechnical-engineering) | [02_02_02_core/civil-engineering/geotechnical/geotechnical.md](../geotechnical/geotechnical.md) |
-| Fluid Mechanics | [Notes §8](civil/gate-civil-notes.md#8-fluid-mechanics) | [Formulas §8](formulas/gate-civil-formulas.md#8-fluid-mechanics) | [02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md](../hwre/hydraulics/hydraulics.md) |
-| Hydraulics / Open Channel | [Notes §9](civil/gate-civil-notes.md#9-hydraulics--open-channel-flow) | [Formulas §9](formulas/gate-civil-formulas.md#9-hydraulics--open-channel-flow) | [02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md](../hwre/hydraulics/hydraulics.md) |
-| Hydrology | [Notes §10](civil/gate-civil-notes.md#10-hydrology) | [Formulas §10](formulas/gate-civil-formulas.md#10-hydrology) | [02_02_02_02_02_02_core/hwre/hydrology/hydrology.md](../hwre/hydrology/hydrology.md) |
-| Environmental | [Notes §11](civil/gate-civil-notes.md#11-environmental-engineering) | [Formulas §11](formulas/gate-civil-formulas.md#11-environmental-engineering) | [02_02_02_core/civil-engineering/environmental/environmental-engineering.md](../environmental/environmental-engineering.md) |
-| Transportation | [Notes §12](civil/gate-civil-notes.md#12-transportation-engineering) | [Formulas §12](formulas/gate-civil-formulas.md#12-transportation-engineering) | [02_02_02_core/civil-engineering/transportation/transportation-engineering.md](../transportation/transportation-engineering.md) |
-| Geomatics / Surveying | [Notes §13](civil/gate-civil-notes.md#13-geomatics--surveying) | [Formulas §13](formulas/gate-civil-formulas.md#13-geomatics--surveying) | [02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md](../geoinformatics/geoinformatics.md) |
-| Construction Mgmt | [Notes §14](civil/gate-civil-notes.md#14-construction-management) | [Formulas §14](formulas/gate-civil-formulas.md#14-construction-management) | [02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md](../infrastructure/infrastructure-engineering-management.md) |
+| Engineering Mechanics | [Notes §2](civil/gate-civil-notes.md#2-engineering-mechanics) | [Formulas §2](formulas/gate-civil-formulas.md#2-engineering-mechanics) | [02_core/civil-engineering/fundamentals/engineering-mechanics.md](../civil-engineering/fundamentals/engineering-mechanics.md) |
+| Strength of Materials | [Notes §3](civil/gate-civil-notes.md#3-strength-of-materials) | [Formulas §3](formulas/gate-civil-formulas.md#3-strength-of-materials) | [02_core/civil-engineering/fundamentals/strength-of-materials.md](../civil-engineering/fundamentals/strength-of-materials.md) |
+| Structural Analysis | [Notes §4](civil/gate-civil-notes.md#4-structural-analysis) | [Formulas §4](formulas/gate-civil-formulas.md#4-structural-analysis) | [02_core/civil-engineering/structural-analysis/structural-analysis.md](../civil-engineering/structural-analysis/structural-analysis.md) |
+| RCC | [Notes §5](civil/gate-civil-notes.md#5-reinforced-concrete-structures) | [Formulas §5](formulas/gate-civil-formulas.md#5-reinforced-concrete-structures) | [02_core/civil-engineering/rcc/rcc-design.md](../civil-engineering/rcc/rcc-design.md) |
+| Steel | [Notes §6](civil/gate-civil-notes.md#6-steel-structures) | [Formulas §6](formulas/gate-civil-formulas.md#6-steel-structures) | [02_core/civil-engineering/steel/steel-design.md](../civil-engineering/steel/steel-design.md) |
+| Geotechnical | [Notes §7](civil/gate-civil-notes.md#7-geotechnical-engineering) | [Formulas §7](formulas/gate-civil-formulas.md#7-geotechnical-engineering) | [02_core/civil-engineering/geotechnical/geotechnical.md](../civil-engineering/geotechnical/geotechnical.md) |
+| Fluid Mechanics | [Notes §8](civil/gate-civil-notes.md#8-fluid-mechanics) | [Formulas §8](formulas/gate-civil-formulas.md#8-fluid-mechanics) | [02_core/hwre/hydraulics/hydraulics.md](../hwre/hydraulics/hydraulics.md) |
+| Hydraulics / Open Channel | [Notes §9](civil/gate-civil-notes.md#9-hydraulics--open-channel-flow) | [Formulas §9](formulas/gate-civil-formulas.md#9-hydraulics--open-channel-flow) | [02_core/hwre/hydraulics/hydraulics.md](../hwre/hydraulics/hydraulics.md) |
+| Hydrology | [Notes §10](civil/gate-civil-notes.md#10-hydrology) | [Formulas §10](formulas/gate-civil-formulas.md#10-hydrology) | [02_core/hwre/hydrology/hydrology.md](../hwre/hydrology/hydrology.md) |
+| Environmental | [Notes §11](civil/gate-civil-notes.md#11-environmental-engineering) | [Formulas §11](formulas/gate-civil-formulas.md#11-environmental-engineering) | [02_core/civil-engineering/environmental/environmental-engineering.md](../civil-engineering/environmental/environmental-engineering.md) |
+| Transportation | [Notes §12](civil/gate-civil-notes.md#12-transportation-engineering) | [Formulas §12](formulas/gate-civil-formulas.md#12-transportation-engineering) | [02_core/civil-engineering/transportation/transportation-engineering.md](../civil-engineering/transportation/transportation-engineering.md) |
+| Geomatics / Surveying | [Notes §13](civil/gate-civil-notes.md#13-geomatics--surveying) | [Formulas §13](formulas/gate-civil-formulas.md#13-geomatics--surveying) | [02_core/civil-engineering/geoinformatics/geoinformatics.md](../civil-engineering/geoinformatics/geoinformatics.md) |
+| Construction Mgmt | [Notes §14](civil/gate-civil-notes.md#14-construction-management) | [Formulas §14](formulas/gate-civil-formulas.md#14-construction-management) | [02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md](../civil-engineering/infrastructure/infrastructure-engineering-management.md) |
 
 ## System Files
 
@@ -52,4 +52,4 @@ SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → PYQs → TESTS → 
 
 - [Core Civil Hub](../README.md)
 - [GATE Civil Notes](civil/gate-civil-notes.md)
-- [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)

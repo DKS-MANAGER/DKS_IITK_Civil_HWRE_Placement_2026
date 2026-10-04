@@ -164,9 +164,9 @@ The existing content covers standard aptitude well. For non-core, add these busi
 | Resource | Link |
 |:---------|:-----|
 | Business Fundamentals | [../business-fundamentals/business-fundamentals.md](../business-fundamentals/business-fundamentals.md) |
-| Guesstimate Guide | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
-| SQL Practice | [sql-practice.md](../../01_roles/business-analyst/04_data-and-analytics/sql-practice.md) |
-| Role Selector | [role-selector.md](../../04_career-preparation/role-selection/role-selector.md) |
+| Guesstimate Guide | [guesstimate-guide.md](../../../05_interview/case-interview/guesstimates/guesstimate-guide.md) |
+| SQL Practice | [sql-practice.md](../../../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md) |
+| Role Selector | [role-selector.md](../../resume/career-preparation/role-selection/role-selector.md) |
 
 ---
 

@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Technology & Solutions Consulting Preparation Track](../../01_roles/technology/README.md)
+- 📖 [Complete Technology & Solutions Consulting Preparation Track](../../../README.md)
 
 ---
 

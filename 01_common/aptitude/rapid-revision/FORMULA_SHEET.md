@@ -156,6 +156,6 @@
 
 ## 🔗 Related
 
-- [Rapid Revision](rapid-revision/RAPID_REVISION.md)
-- [Aptitude Shortcuts](./rapid-revision/FORMULA_SHEET.md)
-- [Roadmap](ROADMAP.md)
+- [Rapid Revision](../rapid-revision/RAPID_REVISION.md)
+- [Aptitude Shortcuts](.././rapid-revision/FORMULA_SHEET.md)
+- [Roadmap](../ROADMAP.md)

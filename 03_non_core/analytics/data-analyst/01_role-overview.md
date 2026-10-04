@@ -19,10 +19,10 @@
 
 | Job Requirement | What Company Tests in Selection | Repository Preparation Module | Evidence to Showcase on Resume |
 |:---|:---|:---|:---|
-| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](04_tools-and-technical.md) | Coursework / Computational Project |
+| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](../../consulting/04_tools-and-technical.md) | Coursework / Computational Project |
 | **Domain Problem Solving** | Business Case / Diagnostic Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Case Study / Thesis System Model |
 | **Speed & Accuracy** | Online Assessment (OA) Aptitude | [05_interview-preparation.md](05_interview-preparation.md) | High OA Percentile / Quant Drills |
-| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../03_common-skills/communication/communication.md) | Project Presentation / POR Leadership |
+| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../01_common/professional-skills/) | Project Presentation / POR Leadership |
 | **Civil/HWRE Background** | Interview Alignment Discussion | [11_projects.md](11_projects.md) | Applied Thesis Research Telemetry |
 
 ---

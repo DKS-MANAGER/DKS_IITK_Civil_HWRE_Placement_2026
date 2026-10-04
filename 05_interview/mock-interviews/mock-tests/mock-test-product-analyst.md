@@ -63,5 +63,5 @@ Given tables `events(user_id, event_type, timestamp)` and `users(user_id, signup
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/product/product-analyst/role-study-plan.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
 - [Mock Test Hub](README.md)

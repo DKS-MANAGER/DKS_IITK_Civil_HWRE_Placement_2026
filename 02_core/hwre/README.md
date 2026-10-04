@@ -63,15 +63,15 @@ SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → TESTS → ERRORS �
 
 | Software | Use Case | Deep Dive |
 |:---------|:---------|:----------|
-| **HEC-RAS** | River hydraulic modeling | [Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) |
-| **HEC-HMS** | Hydrologic modeling | [Tutorial](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md) |
-| **OpenFOAM** | CFD simulation | [Case Study](../../02_02_02_core/cfd/openfoam-case-study.md) |
-| **EPANET** | Water distribution | [Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/epanet-walkthrough.md) |
-| **SWMM** | Urban drainage | [Guide](../../02_02_02_02_02_core/hwre/software-deep-dives/swmm-guide.md) |
-| **GeoStudio** | Slope stability | [Tutorial](../../02_02_02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) |
-| **PLAXIS 2D** | Geotechnical FEM | [Tutorial](../../02_02_02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md) |
+| **HEC-RAS** | River hydraulic modeling | [Walkthrough](software-deep-dives/hec-ras-walkthrough.md) |
+| **HEC-HMS** | Hydrologic modeling | [Tutorial](software-deep-dives/hec-hms-tutorial.md) |
+| **OpenFOAM** | CFD simulation | [Case Study](../cfd/openfoam-case-study.md) |
+| **EPANET** | Water distribution | [Walkthrough](software-deep-dives/epanet-walkthrough.md) |
+| **SWMM** | Urban drainage | [Guide](software-deep-dives/swmm-guide.md) |
+| **GeoStudio** | Slope stability | [Tutorial](../civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) |
+| **PLAXIS 2D** | Geotechnical FEM | [Tutorial](../civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md) |
 
-> Full pipeline: [`MODELLING.md`](MODELLING.md) · Full roadmap: [HWRE Tech Roadmap](../../02_02_02_02_02_core/hwre/hwre-tech-roadmap.md)
+> Full pipeline: [`MODELLING.md`](MODELLING.md) · Full roadmap: [HWRE Tech Roadmap](hwre-tech-roadmap.md)
 
 ---
 
@@ -80,11 +80,11 @@ SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → TESTS → ERRORS �
 | Resource | Coverage |
 |:---------|:---------|
 | [HWRE Interview Bank](INTERVIEW.md) | 41 HWRE-specific Q&As |
-| [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) | 100 Q&As including HWRE topics |
-| [Project Defense Guide](../../01_common/interview-fundamentals/technical/project-defense-guide.md) | 35 defense questions |
-| [Software Interview Guide](../../01_common/interview-fundamentals/software-interview-guide.md) | 20+ tools with Q&A |
+| [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md) | 100 Q&As including HWRE topics |
+| [Project Defense Guide](../../05_interview/project-defense/project-defense-guide.md) | 35 defense questions |
+| [Software Interview Guide](../../05_interview/technical/non-core/software-interview-guide.md) | 20+ tools with Q&A |
 | [Behavioral Guide](../../01_common/behavioral/behavioral-interview-guide.md) | STAR stories, project-specific |
-| [Mock Interview Database](../../01_common/interview-fundamentals/mock-tests/mock-interview-database.md) | 8 full sessions |
+| [Mock Interview Database](../../05_interview/mock-interviews/mock-interview-database.md) | 8 full sessions |
 
 ---
 

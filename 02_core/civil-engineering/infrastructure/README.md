@@ -33,6 +33,6 @@ CONCEPT → MANAGEMENT → NUMERICAL → INTERVIEW → REVISION
 
 ## Related
 
-- [Core Civil Hub](../README.md)
-- [Construction Tech](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md)
-- [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+- [Core Civil Hub](../../README.md)
+- [Construction Tech](construction/construction-tech.md)
+- [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)

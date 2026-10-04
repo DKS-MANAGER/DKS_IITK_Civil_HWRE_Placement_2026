@@ -2,7 +2,7 @@
 
 > **Placement Priority:** P0 — Asked in EVERY core civil engineering interview
 > **GATE-O-PEDIA Reference:** Chapter 4 (2,131 lines, 23 topics, 5 formulas)
-> **Canonical Page:** `02_02_02_core/civil-engineering/rcc/rcc-design.md`
+> **Canonical Page:** `02_core/civil-engineering/rcc/rcc-design.md`
 > **Design Code:** IS 456:2000 (Plain and Reinforced Concrete)
 
 ---

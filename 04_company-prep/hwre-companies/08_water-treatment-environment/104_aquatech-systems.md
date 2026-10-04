@@ -1,6 +1,6 @@
 # Aquatech Systems Asia — Corporate Placement Profile
 
-> **Target ID:** CORP-104 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-104 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 08_water-treatment-environment | **Priority Tier:** B (Priority B - Extended Network) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

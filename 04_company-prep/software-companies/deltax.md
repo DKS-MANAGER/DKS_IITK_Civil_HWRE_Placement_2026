@@ -92,9 +92,9 @@ Day 6: System design | Day 7: Full mock (timed)
 
 ## Cross-Links
 - [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
-- [Tech Careers](../../03_non_02_02_core/software-engineering/tech-careers.md)
+- [Tech Careers](../../03_non_core/software-engineering/tech-careers.md)
 
 ## Sources
 - Deltax recruitment process documentation

@@ -415,10 +415,10 @@ Use this after each mock interview:
 
 - [`technical-interview-bank.md`](../technical/technical-interview-bank.md) — 100 Q&A by topic
 - [`mock-interview-questions.md`](./mock-interview-questions.md) — 50 standalone questions
-- [`behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — STAR format guide
-- [`software-interview-guide.md`](../software-interview-guide.md) — Software Q&As
-- [`quick-revision-system.md`](../quick-revision-system.md) — Revision plans
-- [`project-discussion.md`](../technical/project-discussion.md) — Project defense guide
+- [`behavioral-interview-guide.md`](../../01_common/behavioral/behavioral-interview-guide.md) — STAR format guide
+- [`software-interview-guide.md`](../technical/non-core/software-interview-guide.md) — Software Q&As
+- [`quick-revision-system.md`](../../01_common/interview-fundamentals/quick-revision-system.md) — Revision plans
+- [`project-discussion.md`](../project-defense/project-discussion.md) — Project defense guide
 
 ---
 

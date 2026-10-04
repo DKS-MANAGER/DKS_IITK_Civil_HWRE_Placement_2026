@@ -1,6 +1,6 @@
 # Tridiagonal Solutions (Pune) — Corporate Placement Profile
 
-> **Target ID:** CORP-116 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-116 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 06_cfd-simulation-engineering | **Priority Tier:** B (Priority B - Extended Network) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

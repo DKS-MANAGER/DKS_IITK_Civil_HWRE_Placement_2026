@@ -1,6 +1,6 @@
 # HWRE — Interview Q&A Bank
 
-> Dedicated HWRE interview questions with model answers. Complements the general [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md).
+> Dedicated HWRE interview questions with model answers. Complements the general [`technical-interview-bank.md`](../../05_interview/technical/technical-interview-bank.md).
 
 ## Section 1: Fluid Mechanics & Hydraulics
 
@@ -160,4 +160,4 @@
 
 ## Related
 
-- [MASTER_INDEX.md](MASTER_INDEX.md) · [TRAPS.md](TRAPS.md) · [General Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) · [Project Defense Guide](../../01_common/interview-fundamentals/technical/project-defense-guide.md)
+- [MASTER_INDEX.md](MASTER_INDEX.md) · [TRAPS.md](TRAPS.md) · [General Interview Bank](../../05_interview/technical/technical-interview-bank.md) · [Project Defense Guide](../../05_interview/project-defense/project-defense-guide.md)

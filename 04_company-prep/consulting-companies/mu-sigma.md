@@ -90,9 +90,9 @@ Day 4: Guesstimates | Day 5: SQL + Excel | Day 6: GD | Day 7: Mock
 ```
 
 ## Cross-Links
-- [Non-Core Prep (Analytics)](../../03_non_02_02_core/analytics/analytics/non-core-prep.md)
+- [Non-Core Prep (Analytics)](../../03_non_core/analytics/analytics/non-core-prep.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
-- [SQL for Analytics](../../03_non_02_02_core/analytics/analytics/)
+- [SQL for Analytics](../../03_non_core/analytics/analytics/)
 - [Communication Skills](../../01_common/placement-math/communication/communication.md)
 - [Mock Interviews](../interview/mock-tests/)
 

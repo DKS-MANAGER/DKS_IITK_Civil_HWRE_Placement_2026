@@ -1,11 +1,11 @@
 # Vassarlabs IT Solutions — Corporate Placement Profile
 
-> **Target ID:** CORP-001 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-001 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 02_water-resources-gis | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 
 > [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/hwre-companies/civil-vassarlabs.md](../../civil-vassarlabs.md).
+> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/hwre-companies/civil-vassarlabs.md](../civil-vassarlabs.md).
 
 ---
 

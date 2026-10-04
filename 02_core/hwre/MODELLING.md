@@ -130,10 +130,10 @@ TERRAIN/GIS → HEC-HMS (rainfall-runoff) → HYDROGRAPH → HEC-RAS (hydraulics
 
 ## Related
 
-- [HEC-HMS Tutorial](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md)
-- [HEC-RAS Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md)
-- [EPANET Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/epanet-walkthrough.md)
-- [SWMM Guide](../../02_02_02_02_02_core/hwre/software-deep-dives/swmm-guide.md)
-- [OpenFOAM Case Study](../../02_02_02_core/cfd/openfoam-case-study.md)
-- [HWRE Tech Roadmap](../../02_02_02_02_02_core/hwre/hwre-tech-roadmap.md)
+- [HEC-HMS Tutorial](software-deep-dives/hec-hms-tutorial.md)
+- [HEC-RAS Walkthrough](software-deep-dives/hec-ras-walkthrough.md)
+- [EPANET Walkthrough](software-deep-dives/epanet-walkthrough.md)
+- [SWMM Guide](software-deep-dives/swmm-guide.md)
+- [OpenFOAM Case Study](../cfd/openfoam-case-study.md)
+- [HWRE Tech Roadmap](hwre-tech-roadmap.md)
 - [MASTER_INDEX.md](MASTER_INDEX.md)

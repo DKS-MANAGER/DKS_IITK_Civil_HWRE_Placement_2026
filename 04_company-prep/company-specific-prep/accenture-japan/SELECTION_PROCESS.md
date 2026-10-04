@@ -42,7 +42,7 @@
 * **Key Pass Factors**:
   * Clean, formatted resume highlighting engineering problem-solving, tech projects, data analytics, and extracurricular leadership.
   * Explicit alignment with digital transformation and open-mindedness toward international work in Japan.
-* **Strategy Guide**: See [`RESUME_STRATEGY.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/RESUME_STRATEGY.md).
+* **Strategy Guide**: See [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md).
 
 ---
 
@@ -53,7 +53,7 @@
   2. **Data & SQL Interpretation**: Querying tables, database joins, aggregate analysis.
   3. **Logical Reasoning & Aptitude**: Numerical interpretation, logical deduction, flow diagram analysis.
   4. **Technology Comprehension**: Conceptual questions on Cloud, AI/ML, APIs, and digital systems.
-* **Strategy & Practice System**: See [`TECHNICAL_TEST.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/TECHNICAL_TEST.md).
+* **Strategy & Practice System**: See [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
 
 ---
 
@@ -66,7 +66,7 @@
   * Technical resume walkthrough & engineering project deep-dive.
   * Mini-case / Mini problem-structuring scenario (e.g., "How would you digitize a traditional manufacturing factory?").
   * Basic technology concept check (Cloud vs On-Premise, AI integration challenges).
-* **Strategy Guide**: See [`INTERVIEW.md#round-1--manager-level-interview`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md#round-1--manager-level-interview).
+* **Strategy Guide**: See [`INTERVIEW.md#round-1--manager-level-interview`](INTERVIEW.md#round-1--manager-level-interview).
 
 ---
 
@@ -80,7 +80,7 @@
   * Motivation for **Accenture Japan** specifically and living/working in Tokyo.
   * Adaptability, cross-cultural communication, and commitment to learning Japanese.
   * Behavioral scenarios (handling client resistance, leading global teams).
-* **Strategy Guide**: See [`INTERVIEW.md#round-2--director-level-interview`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md#round-2--director-level-interview).
+* **Strategy Guide**: See [`INTERVIEW.md#round-2--director-level-interview`](INTERVIEW.md#round-2--director-level-interview).
 
 ---
 

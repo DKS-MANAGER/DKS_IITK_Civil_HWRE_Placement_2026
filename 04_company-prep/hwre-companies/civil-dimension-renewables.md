@@ -85,8 +85,8 @@ Day 5: Marine structures basics | Day 6: PMC/MEP | Day 7: Mock
 ```
 
 ## Cross-Links
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
 
 ## References
 - [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) — Rows 114–119

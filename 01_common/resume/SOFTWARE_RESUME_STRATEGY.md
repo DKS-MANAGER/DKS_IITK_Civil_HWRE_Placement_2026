@@ -129,7 +129,7 @@ For every tool on your resume, prepare:
 7. Explain your project. (Project Defense)
 ```
 
-See [`software-interview-questions.md`](software-interview-questions.md) for the full bank.
+See [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) for the full bank.
 
 ---
 
@@ -163,9 +163,9 @@ See [`software-interview-questions.md`](software-interview-questions.md) for the
 | Related Section | Link |
 |:----------------|:-----|
 | Resume Positioning (existing) | [`resume-positioning.md`](resume-positioning.md) |
-| Interview Questions | [`software-interview-questions.md`](software-interview-questions.md) |
-| Priority System | [`priority-system.md`](priority-system.md) |
-| Resume Template | [`../01_common/resume/resume-template.md`](../01_common/resume/resume-template.md) |
+| Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
+| Priority System | [`priority-system.md`](../../07_resources/reference-material/priority-system.md) |
+| Resume Template | [`../01_common/resume/resume-template.md`](../../01_common/resume/resume-template.md) |
 
 ---
 

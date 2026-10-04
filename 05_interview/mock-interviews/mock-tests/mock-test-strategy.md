@@ -56,6 +56,6 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/consulting/strategy/role-study-plan.md)
-- [Strategy Overview](../../03_non_02_02_core/consulting/strategy/strategy-overview.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Strategy Overview](../../03_non_core/consulting/strategy/strategy-overview.md)
 - [Mock Test Hub](README.md)

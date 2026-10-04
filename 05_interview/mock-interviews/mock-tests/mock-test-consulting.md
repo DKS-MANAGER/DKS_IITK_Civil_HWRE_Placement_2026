@@ -58,8 +58,8 @@ A client's profit has declined 15% over two years despite stable revenue. Build 
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/consulting/role-study-plan.md)
-- [Consulting Overview](../../03_non_02_02_core/consulting/consulting-overview.md)
-- [Case Frameworks](../../03_non_02_02_core/consulting/case-frameworks.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Consulting Overview](../../03_non_core/consulting/consulting-overview.md)
+- [Case Frameworks](../../case-interview/case-interviews/case-frameworks.md)
 - [Mock Test Hub](README.md)
 

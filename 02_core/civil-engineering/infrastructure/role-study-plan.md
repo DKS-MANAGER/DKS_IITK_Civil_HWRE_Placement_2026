@@ -45,7 +45,7 @@ PMBOK knowledge areas and the project lifecycle are the foundation of any PM int
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) | §1 PM Fundamentals (lines 11-102) | 92 |
-| [`technical-stack.md`](../../03_non_02_02_core/analytics/analytics/technical-stack.md) | PM tools | 215 |
+| [`technical-stack.md`](../../03_non_core/analytics/analytics/technical-stack.md) | PM tools | 215 |
 
 ### Worked Example: CPM Network Analysis
 
@@ -418,9 +418,9 @@ Prepare 3 STAR stories for PM context:
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Transport infrastructure
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Construction, compaction
 - [`structures.md`](../structures/structures.md) — Structural integration
-- [`technical-stack.md`](../../03_non_02_02_core/analytics/analytics/technical-stack.md) — PM software tools
-- [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ interview questions
-- [`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
+- [`technical-stack.md`](../../03_non_core/analytics/analytics/technical-stack.md) — PM software tools
+- [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) — 100+ interview questions
+- [`company-profiles.md`](../../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
 
 ---
 

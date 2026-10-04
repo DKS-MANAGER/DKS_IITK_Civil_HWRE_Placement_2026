@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/infrastructure/bim/role-study-plan.md)
-- [BIM Tech](../../02_02_02_core/civil-engineering/infrastructure/bim/bim-tech.md)
+- [Role Study Plan](../../../02_core/civil-engineering/infrastructure/bim/role-study-plan.md)
+- [BIM Tech](../../../02_core/civil-engineering/infrastructure/bim/bim-tech.md)
 - [Mock Test Hub](README.md)

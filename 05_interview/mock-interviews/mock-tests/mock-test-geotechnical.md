@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/geotechnical/role-study-plan.md)
-- [Geotechnical](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md)
+- [Role Study Plan](../../../02_core/civil-engineering/geotechnical/role-study-plan.md)
+- [Geotechnical](../../../02_core/civil-engineering/geotechnical/geotechnical.md)
 - [Mock Test Hub](README.md)

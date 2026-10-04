@@ -9,7 +9,7 @@
 
 ## 1. Pedagogical Architecture & Diagnostic Function
 
-Topic tests constitute **Layer 1** of the IIT Kanpur Placement Testing System. Unlike **Layer 2 Sectional Tests** ([01_common/aptitude/mocks/section-tests/section/](section/README.md), which test pure domain speed pacing) and **Layer 3 Full Placement Mocks** ([01_common/aptitude/mocks/](../mocks/README.md), which test multi-domain cognitive endurance), topic tests diagnose **granular mathematical and logical competency** within isolated functional modules.
+Topic tests constitute **Layer 1** of the IIT Kanpur Placement Testing System. Unlike **Layer 2 Sectional Tests** ([01_common/aptitude/mocks/section-tests/section/](section/README.md), which test pure domain speed pacing) and **Layer 3 Full Placement Mocks** ([01_common/aptitude/mocks/](../../mocks/README.md), which test multi-domain cognitive endurance), topic tests diagnose **granular mathematical and logical competency** within isolated functional modules.
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -54,7 +54,7 @@ Topic tests constitute **Layer 1** of the IIT Kanpur Placement Testing System. U
 
 ## 3. Diagnostic Scoring & Error Triage
 
-After attempting any diagnostic test, log your score in [READINESS_SCORECARD.md](../../05_interview/mock-interviews/READINESS_SCORECARD.md):
+After attempting any diagnostic test, log your score in [READINESS_SCORECARD.md](../../../../05_interview/mock-interviews/READINESS_SCORECARD.md):
 
 ```
 +------------------------------------------------------------------------------------+

@@ -120,7 +120,7 @@
 
 ## 🔗 Related
 
-- [Formula Sheet](rapid-revision/FORMULA_SHEET.md)
-- [Roadmap](ROADMAP.md)
-- [7/14/30-Day Plan](7_14_30_DAY_PLAN.md)
-- [Error Log](ERROR_LOG.md)
+- [Formula Sheet](../rapid-revision/FORMULA_SHEET.md)
+- [Roadmap](../ROADMAP.md)
+- [7/14/30-Day Plan](../7_14_30_DAY_PLAN.md)
+- [Error Log](../ERROR_LOG.md)

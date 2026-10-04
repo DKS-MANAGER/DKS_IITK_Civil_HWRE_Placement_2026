@@ -4,7 +4,7 @@
 
 Structural engineering for civil placements covers the analysis and design of load-carrying systems. Breadth knowledge in strength of materials, reinforced concrete, steel structures, and structural analysis is expected for core design roles.
 
-> **Related topics:** [`geotechnical.md`](../geotechnical/geotechnical.md) · [`../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md`](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md)
+> **Related topics:** [`geotechnical.md`](../geotechnical/geotechnical.md) · [`../02_core/hwre/water_supply/water-supply.md`](../../hwre/water_supply/water-supply.md)
 
 ---
 
@@ -315,7 +315,7 @@ Steel basics          →  Design of connections        →  Plate girder design
 
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Foundation design
 - [`infrastructure-engineering-management.md`](../infrastructure/infrastructure-engineering-management.md) — Construction management
-- [`hydraulics.md`](../hwre/hydraulics/hydraulics.md) — Hydraulic structures
+- [`hydraulics.md`](../../hwre/hydraulics/hydraulics.md) — Hydraulic structures
 
 ---
 

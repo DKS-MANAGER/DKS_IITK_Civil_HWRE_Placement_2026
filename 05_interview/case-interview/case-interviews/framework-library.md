@@ -456,8 +456,8 @@ Positioning
 |:---------|:-----|
 | Case Communication | [case-communication.md](case-communication.md) |
 | Consulting Frameworks | [case-frameworks.md](../case-interviews/framework-library.md) |
-| Case Bank | [case-bank.md](../../01_roles/consulting/06_case-practice.md) |
-| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Case Bank | [case-bank.md](../../../03_non_core/consulting/06_case-practice.md) |
+| Business Fundamentals | [business-fundamentals.md](../../../01_common/placement-math/business-fundamentals/business-fundamentals.md) |
 
 ---
 

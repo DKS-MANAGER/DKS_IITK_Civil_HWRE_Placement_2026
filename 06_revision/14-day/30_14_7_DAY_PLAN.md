@@ -1,6 +1,6 @@
 # 30 / 14 / 7 DAY PLACEMENT PLAN
 
-> **Placement-execution timelines.** This is the *execution* layer — it tells you *what to do* each day and *where* to go. The actual content lives in the linked files. For aptitude-specific timelines, see [`01_common/aptitude/7_14_30_DAY_PLAN.md`](../01_common/aptitude/7_14_30_DAY_PLAN.md).
+> **Placement-execution timelines.** This is the *execution* layer — it tells you *what to do* each day and *where* to go. The actual content lives in the linked files. For aptitude-specific timelines, see [`01_common/aptitude/7_14_30_DAY_PLAN.md`](../../01_common/aptitude/7_14_30_DAY_PLAN.md).
 
 ---
 
@@ -12,51 +12,51 @@
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 1 | Self-assessment | Map skills to roles, pick target track | [Role Matrix](../01_common/aptitude/ROLE_MATRIX.md) |
-| 2 | Resume | Draft full resume | [Resume Template](templates/resume-template.md) |
-| 3 | Resume | Audit + fix metrics/ATS | [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) |
-| 4 | Aptitude | Diagnostic test → identify weak topics | [Full Mock](../01_common/aptitude/mocks/full-placement-mock-01.md) |
-| 5 | Aptitude | Study weak quant topics | [Aptitude Quant](../01_common/aptitude/quantitative/) |
-| 6 | Aptitude | Study weak reasoning topics | [Aptitude Reasoning](../01_common/aptitude/logical-reasoning/) |
-| 7 | Behavioural | Learn STAR/CARL frameworks | [Answering Strategies](behavioral/strategies/answering-strategies.md) |
+| 1 | Self-assessment | Map skills to roles, pick target track | [Role Matrix](../../01_common/aptitude/ROLE_MATRIX.md) |
+| 2 | Resume | Draft full resume | [Resume Template](../../01_common/resume/resume-template.md) |
+| 3 | Resume | Audit + fix metrics/ATS | [RESUME/RESUME_AUDIT.md](../../01_common/resume/RESUME_AUDIT.md) |
+| 4 | Aptitude | Diagnostic test → identify weak topics | [Full Mock](../../01_common/aptitude/mocks/full-placement-mock-01.md) |
+| 5 | Aptitude | Study weak quant topics | [Aptitude Quant](../../01_common/aptitude/quantitative/) |
+| 6 | Aptitude | Study weak reasoning topics | [Aptitude Reasoning](../../01_common/aptitude/logical-reasoning/) |
+| 7 | Behavioural | Learn STAR/CARL frameworks | [Answering Strategies](../../01_common/behavioral/strategies/answering-strategies.md) |
 
 ### Week 2 — Skill-Building (Days 8–14)
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 8 | Behavioural | Build 5 core stories | [Story Bank](behavioral/story-bank/) |
-| 9 | Behavioural | Prepare self-introduction (3 versions) | [Self Intro System](behavioral/self_intro/self-introduction-system.md) |
-| 10 | Technical | Review target subject | [Core Hub](../02_02_02_02_core/README.md) |
-| 11 | Technical | Practice technical Q&A | [Technical Bank](interview/technical/technical-interview-bank.md) |
-| 12 | Software | Review target tools | [Software Hub](../archive/legacy_software/README.md) |
-| 13 | Aptitude | Topic tests on weak areas | [Aptitude Tests](../01_common/aptitude/mocks/section-tests/) |
-| 14 | Company | Research 3 target companies | [Company Profiles](company-profiles/) |
+| 8 | Behavioural | Build 5 core stories | [Story Bank](story-bank/) |
+| 9 | Behavioural | Prepare self-introduction (3 versions) | [Self Intro System](../../01_common/behavioral/self_intro/self-introduction-system.md) |
+| 10 | Technical | Review target subject | [Core Hub](../../README.md) |
+| 11 | Technical | Practice technical Q&A | [Technical Bank](../../05_interview/technical/technical-interview-bank.md) |
+| 12 | Software | Review target tools | [Software Hub](../../archive/legacy_software/README.md) |
+| 13 | Aptitude | Topic tests on weak areas | [Aptitude Tests](../../01_common/aptitude/mocks/section-tests/) |
+| 14 | Company | Research 3 target companies | [Company Profiles](../../04_company-prep/README.md) |
 
 ### Week 3 — Practice + Tests (Days 15–21)
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 15 | Aptitude | Section tests (quant/reasoning/verbal) | [Aptitude Tests](../01_common/aptitude/mocks/section-tests/) |
-| 16 | Mock | Run first mock interview | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| 17 | Mock | Take role-specific mock test | [Mock Tests](mock-tests/) |
-| 18 | Project | Prepare project defence | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| 19 | Behavioural | Practice 200+ questions | [Question Master Database](behavioral/question-master-database.md) |
-| 20 | Aptitude | Full placement mock + error log | [Full Mock](../01_common/aptitude/mocks/full-placement-mock-01.md) · [Error Log](../01_common/aptitude/ERROR_LOG.md) |
-| 21 | Company | Prepare company-specific strategy | [Cross-Company Strategy](company-profiles/civil-cross-company-strategy.md) |
+| 15 | Aptitude | Section tests (quant/reasoning/verbal) | [Aptitude Tests](../../01_common/aptitude/mocks/section-tests/) |
+| 16 | Mock | Run first mock interview | [MOCK_INTERVIEW.md](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
+| 17 | Mock | Take role-specific mock test | [Mock Tests](../01_common/aptitude/mocks/) |
+| 18 | Project | Prepare project defence | [PROJECT_DEFENCE.md](../../05_interview/project-defense/PROJECT_DEFENCE.md) |
+| 19 | Behavioural | Practice 200+ questions | [Question Master Database](../../01_common/behavioral/question-master-database.md) |
+| 20 | Aptitude | Full placement mock + error log | [Full Mock](../../01_common/aptitude/mocks/full-placement-mock-01.md) · [Error Log](../../01_common/aptitude/ERROR_LOG.md) |
+| 21 | Company | Prepare company-specific strategy | [Cross-Company Strategy](../../04_company-prep/company-directory/civil-cross-company-strategy.md) |
 
 ### Week 4 — Consolidation (Days 22–30)
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 22 | Resume | Final resume polish + defence prep | [RESUME/RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
-| 23 | Technical | Rapid-fire technical revision | [Quick Revision System](interview/quick-revision-system.md) |
-| 24 | Behavioural | Mock behavioural round | [Mock Interview System](behavioral/mock-interviews/mock-interview-system.md) |
-| 25 | Aptitude | Speed + accuracy drills | [Aptitude Hub](../01_common/aptitude/README.md) |
-| 26 | Mock | Second full mock interview | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| 27 | Company | Deep-dive target company #1 | [Company Profiles](company-profiles/) |
-| 28 | Revision | Formula sheets + high-ROI topics | [Formula Sheet](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
-| 29 | Revision | Rapid revision plan | [RAPID_REVISION.md](RAPID_REVISION.md) |
-| 30 | Logistics | Checklist + interview-day prep | [PLACEMENT_CHECKLIST.md](PLACEMENT_CHECKLIST.md) |
+| 22 | Resume | Final resume polish + defence prep | [RESUME/RESUME_DEFENSE.md](../../01_common/resume/RESUME_DEFENSE.md) |
+| 23 | Technical | Rapid-fire technical revision | [Quick Revision System](../../01_common/interview-fundamentals/quick-revision-system.md) |
+| 24 | Behavioural | Mock behavioural round | [Mock Interview System](../../01_common/behavioral/mock-interviews/mock-interview-system.md) |
+| 25 | Aptitude | Speed + accuracy drills | [Aptitude Hub](../../01_common/aptitude/README.md) |
+| 26 | Mock | Second full mock interview | [MOCK_INTERVIEW.md](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
+| 27 | Company | Deep-dive target company #1 | [Company Profiles](../../04_company-prep/README.md) |
+| 28 | Revision | Formula sheets + high-ROI topics | [Formula Sheet](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
+| 29 | Revision | Rapid revision plan | [RAPID_REVISION.md](../../01_common/aptitude/rapid-revision/RAPID_REVISION.md) |
+| 30 | Logistics | Checklist + interview-day prep | [PLACEMENT_CHECKLIST.md](../../01_common/resume/PLACEMENT_CHECKLIST.md) |
 
 ---
 
@@ -66,20 +66,20 @@
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 1 | Assessment | Diagnostic → prioritize weak topics | [Role Matrix](../01_common/aptitude/ROLE_MATRIX.md) |
-| 2 | Resume | Audit + fix | [RESUME/RESUME_AUDIT.md](RESUME/RESUME_AUDIT.md) |
-| 3 | Aptitude | Weak quant topics + tests | [Aptitude Quant](../01_common/aptitude/quantitative/) · [Tests](../01_common/aptitude/mocks/section-tests/) |
-| 4 | Aptitude | Weak reasoning topics + tests | [Aptitude Reasoning](../01_common/aptitude/logical-reasoning/) · [Tests](../01_common/aptitude/mocks/section-tests/) |
-| 5 | Behavioural | 5 core stories + self-intro | [Story Bank](behavioral/story-bank/) · [Self Intro](behavioral/self_intro/self-introduction-system.md) |
-| 6 | Technical | Target subject rapid-fire | [Technical Bank](interview/technical/technical-interview-bank.md) |
-| 7 | Software | Target tools | [Software Hub](../archive/legacy_software/README.md) |
-| 8 | Project | Project defence prep | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| 9 | Company | Research target companies | [Company Profiles](company-profiles/) |
-| 10 | Mock | First mock interview | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| 11 | Aptitude | Full placement mock + error log | [Full Mock](../01_common/aptitude/mocks/full-placement-mock-01.md) |
-| 12 | Behavioural | HR + behavioural practice | [HR Guide](interview/hr/hr-interview-guide.md) |
-| 13 | Mock | Role-specific mock test | [Mock Tests](mock-tests/) |
-| 14 | Revision | Rapid revision + checklist | [RAPID_REVISION.md](RAPID_REVISION.md) · [Checklist](PLACEMENT_CHECKLIST.md) |
+| 1 | Assessment | Diagnostic → prioritize weak topics | [Role Matrix](../../01_common/aptitude/ROLE_MATRIX.md) |
+| 2 | Resume | Audit + fix | [RESUME/RESUME_AUDIT.md](../../01_common/resume/RESUME_AUDIT.md) |
+| 3 | Aptitude | Weak quant topics + tests | [Aptitude Quant](../../01_common/aptitude/quantitative/) · [Tests](../../01_common/aptitude/mocks/section-tests/) |
+| 4 | Aptitude | Weak reasoning topics + tests | [Aptitude Reasoning](../../01_common/aptitude/logical-reasoning/) · [Tests](../../01_common/aptitude/mocks/section-tests/) |
+| 5 | Behavioural | 5 core stories + self-intro | [Story Bank](story-bank/) · [Self Intro](../../01_common/behavioral/self_intro/self-introduction-system.md) |
+| 6 | Technical | Target subject rapid-fire | [Technical Bank](../../05_interview/technical/technical-interview-bank.md) |
+| 7 | Software | Target tools | [Software Hub](../../archive/legacy_software/README.md) |
+| 8 | Project | Project defence prep | [PROJECT_DEFENCE.md](../../05_interview/project-defense/PROJECT_DEFENCE.md) |
+| 9 | Company | Research target companies | [Company Profiles](../../04_company-prep/README.md) |
+| 10 | Mock | First mock interview | [MOCK_INTERVIEW.md](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
+| 11 | Aptitude | Full placement mock + error log | [Full Mock](../../01_common/aptitude/mocks/full-placement-mock-01.md) |
+| 12 | Behavioural | HR + behavioural practice | [HR Guide](../../05_interview/hr/hr-interview-guide.md) |
+| 13 | Mock | Role-specific mock test | [Mock Tests](../01_common/aptitude/mocks/) |
+| 14 | Revision | Rapid revision + checklist | [RAPID_REVISION.md](../../01_common/aptitude/rapid-revision/RAPID_REVISION.md) · [Checklist](../../01_common/resume/PLACEMENT_CHECKLIST.md) |
 
 ---
 
@@ -89,20 +89,20 @@
 
 | Day | Focus | Action | Resource |
 |-----|-------|--------|----------|
-| 1 | Aptitude | Section tests (all 3) | [Aptitude Tests](../01_common/aptitude/mocks/section-tests/) |
-| 2 | Technical | Rapid-fire target subject | [Quick Revision System](interview/quick-revision-system.md) |
+| 1 | Aptitude | Section tests (all 3) | [Aptitude Tests](../../01_common/aptitude/mocks/section-tests/) |
+| 2 | Technical | Rapid-fire target subject | [Quick Revision System](../../01_common/interview-fundamentals/quick-revision-system.md) |
 | 3 | Behavioural | Stories + self-intro + HR | [Behavioral Hub](behavioral/) |
-| 4 | Project | Project + resume defence | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) · [RESUME_DEFENSE](RESUME/RESUME_DEFENSE.md) |
-| 5 | Mock | Full mock interview | [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md) |
-| 6 | Company | Company deep-dive + strategy | [Company Profiles](company-profiles/) |
-| 7 | Revision | Rapid revision + checklist + interview-day prep | [RAPID_REVISION.md](RAPID_REVISION.md) · [Checklist](PLACEMENT_CHECKLIST.md) · [Interview Day](interview/interview-day-survival.md) |
+| 4 | Project | Project + resume defence | [PROJECT_DEFENCE.md](../../05_interview/project-defense/PROJECT_DEFENCE.md) · [RESUME_DEFENSE](../../01_common/resume/RESUME_DEFENSE.md) |
+| 5 | Mock | Full mock interview | [MOCK_INTERVIEW.md](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
+| 6 | Company | Company deep-dive + strategy | [Company Profiles](../../04_company-prep/README.md) |
+| 7 | Revision | Rapid revision + checklist + interview-day prep | [RAPID_REVISION.md](../../01_common/aptitude/rapid-revision/RAPID_REVISION.md) · [Checklist](../../01_common/resume/PLACEMENT_CHECKLIST.md) · [Interview Day](../../01_common/interview-fundamentals/interview-day-survival.md) |
 
 ---
 
 ## ⚡ Interview Tomorrow?
 
-Go straight to [INTERVIEW_TOMORROW.md](INTERVIEW_TOMORROW.md) — the 1–2 click rapid path.
+Go straight to [INTERVIEW_TOMORROW.md](../interview-tomorrow/INTERVIEW_TOMORROW.md) — the 1–2 click rapid path.
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)

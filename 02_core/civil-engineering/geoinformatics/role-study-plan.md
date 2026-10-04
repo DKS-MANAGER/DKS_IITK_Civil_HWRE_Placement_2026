@@ -47,7 +47,7 @@ Every GIS interview starts with data models, coordinate systems, and spatial ana
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`geoinformatics.md`](geoinformatics.md) | §1 GIS (lines 11-124) | 114 |
-| [`gis-tech.md`](../../02_02_02_core/civil-engineering/geoinformatics/gis-tech.md) | GIS software tools | — |
+| [`gis-tech.md`](gis-tech.md) | GIS software tools | — |
 | [`transportation-engineering.md`](../transportation/transportation-engineering.md) | GIS for transport | 642 |
 
 ### Worked Example: UTM Zone + IDW Interpolation
@@ -224,7 +224,7 @@ GNSS (GPS, NavIC) and surveying are the practical tools of a GIS/survey engineer
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`geoinformatics.md`](geoinformatics.md) | §3 GNSS (lines 201-286) | 86 |
-| [`gis-tech.md`](../../02_02_02_core/civil-engineering/geoinformatics/gis-tech.md) | Surveying tools | — |
+| [`gis-tech.md`](gis-tech.md) | Surveying tools | — |
 
 ### Worked Example: DGPS Correction
 
@@ -303,7 +303,7 @@ This connects GIS/RS/GNSS to real civil engineering problems — the key differe
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`geoinformatics.md`](geoinformatics.md) | §5, §6 Applications (lines 350-400+) | ~50 |
-| [`hydrology.md`](../hwre/hydrology/hydrology.md) | Watershed modeling | 587 |
+| [`hydrology.md`](../../hwre/hydrology/hydrology.md) | Watershed modeling | 587 |
 | [`transportation-engineering.md`](../transportation/transportation-engineering.md) | Transport GIS | 642 |
 
 ### Worked Example: Watershed Delineation Workflow
@@ -419,13 +419,13 @@ Prepare 3 STAR stories for GIS context:
 ## Cross-Links
 
 - [`geoinformatics.md`](geoinformatics.md) — Full subject reference (779 lines)
-- [`gis-tech.md`](../../02_02_02_core/civil-engineering/geoinformatics/gis-tech.md) — GIS software tools
-- [`hydrology.md`](../hwre/hydrology/hydrology.md) — Watershed modeling
+- [`gis-tech.md`](gis-tech.md) — GIS software tools
+- [`hydrology.md`](../../hwre/hydrology/hydrology.md) — Watershed modeling
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Transport GIS
-- [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) — Water resources applications
+- [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) — Water resources applications
 - [`environmental-engineering.md`](../environmental/environmental-engineering.md) — Environmental monitoring
-- [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ interview questions
-- [`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
+- [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) — 100+ interview questions
+- [`company-profiles.md`](../../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
 
 ---
 

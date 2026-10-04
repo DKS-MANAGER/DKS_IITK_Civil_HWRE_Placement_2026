@@ -124,10 +124,10 @@ Questions should test these levels (in order of value):
 Every concept has **one canonical explanation**. All other references link to it.
 
 ```
-Canonical: 02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md (Bernoulli section)
+Canonical: 02_core/hwre/hydraulics/hydraulics.md (Bernoulli section)
     ↑ linked from: 01_common/interview-fundamentals/technical/technical-interview-bank.md
     ↑ linked from: 01_common/interview-fundamentals/mock-tests/mock-interview-database.md
-    ↑ linked from: 02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md
+    ↑ linked from: 02_core/gate/formulas/gate-civil-formulas.md
     ↑ linked from: 01_common/interview-fundamentals/quick-revision-system.md
 ```
 
@@ -241,13 +241,13 @@ Follow the naming rules in [architecture.md](architecture.md):
 - Every content page links **up** to its section README.
 - Every content page links **sideways** to related topics.
 - Question banks link **back** to canonical concept pages.
-- Verify links before committing (see [DOCS_LINK_AUDIT.md](_SYSTEM/DOCS_LINK_AUDIT.md)).
+- Verify links before committing (see [DOCS_LINK_AUDIT.md](../_SYSTEM/legacy/docs/DOCS_LINK_AUDIT.md)).
 
 ---
 
 ## Update Conventions
 
-- Update the [Content Registry](_SYSTEM/DOCS_CONTENT_REGISTRY.md) when adding a new topic.
-- Update the [File Map](_SYSTEM/DOCS_FILE_MAP.md) when adding/moving/removing a file.
-- Keep the [Audit State](_SYSTEM/DOCS_AUDIT_STATE.md) current after meaningful changes.
+- Update the [Content Registry](../_SYSTEM/legacy/docs/DOCS_CONTENT_REGISTRY.md) when adding a new topic.
+- Update the [File Map](../_SYSTEM/legacy/docs/DOCS_FILE_MAP.md) when adding/moving/removing a file.
+- Keep the [Audit State](../_SYSTEM/legacy/docs/DOCS_AUDIT_STATE.md) current after meaningful changes.
 - Re-run the link audit after any edit to `docs/`.

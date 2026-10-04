@@ -5,7 +5,7 @@
 > Scale: 0 = absent, 10 = placement-ready.
 
 > ⚠️ **These scores are the original build's self-assessment and are NOT validated against the question content.**
-> The independent audit ([`docs/audit/aptitude-audit-2026-09.md`](../docs/audit/aptitude-audit-2026-09.md), 2026-09-11)
+> The independent audit ([`docs/audit/aptitude-audit-2026-09.md`](../archive/reports/audit/aptitude-audit-2026-09.md), 2026-09-11)
 > found the practice layer well below these numbers: ~40% of module practice questions had no answer key,
 > several topic tests had degenerate answer keys, and the flagship mock plus a few modules shipped broken
 > questions. A trust-repair pass has fixed the tests, the mock and the flagged modules; the "Practice"

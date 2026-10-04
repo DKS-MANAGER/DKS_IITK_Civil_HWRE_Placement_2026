@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Business Operations Preparation Track](../../01_roles/business-operations/README.md)
+- 📖 [Complete Business Operations Preparation Track](../../../03_non_core/operations/business-operations/README.md)
 
 ---
 

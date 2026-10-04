@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/fundamentals/role-study-plan.md)
-- [Civil Engineering Foundations](../../02_02_02_core/civil-engineering/fundamentals/civil-engineering-foundations.md)
+- [Role Study Plan](../../../02_core/civil-engineering/fundamentals/role-study-plan.md)
+- [Civil Engineering Foundations](../../../02_core/civil-engineering/fundamentals/civil-engineering-foundations.md)
 - [Mock Test Hub](README.md)

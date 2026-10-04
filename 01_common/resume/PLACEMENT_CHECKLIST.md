@@ -11,7 +11,7 @@
 - [ ] ATS-friendly version (no tables/graphics, standard fonts)
 - [ ] PDF + DOCX versions
 - [ ] Resume reviewed for: factual consistency, grammar, metrics, specificity
-- [ ] Resume defence prepared (every line can be defended) → [RESUME/RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md)
+- [ ] Resume defence prepared (every line can be defended) → [RESUME/RESUME_DEFENSE.md](../RESUME/RESUME_DEFENSE.md)
 
 ### Academic Documents
 - [ ] All semester grade sheets / transcripts
@@ -37,8 +37,8 @@
 
 ## 🎯 Application Strategy
 
-- [ ] Target roles identified (1–3) → [Role Matrix](../01_common/aptitude/ROLE_MATRIX.md)
-- [ ] Target companies shortlisted → [Company Profiles](company-profiles/)
+- [ ] Target roles identified (1–3) → [Role Matrix](../../01_common/aptitude/ROLE_MATRIX.md)
+- [ ] Target companies shortlisted → [Company Profiles](../../04_company-prep/README.md)
 - [ ] Application tracker (company, role, deadline, status)
 - [ ] Cover letter / statement of purpose (if required)
 - [ ] Referrals requested where possible
@@ -47,13 +47,13 @@
 
 ## 📝 Interview Preparation
 
-- [ ] Self-introduction (30s, 60s, 90s versions) → [Self Intro](behavioral/self_intro/self-introduction-system.md)
-- [ ] 5+ STAR stories → [Story Bank](behavioral/story-bank/)
-- [ ] Technical rapid-fire for target subject → [Technical Bank](interview/technical/technical-interview-bank.md)
-- [ ] Project defence prepared → [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md)
-- [ ] Company research done → [Company Profiles](company-profiles/)
-- [ ] 3 questions to ask interviewer → [Questions to Ask](behavioral/questions-to-ask-interviewer.md)
-- [ ] Mock interview completed → [MOCK_INTERVIEW.md](MOCK_INTERVIEW.md)
+- [ ] Self-introduction (30s, 60s, 90s versions) → [Self Intro](../behavioral/self_intro/self-introduction-system.md)
+- [ ] 5+ STAR stories → [Story Bank](../behavioral/story-bank/)
+- [ ] Technical rapid-fire for target subject → [Technical Bank](../../05_interview/technical/technical-interview-bank.md)
+- [ ] Project defence prepared → [PROJECT_DEFENCE.md](../../05_interview/project-defense/PROJECT_DEFENCE.md)
+- [ ] Company research done → [Company Profiles](../../04_company-prep/README.md)
+- [ ] 3 questions to ask interviewer → [Questions to Ask](../behavioral/questions-to-ask-interviewer.md)
+- [ ] Mock interview completed → [MOCK_INTERVIEW.md](../../05_interview/mock-interviews/MOCK_INTERVIEW.md)
 
 ---
 
@@ -78,10 +78,10 @@
 
 ## 💻 Technical Preparation
 
-- [ ] Formula sheet reviewed → [Formula Sheet](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
-- [ ] High-ROI topics identified → [RAPID_REVISION.md](RAPID_REVISION.md)
-- [ ] Software tools reviewed → [Software Hub](../archive/legacy_software/README.md)
-- [ ] Aptitude speed + accuracy checked → [Aptitude Hub](../01_common/aptitude/README.md)
+- [ ] Formula sheet reviewed → [Formula Sheet](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
+- [ ] High-ROI topics identified → [RAPID_REVISION.md](../aptitude/rapid-revision/RAPID_REVISION.md)
+- [ ] Software tools reviewed → [Software Hub](../../archive/legacy_software/README.md)
+- [ ] Aptitude speed + accuracy checked → [Aptitude Hub](../../01_common/aptitude/README.md)
 
 ---
 
@@ -94,7 +94,7 @@
 - [ ] Review project defence
 - [ ] Sleep 7+ hours
 
-> Full day-of playbook: [Interview Day Survival](interview/interview-day-survival.md)
+> Full day-of playbook: [Interview Day Survival](../interview-fundamentals/interview-day-survival.md)
 
 ---
 
@@ -108,4 +108,4 @@
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](README.md)

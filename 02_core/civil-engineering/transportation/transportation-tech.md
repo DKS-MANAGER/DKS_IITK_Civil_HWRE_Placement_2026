@@ -174,9 +174,9 @@ Step 6: Report — Findings, recommendations, exhibits
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| Excel | [`tools/Excel.md`](../tools/Excel.md) |
-| QGIS / GIS | [`tools/QGIS.md`](../tools/QGIS.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
+| Excel | [`tools/Excel.md`](../../../01_common/placement-math/Excel.md) |
+| QGIS / GIS | [`tools/QGIS.md`](../geoinformatics/QGIS.md) |
+| Python | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 
@@ -184,11 +184,11 @@ Step 6: Report — Findings, recommendations, exhibits
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Transportation | [`02_02_02_core/civil-engineering/transportation/`](../../02_02_02_core/civil-engineering/transportation/transportation-engineering.md) |
-| Existing Transport Software | [`02_02_02_core/civil-engineering/transportation/transportation-software.md`](../../02_02_02_core/civil-engineering/transportation/transportation-software.md) |
-| GIS Technology | [`gis/`](../gis/gis-tech.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
+| Core Transportation | [`02_core/civil-engineering/transportation/`](transportation-engineering.md) |
+| Existing Transport Software | [`02_core/civil-engineering/transportation/transportation-software.md`](transportation-software.md) |
+| GIS Technology | [`gis/`](../geoinformatics/gis-tech.md) |
+| Python for Engineering | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 
-*See also: [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`branch-roadmaps.md`](../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

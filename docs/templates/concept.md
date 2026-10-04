@@ -64,7 +64,7 @@ Real engineering applications and where this concept is used.
 
 ## Related Topics
 
-- [Related concept 1](../../02_02_02_02_core/README.md)
+- [Related concept 1](../../README.md)
 - [Related concept 2](../../03_non_core/README.md)
 
 ## Quick Revision

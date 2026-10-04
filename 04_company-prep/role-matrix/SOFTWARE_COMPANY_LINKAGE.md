@@ -20,11 +20,11 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link | Test Link |
 |:---|:---:|:---:|:---|:---|:---|
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) | [`tests/README.md`](tests/README.md#autocad-test) |
-| **STAAD.Pro** | `[VERIFIED]` | L2–L3 Working | [`tools/STAAD.md`](tools/STAAD.md) | [`practice/README.md`](practice/README.md#staadpro) | [`tests/README.md`](tests/README.md#staadpro-test) |
-| **ETABS** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/ETABS.md`](tools/ETABS.md) | [`practice/README.md`](practice/README.md#etabs) | [`tests/README.md`](tests/README.md#etabs-test) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) | [`tests/README.md`](tests/README.md#excel-test) |
-| **Primavera P6**| `[VERIFIED]` | L2 Working | [`tools/Primavera.md`](tools/Primavera.md) | [`practice/README.md`](practice/README.md#primavera--ms-project) | [`tests/README.md`](tests/README.md#primavera--ms-project-test) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md#autocad-test) |
+| **STAAD.Pro** | `[VERIFIED]` | L2–L3 Working | [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) | [`practice/README.md`](../../README.md#staadpro) | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md#staadpro-test) |
+| **ETABS** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) | [`practice/README.md`](../../README.md#etabs) | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md#etabs-test) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md#excel-test) |
+| **Primavera P6**| `[VERIFIED]` | L2 Working | [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md) | [`practice/README.md`](../../README.md#primavera--ms-project) | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md#primavera--ms-project-test) |
 
 ---
 
@@ -32,10 +32,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
-| **Primavera / MS Project**| `[VERIFIED]` | L3 Proficient | [`tools/Primavera.md`](tools/Primavera.md) | [`practice/README.md`](practice/README.md#primavera--ms-project) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) |
-| **Revit (BIM)** | `[SOURCE-DERIVED]` | L1–L2 Basic | [`tools/Revit.md`](tools/Revit.md) | [`practice/README.md`](practice/README.md#revit--navisworks) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
+| **Primavera / MS Project**| `[VERIFIED]` | L3 Proficient | [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md) | [`practice/README.md`](../../README.md#primavera--ms-project) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) |
+| **Revit (BIM)** | `[SOURCE-DERIVED]` | L1–L2 Basic | [`tools/Revit.md`](../../02_core/civil-engineering/tools/Revit.md) | [`practice/README.md`](../../README.md#revit--navisworks) |
 
 ---
 
@@ -43,10 +43,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **SAP2000** | `[VERIFIED]` | L3 Proficient | [`tools/SAP2000.md`](tools/SAP2000.md) | [`practice/README.md`](practice/README.md#sap2000) |
-| **ETABS** | `[VERIFIED]` | L3 Proficient | [`tools/ETABS.md`](tools/ETABS.md) | [`practice/README.md`](practice/README.md#etabs) |
-| **Revit** | `[VERIFIED]` | L2–L3 Working | [`tools/Revit.md`](tools/Revit.md) | [`practice/README.md`](practice/README.md#revit--navisworks) |
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
+| **SAP2000** | `[VERIFIED]` | L3 Proficient | [`tools/SAP2000.md`](../../02_core/civil-engineering/tools/SAP2000.md) | [`practice/README.md`](../../README.md#sap2000) |
+| **ETABS** | `[VERIFIED]` | L3 Proficient | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) | [`practice/README.md`](../../README.md#etabs) |
+| **Revit** | `[VERIFIED]` | L2–L3 Working | [`tools/Revit.md`](../../02_core/civil-engineering/tools/Revit.md) | [`practice/README.md`](../../README.md#revit--navisworks) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
 
 ---
 
@@ -54,10 +54,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **SAP2000** | `[SOURCE-DERIVED]` | L2 Intermediate | [`tools/SAP2000.md`](tools/SAP2000.md) | [`practice/README.md`](practice/README.md#sap2000) |
-| **ETABS** | `[SOURCE-DERIVED]` | L2 Intermediate | [`tools/ETABS.md`](tools/ETABS.md) | [`practice/README.md`](practice/README.md#etabs) |
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) |
+| **SAP2000** | `[SOURCE-DERIVED]` | L2 Intermediate | [`tools/SAP2000.md`](../../02_core/civil-engineering/tools/SAP2000.md) | [`practice/README.md`](../../README.md#sap2000) |
+| **ETABS** | `[SOURCE-DERIVED]` | L2 Intermediate | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) | [`practice/README.md`](../../README.md#etabs) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) |
 
 ---
 
@@ -65,10 +65,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
-| **STAAD.Pro** | `[VERIFIED]` | L2–L3 Working | [`tools/STAAD.md`](tools/STAAD.md) | [`practice/README.md`](practice/README.md#staadpro) |
-| **ETABS** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/ETABS.md`](tools/ETABS.md) | [`practice/README.md`](practice/README.md#etabs) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
+| **STAAD.Pro** | `[VERIFIED]` | L2–L3 Working | [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) | [`practice/README.md`](../../README.md#staadpro) |
+| **ETABS** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) | [`practice/README.md`](../../README.md#etabs) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) |
 
 ---
 
@@ -76,10 +76,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **HEC-RAS** | `[VERIFIED]` | L3 Proficient | [`deep-dives/hec-ras-walkthrough.md`](deep-dives/hec-ras-walkthrough.md) | [`practice/README.md`](practice/README.md#hec-ras) |
-| **HEC-HMS** | `[VERIFIED]` | L2–L3 Working | [`deep-dives/hec-hms-tutorial.md`](deep-dives/hec-hms-tutorial.md) | [`practice/README.md`](practice/README.md#hec-hms) |
-| **QGIS / ArcGIS** | `[VERIFIED]` | L3 Proficient | [`tools/QGIS.md`](tools/QGIS.md) | [`practice/README.md`](practice/README.md#qgis--arcgis) |
-| **Python** | `[VERIFIED]` | L2 Working | [`programming/python.md`](programming/python.md) | [`practice/README.md`](practice/README.md#python) |
+| **HEC-RAS** | `[VERIFIED]` | L3 Proficient | [`deep-dives/hec-ras-walkthrough.md`](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) | [`practice/README.md`](../../README.md#hec-ras) |
+| **HEC-HMS** | `[VERIFIED]` | L2–L3 Working | [`deep-dives/hec-hms-tutorial.md`](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) | [`practice/README.md`](../../README.md#hec-hms) |
+| **QGIS / ArcGIS** | `[VERIFIED]` | L3 Proficient | [`tools/QGIS.md`](../../02_core/civil-engineering/geoinformatics/QGIS.md) | [`practice/README.md`](../../README.md#qgis--arcgis) |
+| **Python** | `[VERIFIED]` | L2 Working | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | [`practice/README.md`](../../README.md#python) |
 
 ---
 
@@ -87,10 +87,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **QGIS / ArcGIS** | `[VERIFIED]` | L3 Proficient | [`tools/QGIS.md`](tools/QGIS.md) | [`practice/README.md`](practice/README.md#qgis--arcgis) |
-| **SQL / PostGIS** | `[VERIFIED]` | L2–L3 Working | [`programming/sql.md`](programming/sql.md) | [`practice/README.md`](practice/README.md#sql) |
-| **Python (GeoPandas)** | `[VERIFIED]` | L2–L3 Working | [`programming/python.md`](programming/python.md) | [`practice/README.md`](practice/README.md#python) |
-| **Google Earth Engine** | `[INFERRED]` | L1–L2 Basic | [`gis/gis-tech.md`](gis/gis-tech.md) | [`tools/QGIS.md`](tools/QGIS.md) |
+| **QGIS / ArcGIS** | `[VERIFIED]` | L3 Proficient | [`tools/QGIS.md`](../../02_core/civil-engineering/geoinformatics/QGIS.md) | [`practice/README.md`](../../README.md#qgis--arcgis) |
+| **SQL / PostGIS** | `[VERIFIED]` | L2–L3 Working | [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) | [`practice/README.md`](../../README.md#sql) |
+| **Python (GeoPandas)** | `[VERIFIED]` | L2–L3 Working | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | [`practice/README.md`](../../README.md#python) |
+| **Google Earth Engine** | `[INFERRED]` | L1–L2 Basic | [`gis/gis-tech.md`](../../02_core/civil-engineering/geoinformatics/gis-tech.md) | [`tools/QGIS.md`](../../02_core/civil-engineering/geoinformatics/QGIS.md) |
 
 ---
 
@@ -98,10 +98,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **EPANET** | `[SOURCE-DERIVED]` | L2 Working | [`deep-dives/epanet-walkthrough.md`](deep-dives/epanet-walkthrough.md) | [`practice/README.md`](practice/README.md#epanet) |
-| **HEC-RAS** | `[SOURCE-DERIVED]` | L2 Basic | [`deep-dives/hec-ras-walkthrough.md`](deep-dives/hec-ras-walkthrough.md) | [`practice/README.md`](practice/README.md#hec-ras) |
-| **AutoCAD** | `[INFERRED]` | L2–L3 Working | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) |
+| **EPANET** | `[SOURCE-DERIVED]` | L2 Working | [`deep-dives/epanet-walkthrough.md`](../../02_core/hwre/software-deep-dives/epanet-walkthrough.md) | [`practice/README.md`](../../README.md#epanet) |
+| **HEC-RAS** | `[SOURCE-DERIVED]` | L2 Basic | [`deep-dives/hec-ras-walkthrough.md`](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) | [`practice/README.md`](../../README.md#hec-ras) |
+| **AutoCAD** | `[INFERRED]` | L2–L3 Working | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) |
 
 ---
 
@@ -109,10 +109,10 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Tool | Provenance | Target Level | Study Material | Practice Link |
 |:---|:---:|:---:|:---|:---|
-| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | [`practice/README.md`](practice/README.md#autocad) |
-| **Civil 3D** | `[SOURCE-DERIVED]` | L2 Basic | [`transportation/transportation-tech.md`](transportation/transportation-tech.md) | [`transportation/`](transportation/transportation-tech.md) |
-| **STAAD.Pro** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/STAAD.md`](tools/STAAD.md) | [`practice/README.md`](practice/README.md#staadpro) |
-| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | [`practice/README.md`](practice/README.md#excel) |
+| **AutoCAD** | `[VERIFIED]` | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | [`practice/README.md`](../../README.md#autocad) |
+| **Civil 3D** | `[SOURCE-DERIVED]` | L2 Basic | [`transportation/transportation-tech.md`](../../02_core/civil-engineering/transportation/transportation-tech.md) | [`transportation/`](../../02_core/civil-engineering/transportation/transportation-tech.md) |
+| **STAAD.Pro** | `[SOURCE-DERIVED]` | L2 Basic | [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) | [`practice/README.md`](../../README.md#staadpro) |
+| **Excel** | `[VERIFIED]` | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | [`practice/README.md`](../../README.md#excel) |
 
 ---
 
@@ -120,16 +120,16 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Company | Target Role | Key Tools & Provenance | Study Material |
 |:---|:---|:---|:---|
-| **BPCL** | Management Trainee | AutoCAD `[VERIFIED]`, STAAD `[SOURCE-DERIVED]`, Primavera `[INFERRED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](tools/AutoCAD.md), [`tools/STAAD.md`](tools/STAAD.md), [`tools/Primavera.md`](tools/Primavera.md), [`tools/Excel.md`](tools/Excel.md) |
-| **HPCL** | Officer (Civil) | Primavera `[SOURCE-DERIVED]`, Excel `[VERIFIED]`, AutoCAD `[INFERRED]` | [`tools/Primavera.md`](tools/Primavera.md), [`tools/Excel.md`](tools/Excel.md), [`tools/AutoCAD.md`](tools/AutoCAD.md) |
-| **ITC** | AUT Projects | Primavera `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/Primavera.md`](tools/Primavera.md), [`tools/Excel.md`](tools/Excel.md) |
-| **JSW** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](tools/AutoCAD.md), [`tools/Excel.md`](tools/Excel.md) |
-| **Dimension Renewables**| Structural | AutoCAD `[VERIFIED]`, FEA / ANSYS `[SOURCE-DERIVED]` | [`tools/AutoCAD.md`](tools/AutoCAD.md), [`cfd/cfd-tech.md`](cfd/cfd-tech.md) |
-| **Petronet LNG** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](tools/AutoCAD.md), [`tools/Excel.md`](tools/Excel.md) |
-| **Reliance Industries** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](tools/AutoCAD.md), [`tools/Excel.md`](tools/Excel.md) |
-| **Smarttrak AI** | Structural / Solar | ANSYS `[SOURCE-DERIVED]`, AutoCAD `[VERIFIED]`, STAAD `[SOURCE-DERIVED]` | [`cfd/cfd-tech.md`](cfd/cfd-tech.md), [`tools/AutoCAD.md`](tools/AutoCAD.md), [`tools/STAAD.md`](tools/STAAD.md) |
-| **TuTr Hyperloop** | CAE / Aerodynamics | ANSYS `[VERIFIED]`, OpenFOAM `[SOURCE-DERIVED]`, Python `[VERIFIED]` | [`cfd/cfd-tech.md`](cfd/cfd-tech.md), [`deep-dives/openfoam-case-study.md`](deep-dives/openfoam-case-study.md), [`programming/python.md`](programming/python.md) |
-| **Reliance New Energy** | Civil / Geotech | PLAXIS `[VERIFIED]`, GeoStudio `[SOURCE-DERIVED]`, Excel `[VERIFIED]` | [`deep-dives/plaxis-2d-tutorial.md`](deep-dives/plaxis-2d-tutorial.md), [`deep-dives/geostudio-slopew-tutorial.md`](deep-dives/geostudio-slopew-tutorial.md), [`tools/Excel.md`](tools/Excel.md) |
+| **BPCL** | Management Trainee | AutoCAD `[VERIFIED]`, STAAD `[SOURCE-DERIVED]`, Primavera `[INFERRED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md), [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **HPCL** | Officer (Civil) | Primavera `[SOURCE-DERIVED]`, Excel `[VERIFIED]`, AutoCAD `[INFERRED]` | [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md), [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) |
+| **ITC** | AUT Projects | Primavera `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **JSW** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **Dimension Renewables**| Structural | AutoCAD `[VERIFIED]`, FEA / ANSYS `[SOURCE-DERIVED]` | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`cfd/cfd-tech.md`](../../02_core/cfd/cfd-tech.md) |
+| **Petronet LNG** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **Reliance Industries** | GET | AutoCAD `[VERIFIED]`, Excel `[VERIFIED]` | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **Smarttrak AI** | Structural / Solar | ANSYS `[SOURCE-DERIVED]`, AutoCAD `[VERIFIED]`, STAAD `[SOURCE-DERIVED]` | [`cfd/cfd-tech.md`](../../02_core/cfd/cfd-tech.md), [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md), [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) |
+| **TuTr Hyperloop** | CAE / Aerodynamics | ANSYS `[VERIFIED]`, OpenFOAM `[SOURCE-DERIVED]`, Python `[VERIFIED]` | [`cfd/cfd-tech.md`](../../02_core/cfd/cfd-tech.md), [`deep-dives/openfoam-case-study.md`](../../02_core/cfd/openfoam-case-study.md), [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
+| **Reliance New Energy** | Civil / Geotech | PLAXIS `[VERIFIED]`, GeoStudio `[SOURCE-DERIVED]`, Excel `[VERIFIED]` | [`deep-dives/plaxis-2d-tutorial.md`](../../02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md), [`deep-dives/geostudio-slopew-tutorial.md`](../../02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
 
 ---
 
@@ -137,16 +137,16 @@ To maintain strict truth-in-advertising and prevent guesswork:
 
 | Company | Role | Key Tools & Provenance | Study Material |
 |:---|:---|:---|:---|
-| **Accenture** | Data / AI Analyst | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](programming/python.md), [`programming/sql.md`](programming/sql.md) |
-| **Axis Bank** | BI Analyst | Excel `[VERIFIED]`, SQL `[VERIFIED]`, Power BI `[SOURCE-DERIVED]` | [`tools/Excel.md`](tools/Excel.md), [`programming/sql.md`](programming/sql.md), [`data/data-analytics-stack.md`](data/data-analytics-stack.md) |
-| **Barclays** | Quant / Data Science | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](programming/python.md), [`programming/sql.md`](programming/sql.md) |
-| **Battery Smart**| Business Analyst | SQL `[VERIFIED]`, Excel `[VERIFIED]` | [`programming/sql.md`](programming/sql.md), [`tools/Excel.md`](tools/Excel.md) |
-| **Blitz** | Software / BA | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](programming/python.md), [`programming/sql.md`](programming/sql.md) |
-| **Mu Sigma** | Decision Scientist | Excel `[VERIFIED]`, SQL `[SOURCE-DERIVED]` | [`tools/Excel.md`](tools/Excel.md), [`programming/sql.md`](programming/sql.md) |
-| **Expeditors** | Software Dev | Java / OOP `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/c-cpp.md`](programming/c-cpp.md), [`programming/sql.md`](programming/sql.md) |
-| **Hubstream** | SDE | DSA `[VERIFIED]`, SQL `[VERIFIED]` | [`technology-careers/tech-careers.md`](technology-careers/tech-careers.md), [`programming/sql.md`](programming/sql.md) |
-| **Deltax** | SDE | DSA `[VERIFIED]`, SQL `[VERIFIED]` | [`technology-careers/tech-careers.md`](technology-careers/tech-careers.md), [`programming/sql.md`](programming/sql.md) |
-| **AgniKul Cosmos**| Aerodynamics / CFD | OpenFOAM `[SOURCE-DERIVED]`, Python `[VERIFIED]`, Linux `[INFERRED]` | [`deep-dives/openfoam-case-study.md`](deep-dives/openfoam-case-study.md), [`programming/python.md`](programming/python.md) |
+| **Accenture** | Data / AI Analyst | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Axis Bank** | BI Analyst | Excel `[VERIFIED]`, SQL `[VERIFIED]`, Power BI `[SOURCE-DERIVED]` | [`tools/Excel.md`](../../01_common/placement-math/Excel.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md), [`data/data-analytics-stack.md`](../../03_non_core/data-science/data-analytics-stack.md) |
+| **Barclays** | Quant / Data Science | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Battery Smart**| Business Analyst | SQL `[VERIFIED]`, Excel `[VERIFIED]` | [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md), [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **Blitz** | Software / BA | Python `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Mu Sigma** | Decision Scientist | Excel `[VERIFIED]`, SQL `[SOURCE-DERIVED]` | [`tools/Excel.md`](../../01_common/placement-math/Excel.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Expeditors** | Software Dev | Java / OOP `[VERIFIED]`, SQL `[VERIFIED]` | [`programming/c-cpp.md`](../../03_non_core/software-engineering/programming/c-cpp.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Hubstream** | SDE | DSA `[VERIFIED]`, SQL `[VERIFIED]` | [`technology-careers/tech-careers.md`](../../03_non_core/software-engineering/tech-careers.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **Deltax** | SDE | DSA `[VERIFIED]`, SQL `[VERIFIED]` | [`technology-careers/tech-careers.md`](../../03_non_core/software-engineering/tech-careers.md), [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) |
+| **AgniKul Cosmos**| Aerodynamics / CFD | OpenFOAM `[SOURCE-DERIVED]`, Python `[VERIFIED]`, Linux `[INFERRED]` | [`deep-dives/openfoam-case-study.md`](../../02_core/cfd/openfoam-case-study.md), [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 
@@ -161,4 +161,4 @@ To maintain strict truth-in-advertising and prevent guesswork:
 ---
 
 > **Related Navigation:**
-> [SOFTWARE_ROLE_MATRIX.md](SOFTWARE_ROLE_MATRIX.md) · [TOOLS_INDEX.md](TOOLS_INDEX.md) · [SOFTWARE_COMPLETENESS_MATRIX.md](SOFTWARE_COMPLETENESS_MATRIX.md) · [04_company-prep/](../04_company-prep/)
+> [SOFTWARE_ROLE_MATRIX.md](SOFTWARE_ROLE_MATRIX.md) · [TOOLS_INDEX.md](../../07_resources/reference-material/TOOLS_INDEX.md) · [SOFTWARE_COMPLETENESS_MATRIX.md](../../archive/legacy_software/SOFTWARE_COMPLETENESS_MATRIX.md) · [04_company-prep/](../../04_company-prep/)

@@ -121,9 +121,9 @@ Day 5: Steel + materials | Day 6: AutoCAD | Day 7: Mock interview
 
 ## Cross-Links
 
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
 
 ---
 

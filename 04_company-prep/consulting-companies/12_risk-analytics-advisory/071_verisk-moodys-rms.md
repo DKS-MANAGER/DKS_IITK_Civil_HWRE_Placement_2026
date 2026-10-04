@@ -1,6 +1,6 @@
 # Verisk / Moody's RMS India — Corporate Placement Profile
 
-> **Target ID:** CORP-071 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-071 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 12_risk-analytics-advisory | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

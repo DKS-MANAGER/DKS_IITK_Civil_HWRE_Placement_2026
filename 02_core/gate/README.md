@@ -35,4 +35,4 @@ SYLLABUS → ROADMAP → LEARN → FORMULAS → EXAMPLES → PYQs → TESTS → 
 ## Related
 
 - [Core Civil Hub](../README.md)
-- [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)

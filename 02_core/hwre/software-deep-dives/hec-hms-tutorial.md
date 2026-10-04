@@ -2,7 +2,7 @@
 
 > **Tool:** HEC-HMS (Hydrologic Modeling System)
 > **Level:** L2 → L3 (from first model to a complete rainfall-runoff + flood hydrograph)
-> **Prerequisite:** [`hydrology-tech.md`](../hydrology/hydrology-tech.md), hydrology basics ([`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md))
+> **Prerequisite:** [`hydrology-tech.md`](../hydrology-tech.md), hydrology basics ([`hydrology.md`](../hydrology/hydrology.md))
 
 This is a **hands-on tutorial**, not a feature list. You will build a real hydrologic model end-to-end: a **small watershed** with subbasins, a reach, a junction, and an outlet, driven by a design storm. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -243,8 +243,8 @@ For each subbasin, set the **Recession** baseflow parameters:
 
 ## 🔗 Related Resources
 
-- [`hydrology-tech.md`](../hydrology/hydrology-tech.md) — Where HEC-HMS fits in the hydrology stack
+- [`hydrology-tech.md`](../hydrology-tech.md) — Where HEC-HMS fits in the hydrology stack
 - [`hec-ras-walkthrough.md`](hec-ras-walkthrough.md) — HEC-HMS output feeds HEC-RAS
-- [`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) — Hydrology theory
-- [`flood-control.md`](../../02_02_02_02_02_02_core/hwre/flood_control/flood-control.md) — Flood management
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`hydrology.md`](../hydrology/hydrology.md) — Hydrology theory
+- [`flood-control.md`](../flood_control/flood-control.md) — Flood management
+- [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) — More tool questions

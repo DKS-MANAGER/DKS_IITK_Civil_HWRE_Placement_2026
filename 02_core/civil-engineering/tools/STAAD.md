@@ -248,11 +248,11 @@ STAAD.Pro → Structural Analysis → stiffness method, FEM
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| Structural Roadmap | [`structural/structural-tech.md`](../structural/structural-tech.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| Structural Roadmap | [`structural/structural-tech.md`](../structures/structural-tech.md) |
 | ETABS (sibling) | [`tools/ETABS.md`](../tools/ETABS.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
-| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../SOFTWARE_RESUME_STRATEGY.md) |
+| Interview Questions | [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) |
+| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../../../01_common/resume/SOFTWARE_RESUME_STRATEGY.md) |
 
 ---
 

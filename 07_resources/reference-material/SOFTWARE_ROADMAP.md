@@ -11,7 +11,7 @@
 ROLE → REQUIRED TOOLS → WHAT TO LEARN → STUDY → PRACTICE → PROJECT → TEST → INTERVIEW
 ```
 
-**Never learn a tool "because it exists."** Learn it because your target role requires it (see [`SOFTWARE_ROLE_MATRIX.md`](SOFTWARE_ROLE_MATRIX.md)).
+**Never learn a tool "because it exists."** Learn it because your target role requires it (see [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md)).
 
 ---
 
@@ -21,11 +21,11 @@ These 3 tools cover **all** HIGH/MEDIUM companies:
 
 | Tool | Why | Level | Source |
 |:-----|:----|:-----:|:-------|
-| **Excel** | Universal — BOQ, calculations, data | L3 | [`tools/Excel.md`](tools/Excel.md) |
-| **AutoCAD** | Universal — drawings, detailing | L2–L3 | [`tools/AutoCAD.md`](tools/AutoCAD.md) |
+| **Excel** | Universal — BOQ, calculations, data | L3 | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| **AutoCAD** | Universal — drawings, detailing | L2–L3 | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) |
 | **One domain tool** | Your specialization's P0 tool | L3 | See role matrix |
 
-> **Key insight from company data:** `AutoCAD + one analysis software (ETABS/STAAD) + Excel` covers all HIGH/MEDIUM companies. Add Primavera for PM-track companies. — [`civil-cross-company-strategy.md`](../04_company-prep/company-directory/civil-cross-company-strategy.md)
+> **Key insight from company data:** `AutoCAD + one analysis software (ETABS/STAAD) + Excel` covers all HIGH/MEDIUM companies. Add Primavera for PM-track companies. — [`civil-cross-company-strategy.md`](../../04_company-prep/company-directory/civil-cross-company-strategy.md)
 
 ---
 
@@ -39,9 +39,9 @@ These 3 tools cover **all** HIGH/MEDIUM companies:
 | 2 | Your P0 domain tool — workflow | Same | Build one small model |
 | 3 | Excel — BOQ/calculations | Excel | Build a calculation sheet |
 | 4 | AutoCAD — drawing reading | AutoCAD | Read/interpret a drawing |
-| 5 | Interview questions | [`software-interview-questions.md`](software-interview-questions.md) | 5 Q&As per tool |
-| 6 | Resume + project story | [`resume-positioning.md`](resume-positioning.md) | 3 resume bullets |
-| 7 | Mock interview | [`01_common/interview-fundamentals/`](../01_common/interview-fundamentals/) | Full mock |
+| 5 | Interview questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) | 5 Q&As per tool |
+| 6 | Resume + project story | [`resume-positioning.md`](../../01_common/resume/resume-positioning.md) | 3 resume bullets |
+| 7 | Mock interview | [`01_common/interview-fundamentals/`](../../01_common/interview-fundamentals/) | Full mock |
 
 ### 30-Day (Standard placement prep)
 
@@ -124,7 +124,7 @@ Project: Project tracking dashboard (Power BI)
 | **L3** | Can complete a realistic project | Tool is `[MUST LEARN]` / `[HIGH ROI]` |
 | **L4** | Can handle complex/automation | Only for specialized roles (CFD, R&D) |
 
-> ⚠️ **Only list a tool on your resume at L3+.** See [`resume-positioning.md`](resume-positioning.md).
+> ⚠️ **Only list a tool on your resume at L3+.** See [`resume-positioning.md`](../../01_common/resume/resume-positioning.md).
 
 ---
 
@@ -144,11 +144,11 @@ Project: Project tracking dashboard (Power BI)
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role → Tool Mapping | [`SOFTWARE_ROLE_MATRIX.md`](SOFTWARE_ROLE_MATRIX.md) |
+| Role → Tool Mapping | [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
 | Tool Index | [`TOOLS_INDEX.md`](TOOLS_INDEX.md) |
 | Priority System | [`priority-system.md`](priority-system.md) |
 | Learning Roadmaps (detailed) | [`learning-roadmaps.md`](learning-roadmaps.md) |
-| Anti-Overload | [`anti-overload.md`](anti-overload.md) |
+| Anti-Overload | [`anti-overload.md`](../../06_revision/anti-overload.md) |
 
 ---
 

@@ -56,7 +56,7 @@
 
 ## Next Action
 
-**Superseded by the 2026-09-11 independent audit** ([`docs/audit/aptitude-audit-2026-09.md`](../docs/audit/aptitude-audit-2026-09.md)).
+**Superseded by the 2026-09-11 independent audit** ([`docs/audit/aptitude-audit-2026-09.md`](../archive/reports/audit/aptitude-audit-2026-09.md)).
 The "all complete / placement-ready" claim above was not accurate. Phase-0 trust repair is now done:
 14 topic tests re-keyed with worked solutions and randomised options; `full-placement-mock-1` rebuilt with
 verified answers; `di/tables-caselets.md`, `reasoning/coding-decoding.md`, `reasoning/puzzles-scheduling.md`,

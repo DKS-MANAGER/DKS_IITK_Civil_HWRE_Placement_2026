@@ -89,8 +89,8 @@ Day 6: Fatigue analysis | Day 7: Mock interview
 ```
 
 ## Cross-Links
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
 
 ## References
 - IS 875:2015 (Part 3) — Wind Loads

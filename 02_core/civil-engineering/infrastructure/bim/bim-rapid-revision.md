@@ -213,8 +213,8 @@ A: Understanding of structural systems, construction sequencing, and design inte
 
 **Related:**
 → [Construction Technology](../construction/construction-tech.md) — Construction tools
-→ [Structural Technology](../structural/structural-tech.md) — Structural modeling
-→ [Infrastructure/PM](../../02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md) — PM context
+→ [Structural Technology](../../structures/structural-tech.md) — Structural modeling
+→ [Infrastructure/PM](../infrastructure-engineering-management.md) — PM context
 
 ---
 

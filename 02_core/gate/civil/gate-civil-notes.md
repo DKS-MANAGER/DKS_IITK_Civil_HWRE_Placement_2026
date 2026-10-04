@@ -1,12 +1,12 @@
 # GATE Civil Engineering — Topic-wise Notes
 
 > Study notes for GATE Civil preparation. Each subject: key concepts, conditions, and links to detailed theory + formulas.
-> **Primary source**: GATE-O-PEDIA Civil Engineering Handbook (Physics Wallah). Detailed theory lives in `02_02_core/<subject>/` files.
+> **Primary source**: GATE-O-PEDIA Civil Engineering Handbook (Physics Wallah). Detailed theory lives in `02_core/<subject>/` files.
 
 ## How to Use These Notes
 
 1. Read the concept summary below for each subject.
-2. For depth, open the linked `02_02_core/<subject>/` file.
+2. For depth, open the linked `02_core/<subject>/` file.
 3. Memorize formulas from [`formulas/gate-civil-formulas.md`](../formulas/gate-civil-formulas.md).
 4. Solve [`practice/gate-civil-practice.md`](../practice/gate-civil-practice.md) problems.
 5. Track errors in [`ERROR_ANALYSIS.md`](../ERROR_ANALYSIS.md).
@@ -77,7 +77,7 @@
 - Parallel axis: `I = I_c + Ad²`
 
 **Formulas:** [`§2 Engineering Mechanics`](../formulas/gate-civil-formulas.md#2-engineering-mechanics)
-**Detailed theory:** [`02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md`](../../fundamentals/engineering-mechanics.md)
+**Detailed theory:** [`02_core/civil-engineering/fundamentals/engineering-mechanics.md`](../../civil-engineering/fundamentals/engineering-mechanics.md)
 
 ---
 
@@ -114,7 +114,7 @@
 - Rankine-Gordon for short columns
 
 **Formulas:** [`§3 Strength of Materials`](../formulas/gate-civil-formulas.md#3-strength-of-materials)
-**Detailed theory:** [`02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md`](../../fundamentals/strength-of-materials.md)
+**Detailed theory:** [`02_core/civil-engineering/fundamentals/strength-of-materials.md`](../../civil-engineering/fundamentals/strength-of-materials.md)
 
 ---
 
@@ -140,7 +140,7 @@
 - Stiffness: `{F} = [K]{Δ}`; flexibility: `{Δ} = [f]{F}`
 
 **Formulas:** [`§4 Structural Analysis`](../formulas/gate-civil-formulas.md#4-structural-analysis)
-**Detailed theory:** [`02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md`](../../structural-analysis/structural-analysis.md)
+**Detailed theory:** [`02_core/civil-engineering/structural-analysis/structural-analysis.md`](../../civil-engineering/structural-analysis/structural-analysis.md)
 
 ---
 
@@ -163,7 +163,7 @@
 - Span/depth: cantilever 1/7, SS 1/20, continuous 1/26
 
 **Formulas:** [`§5 RCC`](../formulas/gate-civil-formulas.md#5-reinforced-concrete-structures)
-**Detailed theory:** [`02_02_02_core/civil-engineering/rcc/rcc-design.md`](../../rcc/rcc-design.md)
+**Detailed theory:** [`02_core/civil-engineering/rcc/rcc-design.md`](../../civil-engineering/rcc/rcc-design.md)
 
 ---
 
@@ -182,7 +182,7 @@
 - Welds: `f_wd = f_u/(√3γ_Mw)`, throat `t_t = 0.7s`
 
 **Formulas:** [`§6 Steel`](../formulas/gate-civil-formulas.md#6-steel-structures)
-**Detailed theory:** [`02_02_02_core/civil-engineering/steel/steel-design.md`](../../steel/steel-design.md)
+**Detailed theory:** [`02_core/civil-engineering/steel/steel-design.md`](../../civil-engineering/steel/steel-design.md)
 
 ---
 
@@ -214,7 +214,7 @@
 - Infinite slope: `F_s = tanφ/tanβ` (dry); `(γ'/γ_sat)(tanφ/tanβ)` (seepage)
 
 **Formulas:** [`§7 Geotechnical`](../formulas/gate-civil-formulas.md#7-geotechnical-engineering)
-**Detailed theory:** [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../../geotechnical/geotechnical.md)
+**Detailed theory:** [`02_core/civil-engineering/geotechnical/geotechnical.md`](../../civil-engineering/geotechnical/geotechnical.md)
 
 ---
 
@@ -243,7 +243,7 @@
 - Minor losses: `h_m = Kv²/2g`
 
 **Formulas:** [`§8 Fluid Mechanics`](../formulas/gate-civil-formulas.md#8-fluid-mechanics)
-**Detailed theory:** [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md)
+**Detailed theory:** [`02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md)
 
 ---
 
@@ -274,7 +274,7 @@
 - Affinity: `Q∝N`, `H∝N²`, `P∝N³`
 
 **Formulas:** [`§9 Hydraulics`](../formulas/gate-civil-formulas.md#9-hydraulics--open-channel-flow)
-**Detailed theory:** [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md)
+**Detailed theory:** [`02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md)
 
 ---
 
@@ -302,7 +302,7 @@
 - Thiem: `Q = 2πT(h₂−h₁)/ln(r₂/r₁)`
 
 **Formulas:** [`§10 Hydrology`](../formulas/gate-civil-formulas.md#10-hydrology)
-**Detailed theory:** [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../../hwre/hydrology/hydrology.md)
+**Detailed theory:** [`02_core/hwre/hydrology/hydrology.md`](../../hwre/hydrology/hydrology.md)
 
 ---
 
@@ -330,7 +330,7 @@
 - Solid waste: 0.3–0.6 kg/capita/day
 
 **Formulas:** [`§11 Environmental`](../formulas/gate-civil-formulas.md#11-environmental-engineering)
-**Detailed theory:** [`02_02_02_core/civil-engineering/environmental/environmental-engineering.md`](../../environmental/environmental-engineering.md)
+**Detailed theory:** [`02_core/civil-engineering/environmental/environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md)
 
 ---
 
@@ -353,7 +353,7 @@
 - Rigid: Westergaard (IRC 58)
 
 **Formulas:** [`§12 Transportation`](../formulas/gate-civil-formulas.md#12-transportation-engineering)
-**Detailed theory:** [`02_02_02_core/civil-engineering/transportation/transportation-engineering.md`](../../transportation/transportation-engineering.md)
+**Detailed theory:** [`02_core/civil-engineering/transportation/transportation-engineering.md`](../../civil-engineering/transportation/transportation-engineering.md)
 
 ---
 
@@ -377,7 +377,7 @@
 - Raster vs vector
 
 **Formulas:** [`§13 Geomatics`](../formulas/gate-civil-formulas.md#13-geomatics--surveying)
-**Detailed theory:** [`02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../geoinformatics/geoinformatics.md)
+**Detailed theory:** [`02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../civil-engineering/geoinformatics/geoinformatics.md)
 
 ---
 
@@ -397,7 +397,7 @@
 - Earned value: `CPI = EV/AC`, `SPI = EV/PV`
 
 **Formulas:** [`§14 Construction Mgmt`](../formulas/gate-civil-formulas.md#14-construction-management)
-**Detailed theory:** [`02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md`](../../infrastructure/infrastructure-engineering-management.md)
+**Detailed theory:** [`02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md`](../../civil-engineering/infrastructure/infrastructure-engineering-management.md)
 
 ---
 

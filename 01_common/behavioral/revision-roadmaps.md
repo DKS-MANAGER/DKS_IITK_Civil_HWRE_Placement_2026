@@ -20,7 +20,7 @@
 | 30 min | Practice 10 most likely questions | [`rapid-revision-cards.md`](rapid-revision-cards.md) Card 3 |
 | 30 min | Practice answers aloud (record + review) | [`answer-quality-checker.md`](answer-quality-checker.md) |
 | 30 min | Review frameworks (STAR, CARL, SOAR) | [`frameworks/answer-framework-library.md`](frameworks/answer-framework-library.md) |
-| 30 min | Review resume defense (every line) | [`resume-defense-system.md`](resume-defense-system.md) |
+| 30 min | Review resume defense (every line) | [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) |
 
 ### Evening (1 hour)
 | Time | Activity | Resource |
@@ -69,7 +69,7 @@
 | Research target company (30 min) | [`company-fit-analysis.md`](company-fit-analysis.md) |
 | Prepare "Why this company?" answer | — |
 | Prepare 3 questions to ask | [`questions-to-ask-interviewer.md`](questions-to-ask-interviewer.md) |
-| Review resume defense | [`resume-defense-system.md`](resume-defense-system.md) |
+| Review resume defense | [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) |
 
 ### Day 5: Domain & Technical
 | Activity | Resource |
@@ -121,8 +121,8 @@
 | Day | Focus | Resource |
 |-----|-------|----------|
 | 15-16 | Company research (all target companies) | [`company-fit-analysis.md`](company-fit-analysis.md) |
-| 17 | Resume defense (every line) | [`resume-defense-system.md`](resume-defense-system.md) |
-| 18 | Group discussion practice | [`group-discussion-mastery.md`](group-discussion-mastery.md) |
+| 17 | Resume defense (every line) | [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) |
+| 18 | Group discussion practice | [`group-discussion-mastery.md`](../group-discussion/group-discussion-mastery.md) |
 | 19 | Pressure interview techniques | [`pressure-interview-survival.md`](pressure-interview-survival.md) |
 | 20 | Follow-up defense practice | [`strategies/follow-up-attack-system.md`](strategies/follow-up-attack-system.md) |
 | 21 | Panel mock + scoring | [`mock-interviews/mock-interview-system.md`](mock-interviews/mock-interview-system.md) |
@@ -148,7 +148,7 @@
 
 ### Core Civil (L&T, AECOM)
 **Priority:** Technical + behavioral hybrid > Resume defense > Company fit
-**Key resources:** [`resume-defense-system.md`](resume-defense-system.md), [`hr_questions/hr-technical-hybrid-questions.md`](hr_questions/hr-technical-hybrid-questions.md)
+**Key resources:** [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md), [`hr_questions/hr-technical-hybrid-questions.md`](hr_questions/hr-technical-hybrid-questions.md)
 
 ### Analytics/Tech (Barclays, Accenture)
 **Priority:** Transition story > Problem-solving > Technical (SQL/Python)
@@ -156,11 +156,11 @@
 
 ### Consulting (BCG, KPMG)
 **Priority:** Case frameworks > Communication > Leadership
-**Key resources:** [`group-discussion-mastery.md`](group-discussion-mastery.md), [`story-bank/leadership-stories.md`](story-bank/leadership-stories.md)
+**Key resources:** [`group-discussion-mastery.md`](../group-discussion/group-discussion-mastery.md), [`story-bank/leadership-stories.md`](story-bank/leadership-stories.md)
 
 ### Research (IIT, CSIR)
 **Priority:** Thesis defense > Technical depth > Research motivation
-**Key resources:** [`iitk-pg-questions.md`](iitk-pg-questions.md), [`resume-defense-system.md`](resume-defense-system.md)
+**Key resources:** [`iitk-pg-questions.md`](iitk-pg-questions.md), [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md)
 
 ---
 

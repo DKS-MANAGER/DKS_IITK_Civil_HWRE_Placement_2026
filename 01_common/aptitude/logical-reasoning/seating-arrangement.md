@@ -1226,4 +1226,4 @@ Who sits to the immediate right of $W$?
 - [Direction Sense](direction-sense.md) — Cartesian movements, compass turns, and shortest paths
 - [Formula Sheet](../rapid-revision/FORMULA_SHEET.md) — Comprehensive quantitative & logical formula reference
 - [Rapid Revision](../rapid-revision/RAPID_REVISION.md) — High-yield placement cheatsheet
-- [Topic Test: Seating Arrangement](../tests/seating-arrangement-test.md) — Timed assessment on seating puzzles
+- [Topic Test: Seating Arrangement](../mocks/section-tests/seating-arrangement-test.md) — Timed assessment on seating puzzles

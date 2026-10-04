@@ -190,7 +190,7 @@ A: A bridge construction method where segments are cast or erected symmetrically
 ## Cross-Links
 
 - [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) — Full subject reference
-- [`construction-tech.md`](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md) — Construction technology tools
+- [`construction-tech.md`](construction/construction-tech.md) — Construction technology tools
 - [`construction-role-study-plan.md`](construction-role-study-plan.md) — Detailed study plan with worked examples
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Compaction, foundations
 - [`structures.md`](../structures/structures.md) — Concrete design, IS 456

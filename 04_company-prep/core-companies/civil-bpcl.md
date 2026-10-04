@@ -98,9 +98,9 @@ Day 5: Project management | Day 6: BPCL research | Day 7: Mock interview
 ```
 
 ## Cross-Links
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ## References
 - IS 456:2000, IS 800:2007

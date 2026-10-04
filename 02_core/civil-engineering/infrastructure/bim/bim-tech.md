@@ -156,8 +156,8 @@ Step 6: Publish — Create flythroughs, reports, clash reports
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| Revit / Navisworks | [`tools/Revit.md`](../tools/Revit.md) |
-| AutoCAD | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
+| Revit / Navisworks | [`tools/Revit.md`](../../tools/Revit.md) |
+| AutoCAD | [`tools/AutoCAD.md`](../../tools/AutoCAD.md) |
 | BIM Role Study Plan | [`bim/role-study-plan.md`](../bim/role-study-plan.md) |
 | BIM Rapid Revision | [`bim/bim-rapid-revision.md`](../bim/bim-rapid-revision.md) |
 
@@ -168,8 +168,8 @@ Step 6: Publish — Create flythroughs, reports, clash reports
 | Related Section | Link |
 |:----------------|:-----|
 | Construction Technology | [`construction/`](../construction/construction-tech.md) |
-| Structural Technology | [`structural/`](../structural/structural-tech.md) |
-| CAD → BIM → Digital | [`automation/`](../automation/automation.md) |
+| Structural Technology | [`structural/`](../../structures/structural-tech.md) |
+| CAD → BIM → Digital | [`automation/`](../../../../03_non_core/software-engineering/automation/automation.md) |
 
 ---
 

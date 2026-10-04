@@ -241,7 +241,7 @@ Summarize your analysis into a clear, actionable recommendation.
 |:---------|:-----|
 | Case Frameworks | [case-frameworks.md](../case-interviews/framework-library.md) |
 | Framework Library | [framework-library.md](framework-library.md) |
-| Case Bank | [case-bank.md](../../01_roles/consulting/06_case-practice.md) |
+| Case Bank | [case-bank.md](../../../03_non_core/consulting/06_case-practice.md) |
 | Communication Skills | [../../03_common-skills/communication/communication.md](../common/../../03_common-skills/communication/communication.md) |
 
 ---

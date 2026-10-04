@@ -121,7 +121,7 @@
 | 62 | Loss methods (SCS-CN, Green-Ampt) | [MODELLING.md](MODELLING.md) |
 | 63 | Transform (UH, Snyder, Clark) | [MODELLING.md](MODELLING.md) |
 | 64 | Routing (Muskingum, lag) | [MODELLING.md](MODELLING.md) |
-| 65 | Calibration + validation | [HEC-HMS Tutorial](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md) |
+| 65 | Calibration + validation | [HEC-HMS Tutorial](software-deep-dives/hec-hms-tutorial.md) |
 | 66 | Practice: build a model | [MODELLING.md](MODELLING.md) |
 | 67 | Review + error log | [ERROR_ANALYSIS.md](ERROR_ANALYSIS.md) |
 
@@ -132,7 +132,7 @@
 | 69 | Steady flow analysis | [MODELLING.md](MODELLING.md) |
 | 70 | Unsteady flow analysis | [MODELLING.md](MODELLING.md) |
 | 71 | Bridges, culverts, inline structures | [MODELLING.md](MODELLING.md) |
-| 72 | Dam breach analysis | [HEC-RAS Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) |
+| 72 | Dam breach analysis | [HEC-RAS Walkthrough](software-deep-dives/hec-ras-walkthrough.md) |
 | 73 | Practice: model a reach | [MODELLING.md](MODELLING.md) |
 | 74 | Review + error log | [ERROR_ANALYSIS.md](ERROR_ANALYSIS.md) |
 
@@ -142,8 +142,8 @@
 | 75 | RAS Mapper, terrain processing | [MODELLING.md](MODELLING.md) |
 | 76 | Flood inundation mapping | [MODELLING.md](MODELLING.md) |
 | 77 | HEC-HMS → HEC-RAS coupling | [MODELLING.md](MODELLING.md) |
-| 78 | EPANET + SWMM workflows | [EPANET Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/epanet-walkthrough.md) |
-| 79 | OpenFOAM for research roles | [OpenFOAM Case Study](../../02_02_02_core/cfd/openfoam-case-study.md) |
+| 78 | EPANET + SWMM workflows | [EPANET Walkthrough](software-deep-dives/epanet-walkthrough.md) |
+| 79 | OpenFOAM for research roles | [OpenFOAM Case Study](../cfd/openfoam-case-study.md) |
 | 80 | Practice: end-to-end pipeline | [MODELLING.md](MODELLING.md) |
 | 81 | Review + error log | [ERROR_ANALYSIS.md](ERROR_ANALYSIS.md) |
 

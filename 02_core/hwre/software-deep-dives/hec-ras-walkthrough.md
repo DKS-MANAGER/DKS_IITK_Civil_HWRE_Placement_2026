@@ -2,7 +2,7 @@
 
 > **Tool:** HEC-RAS (Hydrologic Engineering Center — River Analysis System)
 > **Level:** L2 → L3 (from first launch to a complete 1D steady + 2D flood model)
-> **Prerequisite:** [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md), basic open-channel flow theory ([`open-channel-flow.md`](../../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md))
+> **Prerequisite:** [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md), basic open-channel flow theory ([`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md))
 
 This is a **hands-on walkthrough**, not a feature list. You will build a real model end-to-end. Follow the steps in order. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -255,8 +255,8 @@ A **1D steady-flow river model** of a reach with a bridge, then extend it to a *
 
 ## 🔗 Related Resources
 
-- [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md) — Where HEC-RAS fits in the HWRE stack
-- [`hydrology-tech.md`](../hydrology/hydrology-tech.md) — HEC-HMS for rainfall-runoff input
-- [`open-channel-flow.md`](../../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md) — The theory behind the model
-- [`sediment-tech.md`](../sediment/sediment-tech.md) — HEC-RAS sediment transport extension
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md) — Where HEC-RAS fits in the HWRE stack
+- [`hydrology-tech.md`](../hydrology-tech.md) — HEC-HMS for rainfall-runoff input
+- [`open-channel-flow.md`](../open_channel_flow/open-channel-flow.md) — The theory behind the model
+- [`sediment-tech.md`](../sediment-tech.md) — HEC-RAS sediment transport extension
+- [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) — More tool questions

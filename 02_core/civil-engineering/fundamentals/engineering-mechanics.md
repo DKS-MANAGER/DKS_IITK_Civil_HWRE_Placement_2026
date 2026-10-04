@@ -2,7 +2,7 @@
 
 > **Placement Priority:** P0 — Foundation for ALL civil engineering subjects
 > **GATE-O-PEDIA Reference:** Chapter 1 (1,189 lines, 25 topics, 8 formulas)
-> **Canonical Page:** `02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md`
+> **Canonical Page:** `02_core/civil-engineering/fundamentals/engineering-mechanics.md`
 
 ---
 

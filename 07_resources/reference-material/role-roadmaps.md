@@ -273,4 +273,4 @@
 
 ---
 
-*See also: [`branch-roadmaps.md`](branch-roadmaps.md) for branch-specific stacks, [`project-first-learning.md`](project-first-learning.md) for project guidance.*
+*See also: [`branch-roadmaps.md`](branch-roadmaps.md) for branch-specific stacks, [`project-first-learning.md`](../../08_projects/project-first-learning.md) for project guidance.*

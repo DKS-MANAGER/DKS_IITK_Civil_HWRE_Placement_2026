@@ -246,7 +246,7 @@ A: CCC = DSO + DIO - DPO. It measures how long it takes to convert inventory inv
 
 **Related:**
 → [Risk Rapid Revision](../risk/09_rapid-revision.md) — Risk management formulas
-→ [Consulting Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case interview prep
+→ [Consulting Case Frameworks](../../../05_interview/case-interview/case-interviews/framework-library.md) — Case interview prep
 → [Quantitative Aptitude](../../../01_common/aptitude/README.md) — Math fundamentals
 
 ---

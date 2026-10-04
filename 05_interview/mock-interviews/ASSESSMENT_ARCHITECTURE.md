@@ -49,14 +49,14 @@ The repository structures assessment as an integrated progressive ladder. Rather
 
 | Level | Examination Unit | Scope & Structure | Target Time | Benchmark `[PREPARATION HEURISTIC]` | Primary Directory |
 |:---|:---|:---|:---:|:---:|:---|
-| **Level 1** | **Topic Diagnostics** | 15 MCQs focused on a single topic (e.g., Time & Work, Critical Flow, Syllogisms). | 15–20 min | $\ge 12/15$ ($\ge 80\%$) | [`01_common/aptitude/mocks/section-tests/`](../01_common/aptitude/mocks/section-tests/) |
-| **Level 2** | **Sectional Tests** | 25–30 MCQs across an entire section (Quant, DI, Reasoning, Verbal, Civil Core). | 30–40 min | $\ge 75\%$ score, $\le 75\text{ s/Q}$ | [`01_common/aptitude/mocks/section-tests/section/`](../01_common/aptitude/mocks/section-tests/section/) |
-| **Level 3** | **Full Placement Mocks** | 50 MCQs balanced across Quant (15), Reasoning (15), DI (10), Verbal (10). Standard campus OA simulation. | 60 min | $\ge 37.5 / 50$ ($\ge 75\%$) | [`01_common/aptitude/mocks/`](../01_common/aptitude/mocks/) |
-| **Level 4** | **Hard & Expert Mocks** | 50–60 MCQs with complex multi-table DI caselets, multi-statement logic, and advanced algebra. | 60 min | $\ge 70\%$ composite score | [`01_common/aptitude/mocks/`](../01_common/aptitude/mocks/) |
-| **Level 5** | **Role & Company OAs** | Company-calibrated technical + aptitude blend (L&T, Godrej, BPCL, Vassar Labs). | 45–90 min | Meets company cutoff tier | [`05_interview/mock-interviews/mock-tests/`](../05_interview/mock-interviews/mock-tests/) |
-| **Level 6** | **Technical Branching Trees** | Multi-level oral inquiry (Core theory $\to$ Mathematical derivation $\to$ Edge case $\to$ Industrial application). | 30–45 min | Level 4+ defense on core thesis | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
-| **Level 7** | **Case & Behavioral Sims** | Management consulting caselets, guesstimates, and structured STAR behavioral probes. | 30–40 min | Clear MECE structure, 0 contradictions | [`03_non_02_02_core/consulting/`](../03_non_02_02_core/consulting/) · [`01_common/group-discussion/CASE_GD.md`](../01_common/group-discussion/CASE_GD.md) |
-| **Level 8** | **Full Live Simulation** | End-to-end 45-minute mock interview panel covering Resume, Core Thesis, Aptitude, Case, and HR. | 45 min | Composite Score $\ge 85/100$ | [`05_interview/mock-interviews/MOCK_INTERVIEW.md`](../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
+| **Level 1** | **Topic Diagnostics** | 15 MCQs focused on a single topic (e.g., Time & Work, Critical Flow, Syllogisms). | 15–20 min | $\ge 12/15$ ($\ge 80\%$) | [`01_common/aptitude/mocks/section-tests/`](../../01_common/aptitude/mocks/section-tests/) |
+| **Level 2** | **Sectional Tests** | 25–30 MCQs across an entire section (Quant, DI, Reasoning, Verbal, Civil Core). | 30–40 min | $\ge 75\%$ score, $\le 75\text{ s/Q}$ | [`01_common/aptitude/mocks/section-tests/section/`](../../01_common/aptitude/mocks/section-tests/section/) |
+| **Level 3** | **Full Placement Mocks** | 50 MCQs balanced across Quant (15), Reasoning (15), DI (10), Verbal (10). Standard campus OA simulation. | 60 min | $\ge 37.5 / 50$ ($\ge 75\%$) | [`01_common/aptitude/mocks/`](../../01_common/aptitude/mocks/) |
+| **Level 4** | **Hard & Expert Mocks** | 50–60 MCQs with complex multi-table DI caselets, multi-statement logic, and advanced algebra. | 60 min | $\ge 70\%$ composite score | [`01_common/aptitude/mocks/`](../../01_common/aptitude/mocks/) |
+| **Level 5** | **Role & Company OAs** | Company-calibrated technical + aptitude blend (L&T, Godrej, BPCL, Vassar Labs). | 45–90 min | Meets company cutoff tier | [`05_interview/mock-interviews/mock-tests/`](../../05_interview/mock-interviews/mock-tests/) |
+| **Level 6** | **Technical Branching Trees** | Multi-level oral inquiry (Core theory $\to$ Mathematical derivation $\to$ Edge case $\to$ Industrial application). | 30–45 min | Level 4+ defense on core thesis | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../technical/technical-interview-bank.md) |
+| **Level 7** | **Case & Behavioral Sims** | Management consulting caselets, guesstimates, and structured STAR behavioral probes. | 30–40 min | Clear MECE structure, 0 contradictions | [`03_non_core/consulting/`](../03_non_core/consulting/) · [`01_common/group-discussion/CASE_GD.md`](../../01_common/group-discussion/CASE_GD.md) |
+| **Level 8** | **Full Live Simulation** | End-to-end 45-minute mock interview panel covering Resume, Core Thesis, Aptitude, Case, and HR. | 45 min | Composite Score $\ge 85/100$ | [`05_interview/mock-interviews/MOCK_INTERVIEW.md`](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) |
 
 ---
 
@@ -126,7 +126,7 @@ Diagnostic testing is useless without systematic remediation. The repository enf
 2. **Step 2: Score & Classify** — Calculate net score using the $+1 / -0.25$ formula and classify every mistake ($C, A, T, M$).
 3. **Step 3: Root-Cause Review** — Compare candidate solution step-by-step against the canonical full solution key.
 4. **Step 4: Targeted Remediation**:
-   - For $[C]$ errors: Read the canonical topic guide in `01_common/aptitude/` or `02_02_02_02_core/hwre/`.
+   - For $[C]$ errors: Read the canonical topic guide in `01_common/aptitude/` or `02_core/hwre/`.
    - For $[A]$ errors: Redo the numerical calculation twice by hand without a calculator.
    - For $[T]$ errors: Underline keywords in the question prompt.
    - For $[M]$ errors: Learn the alternative shortcut or approximation heuristic.
@@ -137,10 +137,10 @@ Diagnostic testing is useless without systematic remediation. The repository enf
 
 ## 6. Scorecard Integration
 
-All test results should be logged in [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../05_interview/mock-interviews/READINESS_SCORECARD.md). The candidate moves from **🟡 NEEDS CALIBRATION** to **🟢 READY** when composite benchmarks across all 5 active levels are verified under timed conditions.
+All test results should be logged in [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../../05_interview/mock-interviews/READINESS_SCORECARD.md). The candidate moves from **🟡 NEEDS CALIBRATION** to **🟢 READY** when composite benchmarks across all 5 active levels are verified under timed conditions.
 
 ---
 
 > **Related Navigation**:
-> [TESTING_GUIDE.md](TESTING_GUIDE.md) · [IITK_PLACEMENT_MAP.md](IITK_PLACEMENT_MAP.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [READINESS_SCORECARD.md](../05_interview/mock-interviews/READINESS_SCORECARD.md)
+> [TESTING_GUIDE.md](TESTING_GUIDE.md) · [IITK_PLACEMENT_MAP.md](../../docs/IITK_PLACEMENT_MAP.md) · [MASTER_NAVIGATION.md](../../docs/MASTER_NAVIGATION.md) · [READINESS_SCORECARD.md](../../05_interview/mock-interviews/READINESS_SCORECARD.md)
 

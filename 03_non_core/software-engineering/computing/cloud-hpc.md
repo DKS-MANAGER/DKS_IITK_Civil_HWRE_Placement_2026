@@ -230,8 +230,8 @@ Cloud:    Scalable, accessible anywhere
 | Related Section | Link |
 |:----------------|:-----|
 | Linux/Dev Tools | [`developer-tools/`](../developer-tools/linux-dev-tools.md) |
-| CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
-| Research Technology | [`research/`](../research/research-tech.md) |
+| CFD Technology | [`cfd/`](../../../02_core/cfd/cfd-tech.md) |
+| Research Technology | [`research/`](../../../07_resources/reference-material/research-tech.md) |
 
 ---
 

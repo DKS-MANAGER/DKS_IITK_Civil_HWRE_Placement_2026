@@ -8,11 +8,11 @@
 
 ## How to Use
 
-1. Pick your **target role** from [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md)
+1. Pick your **target role** from [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md)
 2. Do the **Basic** exercises for your P0 tools (L2)
 3. Do the **Intermediate** exercises (L2→L3)
 4. Do the **Role-specific** exercise (L3, resume-ready)
-5. Take the matching test in [`tests/README.md`](../tests/README.md)
+5. Take the matching test in [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md)
 
 ---
 
@@ -222,10 +222,10 @@
 
 | Related Section | Link |
 |:----------------|:-----|
-| Test System | [`tests/README.md`](../tests/README.md) |
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| Tool Index | [`TOOLS_INDEX.md`](../TOOLS_INDEX.md) |
-| Project-First Learning | [`project-first-learning.md`](../project-first-learning.md) |
+| Test System | [`tests/README.md`](../../01_common/aptitude/mocks/section-tests/README.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| Tool Index | [`TOOLS_INDEX.md`](../../07_resources/reference-material/TOOLS_INDEX.md) |
+| Project-First Learning | [`project-first-learning.md`](../../08_projects/project-first-learning.md) |
 
 ---
 

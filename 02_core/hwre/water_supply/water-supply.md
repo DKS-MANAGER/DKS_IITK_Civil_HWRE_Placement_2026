@@ -253,7 +253,7 @@ Hazen-Williams: $h_f = 10.67LQ^{1.85}/(C^{1.85}D^{4.87})$
 - [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) — Wastewater treatment comparison
 - [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) — Source water
 - [`groundwater.md`](groundwater.md) — Groundwater as source
-- [`environmental-engineering.md`](../../environmental/environmental-engineering.md) — Water quality engineering
+- [`environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md) — Water quality engineering
 
 ---
 

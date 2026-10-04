@@ -1,7 +1,7 @@
 # Sector: Turbomachinery, Pumps & Flow Equipment
 
 > **Sector Directory:** 04_company-prep/corporate-targets/05_hydraulic-machinery-pumps/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 8 Companies  
 
 ---

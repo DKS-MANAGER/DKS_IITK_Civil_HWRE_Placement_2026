@@ -22,7 +22,7 @@
 
 ### Stage 1 — Foundation (Concepts)
 - Read the subject notes: [`civil/gate-civil-notes.md`](civil/gate-civil-notes.md)
-- For depth, use the linked `02_02_core/<subject>/` files.
+- For depth, use the linked `02_core/<subject>/` files.
 - Goal: understand every concept, condition, and assumption.
 
 ### Stage 2 — Building (Formulas + Examples)

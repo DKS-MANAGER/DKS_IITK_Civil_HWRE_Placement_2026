@@ -73,4 +73,4 @@ Do **NOT** invent consulting experience. Instead, translate technical project bu
 
 For standard resume templates and formatting:
 * Link: [`01_common/resume/resume-framework.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/resume/resume-framework.md)
-* Link: [`01_common/interview-fundamentals/self-intro-template.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/interview-fundamentals/self-intro-template.md)
+* Link: [`01_common/interview-fundamentals/self-intro-template.md`](../../../01_common/interview-fundamentals/self-intro-template.md)

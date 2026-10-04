@@ -63,8 +63,8 @@ Given tables `sales(transaction_id, product_id, region, amount, date)` and `prod
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/analytics/business-analyst/role-study-plan.md)
-- [BA Overview](../../03_non_02_02_core/analytics/business-analyst/ba-overview.md)
-- [SQL Practice](../../03_non_02_02_core/analytics/business-analyst/sql-practice.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [BA Overview](../../03_non_core/analytics/business-analyst/ba-overview.md)
+- [SQL Practice](../../../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md)
 - [Mock Test Hub](README.md)
 

@@ -2,7 +2,7 @@
 
 > **Placement Priority:** P0 — Required for structural/consulting roles and PSUs
 > **GATE-O-PEDIA Reference:** Chapter 3 (1,715 lines, 62 topics, 19 formulas)
-> **Canonical Page:** `02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md`
+> **Canonical Page:** `02_core/civil-engineering/structural-analysis/structural-analysis.md`
 
 ---
 

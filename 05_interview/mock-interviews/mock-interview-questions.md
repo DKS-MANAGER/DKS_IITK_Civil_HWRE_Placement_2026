@@ -217,4 +217,4 @@
 
 * [`../technical/technical-interview-bank.md`](../technical/technical-interview-bank.md) — 100 technical Q&A
 * [`../hr/hr-interview-guide.md`](../hr/hr-interview-guide.md) — HR guide
-* [`../../behavioral/behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — 30 STAR examples
+* [`../../behavioral/behavioral-interview-guide.md`](../../01_common/behavioral/behavioral-interview-guide.md) — 30 STAR examples

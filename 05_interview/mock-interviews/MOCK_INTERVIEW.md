@@ -22,9 +22,9 @@ ROUND 5: COMPANY / ROLE-SPECIFIC
 
 | Component | Resource |
 |:----------|:---------|
-| Subject fundamentals | [Technical Interview Bank](interview/technical/technical-interview-bank.md) |
-| Aptitude basics | [Aptitude Hub](../01_common/aptitude/README.md) |
-| Rapid-fire questions | [Mock Interview Questions](interview/mock-tests/mock-interview-questions.md) |
+| Subject fundamentals | [Technical Interview Bank](../technical/technical-interview-bank.md) |
+| Aptitude basics | [Aptitude Hub](../../01_common/aptitude/README.md) |
+| Rapid-fire questions | [Mock Interview Questions](mock-interview-questions.md) |
 
 **Duration:** 15–20 min
 
@@ -36,9 +36,9 @@ ROUND 5: COMPANY / ROLE-SPECIFIC
 
 | Component | Resource |
 |:----------|:---------|
-| Role-specific technical | [Core Hub](../02_02_02_02_core/README.md) |
-| Software tools | [Software Hub](../archive/legacy_software/README.md) |
-| Role-specific mock test | [Mock Tests](mock-tests/) |
+| Role-specific technical | [Core Hub](../../README.md) |
+| Software tools | [Software Hub](../../archive/legacy_software/README.md) |
+| Role-specific mock test | [Mock Tests](../01_common/aptitude/mocks/) |
 
 **Duration:** 20–30 min
 
@@ -50,9 +50,9 @@ ROUND 5: COMPANY / ROLE-SPECIFIC
 
 | Component | Resource |
 |:----------|:---------|
-| Project defence | [PROJECT_DEFENCE.md](PROJECT_DEFENCE.md) |
-| Resume defence | [RESUME/RESUME_DEFENSE.md](RESUME/RESUME_DEFENSE.md) |
-| Project questions | [Project Defense Guide](interview/technical/project-defense-guide.md) |
+| Project defence | [PROJECT_DEFENCE.md](../project-defense/PROJECT_DEFENCE.md) |
+| Resume defence | [RESUME/RESUME_DEFENSE.md](../../01_common/resume/RESUME_DEFENSE.md) |
+| Project questions | [Project Defense Guide](../project-defense/project-defense-guide.md) |
 
 **Duration:** 15–20 min
 
@@ -64,10 +64,10 @@ ROUND 5: COMPANY / ROLE-SPECIFIC
 
 | Component | Resource |
 |:----------|:---------|
-| Behavioural questions | [Question Master Database](behavioral/question-master-database.md) |
-| HR questions | [HR Questions Bank](behavioral/hr_questions/hr-questions-bank.md) |
-| Self-introduction | [Self Intro System](behavioral/self_intro/self-introduction-system.md) |
-| STAR stories | [Story Bank](behavioral/story-bank/) |
+| Behavioural questions | [Question Master Database](../../01_common/behavioral/question-master-database.md) |
+| HR questions | [HR Questions Bank](../../01_common/behavioral/hr_questions/hr-questions-bank.md) |
+| Self-introduction | [Self Intro System](../../01_common/behavioral/self_intro/self-introduction-system.md) |
+| STAR stories | [Story Bank](story-bank/) |
 
 **Duration:** 15–20 min
 
@@ -79,9 +79,9 @@ ROUND 5: COMPANY / ROLE-SPECIFIC
 
 | Component | Resource |
 |:----------|:---------|
-| Company profile | [Company Profiles](company-profiles/) |
-| Role requirements | [Role Matrix](../01_common/aptitude/ROLE_MATRIX.md) |
-| Case/GD (if applicable) | [CASE_GD.md](CASE_GD.md) |
+| Company profile | [Company Profiles](../../04_company-prep/README.md) |
+| Role requirements | [Role Matrix](../../01_common/aptitude/ROLE_MATRIX.md) |
+| Case/GD (if applicable) | [CASE_GD.md](../../01_common/group-discussion/CASE_GD.md) |
 
 **Duration:** 15–20 min
 
@@ -142,12 +142,12 @@ Action plan: ________________
 
 | Resource | Content |
 |:---------|:--------|
-| [Mock Interview System](behavioral/mock-interviews/mock-interview-system.md) | Behavioral mock formats + scoring |
-| [Mock Interview Database](interview/mock-tests/mock-interview-database.md) | 8 mock sessions |
-| [Mock Interview Questions](interview/mock-tests/mock-interview-questions.md) | Question bank with scorecard |
-| [Role Mock Tests](mock-tests/) | 25 role-specific timed tests |
-| [Answer Quality Checker](behavioral/answer-quality-checker.md) | Self-evaluate answers |
+| [Mock Interview System](../../01_common/behavioral/mock-interviews/mock-interview-system.md) | Behavioral mock formats + scoring |
+| [Mock Interview Database](mock-interview-database.md) | 8 mock sessions |
+| [Mock Interview Questions](mock-interview-questions.md) | Question bank with scorecard |
+| [Role Mock Tests](../01_common/aptitude/mocks/) | 25 role-specific timed tests |
+| [Answer Quality Checker](../../01_common/behavioral/answer-quality-checker.md) | Self-evaluate answers |
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)

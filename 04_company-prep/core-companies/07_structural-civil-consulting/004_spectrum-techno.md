@@ -1,6 +1,6 @@
 # SPECTRUM Techno Consultants Pvt Ltd — Corporate Placement Profile
 
-> **Target ID:** CORP-004 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-004 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 07_structural-civil-consulting | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 

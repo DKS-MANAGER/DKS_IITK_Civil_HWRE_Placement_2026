@@ -80,5 +80,5 @@ If a market doubles in size every 4 years, what is its approximate annual compou
 | Test Score | Percentile Rank | Readiness Assessment | Next Step |
 | :---: | :---: | :--- | :--- |
 | **85% – 100%** | Top 10% | **Placement Ready** | Practice advanced peer mock interviews. |
-| **65% – 84%** | Top 30% | **Good Foundation** | Review [`05_consulting-math.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/05_consulting-math.md) & solve 3 more cases. |
-| **< 65%** | Needs Work | **Study Required** | Re-read [`02_problem-solving.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/02_problem-solving.md) & [`03_business-cases.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/03_business-cases.md). |
+| **65% – 84%** | Top 30% | **Good Foundation** | Review [`05_consulting-math.md`](05_consulting-math.md) & solve 3 more cases. |
+| **< 65%** | Needs Work | **Study Required** | Re-read [`02_problem-solving.md`](02_problem-solving.md) & [`03_business-cases.md`](03_business-cases.md). |

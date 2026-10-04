@@ -421,15 +421,15 @@ Focus 60% on construction management + RCC, 25% on structural analysis + steel,
 
 ## Cross-Links
 
-- [Strength of Materials](../../02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md)
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Engineering Mechanics](../../02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md)
-- [Geotechnical Engineering](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md)
-- [Transportation Engineering](../../02_02_02_core/civil-engineering/transportation/transportation-engineering.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Resume Template](../templates/resume-template.md)
+- [Strength of Materials](../../02_core/civil-engineering/fundamentals/strength-of-materials.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Engineering Mechanics](../../02_core/civil-engineering/fundamentals/engineering-mechanics.md)
+- [Geotechnical Engineering](../../02_core/civil-engineering/geotechnical/geotechnical.md)
+- [Transportation Engineering](../../02_core/civil-engineering/transportation/transportation-engineering.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Resume Template](../../01_common/resume/resume-template.md)
 
 ---
 

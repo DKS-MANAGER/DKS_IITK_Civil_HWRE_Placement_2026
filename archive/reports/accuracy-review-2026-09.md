@@ -26,7 +26,7 @@ CapitalOne, Baya Systems…) rather than the civil/HWRE subset the rest of the r
 
 - It listed **"L&T | Engineer | ₹10-12L"** — a role and figure that do not exist in the
   CSV. The CSV shows L&T Management Trainee ₹7,00,000 and PGET ₹6,25,000, which
-  [`civil-lt.md`](../prep/company-profiles/civil-lt.md) and the README already stated
+  [`civil-lt.md`](../../04_company-prep/core-companies/civil-lt.md) and the README already stated
   correctly.
 - The "Company Category Breakdown" percentages were incoherent (IT 70%, Core 70%,
   Finance 45%… on a base of 20).
@@ -34,7 +34,7 @@ CapitalOne, Baya Systems…) rather than the civil/HWRE subset the rest of the r
 
 **Action taken:** rebuilt the file from the CSV, scoped to the 25 civil-relevant
 companies, using the Tier 1/2/3 grading and CTCs already established in
-[`company-profiles.md`](../prep/company-profiles/company-profiles.md). No estimated
+[`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md). No estimated
 figures; PSU CTCs are explicitly left unquoted because they move with DA/IDA revisions.
 
 ## HIGH — CJK (Chinese) text contamination

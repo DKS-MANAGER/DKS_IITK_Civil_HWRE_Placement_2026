@@ -647,7 +647,7 @@ Q5: "What if the jump is swept out of the basin?"
 - [`sediment-transport.md`](../hydrology/sediment-transport.md) — Bed load, mobile-bed hydraulics
 - [`irrigation-engineering.md`](../irrigation/irrigation-engineering.md) — Canal design for irrigation
 - [`flood-control.md`](../flood_control/flood-control.md) — Flood routing applications
-- [`civil-engineering-foundations.md`](../../fundamentals/civil-engineering-foundations.md) — Quick revision formulas
+- [`civil-engineering-foundations.md`](../../civil-engineering/fundamentals/civil-engineering-foundations.md) — Quick revision formulas
 
 ---
 

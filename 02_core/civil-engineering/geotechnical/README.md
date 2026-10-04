@@ -30,6 +30,6 @@ CONCEPT → FORMULA → NUMERICAL → INTERVIEW → REVISION
 
 ## Related
 
-- [Core Civil Hub](../README.md)
-- [GATE Formula Sheet](../gate/formulas/gate-civil-formulas.md)
-- [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+- [Core Civil Hub](../../README.md)
+- [GATE Formula Sheet](../../gate/formulas/gate-civil-formulas.md)
+- [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)

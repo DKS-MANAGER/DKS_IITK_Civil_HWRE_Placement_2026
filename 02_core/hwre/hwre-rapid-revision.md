@@ -142,7 +142,7 @@
 | Open Channel Flow | [open_channel_flow/open-channel-flow.md](open_channel_flow/open-channel-flow.md) |
 | Hydrology | [hydrology/hydrology.md](hydrology/hydrology.md) |
 | Water Resources | [water_resources/water-resources-engineering.md](water_resources/water-resources-engineering.md) |
-| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
+| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../05_interview/technical/technical-interview-bank.md) |
 
 ---
 

@@ -1,7 +1,7 @@
 # Sector: Hydropower & Pumped Storage Developers
 
 > **Sector Directory:** 04_company-prep/corporate-targets/04_hydropower-pumped-storage/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 7 Companies  
 
 ---

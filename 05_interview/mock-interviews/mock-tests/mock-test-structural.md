@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/structures/role-study-plan.md)
-- [Structures](../../02_02_02_core/civil-engineering/structures/structures.md)
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
+- [Role Study Plan](../../../02_core/civil-engineering/structures/role-study-plan.md)
+- [Structures](../../../02_core/civil-engineering/structures/structures.md)
+- [RCC Design](../../../02_core/civil-engineering/rcc/rcc-design.md)
 - [Mock Test Hub](README.md)

@@ -20,8 +20,8 @@
 |:------|:--------|
 | [IITK Placement Map](IITK_PLACEMENT_MAP.md) | **Institutional routing specifically for IIT Kanpur M.Tech Civil & HWRE candidates** |
 | [Tracks](TRACKS.md) | Track documentation (Core Civil, HWRE, Non-Core, Software) |
-| [Roles](ROLES.md) | Role documentation (role → track → topics → links) |
-| [Companies](COMPANIES.md) | Company index (company → domain → role → prep) |
+| [Roles](..\03_non_core\README.md) | Role documentation (role → track → topics → links) |
+| [Companies](..\04_company-prep\README.md) | Company index (company → domain → role → prep) |
 | [Master Index](../archive/legacy_indexes/master_index.md) | 50-topic topic-level search |
 
 ---
@@ -31,11 +31,11 @@
 | Guide | Purpose |
 |:------|:--------|
 | [Preparation Workflow](PREPARATION_WORKFLOW.md) | Full system workflow (visual) |
-| [Assessment Architecture](ASSESSMENT_ARCHITECTURE.md) | **8-level assessment engine, scoring, pacing, and diagnostic loop** |
-| [Testing Guide](TESTING_GUIDE.md) | Practical test-taking guide across all 8 assessment levels |
-| [Interview Guide](INTERVIEW_GUIDE.md) | Technical + behavioural interview system |
-| [Behavioural & HR Guide](BEHAVIOURAL_HR_GUIDE.md) | Behavioural / HR preparation |
-| [Rapid Revision Guide](RAPID_REVISION_GUIDE.md) | 1-day / 3-day / 7-day revision |
+| [Assessment Architecture](../05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md) | **8-level assessment engine, scoring, pacing, and diagnostic loop** |
+| [Testing Guide](../05_interview/mock-interviews/TESTING_GUIDE.md) | Practical test-taking guide across all 8 assessment levels |
+| [Interview Guide](..\05_interview\README.md) | Technical + behavioural interview system |
+| [Behavioural & HR Guide](../01_common/behavioral/BEHAVIOURAL_HR_GUIDE.md) | Behavioural / HR preparation |
+| [Rapid Revision Guide](../06_revision/RAPID_REVISION_GUIDE.md) | 1-day / 3-day / 7-day revision |
 
 ---
 
@@ -59,8 +59,8 @@
 | [Placement Control Panel](placement-control-panel.md) | Command center |
 | [Start Here (legacy)](start-here.md) | Legacy onboarding — routes to GETTING_STARTED |
 | [Deep Critical Audit](deep-critical-audit.md) | Repository audit report (local-only) |
-| [Accuracy Review — Sep 2026](accuracy-review-2026-09.md) | Fact-check of placement data + technical content |
-| [Aptitude Audit — Sep 2026](audit/aptitude-audit-2026-09.md) | Independent audit + one-stop rebuild plan for `01_common/aptitude/` |
+| [Accuracy Review — Sep 2026](../archive/reports/accuracy-review-2026-09.md) | Fact-check of placement data + technical content |
+| [Aptitude Audit — Sep 2026](../archive/reports/audit/aptitude-audit-2026-09.md) | Independent audit + one-stop rebuild plan for `01_common/aptitude/` |
 
 ---
 
@@ -84,10 +84,10 @@
 
 | Document | Purpose |
 |:---------|:--------|
-| [GATE-O-Pedia Gap Analysis](audit/gate-o-pedia-gap-analysis.md) | Gap analysis of the GATE-O-Pedia source |
-| [GATE-O-Pedia Full Analysis](audit/gate_opedia_full_analysis.md) | Full content analysis |
-| [GATE-O-Pedia Structure](audit/gate_opedia_structure.md) | Structural breakdown |
-| [GATE-O-Pedia Source](sources/gate-o-pedia.md) | Raw source text |
+| [GATE-O-Pedia Gap Analysis](../archive/reports/audit/gate-o-pedia-gap-analysis.md) | Gap analysis of the GATE-O-Pedia source |
+| [GATE-O-Pedia Full Analysis](../archive/reports/audit/gate_opedia_full_analysis.md) | Full content analysis |
+| [GATE-O-Pedia Structure](../archive/reports/audit/gate_opedia_structure.md) | Structural breakdown |
+| [GATE-O-Pedia Source](../archive/legacy_docs/sources/gate-o-pedia.md) | Raw source text |
 
 ---
 
@@ -97,10 +97,10 @@
 
 | Document | Purpose |
 |:---------|:--------|
-| [File Map](_SYSTEM/DOCS_FILE_MAP.md) | Complete file inventory |
-| [Audit State](_SYSTEM/DOCS_AUDIT_STATE.md) | Live audit state and progress |
-| [Link Audit](_SYSTEM/DOCS_LINK_AUDIT.md) | Link audit results |
-| [Content Registry](_SYSTEM/DOCS_CONTENT_REGISTRY.md) | Content registry (prevents sprawl) |
+| [File Map](../_SYSTEM/legacy/docs/DOCS_FILE_MAP.md) | Complete file inventory |
+| [Audit State](../_SYSTEM/legacy/docs/DOCS_AUDIT_STATE.md) | Live audit state and progress |
+| [Link Audit](../_SYSTEM/legacy/docs/DOCS_LINK_AUDIT.md) | Link audit results |
+| [Content Registry](../_SYSTEM/legacy/docs/DOCS_CONTENT_REGISTRY.md) | Content registry (prevents sprawl) |
 
 ---
 

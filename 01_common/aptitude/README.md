@@ -5,7 +5,7 @@
 Aptitude is the **common screening layer** for every placement role. This system treats it as a first-class component — not just a list of topics.
 
 > ### ⚠️ Status & known limitations (last reviewed 2026-09-11)
-> An independent audit is at [`archive/reports/audit/aptitude-audit-2026-09.md`](../archive/reports/audit/aptitude-audit-2026-09.md). Current state:
+> An independent audit is at [`archive/reports/audit/aptitude-audit-2026-09.md`](../../archive/reports/audit/aptitude-audit-2026-09.md). Current state:
 > - **Trust-repair pass done:** the topic tests have been re-keyed with randomised answer positions and worked solutions; the flagged broken questions in the mock, DI, coding-decoding, puzzles, order-ranking and the seating test have been fixed; the sphere-volume formula is corrected.
 > - **Still open:** the "Practice — Basic/Intermediate/Advanced" blocks inside the quant and reasoning modules mostly have **no answer key yet**; several domains are not yet covered (non-verbal/abstract, analogy & classification, statement–assumption/argument, company/platform test patterns, civil-core aptitude, engineering-maths screening, cloze test); DI still reuses a small number of datasets; only one full mock exists.
 > - See the audit's §11 for the prioritised plan to close these.
@@ -135,9 +135,9 @@ Aptitude serves ALL roles. See [ROLE_MATRIX.md](ROLE_MATRIX.md) to prioritize by
 
 ## 🔗 Related
 
-- [Non-Core Hub](../03_non_core/README.md)
+- [Non-Core Hub](../../03_non_core/README.md)
 - [Aptitude Shortcuts](./rapid-revision/FORMULA_SHEET.md)
-- [Placement Roadmap](../docs/roadmap.md)
-- [System Audit](../_SYSTEM/APTITUDE_AUDIT.md)
-- [Completeness Matrix](../_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md)
-- [Build State](../_SYSTEM/APTITUDE_STATE.md)
+- [Placement Roadmap](../../docs/roadmap.md)
+- [System Audit](../../_SYSTEM/APTITUDE_AUDIT.md)
+- [Completeness Matrix](../../_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md)
+- [Build State](../../_SYSTEM/APTITUDE_STATE.md)

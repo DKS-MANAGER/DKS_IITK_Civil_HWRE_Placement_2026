@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/software-engineering/role-study-plan.md)
-- [Programming](../../03_non_02_02_core/software-engineering/programming/README.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Programming](../../../03_non_core/software-engineering/programming/README.md)
 - [Mock Test Hub](README.md)

@@ -238,4 +238,4 @@ Advanced (20–30 hrs):
 
 ---
 
-*See also: [`python.md`](python.md) for Pandas data analysis, [`data-analytics-stack.md`](../data/data-analytics-stack.md) for the full data stack.*
+*See also: [`python.md`](python.md) for Pandas data analysis, [`data-analytics-stack.md`](../../data-science/data-analytics-stack.md) for the full data stack.*

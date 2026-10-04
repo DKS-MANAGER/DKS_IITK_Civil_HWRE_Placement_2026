@@ -189,10 +189,10 @@ Rule of thumb:
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| AutoCAD vs Revit | [`tools/AutoCAD.md`](../tools/AutoCAD.md) · [`tools/Revit.md`](../tools/Revit.md) |
-| ETABS vs STAAD | [`tools/ETABS.md`](../tools/ETABS.md) · [`tools/STAAD.md`](../tools/STAAD.md) |
-| HEC-HMS vs HEC-RAS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) · [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
-| Python vs MATLAB | [`programming/python.md`](../programming/python.md) · [`programming/matlab.md`](../programming/matlab.md) |
+| AutoCAD vs Revit | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) · [`tools/Revit.md`](../../02_core/civil-engineering/tools/Revit.md) |
+| ETABS vs STAAD | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) · [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) |
+| HEC-HMS vs HEC-RAS | [`deep-dives/hec-hms-tutorial.md`](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) · [`deep-dives/hec-ras-walkthrough.md`](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) |
+| Python vs MATLAB | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) · [`programming/matlab.md`](../../03_non_core/software-engineering/programming/matlab.md) |
 
 ---
 
@@ -200,10 +200,10 @@ Rule of thumb:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Priority System | [`priority-system.md`](../priority-system.md) |
-| Branch Roadmaps | [`branch-roadmaps.md`](../branch-roadmaps.md) |
-| Role Roadmaps | [`role-roadmaps.md`](../role-roadmaps.md) |
+| Priority System | [`priority-system.md`](priority-system.md) |
+| Branch Roadmaps | [`branch-roadmaps.md`](branch-roadmaps.md) |
+| Role Roadmaps | [`role-roadmaps.md`](role-roadmaps.md) |
 
 ---
 
-*See also: [`branch-roadmaps.md`](../branch-roadmaps.md) for branch-specific stacks.*
+*See also: [`branch-roadmaps.md`](branch-roadmaps.md) for branch-specific stacks.*

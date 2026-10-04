@@ -89,9 +89,9 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 
 | Company | Experience Log | Key Questions | Notes |
 |---------|----------------|---------------|-------|
-| **BPCL** | [BPCL](./civil-bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
-| **EIL** | [EIL](./civil-low-tier-all.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
-| **L&T** | [L&T](./civil-lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
+| **BPCL** | [BPCL](../core-companies/civil-bpcl.md) | Civil fundamentals, project defense, soil tests | HR probes on relocation, teamwork, failures [web:62][web:66] |
+| **EIL** | [EIL](../core-companies/civil-low-tier-all.md) | Across all civil branches, especially hydraulics, soil | Questions span structures, transportation, geotech, hydraulics [web:63][web:67] |
+| **L&T** | [L&T](../core-companies/civil-lt.md) | BBS, footing quantities, soil classification, SBC | Expect concrete, IRC, construction methods [web:70][web:74][web:75][web:78] |
 | **AECOM** | [AECOM](./civil-cross-company-strategy.md) | Data-backed project discussion, watershed logic | Prepare data, model assumptions, communication |
 | **Analytics** | [Analytics](./civil-cross-company-strategy.md) | EDA, metrics, reproducibility | Show coding, stats, business framing |
 | **Quant** | [Quant](./civil-cross-company-strategy.md) | Probability, brainteasers, fast coding | Build from puzzle logs [web:73] |
@@ -136,48 +136,48 @@ Use this format to log your interview experience:
 
 | Company | Role | CTC | Domain | Strategy File |
 |---|---|---|---|---|
-| **Larsen & Toubro Limited** | MT / PGET | ₹6.25–7L | Construction & EPC | [civil-lt.md](./civil-lt.md) |
-| **Godrej Properties** | AM — Project Execution | ₹18L + ₹6L bonuses | Real Estate & Construction | [civil-godrej-properties.md](./civil-godrej-properties.md) |
-| **Thornton Tomasetti** | Engineer — Structural | ₹7.5–9L | Structural Consultancy | [civil-thornton-tomasetti.md](./civil-thornton-tomasetti.md) |
-| **Hilti Technology Solutions** | Graduate Engineer | ₹17L | Structural / Fastening | [civil-hilti.md](./civil-hilti.md) |
-| **Reliance New Energy** | Team Member — Civil/Geotech | ₹15L + ₹5L deferred | Geotechnical / Foundations | [civil-reliance-new-energy.md](./civil-reliance-new-energy.md) |
-| **Rodic Consultants** | Management Trainee | ₹8–8.5L | Water & Environmental | [civil-rodic.md](./civil-rodic.md) |
-| **SPECTRUM Techno Consultants** | Trainee Design Engineer | ₹8L | Structural Design | [civil-spectrum.md](./civil-spectrum.md) |
-| **Vassarlabs IT Solutions** | SME — Water/GIS | ₹8L | Water Resources / GIS | [civil-vassarlabs.md](./civil-vassarlabs.md) |
-| **ASC Infratech Pvt Ltd** | Trainee Engineer | ₹7.4L | Bridges / Highways | [civil-asc-infratech.md](./civil-asc-infratech.md) |
+| **Larsen & Toubro Limited** | MT / PGET | ₹6.25–7L | Construction & EPC | [civil-lt.md](../core-companies/civil-lt.md) |
+| **Godrej Properties** | AM — Project Execution | ₹18L + ₹6L bonuses | Real Estate & Construction | [civil-godrej-properties.md](../core-companies/civil-godrej-properties.md) |
+| **Thornton Tomasetti** | Engineer — Structural | ₹7.5–9L | Structural Consultancy | [civil-thornton-tomasetti.md](../core-companies/civil-thornton-tomasetti.md) |
+| **Hilti Technology Solutions** | Graduate Engineer | ₹17L | Structural / Fastening | [civil-hilti.md](../core-companies/civil-hilti.md) |
+| **Reliance New Energy** | Team Member — Civil/Geotech | ₹15L + ₹5L deferred | Geotechnical / Foundations | [civil-reliance-new-energy.md](../core-companies/civil-reliance-new-energy.md) |
+| **Rodic Consultants** | Management Trainee | ₹8–8.5L | Water & Environmental | [civil-rodic.md](../core-companies/civil-rodic.md) |
+| **SPECTRUM Techno Consultants** | Trainee Design Engineer | ₹8L | Structural Design | [civil-spectrum.md](../core-companies/civil-spectrum.md) |
+| **Vassarlabs IT Solutions** | SME — Water/GIS | ₹8L | Water Resources / GIS | [civil-vassarlabs.md](../hwre-companies/civil-vassarlabs.md) |
+| **ASC Infratech Pvt Ltd** | Trainee Engineer | ₹7.4L | Bridges / Highways | [civil-asc-infratech.md](../core-companies/civil-asc-infratech.md) |
 
 ### Tier 2 — MEDIUM Relevance (civil graduates plausibly relevant)
 
 | Company | Role | CTC | Domain | Strategy File |
 |---|---|---|---|---|
-| **BPCL** | Management Trainee | ₹20.1L | Oil & Gas / Industrial | [civil-bpcl.md](./civil-bpcl.md) |
-| **HPCL** | Officer — Engineering | ₹17.4L | Oil & Gas / Industrial | [civil-hpcl.md](./civil-hpcl.md) |
-| **ITC Limited** | AUT — Projects | ₹31.25L | Construction Management | [civil-itc.md](./civil-itc.md) |
-| **JSW** | GET | ₹13–16L | Infrastructure / Steel | [civil-jsw.md](./civil-jsw.md) |
-| **Dimension Renewables** | Structural Engineer | ₹8L | Marine / Offshore | [civil-dimension-renewables.md](./civil-dimension-renewables.md) |
-| **GIST** | GIS Analyst | ₹12L | Geospatial / Remote Sensing | [civil-gist.md](./civil-gist.md) |
-| **Petronet LNG** | GET | ₹19.9L | LNG Infrastructure | [civil-petronet-lng.md](./civil-petronet-lng.md) |
-| **Reliance Industries** | GET | ₹9–10.5L + deferred | EPC / RPMG | [civil-reliance-industries.md](./civil-reliance-industries.md) |
-| **Smarttrak AI** | Structural Engineer | ₹12L | Solar Structural Design | [civil-smarttrak.md](./civil-smarttrak.md) |
-| **TuTr Hyperloop** | CAE Engineer | ₹11L | Transport / FEA | [civil-tutr-hyperloop.md](./civil-tutr-hyperloop.md) |
+| **BPCL** | Management Trainee | ₹20.1L | Oil & Gas / Industrial | [civil-bpcl.md](../core-companies/civil-bpcl.md) |
+| **HPCL** | Officer — Engineering | ₹17.4L | Oil & Gas / Industrial | [civil-hpcl.md](../core-companies/civil-hpcl.md) |
+| **ITC Limited** | AUT — Projects | ₹31.25L | Construction Management | [civil-itc.md](../software-companies/civil-itc.md) |
+| **JSW** | GET | ₹13–16L | Infrastructure / Steel | [civil-jsw.md](../core-companies/civil-jsw.md) |
+| **Dimension Renewables** | Structural Engineer | ₹8L | Marine / Offshore | [civil-dimension-renewables.md](../hwre-companies/civil-dimension-renewables.md) |
+| **GIST** | GIS Analyst | ₹12L | Geospatial / Remote Sensing | [civil-gist.md](../software-companies/civil-gist.md) |
+| **Petronet LNG** | GET | ₹19.9L | LNG Infrastructure | [civil-petronet-lng.md](../core-companies/civil-petronet-lng.md) |
+| **Reliance Industries** | GET | ₹9–10.5L + deferred | EPC / RPMG | [civil-reliance-industries.md](../core-companies/civil-reliance-industries.md) |
+| **Smarttrak AI** | Structural Engineer | ₹12L | Solar Structural Design | [civil-smarttrak.md](../hwre-companies/civil-smarttrak.md) |
+| **TuTr Hyperloop** | CAE Engineer | ₹11L | Transport / FEA | [civil-tutr-hyperloop.md](../core-companies/civil-tutr-hyperloop.md) |
 
 ### Tier 3 — LOW Relevance (indirect / marginal)
 
 | Company | Role | CTC | Civil Hook | Strategy File |
 |---|---|---|---|---|
-| **Tata Steel** | MT | ₹12–13L | Plant civil / mining | [civil-low-tier-all.md](./civil-low-tier-all.md) |
-| **Saint-Gobain** | Research Engineer | ₹10.5L | Materials / construction | [civil-low-tier-all.md](./civil-low-tier-all.md) |
-| **ISGEC** | GET | ₹9.5L + retention | EPC (posting is mechanical) | [civil-low-tier-all.md](./civil-low-tier-all.md) |
-| **KBR** | Associate Technical | ₹8.5L | EPC (posting is process) | [civil-low-tier-all.md](./civil-low-tier-all.md) |
-| **Quest Global** | Senior Engineer | ₹10L | Rail / pipeline (civil not in list) | [civil-low-tier-all.md](./civil-low-tier-all.md) |
-| **Delta Electronics** | Sr Engineer | ₹10.6–12.4L | Building automation | [civil-low-tier-all.md](./civil-low-tier-all.md) |
+| **Tata Steel** | MT | ₹12–13L | Plant civil / mining | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
+| **Saint-Gobain** | Research Engineer | ₹10.5L | Materials / construction | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
+| **ISGEC** | GET | ₹9.5L + retention | EPC (posting is mechanical) | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
+| **KBR** | Associate Technical | ₹8.5L | EPC (posting is process) | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
+| **Quest Global** | Senior Engineer | ₹10L | Rail / pipeline (civil not in list) | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
+| **Delta Electronics** | Sr Engineer | ₹10.6–12.4L | Building automation | [civil-low-tier-all.md](../core-companies/civil-low-tier-all.md) |
 
 ### Consolidated Strategy
 
 | Document | Description |
 |---|---|
 | [Cross-Company Strategy](./civil-cross-company-strategy.md) | Common core, software, interview topics, specialized tracks, ROI path, CTC comparison |
-| [LOW-Tier All](./civil-low-tier-all.md) | Consolidated strategy for all 6 LOW-relevance companies |
+| [LOW-Tier All](../core-companies/civil-low-tier-all.md) | Consolidated strategy for all 6 LOW-relevance companies |
 
 ---
 
@@ -187,16 +187,16 @@ Use this format to log your interview experience:
 
 | Company | Profile File |
 |:--------|:-------------|
-| **CEI American** | [cei-american.md](./cei-american.md) |
-| **Darwinbox** | [darwinbox.md](./darwinbox.md) |
-| **DeltaX** | [deltax.md](./deltax.md) |
-| **Expeditor** | [expeditor.md](./expeditor.md) |
-| **Hiremi** | [hiremi.md](./hiremi.md) |
-| **Hubstream** | [hubstream.md](./hubstream.md) |
-| **Johnson Controls** | [johnson-controls.md](./johnson-controls.md) |
-| **Mu Sigma** | [mu-sigma.md](./mu-sigma.md) |
-| **Schneider Electric** | [schneider-electric.md](./schneider-electric.md) |
-| **Tech Mahindra** | [tech-mahindra.md](./tech-mahindra.md) |
+| **CEI American** | [cei-american.md](../software-companies/cei-american.md) |
+| **Darwinbox** | [darwinbox.md](../software-companies/darwinbox.md) |
+| **DeltaX** | [deltax.md](../software-companies/deltax.md) |
+| **Expeditor** | [expeditor.md](../software-companies/expeditor.md) |
+| **Hiremi** | [hiremi.md](../software-companies/hiremi.md) |
+| **Hubstream** | [hubstream.md](../software-companies/hubstream.md) |
+| **Johnson Controls** | [johnson-controls.md](../software-companies/johnson-controls.md) |
+| **Mu Sigma** | [mu-sigma.md](../consulting-companies/mu-sigma.md) |
+| **Schneider Electric** | [schneider-electric.md](../software-companies/schneider-electric.md) |
+| **Tech Mahindra** | [tech-mahindra.md](../software-companies/tech-mahindra.md) |
 
 ---
 

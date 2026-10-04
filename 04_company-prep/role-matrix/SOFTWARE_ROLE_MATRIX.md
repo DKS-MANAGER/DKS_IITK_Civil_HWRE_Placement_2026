@@ -29,10 +29,10 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 ```
 
 - **Specialized Supporting Views:**
-  - Need a pure branch view? See [`branch-roadmaps.md`](branch-roadmaps.md).
-  - Need a 7-day, 30-day, or 90-day plan? See [`learning-roadmaps.md`](learning-roadmaps.md) and [`SOFTWARE_ROADMAP.md`](SOFTWARE_ROADMAP.md).
-  - Feeling overwhelmed? Read the Rule of 1+1+1 in [`anti-overload.md`](anti-overload.md).
-  - Writing your resume? Follow [`SOFTWARE_RESUME_STRATEGY.md`](SOFTWARE_RESUME_STRATEGY.md).
+  - Need a pure branch view? See [`branch-roadmaps.md`](../../07_resources/reference-material/branch-roadmaps.md).
+  - Need a 7-day, 30-day, or 90-day plan? See [`learning-roadmaps.md`](../../07_resources/reference-material/learning-roadmaps.md) and [`SOFTWARE_ROADMAP.md`](../../07_resources/reference-material/SOFTWARE_ROADMAP.md).
+  - Feeling overwhelmed? Read the Rule of 1+1+1 in [`anti-overload.md`](../../06_revision/anti-overload.md).
+  - Writing your resume? Follow [`SOFTWARE_RESUME_STRATEGY.md`](../../01_common/resume/SOFTWARE_RESUME_STRATEGY.md).
 
 ---
 
@@ -56,13 +56,13 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **AutoCAD** | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | `[VERIFIED]` L&T, SPECTRUM, Thornton Tomasetti, Hilti, ASC |
-| **P0** | **STAAD.Pro** | L3 Proficient | [`tools/STAAD.md`](tools/STAAD.md) | `[VERIFIED]` L&T, SPECTRUM, ASC Infratech, BPCL |
-| **P0** | **ETABS** | L3 Proficient | [`tools/ETABS.md`](tools/ETABS.md) | `[VERIFIED]` Thornton Tomasetti, SPECTRUM, Hilti, Smarttrak |
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` Universal requirement across all engineering firms |
-| **P1** | **SAP2000** | L2–L3 Working | [`tools/SAP2000.md`](tools/SAP2000.md) | `[VERIFIED]` Thornton Tomasetti, Hilti, L&T |
-| **P1** | **Revit (Structure)**| L2 Working | [`tools/Revit.md`](tools/Revit.md) | `[VERIFIED]` Thornton Tomasetti, Godrej Properties |
-| **P2** | **Python** | L2 Basic | [`programming/python.md`](programming/python.md) | `[INFERRED]` Structural optimization and automated batch calculation |
+| **P0** | **AutoCAD** | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | `[VERIFIED]` L&T, SPECTRUM, Thornton Tomasetti, Hilti, ASC |
+| **P0** | **STAAD.Pro** | L3 Proficient | [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) | `[VERIFIED]` L&T, SPECTRUM, ASC Infratech, BPCL |
+| **P0** | **ETABS** | L3 Proficient | [`tools/ETABS.md`](../../02_core/civil-engineering/tools/ETABS.md) | `[VERIFIED]` Thornton Tomasetti, SPECTRUM, Hilti, Smarttrak |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` Universal requirement across all engineering firms |
+| **P1** | **SAP2000** | L2–L3 Working | [`tools/SAP2000.md`](../../02_core/civil-engineering/tools/SAP2000.md) | `[VERIFIED]` Thornton Tomasetti, Hilti, L&T |
+| **P1** | **Revit (Structure)**| L2 Working | [`tools/Revit.md`](../../02_core/civil-engineering/tools/Revit.md) | `[VERIFIED]` Thornton Tomasetti, Godrej Properties |
+| **P2** | **Python** | L2 Basic | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | `[INFERRED]` Structural optimization and automated batch calculation |
 
 ---
 
@@ -70,12 +70,12 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **HEC-RAS** | L3 Proficient | [`deep-dives/hec-ras-walkthrough.md`](deep-dives/hec-ras-walkthrough.md) | `[VERIFIED]` Vassar Labs (explicit placement criteria) |
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` Universal hydrological calculations & data analysis |
-| **P1** | **HEC-HMS** | L2–L3 Working | [`deep-dives/hec-hms-tutorial.md`](deep-dives/hec-hms-tutorial.md) | `[VERIFIED]` Vassar Labs, watershed modeling roles |
-| **P1** | **QGIS / ArcGIS** | L2–L3 Working | [`tools/QGIS.md`](tools/QGIS.md) | `[VERIFIED]` Vassar Labs, GIST |
-| **P1** | **Python** | L2–L3 Working | [`programming/python.md`](programming/python.md) | `[VERIFIED]` Vassar Labs, hydroinformatics roles |
-| **P2** | **EPANET** | L2 Basic | [`deep-dives/epanet-walkthrough.md`](deep-dives/epanet-walkthrough.md) | `[SOURCE-DERIVED]` Rodic Consultants (water distribution networks) |
+| **P0** | **HEC-RAS** | L3 Proficient | [`deep-dives/hec-ras-walkthrough.md`](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) | `[VERIFIED]` Vassar Labs (explicit placement criteria) |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` Universal hydrological calculations & data analysis |
+| **P1** | **HEC-HMS** | L2–L3 Working | [`deep-dives/hec-hms-tutorial.md`](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) | `[VERIFIED]` Vassar Labs, watershed modeling roles |
+| **P1** | **QGIS / ArcGIS** | L2–L3 Working | [`tools/QGIS.md`](../../02_core/civil-engineering/geoinformatics/QGIS.md) | `[VERIFIED]` Vassar Labs, GIST |
+| **P1** | **Python** | L2–L3 Working | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | `[VERIFIED]` Vassar Labs, hydroinformatics roles |
+| **P2** | **EPANET** | L2 Basic | [`deep-dives/epanet-walkthrough.md`](../../02_core/hwre/software-deep-dives/epanet-walkthrough.md) | `[SOURCE-DERIVED]` Rodic Consultants (water distribution networks) |
 
 ---
 
@@ -83,12 +83,12 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **OpenFOAM** | L3 Proficient | [`deep-dives/openfoam-case-study.md`](deep-dives/openfoam-case-study.md) | `[SOURCE-DERIVED]` TuTr Hyperloop, AgniKul Cosmos, aerospace R&D |
-| **P0** | **Python** | L3 Proficient | [`programming/python.md`](programming/python.md) | `[VERIFIED]` AgniKul, TuTr Hyperloop, automated meshing scripts |
-| **P0** | **Linux / Shell** | L2–L3 Working | [`developer-tools/linux-dev-tools.md`](developer-tools/linux-dev-tools.md) | `[INFERRED]` Essential CFD cluster & HPC execution environment |
-| **P1** | **ParaView** | L2–L3 Working | [`developer-tools/linux-dev-tools.md`](developer-tools/linux-dev-tools.md) | `[INFERRED]` Standard CFD post-processing and vector visualization |
-| **P1** | **ANSYS / Fluent** | L2 Working | [`cfd/cfd-tech.md`](cfd/cfd-tech.md) | `[VERIFIED]` TuTr Hyperloop, Smarttrak AI |
-| **P2** | **MATLAB** | L2 Basic | [`programming/matlab.md`](programming/matlab.md) | `[SOURCE-DERIVED]` Numerical discretization and matrix math |
+| **P0** | **OpenFOAM** | L3 Proficient | [`deep-dives/openfoam-case-study.md`](../../02_core/cfd/openfoam-case-study.md) | `[SOURCE-DERIVED]` TuTr Hyperloop, AgniKul Cosmos, aerospace R&D |
+| **P0** | **Python** | L3 Proficient | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | `[VERIFIED]` AgniKul, TuTr Hyperloop, automated meshing scripts |
+| **P0** | **Linux / Shell** | L2–L3 Working | [`developer-tools/linux-dev-tools.md`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md) | `[INFERRED]` Essential CFD cluster & HPC execution environment |
+| **P1** | **ParaView** | L2–L3 Working | [`developer-tools/linux-dev-tools.md`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md) | `[INFERRED]` Standard CFD post-processing and vector visualization |
+| **P1** | **ANSYS / Fluent** | L2 Working | [`cfd/cfd-tech.md`](../../02_core/cfd/cfd-tech.md) | `[VERIFIED]` TuTr Hyperloop, Smarttrak AI |
+| **P2** | **MATLAB** | L2 Basic | [`programming/matlab.md`](../../03_non_core/software-engineering/programming/matlab.md) | `[SOURCE-DERIVED]` Numerical discretization and matrix math |
 
 ---
 
@@ -96,11 +96,11 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **PLAXIS 2D** | L2–L3 Working | [`deep-dives/plaxis-2d-tutorial.md`](deep-dives/plaxis-2d-tutorial.md) | `[VERIFIED]` Reliance New Energy, geotechnical consultancy JDs |
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` Universal bearing capacity & settlement models |
-| **P1** | **GeoStudio SLOPE/W**| L2 Working | [`deep-dives/geostudio-slopew-tutorial.md`](deep-dives/geostudio-slopew-tutorial.md) | `[SOURCE-DERIVED]` Reliance New Energy, embankment slope checks |
-| **P1** | **AutoCAD** | L2 Working | [`tools/AutoCAD.md`](tools/AutoCAD.md) | `[INFERRED]` Soil profile and foundation drafting |
-| **P2** | **QGIS** | L2 Basic | [`tools/QGIS.md`](tools/QGIS.md) | `[INFERRED]` Terrain and borehole spatial interpolation |
+| **P0** | **PLAXIS 2D** | L2–L3 Working | [`deep-dives/plaxis-2d-tutorial.md`](../../02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md) | `[VERIFIED]` Reliance New Energy, geotechnical consultancy JDs |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` Universal bearing capacity & settlement models |
+| **P1** | **GeoStudio SLOPE/W**| L2 Working | [`deep-dives/geostudio-slopew-tutorial.md`](../../02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) | `[SOURCE-DERIVED]` Reliance New Energy, embankment slope checks |
+| **P1** | **AutoCAD** | L2 Working | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | `[INFERRED]` Soil profile and foundation drafting |
+| **P2** | **QGIS** | L2 Basic | [`tools/QGIS.md`](../../02_core/civil-engineering/geoinformatics/QGIS.md) | `[INFERRED]` Terrain and borehole spatial interpolation |
 
 ---
 
@@ -108,11 +108,11 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **AutoCAD** | L3 Proficient | [`tools/AutoCAD.md`](tools/AutoCAD.md) | `[VERIFIED]` L&T, Godrej Properties, BPCL |
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` BOQ preparation, rate analysis, site billing |
-| **P0** | **Primavera P6**| L2–L3 Working | [`tools/Primavera.md`](tools/Primavera.md) | `[VERIFIED]` L&T, Godrej, ITC, BPCL, HPCL |
-| **P1** | **STAAD.Pro** | L2 Basic | [`tools/STAAD.md`](tools/STAAD.md) | `[VERIFIED]` L&T, BPCL |
-| **P1** | **Revit (BIM)** | L2 Basic | [`tools/Revit.md`](tools/Revit.md) | `[SOURCE-DERIVED]` Godrej Properties, EPC site coordination |
+| **P0** | **AutoCAD** | L3 Proficient | [`tools/AutoCAD.md`](../../02_core/civil-engineering/tools/AutoCAD.md) | `[VERIFIED]` L&T, Godrej Properties, BPCL |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` BOQ preparation, rate analysis, site billing |
+| **P0** | **Primavera P6**| L2–L3 Working | [`tools/Primavera.md`](../../01_common/professional-skills/Primavera.md) | `[VERIFIED]` L&T, Godrej, ITC, BPCL, HPCL |
+| **P1** | **STAAD.Pro** | L2 Basic | [`tools/STAAD.md`](../../02_core/civil-engineering/tools/STAAD.md) | `[VERIFIED]` L&T, BPCL |
+| **P1** | **Revit (BIM)** | L2 Basic | [`tools/Revit.md`](../../02_core/civil-engineering/tools/Revit.md) | `[SOURCE-DERIVED]` Godrej Properties, EPC site coordination |
 
 ---
 
@@ -122,10 +122,10 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` Axis Bank, Mu Sigma, EXL |
-| **P0** | **SQL** | L3 Proficient | [`programming/sql.md`](programming/sql.md) | `[VERIFIED]` Accenture, Blitz, Battery Smart |
-| **P0** | **Python** | L3 Proficient | [`programming/python.md`](programming/python.md) | `[VERIFIED]` Accenture, Barclays, Tiger Analytics |
-| **P1** | **Power BI** | L2 Working | [`data/data-analytics-stack.md`](data/data-analytics-stack.md) | `[SOURCE-DERIVED]` Axis Bank, business intelligence teams |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` Axis Bank, Mu Sigma, EXL |
+| **P0** | **SQL** | L3 Proficient | [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) | `[VERIFIED]` Accenture, Blitz, Battery Smart |
+| **P0** | **Python** | L3 Proficient | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | `[VERIFIED]` Accenture, Barclays, Tiger Analytics |
+| **P1** | **Power BI** | L2 Working | [`data/data-analytics-stack.md`](../../03_non_core/data-science/data-analytics-stack.md) | `[SOURCE-DERIVED]` Axis Bank, business intelligence teams |
 
 ---
 
@@ -133,10 +133,10 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 
 | Priority `[PREPARATION HEURISTIC]` | Tool | Target Level | Canonical Study Source | Evidence Provenance & Visiting Companies |
 |:---:|:---|:---:|:---|:---|
-| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](tools/Excel.md) | `[VERIFIED]` McKinsey, BCG, Bain, universal financial models |
-| **P0** | **PowerPoint** | L3 Proficient | [`consulting/consulting-tech.md`](consulting/consulting-tech.md) | `[VERIFIED]` Executive presentations, MECE storyline decks |
-| **P1** | **SQL** | L2 Working | [`programming/sql.md`](programming/sql.md) | `[SOURCE-DERIVED]` Battery Smart, data-driven consulting caselets |
-| **P2** | **Python / BI** | L1–L2 Basic | [`programming/python.md`](programming/python.md) | `[INFERRED]` Exploratory analytics and scenario sensitivity |
+| **P0** | **Excel** | L3 Proficient | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) | `[VERIFIED]` McKinsey, BCG, Bain, universal financial models |
+| **P0** | **PowerPoint** | L3 Proficient | [`consulting/consulting-tech.md`](../../03_non_core/consulting/consulting-tech.md) | `[VERIFIED]` Executive presentations, MECE storyline decks |
+| **P1** | **SQL** | L2 Working | [`programming/sql.md`](../../03_non_core/software-engineering/programming/sql.md) | `[SOURCE-DERIVED]` Battery Smart, data-driven consulting caselets |
+| **P2** | **Python / BI** | L1–L2 Basic | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) | `[INFERRED]` Exploratory analytics and scenario sensitivity |
 
 ---
 
@@ -158,4 +158,4 @@ To prevent decision fatigue across multiple roadmap files, use this canonical hi
 ---
 
 > **Related Navigation:**
-> [SOFTWARE_COMPANY_LINKAGE.md](SOFTWARE_COMPANY_LINKAGE.md) · [SOFTWARE_COMPLETENESS_MATRIX.md](SOFTWARE_COMPLETENESS_MATRIX.md) · [TOOLS_INDEX.md](TOOLS_INDEX.md) · [anti-overload.md](anti-overload.md)
+> [SOFTWARE_COMPANY_LINKAGE.md](SOFTWARE_COMPANY_LINKAGE.md) · [SOFTWARE_COMPLETENESS_MATRIX.md](../../archive/legacy_software/SOFTWARE_COMPLETENESS_MATRIX.md) · [TOOLS_INDEX.md](../../07_resources/reference-material/TOOLS_INDEX.md) · [anti-overload.md](../../06_revision/anti-overload.md)

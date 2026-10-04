@@ -63,18 +63,18 @@ Navigate directly to each modular preparation document:
 
 | Module | File Link | Focus & Content |
 | :--- | :--- | :--- |
-| **1. Placement Facts** | [`PLACEMENT_FACTS.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/PLACEMENT_FACTS.md) | Verified JD facts, salary breakdown, relocation & benefits table. |
-| **2. Role Blueprint** | [`ROLE.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/ROLE.md) | Digital Consultant responsibilities, technology-agnostic philosophy & 3 career paths. |
-| **3. Selection Process** | [`SELECTION_PROCESS.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/SELECTION_PROCESS.md) | Stage-by-stage selection guide from Resume to Offer release. |
-| **4. What To Study** | [`WHAT_TO_STUDY.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/WHAT_TO_STUDY.md) | 4 Core Preparation Blocks (Consulting, Tech, Data/SQL, Interviews). |
-| **5. Technical Test** | [`TECHNICAL_TEST.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/TECHNICAL_TEST.md) | Coding practice problems, SQL query exercises & tech comprehension. |
-| **6. Consulting Cases** | [`CONSULTING_CASES.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/CONSULTING_CASES.md) | Digital Transformation (DX), Industry X IoT & GenAI RAG enterprise cases. |
-| **7. Interview Guide** | [`INTERVIEW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md) | Manager Round (Round 1) vs Director Round (Round 2) strategy & answers. |
-| **8. Behavioural & HR** | [`BEHAVIOURAL_HR.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/BEHAVIOURAL_HR.md) | STAR behavioral story bank, cross-cultural communication & Japanese readiness. |
-| **9. Resume Strategy** | [`RESUME_STRATEGY.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/RESUME_STRATEGY.md) | Engineering to Digital Consultant resume reframing & bullet point formulas. |
-| **10. Project Strategy**| [`PROJECT_STRATEGY.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/PROJECT_STRATEGY.md) | IIT engineering project defense framework & cloud modernization questions. |
-| **11. Question Bank** | [`QUESTION_BANK.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/QUESTION_BANK.md) | Tagged question database (`[JD-VERIFIED]`, `[PREPARATION-INFERENCE]`, `[PREDICTED]`). |
-| **12. Rapid Revision** | [`RAPID_REVISION.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/RAPID_REVISION.md) | 60-minute, 3-hour & interview-day emergency checklists. |
+| **1. Placement Facts** | [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Verified JD facts, salary breakdown, relocation & benefits table. |
+| **2. Role Blueprint** | [`ROLE.md`](ROLE.md) | Digital Consultant responsibilities, technology-agnostic philosophy & 3 career paths. |
+| **3. Selection Process** | [`SELECTION_PROCESS.md`](SELECTION_PROCESS.md) | Stage-by-stage selection guide from Resume to Offer release. |
+| **4. What To Study** | [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) | 4 Core Preparation Blocks (Consulting, Tech, Data/SQL, Interviews). |
+| **5. Technical Test** | [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) | Coding practice problems, SQL query exercises & tech comprehension. |
+| **6. Consulting Cases** | [`CONSULTING_CASES.md`](CONSULTING_CASES.md) | Digital Transformation (DX), Industry X IoT & GenAI RAG enterprise cases. |
+| **7. Interview Guide** | [`INTERVIEW.md`](INTERVIEW.md) | Manager Round (Round 1) vs Director Round (Round 2) strategy & answers. |
+| **8. Behavioural & HR** | [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) | STAR behavioral story bank, cross-cultural communication & Japanese readiness. |
+| **9. Resume Strategy** | [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) | Engineering to Digital Consultant resume reframing & bullet point formulas. |
+| **10. Project Strategy**| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | IIT engineering project defense framework & cloud modernization questions. |
+| **11. Question Bank** | [`QUESTION_BANK.md`](QUESTION_BANK.md) | Tagged question database (`[JD-VERIFIED]`, `[PREPARATION-INFERENCE]`, `[PREDICTED]`). |
+| **12. Rapid Revision** | [`RAPID_REVISION.md`](RAPID_REVISION.md) | 60-minute, 3-hour & interview-day emergency checklists. |
 
 ---
 
@@ -99,8 +99,8 @@ Navigate directly to each modular preparation document:
 
 This company pack builds upon and directly links to canonical study materials across the repository:
 
-* **Consulting Frameworks**: [`03_non_02_02_core/consulting/06_case-practice.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/06_case-practice.md)
-* **Technology Domains**: [`03_non_02_02_core/software-engineering/03_domain-knowledge.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/software-engineering/03_domain-knowledge.md)
-* **General Case Prep**: [`01_common/group-discussion/CASE_GD.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/group-discussion/CASE_GD.md)
-* **Behavioral Guide**: [`01_common/behavioral/behavioral-interview-guide.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/behavioral/behavioral-interview-guide.md)
-* **Aptitude Practice**: [`01_common/aptitude/logical-reasoning/coding-decoding.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/aptitude/logical-reasoning/coding-decoding.md)
+* **Consulting Frameworks**: [`03_non_core/consulting/06_case-practice.md`](../../../03_non_core/consulting/06_case-practice.md)
+* **Technology Domains**: [`03_non_core/software-engineering/03_domain-knowledge.md`](../../../03_non_core/software-engineering/03_domain-knowledge.md)
+* **General Case Prep**: [`01_common/group-discussion/CASE_GD.md`](../../../01_common/group-discussion/CASE_GD.md)
+* **Behavioral Guide**: [`01_common/behavioral/behavioral-interview-guide.md`](../../../01_common/behavioral/behavioral-interview-guide.md)
+* **Aptitude Practice**: [`01_common/aptitude/logical-reasoning/coding-decoding.md`](../../../01_common/aptitude/logical-reasoning/coding-decoding.md)

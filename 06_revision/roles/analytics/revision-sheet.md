@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Analytics & Decision Science Preparation Track](../../01_roles/analytics/README.md)
+- 📖 [Complete Analytics & Decision Science Preparation Track](../../../03_non_core/analytics/analytics/README.md)
 
 ---
 

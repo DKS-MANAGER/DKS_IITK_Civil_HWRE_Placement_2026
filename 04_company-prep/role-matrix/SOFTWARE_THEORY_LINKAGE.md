@@ -25,10 +25,10 @@ ETABS → Structural Analysis → stiffness method, FEM
 
 | Theory Topic | Where to Revise |
 |:-------------|:----------------|
-| Structural Analysis | [`02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md`](../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md) |
-| RCC Design | [`02_02_02_core/civil-engineering/rcc/rcc-design.md`](../02_02_02_core/civil-engineering/rcc/rcc-design.md) |
-| Steel Design | [`02_02_02_core/civil-engineering/steel/steel-design.md`](../02_02_02_core/civil-engineering/steel/steel-design.md) |
-| Structures | [`02_02_02_core/civil-engineering/structures/structures.md`](../02_02_02_core/civil-engineering/structures/structures.md) |
+| Structural Analysis | [`02_core/civil-engineering/structural-analysis/structural-analysis.md`](../../02_core/civil-engineering/structural-analysis/structural-analysis.md) |
+| RCC Design | [`02_core/civil-engineering/rcc/rcc-design.md`](../../02_core/civil-engineering/rcc/rcc-design.md) |
+| Steel Design | [`02_core/civil-engineering/steel/steel-design.md`](../../02_core/civil-engineering/steel/steel-design.md) |
+| Structures | [`02_core/civil-engineering/structures/structures.md`](../../02_core/civil-engineering/structures/structures.md) |
 
 ### AutoCAD
 
@@ -61,9 +61,9 @@ HEC-RAS → Fluid Mechanics → open channel flow, energy equation
 
 | Theory Topic | Where to Revise |
 |:-------------|:----------------|
-| Open Channel Flow | [`02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md`](../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md) |
-| Hydraulics | [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) |
-| Water Resources | [`02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md`](../02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md) |
+| Open Channel Flow | [`02_core/hwre/open_channel_flow/open-channel-flow.md`](../../02_core/hwre/open_channel_flow/open-channel-flow.md) |
+| Hydraulics | [`02_core/hwre/hydraulics/hydraulics.md`](../../02_core/hwre/hydraulics/hydraulics.md) |
+| Water Resources | [`02_core/hwre/water_resources/water-resources-engineering.md`](../../02_core/hwre/water_resources/water-resources-engineering.md) |
 
 ### HEC-HMS
 
@@ -103,7 +103,7 @@ PLAXIS → Geotechnical → soil mechanics, FEM
 
 | Theory Topic | Where to Revise |
 |:-------------|:----------------|
-| Geotechnical | [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) |
+| Geotechnical | [`02_core/civil-engineering/geotechnical/geotechnical.md`](../../02_core/civil-engineering/geotechnical/geotechnical.md) |
 
 ---
 
@@ -119,8 +119,8 @@ OpenFOAM → Fluid Mechanics → Navier-Stokes, turbulence
 
 | Theory Topic | Where to Revise |
 |:-------------|:----------------|
-| Hydraulics (CFD) | [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) |
-| Turbulence Modeling | [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) |
+| Hydraulics (CFD) | [`02_core/hwre/hydraulics/hydraulics.md`](../../02_core/hwre/hydraulics/hydraulics.md) |
+| Turbulence Modeling | [`02_core/hwre/hydraulics/turbulence-modeling.md`](../../02_core/hwre/hydraulics/turbulence-modeling.md) |
 
 ---
 
@@ -190,9 +190,9 @@ Illustrative Example 2 (ETABS — Seismic Drift Check Defense):
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Subjects | [`../02_02_02_02_core/README.md`](../02_02_02_02_core/README.md) |
+| Core Subjects | [`../02_core/README.md`](../../README.md) |
 | Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](SOFTWARE_ROLE_MATRIX.md) |
-| Interview Questions | [`software-interview-questions.md`](software-interview-questions.md) |
+| Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
 
 ---
 

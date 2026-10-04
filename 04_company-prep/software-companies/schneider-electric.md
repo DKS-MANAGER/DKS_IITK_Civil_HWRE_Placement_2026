@@ -121,7 +121,7 @@ Day 4: Analog electronics | Day 5: Aptitude | Day 6: GD + research | Day 7: Mock
 ```
 
 ## Cross-Links
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
 
 ## Key Takeaways

@@ -89,4 +89,4 @@ This avoids duplicating aptitude material — one canonical source, many users.
 
 - [Roadmap](ROADMAP.md)
 - [7/14/30-Day Plan](7_14_30_DAY_PLAN.md)
-- [Completeness Matrix](../_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md)
+- [Completeness Matrix](../../_SYSTEM/APTITUDE_COMPLETENESS_MATRIX.md)

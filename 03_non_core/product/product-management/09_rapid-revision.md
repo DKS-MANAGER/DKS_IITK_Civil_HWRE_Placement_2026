@@ -188,7 +188,7 @@ Low Impact, High Effort  → DROP (time wasters)
 | Metrics & Strategy | [03_core-knowledge.md](03_core-knowledge.md) |
 | Behavioral Guide | [../../../01_common/behavioral/behavioral-interview-guide.md](../../../01_common/behavioral/behavioral-interview-guide.md) |
 | Self-Introduction | [../../../01_common/behavioral/behavioral-interview-guide.md](../../../01_common/behavioral/behavioral-interview-guide.md) |
-| Mock Questions | [../../../archive/legacy_archive/legacy_prep/README.md](../../../archive/legacy_archive/legacy_prep/README.md) |
+| Mock Questions | [../../../archive/legacy_archive/legacy_prep/README.md](../../../archive/legacy_prep/README.md) |
 
 ---
 

@@ -245,7 +245,7 @@ $F/M = QS_0/(VX)$, $\theta_c = VX/(Q_wX_w + Q_eX_e)$
 ## 🔗 Cross-Links
 
 - [`water-supply.md`](../water_supply/water-supply.md) — Water treatment
-- [`environmental-engineering.md`](../../environmental/environmental-engineering.md) — BOD kinetics, DO sag
+- [`environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md) — BOD kinetics, DO sag
 - [`hydrology.md`](../hydrology/hydrology.md) — Stormwater, urban hydrology
 
 ---

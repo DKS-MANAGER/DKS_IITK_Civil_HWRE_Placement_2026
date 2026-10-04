@@ -32,8 +32,8 @@
 ---
 
 ## 🧭 Cross-Repository Navigation
-- [Master Role Directory](../../ROLE_DIRECTORY.md)
+- [Master Role Directory](../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../02_interview-preparation/)
-- [03 Common Skills](../../03_common-skills/)
-- [04 Career Preparation](../../04_career-preparation/)
+- [02 Interview Preparation](../../05_interview/)
+- [03 Common Skills](../../01_common/)
+- [04 Career Preparation](../../01_common/resume/career-preparation/)

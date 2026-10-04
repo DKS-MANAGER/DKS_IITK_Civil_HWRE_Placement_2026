@@ -302,10 +302,10 @@ Day 5: Steel supports | Day 6: SAP2000/ETABS | Day 7: Mock + Hilti research
 
 ## Cross-Links
 
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ---
 

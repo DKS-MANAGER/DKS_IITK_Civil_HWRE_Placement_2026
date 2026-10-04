@@ -154,7 +154,7 @@ For every tool on your resume, prepare:
 7. Explain your project. (Project Defense)
 ```
 
-See [`software-interview-questions.md`](software-interview-questions.md) for the full question bank.
+See [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) for the full question bank.
 
 ---
 
@@ -177,12 +177,12 @@ See [`software-interview-questions.md`](software-interview-questions.md) for the
 
 | Related Section | Link |
 |:----------------|:-----|
-| Software Interview Questions | [`software-interview-questions.md`](software-interview-questions.md) |
-| Project-First Learning | [`project-first-learning.md`](project-first-learning.md) |
-| Priority System | [`priority-system.md`](priority-system.md) |
-| Non-Core Resume | [`01_common/resume/career-preparation/resume-positioning/resume-strategy.md`](../01_common/resume/career-preparation/resume-positioning/resume-strategy.md) |
+| Software Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
+| Project-First Learning | [`project-first-learning.md`](../../08_projects/project-first-learning.md) |
+| Priority System | [`priority-system.md`](../../07_resources/reference-material/priority-system.md) |
+| Non-Core Resume | [`01_common/resume/career-preparation/resume-positioning/resume-strategy.md`](../../01_common/resume/career-preparation/resume-positioning/resume-strategy.md) |
 
 ---
 
-*See also: [`software-interview-questions.md`](software-interview-questions.md) for interview prep.*
+*See also: [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) for interview prep.*
 

@@ -6,8 +6,8 @@
 
 | # | Unit | Files Checked | Files Modified | Files Created | Status |
 |---|------|--------------|----------------|---------------|--------|
-| 1 | Inventory | all `02_02_core/hwre` + `software-and-tech/deep-dives` | — | `HWRE_FILE_INVENTORY.md` | ✅ Done |
-| 2 | Repo map | `02_02_core/hwre` structure | — | `HWRE_REPO_MAP.md` | ✅ Done |
+| 1 | Inventory | all `02_core/hwre` + `software-and-tech/deep-dives` | — | `HWRE_FILE_INVENTORY.md` | ✅ Done |
+| 2 | Repo map | `02_core/hwre` structure | — | `HWRE_REPO_MAP.md` | ✅ Done |
 | 3 | Audit state | — | — | `HWRE_AUDIT_STATE.md` | ✅ Done |
 | 4 | Completeness matrix | — | — | `HWRE_COMPLETENESS_MATRIX.md` | ✅ Done |
 | 5 | Navigation layer | `README.md` | `README.md` | `MASTER_INDEX.md`, `HWRE_ROADMAP.md`, `HWRE_30_60_90_DAY_PLAN.md`, `ERROR_ANALYSIS.md`, `RAPID_REVISION.md` | ✅ Done |

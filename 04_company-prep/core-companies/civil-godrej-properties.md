@@ -350,10 +350,10 @@ for on-site work and understand real-estate project lifecycle.
 
 ## Cross-Links
 
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Construction Management](../../02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Resume Template](../templates/resume-template.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Construction Management](../../02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Resume Template](../../01_common/resume/resume-template.md)
 
 ---
 

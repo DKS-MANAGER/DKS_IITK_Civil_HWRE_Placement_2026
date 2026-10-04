@@ -4,7 +4,7 @@
 
 Environmental engineering applies engineering principles to protect and restore the natural environment — covering water and air pollution control, solid and hazardous waste management, environmental impact assessment, climate resilience, and sustainability. Core competency for PSU roles (CPCB, SPCB, NEERI, CPHEEO) and consulting positions.
 
-> **Related topics:** [`water-supply.md`](../hwre/water_supply/water-supply.md) · [`wastewater-engineering.md`](../hwre/wastewater/wastewater-engineering.md) · [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
+> **Related topics:** [`water-supply.md`](../../hwre/water_supply/water-supply.md) · [`wastewater-engineering.md`](../../hwre/wastewater/wastewater-engineering.md) · [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
 
 ---
 
@@ -595,9 +595,9 @@ $D_t = \frac{k_1 L_0}{k_2 - k_1}(e^{-k_1 t} - e^{-k_2 t}) + D_0 e^{-k_2 t}$
 
 ## 🔗 Cross-Links
 
-- [`water-supply.md`](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md) — Water treatment
-- [`wastewater-engineering.md`](../../02_02_02_02_02_02_core/hwre/wastewater/wastewater-engineering.md) — WW treatment
-- [`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) — Urban hydrology, SWMM
+- [`water-supply.md`](../../hwre/water_supply/water-supply.md) — Water treatment
+- [`wastewater-engineering.md`](../../hwre/wastewater/wastewater-engineering.md) — WW treatment
+- [`hydrology.md`](../../hwre/hydrology/hydrology.md) — Urban hydrology, SWMM
 
 ---
 

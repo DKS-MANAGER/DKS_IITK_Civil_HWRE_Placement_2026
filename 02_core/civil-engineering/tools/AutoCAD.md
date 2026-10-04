@@ -22,7 +22,7 @@ AutoCAD is a **2D computer-aided drafting (CAD)** software by Autodesk. It is th
 
 ## 3. Why Your Target Role Needs It
 
-**Company evidence (from [`company-profiles`](../../04_company-prep/)):**
+**Company evidence (from [`company-profiles`](../../../04_company-prep/)):**
 
 | Company | Role | AutoCAD Level |
 |:--------|:-----|:--------------|
@@ -267,11 +267,11 @@ AutoCAD → Engineering Drawing → IS 962 (drawing conventions)
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| Structural Roadmap | [`structural/structural-tech.md`](../structural/structural-tech.md) |
-| Construction Roadmap | [`construction/construction-tech.md`](../construction/construction-tech.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
-| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../SOFTWARE_RESUME_STRATEGY.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| Structural Roadmap | [`structural/structural-tech.md`](../structures/structural-tech.md) |
+| Construction Roadmap | [`construction/construction-tech.md`](../infrastructure/construction/construction-tech.md) |
+| Interview Questions | [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) |
+| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../../../01_common/resume/SOFTWARE_RESUME_STRATEGY.md) |
 
 ---
 

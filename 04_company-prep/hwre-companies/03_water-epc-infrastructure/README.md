@@ -1,7 +1,7 @@
 # Sector: Major Civil & Water EPC Contractors
 
 > **Sector Directory:** 04_company-prep/corporate-targets/03_water-epc-infrastructure/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 17 Companies  
 
 ---

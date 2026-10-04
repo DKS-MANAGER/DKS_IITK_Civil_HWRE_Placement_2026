@@ -155,11 +155,11 @@ How to use it:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Research Technology | [`research/`](research/research-tech.md) |
-| CFD Technology | [`cfd/`](cfd/cfd-tech.md) |
+| Research Technology | [`research/`](../../07_resources/reference-material/research-tech.md) |
+| CFD Technology | [`cfd/`](../../02_core/cfd/cfd-tech.md) |
 | Resume Positioning | [`resume-positioning.md`](resume-positioning.md) |
-| Role Roadmaps | [`role-roadmaps.md`](role-roadmaps.md) |
+| Role Roadmaps | [`role-roadmaps.md`](../../07_resources/reference-material/role-roadmaps.md) |
 
 ---
 
-*See also: [`research-tech.md`](research/research-tech.md) for the research technology stack.*
+*See also: [`research-tech.md`](../../07_resources/reference-material/research-tech.md) for the research technology stack.*

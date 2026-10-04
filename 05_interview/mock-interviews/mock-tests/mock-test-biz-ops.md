@@ -65,5 +65,5 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/operations/business-operations/role-study-plan.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
 - [Mock Test Hub](README.md)

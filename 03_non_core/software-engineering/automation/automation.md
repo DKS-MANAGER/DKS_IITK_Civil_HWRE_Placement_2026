@@ -282,9 +282,9 @@ echo "Running with n=$n"
 | Python | [`programming/python.md`](../programming/python.md) |
 | MATLAB | [`programming/matlab.md`](../programming/matlab.md) |
 | Linux/Dev Tools | [`developer-tools/`](../developer-tools/linux-dev-tools.md) |
-| BIM Technology | [`bim/`](../bim/bim-tech.md) |
-| Structural (CAD) | [`structural/`](../structural/structural-tech.md) |
+| BIM Technology | [`bim/`](../../../02_core/civil-engineering/infrastructure/bim/bim-tech.md) |
+| Structural (CAD) | [`structural/`](../../../02_core/civil-engineering/structures/structural-tech.md) |
 
 ---
 
-*See also: [`bim-tech.md`](../bim/bim-tech.md) for BIM workflows, [`python.md`](../programming/python.md) for Python automation.*
+*See also: [`bim-tech.md`](../../../02_core/civil-engineering/infrastructure/bim/bim-tech.md) for BIM workflows, [`python.md`](../programming/python.md) for Python automation.*

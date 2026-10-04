@@ -2,7 +2,7 @@
 
 > **Tool:** PLAXIS 2D (geotechnical finite element method)
 > **Level:** L2 → L3 (from first model to a complete excavation + retaining wall analysis)
-> **Prerequisite:** [`geotechnical-tech.md`](../geotechnical/geotechnical-tech.md), soil mechanics basics ([`geotechnical.md`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md))
+> **Prerequisite:** [`geotechnical-tech.md`](../../geotechnical/geotechnical-tech.md), soil mechanics basics ([`geotechnical.md`](../geotechnical.md))
 
 This is a **hands-on tutorial**, not a feature list. You will build a real geotechnical model end-to-end: a **braced excavation with a retaining wall** in soft clay. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -298,7 +298,7 @@ By the end you will understand the full PLAXIS workflow and can discuss it in an
 
 ## 🔗 Related Resources
 
-- [`geotechnical-tech.md`](../geotechnical/geotechnical-tech.md) — Where PLAXIS fits in the geotechnical stack
-- [`geotechnical.md`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) — Soil mechanics theory
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
-- [`comparisons/software-comparison.md`](../comparisons/software-comparison.md) — PLAXIS vs FLAC vs GeoStudio
+- [`geotechnical-tech.md`](../../geotechnical/geotechnical-tech.md) — Where PLAXIS fits in the geotechnical stack
+- [`geotechnical.md`](../geotechnical.md) — Soil mechanics theory
+- [`software-interview-questions.md`](../../../../05_interview/technical/software-interview-questions.md) — More tool questions
+- [`comparisons/software-comparison.md`](../../../../07_resources/reference-material/software-comparison.md) — PLAXIS vs FLAC vs GeoStudio

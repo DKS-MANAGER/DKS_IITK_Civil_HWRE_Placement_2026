@@ -53,14 +53,14 @@ graph TD
 - **Target Companies**: McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Kearney, Strategy&, Oliver Wyman, Arthur D. Little, EY-Parthenon, PwC DI.
 - **Selection Architecture**: Resume Shortlist $\rightarrow$ Aptitude/Pymetrics $\rightarrow$ Buddy Round Case $\rightarrow$ Partner Case Rounds (2-3 rounds) $\rightarrow$ Fit/Leadership.
 - **Core Modules**:
-  * [Role Overview](01_roles/consulting/01_role-overview.md)
-  * [Live Case Practice Bank](01_roles/consulting/06_case-practice.md)
-  * [4-Block Milestone Study Plan](01_roles/consulting/08_role-study-plan.md)
-  * [Rapid Revision Sheet](01_roles/consulting/09_rapid-revision.md)
+  * [Role Overview](consulting/01_role-overview.md)
+  * [Live Case Practice Bank](consulting/06_case-practice.md)
+  * [4-Block Milestone Study Plan](consulting/08_role-study-plan.md)
+  * [Rapid Revision Sheet](consulting/09_rapid-revision.md)
 - **Shared Prerequisite Tools**:
-  * [Shared Case Framework Library](02_interview-preparation/case-interviews/framework-library.md)
-  * [Guesstimate Master Guide](02_interview-preparation/guesstimates/guesstimate-guide.md)
-  * [Structured Problem Solving (MECE)](03_common-skills/structured-problem-solving/structured-problem-solving.md)
+  * [Shared Case Framework Library](../05_interview/case-interview/case-interviews/framework-library.md)
+  * [Guesstimate Master Guide](../05_interview/case-interview/guesstimates/guesstimate-guide.md)
+  * [Structured Problem Solving (MECE)](../01_common/placement-math/structured-problem-solving/structured-problem-solving.md)
 
 ---
 
@@ -68,13 +68,13 @@ graph TD
 - **Target Companies**: Fractal Analytics, Tiger Analytics, EXL Service, Mu Sigma, ZS Associates, Cartesian Consulting, LatentView.
 - **Selection Architecture**: Online Assessment (SQL + Quant + ML) $\rightarrow$ Technical Round (Live SQL/Python coding) $\rightarrow$ Business Case / Machine Learning Discussion $\rightarrow$ HR.
 - **Core Modules**:
-  * [Role Overview](01_roles/analytics/01_role-overview.md)
-  * [Tools & Technical Stack](01_roles/analytics/04_tools-and-technical-stack.md)
-  * [Milestone Study Plan](01_roles/analytics/08_role-study-plan.md)
-  * [Rapid Revision Sheet](01_roles/analytics/09_rapid-revision.md)
+  * [Role Overview](analytics/analytics/01_role-overview.md)
+  * [Tools & Technical Stack](analytics/analytics/04_tools-and-technical-stack.md)
+  * [Milestone Study Plan](analytics/analytics/08_role-study-plan.md)
+  * [Rapid Revision Sheet](analytics/analytics/09_rapid-revision.md)
 - **Shared Prerequisite Tools**:
-  * [Aptitude Bridge](03_common-skills/quantitative-reasoning/aptitude-bridge.md)
-  * [Data Interpretation Guide](03_common-skills/data-interpretation/data-interpretation.md)
+  * [Aptitude Bridge](../01_common/placement-math/quantitative-reasoning/aptitude-bridge.md)
+  * [Data Interpretation Guide](../01_common/placement-math/data-interpretation/data-interpretation.md)
 
 ---
 
@@ -82,10 +82,10 @@ graph TD
 - **Target Companies**: Deloitte USI, PwC, EY, KPMG, Accenture Strategy & Consulting, American Express, Capital One, Flipkart, Amazon.
 - **Selection Architecture**: Aptitude & Data Interpretation OA $\rightarrow$ SQL/Guesstimate Round $\rightarrow$ Business Problem Solving Round $\rightarrow$ Behavioral.
 - **Core Modules**:
-  * [Role Overview](01_roles/business-analyst/01_role-overview.md)
-  * [Tools, Dashboards & SQL](01_roles/business-analyst/04_data-and-analytics/sql-practice.md)
-  * [Study Plan](01_roles/business-analyst/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/business-analyst/09_rapid-revision.md)
+  * [Role Overview](analytics/business-analyst/01_role-overview.md)
+  * [Tools, Dashboards & SQL](analytics/business-analyst/04_data-and-analytics/sql-practice.md)
+  * [Study Plan](analytics/business-analyst/08_role-study-plan.md)
+  * [Rapid Revision](analytics/business-analyst/09_rapid-revision.md)
 
 ---
 
@@ -93,10 +93,10 @@ graph TD
 - **Target Companies**: Swiggy, Zomato, Uber, Walmart Global Tech, Myntra, Meesho, Jio, Paytm.
 - **Selection Architecture**: HackerRank SQL/Coding OA $\rightarrow$ Live EDA/SQL Case $\rightarrow$ Metrics & Root Cause Analysis Round $\rightarrow$ Culture Fit.
 - **Core Modules**:
-  * [Role Overview](01_roles/data-analyst/01_role-overview.md)
-  * [Statistics & Tech Stack](01_roles/data-analyst/04_tools-and-technical-stack.md)
-  * [Study Plan](01_roles/data-analyst/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/data-analyst/09_rapid-revision.md)
+  * [Role Overview](analytics/data-analyst/01_role-overview.md)
+  * [Statistics & Tech Stack](analytics/data-analyst/04_tools-and-technical-stack.md)
+  * [Study Plan](analytics/data-analyst/08_role-study-plan.md)
+  * [Rapid Revision](analytics/data-analyst/09_rapid-revision.md)
 
 ---
 
@@ -104,9 +104,9 @@ graph TD
 - **Target Companies**: Flipkart, Amazon, Uber, Ola, Delhivery, Zepto, Blinkit, Urban Company.
 - **Selection Architecture**: Analytical Assessment $\rightarrow$ Operational Bottleneck Case $\rightarrow$ Metric Root Cause Analysis $\rightarrow$ Executive Round.
 - **Core Modules**:
-  * [Role Overview](01_roles/business-operations/01_role-overview.md)
-  * [Study Plan](01_roles/business-operations/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/business-operations/09_rapid-revision.md)
+  * [Role Overview](operations/business-operations/01_role-overview.md)
+  * [Study Plan](operations/business-operations/08_role-study-plan.md)
+  * [Rapid Revision](operations/business-operations/09_rapid-revision.md)
 
 ---
 
@@ -114,9 +114,9 @@ graph TD
 - **Target Companies**: Procter & Gamble, Unilever, ITC, Tata Steel, Reliance Industries, L'Oréal, JSW.
 - **Selection Architecture**: Domain OA $\rightarrow$ Group Discussion (Supply/Ops bottleneck) $\rightarrow$ Technical Plant/Process Case $\rightarrow$ Leadership Interview.
 - **Core Modules**:
-  * [Role Overview](01_roles/operations/01_role-overview.md)
-  * [Study Plan](01_roles/operations/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/operations/09_rapid-revision.md)
+  * [Role Overview](operations/business-operations/01_role-overview.md)
+  * [Study Plan](operations/business-operations/08_role-study-plan.md)
+  * [Rapid Revision](operations/business-operations/09_rapid-revision.md)
 
 ---
 
@@ -124,11 +124,11 @@ graph TD
 - **Target Companies**: Microsoft (APM), Google (APM), Flipkart (APM), PhonePe, Razorpay, CRED, Meesho, MakeMyTrip.
 - **Selection Architecture**: Product Teardown / Assignment $\rightarrow$ Product Design (CIRCLES) Round $\rightarrow$ Product Strategy & Metrics Round $\rightarrow$ Engineering Collaboration Round $\rightarrow$ Director Round.
 - **Core Modules**:
-  * [Role Overview](01_roles/product-management/01_role-overview.md)
-  * [Core Knowledge & Metrics](01_roles/product-management/03_core-knowledge.md)
-  * [Interview Preparation & Product Sense](01_roles/product-management/05_interview-preparation.md)
-  * [Study Plan](01_roles/product-management/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/product-management/09_rapid-revision.md)
+  * [Role Overview](product/product-management/01_role-overview.md)
+  * [Core Knowledge & Metrics](product/product-management/03_core-knowledge.md)
+  * [Interview Preparation & Product Sense](product/product-management/05_interview-preparation.md)
+  * [Study Plan](product/product-management/08_role-study-plan.md)
+  * [Rapid Revision](product/product-management/09_rapid-revision.md)
 
 ---
 
@@ -136,9 +136,9 @@ graph TD
 - **Target Companies**: Groww, Zepto, CRED, Dream11, Swiggy, Nykaa, InMobi.
 - **Selection Architecture**: SQL & Experimentation OA $\rightarrow$ Funnel Analytics Case $\rightarrow$ A/B Test Design & Pitfall Round $\rightarrow$ Hiring Manager.
 - **Core Modules**:
-  * [Role Overview](01_roles/product-analyst/01_role-overview.md)
-  * [Study Plan](01_roles/product-analyst/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/product-analyst/09_rapid-revision.md)
+  * [Role Overview](product/product-analyst/01_role-overview.md)
+  * [Study Plan](product/product-analyst/08_role-study-plan.md)
+  * [Rapid Revision](product/product-analyst/09_rapid-revision.md)
 
 ---
 
@@ -146,9 +146,9 @@ graph TD
 - **Target Companies**: Amazon, Google, Microsoft, Adobe, Cisco, Larsen & Toubro, Tata Projects.
 - **Selection Architecture**: Behavioral / Leadership OA $\rightarrow$ Cross-Functional Trade-Off Case $\rightarrow$ CPM Scheduling & Risk Analysis $\rightarrow$ Executive Bar Raiser.
 - **Core Modules**:
-  * [Role Overview](01_roles/program-management/01_role-overview.md)
-  * [Study Plan](01_roles/program-management/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/program-management/09_rapid-revision.md)
+  * [Role Overview](operations/program-management/01_role-overview.md)
+  * [Study Plan](operations/program-management/08_role-study-plan.md)
+  * [Rapid Revision](operations/program-management/09_rapid-revision.md)
 
 ---
 
@@ -156,9 +156,9 @@ graph TD
 - **Target Companies**: Aditya Birla Group (LEAP/Strategy), Tata Administrative Services (TAS), Mahindra GMC, Reliance Strategic Initiatives.
 - **Selection Architecture**: Psychometric & Case OA $\rightarrow$ Group Activity / Business Simulation $\rightarrow$ Strategic Case Presentation $\rightarrow$ CXO Panel.
 - **Core Modules**:
-  * [Role Overview](01_roles/strategy/01_role-overview.md)
-  * [Study Plan](01_roles/strategy/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/strategy/09_rapid-revision.md)
+  * [Role Overview](consulting/strategy/01_role-overview.md)
+  * [Study Plan](consulting/strategy/08_role-study-plan.md)
+  * [Rapid Revision](consulting/strategy/09_rapid-revision.md)
 
 ---
 
@@ -166,9 +166,9 @@ graph TD
 - **Target Companies**: Apple Operations, Amazon SCOT, Schneider Electric, DHL, Maersk, Havells, Cummins.
 - **Selection Architecture**: Quantitative & Ops OA $\rightarrow$ Inventory Optimization Case $\rightarrow$ Network Simulation Discussion $\rightarrow$ VP Operations Round.
 - **Core Modules**:
-  * [Role Overview](01_roles/supply-chain/01_role-overview.md)
-  * [Study Plan](01_roles/supply-chain/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/supply-chain/09_rapid-revision.md)
+  * [Role Overview](operations/supply-chain/01_role-overview.md)
+  * [Study Plan](operations/supply-chain/08_role-study-plan.md)
+  * [Rapid Revision](operations/supply-chain/09_rapid-revision.md)
 
 ---
 
@@ -176,9 +176,9 @@ graph TD
 - **Target Companies**: Goldman Sachs, Morgan Stanley, J.P. Morgan Chase, Barclays, Deutsche Bank, Nomura, WorldQuant.
 - **Selection Architecture**: Quant/Finance OA $\rightarrow$ Accounting & Valuation Round $\rightarrow$ Market Trends & Pitch Round $\rightarrow$ MD Round.
 - **Core Modules**:
-  * [Role Overview](01_roles/finance/01_role-overview.md)
-  * [Study Plan](01_roles/finance/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/finance/09_rapid-revision.md)
+  * [Role Overview](finance/finance/01_role-overview.md)
+  * [Study Plan](finance/finance/08_role-study-plan.md)
+  * [Rapid Revision](finance/finance/09_rapid-revision.md)
 
 ---
 
@@ -186,9 +186,9 @@ graph TD
 - **Target Companies**: American Express, Mastercard, Visa, Standard Chartered, HSBC, Moody's Analytics, CRISIL.
 - **Selection Architecture**: Quantitative OA (Probability/Stats) $\rightarrow$ Credit Risk / Scorecard Modeling Round $\rightarrow$ Stress Testing Case $\rightarrow$ Fit.
 - **Core Modules**:
-  * [Role Overview](01_roles/risk/01_role-overview.md)
-  * [Study Plan](01_roles/risk/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/risk/09_rapid-revision.md)
+  * [Role Overview](finance/risk/01_role-overview.md)
+  * [Study Plan](finance/risk/08_role-study-plan.md)
+  * [Rapid Revision](finance/risk/09_rapid-revision.md)
 
 ---
 
@@ -196,17 +196,17 @@ graph TD
 - **Target Companies**: Gartner, ZS Associates (DTA), ThoughtWorks, Cognizant Strategy, Capgemini Invent.
 - **Selection Architecture**: System Logic OA $\rightarrow$ Technical Solution Architecture Case $\rightarrow$ Client Scenario Simulation $\rightarrow$ Partner Round.
 - **Core Modules**:
-  * [Role Overview](01_roles/technology/01_role-overview.md)
-  * [Study Plan](01_roles/technology/08_role-study-plan.md)
-  * [Rapid Revision](01_roles/technology/09_rapid-revision.md)
+  * [Role Overview](analytics/analytics/01_role-overview.md)
+  * [Study Plan](analytics/analytics/08_role-study-plan.md)
+  * [Rapid Revision](analytics/analytics/09_rapid-revision.md)
 
 ---
 
 ## 🧭 How to Navigate and Prepare
 
-1. **Self-Assessment**: Review the [Role Selection Matrix](04_career-preparation/role-selection/role-selector.md) to shortlist your primary (Tier-1) and secondary target profiles.
-2. **Master Fundamentals**: Build your base with [Business Fundamentals](03_common-skills/business-fundamentals/business-fundamentals.md) and [Structured Problem Solving](03_common-skills/structured-problem-solving/structured-problem-solving.md).
+1. **Self-Assessment**: Review the [Role Selection Matrix](../01_common/resume/career-preparation/role-selection/role-selector.md) to shortlist your primary (Tier-1) and secondary target profiles.
+2. **Master Fundamentals**: Build your base with [Business Fundamentals](../01_common/placement-math/business-fundamentals/business-fundamentals.md) and [Structured Problem Solving](../01_common/placement-math/structured-problem-solving/structured-problem-solving.md).
 3. **Deep Dive by Role**: Go through the dedicated `01_roles/<role>/` study plans.
-4. **Drill Shared Methods**: Practice [Case Interviews](02_interview-preparation/case-interviews/framework-library.md) and [Guesstimates](02_interview-preparation/guesstimates/guesstimate-guide.md).
-5. **Simulate & Polish**: Conduct peer cases using [Mock Interview Systems](02_interview-preparation/mock-interviews/mock-system.md) and review with [Rapid Revision Hub](05_rapid-revision/).
+4. **Drill Shared Methods**: Practice [Case Interviews](../05_interview/case-interview/case-interviews/framework-library.md) and [Guesstimates](../05_interview/case-interview/guesstimates/guesstimate-guide.md).
+5. **Simulate & Polish**: Conduct peer cases using [Mock Interview Systems](../05_interview/case-interview/mock-interviews/mock-system.md) and review with [Rapid Revision Hub](05_rapid-revision/).
 

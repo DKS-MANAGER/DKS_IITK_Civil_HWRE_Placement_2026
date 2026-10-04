@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_02_02_02_core/hwre/hydrology/role-study-plan.md)
-- [Hydrology](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md)
-- [Sediment Transport](../../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md)
+- [Role Study Plan](../../../02_core/hwre/hydrology/role-study-plan.md)
+- [Hydrology](../../../02_core/hwre/hydrology/hydrology.md)
+- [Sediment Transport](../../../02_core/hwre/hydrology/sediment-transport.md)
 - [Mock Test Hub](README.md)

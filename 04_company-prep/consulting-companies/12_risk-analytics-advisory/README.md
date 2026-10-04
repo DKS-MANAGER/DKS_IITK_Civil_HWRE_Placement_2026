@@ -1,7 +1,7 @@
 # Sector: Infrastructure Advisory, Big 4 & Risk Analytics
 
 > **Sector Directory:** 04_company-prep/corporate-targets/12_risk-analytics-advisory/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 7 Companies  
 
 ---

@@ -2,7 +2,7 @@
 
 > **Placement Priority:** P0 — Required for L&T, Tata Projects, PSUs, consulting firms
 > **GATE-O-PEDIA Reference:** Chapter 5 (1,986 lines, 60 topics, 12 formulas)
-> **Canonical Page:** `02_02_02_core/civil-engineering/steel/steel-design.md`
+> **Canonical Page:** `02_core/civil-engineering/steel/steel-design.md`
 > **Design Code:** IS 800:2007 (General Construction in Steel)
 
 ---

@@ -75,5 +75,5 @@ Never invent fake stories. Frame your real IIT experience (projects, clubs, fest
 ## 5. Canonical Repository Behavioral Guides
 
 For further HR interview techniques and mock interview scoring:
-* Link: [`01_common/behavioral/behavioral-interview-guide.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/behavioral/behavioral-interview-guide.md)
-* Link: [`01_common/behavioral/company-fit-analysis.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/behavioral/company-fit-analysis.md)
+* Link: [`01_common/behavioral/behavioral-interview-guide.md`](../../../01_common/behavioral/behavioral-interview-guide.md)
+* Link: [`01_common/behavioral/company-fit-analysis.md`](../../../01_common/behavioral/company-fit-analysis.md)

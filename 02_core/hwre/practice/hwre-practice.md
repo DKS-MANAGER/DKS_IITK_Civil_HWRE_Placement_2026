@@ -499,4 +499,4 @@
 
 - [formulas/hwre-formulas.md](../formulas/hwre-formulas.md) — canonical formulas
 - [mocks/hwre-mock-1.md](../mocks/hwre-mock-1.md) — full mock test
-- Subject guides in [`02_02_core/hwre`](../README.md)
+- Subject guides in [`02_core/hwre`](../README.md)

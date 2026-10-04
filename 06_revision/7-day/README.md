@@ -12,9 +12,9 @@
 │                            7-DAY SPRINT SCHEDULE                            │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ Day 1: Aptitude Math & Formulas ──► 01_common/aptitude/rapid-revision/      │
-│ Day 2: Core Engineering SOM & HWRE ──► 02_02_02_02_02_core/hwre/ & civil-engineering/   │
-│ Day 3: CFD & Fluid Mechanics    ──► 02_02_02_core/cfd/ & 05_interview/technical/  │
-│ Day 4: Non-Core / Consulting / Coding ──► 03_non_02_02_core/                      │
+│ Day 2: Core Engineering SOM & HWRE ──► 02_core/hwre/ & civil-engineering/   │
+│ Day 3: CFD & Fluid Mechanics    ──► 02_core/cfd/ & 05_interview/technical/  │
+│ Day 4: Non-Core / Consulting / Coding ──► 03_non_core/                      │
 │ Day 5: Deep-Dive Project Defense ──► 08_projects/ & 05_interview/project/   │
 │ Day 6: HR Stories & 2-min Intro ──► 05_interview/behavioral/ & hr/          │
 │ Day 7: Pre-Flight Rest & Mocks  ──► 06_revision/interview-tomorrow/         │

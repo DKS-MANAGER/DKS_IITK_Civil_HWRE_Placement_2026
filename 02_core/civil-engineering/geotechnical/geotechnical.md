@@ -4,7 +4,7 @@
 
 Geotechnical engineering applies soil mechanics and rock mechanics to the design of foundations, slopes, retaining structures, and earth-supported systems.
 
-> **Related topics:** [`structures.md`](../structures/structures.md) · [`../02_02_02_02_02_02_core/hwre/irrigation/irrigation-engineering.md`](../../02_02_02_02_02_02_core/hwre/irrigation/irrigation-engineering.md)
+> **Related topics:** [`structures.md`](../structures/structures.md) · [`../02_core/hwre/irrigation/irrigation-engineering.md`](../../hwre/irrigation/irrigation-engineering.md)
 
 ---
 
@@ -266,7 +266,7 @@ Foundation basics    →  Earth pressure theories        →  Ground improvement
 ## 🔗 Cross-Links
 
 - [`structures.md`](../structures/structures.md) — Foundation design integration
-- [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) — Canal/embankment design
+- [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) — Canal/embankment design
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Pavement subgrade
 
 ---

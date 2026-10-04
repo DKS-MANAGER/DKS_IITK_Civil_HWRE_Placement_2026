@@ -1,8 +1,8 @@
 # GATE Civil — File Inventory
 
-> Canonical inventory of every file under `02_02_02_02_core/gate/` plus the `02_02_core/` subject files that serve as detailed concept sources. Statuses: `EMPTY`, `INDEX_ONLY`, `PARTIAL`, `GOOD`, `COMPLETE`, `DUPLICATE`, `MISPLACED`.
+> Canonical inventory of every file under `02_core/gate/` plus the `02_core/` subject files that serve as detailed concept sources. Statuses: `EMPTY`, `INDEX_ONLY`, `PARTIAL`, `GOOD`, `COMPLETE`, `DUPLICATE`, `MISPLACED`.
 
-## 02_02_02_02_core/gate/ Files
+## 02_core/gate/ Files
 
 | File | Purpose | Subject | Actual Content? | Questions? | Solutions? | Status |
 | ---- | ------- | ------- | --------------- | ---------- | ---------- | ------ |
@@ -23,26 +23,26 @@
 | [`_SYSTEM/GATE_AUDIT_STATE.md`](GATE_AUDIT_STATE.md) | Audit state | All | Yes | No | No | `GOOD` |
 | [`_SYSTEM/GATE_COMPLETENESS_MATRIX.md`](GATE_COMPLETENESS_MATRIX.md) | Completeness scores | All | Yes | No | No | `GOOD` |
 
-## 02_02_core/ Subject Files (Detailed Concept Sources)
+## 02_core/ Subject Files (Detailed Concept Sources)
 
 These files hold the detailed theory. The GATE layer links to them instead of duplicating content.
 
 | File | Subject | Lines | Role in GATE System |
 | ---- | ------- | ----: | ------------------- |
-| [`02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md`](../../fundamentals/engineering-mechanics.md) | Engineering Mechanics | 615 | EM theory + examples |
-| [`02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md`](../../fundamentals/strength-of-materials.md) | Strength of Materials | 703 | SOM theory + examples |
-| [`02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md`](../../structural-analysis/structural-analysis.md) | Structural Analysis | 678 | Analysis methods |
-| [`02_02_02_core/civil-engineering/rcc/rcc-design.md`](../../rcc/rcc-design.md) | RCC Design | 885 | IS 456 design |
-| [`02_02_02_core/civil-engineering/steel/steel-design.md`](../../steel/steel-design.md) | Steel Design | 852 | IS 800 design |
-| [`02_02_02_core/civil-engineering/structures/structures.md`](../../structures/structures.md) | Structures overview | 317 | Structures hub |
-| [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../../geotechnical/geotechnical.md) | Geotechnical | 276 | Soil mechanics + foundations |
-| [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md) | Hydraulics | 670 | Pipe + open channel |
-| [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../../hwre/hydrology/hydrology.md) | Hydrology | 586 | Hydrology + groundwater |
-| [`02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) | Water Resources | 556 | Water resources |
-| [`02_02_02_core/civil-engineering/environmental/environmental-engineering.md`](../../environmental/environmental-engineering.md) | Environmental | 619 | Water/wastewater/air/solid |
-| [`02_02_02_core/civil-engineering/transportation/transportation-engineering.md`](../../transportation/transportation-engineering.md) | Transportation | 641 | Highway + traffic |
-| [`02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../geoinformatics/geoinformatics.md) | Geomatics | 778 | Surveying + GIS/RS |
-| [`02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md`](../../infrastructure/infrastructure-engineering-management.md) | Construction Mgmt | 810 | CPM/PERT + estimation |
+| [`02_core/civil-engineering/fundamentals/engineering-mechanics.md`](../../civil-engineering/fundamentals/engineering-mechanics.md) | Engineering Mechanics | 615 | EM theory + examples |
+| [`02_core/civil-engineering/fundamentals/strength-of-materials.md`](../../civil-engineering/fundamentals/strength-of-materials.md) | Strength of Materials | 703 | SOM theory + examples |
+| [`02_core/civil-engineering/structural-analysis/structural-analysis.md`](../../civil-engineering/structural-analysis/structural-analysis.md) | Structural Analysis | 678 | Analysis methods |
+| [`02_core/civil-engineering/rcc/rcc-design.md`](../../civil-engineering/rcc/rcc-design.md) | RCC Design | 885 | IS 456 design |
+| [`02_core/civil-engineering/steel/steel-design.md`](../../civil-engineering/steel/steel-design.md) | Steel Design | 852 | IS 800 design |
+| [`02_core/civil-engineering/structures/structures.md`](../../civil-engineering/structures/structures.md) | Structures overview | 317 | Structures hub |
+| [`02_core/civil-engineering/geotechnical/geotechnical.md`](../../civil-engineering/geotechnical/geotechnical.md) | Geotechnical | 276 | Soil mechanics + foundations |
+| [`02_core/hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md) | Hydraulics | 670 | Pipe + open channel |
+| [`02_core/hwre/hydrology/hydrology.md`](../../hwre/hydrology/hydrology.md) | Hydrology | 586 | Hydrology + groundwater |
+| [`02_core/hwre/water_resources/water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) | Water Resources | 556 | Water resources |
+| [`02_core/civil-engineering/environmental/environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md) | Environmental | 619 | Water/wastewater/air/solid |
+| [`02_core/civil-engineering/transportation/transportation-engineering.md`](../../civil-engineering/transportation/transportation-engineering.md) | Transportation | 641 | Highway + traffic |
+| [`02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../civil-engineering/geoinformatics/geoinformatics.md) | Geomatics | 778 | Surveying + GIS/RS |
+| [`02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md`](../../civil-engineering/infrastructure/infrastructure-engineering-management.md) | Construction Mgmt | 810 | CPM/PERT + estimation |
 
 ## Audit Notes
 

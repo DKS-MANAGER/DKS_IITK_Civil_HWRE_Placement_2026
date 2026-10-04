@@ -303,9 +303,9 @@ Day 7: Mock interview + Reliance research
 
 ## Cross-Links
 
-- [Geotechnical Engineering](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md)
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Geotechnical Engineering](../../02_core/civil-engineering/geotechnical/geotechnical.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ---
 

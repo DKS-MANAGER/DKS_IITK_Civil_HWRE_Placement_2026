@@ -2,7 +2,7 @@
 
 > **Tool:** EPA SWMM (Storm Water Management Model)
 > **Level:** L2 → L3 (from first model to a complete urban drainage + LID analysis)
-> **Prerequisite:** [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md), urban hydrology basics ([`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md))
+> **Prerequisite:** [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md), urban hydrology basics ([`hydrology.md`](../hydrology/hydrology.md))
 
 This is a **hands-on guide**, not a feature list. You will build a real urban drainage model end-to-end: a **small residential catchment** with pipes, a junction, an outfall, and a **Low Impact Development (LID)** control. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -265,8 +265,8 @@ By the end you will understand the full SWMM workflow and can discuss it in an i
 
 ## 🔗 Related Resources
 
-- [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md) — Where SWMM fits in the HWRE stack
-- [`hydrology-tech.md`](../hydrology/hydrology-tech.md) — Rainfall-runoff modeling
-- [`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) — Urban hydrology theory
-- [`wastewater-engineering.md`](../../02_02_02_02_02_02_core/hwre/wastewater/wastewater-engineering.md) — Combined sewer systems
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md) — Where SWMM fits in the HWRE stack
+- [`hydrology-tech.md`](../hydrology-tech.md) — Rainfall-runoff modeling
+- [`hydrology.md`](../hydrology/hydrology.md) — Urban hydrology theory
+- [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) — Combined sewer systems
+- [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) — More tool questions

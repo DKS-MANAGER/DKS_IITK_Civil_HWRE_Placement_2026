@@ -56,8 +56,8 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/product/product-management/role-study-plan.md)
-- [PM Overview](../../03_non_02_02_core/product/product-management/pm-overview.md)
-- [Product Sense](../../03_non_02_02_core/product/product-management/product-sense.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [PM Overview](../../03_non_core/product/product-management/pm-overview.md)
+- [Product Sense](../../03_non_core/product/product-management/product-sense.md)
 - [Mock Test Hub](README.md)
 

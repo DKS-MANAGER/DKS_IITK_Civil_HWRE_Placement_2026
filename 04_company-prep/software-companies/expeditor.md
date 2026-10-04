@@ -91,9 +91,9 @@ Day 5: SQL | Day 6: Angular + project | Day 7: Mock interview
 
 ## Cross-Links
 - [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Tech Careers](../../03_non_02_02_core/software-engineering/tech-careers.md)
-- [Supply Chain](../../03_non_02_02_core/operations/supply-chain/)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Tech Careers](../../03_non_core/software-engineering/tech-careers.md)
+- [Supply Chain](../../03_non_core/operations/supply-chain/)
 
 ## Common Technical Reference
 

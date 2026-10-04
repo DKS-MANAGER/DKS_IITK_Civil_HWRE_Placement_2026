@@ -317,7 +317,7 @@ Sediment transport is critical for river engineering, dam design, bridge scour, 
 → [Open Channel Flow](../open_channel_flow/open-channel-flow.md)
 
 **Interview:**
-→ [Technical Interview Bank](../../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)
 → [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
 
 **Related:**

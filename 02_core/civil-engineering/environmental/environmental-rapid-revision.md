@@ -227,17 +227,17 @@ Effluent Discharge (meets CPCB standards)
 
 **Study:**
 → [Environmental Engineering Full Reference](environmental-engineering.md)
-→ [Wastewater Engineering](../hwre/wastewater/wastewater-engineering.md)
+→ [Wastewater Engineering](../../hwre/wastewater/wastewater-engineering.md)
 → [Role Study Plan](role-study-plan.md)
 
 **Deeper:**
-→ [Water Resources Engineering](../hwre/water_resources/water-resources-engineering.md)
-→ [Water Supply](../hwre/water_supply/water-supply.md)
-→ [Hydrology](../hwre/hydrology/hydrology.md)
+→ [Water Resources Engineering](../../hwre/water_resources/water-resources-engineering.md)
+→ [Water Supply](../../hwre/water_supply/water-supply.md)
+→ [Hydrology](../../hwre/hydrology/hydrology.md)
 
 **Interview:**
-→ [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
-→ [Behavioral Guide](../../01_common/behavioral/behavioral-interview-guide.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)
+→ [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
 
 ---
 

@@ -415,13 +415,13 @@ print(f"Q = {mannings_rect(10, 2, 0.03, 0.001):.2f} m³/s")
 
 ## 🔗 Cross-Links
 
-- [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) — Hydraulics theory behind HEC-RAS
-- [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) — OpenFOAM setup for turbulence
-- [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) — Hydrology theory behind HEC-HMS/SWMM
-- [`02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md) — GIS theory behind ArcGIS/QGIS
-- [`07_resources/reference-material/gis-tools.md`](../../07_resources/reference-material/gis-tools.md) — Full GIS tool listing
-- [`02_02_02_core/civil-engineering/transportation/transportation-software.md`](../../02_02_02_core/civil-engineering/transportation/transportation-software.md) — Transportation-specific software
-- [`technical/technical-interview-bank.md`](technical/technical-interview-bank.md) — 100 Q&A by topic
+- [`02_core/hwre/hydraulics/hydraulics.md`](../../../02_core/hwre/hydraulics/hydraulics.md) — Hydraulics theory behind HEC-RAS
+- [`02_core/hwre/hydraulics/turbulence-modeling.md`](../../../02_core/hwre/hydraulics/turbulence-modeling.md) — OpenFOAM setup for turbulence
+- [`02_core/hwre/hydrology/hydrology.md`](../../../02_core/hwre/hydrology/hydrology.md) — Hydrology theory behind HEC-HMS/SWMM
+- [`02_core/civil-engineering/geoinformatics/geoinformatics.md`](../../../02_core/civil-engineering/geoinformatics/geoinformatics.md) — GIS theory behind ArcGIS/QGIS
+- [`07_resources/reference-material/gis-tools.md`](../../../07_resources/reference-material/gis-tools.md) — Full GIS tool listing
+- [`02_core/civil-engineering/transportation/transportation-software.md`](../../../02_core/civil-engineering/transportation/transportation-software.md) — Transportation-specific software
+- [`technical/technical-interview-bank.md`](../technical-interview-bank.md) — 100 Q&A by topic
 
 ---
 

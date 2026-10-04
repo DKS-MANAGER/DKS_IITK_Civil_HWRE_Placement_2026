@@ -1,6 +1,6 @@
 # Ashoka Buildcon — Corporate Placement Profile
 
-> **Target ID:** CORP-100 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-100 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 10_infrastructure-highway-epc | **Priority Tier:** B (Priority B - Extended Network) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

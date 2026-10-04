@@ -212,7 +212,7 @@ A: Compare before/after on key metrics: throughput, cycle time, defect rate, cos
 **Related:**
 → [Supply Chain Overview](../supply-chain/01_role-overview.md) — Supply chain role
 → [Program Mgmt Overview](../program-management/01_role-overview.md) — PM role
-→ [Case Frameworks](../../02_interview-preparation/case-interviews/framework-library.md) — Case interview prep
+→ [Case Frameworks](../../../05_interview/case-interview/case-interviews/framework-library.md) — Case interview prep
 
 ---
 

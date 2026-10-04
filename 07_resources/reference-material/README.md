@@ -11,13 +11,13 @@ These deep-dives complement the [branch tech roadmaps](../README.md) — the roa
 
 | Tool | Branch | What You Build | Level |
 |:-----|:-------|:---------------|:------|
-| [**HEC-RAS**](hec-ras-walkthrough.md) | HWRE / River | 1D steady river model + bridge + 2D floodplain | L2→L3 |
-| [**HEC-HMS**](hec-hms-tutorial.md) | Hydrology | Rainfall-runoff model + flood hydrograph | L2→L3 |
-| [**SWMM**](swmm-guide.md) | Urban Drainage | Urban drainage network + LID control | L2→L3 |
-| [**EPANET**](epanet-walkthrough.md) | Water Distribution | Water network + extended period simulation | L2→L3 |
-| [**PLAXIS 2D**](plaxis-2d-tutorial.md) | Geotechnical | Braced excavation + retaining wall + FoS | L2→L3 |
-| [**GeoStudio SLOPE/W**](geostudio-slopew-tutorial.md) | Geotechnical | Embankment slope stability + FoS | L2→L3 |
-| [**OpenFOAM**](openfoam-case-study.md) | CFD / Research | Flow around cylinder + mesh independence | L2→L3 |
+| [**HEC-RAS**](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) | HWRE / River | 1D steady river model + bridge + 2D floodplain | L2→L3 |
+| [**HEC-HMS**](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) | Hydrology | Rainfall-runoff model + flood hydrograph | L2→L3 |
+| [**SWMM**](../../02_core/hwre/software-deep-dives/swmm-guide.md) | Urban Drainage | Urban drainage network + LID control | L2→L3 |
+| [**EPANET**](../../02_core/hwre/software-deep-dives/epanet-walkthrough.md) | Water Distribution | Water network + extended period simulation | L2→L3 |
+| [**PLAXIS 2D**](../../02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md) | Geotechnical | Braced excavation + retaining wall + FoS | L2→L3 |
+| [**GeoStudio SLOPE/W**](../../02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) | Geotechnical | Embankment slope stability + FoS | L2→L3 |
+| [**OpenFOAM**](../../02_core/cfd/openfoam-case-study.md) | CFD / Research | Flow around cylinder + mesh independence | L2→L3 |
 
 ---
 
@@ -25,13 +25,13 @@ These deep-dives complement the [branch tech roadmaps](../README.md) — the roa
 
 | Your Specialization | Start With |
 |:--------------------|:-----------|
-| River / Flood Engineering | [HEC-RAS](hec-ras-walkthrough.md) → [HEC-HMS](hec-hms-tutorial.md) |
-| Hydrology / Watershed | [HEC-HMS](hec-hms-tutorial.md) → [HEC-RAS](hec-ras-walkthrough.md) |
-| Urban Drainage / Stormwater | [SWMM](swmm-guide.md) |
-| Water Supply / Distribution | [EPANET](epanet-walkthrough.md) |
-| Geotechnical / Foundations | [PLAXIS 2D](plaxis-2d-tutorial.md) → [SLOPE/W](geostudio-slopew-tutorial.md) |
-| Slope Stability | [SLOPE/W](geostudio-slopew-tutorial.md) |
-| CFD / Research / M.Tech | [OpenFOAM](openfoam-case-study.md) |
+| River / Flood Engineering | [HEC-RAS](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) → [HEC-HMS](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) |
+| Hydrology / Watershed | [HEC-HMS](../../02_core/hwre/software-deep-dives/hec-hms-tutorial.md) → [HEC-RAS](../../02_core/hwre/software-deep-dives/hec-ras-walkthrough.md) |
+| Urban Drainage / Stormwater | [SWMM](../../02_core/hwre/software-deep-dives/swmm-guide.md) |
+| Water Supply / Distribution | [EPANET](../../02_core/hwre/software-deep-dives/epanet-walkthrough.md) |
+| Geotechnical / Foundations | [PLAXIS 2D](../../02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md) → [SLOPE/W](../../02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) |
+| Slope Stability | [SLOPE/W](../../02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md) |
+| CFD / Research / M.Tech | [OpenFOAM](../../02_core/cfd/openfoam-case-study.md) |
 
 ---
 
@@ -66,6 +66,6 @@ Every deep-dive follows the same structure so you can navigate them consistently
 ## 🔗 Related Resources
 
 - [`archive/legacy_software/README.md`](../README.md) — The full software & tech operating system
-- [`software-template.md`](../software-template.md) — The standard tool page template
-- [`software-interview-questions.md`](../software-interview-questions.md) — Tool interview question bank
-- [`priority-system.md`](../priority-system.md) — L1–L4 proficiency levels
+- [`software-template.md`](software-template.md) — The standard tool page template
+- [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) — Tool interview question bank
+- [`priority-system.md`](priority-system.md) — L1–L4 proficiency levels

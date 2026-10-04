@@ -290,7 +290,7 @@ y = β₀ + β₁x₁ + β₂x₂ + ... + ε
 |:---------|:-----|
 | Data Analyst Overview | [01_role-overview.md](01_role-overview.md) |
 | SQL Practice | [sql-practice.md](../business-analyst/04_data-and-analytics/sql-practice.md) |
-| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Business Fundamentals | [business-fundamentals.md](../../../01_common/placement-math/business-fundamentals/business-fundamentals.md) |
 | Aptitude (Probability) | [probability.md](../../../01_common/aptitude/README.md) |
 
 ---

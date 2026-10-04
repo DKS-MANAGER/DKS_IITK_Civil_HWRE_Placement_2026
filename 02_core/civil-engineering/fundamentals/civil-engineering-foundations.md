@@ -4,7 +4,7 @@
 
 This file serves as a **one-page quick revision** covering all core civil engineering domains. Use it for rapid recall before interviews and GATE.
 
-> **Detailed topics:** [`hydraulics.md`](../hwre/hydraulics/hydraulics.md) · [`structures.md`](../structures/structures.md) · [`geotechnical.md`](../geotechnical/geotechnical.md) · [`open-channel-flow.md`](../hwre/open_channel_flow/open-channel-flow.md) · [`hydrology.md`](../hwre/hydrology/hydrology.md)
+> **Detailed topics:** [`hydraulics.md`](../../hwre/hydraulics/hydraulics.md) · [`structures.md`](../structures/structures.md) · [`geotechnical.md`](../geotechnical/geotechnical.md) · [`open-channel-flow.md`](../../hwre/open_channel_flow/open-channel-flow.md) · [`hydrology.md`](../../hwre/hydrology/hydrology.md)
 
 ---
 
@@ -208,9 +208,9 @@ $Q = 66.67 \times 4.5 \times 0.825 \times 0.0316 = \textbf{7.78 m³/s}$
 
 | Subject | Detailed File | Formula Sheet |
 |---------|--------------|---------------|
-| Hydraulics | [`hwre/hydraulics/hydraulics.md`](../hwre/hydraulics/hydraulics.md) | ✅ |
-| Hydrology | [`hwre/hydrology/hydrology.md`](../hwre/hydrology/hydrology.md) | ✅ |
-| Open Channel Flow | [`hwre/open_channel_flow/open-channel-flow.md`](../hwre/open_channel_flow/open-channel-flow.md) | ✅ |
+| Hydraulics | [`hwre/hydraulics/hydraulics.md`](../../hwre/hydraulics/hydraulics.md) | ✅ |
+| Hydrology | [`hwre/hydrology/hydrology.md`](../../hwre/hydrology/hydrology.md) | ✅ |
+| Open Channel Flow | [`hwre/open_channel_flow/open-channel-flow.md`](../../hwre/open_channel_flow/open-channel-flow.md) | ✅ |
 | Structures | [`structures/structures.md`](../structures/structures.md) | ✅ |
 | Structural Analysis | [`structural-analysis/structural-analysis.md`](../structural-analysis/structural-analysis.md) | ✅ |
 | RCC Design | [`rcc/rcc-design.md`](../rcc/rcc-design.md) | ✅ |
@@ -218,7 +218,7 @@ $Q = 66.67 \times 4.5 \times 0.825 \times 0.0316 = \textbf{7.78 m³/s}$
 | Geotechnical | [`geotechnical/geotechnical.md`](../geotechnical/geotechnical.md) | ✅ |
 | Transportation | [`transportation/transportation-engineering.md`](../transportation/transportation-engineering.md) | ✅ |
 | Environmental | [`environmental/environmental-engineering.md`](../environmental/environmental-engineering.md) | ✅ |
-| GATE Formulas | [`gate/formulas/gate-civil-formulas.md`](../gate/formulas/gate-civil-formulas.md) | ✅ |
+| GATE Formulas | [`gate/formulas/gate-civil-formulas.md`](../../gate/formulas/gate-civil-formulas.md) | ✅ |
 
 ---
 

@@ -18,11 +18,11 @@
 
 | Time Block | Action | Resource |
 |------------|--------|----------|
-| **Morning** | Review formula sheet for target subject | [Formula Sheet](../../02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md) |
+| **Morning** | Review formula sheet for target subject | [Formula Sheet](../../02_core/gate/formulas/gate-civil-formulas.md) |
 | **Mid-morning** | Run through 20 rapid-fire questions | Subject-specific Q-bank sections |
 | **Afternoon** | Prepare self-introduction (3 versions: 30s, 60s, 90s) | [Self Intro System](../behavioral/self_intro/self-introduction-system.md) |
 | **Afternoon** | Prepare 5 STAR stories (leadership, teamwork, problem-solving, failure, initiative) | [Behavioral Guide](../behavioral/behavioral-interview-guide.md) |
-| **Evening** | Research the company (recent projects, CTC, role details, interview process) | [Company Profiles](../company-profiles/) |
+| **Evening** | Research the company (recent projects, CTC, role details, interview process) | [Company Profiles](../../04_company-prep/README.md) |
 | **Evening** | Prepare 3 questions to ask the interviewer | [Questions to Ask](../behavioral/questions-to-ask-interviewer.md) |
 | **Night** | Lay out clothes, documents, charger, notepad | — |
 | **Night** | Sleep 7+ hours. No studying after 10 PM. | — |
@@ -235,13 +235,13 @@ The last 5 minutes matter most. End with:
 | Resource | Link |
 |----------|------|
 | Quick Revision (1-Day/7-Day) | [Quick Revision System](./quick-revision-system.md) |
-| Technical Q&A Bank (100 Qs) | [Technical Interview Bank](./technical/technical-interview-bank.md) |
-| Project Defense (35 Qs) | [Project Defense Guide](./technical/project-defense-guide.md) |
+| Technical Q&A Bank (100 Qs) | [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md) |
+| Project Defense (35 Qs) | [Project Defense Guide](../../05_interview/project-defense/project-defense-guide.md) |
 | Self Introduction | [Self Intro System](../behavioral/self_intro/self-introduction-system.md) |
 | Behavioral Guide | [Behavioral Interview Guide](../behavioral/behavioral-interview-guide.md) |
 | HR Questions (50 Qs) | [HR Questions Bank](../behavioral/hr_questions/hr-questions-bank.md) |
-| Company Profiles | [Company Profiles](../company-profiles/) |
+| Company Profiles | [Company Profiles](../../04_company-prep/README.md) |
 | Pressure Interview | [Pressure Survival](../behavioral/pressure-interview-survival.md) |
-| Mock Interviews (8 sessions) | [Mock Database](./mock-tests/mock-interview-database.md) |
+| Mock Interviews (8 sessions) | [Mock Database](../../05_interview/mock-interviews/mock-interview-database.md) |
 
 > **Back to:** [Interview Prep README](./README.md) · [Main README](../../README.md)

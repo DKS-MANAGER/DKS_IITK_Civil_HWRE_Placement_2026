@@ -232,7 +232,7 @@ Key: Where is the biggest drop-off? That's where to focus.
 |:---------|:-----|
 | PM Overview | [01_role-overview.md](01_role-overview.md) |
 | Product Sense | [05_interview-preparation.md](05_interview-preparation.md) |
-| Business Fundamentals | [business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Business Fundamentals | [business-fundamentals.md](../../../01_common/placement-math/business-fundamentals/business-fundamentals.md) |
 | Product Analyst | [pa-overview.md](../product-analyst/01_role-overview.md) |
 
 ---

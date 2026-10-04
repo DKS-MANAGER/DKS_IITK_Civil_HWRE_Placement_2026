@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Technical Program Management Preparation Track](../../01_roles/program-management/README.md)
+- 📖 [Complete Technical Program Management Preparation Track](../../../03_non_core/operations/program-management/README.md)
 
 ---
 

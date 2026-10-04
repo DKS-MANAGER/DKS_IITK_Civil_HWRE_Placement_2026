@@ -419,10 +419,10 @@ Rule: Only list a tool on your resume if you can answer
 
 | Related Section | Link |
 |:----------------|:-----|
-| Priority System | [`priority-system.md`](priority-system.md) |
-| Project-First Learning | [`project-first-learning.md`](project-first-learning.md) |
-| Resume Positioning | [`resume-positioning.md`](resume-positioning.md) |
+| Priority System | [`priority-system.md`](../../07_resources/reference-material/priority-system.md) |
+| Project-First Learning | [`project-first-learning.md`](../../08_projects/project-first-learning.md) |
+| Resume Positioning | [`resume-positioning.md`](../../01_common/resume/resume-positioning.md) |
 
 ---
 
-*See also: [`project-first-learning.md`](project-first-learning.md) for project-based interview prep.*
+*See also: [`project-first-learning.md`](../../08_projects/project-first-learning.md) for project-based interview prep.*

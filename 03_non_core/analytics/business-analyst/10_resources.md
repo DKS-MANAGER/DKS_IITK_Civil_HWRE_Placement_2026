@@ -23,8 +23,8 @@
 
 | Resource Area | Link |
 |:---|:---|
-| **Civil to Non-Core Resume Positioning** | [../../04_career-preparation/resume-positioning/civil-to-noncore.md](../../04_career-preparation/resume-positioning/civil-to-noncore.md) |
-| **Resume Templates & Action Verbs** | [../../04_career-preparation/resume-positioning/resume-templates.md](../../04_career-preparation/resume-positioning/resume-templates.md) |
-| **Mock Interview System & Scoring Rubrics** | [../../02_interview-preparation/mock-interviews/mock-system.md](../../02_interview-preparation/mock-interviews/mock-system.md) |
-| **Quantitative Reasoning Bridge** | [../../03_common-skills/quantitative-reasoning/aptitude-bridge.md](../../03_common-skills/quantitative-reasoning/aptitude-bridge.md) |
-| **Rapid Revision Hub** | [../../05_rapid-revision/business-analyst/revision-sheet.md](../../05_rapid-revision/business-analyst/revision-sheet.md) |
+| **Civil to Non-Core Resume Positioning** | [../../04_career-preparation/resume-positioning/civil-to-noncore.md](../../../01_common/resume/career-preparation/resume-positioning/civil-to-noncore.md) |
+| **Resume Templates & Action Verbs** | [../../04_career-preparation/resume-positioning/resume-templates.md](../../../01_common/resume/career-preparation/resume-positioning/resume-templates.md) |
+| **Mock Interview System & Scoring Rubrics** | [../../02_interview-preparation/mock-interviews/mock-system.md](../../../05_interview/case-interview/mock-interviews/mock-system.md) |
+| **Quantitative Reasoning Bridge** | [../../03_common-skills/quantitative-reasoning/aptitude-bridge.md](../../../01_common/placement-math/quantitative-reasoning/aptitude-bridge.md) |
+| **Rapid Revision Hub** | [../../05_rapid-revision/business-analyst/revision-sheet.md](../../../06_revision/roles/business-analyst/revision-sheet.md) |

@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/infrastructure/role-study-plan.md)
-- [Infrastructure Engineering & Management](../../02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md)
+- [Role Study Plan](../../../02_core/civil-engineering/infrastructure/role-study-plan.md)
+- [Infrastructure Engineering & Management](../../../02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md)
 - [Mock Test Hub](README.md)

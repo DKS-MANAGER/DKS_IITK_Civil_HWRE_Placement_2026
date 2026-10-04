@@ -8,8 +8,8 @@
 
 1. Read [content-standards.md](content-standards.md) — the quality gates.
 2. Read [SOURCE_POLICY.md](SOURCE_POLICY.md) — the evidence rules.
-3. Check the [Content Registry](_SYSTEM/DOCS_CONTENT_REGISTRY.md) to avoid duplication.
-4. Check the [File Map](_SYSTEM/DOCS_FILE_MAP.md) to understand the structure.
+3. Check the [Content Registry](../_SYSTEM/legacy/docs/DOCS_CONTENT_REGISTRY.md) to avoid duplication.
+4. Check the [File Map](../_SYSTEM/legacy/docs/DOCS_FILE_MAP.md) to understand the structure.
 
 ---
 
@@ -35,8 +35,8 @@
 3. **Label evidence** per [SOURCE_POLICY.md](SOURCE_POLICY.md).
 4. **Cross-link** to related content (see [architecture.md](architecture.md) linking rules).
 5. **Add the file** to the correct folder.
-6. **Update the registry** — add a row to [`_SYSTEM/DOCS_CONTENT_REGISTRY.md`](_SYSTEM/DOCS_CONTENT_REGISTRY.md).
-7. **Update the file map** — add a row to [`_SYSTEM/DOCS_FILE_MAP.md`](_SYSTEM/DOCS_FILE_MAP.md).
+6. **Update the registry** — add a row to [`_SYSTEM/DOCS_CONTENT_REGISTRY.md`](../_SYSTEM/legacy/docs/DOCS_CONTENT_REGISTRY.md).
+7. **Update the file map** — add a row to [`_SYSTEM/DOCS_FILE_MAP.md`](../_SYSTEM/legacy/docs/DOCS_FILE_MAP.md).
 
 ---
 

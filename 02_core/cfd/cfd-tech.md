@@ -204,7 +204,7 @@ Follow the hands-on step-by-step guide to build a complete CFD case end-to-end:
 
 | Tool | Deep-Dive Guide |
 |:-----|:----------------|
-| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](openfoam-case-study.md) |
 
 ---
 
@@ -212,14 +212,14 @@ Follow the hands-on step-by-step guide to build a complete CFD case end-to-end:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Sediment Transport | [`sediment/`](../sediment/sediment-tech.md) |
+| Sediment Transport | [`sediment/`](../hwre/sediment-tech.md) |
 | HWRE Technology | [`hwre/`](../hwre/hwre-tech-roadmap.md) |
-| Research Technology | [`research/`](../research/research-tech.md) |
-| Linux/Developer Tools | [`developer-tools/`](../developer-tools/linux-dev-tools.md) |
-| Cloud/HPC | [`computing/`](../computing/cloud-hpc.md) |
-| Core Hydraulics | [`02_02_02_02_core/hwre/hydraulics/`](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) |
-| Turbulence Modeling | [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) |
+| Research Technology | [`research/`](../../07_resources/reference-material/research-tech.md) |
+| Linux/Developer Tools | [`developer-tools/`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md) |
+| Cloud/HPC | [`computing/`](../../03_non_core/software-engineering/computing/cloud-hpc.md) |
+| Core Hydraulics | [`02_core/hwre/hydraulics/`](../hwre/hydraulics/hydraulics.md) |
+| Turbulence Modeling | [`02_core/hwre/hydraulics/turbulence-modeling.md`](../hwre/hydraulics/turbulence-modeling.md) |
 
 ---
 
-*See also: [`sediment-tech.md`](../sediment/sediment-tech.md) for sediment-specific CFD, [`research-tech.md`](../research/research-tech.md) for the research technology stack.*
+*See also: [`sediment-tech.md`](../hwre/sediment-tech.md) for sediment-specific CFD, [`research-tech.md`](../../07_resources/reference-material/research-tech.md) for the research technology stack.*

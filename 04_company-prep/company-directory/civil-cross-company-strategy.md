@@ -256,8 +256,8 @@ Topics appearing across **3+ companies** — must-know for any civil placement i
 ## Cross-Links
 
 - [Civil Companies — Individual Profiles](./company-profiles.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Resume Template](../templates/resume-template.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Resume Template](../../01_common/resume/resume-template.md)
 - [Placement Roadmap](../../docs/roadmap.md)
 - [Master Index](../../archive/legacy_indexes/master_index.md)
 

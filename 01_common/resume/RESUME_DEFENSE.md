@@ -22,7 +22,7 @@ PREPARATION (your answer + evidence)
 
 | Claim | Possible Question | Preparation |
 |:------|:------------------|:------------|
-| "Modeled flood inundation using HEC-RAS" | "Walk me through your methodology" | 30-sec + 2-min explanation → [PROJECT_DEFENCE](../PROJECT_DEFENCE.md) |
+| "Modeled flood inundation using HEC-RAS" | "Walk me through your methodology" | 30-sec + 2-min explanation → [PROJECT_DEFENCE](../../05_interview/project-defense/PROJECT_DEFENCE.md) |
 | "Reduced peak runoff by 22%" | "How did you calculate that?" | Show the calculation + assumptions |
 | "Used Python for data analysis" | "What libraries? What was the challenge?" | Name libraries + a specific challenge solved |
 
@@ -58,7 +58,7 @@ PREPARATION (your answer + evidence)
 
 | Claim | Possible Question | Preparation |
 |:------|:------------------|:------------|
-| "Proficient in Python" | "Write a function to…" | Practice coding basics → [Software Hub](../../software-and-tech/) |
+| "Proficient in Python" | "Write a function to…" | Practice coding basics → [Software Hub](../../03_non_core/software-engineering/) |
 | "Expert in AutoCAD" | "What's your workflow for X?" | Describe a real workflow |
 | "Knowledge of HEC-RAS" | "Explain the key inputs" | Know the theory + practice |
 
@@ -112,4 +112,4 @@ PREPARATION (your answer + evidence)
 
 ---
 
-> **Back to:** [RESUME/README.md](README.md) · [Master Prep Plan](../MASTER_PREP_PLAN.md)
+> **Back to:** [RESUME/README.md](README.md) · [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md)

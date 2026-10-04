@@ -211,8 +211,8 @@ For all behavioral/hybrid questions, use STAR+T:
 - [`hr-questions-bank.md`](hr-questions-bank.md) — 50 HR questions with model answers
 - [`behavioral-interview-guide.md`](../behavioral-interview-guide.md) — STAR format deep dive
 - [`self-introduction.md`](../self_intro/self-introduction.md) — Self-intro templates
-- [`mock-interview-database.md`](../../interview/mock-tests/mock-interview-database.md) — Full mock interviews (Mock 7 is HR+Technical hybrid)
-- [`project-defense-guide.md`](../../interview/technical/project-defense-guide.md) — Project defense Q&As
+- [`mock-interview-database.md`](../../../05_interview/mock-interviews/mock-interview-database.md) — Full mock interviews (Mock 7 is HR+Technical hybrid)
+- [`project-defense-guide.md`](../../../05_interview/project-defense/project-defense-guide.md) — Project defense Q&As
 
 ---
 

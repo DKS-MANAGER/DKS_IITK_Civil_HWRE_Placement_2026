@@ -16,7 +16,7 @@
 | **EdTech** | Education platforms | Product, content |
 | **Startup / Aerospace** | Startups, aerospace | Multi-role |
 
-Full company-wise interview logs and strategies → [`04_company-prep/company-directory/company-profiles.md`](../04_company-prep/company-directory/company-profiles.md)
+Full company-wise interview logs and strategies → [`04_company-prep/company-directory/company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md)
 
 ---
 
@@ -28,15 +28,15 @@ Full company-wise interview logs and strategies → [`04_company-prep/company-di
 | **Tier 2** | MEDIUM | Civil graduates plausibly relevant |
 | **Tier 3** | LOW | Indirect / marginal |
 
-See the consolidated strategy in [`04_company-prep/company-directory/company-profiles.md`](../04_company-prep/company-directory/company-profiles.md).
+See the consolidated strategy in [`04_company-prep/company-directory/company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md).
 
 ---
 
 ## How to Prepare Per Company
 
 1. Identify your target companies (see company profiles).
-2. Map each company to a role (see [ROLES.md](ROLES.md)).
-3. Study the relevant track (see [TRACKS.md](TRACKS.md)).
+2. Map each company to a role (see [ROLES.md](..\..\03_non_core\README.md)).
+3. Study the relevant track (see [TRACKS.md](../../docs/TRACKS.md)).
 4. Practice company-specific interview questions.
 5. Log your interview experiences using the template in the company profiles file.
 
@@ -44,8 +44,8 @@ See the consolidated strategy in [`04_company-prep/company-directory/company-pro
 
 ## Company-wise Interview Experience Logs
 
-Interview experience logs and submission rules → [`04_company-prep/company-directory/company-profiles.md`](../04_company-prep/company-directory/company-profiles.md)
+Interview experience logs and submission rules → [`04_company-prep/company-directory/company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md)
 
 ---
 
-> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [Main README](../README.md)
+> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](../../docs/MASTER_NAVIGATION.md) · [Main README](../README.md)

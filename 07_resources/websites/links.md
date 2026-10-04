@@ -191,20 +191,20 @@
 
 | Need | Go To |
 |------|-------|
-| Quick formula lookup | [`02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md`](../02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md) |
-| Rapid revision | [`02_02_02_02_02_02_core/gate/revision_notes/gate-civil-revision.md`](../02_02_02_02_02_02_core/gate/revision_notes/gate-civil-revision.md) |
-| Practice problems | [`02_02_02_02_02_02_core/gate/practice/gate-civil-practice.md`](../02_02_02_02_02_02_core/gate/practice/gate-civil-practice.md) |
-| Aptitude shortcuts | [`01_common/aptitude/rapid-revision/FORMULA_SHEET.md`](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
-| Behavioral STAR | [`01_common/behavioral/behavioral-interview-guide.md`](../01_common/behavioral/behavioral-interview-guide.md) |
-| HR questions | [`01_common/behavioral/hr_questions/hr-questions-bank.md`](../01_common/behavioral/hr_questions/hr-questions-bank.md) |
-| Technical Q&A | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
-| Mock interviews | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../01_common/interview-fundamentals/mock-tests/mock-interview-questions.md) |
-| Project discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../01_common/interview-fundamentals/technical/project-discussion.md) |
-| Salary negotiation | [`01_common/interview-fundamentals/hr/hr-interview-guide.md`](../01_common/interview-fundamentals/hr/hr-interview-guide.md) |
-| Resume template | [`01_common/resume/resume-template.md`](../01_common/resume/resume-template.md) |
-| Self-intro template | [`01_common/interview-fundamentals/self-intro-template.md`](../01_common/interview-fundamentals/self-intro-template.md) |
-| Study plan | [`01_common/professional-skills/study-plan-template.md`](../01_common/professional-skills/study-plan-template.md) |
-| Book list | [`07_resources/books/book-list.md`](../07_resources/books/book-list.md) |
+| Quick formula lookup | [`02_core/gate/formulas/gate-civil-formulas.md`](../../02_core/gate/formulas/gate-civil-formulas.md) |
+| Rapid revision | [`02_core/gate/revision_notes/gate-civil-revision.md`](../../02_core/gate/revision_notes/gate-civil-revision.md) |
+| Practice problems | [`02_core/gate/practice/gate-civil-practice.md`](../../02_core/gate/practice/gate-civil-practice.md) |
+| Aptitude shortcuts | [`01_common/aptitude/rapid-revision/FORMULA_SHEET.md`](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
+| Behavioral STAR | [`01_common/behavioral/behavioral-interview-guide.md`](../../01_common/behavioral/behavioral-interview-guide.md) |
+| HR questions | [`01_common/behavioral/hr_questions/hr-questions-bank.md`](../../01_common/behavioral/hr_questions/hr-questions-bank.md) |
+| Technical Q&A | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../../05_interview/technical/technical-interview-bank.md) |
+| Mock interviews | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../../05_interview/mock-interviews/mock-interview-questions.md) |
+| Project discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../../05_interview/project-defense/project-discussion.md) |
+| Salary negotiation | [`01_common/interview-fundamentals/hr/hr-interview-guide.md`](../../05_interview/hr/hr-interview-guide.md) |
+| Resume template | [`01_common/resume/resume-template.md`](../../01_common/resume/resume-template.md) |
+| Self-intro template | [`01_common/interview-fundamentals/self-intro-template.md`](../../01_common/interview-fundamentals/self-intro-template.md) |
+| Study plan | [`01_common/professional-skills/study-plan-template.md`](../../01_common/professional-skills/study-plan-template.md) |
+| Book list | [`07_resources/books/book-list.md`](../../07_resources/books/book-list.md) |
 
 ---
 

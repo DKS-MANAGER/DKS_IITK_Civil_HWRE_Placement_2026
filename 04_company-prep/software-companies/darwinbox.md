@@ -90,8 +90,8 @@ Day 6: Frontend + SQL | Day 7: Mock interview
 
 ## Cross-Links
 - [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Tech Careers](../../03_non_02_02_core/software-engineering/tech-careers.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Tech Careers](../../03_non_core/software-engineering/tech-careers.md)
 
 ## Sources
 - Darwinbox careers page (www.darwinbox.com)

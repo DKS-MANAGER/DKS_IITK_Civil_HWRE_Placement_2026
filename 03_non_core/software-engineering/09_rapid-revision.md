@@ -239,9 +239,9 @@ A: Check data quality first, then segment (platform, geography, user type), chec
 → [Role Study Plan](08_role-study-plan.md) — Structured study plan
 
 **Related:**
-→ [SQL Practice](../business-analyst/04_data-and-analytics/sql-practice.md) — SQL problems
-→ [Statistics Practice](../data-analyst/04_tools-and-technical-stack.md) — Stats for analysis
-→ [Software Interview Guide](../../../archive/legacy_archive/legacy_prep/README.md) — Interview prep
+→ [SQL Practice](../analytics/business-analyst/04_data-and-analytics/sql-practice.md) — SQL problems
+→ [Statistics Practice](../analytics/data-analyst/04_tools-and-technical-stack.md) — Stats for analysis
+→ [Software Interview Guide](../../archive/legacy_prep/README.md) — Interview prep
 
 ---
 

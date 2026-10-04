@@ -58,7 +58,7 @@ How numericals in this area are tested in interviews.
 
 ## Related Topics
 
-- [Related concept](../../02_02_02_02_core/README.md)
+- [Related concept](../../README.md)
 
 ## Quick Revision
 

@@ -659,7 +659,7 @@ Q5: "Would you use CFD to predict cavitation? How?"
 - [`sediment-transport.md`](../hydrology/sediment-transport.md) — Sediment-laden flow
 - [`water-supply.md`](../water_supply/water-supply.md) — Water supply pipe networks
 - [`wastewater-engineering.md`](../wastewater/wastewater-engineering.md) — Sewer hydraulics
-- [`civil-engineering-foundations.md`](../../fundamentals/civil-engineering-foundations.md) — Quick revision formulas
+- [`civil-engineering-foundations.md`](../../civil-engineering/fundamentals/civil-engineering-foundations.md) — Quick revision formulas
 
 ---
 

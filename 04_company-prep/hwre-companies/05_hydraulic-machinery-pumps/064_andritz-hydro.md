@@ -1,6 +1,6 @@
 # Andritz Hydro India (Faridabad) — Corporate Placement Profile
 
-> **Target ID:** CORP-064 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-064 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 05_hydraulic-machinery-pumps | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 

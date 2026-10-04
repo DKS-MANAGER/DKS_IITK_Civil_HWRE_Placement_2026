@@ -247,10 +247,10 @@ MINUTE 5: FUTURE & QUESTIONS
 ## 🔗 Cross-Links
 
 - [`project-discussion.md`](project-discussion.md) — Original project discussion guide
-- [`technical-interview-bank.md`](technical-interview-bank.md) — 100 Q&A by topic
-- [`software-interview-guide.md`](../software-interview-guide.md) — Software tool Q&As
-- [`mock-interview-database.md`](../mock-tests/mock-interview-database.md) — Full mock interviews
-- [`behavioral-interview-guide.md`](../../behavioral/behavioral-interview-guide.md) — STAR format for behavioral Qs
+- [`technical-interview-bank.md`](../technical/technical-interview-bank.md) — 100 Q&A by topic
+- [`software-interview-guide.md`](../technical/non-core/software-interview-guide.md) — Software tool Q&As
+- [`mock-interview-database.md`](../mock-interviews/mock-interview-database.md) — Full mock interviews
+- [`behavioral-interview-guide.md`](../../01_common/behavioral/behavioral-interview-guide.md) — STAR format for behavioral Qs
 
 ---
 

@@ -47,7 +47,7 @@ Every geotech interview starts with soil properties, phase relationships, and cl
 |:-----|:-------------|:------|
 | [`geotechnical.md`](geotechnical.md) | §Soil Mechanics Fundamentals (lines 11-49) | 38 |
 | [`civil-engineering-foundations.md`](../fundamentals/civil-engineering-foundations.md) | Geotech formulas | 233 |
-| [`gate-civil-notes.md`](../gate/civil/gate-civil-notes.md) | Soil Mechanics section | 256 |
+| [`gate-civil-notes.md`](../../gate/civil/gate-civil-notes.md) | Soil Mechanics section | 256 |
 
 ### Worked Example: Phase Relationships
 
@@ -134,7 +134,7 @@ Permeability governs groundwater flow, seepage through dams, and consolidation r
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`geotechnical.md`](geotechnical.md) | §Permeability & Seepage, §Compaction (lines 37-58) | 22 |
-| [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) | Groundwater flow | 557 |
+| [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) | Groundwater flow | 557 |
 
 ### Worked Example: Falling Head Permeability
 
@@ -426,10 +426,10 @@ Prepare 3 STAR stories for geotech context:
 - [`geotechnical.md`](geotechnical.md) — Full subject reference (277 lines)
 - [`structures.md`](../structures/structures.md) — Foundation design integration
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Pavement subgrade
-- [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) — Dams, seepage
+- [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) — Dams, seepage
 - [`civil-rapid-revision.md`](../fundamentals/civil-rapid-revision.md) — Cross-subject formulas
-- [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ interview questions
-- [`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
+- [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) — 100+ interview questions
+- [`company-profiles.md`](../../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
 
 ---
 

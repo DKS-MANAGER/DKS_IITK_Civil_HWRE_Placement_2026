@@ -151,12 +151,12 @@ Remote computing   → SSH for server access
 
 | Related Section | Link |
 |:----------------|:-----|
-| CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
-| Linux/Dev Tools | [`developer-tools/`](../developer-tools/linux-dev-tools.md) |
-| Cloud/HPC | [`computing/`](../computing/cloud-hpc.md) |
-| M.Tech Advantage | [`mtech-advantage.md`](../mtech-advantage.md) |
+| CFD Technology | [`cfd/`](../../02_core/cfd/cfd-tech.md) |
+| Python | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
+| Linux/Dev Tools | [`developer-tools/`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md) |
+| Cloud/HPC | [`computing/`](../../03_non_core/software-engineering/computing/cloud-hpc.md) |
+| M.Tech Advantage | [`mtech-advantage.md`](../../01_common/resume/mtech-advantage.md) |
 
 ---
 
-*See also: [`mtech-advantage.md`](../mtech-advantage.md) for leveraging research experience for placements.*
+*See also: [`mtech-advantage.md`](../../01_common/resume/mtech-advantage.md) for leveraging research experience for placements.*

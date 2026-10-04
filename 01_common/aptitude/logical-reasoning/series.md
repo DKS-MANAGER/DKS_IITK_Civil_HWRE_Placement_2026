@@ -924,4 +924,4 @@ D) 510 seconds
 
 - [Rapid Revision Guide](../rapid-revision/RAPID_REVISION.md) — Comprehensive Placement Formula Reference
 - [Coding-Decoding](coding-decoding.md) — Alphabetical Shift Transforms & Matrix Ciphers
-- [Series Practice Test](../tests/series-test.md) — Timed Diagnostic Assessment
+- [Series Practice Test](../mocks/section-tests/series-test.md) — Timed Diagnostic Assessment

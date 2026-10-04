@@ -80,8 +80,8 @@ Day 5: MEP basics | Day 6: ITC research | Day 7: Mock + behavioral
 ```
 
 ## Cross-Links
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
-- [Resume Template](../templates/resume-template.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
+- [Resume Template](../../01_common/resume/resume-template.md)
 
 ## References
 - ITC Limited Corporate website (www.itcportal.com)

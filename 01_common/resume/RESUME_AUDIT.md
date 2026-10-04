@@ -107,4 +107,4 @@
 
 ---
 
-> **Back to:** [RESUME/README.md](README.md) · [Master Prep Plan](../MASTER_PREP_PLAN.md)
+> **Back to:** [RESUME/README.md](README.md) · [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md)

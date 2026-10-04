@@ -2,7 +2,7 @@
 
 > **Domain:** Complete Placement Examination & Simulation Ladder · **Target:** IIT Kanpur Postgraduate Placements 2026  
 > **Testing Architecture:** 8-Level Progressive Evaluation from Granular Diagnostics to Full Live Simulations  
-> **Repository Roots:** [`01_common/aptitude/mocks/section-tests/`](../01_common/aptitude/mocks/section-tests/) · [`01_common/aptitude/mocks/section-tests/section/`](../01_common/aptitude/mocks/section-tests/section/) · [`01_common/aptitude/mocks/`](../01_common/aptitude/mocks/) · [`05_interview/mock-interviews/mock-tests/`](../05_interview/mock-interviews/mock-tests/) · [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../05_interview/mock-interviews/READINESS_SCORECARD.md)
+> **Repository Roots:** [`01_common/aptitude/mocks/section-tests/`](../../01_common/aptitude/mocks/section-tests/) · [`01_common/aptitude/mocks/section-tests/section/`](../../01_common/aptitude/mocks/section-tests/section/) · [`01_common/aptitude/mocks/`](../../01_common/aptitude/mocks/) · [`05_interview/mock-interviews/mock-tests/`](../../05_interview/mock-interviews/mock-tests/) · [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../../05_interview/mock-interviews/READINESS_SCORECARD.md)
 
 ---
 
@@ -46,12 +46,12 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 
 ## 2. Directory Breakdown by Assessment Layer
 
-### Level 1: Topic Diagnostic Tests ([`01_common/aptitude/mocks/section-tests/`](../01_common/aptitude/mocks/section-tests/README.md))
+### Level 1: Topic Diagnostic Tests ([`01_common/aptitude/mocks/section-tests/`](../../01_common/aptitude/mocks/section-tests/README.md))
 - **Structure:** 14 Standardized Topic Tests (210 questions) covering Number Systems, Percentages, Profit & Loss, SI/CI, Ratios, Averages, Time & Work, Speed-Time-Distance, Permutations & Combinations, Probability, Series, Seating, DI, and Verbal.
 - **Pedagogy:** Cat-8 progression from Level 1 Foundation to Level 6 Trap questions with complete distractor post-mortems.
 - **Target:** $\ge 12.50 / 15.00\text{ Marks}$ under strict $+1.00 / -0.25$ negative marking.
 
-### Level 2: Sectional Assessment Layer ([`01_common/aptitude/mocks/section-tests/section/`](../01_common/aptitude/mocks/section-tests/section/README.md))
+### Level 2: Sectional Assessment Layer ([`01_common/aptitude/mocks/section-tests/section/`](../../01_common/aptitude/mocks/section-tests/section/README.md))
 - **Structure:** 5 Pure-Domain Timed Tests (140 questions):
   - `sectional-quant-01.md` (30 Qs · 40 min: Arithmetic, Algebra, Geometry, Modern Math, Engineering Math)
   - `sectional-reasoning-01.md` (30 Qs · 40 min: Syllogisms, Coded Inequalities, Circular Seating, Verbal Logic)
@@ -60,7 +60,7 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
   - `sectional-civil-core-01.md` (25 Qs · 35 min: Dimensional analysis, Unit conversions, Discharge, Earthwork, Risk)
 - **Pedagogy:** Isolates speed bottlenecks and domain-specific time pacing (~70–80 seconds per question).
 
-### Level 3 & Level 4: Full Placement Mock Suite ([`01_common/aptitude/mocks/`](../01_common/aptitude/mocks/README.md))
+### Level 3 & Level 4: Full Placement Mock Suite ([`01_common/aptitude/mocks/`](../../01_common/aptitude/mocks/README.md))
 - **Inventory:** 7 Standardized Full Placement Mocks (360+ questions):
   - `full-placement-mock-01.md` — Baseline Diagnostic (50 Qs · 60 min)
   - `full-placement-mock-02.md` — Standard Corporate (50 Qs · 60 min)
@@ -71,16 +71,16 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
   - `expert-placement-mock-01.md` — Extreme Multi-Caselets (50 Qs · 60 min)
 - **Rules:** Interleaved multi-domain format (no in-test difficulty labels), strict negative marking ($-0.25$ / $-0.33$).
 
-### Level 5: Role-Specific Technical OAs ([`05_interview/mock-interviews/mock-tests/`](../05_interview/mock-interviews/mock-tests/README.md))
+### Level 5: Role-Specific Technical OAs ([`05_interview/mock-interviews/mock-tests/`](../../05_interview/mock-interviews/mock-tests/README.md))
 - **Inventory:** 25 Role-specific screening tests covering Civil General, Construction Management, Hydrodynamics & CFD, Water Resources & Hydrology, Transportation, Geotechnical, Structural Analysis, Environmental, GIS, and Operations Research.
 
-### Level 6: Technical Interview Question Trees ([`01_common/interview-fundamentals/technical/`](../01_common/interview-fundamentals/technical/technical-interview-bank.md))
+### Level 6: Technical Interview Question Trees ([`01_common/interview-fundamentals/technical/`](../technical/technical-interview-bank.md))
 - **Inventory:** 10 Master Technical Question Trees spanning Navier-Stokes derivation, OpenFOAM PISO/SIMPLE algorithms, $y^+$ wall resolution, ASME GCI grid convergence, Theis groundwater diffusion, and bridge pier scour.
 - **Protocol:** Primary Question $\to$ Derivation $\to$ Physical Application $\to$ Assumptions $\to$ Numerical Failure Modes.
 
 ### Level 7 & Level 8: Case Simulations & Full Mock Interview
-- **Case Interviews:** [`05_interview/case-interview/case-interviews/case-simulation-suite.md`](../05_interview/case-interview/case-interviews/case-simulation-suite.md) featuring full dialogues, exhibits, MECE issue trees, and interviewer pushback.
-- **Full Live Sim:** [`05_interview/mock-interviews/MOCK_INTERVIEW.md`](../05_interview/mock-interviews/MOCK_INTERVIEW.md) graded on the 100-point performance rubric in [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../05_interview/mock-interviews/READINESS_SCORECARD.md).
+- **Case Interviews:** [`05_interview/case-interview/case-interviews/case-simulation-suite.md`](../../05_interview/case-interview/case-interviews/case-simulation-suite.md) featuring full dialogues, exhibits, MECE issue trees, and interviewer pushback.
+- **Full Live Sim:** [`05_interview/mock-interviews/MOCK_INTERVIEW.md`](../../05_interview/mock-interviews/MOCK_INTERVIEW.md) graded on the 100-point performance rubric in [`05_interview/mock-interviews/READINESS_SCORECARD.md`](../../05_interview/mock-interviews/READINESS_SCORECARD.md).
 
 ---
 
@@ -102,5 +102,5 @@ Placement testing is not a flat list of questions; it is a **multi-tiered cognit
 
 ---
 
-> **Related Guides:** [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [PREPARATION_WORKFLOW.md](PREPARATION_WORKFLOW.md)
+> **Related Guides:** [ASSESSMENT_ARCHITECTURE.md](ASSESSMENT_ARCHITECTURE.md) · [MASTER_NAVIGATION.md](../../docs/MASTER_NAVIGATION.md) · [PREPARATION_WORKFLOW.md](../../docs/PREPARATION_WORKFLOW.md)
 

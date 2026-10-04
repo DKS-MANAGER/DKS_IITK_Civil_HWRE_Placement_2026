@@ -1,11 +1,11 @@
 # TuTr Hyperloop — Corporate Placement Profile
 
-> **Target ID:** CORP-002 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-002 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 06_cfd-simulation-engineering | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 
 > [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/core-companies/civil-tutr-hyperloop.md](../../civil-tutr-hyperloop.md).
+> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/core-companies/civil-tutr-hyperloop.md](../../../04_company-prep/core-companies/civil-tutr-hyperloop.md).
 
 ---
 

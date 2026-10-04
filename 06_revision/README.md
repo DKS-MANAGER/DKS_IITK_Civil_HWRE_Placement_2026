@@ -24,8 +24,8 @@
 
 | Timeline Horizon | Link | Best Used When |
 | :--- | :--- | :--- |
-| **30 Days Out** | [`30-day/MASTER_PREP_PLAN.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/06_revision/30-day/MASTER_PREP_PLAN.md) | Beginning full-time placement preparation 1 month before Day 1. |
-| **14 Days Out** | [`14-day/30_14_7_DAY_PLAN.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/06_revision/14-day/30_14_7_DAY_PLAN.md) | Two weeks remaining; focus on highest-yield aptitude, core & cases. |
-| **7 Days Out** | [`7-day/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/06_revision/7-day/README.md) | Final week sprint; timed mocks, formula memorization & mock HR. |
-| **3 Days Out** | [`3-day/RAPID_REVISION.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/06_revision/3-day/RAPID_REVISION.md) | 72 hours before written test; review error logs and formula sheets. |
-| **Interview Tomorrow** | [`interview-tomorrow/INTERVIEW_TOMORROW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/06_revision/interview-tomorrow/INTERVIEW_TOMORROW.md) | Night before interview; verify tech, review 2-min pitch, rest well. |
+| **30 Days Out** | [`30-day/MASTER_PREP_PLAN.md`](30-day/MASTER_PREP_PLAN.md) | Beginning full-time placement preparation 1 month before Day 1. |
+| **14 Days Out** | [`14-day/30_14_7_DAY_PLAN.md`](14-day/30_14_7_DAY_PLAN.md) | Two weeks remaining; focus on highest-yield aptitude, core & cases. |
+| **7 Days Out** | [`7-day/README.md`](7-day/README.md) | Final week sprint; timed mocks, formula memorization & mock HR. |
+| **3 Days Out** | [`3-day/RAPID_REVISION.md`](3-day/RAPID_REVISION.md) | 72 hours before written test; review error logs and formula sheets. |
+| **Interview Tomorrow** | [`interview-tomorrow/INTERVIEW_TOMORROW.md`](interview-tomorrow/INTERVIEW_TOMORROW.md) | Night before interview; verify tech, review 2-min pitch, rest well. |

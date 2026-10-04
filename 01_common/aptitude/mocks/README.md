@@ -18,10 +18,10 @@ A genuine corporate placement mock test is not merely a collection of topic exer
 | Testing Tier             | Target Scope & Architecture              | Primary Pedagogical Function |
 +--------------------------+------------------------------------------+------------------------------+
 | Layer 1: Topic Tests     | 15 Questions Timed (20 min)               | Fine-grained skill diagnosis |
-| [01_common/aptitude/mocks/section-tests/](../tests/README.md) | Cat-8 Cognitive Hierarchy (14 Tests)     | and formula mastery.         |
+| [01_common/aptitude/mocks/section-tests/](section-tests/README.md) | Cat-8 Cognitive Hierarchy (14 Tests)     | and formula mastery.         |
 +--------------------------+------------------------------------------+------------------------------+
 | Layer 2: Sectional Tests | 25–30 Questions Timed (30–40 min)        | Speed pacing across broad    |
-| [01_common/aptitude/mocks/section-tests/section/](../tests/section/README.md) | Quant, Reasoning, DI, Verbal, Civil      | domain categories.           |
+| [01_common/aptitude/mocks/section-tests/section/](section-tests/README.md) | Quant, Reasoning, DI, Verbal, Civil      | domain categories.           |
 +--------------------------+------------------------------------------+------------------------------+
 | Layer 3: Full Mocks      | 50–60 Questions Timed (60–75 min)        | Exact corporate recruitment  |
 | [01_common/aptitude/mocks/](README.md) | Interleaved Multi-Domain Mock Suite      | simulation with negative mk. |

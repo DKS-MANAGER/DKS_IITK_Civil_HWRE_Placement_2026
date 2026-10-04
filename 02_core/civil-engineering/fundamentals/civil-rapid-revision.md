@@ -220,8 +220,8 @@
 → [Environmental Engineering](../environmental/environmental-engineering.md)
 
 **Interview:**
-→ [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
-→ [Behavioral Guide](../../01_common/behavioral/behavioral-interview-guide.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)
+→ [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
 
 ---
 

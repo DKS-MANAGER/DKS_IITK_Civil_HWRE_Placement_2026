@@ -127,9 +127,9 @@ Day 4: OOP + DBMS | Day 5: OS + resume | Day 6: Mock coding | Day 7: Full mock
 ```
 
 ## Cross-Links
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
-- [Python Fundamentals](../../03_non_02_02_core/software-engineering/programming/python.md)
+- [Python Fundamentals](../../03_non_core/software-engineering/programming/python.md)
 
 ## Key Takeaways
 - Aptitude and English are elimination rounds; do not skip them.

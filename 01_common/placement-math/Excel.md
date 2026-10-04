@@ -257,10 +257,10 @@ Excel → Quantity Surveying → IS 1200 (measurement)
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
-| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../SOFTWARE_RESUME_STRATEGY.md) |
-| Python (alternative) | [`programming/python.md`](../programming/python.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
+| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../resume/SOFTWARE_RESUME_STRATEGY.md) |
+| Python (alternative) | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 

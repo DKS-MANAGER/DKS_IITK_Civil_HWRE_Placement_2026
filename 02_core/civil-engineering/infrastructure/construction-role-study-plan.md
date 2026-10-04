@@ -41,7 +41,7 @@ Construction engineers must know how to build — from earthwork to finishing. Y
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) | §2 Construction Management (lines 105-175) | 71 |
-| [`construction-tech.md`](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md) | Construction technology tools | 177 |
+| [`construction-tech.md`](construction/construction-tech.md) | Construction technology tools | 177 |
 | [`geotechnical.md`](../geotechnical/geotechnical.md) | Compaction, foundations | 277 |
 
 ### Worked Example: Compaction Control
@@ -124,7 +124,7 @@ Equipment selection and productivity are core construction engineer skills. You 
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
 | [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) | §Construction Equipment (lines 138-150) | 13 |
-| [`construction-tech.md`](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md) | Equipment + software | 177 |
+| [`construction-tech.md`](construction/construction-tech.md) | Equipment + software | 177 |
 
 ### Worked Example: Excavator Productivity
 
@@ -286,7 +286,7 @@ Construction engineers use scheduling tools (MS Project, Primavera) and emerging
 
 | File | What to Study | Lines |
 |:-----|:-------------|:------|
-| [`construction-tech.md`](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md) | Construction technology tools | 177 |
+| [`construction-tech.md`](construction/construction-tech.md) | Construction technology tools | 177 |
 | [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) | §1 PM Fundamentals (lines 11-102) | 92 |
 
 ### Worked Example: Earned Value Analysis
@@ -399,12 +399,12 @@ Prepare 3 STAR stories for construction context:
 ## Cross-Links
 
 - [`infrastructure-engineering-management.md`](infrastructure-engineering-management.md) — Full subject reference (811 lines)
-- [`construction-tech.md`](../../02_02_02_core/civil-engineering/infrastructure/construction/construction-tech.md) — Construction technology tools
+- [`construction-tech.md`](construction/construction-tech.md) — Construction technology tools
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Compaction, foundations
 - [`structures.md`](../structures/structures.md) — Concrete design, IS 456
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Road construction
-- [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ interview questions
-- [`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
+- [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) — 100+ interview questions
+- [`company-profiles.md`](../../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
 
 ---
 

@@ -180,10 +180,10 @@ Ask yourself:
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| Python | [`programming/python.md`](../programming/python.md) |
-| SQL | [`programming/sql.md`](../programming/sql.md) |
-| Excel | [`tools/Excel.md`](../tools/Excel.md) |
-| Git | [`programming/git.md`](../programming/git.md) |
+| Python | [`programming/python.md`](programming/python.md) |
+| SQL | [`programming/sql.md`](programming/sql.md) |
+| Excel | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| Git | [`programming/git.md`](programming/git.md) |
 
 ---
 
@@ -191,11 +191,11 @@ Ask yourself:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Data/Analytics Stack | [`data/`](../data/data-analytics-stack.md) |
+| Data/Analytics Stack | [`data/`](../data-science/data-analytics-stack.md) |
 | Product Tech | [`product/`](../product/product-tech.md) |
 | Consulting Tech | [`consulting/`](../consulting/consulting-tech.md) |
 | Non-Core Placement | [`03_non_core/`](../../03_non_core/) |
 
 ---
 
-*See also: [`data-analytics-stack.md`](../data/data-analytics-stack.md) for the data stack, [`learning-roadmaps.md`](../learning-roadmaps.md) for time-based plans.*
+*See also: [`data-analytics-stack.md`](../data-science/data-analytics-stack.md) for the data stack, [`learning-roadmaps.md`](../../07_resources/reference-material/learning-roadmaps.md) for time-based plans.*

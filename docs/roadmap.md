@@ -61,27 +61,27 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 **Week-by-Week Plan:**
 
 #### Week 1 (Sep 8–14): Hydraulics & Turbulence
-- [ ] Bernoulli's equation derivation + application — [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md)
+- [ ] Bernoulli's equation derivation + application — [`02_core/hwre/hydraulics/hydraulics.md`](../02_core/hwre/hydraulics/hydraulics.md)
 - [ ] Continuity equation, momentum equation, energy equation
 - [ ] Pipe friction: Darcy-Weisbach, Moody chart, minor losses
-- [ ] Turbulence models: k-ε, k-ω, SST — [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md)
-- [ ] Open Channel Flow: GVF, RVF, hydraulic jump — [`02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md`](../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md)
+- [ ] Turbulence models: k-ε, k-ω, SST — [`02_core/hwre/hydraulics/turbulence-modeling.md`](../02_core/hwre/hydraulics/turbulence-modeling.md)
+- [ ] Open Channel Flow: GVF, RVF, hydraulic jump — [`02_core/hwre/open_channel_flow/open-channel-flow.md`](../02_core/hwre/open_channel_flow/open-channel-flow.md)
 - [ ] Practice: 5 numericals/day from each sub-topic
 
 #### Week 2 (Sep 15–21): Hydrology & Sediment
-- [ ] Unit hydrograph derivation + S-curve method — [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md)
-- [ ] Flood routing: Muskingum, Level Pool — [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md)
-- [ ] Sediment transport: Shields diagram, MPM formula — [`02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md`](../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md)
-- [ ] Scour analysis: live-bed, clear-water — [`02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md`](../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md)
+- [ ] Unit hydrograph derivation + S-curve method — [`02_core/hwre/hydrology/hydrology.md`](../02_core/hwre/hydrology/hydrology.md)
+- [ ] Flood routing: Muskingum, Level Pool — [`02_core/hwre/hydrology/hydrology.md`](../02_core/hwre/hydrology/hydrology.md)
+- [ ] Sediment transport: Shields diagram, MPM formula — [`02_core/hwre/hydrology/sediment-transport.md`](../02_core/hwre/hydrology/sediment-transport.md)
+- [ ] Scour analysis: live-bed, clear-water — [`02_core/hwre/hydrology/sediment-transport.md`](../02_core/hwre/hydrology/sediment-transport.md)
 - [ ] Practice: 5 numericals/day
 
 #### Week 3 (Sep 22–28): Structures, Geotech & Water Resources
-- [ ] SOM: stress-strain, bending, shear — [`02_02_02_core/civil-engineering/structures/structures.md`](../02_02_02_core/civil-engineering/structures/structures.md)
-- [ ] RCC design: working stress, limit state — [`02_02_02_core/civil-engineering/structures/structures.md`](../02_02_02_core/civil-engineering/structures/structures.md)
+- [ ] SOM: stress-strain, bending, shear — [`02_core/civil-engineering/structures/structures.md`](../02_core/civil-engineering/structures/structures.md)
+- [ ] RCC design: working stress, limit state — [`02_core/civil-engineering/structures/structures.md`](../02_core/civil-engineering/structures/structures.md)
 - [ ] IS 456, IS 800 key provisions
-- [ ] Geotech: bearing capacity, consolidation — [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../02_02_02_core/civil-engineering/geotechnical/geotechnical.md)
-- [ ] Slope stability: Swedish, Bishop — [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../02_02_02_core/civil-engineering/geotechnical/geotechnical.md)
-- [ ] Water Resources: reservoir, canal design — [`02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md`](../02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md)
+- [ ] Geotech: bearing capacity, consolidation — [`02_core/civil-engineering/geotechnical/geotechnical.md`](../02_core/civil-engineering/geotechnical/geotechnical.md)
+- [ ] Slope stability: Swedish, Bishop — [`02_core/civil-engineering/geotechnical/geotechnical.md`](../02_core/civil-engineering/geotechnical/geotechnical.md)
+- [ ] Water Resources: reservoir, canal design — [`02_core/hwre/water_resources/water-resources-engineering.md`](../02_core/hwre/water_resources/water-resources-engineering.md)
 - [ ] Practice: 5 numericals/day
 
 #### Week 4 (Sep 29–30): Consolidation & Formula Sheets
@@ -98,16 +98,16 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 **Key Resources:**
 | Resource | Link |
 |----------|------|
-| Hydraulics | [`02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md`](../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) |
-| Turbulence | [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) |
-| Open Channel Flow | [`02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md`](../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md) |
-| Hydrology | [`02_02_02_02_02_02_core/hwre/hydrology/hydrology.md`](../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) |
-| Sediment Transport | [`02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md`](../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md) |
-| Structures | [`02_02_02_core/civil-engineering/structures/structures.md`](../02_02_02_core/civil-engineering/structures/structures.md) |
-| Geotechnical | [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) |
-| Water Resources | [`02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md`](../02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md) |
-| GATE Formulas | [`02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md`](../02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md) |
-| GATE Practice | [`02_02_02_02_02_02_core/gate/practice/gate-civil-practice.md`](../02_02_02_02_02_02_core/gate/practice/gate-civil-practice.md) |
+| Hydraulics | [`02_core/hwre/hydraulics/hydraulics.md`](../02_core/hwre/hydraulics/hydraulics.md) |
+| Turbulence | [`02_core/hwre/hydraulics/turbulence-modeling.md`](../02_core/hwre/hydraulics/turbulence-modeling.md) |
+| Open Channel Flow | [`02_core/hwre/open_channel_flow/open-channel-flow.md`](../02_core/hwre/open_channel_flow/open-channel-flow.md) |
+| Hydrology | [`02_core/hwre/hydrology/hydrology.md`](../02_core/hwre/hydrology/hydrology.md) |
+| Sediment Transport | [`02_core/hwre/hydrology/sediment-transport.md`](../02_core/hwre/hydrology/sediment-transport.md) |
+| Structures | [`02_core/civil-engineering/structures/structures.md`](../02_core/civil-engineering/structures/structures.md) |
+| Geotechnical | [`02_core/civil-engineering/geotechnical/geotechnical.md`](../02_core/civil-engineering/geotechnical/geotechnical.md) |
+| Water Resources | [`02_core/hwre/water_resources/water-resources-engineering.md`](../02_core/hwre/water_resources/water-resources-engineering.md) |
+| GATE Formulas | [`02_core/gate/formulas/gate-civil-formulas.md`](../02_core/gate/formulas/gate-civil-formulas.md) |
+| GATE Practice | [`02_core/gate/practice/gate-civil-practice.md`](../02_core/gate/practice/gate-civil-practice.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |
@@ -160,10 +160,10 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 | Behavioral Guide (STAR) | [`01_common/behavioral/behavioral-interview-guide.md`](../01_common/behavioral/behavioral-interview-guide.md) |
 | Self Introduction | [`01_common/behavioral/self_intro/self-introduction.md`](../01_common/behavioral/self_intro/self-introduction.md) |
 | HR Questions Bank | [`01_common/behavioral/hr_questions/hr-questions-bank.md`](../01_common/behavioral/hr_questions/hr-questions-bank.md) |
-| Mock Questions | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../01_common/interview-fundamentals/mock-tests/mock-interview-questions.md) |
-| Technical Interview Bank | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
-| Non-Core Prep | [`03_non_02_02_core/analytics/analytics/non-core-prep.md`](../03_non_02_02_core/analytics/analytics/non-core-prep.md) |
-| Technical Stack | [`03_non_02_02_core/analytics/analytics/technical-stack.md`](../03_non_02_02_core/analytics/analytics/technical-stack.md) |
+| Mock Questions | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../05_interview/mock-interviews/mock-interview-questions.md) |
+| Technical Interview Bank | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md) |
+| Non-Core Prep | [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/non-core-prep.md) |
+| Technical Stack | [`03_non_core/analytics/analytics/technical-stack.md`](../03_non_core/analytics/analytics/technical-stack.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |
@@ -209,7 +209,7 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 | Interview Experiences | [`04_company-prep/company-directory/interview-experiences.md`](../04_company-prep/company-directory/interview-experiences.md) |
 | Company-Specific Files | [`04_company-prep/`](../04_company-prep/) |
 | Placement Data & CTCs | [`07_resources/websites/placement-data.md`](../07_resources/websites/placement-data.md) |
-| Project Discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../01_common/interview-fundamentals/technical/project-discussion.md) |
+| Project Discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../05_interview/project-defense/project-discussion.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |
@@ -232,7 +232,7 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 **Actions:**
 - [ ] Create one-page cheat-sheets per core topic (10 sheets)
 - [ ] Drill aptitude daily (20–30 min) — [`01_common/aptitude/rapid-revision/FORMULA_SHEET.md`](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
-- [ ] SQL/Python daily (20 min) — [`03_non_02_02_core/analytics/analytics/non-core-prep.md`](../03_non_02_02_core/analytics/analytics/non-core-prep.md)
+- [ ] SQL/Python daily (20 min) — [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/non-core-prep.md)
 - [ ] Conduct final round mocks: technical, HR, and case-study reps (5+)
 - [ ] Review interview-experience logs and fill knowledge gaps
 - [ ] Flashcard deck: achieve 90%+ recall
@@ -247,12 +247,12 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 **Key Resources:**
 | Resource | Link |
 |----------|------|
-| GATE Formulas (Cheat Sheet) | [`02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md`](../02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md) |
-| GATE Revision | [`02_02_02_02_02_02_core/gate/revision_notes/gate-civil-revision.md`](../02_02_02_02_02_02_core/gate/revision_notes/gate-civil-revision.md) |
+| GATE Formulas (Cheat Sheet) | [`02_core/gate/formulas/gate-civil-formulas.md`](../02_core/gate/formulas/gate-civil-formulas.md) |
+| GATE Revision | [`02_core/gate/revision_notes/gate-civil-revision.md`](../02_core/gate/revision_notes/gate-civil-revision.md) |
 | Aptitude Shortcuts | [`01_common/aptitude/rapid-revision/FORMULA_SHEET.md`](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) |
 | Behavioral Guide | [`01_common/behavioral/behavioral-interview-guide.md`](../01_common/behavioral/behavioral-interview-guide.md) |
 | HR Questions Bank | [`01_common/behavioral/hr_questions/hr-questions-bank.md`](../01_common/behavioral/hr_questions/hr-questions-bank.md) |
-| Mock Questions | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../01_common/interview-fundamentals/mock-tests/mock-interview-questions.md) |
+| Mock Questions | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../05_interview/mock-interviews/mock-interview-questions.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |
@@ -291,9 +291,9 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 | Resource | Link |
 |----------|------|
 | Interview Experiences | [`04_company-prep/company-directory/interview-experiences.md`](../04_company-prep/company-directory/interview-experiences.md) |
-| Project Discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../01_common/interview-fundamentals/technical/project-discussion.md) |
-| HR Interview Guide | [`01_common/interview-fundamentals/hr/hr-interview-guide.md`](../01_common/interview-fundamentals/hr/hr-interview-guide.md) |
-| Technical Bank | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
+| Project Discussion | [`01_common/interview-fundamentals/technical/project-discussion.md`](../05_interview/project-defense/project-discussion.md) |
+| HR Interview Guide | [`01_common/interview-fundamentals/hr/hr-interview-guide.md`](../05_interview/hr/hr-interview-guide.md) |
+| Technical Bank | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |

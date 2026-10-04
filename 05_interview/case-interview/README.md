@@ -29,10 +29,10 @@
 
 ## Navigation
 - [Non-Core Hub](../README.md)
-- [Role Directory](../ROLE_DIRECTORY.md)
+- [Role Directory](../../03_non_core/ROLE_DIRECTORY.md)
 - [01 Role Tracks](../01_roles/)
-- [03 Common Skills](../03_common-skills/)
-- [04 Career Preparation](../04_career-preparation/)
-- [05 Rapid Revision](../05_rapid-revision/)
+- [03 Common Skills](../01_common/)
+- [04 Career Preparation](../01_common/resume/career-preparation/)
+- [05 Rapid Revision](../06_revision/)
 
 

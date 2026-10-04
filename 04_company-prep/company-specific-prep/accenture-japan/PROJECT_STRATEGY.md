@@ -52,4 +52,4 @@ When asked: *"Walk me through your key technical project."*
 ## 4. Canonical Repository Project Defense Link
 
 For general project defense strategies and deep-dive checklists:
-* Link: [`05_interview/project-defense/PROJECT_DEFENCE.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/project-defense/PROJECT_DEFENCE.md)
+* Link: [`05_interview/project-defense/PROJECT_DEFENCE.md`](../../../05_interview/project-defense/PROJECT_DEFENCE.md)

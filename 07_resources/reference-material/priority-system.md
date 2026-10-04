@@ -190,5 +190,5 @@ If you can't learn everything (you can't), prioritize by:
 
 ---
 
-*See also: [`anti-overload.md`](anti-overload.md) for the "one + one + one" strategy.*
-*See also: [`resume-positioning.md`](resume-positioning.md) for how to write proficiency honestly.*
+*See also: [`anti-overload.md`](../../06_revision/anti-overload.md) for the "one + one + one" strategy.*
+*See also: [`resume-positioning.md`](../../01_common/resume/resume-positioning.md) for how to write proficiency honestly.*

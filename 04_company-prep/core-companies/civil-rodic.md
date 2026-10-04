@@ -268,11 +268,11 @@ Day 5: Legislation + standards | Day 6: Numericals | Day 7: Mock interview
 
 ## Cross-Links
 
-- [Water Supply Engineering](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md)
-- [Wastewater Engineering](../../02_02_02_02_02_02_core/hwre/wastewater/wastewater-engineering.md)
-- [Hydraulics](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md)
-- [Open Channel Flow](../../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Water Supply Engineering](../../02_core/hwre/water_supply/water-supply.md)
+- [Wastewater Engineering](../../02_core/hwre/wastewater/wastewater-engineering.md)
+- [Hydraulics](../../02_core/hwre/hydraulics/hydraulics.md)
+- [Open Channel Flow](../../02_core/hwre/open_channel_flow/open-channel-flow.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ---
 

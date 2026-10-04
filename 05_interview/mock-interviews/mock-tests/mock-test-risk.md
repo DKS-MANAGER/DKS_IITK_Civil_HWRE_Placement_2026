@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/finance/risk/role-study-plan.md)
-- [Risk Overview](../../03_non_02_02_core/finance/risk/risk-overview.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Risk Overview](../../03_non_core/finance/risk/risk-overview.md)
 - [Mock Test Hub](README.md)

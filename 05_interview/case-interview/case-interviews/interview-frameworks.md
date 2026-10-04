@@ -225,7 +225,7 @@ Issue
 | Resource | Link |
 |:---------|:-----|
 | Behavioral Prep (stories) | [../behavioral/behavioral-mastery.md](../behavioral/behavioral-mastery.md) |
-| Communication Skills | [../../03_common-skills/communication/communication.md](../../03_common-skills/communication/communication.md) |
+| Communication Skills | [../../03_common-skills/communication/communication.md](../../01_common/professional-skills/) |
 | Case Frameworks (consulting) | [case-frameworks.md](../case-interviews/framework-library.md) |
 | Guesstimate Guide | [guesstimate-guide.md](../guesstimates/guesstimate-guide.md) |
 | Full Framework Library | [framework-library.md](../case-interviews/framework-library.md) |

@@ -287,11 +287,11 @@ Follow the hands-on step-by-step guides to build real models end-to-end:
 
 | Tool | Deep-Dive Guide |
 |:-----|:----------------|
-| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
-| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) |
-| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
-| EPANET | [`deep-dives/epanet-walkthrough.md`](../deep-dives/epanet-walkthrough.md) |
-| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](software-deep-dives/hec-ras-walkthrough.md) |
+| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](software-deep-dives/hec-hms-tutorial.md) |
+| SWMM | [`deep-dives/swmm-guide.md`](software-deep-dives/swmm-guide.md) |
+| EPANET | [`deep-dives/epanet-walkthrough.md`](software-deep-dives/epanet-walkthrough.md) |
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../cfd/openfoam-case-study.md) |
 
 ---
 
@@ -299,14 +299,14 @@ Follow the hands-on step-by-step guides to build real models end-to-end:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core HWRE Hydraulics | [`02_02_02_02_core/hwre/hydraulics/`](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) |
-| Open-Channel Flow | [`02_02_02_02_core/hwre/open_channel_flow/`](../../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md) |
-| Hydrology | [`hydrology/`](../hydrology/hydrology-tech.md) |
+| Core HWRE Hydraulics | [`02_core/hwre/hydraulics/`](hydraulics/hydraulics.md) |
+| Open-Channel Flow | [`02_core/hwre/open_channel_flow/`](open_channel_flow/open-channel-flow.md) |
+| Hydrology | [`hydrology/`](hydrology-tech.md) |
 | CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
-| GIS Technology | [`gis/`](../gis/gis-tech.md) |
-| Branch Roadmaps | [`branch-roadmaps.md`](../branch-roadmaps.md) |
-| Role Roadmaps | [`role-roadmaps.md`](../role-roadmaps.md) |
+| GIS Technology | [`gis/`](../civil-engineering/geoinformatics/gis-tech.md) |
+| Branch Roadmaps | [`branch-roadmaps.md`](../../07_resources/reference-material/branch-roadmaps.md) |
+| Role Roadmaps | [`role-roadmaps.md`](../../07_resources/reference-material/role-roadmaps.md) |
 
 ---
 
-*See also: [`hydrology-tech.md`](../hydrology/hydrology-tech.md) for hydrology-specific tools, [`cfd-tech.md`](../cfd/cfd-tech.md) for advanced CFD.*
+*See also: [`hydrology-tech.md`](hydrology-tech.md) for hydrology-specific tools, [`cfd-tech.md`](../cfd/cfd-tech.md) for advanced CFD.*

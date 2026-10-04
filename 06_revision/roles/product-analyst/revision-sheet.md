@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Product Analyst Preparation Track](../../01_roles/product-analyst/README.md)
+- 📖 [Complete Product Analyst Preparation Track](../../../03_non_core/product/product-analyst/README.md)
 
 ---
 

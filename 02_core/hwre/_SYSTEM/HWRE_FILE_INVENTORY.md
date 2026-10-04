@@ -1,6 +1,6 @@
 # HWRE — File Inventory
 
-> Complete inventory of `02_02_core/hwre` files with status classification.
+> Complete inventory of `02_core/hwre` files with status classification.
 
 ## System Layer (Created in this rebuild)
 
@@ -50,24 +50,24 @@
 | `hydrology/role-study-plan.md` | ✅ Good | 329 |
 | `exam_notes/hwre-exam-notes.md` | ✅ Good | 357 |
 
-## External Dependencies (Referenced, Not in 02_02_core/hwre)
+## External Dependencies (Referenced, Not in 02_core/hwre)
 
 | File | Location | Status |
 |------|----------|--------|
-| HEC-RAS walkthrough | `02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md` | ✅ Exists |
-| HEC-HMS tutorial | `02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md` | ✅ Exists |
-| EPANET walkthrough | `02_02_02_02_02_core/hwre/software-deep-dives/epanet-walkthrough.md` | ✅ Exists |
-| SWMM guide | `02_02_02_02_02_core/hwre/software-deep-dives/swmm-guide.md` | ✅ Exists |
-| OpenFOAM case study | `02_02_02_core/cfd/openfoam-case-study.md` | ✅ Exists |
-| GeoStudio SLOPE/W | `02_02_02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md` | ✅ Exists |
-| PLAXIS 2D | `02_02_02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md` | ✅ Exists |
-| GATE Civil formula sheet | `02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md` | ✅ Exists |
+| HEC-RAS walkthrough | `02_core/hwre/software-deep-dives/hec-ras-walkthrough.md` | ✅ Exists |
+| HEC-HMS tutorial | `02_core/hwre/software-deep-dives/hec-hms-tutorial.md` | ✅ Exists |
+| EPANET walkthrough | `02_core/hwre/software-deep-dives/epanet-walkthrough.md` | ✅ Exists |
+| SWMM guide | `02_core/hwre/software-deep-dives/swmm-guide.md` | ✅ Exists |
+| OpenFOAM case study | `02_core/cfd/openfoam-case-study.md` | ✅ Exists |
+| GeoStudio SLOPE/W | `02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md` | ✅ Exists |
+| PLAXIS 2D | `02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md` | ✅ Exists |
+| GATE Civil formula sheet | `02_core/gate/formulas/gate-civil-formulas.md` | ✅ Exists |
 | Technical interview bank | `01_common/interview-fundamentals/technical/technical-interview-bank.md` | ✅ Exists |
-| HWRE tech roadmap | `02_02_02_02_02_core/hwre/hwre-tech-roadmap.md` | ✅ Exists |
+| HWRE tech roadmap | `02_core/hwre/hwre-tech-roadmap.md` | ✅ Exists |
 
 ## Summary
 
-- **Total files in 02_02_core/hwre**: 34 (19 existing + 15 created)
+- **Total files in 02_core/hwre**: 34 (19 existing + 15 created)
 - **Existing substantial guides**: 11 subject files (avg ~420 lines)
 - **Existing revision/plan files**: 7
 - **New system layer**: 15 files

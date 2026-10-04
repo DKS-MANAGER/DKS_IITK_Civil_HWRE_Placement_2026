@@ -74,5 +74,5 @@ Translate academic project experiences into business-relevant bullet points:
 ## 6. Canonical Behavioral Links
 
 For additional general behavioral interview frameworks:
-* Link: [`01_common/behavioral/behavioral-interview-guide.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/behavioral/behavioral-interview-guide.md)
-* Link: [`05_interview/project-defense/PROJECT_DEFENCE.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/project-defense/PROJECT_DEFENCE.md)
+* Link: [`01_common/behavioral/behavioral-interview-guide.md`](../../01_common/behavioral/behavioral-interview-guide.md)
+* Link: [`05_interview/project-defense/PROJECT_DEFENCE.md`](../../05_interview/project-defense/PROJECT_DEFENCE.md)

@@ -199,9 +199,9 @@ Steel structures are increasingly important for industrial and high-rise constru
 | Structural Analysis | [structural-analysis.md](../structural-analysis/structural-analysis.md) |
 | Structures Companion | [structures.md](../structures/structures.md) |
 | Structural Role Plan | [role-study-plan.md](../structures/role-study-plan.md) |
-| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
-| Project Discussion | [../../01_common/interview-fundamentals/technical/project-discussion.md](../../01_common/interview-fundamentals/technical/project-discussion.md) |
-| Behavioral Guide | [../../01_common/behavioral/behavioral-interview-guide.md](../../01_common/behavioral/behavioral-interview-guide.md) |
+| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../../05_interview/technical/technical-interview-bank.md) |
+| Project Discussion | [../../01_common/interview-fundamentals/technical/project-discussion.md](../../../05_interview/project-defense/project-discussion.md) |
+| Behavioral Guide | [../../01_common/behavioral/behavioral-interview-guide.md](../../../01_common/behavioral/behavioral-interview-guide.md) |
 
 ---
 

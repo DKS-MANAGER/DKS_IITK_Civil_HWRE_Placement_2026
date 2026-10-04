@@ -23,8 +23,8 @@
 
 | Category | File Link | Focus & Highlights |
 | :--- | :--- | :--- |
-| **Books** | [`books/book-list.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/07_resources/books/book-list.md) | Standard textbooks for SOM, RCC, Steel, Fluid Mechanics, Hydrology, OCF. |
-| **Courses** | [`courses/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/07_resources/courses/README.md) | Top NPTEL lectures, OpenFOAM foundation tutorials, and Python courses. |
-| **Standards** | [`standards/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/07_resources/standards/README.md) | IS 456, IS 800, IS 1893, IRC 37, FHWA HEC-18 scour manual. |
-| **Websites** | [`websites/links.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/07_resources/websites/links.md) | Official documentation, online calculators, CWC & USGS hydrology portals. |
-| **Reference Material** | [`reference-material/TOOLS_INDEX.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/07_resources/reference-material/TOOLS_INDEX.md) | Software index, GIS tools, and cross-discipline technology roadmaps. |
+| **Books** | [`books/book-list.md`](books/book-list.md) | Standard textbooks for SOM, RCC, Steel, Fluid Mechanics, Hydrology, OCF. |
+| **Courses** | [`courses/README.md`](courses/README.md) | Top NPTEL lectures, OpenFOAM foundation tutorials, and Python courses. |
+| **Standards** | [`standards/README.md`](standards/README.md) | IS 456, IS 800, IS 1893, IRC 37, FHWA HEC-18 scour manual. |
+| **Websites** | [`websites/links.md`](websites/links.md) | Official documentation, online calculators, CWC & USGS hydrology portals. |
+| **Reference Material** | [`reference-material/TOOLS_INDEX.md`](reference-material/TOOLS_INDEX.md) | Software index, GIS tools, and cross-discipline technology roadmaps. |

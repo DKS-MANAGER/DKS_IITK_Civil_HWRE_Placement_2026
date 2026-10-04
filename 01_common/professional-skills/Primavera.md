@@ -249,11 +249,11 @@ Primavera → Construction Management → CPM/PERT, scheduling
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| Construction Roadmap | [`construction/construction-tech.md`](../construction/construction-tech.md) |
-| Excel (BOQ) | [`tools/Excel.md`](../tools/Excel.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
-| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../SOFTWARE_RESUME_STRATEGY.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| Construction Roadmap | [`construction/construction-tech.md`](../../02_core/civil-engineering/infrastructure/construction/construction-tech.md) |
+| Excel (BOQ) | [`tools/Excel.md`](../placement-math/Excel.md) |
+| Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
+| Resume Strategy | [`SOFTWARE_RESUME_STRATEGY.md`](../resume/SOFTWARE_RESUME_STRATEGY.md) |
 
 ---
 

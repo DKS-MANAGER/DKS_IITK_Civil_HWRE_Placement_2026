@@ -44,7 +44,7 @@ The Logical Reasoning suite trains candidates in algorithmic deduction, relation
 
 ## 3. Related Testing & Verification
 
-- **Sectional Reasoning Test (Layer 2)**: [`../tests/section/sectional-reasoning-01.md`](../tests/section/sectional-reasoning-01.md) (30 Questions, 40 Minutes, Negative Marking)
+- **Sectional Reasoning Test (Layer 2)**: [`../tests/section/sectional-reasoning-01.md`](../mocks/section-tests/section/sectional-reasoning-01.md) (30 Questions, 40 Minutes, Negative Marking)
 - **Full Campus Placement Mocks (Layer 3 & 4)**: [`../mocks/README.md`](../mocks/README.md)
 - **Formula Sheet & Shortcut Rules**: [`../rapid-revision/FORMULA_SHEET.md`](../rapid-revision/FORMULA_SHEET.md)
-- **Placement Readiness Dashboard**: [`../../05_interview/mock-interviews/READINESS_SCORECARD.md`](../../05_interview/mock-interviews/READINESS_SCORECARD.md)
+- **Placement Readiness Dashboard**: [`../../05_interview/mock-interviews/READINESS_SCORECARD.md`](../../../05_interview/mock-interviews/READINESS_SCORECARD.md)

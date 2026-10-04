@@ -61,7 +61,7 @@ STAGE 6: INTERVIEW       → Q&A bank, mock tests, error analysis, revision
 - [ ] HEC-HMS: watershed setup, loss methods, transform, routing
 - [ ] HEC-RAS: geometry, steady/unsteady, bridges, dam breach
 - [ ] GIS: RAS Mapper, terrain processing, flood mapping
-- **Resources**: [`MODELLING.md`](MODELLING.md) · [HEC-HMS Tutorial](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md) · [HEC-RAS Walkthrough](../../02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md)
+- **Resources**: [`MODELLING.md`](MODELLING.md) · [HEC-HMS Tutorial](software-deep-dives/hec-hms-tutorial.md) · [HEC-RAS Walkthrough](software-deep-dives/hec-ras-walkthrough.md)
 
 ### Stage 6: Interview (Week 6)
 - [ ] Review [`INTERVIEW.md`](INTERVIEW.md) Q&A bank
@@ -100,7 +100,7 @@ Turbulence / CFD ──→ Modelling (HEC-RAS, OpenFOAM)
 | Sediment Transport | Scour analysis | CWPRS, consulting firms |
 | Turbulence / CFD | OpenFOAM, research | IITs, ANSYS, research labs |
 
-> **Cross-reference**: GATE Civil formula sheet covers the same topics with P0–P3 tags — [`02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md`](../gate/formulas/gate-civil-formulas.md)
+> **Cross-reference**: GATE Civil formula sheet covers the same topics with P0–P3 tags — [`02_core/gate/formulas/gate-civil-formulas.md`](../gate/formulas/gate-civil-formulas.md)
 
 ## Related
 

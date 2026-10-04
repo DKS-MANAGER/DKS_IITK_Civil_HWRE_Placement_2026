@@ -24,10 +24,10 @@ archive/
 
 | Archived Asset | Rationale for Archival | Canonical Replacement in Active Repository |
 |:---------------|:-----------------------|:-------------------------------------------|
-| `legacy-non-core-aptitude/quantitative/*` | Condensed early draft with 10 problems per topic; lacked rigorous Cat-8 cognitive taxonomy, master answer keys, and verification standards. | [`aptitude/quant/`](../aptitude/quant/README.md) (18 chapters, 720 questions, 100% verified keys) |
-| `legacy-non-core-aptitude/logical_reasoning/*` | Single generic practice file with limited coverage. | [`aptitude/reasoning/`](../aptitude/reasoning/README.md) (10 modules, 400 questions, complete analytical derivations) |
-| `legacy-non-core-aptitude/verbal/*` | Introductory verbal notes without placement-level RC passages. | [`aptitude/verbal/`](../aptitude/verbal/README.md) (9 modules, 372 questions) |
-| `legacy-non-core-aptitude/shortcuts/*` | Basic arithmetic shortcuts. | [`aptitude/FORMULA_SHEET.md`](../aptitude/FORMULA_SHEET.md) and [`aptitude/RAPID_REVISION.md`](../aptitude/RAPID_REVISION.md) |
+| `legacy-non-core-aptitude/quantitative/*` | Condensed early draft with 10 problems per topic; lacked rigorous Cat-8 cognitive taxonomy, master answer keys, and verification standards. | [`aptitude/quant/`](../01_common/aptitude/quantitative/README.md) (18 chapters, 720 questions, 100% verified keys) |
+| `legacy-non-core-aptitude/logical_reasoning/*` | Single generic practice file with limited coverage. | [`aptitude/reasoning/`](../01_common/aptitude/logical-reasoning/README.md) (10 modules, 400 questions, complete analytical derivations) |
+| `legacy-non-core-aptitude/verbal/*` | Introductory verbal notes without placement-level RC passages. | [`aptitude/verbal/`](../01_common/aptitude/verbal/README.md) (9 modules, 372 questions) |
+| `legacy-non-core-aptitude/shortcuts/*` | Basic arithmetic shortcuts. | [`aptitude/FORMULA_SHEET.md`](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) and [`aptitude/RAPID_REVISION.md`](../01_common/aptitude/rapid-revision/RAPID_REVISION.md) |
 
 ---
 
@@ -35,4 +35,4 @@ archive/
 
 - Archived content is preserved for historical provenance, audit trails, and version continuity.
 - No active preparation guide, workflow, or assessment engine should route candidates to `archive/`.
-- Links in active documentation should point to the canonical hubs: [`aptitude/`](../aptitude/README.md), [`core/`](../core/README.md), [`non-core/`](../non-core/README.md), [`prep/`](../prep/README.md), and [`software-and-tech/`](../software-and-tech/README.md).
+- Links in active documentation should point to the canonical hubs: [`aptitude/`](../01_common/aptitude/README.md), [`core/`](../02_core/README.md), [`non-core/`](../05_interview/technical/non-core/README.md), [`prep/`](../01_common/resume/career-preparation/README.md), and [`software-and-tech/`](../README.md).

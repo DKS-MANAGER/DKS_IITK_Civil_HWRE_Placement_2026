@@ -423,8 +423,8 @@ $D \times \Delta = 8.64B$
 - [`water-resources-engineering.md`](../water_resources/water-resources-engineering.md) — Reservoir, canal systems
 - [`hydrology.md`](../hydrology/hydrology.md) — Rainfall-runoff, infiltration
 - [`groundwater.md`](../water_supply/groundwater.md) — Conjunctive use
-- [`environmental-engineering.md`](../../environmental/environmental-engineering.md) — Water quality for irrigation
-- [`geotechnical.md`](../../geotechnical/geotechnical.md) — Soil mechanics, drainage
+- [`environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md) — Water quality for irrigation
+- [`geotechnical.md`](../../civil-engineering/geotechnical/geotechnical.md) — Soil mechanics, drainage
 
 ---
 

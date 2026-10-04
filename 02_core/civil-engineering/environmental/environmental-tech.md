@@ -157,8 +157,8 @@ Follow the hands-on step-by-step guides to build real water models end-to-end:
 
 | Tool | Deep-Dive Guide |
 |:-----|:----------------|
-| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
-| EPANET | [`deep-dives/epanet-walkthrough.md`](../deep-dives/epanet-walkthrough.md) |
+| SWMM | [`deep-dives/swmm-guide.md`](../../hwre/software-deep-dives/swmm-guide.md) |
+| EPANET | [`deep-dives/epanet-walkthrough.md`](../../hwre/software-deep-dives/epanet-walkthrough.md) |
 
 ---
 
@@ -166,12 +166,12 @@ Follow the hands-on step-by-step guides to build real water models end-to-end:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Environmental | [`02_02_02_core/civil-engineering/environmental/`](../../02_02_02_core/civil-engineering/environmental/environmental-engineering.md) |
-| HWRE Technology | [`hwre/`](../hwre/hwre-tech-roadmap.md) |
-| GIS Technology | [`gis/`](../gis/gis-tech.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
-| Data Analytics Stack | [`data/`](../data/data-analytics-stack.md) |
+| Core Environmental | [`02_core/civil-engineering/environmental/`](environmental-engineering.md) |
+| HWRE Technology | [`hwre/`](../../hwre/hwre-tech-roadmap.md) |
+| GIS Technology | [`gis/`](../geoinformatics/gis-tech.md) |
+| Python for Engineering | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
+| Data Analytics Stack | [`data/`](../../../03_non_core/data-science/data-analytics-stack.md) |
 
 ---
 
-*See also: [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`branch-roadmaps.md`](../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

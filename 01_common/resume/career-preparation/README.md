@@ -16,8 +16,8 @@
 ---
 
 ## Navigation
-- [Non-Core Hub](../README.md)
-- [01 Role Tracks](../01_roles/)
-- [02 Interview Preparation](../02_interview-preparation/)
-- [03 Common Skills](../03_common-skills/)
-- [05 Rapid Revision](../05_rapid-revision/)
+- [Common Hub](../README.md)
+- [Non-Core Roles](../../../03_non_core/)
+- [Interview Preparation](../../../05_interview/)
+- [Company Preparation](../../../04_company-prep/)
+- [Rapid Revision](../../../06_revision/)

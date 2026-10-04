@@ -8,7 +8,7 @@
 ## 1. Non-Core Preparation Architecture
 
 ```text
-03_non_02_02_core/
+03_non_core/
 ├── README.md                      # Non-core master dashboard
 ├── consulting/                    # Strategy & Management Consulting (MECE, Cases, Guesstimates)
 ├── software-engineering/          # Software Development, DSA, Python, C++, SQL, Git, Linux
@@ -25,13 +25,13 @@
 
 | Role / Domain | Directory Link | Key Study Areas & Frameworks |
 | :--- | :--- | :--- |
-| **Consulting** | [`consulting/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/README.md) | Structured Problem Solving, Issue Trees, MECE, Profitability Cases, Market Entry, Guesstimates, Consulting Math, Mock Tests. |
-| **Software Engineering** | [`software-engineering/01_role-overview.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/software-engineering/01_role-overview.md) | Python, C/C++, SQL, Git, Linux developer tools, basic algorithms, data structures, and coding test preparation. |
-| **Data Science** | [`data-science/data-analytics-stack.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/data-science/data-analytics-stack.md) | Statistics, Probability distributions, Regression, Classification, Model Evaluation (RMSE, F1, AUC), Scikit-Learn. |
-| **Analytics** | [`analytics/analytics/01_role-overview.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/analytics/analytics/01_role-overview.md) | Data querying, Excel modeling, Tableau/PowerBI dashboards, Cohort analysis, and Business Analyst problem solving. |
-| **Product Management** | [`product/product-management/01_role-overview.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/product/product-management/01_role-overview.md) | Product sense, User journey mapping, North Star metrics, PRD construction, A/B testing, and feature prioritization. |
-| **Finance & Risk** | [`finance/finance/01_role-overview.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/finance/finance/01_role-overview.md) | Financial statements (P&L, Balance Sheet, Cash Flow), NPV/IRR, Working Capital, and Credit Risk modeling. |
-| **Operations & SCM** | [`operations/operations/01_role-overview.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/operations/operations/01_role-overview.md) | Supply chain optimization, Inventory control (EOQ, safety stock), Process bottlenecks, Six Sigma, and Lean management. |
+| **Consulting** | [`consulting/README.md`](consulting/README.md) | Structured Problem Solving, Issue Trees, MECE, Profitability Cases, Market Entry, Guesstimates, Consulting Math, Mock Tests. |
+| **Software Engineering** | [`software-engineering/01_role-overview.md`](software-engineering/01_role-overview.md) | Python, C/C++, SQL, Git, Linux developer tools, basic algorithms, data structures, and coding test preparation. |
+| **Data Science** | [`data-science/data-analytics-stack.md`](data-science/data-analytics-stack.md) | Statistics, Probability distributions, Regression, Classification, Model Evaluation (RMSE, F1, AUC), Scikit-Learn. |
+| **Analytics** | [`analytics/analytics/01_role-overview.md`](analytics/analytics/01_role-overview.md) | Data querying, Excel modeling, Tableau/PowerBI dashboards, Cohort analysis, and Business Analyst problem solving. |
+| **Product Management** | [`product/product-management/01_role-overview.md`](product/product-management/01_role-overview.md) | Product sense, User journey mapping, North Star metrics, PRD construction, A/B testing, and feature prioritization. |
+| **Finance & Risk** | [`finance/finance/01_role-overview.md`](finance/finance/01_role-overview.md) | Financial statements (P&L, Balance Sheet, Cash Flow), NPV/IRR, Working Capital, and Credit Risk modeling. |
+| **Operations & SCM** | [`operations/operations/01_role-overview.md`](operations/business-operations/01_role-overview.md) | Supply chain optimization, Inventory control (EOQ, safety stock), Process bottlenecks, Six Sigma, and Lean management. |
 
 ---
 
@@ -39,11 +39,11 @@
 
 ```text
 Consulting Track:
-01_common/aptitude ──► 01_common/placement-math ──► 03_non_02_02_core/consulting ──► 04_company-prep/consulting-companies ──► 05_interview/case-interview ──► 06_revision
+01_common/aptitude ──► 01_common/placement-math ──► 03_non_core/consulting ──► 04_company-prep/consulting-companies ──► 05_interview/case-interview ──► 06_revision
 
 Software / Tech Track:
-01_common/aptitude ──► 03_non_02_02_core/software-engineering ──► 04_company-prep/software-companies ──► 05_interview/technical ──► 06_revision
+01_common/aptitude ──► 03_non_core/software-engineering ──► 04_company-prep/software-companies ──► 05_interview/technical ──► 06_revision
 
 Analytics / Data Track:
-01_common/aptitude ──► 01_common/placement-math ──► 03_non_02_02_core/analytics ──► 03_non_02_02_core/data-science ──► 05_interview ──► 06_revision
+01_common/aptitude ──► 01_common/placement-math ──► 03_non_core/analytics ──► 03_non_core/data-science ──► 05_interview ──► 06_revision
 ```

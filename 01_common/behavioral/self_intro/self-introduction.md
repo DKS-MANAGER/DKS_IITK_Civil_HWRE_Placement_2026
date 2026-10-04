@@ -171,10 +171,10 @@ Use this to evaluate your own introduction:
 
 *   **Framework:** [`behavioral-interview-guide.md`](../behavioral-interview-guide.md) — STAR framework and 30 story examples
 *   **Story Bank:** [`story-bank/`](../story-bank/) — Pre-written STAR stories by category
-*   **Resume Defense:** [`resume-defense-system.md`](../resume-defense-system.md) — Defending every CV claim
+*   **Resume Defense:** [`resume-defense-system.md`](../../../05_interview/resume-defense/resume-defense-system.md) — Defending every CV claim
 *   **Self-Intro System:** [`self-introduction-system.md`](./self-introduction-system.md) — Extended system with drills
 *   **Company Fit:** [`company-fit-analysis.md`](../company-fit-analysis.md) — Tailoring intro per company
-*   **Interview Day:** [`../../interview/interview-day-survival.md`](../../interview/interview-day-survival.md) — Day-of checklist
+*   **Interview Day:** [`../../interview/interview-day-survival.md`](../../interview-fundamentals/interview-day-survival.md) — Day-of checklist
 
 ---
 

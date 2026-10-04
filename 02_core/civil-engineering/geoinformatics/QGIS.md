@@ -244,11 +244,11 @@ QGIS → Surveying → coordinate systems, projections
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| GIS Roadmap | [`gis/gis-tech.md`](../gis/gis-tech.md) |
-| HEC-RAS (integration) | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
-| SQL (PostGIS) | [`programming/sql.md`](../programming/sql.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| GIS Roadmap | [`gis/gis-tech.md`](gis-tech.md) |
+| HEC-RAS (integration) | [`deep-dives/hec-ras-walkthrough.md`](../../hwre/software-deep-dives/hec-ras-walkthrough.md) |
+| SQL (PostGIS) | [`programming/sql.md`](../../../03_non_core/software-engineering/programming/sql.md) |
+| Interview Questions | [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) |
 
 ---
 

@@ -8,11 +8,11 @@
 
 **Goal:** Survive tomorrow's interview with maximum recall.
 
-1. Review the company profile → [COMPANIES.md](COMPANIES.md)
-2. Skim the role's core topics → [ROLES.md](ROLES.md)
-3. Read revision sheets for your track → [TRACKS.md](TRACKS.md)
+1. Review the company profile → [COMPANIES.md](..\04_company-prep\README.md)
+2. Skim the role's core topics → [ROLES.md](..\03_non_core\README.md)
+3. Read revision sheets for your track → [TRACKS.md](../docs/TRACKS.md)
 4. Review the quick revision system → [`01_common/interview-fundamentals/quick-revision-system.md`](../01_common/interview-fundamentals/quick-revision-system.md)
-5. Do one mock test → [TESTING_GUIDE.md](TESTING_GUIDE.md)
+5. Do one mock test → [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md)
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## Revision Templates
 
-Use the [revision template](templates/revision.md) for high-density last-minute summaries.
+Use the [revision template](../docs/templates/revision.md) for high-density last-minute summaries.
 
 ---
 
@@ -56,4 +56,4 @@ The full quick revision system (1/7/30 day) → [`01_common/interview-fundamenta
 
 ---
 
-> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [Main README](../README.md)
+> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](../docs/MASTER_NAVIGATION.md) · [Main README](../README.md)

@@ -194,8 +194,8 @@ ACTION ITEMS (what to practice before next mock):
 - [`../question-master-database.md`](../question-master-database.md) — Question bank for mocks
 - [`../answer-quality-checker.md`](../answer-quality-checker.md) — Score your answers
 - [`../pressure-interview-survival.md`](../pressure-interview-survival.md) — Stress mock techniques
-- [`../group-discussion-mastery.md`](../group-discussion-mastery.md) — GD practice
-- [`../../../01_common/interview-fundamentals/mock-tests/mock-interview-database.md`](../../../01_common/interview-fundamentals/mock-tests/mock-interview-database.md) — Technical mock database
+- [`../group-discussion-mastery.md`](../../group-discussion/group-discussion-mastery.md) — GD practice
+- [`../../../01_common/interview-fundamentals/mock-tests/mock-interview-database.md`](../../../05_interview/mock-interviews/mock-interview-database.md) — Technical mock database
 
 ---
 

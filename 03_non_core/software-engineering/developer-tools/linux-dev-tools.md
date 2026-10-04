@@ -255,8 +255,8 @@ mpirun -np 16 simpleFoam -parallel
 | Related Section | Link |
 |:----------------|:-----|
 | Cloud/HPC | [`computing/`](../computing/cloud-hpc.md) |
-| CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
-| Research Technology | [`research/`](../research/research-tech.md) |
+| CFD Technology | [`cfd/`](../../../02_core/cfd/cfd-tech.md) |
+| Research Technology | [`research/`](../../../07_resources/reference-material/research-tech.md) |
 | Git | [`programming/git.md`](../programming/git.md) |
 
 ---

@@ -245,11 +245,11 @@
 
 ## 🔗 Cross-Links
 
-- [`../resume-defense-system.md`](resume-defense-system.md) — Defense every resume line
+- [`../resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) — Defense every resume line
 - [`../question-master-database.md`](question-master-database.md) — Questions 143-157
 - [`../self_intro/self-introduction-system.md`](self_intro/self-introduction-system.md) — Intro that references IITK
 - [`../civil-hwre-behavioral.md`](civil-hwre-behavioral.md) — Civil/HWRE-specific prep
-- [`../../01_common/interview-fundamentals/technical/project-defense-guide.md`](../../01_common/interview-fundamentals/technical/project-defense-guide.md) — Technical project defense
+- [`../../01_common/interview-fundamentals/technical/project-defense-guide.md`](../../05_interview/project-defense/project-defense-guide.md) — Technical project defense
 
 ---
 

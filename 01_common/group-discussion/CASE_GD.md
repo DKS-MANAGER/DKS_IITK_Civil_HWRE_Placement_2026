@@ -53,11 +53,11 @@ A business problem presented to you to solve aloud. Interviewers assess **struct
 
 | Resource | Content |
 |:---------|:--------|
-| [**Case Simulation Suite**](../05_interview/case-interview/case-interviews/case-simulation-suite.md) | Full-dialogue consulting cases with pushback |
-| [Consulting Mock Test](mock-tests/mock-test-consulting.md) | Timed consulting case test |
-| [Strategy Mock Test](mock-tests/mock-test-strategy.md) | Strategy case test |
-| [Product Manager Mock Test](mock-tests/mock-test-product-manager.md) | Product case test |
-| [Group Discussion Mastery](behavioral/group-discussion-mastery.md) | GD techniques |
+| [**Case Simulation Suite**](../../05_interview/case-interview/case-interviews/case-simulation-suite.md) | Full-dialogue consulting cases with pushback |
+| [Consulting Mock Test](../../05_interview/mock-interviews/mock-tests/mock-test-consulting.md) | Timed consulting case test |
+| [Strategy Mock Test](../../05_interview/mock-interviews/mock-tests/mock-test-strategy.md) | Strategy case test |
+| [Product Manager Mock Test](../../05_interview/mock-interviews/mock-tests/mock-test-product-manager.md) | Product case test |
+| [Group Discussion Mastery](group-discussion-mastery.md) | GD techniques |
 
 ---
 
@@ -88,8 +88,8 @@ A group of candidates discusses a topic. Assessors evaluate **communication, str
 
 | Resource | Content |
 |:---------|:--------|
-| [Group Discussion Mastery](behavioral/group-discussion-mastery.md) | Full GD techniques + practice |
-| [Schneider Electric](company-profiles/schneider-electric.md) | Company that uses GD (VERIFIED) |
+| [Group Discussion Mastery](group-discussion-mastery.md) | Full GD techniques + practice |
+| [Schneider Electric](../../04_company-prep/software-companies/schneider-electric.md) | Company that uses GD (VERIFIED) |
 
 ---
 
@@ -102,5 +102,5 @@ A group of candidates discusses a topic. Assessors evaluate **communication, str
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)
 

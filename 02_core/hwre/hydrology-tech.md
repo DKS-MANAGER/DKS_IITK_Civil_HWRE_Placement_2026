@@ -157,9 +157,9 @@ Follow the hands-on step-by-step guides to build real hydrology models end-to-en
 
 | Tool | Deep-Dive Guide |
 |:-----|:----------------|
-| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](../deep-dives/hec-hms-tutorial.md) |
-| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
-| SWMM | [`deep-dives/swmm-guide.md`](../deep-dives/swmm-guide.md) |
+| HEC-HMS | [`deep-dives/hec-hms-tutorial.md`](software-deep-dives/hec-hms-tutorial.md) |
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](software-deep-dives/hec-ras-walkthrough.md) |
+| SWMM | [`deep-dives/swmm-guide.md`](software-deep-dives/swmm-guide.md) |
 
 ---
 
@@ -168,9 +168,9 @@ Follow the hands-on step-by-step guides to build real hydrology models end-to-en
 | Related Section | Link |
 |:----------------|:-----|
 | HWRE Tech Roadmap | [`hwre/`](../hwre/hwre-tech-roadmap.md) |
-| Sediment Transport | [`sediment/`](../sediment/sediment-tech.md) |
-| GIS Technology | [`gis/`](../gis/gis-tech.md) |
-| Core Hydrology Subject | [`02_02_02_02_core/hwre/hydrology/`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) |
+| Sediment Transport | [`sediment/`](sediment-tech.md) |
+| GIS Technology | [`gis/`](../civil-engineering/geoinformatics/gis-tech.md) |
+| Core Hydrology Subject | [`02_core/hwre/hydrology/`](hydrology/hydrology.md) |
 | CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
 
 ---

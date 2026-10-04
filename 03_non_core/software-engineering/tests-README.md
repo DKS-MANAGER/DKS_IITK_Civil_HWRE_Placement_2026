@@ -7,7 +7,7 @@
 
 ## How to Use
 
-1. Complete the exercises in [`practice/README.md`](../practice/README.md)
+1. Complete the exercises in [`practice/README.md`](../../README.md)
 2. Take the **Tool Quiz** (self-check, answers at bottom)
 3. Do the **Workflow Test** (scenario-based, no single answer)
 4. Do the **Troubleshooting Test** (debug/model interpretation)
@@ -310,9 +310,9 @@
 
 | Related Section | Link |
 |:----------------|:-----|
-| Practice System | [`practice/README.md`](../practice/README.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
+| Practice System | [`practice/README.md`](../../README.md) |
+| Interview Questions | [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
 | Mock Tests (role-level) | [`../05_interview/mock-interviews/mock-tests/README.md`](../../05_interview/mock-interviews/mock-tests/README.md) |
 
 ---

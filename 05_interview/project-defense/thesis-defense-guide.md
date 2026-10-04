@@ -299,10 +299,10 @@ Before your interview:
 ## Related Topics
 
 - [Project Defense Guide](project-defense-guide.md) — Universal 20 Qs + CFD-Specific 15 Qs
-- [Resume Defense System](../../behavioral/resume-defense-system.md) — Resume-based questions
-- [Behavioral Guide](../../behavioral/behavioral-interview-guide.md) — STAR stories from research
-- [Self Introduction](../../behavioral/self_intro/self-introduction-system.md) — Include thesis in intro
-- [Resume Template](../../templates/resume-template.md) — How to present thesis on resume
+- [Resume Defense System](../resume-defense/resume-defense-system.md) — Resume-based questions
+- [Behavioral Guide](../../01_common/behavioral/behavioral-interview-guide.md) — STAR stories from research
+- [Self Introduction](../../01_common/behavioral/self_intro/self-introduction-system.md) — Include thesis in intro
+- [Resume Template](../../01_common/resume/resume-template.md) — How to present thesis on resume
 
 ---
 

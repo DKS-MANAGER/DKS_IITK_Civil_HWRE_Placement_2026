@@ -79,7 +79,7 @@ TOP 5 AREAS:
 
 ## Cross-Links
 - [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Communication Skills](../../01_common/placement-math/communication/communication.md)
 - [Mock Interviews](../interview/mock-tests/)
 

@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Supply Chain Management Preparation Track](../../01_roles/supply-chain/README.md)
+- 📖 [Complete Supply Chain Management Preparation Track](../../../03_non_core/operations/supply-chain/README.md)
 
 ---
 

@@ -46,7 +46,7 @@ Why these resources are relevant for placement preparation.
 
 | Resource | Purpose | Recommended Use |
 |:---------|:--------|:----------------|
-| [Title](../../01_common/interview-fundamentals/mock-tests/mock-interview-questions.md) | purpose | use case |
+| [Title](../../05_interview/mock-interviews/mock-interview-questions.md) | purpose | use case |
 
 ## Selection Criteria
 
@@ -62,7 +62,7 @@ How to choose which resources to use:
 
 ## Related Topics
 
-- [Related topic](../../02_02_02_02_core/README.md)
+- [Related topic](../../README.md)
 
 ## Quick Revision
 

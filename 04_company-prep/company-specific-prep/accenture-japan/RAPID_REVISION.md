@@ -31,14 +31,14 @@ If your interview or test is in 1 hour, focus **exclusively** on these 5 core it
 If you have 3 hours before an interview or test:
 
 * **Hour 1 — Technical Test & Coding Check**:
-  * Solve 3 Python array/string problems in [`TECHNICAL_TEST.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/TECHNICAL_TEST.md#2-section-1--coding--algorithmic-logic).
+  * Solve 3 Python array/string problems in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md#2-section-1--coding--algorithmic-logic).
   * Review basic SQL queries (`SELECT`, `JOIN`, `GROUP BY`, `HAVING`).
 * **Hour 2 — Digital Cases & Tech Concepts**:
-  * Read the Smart Factory Industry X case in [`CONSULTING_CASES.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/CONSULTING_CASES.md#2-dx-case-1--industry-x-smart-factory-transformation-for-japanese-robotics-manufacturer).
+  * Read the Smart Factory Industry X case in [`CONSULTING_CASES.md`](CONSULTING_CASES.md#2-dx-case-1--industry-x-smart-factory-transformation-for-japanese-robotics-manufacturer).
   * Review Cloud vs On-Premise and AI RAG architecture basics.
 * **Hour 3 — Manager vs Director Interview Prep**:
-  * Rehearse Manager Round STAR project defense in [`INTERVIEW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md#2-round-1--manager-level-interview-preparation).
-  * Practice Director Round questions ("Why Accenture Japan?", "Why Digital Consulting?", "Why Japan?") in [`INTERVIEW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md#3-round-2--director-level-interview-preparation).
+  * Rehearse Manager Round STAR project defense in [`INTERVIEW.md`](INTERVIEW.md#2-round-1--manager-level-interview-preparation).
+  * Practice Director Round questions ("Why Accenture Japan?", "Why Digital Consulting?", "Why Japan?") in [`INTERVIEW.md`](INTERVIEW.md#3-round-2--director-level-interview-preparation).
 
 ---
 

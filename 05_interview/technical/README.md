@@ -4,11 +4,11 @@
 
 ## Go To
 
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md) — 100+ technical Q&A
-- [Project Discussion](../interview/technical/project-discussion.md) — how to pitch projects
-- [Project Defense Guide](../interview/technical/project-defense-guide.md) — defending project work
-- [Thesis Defense Guide](../interview/technical/thesis-defense-guide.md) — thesis defence
-- [Interview Hub](../interview/README.md) — all interview-round content
+- [Technical Interview Bank](technical-interview-bank.md) — 100+ technical Q&A
+- [Project Discussion](../project-defense/project-discussion.md) — how to pitch projects
+- [Project Defense Guide](../project-defense/project-defense-guide.md) — defending project work
+- [Thesis Defense Guide](../project-defense/thesis-defense-guide.md) — thesis defence
+- [Interview Hub](../../01_common/interview-fundamentals/README.md) — all interview-round content
 
 ---
 

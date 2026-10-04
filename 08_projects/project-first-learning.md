@@ -292,11 +292,11 @@ Don't start 5 projects. Finish 1-2 well.
 
 | Related Section | Link |
 |:----------------|:-----|
-| Branch Roadmaps | [`branch-roadmaps.md`](branch-roadmaps.md) |
-| Role Roadmaps | [`role-roadmaps.md`](role-roadmaps.md) |
-| Resume Positioning | [`resume-positioning.md`](resume-positioning.md) |
-| Learning Roadmaps | [`learning-roadmaps.md`](learning-roadmaps.md) |
+| Branch Roadmaps | [`branch-roadmaps.md`](../07_resources/reference-material/branch-roadmaps.md) |
+| Role Roadmaps | [`role-roadmaps.md`](../07_resources/reference-material/role-roadmaps.md) |
+| Resume Positioning | [`resume-positioning.md`](../01_common/resume/resume-positioning.md) |
+| Learning Roadmaps | [`learning-roadmaps.md`](../07_resources/reference-material/learning-roadmaps.md) |
 
 ---
 
-*See also: [`role-roadmaps.md`](role-roadmaps.md) for role-specific project recommendations.*
+*See also: [`role-roadmaps.md`](../07_resources/reference-material/role-roadmaps.md) for role-specific project recommendations.*

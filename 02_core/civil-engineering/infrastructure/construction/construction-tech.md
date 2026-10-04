@@ -166,10 +166,10 @@ Step 7: Close → As-built documentation, lessons learned
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| Primavera P6 / MS Project | [`tools/Primavera.md`](../tools/Primavera.md) |
-| Excel (BOQ) | [`tools/Excel.md`](../tools/Excel.md) |
-| Revit / BIM | [`tools/Revit.md`](../tools/Revit.md) |
-| AutoCAD | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
+| Primavera P6 / MS Project | [`tools/Primavera.md`](../../../../01_common/professional-skills/Primavera.md) |
+| Excel (BOQ) | [`tools/Excel.md`](../../../../01_common/placement-math/Excel.md) |
+| Revit / BIM | [`tools/Revit.md`](../../tools/Revit.md) |
+| AutoCAD | [`tools/AutoCAD.md`](../../tools/AutoCAD.md) |
 
 ---
 
@@ -178,10 +178,10 @@ Step 7: Close → As-built documentation, lessons learned
 | Related Section | Link |
 |:----------------|:-----|
 | BIM Technology | [`bim/`](../bim/bim-tech.md) |
-| Structural (drafting) | [`structural/`](../structural/structural-tech.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
-| Core Infrastructure | [`02_02_02_core/civil-engineering/infrastructure/`](../../02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md) |
+| Structural (drafting) | [`structural/`](../../structures/structural-tech.md) |
+| Python for Engineering | [`programming/python.md`](../../../../03_non_core/software-engineering/programming/python.md) |
+| Core Infrastructure | [`02_core/civil-engineering/infrastructure/`](../infrastructure-engineering-management.md) |
 
 ---
 
-*See also: [`bim-tech.md`](../bim/bim-tech.md) for BIM-specific workflows, [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`bim-tech.md`](../bim/bim-tech.md) for BIM-specific workflows, [`branch-roadmaps.md`](../../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

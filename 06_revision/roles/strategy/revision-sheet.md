@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Corporate Strategy Preparation Track](../../01_roles/strategy/README.md)
+- 📖 [Complete Corporate Strategy Preparation Track](../../../01_common/resume/career-preparation/placement-strategy/README.md)
 
 ---
 

@@ -147,9 +147,9 @@ Skip SQL/Python IF:
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| Excel | [`tools/Excel.md`](../tools/Excel.md) |
-| SQL | [`programming/sql.md`](../programming/sql.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
+| Excel | [`tools/Excel.md`](../../01_common/placement-math/Excel.md) |
+| SQL | [`programming/sql.md`](../software-engineering/programming/sql.md) |
+| Python | [`programming/python.md`](../software-engineering/programming/python.md) |
 
 ---
 
@@ -157,11 +157,11 @@ Skip SQL/Python IF:
 
 | Related Section | Link |
 |:----------------|:-----|
-| Data/Analytics Stack | [`data/`](../data/data-analytics-stack.md) |
-| Non-Core Consulting | [`03_non_02_02_core/consulting/`](../../03_non_02_02_core/consulting/consulting-overview.md) |
-| Non-Core Case Frameworks | [`03_non_02_02_core/consulting/case-frameworks.md`](../../03_non_02_02_core/consulting/case-frameworks.md) |
+| Data/Analytics Stack | [`data/`](../data-science/data-analytics-stack.md) |
+| Non-Core Consulting | [`03_non_core/consulting/`](../../03_non_core/consulting/consulting-overview.md) |
+| Non-Core Case Frameworks | [`03_non_core/consulting/case-frameworks.md`](../../05_interview/case-interview/case-interviews/case-frameworks.md) |
 
 ---
 
-*See also: [`data-analytics-stack.md`](../data/data-analytics-stack.md) for the full data stack.*
+*See also: [`data-analytics-stack.md`](../data-science/data-analytics-stack.md) for the full data stack.*
 

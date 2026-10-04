@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_02_02_02_core/hwre/role-study-plan.md)
-- [Water Resources Engineering](../../02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md)
-- [Hydrology](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md)
+- [Role Study Plan](../../../02_core/hwre/role-study-plan.md)
+- [Water Resources Engineering](../../../02_core/hwre/water_resources/water-resources-engineering.md)
+- [Hydrology](../../../02_core/hwre/hydrology/hydrology.md)
 - [Mock Test Hub](README.md)

@@ -2,7 +2,7 @@
 
 > **Placement Priority:** P0 — Asked in EVERY civil engineering interview
 > **GATE-O-PEDIA Reference:** Chapter 2 (1,851 lines, 15 topics, 19 formulas)
-> **Canonical Page:** `02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md`
+> **Canonical Page:** `02_core/civil-engineering/fundamentals/strength-of-materials.md`
 
 ---
 
@@ -519,12 +519,12 @@ Column Buckling
 
 | Topic | Related Page |
 |-------|-------------|
-| Bending → RCC Design | [`02_02_02_core/civil-engineering/rcc/rcc-design.md`](../rcc/rcc-design.md) |
-| Bending → Steel Beams | [`02_02_02_core/civil-engineering/steel/steel-design.md`](../steel/steel-design.md) |
-| Buckling → Steel Columns | [`02_02_02_core/civil-engineering/steel/steel-design.md`](../steel/steel-design.md) |
-| Stress Distribution → Soil | [`02_02_02_core/civil-engineering/geotechnical/geotechnical.md`](../geotechnical/geotechnical.md) |
-| Torsion → Shafts | [`02_02_core/foundamentals/engineering-mechanics.md`](engineering-mechanics.md) |
-| Deflection → Structural Analysis | [`02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md`](../structural-analysis/structural-analysis.md) |
+| Bending → RCC Design | [`02_core/civil-engineering/rcc/rcc-design.md`](../rcc/rcc-design.md) |
+| Bending → Steel Beams | [`02_core/civil-engineering/steel/steel-design.md`](../steel/steel-design.md) |
+| Buckling → Steel Columns | [`02_core/civil-engineering/steel/steel-design.md`](../steel/steel-design.md) |
+| Stress Distribution → Soil | [`02_core/civil-engineering/geotechnical/geotechnical.md`](../geotechnical/geotechnical.md) |
+| Torsion → Shafts | [`02_core/foundamentals/engineering-mechanics.md`](engineering-mechanics.md) |
+| Deflection → Structural Analysis | [`02_core/civil-engineering/structural-analysis/structural-analysis.md`](../structural-analysis/structural-analysis.md) |
 
 ---
 

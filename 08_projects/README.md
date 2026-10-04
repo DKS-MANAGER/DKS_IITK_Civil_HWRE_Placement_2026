@@ -43,7 +43,7 @@ When presenting any engineering project to an interview panel (Core Civil, HWRE,
 
 | Project | Domain | Primary Stack | Key Metrics / Results |
 | :--- | :--- | :--- | :--- |
-| [`bridgerisk/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/08_projects/bridgerisk/README.md) | Hydraulic Structures & Risk | HEC-RAS 2D, OpenFOAM, Python | Pier scour depth prediction, 100-yr return flood risk mapping. |
-| [`streamflow-time-series/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/08_projects/streamflow-time-series/README.md) | Hydrology & Data Science | Python (Statsmodels, PyTorch), HEC-HMS | NSE = 0.88 in discharge prediction, 7-day lead flood forecasting. |
-| [`idf-pet/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/08_projects/idf-pet/README.md) | Hydro-Meteorology | Python, R, Penman-Monteith | Gumbel & Log-Pearson III IDF curves, climate trend analysis. |
-| [`other-projects/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/08_projects/other-projects/README.md) | GIS, Water Networks & Tech | QGIS, EPANET, SQL | Catchment delineation, pipe network pressure optimization. |
+| [`bridgerisk/`](bridgerisk/README.md) | Hydraulic Structures & Risk | HEC-RAS 2D, OpenFOAM, Python | Pier scour depth prediction, 100-yr return flood risk mapping. |
+| [`streamflow-time-series/`](streamflow-time-series/README.md) | Hydrology & Data Science | Python (Statsmodels, PyTorch), HEC-HMS | NSE = 0.88 in discharge prediction, 7-day lead flood forecasting. |
+| [`idf-pet/`](idf-pet/README.md) | Hydro-Meteorology | Python, R, Penman-Monteith | Gumbel & Log-Pearson III IDF curves, climate trend analysis. |
+| [`other-projects/`](other-projects/README.md) | GIS, Water Networks & Tech | QGIS, EPANET, SQL | Catchment delineation, pipe network pressure optimization. |

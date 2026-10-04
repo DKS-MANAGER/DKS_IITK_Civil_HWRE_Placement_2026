@@ -77,7 +77,7 @@
 ### Milestone Checkpoint (Sep 30)
 - Review formula sheets for completeness
 - Validate derivations with reference solutions
-- Update formula sheets in `02_02_02_02_core/gate/formulas/`
+- Update formula sheets in `02_core/gate/formulas/`
 
 ---
 
@@ -91,7 +91,7 @@
 ### Practice Areas
 | Area | Focus | Resources |
 |------|-------|-----------|
-| **GATE technical** | Formula recall, derivations | `/02_02_core/formula-sheets`, GATE PYQs |
+| **GATE technical** | Formula recall, derivations | `/02_core/formula-sheets`, GATE PYQs |
 | **PSU technical** | IS code familiarity, numerical problems | Class notes, IS handbooks |
 | **Design problems** | Load calculations, code checks | Textbooks, previous project work |
 | **Coding drills** | Python, SQL, DSA basics | HackerRank, LeetCode, GFG |
@@ -118,7 +118,7 @@
 ### Analytics/Quant Track (Oct 21–Nov 10)
 - **Target companies**: Abacus.AI, Accenture, Barclays, Merilytics
 - **Focus areas**: Python, SQL, stats, ML fundamentals
-- **Deliverable**: `03_non_02_02_core/analytics/analytics/non-core-prep.md` (Analytics section)
+- **Deliverable**: `03_non_core/analytics/analytics/non-core-prep.md` (Analytics section)
 
 ---
 

@@ -46,7 +46,7 @@ Every NHAI/IRCON interview starts with geometric design. You will be asked to de
 |:-----|:-------------|:------|
 | [`transportation-engineering.md`](transportation-engineering.md) | §1 Highway Engineering (lines 1-208) | 208 |
 | [`civil-engineering-foundations.md`](../fundamentals/civil-engineering-foundations.md) | Quick formulas | 233 |
-| [`gate-civil-notes.md`](../gate/civil/gate-civil-notes.md) | Transportation section | 256 |
+| [`gate-civil-notes.md`](../../gate/civil/gate-civil-notes.md) | Transportation section | 256 |
 
 ### Worked Example: Horizontal Curve + Vertical Curve Design
 
@@ -395,8 +395,8 @@ Prepare 3 STAR stories for transportation context:
 - [`structures.md`](../structures/structures.md) — Bridge engineering integration
 - [`infrastructure-engineering-management.md`](../infrastructure/infrastructure-engineering-management.md) — PM aspects of transport projects
 - [`civil-rapid-revision.md`](../fundamentals/civil-rapid-revision.md) — Quick formula reference
-- [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ interview questions
-- [`company-profiles.md`](../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
+- [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) — 100+ interview questions
+- [`company-profiles.md`](../../../04_company-prep/company-directory/company-profiles.md) — Company-specific strategies
 
 ---
 

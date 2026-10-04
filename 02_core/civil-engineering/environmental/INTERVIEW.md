@@ -109,6 +109,6 @@
 | Full Study | [`environmental-engineering.md`](environmental-engineering.md) |
 | Practice | [`PRACTICE.md`](PRACTICE.md) |
 | Topic Test | [`TEST.md`](TEST.md) |
-| Water Supply | [`../hwre/water_supply/water-supply.md`](../hwre/water_supply/water-supply.md) |
-| Wastewater | [`../hwre/wastewater/wastewater-engineering.md`](../hwre/wastewater/wastewater-engineering.md) |
-| Water Resources | [`../hwre/water_resources/water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) |
+| Water Supply | [`../hwre/water_supply/water-supply.md`](../../hwre/water_supply/water-supply.md) |
+| Wastewater | [`../hwre/wastewater/wastewater-engineering.md`](../../hwre/wastewater/wastewater-engineering.md) |
+| Water Resources | [`../hwre/water_resources/water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) |

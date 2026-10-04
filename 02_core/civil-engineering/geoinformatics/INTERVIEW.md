@@ -111,4 +111,4 @@
 | Topic Test | [`TEST.md`](TEST.md) |
 | Transportation | [`../transportation/transportation-engineering.md`](../transportation/transportation-engineering.md) |
 | Environmental | [`../environmental/environmental-engineering.md`](../environmental/environmental-engineering.md) |
-| Water Resources | [`../hwre/water_resources/water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) |
+| Water Resources | [`../hwre/water_resources/water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) |

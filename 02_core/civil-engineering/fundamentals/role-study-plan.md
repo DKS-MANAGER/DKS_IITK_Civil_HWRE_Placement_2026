@@ -190,7 +190,7 @@ PSU interviews test breadth. An interviewer might ask about fluid mechanics, the
 | File | Focus Area | Depth |
 |:-----|:-----------|:------|
 | [`civil-engineering-foundations.md`](civil-engineering-foundations.md) | Cross-domain formulas | Full |
-| [`technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) | 100+ technical questions | Practice |
+| [`technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md) | 100+ technical questions | Practice |
 | [`structures.md`](../structures/structures.md) | Structural fundamentals | Reference |
 | [`geotechnical.md`](../geotechnical/geotechnical.md) | Soil mechanics | Reference |
 
@@ -260,7 +260,7 @@ Getting selected at a PSU is not just about technical knowledge — it's about u
 |:--------|:----------------|:------------|
 | BPCL | Process basics, safety, fire protection | [`civil-engineering-foundations.md`](civil-engineering-foundations.md) |
 | EIL | Estimation, project management, specifications | [`infrastructure-engineering-management.md`](../infrastructure/infrastructure-engineering-management.md) |
-| NHPC | Hydropower, dam design, hydrology | [`hydrology.md`](../hwre/hydrology/hydrology.md), [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) |
+| NHPC | Hydropower, dam design, hydrology | [`hydrology.md`](../../hwre/hydrology/hydrology.md), [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) |
 | ONGC | Drilling, reservoir, offshore | [`geotechnical.md`](../geotechnical/geotechnical.md) |
 | BHEL | Power plant, turbine basics | [`civil-engineering-foundations.md`](civil-engineering-foundations.md) |
 | NTPC | Thermal power, boiler, turbine | [`civil-engineering-foundations.md`](civil-engineering-foundations.md) |
@@ -321,26 +321,26 @@ Getting selected at a PSU is not just about technical knowledge — it's about u
 **Next:**
 → [Civil Rapid Revision](civil-rapid-revision.md) — Last-minute formula cheat sheet
 → [Structural Engineering](../structures/structures.md) — If targeting structural roles
-→ [Water Resources](../hwre/water_resources/water-resources-engineering.md) — If targeting WRE roles
+→ [Water Resources](../../hwre/water_resources/water-resources-engineering.md) — If targeting WRE roles
 
 **Practice:**
-→ [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) — 100+ technical questions
-→ [Mock Interview Questions](../../01_common/interview-fundamentals/mock-tests/mock-interview-questions.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md) — 100+ technical questions
+→ [Mock Interview Questions](../../../05_interview/mock-interviews/mock-interview-questions.md)
 
 **Interview:**
-→ [Behavioral Interview Guide](../../01_common/behavioral/behavioral-interview-guide.md)
-→ [HR Questions Bank](../../01_common/behavioral/hr_questions/hr-questions-bank.md)
-→ [Self Introduction Guide](../../01_common/behavioral/self_intro/self-introduction.md)
+→ [Behavioral Interview Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
+→ [HR Questions Bank](../../../01_common/behavioral/hr_questions/hr-questions-bank.md)
+→ [Self Introduction Guide](../../../01_common/behavioral/self_intro/self-introduction.md)
 
 **Company:**
-→ [Company Profiles](../../04_company-prep/company-directory/company-profiles.md) — PSU and core company details
+→ [Company Profiles](../../../04_company-prep/company-directory/company-profiles.md) — PSU and core company details
 
 **Related:**
-→ [GATE Civil Notes](../gate/civil/gate-civil-notes.md) — If also preparing for GATE
-→ [Role Selector](../../01_common/resume/career-preparation/role-selection/role-selector.md) — Compare with other roles
+→ [GATE Civil Notes](../../gate/civil/gate-civil-notes.md) — If also preparing for GATE
+→ [Role Selector](../../../01_common/resume/career-preparation/role-selection/role-selector.md) — Compare with other roles
 
 ---
 
-*This study plan follows the [Role Study Plan Template](../../01_common/professional-skills/role-study-plan-template.md).*
+*This study plan follows the [Role Study Plan Template](../../../01_common/professional-skills/role-study-plan-template.md).*
 *Last updated: 2026-09-04*
 

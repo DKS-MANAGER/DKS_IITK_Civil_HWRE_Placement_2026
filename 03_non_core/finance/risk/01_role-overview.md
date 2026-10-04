@@ -51,7 +51,7 @@ Risk management in institutional banking, fintech, and asset management encompas
 | **Credit Scoring & ML Models** | Live Technical / Scorecard Case | [03_domain-knowledge.md](03_domain-knowledge.md) & [04_tools-and-technical.md](04_tools-and-technical.md) | WoE/IV scorecard, Logistic regression, XGBoost |
 | **Statistical & Probability Math**| OA Quantitative Screening | [04_tools-and-technical.md](04_tools-and-technical.md) & [06_question-bank.md](06_question-bank.md) | Bayes' theorem, Normal/Poisson distributions |
 | **Portfolio Risk & VaR** | Quantitative Risk Interview Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Parametric/Historical VaR, Expected Shortfall |
-| **SQL & Portfolio Analytics** | Live Coderpad SQL Round | [../../business-analyst/04_data-and-analytics/sql-practice.md](../business-analyst/04_data-and-analytics/sql-practice.md) | Delinquency cohorts, roll-rate migration queries |
+| **SQL & Portfolio Analytics** | Live Coderpad SQL Round | [../../business-analyst/04_data-and-analytics/sql-practice.md](../../analytics/business-analyst/04_data-and-analytics/sql-practice.md) | Delinquency cohorts, roll-rate migration queries |
 | **Civil/HWRE Background** | Resume Defense & Uncertainty Modeling | [11_projects.md](11_projects.md) | BridgeRisk ML failure modeling / Flood extremes |
 
 ---

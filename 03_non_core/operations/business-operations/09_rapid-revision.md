@@ -222,8 +222,8 @@ A: Compare before/after on key metrics: cycle time, throughput, cost, defect rat
 
 **Related:**
 → [Operations Overview](../operations/01_role-overview.md) — Operations role
-→ [Strategy Overview](../strategy/01_role-overview.md) — Strategy role
-→ [Business Fundamentals](../../03_common-skills/business-fundamentals/business-fundamentals.md) — Business basics
+→ [Strategy Overview](../../consulting/strategy/01_role-overview.md) — Strategy role
+→ [Business Fundamentals](../../../01_common/placement-math/business-fundamentals/business-fundamentals.md) — Business basics
 
 ---
 

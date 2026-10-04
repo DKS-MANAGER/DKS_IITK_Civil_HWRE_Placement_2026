@@ -6,10 +6,10 @@
 
 ## Scenario 1 — "I have an interview tomorrow"
 
-1. Open [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md) → 1-Day Crash Plan.
-2. Review the company profile for your target company → [COMPANIES.md](COMPANIES.md).
-3. Skim the interview guide → [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md).
-4. Run one mock test → [TESTING_GUIDE.md](TESTING_GUIDE.md).
+1. Open [RAPID_REVISION_GUIDE.md](../06_revision/RAPID_REVISION_GUIDE.md) → 1-Day Crash Plan.
+2. Review the company profile for your target company → [COMPANIES.md](..\04_company-prep\README.md).
+3. Skim the interview guide → [INTERVIEW_GUIDE.md](..\05_interview\README.md).
+4. Run one mock test → [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md).
 
 ---
 
@@ -17,8 +17,8 @@
 
 1. Follow the [roadmap.md](roadmap.md) 30-day plan.
 2. Study your track → [TRACKS.md](TRACKS.md).
-3. Practice daily with [TESTING_GUIDE.md](TESTING_GUIDE.md).
-4. Do company-wise prep → [COMPANIES.md](COMPANIES.md).
+3. Practice daily with [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md).
+4. Do company-wise prep → [COMPANIES.md](..\04_company-prep\README.md).
 
 ---
 
@@ -26,8 +26,8 @@
 
 1. Read [GETTING_STARTED.md](GETTING_STARTED.md).
 2. Compare tracks → [TRACKS.md](TRACKS.md).
-3. Compare roles → [ROLES.md](ROLES.md).
-4. Check which companies hire → [COMPANIES.md](COMPANIES.md).
+3. Compare roles → [ROLES.md](..\03_non_core\README.md).
+4. Check which companies hire → [COMPANIES.md](..\04_company-prep\README.md).
 
 ---
 
@@ -49,7 +49,7 @@
 
 ## Scenario 6 — "I want to test my knowledge"
 
-1. Follow the testing ladder in [TESTING_GUIDE.md](TESTING_GUIDE.md).
+1. Follow the testing ladder in [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md).
 2. Use mock tests → [`05_interview/mock-interviews/mock-tests/README.md`](../05_interview/mock-interviews/mock-tests/README.md).
 3. Use question banks → [`05_interview/technical/questions-bank-overview.md`](../05_interview/technical/questions-bank-overview.md).
 
@@ -57,14 +57,14 @@
 
 ## Scenario 7 — "I need behavioural / HR help"
 
-1. Read [BEHAVIOURAL_HR_GUIDE.md](BEHAVIOURAL_HR_GUIDE.md).
+1. Read [BEHAVIOURAL_HR_GUIDE.md](../01_common/behavioral/BEHAVIOURAL_HR_GUIDE.md).
 2. Practice with the behavioural question bank → [`01_common/behavioral/`](../01_common/behavioral/).
 
 ---
 
 ## Scenario 8 — "I need to revise a subject fast"
 
-1. Use [RAPID_REVISION_GUIDE.md](RAPID_REVISION_GUIDE.md).
+1. Use [RAPID_REVISION_GUIDE.md](../06_revision/RAPID_REVISION_GUIDE.md).
 2. Use revision templates → [`templates/revision.md`](templates/revision.md).
 3. Use the quick revision system → [`01_common/interview-fundamentals/quick-revision-system.md`](../01_common/interview-fundamentals/quick-revision-system.md).
 

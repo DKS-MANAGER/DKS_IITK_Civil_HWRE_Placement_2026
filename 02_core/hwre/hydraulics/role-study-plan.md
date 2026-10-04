@@ -30,7 +30,7 @@ Pipe network analysis is tested in every hydraulics interview. Companies designi
 | File | Focus Area | Depth |
 |:-----|:-----------|:------|
 | [`hydraulics.md`](hydraulics.md) | Full pipe flow, pumps, boundary layers | Full |
-| [`civil-engineering-foundations.md`](../../fundamentals/civil-engineering-foundations.md) | Quick formulas | Revision |
+| [`civil-engineering-foundations.md`](../../civil-engineering/fundamentals/civil-engineering-foundations.md) | Quick formulas | Revision |
 
 #### Worked Example
 **Problem:** Two reservoirs are connected by a 500m long, 200mm diameter pipe (f = 0.02). The difference in elevation is 15m. Find the discharge. If a pump adding 20m of head is installed, find the new discharge.
@@ -346,7 +346,7 @@ Beyond theory, CFD roles test your ability to diagnose simulation problems, choo
 → [Hydrology](../hydrology/hydrology.md)
 
 **Interview:**
-→ [Technical Interview Bank](../../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)
 → [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
 
 **Company:**

@@ -52,6 +52,6 @@
 
 ## 4. Cross-Reference Links to Preparation Tracks
 - [Water Resources Mock Test (Test 04)](../05_interview/mock-interviews/mock-tests/04_WATER_RESOURCES_MOCK_TEST.md)
-- [Vassarlabs Placement Profile](../04_company-prep/hwre-companies/civil-vassarlabs.md)
-- [GIST Geospatial Placement Profile](../04_company-prep/software-companies/civil-gist.md)
-- [Core HWRE Curriculum](../02_02_02_02_02_02_core/hwre/README.md)
+- [Vassarlabs Placement Profile](../../04_company-prep/hwre-companies/civil-vassarlabs.md)
+- [GIST Geospatial Placement Profile](../../04_company-prep/software-companies/civil-gist.md)
+- [Core HWRE Curriculum](../../02_core/hwre/README.md)

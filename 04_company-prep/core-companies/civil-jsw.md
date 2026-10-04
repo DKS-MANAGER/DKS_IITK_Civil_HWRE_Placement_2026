@@ -76,8 +76,8 @@ Day 5: Port/mining basics | Day 6: JSW research | Day 7: Mock
 ```
 
 ## Cross-Links
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
 
 ## References
 - JSW Group Corporate website (www.jsw.in)

@@ -89,7 +89,7 @@ Day 5: Remote sensing + GEE | Day 6: Land-use analysis project | Day 7: Mock
 ```
 
 ## Cross-Links
-- [Geoinformatics](../../02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md)
+- [Geoinformatics](../../02_core/civil-engineering/geoinformatics/geoinformatics.md)
 
 ## References
 - [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) — Rows 159–160

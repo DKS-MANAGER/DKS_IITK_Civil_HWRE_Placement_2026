@@ -6,8 +6,8 @@
 
 | # | Unit | Files Checked | Files Modified | Files Created | Status |
 |---|------|--------------|----------------|---------------|--------|
-| 1 | Inventory | all `02_02_core/gate` + `02_02_core/` subject files | — | `GATE_FILE_INVENTORY.md` | ✅ Done |
-| 2 | Repo map | `02_02_core/gate` structure | — | `GATE_REPO_MAP.md` | ✅ Done |
+| 1 | Inventory | all `02_core/gate` + `02_core/` subject files | — | `GATE_FILE_INVENTORY.md` | ✅ Done |
+| 2 | Repo map | `02_core/gate` structure | — | `GATE_REPO_MAP.md` | ✅ Done |
 | 3 | Audit state | — | — | `GATE_AUDIT_STATE.md` | ✅ Done |
 | 4 | Completeness matrix | — | — | `GATE_COMPLETENESS_MATRIX.md` | ✅ Done |
 | 5 | Navigation layer | `README.md` | `README.md` | `MASTER_INDEX.md`, `GATE_ROADMAP.md`, `GATE_30_60_90_DAY_PLAN.md`, `ERROR_ANALYSIS.md`, `RAPID_REVISION.md` | ✅ Done |

@@ -103,105 +103,105 @@ Each role scored on 15 components (0–5 scale):
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan-template.md](../prep/templates/role-study-plan-template.md) | Template | Reusable template | ~400 |
-| [role-study-plan.md](../non-core/01_roles/product-management/role-study-plan.md) | PM | Study plan | ~1,200 |
+| [role-study-plan-template.md](../01_common/professional-skills/role-study-plan-template.md) | Template | Reusable template | ~400 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | PM | Study plan | ~1,200 |
 | [pm-rapid-revision.md](../non-core/01_roles/product-management/pm-rapid-revision.md) | PM | Rapid revision | ~800 |
-| [role-study-plan.md](../non-core/01_roles/consulting/role-study-plan.md) | Consulting | Study plan | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Consulting | Study plan | ~1,100 |
 | [consulting-rapid-revision.md](../non-core/01_roles/consulting/consulting-rapid-revision.md) | Consulting | Rapid revision | ~600 |
-| [role-study-plan.md](../non-core/01_roles/data-analyst/role-study-plan.md) | Data Analyst | Study plan | ~1,000 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Data Analyst | Study plan | ~1,000 |
 | [da-rapid-revision.md](../non-core/01_roles/data-analyst/da-rapid-revision.md) | Data Analyst | Rapid revision | ~600 |
-| [role-study-plan.md](../non-core/01_roles/business-analyst/role-study-plan.md) | Business Analyst | Study plan | ~900 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Business Analyst | Study plan | ~900 |
 | [ba-rapid-revision.md](../non-core/01_roles/business-analyst/ba-rapid-revision.md) | Business Analyst | Rapid revision | ~400 |
-| [role-study-plan.md](../core/hwre/role-study-plan.md) | Water Resources | Study plan | ~1,300 |
-| [hwre-rapid-revision.md](../core/hwre/hwre-rapid-revision.md) | Water Resources | Rapid revision | ~700 |
-| [role-study-plan.md](../core/structures/role-study-plan.md) | Structural | Study plan | ~1,200 |
-| [structural-rapid-revision.md](../core/structures/structural-rapid-revision.md) | Structural | Rapid revision | ~600 |
+| [role-study-plan.md](../02_core/hwre/role-study-plan.md) | Water Resources | Study plan | ~1,300 |
+| [hwre-rapid-revision.md](../02_core/hwre/hwre-rapid-revision.md) | Water Resources | Rapid revision | ~700 |
+| [role-study-plan.md](../02_core/civil-engineering/structures/role-study-plan.md) | Structural | Study plan | ~1,200 |
+| [structural-rapid-revision.md](../02_core/civil-engineering/structures/structural-rapid-revision.md) | Structural | Rapid revision | ~600 |
 
 ## What Was Built — Batch 2 (Civil, Hydraulics/CFD, Hydrologist, Environmental)
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan.md](../core/fundamentals/role-study-plan.md) | Civil Engineer | Study plan | ~1,500 |
-| [civil-rapid-revision.md](../core/fundamentals/civil-rapid-revision.md) | Civil Engineer | Rapid revision | ~1,000 |
-| [role-study-plan.md](../core/hwre/hydraulics/role-study-plan.md) | Hydraulics/CFD | Study plan | ~1,500 |
-| [hydraulics-rapid-revision.md](../core/hwre/hydraulics/hydraulics-rapid-revision.md) | Hydraulics/CFD | Rapid revision | ~1,000 |
-| [role-study-plan.md](../core/hwre/hydrology/role-study-plan.md) | Hydrologist | Study plan | ~1,400 |
-| [hydrology-rapid-revision.md](../core/hwre/hydrology/hydrology-rapid-revision.md) | Hydrologist | Rapid revision | ~900 |
-| [role-study-plan.md](../core/environmental/role-study-plan.md) | Environmental | Study plan | ~1,400 |
-| [environmental-rapid-revision.md](../core/environmental/environmental-rapid-revision.md) | Environmental | Rapid revision | ~900 |
+| [role-study-plan.md](../02_core/civil-engineering/fundamentals/role-study-plan.md) | Civil Engineer | Study plan | ~1,500 |
+| [civil-rapid-revision.md](../02_core/civil-engineering/fundamentals/civil-rapid-revision.md) | Civil Engineer | Rapid revision | ~1,000 |
+| [role-study-plan.md](../02_core/hwre/hydraulics/role-study-plan.md) | Hydraulics/CFD | Study plan | ~1,500 |
+| [hydraulics-rapid-revision.md](../02_core/hwre/hydraulics/hydraulics-rapid-revision.md) | Hydraulics/CFD | Rapid revision | ~1,000 |
+| [role-study-plan.md](../02_core/hwre/hydrology/role-study-plan.md) | Hydrologist | Study plan | ~1,400 |
+| [hydrology-rapid-revision.md](../02_core/hwre/hydrology/hydrology-rapid-revision.md) | Hydrologist | Rapid revision | ~900 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Environmental | Study plan | ~1,400 |
+| [environmental-rapid-revision.md](../02_core/civil-engineering/environmental/environmental-rapid-revision.md) | Environmental | Rapid revision | ~900 |
 
 ## What Was Built — Batch 3 (Transportation, Geotechnical, GIS, Infrastructure/PM, Construction)
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan.md](../core/transportation/role-study-plan.md) | Transportation | Study plan | ~2,300 |
-| [transportation-rapid-revision.md](../core/transportation/transportation-rapid-revision.md) | Transportation | Rapid revision | ~1,100 |
-| [role-study-plan.md](../core/geotechnical/role-study-plan.md) | Geotechnical | Study plan | ~2,200 |
-| [geotechnical-rapid-revision.md](../core/geotechnical/geotechnical-rapid-revision.md) | Geotechnical | Rapid revision | ~1,100 |
-| [role-study-plan.md](../core/geoinformatics/role-study-plan.md) | GIS/Survey | Study plan | ~2,200 |
-| [geoinformatics-rapid-revision.md](../core/geoinformatics/geoinformatics-rapid-revision.md) | GIS/Survey | Rapid revision | ~1,100 |
-| [role-study-plan.md](../core/infrastructure/role-study-plan.md) | Infrastructure/PM | Study plan | ~2,200 |
-| [infrastructure-rapid-revision.md](../core/infrastructure/infrastructure-rapid-revision.md) | Infrastructure/PM | Rapid revision | ~1,100 |
-| [construction-role-study-plan.md](../core/infrastructure/construction-role-study-plan.md) | Construction | Study plan | ~2,200 |
-| [construction-rapid-revision.md](../core/infrastructure/construction-rapid-revision.md) | Construction | Rapid revision | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/transportation/role-study-plan.md) | Transportation | Study plan | ~2,300 |
+| [transportation-rapid-revision.md](../02_core/civil-engineering/transportation/transportation-rapid-revision.md) | Transportation | Rapid revision | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/geotechnical/role-study-plan.md) | Geotechnical | Study plan | ~2,200 |
+| [geotechnical-rapid-revision.md](../02_core/civil-engineering/geotechnical/geotechnical-rapid-revision.md) | Geotechnical | Rapid revision | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/geoinformatics/role-study-plan.md) | GIS/Survey | Study plan | ~2,200 |
+| [geoinformatics-rapid-revision.md](../02_core/civil-engineering/geoinformatics/geoinformatics-rapid-revision.md) | GIS/Survey | Rapid revision | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/infrastructure/role-study-plan.md) | Infrastructure/PM | Study plan | ~2,200 |
+| [infrastructure-rapid-revision.md](../02_core/civil-engineering/infrastructure/infrastructure-rapid-revision.md) | Infrastructure/PM | Rapid revision | ~1,100 |
+| [construction-role-study-plan.md](../02_core/civil-engineering/infrastructure/construction-role-study-plan.md) | Construction | Study plan | ~2,200 |
+| [construction-rapid-revision.md](../02_core/civil-engineering/infrastructure/construction-rapid-revision.md) | Construction | Rapid revision | ~1,100 |
 
 ## What Was Built — Batch 4 (Environmental Expansion, Finance, Risk, Supply Chain, Product Analyst)
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan.md](../core/environmental/role-study-plan.md) | Environmental | Expansion (+2 worked examples) | ~400 |
-| [role-study-plan.md](../non-core/01_roles/finance/role-study-plan.md) | Finance | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Environmental | Expansion (+2 worked examples) | ~400 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Finance | Study plan | ~2,300 |
 | [finance-rapid-revision.md](../non-core/01_roles/finance/finance-rapid-revision.md) | Finance | Rapid revision | ~1,200 |
-| [role-study-plan.md](../non-core/01_roles/risk/role-study-plan.md) | Risk | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Risk | Study plan | ~2,300 |
 | [risk-rapid-revision.md](../non-core/01_roles/risk/risk-rapid-revision.md) | Risk | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/supply-chain/role-study-plan.md) | Supply Chain | Study plan | ~2,200 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Supply Chain | Study plan | ~2,200 |
 | [supply-chain-rapid-revision.md](../non-core/01_roles/supply-chain/supply-chain-rapid-revision.md) | Supply Chain | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/product-analyst/role-study-plan.md) | Product Analyst | Study plan | ~2,200 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Product Analyst | Study plan | ~2,200 |
 | [pa-rapid-revision.md](../non-core/01_roles/product-analyst/pa-rapid-revision.md) | Product Analyst | Rapid revision | ~1,100 |
 
 ## What Was Built — Batch 5 (Pgm Mgmt, Operations, BIM, Technology, Strategy, BizOps)
 
 | File | Role | Type | Words |
 |:-----|:-----|:-----|------:|
-| [role-study-plan.md](../non-core/01_roles/program-management/role-study-plan.md) | Pgm Mgmt | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Pgm Mgmt | Study plan | ~2,300 |
 | [pgm-rapid-revision.md](../non-core/01_roles/program-management/pgm-rapid-revision.md) | Pgm Mgmt | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/operations/role-study-plan.md) | Operations | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Operations | Study plan | ~2,300 |
 | [operations-rapid-revision.md](../non-core/01_roles/operations/operations-rapid-revision.md) | Operations | Rapid revision | ~1,100 |
-| [role-study-plan.md](../software-and-tech/bim/role-study-plan.md) | BIM Engineer | Study plan | ~2,300 |
-| [bim-rapid-revision.md](../software-and-tech/bim/bim-rapid-revision.md) | BIM Engineer | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/technology/role-study-plan.md) | Technology | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/infrastructure/bim/role-study-plan.md) | BIM Engineer | Study plan | ~2,300 |
+| [bim-rapid-revision.md](../02_core/civil-engineering/infrastructure/bim/bim-rapid-revision.md) | BIM Engineer | Rapid revision | ~1,100 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Technology | Study plan | ~2,300 |
 | [tech-rapid-revision.md](../non-core/01_roles/technology/tech-rapid-revision.md) | Technology | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/strategy/role-study-plan.md) | Strategy | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | Strategy | Study plan | ~2,300 |
 | [strategy-rapid-revision.md](../non-core/01_roles/strategy/strategy-rapid-revision.md) | Strategy | Rapid revision | ~1,100 |
-| [role-study-plan.md](../non-core/01_roles/business-operations/role-study-plan.md) | BizOps | Study plan | ~2,300 |
+| [role-study-plan.md](../02_core/civil-engineering/environmental/role-study-plan.md) | BizOps | Study plan | ~2,300 |
 | [biz-ops-rapid-revision.md](../non-core/01_roles/business-operations/biz-ops-rapid-revision.md) | BizOps | Rapid revision | ~1,100 |
 
 ## What Was Built — Batch 6 (Navigation Hubs — 22 READMEs)
 
 | Directory | README |
 |:----------|:-------|
-| `core/gate/` | [README.md](../core/gate/README.md) |
-| `core/structures/` | [README.md](../core/structures/README.md) |
-| `core/geotechnical/` | [README.md](../core/geotechnical/README.md) |
-| `core/environmental/` | [README.md](../core/environmental/README.md) |
-| `core/transportation/` | [README.md](../core/transportation/README.md) |
-| `core/geoinformatics/` | [README.md](../core/geoinformatics/README.md) |
-| `core/infrastructure/` | [README.md](../core/infrastructure/README.md) |
-| `core/fundamentals/` | [README.md](../core/fundamentals/README.md) |
-| `non-core/01_roles/consulting/` | [README.md](../non-core/01_roles/consulting/README.md) |
-| `non-core/01_roles/data-analyst/` | [README.md](../non-core/01_roles/data-analyst/README.md) |
-| `non-core/01_roles/business-analyst/` | [README.md](../non-core/01_roles/business-analyst/README.md) |
-| `non-core/01_roles/product-management/` | [README.md](../non-core/01_roles/product-management/README.md) |
-| `non-core/01_roles/operations/` | [README.md](../non-core/01_roles/operations/README.md) |
-| `non-core/01_roles/finance/` | [README.md](../non-core/01_roles/finance/README.md) |
-| `non-core/01_roles/risk/` | [README.md](../non-core/01_roles/risk/README.md) |
-| `non-core/01_roles/strategy/` | [README.md](../non-core/01_roles/strategy/README.md) |
-| `aptitude/` | [README.md](../aptitude/README.md) |
-| `prep/technical/` | [README.md](../prep/technical/README.md) |
-| `prep/mock-tests/` | [README.md](../prep/mock-tests/README.md) |
-| `prep/templates/` | [README.md](../prep/templates/README.md) |
-| `software-and-tech/programming/` | [README.md](../software-and-tech/programming/README.md) |
-| `index/` | [README.md](../index/README.md) |
+| `core/gate/` | [README.md](../02_core/gate/README.md) |
+| `core/structures/` | [README.md](../02_core/civil-engineering/structures/README.md) |
+| `core/geotechnical/` | [README.md](../02_core/civil-engineering/geotechnical/README.md) |
+| `core/environmental/` | [README.md](../02_core/civil-engineering/environmental/README.md) |
+| `core/transportation/` | [README.md](../02_core/civil-engineering/transportation/README.md) |
+| `core/geoinformatics/` | [README.md](../02_core/civil-engineering/geoinformatics/README.md) |
+| `core/infrastructure/` | [README.md](../02_core/civil-engineering/infrastructure/README.md) |
+| `core/fundamentals/` | [README.md](../02_core/civil-engineering/fundamentals/README.md) |
+| `non-core/01_roles/consulting/` | [README.md](../03_non_core/consulting/README.md) |
+| `non-core/01_roles/data-analyst/` | [README.md](../03_non_core/analytics/data-analyst/README.md) |
+| `non-core/01_roles/business-analyst/` | [README.md](../03_non_core/analytics/business-analyst/README.md) |
+| `non-core/01_roles/product-management/` | [README.md](../03_non_core/product/product-management/README.md) |
+| `non-core/01_roles/operations/` | [README.md](../03_non_core/operations/business-operations/README.md) |
+| `non-core/01_roles/finance/` | [README.md](../03_non_core/finance/finance/README.md) |
+| `non-core/01_roles/risk/` | [README.md](../03_non_core/finance/risk/README.md) |
+| `non-core/01_roles/strategy/` | [README.md](../01_common/resume/career-preparation/placement-strategy/README.md) |
+| `aptitude/` | [README.md](../01_common/aptitude/README.md) |
+| `prep/technical/` | [README.md](../01_common/resume/career-preparation/README.md) |
+| `prep/mock-tests/` | [README.md](../01_common/resume/career-preparation/README.md) |
+| `prep/templates/` | [README.md](../01_common/resume/career-preparation/README.md) |
+| `software-and-tech/programming/` | [README.md](../03_non_core/software-engineering/programming/README.md) |
+| `index/` | [README.md](../archive/legacy_indexes/README.md) |
 
 **Batch 6 result:** 22/22 missing READMEs → 0 missing · Broken links 36 → 35 · Orphan pages 25 → 23
 

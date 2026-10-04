@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/environmental/role-study-plan.md)
-- [Environmental Engineering](../../02_02_02_core/civil-engineering/environmental/environmental-engineering.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Environmental Engineering](../../../02_core/civil-engineering/environmental/environmental-engineering.md)
 - [Mock Test Hub](README.md)

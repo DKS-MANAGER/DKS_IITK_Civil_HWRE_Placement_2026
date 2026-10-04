@@ -162,6 +162,6 @@
 ## Post-Test Protocol
 
 1. **Score yourself** honestly (no partial credit).
-2. **Log errors** in the [`ERROR_ANALYSIS.md`](../gate/ERROR_ANALYSIS.md) format (category, cause, fix).
+2. **Log errors** in the [`ERROR_ANALYSIS.md`](../../gate/ERROR_ANALYSIS.md) format (category, cause, fix).
 3. **Re-attempt** all wrong questions in 24 hours.
 4. **Move to interview prep** — [`INTERVIEW.md`](INTERVIEW.md) — once you score ≥ 35.

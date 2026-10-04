@@ -1,7 +1,7 @@
 # Sector: Water Treatment & Desalination EPC
 
 > **Sector Directory:** 04_company-prep/corporate-targets/08_water-treatment-environment/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 7 Companies  
 
 ---

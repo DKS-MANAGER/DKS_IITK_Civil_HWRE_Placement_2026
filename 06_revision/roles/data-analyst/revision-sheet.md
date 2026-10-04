@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Data Analyst Preparation Track](../../01_roles/data-analyst/README.md)
+- 📖 [Complete Data Analyst Preparation Track](../../../03_non_core/analytics/data-analyst/README.md)
 
 ---
 

@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/transportation/role-study-plan.md)
-- [Transportation Engineering](../../02_02_02_core/civil-engineering/transportation/transportation-engineering.md)
-- [Transportation Software](../../02_02_02_core/civil-engineering/transportation/transportation-software.md)
+- [Role Study Plan](../../../02_core/civil-engineering/transportation/role-study-plan.md)
+- [Transportation Engineering](../../../02_core/civil-engineering/transportation/transportation-engineering.md)
+- [Transportation Software](../../../02_core/civil-engineering/transportation/transportation-software.md)
 - [Mock Test Hub](README.md)

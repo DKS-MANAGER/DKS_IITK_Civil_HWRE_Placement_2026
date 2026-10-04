@@ -113,6 +113,6 @@
 
 ## Related
 
-- [Role Study Plan](../../03_non_02_02_core/operations/operations/role-study-plan.md)
-- [Operations Overview](../../03_non_02_02_core/operations/operations/operations-overview.md)
+- [Role Study Plan](../../../02_core/civil-engineering/environmental/role-study-plan.md)
+- [Operations Overview](../../03_non_core/operations/operations/operations-overview.md)
 - [Mock Test Hub](README.md)

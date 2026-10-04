@@ -123,9 +123,9 @@ Day 5: DPR + estimation | Day 6: Construction methods | Day 7: Mock
 
 ## Cross-Links
 
-- [Transportation Engineering](../../02_02_02_core/civil-engineering/transportation/transportation-engineering.md)
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
+- [Transportation Engineering](../../02_core/civil-engineering/transportation/transportation-engineering.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
 
 ---
 

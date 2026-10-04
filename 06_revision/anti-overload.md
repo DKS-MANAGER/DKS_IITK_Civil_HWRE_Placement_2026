@@ -97,7 +97,7 @@ Depth > Breadth
 5. [OPTIONAL] tools → Skip unless you have time
 ```
 
-See [`priority-system.md`](priority-system.md) for the full framework.
+See [`priority-system.md`](../07_resources/reference-material/priority-system.md) for the full framework.
 
 ---
 
@@ -151,11 +151,11 @@ Step 7: Add specialized tools ONLY if time permits
 
 | Related Section | Link |
 |:----------------|:-----|
-| Priority System | [`priority-system.md`](priority-system.md) |
-| Branch Roadmaps | [`branch-roadmaps.md`](branch-roadmaps.md) |
-| Role Roadmaps | [`role-roadmaps.md`](role-roadmaps.md) |
-| Learning Roadmaps | [`learning-roadmaps.md`](learning-roadmaps.md) |
+| Priority System | [`priority-system.md`](../07_resources/reference-material/priority-system.md) |
+| Branch Roadmaps | [`branch-roadmaps.md`](../07_resources/reference-material/branch-roadmaps.md) |
+| Role Roadmaps | [`role-roadmaps.md`](../07_resources/reference-material/role-roadmaps.md) |
+| Learning Roadmaps | [`learning-roadmaps.md`](../07_resources/reference-material/learning-roadmaps.md) |
 
 ---
 
-*See also: [`priority-system.md`](priority-system.md) for the full priority framework.*
+*See also: [`priority-system.md`](../07_resources/reference-material/priority-system.md) for the full priority framework.*

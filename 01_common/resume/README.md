@@ -12,7 +12,7 @@ BUILD → AUDIT → DEFEND
 
 | Stage | What | Resource |
 |:------|:-----|:---------|
-| **Build** | Create your resume structure | [Resume Template](../templates/resume-template.md) |
+| **Build** | Create your resume structure | [Resume Template](resume-template.md) |
 | **Audit** | Check metrics, ATS, grammar, specificity | [RESUME_AUDIT.md](RESUME_AUDIT.md) |
 | **Defend** | Prepare for every CV line to be questioned | [RESUME_DEFENSE.md](RESUME_DEFENSE.md) |
 
@@ -22,11 +22,11 @@ BUILD → AUDIT → DEFEND
 
 | I need… | Go to |
 |:--------|:------|
-| Resume structure/format | [Resume Template](../templates/resume-template.md) |
+| Resume structure/format | [Resume Template](resume-template.md) |
 | Check my resume quality | [RESUME_AUDIT.md](RESUME_AUDIT.md) |
 | Prepare for resume questions | [RESUME_DEFENSE.md](RESUME_DEFENSE.md) |
-| Resume defence in interviews | [Resume Defense System](../behavioral/resume-defense-system.md) |
+| Resume defence in interviews | [Resume Defense System](../../05_interview/resume-defense/resume-defense-system.md) |
 
 ---
 
-> **Back to:** [Master Prep Plan](../MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)

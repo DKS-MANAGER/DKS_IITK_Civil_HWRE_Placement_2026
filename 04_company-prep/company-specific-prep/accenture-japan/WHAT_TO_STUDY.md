@@ -50,8 +50,8 @@ When a client experiences operational inefficiency or declining digital adoption
 * **Solution Architecture**: Implement edge AI cameras connected to an IoT hub, feeding real-time anomaly alerts to an Azure cloud analytics portal.
 
 #### Practice Exercises & Canonical Repository Links:
-* Study fundamental consulting issue trees in [`03_non_02_02_core/consulting/06_case-practice.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/consulting/06_case-practice.md#1-profitability-framework).
-* Review structured frameworks in [`01_common/group-discussion/CASE_GD.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/group-discussion/CASE_GD.md).
+* Study fundamental consulting issue trees in [`03_non_core/consulting/06_case-practice.md`](../../../03_non_core/consulting/06_case-practice.md#1-profitability-framework).
+* Review structured frameworks in [`01_common/group-discussion/CASE_GD.md`](../../../01_common/group-discussion/CASE_GD.md).
 
 ---
 
@@ -69,7 +69,7 @@ The JD explicitly highlights: **Cloud, AI/Data Analytics, Industry X (Manufactur
 | **Enterprise Systems** | ERP (SAP S/4HANA), CRM (Salesforce), API Gateways | Single source of truth, automated cross-departmental workflows. | Unifying sales & inventory systems post-merger for a conglomerate. |
 
 #### Concept Checklist & Repository Link:
-* Deep-dive into technical architecture definitions in [`03_non_02_02_core/software-engineering/03_domain-knowledge.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_02_02_core/software-engineering/03_domain-knowledge.md).
+* Deep-dive into technical architecture definitions in [`03_non_core/software-engineering/03_domain-knowledge.md`](../../../03_non_core/software-engineering/03_domain-knowledge.md).
 
 ---
 
@@ -98,8 +98,8 @@ LIMIT 3;
 ```
 
 #### Practice System & Practice Links:
-* Full practice test and solution set in [`TECHNICAL_TEST.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/TECHNICAL_TEST.md).
-* General reasoning practice in [`01_common/aptitude/logical-reasoning/coding-decoding.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/01_common/aptitude/logical-reasoning/coding-decoding.md).
+* Full practice test and solution set in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+* General reasoning practice in [`01_common/aptitude/logical-reasoning/coding-decoding.md`](../../../01_common/aptitude/logical-reasoning/coding-decoding.md).
 
 ---
 
@@ -125,6 +125,6 @@ LIMIT 3;
 ```
 
 #### Master Preparation Links:
-* Case practice suite: [`CONSULTING_CASES.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/CONSULTING_CASES.md).
-* Manager vs Director question strategies: [`INTERVIEW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/INTERVIEW.md).
-* Behavioral, HR & Japanese cultural preparation: [`BEHAVIOURAL_HR.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/04_company-prep/company-specific-prep/accenture-japan/BEHAVIOURAL_HR.md).
+* Case practice suite: [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
+* Manager vs Director question strategies: [`INTERVIEW.md`](INTERVIEW.md).
+* Behavioral, HR & Japanese cultural preparation: [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md).

@@ -32,7 +32,7 @@ Structure every behavioural answer:
 - Why do you want this role / company?
 - Where do you see yourself in 5 years?
 
-Full question bank → [`01_common/behavioral/`](../01_common/behavioral/)
+Full question bank → [`01_common/behavioral/`](../../01_common/behavioral/)
 
 ---
 
@@ -43,14 +43,14 @@ Full question bank → [`01_common/behavioral/`](../01_common/behavioral/)
 - Prepare answers for salary / CTC expectations.
 - Prepare questions to ask the interviewer.
 
-HR resources → [`01_common/behavioral/`](../01_common/behavioral/)
+HR resources → [`01_common/behavioral/`](../../01_common/behavioral/)
 
 ---
 
 ## Company Fit
 
-- Research the company → [COMPANIES.md](COMPANIES.md)
-- Align your answers to the role → [ROLES.md](ROLES.md)
+- Research the company → [COMPANIES.md](..\..\04_company-prep\README.md)
+- Align your answers to the role → [ROLES.md](..\..\03_non_core\README.md)
 
 ---
 
@@ -64,4 +64,4 @@ HR resources → [`01_common/behavioral/`](../01_common/behavioral/)
 
 ---
 
-> **Back to:** [README](README.md) · [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md) · [Main README](../README.md)
+> **Back to:** [README](README.md) · [INTERVIEW_GUIDE.md](..\..\05_interview\README.md) · [Main README](../README.md)

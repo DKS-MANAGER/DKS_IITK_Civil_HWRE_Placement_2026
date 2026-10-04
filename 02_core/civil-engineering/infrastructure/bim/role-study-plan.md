@@ -115,7 +115,7 @@ Revit is the industry-standard BIM authoring tool. Interviewers test your practi
 | File | Focus Area | Depth |
 |:-----|:-----------|:------|
 | [`bim-tech.md`](bim-tech.md) | Revit skills roadmap | Full |
-| [`structural-tech.md`](../structural/structural-tech.md) | Structural modeling context | Reference |
+| [`structural-tech.md`](../../structures/structural-tech.md) | Structural modeling context | Reference |
 
 #### Worked Example
 **Problem:** Explain how you would set up a Revit model for a 5-story office building and extract quantities for cost estimation.
@@ -266,7 +266,7 @@ Standards (ISO 19650, IFC) and interoperability are what make BIM collaborative 
 | File | Focus Area | Depth |
 |:-----|:-----------|:------|
 | [`bim-tech.md`](bim-tech.md) | Interoperability, formats, standards | Full |
-| [`automation.md`](../automation/automation.md) | CAD → BIM → Digital context | Reference |
+| [`automation.md`](../../../../03_non_core/software-engineering/automation/automation.md) | CAD → BIM → Digital context | Reference |
 
 #### Worked Example
 **Problem:** A project team uses Revit (structural), Civil 3D (site), and a proprietary MEP tool. How do you ensure interoperability and information exchange?
@@ -355,9 +355,9 @@ Standards (ISO 19650, IFC) and interoperability are what make BIM collaborative 
 |:---------|:-----|
 | BIM Technology Roadmap | [bim-tech.md](bim-tech.md) |
 | Construction Technology | [construction-tech.md](../construction/construction-tech.md) |
-| Structural Technology | [structural-tech.md](../structural/structural-tech.md) |
-| Automation | [automation.md](../automation/automation.md) |
-| Infrastructure/PM | [infrastructure-engineering-management.md](../../02_02_02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md) |
+| Structural Technology | [structural-tech.md](../../structures/structural-tech.md) |
+| Automation | [automation.md](../../../../03_non_core/software-engineering/automation/automation.md) |
+| Infrastructure/PM | [infrastructure-engineering-management.md](../infrastructure-engineering-management.md) |
 | Rapid Revision | [bim-rapid-revision.md](bim-rapid-revision.md) |
 
 ---

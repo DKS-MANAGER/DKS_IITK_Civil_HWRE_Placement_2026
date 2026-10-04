@@ -18,7 +18,7 @@
 
 ```
 DKS_IITK_Civil_HWRE_Placement_2026/
-├── 02_02_core/                    # Technical subject content
+├── 02_core/                    # Technical subject content
 │   ├── hwre/               # HWRE specialization (flagship)
 │   ├── structures/
 │   ├── geotechnical/
@@ -101,7 +101,7 @@ DKS_IITK_Civil_HWRE_Placement_2026/
 
 | Domain | Location |
 |:-------|:---------|
-| Core Civil | `02_02_core/` |
+| Core Civil | `02_core/` |
 | Non-Core | `03_non_core/` |
 | Behavioral | `01_common/behavioral/` |
 | Aptitude | `01_common/aptitude/` |

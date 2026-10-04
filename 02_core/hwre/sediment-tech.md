@@ -221,10 +221,10 @@ LaTeX — include in thesis/paper
 
 | Tool | Canonical Study Page |
 |:-----|:---------------------|
-| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../deep-dives/openfoam-case-study.md) |
-| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](../deep-dives/hec-ras-walkthrough.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
-| MATLAB | [`programming/matlab.md`](../programming/matlab.md) |
+| OpenFOAM | [`deep-dives/openfoam-case-study.md`](../cfd/openfoam-case-study.md) |
+| HEC-RAS | [`deep-dives/hec-ras-walkthrough.md`](software-deep-dives/hec-ras-walkthrough.md) |
+| Python | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
+| MATLAB | [`programming/matlab.md`](../../03_non_core/software-engineering/programming/matlab.md) |
 
 ---
 
@@ -232,12 +232,12 @@ LaTeX — include in thesis/paper
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Sediment Transport | [`02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md`](../../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md) |
+| Core Sediment Transport | [`02_core/hwre/hydrology/sediment-transport.md`](hydrology/sediment-transport.md) |
 | CFD Technology | [`cfd/`](../cfd/cfd-tech.md) |
 | HWRE Tech Roadmap | [`hwre/`](../hwre/hwre-tech-roadmap.md) |
-| Hydrology Technology | [`hydrology/`](../hydrology/hydrology-tech.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
-| Research Technology | [`research/`](../research/research-tech.md) |
+| Hydrology Technology | [`hydrology/`](hydrology-tech.md) |
+| Python for Engineering | [`programming/python.md`](../../03_non_core/software-engineering/programming/python.md) |
+| Research Technology | [`research/`](../../07_resources/reference-material/research-tech.md) |
 
 ---
 

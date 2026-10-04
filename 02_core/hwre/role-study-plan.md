@@ -33,7 +33,7 @@ Hydrology is the foundation of HWRE. Every PSU interview will test unit hydrogra
 | Topic | File | Depth |
 |:------|:-----|:------|
 | Hydrology | [hydrology.md](hydrology/hydrology.md) | 4,470 words — comprehensive |
-| Foundations | [civil-engineering-foundations.md](../fundamentals/civil-engineering-foundations.md) | Quick formulas + examples |
+| Foundations | [civil-engineering-foundations.md](../civil-engineering/fundamentals/civil-engineering-foundations.md) | Quick formulas + examples |
 
 ### Worked Example
 > **"Route a flood through a river reach using Muskingum method."**
@@ -223,9 +223,9 @@ HWRE interviews test both breadth (all subjects) and depth (thesis topic). You n
 | Water Resources | [water-resources-engineering.md](water_resources/water-resources-engineering.md) |
 | Turbulence Modeling | [turbulence-modeling.md](hydraulics/turbulence-modeling.md) |
 | Sediment Transport | [sediment-transport.md](hydrology/sediment-transport.md) |
-| Foundations | [civil-engineering-foundations.md](../fundamentals/civil-engineering-foundations.md) |
-| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../01_common/interview-fundamentals/technical/technical-interview-bank.md) |
-| Project Discussion | [../../01_common/interview-fundamentals/technical/project-discussion.md](../../01_common/interview-fundamentals/technical/project-discussion.md) |
+| Foundations | [civil-engineering-foundations.md](../civil-engineering/fundamentals/civil-engineering-foundations.md) |
+| Technical Interview Bank | [../../01_common/interview-fundamentals/technical/technical-interview-bank.md](../../05_interview/technical/technical-interview-bank.md) |
+| Project Discussion | [../../01_common/interview-fundamentals/technical/project-discussion.md](../../05_interview/project-defense/project-discussion.md) |
 | Behavioral Guide | [../../01_common/behavioral/behavioral-interview-guide.md](../../01_common/behavioral/behavioral-interview-guide.md) |
 
 ---

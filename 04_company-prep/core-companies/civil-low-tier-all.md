@@ -115,9 +115,9 @@
 ---
 
 ## Cross-Links
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Building Materials](../../02_02_02_core/civil-engineering/fundamentals/civil-engineering-foundations.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Building Materials](../../02_core/civil-engineering/fundamentals/civil-engineering-foundations.md)
 
 ## References
 - [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) — Rows 109-110, 217-220, 244, 375, 391, 448-449

@@ -82,7 +82,7 @@ How this project becomes a STAR story:
 
 ## Related Topics
 
-- [Related concept](../../02_02_02_02_core/README.md)
+- [Related concept](../../README.md)
 - [Related software](../../archive/legacy_software/README.md)
 
 ## Quick Revision

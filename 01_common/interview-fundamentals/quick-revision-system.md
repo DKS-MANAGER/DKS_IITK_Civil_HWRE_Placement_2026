@@ -10,20 +10,20 @@
 
 | Time Block | Duration | Focus Area | Review Target |
 |------------|----------|------------|---------------|
-| **6:00–7:00 AM** | 60 min | Formulas — Hydraulics & OCF | [`hydraulics.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) → 📋 Formula Sheet |
-| **7:00–7:30 AM** | 30 min | Formulas — Hydrology & Water Resources | [`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) → 📋 Formula Sheet |
-| **7:30–8:00 AM** | 30 min | Formulas — Structures & Geotechnical | [`structures.md`](../../02_02_02_core/civil-engineering/structures/structures.md) → 📋 Formula Sheet; [`geotechnical.md`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) → 📋 Formula Sheet |
-| **8:00–8:30 AM** | 30 min | Formulas — Environmental & Transportation | [`environmental-engineering.md`](../../02_02_02_core/civil-engineering/environmental/environmental-engineering.md) → Quick Reference; [`transportation-engineering.md`](../../02_02_02_core/civil-engineering/transportation/transportation-engineering.md) → Quick Reference |
-| **8:30–9:00 AM** | 30 min | Coffee break + self-intro rehearsal | [`self-intro-template.md`](../templates/self-intro-template.md) |
-| **9:00–10:00 AM** | 60 min | Rapid-Fire Q&A — Hydraulics & OCF | [`hydraulics.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md) → F. Rapid-Fire |
-| **10:00–10:30 AM** | 30 min | Rapid-Fire Q&A — Hydrology & WRE | [`hydrology.md`](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md) → F. Rapid-Fire |
-| **10:30–11:00 AM** | 30 min | Rapid-Fire Q&A — Structures & Environmental | [`structures.md`](../../02_02_02_core/civil-engineering/structures/structures.md); [`environmental-engineering.md`](../../02_02_02_core/civil-engineering/environmental/environmental-engineering.md) |
-| **11:00–11:30 AM** | 30 min | HWRE Exam Notes — Master Cheat Sheet | [`hwre-exam-notes.md`](../../02_02_02_02_02_02_core/hwre/exam_notes/hwre-exam-notes.md) |
+| **6:00–7:00 AM** | 60 min | Formulas — Hydraulics & OCF | [`hydraulics.md`](../../02_core/hwre/hydraulics/hydraulics.md) → 📋 Formula Sheet |
+| **7:00–7:30 AM** | 30 min | Formulas — Hydrology & Water Resources | [`hydrology.md`](../../02_core/hwre/hydrology/hydrology.md) → 📋 Formula Sheet |
+| **7:30–8:00 AM** | 30 min | Formulas — Structures & Geotechnical | [`structures.md`](../../02_core/civil-engineering/structures/structures.md) → 📋 Formula Sheet; [`geotechnical.md`](../../02_core/civil-engineering/geotechnical/geotechnical.md) → 📋 Formula Sheet |
+| **8:00–8:30 AM** | 30 min | Formulas — Environmental & Transportation | [`environmental-engineering.md`](../../02_core/civil-engineering/environmental/environmental-engineering.md) → Quick Reference; [`transportation-engineering.md`](../../02_core/civil-engineering/transportation/transportation-engineering.md) → Quick Reference |
+| **8:30–9:00 AM** | 30 min | Coffee break + self-intro rehearsal | [`self-intro-template.md`](self-intro-template.md) |
+| **9:00–10:00 AM** | 60 min | Rapid-Fire Q&A — Hydraulics & OCF | [`hydraulics.md`](../../02_core/hwre/hydraulics/hydraulics.md) → F. Rapid-Fire |
+| **10:00–10:30 AM** | 30 min | Rapid-Fire Q&A — Hydrology & WRE | [`hydrology.md`](../../02_core/hwre/hydrology/hydrology.md) → F. Rapid-Fire |
+| **10:30–11:00 AM** | 30 min | Rapid-Fire Q&A — Structures & Environmental | [`structures.md`](../../02_core/civil-engineering/structures/structures.md); [`environmental-engineering.md`](../../02_core/civil-engineering/environmental/environmental-engineering.md) |
+| **11:00–11:30 AM** | 30 min | HWRE Exam Notes — Master Cheat Sheet | [`hwre-exam-notes.md`](../../02_core/hwre/exam_notes/hwre-exam-notes.md) |
 | **11:30–12:00 PM** | 30 min | Interview Answer Format practice | Pick 2 High-Value Qs from your target subject → practice 30-sec answers |
 | **12:00–1:00 PM** | 60 min | Lunch + light review of behavioral Qs | [`hr-questions-bank.md`](../behavioral/hr_questions/hr-questions-bank.md) |
-| **1:00–2:00 PM** | 60 min | Mock interview (self or with friend) | Use questions from [`mock-interview-questions.md`](./mock-tests/mock-interview-questions.md) |
-| **2:00–3:00 PM** | 60 min | Software Q&A — Top 5 tools | [`software-interview-guide.md`](./software-interview-guide.md) → Priority Software by Role |
-| **3:00–3:30 PM** | 30 min | Company research | Check company profile in [`company-profiles/`](../company-profiles/) |
+| **1:00–2:00 PM** | 60 min | Mock interview (self or with friend) | Use questions from [`mock-interview-questions.md`](../../05_interview/mock-interviews/mock-interview-questions.md) |
+| **2:00–3:00 PM** | 60 min | Software Q&A — Top 5 tools | [`software-interview-guide.md`](../../05_interview/technical/non-core/software-interview-guide.md) → Priority Software by Role |
+| **3:00–3:30 PM** | 30 min | Company research | Check company profile in [`company-profiles/`](../../04_company-prep/README.md) |
 | **3:30–4:00 PM** | 30 min | Before-Interview Checklist | See Section 5 below |
 
 **1-Day Focus Formulas (Must-Know):**
@@ -65,8 +65,8 @@
 
 | Time | Activity | File |
 |------|----------|------|
-| **Morning (30 min)** | Read self-intro aloud 3x | [`self-intro-template.md`](../templates/self-intro-template.md) |
-| **During study (5 min/hr)** | Take 5-min breaks, review flashcards | [`hwre-exam-notes.md`](../../02_02_02_02_02_02_core/hwre/exam_notes/hwre-exam-notes.md) |
+| **Morning (30 min)** | Read self-intro aloud 3x | [`self-intro-template.md`](self-intro-template.md) |
+| **During study (5 min/hr)** | Take 5-min breaks, review flashcards | [`hwre-exam-notes.md`](../../02_core/hwre/exam_notes/hwre-exam-notes.md) |
 | **Evening (30 min)** | Behavioral Q practice (STAR format) | [`behavioral-interview-guide.md`](../behavioral/behavioral-interview-guide.md) |
 | **Night (15 min)** | Review "Key Values" tables | Subject formula sheets |
 
@@ -74,14 +74,14 @@
 
 | Subject | File | Sections |
 |---------|------|----------|
-| Hydraulics | `02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md` | 📋 Formula Sheet, A-D, F |
-| OCF | `02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md` | 📋 Formula Sheet, A-D, F |
-| Hydrology | `02_02_02_02_02_02_core/hwre/hydrology/hydrology.md` | 📋 Formula Sheet, A-D, F |
-| WRE | `02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md` | 📋 Formula Sheet, A-D, F |
-| Structures | `02_02_02_core/civil-engineering/structures/structures.md` | 📋 Formula Sheet, A-D, F |
-| Geotechnical | `02_02_02_core/civil-engineering/geotechnical/geotechnical.md` | 📋 Formula Sheet, A-D, F |
-| Environmental | `02_02_02_core/civil-engineering/environmental/environmental-engineering.md` | Quick Reference, A-D |
-| Transportation | `02_02_02_core/civil-engineering/transportation/transportation-engineering.md` | Quick Reference, A-D |
+| Hydraulics | `02_core/hwre/hydraulics/hydraulics.md` | 📋 Formula Sheet, A-D, F |
+| OCF | `02_core/hwre/open_channel_flow/open-channel-flow.md` | 📋 Formula Sheet, A-D, F |
+| Hydrology | `02_core/hwre/hydrology/hydrology.md` | 📋 Formula Sheet, A-D, F |
+| WRE | `02_core/hwre/water_resources/water-resources-engineering.md` | 📋 Formula Sheet, A-D, F |
+| Structures | `02_core/civil-engineering/structures/structures.md` | 📋 Formula Sheet, A-D, F |
+| Geotechnical | `02_core/civil-engineering/geotechnical/geotechnical.md` | 📋 Formula Sheet, A-D, F |
+| Environmental | `02_core/civil-engineering/environmental/environmental-engineering.md` | Quick Reference, A-D |
+| Transportation | `02_core/civil-engineering/transportation/transportation-engineering.md` | Quick Reference, A-D |
 | Interview Bank | `./technical/technical-interview-bank.md` | Q1-Q50 |
 | Mock Qs | `./mock-tests/mock-interview-questions.md` | All sections |
 
@@ -131,7 +131,7 @@
 
 | Day | Activity |
 |-----|----------|
-| 22 | Mock Interview #1: Basic Civil (from [`mock-interview-questions.md`](./mock-tests/mock-interview-questions.md)) |
+| 22 | Mock Interview #1: Basic Civil (from [`mock-interview-questions.md`](../../05_interview/mock-interviews/mock-interview-questions.md)) |
 | 23 | Mock Interview #2: Core Civil + Technical |
 | 24 | Mock Interview #3: HWRE specialized |
 | 25 | Behavioral interview practice (STAR format) |
@@ -168,8 +168,8 @@
 
 ### Night Before
 
-- [ ] Company researched: products, recent news, role requirements → [`company-profiles/`](../company-profiles/)
-- [ ] Self-intro practiced 3 times (under 90 seconds) → [`self-intro-template.md`](../templates/self-intro-template.md)
+- [ ] Company researched: products, recent news, role requirements → [`company-profiles/`](../../04_company-prep/README.md)
+- [ ] Self-intro practiced 3 times (under 90 seconds) → [`self-intro-template.md`](self-intro-template.md)
 - [ ] Resume updated, printed (2 copies), error-free
 - [ ] Portfolio/LinkedIn profile consistent with resume
 - [ ] Interview location/video link confirmed
@@ -208,16 +208,16 @@
 
 | What | Where |
 |------|-------|
-| All Subject Files | [`02_02_core/`](../../02_02_core/) — organized by subject |
-| Formula Cheat Sheet | [`hwre-exam-notes.md`](../../02_02_02_02_02_02_core/hwre/exam_notes/hwre-exam-notes.md) |
-| Technical Q Bank (100 Q) | [`technical-interview-bank.md`](./technical/technical-interview-bank.md) |
-| Mock Interviews | [`mock-interview-questions.md`](./mock-tests/mock-interview-questions.md) |
+| All Subject Files | [`02_core/`](../../02_core/) — organized by subject |
+| Formula Cheat Sheet | [`hwre-exam-notes.md`](../../02_core/hwre/exam_notes/hwre-exam-notes.md) |
+| Technical Q Bank (100 Q) | [`technical-interview-bank.md`](../../05_interview/technical/technical-interview-bank.md) |
+| Mock Interviews | [`mock-interview-questions.md`](../../05_interview/mock-interviews/mock-interview-questions.md) |
 | Behavioral Guide | [`behavioral-interview-guide.md`](../behavioral/behavioral-interview-guide.md) |
 | HR Questions | [`hr-questions-bank.md`](../behavioral/hr_questions/hr-questions-bank.md) |
-| Self-Intro Template | [`self-intro-template.md`](../templates/self-intro-template.md) |
-| Software Guide | [`software-interview-guide.md`](./software-interview-guide.md) |
-| Company Profiles | [`company-profiles/`](../company-profiles/) |
-| Project Discussion | [`project-discussion.md`](./technical/project-discussion.md) |
+| Self-Intro Template | [`self-intro-template.md`](self-intro-template.md) |
+| Software Guide | [`software-interview-guide.md`](../../05_interview/technical/non-core/software-interview-guide.md) |
+| Company Profiles | [`company-profiles/`](../../04_company-prep/README.md) |
+| Project Discussion | [`project-discussion.md`](../../05_interview/project-defense/project-discussion.md) |
 
 ---
 

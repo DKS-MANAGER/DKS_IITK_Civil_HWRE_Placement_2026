@@ -1,32 +1,26 @@
-# 03. Common Transferable Skills
+# 📐 Placement Math & Quantitative Business Reasoning
 
-> Core cognitive, quantitative, communicative, and business skills applicable across all non-core industry tracks.
-
----
-
-## Skills Architecture
-
-| Skill Module | Focus Area | Core File |
-|:-------------|:-----------|:----------|
-| [📁 business-fundamentals/](business-fundamentals/) | Economics, Accounting, Financial Statements, & Business Models | [Business Fundamentals](business-fundamentals/business-fundamentals.md) |
-| [📁 communication/](communication/) | Top-down communication, Minto Pyramid, executive synthesis | [Communication Principles](communication/communication.md) |
-| [📁 quantitative-reasoning/](quantitative-reasoning/) | Mental math, non-core aptitude transition, quick analytics | [Aptitude Bridge](quantitative-reasoning/aptitude-bridge.md) |
-| [📁 structured-problem-solving/](structured-problem-solving/) | MECE breakdown, issue trees, hypothesis-driven problem solving | [Structured Problem Solving Guide](structured-problem-solving/structured-problem-solving.md) |
-| [📁 data-interpretation/](data-interpretation/) | Charts, tables, business KPI dashboards, trend evaluation | [Data Interpretation Guide](data-interpretation/data-interpretation.md) |
+> **Canonical Definition**: Business and engineering quantitative reasoning — ratios, unit economics, margins, break-even, CAGR, estimation math, and spreadsheet modeling.  
+> **Boundary Rule**: Speed-test mathematics belongs in `01_common/aptitude/`. Engineering/business reasoning belongs here.
 
 ---
 
-## Integration with Role Tracks
+## 🗺️ Module Architecture
 
-Every non-core role builds directly upon these 5 core foundational skills:
-- **Consulting / Strategy**: Heavy reliance on *Structured Problem Solving* + *Communication* + *Business Fundamentals*.
-- **Analytics / Product Analyst**: Heavy reliance on *Quantitative Reasoning* + *Data Interpretation*.
-- **Product Management / BizOps**: Holistic synthesis of all 5 skill pillars.
+| Module | Core Concepts | Primary Resource |
+|:-------|:--------------|:-----------------|
+| **Business & Engineering Math** | Ratios, Margins, Markups, Break-even, CAGR, Rule of 72, NPV/IRR, Dimensional scaling | [business-engineering-math.md](business-engineering-math.md) |
+| **Excel & Financial Modeling** | LOOKUP, INDEX/MATCH, Pivot Tables, Scenario Manager, Data tables | [Excel.md](Excel.md) |
+| **Business Fundamentals** | P&L statements, Balance Sheet mechanics, Free Cash Flow, Unit economics | [business-fundamentals/](business-fundamentals/) |
+| **Data Interpretation** | Business KPI dashboards, Cohort charts, Waterfall diagnostics | [data-interpretation/](data-interpretation/) |
+| **Quantitative Reasoning** | Mental arithmetic, Estimation bounds, Quick division shortcuts | [quantitative-reasoning/](quantitative-reasoning/) |
+| **Structured Problem Solving** | Issue trees, MECE segmentation, Hypothesis generation | [structured-problem-solving/](structured-problem-solving/) |
 
 ---
 
-## Navigation
-- [Non-Core Hub](../README.md)
-- [01 Role Tracks](../01_roles/)
-- [02 Interview Preparation](../02_interview-preparation/)
-- [04 Career Preparation](../04_career-preparation/)
+## 🔗 Navigation Links
+
+* 🔙 **Parent Layer**: [01_common/](../README.md)
+* 🎯 **Aptitude Test Solving**: [01_common/aptitude/](../aptitude/README.md)
+* 💼 **Consulting Preparation**: [03_non_core/consulting/](../../03_non_core/consulting/README.md)
+* 🎤 **Case Interview Defense**: [05_interview/case-interview/](../../05_interview/case-interview/README.md)

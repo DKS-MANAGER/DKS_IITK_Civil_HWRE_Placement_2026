@@ -8,14 +8,14 @@
 
 | Role | Track | Core Topics | Key Resources |
 |:-----|:------|:------------|:--------------|
-| **Civil / Structural Engineer** | Core Civil | Structures, geotech, transport, env | [`02_02_02_02_core/README.md`](../02_02_02_02_core/README.md) |
-| **HWRE Engineer** | HWRE | Hydraulics, hydrology, water resources | [`02_02_02_02_02_02_core/hwre/README.md`](../02_02_02_02_02_02_core/hwre/README.md) |
-| **Data Analyst** | Non-Core | Statistics, SQL, Python, visualization | [`03_non_02_02_core/analytics/data-analyst/`](../03_non_02_02_core/analytics/data-analyst/) |
-| **Business Analyst** | Non-Core | Case interviews, guesstimates, aptitude | [`03_non_02_02_core/analytics/business-analyst/`](../03_non_02_02_core/analytics/business-analyst/) |
-| **Product Manager** | Non-Core | Product sense, case, behavioural | [`03_non_02_02_core/product/product-management/`](../03_non_02_02_core/product/product-management/) |
+| **Civil / Structural Engineer** | Core Civil | Structures, geotech, transport, env | [`02_core/README.md`](../README.md) |
+| **HWRE Engineer** | HWRE | Hydraulics, hydrology, water resources | [`02_core/hwre/README.md`](../02_core/hwre/README.md) |
+| **Data Analyst** | Non-Core | Statistics, SQL, Python, visualization | [`03_non_core/analytics/data-analyst/`](../03_non_core/analytics/data-analyst/) |
+| **Business Analyst** | Non-Core | Case interviews, guesstimates, aptitude | [`03_non_core/analytics/business-analyst/`](../03_non_core/analytics/business-analyst/) |
+| **Product Manager** | Non-Core | Product sense, case, behavioural | [`03_non_core/product/product-management/`](../03_non_core/product/product-management/) |
 | **Software Engineer** | Software & Tech | DSA, programming, system design | [`archive/legacy_software/README.md`](../archive/legacy_software/README.md) |
-| **Consultant** | Non-Core | Case interviews, frameworks | [`03_non_02_02_core/consulting/`](../03_non_02_02_core/consulting/) |
-| **Finance / Risk** | Non-Core | Quant, financial concepts | [`03_non_02_02_core/finance/finance/`](../03_non_02_02_core/finance/finance/) · [`03_non_02_02_core/finance/risk/`](../03_non_02_02_core/finance/risk/) |
+| **Consultant** | Non-Core | Case interviews, frameworks | [`03_non_core/consulting/`](../03_non_core/consulting/) |
+| **Finance / Risk** | Non-Core | Quant, financial concepts | [`03_non_core/finance/finance/`](../03_non_core/finance/finance/) · [`03_non_core/finance/risk/`](../03_non_core/finance/risk/) |
 
 ---
 
@@ -28,18 +28,18 @@ For cross-role completeness scores, see the [Role Readiness Matrix](../_SYSTEM/R
 ## How to Use This
 
 1. Identify your target role.
-2. Open the corresponding track (see [TRACKS.md](TRACKS.md)).
+2. Open the corresponding track (see [TRACKS.md](../docs/TRACKS.md)).
 3. Study the core topics.
-4. Practice with [TESTING_GUIDE.md](TESTING_GUIDE.md).
-5. Prepare interviews with [INTERVIEW_GUIDE.md](INTERVIEW_GUIDE.md).
+4. Practice with [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md).
+5. Prepare interviews with [INTERVIEW_GUIDE.md](..\05_interview\README.md).
 
 ---
 
 ## Company Alignment
 
-Which companies hire for which role → [COMPANIES.md](COMPANIES.md).
+Which companies hire for which role → [COMPANIES.md](..\04_company-prep\README.md).
 
 ---
 
-> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](MASTER_NAVIGATION.md) · [Main README](../README.md)
+> **Back to:** [README](README.md) · [MASTER_NAVIGATION.md](../docs/MASTER_NAVIGATION.md) · [Main README](../README.md)
 

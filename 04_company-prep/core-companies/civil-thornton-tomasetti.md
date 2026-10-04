@@ -360,12 +360,12 @@ judgment, innovative problem-solving, and international awareness.
 
 ## Cross-Links
 
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [RCC Design](../../02_02_02_core/civil-engineering/rcc/rcc-design.md)
-- [Steel Design](../../02_02_02_core/civil-engineering/steel/steel-design.md)
-- [Strength of Materials](../../02_02_02_core/civil-engineering/fundamentals/strength-of-materials.md)
-- [Engineering Mechanics](../../02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [RCC Design](../../02_core/civil-engineering/rcc/rcc-design.md)
+- [Steel Design](../../02_core/civil-engineering/steel/steel-design.md)
+- [Strength of Materials](../../02_core/civil-engineering/fundamentals/strength-of-materials.md)
+- [Engineering Mechanics](../../02_core/civil-engineering/fundamentals/engineering-mechanics.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ---
 

@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Corporate Finance & Investment Banking Preparation Track](../../01_roles/finance/README.md)
+- 📖 [Complete Corporate Finance & Investment Banking Preparation Track](../../../03_non_core/finance/finance/README.md)
 
 ---
 

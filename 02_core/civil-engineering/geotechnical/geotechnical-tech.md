@@ -211,8 +211,8 @@ Follow the hands-on step-by-step guides to build real geotechnical models end-to
 
 | Tool | Deep-Dive Guide |
 |:-----|:----------------|
-| PLAXIS 2D | [`deep-dives/plaxis-2d-tutorial.md`](../deep-dives/plaxis-2d-tutorial.md) |
-| GeoStudio SLOPE/W | [`deep-dives/geostudio-slopew-tutorial.md`](../deep-dives/geostudio-slopew-tutorial.md) |
+| PLAXIS 2D | [`deep-dives/plaxis-2d-tutorial.md`](software-deep-dives/plaxis-2d-tutorial.md) |
+| GeoStudio SLOPE/W | [`deep-dives/geostudio-slopew-tutorial.md`](software-deep-dives/geostudio-slopew-tutorial.md) |
 
 ---
 
@@ -220,11 +220,11 @@ Follow the hands-on step-by-step guides to build real geotechnical models end-to
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Geotechnical | [`02_02_02_core/civil-engineering/geotechnical/`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
-| GIS Technology | [`gis/`](../gis/gis-tech.md) |
-| Research Technology | [`research/`](../research/research-tech.md) |
+| Core Geotechnical | [`02_core/civil-engineering/geotechnical/`](geotechnical.md) |
+| Python for Engineering | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
+| GIS Technology | [`gis/`](../geoinformatics/gis-tech.md) |
+| Research Technology | [`research/`](../../../07_resources/reference-material/research-tech.md) |
 
 ---
 
-*See also: [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`branch-roadmaps.md`](../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

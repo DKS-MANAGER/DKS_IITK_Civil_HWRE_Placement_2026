@@ -19,7 +19,7 @@
 | **01. Role Overview** | Target companies, job descriptions, eligibility, and Day-to-Day deliverables | [01_role-overview.md](01_role-overview.md) |
 | **02. Skills & Competencies** | Required skills, tools, and technical benchmark ladder | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
 | **03. Domain Knowledge** | Core business frameworks, equations, and industry models | [03_domain-knowledge.md](03_domain-knowledge.md) |
-| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_tools-and-technical.md](04_tools-and-technical.md) |
+| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_tools-and-technical.md](../../consulting/04_tools-and-technical.md) |
 | **05. Selection Process** | Stage-by-stage guide: OA pattern, Technical, Case, and HR rounds | [05_interview-preparation.md](05_interview-preparation.md) |
 | **06. Question Bank** | Curated questions with model answers and interviewer follow-ups | [06_question-bank.md](06_question-bank.md) |
 | **07. Practice & Cases** | Realistic case studies and fully worked problem sets | [07_practice-and-cases.md](07_practice-and-cases.md) |
@@ -34,6 +34,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../02_interview-preparation/)
-- [03 Common Skills](../../03_common-skills/)
-- [04 Career Preparation](../../04_career-preparation/)
+- [02 Interview Preparation](../../05_interview/)
+- [03 Common Skills](../../01_common/)
+- [04 Career Preparation](../../01_common/resume/career-preparation/)

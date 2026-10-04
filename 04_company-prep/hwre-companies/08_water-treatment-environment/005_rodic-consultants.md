@@ -1,11 +1,11 @@
 # Rodic Consultants — Corporate Placement Profile
 
-> **Target ID:** CORP-005 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-005 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 08_water-treatment-environment | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 
 > [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/core-companies/civil-rodic.md](../../civil-rodic.md).
+> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/core-companies/civil-rodic.md](../../core-companies/civil-rodic.md).
 
 ---
 

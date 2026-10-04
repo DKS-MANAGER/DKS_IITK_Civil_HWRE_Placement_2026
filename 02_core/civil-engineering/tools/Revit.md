@@ -243,11 +243,11 @@ Revit → BIM → parametric modeling, LOD
 
 | Related Section | Link |
 |:----------------|:-----|
-| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../SOFTWARE_ROLE_MATRIX.md) |
-| BIM Roadmap | [`bim/bim-tech.md`](../bim/bim-tech.md) |
-| BIM Study Plan | [`bim/role-study-plan.md`](../bim/role-study-plan.md) |
+| Role Matrix | [`SOFTWARE_ROLE_MATRIX.md`](../../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) |
+| BIM Roadmap | [`bim/bim-tech.md`](../infrastructure/bim/bim-tech.md) |
+| BIM Study Plan | [`bim/role-study-plan.md`](../infrastructure/bim/role-study-plan.md) |
 | AutoCAD (2D) | [`tools/AutoCAD.md`](../tools/AutoCAD.md) |
-| Interview Questions | [`software-interview-questions.md`](../software-interview-questions.md) |
+| Interview Questions | [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) |
 
 ---
 

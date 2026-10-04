@@ -28,8 +28,8 @@ This is the core competency. Water quality parameters, BOD kinetics, and treatme
 | File | Focus Area | Depth |
 |:-----|:-----------|:------|
 | [`environmental-engineering.md`](environmental-engineering.md) | Full water/air quality, treatment | Full |
-| [`wastewater-engineering.md`](../hwre/wastewater/wastewater-engineering.md) | Wastewater treatment processes | Full |
-| [`water-resources-engineering.md`](../hwre/water_resources/water-resources-engineering.md) | Water supply context | Reference |
+| [`wastewater-engineering.md`](../../hwre/wastewater/wastewater-engineering.md) | Wastewater treatment processes | Full |
+| [`water-resources-engineering.md`](../../hwre/water_resources/water-resources-engineering.md) | Water supply context | Reference |
 
 #### Worked Example
 **Problem:** A river has BOD at the discharge point = 20 mg/L, saturation DO = 9 mg/L, initial DO = 8 mg/L. The deoxygenation constant k₁ = 0.4/day and reaeration constant k₂ = 0.8/day (base e). Find the critical time, critical DO deficit, and minimum DO.
@@ -344,19 +344,19 @@ Environmental Impact Assessment (EIA) is mandatory for large projects. Knowledge
 
 **Study:**
 → [Environmental Engineering Full Reference](environmental-engineering.md)
-→ [Wastewater Engineering](../hwre/wastewater/wastewater-engineering.md)
-→ [Water Resources Engineering](../hwre/water_resources/water-resources-engineering.md)
-→ [Water Supply](../hwre/water_supply/water-supply.md)
+→ [Wastewater Engineering](../../hwre/wastewater/wastewater-engineering.md)
+→ [Water Resources Engineering](../../hwre/water_resources/water-resources-engineering.md)
+→ [Water Supply](../../hwre/water_supply/water-supply.md)
 
 **Interview:**
-→ [Technical Interview Bank](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
-→ [Behavioral Guide](../../01_common/behavioral/behavioral-interview-guide.md)
+→ [Technical Interview Bank](../../../05_interview/technical/technical-interview-bank.md)
+→ [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md)
 
 **Related:**
 → [Civil Engineer Study Plan](../fundamentals/role-study-plan.md) — For general civil roles
-→ [Hydrologist Study Plan](../hwre/hydrology/role-study-plan.md) — For water-focused roles
+→ [Hydrologist Study Plan](../../hwre/hydrology/role-study-plan.md) — For water-focused roles
 
 ---
 
-*This study plan follows the [Role Study Plan Template](../../01_common/professional-skills/role-study-plan-template.md).*
+*This study plan follows the [Role Study Plan Template](../../../01_common/professional-skills/role-study-plan-template.md).*
 *Last updated: 2026-09-04*

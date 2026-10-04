@@ -207,8 +207,8 @@ You must quantify, but never fabricate. Use these legitimate quantifiers:
 |:---------|:-----|
 | Civil → Non-Core Skills Mapping | [civil-to-noncore.md](../resume-positioning/civil-to-noncore.md) |
 | Role-Specific Resume Templates | [resume-templates.md](../resume-positioning/resume-templates.md) |
-| Behavioral Stories for Resume | [../../02_interview-preparation/behavioral/behavioral-mastery.md](../../02_interview-preparation/behavioral/behavioral-mastery.md) |
-| Business Fundamentals | [../../03_common-skills/business-fundamentals/business-fundamentals.md](../../03_common-skills/business-fundamentals/business-fundamentals.md) |
+| Behavioral Stories for Resume | [../../02_interview-preparation/behavioral/behavioral-mastery.md](../../../../05_interview/case-interview/behavioral/behavioral-mastery.md) |
+| Business Fundamentals | [../../03_common-skills/business-fundamentals/business-fundamentals.md](../../../placement-math/business-fundamentals/business-fundamentals.md) |
 
 ---
 

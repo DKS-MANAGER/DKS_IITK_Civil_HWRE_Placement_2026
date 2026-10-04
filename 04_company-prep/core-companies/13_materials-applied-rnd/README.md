@@ -1,7 +1,7 @@
 # Sector: Sustainable Materials & Applied Engineering R&D
 
 > **Sector Directory:** 04_company-prep/corporate-targets/13_materials-applied-rnd/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 3 Companies  
 
 ---

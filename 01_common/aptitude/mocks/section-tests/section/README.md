@@ -80,10 +80,10 @@ All tests in this suite enforce standardized negative marking:
 
 After completing any sectional assessment:
 1. Count your raw score: $\text{Raw Score} = \text{Correct} - (0.25 \times \text{Incorrect})$.
-2. Log your performance in [READINESS_SCORECARD.md](../../../05_interview/mock-interviews/READINESS_SCORECARD.md).
+2. Log your performance in [READINESS_SCORECARD.md](../../../../../05_interview/mock-interviews/READINESS_SCORECARD.md).
 3. Classify every lost mark into one of the four cognitive error buckets:
    - **Type C (Conceptual Gap):** Theoretical theorem, formula, or grammar rule forgotten.
    - **Type A (Calculation Slip):** Correct algebraic formulation, but arithmetic or sign mistake.
    - **Type T (Pacing Bottleneck):** Spent $> 90\text{ seconds}$ on a single problem, starving subsequent high-probability questions.
    - **Type M (Misread Trap):** Overlooked a critical boundary constraint or negative polarity word (*except, neither, never*).
-4. Do not re-attempt the exact same test within 48 hours; instead, drill the underlying topic modules in `01_common/aptitude/quantitative/`, `01_common/aptitude/data-interpretation/`, `01_common/aptitude/verbal/`, or `02_02_02_02_core/hwre/`.
+4. Do not re-attempt the exact same test within 48 hours; instead, drill the underlying topic modules in `01_common/aptitude/quantitative/`, `01_common/aptitude/data-interpretation/`, `01_common/aptitude/verbal/`, or `02_core/hwre/`.

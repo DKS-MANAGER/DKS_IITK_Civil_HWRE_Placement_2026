@@ -2,7 +2,7 @@
 
 > **Tool:** EPANET (water distribution network modeling)
 > **Level:** L2 → L3 (from first model to a complete network + extended period simulation)
-> **Prerequisite:** [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md), water supply basics ([`water-supply.md`](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md))
+> **Prerequisite:** [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md), water supply basics ([`water-supply.md`](../water_supply/water-supply.md))
 
 This is a **hands-on walkthrough**, not a feature list. You will build a real water distribution model end-to-end: a **small town network** with a reservoir, a pump, pipes, junctions, and demand. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -237,7 +237,7 @@ By the end you will understand the full EPANET workflow and can discuss it in an
 
 ## 🔗 Related Resources
 
-- [`hwre-tech-roadmap.md`](../hwre/hwre-tech-roadmap.md) — Where EPANET fits in the HWRE stack
-- [`water-supply.md`](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md) — Water supply theory
-- [`groundwater.md`](../../02_02_02_02_02_02_core/hwre/water_supply/groundwater.md) — Source water
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`hwre-tech-roadmap.md`](../../hwre/hwre-tech-roadmap.md) — Where EPANET fits in the HWRE stack
+- [`water-supply.md`](../water_supply/water-supply.md) — Water supply theory
+- [`groundwater.md`](../water_supply/groundwater.md) — Source water
+- [`software-interview-questions.md`](../../../05_interview/technical/software-interview-questions.md) — More tool questions

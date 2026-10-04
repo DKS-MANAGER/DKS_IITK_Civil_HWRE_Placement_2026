@@ -142,4 +142,4 @@ Best regards,
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](README.md)

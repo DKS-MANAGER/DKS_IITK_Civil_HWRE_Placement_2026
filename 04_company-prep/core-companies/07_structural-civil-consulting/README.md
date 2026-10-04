@@ -1,7 +1,7 @@
 # Sector: Structural, Coastal & Value Engineering Consultancies
 
 > **Sector Directory:** 04_company-prep/corporate-targets/07_structural-civil-consulting/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 7 Companies  
 
 ---

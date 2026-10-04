@@ -198,7 +198,7 @@ A: On-time, within budget, meeting scope/quality requirements, and stakeholder s
 
 **Related:**
 → [Operations Overview](../operations/01_role-overview.md) — Operations role
-→ [Risk Rapid Revision](../risk/09_rapid-revision.md) — Risk management
+→ [Risk Rapid Revision](../../finance/risk/09_rapid-revision.md) — Risk management
 → [Behavioral Guide](../../../01_common/behavioral/behavioral-interview-guide.md) — STAR stories
 
 ---

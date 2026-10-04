@@ -98,6 +98,6 @@ While not "design" software, construction engineers must know:
 ## 🔗 Cross-Links
 
 *   **Theory:** [`transportation-engineering.md`](./transportation-engineering.md)
-*   **Career Path:** [`03_non_02_02_core/analytics/analytics/non-core-prep.md`](../../03_non_02_02_core/analytics/analytics/non-core-prep.md)
-*   **Interview Prep:** [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../../01_common/interview-fundamentals/technical/technical-interview-bank.md)
+*   **Career Path:** [`03_non_core/analytics/analytics/non-core-prep.md`](../../03_non_core/analytics/analytics/non-core-prep.md)
+*   **Interview Prep:** [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../../../05_interview/technical/technical-interview-bank.md)
 

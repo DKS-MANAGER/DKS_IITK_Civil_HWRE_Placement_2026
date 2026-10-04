@@ -4,7 +4,7 @@
 
 Infrastructure Engineering & Management bridges civil engineering with project management, construction management, urban planning, infrastructure finance, and public policy — covering the full lifecycle from planning and design through construction, operation, maintenance, and rehabilitation of civil infrastructure systems. Essential for consulting firms (L&T, AECOM, Tata Projects), PSU management roles (NHAI, IRCON, NBCC), and infrastructure finance.
 
-> **Related topics:** [`structures.md`](../structures/structures.md) · [`transportation-engineering.md`](../transportation/transportation-engineering.md) · [`water-supply.md`](../../02_02_02_02_02_02_core/hwre/water_supply/water-supply.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
+> **Related topics:** [`structures.md`](../structures/structures.md) · [`transportation-engineering.md`](../transportation/transportation-engineering.md) · [`water-supply.md`](../../hwre/water_supply/water-supply.md) · [`geotechnical.md`](../geotechnical/geotechnical.md)
 
 ---
 
@@ -785,7 +785,7 @@ A 50-hectare catchment has C = 0.5 and design rainfall intensity = 60 mm/hr. Fin
 - [`structures.md`](../structures/structures.md) — Structural design for infrastructure projects
 - [`transportation-engineering.md`](../transportation/transportation-engineering.md) — Highway & bridge engineering (application domain)
 - [`geotechnical.md`](../geotechnical/geotechnical.md) — Foundation & soil investigation for projects
-- [`water-supply.md`](../hwre/water_supply/water-supply.md) — Water infrastructure projects
+- [`water-supply.md`](../../hwre/water_supply/water-supply.md) — Water infrastructure projects
 - [`geoinformatics.md`](../geoinformatics/geoinformatics.md) — GIS for infrastructure planning & monitoring
 
 ---

@@ -146,7 +146,7 @@ You can mark this topic done when you can:
 | Interview Prep | [link] |
 | Rapid Revision | [link] |
 | Behavioral Prep | [../behavioral/behavioral-interview-guide.md](../behavioral/behavioral-interview-guide.md) |
-| Resume Guide | [../templates/resume-template.md](../templates/resume-template.md) |
+| Resume Guide | [../templates/resume-template.md](../resume/resume-template.md) |
 
 ---
 

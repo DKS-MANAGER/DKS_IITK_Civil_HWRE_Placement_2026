@@ -79,4 +79,4 @@ To ensure candidates do not claim "button proficiency" without genuine project d
 ---
 
 > **Related Navigation:**
-> [TOOLS_INDEX.md](TOOLS_INDEX.md) · [SOFTWARE_ROLE_MATRIX.md](SOFTWARE_ROLE_MATRIX.md) · [SOFTWARE_THEORY_LINKAGE.md](SOFTWARE_THEORY_LINKAGE.md) · [SOFTWARE_RESUME_STRATEGY.md](SOFTWARE_RESUME_STRATEGY.md)
+> [TOOLS_INDEX.md](../../07_resources/reference-material/TOOLS_INDEX.md) · [SOFTWARE_ROLE_MATRIX.md](../../04_company-prep/role-matrix/SOFTWARE_ROLE_MATRIX.md) · [SOFTWARE_THEORY_LINKAGE.md](../../04_company-prep/role-matrix/SOFTWARE_THEORY_LINKAGE.md) · [SOFTWARE_RESUME_STRATEGY.md](../../01_common/resume/SOFTWARE_RESUME_STRATEGY.md)

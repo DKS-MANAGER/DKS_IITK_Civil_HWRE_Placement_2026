@@ -161,11 +161,11 @@ Day 5: Flood analysis | Day 6: GIS mapping | Day 7: Mock interview
 
 ## Cross-Links
 
-- [Hydrology](../../02_02_02_02_02_02_core/hwre/hydrology/hydrology.md)
-- [Open Channel Flow](../../02_02_02_02_02_02_core/hwre/open_channel_flow/open-channel-flow.md)
-- [Hydraulics](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md)
-- [Water Resources Engineering](../../02_02_02_02_02_02_core/hwre/water_resources/water-resources-engineering.md)
-- [Geoinformatics](../../02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md)
+- [Hydrology](../../02_core/hwre/hydrology/hydrology.md)
+- [Open Channel Flow](../../02_core/hwre/open_channel_flow/open-channel-flow.md)
+- [Hydraulics](../../02_core/hwre/hydraulics/hydraulics.md)
+- [Water Resources Engineering](../../02_core/hwre/water_resources/water-resources-engineering.md)
+- [Geoinformatics](../../02_core/civil-engineering/geoinformatics/geoinformatics.md)
 
 ---
 

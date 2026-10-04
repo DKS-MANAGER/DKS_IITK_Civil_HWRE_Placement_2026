@@ -228,8 +228,8 @@ Project 3: BIM Coordination
 | STAAD.Pro | [`tools/STAAD.md`](../tools/STAAD.md) |
 | SAP2000 | [`tools/SAP2000.md`](../tools/SAP2000.md) |
 | Revit / BIM | [`tools/Revit.md`](../tools/Revit.md) |
-| Excel | [`tools/Excel.md`](../tools/Excel.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
+| Excel | [`tools/Excel.md`](../../../01_common/placement-math/Excel.md) |
+| Python | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 
@@ -237,11 +237,11 @@ Project 3: BIM Coordination
 
 | Related Section | Link |
 |:----------------|:-----|
-| Core Structural | [`02_02_02_core/civil-engineering/structures/`](../../02_02_02_core/civil-engineering/structures/structures.md) |
-| BIM Technology | [`bim/`](../bim/bim-tech.md) |
-| CAD → BIM → Digital | [`automation/`](../automation/automation.md) |
-| Python for Engineering | [`programming/python.md`](../programming/python.md) |
+| Core Structural | [`02_core/civil-engineering/structures/`](structures.md) |
+| BIM Technology | [`bim/`](../infrastructure/bim/bim-tech.md) |
+| CAD → BIM → Digital | [`automation/`](../../../03_non_core/software-engineering/automation/automation.md) |
+| Python for Engineering | [`programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) |
 
 ---
 
-*See also: [`bim-tech.md`](../bim/bim-tech.md) for BIM-specific workflows, [`branch-roadmaps.md`](../branch-roadmaps.md) for full branch comparison.*
+*See also: [`bim-tech.md`](../infrastructure/bim/bim-tech.md) for BIM-specific workflows, [`branch-roadmaps.md`](../../../07_resources/reference-material/branch-roadmaps.md) for full branch comparison.*

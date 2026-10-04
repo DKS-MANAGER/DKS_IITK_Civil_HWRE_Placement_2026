@@ -1,6 +1,6 @@
 # Dimension Renewables Pvt. Ltd — Corporate Placement Profile
 
-> **Target ID:** CORP-017 | **Corporate Registry:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Target ID:** CORP-017 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Sector Category:** 04_hydropower-pumped-storage | **Priority Tier:** B (Priority B - Extended Network) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 

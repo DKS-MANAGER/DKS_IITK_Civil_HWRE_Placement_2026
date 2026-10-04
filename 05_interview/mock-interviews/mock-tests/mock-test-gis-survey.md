@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_core/civil-engineering/geoinformatics/role-study-plan.md)
-- [Geoinformatics](../../02_02_02_core/civil-engineering/geoinformatics/geoinformatics.md)
-- [GIS Tools](../../02_02_02_core/civil-engineering/geoinformatics/gis-tech.md)
+- [Role Study Plan](../../../02_core/civil-engineering/geoinformatics/role-study-plan.md)
+- [Geoinformatics](../../../02_core/civil-engineering/geoinformatics/geoinformatics.md)
+- [GIS Tools](../../../02_core/civil-engineering/geoinformatics/gis-tech.md)
 - [Mock Test Hub](README.md)

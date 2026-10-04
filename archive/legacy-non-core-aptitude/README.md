@@ -33,4 +33,4 @@ BASICS → TOPIC MODULES → SHORTCUTS → PRACTICE
 ## Related
 
 - [Non-Core Hub](../README.md)
-- [Placement Roadmap](../placement-roadmap.md)
+- [Placement Roadmap](../../01_common/resume/career-preparation/placement-roadmap/placement-roadmap.md)

@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Product Management Preparation Track](../../01_roles/product-management/README.md)
+- 📖 [Complete Product Management Preparation Track](../../../03_non_core/product/product-management/README.md)
 
 ---
 

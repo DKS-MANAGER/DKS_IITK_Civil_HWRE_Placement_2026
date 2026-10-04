@@ -547,7 +547,7 @@ Q5: "What about saltwater intrusion in coastal aquifers?"
 - [`groundwater.md`](../water_supply/groundwater.md) — Detailed well hydraulics
 - [`flood-control.md`](../flood_control/flood-control.md) — Flood estimation
 - [`hydraulics.md`](../hydraulics/hydraulics.md) — Pipe flow, pumps
-- [`environmental-engineering.md`](../../environmental/environmental-engineering.md) — Water quality
+- [`environmental-engineering.md`](../../civil-engineering/environmental/environmental-engineering.md) — Water quality
 
 ---
 

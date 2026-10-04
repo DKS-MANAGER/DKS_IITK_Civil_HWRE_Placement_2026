@@ -222,14 +222,14 @@ Resume value: High
 
 | Related Section | Link |
 |:----------------|:-----|
-| SQL | [`programming/sql.md`](../programming/sql.md) |
-| Python | [`programming/python.md`](../programming/python.md) |
+| SQL | [`programming/sql.md`](../software-engineering/programming/sql.md) |
+| Python | [`programming/python.md`](../software-engineering/programming/python.md) |
 | Consulting Tech | [`consulting/`](../consulting/consulting-tech.md) |
 | Product Tech | [`product/`](../product/product-tech.md) |
 | Operations Tech | [`operations/`](../operations/operations-tech.md) |
-| Non-Core Prep | [`03_non_02_02_core/analytics/analytics/non-core-prep.md`](../../03_non_02_02_core/analytics/analytics/non-core-prep.md) |
+| Non-Core Prep | [`03_non_core/analytics/analytics/non-core-prep.md`](../../03_non_core/analytics/analytics/non-core-prep.md) |
 
 ---
 
-*See also: [`tech-careers.md`](../technology-careers/tech-careers.md) for role-specific tracks.*
+*See also: [`tech-careers.md`](../software-engineering/tech-careers.md) for role-specific tracks.*
 

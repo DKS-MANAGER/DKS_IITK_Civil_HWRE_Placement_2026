@@ -28,14 +28,14 @@
 
 | Category | File Link | Focus & Content |
 | :--- | :--- | :--- |
-| **Technical: Civil** | [`technical/civil/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/technical/civil/README.md) | High-frequency questions across SOM, Structures, RCC, Geotech, Transportation. |
-| **Technical: HWRE** | [`technical/hwre/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/technical/hwre/README.md) | Fluid Mechanics, Open Channel Flow, Hydrology, Hydroinformatics questions. |
-| **Technical: CFD** | [`technical/cfd/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/technical/cfd/README.md) | Navier-Stokes, Discretization, Turbulence models ($k$-$\epsilon$, $k$-$\omega$), OpenFOAM. |
-| **Project Defense** | [`project-defense/PROJECT_DEFENCE.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/project-defense/PROJECT_DEFENCE.md) | The 4-step project defense framework and challenging defense scenarios. |
-| **Resume Defense** | [`resume-defense/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/resume-defense/README.md) | Defending CPI/CGPA, academic transitions, internships, and technical claims. |
-| **Behavioral & HR** | [`behavioral/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/behavioral/README.md) & [`hr/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/hr/README.md) | STAR stories for leadership, pressure, conflict, "Tell me about yourself". |
-| **Case Interview** | [`case-interview/README.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/case-interview/README.md) | Consulting case communication, structured problem breakdown, and guesstimates. |
-| **Mock Interviews** | [`mock-interviews/MOCK_INTERVIEW.md`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/05_interview/mock-interviews/MOCK_INTERVIEW.md) | Peer mock rubrics, readiness scorecard, and 26 timed mock tests. |
+| **Technical: Civil** | [`technical/civil/README.md`](technical/civil/README.md) | High-frequency questions across SOM, Structures, RCC, Geotech, Transportation. |
+| **Technical: HWRE** | [`technical/hwre/README.md`](technical/hwre/README.md) | Fluid Mechanics, Open Channel Flow, Hydrology, Hydroinformatics questions. |
+| **Technical: CFD** | [`technical/cfd/README.md`](technical/cfd/README.md) | Navier-Stokes, Discretization, Turbulence models ($k$-$\epsilon$, $k$-$\omega$), OpenFOAM. |
+| **Project Defense** | [`project-defense/PROJECT_DEFENCE.md`](project-defense/PROJECT_DEFENCE.md) | The 4-step project defense framework and challenging defense scenarios. |
+| **Resume Defense** | [`resume-defense/README.md`](resume-defense/README.md) | Defending CPI/CGPA, academic transitions, internships, and technical claims. |
+| **Behavioral & HR** | [`behavioral/README.md`](behavioral/README.md) & [`hr/README.md`](hr/README.md) | STAR stories for leadership, pressure, conflict, "Tell me about yourself". |
+| **Case Interview** | [`case-interview/README.md`](case-interview/README.md) | Consulting case communication, structured problem breakdown, and guesstimates. |
+| **Mock Interviews** | [`mock-interviews/MOCK_INTERVIEW.md`](mock-interviews/MOCK_INTERVIEW.md) | Peer mock rubrics, readiness scorecard, and 26 timed mock tests. |
 
 ---
 

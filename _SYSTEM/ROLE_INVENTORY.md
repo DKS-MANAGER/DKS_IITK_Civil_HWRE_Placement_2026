@@ -8,7 +8,7 @@
 
 ### 1. Water Resources Engineer
 - **Track:** Core (HWRE)
-- **Files:** [`water-resources-engineering.md`](../core/hwre/water_resources/water-resources-engineering.md), [`hydrology.md`](../core/hwre/hydrology/hydrology.md), [`open-channel-flow.md`](../core/hwre/open_channel_flow/open-channel-flow.md), [`hydraulics.md`](../core/hwre/hydraulics/hydraulics.md)
+- **Files:** [`water-resources-engineering.md`](../02_core/hwre/water_resources/water-resources-engineering.md), [`hydrology.md`](../02_core/hwre/hydrology/hydrology.md), [`open-channel-flow.md`](../02_core/hwre/open_channel_flow/open-channel-flow.md), [`hydraulics.md`](../02_core/hwre/hydraulics/hydraulics.md)
 - **Total Words:** 18,561 | **Files:** 4 | **Status:** STRONG
 - **Study Files:** ✅ Substantial theory, formulae, examples
 - **Question Files:** ✅ 100+ interview questions across files
@@ -18,7 +18,7 @@
 
 ### 2. Structural Engineer
 - **Track:** Core
-- **Files:** [`structures.md`](../core/structures/structures.md), [`structural-analysis.md`](../core/structural-analysis/structural-analysis.md), [`rcc-design.md`](../core/rcc/rcc-design.md), [`steel-design.md`](../core/steel/steel-design.md)
+- **Files:** [`structures.md`](../02_core/civil-engineering/structures/structures.md), [`structural-analysis.md`](../02_core/civil-engineering/structural-analysis/structural-analysis.md), [`rcc-design.md`](../02_core/civil-engineering/rcc/rcc-design.md), [`steel-design.md`](../02_core/civil-engineering/steel/steel-design.md)
 - **Total Words:** 16,600 | **Files:** 4 | **Status:** STRONG
 - **Study Files:** ✅ Deep theory, IS codes, worked examples
 - **Question Files:** ✅ Concept + numerical questions
@@ -28,7 +28,7 @@
 
 ### 3. Civil Engineer (General)
 - **Track:** Core
-- **Files:** [`civil-engineering-foundations.md`](../core/fundamentals/civil-engineering-foundations.md), [`engineering-mechanics.md`](../core/fundamentals/engineering-mechanics.md), [`strength-of-materials.md`](../core/fundamentals/strength-of-materials.md)
+- **Files:** [`civil-engineering-foundations.md`](../02_core/civil-engineering/fundamentals/civil-engineering-foundations.md), [`engineering-mechanics.md`](../02_core/civil-engineering/fundamentals/engineering-mechanics.md), [`strength-of-materials.md`](../02_core/civil-engineering/fundamentals/strength-of-materials.md)
 - **Total Words:** 9,484 | **Files:** 3 | **Status:** STRONG
 - **Study Files:** ✅ Foundations + mechanics + SOM
 - **Question Files:** ✅ Interview Q&A
@@ -38,7 +38,7 @@
 
 ### 4. Consulting
 - **Track:** Non-Core
-- **Files:** [`consulting-overview.md`](../non-core/01_roles/consulting/consulting-overview.md), [`case-frameworks.md`](../non-core/01_roles/consulting/case-frameworks.md), [`case-bank.md`](../non-core/01_roles/consulting/case-bank.md)
+- **Files:** [`consulting-overview.md`](../non-core/01_roles/consulting/consulting-overview.md), [`case-frameworks.md`](../05_interview/case-interview/case-interviews/case-frameworks.md), [`case-bank.md`](../../03_non_core/consulting/cases/case-bank.md)
 - **Total Words:** 5,421 | **Files:** 3 | **Status:** STRONG
 - **Study Files:** ✅ Frameworks, 15+ cases, worked examples
 - **Question Files:** ✅ 15 questions + 8 behavioral
@@ -48,7 +48,7 @@
 
 ### 5. Hydraulics/CFD Engineer
 - **Track:** Core
-- **Files:** [`hydraulics.md`](../core/hwre/hydraulics/hydraulics.md), [`turbulence-modeling.md`](../core/hwre/hydraulics/turbulence-modeling.md), [`cfd-tech.md`](../software-and-tech/cfd/cfd-tech.md)
+- **Files:** [`hydraulics.md`](../02_core/hwre/hydraulics/hydraulics.md), [`turbulence-modeling.md`](../02_core/hwre/hydraulics/turbulence-modeling.md), [`cfd-tech.md`](../02_core/cfd/cfd-tech.md)
 - **Total Words:** 7,814 | **Files:** 3 | **Status:** STRONG
 - **Study Files:** ✅ Deep theory, OpenFOAM cases
 - **Question Files:** ✅ Technical interview questions
@@ -58,7 +58,7 @@
 
 ### 6. Hydrologist
 - **Track:** Core
-- **Files:** [`hydrology.md`](../core/hwre/hydrology/hydrology.md), [`sediment-transport.md`](../core/hwre/hydrology/sediment-transport.md)
+- **Files:** [`hydrology.md`](../02_core/hwre/hydrology/hydrology.md), [`sediment-transport.md`](../02_core/hwre/hydrology/sediment-transport.md)
 - **Total Words:** 6,287 | **Files:** 2 | **Status:** STRONG
 - **Study Files:** ✅ Comprehensive hydrology + sediment
 - **Question Files:** ✅ 100+ interview questions
@@ -68,7 +68,7 @@
 
 ### 7. Environmental Engineer
 - **Track:** Core
-- **Files:** [`environmental-engineering.md`](../core/environmental/environmental-engineering.md), [`wastewater-engineering.md`](../core/hwre/wastewater/wastewater-engineering.md)
+- **Files:** [`environmental-engineering.md`](../02_core/civil-engineering/environmental/environmental-engineering.md), [`wastewater-engineering.md`](../02_core/hwre/wastewater/wastewater-engineering.md)
 - **Total Words:** 5,072 | **Files:** 2 | **Status:** STRONG
 - **Study Files:** ✅ Water/air quality, solid waste, EIA
 - **Question Files:** ✅ Interview questions
@@ -78,7 +78,7 @@
 
 ### 8. GIS/Survey Engineer
 - **Track:** Core
-- **Files:** [`geoinformatics.md`](../core/geoinformatics/geoinformatics.md), [`gis-tech.md`](../software-and-tech/gis/gis-tech.md)
+- **Files:** [`geoinformatics.md`](../02_core/civil-engineering/geoinformatics/geoinformatics.md), [`gis-tech.md`](../02_core/civil-engineering/geoinformatics/gis-tech.md)
 - **Total Words:** 6,190 | **Files:** 2 | **Status:** STRONG
 - **Study Files:** ✅ Comprehensive GIS/RS/GNSS
 - **Question Files:** ✅ Technical questions
@@ -88,7 +88,7 @@
 
 ### 9. Infrastructure/Project Manager
 - **Track:** Core
-- **Files:** [`infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md)
+- **Files:** [`infrastructure-engineering-management.md`](../02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md)
 - **Total Words:** 5,545 | **Files:** 1 | **Status:** STRONG
 - **Study Files:** ✅ PM fundamentals, construction mgmt, urban planning
 - **Question Files:** ✅ Interview questions
@@ -98,7 +98,7 @@
 
 ### 10. Construction Engineer
 - **Track:** Core
-- **Files:** [`infrastructure-engineering-management.md`](../core/infrastructure/infrastructure-engineering-management.md), [`construction-tech.md`](../software-and-tech/construction/construction-tech.md)
+- **Files:** [`infrastructure-engineering-management.md`](../02_core/civil-engineering/infrastructure/infrastructure-engineering-management.md), [`construction-tech.md`](../02_core/civil-engineering/infrastructure/construction/construction-tech.md)
 - **Total Words:** 6,464 | **Files:** 2 | **Status:** STRONG
 - **Study Files:** ✅ PM + construction tech
 - **Completeness:** ADEQUATE (shares content with Infrastructure/PM)
@@ -109,7 +109,7 @@
 
 ### 11. Product Manager
 - **Track:** Non-Core
-- **Files:** [`pm-overview.md`](../non-core/01_roles/product-management/pm-overview.md), [`product-sense.md`](../non-core/01_roles/product-management/product-sense.md), [`pm-metrics-strategy.md`](../non-core/01_roles/product-management/pm-metrics-strategy.md)
+- **Files:** [`pm-overview.md`](../../03_non_core/product/), [`product-sense.md`](../non-core/01_roles/product-management/product-sense.md), [`pm-metrics-strategy.md`](../non-core/01_roles/product-management/pm-metrics-strategy.md)
 - **Total Words:** 2,978 | **Files:** 3 | **Status:** ADEQUATE
 - **Study Files:** ✅ Product sense, metrics, strategy frameworks
 - **Question Files:** ✅ 20 questions across categories
@@ -129,7 +129,7 @@
 
 ### 13. Business Analyst
 - **Track:** Non-Core
-- **Files:** [`ba-overview.md`](../non-core/01_roles/business-analyst/ba-overview.md), [`sql-practice.md`](../non-core/01_roles/business-analyst/sql-practice.md)
+- **Files:** [`ba-overview.md`](../non-core/01_roles/business-analyst/ba-overview.md), [`sql-practice.md`](../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md)
 - **Total Words:** 2,520 | **Files:** 2 | **Status:** ADEQUATE
 - **Study Files:** ✅ SQL, Excel, data interpretation
 - **Question Files:** ✅ 15 questions + case questions
@@ -139,7 +139,7 @@
 
 ### 14. Transportation Engineer
 - **Track:** Core
-- **Files:** [`transportation-engineering.md`](../core/transportation/transportation-engineering.md), [`transportation-software.md`](../core/transportation/transportation-software.md)
+- **Files:** [`transportation-engineering.md`](../02_core/civil-engineering/transportation/transportation-engineering.md), [`transportation-software.md`](../02_core/civil-engineering/transportation/transportation-software.md)
 - **Total Words:** 4,275 | **Files:** 2 | **Status:** ADEQUATE
 - **Study Files:** ✅ Highway, traffic, pavement design
 - **Question Files:** ✅ Interview questions
@@ -147,7 +147,7 @@
 
 ### 15. Geotechnical Engineer
 - **Track:** Core
-- **Files:** [`geotechnical.md`](../core/geotechnical/geotechnical.md)
+- **Files:** [`geotechnical.md`](../02_core/civil-engineering/geotechnical/geotechnical.md)
 - **Total Words:** 1,599 | **Files:** 1 | **Status:** THIN
 - **Study Files:** ⚠️ Core theory exists but thin
 - **Question Files:** ⚠️ Few questions
@@ -159,7 +159,7 @@
 
 ### 16. Finance
 - **Track:** Non-Core
-- **Files:** [`finance-overview.md`](../non-core/01_roles/finance/finance-overview.md)
+- **Files:** [`finance-overview.md`](../../03_non_core/finance/)
 - **Total Words:** 1,003 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
@@ -171,7 +171,7 @@
 
 ### 18. Supply Chain
 - **Track:** Non-Core
-- **Files:** [`supply-chain-overview.md`](../non-core/01_roles/supply-chain/supply-chain-overview.md)
+- **Files:** [`supply-chain-overview.md`](../../03_non_core/operations/)
 - **Total Words:** 976 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview + questions but needs examples, practice)
 
@@ -195,7 +195,7 @@
 
 ### 22. BIM Engineer
 - **Track:** Core
-- **Files:** [`bim-tech.md`](../software-and-tech/bim/bim-tech.md)
+- **Files:** [`bim-tech.md`](../02_core/civil-engineering/infrastructure/bim/bim-tech.md)
 - **Total Words:** 797 | **Files:** 1 | **Status:** THIN
 - **Completeness:** THIN (has overview but needs examples, practice)
 
@@ -223,17 +223,17 @@
 
 | File | Words | Purpose |
 |:-----|------:|:--------|
-| [`technical-interview-bank.md`](../prep/interview/technical/technical-interview-bank.md) | ~5000+ | 100+ technical interview questions |
-| [`behavioral-interview-guide.md`](../prep/behavioral/behavioral-interview-guide.md) | ~3000+ | STAR stories, behavioral prep |
-| [`hr-questions-bank.md`](../prep/behavioral/hr_questions/hr-questions-bank.md) | ~2500+ | 50 HR questions with answers |
-| [`self-introduction.md`](../prep/behavioral/self_intro/self-introduction.md) | 1840 | Self-intro samples + rubric |
-| [`mock-interview-questions.md`](../prep/interview/mock-tests/mock-interview-questions.md) | ~2000+ | Mock interview sets |
-| [`hr-interview-guide.md`](../prep/interview/hr/hr-interview-guide.md) | ~2500+ | HR interview + negotiation |
-| [`aptitude-basics.md`](../aptitude/quant/README.md) | ~2000+ | Quantitative aptitude |
-| [`guesstimate-guide.md`](../non-core/02_interview-preparation/guesstimates/guesstimate-guide.md) | ~4000+ | 100+ guesstimate questions |
+| [`technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md) | ~5000+ | 100+ technical interview questions |
+| [`behavioral-interview-guide.md`](../01_common/behavioral/behavioral-interview-guide.md) | ~3000+ | STAR stories, behavioral prep |
+| [`hr-questions-bank.md`](../01_common/behavioral/hr_questions/hr-questions-bank.md) | ~2500+ | 50 HR questions with answers |
+| [`self-introduction.md`](../01_common/behavioral/self_intro/self-introduction.md) | 1840 | Self-intro samples + rubric |
+| [`mock-interview-questions.md`](../05_interview/mock-interviews/mock-interview-questions.md) | ~2000+ | Mock interview sets |
+| [`hr-interview-guide.md`](../05_interview/hr/hr-interview-guide.md) | ~2500+ | HR interview + negotiation |
+| [`aptitude-basics.md`](../01_common/aptitude/quantitative/README.md) | ~2000+ | Quantitative aptitude |
+| [`guesstimate-guide.md`](../05_interview/case-interview/guesstimates/guesstimate-guide.md) | ~4000+ | 100+ guesstimate questions |
 | [`non-core-prep.md`](../non-core/01_roles/analytics/non-core-prep.md) | ~1500+ | Analytics prep overview |
-| [`technical-stack.md`](../non-core/01_roles/analytics/technical-stack.md) | 1479 | Software tools guide |
-| [`company-profiles.md`](../prep/company-profiles/company-profiles.md) | ~2000+ | Company profiles hub |
+| [`technical-stack.md`](../../03_non_core/analytics/) | 1479 | Software tools guide |
+| [`company-profiles.md`](../04_company-prep/company-directory/company-profiles.md) | ~2000+ | Company profiles hub |
 
 ---
 

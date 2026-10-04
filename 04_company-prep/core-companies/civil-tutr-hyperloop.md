@@ -80,8 +80,8 @@ Day 7: Mock interview
 ```
 
 ## Cross-Links
-- [Structural Analysis](../../02_02_02_core/civil-engineering/structural-analysis/structural-analysis.md)
-- [Engineering Mechanics](../../02_02_02_core/civil-engineering/fundamentals/engineering-mechanics.md)
+- [Structural Analysis](../../02_core/civil-engineering/structural-analysis/structural-analysis.md)
+- [Engineering Mechanics](../../02_core/civil-engineering/fundamentals/engineering-mechanics.md)
 
 ## References
 - ANSYS Theory Reference

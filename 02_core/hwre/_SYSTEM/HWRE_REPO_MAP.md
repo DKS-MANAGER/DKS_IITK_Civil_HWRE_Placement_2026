@@ -5,7 +5,7 @@
 ## Directory Structure
 
 ```
-02_02_02_02_core/hwre/
+02_core/hwre/
 ├── README.md                      ← Hub (rewritten)
 ├── MASTER_INDEX.md                ← Entry point (1–2 click navigation)
 ├── HWRE_ROADMAP.md                ← Syllabus → Roadmap → Learn → Practice → Test → Revise
@@ -57,18 +57,18 @@
 
 | Resource | Location | Used By |
 |----------|----------|---------|
-| HEC-RAS walkthrough | `02_02_02_02_02_core/hwre/software-deep-dives/hec-ras-walkthrough.md` | MODELLING, README |
-| HEC-HMS tutorial | `02_02_02_02_02_core/hwre/software-deep-dives/hec-hms-tutorial.md` | MODELLING, README |
-| EPANET walkthrough | `02_02_02_02_02_core/hwre/software-deep-dives/epanet-walkthrough.md` | README |
-| SWMM guide | `02_02_02_02_02_core/hwre/software-deep-dives/swmm-guide.md` | README |
-| OpenFOAM case study | `02_02_02_core/cfd/openfoam-case-study.md` | README |
-| GeoStudio SLOPE/W | `02_02_02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md` | README |
-| PLAXIS 2D | `02_02_02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md` | README |
-| GATE Civil formula sheet | `02_02_02_02_02_02_core/gate/formulas/gate-civil-formulas.md` | README, RAPID_REVISION |
+| HEC-RAS walkthrough | `02_core/hwre/software-deep-dives/hec-ras-walkthrough.md` | MODELLING, README |
+| HEC-HMS tutorial | `02_core/hwre/software-deep-dives/hec-hms-tutorial.md` | MODELLING, README |
+| EPANET walkthrough | `02_core/hwre/software-deep-dives/epanet-walkthrough.md` | README |
+| SWMM guide | `02_core/hwre/software-deep-dives/swmm-guide.md` | README |
+| OpenFOAM case study | `02_core/cfd/openfoam-case-study.md` | README |
+| GeoStudio SLOPE/W | `02_core/civil-engineering/geotechnical/software-deep-dives/geostudio-slopew-tutorial.md` | README |
+| PLAXIS 2D | `02_core/civil-engineering/geotechnical/software-deep-dives/plaxis-2d-tutorial.md` | README |
+| GATE Civil formula sheet | `02_core/gate/formulas/gate-civil-formulas.md` | README, RAPID_REVISION |
 | Technical interview bank | `01_common/interview-fundamentals/technical/technical-interview-bank.md` | INTERVIEW, README |
 | Project defense guide | `01_common/interview-fundamentals/technical/project-defense-guide.md` | README |
 | Behavioral guide | `01_common/behavioral/behavioral-interview-guide.md` | README |
-| HWRE tech roadmap | `02_02_02_02_02_core/hwre/hwre-tech-roadmap.md` | README |
+| HWRE tech roadmap | `02_core/hwre/hwre-tech-roadmap.md` | README |
 
 ## Navigation Graph
 
@@ -89,5 +89,5 @@ MASTER_INDEX
 ## Canonical Source Principle
 
 - **Formulas**: `formulas/hwre-formulas.md` is canonical. Subject guides link to it rather than duplicating.
-- **Software workflows**: `MODELLING.md` is canonical. Deep-dives in `02_02_02_core/hwre/software-deep-dives/` provide detail.
+- **Software workflows**: `MODELLING.md` is canonical. Deep-dives in `02_core/hwre/software-deep-dives/` provide detail.
 - **Interview Q&A**: `INTERVIEW.md` is canonical for HWRE-specific questions. General bank in `01_common/interview-fundamentals/technical/`.

@@ -66,12 +66,12 @@ For each important project, prepare all of the following:
 - Were assumptions reasonable?
 
 ### Tools
-- What software/tools did you use? → [Software Hub](../archive/legacy_software/README.md)
+- What software/tools did you use? → [Software Hub](../../archive/legacy_software/README.md)
 - Why those tools?
 - What were the limitations of the tools?
 
 ### Calculations
-- What were the key formulas? → [Formula Sheet](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
+- What were the key formulas? → [Formula Sheet](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
 - What were the key numbers?
 - Can you reproduce the calculation on the spot?
 
@@ -134,12 +134,12 @@ Interviewers often cross into other subjects:
 
 | Resource | Content |
 |:---------|:--------|
-| [Project Defense Guide](interview/technical/project-defense-guide.md) | 35 project defence questions |
-| [Project Discussion](interview/technical/project-discussion.md) | How to pitch projects |
-| [Thesis Defense Guide](interview/technical/thesis-defense-guide.md) | Thesis-specific defence |
-| [Resume Defense](RESUME/RESUME_DEFENSE.md) | Defend CV project lines |
-| [Formula Sheet](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) | Key formulas for calculations |
+| [Project Defense Guide](project-defense-guide.md) | 35 project defence questions |
+| [Project Discussion](project-discussion.md) | How to pitch projects |
+| [Thesis Defense Guide](thesis-defense-guide.md) | Thesis-specific defence |
+| [Resume Defense](../../01_common/resume/RESUME_DEFENSE.md) | Defend CV project lines |
+| [Formula Sheet](../../01_common/aptitude/rapid-revision/FORMULA_SHEET.md) | Key formulas for calculations |
 
 ---
 
-> **Back to:** [Master Prep Plan](MASTER_PREP_PLAN.md) · [Prep Hub](README.md)
+> **Back to:** [Master Prep Plan](../../06_revision/30-day/MASTER_PREP_PLAN.md) · [Prep Hub](../README.md)

@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Management Consulting Preparation Track](../../01_roles/consulting/README.md)
+- 📖 [Complete Management Consulting Preparation Track](../../../03_non_core/consulting/README.md)
 
 ---
 

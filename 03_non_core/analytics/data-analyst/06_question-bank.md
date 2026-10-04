@@ -30,5 +30,5 @@ A composite index on `(city, signup_date, user_status)` creates a multi-column B
 ---
 
 ## Related Question Banks in Repository
-- 📖 [HR & Behavioral Question Bank](../../02_interview-preparation/behavioral/hr-questions.md)
-- 📖 [Guesstimates Master Guide](../../02_interview-preparation/guesstimates/guesstimate-guide.md)
+- 📖 [HR & Behavioral Question Bank](../../../05_interview/case-interview/behavioral/hr-questions.md)
+- 📖 [Guesstimates Master Guide](../../../05_interview/case-interview/guesstimates/guesstimate-guide.md)

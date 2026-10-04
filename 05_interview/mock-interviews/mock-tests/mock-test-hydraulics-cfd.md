@@ -113,7 +113,7 @@
 
 ## Related
 
-- [Role Study Plan](../../02_02_02_02_02_02_core/hwre/hydraulics/role-study-plan.md)
-- [Hydraulics](../../02_02_02_02_02_02_core/hwre/hydraulics/hydraulics.md)
-- [Turbulence Modeling](../../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md)
+- [Role Study Plan](../../../02_core/hwre/hydraulics/role-study-plan.md)
+- [Hydraulics](../../../02_core/hwre/hydraulics/hydraulics.md)
+- [Turbulence Modeling](../../../02_core/hwre/hydraulics/turbulence-modeling.md)
 - [Mock Test Hub](README.md)

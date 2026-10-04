@@ -325,8 +325,8 @@ Adjust the plan based on:
 |:----------------|:-----|
 | Branch Roadmaps | [`branch-roadmaps.md`](branch-roadmaps.md) |
 | Role Roadmaps | [`role-roadmaps.md`](role-roadmaps.md) |
-| Anti-Overload | [`anti-overload.md`](anti-overload.md) |
-| Project-First Learning | [`project-first-learning.md`](project-first-learning.md) |
+| Anti-Overload | [`anti-overload.md`](../../06_revision/anti-overload.md) |
+| Project-First Learning | [`project-first-learning.md`](../../08_projects/project-first-learning.md) |
 
 ---
 

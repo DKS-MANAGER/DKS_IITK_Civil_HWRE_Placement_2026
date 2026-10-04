@@ -52,7 +52,7 @@
 |--------|------|-------------|
 | **IITK PG Questions** | [`iitk-pg-questions.md`](iitk-pg-questions.md) | M.Tech/B.Tech at IIT Kanpur |
 | **Civil/HWRE Behavioral** | [`civil-hwre-behavioral.md`](civil-hwre-behavioral.md) | PSU, Core Civil, Water Resources |
-| **Resume Defense** | [`resume-defense-system.md`](resume-defense-system.md) | All roles (resume-based questions) |
+| **Resume Defense** | [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) | All roles (resume-based questions) |
 | **Company Fit** | [`company-fit-analysis.md`](company-fit-analysis.md) | Company-specific preparation |
 
 ### Advanced Modules
@@ -61,7 +61,7 @@
 |--------|------|-------------|
 | **Follow-up Attack** | [`strategies/follow-up-attack-system.md`](strategies/follow-up-attack-system.md) | Preparing for interviewer probing |
 | **Pressure Interview** | [`pressure-interview-survival.md`](pressure-interview-survival.md) | PSU stress rounds, grueling panels |
-| **Group Discussion** | [`group-discussion-mastery.md`](group-discussion-mastery.md) | GD rounds (PSUs, consulting) |
+| **Group Discussion** | [`group-discussion-mastery.md`](../group-discussion/group-discussion-mastery.md) | GD rounds (PSUs, consulting) |
 | **Situational Judgment** | [`situational-judgment-questions.md`](situational-judgment-questions.md) | "What would you do if..." questions |
 | **Questions to Ask** | [`questions-to-ask-interviewer.md`](questions-to-ask-interviewer.md) | End-of-interview Q&A |
 
@@ -166,9 +166,9 @@
 
 ### Step 4: Specialize (Day 14-21)
 1. Read [`civil-hwre-behavioral.md`](civil-hwre-behavioral.md) for domain-specific prep
-2. Read [`resume-defense-system.md`](resume-defense-system.md) for resume questions
+2. Read [`resume-defense-system.md`](../../05_interview/resume-defense/resume-defense-system.md) for resume questions
 3. Read [`company-fit-analysis.md`](company-fit-analysis.md) for each target company
-4. Practice [`group-discussion-mastery.md`](group-discussion-mastery.md) if GD is required
+4. Practice [`group-discussion-mastery.md`](../group-discussion/group-discussion-mastery.md) if GD is required
 
 ### Step 5: Mock & Refine (Day 21-30)
 1. Run [`mock-interviews/mock-interview-system.md`](mock-interviews/mock-interview-system.md) weekly
@@ -182,11 +182,11 @@
 
 | Behavioral Topic | Technical Reference |
 |-----------------|-------------------|
-| CFD project stories | [`02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) |
-| OpenFOAM stories | [`prep/software-interview-guide.md`](../interview/software-interview-guide.md) |
-| Bridge scour stories | [`02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md`](../../02_02_02_02_02_02_core/hwre/hydrology/sediment-transport.md) |
-| Project defense | [`01_common/interview-fundamentals/technical/project-defense-guide.md`](../interview/technical/project-defense-guide.md) |
-| Mock technical+HR | [`01_common/interview-fundamentals/mock-tests/mock-interview-database.md`](../interview/mock-tests/mock-interview-database.md) |
+| CFD project stories | [`02_core/hwre/hydraulics/turbulence-modeling.md`](../../02_core/hwre/hydraulics/turbulence-modeling.md) |
+| OpenFOAM stories | [`prep/software-interview-guide.md`](../../05_interview/technical/non-core/software-interview-guide.md) |
+| Bridge scour stories | [`02_core/hwre/hydrology/sediment-transport.md`](../../02_core/hwre/hydrology/sediment-transport.md) |
+| Project defense | [`01_common/interview-fundamentals/technical/project-defense-guide.md`](../../05_interview/project-defense/project-defense-guide.md) |
+| Mock technical+HR | [`01_common/interview-fundamentals/mock-tests/mock-interview-database.md`](../../05_interview/mock-interviews/mock-interview-database.md) |
 
 ---
 

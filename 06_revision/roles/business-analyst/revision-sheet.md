@@ -5,7 +5,7 @@
 ---
 
 ## 🔗 Canonical Learning Source
-- 📖 [Complete Business Analyst Preparation Track](../../01_roles/business-analyst/README.md)
+- 📖 [Complete Business Analyst Preparation Track](../../../03_non_core/analytics/business-analyst/README.md)
 
 ---
 

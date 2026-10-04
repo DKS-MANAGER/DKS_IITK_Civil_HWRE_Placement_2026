@@ -100,10 +100,10 @@ Day 5: BMS | Day 6: Company research | Day 7: Mock interview
 ```
 
 ## Cross-Links
-- [Structures](../../02_02_02_core/civil-engineering/structures/structures.md)
-- [Infrastructure](../../02_02_02_core/civil-engineering/infrastructure/)
-- [Environmental Engineering](../../02_02_02_core/civil-engineering/environmental/environmental-engineering.md)
-- [Technical Interview Bank](../interview/technical/technical-interview-bank.md)
+- [Structures](../../02_core/civil-engineering/structures/structures.md)
+- [Infrastructure](../../02_core/civil-engineering/infrastructure/)
+- [Environmental Engineering](../../02_core/civil-engineering/environmental/environmental-engineering.md)
+- [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 
 ## References
 - Johnson Controls website (www.johnsoncontrols.com)

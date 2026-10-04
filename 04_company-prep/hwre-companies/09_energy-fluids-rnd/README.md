@@ -1,7 +1,7 @@
 # Sector: Energy, Subsurface Fluids & Industrial Majors
 
 > **Sector Directory:** 04_company-prep/corporate-targets/09_energy-fluids-rnd/ [SOURCE-DERIVED]  
-> **Master Registry Source:** [Civil_HWRE_Companies.xlsx](../../../../Civil_HWRE_Companies.xlsx) [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
 > **Target Organizations:** 7 Companies  
 
 ---

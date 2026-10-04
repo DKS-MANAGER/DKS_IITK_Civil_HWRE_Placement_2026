@@ -2,7 +2,7 @@
 
 > **Tool:** OpenFOAM (open-source CFD toolbox)
 > **Level:** L2 → L3 (from first case to a complete steady incompressible flow simulation)
-> **Prerequisite:** [`cfd-tech.md`](../cfd/cfd-tech.md), Linux basics ([`linux-dev-tools.md`](../developer-tools/linux-dev-tools.md)), fluid mechanics fundamentals
+> **Prerequisite:** [`cfd-tech.md`](../cfd/cfd-tech.md), Linux basics ([`linux-dev-tools.md`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md)), fluid mechanics fundamentals
 
 This is a **hands-on case study**, not a feature list. You will build a complete OpenFOAM case end-to-end: **steady incompressible flow around a cylinder** (a classic benchmark). Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -566,7 +566,7 @@ Visualize:
 ## 🔗 Related Resources
 
 - [`cfd-tech.md`](../cfd/cfd-tech.md) — Where OpenFOAM fits in the CFD stack
-- [`linux-dev-tools.md`](../developer-tools/linux-dev-tools.md) — Linux/bash prerequisites
-- [`cloud-hpc.md`](../computing/cloud-hpc.md) — Running OpenFOAM on HPC/SLURM
-- [`turbulence-modeling.md`](../../02_02_02_02_02_02_core/hwre/hydraulics/turbulence-modeling.md) — Turbulence theory
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`linux-dev-tools.md`](../../03_non_core/software-engineering/developer-tools/linux-dev-tools.md) — Linux/bash prerequisites
+- [`cloud-hpc.md`](../../03_non_core/software-engineering/computing/cloud-hpc.md) — Running OpenFOAM on HPC/SLURM
+- [`turbulence-modeling.md`](../hwre/hydraulics/turbulence-modeling.md) — Turbulence theory
+- [`software-interview-questions.md`](../../05_interview/technical/software-interview-questions.md) — More tool questions

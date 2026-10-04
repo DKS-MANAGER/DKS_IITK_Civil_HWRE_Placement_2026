@@ -2,7 +2,7 @@
 
 > **Tool:** GeoStudio SLOPE/W (limit-equilibrium slope stability analysis)
 > **Level:** L2 → L3 (from first model to a complete slope stability + factor of safety)
-> **Prerequisite:** [`geotechnical-tech.md`](../geotechnical/geotechnical-tech.md), soil mechanics basics ([`geotechnical.md`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md))
+> **Prerequisite:** [`geotechnical-tech.md`](../../geotechnical/geotechnical-tech.md), soil mechanics basics ([`geotechnical.md`](../geotechnical.md))
 
 This is a **hands-on tutorial**, not a feature list. You will build a real slope stability model end-to-end: an **embankment slope** with a defined slip surface, using the **Morgenstern-Price** method. Each step explains **what** to do, **why** it matters, and **how to check** you did it correctly.
 
@@ -216,8 +216,8 @@ By the end you will understand the full SLOPE/W workflow and can discuss it in a
 
 ## 🔗 Related Resources
 
-- [`geotechnical-tech.md`](../geotechnical/geotechnical-tech.md) — Where SLOPE/W fits in the geotechnical stack
+- [`geotechnical-tech.md`](../../geotechnical/geotechnical-tech.md) — Where SLOPE/W fits in the geotechnical stack
 - [`plaxis-2d-tutorial.md`](plaxis-2d-tutorial.md) — FEM alternative for slope stability
-- [`geotechnical.md`](../../02_02_02_core/civil-engineering/geotechnical/geotechnical.md) — Soil mechanics theory
-- [`comparisons/software-comparison.md`](../comparisons/software-comparison.md) — SLOPE/W vs PLAXIS vs FLAC
-- [`software-interview-questions.md`](../software-interview-questions.md) — More tool questions
+- [`geotechnical.md`](../geotechnical.md) — Soil mechanics theory
+- [`comparisons/software-comparison.md`](../../../../07_resources/reference-material/software-comparison.md) — SLOPE/W vs PLAXIS vs FLAC
+- [`software-interview-questions.md`](../../../../05_interview/technical/software-interview-questions.md) — More tool questions
