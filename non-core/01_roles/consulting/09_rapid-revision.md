@@ -1,152 +1,56 @@
-# Consulting — Rapid Revision Sheet
+# Rapid Revision — 30 to 60 Minute Emergency Review Sheet
 
-> Last-minute revision for consulting interviews. Frameworks, math shortcuts, and key concepts in 15 minutes.
+> **Document Status**: High-Priority Summary & Cheat-Sheet  
+> **Use Case**: Emergency revision 1 hour before a consulting case interview or test.
 
 ---
 
-## Framework 1: Profitability
+## 1. The 30-Second Elevator Cheat-Sheet
 
-```
-Profit = Revenue − Cost
-
-Revenue = Price × Volume
-Cost = Fixed + Variable
-
-Analysis:
-1. Is revenue declining or costs increasing?
-2. Which product/region/customer segment?
-3. Is it volume or price?
-4. Is it one-time or trend?
+```text
+⏱️ MIN 00-10: Review MECE Issue Trees & Profitability Equations
+⏱️ MIN 10-20: Review Guesstimate Baselines (1.4B Pop, 350M HH, 35% Urban)
+⏱️ MIN 20-30: Review Rule of 72, Margins, and LTV/CAC Formulas
+⏱️ MIN 30-40: Review 7-Step Problem Solving Workflow & Case Communication
+⏱️ MIN 40-50: Rehearse 2-Minute "Why Consulting?" Elevator Pitch
 ```
 
 ---
 
-## Framework 2: Market Entry
+## 2. Core Business Equations & Math Shortcuts
 
-```
-1. Market Attractiveness → Size, growth, competition, trends, regulation
-2. Company Fit → Capabilities, brand, distribution, financial strength
-3. Entry Mode → Organic (build) vs. Acquisition vs. Partnership/JV
-4. Financial Viability → Investment required, expected returns, timeline
-```
+$$\text{Profit} = (\text{Quantity} \times \text{Price}) - (\text{Fixed Costs} + \text{Variable Costs})$$
+$$\text{Break-Even Units} = \frac{\text{Fixed Costs}}{\text{Price} - \text{Variable Cost per Unit}}$$
+$$\text{Years to Double (Rule of 72)} \approx \frac{72}{\text{Annual Growth Rate \%}}$$
 
----
-
-## Framework 3: Market Sizing
-
-```
-Method 1: Top-Down → Total Population → Filter → Estimate
-Method 2: Bottom-Up → Single Unit → Multiply → Scale
-Method 3: Demand → # Users × Frequency × Duration
-Method 4: Revenue → Price × Volume
-Method 5: Supply → # Suppliers × Capacity
-Method 6: Analogous → Similar market → Adjust
-```
-
-**Sanity Check:** Does the answer make sense? Compare to GDP, population, known benchmarks.
+* **Percentages**: $12.5\% = 1/8$, $16.7\% = 1/6$, $33.3\% = 1/3$, $37.5\% = 3/8$.
+* **Conversions**: 1 Million = 10 Lakhs ($10^6$), 1 Billion = 100 Crores ($10^9$).
 
 ---
 
-## Framework 4: MECE Principle
+## 3. Top Guesstimate Baseline Numbers (India)
 
-```
-MECE = Mutually Exclusive, Collectively Exhaustive
-
-Mutually Exclusive: No overlap between categories
-Collectively Exhaustive: All possibilities covered
-
-Example (Revenue Analysis):
-├── By Product (A, B, C)
-├── By Region (North, South, East, West)
-└── By Customer (New, Existing)
-```
+* **Total Population**: 1.4 Billion (140 Crore).
+* **Households**: 350 Million (4 people / household).
+* **Urban / Rural**: 35% Urban (~500M) / 65% Rural (~900M).
+* **Smartphone Users**: ~600 Million active users (~65% of adults).
 
 ---
 
-## Mental Math Shortcuts
+## 4. Case Interview Spoken Communication Protocol
 
-| Calculation | Shortcut |
-|:------------|:---------|
-| X% of Y | Find 10% then adjust |
-| 15% of 240 | 10% = 24, 5% = 12, total = 36 |
-| 25% of 800 | 1/4 = 200 |
-| Growth: 100 → 150 in 3 yrs | ~14.5% CAGR |
-| Break-even | Fixed Costs ÷ (Price − Variable Cost) |
-| CAGR | (End/Start)^(1/n) − 1 |
-| Rule of 72 | Doubling time = 72 ÷ growth rate |
-| Market cap | Share price × # shares |
+1. **Clarify Objective**: *"To ensure alignment, our client's main goal is to X within Y timeframe, correct?"*
+2. **Ask for Time**: *"May I take 60 seconds to structure my issue tree?"*
+3. **Present Structure**: *"I've divided the problem into 3 MECE branches: A, B, and C. I'd like to start with A because..."*
+4. **Prune Branches**: *"Since the data shows revenue in region X is flat, I will rule out branch A and focus on branch B."*
+5. **Final Recommendation**: *"Based on our analysis, I recommend 3 actions: 1 (Immediate), 2 (Short-term), 3 (Long-term)."*
 
 ---
 
-## Porter's Five Forces
+## 5. Interview Day Final Checklist
 
-```
-1. Competitive Rivalry → How many competitors? How intense?
-2. Supplier Power → How many suppliers? Switching cost?
-3. Buyer Power → How many buyers? Price sensitivity?
-4. Threat of Substitution → Can customers switch to alternatives?
-5. Threat of New Entry → Barriers to entry? Capital required?
-```
-
----
-
-## 10 Quick-Fire Case Answers
-
-| Question | Framework | Key Insight |
-|:---------|:----------|:------------|
-| Profits declining? | Profitability | Revenue side vs. cost side, segment by product/region |
-| Should we enter market X? | Market Entry | Market size + competition + company fit + financials |
-| How many X in India? | Market Sizing | Top-down or bottom-up, sanity check |
-| Revenue up but profit down? | Profitability | Cost structure analysis, check margins |
-| How to price new product? | Pricing | Cost-plus, value-based, competitive, penetration |
-| Competitor gained share? | Competitive | What changed? Product, price, distribution, marketing |
-| Should we acquire company X? | M&A | Strategic fit, valuation, synergies, integration risk |
-| Costs rising? | Profitability | Which cost category? Fixed vs. variable? Scale effects? |
-| Customer churn increased? | Growth | Which segment? Product issue? Competition? Pricing? |
-| How to grow revenue? | Growth | Market penetration, product development, market development, diversification |
-
----
-
-## Communication Structure
-
-```
-Situation → Complication → Resolution (SCR)
-
-"I was working on [S]. We discovered [C]. My recommendation was [R]."
-
-Framework First:
-"Let me structure this using [framework]. First, [component 1]. Second, [component 2]..."
-```
-
----
-
-## Last-Minute Checklist
-
-- [ ] Reviewed 3 core frameworks (profitability, market entry, pricing)
-- [ ] Practiced 2 cases out loud (timed, 25 min each)
-- [ ] Reviewed mental math shortcuts
-- [ ] Can do market sizing in 5 minutes
-- [ ] Prepared "Why consulting?" (2 min)
-- [ ] Have 6 STAR stories ready
-- [ ] Researched [firm]: recent projects, culture
-- [ ] Reviewed Porter's Five Forces
-- [ ] Can explain MECE principle
-- [ ] Can synthesize a case recommendation in 1 minute
-
----
-
-## Cross-Links
-
-| Resource | Link |
-|:---------|:-----|
-| Full Study Plan | [08_role-study-plan.md](08_role-study-plan.md) |
-| Case Frameworks | [../../02_interview-preparation/case-interviews/framework-library.md](../../02_interview-preparation/case-interviews/framework-library.md) |
-| Case Practice Bank | [06_case-practice.md](06_case-practice.md) |
-| Guesstimates | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
-| Behavioral Guide | [../../../prep/behavioral/behavioral-interview-guide.md](../../../prep/behavioral/behavioral-interview-guide.md) |
-
----
-
-*Print this sheet 1 hour before your consulting interview.*
-
-
+- [ ] Notepad and pen ready for case issue tree drawing.
+- [ ] Quiet, well-lit room for video case interviews.
+- [ ] Business math formulas memorized.
+- [ ] "Why Consulting?" answer anchored in engineering problem-solving.
+- [ ] Confident, structured, calm spoken delivery calibrated.

@@ -1,413 +1,100 @@
-# Consulting Case Practice Bank
+# Comprehensive Solved Case Library (Basic, Intermediate, Hard)
 
-> 15 practice cases with prompts, structures, data, calculations, insights, and recommendations. Work through each one before checking the solution.
-
----
-
-## How to Use This Bank
-
-1. **Read the prompt** — resist the urge to peek at the structure
-2. **Spend 5 minutes** structuring your approach on paper
-3. **Work through the analysis** — do the math
-4. **Formulate your recommendation** — clear, quantified, actionable
-5. **Then compare** with the provided solution
-6. **Note what you missed** and practice those gaps
+> **Document Focus**: Tiered practice case repository with detailed candidate walkthroughs, structures, data hints, and executive recommendations.
 
 ---
 
-## Case 1: Restaurant Profitability
+## Difficulty Classification Standard
 
-**Prompt:** "A chain of 12 restaurants in Mumbai has seen profits drop 40% over the past year (from ₹3.0 Cr to ₹1.8 Cr), despite revenue remaining flat at ₹12 Cr. The CEO wants to understand why and get recommendations."
-
-### Structure (Try Before Looking)
-
-**Profitability framework:**
-- Revenue side: Price stable? Volume stable? Mix change?
-- Cost side: Fixed costs increased? Variable costs increased?
-
-### Data Provided
-
-| Metric | Last Year | This Year | Change |
-|:-------|:---------:|:---------:|:------:|
-| Revenue | ₹12 Cr | ₹12 Cr | 0% |
-| Food cost (variable) | ₹4.2 Cr | ₹5.0 Cr | +19% |
-| Rent (fixed) | ₹1.8 Cr | ₹2.0 Cr | +11% |
-| Staff (fixed) | ₹2.4 Cr | ₹2.5 Cr | +4% |
-| Other costs | ₹0.6 Cr | ₹0.7 Cr | +17% |
-| **Total costs** | **₹9.0 Cr** | **₹10.2 Cr** | **+13%** |
-| **Profit** | **₹3.0 Cr** | **₹1.8 Cr** | **-40%** |
-
-### Analysis
-
-- Revenue is flat — not a demand problem
-- Costs increased by ₹1.2 Cr
-- Food cost increased by ₹0.8 Cr (67% of the total increase)
-- Rent increased by ₹0.2 Cr (possibly new locations)
-- Root cause: Food cost increase (supplier prices? waste? menu pricing?)
-
-### Key Insight
-
-> The problem isn't revenue — it's food cost management. A 19% increase in food cost with flat revenue suggests either supplier price increases, increased waste, or menu pricing that hasn't kept up with cost increases.
-
-### Recommendation
-
-1. **Immediate:** Renegotiate supplier contracts (target 10% reduction → ₹0.5 Cr savings)
-2. **Short-term:** Review menu pricing — increase prices 3-5% on high-volume items
-3. **Medium-term:** Implement waste tracking and reduction program (target 5% waste reduction)
-4. **Monitor:** Track food cost as % of revenue monthly (target: return to 35%)
-
-**Follow-up challenge:** "The CEO says supplier renegotiation isn't possible because there are only 2 suppliers in the region. What now?"
-
-→ Shift to waste reduction, menu engineering, and portion control.
+* **Basic (Easy)**: Single issue driver (Revenue or Cost), linear MECE tree, 2–3 calculation steps.
+* **Intermediate**: Multi-branch driver (Margin + Volume), trade-off analysis, channel shift or market entry decision.
+* **Hard**: Multi-faceted digital transformation, legacy system constraints, complex unit economics, high ambiguity.
 
 ---
 
-## Case 2: Market Entry — EV Charging
+## 1. Easy Cases
 
-**Prompt:** "A large Indian conglomerate is considering entering the EV charging infrastructure business. They want to know if they should enter and how."
+### Case 1.1: Cement Manufacturer Freight Cost Reduction
+* **Difficulty**: Easy
+* **Client**: Major cement producer in North India.
+* **Problem**: Overall logistics and freight expenses have increased by 18% per ton over the last 12 months.
 
-### Structure (Try Before Looking)
-
-**Market Entry framework:**
-- Market attractiveness (size, growth, competition)
-- Company capabilities
-- Entry mode
-- Financial viability
-
-### Data Provided
-
-- India EV market growing at 40% CAGR
-- Current EV penetration: 2% of vehicles
-- Government target: 30% by 2030
-- Current charging stations: ~5,000 (need estimated 50,000+ by 2030)
-- Average installation cost: ₹15 lakh per station
-- Revenue per station: ₹3 lakh/year
-- Competitors: 15+ players, mostly startups
-- Conglomerate has: capital, land parcels across India, brand recognition, government relationships
-
-### Analysis
-
-**Market attractiveness:**
-- Large market with massive growth (50,000 stations × ₹15L = ₹750 Cr investment opportunity)
-- Government support (subsidies, mandates)
-- Low current penetration = early mover advantage
-
-**Competition:**
-- Fragmented — mostly startups with limited capital
-- No dominant player yet
-- Conglomerate's capital and land give significant advantage
-
-**Capabilities:**
-- Capital: Strong (can invest ₹500+ Cr)
-- Land: Existing parcels in key locations
-- Brand: Established trust
-- Government relationships: Strong (regulatory advantage)
-
-### Recommendation
-
-> **Enter the market through a phased approach.**
-> Phase 1 (Year 1): Install 500 stations in top 10 cities using existing land parcels
-> Phase 2 (Year 2-3): Scale to 5,000 stations through partnerships with fuel stations, malls
-> Phase 3 (Year 4+): Explore battery swapping and fast charging technology
-
-**Financial projection:** 500 stations × ₹3L revenue = ₹15 Cr/year revenue. Break-even in 3-4 years. At scale (5,000 stations), ₹150 Cr/year revenue.
+#### Walkthrough & Solution:
+1. **Clarifying Questions**: Has total cement volume produced changed? (No). Are diesel prices up? (Up by 5%).
+2. **Issue Tree Structure**:
+   * **Inbound Raw Material Transport**: Gypsum/Clinker freight.
+   * **Outbound Finished Goods Transport**: Rail vs Road distribution split.
+3. **Data Analysis**:
+   * Rail transport cost = ₹1.2 / ton-km.
+   * Road transport cost = ₹2.8 / ton-km.
+   * Road transport share increased from 30% to 65% due to rail wagon allocation delays.
+4. **Recommendation**:
+   * Negotiate long-term rake contracts with Indian Railways for guaranteed wagon availability.
+   * Implement route optimization software for remaining road fleets.
+   * **Expected Savings**: 12% reduction in total freight cost.
 
 ---
 
-## Case 3: Pricing Strategy — SaaS Product
+## 2. Intermediate Cases
 
-**Prompt:** "A B2B SaaS company sells project management software at ₹500/user/month. They have 10,000 users but growth has stalled. Should they change pricing?"
+### Case 2.1: Tier-1 Bank Credit Card Churn Analysis
+* **Difficulty**: Intermediate
+* **Client**: Top 3 private sector bank in India.
+* **Problem**: Credit card customer annual churn rate increased from 8% to 19% in urban metro cities.
 
-### Structure
-
-**Pricing framework:**
-- Cost-based analysis
-- Value-based analysis
-- Competition analysis
-- Elasticity assessment
-
-### Data
-
-- Churn rate: 8% monthly (high)
-- Competitor pricing: ₹300-800/user/month
-- Customer surveys: 70% say product is "good value" at current price
-- Lost deals: 40% cite price as reason
-- CAC: ₹5,000/customer
-- LTV: ₹6,250 (at current churn)
-- Gross margin: 80%
-
-### Analysis
-
-- Price is within competitive range (not obviously overpriced)
-- But 40% of lost deals cite price → price-sensitive segment exists
-- High churn suggests value delivery issue, not just pricing
-- LTV:CAC = 1.25:1 — barely sustainable
-
-### Recommendation
-
-> **Introduce tiered pricing:**
-> - Basic: ₹300/user/month (limited features) — capture price-sensitive segment
-> - Pro: ₹500/user/month (current features) — retain existing customers
-> - Enterprise: ₹800/user/month (premium features + support) — capture high-value segment
->
-> This addresses the 40% lost-on-price while maintaining current revenue from existing customers.
+#### Walkthrough & Solution:
+1. **Issue Tree Structure (Customer Lifecycle)**:
+   * **Onboarding Experience**: Application friction, credit limit satisfaction.
+   * **Product Value Proposition**: Reward point value, annual fees, merchant partner discounts.
+   * **Customer Service & Claims**: Dispute resolution speed, app UX.
+2. **Data Findings**:
+   * Competitor banks launched co-branded travel & dining cards offering 3x reward point redemption value.
+   * Client's reward redemption process required desktop website logins, whereas competitors enabled 1-click mobile app redemptions.
+3. **Recommendation**:
+   * Upgrade Mobile Banking App to support 1-click instant reward redemption at checkout.
+   * Partner with major dining/travel platforms (Zomato Gold, MakeMyTrip) for co-branded cards.
+   * **Expected Impact**: Churn reduced back to <10% within 6 months.
 
 ---
 
-## Case 4: Growth Strategy — Online Education
+## 3. Hard Cases
 
-**Prompt:** "An online test prep platform has 50,000 active users and wants to grow to 200,000 in 2 years. Revenue is ₹10 Cr/year."
+### Case 3.1: Global Airline Fleet Digital Modernization & Fuel Efficiency
+* **Difficulty**: Hard
+* **Client**: International commercial airline operating 120 aircraft.
+* **Problem**: Fuel expenditure accounts for 40% of total operating expense. Fuel consumption per seat-kilometer is 14% higher than industry benchmarks.
 
-### Structure
+#### Walkthrough & Solution:
+```text
+                         [Fuel Cost Reduction]
+                                   │
+         ┌─────────────────────────┴─────────────────────────┐
+         ▼                                                   ▼
+[Flight Path & Speed Optimization]               [Aircraft Weight & Payload]
+         │                                                   │
+  ┌──────┴──────┐                                     ┌──────┴──────┐
+  ▼             ▼                                     ▼             ▼
+[AI Routing] [Altitude Profile]                    [Cargo Load] [Auxiliary Fuel]
+```
 
-**Growth strategy framework:**
-- Market penetration (more from existing)
-- Market development (new markets)
-- Product development (new products)
-
-### Analysis
-
-- Current: 50,000 users, ₹2,000 ARPU/year
-- Target: 200,000 users, ₹10 Cr → ₹40 Cr (4x growth)
-- Options: 4x users, or 2x users × 2x ARPU
-
-**Growth levers:**
-1. Geographic expansion (Tier 2/3 cities) — large untapped market
-2. New exam categories (GATE → CAT, UPSC, Bank PO)
-3. Freemium model to increase top-of-funnel
-4. B2B sales to coaching institutes
-
-### Recommendation
-
-> **Multi-pronged growth:**
-> Year 1: Expand to 3 new exam categories + launch freemium tier → target 120,000 users
-> Year 2: B2B partnerships with 200 coaching institutes + Tier 2 city marketing → target 200,000 users
-> Revenue mix: Direct subscriptions (60%) + B2B (25%) + Premium features (15%)
-
----
-
-## Case 5: Operations — Manufacturing
-
-**Prompt:** "A cement manufacturer has seen delivery delays increase from 5% to 25% over 6 months. Customers are complaining. What's happening and how do you fix it?"
-
-### Structure
-
-**Operations framework:**
-- Process mapping
-- Bottleneck identification
-- Root cause analysis
-
-### Analysis
-
-- Delivery delays are a throughput problem
-- Possible causes: Production bottlenecks, logistics issues, demand surge, capacity constraints
-- Need to map the process: Quarry → Crushing → Grinding → Kiln → Packaging → Transport → Customer
-
-**Most likely root causes:**
-1. Kiln capacity (often the bottleneck in cement)
-2. Transportation fleet availability
-3. Seasonal demand surge
-4. Quality issues causing rework
-
-### Recommendation
-
-> **Immediate (Week 1-2):**
-> - Map current process and identify actual bottleneck
-> - Implement delivery scheduling system
-> - Add shift at bottleneck (kiln) if capacity constrained
->
-> **Short-term (Month 1-3):**
-> - Contract third-party transport for peak demand
-> - Implement quality gates to reduce rework
-> - Set up real-time delivery tracking dashboard
->
-> **Medium-term (Month 3-6):**
-> - Invest in kiln capacity expansion
-> - Implement demand forecasting
-> - Long-term transport contracts
+1. **Analytical Deep-Dive**:
+   * Flight planning relies on static seasonal flight paths rather than real-time AI weather and jet stream routing data.
+   * Pilots over-fuel aircraft by 8% as a safety buffer due to conservative static fuel prediction software.
+2. **Technology Architecture (Cloud & Edge AI)**:
+   * Implement real-time AI Flight Trajectory Optimization (Azure Cloud engine) streaming satellite wind profiles directly to flight deck iPads.
+   * Deploy machine learning fuel prediction models taking into account exact aircraft weight, landing hold times, and temperature.
+3. **Recommendation & ROI**:
+   * Deploy AI Flight Planning software across long-haul routes.
+   * Reduce excess safety fuel carryover by 60% without compromising safety margins.
+   * **Financial Impact**: $42 Million annual fuel cost savings; 120,000 metric tons CO2 emission reduction.
 
 ---
 
-## Case 6-10: Quick Cases (15 minutes each)
+## 4. Practice Case Matrix
 
-### Case 6: Market Sizing
-"Estimate the number of smartphones sold in India annually."
-→ Population 1.4B × 60% eligible × 20% replace yearly = ~168 million
-
-### Case 7: Competitive Analysis
-"Airline X wants to launch a new route. How should they decide?"
-→ Route attractiveness + competition + cost + revenue potential + fleet availability
-
-### Case 8: Cost Reduction
-"A hospital's costs are 15% above benchmark. How would you reduce them?"
-→ Benchmark by department, identify outliers, root cause analysis, implement fixes
-
-### Case 9: Revenue Growth
-"A FMCG company's detergent brand lost 5% market share. Why?"
-→ Distribution vs. pricing vs. product vs. marketing — test each hypothesis
-
-### Case 10: New Product
-"Should a mobile phone company launch a smartwatch?"
-→ Market size, competition, company capabilities, cannibalization, margins
-
----
-
-## Civil-Engineering Specific Cases (Full Worked Solutions)
-
-### Case 11: Highway Construction Cost Overruns (Detailed)
-
-**Prompt:** "A 200 km NHAI highway project is 40% over budget (₹800 Cr vs. ₹570 Cr original). The project manager wants to understand the cost drivers and prevent this on future projects."
-
-**Framework:** Profitability (Cost decomposition)
-
-**Data:**
-| Cost Category | Original (₹ Cr) | Actual (₹ Cr) | Variance |
-|:--------------|:----------------:|:--------------:|:--------:|
-| Land Acquisition | 120 | 180 | +50% |
-| Earthwork | 85 | 95 | +12% |
-| Pavement | 150 | 160 | +7% |
-| Bridges/Crossings | 80 | 110 | +38% |
-| Project Management | 35 | 55 | +57% |
-| Contingency | 100 | 200 | +100% |
-| **Total** | **570** | **800** | **+40%** |
-
-**Analysis:**
-- Land acquisition (+₹60 Cr): 26.1% of the total project overrun (₹60 Cr / ₹230 Cr total overrun; a +50% surge over original land budget). Causes: delayed acquisition, compensation litigation, increased state circle rates.
-- Contingency (+₹100 Cr): 43.5% of total overrun. Used to cover scope changes, severe monsoon washouts, and contractor claims.
-- Bridges & Crossings (+₹30 Cr): 13.0% of total overrun. Design alterations during execution, unexpected scour and soil conditions at pier foundations.
-- Project Management (+₹20 Cr): 8.7% of total overrun. Extended project schedule directly inflated supervision, idling, and consultant billing.
-- Earthwork (+₹10 Cr) and Pavement (+₹10 Cr): Together 8.7% of total overrun — execution was relatively disciplined (+12% and +7% respectively).
-
-**Recommendation:**
-1. **Land:** Front-load acquisition by 12 months, use direct purchase over acquisition proceedings where possible
-2. **Bridges:** Conduct detailed geotechnical investigation before design finalization
-3. **Contingency:** Reduce scope creep through strict change-order process
-4. **Target:** Future projects should aim for ≤10% overrun (industry benchmark)
-
----
-
-### Case 12: Urban Waterlogging Solution (Detailed)
-
-**Prompt:** "Jaipur faces severe waterlogging during monsoon season (July-September). 15 areas are regularly affected, causing ₹50 Cr annual damage. Design a comprehensive solution."
-
-**Framework:** Operations + Growth Strategy
-
-**Data:**
-- City area: 485 km², population: 3.5 million
-- Average monsoon rainfall: 650 mm (July-September)
-- Existing drainage: 19th century open drains, designed for 50 mm/day
-- Actual peak intensity: 120 mm/day
-- Storm water drains: 850 km total, 40% silted/blocked
-- Green cover: 8% (very low)
-
-**Analysis:**
-- **Root cause:** Drainage capacity (50 mm/day) < actual intensity (120 mm/day) = 2.4x deficit
-- **Contributing:** Blocked drains reduce effective capacity further by ~30%
-- **Green cover:** 8% means high runoff coefficient (~0.85 vs. 0.3 for 30% green cover)
-
-**Recommendation:**
-> **Short-term (Monsoon 2026):**
-> - Desilt all 850 km drains (₹15 Cr, reduces blockage impact by 70%)
-> - Install real-time water level sensors at 50 critical points
-> - Deploy mobile dewatering pumps at 15 worst areas
->
-> **Medium-term (2027-2028):**
-> - Upgrade trunk drains in 15 affected areas to handle 100 mm/day
-> - Implement rainwater harvesting mandate for all buildings >500 m²
-> - Create 50 acres of urban wetlands for natural retention
->
-> **Long-term (2029+):**
-> - Develop a city-wide master drainage plan with climate change projections
-> - Target green cover increase to 20% through urban forestry
-> - Integrate with metro construction for underground drainage tunnels
-
-**Cost-benefit:** Total investment ~₹500 Cr over 5 years. Annual damage reduction: ₹40 Cr/year. Benefit-cost ratio: ~3.2:1 (including avoided damage, property value increase, health benefits).
-
----
-
-### Case 13: Cement Plant Capacity Expansion
-
-**Prompt:** "UltraTech wants to add 5 MTPA cement capacity in Rajasthan. Should they build new or acquire existing plants?"
-
-**Framework:** M&A + Growth Strategy
-
-**Analysis:**
-- New plant: ₹5,000 Cr investment, 3-year timeline, limestone mine needed
-- Acquisition: Existing plants available at ₹3,000-4,000 Cr, operational immediately
-- Market demand: Rajasthan + Gujarat growing at 8% CAGR
-- Limestone availability: Limited in Rajasthan (regulatory restrictions)
-
-**Recommendation:** Acquire 2 smaller plants (2.5 MTPA each) in different locations. Faster to market, lower capital risk, existing limestone linkages. Commission expansion at acquired plants to add 1 MTPA each.
-
----
-
-## Interview Tips for Civil-to-Consulting Candidates
-
-**What interviewers look for in civil candidates:**
-1. **Quantitative rigor** — Use real numbers (₹ Cr, km, mm/day, %) in every recommendation
-2. **Domain credibility** — Reference actual codes (IRC, IS, MoRTH) and industry benchmarks
-3. **Structured thinking** — Framework + data + synthesis, not just intuition
-4. **Practical judgment** — Recommendations that could actually be implemented in India
-
-**Common follow-ups:**
-- "How would you implement this?" → Phased plan with timeline
-- "What are the risks?" → Top 3 risks with mitigation
-- "How much would this cost?" → Order-of-magnitude estimate with assumptions
-- "What data would you need?" → Specific, actionable data requests
-
----
-
-## 🔗 Cross-Links
-
-| Resource | Link |
-|:---------|:-----|
-| Frameworks | [`../../02_interview-preparation/case-interviews/framework-library.md`](../../02_interview-preparation/case-interviews/framework-library.md) |
-| Consulting Overview | [`consulting-overview.md`](01_role-overview.md) |
-| Guesstimates | [`../../02_interview-preparation/guesstimates/guesstimate-guide.md`](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
-| Mock Interviews | [`../../02_interview-preparation/mock-interviews/mock-system.md`](../../02_interview-preparation/mock-interviews/mock-system.md) |
-| Behavioral Guide | [`../../../prep/behavioral/behavioral-interview-guide.md`](../../../prep/behavioral/behavioral-interview-guide.md) |
-| Resume Positioning | [`../../04_career-preparation/resume-positioning/civil-to-noncore.md`](../../04_career-preparation/resume-positioning/civil-to-noncore.md) |
-
----
-
-*Practice 2-3 cases per week. Quality of practice beats quantity. Always debrief after each case.*
-
-### Case 13: Real Estate
-"A developer has 200 unsold apartments. How do you sell them?"
-→ Price analysis, buyer segmentation, marketing strategy, payment plans
-
-### Case 14: Healthcare
-"A rural hospital has low patient footfall despite good doctors."
-→ Awareness, access, pricing, competition, community engagement
-
-### Case 15: Education Tech
-"An EdTech platform has high sign-ups but 70% drop off after first week."
-→ Onboarding analysis, content quality, engagement metrics, retention strategy
-
----
-
-## Evaluation Rubric
-
-| Criterion | Poor (1) | Good (3) | Excellent (5) |
-|:----------|:---------|:---------|:--------------|
-| **Structure** | No framework | Applied standard framework | Customized framework to the case |
-| **Analysis** | Superficial | Logical with some data | Deep, quantified, insightful |
-| **Communication** | Rambling | Organized | Synthesized, clear recommendation |
-| **Business Judgment** | Generic | Sensible | Creative yet practical |
-| **Math** | Incorrect | Correct but slow | Fast, accurate, sanity-checked |
-
----
-
-## Cross-Links
-
-| Resource | Link |
-|:---------|:-----|
-| Frameworks | [../../02_interview-preparation/case-interviews/framework-library.md](../../02_interview-preparation/case-interviews/framework-library.md) |
-| Case Communication | [case-communication.md](../../02_interview-preparation/case-interviews/case-communication.md) |
-| Guesstimates | [guesstimate-guide.md](../../02_interview-preparation/guesstimates/guesstimate-guide.md) |
-| Mock Interviews | [mock-system.md](../../02_interview-preparation/mock-interviews/mock-system.md) |
-
----
-
-*Practice 2-3 cases per week. Quality of practice beats quantity. Always debrief after each case.*
-
+| Case Title | Type | Key Skill Tested | Recommended Time |
+| :--- | :--- | :--- | :---: |
+| **Retail Grocery Margin Loss** | Basic Profitability | Cost tree breakdown | 15 Mins |
+| **Solar Panel Manufacturer Entry** | Market Entry | CapEx & Payback period | 20 Mins |
+| **Hospital Emergency Bed Capacity** | Operations Bottleneck | Queueing & Throughput | 20 Mins |
+| **Fintech Loan Approval DX** | Digital Transformation | Process automation & Risk | 25 Mins |
