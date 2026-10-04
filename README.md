@@ -57,12 +57,12 @@ START HERE
 | Section | Directory Link | Primary Purpose & Contents |
 | :--- | :--- | :--- |
 | **01. Common** | [`01_common/`](01_common/README.md) | Universal preparation: 90+ topic Aptitude engine, Professional engineering skills, Master Resume templates, Behavioral STAR story banks, Interview fundamentals, Group Discussion, and Placement Math. |
-| **02. Core** | [`02_core/`](README.md) | Technical engineering layer: Classical Civil sub-disciplines (SOM, Structures, RCC, Steel, Geotech, Highway, Environmental), HWRE specialization, Computational Fluid Dynamics (CFD), and GATE Civil. |
-| **03. Non-Core** | [`03_non_core/`](README.md) | High-impact non-core career tracks: Management Consulting, Software Engineering, Data Science, Business Analytics, Product Management, Corporate Finance, and Operations. |
-| **04. Company Prep** | [`04_company-prep/`](archive/legacy_prep/README.md) | Target firm intelligence: 50+ company profiles (Core, Water, Consulting, Software), cross-company skill matrices, and dedicated packages like **Accenture Japan Digital Consultant**. |
+| **02. Core** | [`02_core/`](02_core/README.md) | Technical engineering layer: Classical Civil sub-disciplines (SOM, Structures, RCC, Steel, Geotech, Highway, Environmental), HWRE specialization, Computational Fluid Dynamics (CFD), and GATE Civil. |
+| **03. Non-Core** | [`03_non_core/`](03_non_core/README.md) | High-impact non-core career tracks: Management Consulting, Software Engineering, Data Science, Business Analytics, Product Management, Corporate Finance, and Operations. |
+| **04. Company Prep** | [`04_company-prep/`](04_company-prep/README.md) | Target firm intelligence: 50+ company profiles (Core, Water, Consulting, Software), cross-company skill matrices, and dedicated packages like **Accenture Japan Digital Consultant**. |
 | **05. Interview** | [`05_interview/`](05_interview/README.md) | Execution layer: Role-specific technical interview question banks (Civil, HWRE, CFD), 4-step project defense, line-by-line resume defense, HR fit, case interview execution, and 26 mock tests. |
 | **06. Revision** | [`06_revision/`](06_revision/README.md) | Centralized time-bound review roadmaps: 30-day comprehensive, 14-day accelerated, 7-day sprint, 3-day emergency, and "Interview Tomorrow" survival kits. |
-| **07. Resources** | [`07_resources/`](README.md) | Supporting external reference materials: Curated textbooks, NPTEL/online video lectures, IS/IRC/FHWA engineering codes, online tools, and software comparison charts. |
+| **07. Resources** | [`07_resources/`](07_resources/README.md) | Supporting external reference materials: Curated textbooks, NPTEL/online video lectures, IS/IRC/FHWA engineering codes, online tools, and software comparison charts. |
 | **08. Projects** | [`08_projects/`](08_projects/README.md) | M.Tech research and coursework portfolio: Bridge hydrodynamic scour risk (`bridgerisk`), streamflow time-series forecasting (`streamflow-time-series`), rainfall IDF modeling (`idf-pet`), and GIS networks. |
 
 ---
@@ -110,5 +110,5 @@ START HERE
 ---
 
 ## ⚙️ Maintenance & System Notes
-* All internal agent logs, migration tools, and audit states are isolated under [`_SYSTEM/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/_SYSTEM/).
-* Obsolete legacy indexes and superseded files are archived under [`archive/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/archive/).
+* All internal agent logs, migration tools, and audit states are isolated under [`_SYSTEM/`](_SYSTEM/).
+* Obsolete legacy indexes and superseded files are archived under [`archive/`](archive/).
