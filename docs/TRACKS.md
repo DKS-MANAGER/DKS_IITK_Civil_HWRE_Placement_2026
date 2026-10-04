@@ -11,7 +11,7 @@
 | **Core Civil** | [`02_core/`](../02_core/) | Structural, geotech, transport, environmental, infrastructure, geoinformatics |
 | **HWRE / Water Resources** | [`02_core/hwre/`](../02_core/hwre/) | Hydraulics, hydrology, water resources (flagship) |
 | **Non-Core** | [`03_non_core/`](../03_non_core/) | Consulting, data, product, finance, operations, etc. |
-| **Software & Tech** | [`software-and-tech/`](../../03_non_core/software-engineering/) | Programming, tools, role-specific software |
+| **Software & Tech** | [`software-and-tech/`](../03_non_core/software-engineering/) | Programming, tools, role-specific software |
 
 ---
 
@@ -67,7 +67,7 @@ Career tracks beyond traditional civil engineering. See [`03_non_core/README.md`
 
 Software skills and tools. See [`archive/legacy_software/README.md`](../archive/legacy_software/README.md).
 
-- Programming → [`03_non_02_core/software-engineering/programming/`](../03_non_02_core/software-engineering/programming/)
+- Programming → [`03_non_02_core/software-engineering/programming/`](../03_non_core/software-engineering/04_tools-and-technical.md)
 - Tools (AutoCAD, ETABS, STAAD, QGIS, Primavera, Revit, SAP2000) → [`02_core/civil-engineering/tools/`](../02_core/civil-engineering/tools/)
 
 ---

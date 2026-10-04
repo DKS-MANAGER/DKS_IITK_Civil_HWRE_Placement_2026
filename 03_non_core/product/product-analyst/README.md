@@ -2,7 +2,13 @@
 
 > Placement-focused preparation curriculum for IIT Kanpur students targeting **Product Analyst** roles at top recruiting firms.
 
+
+> [!NOTE]
+> **Track Status: Scaffold / Secondary Reference Track**
+> This module provides standard structural benchmarks and role taxonomy for IITK placements. Core question banks and practice cases for this secondary track are currently being expanded. For high-yield immediate preparation, prioritize **01_common**, **Analytics & BA**, **Risk Analytics**, or **Consulting**.
+
 ---
+
 
 ## 📋 Role Snapshot
 - **Target Companies**: Groww, Zepto, CRED, Dream11, Swiggy, Nykaa, InMobi, PhonePe, Meesho

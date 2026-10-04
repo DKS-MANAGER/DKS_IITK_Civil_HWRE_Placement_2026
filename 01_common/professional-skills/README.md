@@ -1,37 +1,36 @@
-# Templates
+# Engineering Professional Skills & Site Management
 
-> Reusable templates for resumes, study plans, self-introductions, and interview answers.
-
----
-
-## Navigation
-
-| Template | Content |
-|:---------|:--------|
-| [Resume Template](../resume/resume-template.md) | Role-specific resume guidance (core + non-core) |
-| [Role Study Plan Template](role-study-plan-template.md) | Standard 4-topic study plan structure |
-| [Study Plan Template](study-plan-template.md) | Generic study plan structure |
-| [Self-Intro Template](../interview-fundamentals/self-intro-template.md) | Present → Past → Future self-introduction framework |
-| [Interview Answer Template](../interview-fundamentals/interview-answer-template.md) | Structured interview answer format |
+> Core engineering professional competencies, construction project management, contracts, quantity estimation, and QA/QC safety standards for Civil, Infrastructure, and Project Engineering roles.
 
 ---
 
-## Preparation Chain
+## 🏛️ Professional Competency Matrix
 
-```
-RESUME → STUDY PLAN → SELF-INTRO → INTERVIEW ANSWERS
-```
-
-| Stage | What to Do | Where |
-|:------|:-----------|:------|
-| **Resume** | Build your resume | [Resume Template](../resume/resume-template.md) |
-| **Study Plan** | Structure your prep | [Role Study Plan Template](role-study-plan-template.md) |
-| **Self-Intro** | Prepare your introduction | [Self-Intro Template](../interview-fundamentals/self-intro-template.md) |
-| **Interview** | Structure your answers | [Interview Answer Template](../interview-fundamentals/interview-answer-template.md) |
+| Module | Core Domain / Focus | Key Concepts & Industry Tools | Primary Placement Target |
+|:-------|:--------------------|:------------------------------|:-------------------------|
+| [Primavera P6](Primavera.md) | Project Scheduling & Controls | WBS, CPM, Resource Loading, Baselines, EVM (Earned Value Management) | Project Management, EPC, Infrastructure |
+| [Contracts & Tendering](contracts-and-tendering.md) | Contract Management & Procurement | FIDIC, Item Rate, EPC, L1 Evaluation, Dispute Resolution, Claims | Techno-commercial, Tendering, EPC |
+| [Estimation & Quantity Surveying](estimation-and-quantity-surveying.md) | Cost Engineering & BOQ | Bill of Quantities (BOQ), Rate Analysis, Material Take-off, DSR/CPWD | Cost Engineering, Project Execution |
+| [Practical Site Execution](practical-site-execution.md) | Field Operations & Civil Works | Concreting, Formwork, Shuttering, Bar Bending Schedule (BBS), Soil Compaction | Site Engineering, Construction Management |
+| [QA/QC & Site Safety](qa-qc-and-site-safety.md) | Quality Assurance & HSE | Non-Destructive Testing (NDT), Slump/Cube Tests, OSHA/ISO, Hazard Identification | Quality Control, Safety Auditing, Operations |
 
 ---
 
-## Related
+## 📋 Planning & Preparation Templates
 
-- [Prep Hub](../README.md)
-- [Non-Core Hub](../../03_non_core/README.md)
+For structuring your personalized preparation sprints:
+
+| Template | Scope |
+|:---------|:------|
+| [Role Study Plan Template](role-study-plan-template.md) | 4-Topic Milestone Study Plan structure for domain tracks |
+| [General Study Plan Template](study-plan-template.md) | Comprehensive daily/weekly milestone tracking template |
+
+*(For Master Resume templates and Behavioral story templates, see [`01_common/resume/`](../resume/) and [`01_common/behavioral/`](../behavioral/)).*
+
+---
+
+## 🔗 Related Sections
+
+- [01_common Master Hub](../README.md)
+- [02_core Civil Engineering Hub](../../02_core/README.md)
+- [04_company-prep Infrastructure & Core EPC Profiles](../../04_company-prep/README.md)

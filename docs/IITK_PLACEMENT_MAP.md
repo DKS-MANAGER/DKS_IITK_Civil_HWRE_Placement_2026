@@ -34,9 +34,9 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Target Assessment Ladder**: L1 Diagnostics 08–10, L2 Core Sectional ([`sectional-civil-core-01.md`](../01_common/aptitude/mocks/section-tests/section/sectional-civil-core-01.md)), L6 Technical Trees ([`technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md)).
 - **Dedicated Dossiers**:
   - [`civil-vassarlabs.md`](../04_company-prep/hwre-companies/civil-vassarlabs.md)
-  - [`civil-aecom.md`](../04_company-prep/civil-aecom.md)
-  - [`civil-mott-macdonald.md`](../04_company-prep/civil-mott-macdonald.md)
-  - [`civil-dhi.md`](../04_company-prep/civil-dhi.md)
+  - [`04_company-prep/civil-aecom.md`](../04_company-prep/README.md)
+  - [`civil-mott-macdonald.md`](../04_company-prep/README.md)
+  - [`civil-dhi.md`](../04_company-prep/README.md)
 
 ### Track 2: Computational Fluid Dynamics (CFD), Turbomachinery & R&D
 - **Industry Profile**: Advanced transportation, simulation software vendors, renewable energy R&D, and turbomachinery manufacturers.
@@ -45,8 +45,8 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Target Assessment Ladder**: L1 Diagnostic 07 (Fluid Mechanics), L6 Branching Trees (Fluid Mechanics & CFD), L7 Advanced Case Simulations.
 - **Dedicated Dossiers**:
   - [`civil-tutr-hyperloop.md`](../04_company-prep/core-companies/civil-tutr-hyperloop.md)
-  - [`civil-mathworks.md`](../04_company-prep/civil-mathworks.md)
-  - [`civil-caterpillar.md`](../04_company-prep/civil-caterpillar.md)
+  - [`civil-mathworks.md`](../04_company-prep/README.md)
+  - [`civil-caterpillar.md`](../04_company-prep/README.md)
   - [`corporate-targets/06_cfd-simulation-engineering/`](../02_core/cfd/simulation-engineering/README.md)
 
 ### Track 3: Infrastructure, Water EPC & Heavy Construction
@@ -55,10 +55,10 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Core Skill Focus**: Hydraulic transient analysis (water hammer, surge tank sizing, Joukowsky equation), pump characteristics and NPSH, pipeline headloss (Darcy-Weisbach / Hazen-Williams), concrete water retaining structures (IS 3370), project scheduling (CPM/PERT).
 - **Target Assessment Ladder**: L1 Diagnostics 05 (Time & Work / Pipelines), 07 (Fluids), L2 Core Sectional, L5 Company Mocks.
 - **Dedicated Dossiers**:
-  - [`civil-l-and-t-water.md`](../04_company-prep/civil-l-and-t-water.md)
-  - [`civil-l-and-t-heavy-civil.md`](../04_company-prep/civil-l-and-t-heavy-civil.md)
-  - [`civil-tata-projects.md`](../04_company-prep/civil-tata-projects.md)
-  - [`civil-afcons.md`](../04_company-prep/civil-afcons.md)
+  - [`civil-l-and-t-water.md`](../04_company-prep/README.md)
+  - [`civil-l-and-t-heavy-civil.md`](../04_company-prep/README.md)
+  - [`civil-tata-projects.md`](../04_company-prep/README.md)
+  - [`civil-afcons.md`](../04_company-prep/README.md)
   - [`civil-godrej-properties.md`](../04_company-prep/core-companies/civil-godrej-properties.md)
 
 ### Track 4: Energy Majors, Hydropower & Public Sector Undertakings (PSUs)
@@ -67,18 +67,18 @@ M.Tech Civil Engineering candidates specializing in Hydraulics and Water Resourc
 - **Core Skill Focus**: Pumped storage hydraulics, Pelton/Francis turbine selection, specific speed, cavitation limits (Thoma's sigma), subsurface porous media flow (Darcy's Law, governing groundwater flow equations), well hydraulics (Theis, Thiem).
 - **Target Assessment Ladder**: L1 Diagnostics 06–08, L6 Technical Trees (Groundwater & Hydrology), L7 Technical Interviews.
 - **Dedicated Dossiers**:
-  - [`civil-greenko.md`](../04_company-prep/civil-greenko.md)
-  - [`civil-slb.md`](../04_company-prep/civil-slb.md)
+  - [`civil-greenko.md`](../04_company-prep/README.md)
+  - [`civil-slb.md`](../04_company-prep/README.md)
   - [`corporate-targets/04_hydropower-pumped-storage/`](../04_company-prep/hwre-companies/04_hydropower-pumped-storage/README.md)
 
 ### Track 5: Management Consulting, Risk Modeling & Product Analytics
 - **Industry Profile**: Top-tier strategic management consulting firms, catastrophe risk modeling agencies, and digital tech/analytics powerhouses.
 - **Key Target Companies**: McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Verisk / RMS (Extreme Event Solutions), Deloitte, PwC, Tiger Analytics, EXL Service.
 - **Core Skill Focus**: Structured case cracking (market entry, profitability, supply chain, public infrastructure financing), catastrophe risk modeling (flood hazard mapping, return period exceedance probability, Monte Carlo simulations), SQL, Python data manipulation, Guesstimates.
-- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`case-bank.md`](../../03_non_core/consulting/cases/case-bank.md)).
+- **Target Assessment Ladder**: L1 Quant & DI Diagnostics (01–04), L2 Sectionals (Quant, DI, Reasoning), L3 Full Mocks 01–03, L4 Expert Mocks 04–05, L7 Consulting Case Bank ([`03_non_core/consulting/06_case-practice.md`](../03_non_core/consulting/06_case-practice.md)).
 - **Dedicated Dossiers**:
-  - [`case-bank.md`](../../03_non_core/consulting/cases/case-bank.md) (15 Master Interactive Practice Cases)
-  - [`guesstimate-bank.md`](../03_non_core/consulting/guesstimate-bank.md)
+  - [`03_non_core/consulting/06_case-practice.md`](../03_non_core/consulting/06_case-practice.md) (15 Master Interactive Practice Cases)
+  - [`03_non_core/consulting/04_guesstimates.md`](../03_non_core/consulting/04_guesstimates.md)
   - [`corporate-targets/12_risk-analytics-advisory/`](../04_company-prep/consulting-companies/12_risk-analytics-advisory/README.md)
 
 ---
@@ -120,6 +120,6 @@ A critical failure point for IITK M.Tech candidates is failing to pitch their th
 - **Sectional Tests (Quant, DI, Reasoning, Core)**: [`01_common/aptitude/mocks/section-tests/section/README.md`](../01_common/aptitude/mocks/section-tests/section/README.md)
 - **Full & Expert Mocks**: [`01_common/aptitude/mocks/README.md`](../01_common/aptitude/mocks/README.md)
 - **Technical Interview Branching Trees**: [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md)
-- **Consulting Simulation Suite**: [`03_non_core/consulting/case-bank.md`](../../03_non_core/consulting/cases/case-bank.md)
+- **Consulting Simulation Suite**: [`03_non_core/consulting/case-bank.md`](../03_non_core/consulting/06_case-practice.md)
 - **Full Corporate Targets Universe (121 Companies)**: [`04_company-prep/hwre-companies/README.md/`](../04_company-prep/hwre-companies/README.md/)
 

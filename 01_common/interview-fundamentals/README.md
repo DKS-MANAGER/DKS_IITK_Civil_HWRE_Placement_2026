@@ -4,55 +4,38 @@
 
 ---
 
-## Quick Start
+## Quick Start & Execution Hubs
 
-| I need… | Go to |
-|:--------|:------|
-| Technical Q&A | [Technical Interview Bank (100 Qs)](../../05_interview/technical/technical-interview-bank.md) |
-| Mock Interviews | [Mock Database (8 sessions)](../../05_interview/mock-interviews/mock-interview-database.md) |
-| Project Defense | [Project Defense Guide (35 Qs)](../../05_interview/project-defense/project-defense-guide.md) |
-| Thesis Defense | [Thesis Defense Guide](../../05_interview/project-defense/thesis-defense-guide.md) |
-| HR Questions | [HR Interview Guide](../../05_interview/hr/hr-interview-guide.md) |
-| Quick Revision | [Quick Revision System](quick-revision-system.md) |
-| Software Roles | [Software Interview Guide](../../05_interview/technical/non-core/software-interview-guide.md) |
+| I need… | Execution Layer | Location |
+|:--------|:----------------|:---------|
+| Technical Question Bank | 100+ Question Deep Dive | [`05_interview/technical/`](../../05_interview/technical/) |
+| Project & Thesis Defense | 4-Step Technical Defense | [`05_interview/project-defense/`](../../05_interview/project-defense/) |
+| Behavioral & HR Interview | STAR Stories & Culture Fit | [`05_interview/hr/`](../../05_interview/hr/) · [`01_common/behavioral/`](../behavioral/) |
+| Case & Guesstimates | Problem Solving Execution | [`05_interview/case-interview/`](../../05_interview/case-interview/) |
+| Mock Interviews | Full Simulated Sessions | [`05_interview/mock-interviews/`](../../05_interview/mock-interviews/) |
+| Rapid Last-Minute Revision | Emergency Interview Kits | [quick-revision-system.md](quick-revision-system.md) · [`06_revision/`](../../06_revision/) |
 
 ---
 
-## Directory Structure
+## 🏛️ Preparation vs Execution Separation
 
 ```
-interview/
-├── technical/              ← Technical interview Q&A, project & thesis defense
-│   ├── technical-interview-bank.md
-│   ├── project-defense-guide.md
-│   ├── project-discussion.md
-│   └── thesis-defense-guide.md
-├── mock-tests/             ← Mock interview database & practice questions
-│   ├── mock-interview-database.md
-│   └── mock-interview-questions.md
-├── hr/                     ← HR round preparation
-│   └── hr-interview-guide.md
-├── quick-revision-system.md   ← Last-minute revision cheat sheet
-├── software-interview-guide.md ← For software/tech role interviews
-├── interview-day-survival.md  ← Interview day operational playbook
-└── README.md               ← This file
+01_common/interview-fundamentals   → How to communicate, structure STAR answers, and self-introductions
+05_interview                       → Concrete technical banks, case frameworks, project defense, and mocks
 ```
 
 ---
 
-## Preparation Chain
+## 📂 Core Communication Modules in This Directory
 
-```
-LEARN → PRACTICE → MOCK → INTERVIEW → REVISE
-```
-
-| Stage | Resources |
-|:------|:----------|
-| **Practice** | [Technical Bank](../../05_interview/technical/technical-interview-bank.md) |
-| **Mock** | [Mock Database](../../05_interview/mock-interviews/mock-interview-database.md) · [Mock Questions](../../05_interview/mock-interviews/mock-interview-questions.md) |
-| **Interview** | [HR Guide](../../05_interview/hr/hr-interview-guide.md) · [Project Defense](../../05_interview/project-defense/project-defense-guide.md) · [Interview Day Survival](interview-day-survival.md) |
-| **Revise** | [Quick Revision](quick-revision-system.md) · [Software Guide](../../05_interview/technical/non-core/software-interview-guide.md) |
+- [Communication Skills & Delivery](communication-skills.md) — Pitch, pace, clarity, and executive presence.
+- [Self-Introduction Template](self-intro-template.md) — Present $\rightarrow$ Past $\rightarrow$ Future storytelling matrix.
+- [Interview Answer Structuring Template](interview-answer-template.md) — PREP and STAR answering engines.
+- [Placement Communication Guidelines](PLACEMENT_COMMUNICATION.md) — Professional recruiter and panel etiquette.
+- [Selection Stage Blueprint](SELECTION_STAGE_MAP.md) — Progression across Screening $\rightarrow$ Technical $\rightarrow$ Partner rounds.
+- [Interview Day Survival Guide](interview-day-survival.md) — Day-of-interview operational protocol.
+- [Quick Revision System](quick-revision-system.md) — 1-hour fast recall checklist.
 
 ---
 
-> **Back to:** [Prep Hub](../README.md) · [Behavioral Prep](../behavioral/) · [Company Profiles](../../04_company-prep/README.md)
+> **Back to:** [01_common Hub](../README.md) · [Behavioral Prep](../behavioral/) · [05_interview Execution Layer](../../05_interview/README.md)

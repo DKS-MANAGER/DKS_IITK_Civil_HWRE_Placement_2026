@@ -162,8 +162,8 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 | HR Questions Bank | [`01_common/behavioral/hr_questions/hr-questions-bank.md`](../01_common/behavioral/hr_questions/hr-questions-bank.md) |
 | Mock Questions | [`01_common/interview-fundamentals/mock-tests/mock-interview-questions.md`](../05_interview/mock-interviews/mock-interview-questions.md) |
 | Technical Interview Bank | [`01_common/interview-fundamentals/technical/technical-interview-bank.md`](../05_interview/technical/technical-interview-bank.md) |
-| Non-Core Prep | [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/non-core-prep.md) |
-| Technical Stack | [`03_non_core/analytics/analytics/technical-stack.md`](../03_non_core/analytics/analytics/technical-stack.md) |
+| Non-Core Prep | [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/01_role-overview.md) |
+| Technical Stack | [`03_non_core/analytics/analytics/technical-stack.md`](../03_non_core/analytics/analytics/04_tools-and-technical-stack.md) |
 
 **KPIs:**
 | Metric | Target | Actual | Status |
@@ -232,7 +232,7 @@ This roadmap translates the IIT Kanpur Civil/HWRE preparation plan into a phased
 **Actions:**
 - [ ] Create one-page cheat-sheets per core topic (10 sheets)
 - [ ] Drill aptitude daily (20–30 min) — [`01_common/aptitude/rapid-revision/FORMULA_SHEET.md`](../01_common/aptitude/rapid-revision/FORMULA_SHEET.md)
-- [ ] SQL/Python daily (20 min) — [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/non-core-prep.md)
+- [ ] SQL/Python daily (20 min) — [`03_non_core/analytics/analytics/non-core-prep.md`](../03_non_core/analytics/analytics/01_role-overview.md)
 - [ ] Conduct final round mocks: technical, HR, and case-study reps (5+)
 - [ ] Review interview-experience logs and fill knowledge gaps
 - [ ] Flashcard deck: achieve 90%+ recall

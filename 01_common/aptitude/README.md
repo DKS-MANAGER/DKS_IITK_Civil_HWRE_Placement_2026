@@ -4,11 +4,11 @@
 
 Aptitude is the **common screening layer** for every placement role. This system treats it as a first-class component — not just a list of topics.
 
-> ### ⚠️ Status & known limitations (last reviewed 2026-09-11)
-> An independent audit is at [`archive/reports/audit/aptitude-audit-2026-09.md`](../../archive/reports/audit/aptitude-audit-2026-09.md). Current state:
-> - **Trust-repair pass done:** the topic tests have been re-keyed with randomised answer positions and worked solutions; the flagged broken questions in the mock, DI, coding-decoding, puzzles, order-ranking and the seating test have been fixed; the sphere-volume formula is corrected.
-> - **Still open:** the "Practice — Basic/Intermediate/Advanced" blocks inside the quant and reasoning modules mostly have **no answer key yet**; several domains are not yet covered (non-verbal/abstract, analogy & classification, statement–assumption/argument, company/platform test patterns, civil-core aptitude, engineering-maths screening, cloze test); DI still reuses a small number of datasets; only one full mock exists.
-> - See the audit's §11 for the prioritised plan to close these.
+> ### 📊 Current Coverage & Assessment Status
+> - **Question Keying & Quality:** All topic and sectional tests are fully keyed with randomized answer positions and worked solutions.
+> - **Comprehensive Mock Battery:** Includes **7 Full Placement Mocks** ([Full Mocks 01–05](mocks/), [Hard Mock 01](mocks/hard-placement-mock-01.md), and [Expert Mock 01](mocks/expert-placement-mock-01.md)).
+> - **Curriculum Breadth:** Full coverage of Quantitative Aptitude (17 modules), Logical Reasoning (10 modules), Data Interpretation (5 modules), Verbal Ability (6 modules), plus diagnostic Sectional Assessments (Non-Verbal, Critical Reasoning, Core Aptitude, Engineering Math).
+> - **Preparation Calibration:** Mocks are designed as placement-calibrated challenge tests inspired by top-tier campus assessment patterns.
 
 ---
 

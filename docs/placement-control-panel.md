@@ -24,16 +24,16 @@
 
 | Role | Start Here | Key Skills |
 |:-----|:-----------|:-----------|
-| Consulting | [Consulting Overview](../03_non_core/consulting/consulting-overview.md) → [Case Bank](../../03_non_core/consulting/cases/case-bank.md) | Frameworks, market sizing, profitability |
-| Data Analyst | [DA Overview](../03_non_core/analytics/data-analyst/da-overview.md) → [SQL Practice](../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md) | SQL, Python, statistics, dashboards |
-| Business Analyst | [BA Overview](../03_non_core/analytics/business-analyst/ba-overview.md) → [SQL Practice](../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md) | Requirements, SQL, process mapping |
-| Product Manager | [PM Overview](../03_non_core/product/product-management/pm-overview.md) → [Product Sense](../03_non_core/product/product-management/product-sense.md) | Metrics, strategy, product sense |
-| Product Analyst | [PA Overview](../03_non_core/product/product-analyst/pa-overview.md) | Analytics, A/B testing, metrics |
-| Operations | [Ops Overview](../03_non_core/operations/operations/operations-overview.md) | Process optimization, supply chain |
-| Supply Chain | [SC Overview](../03_non_core/operations/supply-chain/supply-chain-overview.md) | Logistics, inventory, procurement |
-| Finance / Risk | [Finance](../03_non_core/finance/finance/finance-overview.md) → [Risk](../03_non_core/finance/risk/risk-overview.md) | Valuation, risk modeling |
-| Strategy | [Strategy Overview](../03_non_core/consulting/strategy/strategy-overview.md) | Competitive analysis, frameworks |
-| Program Management | [PGM Overview](../03_non_core/operations/program-management/pgm-overview.md) | Execution, stakeholder management |
+| Consulting | [Consulting Overview](../03_non_core/consulting/01_role-overview.md) → [Case Bank](../03_non_core/consulting/06_case-practice.md) | Frameworks, market sizing, profitability |
+| Data Analyst | [DA Overview](../03_non_core/analytics/data-analyst/01_role-overview.md) → [SQL Practice](../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md) | SQL, Python, statistics, dashboards |
+| Business Analyst | [BA Overview](../03_non_core/analytics/business-analyst/01_role-overview.md) → [SQL Practice](../03_non_core/analytics/business-analyst/04_data-and-analytics/sql-practice.md) | Requirements, SQL, process mapping |
+| Product Manager | [PM Overview](../03_non_core/product/product-management/01_role-overview.md) → [Product Sense](../03_non_core/product/product-management/05_interview-preparation.md) | Metrics, strategy, product sense |
+| Product Analyst | [PA Overview](../03_non_core/product/product-analyst/01_role-overview.md) | Analytics, A/B testing, metrics |
+| Operations | [Ops Overview](../03_non_core/operations/operations/01_role-overview.md) | Process optimization, supply chain |
+| Supply Chain | [SC Overview](../03_non_core/operations/supply-chain/01_role-overview.md) | Logistics, inventory, procurement |
+| Finance / Risk | [Finance](../03_non_core/finance/finance/01_role-overview.md) → [Risk](../03_non_core/finance/risk/01_role-overview.md) | Valuation, risk modeling |
+| Strategy | [Strategy Overview](../03_non_core/consulting/strategy/01_role-overview.md) | Competitive analysis, frameworks |
+| Program Management | [PGM Overview](../03_non_core/operations/program-management/01_role-overview.md) | Execution, stakeholder management |
 
 ---
 
@@ -61,7 +61,7 @@
 | 💼 **I can't defend my project** | Prepare with 35 defense questions | [Project Defense](../05_interview/project-defense/project-defense-guide.md) |
 | 🧠 **I bomb behavioral questions** | Build your STAR story bank | [Behavioral Guide](../01_common/behavioral/behavioral-interview-guide.md) |
 | 🎤 **I need mock practice** | Run 8 full mock sessions | [Mock Database](../05_interview/mock-interviews/mock-interview-database.md) |
-| 💼 **I have a case interview** | Review frameworks + practice cases | [Case Bank (15 cases)](../../03_non_core/consulting/cases/case-bank.md) |
+| 💼 **I have a case interview** | Review frameworks + practice cases | [Case Bank (15 cases)](../03_non_core/consulting/06_case-practice.md) |
 | 📊 **I need guesstimate practice** | Follow the guide | [Guesstimate Guide](../05_interview/case-interview/guesstimates/guesstimate-guide.md) |
 | 🏢 **I'm preparing for a specific company** | Check company profiles | [Company Profiles](../04_company-prep/) |
 | 💻 **I don't know which software to learn** | Use the decision system | [Software Roadmap](../07_resources/reference-material/branch-roadmaps.md) |

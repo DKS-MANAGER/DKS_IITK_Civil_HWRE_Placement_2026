@@ -33,7 +33,7 @@ For your chosen track, work through the subject guides. Each major folder has a 
 
 - Core subjects → [`02_core/`](../02_core/)
 - Non-core tracks → [`03_non_core/`](../03_non_core/)
-- Software tools → [`software-and-tech/`](../../03_non_core/software-engineering/)
+- Software tools → [`software-and-tech/`](../03_non_core/software-engineering/)
 
 ---
 

@@ -17,7 +17,7 @@ What roles?      & non-core       & Full Mocks     prep & CTC      & Case Sims  
 | Stage | What | Where |
 |:------|:-----|:------|
 | **01 Understand** | Identify career track & target roles | [GETTING_STARTED.md](GETTING_STARTED.md) · [TRACKS.md](TRACKS.md) · [IITK_PLACEMENT_MAP.md](IITK_PLACEMENT_MAP.md) |
-| **02 Learn** | Core subjects, software, non-core fundamentals | [`02_core/`](../02_core/) · [`software-and-tech/`](../../03_non_core/software-engineering/) · [`03_non_core/`](../03_non_core/) |
+| **02 Learn** | Core subjects, software, non-core fundamentals | [`02_core/`](../02_core/) · [`software-and-tech/`](../03_non_core/software-engineering/) · [`03_non_core/`](../03_non_core/) |
 | **03 Practice** | Topic diagnostics, sectionals, full placement mocks | [TESTING_GUIDE.md](../05_interview/mock-interviews/TESTING_GUIDE.md) · [`01_common/aptitude/`](../01_common/aptitude/) · [ASSESSMENT_ARCHITECTURE.md](../05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md) |
 | **04 Strategize** | Company-wise research & compensation review | [COMPANIES.md](..\04_company-prep\README.md) · [`07_resources/websites/placement-data.md`](../07_resources/websites/placement-data.md) |
 | **05 Interview** | Technical question trees, case sims, behavioral HR | [INTERVIEW_GUIDE.md](..\05_interview\README.md) · [`01_common/interview-fundamentals/technical/`](../05_interview/technical/technical-interview-bank.md) · [`05_interview/case-interview/case-interviews/`](../05_interview/case-interview/case-interviews/case-simulation-suite.md) |

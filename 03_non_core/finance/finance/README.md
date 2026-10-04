@@ -2,7 +2,13 @@
 
 > Placement-focused preparation curriculum for IIT Kanpur students targeting **Finance & FinTech** roles at top recruiting firms.
 
+
+> [!NOTE]
+> **Track Status: Scaffold / Secondary Reference Track**
+> This module provides standard structural benchmarks and role taxonomy for IITK placements. Core question banks and practice cases for this secondary track are currently being expanded. For high-yield immediate preparation, prioritize **01_common**, **Analytics & BA**, **Risk Analytics**, or **Consulting**.
+
 ---
+
 
 ## 📋 Role Snapshot
 - **Target Companies**: Goldman Sachs, Morgan Stanley, J.P. Morgan Chase, Barclays, Deutsche Bank, Nomura, WorldQuant, Edelweiss, Axis Bank, ICICI Bank

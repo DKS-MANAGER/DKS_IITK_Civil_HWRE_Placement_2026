@@ -9,20 +9,20 @@
 
 | # | Role Track | Primary Focus & Domain Levers | Required Technical Stack | IITK Civil / HWRE Competitive Edge | Track Link |
 |---|:---|:---|:---|:---|:---|
-| 01 | **Management Consulting** | Profitability, market entry, M&A, operational turnarounds, MECE trees | Advanced Excel, PowerPoint, Think-Cell, Issue Trees | Complex physical systems analysis, structured logic, project execution | [01_roles/consulting/](01_roles/consulting/) |
-| 02 | **Analytics & Data Science** | Predictive modeling, SQL pipelines, statistical inference, A/B tests | SQL, Python (Pandas/NumPy/Scikit-learn), Tableau | Advanced mathematical modeling, numerical methods, large-scale data wrangling | [01_roles/analytics/](01_roles/analytics/) |
-| 03 | **Business Analyst (BA)** | Requirement gathering, SQL queries, KPI dashboards, process mapping | SQL, Power BI, Advanced Excel, Jira, BPMN | Cross-disciplinary coordination, technical-to-business translation | [01_roles/business-analyst/](01_roles/business-analyst/) |
-| 04 | **Data Analyst (DA)** | Exploratory data analysis, cohort analysis, dashboard automation | SQL, Python/R, Tableau, Power BI, Excel | Hydrological/spatial data handling, statistical hypothesis testing | [01_roles/data-analyst/](01_roles/data-analyst/) |
-| 05 | **Business Operations (BizOps)** | Cross-functional strategy, unit economics, process scaling, supply-demand | Excel, SQL, Tableau, Process Flow Diagrams | Multi-variable optimization, resource balancing, engineering workflow design | [01_roles/business-operations/](01_roles/business-operations/) |
-| 06 | **Operations Management** | Queueing models, inventory management (EOQ), Six Sigma, Little's Law | ERP platforms, Excel, Supply/Demand Optimization | Infrastructure operations, site management, capacity constraints | [01_roles/operations/](01_roles/operations/) |
-| 07 | **Product Management (PM)** | Product sense, user discovery, CIRCLES framework, roadmap prioritization | Figma, Jira, Metrics/Telemetry, SQL, Amplitude | Systems-level product thinking, engineering empathy, structured prioritization | [01_roles/product-management/](01_roles/product-management/) |
-| 08 | **Product Analyst** | Feature experimentation, funnel drop-off, user cohort retention | SQL, Python, Amplitude, Mixpanel, Statsmodels | Rigorous scientific method, controlled experimental design, data analysis | [01_roles/product-analyst/](01_roles/product-analyst/) |
-| 09 | **Program Management (PgM)** | Critical Path Method (CPM/PERT), risk registers, stakeholder RACI matrix | MS Project, Jira, Asana, Gantt Charts | Large-scale construction scheduling, milestone-driven delivery | [01_roles/program-management/](01_roles/program-management/) |
-| 10 | **Corporate Strategy** | Porter's 5 Forces, 3Cs, 7 Powers, growth vectors, market entry | Financial Models, Valuation Ratios, PPT | Macro-economic infrastructure planning, capital allocation logic | [01_roles/strategy/](01_roles/strategy/) |
-| 11 | **Supply Chain Management** | Bullwhip effect, multi-echelon inventory, logistics, safety stock | Supply Chain Solvers, Excel Solver, SAP/ERP | Hydraulic flow network analogy, distribution network optimization | [01_roles/supply-chain/](01_roles/supply-chain/) |
-| 12 | **Finance & FinTech** | Financial statement analysis (3-Statement), DCF valuation, working capital | Excel Financial Modeling, Python for Finance | Mathematical calculus, quantitative rigor, risk assessment | [01_roles/finance/](01_roles/finance/) |
-| 13 | **Risk Management** | Credit risk, market VaR, Basel frameworks, stress testing, default probability | Python, R, SQL, Monte Carlo Simulation | Probabilistic flood/hydrology modeling, stochastic risk modeling | [01_roles/risk/](01_roles/risk/) |
-| 14 | **Technology & Systems** | Tech consulting, system architecture, API ecosystems, cloud pipelines | System Design, SQL/NoSQL, APIs, Cloud Basics | Computational pipeline building, software integration experience | [01_roles/technology/](01_roles/technology/) |
+| 01 | **Management Consulting** | Profitability, market entry, M&A, operational turnarounds, MECE trees | Advanced Excel, PowerPoint, Think-Cell, Issue Trees | Complex physical systems analysis, structured logic, project execution | [consulting/](consulting/) |
+| 02 | **Analytics & Data Science** | Predictive modeling, SQL pipelines, statistical inference, A/B tests | SQL, Python (Pandas/NumPy/Scikit-learn), Tableau | Advanced mathematical modeling, numerical methods, large-scale data wrangling | [analytics/analytics/](analytics/analytics/) |
+| 03 | **Business Analyst (BA)** | Requirement gathering, SQL queries, KPI dashboards, process mapping | SQL, Power BI, Advanced Excel, Jira, BPMN | Cross-disciplinary coordination, technical-to-business translation | [analytics/business-analyst/](analytics/business-analyst/) |
+| 04 | **Data Analyst (DA)** | Exploratory data analysis, cohort analysis, dashboard automation | SQL, Python/R, Tableau, Power BI, Excel | Hydrological/spatial data handling, statistical hypothesis testing | [analytics/data-analyst/](analytics/data-analyst/) |
+| 05 | **Business Operations (BizOps)** | Cross-functional strategy, unit economics, process scaling, supply-demand | Excel, SQL, Tableau, Process Flow Diagrams | Multi-variable optimization, resource balancing, engineering workflow design | [operations/business-operations/](operations/business-operations/) |
+| 06 | **Operations Management** | Queueing models, inventory management (EOQ), Six Sigma, Little's Law | ERP platforms, Excel, Supply/Demand Optimization | Infrastructure operations, site management, capacity constraints | [operations/operations/](operations/operations/) |
+| 07 | **Product Management (PM)** | Product sense, user discovery, CIRCLES framework, roadmap prioritization | Figma, Jira, Metrics/Telemetry, SQL, Amplitude | Systems-level product thinking, engineering empathy, structured prioritization | [product/product-management/](product/product-management/) |
+| 08 | **Product Analyst** | Feature experimentation, funnel drop-off, user cohort retention | SQL, Python, Amplitude, Mixpanel, Statsmodels | Rigorous scientific method, controlled experimental design, data analysis | [product/product-analyst/](product/product-analyst/) |
+| 09 | **Program Management (PgM)** | Critical Path Method (CPM/PERT), risk registers, stakeholder RACI matrix | MS Project, Jira, Asana, Gantt Charts | Large-scale construction scheduling, milestone-driven delivery | [operations/program-management/](operations/program-management/) |
+| 10 | **Corporate Strategy** | Porter's 5 Forces, 3Cs, 7 Powers, growth vectors, market entry | Financial Models, Valuation Ratios, PPT | Macro-economic infrastructure planning, capital allocation logic | [consulting/strategy/](consulting/strategy/) |
+| 11 | **Supply Chain Management** | Bullwhip effect, multi-echelon inventory, logistics, safety stock | Supply Chain Solvers, Excel Solver, SAP/ERP | Hydraulic flow network analogy, distribution network optimization | [operations/supply-chain/](operations/supply-chain/) |
+| 12 | **Finance & FinTech** | Financial statement analysis (3-Statement), DCF valuation, working capital | Excel Financial Modeling, Python for Finance | Mathematical calculus, quantitative rigor, risk assessment | [finance/finance/](finance/finance/) |
+| 13 | **Risk Management** | Credit risk, market VaR, Basel frameworks, stress testing, default probability | Python, R, SQL, Monte Carlo Simulation | Probabilistic flood/hydrology modeling, stochastic risk modeling | [finance/risk/](finance/risk/) |
+| 14 | **Technology & Systems** | Tech consulting, system architecture, API ecosystems, cloud pipelines | System Design, SQL/NoSQL, APIs, Cloud Basics | Computational pipeline building, software integration experience | [software-engineering/](software-engineering/) |
 
 ---
 
@@ -114,9 +114,9 @@ graph TD
 - **Target Companies**: Procter & Gamble, Unilever, ITC, Tata Steel, Reliance Industries, L'Oréal, JSW.
 - **Selection Architecture**: Domain OA $\rightarrow$ Group Discussion (Supply/Ops bottleneck) $\rightarrow$ Technical Plant/Process Case $\rightarrow$ Leadership Interview.
 - **Core Modules**:
-  * [Role Overview](operations/business-operations/01_role-overview.md)
-  * [Study Plan](operations/business-operations/08_role-study-plan.md)
-  * [Rapid Revision](operations/business-operations/09_rapid-revision.md)
+  * [Role Overview](operations/operations/01_role-overview.md)
+  * [Study Plan](operations/operations/08_role-study-plan.md)
+  * [Rapid Revision](operations/operations/09_rapid-revision.md)
 
 ---
 
@@ -125,7 +125,7 @@ graph TD
 - **Selection Architecture**: Product Teardown / Assignment $\rightarrow$ Product Design (CIRCLES) Round $\rightarrow$ Product Strategy & Metrics Round $\rightarrow$ Engineering Collaboration Round $\rightarrow$ Director Round.
 - **Core Modules**:
   * [Role Overview](product/product-management/01_role-overview.md)
-  * [Core Knowledge & Metrics](product/product-management/03_core-knowledge.md)
+  * [Core Knowledge & Metrics](product/product-management/03_domain-knowledge.md)
   * [Interview Preparation & Product Sense](product/product-management/05_interview-preparation.md)
   * [Study Plan](product/product-management/08_role-study-plan.md)
   * [Rapid Revision](product/product-management/09_rapid-revision.md)
@@ -192,13 +192,13 @@ graph TD
 
 ---
 
-### Track 14: Technology & Systems Consulting
+### Track 14: Technology & Systems Consulting / SWE
 - **Target Companies**: Gartner, ZS Associates (DTA), ThoughtWorks, Cognizant Strategy, Capgemini Invent.
 - **Selection Architecture**: System Logic OA $\rightarrow$ Technical Solution Architecture Case $\rightarrow$ Client Scenario Simulation $\rightarrow$ Partner Round.
 - **Core Modules**:
-  * [Role Overview](analytics/analytics/01_role-overview.md)
-  * [Study Plan](analytics/analytics/08_role-study-plan.md)
-  * [Rapid Revision](analytics/analytics/09_rapid-revision.md)
+  * [Role Overview](software-engineering/01_role-overview.md)
+  * [Study Plan](software-engineering/08_role-study-plan.md)
+  * [Rapid Revision](software-engineering/09_rapid-revision.md)
 
 ---
 
@@ -206,7 +206,7 @@ graph TD
 
 1. **Self-Assessment**: Review the [Role Selection Matrix](../01_common/resume/career-preparation/role-selection/role-selector.md) to shortlist your primary (Tier-1) and secondary target profiles.
 2. **Master Fundamentals**: Build your base with [Business Fundamentals](../01_common/placement-math/business-fundamentals/business-fundamentals.md) and [Structured Problem Solving](../01_common/placement-math/structured-problem-solving/structured-problem-solving.md).
-3. **Deep Dive by Role**: Go through the dedicated `01_roles/<role>/` study plans.
+3. **Deep Dive by Role**: Go through the dedicated role track directories (`consulting/`, `analytics/`, `finance/`, `product/`, `operations/`, `software-engineering/`).
 4. **Drill Shared Methods**: Practice [Case Interviews](../05_interview/case-interview/case-interviews/framework-library.md) and [Guesstimates](../05_interview/case-interview/guesstimates/guesstimate-guide.md).
-5. **Simulate & Polish**: Conduct peer cases using [Mock Interview Systems](../05_interview/case-interview/mock-interviews/mock-system.md) and review with [Rapid Revision Hub](05_rapid-revision/).
+5. **Simulate & Polish**: Conduct peer cases using [Mock Interview Systems](../05_interview/mock-interviews/mock-interview-database.md) and review with rapid revision sheets.
 
