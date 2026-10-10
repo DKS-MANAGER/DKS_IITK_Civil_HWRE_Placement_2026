@@ -24,7 +24,7 @@
 | Competency Area | Priority | Specific Capabilities Tested | Placement Verification Benchmark |
 |:---|:---:|:---|:---|
 | **Credit Risk Modeling** | **P0** | Probability of Default ($PD$), Loss Given Default ($LGD$), Exposure at Default ($EAD$), Expected Credit Loss ($ECL$), Weight of Evidence ($WoE$), Information Value ($IV$), KS Statistic, Gini Coefficient, ROC-AUC, Population Stability Index ($PSI$). | Build and evaluate a complete credit scorecard in Python in <30 mins. |
-| **Market Risk & Portfolios** | **P0** | Parametric VaR, Historical Simulation VaR, Monte Carlo VaR, Expected Shortfall ($ES / CVaR$), Volatility scaling ($\sqrt{t}$ rule), Greeks ($\Delta, \Gamma, \Theta, 	ext{Vega}$), Correlation breakdown. | Calculate 1-day and 10-day 99% portfolio VaR given covariance matrix in <5 mins. |
+| **Market Risk & Portfolios** | **P0** | Parametric VaR, Historical Simulation VaR, Monte Carlo VaR, Expected Shortfall ($ES / CVaR$), Volatility scaling ($\sqrt{t}$ rule), Greeks ($\Delta, \Gamma, \Theta, \text{Vega}$), Correlation breakdown. | Calculate 1-day and 10-day 99% portfolio VaR given covariance matrix in <5 mins. |
 | **Probability & Distributions**| **P0** | Bayes' theorem, Poisson processes, Normal, Log-normal, Binomial, Extreme Value distributions (Gumbel/GEV), Central Limit Theorem, Hypothesis testing. | Solve conditional probability and distribution problems mentally in <90s. |
 | **SQL & Portfolio Analytics** | **P0** | Window functions, CTEs, multi-table joins, delinquency vintage tracking, roll-rate migration matrices, customer risk bucketing. | Write a delinquency cohort migration query in <10 mins with zero syntax errors. |
 | **Machine Learning & Python** | **P1** | Logistic regression, XGBoost / LightGBM for classification, feature binning, handling imbalanced datasets (SMOTE, Class Weights), SHAP explainability. | Train and evaluate an imbalanced default classifier in Python/scikit-learn. |
@@ -43,7 +43,7 @@ TIER 1: OA & SCREENING READY
 TIER 2: TECHNICAL ROUND READY
 ├── Can mathematically derive and explain WoE, Information Value, and Logistic Regression log-odds.
 ├── Calculates Parametric VaR, Historical VaR, and Expected Shortfall while explaining trade-offs out loud.
-└── Interprets Model Performance Metrics: KS curve separation, Gini $= 2 	imes 	ext{AUC} - 1$, and PSI thresholds ($<0.1$ stable).
+└── Interprets Model Performance Metrics: KS curve separation, Gini $= 2 \times \text{AUC} - 1$, and PSI thresholds ($<0.1$ stable).
 
 TIER 3: CASE & PARTNER READY
 ├── Solves complex portfolio trade-off cases: Balances approval rate vs credit loss provisioning under macroeconomic shocks.

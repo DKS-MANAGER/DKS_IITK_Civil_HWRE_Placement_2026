@@ -60,5 +60,5 @@ Risk management in institutional banking, fintech, and asset management encompas
 
 1. **Credit Underwriting & Policy Tuning**: Setting cutoff credit scores ($FICO / CIBIL$) to balance loan approval volume against 90-day non-performing asset (NPA) loss rates.
 2. **Value at Risk (VaR) & Sensitivity Reporting**: Computing daily parametric and historical 99% 1-day VaR across multi-asset trading books to ensure compliance with regulatory capital mandates.
-3. **Loss Provisioning & IFRS 9 / CECL Modeling**: Calculating Expected Credit Loss ($ECL = PD 	imes LGD 	imes EAD$) across multi-stage loan portfolios.
+3. **Loss Provisioning & IFRS 9 / CECL Modeling**: Calculating Expected Credit Loss ($ECL = PD \times LGD \times EAD$) across multi-stage loan portfolios.
 4. **Stress Testing & Macroeconomic Scenarios**: Simulating portfolio survival under severe macroeconomic shocks (e.g. GDP contraction, interest rate spikes, commodity inflation).
