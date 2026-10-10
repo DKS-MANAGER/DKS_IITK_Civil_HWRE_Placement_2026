@@ -60,4 +60,4 @@
 ## 📌 Daily Revision Protocol
 * **Morning**: Review all `[IN REVIEW]` entries logged over the previous 3 days.
 * **Evening**: Attempt 2 fresh problems from your weakest error category.
-* **Weekly Audit**: If more than 30% of errors are in a single category (e.g. `[ERR-CASE-STRUCT]`), spend the next 2 study blocks exclusively drilling that domain in [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) and [`03_non_core/consulting/`](../../../03_non_core/consulting/).
+* **Weekly Audit**: If more than 30% of errors are in a single category (e.g. `[ERR-CASE-STRUCT]`), spend the next 2 study blocks exclusively drilling that domain in [`STUDY_GUIDE.md`](STUDY_GUIDE.md) and [`03_non_core/consulting/`](../../../03_non_core/consulting/).

@@ -1,207 +1,142 @@
 # Accenture Japan Digital Consultant — Master Study Guide
 
-> **Target Role**: Digital Consultant (Analyst Entry Level), Accenture Japan Ltd.  
-> **Target Audience**: IIT Kanpur Civil / HWRE Graduate transitioning to Digital Consulting in Tokyo  
-> **Core Objective**: A rigorous, end-to-end curriculum detailing exactly what to study, in what sequence, and the required mastery depth for every domain.
+> **Target Role**: Digital Consultant (Analyst Entry Level), Accenture Japan Ltd. (`[JD VERIFIED]`)  
+> **Target Audience**: IIT Kanpur Postgraduate Engineering Candidates (`[JD VERIFIED]`)  
+> **Core Objective**: Comprehensive, end-to-end preparation curriculum covering conceptual foundations, practical practice, and interview mastery across all eight essential digital consulting domains.
 
 ---
 
-## 🏛️ Executive Philosophy: The Digital Consultant Mindset
+## 1. Executive Philosophy: The Digital Consultant Mindset
 
-A **Digital Consultant** operates at the intersection of **Business Strategy** and **Technology Architecture**. Unlike pure software engineering (writing specific production code) or pure management consulting (strategy without execution oversight), your mission is:
-1. **Diagnose**: Identify operational bottlenecks and quantify financial impact.
-2. **Architect**: Design scalable, vendor-agnostic technology solutions (Cloud, AI, IoT, Enterprise Systems).
-3. **Execute**: Guide implementation roadmaps, manage organizational change, and realize measurable business KPIs.
+A **Digital Consultant** operates directly at the intersection of **Enterprise Business Strategy** and **Technology Architecture** (`[JD VERIFIED]`):
+
+```text
+┌─────────────────────────────────┐           ┌─────────────────────────────────┐
+│     BUSINESS STRATEGY & VALUE   │           │   TECHNOLOGY ARCHITECTURE & AI  │
+│ • Diagnosing Operating Pains    │ ◄───────► │ • Cloud, AI/Data Analytics      │
+│ • Quantifying Financial Impact  │           │ • Industry X (Smart Factory/IoT)│
+│ • Business Process Optimization │           │ • Enterprise Core (ERP/APIs)    │
+└─────────────────────────────────┘           └─────────────────────────────────┘
+                 ▲                                             ▲
+                 └──────────────────────┬──────────────────────┘
+                                        │
+                          ┌───────────────────────────┐
+                          │    DIGITAL CONSULTANT     │
+                          │   (Accenture Japan Ltd.)  │
+                          └───────────────────────────┘
+```
+
+> **The Technology-Agnostic Core (`[JD VERIFIED]`)**:  
+> Accenture does not sell proprietary software. We evaluate clients' needs objectively across AWS, Azure, GCP, SAP, Salesforce, or open-source solutions to deliver maximum measurable business ROI.
 
 ---
 
-## 🗺️ Master Curriculum Architecture
+## 2. Master Curriculum Architecture (Eight Core Domains)
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                   DIGITAL CONSULTANT CURRICULUM ARCHITECTURE                │
 ├──────────────────────────────┬──────────────────────────────┬───────────────┤
-│ DOMAIN A: Company & Role     │ DOMAIN B: Consulting & MECE  │ DOMAIN C: Tech│
-│ Mastery (Accenture Japan)    │ Structuring (Cases & Math)   │ Test (Py/SQL) │
+│ DOMAIN 1: Company & Role     │ DOMAIN 2: Structured Problem │ DOMAIN 3:     │
+│ Understanding                │ Solving & Business Cases     │ Aptitude &    │
+│ (Accenture Model & Tracks)   │ (MECE, Issue Trees, Cases)   │ Consulting Math│
 ├──────────────────────────────┼──────────────────────────────┼───────────────┤
-│ DOMAIN D: Digital Tech       │ DOMAIN E: AI, GenAI &        │ DOMAIN F: IoT │
-│ Architecture (Cloud, ERP)    │ Enterprise RAG Pipelines     │ & Industry X  │
+│ DOMAIN 4: SQL & Data         │ DOMAIN 5: Python Coding &    │ DOMAIN 6:     │
+│ Manipulation                 │ Algorithmic Problem Solving  │ Cloud & System│
+│ (30 Enterprise Queries)      │ (20 Python Algorithms)       │ Architecture  │
 ├──────────────────────────────┼──────────────────────────────┼───────────────┤
-│ DOMAIN G: Project & Resume   │ DOMAIN H: Japan Readiness,   │ DOMAIN I: Mock│
-│ Defense (Civil/HWRE Bridge)  │ STAR Stories & Executive Fit │ Simulations   │
+│ DOMAIN 7: AI, Machine        │ DOMAIN 8: Project Defense,   │ DOMAIN 9:     │
+│ Learning & Enterprise GenAI  │ Japan Cultural Fit & HR      │ Mock Practice │
+│ (RAG, Governance, Ethics)    │ (STAR Narratives, Japanese)  │ & Scorecards  │
 └──────────────────────────────┴──────────────────────────────┴───────────────┘
 ```
 
 ---
 
-## 📚 Detailed Domain Breakdown & Preparation Protocol
+## 3. In-Depth Domain Study Protocol
 
-### Domain A: Company & Role Understanding (`[P0]` — Mastery Target: L4)
-* **What to Study**:
-  * **Accenture Business Model**: Global scale (750k+ employees), multi-service integration (Strategy & Consulting, Technology, Operations, Song, Industry X).
-  * **Technology-Agnostic Philosophy (`[JD VERIFIED]`)**: Why Accenture does not sell proprietary software, but selects the best fit across AWS, Azure, GCP, SAP, Salesforce, or custom open-source stacks.
-  * **Analyst Responsibilities**: Requirements engineering, functional specifications, data pipeline analysis, stakeholder alignment, user story creation.
-  * **3 Career Progression Tracks (`[JD VERIFIED]`)**:
-    1. *Business × Technology Path*: Upstream requirements, IT strategy, enterprise architecture.
-    2. *Project Management Path*: Leading multidisciplinary teams, large transformation programs.
+### Domain 1: Company, Role & Career Progression (`[P1]` — Target Depth: L4)
+* **What to Master**:
+  * **Accenture Scale**: 800,000+ professionals globally; deep ecosystem partnerships with all major tech vendors.
+  * **Technology-Agnostic Philosophy**: Unconstrained by proprietary products; focus on delivering measurable client transformation.
+  * **Five Core Responsibilities (`[JD VERIFIED]`)**: Problem diagnosis, technology selection, strategy translation, defining what to build with AI/automation, full consulting lifecycle.
+  * **Three Career Progression Tracks (`[JD VERIFIED]`)**:
+    1. *Business × Technology Path*: Upstream strategy, requirements engineering, enterprise solutions.
+    2. *Project Management Path*: Leading large transformation programs, budgets, cross-border teams.
     3. *Technology Specialist Path*: Deep technical expertise in Cloud, AI, Cybersecurity, or Industry X.
-* **Practice Requirement**:
-  * Deliver a crisp 60-second role definition and 90-second "Why Accenture Japan" without notes.
-* **Canonical Resources**: [`ROLE.md`](ROLE.md) · [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md).
+* **Practice Requirement**: Rehearse a crisp 60-second role pitch and 90-second "Why Accenture Japan" answer.
+* **Core File**: [`ROLE.md`](ROLE.md) · [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md).
 
 ---
 
-### Domain B: Consulting Problem Solving & Business Mathematics (`[P0]` — Mastery Target: L4)
-* **What to Study**:
-  * **MECE Structuring**: Mutually Exclusive, Collectively Exhaustive deconstruction across Mathematical (Revenue = P × Q), Value Chain (Inbound -> Ops -> Outbound -> Sales), and Internal vs External trees.
-  * **Hypothesis-Driven Synthesis**: Leading with the answer using the Pyramid Principle (Recommendation -> 3 Supporting Pillars -> Quantified Risks).
-  * **Case Archetypes**:
-    * *Profitability & Cost Reduction*: Diagnosing unit economics, fixed vs variable cost inflation, customer mix shift.
-    * *Market Entry & Growth*: Sizing TAM/SAM/SOM, evaluating build vs buy vs partner.
-    * *Digital Transformation (DX)*: Diagnosing legacy IT bottlenecks, cloud migration roadmaps, user adoption.
-  * **Business Mathematics**:
-    * Gross Margin = $(	ext{Revenue} - 	ext{COGS}) / 	ext{Revenue}$
-    * EBITDA Margin = $	ext{EBITDA} / 	ext{Revenue}$
-    * Break-even Volume = $	ext{Fixed Costs} / (	ext{Price} - 	ext{Variable Cost per unit})$
-    * Customer Lifetime Value: $LTV = (	ext{ARPU} 	imes 	ext{Gross Margin}) / 	ext{Churn Rate}$
-    * $LTV / CAC$ Ratio (Target: $>3.0x$, Payback $<12$ months).
-    * Rule of 72: Years to double $pprox 72 / 	ext{Growth Rate \%}$.
-* **Practice Requirement**:
-  * 15 timed issue-tree drills (90s each).
-  * 10 consulting math mental calculations (zero paper errors).
-  * 8 business cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
-* **Canonical Resources**: [`03_non_core/consulting/02_problem-solving.md`](../../../03_non_core/consulting/02_problem-solving.md) · [`01_common/placement-math/`](../../../01_common/placement-math/).
+### Domain 2: Structured Problem Solving & Digital Cases (`[P1]` — Target Depth: L4)
+* **What to Master**:
+  * **MECE Deconstruction**: Mutually Exclusive, Collectively Exhaustive breaking down of complex problems into mathematical driver trees, value-chain trees, and process trees.
+  * **The 10-Point Digital Case Structure**: Problem statement, clarifying questions, structure, data required, tech plan, calculations, interpretation, recommendations, risks, and executive follow-ups.
+  * **Digital Transformation (DX) Archetypes**: Cloud migration, smart factory Industry X, enterprise GenAI/RAG, omnichannel inventory management, and digital customer experience.
+* **Practice Requirement**: Solve all 15 cases and 15 issue-tree drills in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
+* **Canonical Links**: [`CONSULTING_CASES.md`](CONSULTING_CASES.md) · [`03_non_core/consulting/02_problem-solving.md`](../../../03_non_core/consulting/02_problem-solving.md).
 
 ---
 
-### Domain C: Technical Test Preparation (Python & SQL) (`[P0]` — Mastery Target: L3)
-* **What to Study**:
-  * **Python Algorithmic Logic**:
-    * Arrays, Hash Maps (Dictionaries), Strings, Two-Pointer technique, Sliding Window, Prefix Sums.
-    * Time Complexity $O(1), O(N), O(N \log N)$ and Space Complexity trade-offs.
-  * **SQL & Data Analytics**:
-    * Multi-table JOINs (`INNER`, `LEFT`, `FULL`, `CROSS`).
-    * Aggregations & Grouping (`GROUP BY`, `HAVING`, `SUM`, `AVG`, `COUNT(DISTINCT)`).
-    * Subqueries, CTEs (`WITH` clauses), CASE WHEN logic, COALESCE.
-    * Window Functions: `ROW_NUMBER() OVER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`, running totals.
-    * Business Scenarios: Daily Active Users (DAU), Monthly Active Users (MAU), Customer Retention, Top-N per Department.
-* **Practice Requirement**:
-  * Solve 30 Python problems and 40 SQL queries in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
-* **Canonical Resources**: [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) · [`03_non_core/software-engineering/programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) · [`03_non_core/analytics/analytics/04_tools-and-technical-stack.md`](../../../03_non_core/analytics/analytics/04_tools-and-technical-stack.md).
+### Domain 3: Quantitative Aptitude & Consulting Mathematics (`[P1]` — Target Depth: L3)
+* **What to Master**:
+  * **Business Margins**: Gross Margin $= (\text{Rev} - \text{COGS}) / \text{Rev}$; Operating Margin $= \text{EBIT} / \text{Rev}$.
+  * **Unit Economics**: Customer Lifetime Value ($LTV = (\text{ARPU} \times \text{Margin}) / \text{Churn}$); $LTV / CAC > 3.0x$; Payback Period $< 12$ months.
+  * **Break-Even Volume**: Fixed Costs divided by Contribution Margin per unit.
+  * **Rule of 72 & CAGR**: Years to double $\approx 72 / \text{Rate \%}$.
+  * **Market Sizing**: Population-based and supply-side estimation frameworks.
+* **Practice Requirement**: Complete all 20 quantitative problems and 10 market sizing guesstimates.
+* **Core Files**: [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) · [`01_common/placement-math/`](../../../01_common/placement-math/).
 
 ---
 
-### Domain D: Digital Technology & Cloud Architecture (`[P0]` — Mastery Target: L3)
-* **What to Study**:
-  * **Cloud Computing Fundamentals**:
-    * Public vs Private vs Hybrid vs Multi-Cloud.
-    * Service Models: IaaS (EC2/VMs), PaaS (App Service/Elastic Beanstalk), SaaS (Salesforce/Workday).
-    * Modern Infrastructure: Microservices, Docker Containers, Kubernetes orchestration, Serverless (AWS Lambda / Azure Functions).
-    * Disaster Recovery: Recovery Time Objective (RTO) vs Recovery Point Objective (RPO), multi-region active-active vs active-passive.
-  * **Technology Selection Framework**:
-    * How to objectively compare AWS vs Azure vs GCP based on existing client landscape, enterprise licensing, data residency laws in Japan, and TCO.
-  * **Enterprise Systems**:
-    * ERP (SAP S/4HANA core ledger & logistics), CRM (Salesforce customer 360), Supply Chain (Blue Yonder/SAP SCM).
-    * Integration Architecture: REST APIs, JSON, API Gateways (Kong/Apigee), Event-Driven Architecture (Kafka / RabbitMQ message queues).
-* **Practice Requirement**:
-  * Architect 3 enterprise cloud migration blueprints with trade-off matrices.
-* **Canonical Resources**: [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) · [`03_non_core/software-engineering/04_tools-and-technical.md`](../../../03_non_core/software-engineering/04_tools-and-technical.md).
+### Domain 4: SQL & Enterprise Data Manipulation (`[P2]` — Target Depth: L3)
+* **What to Master**:
+  * **Relational Schema Understanding**: Table grain, primary/foreign keys, handling NULLs with `COALESCE` and `NULLIF`.
+  * **Advanced Aggregations & Joins**: `GROUP BY`, `HAVING`, multi-table `INNER`, `LEFT`, and `CROSS` joins.
+  * **Subqueries & CTEs**: Modular query design using `WITH` statements.
+  * **Window Functions**: `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`, moving averages, and running totals.
+* **Practice Requirement**: Execute and verify all 30 SQL challenges in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+* **Core Files**: [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) · [`03_non_core/analytics/analytics/04_tools-and-technical-stack.md`](../../../03_non_core/analytics/analytics/04_tools-and-technical-stack.md).
 
 ---
 
-### Domain E: AI, Machine Learning & Enterprise Generative AI (`[P0]` — Mastery Target: L3)
-* **What to Study**:
-  * **Classical ML Fundamentals**: Supervised vs Unsupervised, Regression vs Classification, Train/Val/Test split, Overfitting/Underfitting, Precision/Recall/F1-score, ROC-AUC.
-  * **Enterprise Generative AI & LLMs**:
-    * Tokens, Embeddings, Context Window limits, Hallucination risks.
-    * **RAG (Retrieval-Augmented Generation) Architecture**:
-      $$	ext{User Query} \longrightarrow 	ext{Embedding Model} \longrightarrow 	ext{Vector Search (Cosine Similarity)} \longrightarrow 	ext{Context Ingestion} \longrightarrow 	ext{LLM Output}$$
-    * When to use Prompt Engineering vs RAG vs Fine-Tuning.
-    * **Responsible AI & Security**: Enterprise data privacy, preventing PII leakage, Role-Based Access Control (RBAC), toxicity guardrails.
-* **Practice Requirement**:
-  * Walk through the Enterprise Insurance Policy Retrieval case in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
-* **Canonical Resources**: [`CONSULTING_CASES.md`](CONSULTING_CASES.md) · [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md).
+### Domain 5: Python & Algorithmic Problem Solving (`[P2]` — Target Depth: L3)
+* **What to Master**:
+  * **Core Algorithms**: Two pointers, sliding window, prefix sums, hash maps, heaps, binary search, and intervals.
+  * **Complexity Analysis**: Time complexity $O(N)$ vs $O(N \log N)$ and auxiliary space bounds.
+  * **System Problem Context**: Telemetry parsing, sliding-window session monitoring, log anomaly detection, and task dependency graphs (DAG).
+* **Practice Requirement**: Solve and verify all 20 Python coding problems in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+* **Core Files**: [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) · [`03_non_core/software-engineering/programming/python.md`](../../../03_non_core/software-engineering/programming/python.md).
 
 ---
 
-### Domain F: Industry X & Smart Factory IoT (`[P0]` — Mastery Target: L3)
-* **What to Study**:
-  * **IoT Ecosystem**: Physical Sensors (Vibration, Temperature, Acoustic) $\longrightarrow$ Edge Gateways $\longrightarrow$ MQTT/HTTPS Telemetry Ingestion $\longrightarrow$ Cloud Data Lake.
-  * **Manufacturing Systems**: SCADA (Supervisory Control), MES (Manufacturing Execution Systems), ERP integration.
-  * **Key Operational Concepts**:
-    * **OEE (Overall Equipment Effectiveness)**:
-      $$	ext{OEE} = 	ext{Availability} 	imes 	ext{Performance} 	imes 	ext{Quality}$$
-    * Predictive Maintenance: Anomaly detection on telemetry streams to prevent unplanned downtime.
-    * Digital Twins: Virtual replica of physical plant equipment for real-time stress simulation.
-* **Practice Requirement**:
-  * Solve the Robotics Smart Factory Case in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
-* **Canonical Resources**: [`CONSULTING_CASES.md`](CONSULTING_CASES.md) · [`03_non_core/operations/`](../../../03_non_core/operations/).
+### Domain 6: Cloud Computing & Enterprise Architecture (`[P2]` — Target Depth: L3)
+* **What to Master**:
+  * **Cloud Fundamentals**: IaaS vs PaaS vs SaaS; Public vs Private vs Hybrid vs Multi-Cloud.
+  * **Microservices & Containers**: Docker containerization, Kubernetes orchestration, Serverless (AWS Lambda / Azure Functions).
+  * **Enterprise Core Systems**: ERP (SAP S/4HANA), CRM (Salesforce), API Gateways, REST APIs, and Kafka event streaming.
+  * **High Availability & Security**: RPO/RTO disaster recovery, Zero Trust architecture, RBAC, and data encryption.
+* **Practice Requirement**: Review the 20 Cloud & Architecture questions in [`QUESTION_BANK.md`](QUESTION_BANK.md).
+* **Core Files**: [`QUESTION_BANK.md`](QUESTION_BANK.md) · [`03_non_core/software-engineering/04_tools-and-technical.md`](../../../03_non_core/software-engineering/04_tools-and-technical.md).
 
 ---
 
-### Domain G: Civil/HWRE Project & Resume Defense (`[P0]` — Mastery Target: L4)
-* **What to Study**:
-  * **The 4-Step Technical Defense**:
-    1. *Problem Context (30s)*: Physical / engineering bottleneck (e.g. pier scour failure, flood lead time).
-    2. *Methodology & Stack (45s)*: Governing physics, Python automation, OpenFOAM CFD, statistical time-series.
-    3. *Key Technical Bottleneck (45s)*: Data sparsity, numerical instability, memory optimization.
-    4. *Quantified Outcome & Value (30s)*: % error reduction, NSE score, runtime speedup.
-  * **Engineering-to-Consulting Transfer Matrix**:
-    * Numerical simulation $\longrightarrow$ Computational modeling & systems thinking.
-    * Hydrological forecasting $\longrightarrow$ Predictive analytics under high uncertainty.
-    * Complex physical networks $\longrightarrow$ Enterprise supply chain and workflow architecture.
-* **Practice Requirement**:
-  * Rehearse 30s, 60s, and 2-minute project pitches for M.Tech research and key coursework.
-* **Canonical Resources**: [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) · [`08_projects/`](../../../08_projects/) · [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md).
+### Domain 7: AI, Machine Learning & Enterprise Generative AI (`[P2]` — Target Depth: L3)
+* **What to Master**:
+  * **Classical ML Concepts**: Supervised vs unsupervised, classification vs regression, precision, recall, F1, ROC-AUC, and class imbalance.
+  * **Enterprise GenAI & RAG**: Vector embeddings, chunking strategies, hybrid search (BM25 + vector cosine similarity), and grounded citations.
+  * **AI Governance & ROI**: Mitigating hallucination, prompt injection guardrails, PII masking, and human-in-the-loop validation.
+* **Practice Requirement**: Review the 20 AI/ML/GenAI questions in [`QUESTION_BANK.md`](QUESTION_BANK.md) and RAG cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
+* **Core Files**: [`QUESTION_BANK.md`](QUESTION_BANK.md) · [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
 
 ---
 
-### Domain H: Japan Readiness, Cross-Cultural Fit & HR (`[P0]` — Mastery Target: L4)
-* **What to Study**:
-  * **Japanese Business Culture**:
-    * *Nemawashi (根回し)*: Informal consensus building before formal decision-making.
-    * *Kaizen (改善)*: Continuous incremental operational improvement.
-    * *Omotenashi (おもてなし)*: High standard of customer service and stakeholder care.
-    * *Attention to Detail*: Meticulous validation of data, slides, and executive memos.
-  * **Japanese Language Strategy (`[JD VERIFIED]`)**:
-    * Verified fact: Japanese is NOT required at hiring, but mandatory after joining.
-    * Concrete action plan: Dedicating 1 hour/day pre-joining, leveraging Accenture's sponsored JPY 664,658 training program, targeting conversational fluency within 12 months.
-  * **Core Behavioral Stories**:
-    * Adaptability & grit in unfamiliar environments.
-    * Overcoming technical project failures.
-    * Resolving cross-disciplinary team conflicts.
-    * Passion for continuous learning in emerging tech.
-* **Practice Requirement**:
-  * Practice all 5 STAR stories in [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) and mock interviews in [`INTERVIEW.md`](INTERVIEW.md).
-* **Canonical Resources**: [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) · [`INTERVIEW.md`](INTERVIEW.md) · [`01_common/behavioral/`](../../../01_common/behavioral/).
-
----
-
-## 📅 Timed Study Roadmaps
-
-### 30-Day Comprehensive Master Plan
-* **Days 01–05**: Role Mastery, Accenture Tech-Agnostic Model, Aptitude Section Tests.
-* **Days 06–12**: Consulting Problem Solving, MECE Issue Trees, Business Math Drills.
-* **Days 13–18**: Technical Test Drills (Python 30 questions, SQL 40 questions).
-* **Days 19–24**: Digital Technology Deep Dive (Cloud, AI/RAG, IoT/Industry X Cases).
-* **Days 25–28**: Project Defense Walkthroughs, STAR Stories, Japanese Motivation.
-* **Days 29–30**: Full Timed Mock Interviews & Readiness Scorecard review.
-
-### 14-Day High-ROI Accelerated Plan
-* **Days 01–03**: Role Alignment, MECE Structuring & 4 Core Business Cases.
-* **Days 04–07**: Python & SQL Technical Test Practice (High-Yield Questions).
-* **Days 08–10**: Cloud, AI/RAG, and Smart Factory Cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
-* **Days 11–13**: Project Defense (Civil/HWRE Bridge) & Director Fit QA.
-* **Day 14**: Rapid Revision ([`RAPID_REVISION.md`](RAPID_REVISION.md)).
-
-### 7-Day Sprint Plan
-* **Day 01**: Role pitch & 5 Issue-Tree drills.
-* **Day 02**: SQL Window Functions & Python Algorithms.
-* **Day 03**: Cloud Architecture & Enterprise RAG Case.
-* **Day 04**: Smart Factory Industry X Case & Business Math.
-* **Day 05**: Project Defense (4-Step Answer Framework).
-* **Day 06**: HR & Japan Readiness ("Why Japan?", "Why Accenture?").
-* **Day 07**: Timed Mock Test & Emergency Revision.
-
-### Emergency Plans (3-Day / 1-Day / 3-Hour / 60-Minute)
-* Refer to [`RAPID_REVISION.md`](RAPID_REVISION.md) for hyper-condensed flashcard checklists.
+### Domain 8: Project Defense, Japan Readiness & Behavioral HR (`[P1]` — Target Depth: L4)
+* **What to Master**:
+  * **Civil/HWRE Project Defense**: Defending real IIT Kanpur projects ([`streamflow-time-series`](../../../08_projects/streamflow-time-series/), [`idf-pet`](../../../08_projects/idf-pet/), [`bridgerisk`](../../../08_projects/bridgerisk/)) using the 4-step framework without fabrication.
+  * **Five Master STAR Stories**: Overcoming technical failure, cross-disciplinary conflict, independent continuous learning, pressure delivery, and cultural adaptability.
+  * **Japanese Language & Relocation Strategy**: Communicating clear motivation for living in Tokyo, respecting *Ho-Ren-So*, *Nemawashi*, and *Kaizen*, and presenting a concrete pre-joining language plan utilizing Accenture's JPY 664,658 training program.
+* **Practice Requirement**: Rehearse all 10 project-defense question sets in [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) and mock interviews in [`INTERVIEW.md`](INTERVIEW.md).
+* **Core Files**: [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) · [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) · [`JAPAN_RELOCATION_AND_LANGUAGE.md`](JAPAN_RELOCATION_AND_LANGUAGE.md).
