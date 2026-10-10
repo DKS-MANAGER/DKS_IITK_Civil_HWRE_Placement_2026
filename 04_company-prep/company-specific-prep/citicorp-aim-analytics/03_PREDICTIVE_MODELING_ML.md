@@ -1,196 +1,243 @@
 # 03. Predictive Modeling & Machine Learning — Banking Analytics Module
 
 > **Target Role**: Spec Analytics Analyst — Business Analytics (SBS), Citi AIM  
-> **Relevance**: Evaluated in Technical Round 2 and Case interviews. Bridges statistics with predictive machine learning.
+> **Relevance**: Explicitly required by the job description ("Statistical mind set – Familiarity in basic statistics, hypothesis testing, segmentation, and predictive modeling").  
+> **Evidence Policy**: Specialized banking scorecards and industry benchmarks are classified as `[PREPARATION RECOMMENDATION — Supplementary Banking Context]`. All numerical examples are `[PRACTICE CASE ASSUMPTION]`.
 
 ---
 
-## 1. Predictive Modeling in Financial Services
+## 1. End-to-End Analytics & Modeling Workflow
 
-At Citigroup, predictive modeling is applied to solve four commercial challenges:
-1. **Credit Scoring & Underwriting**: Estimating **Probability of Default (PD)** to decide loan approval, credit limits, and interest rates.
-2. **Customer Attrition / Churn**: Identifying accounts likely to close or stop transacting within the next 90 days.
-3. **Marketing Propensity / Uplift**: Identifying cardholders most likely to accept an unsecured personal loan or premium card upgrade.
-4. **Transaction Fraud Detection**: Classifying live swipes as fraudulent or legitimate in $<100\text{ milliseconds}$.
+In banking analytics, a model is not an isolated piece of code; it is an analytical pipeline that drives a commercial decision:
+
+```
+[1. Business Question] ──────► "Can we predict which credit cardholders will default within 90 days?"
+        │
+[2. Data Extraction]   ──────► Query enterprise data warehouse via SQL (join accounts, txns, bureau)
+        │
+[3. EDA & Cleaning]    ──────► Inspect distributions, handle missing values, cap outliers
+        │
+[4. Feature Pipeline]  ──────► Construct behavioral ratios, lag features, utilization indicators
+        │
+[5. Train/Val/Test]    ──────► Time-based out-of-time (OOT) partition to prevent temporal leakage
+        │
+[6. Model Training]    ──────► Logistic regression baseline $\rightarrow$ Tree-based ensemble
+        │
+[7. Calibration]       ──────► Ensure predicted score represents true empirical probability
+        │
+[8. Threshold & Metric]──────► Set decision cutoff balancing charge-off loss vs customer friction
+        │
+[9. Synthesis & Rec]   ──────► Translate technical outputs into executive presentation
+        │
+[10. Monitor Drift]    ──────► Track Population Stability Index (PSI) and feature decay post-launch
+```
 
 ---
 
-## 2. Linear Regression for Financial Forecasting
+## 2. Data Cleaning & Feature Engineering
 
-### 2.1 The Classical Linear Model
+### 2.1 Managing Missing Data
+* **Missing Completely at Random (MCAR)**: Missingness is unrelated to any observed or unobserved variable (e.g., occasional network packet drop). Imputation via median or mode is mathematically valid.
+* **Missing at Random (MAR)**: Missingness depends on observed features (e.g., younger applicants less likely to report home phone numbers). Conditional imputation via regression or iterative models.
+* **Missing Not at Random (MNAR)**: Missingness depends directly on the unobserved value (e.g., high-wealth clients refusing to state annual income). **Do not simply impute the mean.** Create an explicit binary indicator `is_income_missing = 1` and preserve the signal.
+
+### 2.2 Feature Scaling
+* **Standardization ($Z$-Score)**: $X_{scaled} = \frac{X - \mu}{\sigma}$. Required for distance-based algorithms (K-Means, KNN, PCA) and gradient-descent models (Logistic Regression with regularization).
+* **Robust Scaling**: $X_{robust} = \frac{X - \text{median}}{\text{IQR}}$. Uses median and interquartile range; resistant to extreme financial transaction outliers.
+* **Tree Invariance**: Decision Trees and Random Forests split on ordered thresholds and are **invariant to monotonic feature scaling**.
+
+### 2.3 Critical Data Leakage Traps
+Data leakage occurs when information from outside the training dataset is used to create the model, producing artificially high validation metrics that collapse in production:
+1. **Preprocessing Leakage**: Calculating imputation means or scaling parameters across the *entire* dataset before splitting. **The Rule**: Split into Train and Test *first*; fit scalers/imputers *only* on the training split, then transform validation/test sets using training parameters.
+2. **Temporal Leakage**: Randomly splitting time-series financial transactions into $80/20$ train/test. Future customer transactions leak backward to predict earlier events. **The Rule**: Always use chronological splits (e.g., Train on Jan–June 2026, Test on July–Sept 2026).
+3. **Target Leakage**: Including features that are populated *after* the target event occurs (e.g., using `collection_call_assigned` as a feature to predict loan default).
+
+---
+
+## 3. Linear Regression for Financial Forecasting
+
+### 3.1 Mathematical Formulation & Ordinary Least Squares (OLS)
 $$Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_k X_k + \epsilon$$
-Where $\epsilon \sim \mathcal{N}(0, \sigma^2)$ represents the stochastic error term.
+OLS minimizes the Sum of Squared Residuals (SSR):
+$$\min_{\beta} \sum_{i=1}^n (y_i - \hat{y}_i)^2 = \min_{\beta} (Y - X\beta)^T(Y - X\beta)$$
+Normal equations solution:
+$$\hat{\beta} = (X^T X)^{-1} X^T Y$$
 
-### 2.2 The 5 Gauss-Markov Assumptions
-For Ordinary Least Squares (OLS) estimators $\hat{\beta}$ to be **BLUE** (Best Linear Unbiased Estimator):
-1. **Linearity in Parameters**: The dependent variable is a linear function of parameters $\beta_i$.
-2. **Strict Exogeneity**: Expected value of errors given regressors is zero: $E[\epsilon | X] = 0$.
-3. **No Multicollinearity**: Regressors $X$ are not linearly dependent ($\text{Rank}(X) = k + 1$).
-4. **Homoscedasticity**: Error variance is constant across all observations: $\text{Var}(\epsilon_i | X) = \sigma^2$.
-5. **No Autocorrelation**: Errors are uncorrelated across observations: $\text{Cov}(\epsilon_i, \epsilon_j) = 0 \text{ for } i \neq j$.
+### 3.2 The Gauss-Markov Theorem & Assumptions
+For OLS estimators to be **BLUE** (Best Linear Unbiased Estimator):
+1. **Linearity in Parameters**: $Y$ is a linear combination of coefficients $\beta_j$.
+2. **Strict Exogeneity**: $E[\epsilon | X] = 0$. Regressors are uncorrelated with the error term.
+3. **No Multicollinearity**: Regressors are linearly independent ($\text{det}(X^T X) \neq 0$).
+4. **Homoscedasticity**: Error variance is constant across all levels of $X$: $\text{Var}(\epsilon_i | X) = \sigma^2$.
+5. **No Autocorrelation**: Residuals are uncorrelated across observations: $\text{Cov}(\epsilon_i, \epsilon_j) = 0$ for $i \neq j$.
 
-### 2.3 Multicollinearity & Variance Inflation Factor (VIF)
-* **Problem**: When features are highly correlated (e.g., Annual Income and Savings Balance), OLS coefficient estimates become highly unstable with inflated standard errors.
-* **Diagnostic**: Compute VIF for each regressor:
+### 3.3 Multicollinearity & Variance Inflation Factor (VIF)
+* **Impact**: Inflates coefficient variance, making parameter estimates unstable and p-values unreliable.
+* **Formula**:
   $$\text{VIF}_j = \frac{1}{1 - R_j^2}$$
-  Where $R_j^2$ is the $R^2$ obtained from regressing feature $X_j$ against all other predictors.
-* **Benchmark Threshold**:
-  * $\text{VIF} < 5$: Acceptable multicollinearity.
-  * $\text{VIF} > 5 \text{ to } 10$: Severe multicollinearity; candidate must drop or combine variables.
+  Where $R_j^2$ is the $R^2$ from regressing feature $X_j$ against all other predictors.
+* **Standard Thresholds**:
+  * $\text{VIF} < 5$: Acceptable collinearity.
+  * $\text{VIF} \ge 5 \text{ to } 10$: Severe collinearity; remove redundant features or combine via PCA.
 
-### 2.4 $R^2$ vs Adjusted $R^2$
-* $R^2 = 1 - \frac{\text{SS}_{res}}{\text{SS}_{tot}}$: Fraction of variance explained. **Always increases** when new features are added, even if irrelevant.
-* $\text{Adjusted } R^2 = 1 - \left[\frac{(1 - R^2)(n - 1)}{n - k - 1}\right]$: Penalizes the model for adding redundant predictors $k$.
+### 3.4 Goodness-of-Fit: $R^2$ vs Adjusted $R^2$
+* **$R^2$**: Proportion of variance explained:
+  $$R^2 = 1 - \frac{\text{SS}_{res}}{\text{SS}_{tot}}$$
+  * Limitation: Adding any feature (even pure random noise) strictly increases $R^2$.
+* **Adjusted $R^2$**: Penalizes model complexity:
+  $$\text{Adjusted } R^2 = 1 - \left[\frac{(1 - R^2)(n - 1)}{n - k - 1}\right]$$
+  Where $n$ is sample size and $k$ is the number of predictors.
 
 ---
 
-## 3. Logistic Regression: The Bedrock of Credit Scoring
+## 4. Logistic Regression: Classification & Credit Scoring
 
-Unlike linear regression, which can predict unphysical probabilities $< 0$ or $> 1$, **Logistic Regression** models binary outcomes ($Y \in \{0, 1\}$) by mapping linear inputs to the $(0, 1)$ probability interval via the **Sigmoid (Logit) function**.
+### 4.1 Derivation from Odds to Sigmoid
+Linear regression can predict values $< 0$ or $> 1$, which cannot represent probabilities. Logistic regression models the **log-odds** as a linear function:
 
-### 3.1 Mathematical Derivation
-1. **Odds Ratio**: Ratio of probability of event occurring to event not occurring:
+1. **Odds Ratio**:
    $$\text{Odds} = \frac{p}{1 - p}$$
-2. **Log-Odds (Logit Transformation)**:
-   $$\ln\left(\frac{p}{1 - p}\right) = \beta_0 + \beta_1 X_1 + \dots + \beta_k X_k$$
-3. **Solving for Probability $p$**:
-   $$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 X_1 + \dots + \beta_k X_k)}} = \sigma(Z)$$
+2. **Log-Odds (Logit Link Function)**:
+   $$\ln\left(\frac{p}{1 - p}\right) = \beta_0 + \beta_1 X_1 + \dots + \beta_k X_k = Z$$
+3. **Inverting for Probability $p$ (Sigmoid Function)**:
+   $$\frac{p}{1 - p} = e^Z \implies p = e^Z(1 - p) \implies p(1 + e^Z) = e^Z$$
+   $$p = \frac{e^Z}{1 + e^Z} = \frac{1}{1 + e^{-Z}} = \sigma(Z)$$
 
 ```
      Probability p
-        1.0 ┼                             ╭──────────
-            │                          ╭──╯
-        0.5 ┼─────────────────────────● (Decision Threshold)
-            │                     ╭──╯
-        0.0 ┼───────────╮─────────╯
-            └───────────┴─────────────┴──────────
-                       -∞             0          +∞
-                                      Z
+        1.0 ┼                                    ╭──────────
+            │                                 ╭──╯
+        0.5 ┼────────────────────────────────● (Default Threshold 0.5)
+            │                            ╭───╯
+        0.0 ┼────────────╮───────────────╯
+            └────────────┴───────────────────┴──────────
+                        -∞                   0          +∞
+                                             Z
 ```
 
-### 3.2 Interpretation of Coefficients $\beta_i$
-* For a 1-unit increase in predictor $X_i$, the **log-odds** of the event change by $\beta_i$.
-* The **odds of default** are multiplied by $e^{\beta_i}$.
-  * E.g., If $\beta_{late\_payments} = 0.693$, then $e^{0.693} \approx 2.0$. Each additional late payment **doubles the odds of default**.
+### 4.2 Interpreting Logistic Coefficients
+* $\beta_i$ represents the change in the **log-odds** of the outcome per 1-unit increase in $X_i$, holding all other features constant.
+* $e^{\beta_i}$ represents the multiplicative change in the **odds ratio**:
+  * If $\beta_{\text{delinquencies}} = 0.693$, then $e^{0.693} \approx 2.0$. Each additional past delinquency **doubles the odds of default**.
+  * If $\beta_{\text{income}} = -0.05$, then $e^{-0.05} \approx 0.951$. Each unit increase in income reduces the odds of default by $\approx 4.9\%$.
 
-### 3.3 Loss Function: Binary Cross-Entropy (Log-Loss)
-$$\mathcal{L}(\beta) = -\frac{1}{n} \sum_{i=1}^n \left[ y_i \ln(p_i) + (1 - y_i) \ln(1 - p_i) \right]$$
+### 4.3 Loss Function: Binary Cross-Entropy (Log-Loss)
+Because least-squares produces a non-convex surface for sigmoid outputs, logistic regression is optimized using Maximum Likelihood Estimation via Binary Cross-Entropy:
+$$\mathcal{L}(\beta) = -\frac{1}{n} \sum_{i=1}^n \left[ y_i \ln(\hat{p}_i) + (1 - y_i) \ln(1 - \hat{p}_i) \right]$$
 
 ---
 
-## 4. Model Evaluation on Imbalanced Financial Datasets
+## 5. Model Evaluation on Imbalanced Financial Datasets
 
-In credit default and fraud analytics, default rates are typically $2\%\text{ to }5\%$, while fraud rates are $<0.1\%$. Standard accuracy is useless (a model predicting $100\%$ non-default achieves $98\%$ accuracy while failing completely).
+In retail banking, target events are inherently rare: credit default rates are typically $2\%\text{ to }5\%$, while transaction fraud is $<0.1\%$.
 
-### 4.1 Confusion Matrix
+### 5.1 Confusion Matrix
 
-| Reality \ Prediction | Predicted Negative ($\hat{Y} = 0$) | Predicted Positive ($\hat{Y} = 1$) |
+| Actual \ Predicted | Predicted Negative ($\hat{Y} = 0$) | Predicted Positive ($\hat{Y} = 1$) |
 | :--- | :--- | :--- |
 | **Actual Negative ($Y = 0$)** | **True Negative (TN)** | **False Positive (FP)** (Type I error) |
 | **Actual Positive ($Y = 1$)** | **False Negative (FN)** (Type II error) | **True Positive (TP)** |
 
-### 4.2 Key Evaluation Metrics
+### 5.2 Metric Definitions & Business Trade-offs
 
-1. **Precision**: Out of all accounts predicted as default, what fraction actually defaulted?
-   $$\text{Precision} = \frac{\text{TP}}{\text{TP} + \text{FP}}$$
-2. **Recall (Sensitivity / True Positive Rate)**: Out of all actual defaults, what fraction did the model catch?
-   $$\text{Recall} = \frac{\text{TP}}{\text{TP} + \text{FN}}$$
-3. **Specificity (True Negative Rate)**:
-   $$\text{Specificity} = \frac{\text{TN}}{\text{TN} + \text{FP}}$$
-4. **$F_1$-Score**: Harmonic mean of Precision and Recall:
+1. **Accuracy**: $\frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{FN}}$.
+   * *Critical Flaw*: If $99\%$ of transactions are legitimate, a dumb model predicting all zeros achieves $99\%$ accuracy while catching zero fraud. **Never rely on accuracy alone.**
+2. **Precision**: $\frac{\text{TP}}{\text{TP} + \text{FP}}$.
+   * Fraction of predicted positives that are true positives.
+   * *Business Cost*: Low precision means many false alarms (annoying cardholders with false transaction blocks).
+3. **Recall (Sensitivity / True Positive Rate)**: $\frac{\text{TP}}{\text{TP} + \text{FN}}$.
+   * Fraction of actual positives caught by the model.
+   * *Business Cost*: Low recall means letting fraudsters escape or approving bad borrowers who charge off.
+4. **Specificity (True Negative Rate)**: $\frac{\text{TN}}{\text{TN} + \text{FP}}$.
+5. **$F_1$-Score**: Harmonic mean of Precision and Recall:
    $$F_1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} = \frac{2\text{TP}}{2\text{TP} + \text{FP} + \text{FN}}$$
 
-### 4.3 ROC-AUC (Receiver Operating Characteristic)
-* **ROC Curve**: Plots True Positive Rate (Recall) on the $Y$-axis versus False Positive Rate ($1 - \text{Specificity}$) on the $X$-axis across all possible decision thresholds ($0.0 \le \tau \le 1.0$).
-* **AUC (Area Under Curve)**:
-  * $\text{AUC} = 0.50$: Equivalent to random guessing.
-  * $\text{AUC} = 0.70\text{ to }0.80$: Acceptable credit scorecard.
-  * $\text{AUC} > 0.85$: High-performing predictive model.
-  * **Probabilistic Meaning**: AUC represents the probability that a randomly chosen defaulting borrower will be assigned a higher default risk score than a randomly chosen non-defaulting borrower.
+### 5.3 Asymmetric Cost Matrix
+In banking analytics, **the cost of a False Negative rarely equals the cost of a False Positive**:
+* In Credit Default: $\text{Cost}(\text{FN}) = \text{Loan Charge-off Loss} \approx \$10,000$. $\text{Cost}(\text{FP}) = \text{Lost Interest on Denied Good Customer} \approx \$600$.
+* Optimal threshold $\tau^*$ is selected to minimize total expected business loss:
+  $$\min_\tau \left[ \text{Cost}(\text{FP}) \cdot \text{FP}(\tau) + \text{Cost}(\text{FN}) \cdot \text{FN}(\tau) \right]$$
+
+### 5.4 ROC-AUC vs Precision-Recall Curves
+* **ROC Curve**: True Positive Rate (Recall) vs False Positive Rate ($1 - \text{Specificity}$) across all cutoffs $\tau \in [0, 1]$.
+  * **ROC-AUC**: Represents the probability that a randomly chosen positive instance receives a higher predicted score than a randomly chosen negative instance.
+* **Precision-Recall (PR) Curve**: Precision vs Recall. **Superior to ROC-AUC on severely imbalanced datasets** ($<1\%$ prevalence), because ROC-AUC can remain deceptively high ($>0.90$) due to large true negative counts diluting the False Positive Rate.
 
 ---
 
-## 5. Banking Specialized Metrics: KS Statistic & Gini
+## 6. Supplementary Banking Context: KS Statistic, Gini & PSI
 
-### 5.1 The Kolmogorov-Smirnov (KS) Statistic (Citi Standard)
-The **KS Statistic** measures the maximum separation distance between the cumulative distribution of "Goods" (non-defaulters) and "Bads" (defaulters) across model score deciles.
+> **Evidence Note**: The following credit risk scorecard methodologies represent standard industry context (`[PREPARATION RECOMMENDATION — Supplementary Banking Context]`), not official Citi assessment standards.
+
+### 6.1 The Kolmogorov-Smirnov (KS) Statistic
+The KS statistic measures the maximum vertical distance between the cumulative distribution of "Goods" (non-defaulters) and "Bads" (defaulters) across risk score deciles.
 
 $$\text{KS} = \max_{d \in [1, 10]} \left| F_{bad}(d) - F_{good}(d) \right|$$
 
-```
-   Cumulative %
-     100% ┼                                   ╭─── Cumulative Bads (Defaulters)
-          │                              ╭────╯
-          │                      ┌───────●
-          │                      │  KS   │
-          │                      │  GAP  │
-          │                      └───────●──── Cumulative Goods
-          │                         ╭────╯
-       0% ┼─────────────────────────╯
-          └─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────
-          Decile 1    2     3     4     5     6     7     8     9    10 (Score Buckets)
-```
+#### Decile Scorecard Validation Table (`[PRACTICE CASE ASSUMPTION]`):
 
-### 5.2 Decile Validation Table Interpretation
-
-| Decile (Ranked by Risk) | Total Accounts | Defaulters (Bads) | Cumulative Bads (%) | Non-Defaulters (Goods) | Cumulative Goods (%) | KS Spread (%) |
+| Decile (Sorted High $\to$ Low Risk) | Total Accounts | Defaulters (Bads) | Cum Bads (%) | Non-Defaulters (Goods) | Cum Goods (%) | KS Separation (%) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1 (Highest Risk)** | 10,000 | 1,800 | 36.0% | 8,200 | 8.6% | **27.4%** |
-| **2** | 10,000 | 1,400 | 64.0% | 8,600 | 17.7% | **46.3%** |
-| **3** | 10,000 | 800 | **80.0%** | 9,200 | 27.4% | **52.6% (Peak KS)** |
-| **4** | 10,000 | 450 | 89.0% | 9,550 | 37.4% | 51.6% |
+| **1 (Highest Risk)** | 10,000 | 2,000 | 40.0% | 8,000 | 8.4% | **31.6%** |
+| **2** | 10,000 | 1,400 | 68.0% | 8,600 | 17.5% | **50.5%** |
+| **3** | 10,000 | 750 | **83.0%** | 9,250 | 27.2% | **55.8% (Peak KS)**|
+| **4** | 10,000 | 400 | 91.0% | 9,600 | 37.3% | 53.7% |
+| **5** | 10,000 | 200 | 95.0% | 9,800 | 47.6% | 47.4% |
 | **...** | ... | ... | ... | ... | ... | ... |
-| **10 (Lowest Risk)** | 10,000 | 20 | 100.0% | 9,980 | 100.0% | 0.0% |
+| **10 (Lowest Risk)** | 10,000 | 10 | 100.0% | 9,990 | 100.0% | 0.0% |
 
-* **Industry Acceptance Standards at Citi**:
-  * **$\text{KS} > 40\%$**: Statistically sound scorecard.
-  * **Location of Peak KS**: Should occur in the top deciles (**Deciles 2, 3, or 4**). If peak KS occurs in Decile 8, the model is failing to concentrate bads in the top risk tiers.
+* **Standard Interpretation**:
+  * **$\text{KS} > 40\%$**: Strong separation capability.
+  * **Location**: Peak KS should occur in Deciles 2, 3, or 4. If peak KS occurs late (e.g. Decile 8), the model fails to isolate bads in the top risk tiers.
 
-### 5.3 Gini Coefficient
-$$\text{Gini} = 2 \times \text{AUC} - 1$$
-* Measures the model's discriminatory power compared to a random model. If $\text{AUC} = 0.80$, $\text{Gini} = (2 \times 0.80) - 1 = 0.60$ ($60\%$).
+### 6.2 Gini Coefficient
+$$\text{Gini} = 2 \times \text{ROC-AUC} - 1$$
+Measures discriminatory power over a random baseline. An $\text{AUC} = 0.75 \implies \text{Gini} = 0.50$ ($50\%$).
 
-### 5.4 Population Stability Index (PSI)
-Used to monitor if model population distribution has shifted over time (concept drift):
+### 6.3 Population Stability Index (PSI)
+Quantifies whether the distribution of scores or features in production has drifted away from the baseline training distribution:
 $$\text{PSI} = \sum_{i=1}^{10} \left( \text{Actual}_i - \text{Expected}_i \right) \times \ln\left(\frac{\text{Actual}_i}{\text{Expected}_i}\right)$$
-* $\text{PSI} < 0.10$: No significant population shift; model stable.
-* $0.10 \le \text{PSI} < 0.25$: Moderate drift; model requires monitoring.
-* $\text{PSI} \ge 0.25$: Severe population shift; scorecard **must be recalibrated**.
+* Industry Heuristics:
+  * $\text{PSI} < 0.10$: Minimal shift; model stable.
+  * $0.10 \le \text{PSI} < 0.25$: Moderate drift; requires investigation.
+  * $\text{PSI} \ge 0.25$: Severe population shift; scorecard requires recalibration.
 
 ---
 
-## 6. Unsupervised Learning: Customer Segmentation
+## 7. Customer Segmentation & Unsupervised Learning
 
-### 6.1 K-Means Clustering
-* **Algorithm Steps**:
-  1. Initialize $K$ cluster centroids randomly.
-  2. Assign each customer observation to the nearest centroid (Euclidean distance).
-  3. Recompute centroids as the mean of all points assigned to that cluster.
-  4. Repeat until centroids converge (inertia stabilizes).
-* **Selecting Optimal $K$**:
-  * **Elbow Method**: Plot Within-Cluster Sum of Squares (WCSS / Inertia) vs $K$. Look for the "elbow" where incremental variance explained drops off.
-  * **Silhouette Score**: Measures how close a point is to its own cluster compared to neighboring clusters (ranges from $-1$ to $+1$).
+### 7.1 K-Means Clustering
+* **Objective**: Partition $n$ observations into $K$ clusters by minimizing the Within-Cluster Sum of Squares (WCSS / Inertia):
+  $$\arg\min_S \sum_{i=1}^K \sum_{x \in S_i} \| x - \mu_i \|^2$$
+* **Determining Optimal $K$**:
+  * **Elbow Method**: Plot Inertia vs $K$; identify the point of diminishing returns.
+  * **Silhouette Score**: Measures cohesion vs separation:
+    $$s(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}, \quad s(i) \in [-1, +1]$$
+    Where $a(i)$ is mean intra-cluster distance and $b(i)$ is mean nearest-cluster distance.
 
-### 6.2 RFM Segmentation Framework in Retail Banking
-* **R (Recency)**: Days since last transaction or card swipe.
-* **F (Frequency)**: Number of transactions per month.
-* **M (Monetary Value)**: Total dollar volume spent or average daily balance.
-* **Banking Personas**:
-  * *Champions / Whales* ($R \uparrow, F \uparrow, M \uparrow$): Offer exclusive concierge cards, wealth management cross-sell.
-  * *At-Risk High Spenders* ($R \downarrow, F \downarrow, M \uparrow$): Target immediate proactive retention incentives before they churn to competitors.
-  * *Low-Value Dormant* ($R \downarrow, F \downarrow, M \downarrow$): Automated digital nudge or prune credit limit to free regulatory capital.
+### 7.2 RFM Segmentation in Banking Analytics
+* **R (Recency)**: Days since last card swipe or branch transaction.
+* **F (Frequency)**: Total transactions per quarter.
+* **M (Monetary Value)**: Total spend volume or average daily balance.
+* **Portfolio Action Mapping**:
+  * Champions ($R \uparrow, F \uparrow, M \uparrow$): Premium wealth management upgrade.
+  * At-Risk Spenders ($R \downarrow, F \downarrow, M \uparrow$): Proactive retention calls and fee waivers.
+  * Dormant Accounts ($R \downarrow, F \downarrow, M \downarrow$): Automated re-engagement or credit limit pruning to release regulatory capital reserves.
 
 ---
 
-## 7. Decision Trees & Ensemble Methods
+## 8. Decision Trees & Ensemble Methods
 
-### 7.1 Splitting Metrics
+### 8.1 Splitting Criteria
 * **Gini Impurity**:
   $$I_G(p) = 1 - \sum_{i=1}^C p_i^2$$
-* **Entropy / Information Gain**:
+* **Entropy & Information Gain**:
   $$H(p) = -\sum_{i=1}^C p_i \log_2(p_i), \quad \text{Gain} = H(\text{Parent}) - \sum \frac{N_j}{N} H(\text{Child}_j)$$
 
-### 7.2 Why Random Forest & Gradient Boosting (XGBoost) Dominate Banking
-1. **Handling Non-Linearity & Interactions**: Automatically captures complex threshold effects (e.g., Debt-to-Income $>45\%$ is high risk only when Liquidity $< \$2,000$).
-2. **Handling Missing Values & Outliers**: Tree splits are invariant to monotonic transformations and insensitive to extreme outliers.
-3. **Class Imbalance Control**: Use techniques like `scale_pos_weight` in XGBoost or SMOTE (Synthetic Minority Over-sampling Technique) to ensure the minority default class is learned effectively.
+### 8.2 Random Forest vs Gradient Boosting (XGBoost/LightGBM)
+* **Random Forest (Bagging)**:
+  * Builds $B$ deep, independent trees on bootstrap samples; selects random subsets of features at each split ($\sqrt{p}$).
+  * **Reduces model variance** without increasing bias. Robust against overfitting.
+* **Gradient Boosting (Boosting)**:
+  * Sequentially trains shallow trees (weak learners), where each subsequent tree fits the negative gradient (pseudo-residuals) of the loss function.
+  * **Reduces model bias** and variance; requires careful hyperparameter tuning (learning rate $\eta$, tree depth, subsample ratio) to prevent overfitting.
