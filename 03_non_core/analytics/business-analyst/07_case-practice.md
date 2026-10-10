@@ -7,12 +7,12 @@
 ## Case 1: E-Commerce Mobile App Cart Abandonment Surge
 - **Prompt**: *"Flipkart's cart abandonment rate increased from 68% to 76% on Android devices over the last 14 days following App Version 14.2 release. Diagnose and propose an immediate fix."*
 - **Step 1: Clarification & Data Slicing**:
-  - Cart abandonment = $rac{	ext{Users who added to cart but did not complete checkout}}{	ext{Total users who added to cart}}$.
+  - Cart abandonment = $\frac{\text{Users who added to cart but did not complete checkout}}{\text{Total users who added to cart}}$.
   - Segmenting by payment mode: UPI drop-off spiked by 140%, while Credit Card and COD remained stable.
 - **Step 2: Root-Cause Isolation**:
   - Telemetry logs show UPI intent call to external apps (GPay, PhonePe) timed out on Android 13/14 due to missing background intent permissions in the new APK release.
 - **Step 3: Quantified Impact & Solution**:
-  - Daily cart value lost = $4.2	ext{ Cr INR}$.
+  - Daily cart value lost = $4.2\text{ Cr INR}$.
   - Immediate fix: Hotfix APK release (v14.2.1) restoring intent flags; temporary fallback prompting QR-code display for failed deep-links.
 
 ---
@@ -22,7 +22,7 @@
 - **Current Unit Economics**:
   - AOV = 320 INR | Gross Margin (18%) = 57.6 INR | Delivery Fee = 15 INR | Total Revenue = 72.6 INR.
   - Picking & Packing Cost = 20 INR | Rider Payout = 50 INR | Dark Store Rent/Overhead = 24.6 INR | Total Cost = 94.6 INR.
-  - Net Profit per Order = $72.6 - 94.6 = -\mathbf{22	ext{ INR}}$.
+  - Net Profit per Order = $72.6 - 94.6 = -\mathbf{22\text{ INR}}$.
 - **Turnaround Plan**:
   1. *Expand AOV from 320 to 420 INR*: Introduce high-margin bakery/dairy cross-sell bundles (adds +18 INR gross profit).
   2. *Batch Nearby Deliveries*: Batch 1.3 orders per rider run via geohash clustering (cuts rider cost from 50 to 38 INR).

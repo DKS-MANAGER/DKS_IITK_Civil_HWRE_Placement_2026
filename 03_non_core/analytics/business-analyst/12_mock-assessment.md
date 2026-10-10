@@ -15,10 +15,10 @@
 ## Section 1: Quantitative Aptitude (Sample Problems)
 
 1. A retailer marks up cost price by 40% and offers a 15% discount. If payment gateway fee is 2% of selling price, calculate net profit margin on cost.
-   - *Solution*: $	ext{CP} = 100 \implies 	ext{MP} = 140 \implies 	ext{SP} = 140 	imes 0.85 = 119$. Gateway fee = $119 	imes 0.02 = 2.38$. Net Profit = $119 - 2.38 - 100 = 16.62\%$.
+   - *Solution*: $\text{CP} = 100 \implies \text{MP} = 140 \implies \text{SP} = 140 \times 0.85 = 119$. Gateway fee = $119 \times 0.02 = 2.38$. Net Profit = $119 - 2.38 - 100 = 16.62\%$.
 
 2. A machine produces 5% defective items. If a batch of 3 items is inspected at random, what is the probability that at least 1 item is defective?
-   - *Solution*: $1 - P(	ext{No defects}) = 1 - (0.95)^3 = 1 - 0.857375 = \mathbf{14.26\%}$.
+   - *Solution*: $1 - P(\text{No defects}) = 1 - (0.95)^3 = 1 - 0.857375 = \mathbf{14.26\%}$.
 
 ---
 

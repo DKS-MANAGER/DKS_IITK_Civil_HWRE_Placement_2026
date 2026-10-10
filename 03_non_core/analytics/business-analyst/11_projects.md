@@ -45,7 +45,7 @@ CIVIL / RESEARCH ANCHOR                   BUSINESS ANALYST TRANSLATION
 
 Every bullet on your resume should follow this strict three-part architecture:
 
-$$\mathbf{	ext{Action Verb}} + \mathbf{	ext{Technical / Analytical Tool}} + \mathbf{	ext{Quantified Operational Impact}}$$
+$$\mathbf{\text{Action Verb}} + \mathbf{\text{Technical / Analytical Tool}} + \mathbf{\text{Quantified Operational Impact}}$$
 
 - ❌ *Weak*: "Worked on SQL and Excel to analyze data for college event."
 - ✅ *Strong*: "Analyzed [12,000+ transaction logs] using SQL window functions and Excel Pivot tables to identify checkout drop-offs, driving a [14% increase] in registration conversion."
