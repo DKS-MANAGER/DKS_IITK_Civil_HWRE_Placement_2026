@@ -122,7 +122,7 @@ When asked: *"Walk me through your key technical project."*
 ### T-Minus 60 Minutes:
 - [ ] Test Zoom connection, microphone audio, camera lighting, and quiet environment.
 - [ ] Review 60-second role pitch and 90-second "Why Accenture Japan" answer.
-- [ ] Review the 4-step project defense for M.Tech research (`streamflow-time-series`).
+- [ ] Review the 4-step project defense framework for quantitative engineering projects.
 - [ ] Prepare notepad and pen for case structuring diagrams.
 
 ### During the 30-Minute Interview:

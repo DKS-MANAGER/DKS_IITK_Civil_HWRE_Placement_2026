@@ -6,9 +6,9 @@
 
 ## 1. Master Corporate Targets Universe (121 Organizations)
 
-The comprehensive target company universe derived from the institutional placement audit ([`Civil_HWRE_Companies.xlsx`](../../Civil_HWRE_Companies.xlsx)) has been cataloged across 13 industrial sector clusters in:
+The comprehensive target company universe derived from the institutional placement audit has been cataloged across 13 industrial sector clusters in:
 
-👉 **[`corporate-targets/README.md`](../../README.md)** — Master Directory of 121 Companies (54 Priority A / 21 Confirmed IITK Past Recruiters)
+👉 **[`hwre-companies/README.md`](../hwre-companies/README.md)** — Master Directory of 121 Companies (54 Priority A / 21 Confirmed IITK Past Recruiters)
 
 ### Sector Clusters
 1. [`01_water-consulting/`](../hwre-companies/01_water-consulting/README.md) — Global Design & Water Consultancies (AECOM, Mott MacDonald, Jacobs, Stantec, etc.)
@@ -16,7 +16,7 @@ The comprehensive target company universe derived from the institutional placeme
 3. [`03_water-epc-infrastructure/`](../hwre-companies/03_water-epc-infrastructure/README.md) — Major Civil & Water EPC Contractors (L&T Water, Tata Projects, Afcons, HCC, etc.)
 4. [`04_hydropower-pumped-storage/`](../hwre-companies/04_hydropower-pumped-storage/README.md) — Hydropower & Pumped Storage Developers (Greenko, Tata Power Hydro, Statkraft, etc.)
 5. [`05_hydraulic-machinery-pumps/`](../hwre-companies/05_hydraulic-machinery-pumps/README.md) — Turbomachinery, Pumps & Flow Equipment (Andritz, Voith, Kirloskar, Flowserve, etc.)
-6. [`06_cfd-simulation-engineering/`](../../README.md) — CFD, Aerodynamics & Simulation Software (TuTr Hyperloop, ANSYS, MathWorks, Star-CCM+, etc.)
+6. [`06_cfd-simulation-engineering/`](../hwre-companies/README.md#sector-clusters) — CFD, Aerodynamics & Simulation Software (TuTr Hyperloop, ANSYS, MathWorks, Star-CCM+, etc.)
 7. [`07_structural-civil-consulting/`](../core-companies/07_structural-civil-consulting/README.md) — Structural, Coastal & Value Engineering (Thornton Tomasetti, Arup, Godrej, etc.)
 8. [`08_water-treatment-environment/`](../hwre-companies/08_water-treatment-environment/README.md) — Water Treatment & Desalination EPC (VA Tech Wabag, Ion Exchange, Thermax, Suez, etc.)
 9. [`09_energy-fluids-rnd/`](../hwre-companies/09_energy-fluids-rnd/README.md) — Energy, Subsurface Fluids & Industrial Majors (SLB, Chevron, ExxonMobil, Tata Steel, etc.)
@@ -31,25 +31,24 @@ The comprehensive target company universe derived from the institutional placeme
 
 For high-priority Tier 1 targets, dedicated comprehensive dossiers covering round structures, technical question trees, HR questions, and compensation structures are available:
 
-- [`civil-vassarlabs.md`](../hwre-companies/civil-vassarlabs.md) — Vassarlabs (Water data analytics & IoT hydrology)
-- [`civil-tutr-hyperloop.md`](../core-companies/civil-tutr-hyperloop.md) — TuTr Hyperloop (Aerodynamics, CFD & vacuum pod dynamics)
-- [`civil-thornton-tomasetti.md`](../core-companies/civil-thornton-tomasetti.md) — Thornton Tomasetti (Computational mechanics & structural engineering)
-- [`civil-aecom.md`](civil-aecom.md) — AECOM (Water resources, stormwater & urban drainage)
-- [`civil-mott-macdonald.md`](civil-mott-macdonald.md) — Mott MacDonald (Hydraulic modeling, pipeline networks & GIS)
-- [`civil-jacobs.md`](civil-jacobs.md) — Jacobs (Environmental hydraulics & coastal resilience)
-- [`civil-tce.md`](civil-tce.md) — Tata Consulting Engineers (Thermal-fluids & water intake design)
-- [`civil-l-and-t-water.md`](civil-l-and-t-water.md) — L&T Construction - Water & Effluent Treatment
-- [`civil-l-and-t-heavy-civil.md`](civil-l-and-t-heavy-civil.md) — L&T Construction - Heavy Civil Infrastructure
-- [`civil-tata-projects.md`](civil-tata-projects.md) — Tata Projects (Civil & environmental infrastructure)
-- [`civil-afcons.md`](civil-afcons.md) — Afcons Infrastructure (Marine & hydraulic infrastructure)
-- [`civil-dhi.md`](civil-dhi.md) — DHI Water & Environment (MIKE software & hydrodynamic modeling)
-- [`civil-greenko.md`](civil-greenko.md) — Greenko Group (Pumped storage & hydropower systems)
-- [`civil-va-tech-wabag.md`](civil-va-tech-wabag.md) — VA Tech Wabag (Desalination & industrial water treatment)
-- [`civil-slb.md`](civil-slb.md) — SLB / Schlumberger (Subsurface fluid flow & mechanics)
-- [`civil-caterpillar.md`](civil-caterpillar.md) — Caterpillar (Fluid power & thermal management CFD)
-- [`civil-mathworks.md`](civil-mathworks.md) — MathWorks (Simulink & computational fluids)
-- [`civil-godrej-properties.md`](../core-companies/civil-godrej-properties.md) — Godrej Properties (Site drainage & green building infrastructure)
-- *See directory root for 14 additional comprehensive dossiers.*
+- [`001_vassarlabs.md`](../hwre-companies/02_water-resources-gis/001_vassarlabs.md) — Vassarlabs (Water data analytics & IoT hydrology)
+- [`002_tutr-hyperloop.md`](../../02_core/cfd/simulation-engineering/002_tutr-hyperloop.md) — TuTr Hyperloop (Aerodynamics, CFD & vacuum pod dynamics)
+- [`003_thornton-tomasetti.md`](../core-companies/07_structural-civil-consulting/003_thornton-tomasetti.md) — Thornton Tomasetti (Computational mechanics & structural engineering)
+- [`022_aecom.md`](../hwre-companies/01_water-consulting/022_aecom.md) — AECOM (Water resources, stormwater & urban drainage)
+- [`023_mott-macdonald.md`](../hwre-companies/01_water-consulting/023_mott-macdonald.md) — Mott MacDonald (Hydraulic modeling, pipeline networks & GIS)
+- [`024_jacobs.md`](../hwre-companies/01_water-consulting/024_jacobs.md) — Jacobs (Environmental hydraulics & coastal resilience)
+- [`025_tce.md`](../consulting-companies/11_multidisciplinary-consulting/025_tata-consulting-engineers.md) — Tata Consulting Engineers (Thermal-fluids & water intake design)
+- [`044_lt-water.md`](../hwre-companies/03_water-epc-infrastructure/044_lt-water-effluent.md) — L&T Construction - Water & Effluent Treatment
+- [`045_lt-heavy-civil.md`](../hwre-companies/03_water-epc-infrastructure/045_lt-heavy-civil.md) — L&T Construction - Heavy Civil Infrastructure
+- [`046_tata-projects.md`](../hwre-companies/03_water-epc-infrastructure/046_tata-projects.md) — Tata Projects (Civil & environmental infrastructure)
+- [`047_afcons.md`](../hwre-companies/03_water-epc-infrastructure/047_afcons-infrastructure.md) — Afcons Infrastructure (Marine & hydraulic infrastructure)
+- [`063_greenko.md`](../hwre-companies/04_hydropower-pumped-storage/063_greenko-group.md) — Greenko Group (Pumped storage & hydropower systems)
+- [`058_va-tech-wabag.md`](../hwre-companies/08_water-treatment-environment/058_va-tech-wabag.md) — VA Tech Wabag (Desalination & industrial water treatment)
+- [`006_slb.md`](../hwre-companies/09_energy-fluids-rnd/006_slb-schlumberger.md) — SLB / Schlumberger (Subsurface fluid flow & mechanics)
+- [`007_caterpillar.md`](../hwre-companies/05_hydraulic-machinery-pumps/007_caterpillar.md) — Caterpillar (Fluid power & thermal management CFD)
+- [`016_mathworks.md`](../../02_core/cfd/simulation-engineering/016_mathworks.md) — MathWorks (Simulink & computational fluids)
+- [`009_godrej-properties.md`](../core-companies/07_structural-civil-consulting/009_godrej-properties.md) — Godrej Properties (Site drainage & green building infrastructure)
+- *See sector cluster subdirectories for all 121 comprehensive profiles.*
 
 ---
 

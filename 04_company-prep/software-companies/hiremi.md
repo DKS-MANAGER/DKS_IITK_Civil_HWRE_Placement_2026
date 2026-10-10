@@ -78,10 +78,10 @@ TOP 5 AREAS:
 ```
 
 ## Cross-Links
-- [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
+- [Programming Fundamentals](../../03_non_core/software-engineering/programming/)
 - [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
-- [Communication Skills](../../01_common/placement-math/communication/communication.md)
-- [Mock Interviews](../interview/mock-tests/)
+- [Communication Skills](../../01_common/interview-fundamentals/communication-skills.md)
+- [Mock Interviews](../../05_interview/mock-interviews/MOCK_INTERVIEW.md)
 
 ## Sources
 - Hiremi recruitment process documentation

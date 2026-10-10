@@ -74,7 +74,7 @@ This preparation directory contains fifteen production-grade, tightly linked stu
 | [`QUESTION_BANK.md`](QUESTION_BANK.md) | Comprehensive interview question database with structured model answer outlines | **30 tech, 30 behavioral, 20 cloud, 20 AI, 10 executive drills** |
 | [`INTERVIEW.md`](INTERVIEW.md) | Differentiated preparation for Manager Round (Round 1) vs Director Round (Round 2) | Tested questions, model answers, reverse interview Qs |
 | [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) | Authentic STAR story bank grounded in real IIT engineering research and teamwork | **5 authentic STAR narratives** & Japanese corporate norms |
-| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | Defensible defense of real candidate projects (`streamflow`, `idf-pet`, `bridgerisk`) | **10 adaptable project-defense question sets** |
+| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | Structured defense of quantitative engineering projects across 3 archetypes | **10 adaptable project-defense question sets** |
 | [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) | Engineering-to-consulting resume positioning, action verbs, and bullet formulas | 1-page IIT resume audit checklist |
 | [`COMPENSATION_AND_BENEFITS.md`](COMPENSATION_AND_BENEFITS.md) | Line-by-line reconciliation of JPY 8,214,021, net take-home pay, and Tokyo living budget | Tax deductions, statutory insurance, and offer checkpoints |
 | [`JAPAN_RELOCATION_AND_LANGUAGE.md`](JAPAN_RELOCATION_AND_LANGUAGE.md) | Relocation timeline, serviced apartment setup, and Japanese language acquisition | 18-month JLPT progression plan & cultural norms |
@@ -91,7 +91,7 @@ This preparation directory contains fifteen production-grade, tightly linked stu
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ P1 (ESSENTIAL CORE): Role Understanding, MECE Problem Solving, Business     │
 │    Cases (15 Cases), Quantitative Math, 5 Authentic STAR Stories,           │
-│    Project Defense (Real IITK Research), and Japan Readiness / Language.    │
+│    Project Defense (Quantitative Modeling Archetypes), and Japan Readiness. │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ P2 (TECHNICAL FOUNDATIONS): 30 SQL Queries (Window functions, CTEs),        │
 │    20 Python Algorithms, Cloud Architecture Trade-offs (AWS/Azure/GCP),     │
@@ -114,5 +114,4 @@ This company-specific preparation package directly builds upon canonical modules
 * **Software Engineering & Cloud**: [`03_non_core/software-engineering/04_tools-and-technical.md`](../../../03_non_core/software-engineering/04_tools-and-technical.md)
 * **Python Programming**: [`03_non_core/software-engineering/programming/python.md`](../../../03_non_core/software-engineering/programming/python.md)
 * **SQL & Analytics**: [`03_non_core/analytics/analytics/04_tools-and-technical-stack.md`](../../../03_non_core/analytics/analytics/04_tools-and-technical-stack.md)
-* **Candidate Research Projects**: [`08_projects/`](../../../08_projects/)
 * **Behavioral Interview Fundamentals**: [`01_common/behavioral/behavioral-interview-guide.md`](../../../01_common/behavioral/behavioral-interview-guide.md)

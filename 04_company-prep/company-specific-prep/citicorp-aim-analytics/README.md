@@ -47,7 +47,7 @@ The Citi AIM preparation package is organized into 11 specialized, cross-linked 
 | [📁 `04_INTERVIEW_AND_CASES.md`](04_INTERVIEW_AND_CASES.md) | **10 Banking Business Cases** (10-point analysis) + Puzzles (25 horses, ropes) + Guesstimates. | `[PRACTICE CASE ASSUMPTION]` |
 | [📁 `05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md) | Chart selection, misleading visualizations, executive dashboards, Minto Pyramid synthesis. | `[PREPARATION RECOMMENDATION]` |
 | [📁 `06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md) | Global matrix collaboration, compliance escalation, data privacy, and STAR answer templates. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) | Grounded defense of actual M.Tech Civil/HWRE research projects without fabrication. | Grounded in `08_projects/` |
+| [📁 `07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) | Grounded defense of engineering and analytical modeling projects across 3 archetypes. | Transferable quantitative defense |
 | [📁 `RAPID_REVISION.md`](RAPID_REVISION.md) | High-yield formula sheet, top 10 SQL snippets, scorecard cheatsheet, night-before checklist. | `[PREPARATION RECOMMENDATION]` |
 
 ---
@@ -102,7 +102,4 @@ To prevent redundant content duplication, this package leverages existing canoni
 * **Quantitative Business Arithmetic**: [`01_common/placement-math/business-engineering-math.md`](../../../01_common/placement-math/business-engineering-math.md)
 * **General STAR Behavioural Banks**: [`01_common/behavioral/`](../../../01_common/behavioral/)
 * **Data Analyst Technical Competencies**: [`03_non_core/analytics/data-analyst/`](../../../03_non_core/analytics/data-analyst/)
-* **Verified M.Tech Project Portfolios**:
-  * Time-Series Hydrology: [`08_projects/streamflow-time-series/`](../../../08_projects/streamflow-time-series/)
-  * Extreme Value Analysis & Curve Fitting: [`08_projects/idf-pet/`](../../../08_projects/idf-pet/)
-  * Hydrodynamic Risk Simulation: [`08_projects/bridgerisk/`](../../../08_projects/bridgerisk/)
+* **Project Defense Archetypes**: Detailed frameworks in [`07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) covering Time-Series Forecasting, Risk & Extreme-Value Modeling, and Physical Systems Simulation.

@@ -27,7 +27,7 @@
 ## 2. Round 1: Manager Level Interview Master Strategy
 
 ### What Manager Evaluators Test:
-1. **Technical Problem Solving & Project Rigor**: Can you clearly explain your IIT engineering research (`08_projects/`) with structured clarity, technical depth, and quantifiable results?
+1. **Technical Problem Solving & Project Rigor**: Can you clearly explain your engineering research and quantitative projects with structured clarity, technical depth, and quantifiable results?
 2. **Consulting Problem Breakdown**: When given an open-ended business scenario, do you jump prematurely to tools, or do you systematically structure the problem using MECE issue trees?
 3. **Technology-Agnostic Mindset (`[JD VERIFIED]`)**: Do you recommend tools based on client business requirements (cost, latency, security) rather than personal bias?
 
@@ -35,10 +35,10 @@
 
 ### Core Questions & Master Model Answers (Manager Level)
 
-#### Question M1: "Walk me through your M.Tech engineering research project. What was the core bottleneck and how did you resolve it?"
+#### Question M1: "Walk me through one of your technical engineering projects. What was the core bottleneck and how did you resolve it?"
 * **Evaluator Intent**: Testing technical ownership, problem definition, and quantitative communication.
 * **Model Answer (STAR Structure)**:
-  * **Situation**: *"In my M.Tech research at IIT Kanpur ([`streamflow-time-series`](../../../08_projects/streamflow-time-series/)), our goal was to predict catchment river discharge under high hydrologic variability to optimize regional water management."*
+  * **Situation**: *"In a complex quantitative modeling project, our goal was to predict non-stationary sequential patterns under high environmental variability to optimize operational resource allocation."*
   * **Task**: *"The core bottleneck was extreme data sparsity and sensor calibration drift across multi-decadal historical observation records, which caused standard baseline models to severely underestimate peak flood discharges."*
   * **Action**: *"I built an automated Python modeling pipeline combining statistical time-series decomposition with sequential LSTM neural networks. Rather than using naive mean substitution for missing records, I implemented multi-station correlation imputation and evaluated out-of-time validation splits to prevent temporal data leakage."*
   * **Result**: *"The model achieved a Nash-Sutcliffe Efficiency (NSE) score greater than 0.82 on unseen test horizons, outperforming traditional benchmark persistence models by over 30% during peak storm events."*

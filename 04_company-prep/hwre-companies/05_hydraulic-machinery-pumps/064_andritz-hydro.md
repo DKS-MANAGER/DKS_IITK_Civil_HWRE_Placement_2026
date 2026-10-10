@@ -4,9 +4,6 @@
 > **Sector Category:** 05_hydraulic-machinery-pumps | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 
-> [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/civil-andritz-hydro.md](../../civil-andritz-hydro.md).
-
 ---
 
 ## 1. Executive Snapshot & Hiring Fit

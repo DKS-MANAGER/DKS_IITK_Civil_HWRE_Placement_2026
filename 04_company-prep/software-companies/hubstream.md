@@ -78,7 +78,7 @@ TOP 5 AREAS:
 ```
 
 ## Cross-Links
-- [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
+- [Programming Fundamentals](../../03_non_core/software-engineering/programming/)
 - [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Tech Careers](../../03_non_core/software-engineering/tech-careers.md)
 

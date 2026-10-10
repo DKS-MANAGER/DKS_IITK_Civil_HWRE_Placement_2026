@@ -1,29 +1,29 @@
 # 07. Candidate & Project Defense — Technical Grounding
 
 > **Target Role**: Spec Analytics Analyst — Business Analytics (SBS), Citi AIM  
-> **Repository Evidence Grounding**: Strictly mapped to completed projects in [`08_projects/`](../../../08_projects/) (`streamflow-time-series`, `idf-pet`, `bridgerisk`, `other-projects`).  
-> **Evidence Policy**: No fabricated tools, languages, or personal achievements. Defends verifiable quantitative modeling methods and outlines genuine transferable analytical skills.
+> **Framework Focus**: Candidate-adaptable defense of quantitative engineering research and computational modeling projects across three archetypes.  
+> **Evidence Policy**: No fabricated tools, languages, or personal claims. Defends verifiable quantitative modeling methods and outlines genuine transferable analytical skills.
 
 ---
 
 ## 1. Mapping Engineering Research to Banking Analytics
 
-In an interview with a senior Citi AIM panel, you must articulate an honest, grounded bridge between your M.Tech coursework in Civil Engineering / Water Resources (HWRE) and business analytics:
+In an interview with a senior Citi AIM panel, you must articulate an honest, grounded bridge between quantitative engineering coursework and business analytics:
 
 ```
-    M.TECH CIVIL / HWRE RESEARCH                    CITI AIM BUSINESS ANALYTICS
+    QUANTITATIVE ENGINEERING RESEARCH               CITI AIM BUSINESS ANALYTICS
 ┌───────────────────────────────────────┐       ┌───────────────────────────────────────┐
-│ • Extreme Value Hydrology (Gumbel,    │       │ • Value-at-Risk (VaR) & Heavy-Tailed  │
+│ • Extreme Value Statistics (Gumbel,   │       │ • Value-at-Risk (VaR) & Heavy-Tailed  │
 │   Log-Pearson III, GEV)               │──────►│   Credit Loss Distributions           │
 ├───────────────────────────────────────┤       ├───────────────────────────────────────┤
-│ • Decadal River Discharge Time-Series │       │ • High-Frequency Transaction Volumes, │
+│ • Decadal Sequential Time-Series      │       │ • High-Frequency Transaction Volumes, │
 │   (Stationarity, ACF, PACF, ARIMA)    │──────►│   Portfolio Balances & Churn Trends   │
 ├───────────────────────────────────────┤       ├───────────────────────────────────────┤
-│ • Multi-Gigabyte Geospatial & Sensor  │       │ • Multi-Million Row Transactional     │
+│ • Multi-Gigabyte Sensor & Spatial     │       │ • Multi-Million Row Transactional     │
 │   Data Cleaning (Missing Values, QA)  │──────►│   Data Warehouses & Feature Pipeline  │
 ├───────────────────────────────────────┤       ├───────────────────────────────────────┤
 │ • Optimization & Sensitivity Analysis │       │ • Portfolio Risk vs Revenue Trade-Offs│
-│   (HEC-RAS, EPANET Network Head Loss) │──────►│   (Credit Approval Cutoff Tuning)     │
+│   (Numerical Network Solvers)         │──────►│   (Credit Approval Cutoff Tuning)     │
 └───────────────────────────────────────┘       └───────────────────────────────────────┘
 ```
 
@@ -36,10 +36,10 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 
 ---
 
-## 2. In-Depth Project Defense 1: Streamflow Time-Series Forecasting
+## 2. In-Depth Project Defense Archetype 1: Time-Series & Predictive Analytics
 
-* **Repository Source**: [`08_projects/streamflow-time-series/`](../../../08_projects/streamflow-time-series/)
-* **Files on Record**: `README.md`, `technical-summary.md`, `interview-questions.md`, `results.md`, `resume-points.md`.
+* **Core Focus**: Forecasting continuous sequential variables under high variability and missing observations.
+* **Relevant Project Scope**: Hydrologic streamflow, meteorological sequences, or demand forecasting.
 
 ### 11-Point Structured Project Defense:
 1. **Research Problem**: Predicting seasonal streamflow volumes and peak discharge across multi-decadal gauge records to optimize reservoir storage allocations.
@@ -56,10 +56,10 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 
 ---
 
-## 3. In-Depth Project Defense 2: IDF Rainfall Frequency & Evapotranspiration
+## 3. In-Depth Project Defense Archetype 2: Parametric Risk Modeling & Optimization
 
-* **Repository Source**: [`08_projects/idf-pet/`](../../../08_projects/idf-pet/)
-* **Files on Record**: `README.md`, `technical-summary.md`, `interview-questions.md`, `results.md`, `resume-points.md`.
+* **Core Focus**: Fitting probabilistic distributions, extreme-value modeling, and multi-parameter optimization.
+* **Relevant Project Scope**: Intensity-Duration-Frequency (IDF) curves, evapotranspiration, or tail-risk estimation.
 
 ### 11-Point Structured Project Defense:
 1. **Research Problem**: Deriving Intensity-Duration-Frequency (IDF) design curves and computing daily reference evapotranspiration ($ET_0$) to evaluate catchment water deficits.
@@ -76,10 +76,10 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 
 ---
 
-## 4. In-Depth Project Defense 3: Bridge Hydrodynamic Scour Risk (`bridgerisk`)
+## 4. In-Depth Project Defense Archetype 3: Physical Systems Modeling & Asset Risk
 
-* **Repository Source**: [`08_projects/bridgerisk/`](../../../08_projects/bridgerisk/)
-* **Files on Record**: `README.md`, `technical-summary.md`, `interview-questions.md`, `results.md`, `resume-points.md`.
+* **Core Focus**: 2D hydrodynamic flow simulation, scour vulnerability, and physical asset failure risk.
+* **Relevant Project Scope**: Bridge pier scour, hydraulic network head loss, or infrastructure integrity.
 
 ### 11-Point Structured Project Defense:
 1. **Engineering Problem**: Simulating 2D hydrodynamic flow and scour vulnerability around highway bridge piers across 10-year to 100-year flood discharge scenarios.
@@ -92,7 +92,6 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 8. **Limitations**: 2D depth-averaged models assume hydrostatic pressure distributions and cannot explicitly resolve the 3D downward jet vortex on the pier nose.
 9. **Alternative Methods Considered**: 3D CFD in OpenFOAM; rejected due to prohibitive computational runtime across a 2.4 km river reach.
 10. **What Could Be Improved**: Coupling reach-scale 2D shallow water models with localized 3D Large Eddy Simulation (LES) around vulnerable bridge piers.
-11. **Demonstration of Analytics Readiness**: Demonstrates quantitative problem structuring, sensitivity analysis, trade-off optimization between foundation capital expenditure vs maintenance risk, and complex numerical simulation.
 
 ---
 

@@ -4,9 +4,6 @@
 > **Sector Category:** 09_energy-fluids-rnd | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
 
-> [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/civil-tata-steel.md](../../civil-tata-steel.md).
-
 ---
 
 ## 1. Executive Snapshot & Hiring Fit

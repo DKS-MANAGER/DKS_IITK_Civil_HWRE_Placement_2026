@@ -90,7 +90,7 @@ Day 5: OS | Day 6: Networking | Day 7: Mock interview
 ```
 
 ## Cross-Links
-- [Programming Fundamentals](../../03_non_02_core/software-engineering/programming/)
+- [Programming Fundamentals](../../03_non_core/software-engineering/programming/)
 - [Technical Interview Bank](../../05_interview/technical/technical-interview-bank.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
 - [Tech Careers](../../03_non_core/software-engineering/tech-careers.md)

@@ -4,9 +4,6 @@
 > **Sector Category:** 03_water-epc-infrastructure | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 
-> [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/civil-l-and-t-heavy-civil.md](../../civil-l-and-t-heavy-civil.md).
-
 ---
 
 ## 1. Executive Snapshot & Hiring Fit

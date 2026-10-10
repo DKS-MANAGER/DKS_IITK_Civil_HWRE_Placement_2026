@@ -135,7 +135,7 @@ A **Digital Consultant** operates directly at the intersection of **Enterprise B
 
 ### Domain 8: Project Defense, Japan Readiness & Behavioral HR (`[P1]` — Target Depth: L4)
 * **What to Master**:
-  * **Civil/HWRE Project Defense**: Defending real IIT Kanpur projects ([`streamflow-time-series`](../../../08_projects/streamflow-time-series/), [`idf-pet`](../../../08_projects/idf-pet/), [`bridgerisk`](../../../08_projects/bridgerisk/)) using the 4-step framework without fabrication.
+  * **Engineering Project Defense**: Defending quantitative engineering research and modeling projects using the 4-step framework without fabrication across three structured archetypes (Time-Series Predictive, Risk/Optimization, Physical Systems/IoT).
   * **Five Master STAR Stories**: Overcoming technical failure, cross-disciplinary conflict, independent continuous learning, pressure delivery, and cultural adaptability.
   * **Japanese Language & Relocation Strategy**: Communicating clear motivation for living in Tokyo, respecting *Ho-Ren-So*, *Nemawashi*, and *Kaizen*, and presenting a concrete pre-joining language plan utilizing Accenture's JPY 664,658 training program.
 * **Practice Requirement**: Rehearse all 10 project-defense question sets in [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) and mock interviews in [`INTERVIEW.md`](INTERVIEW.md).

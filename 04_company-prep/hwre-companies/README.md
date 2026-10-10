@@ -160,7 +160,7 @@ The 121 organizations are categorized into 13 functional sectors reflecting core
 ## 3. Methodological Integration & Navigation
 
 - **Deep Master Dossiers**: 32 key Tier 1 organizations have comprehensive expanded interview playbooks in [04_company-prep/](../).
-- **Assessment Matching**: Cross-reference role technical requirements with Sectional Assessments in [ptitude/tests/section/](../../../01_common/aptitude/mocks/section-tests/section/) and the 8-Level Assessment Ladder in [05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md](../../05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md).
+- **Assessment Matching**: Cross-reference role technical requirements with Sectional Assessments in [Sectional Diagnostic Tests](../../01_common/aptitude/mocks/section-tests/README.md) and the 8-Level Assessment Ladder in [05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md](../../05_interview/mock-interviews/ASSESSMENT_ARCHITECTURE.md).
 - **Preparation Tracking**: Monitor role readiness across these corporate sectors via the [05_interview/mock-interviews/READINESS_SCORECARD.md](../../05_interview/mock-interviews/READINESS_SCORECARD.md).
 
 ---

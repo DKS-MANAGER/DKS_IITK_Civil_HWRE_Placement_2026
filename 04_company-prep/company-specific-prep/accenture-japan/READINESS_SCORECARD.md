@@ -80,7 +80,7 @@ Evaluate your current interview readiness across each competency from **0 to 100
 | **06** | **Cloud & System Architecture** | 10% | **L3** | `[   ]` | `[   ]` | Can compare AWS/Azure/GCP objectively, explain microservices, serverless, APIs, and RPO/RTO disaster recovery. |
 | **07** | **AI, Machine Learning & GenAI** | 10% | **L3** | `[   ]` | `[   ]` | Can diagram enterprise RAG architecture, vector search, guardrails, and explain hallucination mitigation. |
 | **08** | **Industry X & Smart Factory IoT** | 5% | **L3** | `[   ]` | `[   ]` | Can explain sensor-to-edge-to-cloud telemetry, calculate OEE, and design predictive maintenance pipelines. |
-| **09** | **Civil/HWRE Project Defense** | 10% | **L4** | `[   ]` | `[   ]` | Can defend M.Tech research (`streamflow`, `idf-pet`, `bridgerisk`) with 4-step framework and cloud scaling vision. |
+| **09** | **Engineering Project Defense** | 10% | **L4** | `[   ]` | `[   ]` | Can defend quantitative engineering projects across 3 archetypes with 4-step framework and cloud scaling vision. |
 | **10** | **Behavioral & HR (STAR Stories)** | 5% | **L4** | `[   ]` | `[   ]` | Has 5 structured STAR stories (failure, conflict, adaptability, learning tech) delivered in $< 90\text{s}$. |
 | **11** | **Japan Readiness & Cultural Fit** | 5% | **L4** | `[   ]` | `[   ]` | Communicates genuine Tokyo motivation, respects *Ho-Ren-So*/*Nemawashi*, and presents clear Japanese plan. |
 | **TOTAL**| **Composite Readiness Benchmark** | **100%** | — | — | **`[   ]` / 100** | — |
