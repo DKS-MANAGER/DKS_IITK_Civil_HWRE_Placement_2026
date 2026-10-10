@@ -17,7 +17,8 @@
 ├── consulting-companies/          # Management & Strategy consulting firms (Mu Sigma, Advisory)
 ├── software-companies/            # Tech, SaaS & enterprise software firms (Tech Mahindra, Darwinbox)
 └── company-specific-prep/         # End-to-end dedicated company preparation packages
-    └── accenture-japan/           # Complete 13-file Digital Consultant Japan package
+    ├── accenture-japan/           # Digital Consultant Japan package
+    └── citicorp-aim-analytics/    # Citi AIM Business Analytics (SBS) package (₹15.3L + ₹2L bonus)
 ```
 
 ---
@@ -32,4 +33,4 @@
 | **HWRE & Water Firms** | [`hwre-companies/civil-vassarlabs.md`](hwre-companies/civil-vassarlabs.md) | Vassar Labs, Smarttrak, Dimension Renewables, plus corporate targets across water EPC, GIS & hydropower. |
 | **Consulting Firms** | [`consulting-companies/mu-sigma.md`](consulting-companies/mu-sigma.md) | Strategy, Advisory & Analytics consulting firms (Mu Sigma, Corporate Advisory Targets 11 & 12). |
 | **Software & Tech Firms** | [`software-companies/tech-mahindra.md`](software-companies/tech-mahindra.md) | Tech Mahindra, Darwinbox, DeltaX, Expeditor, Hubstream, Schneider Electric, Johnson Controls. |
-| **Dedicated Prep Packs** | [`company-specific-prep/accenture-japan/README.md`](company-specific-prep/accenture-japan/README.md) | **Accenture Japan — Digital Consultant**: Complete 13-document suite (Facts, Role, Coding Test, Cases, Manager/Director Interview, Japan Fit). |
+| **Dedicated Prep Packs** | [`company-specific-prep/accenture-japan/README.md`](company-specific-prep/accenture-japan/README.md)<br>[`company-specific-prep/citicorp-aim-analytics/README.md`](company-specific-prep/citicorp-aim-analytics/README.md) | **Accenture Japan**: Digital Consultant (Coding test, cases, manager interview)<br>**Citi AIM Analytics**: Business Analytics (SBS) (Stats & Probability, SQL, Credit Modeling, Banking Cases, Puzzles). |
