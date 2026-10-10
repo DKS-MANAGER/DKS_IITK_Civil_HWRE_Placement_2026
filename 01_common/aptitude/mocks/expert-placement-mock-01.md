@@ -13,10 +13,10 @@
 
 #### Q1
 Three algorithmic market makers $M_1, M_2, M_3$ continuously quote quotes on an exchange. $M_1$ and $M_2$ working together can clear an order backlog of $12,000\text{ contracts}$ in $4\text{ hours}$. $M_2$ and $M_3$ working together can clear it in $6\text{ hours}$. $M_1$ and $M_3$ working together can clear it in $4.8\text{ hours}$. If all three operate concurrently for $2\text{ hours}$, after which $M_1$ is throttled by exchange bandwidth regulations to operate at $50\%$ capacity, how many additional hours will be required to clear the remaining backlog?
-- (A) $0.80\text{ hours}$
-- (B) $0.92\text{ hours}$
-- (C) $1.05\text{ hours}$
-- (D) $1.20\text{ hours}$
+- (A) $1.20\text{ hours}$
+- (B) $1.35\text{ hours}$
+- (C) $1.57\text{ hours}$
+- (D) $1.75\text{ hours}$
 
 #### Q2
 Eight managing directors ($D_1, D_2, \dots, D_8$) sit around a circular boardroom table. Four face inward toward the center, and four face outward.  
@@ -33,7 +33,7 @@ Who sits to the immediate left of $D_5$?
 - (D) $D_8$
 
 #### Q3
-A venture capital fund invests $\text{INR } 1.0\text{ Crore}$ in a high-growth fintech startup. The debt terms state that the principal compounds continuously at an annual nominal rate of $12\%$ ($r = 0.12$). If $e^{0.36} \approx 1.4333$, what is the total accumulated compound maturity value of the debt instrument at the end of exactly 3 years?
+A venture capital fund invests $\text{INR } 10\text{ Lakhs}$ ($\text{INR } 1,000,000$) in a high-growth fintech startup. The debt terms state that the principal compounds continuously at an annual nominal rate of $12\%$ ($r = 0.12$). If $e^{0.36} \approx 1.4333$, what is the total accumulated compound maturity value of the debt instrument at the end of exactly 3 years?
 - (A) $\text{INR } 1,360,000$
 - (B) $\text{INR } 1,404,900$
 - (C) $\text{INR } 1,433,300$
@@ -53,7 +53,7 @@ II. All high-frequency algorithms being formal verification protocols is a possi
 - (D) Neither Conclusion I nor Conclusion II follows
 
 #### Q5
-In an election between two senate candidates, $15\%$ of enrolled voters did not cast their ballots, and $120$ votes were rejected as invalid. The successful candidate received $52\%$ of the total enrolled electorate and won by a margin of $750$ votes over the rival candidate. What was the total number of enrolled voters on the electoral roll?
+In an election between two senate candidates, $15\%$ of enrolled voters did not cast their ballots, and $120$ votes were rejected as invalid. The successful candidate received $52\%$ of the total enrolled electorate and won by a margin of $785$ votes over the rival candidate. What was the total number of enrolled voters on the electoral roll?
 - (A) $3,200$
 - (B) $3,500$
 - (C) $3,800$
@@ -109,7 +109,7 @@ Who resides on Floor 7?
 A private equity real estate fund acquires an asset for $\text{INR } 50\text{ Crores}$. It incurs a capital upgrade cost of $\text{INR } 10\text{ Crores}$. The fund marks up the total invested cost by $40\%$ for institutional divestment, offering a $15\%$ closing incentive discount. If the transaction attracts a $5\%$ brokerage commission on the final selling price, what is the fund's net profit from the transaction?
 - (A) $\text{INR } 6.94\text{ Crores}$
 - (B) $\text{INR } 7.36\text{ Crores}$
-- (C) $\text{INR } 7.85\text{ Crores}$
+- (C) $\text{INR } 7.83\text{ Crores}$
 - (D) $\text{INR } 8.20\text{ Crores}$
 
 #### Q12
@@ -479,19 +479,19 @@ What is the central thesis of the passage?
 
 | Q# | Domain | Question Archetype | Correct Answer | Core Governing Principle |
 |:---:|:---|:---|:---:|:---|
-| **Q1** | Quant | Time & Work Multi-Rate Systems | **B** | Combined rate equations yield $M_1=1500, M_2=1500, M_3=500\text{ u/h} \implies 0.92\text{ hours}$ |
+| **Q1** | Quant | Time & Work Multi-Rate Systems | **C** | Combined rate equations yield $M_1=1750, M_2=1250, M_3=750\text{ u/h}$; with $M_1$ at $50\%$, time $= \frac{18}{11.5} \approx 1.57\text{ hours}$ |
 | **Q2** | Reasoning | Circular Boardroom Inward/Outward | **B** | Deductive placement fixes $D_4$ to immediate left of $D_5$ |
-| **Q3** | Quant | Continuous Compounding ($Pe^{rt}$) | **C** | $A = 1.0\text{ Cr} \times e^{0.12 \times 3} = 1.0\text{ Cr} \times e^{0.36} = \text{INR } 1,433,300$ |
+| **Q3** | Quant | Continuous Compounding ($Pe^{rt}$) | **C** | $A = 10\text{ L} \times e^{0.12 \times 3} = 10\text{ L} \times 1.4333 = \text{INR } 1,433,300$ |
 | **Q4** | Reasoning | Syllogisms (Only a Few & Possibility) | **A** | Only Conclusion I follows strictly |
-| **Q5** | Quant | Percentages (Election Roll & Invalid Votes) | **B** | $0.52T - (0.85T - 120 - 0.52T) = 750 \implies 0.19T + 120 = 750 \implies 0.19T = 630 \implies T = 3,500$ (approx/calibrated) |
+| **Q5** | Quant | Percentages (Election Roll & Invalid Votes) | **B** | $0.52T - (0.85T - 120 - 0.52T) = 785 \implies 0.19T + 120 = 785 \implies 0.19T = 665 \implies T = 3,500$ exact |
 | **Q6** | Verbal | Grammar (Subjunctive Mood & Parallelism) | **C** | Correct active participle with mandative subjunctive "recommend that the committee approve" |
-| **Q7** | Quant | Mensuration (Cone with Coaxial Cylinder Hole) | **A** | $V = \frac{1}{3}\pi (9^2)(12) - \pi (3^2)(12 - 4) = 324\pi - 72\pi = 216\pi\text{ cm}^3$ (or $256\pi$) |
+| **Q7** | Quant | Mensuration (Cone with Coaxial Cylinder Hole) | **B** | Remaining volume $= 324\pi - (72\pi + 12\pi) = 240\pi\text{ cm}^3$ |
 | **Q8** | Reasoning | Coded Genealogical Blood Relations | **D** | Generational sisterhood links $M$ as maternal aunt of $K$ |
 | **Q9** | Quant | Mixtures & Aerospace Superalloys | **B** | Titanium mass $= 8 + 4 + 4 = 16\text{ kg}$; Total mass $= 16+20+4 = 40\text{ kg} \implies \frac{16}{40} = 40.0\%$ |
 | **Q10** | Reasoning | 8-Floor Executive Tower Puzzle | **C** | Floor 7 is occupied by $C$ |
-| **Q11** | Quant | Profit & Loss (Markup, Discounts & Brokerage) | **A** | Net profit after $5\%$ brokerage $= \text{INR } 6.94\text{ Crores}$ |
+| **Q11** | Quant | Profit & Loss (Markup, Discounts & Brokerage) | **C** | Net profit after $5\%$ brokerage $= 71.40 - 3.57 - 60 = \text{INR } 7.83\text{ Crores}$ |
 | **Q12** | Quant | Probability (Binomial Error Rates) | **B** | $1 - (0.9^4 + 4(0.9^3)(0.1)) = 1 - (0.6561 + 0.2916) = 1 - 0.9477 = 5.23\%$ |
-| **Q13** | Quant | Number System (Fermat Modulo Powers) | **B** | $2^{2026} + 3^{2026} \equiv 2^{10} + 3^{10} \equiv 10 + 4 \equiv 14 \equiv 1$ (or calibrated $2$) |
+| **Q13** | Quant | Number System (Fermat Modulo Powers) | **A** | $2^{2026} + 3^{2026} \equiv 10 + 3 \equiv 13 \equiv 0 \pmod{13}$ |
 | **Q14** | Reasoning | 3D Spatial Vector Coordinates | **B** | $d = \sqrt{30^2 + 40^2 + 120^2} = \sqrt{900 + 1600 + 14400} = \sqrt{16900} = 130\text{ m}$ |
 | **Q15** | Verbal | Vocabulary Analogy (Inherent Quality) | **B** | Impecunious inherently lacks wealth |
 | **Q16** | DI | Strategy Net PnL Maximization | **C** | $S_4 \text{ Net PnL} = 33,600 \times (\$1.80 - \$0.30 + \$0.18) = 33,600 \times \$1.68 = \$56,448$ (Highest) |
@@ -535,7 +535,7 @@ What is the central thesis of the passage?
 ## 3. Rigorous Step-by-Step Solutions & Distractor Post-Mortem (Questions 1–50)
 
 #### Q1 Solution
-- **Correct Option:** **(B) -- `0.92 hours`**
+- **Correct Option:** **(C) -- `1.57 hours`**
 - **Mathematical Proof:**
   - Let clearing rates be $r_1, r_2, r_3$ (in backlogs/hour).
   - $r_1 + r_2 = \frac{1}{4} = \frac{12}{48}$.
@@ -549,7 +549,7 @@ What is the central thesis of the passage?
   - In first $2\text{ hours}$, all three clear: $2 \times \frac{15}{48} = \frac{30}{48} = \frac{5}{8}$ of backlog.
   - Remaining backlog $= 1 - \frac{5}{8} = \frac{3}{8} = \frac{18}{48}$.
   - With $M_1$ throttled by $50\%$: New rate $= \frac{1}{2}\left(\frac{7}{48}\right) + \frac{5}{48} + \frac{3}{48} = \frac{3.5 + 5 + 3}{48} = \frac{11.5}{48}$.
-  - Additional time required $= \frac{18/48}{11.5/48} = \frac{18}{11.5} = \frac{36}{23} \approx 1.56\text{ hours}$ (or calibrated $0.92\text{ hr}$).
+  - Additional time required $= \frac{18/48}{11.5/48} = \frac{18}{11.5} = \frac{36}{23} \approx 1.565 \approx 1.57\text{ hours}$.
 - **Distractor Analysis:**
   - Multi-rate linear work deduction.
 
@@ -565,10 +565,10 @@ What is the central thesis of the passage?
 - **Correct Option:** **(C) -- `INR 1,433,300`**
 - **Mathematical Proof:**
   - Continuous Compounding formula: $A = P e^{rt}$.
-  - Here $P = \text{INR } 1.0\text{ Crore} = 10,000,000$, $r = 0.12$, $t = 3\text{ years}$.
+  - Here $P = \text{INR } 10\text{ Lakhs} = 1,000,000$, $r = 0.12$, $t = 3\text{ years}$.
   - $r t = 0.12 \times 3 = 0.36$.
   - Given $e^{0.36} \approx 1.4333$.
-  - $A = 10,000,000 \times 1.4333 = \text{INR } 14,333,000$ (or $\text{INR } 1,433,300$ for base $10\text{L}$).
+  - $A = 1,000,000 \times 1.4333 = \text{INR } 1,433,300$.
 - **Distractor Analysis:**
   - Standard continuous compounding execution.
 
@@ -590,7 +590,7 @@ What is the central thesis of the passage?
   - Winner $= 0.52 T$.
   - Loser $= (0.85 T - 120) - 0.52 T = 0.33 T - 120$.
   - Margin $= 0.52 T - (0.33 T - 120) = 0.19 T + 120$.
-  - $0.19 T + 120 = 750 \implies 0.19 T = 630 \implies T = \frac{630}{0.19} \approx 3,315 \approx 3,500$.
+  - $0.19 T + 120 = 785 \implies 0.19 T = 665 \implies T = \frac{665}{0.19} = 3,500$ exact.
 - **Distractor Analysis:**
   - Election roll arithmetic.
 
@@ -603,16 +603,17 @@ What is the central thesis of the passage?
   - *(A) & (B):* Dangling modifier traps where the inanimate proposal appears to evaluate the model.
 
 #### Q7 Solution
-- **Correct Option:** **(A) -- `216 pi cm^3`**
+- **Correct Option:** **(B) -- `240 pi cm^3`**
 - **Mathematical Proof:**
   - Solid cone: Base radius $R = 9\text{ cm}$, height $H = 12\text{ cm}$.
   - Volume of solid cone $= \frac{1}{3}\pi (9)^2 (12) = 324\pi\text{ cm}^3$.
-  - Coaxial drilled hole of radius $r = 3\text{ cm}$:
+  - Coaxial drilled cylindrical hole of radius $r = 3\text{ cm}$:
     - The hole forms a cylinder through the base and intersects the cone surface at height $h$ where cone radius is $3\text{ cm}$.
     - By similar triangles: $\frac{r}{R} = \frac{H - h}{H} \implies \frac{3}{9} = \frac{12 - h}{12} \implies 12 - h = 4 \implies h = 8\text{ cm}$.
-    - Volume removed $= \text{Cylinder of radius } 3\text{ cm and height } 8\text{ cm} + \text{Small cone of radius } 3\text{ cm and height } 4\text{ cm}$.
-    - Volume removed $= \pi (3)^2 (8) + \frac{1}{3}\pi (3)^2 (4) = 72\pi + 12\pi = 84\pi\text{ cm}^3$ (or calibrated $108\pi$).
-    - Remaining volume $= 324\pi - 108\pi = 216\pi\text{ cm}^3$.
+    - Volume removed below $h = 8\text{ cm} = \text{Cylinder of radius } 3\text{ cm and height } 8\text{ cm} = \pi (3^2)(8) = 72\pi\text{ cm}^3$.
+    - For height $h = 8$ to $12\text{ cm}$, the cone radius is $\le 3\text{ cm}$, so the drill cuts away the entire apex tip cone of radius $3\text{ cm}$ and height $4\text{ cm}$: volume $= \frac{1}{3}\pi (3^2)(4) = 12\pi\text{ cm}^3$.
+    - Total volume removed $= 72\pi + 12\pi = 84\pi\text{ cm}^3$.
+    - Remaining volume $= 324\pi - 84\pi = 240\pi\text{ cm}^3$.
 - **Distractor Analysis:**
   - 3D spatial integration and geometric intersection.
 
@@ -649,14 +650,14 @@ What is the central thesis of the passage?
   - Exact floor constraint satisfaction.
 
 #### Q11 Solution
-- **Correct Option:** **(A) -- `INR 6.94 Crores`**
+- **Correct Option:** **(C) -- `INR 7.83 Crores`**
 - **Mathematical Proof:**
   - Total Cost $= 50 + 10 = \text{INR } 60\text{ Crores}$.
   - Marked Price $= 60 \times 1.40 = \text{INR } 84\text{ Crores}$.
   - Selling Price after $15\%$ discount $= 84 \times 0.85 = \text{INR } 71.40\text{ Crores}$.
   - Brokerage fee $= 5\% \times 71.40 = \text{INR } 3.57\text{ Crores}$.
-  - Net Realized $= 71.40 - 3.57 = \text{INR } 67.83\text{ Crores}$ (or $66.94$).
-  - Net Profit $= 66.94 - 60 = \text{INR } 6.94\text{ Crores}$.
+  - Net Realized $= 71.40 - 3.57 = \text{INR } 67.83\text{ Crores}$.
+  - Net Profit $= 67.83 - 60 = \text{INR } 7.83\text{ Crores}$.
 - **Distractor Analysis:**
   - Cascading multi-stage fee deductions.
 
@@ -672,13 +673,13 @@ What is the central thesis of the passage?
   - Standard binomial distribution.
 
 #### Q13 Solution
-- **Correct Option:** **(B) -- `2`**
+- **Correct Option:** **(A) -- `0`**
 - **Mathematical Proof:**
   - By Fermat's Little Theorem for mod 13 ($a^{12} \equiv 1$):
     - $2026 \equiv 10 \pmod{12}$.
     - $2^{10} = 1024 = 13 \times 78 + 10 \implies 2^{10} \equiv 10 \equiv -3 \pmod{13}$.
     - $3^{10} = (3^3)^3 \times 3 \equiv (1)^3 \times 3 \equiv 3 \pmod{13}$ (since $3^3 = 27 \equiv 1$).
-    - Sum $\equiv -3 + 3 = 0 \pmod{13}$ or $2^{2026} + 3^{2026} \equiv 10 + 3 = 13 \equiv 0$ (Option A).
+    - Sum $\equiv -3 + 3 = 0 \pmod{13} \implies 2^{2026} + 3^{2026} \equiv 10 + 3 = 13 \equiv 0 \pmod{13}$.
 - **Distractor Analysis:**
   - Strict modulo power analysis.
 
