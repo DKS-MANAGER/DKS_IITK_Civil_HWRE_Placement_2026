@@ -75,7 +75,7 @@ For each answer, score yourself 1-5 on each criterion (5 = excellent):
 
 ### Weakness 1: Too Vague
 **Example:** "I worked on a CFD project and it went well."
-**Fix:** "I led a 4-member CFD thesis team simulating bridge pier scour. I refined the mesh to achieve y+ < 5, and our results matched experimental data within 7% accuracy."
+**Fix [Illustrative Sample]:** "In a computational fluid simulation project analyzing hydrodynamic scour, our team refined the boundary mesh to achieve y+ < 5, and our results matched experimental data within 7% accuracy."
 
 ### Weakness 2: No Personal Contribution
 **Example:** "We completed the project on time."

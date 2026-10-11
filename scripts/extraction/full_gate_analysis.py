@@ -8,8 +8,9 @@ import os
 import json
 from collections import defaultdict
 
-REF_PATH = os.path.join('f:', os.sep, '2k26Placement', 'GATE-O-PEDIA - CIVIL ENGINEERING.txt')
-OUT_DIR = os.path.join('f:', os.sep, '2k26Placement', 'DKS_IITK_Civil_HWRE_Placement_2026', 'docs', 'audit')
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+REF_PATH = os.path.join(REPO_ROOT, 'docs', 'sources', 'GATE-O-PEDIA.txt')
+OUT_DIR = os.path.join(REPO_ROOT, 'docs', 'audit')
 REPORT_PATH = os.path.join(OUT_DIR, 'gate_opedia_full_analysis.md')
 TAXONOMY_PATH = os.path.join(OUT_DIR, 'gate_opedia_taxonomy.json')
 

@@ -24,7 +24,7 @@ CIVIL / RESEARCH ANCHOR                   BUSINESS ANALYST TRANSLATION
 
 > *[EXAMPLE — Replace bracketed metrics with your actual, verified project results]*
 
-### 1. BridgeRisk / Structural Failure Prediction Project
+### 1. Hydrodynamic Simulation Archetype / Structural Failure Prediction Project
 - **Civil Engineering Context**: Predictive classification of bridge scour and structural failure probability using machine learning.
 - **BA Resume Bullet Formulation**:
   > *"Developed predictive gradient boosting model (XGBoost) on [15,000+ infrastructure records] to forecast failure probability; applied SHAP feature attribution to isolate [top 4 risk drivers], improving risk classification accuracy by [16%]."*

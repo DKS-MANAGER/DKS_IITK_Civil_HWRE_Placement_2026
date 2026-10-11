@@ -6,7 +6,7 @@ for all maintenance scripts, validators, and metrics engines.
 
 from pathlib import Path
 
-# Repository root directory (F:/2k26Placement/DKS_IITK_Civil_HWRE_Placement_2026)
+# Repository root directory 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Top-level directory topology

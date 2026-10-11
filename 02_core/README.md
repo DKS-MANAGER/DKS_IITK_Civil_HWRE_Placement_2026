@@ -57,7 +57,7 @@ To eliminate conceptual duplication across Civil, HWRE, and CFD:
 | Technical Domain | Directory Link | Core Subjects & Tools Covered |
 | :--- | :--- | :--- |
 | **Fundamental Fluid Mechanics** | [`civil-engineering/fluid-mechanics/README.md`](civil-engineering/fluid-mechanics/README.md) | Fluid Statics, Bernoulli, Navier-Stokes, Pipe flow losses, Boundary layer growth, Buckingham Pi theorem. |
-| **Civil Engineering Sub-Disciplines** | [`civil-engineering/`](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/02_core/civil-engineering/) | Engineering Mechanics, SOM, RCC, Steel, Geotech, Highway, Environment, Geoinformatics, Infrastructure, and tools (STAAD, ETABS, Revit). |
+| **Civil Engineering Sub-Disciplines** | [`civil-engineering/`](civil-engineering/) | Engineering Mechanics, SOM, RCC, Steel, Geotech, Highway, Environment, Geoinformatics, Infrastructure, and tools (STAAD, ETABS, Revit). |
 | **HWRE Specialization** | [`hwre/README.md`](hwre/README.md) | Open Channel Flow, Hydrology, Groundwater, Sediment Transport, Flood Modeling, and modeling software (HEC-RAS, HEC-HMS, EPANET, SWMM). |
 | **CFD & Simulation** | [`cfd/cfd-tech.md`](cfd/cfd-tech.md) | Finite Volume discretization, $k$-$\epsilon$ / $k$-$\omega$ SST turbulence, OpenFOAM case studies, ParaView, and mesh generation. |
 | **GATE Civil** | [`gate/README.md`](gate/README.md) | Complete topic-wise GATE notes, comprehensive formula sheets, previous years' questions (PYQ), and mock tests. |
@@ -74,5 +74,5 @@ HWRE & Water Resources Track:
 01_common/aptitude ──► 02_core/civil-engineering/fluid-mechanics ──► 02_core/hwre ──► 08_projects ──► 04_company-prep/hwre-companies ──► 05_interview/technical/hwre ──► 06_revision
 
 CFD / Fluids Specialization Track:
-01_common/aptitude ──► 02_core/civil-engineering/fluid-mechanics ──► 02_core/cfd ──► 08_projects/bridgerisk ──► 05_interview/technical/cfd ──► 06_revision
+01_common/aptitude ──► 02_core/civil-engineering/fluid-mechanics ──► 02_core/cfd ──► 08_projects/computational-fluid-simulation ──► 05_interview/technical/cfd ──► 06_revision
 ```

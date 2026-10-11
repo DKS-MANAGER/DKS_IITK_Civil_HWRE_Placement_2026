@@ -39,7 +39,7 @@ Every role module in this repository is strictly **job- and placement-focused**.
 10. **What does the technical interview test?** (Live Coderpad SQL, algorithmic wrangling, modeling).
 11. **What cases/problems are asked?** (Metric drop diagnosis, profitability, turnaround cases).
 12. **What behavioral questions are asked?** (Role-specific fit, leadership, conflict, "Why Non-Core?").
-13. **What projects demonstrate readiness?** (BridgeRisk ML, Streamflow forecasting, CFD optimization).
+13. **What projects demonstrate readiness?** (Hydrodynamic Simulation Archetype ML, Streamflow forecasting, CFD optimization).
 14. **How should a Civil/HWRE candidate position their resume?** (Transferable quantitative bullets).
 15. **What should be practiced?** (Curated question bank with $\ge 60$ questions with solutions).
 16. **What is the operational study plan?** (Structured 30-day, 14-day, and 7-day roadmaps).

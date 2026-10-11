@@ -637,5 +637,5 @@ Surveying basics      →  Intersection design           →  Transport planning
 ---
 
 > **Last Updated:** 2026-09-03
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026
 > **Version:** 2.0 — Comprehensive Transportation Engineering Guide (replaces software-only v1.0)

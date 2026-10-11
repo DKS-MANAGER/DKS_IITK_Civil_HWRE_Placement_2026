@@ -1,7 +1,7 @@
 # 08_PROJECTS — Engineering Portfolio & Technical Project Defense
 
-> **Directory Focus**: Portfolio documentation for M.Tech Civil / Hydraulics & Water Resources Engineering (HWRE) projects.  
-> **Interview Purpose**: Structured project defense, methodology walkthroughs, technical trade-offs, and quantified results.
+> **Directory Focus**: Technical project frameworks, mathematical modeling archetypes, and interview defense systems for Civil Engineering & Hydraulics and Water Resources Engineering (HWRE).  
+> **Interview Purpose**: Structured project defense, methodology walkthroughs, technical trade-offs, and quantified results presentation.
 
 ---
 
@@ -10,10 +10,11 @@
 ```text
 08_projects/
 ├── README.md                      # Master portfolio defense framework & presentation guide
-├── bridgerisk/                    # Bridge hydrodynamic scour & flood risk modeling
-├── streamflow-time-series/        # Streamflow time-series forecasting (statistical & ML)
-├── idf-pet/                       # IDF rainfall frequency & Evapotranspiration modeling
-└── other-projects/                # GIS watershed delineation, EPANET & automation
+├── project-first-learning.md      # Pedagogical roadmap: learning engineering tools by building
+└── archetypes/                    # Generic, neutral hypothetical engineering case archetypes
+    ├── computational-fluid-simulation.md    # Hydrodynamic Scour & Structural Risk Modeling
+    ├── environmental-time-series.md         # Catchment Streamflow & Hydrological Time-Series
+    └── water-infrastructure-systems.md      # Frequency Analysis, ET0 & Pipe Network Hydraulics
 ```
 
 ---
@@ -39,11 +40,10 @@ When presenting any engineering project to an interview panel (Core Civil, HWRE,
 
 ---
 
-## 3. Project Directory Map
+## 3. Case Archetypes Directory Map
 
-| Project | Domain | Primary Stack | Key Metrics / Results |
+| Archetype | Domain | Primary Technical Stack | Core Methodology & Practice Focus |
 | :--- | :--- | :--- | :--- |
-| [`bridgerisk/`](bridgerisk/README.md) | Hydraulic Structures & Risk | HEC-RAS 2D, OpenFOAM, Python | Pier scour depth prediction, 100-yr return flood risk mapping. |
-| [`streamflow-time-series/`](streamflow-time-series/README.md) | Hydrology & Data Science | Python (Statsmodels, PyTorch), HEC-HMS | NSE = 0.88 in discharge prediction, 7-day lead flood forecasting. |
-| [`idf-pet/`](idf-pet/README.md) | Hydro-Meteorology | Python, R, Penman-Monteith | Gumbel & Log-Pearson III IDF curves, climate trend analysis. |
-| [`other-projects/`](other-projects/README.md) | GIS, Water Networks & Tech | QGIS, EPANET, SQL | Catchment delineation, pipe network pressure optimization. |
+| [`computational-fluid-simulation.md`](archetypes/computational-fluid-simulation.md) | Hydraulic Structures & Risk | HEC-RAS 2D, OpenFOAM, Python | Saint-Venant 2D, $k\text{-}\omega$ SST turbulence, Grid Convergence Index (GCI), scour mitigation trade-offs. |
+| [`environmental-time-series.md`](archetypes/environmental-time-series.md) | Hydrology & Data Science | Python (Statsmodels, PyTorch, Scikit-learn) | Stationarity testing (ADF), SARIMAX vs LSTM, Nash-Sutcliffe Efficiency (NSE), leakage prevention. |
+| [`water-infrastructure-systems.md`](archetypes/water-infrastructure-systems.md) | Urban Water & Hydro-Meteorology | QGIS, EPANET, Python | Gumbel & Log-Pearson III IDF curves, FAO-56 Penman-Monteith, Hazen-Williams pipe network pressure head. |

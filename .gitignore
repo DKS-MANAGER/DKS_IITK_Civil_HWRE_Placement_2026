@@ -278,3 +278,43 @@ pnpm-lock.yaml
 # Git
 # ============================
 .git/
+
+# ============================
+# Personal Documents & Privacy Protections (Local-Only)
+# ============================
+# Resumes, CVs, and application letters
+*resume*.pdf
+*cv*.pdf
+*Resume*.pdf
+*CV*.pdf
+*resume*.docx
+*cv*.docx
+*Resume*.docx
+*CV*.docx
+*cover_letter*
+*cover-letter*
+*statement_of_purpose*
+*sop*.pdf
+*sop*.docx
+
+# Course submissions, lab solutions, and academic records
+assignments/
+submissions/
+student_records/
+transcripts/
+marksheets/
+*transcript*.pdf
+*marksheet*.pdf
+
+# Private thesis drafts and research notes
+*thesis*draft*
+*thesis*.pdf
+*thesis*.docx
+*dissertation*
+private_notes/
+personal/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example

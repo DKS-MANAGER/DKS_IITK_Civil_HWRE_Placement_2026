@@ -47,6 +47,6 @@ TIER 2: TECHNICAL ROUND READY
 
 TIER 3: CASE & OFFER READY
 ├── Diagnoses metric drops (e.g. 12% drop in DAU or 150 bps drop in conversion) using structured MECE cuts.
-├── Seamlessly bridges Civil/HWRE predictive modeling (BridgeRisk / Streamflow telemetry) to commercial analytics.
+├── Seamlessly bridges Civil/HWRE predictive modeling (Hydrodynamic Simulation Archetype / Streamflow telemetry) to commercial analytics.
 └── Confidently defends statistical and business trade-offs under tough interviewer pushback.
 ```

@@ -52,7 +52,7 @@ In campus recruitment, "Business Analyst" encompasses distinct functional specia
 | **Statistical & Metric Analysis**| Product / Analytics Case Round | [04_data-and-analytics/statistics.md](04_data-and-analytics/statistics.md) | Hypothesis testing, A/B test sample sizing |
 | **Business Acumen & Unit Econ** | Root-cause Business Case Round | [03_business-knowledge.md](03_business-knowledge.md) & [07_case-practice.md](07_case-practice.md) | CAC/LTV breakdown, margin turnaround plan |
 | **Executive Communication** | Case Synthesis & Fit Rounds | [05_interview-preparation.md](05_interview-preparation.md) | Top-down presentation, clear recommendations |
-| **Civil/HWRE Background** | Resume Defense / Experience Fit | [11_projects.md](11_projects.md) | Predictive modeling (BridgeRisk / Streamflow) |
+| **Civil/HWRE Background** | Resume Defense / Experience Fit | [11_projects.md](11_projects.md) | Predictive modeling (Hydrodynamic Simulation Archetype / Streamflow) |
 
 ---
 

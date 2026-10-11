@@ -68,7 +68,7 @@ Their SQL improved from basic to intermediate in 3 weeks. They cracked the Accen
 ## 📝 Story 3: Resolving Presentation Approach Conflict
 
 **Situation:**
-For our final semester project presentation at IIT Kanpur, two members wanted a detailed technical deep-dive (30 slides), while two wanted a high-level overview (10 slides) for the mixed audience.
+For a final capstone engineering presentation, two members wanted a detailed technical deep-dive (30 slides), while two wanted a high-level overview (10 slides) for the mixed audience.
 
 **Task:**
 As the designated presenter, create a unified presentation satisfying both approaches.
@@ -200,7 +200,7 @@ Checklist became team standard. Teammate thanked me for the direct conversation.
 ## 📝 Story 9: Celebrating Team Success
 
 **Situation:**
-After 3 months of intense thesis work, our team submitted all deliverables on time. Everyone was exhausted and immediately scattered.
+After months of collaborative engineering work, the project team submitted all deliverables on time. Everyone was exhausted and immediately scattered.
 
 **Task:**
 Ensure proper closure and celebration to maintain relationships.

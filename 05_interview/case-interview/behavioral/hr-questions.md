@@ -18,7 +18,7 @@
 ### Q1: "Walk me through your resume in 90 seconds."
 - **Model Structure**:
   1. *Foundation*: Strong quantitative and analytical grounding in Civil Engineering at IIT Kanpur.
-  2. *Research & Analytics*: Developing predictive models, handling large datasets, and optimizing systems under uncertainty (BridgeRisk / Time-series).
+  2. *Research & Analytics*: Developing predictive models, handling large datasets, and optimizing systems under uncertainty (Hydrodynamic Simulation Archetype / Time-series).
   3. *Leadership & Impact*: Key positions of responsibility (PORs), cross-functional team leadership, or competition achievements.
   4. *Aspiration*: Why this specific company and role represents the natural next step to create tangible business impact.
 

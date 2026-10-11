@@ -63,8 +63,8 @@ Result: [Outcome + relationship impact + learning]
 
 ---
 
-### STAR 4: Supervisor Feedback Disagreement
-**Situation:** My thesis supervisor suggested changing my validation approach from Grid Convergence Index (GCI) to a simpler Richardson extrapolation, saying GCI was "overkill." I believed GCI was necessary for publication quality.
+### STAR 4: Methodological Consensus in Research [Illustrative Scenario]
+**Situation:** During a computational research project, a senior project advisor suggested using a single fine mesh rather than computing a formal Grid Convergence Index (GCI) to a simpler Richardson extrapolation, saying GCI was "overkill." I believed GCI was necessary for publication quality.
 
 **Task:** Respectfully advocate for my methodological choice while respecting supervisor's experience.
 

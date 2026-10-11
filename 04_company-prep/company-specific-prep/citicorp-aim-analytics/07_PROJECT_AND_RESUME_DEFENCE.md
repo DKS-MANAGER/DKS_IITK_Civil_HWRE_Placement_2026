@@ -88,7 +88,7 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 4. **Methods & Tools Actually Used**: HEC-RAS 2D (shallow water Saint-Venant equations), QGIS, Python data automation.
 5. **Assumptions & Design Choices**: Solved depth-averaged 2D Saint-Venant equations on an unstructured mesh. Evaluated CSU (HEC-18), Melville, and Froehlich scour formulations.
 6. **Validation & Evaluation**: Model calibrated against physical gauge water surface elevations ($R^2 = 0.94$). CSU equation predicted scour within $+5.4\%$ of historical flood mark data.
-7. **Key Quantified Result**: Identified critical 4.85 m scour undermining risk under 100-year peak flow ($2,450\text{ m}^3/\text{s}$). Designed a 350 mm $d_{50}$ riprap collar countermeasure reducing bed shear stress by $64\%$.
+7. **Key Quantified Result**: Evaluated structural undermining risk across 10-year to 100-year peak flood discharges; demonstrated that perimeter riprap armoring reduced bed shear stress by over 60% and mitigated failure probability under design floods.
 8. **Limitations**: 2D depth-averaged models assume hydrostatic pressure distributions and cannot explicitly resolve the 3D downward jet vortex on the pier nose.
 9. **Alternative Methods Considered**: 3D CFD in OpenFOAM; rejected due to prohibitive computational runtime across a 2.4 km river reach.
 10. **What Could Be Improved**: Coupling reach-scale 2D shallow water models with localized 3D Large Eddy Simulation (LES) around vulnerable bridge piers.

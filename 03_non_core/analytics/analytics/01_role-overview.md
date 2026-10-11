@@ -51,7 +51,7 @@ In campus recruitment, "Analytics" spans distinct technical and functional speci
 | **Python & Pandas Data Manipulation**| Live Coding / Data Wrangling | [04_tools-and-technical-stack.md](04_tools-and-technical-stack.md) | Vectorized aggregation, groupby, datetime |
 | **Applied Statistics & A/B Testing**| Product / Experimentation Round| [03_domain-knowledge.md](03_domain-knowledge.md) & [06_question-bank.md](06_question-bank.md) | Sample sizing, SRM $\chi^2$ test, p-values |
 | **Business Metric Tree Diagnosis**| Analytics Case Interview | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | North Star metric breakdown, funnel leaks |
-| **Civil/HWRE Background** | Resume Defense & Predictive Modeling | [11_projects.md](11_projects.md) | BridgeRisk ML failure prediction / Streamflow |
+| **Civil/HWRE Background** | Resume Defense & Predictive Modeling | [11_projects.md](11_projects.md) | Hydrodynamic Simulation Archetype ML failure prediction / Streamflow |
 
 ---
 

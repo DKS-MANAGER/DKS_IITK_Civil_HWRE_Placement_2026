@@ -13,7 +13,7 @@
 ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ • 40 SQL query problems │ • 20 Pandas exercises   │ • 10 A/B testing math   │ • 3 Timed mock exams    │
 │ • Window functions      │ • Distributions & CLT   │ • 10 Analytics cases    │ • "Why Analytics/Civil" │
-│ • Funnels & cohorts     │ • ML fundamentals       │ • Power BI dashboard    │ • BridgeRisk CV bullets │
+│ • Funnels & cohorts     │ • ML fundamentals       │ • Power BI dashboard    │ • Hydrodynamic Simulation Archetype CV bullets │
 └─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
 ```
 
@@ -26,7 +26,7 @@
 - **Days 19–21**: Work through Cases 1–10 in [07_practice-and-cases.md](07_practice-and-cases.md).
 - **Days 22–24**: Practice timed quantitative aptitude and Data Interpretation tests.
 - **Days 25–27**: Complete 3 Full Mock Assessments in [12_mock-assessment.md](12_mock-assessment.md).
-- **Days 28–30**: Final review of [09_rapid-revision.md](09_rapid-revision.md) and rehearse BridgeRisk / Civil-to-Analytics behavioral fit stories.
+- **Days 28–30**: Final review of [09_rapid-revision.md](09_rapid-revision.md) and rehearse Hydrodynamic Simulation Archetype / Civil-to-Analytics behavioral fit stories.
 
 ---
 

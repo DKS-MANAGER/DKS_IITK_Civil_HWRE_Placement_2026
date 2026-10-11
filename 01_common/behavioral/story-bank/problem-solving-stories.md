@@ -24,7 +24,7 @@
 ## 📝 Story 1: Debugging a Diverging CFD Simulation
 
 **Situation:**
-Our pipeline scour simulation at IIT Kanpur was diverging after 500 time steps, producing unphysical sediment concentrations. We had 1 week to fix it for our project deadline.
+During an unsteady multiphase flow simulation, the solver diverged after 500 time steps, producing unphysical bed profile fluctuations.
 
 **Task:**
 Systematically identify and fix the divergence issue — without randomly changing parameters.

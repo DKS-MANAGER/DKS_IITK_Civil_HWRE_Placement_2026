@@ -8,8 +8,9 @@ import os
 import json
 from collections import defaultdict
 
-REF_PATH = os.path.join('f:', os.sep, '2k26Placement', 'GATE-O-PEDIA - CIVIL ENGINEERING.txt')
-REPO_PATH = os.path.join('f:', os.sep, '2k26Placement', 'DKS_IITK_Civil_HWRE_Placement_2026')
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+REF_PATH = os.path.join(REPO_ROOT, 'docs', 'sources', 'GATE-O-PEDIA.txt')
+REPO_PATH = REPO_ROOT
 OUT_DIR = os.path.join(REPO_PATH, 'docs', 'audit')
 
 # Corrected subject boundaries based on GATE WALLAH header analysis

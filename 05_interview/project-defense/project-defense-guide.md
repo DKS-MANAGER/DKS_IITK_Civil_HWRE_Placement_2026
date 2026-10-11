@@ -255,5 +255,5 @@ MINUTE 5: FUTURE & QUESTIONS
 ---
 
 > **Last Updated:** 2026-09-03
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026
 > **Version:** 1.0 — Project Defense Guide

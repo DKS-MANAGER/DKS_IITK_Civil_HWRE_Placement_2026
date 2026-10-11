@@ -149,7 +149,7 @@ Result: [Quantified outcome — 1-2 sentences]
 
 **STAR 18: CFD Simulation Achievement**
 - **S:** My M.Tech project involved simulating 2D pipeline scour using OpenFOAM with Eulerian two-phase flow and k-ω SST turbulence.
-- **T:** Validate the model against Mao (1986) experimental data and achieve < 10% error in scour depth prediction.
+- **T:** Validate the numerical model against published flume benchmark datasets and achieve < 10% error in scour depth prediction.
 - **A:** I performed extensive grid sensitivity studies (3 mesh levels), implemented adaptive time stepping, ran 20+ parameter variations for wall function validation, and compared results using the Grid Convergence Index.
 - **R:** Final scour depth matched experimental data within 7%. The validated model was used for 3 additional case studies in our publication.
 

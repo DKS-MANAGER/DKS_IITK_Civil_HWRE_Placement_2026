@@ -53,4 +53,4 @@
 ---
 
 > **Last Updated:** 2026-09-06
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026

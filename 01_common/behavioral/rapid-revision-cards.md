@@ -25,7 +25,7 @@
 > "Our pipeline scour simulation diverged after 500 steps. I systematically checked BCs, time step, and mesh — found y+ was 300+ (should be <5). Refined the mesh, simulation converged in 3 days. Published the validated results."
 
 ### Story 3: Adaptability
-> "Mid-thesis, our supervisor changed focus from pipeline to bridge pier scour. I created a revised plan in 1 day, reallocated tasks, and completed on time. The pivot led to a stronger conference paper."
+> "Mid-project, project scope shifted from pipeline scour to bridge pier hydrodynamics. I developed a revised execution plan within 48 hours, restructured simulation cases, and delivered results on schedule."
 
 ---
 

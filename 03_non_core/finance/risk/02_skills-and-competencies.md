@@ -47,6 +47,6 @@ TIER 2: TECHNICAL ROUND READY
 
 TIER 3: CASE & PARTNER READY
 ├── Solves complex portfolio trade-off cases: Balances approval rate vs credit loss provisioning under macroeconomic shocks.
-├── Seamlessly bridges Civil/HWRE uncertainty modeling (BridgeRisk / flood extremes) to financial risk modeling.
+├── Seamlessly bridges Civil/HWRE uncertainty modeling (Hydrodynamic Simulation Archetype / flood extremes) to financial risk modeling.
 └── Displays calm executive judgment under tough interviewer pushback.
 ```

@@ -63,7 +63,7 @@
 
 > **Framework:** Honest failure → Root cause → What you changed → Result
 >
-> **Example:** "During my thesis, my OpenFOAM simulation diverged after 1000 time steps. I spent 3 days tweaking relaxation factors — it was the wrong approach. When I consulted my guide, we discovered the mesh had cells with skewness > 85%. I remeshed, ensuring skewness < 80, and it converged. **Lesson:** Always check the mesh first when debugging. Now I run mesh quality checks before any simulation."
+> **Example [Illustrative Scenario]:** "In a computational fluid simulation project, the numerical solver diverged after 1000 time steps. After initially adjusting relaxation factors without success, systematic root-cause analysis revealed boundary cells with skewness exceeding 85%. Remeshing with skewness < 80 restored convergence. **Lesson:** Always verify grid quality metrics (skewness, non-orthogonality, aspect ratio) before attempting numerical tuning."
 
 **Q7: "How do you approach a problem you've never seen before?"**
 
@@ -76,7 +76,7 @@
 > 4. "I **validate incrementally** — check each step before moving forward."
 > 5. "I **ask for help** when stuck for more than 2 hours — my ego doesn't serve the project."
 >
-> **Example:** "When I first needed to implement a VOF simulation for dam break, I had no experience. I started with the OpenFOAM dam break tutorial, understood each block, then modified it for my geometry. I validated against the analytical solution before adding complexity. Total learning time: 2 weeks."
+> **Example [Illustrative Scenario]:** "When tasked with setting up a Volume of Fluid (VOF) multiphase dam-break simulation without prior experience in that specific solver module, I began with standard verified benchmark tutorials, analyzed dictionary parameters block-by-block, adapted the boundary conditions for the target geometry, and validated the free-surface profile against analytical Ritter solutions before scaling up."
 
 **Q8: "If your simulation gives results that contradict established theory, what do you do?"**
 
@@ -217,5 +217,5 @@ For all behavioral/hybrid questions, use STAR+T:
 ---
 
 > **Last Updated:** 2026-09-03
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026
 > **Version:** 1.0 — HR+Technical Hybrid Questions

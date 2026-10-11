@@ -13,7 +13,7 @@
 ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
 │ • Bayes' rule & Normal  │ • PD, LGD, EAD formulas │ • Parametric/Hist VaR   │ • 3 Timed mock exams    │
 │ • Distributions & CLT   │ • Scorecard math & KS   │ • Delinquency SQL tests │ • "Why Risk from Civil?"│
-│ • Quant aptitude drills │ • Logistic regression   │ • 10 Risk worked cases  │ • BridgeRisk CV polish  │
+│ • Quant aptitude drills │ • Logistic regression   │ • 10 Risk worked cases  │ • Hydrodynamic Simulation Archetype CV polish  │
 └─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
 ```
 
@@ -26,7 +26,7 @@
 - **Days 19–21**: Solve SQL Delinquency roll-rate and migration queries in [04_tools-and-technical.md](04_tools-and-technical.md).
 - **Days 22–24**: Work through Cases 1–10 in [07_practice-and-cases.md](07_practice-and-cases.md).
 - **Days 25–27**: Complete 3 Full Mock Assessments in [12_mock-assessment.md](12_mock-assessment.md).
-- **Days 28–30**: Final review of [09_rapid-revision.md](09_rapid-revision.md) and rehearse BridgeRisk / Civil-to-Risk behavioral fit stories.
+- **Days 28–30**: Final review of [09_rapid-revision.md](09_rapid-revision.md) and rehearse Hydrodynamic Simulation Archetype / Civil-to-Risk behavioral fit stories.
 
 ---
 

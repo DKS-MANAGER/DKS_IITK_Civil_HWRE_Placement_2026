@@ -63,7 +63,7 @@ START HERE
 | **05. Interview** | [`05_interview/`](05_interview/README.md) | Execution layer: Role-specific technical interview question banks (Civil, HWRE, CFD), 4-step project defense, line-by-line resume defense, HR fit, case interview execution, and 26 mock tests. |
 | **06. Revision** | [`06_revision/`](06_revision/README.md) | Centralized time-bound review roadmaps: 30-day comprehensive, 14-day accelerated, 7-day sprint, 3-day emergency, and "Interview Tomorrow" survival kits. |
 | **07. Resources** | [`07_resources/`](07_resources/README.md) | Supporting external reference materials: Curated textbooks, NPTEL/online video lectures, IS/IRC/FHWA engineering codes, online tools, and software comparison charts. |
-| **08. Projects** | [`08_projects/`](08_projects/README.md) | M.Tech research and coursework portfolio: Bridge hydrodynamic scour risk (`bridgerisk`), streamflow time-series forecasting (`streamflow-time-series`), rainfall IDF modeling (`idf-pet`), and GIS networks. |
+| **08. Projects** | [`08_projects/`](08_projects/README.md) | M.Tech research and coursework portfolio: Bridge hydrodynamic scour risk (`computational-fluid-simulation`), streamflow time-series forecasting (`environmental-time-series`), rainfall IDF modeling (`water-infrastructure-systems`), and GIS networks. |
 
 ---
 
@@ -82,7 +82,7 @@ START HERE
 ```text
 01_common/aptitude
   └──► 02_core/hwre (Hydrology, Hydraulics, HEC-RAS, HEC-HMS)
-        └──► 08_projects (bridgerisk, streamflow-time-series)
+        └──► 08_projects (computational-fluid-simulation, environmental-time-series)
               └──► 04_company-prep/hwre-companies (Vassar Labs, Smarttrak)
                     └──► 05_interview/technical/hwre
                           └──► 06_revision/7-day

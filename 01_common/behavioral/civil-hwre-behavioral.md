@@ -108,7 +108,7 @@
 ### Q14: Describe your experience with water resources projects. 🟡 P1
 **Framework:** STAR
 **Answer Guide:**
-- Thesis: Bridge pier scour simulation
+- Sample Project Domain: Hydrodynamic scour simulation and structural risk
 - Course projects: Hydrology, open channel flow
 - Software: HEC-RAS, HEC-HMS experience
 - Connect to company: "This directly prepares me for [company's water resources work]"
@@ -167,7 +167,7 @@
 **Answer Guide:**
 - Applications: "CFD predicts flood flow patterns, sediment transport, dam break analysis, water treatment processes"
 - Advantages: "CFD is cheaper than physical models, allows parametric studies, and provides detailed flow field data"
-- Your work: "My CFD work on bridge pier scour provides rapid scour prediction for bridge design"
+- Technical Application: "Computational modeling of hydrodynamic scour provides rapid vulnerability assessment for hydraulic structures"
 
 ### Q22: What are the key challenges in water resources engineering today? 🟡 P1
 **Framework:** Framework + Example
