@@ -647,70 +647,284 @@ ORDER BY on_time_pct ASC;
 
 ## 3. Section 2: Python Coding & Algorithmic Logic (20 Problems)
 
+### 2.1 Python Engineering Fundamentals & Algorithmic Foundations
+
+This section provides foundational training for candidates coming from non-CS engineering disciplines (e.g., Civil, Mechanical, Chemical) preparing for technical coding evaluations:
+
+#### 1. Core Python Data Structures & Complexity Reference
+
+| Structure | Common Operations | Time Complexity | When to Use in Digital Consulting |
+|---|---|---|---|
+| **List (`[]`)** | Append: $O(1)$, Index lookup: $O(1)$, Search: $O(N)$, Pop(0): $O(N)$ | $O(N)$ overall | Sequential data, fixed arrays, logging time-series |
+| **Dictionary (`{}`)** | Insert: $O(1)$, Key lookup: $O(1)$, Delete: $O(1)$ | $O(1)$ average | Frequency counting, fast entity lookups, cache keys |
+| **Set (`set()`)** | Add: $O(1)$, Lookup (`in`): $O(1)$, Union/Intersection: $O(N)$ | $O(1)$ average | Deduplication, uniqueness checks, seen tracking |
+| **Deque (`deque`)** | Append: $O(1)$, Pop: $O(1)$, AppendLeft: $O(1)$, PopLeft: $O(1)$ | $O(1)$ ends | Sliding windows, BFS traversal, event queues |
+| **Heap (`heapq`)** | Push: $O(\log K)$, Pop: $O(\log K)$, Heapify: $O(N)$ | $O(\log K)$ | Top-K elements, priority job scheduling, stream medians |
+
+#### 2. Algorithmic Pattern Recognition Ladder
+
+```text
+PROBLEM TYPE DETECTOR
+├── 1. "Find contiguous subarray with condition X..." ────────► Sliding Window (2 Pointers)
+├── 2. "Find two elements that sum to Target..." ──────────────► Hash Map (or 2 Pointers if sorted)
+├── 3. "Check matching brackets / nested syntax..." ──────────► Stack (LIFO)
+├── 4. "Search in sorted collection / minimize maximum..." ───► Binary Search ($O(\log N)$)
+├── 5. "Merge overlapping intervals / scheduled bookings..." ─► Sort by start time + Greedy merge
+└── 6. "Find dependency order / topological sequence..." ─────► Kahn's Algorithm (DAG in-degree)
+```
+
+---
+
 ### Problem 1: Latency Spike Detector (Array & Difference)
-* **Problem**: Given a sorted list of timestamps `timestamps` and a threshold integer `T`, return indices $i$ where `timestamps[i] - timestamps[i-1] > T`.
+
+1. **Problem Statement**:
+   Given a chronological list of millisecond timestamps `timestamps` recorded by a telemetry sensor and an integer threshold `threshold`, return a list of 0-indexed positions $i$ ($i \ge 1$) where the gap between consecutive pings strictly exceeds the threshold: `timestamps[i] - timestamps[i - 1] > threshold`.
+2. **Constraints & Assumptions**:
+   * $0 \le \text{len}(timestamps) \le 10^5$.
+   * $0 \le timestamps[i] \le 10^9$; array is strictly non-decreasing ($timestamps[i] \ge timestamps[i-1]$).
+   * $threshold \ge 0$.
+   * If the array contains fewer than 2 elements, return an empty list `[]`.
+3. **Example Input & Output**:
+   * *Input*: `timestamps = [10, 12, 15, 45, 48, 90]`, `threshold = 20`
+   * *Output*: `[3, 5]`
+   * *Explanation*: Gap at index 3: $45 - 15 = 30 > 20$. Gap at index 5: $90 - 48 = 42 > 20$.
+4. **Explanation of Expected Behaviour**:
+   Single-pass sequential comparison between adjacent indices without mutating the input list.
+5. **Naïve Approach**:
+   Nested loop or creating an explicit intermediate differences array: takes unnecessary $O(N)$ auxiliary space.
+6. **Improved Algorithm & Reasoning**:
+   Iterate once with a single pointer from $i = 1$ to $N - 1$. Calculate delta on the fly. If delta exceeds threshold, append index $i$ to result list.
+7. **Complete Runnable Solution Code**:
 ```python
 def find_latency_spikes(timestamps: list[int], threshold: int) -> list[int]:
+    """
+    Identifies index positions where consecutive timestamp gaps exceed threshold.
+    Time Complexity: O(N)
+    Space Complexity: O(1) auxiliary (excluding returned output)
+    """
     if not timestamps or len(timestamps) < 2:
         return []
-    spikes = []
+    
+    spikes: list[int] = []
     for i in range(1, len(timestamps)):
-        if timestamps[i] - timestamps[i - 1] > threshold:
+        delta = timestamps[i] - timestamps[i - 1]
+        if delta > threshold:
             spikes.append(i)
+            
     return spikes
 
-# Verification
+# Unit Test Verifications
 assert find_latency_spikes([10, 12, 15, 45, 48, 90], 20) == [3, 5]
+assert find_latency_spikes([], 10) == []
+assert find_latency_spikes([100], 10) == []
+assert find_latency_spikes([10, 20, 30], 15) == []
+assert find_latency_spikes([10, 30, 50], 15) == [1, 2]
 ```
-* **Complexity**: Time $O(N)$, Space $O(1)$ auxiliary.
+8. **Dry Run (Trace Table)**:
+   Input: `timestamps = [10, 12, 15, 45, 48, 90]`, `threshold = 20`
+
+   | Step ($i$) | `timestamps[i]` | `timestamps[i-1]` | `delta` | `delta > 20`? | `spikes` state |
+   |---|---|---|---|---|---|
+   | 1 | 12 | 10 | 2 | False | `[]` |
+   | 2 | 15 | 12 | 3 | False | `[]` |
+   | 3 | 45 | 15 | 30 | **True** | `[3]` |
+   | 4 | 48 | 45 | 3 | False | `[3]` |
+   | 5 | 90 | 48 | 42 | **True** | `[3, 5]` |
+
+9. **Complexity Analysis**:
+   * Time Complexity: $\mathcal{O}(N)$ — single pass across $N$ elements.
+   * Space Complexity: $\mathcal{O}(1)$ auxiliary space (excluding returned list).
+10. **Edge Cases Handled**:
+    * Empty list `[]` and single-element list `[10]`.
+    * All deltas equal to threshold (`delta == threshold` is not strictly greater).
+    * Massive timestamp values up to $10^9$ (Python natively handles arbitrary precision integers).
+11. **Common Bugs & Anti-Patterns**:
+    * Off-by-one error: Starting loop at `i = 0` and accessing `timestamps[i-1]` (which accesses the last element `-1` in Python).
+    * Mutating the input array.
+12. **Follow-Up Variations with Solutions**:
+    * *Variation*: *"Return the timestamp of the start of the longest uninterrupted streak of normal pings (no spikes)."*
+      * *Solution*: Track `current_streak_len` and `max_streak_len` while iterating.
+
+---
 
 ### Problem 2: Longest Contiguous Active Session (Sliding Window)
-* **Problem**: In a binary string `events` ('1' = active, '0' = idle), find the maximum length of contiguous '1's allowing at most one '0' flip.
+
+1. **Problem Statement**:
+   Given a binary string `events` representing server operational states ('1' = active, '0' = idle/failure), determine the maximum length of contiguous '1's that can be formed if you are allowed to flip at most **one** '0' to '1'.
+2. **Constraints & Assumptions**:
+   * $1 \le \text{len}(events) \le 10^5$.
+   * `events[i]` is either `'0'` or `'1'`.
+   * Exactly $\le 1$ zero can be flipped.
+3. **Example Input & Output**:
+   * *Input*: `events = "110110111"`
+   * *Output*: `6`
+   * *Explanation*: Flipping the second '0' at index 5 gives `"110111111"`, where substring `"111111"` from index 3 to 8 has length 6.
+4. **Explanation of Expected Behaviour**:
+   Dynamic sliding window maintaining the invariant that the window contains at most one '0'.
+5. **Naïve Approach**:
+   Generate all $O(N^2)$ substrings, count zeros in each substring, and find maximum length with $\le 1$ zero: $O(N^2)$ time $\implies$ TLE on $N = 10^5$.
+6. **Improved Algorithm & Reasoning**:
+   Two-pointer sliding window `[left, right]`:
+   * Expand `right` pointer and increment `zero_count` whenever `events[right] == '0'`.
+   * If `zero_count > 1`, contract `left` pointer until `zero_count <= 1`.
+   * Track `max_len = max(max_len, right - left + 1)`.
+7. **Complete Runnable Solution Code**:
 ```python
 def longest_active_session(events: str) -> int:
+    """
+    Finds maximum contiguous subarray of 1s allowing at most one 0 flip.
+    Time Complexity: O(N)
+    Space Complexity: O(1)
+    """
     left = 0
     zero_count = 0
     max_len = 0
+    
     for right in range(len(events)):
         if events[right] == '0':
             zero_count += 1
+            
         while zero_count > 1:
             if events[left] == '0':
                 zero_count -= 1
             left += 1
+            
         max_len = max(max_len, right - left + 1)
+        
     return max_len
 
-assert longest_active_session("110110111") == 6  # Flipping second '0' yields "111111" (length 6)
+# Unit Test Verifications
+assert longest_active_session("110110111") == 6
 assert longest_active_session("10110") == 4
+assert longest_active_session("1111") == 4
+assert longest_active_session("000") == 1
+assert longest_active_session("0") == 1
+assert longest_active_session("1") == 1
 ```
-* **Complexity**: Time $O(N)$, Space $O(1)$.
+8. **Dry Run (Trace Table)**:
+   Input: `events = "10110"`, allowed zeros $\le 1$:
+
+   | `right` | `char` | `zero_count` | `left` adjustment | Window `[left..right]` | `max_len` |
+   |---|---|---|---|---|---|
+   | 0 | '1' | 0 | None | `"1"` (len 1) | 1 |
+   | 1 | '0' | 1 | None | `"10"` (len 2) | 2 |
+   | 2 | '1' | 1 | None | `"101"` (len 3) | 3 |
+   | 3 | '1' | 1 | None | `"1011"` (len 4) | 4 |
+   | 4 | '0' | 2 | `left` advances to 2 (`zero_count`=1) | `"110"` (len 3) | 4 |
+
+9. **Complexity Analysis**:
+   * Time Complexity: $\mathcal{O}(N)$ — `right` visits each element once, `left` visits each element at most once.
+   * Space Complexity: $\mathcal{O}(1)$ auxiliary space.
+10. **Edge Cases Handled**:
+    * String containing only zeros `"000"` $\to$ output is `1`.
+    * String containing only ones `"1111"` $\to$ output is `4`.
+    * Single character string `"0"` $\to$ output is `1`.
+11. **Common Bugs & Anti-Patterns**:
+    * Forgetting to decrement `zero_count` when moving the `left` pointer past a `'0'`.
+    * Resetting `left` to `right` rather than incrementally incrementing `left`.
+12. **Follow-Up Variations with Solutions**:
+    * *Variation*: *"What if you are allowed to flip at most $K$ zeros?"*
+      * *Solution*: Change `while zero_count > 1:` to `while zero_count > k:`. Complexity remains $\mathcal{O}(N)$.
+
+---
 
 ### Problem 3: Valid API Parameter Bracket Checker (Stack)
-* **Problem**: Given a string containing brackets `()`, `{}`, `[]`, determine if the string is syntactically valid.
+
+1. **Problem Statement**:
+   Given a JSON-like payload string `s` containing only characters `'('`, `')'`, `'{'`, `'}'`, `'['`, and `']'`, determine if the input string is valid. An input string is valid if open brackets are closed by the same type of brackets and in the correct order.
+2. **Constraints & Assumptions**:
+   * $0 \le \text{len}(s) \le 10^5$.
+   * `s` consists solely of bracket characters.
+3. **Example Input & Output**:
+   * *Input*: `s = "{[()]}"` $\implies$ *Output*: `True`
+   * *Input*: `s = "{[(])}"` $\implies$ *Output*: `False`
+4. **Explanation of Expected Behaviour**:
+   LIFO (Last-In-First-Out) evaluation using a stack. Every closing bracket must match the most recently opened unmatched bracket.
+5. **Naïve Approach**:
+   Repeatedly replacing `"()"`, `"{}"`, `"[]"` with `""` using `s.replace()`: takes $O(N^2)$ time and allocates huge memory.
+6. **Improved Algorithm & Reasoning**:
+   Maintain a stack of opening brackets. When encountering a closing bracket, pop the top of the stack and compare. If mismatch or stack is empty, return `False`. At the end, return `True` only if stack is empty.
+7. **Complete Runnable Solution Code**:
 ```python
 def is_valid_payload(s: str) -> bool:
-    stack = []
+    """
+    Validates syntactically balanced bracket nesting.
+    Time Complexity: O(N)
+    Space Complexity: O(N)
+    """
+    stack: list[str] = []
     mapping = {')': '(', '}': '{', ']': '['}
+    
     for char in s:
         if char in mapping:
-            top = stack.pop() if stack else '#'
-            if mapping[char] != top:
+            top_element = stack.pop() if stack else '#'
+            if mapping[char] != top_element:
                 return False
-        elif char in mapping.values():
+        else:
             stack.append(char)
-    return not stack
+            
+    return len(stack) == 0
 
+# Unit Test Verifications
 assert is_valid_payload("{[()]}") == True
 assert is_valid_payload("{[(])}") == False
+assert is_valid_payload("") == True
+assert is_valid_payload("]") == False
+assert is_valid_payload("[") == False
+assert is_valid_payload("()[]{}") == True
 ```
-* **Complexity**: Time $O(N)$, Space $O(N)$.
+8. **Dry Run (Trace Table)**:
+   Input: `s = "{[(])}"`:
+
+   | `char` | Action | `stack` after action | Return False? |
+   |---|---|---|---|
+   | '{' | Push '{' | `['{']` | No |
+   | '[' | Push '[' | `['{', '[']` | No |
+   | '(' | Push '(' | `['{', '[', '(']` | No |
+   | ']' | Pop top `'('`. Compare with mapped `'['` | `['{', '[']` | **MISMATCH! Returns False** |
+
+9. **Complexity Analysis**:
+   * Time Complexity: $\mathcal{O}(N)$ — single pass over string.
+   * Space Complexity: $\mathcal{O}(N)$ — worst case all opening brackets in stack.
+10. **Edge Cases Handled**:
+    * Empty string `""` $\implies$ `True`.
+    * Starts with closing bracket `"]"` $\implies$ `False` (stack empty handled via `'#'`).
+    * Unmatched open bracket at end `"["` $\implies$ `False` (`len(stack) != 0`).
+11. **Common Bugs & Anti-Patterns**:
+    * Attempting to count opening vs closing brackets (fails on ordering like `")("` or `"{[(])}"`).
+12. **Follow-Up Variations with Solutions**:
+    * *Variation*: *"The string contains alphanumeric characters and whitespace in addition to brackets."*
+      * *Solution*: Add `if char in '(){}[]':` filter before checking `mapping`.
+
+---
 
 ### Problem 4: Server Load Pair Finder (Two Sum / Hash Map)
-* **Problem**: Given server CPU capacities `loads` and a target limit `target`, find two indices whose sum equals `target`.
+
+1. **Problem Statement**:
+   Given an array of integer server CPU utilization percentages `loads` and an integer `target`, return the 0-indexed positions of the two distinct servers whose sum equals `target`. You may assume each input has exactly one valid solution.
+2. **Constraints & Assumptions**:
+   * $2 \le \text{len}(loads) \le 10^5$.
+   * $-10^9 \le loads[i] \le 10^9$.
+   * Cannot use the same server element twice.
+3. **Example Input & Output**:
+   * *Input*: `loads = [20, 35, 45, 60]`, `target = 80`
+   * *Output*: `[1, 2]`
+   * *Explanation*: $loads[1] + loads[2] = 35 + 45 = 80$.
+4. **Explanation of Expected Behaviour**:
+   Hash table lookup to find complement in $O(1)$ time per element.
+5. **Naïve Approach**:
+   Brute-force double loop comparing all pairs $(i, j)$: $\mathcal{O}(N^2)$ time $\implies$ TLE.
+6. **Improved Algorithm & Reasoning**:
+   As we iterate through `loads`, calculate complement `diff = target - val`. If `diff` exists in our `seen` hash map, return `[seen[diff], current_index]`. Otherwise, store `seen[val] = current_index`.
+7. **Complete Runnable Solution Code**:
 ```python
 def find_balanced_pair(loads: list[int], target: int) -> list[int]:
-    seen = {}
+    """
+    Finds indices of two elements summing to target using single-pass Hash Map.
+    Time Complexity: O(N)
+    Space Complexity: O(N)
+    """
+    seen: dict[int, int] = {}
     for i, val in enumerate(loads):
         diff = target - val
         if diff in seen:
@@ -718,9 +932,33 @@ def find_balanced_pair(loads: list[int], target: int) -> list[int]:
         seen[val] = i
     return []
 
+# Unit Test Verifications
 assert find_balanced_pair([20, 35, 45, 60], 80) == [1, 2]
+assert find_balanced_pair([3, 3], 6) == [0, 1]
+assert find_balanced_pair([-10, 20, 30], 10) == [0, 1]
 ```
-* **Complexity**: Time $O(N)$, Space $O(N)$.
+8. **Dry Run (Trace Table)**:
+   Input: `loads = [20, 35, 45, 60]`, `target = 80`:
+
+   | $i$ | `val` | `diff` ($80 - val$) | `diff in seen`? | `seen` after step |
+   |---|---|---|---|---|
+   | 0 | 20 | 60 | False | `{20: 0}` |
+   | 1 | 35 | 45 | False | `{20: 0, 35: 1}` |
+   | 2 | 45 | 35 | **True (seen[35] = 1)** | **Returns [1, 2]** |
+
+9. **Complexity Analysis**:
+   * Time Complexity: $\mathcal{O}(N)$ — single pass with $O(1)$ dictionary lookups.
+   * Space Complexity: $\mathcal{O}(N)$ — stores at most $N$ elements in `seen`.
+10. **Edge Cases Handled**:
+    * Identical values (`[3, 3]`, target `6`).
+    * Negative numbers (`[-10, 20]`, target `10`).
+11. **Common Bugs & Anti-Patterns**:
+    * Pre-populating the whole hash map first: causes an element to match with itself if `target - val == val`.
+12. **Follow-Up Variations with Solutions**:
+    * *Variation*: *"The input array is already sorted and we must solve with $O(1)$ auxiliary space."*
+      * *Solution*: Use Two Pointers (`left = 0`, `right = len - 1`). If `sum < target`, `left += 1`; if `sum > target`, `right -= 1`.
+
+---
 
 ### Problem 5: Group Log Messages by API Endpoint (Hash Map)
 * **Problem**: Given logs formatted as `"[TIMESTAMP] [ENDPOINT] [STATUS]"`, return a dictionary counting status codes per endpoint.

@@ -7,88 +7,397 @@
 
 ---
 
-## 1. The 10-Point Digital Case Interview Architecture
+## 1. The 14-Point Digital Case Interview Architecture
 
-Every case in this workbook is structured according to the standard 10-point digital consulting analysis framework:
+Every substantial case in this workbook follows the rigorous 14-point digital consulting analysis framework:
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       10-POINT CASE ANALYSIS STRUCTURE                      │
-├──────────────────────────┬──────────────────────────┬───────────────────────┤
-│ 1. Problem Statement     │ 2. Clarifying Questions  │ 3. Structural Tree    │
-│ 4. Data Required         │ 5. Analysis & Tech Plan  │ 6. Calculations       │
-│ 7. Business Insights     │ 8. Recommendations       │ 9. Risks & Mitigation │
-│ 10. Executive Follow-ups │                          │                       │
-└──────────────────────────┴──────────────────────────┴───────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        14-POINT DIGITAL CASE ANALYSIS FRAMEWORK                        │
+├──────────────────────────┬──────────────────────────┬──────────────────────────────────┤
+│ 1. Candidate Prompt      │ 2. Context & Objectives  │ 3. Clarifying Questions & Why    │
+│ 4. Issue Tree Structure  │ 5. Assumptions vs Facts  │ 6. Exhibits & Numerical Data     │
+│ 7. Step-by-Step Math     │ 8. Alternative Explanations│ 9. Multiple Feasible Solutions │
+│ 10. Trade-Off Comparison │ 11. Recommended Solution │ 12. Risks, Stages & KPIs         │
+│ 13. Interviewer Q&A      │ 14. Transparent Rubric   │                                  │
+└──────────────────────────┴──────────────────────────┴──────────────────────────────────┘
 ```
 
 ---
 
-## 2. Fifteen End-to-End Digital Transformation Cases
+## 2. Solved Digital Transformation Cases (Full 14-Point Depth)
 
 ### Case 1: Industry X — Smart Factory Transformation for a Japanese Robotics Manufacturer
-1. **Problem Statement**: An industrial robotics manufacturer with 4 plants in Kanto faces a 22% increase in machine breakdown downtime over 2 years, resulting in JPY 450M annual lost gross margin. Goal: eliminate unscheduled downtime and improve Overall Equipment Effectiveness (OEE).
-2. **Clarifying Questions**: What is current OEE? (72%). Are machines currently sensorized? (Only basic PLC cycle counters). What is the average repair lead time? (48 hours due to spare parts logistics).
-3. **Framework**: Break down into Failure Prevention (IoT sensors, Edge anomaly detection) vs Repair Acceleration (AR technician tablets, automated spare parts inventory).
-4. **Data Required**: Machine telemetry failure logs, maintenance repair orders, component spare part inventory turnover, MTBF (Mean Time Between Failures) and MTTR (Mean Time to Repair).
-5. **Analysis & Tech Plan**: Deploy vibration and acoustic sensors on 50 critical CNC cutting machines. Stream high-frequency telemetry to factory Edge gateways running microsecond anomaly detection; push 10-second aggregations via MQTT to Azure IoT Hub. Run cloud predictive maintenance models forecasting component failure 48 hours prior.
-6. **Calculations**:
-   * Current breakdown losses = JPY 450M.
-   * IoT Predictive Maintenance prevents 70% of unplanned downtime $\implies 450 \times 0.70 = \text{JPY } 315\text{M}$ saved annually.
-   * System CapEx & Year 1 OpEx = JPY 85M $\implies \text{Net Year 1 Gain} = \text{JPY } 230\text{M}$.
-7. **Interpretation**: Payback is achieved in under 4 months; primary bottleneck shifts from equipment breakdown to technician dispatch scheduling.
-8. **Recommendation & Trade-offs**: Pilot on Plant 1 assembly line for 90 days before company-wide rollout. Trade-off: edge hardware CapEx vs cloud SaaS subscription.
-9. **Risks & Limitations**: Worker resistance on shop floor; legacy machines lacking digital bus outputs (requires retrofitting non-invasive clip-on sensors).
-10. **Follow-up Questions**: *"How do you handle edge node network dropouts during network maintenance?"* (Edge local circular buffer caches 48 hours of telemetry).
+
+1. **Candidate-Facing Prompt**:
+   *"Our client is a premier Japanese industrial robotics and precision component manufacturer operating 4 production facilities in the Kanto region. Over the past 24 months, unplanned machine downtime has surged by 22%, causing approximately JPY 450 Million in annual lost gross margin and delivery penalties to automotive clients. The CEO has engaged Accenture Japan to diagnose the root cause, evaluate technology options, and present a digital modernization roadmap to eliminate unplanned downtime."*
+2. **Business Context & Objective**:
+   * **Context**: Mid-sized specialized supplier facing rising raw material costs and acute skilled technician shortages in Japan.
+   * **Objective**: Reduce unplanned machine downtime by at least $60\%$, lift Overall Equipment Effectiveness (OEE) from $72\%$ to $\ge 82\%$, and achieve positive financial payback within 12 months.
+3. **Clarifying Questions (and Why They Matter)**:
+   * *Question 1*: "What is the current machine maintenance regime — purely reactive run-to-failure or calendar-based preventive?"  
+     *Why it matters*: Distinguishes whether the failure is organizational scheduling or lack of physical asset condition visibility.
+   * *Question 2*: "Are the 200 production machines homogeneous or a mix of modern and legacy vintage?"  
+     *Why it matters*: Determines sensor connectivity feasibility (modern OPC-UA bus vs legacy machines requiring non-invasive clip-on sensors).
+   * *Question 3*: "What is the breakdown between Mean Time Between Failures (MTBF) and Mean Time to Repair (MTTR)?"  
+     *Why it matters*: Isolates whether the primary bottleneck is failure frequency or prolonged repair duration due to spare-part logistics.
+4. **Issue Tree & Problem Decomposition**:
+   ```text
+   TOTAL DOWNTIME LOSS (JPY 450M)
+   ├── 1. Breakdown Frequency (MTBF = 340 hrs)
+   │   ├── Spindle bearing friction & thermal expansion (65% of premature failures)
+   │   ├── Coolant line blockage & pressure drop (20%)
+   │   └── Electrical power supply & motor surges (15%)
+   └── 2. Repair Duration (MTTR = 14 hrs/incident)
+       ├── Detection & Diagnostic Latency (avg 3.5 hrs before technician arrives)
+       ├── Spare Parts Procurement Latency (avg 7.0 hrs waiting for warehouse retrieval)
+       └── Mechanical Repair & Recalibration (avg 3.5 hrs physical wrench time)
+   ```
+5. **Candidate Assumptions vs Supplied Facts**:
+   * *Supplied Facts*: 4 plants; JPY 450M annual loss; 22% downtime surge; current OEE is 72%.
+   * *Candidate Assumptions*: 200 total CNC machines; 50 mission-critical bottleneck machines on main lines; average technician labor rate JPY 5,000/hr; 250 production days/year.
+6. **Numerical Exhibit (`[PRACTICE ASSUMPTION]` Exhibit 1.1)**:
+   * Total machines: 200 units across 4 plants.
+   * Annual operating hours per machine: $250\text{ days} \times 16\text{ hrs} = 4,000\text{ hours}$.
+   * Total machine hours: $200 \times 4,000 = 800,000\text{ machine-hours/year}$.
+   * Breakdown downtime: $5.5\%$ of operating hours $= 44,000\text{ lost machine-hours}$.
+   * Financial impact: $\text{JPY } 450,000,000 / 44,000\text{ hrs} \approx \mathbf{\text{JPY } 10,227\text{ lost margin per machine-hour}}$.
+7. **Step-by-Step Calculations & Interpretation**:
+   * **Failure Reduction Benefit**:
+     * Deploying IoT vibration/thermal predictive maintenance prevents $70\%$ of unplanned bearing failures.
+     * Hours saved: $44,000 \times 0.70 = 30,800\text{ hours recovered}$.
+     * Gross Annual Financial Benefit: $30,800\text{ hrs} \times \text{JPY } 10,227 \approx \mathbf{\text{JPY } 315,000,000/\text{year}}$.
+   * **Cost & Investment Breakdown**:
+     * Sensor retrofits for 50 critical machines (2 sensors/machine @ JPY 150,000 installed) $= \text{JPY } 15\text{M}$.
+     * Edge IoT Gateways (1 per 10 machines = 5 gateways @ JPY 600,000) $= \text{JPY } 3\text{M}$.
+     * Cloud IoT platform setup, ML model calibration & integration fees $= \text{JPY } 60\text{M}$ (One-time CapEx).
+     * Ongoing Cloud ingestion, model inference & sensor maintenance OpEx $= \text{JPY } 18\text{M/year}$.
+   * **Payback & Net ROI**:
+     * Total Year 1 Investment: $15 + 3 + 60 + 18 = \mathbf{\text{JPY } 96\text{M}}$.
+     * Net Year 1 Cash Flow: $\text{JPY } 315\text{M} - \text{JPY } 96\text{M} = \mathbf{+\text{JPY } 219\text{M}}$.
+     * Simple Payback Period: $\frac{\text{JPY } 78\text{M CapEx}}{\text{JPY } 315\text{M} - \text{JPY } 18\text{M OpEx}} \times 12\text{ months} = \mathbf{3.15\text{ Months}}$.
+8. **Alternative Explanations & Missing Information**:
+   * *Alternative*: Could failures be caused by operator error rather than machine wear? (Audit shows failures occur uniformly across night and day shifts, ruling out specific operator shifts).
+   * *Missing Info*: Vibration frequency spectra data on failed bearings; vendor lead-time SLAs for spare bearings.
+9. **Multiple Feasible Solutions**:
+   * *Solution A (Manual / Process)*: Hire 8 extra maintenance inspectors and inspect bearing temperatures manually with handheld infrared guns every 2 hours.
+   * *Solution B (On-Premises Industrial SCADA)*: Install hardwired PLCs and dedicated factory servers.
+   * *Solution C (Cloud-Edge IoT Predictive Maintenance)*: Retrofit wireless vibration/thermal sensors, stream to edge filter, run ML anomaly models on AWS/Azure IoT Core.
+10. **Trade-Off Comparison Matrix**:
+    * Solution A: Low initial CapEx, but high recurring labor cost (JPY 60M/yr), human error risk, and exacerbates Japanese factory technician shortages.
+    * Solution B: High CapEx (JPY 200M), rigid architecture, slow 18-month rollout.
+    * Solution C: Optimal balance. Modest CapEx (JPY 78M), rapid 90-day pilot, elastic machine learning scaling, 3.15-month payback.
+11. **Recommended Approach Supported by Evidence**:
+    * Deploy Solution C (Hybrid Cloud-Edge IoT). Retrofit wireless magnetic sensors on the 50 bottleneck CNC machines first. Stream high-frequency vibration via MQTT to edge gateways; push 10-second statistical aggregates to AWS IoT Core. Integrate automated maintenance work orders directly into the client's SAP PM system.
+12. **Risks, Dependencies, Implementation Stages & KPIs**:
+    * **Phased Roadmap**:
+      * *Phase 1 (M1–M3)*: 10-machine pilot in Plant 1. Baseline vibration model training.
+      * *Phase 2 (M4–M6)*: Expand to all 50 bottleneck machines in Plant 1 & 2. SAP integration.
+      * *Phase 3 (M7–M12)*: Fleetwide rollout across all 4 plants (remaining 150 machines).
+    * **Key Measurable KPIs**:
+      * Primary: Unplanned Downtime Reduction ($\ge 70\%$).
+      * Secondary: OEE increase from $72\% \to 83\%$.
+      * Operational: MTTR reduction from 14 hours to $< 5$ hours.
+13. **Interviewer Follow-Up Questions & Model Answers**:
+    * *Interviewer*: *"What happens if factory Wi-Fi experiences interference or drops out during operation?"*
+      * *Candidate*: *"We design the edge gateway with local circular storage caching up to 48 hours of telemetry. The edge gateway runs a lightweight local threshold anomaly script; if critical vibration spikes occur while offline, it triggers a local physical amber beacon on the machine directly, ensuring zero safety or failure risk during network outages."*
+14. **Transparent Scoring Rubric**:
+    * **Superior (5/5)**: Quantifies lost margin/hr; structures MECE MTBF vs MTTR tree; evaluates 3 distinct options; calculates 3.15-month payback; addresses edge offline resilience.
+    * **Competent (3/5)**: Mentions IoT sensors and predictive maintenance; calculates rough savings; lacks edge gateway offline architecture or MTBF/MTTR split.
+    * **Inadequate (1/5)**: Recommends "using AI" without explaining sensor physics, edge-to-cloud data flow, financial ROI, or Japanese factory workforce realities.
 
 ---
 
 ### Case 2: Enterprise GenAI / RAG — Policy Search for a Japanese Life Insurer
-1. **Problem Statement**: Claims adjusters at a Tokyo life insurer spend 3.5 hours daily manually cross-referencing 80,000 legacy PDF policy guidelines, delaying claim payouts to 14 days and causing customer dissatisfaction.
-2. **Clarifying Questions**: Are policies bilingual? (Pure Japanese). Are customer medical records attached? (Yes, PII protection is paramount).
-3. **Framework**: Enterprise RAG Architecture: Document Ingestion $\to$ Chunking & Embedding $\to$ Hybrid Vector Search $\to$ LLM Synthesis with Grounded Citations $\to$ Role-Based Access Control (RBAC).
-4. **Data Required**: Document taxonomy, historical claims queries, sample policy PDFs, adjuster review audit logs.
-5. **Analysis & Tech Plan**: Ingest documents into Azure AI Search; generate vector embeddings using OpenAI `text-embedding-3-large`. When adjuster inputs claim details, perform hybrid search (BM25 keyword + dense vector cosine similarity). Prompt GPT-4o with top-5 retrieved chunks to extract policy coverage with exact page citations.
-6. **Calculations**:
-   * 1,000 adjusters saving 2.5 hours/day $= 2,500 \text{ hours daily} \times \text{JPY } 4,000/\text{hr} = \text{JPY } 10\text{M daily savings}$.
-   * Annual productivity value $= \text{JPY } 2.4\text{B}$. Azure infrastructure & LLM token API cost $\approx \text{JPY } 60\text{M/year}$.
-7. **Interpretation**: 40x ROI with immediate SLA reduction from 14 days to 48 hours.
-8. **Recommendation**: Implement human-in-the-loop review: adjuster must approve generated claim decision; zero automatic payouts during Phase 1.
-9. **Risks**: Hallucination on obscure policy amendments; data leakage of confidential policy clauses.
-10. **Follow-up Questions**: *"What if the LLM cites a repealed 2018 policy clause instead of the 2024 update?"* (Implement metadata date filtering on vector index chunks).
+
+1. **Candidate-Facing Prompt**:
+   *"A major Japanese life insurance company headquartered in Tokyo employs 1,200 claims adjusters. When reviewing complex claims, adjusters spend an average of 3.5 hours daily manually searching through 80,000 legacy PDF policy documents spanning 40 years of regulatory revisions. This delays claim payouts to an average of 14 days, driving customer dissatisfaction and increasing adjuster overtime costs. How would you design, evaluate, and implement an enterprise Generative AI solution to streamline claims processing while ensuring strict regulatory compliance?"*
+2. **Business Context & Objective**:
+   * **Context**: Highly regulated financial environment governed by the Japan Financial Services Agency (FSA). PII must be protected under Japan's Act on the Protection of Personal Information (APPI).
+   * **Objective**: Cut claim research time by at least $60\%$, accelerate claim turnaround from 14 days to $< 3$ days, and eliminate regulatory hallucination risk.
+3. **Clarifying Questions (and Why They Matter)**:
+   * *Question 1*: "Are policy documents purely in Japanese, and do they include complex nested tables and historical clause amendments?"  
+     *Why it matters*: Dictates PDF extraction strategy (standard OCR vs multimodal vision chunking) and Japanese tokenizer selection.
+   * *Question 2*: "Does the search query involve live patient medical records or personally identifiable financial data?"  
+     *Why it matters*: Dictates strict PII redaction guardrails before prompt assembly to comply with Japan APPI.
+   * *Question 3*: "Is the business expecting full automated claims payout approvals, or an adjuster-assistance copilot?"  
+     *Why it matters*: Establishes human-in-the-loop governance; fully automated decisions are high regulatory risk.
+4. **Issue Tree & Architecture Decomposition**:
+   ```text
+   ENTERPRISE RAG ARCHITECTURE
+   ├── 1. Ingestion & Document Pipeline
+   │   ├── PDF OCR & Document Layout Analysis (Azure AI Document Intelligence)
+   │   ├── Semantic Chunking with Clause Metadata (Policy ID, Effective Date, Product Type)
+   │   └── Japanese Vector Embeddings (`text-embedding-3-large`)
+   ├── 2. Retrieval & Re-ranking Engine
+   │   ├── Hybrid Search: BM25 Keyword Search + Dense Vector Cosine Similarity
+   │   ├── Metadata Filtering: Filter out repealed clauses based on incident date
+   │   └── Cross-Encoder Re-Ranking: Select top-5 most relevant chunks
+   └── 3. Generation, Grounding & Safety Guardrails
+       ├── In-context Prompt Construction with Exact Page Citations
+       ├── PII Redaction & Enterprise LLM (Azure OpenAI GPT-4o in Japan East Region)
+       └── Human-in-the-Loop Adjuster Verification Interface
+   ```
+5. **Candidate Assumptions vs Supplied Facts**:
+   * *Supplied Facts*: 1,200 adjusters; 3.5 hrs/day spent searching; 80,000 legacy PDFs; 14-day payout latency.
+   * *Candidate Assumptions*: Adjuster hourly fully-loaded cost JPY 4,500/hr; 240 working days/year; target productivity gain 2.0 hours saved per adjuster/day.
+6. **Numerical Exhibit (`[PRACTICE ASSUMPTION]` Exhibit 2.1)**:
+   * Current Research Time: $1,200\text{ adjusters} \times 3.5\text{ hrs/day} = 4,200\text{ hours daily}$.
+   * Target Time Saved: $2.0\text{ hours/day per adjuster} = 2,400\text{ hours saved daily}$.
+   * Annual Productive Hours Saved: $2,400 \times 240 = 576,000\text{ hours/year}$.
+   * Gross Annual Financial Value: $576,000\text{ hrs} \times \text{JPY } 4,500/\text{hr} = \mathbf{\text{JPY } 2,592,000,000/\text{year}}$ (JPY 2.59 Billion).
+7. **Step-by-Step Calculations & Financial Business Case**:
+   * **Azure Cloud & GenAI Operating Costs (OpEx)**:
+     * Daily queries: $1,200\text{ adjusters} \times 15\text{ queries/day} = 18,000\text{ queries/day}$.
+     * Average tokens per query (Prompt + Context + Generation) $\approx 4,000\text{ tokens}$.
+     * Daily tokens: $18,000 \times 4,000 = 72,000,000\text{ tokens/day} \approx 72\text{M tokens}$.
+     * Blended token cost @ JPY 0.75 per 1,000 tokens $\approx \text{JPY } 54,000/\text{day} \implies \mathbf{\text{JPY } 13\text{M/year}}$.
+     * Azure AI Search vector storage + document hosting $\approx \mathbf{\text{JPY } 25\text{M/year}}$.
+     * Total Ongoing Annual OpEx $\approx \mathbf{\text{JPY } 38\text{M/year}}$.
+   * **Implementation Investment (CapEx)**:
+     * Consulting design, document chunking pipeline, UI copilot development, security audit $= \mathbf{\text{JPY } 120\text{M}}$.
+   * **Net Benefit & Payback**:
+     * Net Year 1 Benefit: $\text{JPY } 2,592\text{M} - (\text{JPY } 120\text{M} + \text{JPY } 38\text{M}) = \mathbf{+\text{JPY } 2,434\text{M}}$.
+     * Payback period: Less than **1 month** against labor productivity.
+8. **Alternative Explanations & Missing Information**:
+   * *Alternative*: Why not fine-tune an open-source model like Llama-3? Fine-tuning bakes static facts into model weights, which hallucinate specific policy numbers, cannot cite exact PDF page numbers, and cost millions to retrain whenever policy clauses update. RAG is strictly superior.
+9. **Multiple Feasible Solutions**:
+   * *Approach 1*: Standard Elasticsearch keyword search across transcribed PDFs (Fails on semantic queries like "heart attack" vs "myocardial infarction").
+   * *Approach 2*: Pure Vector Search RAG (Fails on exact clause alphanumeric IDs like "Clause 14-B-3").
+   * *Approach 3*: **Hybrid Search RAG (Keyword BM25 + Vector + Re-ranking)** (Recommended).
+10. **Trade-Off Comparison**:
+    * Hybrid Search combines BM25 keyword precision for alphanumeric policy codes with vector embeddings for semantic medical concept matching.
+11. **Recommended Approach Supported by Evidence**:
+    * Implement Approach 3 on Microsoft Azure (Japan East region data sovereignty). Enforce strict zero data retention API agreements with Microsoft so client queries never train foundational models.
+12. **Risks, Dependencies, Implementation Stages & KPIs**:
+    * **Roadmap**:
+      * *M1–M2*: Ingest 5,000 most common policies (Life & Critical Illness). Benchmark retrieval accuracy.
+      * *M3–M4*: Pilot with 50 senior adjusters. Validate citation faithfulness.
+      * *M5–M8*: Full deployment across all 1,200 adjusters.
+    * **KPIs**: Payout turnaround time ($\le 3$ days); retrieval citation accuracy ($\ge 99\%$); adjuster adoption ($\ge 90\%$).
+13. **Interviewer Follow-Up Questions & Model Answers**:
+    * *Interviewer*: *"How do you prevent the LLM from hallucinating an approved claim coverage that does not exist?"*
+      * *Candidate*: *"We enforce three architectural guardrails: 1) System prompt constraint: 'Answer ONLY using the provided retrieved context. If the answer is not contained, explicitly state: Insufficient policy context'; 2) Hallucination verification: Run an automated factual consistency checker comparing generation against retrieved text; 3) Mandatory UI citation: The adjuster interface displays the exact highlighted PDF page snippet alongside the generated text; the adjuster must click to confirm before payout approval."*
+14. **Transparent Scoring Rubric**:
+    * **Superior (5/5)**: Explains RAG vs fine-tuning clearly; specifies hybrid search (BM25 + vector); addresses Japan APPI data sovereignty; calculates realistic token costs and payback; designs human-in-the-loop citation verification.
+    * **Competent (3/5)**: Understands RAG and embeddings; provides general cost estimate; misses hybrid search or APPI regulatory safeguards.
+    * **Inadequate (1/5)**: Proposes fine-tuning an LLM to "memorize policies"; ignores hallucinations and regulatory compliance.
 
 ---
 
 ### Case 3: Cloud Migration — Core Banking Modernization for a Regional Japanese Bank
-1. **Problem Statement**: A regional bank in Kansai spends 75% of its annual IT budget maintaining a 30-year-old on-premise COBOL mainframe, preventing mobile banking feature releases.
-2. **Clarifying Questions**: What is the regulatory constraint? (FSA Japan compliance requires financial data residency in Japan). Can we do big-bang migration? (No, mission-critical ledger cannot experience downtime).
-3. **Framework**: Strangler Fig Pattern: incrementally wrap legacy mainframe with modern REST APIs and migrate read-heavy services first.
-4. **Data Required**: Transaction volume (TPS), batch processing windows, database dependency maps, licensing costs.
-5. **Analysis & Tech Plan**: Deploy AWS Tokyo and Osaka multi-region active-standby architecture. Build event-driven integration layer using Apache Kafka. Migrate customer portal and mobile banking read queries to PostgreSQL on Amazon Aurora. Keep core ledger on mainframe during Year 1, decoupling account balances via change-data-capture (CDC).
-6. **Calculations**:
-   * Current mainframe run cost = JPY 1,800M/year. Target hybrid cloud run cost = JPY 700M/year.
-   * Migration CapEx over 3 years = JPY 2,200M. Annual run savings post-Year 3 = JPY 1,100M/year.
-7. **Interpretation**: Migration pays for itself in 5 years while increasing developer release velocity from twice a year to bi-weekly.
-8. **Recommendation**: Start with non-critical mobile statements service to validate cloud security compliance before migrating credit cards.
-9. **Risks**: Legacy COBOL batch logic undocumented; transaction data drift between cloud cache and core ledger.
-10. **Follow-up Questions**: *"How do you satisfy Japan FSA audits regarding cloud disaster recovery?"* (Demonstrate cross-region active replication between Tokyo and Osaka with RPO $< 1$ second and RTO $< 15$ minutes).
+
+1. **Candidate-Facing Prompt**:
+   *"A tier-2 regional bank in the Kansai region (Osaka/Kyoto/Hyogo) manages JPY 4.5 Trillion in deposits across 120 retail branches and 1.8 million retail/SME accounts. Currently, 75% of the bank's annual IT budget (JPY 1.8 Billion) is consumed merely by maintaining a 32-year-old on-premise IBM mainframe running COBOL core banking applications. Releases of new digital mobile banking features take 9 to 12 months due to tightly coupled batch architectures, causing younger retail customers to defect to modern digital-only banks (neobanks). The CIO asks Accenture to evaluate cloud migration options, design a zero-downtime architecture satisfying Japan Financial Services Agency (FSA) compliance, build the financial business case, and provide a phased implementation roadmap."*
+2. **Business Context & Objective**:
+   * **Regulatory & Market Context**: Governed strictly by the Financial Services Agency of Japan (FSA) and Center for Financial Industry Information Systems (FISC) Security Guidelines. Strict data residency in Japan (Tokyo and Osaka regions). Zero customer ledger data loss tolerance (RPO = 0 for ledger balances).
+   * **Core Objectives**:
+     1. Slash recurring IT infrastructure run costs by at least 50% within 4 years.
+     2. Accelerate digital feature release velocity from 9+ months to bi-weekly sprints.
+     3. Ensure zero unplanned downtime during migration across 1.8M active accounts.
+3. **Clarifying Questions (and Why They Matter)**:
+   * *Question 1*: *"Can the bank tolerate a weekend maintenance blackout window to cut over to a new system in a single 'Big Bang' deployment?"*  
+     *Why it matters*: In retail banking, a Big Bang cutover carries catastrophic operational and reputational risk; an unexpected failure can halt ATMs and point-of-sale debit nationwide, drawing punitive FSA sanctions. Confirms the necessity of an incremental coexistence pattern.
+   * *Question 2*: *"What proportion of daily mainframe CPU consumption represents read queries (balance inquiries, transaction history) versus write transactions (fund transfers, deposit updates)?"*  
+     *Why it matters*: Read queries typically constitute 80–90% of banking transaction volume and can be offloaded to cloud read replicas immediately without touching the core write ledger.
+   * *Question 3*: *"What is the retirement profile of the internal COBOL engineering team?"*  
+     *Why it matters*: Addresses the "2025 Digital Cliff" in Japan; if senior COBOL developers retire within 3 years, staying on-premise is an existential business continuity risk.
+4. **Issue Tree & Architecture Decomposition**:
+   ```text
+   CORE BANKING MODERNIZATION
+   ├── 1. Architectural Strategy & Migration Pattern
+   │   ├── Option A: Re-host ("Lift & Shift" to Mainframe Cloud Emulators)
+   │   ├── Option B: Re-platform / Big Bang Replacement with Vendor Package
+   │   └── Option C: Strangler Fig Pattern with Event-Driven Microservices (Recommended)
+   ├── 2. Data Synchronization & Coexistence Layer
+   │   ├── Real-time Change Data Capture (CDC) via IBM MQ / Debezium
+   │   ├── Event Streaming Backbone (Apache Kafka on AWS/Azure Japan)
+   │   └── Dual-Write Verification & Continuous Reconciliation Engine
+   ├── 3. Regulatory Compliance & Resilience (FSA / FISC)
+   │   ├── Dual-Region Active-Standby (AWS Tokyo primary, AWS Osaka disaster recovery)
+   │   ├── Encryption: TLS 1.3 in-transit, AES-256 at-rest with KMS Customer-Managed Keys
+   │   └── RPO < 1 second, RTO < 15 minutes automated failover
+   └── 4. Financial TCO & Value Realization
+       ├── Legacy Run Cost Baseline vs Target Cloud OpEx
+       ├── Multi-Year Migration CapEx & Delivery Sprints
+       └── Deposit Retention & Developer Velocity Value
+   ```
+5. **Candidate Assumptions vs Supplied Facts**:
+   * *Supplied Facts*: Kansai regional bank; 1.8M accounts; JPY 1.8B annual mainframe run cost (75% of IT budget); 9–12 month release cycles; FSA regulatory jurisdiction.
+   * *Candidate Assumptions* (`[PRACTICE ASSUMPTION]`):
+     * Daily transaction volume: 5,000,000 queries/day (85% reads, 15% writes).
+     * Peak throughput: 450 transactions per second (TPS).
+     * Customer churn rate: 3.5% annual loss of deposits to neobanks without modern mobile app.
+6. **Numerical Exhibit (`[PRACTICE ASSUMPTION]` Exhibit 3.1)**:
+
+   | Cost / Financial Dimension | Current On-Premise Mainframe (Annual) | Year 1–2 (Hybrid Coexistence) | Year 4+ (Target Cloud Steady State) |
+   |---|---|---|---|
+   | Hardware Lease & Maintenance | JPY 850M | JPY 850M | JPY 0 |
+   | Specialized COBOL Contractor Licenses | JPY 650M | JPY 500M | JPY 100M |
+   | Data Center Facility & Power (Osaka) | JPY 300M | JPY 250M | JPY 50M (Edge co-lo) |
+   | Cloud Infrastructure (AWS Tokyo + Osaka) | JPY 0 | JPY 220M | JPY 480M |
+   | Cloud Managed Services & Monitoring | JPY 0 | JPY 60M | JPY 120M |
+   | **Total Recurring Run Cost (OpEx)** | **JPY 1,800M / year** | **JPY 1,880M / year** | **JPY 750M / year** |
+   | **Net Annual OpEx Savings (Year 4+)** | — | — | **+ JPY 1,050M / year** |
+
+7. **Step-by-Step Calculations & Financial Business Case**:
+   * **CapEx Investment (Migration Implementation over 36 Months)**:
+     * Year 1 (API Layer, CDC, Cloud Landing Zone, Mobile Read Service): JPY 850M.
+     * Year 2 (Payments & Transfers Microservices, Core Ledger Parallel Run): JPY 950M.
+     * Year 3 (Full Account Ledger Cutover, Mainframe Decommissioning): JPY 600M.
+     * **Total Migration Investment**: $\text{JPY } 850\text{M} + 950\text{M} + 600\text{M} = \mathbf{\text{JPY } 2,400\text{M}}$ (JPY 2.4 Billion).
+   * **Cumulative Cash Flow & Payback Schedule**:
+     * Year 1: Net Cash Flow $= -\text{JPY } 850\text{M} - 80\text{M (coexistence OpEx)} = -\text{JPY } 930\text{M}$.
+     * Year 2: Net Cash Flow $= -\text{JPY } 950\text{M} + 0\text{ savings} = -\text{JPY } 950\text{M}$.
+     * Year 3: Partial Savings (JPY 400M) $- 600\text{M CapEx} = -\text{JPY } 200\text{M}$.
+     * Year 4: Steady-State Savings $= +\mathbf{\text{JPY } 1,050\text{M}}$.
+     * Year 5: Steady-State Savings $= +\mathbf{\text{JPY } 1,050\text{M}}$.
+     * Year 6: Steady-State Savings $= +\mathbf{\text{JPY } 1,050\text{M}}$.
+     * Cumulative Savings post-launch covers JPY 2.4B CapEx in approximately **4.3 years from project kickoff** (Year 5, Month 4).
+   * **Commercial Value Beyond IT Cost**:
+     * Preserving deposit base: Halting 3.5% customer attrition protects JPY 157.5B in retail deposits, saving an estimated JPY 450M annually in wholesale interbank liquidity borrowing costs.
+8. **Alternative Explanations & Missing Information**:
+   * *Alternative 1*: Full SaaS Core Banking Replacement (e.g., nCino / Thought Machine). While modern, completely rewriting Kansai regional commercial lending custom logic into SaaS takes 5+ years and risks severe mismatch with regional Japanese commercial conventions (*tegata* bills, specialized SME credit scoring).
+   * *Missing Information*: Exact volume of batch jobs executing between 02:00 and 05:00, and external network links with the Zengin Net (Japanese domestic bank transfer clearing network).
+9. **Multiple Feasible Solutions**:
+   * *Option 1: Lift & Shift / Re-hosting*: Emulate COBOL environment on AWS EC2. Lowest upfront risk, but retains legacy technical debt, achieves only 15% cost savings, and fails to improve feature release speed.
+   * *Option 2: Big-Bang Core Ledger Replacement*: High risk, catastrophic failure probability, requires 3-year freeze on all business features.
+   * *Option 3: Strangler Fig Pattern with Event-Driven Architecture (Recommended)*: Wrap mainframe with REST APIs and Kafka; migrate microservices domain-by-domain (Inquiries $\to$ Payments $\to$ Loans $\to$ Core Ledger).
+10. **Trade-Off Comparison Matrix**:
+
+    | Criteria | Option 1: Lift & Shift | Option 2: Big-Bang Package | Option 3: Strangler Fig (Recommended) |
+    |---|---|---|---|
+    | **Upfront Risk** | Low | Extremely High | Low to Moderate |
+    | **Time to First Business Value**| 6 Months | 36 Months | **4 Months (Mobile Inquiries)** |
+    | **Annual OpEx Reduction** | 15% (~JPY 270M) | 60% (~JPY 1,080M) | **58% (~JPY 1,050M)** |
+    | **Release Velocity Improvement**| Negligible | Moderate | **High (Bi-weekly CI/CD)** |
+    | **Operational Disruption Risk** | Minimal | Existential | **Contained per microservice** |
+
+11. **Recommended Approach Supported by Evidence**:
+    * Implement Option 3 (Strangler Fig). Establish an AWS Tokyo (Primary) and AWS Osaka (Secondary DR) Landing Zone compliant with FISC guidelines.
+    * Deploy Apache Kafka on Amazon MSK as the central enterprise event bus.
+    * Use Debezium Change Data Capture (CDC) on mainframe DB2 transaction logs to stream read data into Amazon Aurora PostgreSQL, powering mobile banking inquiries immediately.
+12. **Risks, Dependencies, Implementation Stages & Measurable KPIs**:
+    * **Phased Roadmap**:
+      * *Phase 1 (M1–M6)*: Landing zone setup, CDC pipeline, offload 85% read traffic to mobile banking cloud cache. Mainframe CPU load drops by 40%.
+      * *Phase 2 (M7–M18)*: Decouple card payments and peer-to-peer transfers into containerized Spring Boot / Quarkus microservices running on Amazon EKS.
+      * *Phase 3 (M19–M36)*: Migrate deposits and savings general ledger to Aurora PostgreSQL. Run parallel ledger shadow reconciliation for 90 days. Decommission mainframe.
+    * **Key Measurable KPIs**:
+      * Mainframe CPU utilization drop ($\ge 40\%$ by M6).
+      * Mobile feature release lead time ($< 14$ days vs baseline 9 months).
+      * Annual IT Run Cost ($\le \text{JPY } 750\text{M}$ by Year 4).
+      * Data replication latency between on-prem and cloud ($< 200\text{ ms}$).
+13. **Interviewer Follow-Up Questions & Model Answers**:
+    * *Interviewer*: *"How do you prove to the Bank of Japan and FSA auditors that your data replication between on-premise mainframe and AWS did not drop or corrupt a single transaction during parallel run?"*
+      * *Candidate*: *"We implement a cryptographic dual-run reconciliation engine. Every financial transaction event published to Kafka is tagged with a deterministic transaction ID and sequence number. An automated reconciliation worker continuously executes double-entry checksum audits comparing the on-prem DB2 balance table against the Aurora PostgreSQL ledger every 5 minutes. Any discrepancy triggers an immediate automated circuit-breaker alert to the operations center, isolating the affected account while keeping the rest of the bank operational."*
+14. **Transparent Scoring Rubric**:
+    * **Superior (5/5)**: Proposes Strangler Fig over Big-Bang; structures read vs write offloading; models TCO showing crossover payback; incorporates Japan FSA/FISC compliance (Tokyo/Osaka multi-region); explains CDC and reconciliation architecture.
+    * **Competent (3/5)**: Recommends cloud migration; identifies microservices; calculates basic savings; lacks dual-region disaster recovery specifics or financial reconciliation mechanics.
+    * **Inadequate (1/5)**: Recommends shutting down the mainframe overnight for a clean cloud reinstall; ignores banking regulatory rules and transaction integrity.
 
 ---
 
 ### Case 4: Omnichannel Retail — Preventing Point-of-Sale Inventory Stock-Outs
-1. **Problem Statement**: A convenience store franchise with 2,500 stores across Japan suffers 8% lost sales due to daily evening bento and beverage stock-outs.
-2. **Clarifying Questions**: How often is inventory replenished? (Twice daily from central distribution centers). What data is logged at POS? (Timestamp, item SKU, quantity, payment method).
-3. **Framework**: Demand Forecasting (AI/ML) + Supply Chain Visibility (RFID/IoT telemetry) + Store Replenishment Optimization.
-4. **Data Required**: Historical POS receipts, local weather forecasts, foot traffic, public transit disruption feeds, delivery truck GPS.
-5. **Analysis Plan**: Build automated machine learning pipeline (XGBoost/LightGBM) forecasting store-level hourly demand incorporating rain/temperature anomalies. Feed store replenishment quantities directly to dispatch center ERP by 10:00 AM.
-6. **Calculations**:
-   * Annual retail sales = JPY 150B. 8% lost sales = JPY 12B opportunity.
-   * Reducing stock-outs by 50% captures JPY 6B in recovered sales at 25% gross margin $= \text{JPY } 1.5\text{B gross profit boost}$.
-   * IoT and analytics platform deployment = JPY 350M.
-7. **Interpretation**: 4.3x Year 1 ROI with simultaneous food waste reduction by 15%.
-8. **Recommendation**: Deploy digital handheld scanning for delivery drivers to confirm receipt automatically without manual paper manifests.
-9. **Risks**: Store manager distrust of automated AI ordering suggestions; sudden weather forecast shifts after 10:00 AM dispatch.
-10. **Follow-up Questions**: *"How do you handle store managers who override the AI recommendations?"* (Implement gamified store dashboard showing waste vs lost sale metrics).
+
+1. **Candidate-Facing Prompt**:
+   *"A prominent Japanese convenience store (*konbini*) franchise operates 2,500 stores across the Kanto, Kansai, and Chubu regions. Across the network, daily sales average JPY 550,000 per store, yielding JPY 501.8 Billion in annual system sales. However, regional audits reveal that the chain suffers from an estimated 8% lost sales opportunity due to evening stock-outs of high-margin fresh bento boxes, onigiri, and ready-to-drink beverages between 17:00 and 21:00. Simultaneously, store managers overcompensate on rainy days, resulting in JPY 12.5 Billion in expired fresh food waste discarded annually. How would you diagnose the root cause, design an integrated IoT and predictive demand forecasting system, calculate the financial business case, and roll out the solution across 2,500 franchise stores?"*
+2. **Business Context & Objective**:
+   * **Context**: Convenience stores operate on razor-thin net margins with twice-daily deliveries from 18 regional distribution centers. Shelf-life of fresh bento is strictly 18 hours from production. Store managers currently place replenishment orders manually using paper order sheets or rudimentary POS terminals based on gut feel.
+   * **Objectives**:
+     1. Cut stock-out lost sales by at least 50% (recovering $\ge \text{JPY } 20\text{B}$ in lost gross merchandise value).
+     2. Reduce fresh food expired waste by at least 25% (saving $\ge \text{JPY } 3.1\text{B}$ in disposal write-offs).
+     3. Automate store order generation to save each store manager 1.5 hours of daily administrative ordering labor.
+3. **Clarifying Questions (and Why They Matter)**:
+   * *Question 1*: *"Are the stores company-owned or franchise-operated?"*  
+     *Why it matters*: In a franchise model, store owners pay for food waste directly out of their store profits, while corporate headquarters earns a percentage royalty on gross sales. This creates conflicting incentives: corporate wants high stock on shelves to maximize sales, while franchise owners under-order to prevent waste write-offs. The solution must align store-level profitability.
+   * *Question 2*: *"What is the lead time between store order placement and truck delivery?"*  
+     *Why it matters*: Fresh food operates on tight supply windows. Morning delivery order cut-off is 10:00 AM for 17:00 PM delivery (7-hour lead time). The forecasting algorithm must run reliably before 09:30 AM.
+   * *Question 3*: *"What data is logged by current POS scanners?"*  
+     *Why it matters*: Determines feature availability for ML models. Confirms availability of timestamp, SKU, unit price, weather condition flag, and customer demographic estimate button pressed by cashier.
+4. **Issue Tree & Root-Cause Decomposition**:
+   ```text
+   STORE INVENTORY IMBALANCE (STOCK-OUTS & FOOD WASTE)
+   ├── 1. Demand Volatility & Forecasting Inaccuracy
+   │   ├── Weather Sensitivity: Sudden rain drops evening foot traffic by 22%
+   │   ├── Local Events: Concerts/train delays causing unpredictable demand surges
+   │   └── Manual Bias: Store managers under-ordering high-margin bento to avoid waste risk
+   ├── 2. Supply Chain & Delivery Bottlenecks
+   │   ├── 7-hour order freeze window prevents midday dynamic replenishment
+   │   ├── Distribution Center picking errors and delivery truck traffic delays
+   │   └── Batch order processing creates delivery bunching during peak traffic
+   └── 3. In-Store Inventory Visibility Gaps
+       ├── POS registers what was sold, but NOT what was sought by customers (unmet demand)
+       ├── Shoplifting / spoilage creates discrepancy between system stock and physical shelf
+       └── Zero real-time shelf telemetry (smart weight sensors vs RFID tags)
+   ```
+5. **Candidate Assumptions vs Supplied Facts**:
+   * *Supplied Facts*: 2,500 stores; JPY 550,000 daily sales/store; JPY 501.8B annual chain sales; 8% lost sales from stock-outs (JPY 40.1B GMV); JPY 12.5B annual food waste loss.
+   * *Candidate Assumptions* (`[PRACTICE ASSUMPTION]`):
+     * Fresh food gross margin $= 35\%$.
+     * Franchise royalty fee $= 40\%$ of gross profit to headquarters, $60\%$ retained by franchisee.
+     * Store manager hourly labor rate $= \text{JPY } 2,200/\text{hour}$.
+6. **Numerical Exhibit (`[PRACTICE ASSUMPTION]` Exhibit 4.1)**:
+
+   | Operational Metric | Current Baseline | Target Post-Deployment | Financial Impact |
+   |---|---|---|---|
+   | Total Chain Sales | JPY 501.8 Billion | JPY 521.9 Billion | + JPY 20.1 Billion gross revenue |
+   | Stock-Out Lost Sales | 8.0% (JPY 40.1B) | 4.0% (JPY 20.0B) | **+ JPY 20.1B Recovered Sales** |
+   | Recovered Gross Margin (@ 35%) | — | — | **+ JPY 7.04 Billion Gross Profit** |
+   | Expired Food Disposal Waste | JPY 12.5 Billion | JPY 9.38 Billion (-25%) | **+ JPY 3.12 Billion Waste Avoidance** |
+   | Total Annual Gross Financial Value | — | — | **+ JPY 10.16 Billion / year** |
+   | Split: Corporate Headquarters (40%) | — | — | **JPY 4.06 Billion / year** |
+   | Split: 2,500 Franchisees (60%) | — | — | **JPY 6.10 Billion / year (JPY 2.44M/store)**|
+
+7. **Step-by-Step Calculations & Financial Business Case**:
+   * **System Investment (CapEx & OpEx)**:
+     * *CapEx (Year 1 Implementation)*:
+       * Central AI Predictive Demand Platform (LightGBM + DeepAR neural time-series on AWS/GCP): JPY 380M.
+       * POS Edge Gateway & Tablet App for 2,500 stores (@ JPY 120,000 per store setup): JPY 300M.
+       * Integration with 18 Distribution Center ERPs & logistics routing: JPY 180M.
+       * Change management & store manager training caravan: JPY 140M.
+       * **Total CapEx**: $\mathbf{\text{JPY } 1,000\text{M}}$ (JPY 1.0 Billion).
+     * *Ongoing Annual OpEx*:
+       * Cloud data lakehouse ingestion, weather API feeds, continuous model retraining, store tablet LTE SIMs $= \mathbf{\text{JPY } 320\text{M / year}}$.
+   * **Return on Investment (ROI) & Payback**:
+     * Net Year 1 Benefit: $\text{JPY } 10,160\text{M (Gross Benefit)} - (\text{JPY } 1,000\text{M CapEx} + \text{JPY } 320\text{M OpEx}) = \mathbf{+\text{JPY } 8,840\text{M}}$.
+     * Simple Payback Period: $\frac{\text{JPY } 1,000\text{M CapEx}}{\text{JPY } 10,160\text{M} - 320\text{M}} \times 12\text{ months} \approx \mathbf{1.22\text{ months}}$.
+     * Even under conservative $20\%$ benefit capture, payback occurs in **under 6 months**.
+8. **Alternative Explanations & Missing Information**:
+   * *Alternative*: Computer Vision cameras on every shelf to detect empty slots in real time. Rejected due to high hardware cost (JPY 800,000/store = JPY 2.0B CapEx) and high camera maintenance overhead in dusty retail environments. Software-driven ML forecasting using POS scanner data achieves 90% of the benefit at 15% of the cost.
+9. **Multiple Feasible Solutions**:
+   * *Approach 1: Static Rule-Based Reorder Buffers*: Fixed +15% order buffer on weekends. Fails because demand varies dynamically with localized rainfall, temperature shifts, and public holidays.
+   * *Approach 2: Pure Computer Vision Smart Shelves*: Visually tracks out-of-stock items, but cannot forecast forward demand 7 hours ahead for morning kitchen production.
+   * *Approach 3: Cloud Machine Learning Predictive Ordering Copilot (Recommended)*: Multi-factor gradient boosting (XGBoost/LightGBM) forecasting store-SKU hourly demand 24 hours in advance, auto-populating recommended order quantities into store manager tablets with 1-click confirmation.
+10. **Trade-Off Comparison Matrix**:
+
+    | Decision Criteria | Approach 1: Rule-Based Buffer | Approach 2: Smart Camera Shelves | Approach 3: ML Predictive Ordering (Rec.) |
+    |---|---|---|---|
+    | **Waste Reduction Impact** | Negative (increases waste by 18%) | Zero (reactive detection only) | **High (-25% waste reduction)** |
+    | **Stock-Out Elimination** | Moderate (+4% sales) | High (+7% sales) | **High (+4% to +6% sales)** |
+    | **Hardware CapEx per Store**| JPY 0 | JPY 800,000 | **JPY 120,000 (Tablet + Edge Gateway)**|
+    | **Implementation Horizon** | 1 Month | 18 Months | **6 Months** |
+    | **Franchisee Adoption Ease**| High | Low (privacy/camera pushback) | **High (Saves 1.5 hrs/day labor)** |
+
+11. **Recommended Approach Supported by Evidence**:
+    * Implement Approach 3. Train hierarchical time-series models on 3 years of store POS receipts, enriched with Japan Meteorological Agency (JMA) hyper-local weather feeds (hourly precipitation and temperature per mesh code) and regional school/event calendars.
+    * Provide store managers with a mobile ordering tablet where the AI suggests order quantities at 08:30 AM. Store managers retain override capability, building trust.
+12. **Risks, Dependencies, Implementation Stages & Measurable KPIs**:
+    * **Roadmap**:
+      * *Stage 1 (M1–M2)*: Data pipeline ingestion on Google Cloud BigQuery / AWS. Feature engineering and model backtesting across historical POS logs.
+      * *Stage 2 (M3–M4)*: 50-store pilot in Setagaya and Yokohama. Evaluate model Mean Absolute Percentage Error (MAPE) and store manager override rates.
+      * *Stage 3 (M5–M8)*: Regional rollout across 2,500 stores; integrate delivery manifest EDI feeds with distribution centers.
+    * **Key Measurable KPIs**:
+      * Forecast Accuracy: SKU-level daily MAPE $\le 12\%$.
+      * Store-Level Out-of-Stock Rate: Reduced from $8.0\% \to \le 3.5\%$.
+      * Manager Order Override Rate: Drops from $60\%$ in Month 1 to $< 15\%$ by Month 4 as trust increases.
+      * Store Labor Saved: $1.5\text{ hours/day}$ per store manager.
+13. **Interviewer Follow-Up Questions & Model Answers**:
+    * *Interviewer*: *"What happens if a store manager consistently overrides the AI recommendations, ordering 30% fewer bento boxes out of fear of waste, resulting in persistent evening stock-outs?"*
+      * *Candidate*: *"We solve this using behavioral change management rather than top-down coercion: 1) Dashboard Transparency: The store manager tablet displays a simulated 'Opportunity Loss vs Waste Balance' card showing exact yen amounts lost to stock-outs versus waste over the past 30 days; 2) Guaranteed Shared Waste Safety Net: Corporate headquarters implements an incentive pilot where if the store follows the AI recommendation and fresh bento remains unsold, headquarters covers 50% of the discarded item wholesale cost during the first 90 days. This removes downside fear, aligns franchisee incentives, and dramatically lowers override rates."*
+14. **Transparent Scoring Rubric**:
+    * **Superior (5/5)**: Distinguishes corporate vs franchisee economic incentives; models both stock-out revenue gain and food waste savings; calculates sub-2-month payback; incorporates weather/lead-time features; designs change management for store manager overrides.
+    * **Competent (3/5)**: Proposes machine learning demand forecasting; calculates basic sales increase; recognizes weather impact; overlooks franchise incentive split or change management.
+    * **Inadequate (1/5)**: Proposes adding cameras to shelves without understanding 7-hour kitchen lead time; recommends ordering arbitrary excess inventory without addressing waste costs.
 
 ---
 
