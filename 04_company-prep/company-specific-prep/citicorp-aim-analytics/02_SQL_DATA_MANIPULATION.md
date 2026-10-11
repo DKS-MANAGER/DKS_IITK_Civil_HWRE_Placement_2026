@@ -18,29 +18,124 @@ In an enterprise banking data warehouse, data is structured into normalized enti
   * Customer grain: One row per unique legal individual/entity.
   * Snapshot grain: One row per customer per calendar month-end.
 
-> **The Grain Mismatch Trap**: Joining a customer-level table (1 row per customer) to a transaction-level table (50 rows per customer) without prior aggregation causes a **one-to-many Cartesian fan-out**. Summing balances after such a join will multiply the customer's balance by 50! Always clarify the grain of every table before writing joins.
+### 1.2 The Join Fan-Out & Cartesian Double-Counting Trap
+A common error in banking analytics is joining multiple child tables to a parent table without pre-aggregating, causing an explosive Cartesian product that inflates monetary sums.
+
+#### Concrete Demonstration of Fan-Out Distortion
+Suppose we have an account `ACC-101` with two authorized credit cards and two personal loans:
+
+```
+Table: accounts (Grain: 1 row per account)
+┌────────────┬─────────┐
+│ account_id │ balance │
+├────────────┼─────────┤
+│ ACC-101    │ 5000.00 │
+└────────────┴─────────┘
+
+Table: cards (Grain: 1 row per card; 2 cards for ACC-101)
+┌────────────┬─────────┐
+│ account_id │ card_id │
+├────────────┼─────────┤
+│ ACC-101    │ C-1     │
+│ ACC-101    │ C-2     │
+└────────────┴─────────┘
+
+Table: loans (Grain: 1 row per loan; 2 loans for ACC-101)
+┌────────────┬─────────┬──────────┐
+│ account_id │ loan_id │ loan_amt │
+├────────────┼─────────┼──────────┤
+│ ACC-101    │ L-1     │ 10000.00 │
+│ ACC-101    │ L-2     │ 20000.00 │
+└────────────┴─────────┴──────────┘
+```
+
+**The Naive Query (FATAL FLAW)**:
+```sql
+SELECT 
+    a.account_id,
+    SUM(a.balance)  AS total_balance,
+    SUM(l.loan_amt) AS total_loans
+FROM accounts a
+JOIN cards c ON a.account_id = c.account_id
+JOIN loans l ON a.account_id = l.account_id
+GROUP BY a.account_id;
+```
+
+**What Happens Under the Hood**:
+The join produces $1 \times 2 \times 2 = 4$ rows for `ACC-101`:
+```
+┌────────────┬─────────┬─────────┬─────────┬──────────┐
+│ account_id │ balance │ card_id │ loan_id │ loan_amt │
+├────────────┼─────────┼─────────┼─────────┼──────────┤
+│ ACC-101    │ 5000.00 │ C-1     │ L-1     │ 10000.00 │
+│ ACC-101    │ 5000.00 │ C-1     │ L-2     │ 20000.00 │
+│ ACC-101    │ 5000.00 │ C-2     │ L-1     │ 10000.00 │
+│ ACC-101    │ 5000.00 │ C-2     │ L-2     │ 20000.00 │
+└────────────┴─────────┴─────────┴─────────┴──────────┘
+```
+* **Distorted Output**:
+  * `total_balance` $= 5000 \times 4 = \mathbf{\$20,000.00}$ (True balance is $\$5,000.00$ — **400% inflated**).
+  * `total_loans` $= (10000 + 20000) \times 2 = \mathbf{\$60,000.00}$ (True loan sum is $\$30,000.00$ — **200% inflated**).
+
+**The Correct Solution (Pre-Aggregate via CTEs)**:
+```sql
+WITH LoanSummary AS (
+    SELECT account_id, SUM(loan_amt) AS total_loans
+    FROM loans
+    GROUP BY account_id
+),
+CardSummary AS (
+    SELECT account_id, COUNT(card_id) AS card_count
+    FROM cards
+    GROUP BY account_id
+)
+SELECT 
+    a.account_id,
+    a.balance AS total_balance,
+    COALESCE(ls.total_loans, 0) AS total_loans,
+    COALESCE(cs.card_count, 0)  AS card_count
+FROM accounts a
+LEFT JOIN LoanSummary ls ON a.account_id = ls.account_id
+LEFT JOIN CardSummary cs ON a.account_id = cs.account_id;
+```
 
 ---
 
 ## 2. SQL Logical Processing Order
 
-SQL is not executed top-to-bottom. It follows a strict logical processing pipeline:
+SQL is a declarative language, not a procedural one. The database engine does not execute clauses in the order they are written (`SELECT ... FROM ... WHERE ...`). It follows an immutable logical query processing lifecycle:
 
 ```
-[Written Order]                       [Logical Execution Sequence]
-1. SELECT                              1. FROM & JOIN (Establishes source dataset & applies join criteria)
-2. FROM                                2. WHERE (Row-level filtering before any grouping)
-3. JOIN ... ON                         3. GROUP BY (Collapses records into aggregation buckets)
-4. WHERE                               4. HAVING (Filters aggregated group summaries)
-5. GROUP BY                            5. SELECT (Evaluates column expressions, aliases, & window functions)
-6. HAVING                              6. DISTINCT (Removes duplicate result rows)
-7. ORDER BY                            7. ORDER BY (Sorts final result set)
-8. LIMIT / OFFSET                      8. LIMIT / OFFSET (Truncates rows returned to client)
+[Written Order]                       [Logical Execution Order]
+1. SELECT                              Step 1: FROM & JOIN (Form cross-product & apply ON filters)
+2. FROM                                Step 2: WHERE (Filter base rows before any grouping)
+3. JOIN ... ON                         Step 3: GROUP BY (Collapse rows into summary buckets)
+4. WHERE                               Step 4: HAVING (Filter summary buckets based on aggregates)
+5. GROUP BY                            Step 5: SELECT (Evaluate expressions, aliases, & window functions)
+6. HAVING                              Step 6: DISTINCT (Eliminate duplicate result records)
+7. ORDER BY                            Step 7: ORDER BY (Sort final result set)
+8. LIMIT / OFFSET                      Step 8: LIMIT / OFFSET (Truncate output rows)
 ```
 
-### Essential Rules Derived from Execution Order:
-1. **Cannot filter an aggregate alias in `WHERE`**: `SELECT cust_id, SUM(amount) AS total_spend FROM txns WHERE total_spend > 500` will fail with an error. `WHERE` executes before `total_spend` is computed. You must filter using `HAVING SUM(amount) > 500` or use a CTE.
-2. **Window functions execute in `SELECT`**: Window functions cannot be placed inside `WHERE` or `HAVING` clauses. To filter by a window function (e.g., `WHERE rnk = 1`), wrap the query in a CTE or subquery.
+### Critical Interview Traps Arising from Execution Order:
+1. **The `WHERE` Alias Trap**:
+   ```sql
+   -- FAILS WITH COMPILATION ERROR: column "annual_income" does not exist
+   SELECT cust_id, monthly_salary * 12 AS annual_income
+   FROM customers
+   WHERE annual_income > 100000;
+   ```
+   * *Why it fails*: Step 2 (`WHERE`) executes before Step 5 (`SELECT`). The alias `annual_income` has not been defined when `WHERE` runs.
+   * *Fix*: Repeat the expression `WHERE (monthly_salary * 12) > 100000` or wrap in a CTE.
+2. **The Window Function in `WHERE` Trap**:
+   ```sql
+   -- FAILS: window functions are not allowed in WHERE
+   SELECT cust_id, txn_id, amount
+   FROM transactions
+   WHERE ROW_NUMBER() OVER (PARTITION BY cust_id ORDER BY amount DESC) = 1;
+   ```
+   * *Why it fails*: Window functions operate across the partitions established after `WHERE`, `GROUP BY`, and `HAVING`. They are evaluated in Step 5 (`SELECT`). You cannot use a Step 5 result to filter in Step 2.
+   * *Fix*: Compute the window rank in a CTE, then filter `WHERE rnk = 1` in the outer query.
 
 ---
 
@@ -60,34 +155,66 @@ SQL is not executed top-to-bottom. It follows a strict logical processing pipeli
  └────────────┴───────────┘         └────────────┴────────────┘
 ```
 
-* **`INNER JOIN`**: Returns rows where keys match in both tables.
-  * Accounts 101 (2 matches) and 102 (1 match) $\implies 3$ rows returned.
-* **`LEFT JOIN`**: All rows from Table A, plus matching rows from Table B (unmatched filled with NULL).
-  * Account 103 returned with `txn_amount = NULL`. Account NULL returned with `txn_amount = NULL`.
-* **`RIGHT JOIN`**: All rows from Table B, plus matching rows from Table A.
-  * Account 104 returned with Table A columns as NULL.
-* **`FULL OUTER JOIN`**: All rows from both tables, with NULLs filled where keys do not match.
-* **`CROSS JOIN`**: Cartesian product ($N \times M$ rows).
+* **`INNER JOIN`**: Matches on `A.account_id = B.account_id`. Returns only accounts 101 and 102 ($\mathbf{3\text{ rows}}$ total: two for 101, one for 102). Account 103 and 104 are discarded.
+* **`LEFT JOIN`**: All rows from Table A. Unmatched rows from B are populated with `NULL`.
+  * Account 103 appears with `txn_amount = NULL`. Account `NULL` from Table A matches nothing in Table B (because `NULL = NULL` is `UNKNOWN`), so it appears with `txn_amount = NULL`. ($\mathbf{5\text{ rows}}$ returned).
+* **`RIGHT JOIN`**: All rows from Table B. Account 104 appears with Table A columns as `NULL`. ($\mathbf{4\text{ rows}}$ returned).
+* **`FULL OUTER JOIN`**: All records from both tables. Combines matched and unmatched records from both sides ($\mathbf{6\text{ rows}}$ returned).
+* **`CROSS JOIN`**: Cartesian product ($4 \times 4 = \mathbf{16\text{ rows}}$).
 
-### 3.2 SQL NULL Three-Valued Logic
-* Any comparison with `NULL` (`= NULL`, `!= NULL`, `< NULL`) evaluates to **`UNKNOWN`** (falsy in WHERE conditions).
-* **`IS NULL` and `IS NOT NULL`**: The only valid operators to test for NULL presence.
-* **`COALESCE(val1, val2, ...)`**: Returns the first non-NULL expression in the argument list.
-* **`NULLIF(val1, val2)`**: Returns `NULL` if `val1 = val2`; otherwise returns `val1`. Essential for preventing divide-by-zero errors:
-  $$\text{Margin} = \frac{\text{Profit}}{\text{NULLIF}(\text{Revenue}, 0)}$$
-* **`COUNT(*)` vs `COUNT(col)`**: `COUNT(*)` counts all rows including NULLs; `COUNT(col)` counts only non-NULL rows.
+### 3.2 Three-Valued Logic (3VL) & The `NOT IN (NULL)` Trap
+SQL operates on three truth values: `TRUE`, `FALSE`, and `UNKNOWN`. Any comparison involving `NULL` (`= NULL`, `!= NULL`, `< NULL`) yields `UNKNOWN`.
+
+#### Truth Tables:
+| $P$ | $Q$ | $P \text{ AND } Q$ | $P \text{ OR } Q$ | $\text{NOT } P$ |
+| :--- | :--- | :--- | :--- | :--- |
+| `TRUE` | `UNKNOWN` | `UNKNOWN` | `TRUE` | `FALSE` |
+| `FALSE` | `UNKNOWN` | `FALSE` | `UNKNOWN` | `TRUE` |
+| `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` | `UNKNOWN` |
+
+> **In a `WHERE` or `HAVING` clause, only expressions that evaluate to `TRUE` pass the filter. `FALSE` and `UNKNOWN` are both rejected.**
+
+#### The Devastating `NOT IN` with `NULL` Trap:
+Suppose compliance wants all customers who are NOT on the sanctions watch list:
+```sql
+-- DANGEROUS QUERY:
+SELECT cust_id FROM customers 
+WHERE cust_id NOT IN (SELECT cust_id FROM sanctions_list);
+```
+* If `sanctions_list` contains even **one single row** where `cust_id IS NULL`, this query returns **ZERO ROWS** for the entire bank!
+* *Mathematical Proof*:
+  `cust_id NOT IN ('S1', 'S2', NULL)` translates logically to:
+  $$\text{cust\_id} \ne 'S1' \;\mathbf{AND}\; \text{cust\_id} \ne 'S2' \;\mathbf{AND}\; \text{cust\_id} \ne \text{NULL}$$
+  Since $\text{cust\_id} \ne \text{NULL}$ evaluates to `UNKNOWN`:
+  $$\text{TRUE} \;\mathbf{AND}\; \text{TRUE} \;\mathbf{AND}\; \text{UNKNOWN} \implies \mathbf{UNKNOWN}$$
+  Because `UNKNOWN` is rejected by `WHERE`, every single valid customer is filtered out!
+* *The Production Fix*:
+  ```sql
+  -- METHOD 1: NOT EXISTS (Immune to NULLs)
+  SELECT c.cust_id 
+  FROM customers c
+  WHERE NOT EXISTS (
+      SELECT 1 FROM sanctions_list s WHERE s.cust_id = c.cust_id
+  );
+
+  -- METHOD 2: Explicit IS NOT NULL filter
+  SELECT cust_id FROM customers 
+  WHERE cust_id NOT IN (
+      SELECT cust_id FROM sanctions_list WHERE cust_id IS NOT NULL
+  );
+  ```
 
 ---
 
 ## 4. Window Functions Mastery
 
-Window functions calculate metrics across a set of table rows related to the current row without collapsing rows into a single summary.
+Window functions perform calculations across a defined set of rows (the "window frame") related to the current row without collapsing rows into a single summary.
 
-### 4.1 Syntax Anatomy
+### 4.1 Anatomy of a Window Function
 ```sql
-<window_function>() OVER (
-    [PARTITION BY partition_col1, partition_col2]
-    [ORDER BY sort_col1 ASC | DESC]
+<function>() OVER (
+    [PARTITION BY partition_columns]
+    [ORDER BY sort_columns ASC | DESC]
     [ROWS | RANGE BETWEEN frame_start AND frame_end]
 )
 ```
@@ -101,17 +228,32 @@ Window functions calculate metrics across a set of table rows related to the cur
 | **`DENSE_RANK()`** | `1, 1, 2, 3` | Ties receive identical rank; **does NOT skip** subsequent ranks. |
 | **`NTILE(k)`** | `1, 1, 2, 2` (for $k=2$) | Divides rows into $k$ equal buckets (deciles, quartiles). |
 
-> **Interview Standard**: "Find the 2nd highest transaction per account." Always use `DENSE_RANK()` inside a CTE to handle identical high values without missing the second tier.
+> **Interview Rule**: When asked to "find the $N$-th highest transaction or salary," always use **`DENSE_RANK()`** inside a CTE. `ROW_NUMBER()` will miss the true second tier if there is a tie for 1st place, while `RANK()` will skip rank 2 and jump directly to rank 3!
 
-### 4.3 Value Functions
-* **`LAG(col, offset, default)`**: Accesses a preceding row's value. Used for month-over-month growth, transaction velocity, and detecting sequential balance declines.
-* **`LEAD(col, offset, default)`**: Accesses a succeeding row's value.
-* **`FIRST_VALUE(col)` / `LAST_VALUE(col)`**: Returns the initial or terminal value in the current window frame.
+### 4.3 Frame Specifications: `ROWS` vs `RANGE` & The Silent Default Trap
+* `ROWS`: Treats frame boundaries by physical row offsets (e.g. `ROWS BETWEEN 1 PRECEDING AND CURRENT ROW`).
+* `RANGE`: Treats frame boundaries by logical value offsets based on the `ORDER BY` column values.
+* **The Silent Default Trap**:
+  When you write `ORDER BY col` inside `OVER()` without specifying a frame, SQL silently applies:
+  $$\mathbf{RANGE\;BETWEEN\;UNBOUNDED\;PRECEDING\;AND\;CURRENT\;ROW}$$
+  * *Consequence on Duplicates*: If two transactions share the exact same timestamp, `RANGE` treats them as ties and includes **both** in the running sum simultaneously!
+  * *Fix*: Explicitly specify `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` whenever you need a deterministic row-by-row cumulative accumulation.
 
-### 4.4 Frame Specifications (`ROWS` vs `RANGE`)
-* `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`: Physical running sum from start to current row.
-* `ROWS BETWEEN 2 PRECEDING AND CURRENT ROW`: 3-row moving calculation.
-* `RANGE BETWEEN INTERVAL '30 DAYS' PRECEDING AND CURRENT ROW`: Value-based moving window across calendar intervals.
+### 4.4 7-Day Trailing Moving Average Query
+```sql
+SELECT 
+    account_id,
+    txn_date,
+    amount,
+    -- 7-row moving average (current row + preceding 6 transactions)
+    AVG(amount) OVER (
+        PARTITION BY account_id
+        ORDER BY txn_date
+        ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
+    ) AS rolling_avg_7_txns
+FROM transactions
+WHERE status = 'APPROVED';
+```
 
 ---
 

@@ -34,21 +34,24 @@ Detailed facts and source audit available in [`PLACEMENT_FACTS.md`](PLACEMENT_FA
 
 ## 2. Complete Module Navigation
 
-The Citi AIM preparation package is organized into 11 specialized, cross-linked modules:
+The Citi AIM preparation package is organized into 14 specialized, cross-linked modules:
 
 | Document | Primary Focus & Domain | Evidence & Scope |
 | :--- | :--- | :--- |
+| [📋 `SYLLABUS_AND_COVERAGE.md`](SYLLABUS_AND_COVERAGE.md) | Master granular curriculum, prerequisite mapping, worked example index, and completion standards. | `[CURRICULUM ARCHITECTURE]` |
 | [📁 `PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Authoritative source breakdown, compensation, JD responsibilities, and unresolved fields. | `[IITK PROFORMA — PHASE 1 2026–27]` |
 | [📁 `STUDY_MATRIX.md`](STUDY_MATRIX.md) | Competency matrix mapping P1/P2/P3 priorities to JD requirements with mastery criteria. | `[PREPARATION RECOMMENDATION]` |
 | [📁 `READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | 30-day, 14-day, 7-day, 3-day, and 1-day study schedules plus a 9-point self-assessment rubric. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `01_STATISTICS_PROBABILITY.md`](01_STATISTICS_PROBABILITY.md) | Complete theory (Bayes, distributions, CLT, Welch's $t$, ANOVA, $\chi^2$) + **30 solved problems**. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `02_SQL_DATA_MANIPULATION.md`](02_SQL_DATA_MANIPULATION.md) | Relational theory, grain, Joins, Window functions, Access context + **30 banking queries**. | `[PRACTICE CASE ASSUMPTION]` |
-| [📁 `03_PREDICTIVE_MODELING_ML.md`](03_PREDICTIVE_MODELING_ML.md) | Linear/Logistic regression, data leakage, metrics, KS statistic, PSI, K-Means & RFM. | `[PREPARATION RECOMMENDATION]` |
+| [📁 `01_STATISTICS_PROBABILITY.md`](01_STATISTICS_PROBABILITY.md) | Complete theory (Bayes count tables, distributions, CLT rigor, Welch's $t$, ANOVA, $\chi^2$) + **30 solved problems**. | `[CORE & SUPPORTING]` |
+| [📁 `02_SQL_DATA_MANIPULATION.md`](02_SQL_DATA_MANIPULATION.md) | Relational theory, grain, Join fan-out mechanics, 3VL NULL traps, Window functions + **30 banking queries**. | `[CORE & SUPPORTING]` |
+| [📁 `03_PREDICTIVE_MODELING_ML.md`](03_PREDICTIVE_MODELING_ML.md) | Linear/Logistic regression, data leakage, metrics, KS statistic, PSI calculation, K-Means & RFM + 10 Q&As. | `[CORE & SUPPORTING]` |
 | [📁 `04_INTERVIEW_AND_CASES.md`](04_INTERVIEW_AND_CASES.md) | **10 Banking Business Cases** (10-point analysis) + Puzzles (25 horses, ropes) + Guesstimates. | `[PRACTICE CASE ASSUMPTION]` |
-| [📁 `05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md) | Chart selection, misleading visualizations, executive dashboards, Minto Pyramid synthesis. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md) | Global matrix collaboration, compliance escalation, data privacy, and STAR answer templates. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) | Grounded defense of engineering and analytical modeling projects across 3 archetypes. | Transferable quantitative defense |
-| [📁 `RAPID_REVISION.md`](RAPID_REVISION.md) | High-yield formula sheet, top 10 SQL snippets, scorecard cheatsheet, night-before checklist. | `[PREPARATION RECOMMENDATION]` |
+| [📁 `05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md) | Chart selection, misleading visualizations, executive dashboards, Minto Pyramid synthesis. | `[CORE COMPETENCY]` |
+| [📁 `06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md) | Global matrix collaboration, compliance escalation, data privacy, and STAR answer templates. | `[CORE COMPETENCY]` |
+| [📁 `07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) | Grounded defense of engineering and analytical modeling projects across 3 archetypes + **15 grilling Q&As**. | Transferable quantitative defense |
+| [🎯 `QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md) | Standalone multi-tier question bank (Levels 1–4) across all 6 domains with step-by-step verified solutions. | `[PRACTICE BANK]` |
+| [📝 `08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) | Diagnostic baseline assessment, sectional tests, 75-min full mixed technical mock, and rubrics. | `[PRACTICE SIMULATION]` |
+| [📁 `RAPID_REVISION.md`](RAPID_REVISION.md) | High-yield formula sheet, top 10 SQL snippets, scorecard cheatsheet, night-before checklist. | `[REVISION SUMMARY]` |
 
 ---
 
@@ -71,24 +74,24 @@ P2: SUPPORTING ADVANTAGE (High Interview ROI)
 └── 6. Grounded Project & Resume Defense ────► [07_PROJECT_AND_RESUME_DEFENCE.md]
         │
         ▼
-P3: SUPPLEMENTARY CONTEXT (Banking Domain Depth)
-├── 1. Credit Scorecards & KS Statistic ──────► [03_PREDICTIVE_MODELING_ML.md]
-├── 2. Population Stability Index (PSI) ──────► [03_PREDICTIVE_MODELING_ML.md]
-└── 3. Microsoft Access Query Nuances   ──────► [02_SQL_DATA_MANIPULATION.md]
+P3: DRILLS, QUESTION BANK & TIMED MOCKS (Execution Mastery)
+├── 1. Multi-Tier Question Bank (Levels 1–4) ─► [QUESTION_BANK_WITH_SOLUTIONS.md]
+├── 2. Diagnostic & Timed Mocks (Diag/Full) ──► [08_MOCK_TESTS_AND_ASSESSMENTS.md]
+└── 3. Pre-Interview Formula Card       ──────► [RAPID_REVISION.md]
 ```
 
 ---
 
 ## 4. Recommended Study Sequences
 
-* **Standard Window (14 to 30 Days)**: Follow the structured week-by-week curriculum detailed in [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md#11-the-30-day-comprehensive-mastery-plan). Target Level 3 ("Interview-Ready") across all 9 self-assessment dimensions.
+* **Standard Window (14 to 30 Days)**: Follow the structured week-by-week curriculum detailed in [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md#11-the-30-day-comprehensive-mastery-plan). Begin with [`08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) (Diag-01) for baseline calibration, study modules in order, and complete the full 75-minute mixed mock (Full-01). Target Level 3 ("Interview-Ready") across all 9 self-assessment dimensions.
 * **Sprint Window (7 Days)**:
   * *Days 1–2*: Statistics, Probability & Hypothesis Testing in [`01_STATISTICS_PROBABILITY.md`](01_STATISTICS_PROBABILITY.md).
   * *Days 3–4*: SQL Aggregations, Joins & Window Functions in [`02_SQL_DATA_MANIPULATION.md`](02_SQL_DATA_MANIPULATION.md).
   * *Day 5*: Logistic Regression & Metrics in [`03_PREDICTIVE_MODELING_ML.md`](03_PREDICTIVE_MODELING_ML.md).
   * *Day 6*: Business Cases 1–4 in [`04_INTERVIEW_AND_CASES.md`](04_INTERVIEW_AND_CASES.md) & Visualization in [`05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md).
-  * *Day 7*: Project Defense in [`07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md), Ethics in [`06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md), and quick review via [`RAPID_REVISION.md`](RAPID_REVISION.md).
-* **Emergency Window (24 to 72 Hours)**: Jump directly to the high-yield formula cheatsheets and top 10 SQL snippets in [`RAPID_REVISION.md`](RAPID_REVISION.md).
+  * *Day 7*: Practice high-yield questions in [`QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md), Project Defense in [`07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md), Ethics in [`06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md), and quick formula review via [`RAPID_REVISION.md`](RAPID_REVISION.md).
+* **Emergency Window (24 to 72 Hours)**: Jump directly to Diag-01 in [`08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) to locate blindspots, drill Level 2/3 questions in [`QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md), and revise formulas in [`RAPID_REVISION.md`](RAPID_REVISION.md).
 
 ---
 
