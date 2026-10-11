@@ -158,7 +158,7 @@ Skip SQL/Python IF:
 | Related Section | Link |
 |:----------------|:-----|
 | Data/Analytics Stack | [`data/`](../data-science/data-analytics-stack.md) |
-| Non-Core Consulting | [`03_non_core/consulting/`](../../03_non_core/consulting/consulting-overview.md) |
+| Non-Core Consulting | [`03_non_core/consulting/`](01_role-overview.md) |
 | Non-Core Case Frameworks | [`03_non_core/consulting/case-frameworks.md`](../../05_interview/case-interview/case-interviews/case-frameworks.md) |
 
 ---

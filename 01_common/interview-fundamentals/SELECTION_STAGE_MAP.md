@@ -74,7 +74,7 @@ STAGE 6: HR & BEHAVIORAL PROBES          (STAR stories, culture fit, relocation,
   - *Consulting / Analytics:* Structured problem decomposition (MECE issue trees, market sizing, profit diagnostics, cost reduction).
   - *Construction & EPC Giants (L&T, Godrej):* Group task on project resource constraints, safety vs deadline dilemmas, material substitution.
 - **Preparation Anchor:**
-  - Management consulting case simulations: [`../03_non_core/consulting/case-bank.md`](../../03_non_core/consulting/cases/case-bank.md)
+  - Management consulting case simulations: [`03_non_core/consulting/07_practice-and-cases.md`](../../03_non_core/consulting/07_practice-and-cases.md)
   - Group task & GD frameworks: [`CASE_GD.md`](../group-discussion/CASE_GD.md) · [`behavioral/group-discussion-mastery.md`](../group-discussion/group-discussion-mastery.md)
 
 ---

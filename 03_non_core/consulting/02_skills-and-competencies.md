@@ -38,7 +38,7 @@ Consulting selection tests cognitive agility, structured structuring under ambig
 
 | Job Requirement | What Company Tests | Repository Preparation Module | Evidence to Show / Practice Output |
 |:---|:---|:---|:---|
-| **Hypothesis & MECE Issue Trees** | Live unstructured case structuring | [06_case-practice.md](06_case-practice.md) & [02_interview-prep/cases](../../02_interview-preparation/case-interviews/) | Custom 3-level issue tree built in 90 seconds |
+| **Hypothesis & MECE Issue Trees** | Live unstructured case structuring | [06_case-practice.md](06_case-practice.md) & [05_interview/case-interview](../../05_interview/case-interview/) | Custom 3-level issue tree built in 90 seconds |
 | **Fast Commercial Calculations** | Mental math drills during case | [04_tools-and-technical.md](04_tools-and-technical.md) | Zero-error calculations of margins, CAGR, break-even |
 | **Business Judgment & Industry Acumen** | Root-cause diagnosis & brainstorming | [03_domain-knowledge.md](03_domain-knowledge.md) | Context-aware recommendations (e.g. cement freight radius) |
 | **Leadership & Resilience** | Personal Experience Interview (PEI) | [05_interview-preparation.md](05_interview-preparation.md) | 5 polished STAR stories with quantified business impact |

@@ -138,7 +138,7 @@ Every question can be tagged for filtering:
 
 | Track | Question Source |
 |:------|:----------------|
-| Consulting | [case-bank.md](../../03_non_core/consulting/cases/case-bank.md) — 15 worked cases |
+| Consulting | [07_practice-and-cases.md](../../03_non_core/consulting/07_practice-and-cases.md) |
 | Case Frameworks | [framework-library.md](../../05_interview/case-interview/case-interviews/framework-library.md) |
 | Guesstimates | [guesstimate-guide.md](../../05_interview/case-interview/guesstimates/guesstimate-guide.md) |
 | Data Analyst | [statistics-practice.md](../03_non_core/analytics/data-analyst/statistics-practice.md) |
