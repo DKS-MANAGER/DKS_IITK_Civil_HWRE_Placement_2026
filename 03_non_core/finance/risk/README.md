@@ -1,63 +1,33 @@
-# Risk Management & Financial Analytics Placement Track
+# Financial Risk Analytics & Banking Quantitative Hub
 
-> Placement preparation curriculum for IIT Kanpur students targeting **Quantitative Risk, Credit Analytics, Market Risk, and Model Governance** roles in campus placements.
-> 
-> *Notice: Historical recruitment lists and compensation figures represent past placement season benchmarks ([HISTORICAL BENCHMARK]). Confirm official 2026–27 criteria with the IITK Students' Placement Office (SPO) ([OFFICIAL PLACEMENT SOURCE]).*
-
----
-
-## 1. Role Snapshot & Recruitment Landscape
-
-| Dimension | Placement Details ([HISTORICAL BENCHMARK]) |
-|:---|:---|
-| **Target Recruiting Firms** | American Express, Citi, Barclays, Goldman Sachs (Risk), Nomura, Mastercard, Visa, Standard Chartered, HSBC, CRISIL, Moody's Analytics |
-| **Typical Role Designations** | Risk Analyst, Quantitative Risk Analyst, Credit Risk Specialist, Model Validation Associate |
-| **Historical Compensation Range** | ₹14 LPA – ₹28 LPA (Fixed: ₹12 LPA – ₹20 LPA; Performance Bonus: ₹2 LPA – ₹8 LPA) |
-| **Department Eligibility** | B.Tech & M.Tech engineering branches. Strong foundation in probability, statistics, regression, and SQL required. |
-| **Core Capabilities Evaluated** | Credit Scorecards (WoE / IV, Logistic Regression), Probability of Default (PD), Loss Given Default (LGD), Value at Risk (VaR), Stress Testing, Model Risk (SR 11-7, PSI), SQL Window Functions, Python |
+> **Scope**: Instructional module directory for Credit Risk, Scorecard Modeling, Market Risk, and Basel Capital Governance.
+> **Parent Hub**: [`03_non_core/finance/README.md`](../README.md)
+> **Master Syllabus**: [`03_non_core/finance/SYLLABUS_AND_COVERAGE.md`](../SYLLABUS_AND_COVERAGE.md)
+> **Master Question Bank**: [`03_non_core/finance/QUESTION_BANK_WITH_SOLUTIONS.md`](../QUESTION_BANK_WITH_SOLUTIONS.md)
 
 ---
 
-## 2. Track Architecture & Module Index
+## 1. Modules in this Track
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 01. Role Overview           ──> Target banks, CTC, D2D      │
-│ 02. Skills & Competencies   ──> Technical ladder & scoring  │
-│ 03. Domain Knowledge        ──> PD/LGD/EAD, WoE, VaR, Basel │
-│ 04. Tools & Technical Stack ──> SQL, Python OptBinning, Git │
-│ 05. Interview Preparation   ──> Selection stages & tactics  │
-│ 06. Question Bank           ──> 20+ worked problems & math  │
-│ 07. Practice Cases          ──> 10 quantitative risk cases  │
-│ 08. Role Study Plans        ──> 4-week roadmap & drills     │
-│ 09. Rapid Revision Sheet    ──> High-density risk formulas  │
-│ 10. Curated Resources       ──> Hull, Siddiqi, SR 11-7, BCBS│
-│ 11. Projects & Resume       ──> Reproducible models & CV    │
-│ 12. Mock Assessment         ──> 90-min exam, keys & rubric  │
-└─────────────────────────────────────────────────────────────┘
-```
-
-| Module | Educational Objective | Document Link |
-|:---|:---|:---|
-| **01. Role Overview** | Target companies, job descriptions, eligibility, and day-to-day risk deliverables | [01_role-overview.md](01_role-overview.md) |
-| **02. Skills & Competencies** | Core competencies, technical benchmark ladder, and validation standards | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
-| **03. Domain Knowledge** | Mathematical foundations: Expected Loss, Scorecards, WoE/IV, VaR, Basel III, SR 11-7 | [03_domain-knowledge.md](03_domain-knowledge.md) |
-| **04. Tools & Technical** | Python scorecard modeling, SQL risk query patterns, and database pipelines | [04_tools-and-technical.md](04_tools-and-technical.md) |
-| **05. Selection Process** | Stage-by-stage guide: OA patterns, live coding, case interviews, and partner defense | [05_interview-preparation.md](05_interview-preparation.md) |
-| **06. Question Bank** | High-yield quantitative interview questions with full solutions and interviewer probes | [06_question-bank.md](06_question-bank.md) |
-| **07. Practice & Cases** | 10 worked quantitative risk cases: portfolio stress testing, VaR breaches, PSI drift | [07_practice-and-cases.md](07_practice-and-cases.md) |
-| **08. Role Study Plan** | Structured 4-week preparation plan and high-yield milestones | [08_role-study-plan.md](08_role-study-plan.md) |
-| **09. Rapid Revision** | High-density formula sheet: PD, LGD, EAD, WoE, IV, KS, PSI, VaR, and Basel formulas | [09_rapid-revision.md](09_rapid-revision.md) |
-| **10. Resources** | Authoritative textbooks (John C. Hull, Naeem Siddiqi), SR 11-7, and open-source tools | [10_resources.md](10_resources.md) |
-| **11. Resume & Projects** | Verifiable portfolio projects (PD scorecard, VaR pipeline, EVT) and resume framing | [11_projects.md](11_projects.md) |
-| **12. Mock Assessment** | 90-minute timed exam (100 marks) with complete worked solutions and error matrix | [12_mock-assessment.md](12_mock-assessment.md) |
+| File | Focus Area & Description |
+| :--- | :--- |
+| **[`01_role-overview.md`](01_role-overview.md)** | Risk analytics roles: Amex, Citi AIM, Goldman Sachs Risk, Barclays, Capital One. |
+| **[`02_skills-and-competencies.md`](02_skills-and-competencies.md)** | Quantitative skill profile: Statistical distributions, Scorecards, SQL, Python, Basel regulations. |
+| **[`03_domain-knowledge.md`](03_domain-knowledge.md)** | **Master Textbook Chapter (17 KB)**: Complete coverage of Credit Risk (PD/LGD/EAD, Expected Loss), Scorecard Engineering (WoE, IV, KS, Gini, PSI), Market Risk (Parametric/Historical VaR, Expected Shortfall, Greeks), and Basel III / RBI Capital Adequacy. |
+| **[`04_tools-and-technical.md`](04_tools-and-technical.md)** | **Production Code Repository (8.7 KB)**: Runnable Python scripts (WoE/IV scorecard binning engine, KS/Gini/PSI validation suite, Parametric & Historical VaR engine) and Production PostgreSQL queries (delinquency aging buckets, 30-day roll-rate matrix, portfolio ECL loss). |
+| **[`05_interview-preparation.md`](05_interview-preparation.md)** | Risk analytics interview frameworks, case interview drills, scorecard defense. |
+| **[`06_question-bank.md`](06_question-bank.md)** | Foundational risk question bank (Cross-referenced with the 250-question master bank in parent folder). |
+| **[`07_practice-and-cases.md`](07_practice-and-cases.md)** | Quantitative risk cases: Credit scorecard development, portfolio stress testing, VaR backtesting failure analysis. |
+| **[`08_role-study-plan.md`](08_role-study-plan.md)** | Step-by-step risk analytics study roadmap. |
+| **[`09_rapid-revision.md`](09_rapid-revision.md)** | High-yield risk formula sheet: WoE, IV, KS, Gini, PSI, VaR, ES, Basel ratios. |
+| **[`10_resources.md`](10_resources.md)** | Recommended references: FRM handbooks (GARP), Basel Committee papers, RBI master circulars. |
+| **[`11_projects.md`](11_projects.md)** | Placement resume projects: Credit scorecard logistic regression pipeline, Monte Carlo VaR engine. |
+| **[`12_mock-assessment.md`](12_mock-assessment.md)** | Timed diagnostic test with answer keys and scoring rubric. |
 
 ---
 
-## 3. Cross-Track Navigation
+## 2. Master Curriculum Integration
 
-- 📖 [Master Finance & Risk Hub](../README.md)
-- 📖 [General Finance Placement Track](../../finance/finance/README.md)
-- 📖 [Master Non-Core Hub](../../README.md)
-- 📖 [Quantitative Reasoning Bridge](../../../01_common/placement-math/quantitative-reasoning/aptitude-bridge.md)
-- 📖 [Citi AIM Analytics Placement Pack](../../../04_company-prep/company-specific-prep/citicorp-aim-analytics/)
+For comprehensive practice, refer to the parent suite:
+- **[250-Question Master Bank](../QUESTION_BANK_WITH_SOLUTIONS.md)**: Practice Q201 to Q250 for Credit Risk Modeling, Scorecards, Market Risk VaR, Expected Shortfall, and Basel III Governance.
+- **[Timed Mocks](../MOCK_TESTS_AND_ASSESSMENTS.md)**: Complete **Mock 05** (Banking Analytics & SQL), **Mock 06** (Credit Risk & Scorecards), and **Mock 07** (Market Risk & Basel Governance).
