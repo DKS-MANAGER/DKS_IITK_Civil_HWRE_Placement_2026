@@ -1,94 +1,121 @@
-# Management & Strategy Consulting — Master Preparation Dashboard
+# Consulting Placement Master Course: Beginner to Interview-Ready
 
-> **Target Roles**: Management Consulting, Strategy & Corporate Strategy, Big Four Business Consulting, Digital & Technology Consulting, Operations & Supply Chain Consulting, Analytics-Led Consulting  
-> **Target Audience**: Students preparing for campus-placement and summer internship case interview selection cycles  
-> **Course Status**: Fully Audited, Rigorous 6-Stage Curriculum with Complete Model Solutions
+> **Course Level**: Comprehensive Self-Learning Course from Zero Prior Knowledge to Final Partner Case Round  
+> **Target Roles**: Management Consulting, Strategy & Corporate Strategy, Big Four Advisory, Digital Consulting, Operations Consulting, Analytics-Led Consulting  
+> **Target Audience**: Students preparing for consulting campus placement cycles and summer internships  
+> **Pedagogical Standard**: Teaching & Learning First — Real Explanations, Progressive Derivations, Worked Dialogues, Reproducible Models & Separated Practice
 
 ---
 
 ## 1. Course Architecture & Master Documents
 
-The consulting preparation curriculum is organized around five authoritative governance documents:
+The curriculum is structured into dedicated instructional directories:
 
-| Document | Purpose & Contents | Canonical Link |
-| :--- | :--- | :--- |
-| **`SYLLABUS_AND_COVERAGE.md`** | Complete 6-stage course progression, 30 instructional modules (C01–C30) with P1/P2/P3 priorities, learning objectives, and mastery criteria. | [`SYLLABUS_AND_COVERAGE.md`](SYLLABUS_AND_COVERAGE.md) |
-| **`STUDY_MATRIX.md`** | Role-to-syllabus matrix mapping 6 distinct career pathways across core modules, analytical toolkits, and firm interview formats. | [`STUDY_MATRIX.md`](STUDY_MATRIX.md) |
-| **`STUDY_GUIDE.md`** | Day-by-day 30-Day, 14-Day, 7-Day, and 3-Day structured study tracks with exact module assignments and closed-book drill requirements. | [`STUDY_GUIDE.md`](STUDY_GUIDE.md) |
-| **`AUDIT_AND_COVERAGE.md`** | Exhaustive defect log and audit report covering all 34 files across `consulting/` and `strategy/`, detailing errors identified and remediation executed. | [`AUDIT_AND_COVERAGE.md`](AUDIT_AND_COVERAGE.md) |
-| **`SOURCES_AND_VERIFICATION.md`** | Authoritative demographic baselines (Census, RBI, MoSPI, DGCA), benchmark heuristics, and sanity check standards. | [`SOURCES_AND_VERIFICATION.md`](SOURCES_AND_VERIFICATION.md) |
+```text
+03_non_core/consulting/
+├── README.md                      # Course homepage, prerequisites, navigation & setup
+├── COURSE_SYLLABUS.md             # Complete 30-module syllabus, dependencies & mastery criteria
+├── STUDY_GUIDE.md                 # 30-Day, 14-Day, 7-Day & 3-Day structured study tracks
+├── COURSE_AUDIT.md                # Quality audit, depth verification & defect logs
+├── SOURCES_AND_VERIFICATION.md    # Source register & official demographic baselines
+├── lessons/                       # 7 Core Instructional Chapters (Phases 0–6)
+│   ├── 00_orientation_and_prerequisites.md
+│   ├── 01_business_and_quantitative_foundations.md
+│   ├── 02_structured_problem_solving.md
+│   ├── 03_business_case_methodology.md
+│   ├── 04_guesstimates_and_market_sizing.md
+│   ├── 05_consulting_math_textbook.md
+│   └── 06_industry_economics_and_strategy.md
+├── worked_cases/                  # 5 Flagship Solved Cases & Candidate Dialogues
+│   ├── case_01_airline_loyalty_carveout.md
+│   ├── case_02_cement_plant_cost_turnaround.md
+│   ├── case_03_ev_battery_swapping_network.md
+│   ├── case_04_quick_commerce_dark_store_density.md
+│   └── case_05_hospital_operating_room_yield.md
+├── practice/                      # Practice Problems & Separate Solutions
+│   ├── question_bank_problems.md   # 150 Unsolved Problems (Q001–Q150) without spoilers
+│   └── question_bank_solutions.md  # Complete Step-by-Step Model Solutions & Math
+├── assessments/                   # Diagnostic Tests, Timed Drills & Partner Mocks
+│   ├── 01_diagnostic_foundations_test.md
+│   ├── 02_quantitative_and_guesstimate_assessment.md
+│   └── 03_full_partner_mock_interview.md
+├── tools_labs/                    # Reproducible Excel, PowerPoint & SQL Labs
+│   ├── 01_excel_financial_modeling_lab.md
+│   ├── 02_powerpoint_executive_storylining_lab.md
+│   └── 03_sql_and_analytics_consulting_lab.md
+├── revision/                      # Rapid Formula Sheets & Cheatsheets
+│   ├── 01_consulting_formula_sheet.md
+│   ├── 02_issue_tree_and_framework_cheatsheet.md
+│   └── 03_rapid_revision_30min.md
+└── strategy/                      # Dedicated Corporate Strategy Track (TAS, GMC, CXO)
+```
 
 ---
 
-## 2. Six Target Role Families
-
-The curriculum explicitly differentiates between 6 consulting pathways:
-
-1. **Management Consulting (MBB & Top Strategy Boutiques)**: McKinsey, BCG, Bain, Strategy&, Kearney, Roland Berger, Oliver Wyman, Arthur D. Little. Focus: Hypothesis-driven issue trees, executive synthesis, live partner dialogue, and business economics.
-2. **Corporate Strategy & Leadership Cadres**: TAS (Tata), Aditya Birla Group (LEAP), Mahindra GMC, Reliance Strategic Initiatives. Focus: Capital allocation, M&A due diligence, EVA, and conglomerate governance. (See nested [`strategy/`](strategy/README.md) track).
-3. **Big Four Business & Operations Consulting**: Deloitte Consulting, PwC Advisory, EY Parthenon, KPMG. Focus: Profitability diagnostics, operating model redesign, commercial due diligence, and process optimization.
-4. **Digital & Technology Consulting**: Accenture Strategy & Consulting, Deloitte Tech Consulting, IBM Consulting. Focus: Cloud TCO, microservices economics, ERP governance, cybersecurity interruption, and AI contact center ROI.
-5. **Operations, Supply Chain & Process Improvement**: Alvarez & Marsal (A&M), Kearney Operations, PRTM. Focus: Little's Law, EOQ, bottleneck OEE, safety stock under lead-time volatility, and lean hospital/factory workflows.
-6. **Analytics-Led Consulting & Business Analysis**: ZS Associates, EXL Analytics, Mu Sigma, Fractal. Focus: GTM sizing, customer cohort retention, predictive model translation for CXOs, and production SQL cohort analysis.
-
----
-
-## 3. Six-Stage Learning Progression
+## 2. Six-Phase Instructional Progression
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                        CANONICAL CONSULTING LEARNING PATHWAY                           │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ Stage 1: Foundations              ──► Arithmetic, percentages, CAGR, estimation        │
-│ Stage 2: Structured Problem-Solving──► 9-step workflow, 5 issue trees, MECE mechanics  │
-│ Stage 3: Business Economics       ──► Value chains, 7 Powers, 6 industry profiles      │
-│ Stage 4: Case Archetypes          ──► 14 complete worked cases with dialogues & exhibits│
-│ Stage 5: Communication & Storyline──► Pyramid principle, 60-s elevator synthesis, decks│
-│ Stage 6: Interview Execution      ──► 20 guesstimates, 150-Q bank, full partner mocks  │
+│ Phase 0: Orientation & Prerequisites   ──► Consulting spectrum, terminology from zero  │
+│ Phase 1: Business & Quant Foundations  ──► Arithmetic, margins, compounding, exhibits │
+│ Phase 2: Structured Problem Solving    ──► 9-step workflow, 5 issue trees, MECE tests │
+│ Phase 3: Case Interview Methodology   ──► 15 business case archetypes with dialogues   │
+│ Phase 4: Guesstimates & Market Sizing  ──► Estimation as a taught skill, 20 models    │
+│ Phase 5: Consulting Math Textbook      ──► Formula derivations, bridges, 30 exercises  │
+│ Phase 6: Industry Economics & Strategy ──► Value chains, 7 Powers, 6 sector profiles   │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 4. Master Module Navigation Index
+## 3. Directory Navigation & Key Links
 
-| Module ID | Module Title | Instructional Scope & Key Deliverables | Document Link |
-| :---: | :--- | :--- | :--- |
-| **01** | **Role Overview** | Industry landscape, Tier-1/2/Big-4 distinctions, compensation bands, career ladders. | [`01_role-overview.md`](01_role-overview.md) |
-| **02** | **Structured Problem Solving** | Masterclass: 9-step problem-solving, MECE tests, 5 complete issue tree constructions with dialogues. | [`02_problem-solving.md`](02_problem-solving.md) |
-| **02B** | **Skills & Competencies** | Competency radar, quantitative readiness rubric, interview scoring criteria. | [`02_skills-and-competencies.md`](02_skills-and-competencies.md) |
-| **03** | **Business Case Archetypes** | 14 complete case archetypes (Profitability, Market Entry, M&A, Cloud TCO, etc.) with dialogues & math. | [`03_business-cases.md`](03_business-cases.md) |
-| **03B** | **Domain Knowledge** | Business economics textbook: Value chains, 7 Powers, 6 industry profiles, framework critiques. | [`03_domain-knowledge.md`](03_domain-knowledge.md) |
-| **04** | **Guesstimates Masterclass** | 20 complete, fully calculated guesstimates with dual methods, sensitivities, and sanity checks. | [`04_guesstimates.md`](04_guesstimates.md) |
-| **04B** | **Tools & Technical Stack** | Practical analytics: Excel data tables & lookups, PowerPoint storylining, production SQL cohort query. | [`04_tools-and-technical.md`](04_tools-and-technical.md) |
-| **05** | **Consulting Math Guide** | Math course: Formula limits, Rule of 72 derivations, error detection, 30 worked exercises (Easy/Med/Hard). | [`05_consulting-math.md`](05_consulting-math.md) |
-| **05B** | **Interview Manual & OAs** | Online assessment games (McKinsey Solve, BCG Casey), 8-step interview timeline, behavioral PEI. | [`05_interview-preparation.md`](05_interview-preparation.md) |
-| **06** | **Master Question Bank** | Exactly 150 distinct, substantive questions with complete worked solutions (Q001–Q150). | [`06_question-bank.md`](06_question-bank.md) |
-| **06B** | **Tiered Case Practice** | Solved case practice across Basic, Intermediate, and Hard difficulty levels. | [`06_case-practice.md`](06_case-practice.md) |
-| **07** | **Case Practice Master Bank** | 4 multi-step partner cases (Cement Cost, EV Battery Swapping, Quick Commerce, Hospital Yield). | [`07_practice-and-cases.md`](07_practice-and-cases.md) |
-| **07B** | **Interview & Fit Guide** | "Why Consulting?", authentic background narrative framing, STAR behavioral structure. | [`07_interview-preparation.md`](07_interview-preparation.md) |
-| **08** | **Diagnostic Mock Assessment** | 10 math questions, 3 guesstimates, 2 mini-cases, 35-point scorecard & remediation paths. | [`08_mock-assessment.md`](08_mock-assessment.md) |
-| **08B** | **Role Study Plans** | 30-Day, 14-Day, 7-Day grounded preparation schedules by role track. | [`08_role-study-plan.md`](08_role-study-plan.md) |
-| **09** | **Rapid Revision Sheet** | High-density 30-minute test eve summary: formulas, issue trees, and mental math shortcuts. | [`09_rapid-revision.md`](09_rapid-revision.md) |
-| **10** | **Resources & Bibliography** | Recommended casebooks (Case in Point, Crafting Cases), video archives, and cross-links. | [`10_resources.md`](10_resources.md) |
-| **11** | **Truthful Project Alignment** | Generic technical project alignment templates and non-fabricated evidence guidelines. | [`11_projects.md`](11_projects.md) |
-| **12** | **Full Partner Mock Case** | 60-min Airline Loyalty Carve-Out simulation, 3 exhibits, partner scoring rubric. | [`12_mock-assessment.md`](12_mock-assessment.md) |
-| **Strategy** | **Corporate Strategy Track** | Dedicated nested track for CXO strategic planning & conglomerate leadership. | [`strategy/README.md`](strategy/README.md) |
+### Core Lessons (`lessons/`)
+- [`lessons/00_orientation_and_prerequisites.md`](lessons/00_orientation_and_prerequisites.md): Orientation, consulting firm spectrum, P&L terminology from zero, Phase 0 baseline test.
+- [`lessons/01_business_and_quantitative_foundations.md`](lessons/01_business_and_quantitative_foundations.md): Margin vs markup, percentage points, price-volume-mix decomposition, Little's Law, reading exhibits.
+- [`lessons/02_structured_problem_solving.md`](lessons/02_structured_problem_solving.md): 9-step problem solving, MECE tests, 5 complete issue trees with candidate critiques.
+- [`lessons/03_business_case_methodology.md`](lessons/03_business_case_methodology.md): 15 case archetypes (Profitability, Market Entry, M&A, Pricing, Cloud TCO, etc.) with dialogues.
+- [`lessons/04_guesstimates_and_market_sizing.md`](lessons/04_guesstimates_and_market_sizing.md): Estimation methodology, dual methods, 20 complete worked models with sanity checks.
+- [`lessons/05_consulting_math_textbook.md`](lessons/05_consulting_math_textbook.md): Math textbook: Rule of 72 derivations, CAGR limits, error traps, 30 worked exercises (Easy/Med/Hard).
+- [`lessons/06_industry_economics_and_strategy.md`](lessons/06_industry_economics_and_strategy.md): Business economics textbook: Value chains, 7 Powers, 6 industry profiles, framework critiques.
+
+### Flagship Worked Cases (`worked_cases/`)
+- [`worked_cases/case_01_airline_loyalty_carveout.md`](worked_cases/case_01_airline_loyalty_carveout.md): 60-min Airline Loyalty Spin-Off simulation, 3 exhibits, +$1.70B SOTP valuation unlock.
+- [`worked_cases/case_02_cement_plant_cost_turnaround.md`](worked_cases/case_02_cement_plant_cost_turnaround.md): Indian cement regional EBITDA recovery, fuel mix substitution, lead-distance optimization.
+- [`worked_cases/case_03_ev_battery_swapping_network.md`](worked_cases/case_03_ev_battery_swapping_network.md): CleanTech mobility EV two-wheeler swapping infrastructure, station unit economics & payback.
+- [`worked_cases/case_04_quick_commerce_dark_store_density.md`](worked_cases/case_04_quick_commerce_dark_store_density.md): Quick-commerce dark store unit economics, picker throughput, batch routing margin flip.
+- [`worked_cases/case_05_hospital_operating_room_yield.md`](worked_cases/case_05_hospital_operating_room_yield.md): Multi-specialty hospital capacity, bed turnover, ALOS compression, surgical OR yield.
+
+### Practice & Question Bank (`practice/`)
+- [`practice/question_bank_problems.md`](practice/question_bank_problems.md): Exactly 150 distinct, high-yield practice problems (Q001–Q150) without immediate spoilers.
+- [`practice/question_bank_solutions.md`](practice/question_bank_solutions.md): Comprehensive step-by-step solution manual with formulas, intermediate math, and takeaways.
+
+### Diagnostic & Mock Assessments (`assessments/`)
+- [`assessments/01_diagnostic_foundations_test.md`](assessments/01_diagnostic_foundations_test.md): 10 Math questions, 3 Guesstimates, 2 Mini-cases, 35-point scorecard & remediation paths.
+- [`assessments/02_quantitative_and_guesstimate_assessment.md`](assessments/02_quantitative_and_guesstimate_assessment.md): 45-min timed quantitative reasoning, exhibit interpretation, and market sizing drill.
+- [`assessments/03_full_partner_mock_interview.md`](assessments/03_full_partner_mock_interview.md): Comprehensive 60-min case simulation with partner grading rubric.
+
+### Practical Tools Labs (`tools_labs/`)
+- [`tools_labs/01_excel_financial_modeling_lab.md`](tools_labs/01_excel_financial_modeling_lab.md): Reproducible P&L model, 2-variable data sensitivity tables, XLOOKUP, SUMIFS.
+- [`tools_labs/02_powerpoint_executive_storylining_lab.md`](tools_labs/02_powerpoint_executive_storylining_lab.md): Pyramid Principle slide layouts, action titles, chart redesign before-and-afters.
+- [`tools_labs/03_sql_and_analytics_consulting_lab.md`](tools_labs/03_sql_and_analytics_consulting_lab.md): Production SQL cohort retention query, regression table interpretation for CXOs.
+
+### Quick Revision Center (`revision/`)
+- [`revision/01_consulting_formula_sheet.md`](revision/01_consulting_formula_sheet.md): One-stop formula lookup (Margins, CAGR, Little's Law, EOQ, OEE, LTV/CAC, WACC).
+- [`revision/02_issue_tree_and_framework_cheatsheet.md`](revision/02_issue_tree_and_framework_cheatsheet.md): Canonical issue trees, 7 Powers matrix, 9-step interview playbook.
+- [`revision/03_rapid_revision_30min.md`](revision/03_rapid_revision_30min.md): High-density 30-minute test eve review sheet.
+
+### Corporate Strategy Leadership Track (`strategy/`)
+- [`strategy/README.md`](strategy/README.md): Dedicated curriculum for internal corporate strategy, conglomerate leadership cadres (TAS, GMC, Reliance), and CXO strategic planning roles.
 
 ---
 
-## 5. Dedicated Corporate Strategy Subdirectory
+## 4. How to Navigate This Course
 
-The [`strategy/`](strategy/README.md) folder provides an autonomous, specialized curriculum for internal corporate strategy, conglomerate leadership cadres, and CXO strategic planning roles:
-- **`strategy/03_domain-knowledge.md`**: Corporate vs. BU Strategy, Industry Economics, EVA, M&A Synergies, Scenario Planning.
-- **`strategy/04_tools-and-technical.md`**: 5-Year Strategic Financial Planning Models, Board Deck Storyline Architecture.
-- **`strategy/06_question-bank.md`**: Solved Corporate Strategy Problems (Conglomerate Discount, Helmer's 7 Powers, Hostile Takeovers).
-- **`strategy/12_mock-assessment.md`**: Full 60-min CXO Presentation Mock Case: *Industrial Conglomerate Portfolio Restructuring & Clean Energy M&A*.
-
----
-
-## 6. Repository Integrity & Verification Rules
-
-1. **Instructional Rigor Over Headings**: No empty stubs, bullet-point definitions, or superficial checklists. All concepts include fundamentals, mathematical derivations, worked examples, and failure modes.
-2. **Generic & Truthful**: No personal identities, CV details, or thesis leaks. All resume and interview guidance uses structured, generic templates.
-3. **Verified Mathematical Baselines**: All market sizing baselines are grounded in official public demographic data (Census, RBI, MoSPI, DGCA) and documented in [`SOURCES_AND_VERIFICATION.md`](SOURCES_AND_VERIFICATION.md).
+1. **Self-Assessment**: Begin with [`assessments/01_diagnostic_foundations_test.md`](assessments/01_diagnostic_foundations_test.md) to benchmark your starting strengths and weaknesses.
+2. **Select Study Track**: Open [`STUDY_GUIDE.md`](STUDY_GUIDE.md) and pick your preparation timeline (30-Day, 14-Day, 7-Day, or 3-Day crash track).
+3. **Master Lessons**: Study through [`lessons/`](lessons/) in sequential order. Do not skip [`lessons/00_orientation_and_prerequisites.md`](lessons/00_orientation_and_prerequisites.md) and [`lessons/01_business_and_quantitative_foundations.md`](lessons/01_business_and_quantitative_foundations.md) if you lack a business background.
+4. **Independent Practice**: Attempt problems closed-book in [`practice/question_bank_problems.md`](practice/question_bank_problems.md) before checking solutions in [`practice/question_bank_solutions.md`](practice/question_bank_solutions.md).
+5. **Simulate Partner Mocks**: Undergo timed partner case simulations in [`worked_cases/`](worked_cases/) and [`assessments/03_full_partner_mock_interview.md`](assessments/03_full_partner_mock_interview.md).
