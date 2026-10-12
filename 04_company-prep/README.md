@@ -20,7 +20,8 @@ The `04_company-prep/` layer is organized into seven modular directories:
 ├── software-companies/            # Technology, SaaS & software systems firms (Darwinbox, DeltaX, Expeditor)
 └── company-specific-prep/         # High-yield end-to-end deep-dive preparation packages
     ├── accenture-japan/           # Accenture Japan — Digital Consultant (Analyst Entry) Package
-    └── citicorp-aim-analytics/    # Citicorp (CSIPL) — Business Analytics (SBS) AIM Package
+    ├── citicorp-aim-analytics/    # Citicorp (CSIPL) — Business Analytics (SBS) AIM Package
+    └── deloitte-analyst-ai-analytics/ # Deloitte US-India — Analyst (AI, Analytics & Tech Consulting) Pack
 ```
 
 ---
@@ -52,7 +53,7 @@ All facts in this directory are governed by strict provenance tags to distinguis
 | **HWRE & Water Resources** | [`hwre-companies/`](hwre-companies/README.md) | 121-company corporate target directory across 13 sector clusters (Water Consulting, GIS, EPC, Hydro, Pumps, Water Treatment, Energy Fluids). | [Vassarlabs](hwre-companies/02_water-resources-gis/001_vassarlabs.md), [AECOM](hwre-companies/01_water-consulting/022_aecom.md), [Mott MacDonald](hwre-companies/01_water-consulting/023_mott-macdonald.md), [SLB](hwre-companies/09_energy-fluids-rnd/006_slb-schlumberger.md). |
 | **Consulting & Advisory** | [`consulting-companies/`](consulting-companies/) | Strategic problem solving, analytics consulting, multidisciplinary engineering, and risk advisory. | [Mu Sigma](consulting-companies/mu-sigma.md), [KBR](consulting-companies/11_multidisciplinary-consulting/010_kbr.md), [TCE](consulting-companies/11_multidisciplinary-consulting/025_tata-consulting-engineers.md). |
 | **Software, Tech & SaaS** | [`software-companies/`](software-companies/) | Enterprise software, data analytics, cloud platforms, and supply chain technologies. | [Darwinbox](software-companies/darwinbox.md), [DeltaX](software-companies/deltax.md), [Tech Mahindra](software-companies/tech-mahindra.md), [CEI America](software-companies/cei-american.md). |
-| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS). |
+| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS)<br>[Deloitte USI Analyst](company-specific-prep/deloitte-analyst-ai-analytics/README.md) (AI, Analytics & Tech Consulting). |
 
 ---
 
@@ -81,6 +82,17 @@ For flagship campus opportunities with verified job descriptions or placement pr
   * [`03_PREDICTIVE_MODELING_ML.md`](company-specific-prep/citicorp-aim-analytics/03_PREDICTIVE_MODELING_ML.md) — Credit scoring, logistic regression, KS statistic, PSI, RFM, and K-Means segmentation.
   * [`04_INTERVIEW_AND_CASES.md`](company-specific-prep/citicorp-aim-analytics/04_INTERVIEW_AND_CASES.md) — 10 end-to-end retail banking analytics cases, analytical deduction puzzles, and guesstimates.
   * [`07_PROJECT_AND_RESUME_DEFENCE.md`](company-specific-prep/citicorp-aim-analytics/07_PROJECT_AND_RESUME_DEFENCE.md) — Grounded mapping of quantitative engineering research to banking analytics.
+
+### 4.3 Deloitte US-India — Analyst (AI, Analytics & Technology Consulting)
+* **Target Package**: [`company-specific-prep/deloitte-analyst-ai-analytics/`](company-specific-prep/deloitte-analyst-ai-analytics/README.md)
+* **Core Profile**: Technology consulting, applied artificial intelligence, enterprise lakehouse data engineering, business process transformation (S2P/O2C), and consultative problem solving.
+* **Key Components**:
+  * [`PLACEMENT_FACTS.md`](company-specific-prep/deloitte-analyst-ai-analytics/PLACEMENT_FACTS.md) — Verified compensation structure (₹13 LPA CTC: ₹10L Fixed + ₹2L Joining Bonus + ₹1L Variable).
+  * [`ROLE.md`](company-specific-prep/deloitte-analyst-ai-analytics/ROLE.md) & [`SELECTION_PROCESS.md`](company-specific-prep/deloitte-analyst-ai-analytics/SELECTION_PROCESS.md) — The Analyst Triad (Technical Depth, Business Process, Client Communication) & 3-round selection blueprint.
+  * [`01_` through `11_` Technical Modules](company-specific-prep/deloitte-analyst-ai-analytics/SYLLABUS_AND_COVERAGE.md) — Complete curriculum across Aptitude, Python DSA, SQL, Statistics, Lakehouse/PySpark, ML, GenAI/RAG, Graph Analytics, ERP Systems, Business Cases, and Behavioral Interviews.
+  * [`QUESTION_BANK_WITH_SOLUTIONS.md`](company-specific-prep/deloitte-analyst-ai-analytics/QUESTION_BANK_WITH_SOLUTIONS.md) — 200 fully worked practice questions across 10 syllabus domains.
+  * [`MOCK_TESTS_AND_ASSESSMENTS.md`](company-specific-prep/deloitte-analyst-ai-analytics/MOCK_TESTS_AND_ASSESSMENTS.md) — 4 timed mock assessments (Diagnostic, Foundational, AI/Cloud, Comprehensive Full-Spectrum) with full solutions and remediation matrix.
+  * [`RAPID_REVISION.md`](company-specific-prep/deloitte-analyst-ai-analytics/RAPID_REVISION.md) — High-yield formula sheet, SQL query templates, and interview traps for last-minute preparation.
 
 ---
 
