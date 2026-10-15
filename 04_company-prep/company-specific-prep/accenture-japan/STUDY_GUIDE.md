@@ -60,16 +60,16 @@ A **Digital Consultant** operates at the intersection of **Business Strategy** a
     * *Market Entry & Growth*: Sizing TAM/SAM/SOM, evaluating build vs buy vs partner.
     * *Digital Transformation (DX)*: Diagnosing legacy IT bottlenecks, cloud migration roadmaps, user adoption.
   * **Business Mathematics**:
-    * Gross Margin = $(	ext{Revenue} - 	ext{COGS}) / 	ext{Revenue}$
-    * EBITDA Margin = $	ext{EBITDA} / 	ext{Revenue}$
-    * Break-even Volume = $	ext{Fixed Costs} / (	ext{Price} - 	ext{Variable Cost per unit})$
-    * Customer Lifetime Value: $LTV = (	ext{ARPU} 	imes 	ext{Gross Margin}) / 	ext{Churn Rate}$
+    * Gross Margin = $(\text{Revenue} - \text{COGS}) / \text{Revenue}$
+    * EBITDA Margin = $\text{EBITDA} / \text{Revenue}$
+    * Break-even Volume = $\text{Fixed Costs} / (\text{Price} - \text{Variable Cost per unit})$
+    * Customer Lifetime Value: $LTV = (\text{ARPU} \times \text{Gross Margin}) / \text{Churn Rate}$
     * $LTV / CAC$ Ratio (Target: $>3.0x$, Payback $<12$ months).
-    * Rule of 72: Years to double $pprox 72 / 	ext{Growth Rate \%}$.
+    * Rule of 72: Years to double $\approx 72 / \text{Growth Rate \%}$.
 * **Practice Requirement**:
   * 15 timed issue-tree drills (90s each).
   * 10 consulting math mental calculations (zero paper errors).
-  * 8 business cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
+  * 6 comprehensive business cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
 * **Canonical Resources**: [`03_non_core/consulting/02_problem-solving.md`](../../../03_non_core/consulting/02_problem-solving.md) · [`01_common/placement-math/`](../../../01_common/placement-math/).
 
 ---
@@ -86,7 +86,7 @@ A **Digital Consultant** operates at the intersection of **Business Strategy** a
     * Window Functions: `ROW_NUMBER() OVER()`, `RANK()`, `DENSE_RANK()`, `LAG()`, `LEAD()`, running totals.
     * Business Scenarios: Daily Active Users (DAU), Monthly Active Users (MAU), Customer Retention, Top-N per Department.
 * **Practice Requirement**:
-  * Solve 30 Python problems and 40 SQL queries in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+  * Solve 20 Python challenges, 30 SQL queries, and 20 quantitative problems in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
 * **Canonical Resources**: [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) · [`03_non_core/software-engineering/programming/python.md`](../../../03_non_core/software-engineering/programming/python.md) · [`03_non_core/analytics/analytics/04_tools-and-technical-stack.md`](../../../03_non_core/analytics/analytics/04_tools-and-technical-stack.md).
 
 ---
@@ -115,7 +115,7 @@ A **Digital Consultant** operates at the intersection of **Business Strategy** a
   * **Enterprise Generative AI & LLMs**:
     * Tokens, Embeddings, Context Window limits, Hallucination risks.
     * **RAG (Retrieval-Augmented Generation) Architecture**:
-      $$	ext{User Query} \longrightarrow 	ext{Embedding Model} \longrightarrow 	ext{Vector Search (Cosine Similarity)} \longrightarrow 	ext{Context Ingestion} \longrightarrow 	ext{LLM Output}$$
+      $$\text{User Query} \longrightarrow \text{Embedding Model} \longrightarrow \text{Vector Search (Cosine Similarity)} \longrightarrow \text{Context Ingestion} \longrightarrow \text{LLM Output}$$
     * When to use Prompt Engineering vs RAG vs Fine-Tuning.
     * **Responsible AI & Security**: Enterprise data privacy, preventing PII leakage, Role-Based Access Control (RBAC), toxicity guardrails.
 * **Practice Requirement**:
@@ -130,7 +130,7 @@ A **Digital Consultant** operates at the intersection of **Business Strategy** a
   * **Manufacturing Systems**: SCADA (Supervisory Control), MES (Manufacturing Execution Systems), ERP integration.
   * **Key Operational Concepts**:
     * **OEE (Overall Equipment Effectiveness)**:
-      $$	ext{OEE} = 	ext{Availability} 	imes 	ext{Performance} 	imes 	ext{Quality}$$
+      $$\text{OEE} = \text{Availability} \times \text{Performance} \times \text{Quality}$$
     * Predictive Maintenance: Anomaly detection on telemetry streams to prevent unplanned downtime.
     * Digital Twins: Virtual replica of physical plant equipment for real-time stress simulation.
 * **Practice Requirement**:

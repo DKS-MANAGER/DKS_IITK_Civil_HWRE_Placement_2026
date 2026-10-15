@@ -68,17 +68,21 @@ Navigate directly to each modular preparation document:
 | **03. Placement Facts** | [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Verified JD facts, salary breakdown, relocation & benefits table (`[JD VERIFIED]`). |
 | **04. Role Blueprint** | [`ROLE.md`](ROLE.md) | Digital Consultant responsibilities, technology-agnostic philosophy & 3 career paths. |
 | **05. Selection Process** | [`SELECTION_PROCESS.md`](SELECTION_PROCESS.md) | Stage-by-stage selection guide from Resume to Offer release. |
-| **06. What To Study** | [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) | 4 Core Preparation Blocks (Consulting, Tech, Data/SQL, Interviews). |
-| **07. Technical Test** | [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) | Coding practice problems, SQL query exercises & tech comprehension. |
-| **08. Consulting Cases** | [`CONSULTING_CASES.md`](CONSULTING_CASES.md) | Digital Transformation (DX), Industry X IoT & GenAI RAG enterprise cases. |
-| **09. Interview Guide** | [`INTERVIEW.md`](INTERVIEW.md) | Manager Round (Round 1) vs Director Round (Round 2) strategy & answers. |
-| **10. Behavioural & HR** | [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) | STAR behavioral story bank, cross-cultural communication & Japanese readiness. |
-| **11. Resume Strategy** | [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) | Engineering to Digital Consultant resume reframing & bullet point formulas. |
-| **12. Project Strategy**| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | IIT engineering project defense framework & cloud modernization questions. |
-| **13. Question Bank** | [`QUESTION_BANK.md`](QUESTION_BANK.md) | Tagged question database (`[JD-VERIFIED]`, `[PREPARATION-INFERENCE]`, `[PREDICTED]`). |
-| **14. Readiness Scorecard**| [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | 11-domain weighted self-evaluation rubric & readiness tier benchmarks. |
-| **15. Error Log Engine** | [`ERROR_LOG.md`](ERROR_LOG.md) | Structured gap-tracking log with 11 error taxonomy categories. |
-| **16. Rapid Revision** | [`RAPID_REVISION.md`](RAPID_REVISION.md) | 60-minute, 3-hour & interview-day emergency checklists. |
+| **06. Syllabus & Coverage** | [`SYLLABUS_AND_COVERAGE.md`](SYLLABUS_AND_COVERAGE.md) | End-to-end 5-stage learning pathway (Stages A–E) & topic prerequisites. |
+| **07. What To Study** | [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) | 4 Core Preparation Blocks (Consulting, Tech, Data/SQL, Interviews). |
+| **08. Technical Test** | [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) | 20 Python challenges, 30 SQL queries, 20 Quant problems & 90-min mock test. |
+| **09. Consulting Cases** | [`CONSULTING_CASES.md`](CONSULTING_CASES.md) | 6 DX cases (Smart Factory, Cloud, GenAI RAG, Retail, Logistics, Green IT). |
+| **10. Interview Guide** | [`INTERVIEW.md`](INTERVIEW.md) | Manager Round (Round 1) vs Director Round (Round 2) strategy & answers. |
+| **11. Behavioural & HR** | [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) | STAR behavioral story bank, cross-cultural communication & Japanese readiness. |
+| **12. Resume Strategy** | [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) | Engineering to Digital Consultant resume reframing & bullet point formulas. |
+| **13. Project Strategy**| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | IIT engineering project defense framework & cloud modernization questions. |
+| **14. Question Bank** | [`QUESTION_BANK.md`](QUESTION_BANK.md) | Tagged question database (`[JD VERIFIED]`, `[EXTERNAL VERIFIED]`, `[PREPARATION INFERENCE]`). |
+| **15. Compensation & Benefits** | [`COMPENSATION_AND_BENEFITS.md`](COMPENSATION_AND_BENEFITS.md) | Detailed JPY 5.16M gross fixed, JPY 8.21M CTC, tax deductions & net take-home. |
+| **16. Relocation & Japanese** | [`JAPAN_RELOCATION_AND_LANGUAGE.md`](JAPAN_RELOCATION_AND_LANGUAGE.md) | Relocation package (JPY 1.7M+), Tokyo cost of living, 18-month Japanese roadmap. |
+| **17. Readiness Scorecard**| [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | 11-domain weighted self-evaluation rubric & readiness tier benchmarks. |
+| **18. Error Log Engine** | [`ERROR_LOG.md`](ERROR_LOG.md) | Structured gap-tracking log with 11 error taxonomy categories. |
+| **19. Rapid Revision** | [`RAPID_REVISION.md`](RAPID_REVISION.md) | FABEL-verified, exam-ready revision guide with self-test & answer key. |
+| **20. Audit & Coverage**| [`AUDIT_AND_COVERAGE.md`](AUDIT_AND_COVERAGE.md) | Comprehensive audit report of all directory files, bugs fixed & validation tests. |
 
 ---
 

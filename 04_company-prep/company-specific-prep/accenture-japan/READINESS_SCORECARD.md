@@ -42,8 +42,8 @@ Evaluate your readiness across each domain from **0 to 100 points**. Multiply by
 ## 📝 Candidate Self-Audit Checklist
 
 Before entering the official Accenture Japan interview rounds, confirm that you have:
-- [ ] Completed the 40 SQL questions in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
-- [ ] Practiced all 8 DX and Industry X cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
+- [ ] Completed the 30 SQL questions in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+- [ ] Practiced all 6 DX and Industry X cases in [`CONSULTING_CASES.md`](CONSULTING_CASES.md).
 - [ ] Rehearsed your 4-Step Project Defense for your Civil/HWRE thesis in [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md).
 - [ ] Memorized the technology-agnostic value proposition statement in [`ROLE.md`](ROLE.md).
 - [ ] Prepared 3 thoughtful strategic questions for the Managing Director in Round 2 ([`INTERVIEW.md`](INTERVIEW.md)).
