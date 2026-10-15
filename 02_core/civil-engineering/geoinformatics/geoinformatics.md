@@ -774,5 +774,5 @@ Three rainfall stations: A (2 km, 120 mm), B (5 km, 80 mm), C (1 km, 150 mm). Fi
 ---
 
 > **Last Updated:** 2026-09-03
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026
 > **Version:** 1.0 — Comprehensive Geoinformatics Guide

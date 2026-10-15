@@ -108,7 +108,7 @@
 7. **Test Stage**: HackerRank / CodeSignal SQL + Python data manipulation assessment.
 8. **Interview Defense**: `05_interview/technical/non-core/README.md` ("What is the difference between covariance stationarity and strict stationarity?", "How do you handle severe class imbalance without overfitting?").
 9. **Rapid Revision**: `06_revision/roles/analytics-revision.md`
-10. **Target Company Routing**: `04_company-prep/company-directory/` & `08_projects/streamflow-time-series/`
+10. **Target Company Routing**: `04_company-prep/company-directory/` & `08_projects/archetypes/environmental-time-series.md`
 
 ---
 

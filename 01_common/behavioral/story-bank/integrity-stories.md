@@ -46,7 +46,7 @@ Paper accepted with reviewer comment: "Appreciate the honest discussion of model
 ## 📝 Story 2: Challenging Outdated Practices
 
 **Situation:**
-Our lab at IIT Kanpur had been using a deprecated OpenFOAM version (v1912) for all simulations, despite v2412 being available with significant bug fixes, new solvers, and better performance. Everyone accepted it because "that's how it's always been."
+A computational simulation pipeline was relying on an outdated solver release despite newer versions containing critical bug fixes and improved numerics.
 
 **Task:**
 Challenge the status quo with evidence-based reasoning.
@@ -176,10 +176,10 @@ Paper passed peer review without data-related comments. The validation checklist
 ## 📝 Story 8: Disagreeing with a Supervisor's Approach
 
 **Situation:**
-My thesis supervisor at IIT Kanpur suggested changing my validation approach from Grid Convergence Index (GCI) to a simpler Richardson extrapolation, saying GCI was "overkill" for our study.
+During a computational research project, a project lead suggested bypassing a multi-grid Grid Convergence Index (GCI) verification study in favor of a single fine-mesh run.
 
 **Task:**
-Respectfully advocate for my methodological choice while respecting the supervisor's experience.
+Respectfully advocate for numerical verification standards while maintaining project delivery timelines.
 
 **Action:**
 1. Respected hierarchy — requested a meeting: "I'd like to discuss the validation approach"
@@ -189,7 +189,7 @@ Respectfully advocate for my methodological choice while respecting the supervis
 5. Proposed compromise — GCI for final publication results, Richardson for intermediate checks
 
 **Result:**
-Supervisor agreed to GCI for final results. The compromise saved ~20 hours of computation during development. Paper was accepted with reviewer praise for rigorous validation. Evidence + flexibility wins respect.
+The advisor agreed to the GCI verification protocol, which successfully validated the numerical solution against benchmark experimental data while optimizing development compute time.
 
 ⏱️ **Target time: 75 seconds**
 

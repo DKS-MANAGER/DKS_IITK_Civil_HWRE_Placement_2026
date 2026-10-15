@@ -32,7 +32,7 @@ The "Tell me about yourself" question is asked in 90%+ of interviews. Your answe
 ### Sample 2: Analytics/Data Science Role
 > "Good morning. I'm [Name], an M.Tech student in Civil Engineering (HWRE) at IIT Kanpur. While my core education is in water resources engineering, I've built a strong analytics toolkit over the past two years — Python for data analysis, SQL for database querying, and statistical modeling for predictive analytics.
 >
-> My thesis on bridge pier scour involved extensive data processing: I automated extraction of 10,000+ data points from CFD simulations using Python, built regression models to predict scour depth, and validated against experimental datasets. This sparked my interest in applying analytical methods to engineering problems.
+> In my technical projects, I automated extraction of 10,000+ spatial data points from CFD simulations using Python, built regression models to predict scour depth, and validated against experimental datasets. This sparked my interest in applying analytical methods to engineering problems.
 >
 > I've supplemented this with coursework in machine learning, completed the Google Data Analytics certification, and built projects including [project 1: e.g., flood prediction model] and [project 2: e.g., water quality analysis dashboard]. I also led a peer learning group of 15 students for placement preparation, creating SQL and Python practice materials.
 >
@@ -71,7 +71,7 @@ The "Tell me about yourself" question is asked in 90%+ of interviews. Your answe
 ### Sample 5: Research/R&D Role
 > "Good morning. I'm [Name], currently completing M.Tech in Civil Engineering (HWRE) at IIT Kanpur. My research focuses on computational fluid dynamics for sediment transport phenomena, specifically bridge pier scour modeling using OpenFOAM.
 >
-> My thesis contributions include: (1) Validation of an Eulerian two-phase CFD solver against Mao (1986) experimental data achieving 7% accuracy, (2) Development of a mesh independence protocol using Grid Convergence Index for scour simulations, (3) Investigation of turbulence model sensitivity (k-ε vs k-ω SST) for adverse pressure gradient flows around piers. This work has been accepted at [conference/journal].
+> My thesis contributions include: (1) Validation of an Eulerian two-phase CFD solver against published flume benchmark data experimental data achieving 7% accuracy, (2) Development of a mesh independence protocol using Grid Convergence Index for scour simulations, (3) Investigation of turbulence model sensitivity (k-ε vs k-ω SST) for adverse pressure gradient flows around piers. This work has been accepted at [conference/journal].
 >
 > Prior to M.Tech, I completed B.Tech at [Institute] where I worked on [project]. I also spent a summer at [Institute/Lab] working on [project], gaining experience with [specific tools/methods].
 >

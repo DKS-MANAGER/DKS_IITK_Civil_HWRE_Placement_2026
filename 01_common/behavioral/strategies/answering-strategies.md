@@ -26,7 +26,7 @@ R — Result (10-15 sec): Quantified outcome — numbers, percentages, timeframe
 | **Total** | **65-90 sec** | **100%** |
 
 ### Example (Q: "Tell me about a time you led a team")
-> **S:** "During my M.Tech thesis at IIT Kanpur, our 4-member team had to complete a CFD simulation of bridge pier scour within 8 weeks." (15 sec)
+> **S [Illustrative Sample]:** "During a collaborative postgraduate CFD simulation project, our student team had to complete a numerical model of bridge pier scour within an 8-week milestone.
 >
 > **T:** "I was assigned team lead responsible for coordinating mesh generation, solver setup, and result validation." (10 sec)
 >

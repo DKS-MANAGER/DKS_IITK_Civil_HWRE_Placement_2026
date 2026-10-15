@@ -354,4 +354,4 @@ $$Q = \frac{(P-0.2S)^2}{P+0.8S}, \quad S = \frac{25400}{CN} - 254$$
 
 > **Last Updated:** 2026-09-03
 > **Version:** 2.0 — Complete Consolidated Cheat Sheet
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026

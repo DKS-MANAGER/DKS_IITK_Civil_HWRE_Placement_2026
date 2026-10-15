@@ -24,7 +24,7 @@
 ## 📝 Story 1: Explaining CFD to Non-Experts
 
 **Situation:**
-During my thesis viva at IIT Kanpur, the external examiner — a structural engineer — asked about our turbulence modeling approach for sediment transport. He had no CFD background.
+During a cross-functional technical project defense, an external reviewer from structural engineering asked about numerical turbulence modeling choices.
 
 **Task:**
 Explain k-ω SST turbulence modeling and Euler-Euler coupling to someone unfamiliar with computational fluid dynamics.
@@ -200,7 +200,7 @@ Simulation converged 3 days later. Thesis submitted on time. Under pressure, cle
 ## 📝 Story 9: Persuading with Evidence
 
 **Situation:**
-Our lab at IIT Kanpur had been using a deprecated OpenFOAM version (v1912) despite v2412 being available with significant improvements. The lab head was resistant to change.
+A simulation research group had been running a legacy solver release despite modern distributions offering enhanced multiphase libraries and improved parallel efficiency.
 
 **Task:**
 Persuade the lab head to upgrade by presenting a compelling case.

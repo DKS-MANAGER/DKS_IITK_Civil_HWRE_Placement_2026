@@ -1,4 +1,4 @@
-# Master Index — DKS IITK Civil / HWRE Placement 2026
+# Master Index — IIT Kanpur Civil / HWRE Placement Preparation 2026
 
 > **Repository Master Directory & Canonical System Registry**  
 > **Target Audience:** IIT Kanpur M.Tech Civil Engineering / HWRE (DEEC 2026 Batch)  

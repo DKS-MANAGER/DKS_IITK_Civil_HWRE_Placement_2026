@@ -24,7 +24,7 @@
 ## 📝 Story 1: Pivoting Research Focus Mid-Project
 
 **Situation:**
-Midway through our M.Tech thesis at IIT Kanpur, our supervisor changed the research focus from pipeline scour to bridge pier scour — requiring different geometry, boundary conditions, and validation data. We had 6 weeks to pivot and deliver.
+Midway through a multi-phase computational fluid dynamics modeling milestone, project sponsors shifted the modeling focus from pipeline hydrodynamics to bridge pier scour — requiring different geometry, boundary conditions, and validation data. We had 6 weeks to pivot and deliver.
 
 **Task:**
 Adapt the entire project scope within the compressed timeline while maintaining quality.

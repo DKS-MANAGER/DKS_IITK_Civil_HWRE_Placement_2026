@@ -1,6 +1,6 @@
 # Civil Companies — Cross-Company Consolidated Strategy
 
-> Based on analysis of **25 civil-relevant companies** identified from the IITK 2025-26 placement dataset (516 postings, 276 unique companies). Created by DKS.
+> Based on analysis of **25 civil-relevant companies** identified from the IITK 2025-26 placement dataset (516 postings, 276 unique companies). Prepared for Placement Preparation.
 
 ---
 
@@ -263,4 +263,4 @@ Topics appearing across **3+ companies** — must-know for any civil placement i
 
 ---
 
-*Created by DKS | Source: [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) | 25 companies, 516 postings, 276 unique companies*
+*Prepared for Placement Preparation | Source: [`placement_data.csv`](../../../Civil_Placement_IITK/placement_data.csv) | 25 companies, 516 postings, 276 unique companies*

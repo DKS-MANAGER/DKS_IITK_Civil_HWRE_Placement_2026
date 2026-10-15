@@ -15,10 +15,10 @@
 ## Section 1: Quantitative Aptitude & Probability
 
 1. An e-commerce A/B test has a baseline conversion of 5%. What sample size is needed per variant to detect an absolute lift of 0.5% at 95% confidence and 80% power?
-   - *Solution*: $N pprox rac{16 \cdot p(1-p)}{\Delta^2} = rac{16 \cdot 0.05 \cdot 0.95}{(0.005)^2} = rac{0.76}{0.000025} = \mathbf{30,400	ext{ users per variant}}$.
+   - *Solution*: $N \approx \frac{16 \cdot p(1-p)}{\Delta^2} = \frac{16 \cdot 0.05 \cdot 0.95}{(0.005)^2} = \frac{0.76}{0.000025} = \mathbf{30,400\text{ users per variant}}$.
 
 2. A taxi-hailing app receives cancellation events following a Poisson process with $\lambda = 6$ per hour. What is the probability of observing exactly 2 cancellations in a 20-minute window?
-   - *Solution*: $\mu = 6 	imes rac{20}{60} = 2$. $P(X=2) = rac{e^{-2} \cdot 2^2}{2!} = 2 e^{-2} pprox \mathbf{27.06\%}$.
+   - *Solution*: $\mu = 6 \times \frac{20}{60} = 2$. $P(X=2) = \frac{e^{-2} \cdot 2^2}{2!} = 2 e^{-2} \approx \mathbf{27.06\%}$.
 
 ---
 
@@ -34,9 +34,9 @@
 
 **Question**: Which platform has the highest overall conversion efficiency from Landing Page to Checkout?
 - *Solution*:
-  - iOS: $rac{8,000}{50,000} = \mathbf{16.0\%}$
-  - Android: $rac{8,100}{120,000} = 6.75\%$
-  - Web: $rac{2,880}{80,000} = 3.6\%$
+  - iOS: $\frac{8,000}{50,000} = \mathbf{16.0\%}$
+  - Android: $\frac{8,100}{120,000} = 6.75\%$
+  - Web: $\frac{2,880}{80,000} = 3.6\%$
   - **iOS** is by far the highest converting platform ($16\%$).
 
 ---

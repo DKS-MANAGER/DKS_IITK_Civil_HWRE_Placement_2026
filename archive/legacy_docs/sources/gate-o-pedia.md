@@ -13,7 +13,7 @@
 | Publisher | Physics Wallah (PW) |
 | ISBN | 978-93-94342-51-4 |
 | Format | PDF (947 pages), extracted to TXT (37,734 lines) |
-| Repository path | `F:\2k26Placement\GATE-O-PEDIA - CIVIL ENGINEERING.txt` |
+| Repository path | `docs/sources/GATE-O-PEDIA.txt` |
 | Nature | Comprehensive GATE Civil Engineering handbook |
 
 ---

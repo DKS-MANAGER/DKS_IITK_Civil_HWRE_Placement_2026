@@ -52,7 +52,7 @@ Risk management in institutional banking, fintech, and asset management encompas
 | **Statistical & Probability Math**| OA Quantitative Screening | [04_tools-and-technical.md](04_tools-and-technical.md) & [06_question-bank.md](06_question-bank.md) | Bayes' theorem, Normal/Poisson distributions |
 | **Portfolio Risk & VaR** | Quantitative Risk Interview Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Parametric/Historical VaR, Expected Shortfall |
 | **SQL & Portfolio Analytics** | Live Coderpad SQL Round | [../../business-analyst/04_data-and-analytics/sql-practice.md](../../analytics/business-analyst/04_data-and-analytics/sql-practice.md) | Delinquency cohorts, roll-rate migration queries |
-| **Civil/HWRE Background** | Resume Defense & Uncertainty Modeling | [11_projects.md](11_projects.md) | BridgeRisk ML failure modeling / Flood extremes |
+| **Civil/HWRE Background** | Resume Defense & Uncertainty Modeling | [11_projects.md](11_projects.md) | Hydrodynamic Simulation Archetype ML failure modeling / Flood extremes |
 
 ---
 
@@ -60,5 +60,5 @@ Risk management in institutional banking, fintech, and asset management encompas
 
 1. **Credit Underwriting & Policy Tuning**: Setting cutoff credit scores ($FICO / CIBIL$) to balance loan approval volume against 90-day non-performing asset (NPA) loss rates.
 2. **Value at Risk (VaR) & Sensitivity Reporting**: Computing daily parametric and historical 99% 1-day VaR across multi-asset trading books to ensure compliance with regulatory capital mandates.
-3. **Loss Provisioning & IFRS 9 / CECL Modeling**: Calculating Expected Credit Loss ($ECL = PD 	imes LGD 	imes EAD$) across multi-stage loan portfolios.
+3. **Loss Provisioning & IFRS 9 / CECL Modeling**: Calculating Expected Credit Loss ($ECL = PD \times LGD \times EAD$) across multi-stage loan portfolios.
 4. **Stress Testing & Macroeconomic Scenarios**: Simulating portfolio survival under severe macroeconomic shocks (e.g. GDP contraction, interest rate spikes, commodity inflation).

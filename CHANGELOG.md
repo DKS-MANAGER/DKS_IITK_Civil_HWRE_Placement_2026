@@ -115,4 +115,4 @@ All notable changes to this repository are documented in this file. The format i
 
 ---
 
-**Maintainer:** Divyansh Kumar Singh, IIT Kanpur
+**Maintainer:** IIT Kanpur Placement Preparation Contributors

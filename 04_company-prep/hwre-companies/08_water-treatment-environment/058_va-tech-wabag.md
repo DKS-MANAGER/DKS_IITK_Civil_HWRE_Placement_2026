@@ -4,9 +4,6 @@
 > **Sector Category:** 08_water-treatment-environment | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 
-> [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/civil-va-tech-wabag.md](../../civil-va-tech-wabag.md).
-
 ---
 
 ## 1. Executive Snapshot & Hiring Fit

@@ -27,8 +27,10 @@
 | Number System | Important | Important | Important | Important | Important | Important | Important | Critical | Important |
 | SI & CI | Important | Important | Important | Important | Important | Useful | Critical | Useful | Important |
 | Mixtures & Alligation | Important | Important | Important | Important | Important | Useful | Critical | Useful | Important |
-| Probability | Useful | Useful | Useful | Important | Critical | Important | Important | Important | Useful |
-| Permutations & Combinations | Useful | Useful | Useful | Important | Critical | Important | Important | Important | Useful |
+| Probability | Useful | Useful | Useful | Important | Critical | Important | Critical | Important | Useful |
+| Permutations & Combinations | Useful | Useful | Useful | Important | Critical | Important | Critical | Important | Useful |
+| [**Advanced P&C Bank**](quantitative/advanced-pnc-problem-bank.md) | Useful | Useful | Useful | Important | **Critical** | Important | **Critical** | Important | Useful |
+| [**Advanced Prob & Stats Bank**](quantitative/advanced-probability-statistics-problem-bank.md) | Useful | Useful | Useful | Important | **Critical** | Important | **Critical** | Important | Useful |
 | Partnership | Useful | Useful | Useful | Useful | Useful | Useful | Important | Useful | Useful |
 | Problems on Ages | Important | Important | Important | Useful | Useful | Useful | Useful | Useful | Important |
 | Progressions | Useful | Useful | Useful | Useful | Useful | Useful | Useful | Useful | Useful |

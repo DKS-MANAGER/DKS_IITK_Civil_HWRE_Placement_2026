@@ -1,116 +1,142 @@
 # Accenture Japan — Placement Facts & Master Reference
 
 > **Document Status**: Authoritative Placement Data Record  
-> **Target Role**: Digital Consultant (Analyst Level entry)  
-> **Source Document**: `Accenture Japan 2026- Digital Consultant Job Description.pdf`  
-> **Target Audience**: IIT Undergraduate & Graduate Students (2026–2027 Placement Cycle)
+> **Employing Entity**: Accenture Japan Ltd. (`[JD VERIFIED]`)  
+> **Target Role**: Digital Consultant (Analyst Entry Level) (`[JD VERIFIED]`)  
+> **Primary Source Document**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` (`[JD VERIFIED]`) & IIT Kanpur Placement Proforma Phase 1, 2026–27 (`[IITK PROFORMA — PHASE 1 2026–27]`)  
+> **Target Audience**: IIT Kanpur Undergraduate & Postgraduate Students (Graduation by June 2027)
 
 ---
 
-## 1. Classification Standard
+## 1. Classification Taxonomy
 
-Every fact in this document and across the `04_company-prep/company-specific-prep/accenture-japan/` directory strictly adheres to the following classification scheme:
+Every data point and assertion in this guide adheres strictly to the following evidence taxonomy:
 
-* `[JD VERIFIED]`: Directly extracted from the official Accenture Japan Job Description PDF.
-* `[EXTERNAL VERIFIED]`: Verified from official Accenture Japan public corporate disclosures or official IIT placement portal announcements.
-* `[PREPARATION INFERENCE]`: Standardized prep recommendation derived by analytical mapping of JD requirements to consulting/technical interview norms.
+* `[JD VERIFIED]`: Directly extracted from the official Accenture Japan Job Description PDF (`Accenture Japan 2026- Digital Consultant Job Description.pdf`).
+* `[IITK PROFORMA — PHASE 1 2026–27]`: Formally documented in the IIT Kanpur Phase 1 Placement Proforma.
+* `[OFFICIAL PUBLIC SOURCE]`: Verified from official public corporate disclosures of Accenture Japan Ltd.
+* `[PREPARATION RECOMMENDATION]`: Analytical guidance derived from role responsibilities to structure interview preparation.
+* `[PRACTICE ASSUMPTION]`: Explicitly hypothetical scenario data used for practice cases and mock questions.
+* `[UNVERIFIED]`: Details that cannot currently be substantiated.
 
 ---
 
 ## 2. Core Corporate & Role Profile
 
-| Metric / Attribute | Verified Value / Fact | Classification |
-| :--- | :--- | :--- |
-| **Company Name** | Accenture Japan Ltd. | `[JD VERIFIED]` |
+| Metric / Attribute | Verified Value / Description | Source Classification |
+|---|---|---|
+| **Company Name** | **Accenture Japan Ltd.** | `[JD VERIFIED]` |
 | **Corporate Category** | MNC (Foreign Headquarters) | `[JD VERIFIED]` |
-| **Industry Sectors** | Industry and Enterprise, Song, Finance, Talent, Digital Core, Cybersecurity | `[JD VERIFIED]` |
-| **Business Type** | Professional Services / Consulting Services | `[JD VERIFIED]` |
-| **Job Designation** | Digital Consultant | `[JD VERIFIED]` |
-| **Entry Rank** | Analyst (progressing to Consultant → Manager) | `[JD VERIFIED]` |
-| **Primary Location** | Tokyo Office affiliation (Nationwide centered on Tokyo metropolitan area) | `[JD VERIFIED]` |
-| **Travel / Relocation** | Business trips within Japan and overseas; future office changes possible | `[JD VERIFIED]` |
-| **Bond / Service Contract** | **No** bond or service contract | `[JD VERIFIED]` |
-| **Tentative Date of Joining** | **December 2027** | `[JD VERIFIED]` |
+| **Sectors / Capabilities**| Industry and Enterprise, Song, Finance, Talent, Digital Core, Cybersecurity | `[JD VERIFIED]` |
+| **Business Nature** | Professional Services / Consulting Services | `[JD VERIFIED]` |
+| **Job Designation** | **Digital Consultant** | `[JD VERIFIED]` |
+| **Entry Level** | **Analyst** (progressing to Consultant $\to$ Manager) | `[JD VERIFIED]` |
+| **Global Scale** | ~800,000 professionals worldwide | `[JD VERIFIED]` |
+| **Primary Location** | **Tokyo Office affiliation** (Nationwide centered on Tokyo metropolitan area) | `[JD VERIFIED]` |
+| **Mobility / Travel** | Possibility of business trips in Japan & overseas, and future office relocations | `[JD VERIFIED]` |
+| **Bond / Service Contract**| **No** bond or service contract | `[JD VERIFIED]` |
+| **Tentative Date of Joining**| **December 2027** | `[JD VERIFIED]` |
+| **Offer Letter Release** | Approximately **1 week** after final interview offer | `[JD VERIFIED]` |
 
 ---
 
-## 3. Eligibility & Candidate Criteria
+## 3. Candidate Eligibility & Degree Verification
 
-| Requirement | Details / Constraints | Classification |
-| :--- | :--- | :--- |
-| **Academic Origin** | Must graduate from an **IIT college or graduate school** | `[JD VERIFIED]` |
-| **Degree Level** | Bachelor's degree or higher (any field of study, earned or expected) | `[JD VERIFIED]` |
+| Requirement | Official Specification | Source Classification |
+|---|---|---|
+| **Institution Eligibility** | Must graduate from an **IIT college or graduate school** | `[JD VERIFIED]` |
+| **Degree Level & Discipline**| **Bachelor's degree or higher required (any field of study, earned or expected)** $\implies$ **M.Tech Civil Engineering / HWRE is formally eligible** | `[JD VERIFIED]` |
 | **Graduation Deadline** | Must graduate by **June 2027** | `[JD VERIFIED]` |
-| **Joining Deadline** | Must be able to join by **December 2027** | `[JD VERIFIED]` |
-| **Experience Restriction** | Candidates with **any full-time professional work experience after completing bachelor's degree are NOT eligible** | `[JD VERIFIED]` |
-| **English Requirement** | **Native level** | `[JD VERIFIED]` |
-| **Japanese Requirement** | **Not required at the time of employment**, but required after joining. Mindset open to change & learning Japanese is essential. | `[JD VERIFIED]` |
+| **Joining Availability** | Must be able to join by **December 2027** | `[JD VERIFIED]` |
+| **Work Experience Rule** | **"Any full-time professional work experience after completing their bachelor's degree are NOT eligible to apply."** | `[JD VERIFIED]` |
+| **English Language** | **Native level** | `[JD VERIFIED]` |
+| **Japanese Language** | **Not required at the time of employment**, but **will be required after joining the company**. Mindset open to change & learning Japanese is essential. | `[JD VERIFIED]` |
 
 ---
 
-## 4. Selection Process & Round Details
+## 4. Selection Process & Round Architecture (`[JD VERIFIED]`)
 
 ```text
-[Resume Screening] 
-       │
-       ▼
-[Technology / Technical / Coding Test]  (Online Designated Platform)
-       │
-       ▼
-[Manager Level Interview]               (Web via ZOOM / 30 mins)
-       │
-       ▼
-[Director Level Interview]              (Web via ZOOM / 30 mins)
+┌─────────────────────────────────┐
+│ Stage 1: Resume Screening       │ ──► Verified IIT degree & zero post-bachelor exp.
+└────────────────┬────────────────┘
+                 │ Pass
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 2: Technical / Coding Test│ ──► Designated Online Platform (Coding, Data, SQL, Logic)
+└────────────────┬────────────────┘
+                 │ Pass
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 3: Interview Round 1      │ ──► Manager Level (ZOOM / 30 mins) — Tech depth & cases
+└────────────────┬────────────────┘
+                 │ Pass
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 4: Interview Round 2      │ ──► Director Level (ZOOM / 30 mins) — Vision, Fit & Japan
+└────────────────┬────────────────┘
+                 │ Offer (~1 Week)
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 5: Offer Letter & Relocate│ ──► Joining: December 2027
+└─────────────────────────────────┘
 ```
 
-| Round | Stage Name | Format & Platform | Duration | Key Evaluators | Classification |
-| :---: | :--- | :--- | :--- | :--- | :--- |
-| **1** | Resume Screening | Document Evaluation | — | HR & Recruitment Team | `[JD VERIFIED]` |
-| **2** | Technical / Coding Test | Designated Online Platform | Timed Test | Assessment Engine | `[JD VERIFIED]` |
-| **3** | Interview Round 1 | Web Interview (ZOOM / Mandated) | 30 minutes | Manager Level | `[JD VERIFIED]` |
-| **4** | Interview Round 2 | Web Interview (ZOOM / Mandated) | 30 minutes | Director Level | `[JD VERIFIED]` |
-| **Result** | Offer Letter Release | Formal Document | ~1 Week after offer | Talent Acquisition | `[JD VERIFIED]` |
+| Round | Stage Name | Format & Platform | Duration | Evaluator Level | Status |
+|:---:|---|---|:---:|---|---|
+| **1** | Resume Screening | Document Verification | — | Recruitment Team | `[JD VERIFIED]` |
+| **2** | Technology / Technical / Coding Test | Designated Online Platform | Timed Assessment | Online Platform Engine | `[JD VERIFIED]` |
+| **3** | Technical Interview (Round 1) | Web Interview (ZOOM / Mandated) | **30 minutes** | **Manager Level** | `[JD VERIFIED]` |
+| **4** | Final Interview (Round 2) | Web Interview (ZOOM / Mandated) | **30 minutes** | **Director Level** | `[JD VERIFIED]` |
+| **Offer** | Offer Letter Release | Formal Contract | ~1 week post-interview | Talent Acquisition | `[JD VERIFIED]` |
 
 ---
 
-## 5. Compensation & Financial Package (Gross & Allowances)
+## 5. Compensation & Package Reconciliation (`[JD VERIFIED]`)
 
-All financial figures are in Japanese Yen (JPY):
+The proforma Total Planned CTC of **JPY 8,214,021** reconciles to the penny as follows:
 
-| Component | Value (Annual / Lump Sum) | Monthly Breakdown | Classification |
-| :--- | :--- | :--- | :--- |
+| Package Component | Annual / One-time Amount | Monthly Breakdown | Classification |
+|---|---:|---:|---|
 | **Planned Annual Base Salary** | JPY 4,800,000 | JPY 400,000 / month | `[JD VERIFIED]` |
 | **Housing Allowance** | JPY 360,000 | JPY 30,000 / month | `[JD VERIFIED]` |
-| **Gross Fixed Salary** | **JPY 5,160,000** | **JPY 430,000 / month** | `[JD VERIFIED]` |
-| **Total Planned CTC (Year 1)** | **JPY 8,214,021** | Includes performance bonus & sign-on | `[JD VERIFIED]` |
-| **Signing Bonus** | **JPY 500,000** | Two-time payment | `[JD VERIFIED]` |
-| **Annual Performance Bonus** | Included in planned annual base/CTC | Paid per company policy | `[JD VERIFIED]` |
-| **Overtime / Special Allowances**| Overtime, Late-night work, Business trip, Transportation allowances | Paid as per actual work | `[JD VERIFIED]` |
+| **Fixed Gross Salary Subtotal**| **JPY 5,160,000** | **JPY 430,000 / month** | `[JD VERIFIED]` |
+| **Signing Bonus** | JPY 500,000 | Two-time payment | `[JD VERIFIED]` |
+| **Employees' Health Insurance**| JPY 196,800 | Employer contribution | `[JD VERIFIED]` |
+| **Employees' Pension Insurance**| JPY 450,180 | Employer contribution | `[JD VERIFIED]` |
+| **Employment Insurance** | JPY 43,200 | Employer contribution | `[JD VERIFIED]` |
+| **International Flights (India–Japan)**| JPY 150,000 | Flight ticket per person cap | `[JD VERIFIED]` |
+| **Serviced Apartment (2 months)**| JPY 816,183 | Corporate transitional housing | `[JD VERIFIED]` |
+| **Japanese Language Training** | JPY 664,658 | Pre/post-joining sponsored training | `[JD VERIFIED]` |
+| **Administrative Scrivener Support**| JPY 80,000 | Visa, COE & legal procedures | `[JD VERIFIED]` |
+| **Property Search & Moving** | JPY 65,000 | Permanent rental setup support | `[JD VERIFIED]` |
+| **Pre-Arrival Administrative Setup**| JPY 80,000 | Setup guidance & follow-up | `[JD VERIFIED]` |
+| **Telephone Advisory Service**| JPY 8,000 | 3-month consultation service | `[JD VERIFIED]` |
+| **TOTAL PLANNED YEAR 1 CTC** | **JPY 8,214,021** | **Exact Arithmetic Sum** | `[JD VERIFIED]` |
+
+### Detailed Compensation Analysis
+* See [`COMPENSATION_AND_BENEFITS.md`](COMPENSATION_AND_BENEFITS.md) for full net take-home calculations, tax withholdings (*Shotokuzei* and *Juminzei*), and Tokyo living budgets.
 
 ---
 
-## 6. Relocation & Relocation Support Package
+## 6. Official Working Hours, Leave & Welfare Benefits (`[JD VERIFIED]`)
 
-Accenture Japan provides comprehensive relocation assistance valued at over **JPY 1,700,000+**:
-
-| Relocation Item | Coverage / Monetary Value | Classification |
-| :--- | :--- | :--- |
-| **International Airfare** | India to Japan flight ticket (Domestic flights at personal expense): JPY 150,000 cap | `[JD VERIFIED]` |
-| **Temporary Accommodation** | Serviced apartment for 2 months after arrival (Valued at JPY 816,183) | `[JD VERIFIED]` |
-| **Japanese Language Training** | Comprehensive pre/post joining language program (Valued at JPY 664,658) | `[JD VERIFIED]` |
-| **Administrative Scrivener Support** | Visa, COE, Legal administrative procedures (Valued at JPY 80,000) | `[JD VERIFIED]` |
-| **Telephone Consultation Service** | 3-month dedicated advisory support (Valued at JPY 8,000) | `[JD VERIFIED]` |
-| **COE & Visa Acquisition** | End-to-end guidance, documentation, and visa submission support | `[JD VERIFIED]` |
-| **Airport & Arrival Support** | Airport greeting upon arrival in Japan + transport to accommodation | `[JD VERIFIED]` |
-| **Settling-In Assistance** | Property viewing, rental contract, utility setup (water, gas, electricity, internet), SIM card, bank account opening, My Number Card, National Pension registration, health check-up scheduling, daily necessity shopping accompaniment | `[JD VERIFIED]` |
+| Policy Area | Verified Terms & Conditions |
+|---|---|
+| **Standard Working Hours** | 9:00 – 18:00 (Standard working hours: 8 hours/day) |
+| **Holidays & Days Off** | 2 days off per week (Saturdays and Sundays), National holidays, Year-end and New Year holidays, Annual paid leave, Sick leave (available post-probation), Wedding / Childbirth / Bereavement leave (including life partners), Volunteer leave. |
+| **Allowances** | Overtime allowance, Late-night work allowance (22:00–05:00), Business trip allowance, Housing allowance (JPY 30,000/mo included in gross), Transportation allowance (full commuter pass). |
+| **Social Insurance** | Employees' Health Insurance, Employees' Pension Insurance, Employment Insurance. |
+| **Corporate Benefits** | Defined contribution pension plan, Long-Term Disability (LTD) income compensation, Industrial physician health counseling, Employee Assistance Program (EAP), Cafeteria plan, Benefit Station corporate discounts, Club activities. |
 
 ---
 
-## 7. Working Hours, Holidays & Social Insurance
+## 7. Relocation & Administrative Roadmap (`[JD VERIFIED]`)
 
-| Benefit / Policy Category | Details | Classification |
-| :--- | :--- | :--- |
-| **Official Working Hours** | Standard 9:00 – 18:00 (8 working hours / day) | `[JD VERIFIED]` |
-| **Holidays & Time Off** | 2 days off per week (Sat & Sun), National holidays, Year-end & New Year holidays, Annual paid leave, Sick leave, Wedding/childbirth/bereavement leave, Volunteer leave | `[JD VERIFIED]` |
-| **Social Insurance** | Employees' Health Insurance, Employees' Pension Insurance, Employment Insurance | `[JD VERIFIED]` |
-| **Welfare & Health Benefits** | Defined contribution pension plan, Long-Term Disability (LTD) compensation, Club activities, Health counseling office with industrial physician, EAP counseling, Cafeteria plan, Benefit Station discounts | `[JD VERIFIED]` |
+Detailed in [`JAPAN_RELOCATION_AND_LANGUAGE.md`](JAPAN_RELOCATION_AND_LANGUAGE.md):
+* COE (Certificate of Eligibility) and Visa processing handled by Administrative Scriveners.
+* Meet-and-greet support at Tokyo airports (Haneda / Narita) + transportation to accommodation.
+* 2-month serviced apartment move-in inspection.
+* Municipal registration: Resident certificate (*Juminhyo*), My Number Card, National Pension.
+* Banking (opening account) and mobile SIM card setup.
+* Permanent property selection, viewings, rental lease agreement, and utility connections (water, gas, electricity, internet).

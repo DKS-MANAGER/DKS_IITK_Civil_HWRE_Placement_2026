@@ -183,12 +183,12 @@ def flag_outliers_iqr(df: pd.DataFrame) -> pd.DataFrame:
 
 ### Q26 [P0][STATS]: How do you determine sample size for an A/B test on website conversion rate?
 **Formula**:
-$$n = rac{2 \cdot (Z_{lpha/2} + Z_{eta})^2 \cdot p(1-p)}{\delta^2}$$
+$$n = \frac{2 \cdot (Z_{\alpha/2} + Z_{\beta})^2 \cdot p(1-p)}{\delta^2}$$
 Where:
-- $lpha = 0.05 \implies Z_{lpha/2} = 1.96$ (95% Significance / 5% False Positive Rate)
-- $eta = 0.20 \implies Z_{eta} = 0.84$ (80% Statistical Power)
-- $p = 	ext{Baseline Conversion Rate}$
-- $\delta = 	ext{Minimum Detectable Effect (MDE)}$
+- $\alpha = 0.05 \implies Z_{\alpha/2} = 1.96$ (95% Significance / 5% False Positive Rate)
+- $\beta = 0.20 \implies Z_{\beta} = 0.84$ (80% Statistical Power)
+- $p = \text{Baseline Conversion Rate}$
+- $\delta = \text{Minimum Detectable Effect (MDE)}$
 
 *Interviewer Follow-Up*: What is p-hacking and how do you prevent it?  
 *(P-hacking occurs when experimenters continuously check p-values and stop tests early as soon as significance is reached. Prevent via fixed sample sizes or sequential testing frameworks like SPRT).*

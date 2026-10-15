@@ -66,13 +66,13 @@ LEARNINGS & FUTURE WORK:
 
 ## 🎯 5 Sample Project Pitches
 
-### Pitch 1: CFD Bridge Pier Scour (M.Tech Thesis)
+### Pitch Archetype 1: Hydrodynamic Scour Modeling [Illustrative Defense Framework]
 **Problem:** Bridge pier scour causes 60% of bridge failures in India. Existing empirical formulas (HEC-18) have ±30% uncertainty. Need physics-based prediction.
 
 **My Contribution:**
 - Built 2D OpenFOAM case with Eulerian two-phase solver (k-ω SST turbulence)
 - Designed mesh independence study using Grid Convergence Index (3 mesh levels)
-- Validated against Mao (1986) experimental data — achieved 7% error in scour depth
+- Validated against published flume benchmark experimental data — achieved < 8% relative error in scour depth
 - Automated parameter sweeps (50+ runs) with Python for turbulence model sensitivity
 
 **Methodology:** Eulerian two-phase CFD solver, k-ω SST turbulence, Exner equation for bed evolution. Chose SST over k-ε for adverse pressure gradient near pier.
@@ -89,7 +89,7 @@ LEARNINGS & FUTURE WORK:
 
 ---
 
-### Pitch 2: Pipeline Scour CFD Validation (B.Tech Project)
+### Pitch Archetype 2: Multiphase Conduit Flow Validation [Illustrative Defense Framework]
 **Problem:** Subsea pipeline scour threatens offshore infrastructure. Need reliable CFD tool for design.
 
 **My Contribution:**

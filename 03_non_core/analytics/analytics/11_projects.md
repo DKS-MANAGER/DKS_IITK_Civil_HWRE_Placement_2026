@@ -11,7 +11,7 @@ Corporate analytics recruiters prioritize **quantitative problem solving, comple
 ```text
 CIVIL / RESEARCH ANCHOR                   DECISION SCIENCE TRANSLATION
 ┌────────────────────────────────┐       ┌────────────────────────────────┐
-│ Structural Scour / BridgeRisk  │ ───>  │ Predictive ML & Risk Analytics │
+│ Structural Scour / Hydrodynamic Simulation Archetype  │ ───>  │ Predictive ML & Risk Analytics │
 │ Rainfall-Runoff Time Series    │ ───>  │ Time-Series Demand Forecasting │
 │ Sensor Telemetry Calibration   │ ───>  │ Anomaly Detection & Pipelines  │
 │ CFD Hydrodynamic Optimization  │ ───>  │ Multi-Variable System Modeling │
@@ -24,7 +24,7 @@ CIVIL / RESEARCH ANCHOR                   DECISION SCIENCE TRANSLATION
 
 > *[EXAMPLE — Replace bracketed metrics with your actual, verified project results]*
 
-### 1. BridgeRisk / Structural Failure Prediction (Primary Analytics Project)
+### 1. Hydrodynamic Simulation Archetype / Structural Failure Prediction (Primary Analytics Project)
 - **Civil Engineering Context**: Predictive classification of bridge failure probability using machine learning.
 - **Analytics Resume Bullet Formulation**:
   > *"Engineered predictive machine learning pipeline (XGBoost / LightGBM) on [15,000+ infrastructure records]; implemented SHAP feature attribution and Information Value analysis to identify [top 4 risk drivers], achieving an ROC-AUC of [0.88] and improving classification precision by [18%]."*

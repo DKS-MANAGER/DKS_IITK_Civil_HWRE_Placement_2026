@@ -92,7 +92,7 @@
 **Framework:** Technical + Process
 **Answer Guide:**
 - Grid Convergence Index (GCI) following ASME V&V 20 standards
-- Comparison against experimental data (Mao 1986)
+- Comparison against experimental flume benchmark datasets
 - Mesh independence study with 3 refinement levels
 - Sensitivity analysis on turbulence models (k-ε vs k-ω SST)
 

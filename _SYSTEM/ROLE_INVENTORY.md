@@ -38,7 +38,7 @@
 
 ### 4. Consulting
 - **Track:** Non-Core
-- **Files:** [`consulting-overview.md`](../non-core/01_roles/consulting/consulting-overview.md), [`case-frameworks.md`](../05_interview/case-interview/case-interviews/case-frameworks.md), [`case-bank.md`](../../03_non_core/consulting/cases/case-bank.md)
+- **Files:** [`01_role-overview.md`](../03_non_core/consulting/01_role-overview.md), [`case-frameworks.md`](../05_interview/case-interview/case-interviews/case-frameworks.md), [`07_practice-and-cases.md`](../03_non_core/consulting/07_practice-and-cases.md)
 - **Total Words:** 5,421 | **Files:** 3 | **Status:** STRONG
 - **Study Files:** ✅ Frameworks, 15+ cases, worked examples
 - **Question Files:** ✅ 15 questions + 8 behavioral

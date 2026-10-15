@@ -60,7 +60,7 @@ When asked: *"Our e-commerce app's Daily Active Users (DAU) dropped 12% week-ove
 research centered around quantitative problem solving—analyzing large environmental time-series datasets,
 building predictive hydrodynamic models, and optimizing resource distribution under physical constraints.
 
-Through projects like BridgeRisk and computational flow simulations, I discovered that my strongest passion
+Through projects like Hydrodynamic Simulation Archetype and computational flow simulations, I discovered that my strongest passion
 lies in applied data science—querying large datasets, building predictive statistical models, and translating
 quantitative patterns into actionable decisions.
 

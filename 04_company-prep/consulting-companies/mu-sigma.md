@@ -90,11 +90,11 @@ Day 4: Guesstimates | Day 5: SQL + Excel | Day 6: GD | Day 7: Mock
 ```
 
 ## Cross-Links
-- [Non-Core Prep (Analytics)](../../03_non_core/analytics/analytics/non-core-prep.md)
+- [Non-Core Prep (Analytics)](../../03_non_core/analytics/analytics/README.md)
 - [Aptitude Basics](../../01_common/aptitude/quantitative/README.md)
 - [SQL for Analytics](../../03_non_core/analytics/analytics/)
-- [Communication Skills](../../01_common/placement-math/communication/communication.md)
-- [Mock Interviews](../interview/mock-tests/)
+- [Communication Skills](../../01_common/interview-fundamentals/communication-skills.md)
+- [Mock Interviews](../../05_interview/mock-interviews/MOCK_INTERVIEW.md)
 
 ## Sources
 - [Mu Sigma Interview Experience](https://youtu.be/F-tMqMIdmz4?feature=shared)

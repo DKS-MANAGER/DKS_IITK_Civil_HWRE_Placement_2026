@@ -23,10 +23,10 @@
 
 ## 📝 Story 1: Leading a Technical Project
 
-> **Framing:** "In my M.Tech thesis project at IIT Kanpur, our 4-member team had to complete a CFD simulation of bridge pier scour within 8 weeks — geometry, meshing, solver setup, validation, and documentation."
+> **Framing [Illustrative Scenario]:** "In a collaborative engineering simulation project, our 4-member team had to complete a CFD simulation of bridge pier scour within 8 weeks — geometry, meshing, solver setup, validation, and documentation."
 
 **Situation:**
-During my M.Tech thesis at IIT Kanpur, our 4-member team was tasked with simulating 2D pipeline/bridge pier scour using OpenFOAM. The scope included geometry creation, mesh generation, solver configuration, validation against experimental data, and final documentation. The deadline was non-negotiable — 8 weeks.
+During a collaborative engineering project, a 4-member student team was tasked with simulating 2D hydrodynamic scour using OpenFOAM. The scope included geometry creation, mesh generation, solver configuration, validation against experimental data, and final documentation. The deadline was non-negotiable — 8 weeks.
 
 **Task:**
 I was assigned team lead. My responsibility was to coordinate mesh generation, solver setup, and result validation across the team while ensuring we met our weekly milestones.
@@ -51,7 +51,7 @@ We completed 2 weeks ahead of schedule with 95% mesh convergence. Presented at t
 > **Framing:** "Two junior students in our lab were struggling with OpenFOAM case setup for their thesis."
 
 **Situation:**
-Two junior students in our lab at IIT Kanpur were struggling with OpenFOAM case setup for their thesis — they had the physics background but lacked computational workflow experience. My guide asked me to help them get their simulations running within 4 weeks.
+Junior team members joining a computational modeling project were struggling with initial OpenFOAM case setup and boundary condition configurations — they had the physics background but lacked computational workflow experience. My guide asked me to help them get their simulations running within 4 weeks.
 
 **Task:**
 I needed to take them from "I don't know where to start" to "my simulation is running and producing results" — within 4 weeks, without derailing my own thesis progress.
@@ -127,7 +127,7 @@ I decided to take initiative and create a structured preparation program without
 > **Framing:** "Two weeks before our thesis submission, our main CFD simulation started diverging. The team was panicking."
 
 **Situation:**
-Two weeks before our thesis submission at IIT Kanpur, our main CFD simulation of bridge pier scour started diverging after 500 time steps, producing unphysical sediment concentrations. The team was panicked — we had no backup and the deadline was immovable.
+Two weeks before a major project delivery milestone, a key multiphase CFD simulation began diverging after 500 time steps, producing unphysical sediment concentrations. The team was panicked — we had no backup and the deadline was immovable.
 
 **Task:**
 As team lead, I needed to diagnose and fix the divergence issue while keeping the team calm and on track for submission.
@@ -152,7 +152,7 @@ Simulation converged, thesis submitted on time with high quality. Team confidenc
 > **Framing:** "Mid-project, our supervisor changed the entire research focus. I had to decide whether to resist or adapt — and execute fast."
 
 **Situation:**
-Midway through our M.Tech thesis at IIT Kanpur, our supervisor changed the research focus from pipeline scour to bridge pier scour — completely different geometry, boundary conditions, and validation data. We had 6 weeks remaining to deliver results.
+Midway through a technical modeling milestone, project leadership shifted the research focus from pipeline scour to bridge pier hydrodynamics — completely different geometry, boundary conditions, and validation data. We had 6 weeks remaining to deliver results.
 
 **Task:**
 I had to make a critical decision: resist the change (risking advisor relationship) or adapt quickly (risking quality due to compressed timeline). Then I had to execute the chosen path.

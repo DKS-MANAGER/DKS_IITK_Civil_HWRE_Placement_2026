@@ -31,31 +31,31 @@
 | 13 | Blood Relations + Direction Sense | 15 | — |
 | 14 | **Review + Error Log** | 20 (mixed) | Topic Test 2 |
 
-### Week 3 — Reasoning + DI + Verbal (Days 15–21)
+### Week 3 — Reasoning + DI + Advanced Quant (Days 15–21)
 | Day | Focus | Questions | Timed Test |
 |:----|:------|:---------:|:----------:|
 | 15 | Syllogism + Order & Ranking | 15 | — |
 | 16 | DI — Tables & Caselets | 15 | — |
-| 17 | DI — Bar/Line/Pie | 15 | — |
-| 18 | Reading Comprehension | 10 | — |
+| 17 | DI — Bar/Line/Pie + Missing Data | 15 | — |
+| 18 | Reading Comprehension & Critical Reasoning | 15 | — |
 | 19 | Grammar + Sentence Completion | 15 | — |
-| 20 | Probability + P&C | 15 | — |
-| 21 | **Review + Error Log** | 20 (mixed) | Topic Test 3 |
+| 20 | [Advanced P&C Problem Bank](quantitative/advanced-pnc-problem-bank.md) (L1–L4) | 20 | P&C Sectional |
+| 21 | [Advanced Prob & Stats Bank](quantitative/advanced-probability-statistics-problem-bank.md) (L1–L4) | 20 | Probability Sectional |
 
 ### Week 4 — Mocks + Polish (Days 22–30)
 | Day | Focus | Questions | Timed Test |
 |:----|:------|:---------:|:----------:|
-| 22 | Full Mock 1 | 40–60 | Mock 1 |
-| 23 | Error analysis + weak topics | 20 | — |
-| 24 | Full Mock 2 | 40–60 | Mock 2 |
-| 25 | Error analysis + weak topics | 20 | — |
-| 26 | Full Mock 3 | 40–60 | Mock 3 |
-| 27 | Error analysis + weak topics | 20 | — |
-| 28 | Full Mock 4 | 40–60 | Mock 4 |
-| 29 | Rapid revision | — | — |
-| 30 | **Final review + light practice** | 20 | — |
+| 22 | Full Placement Mock 1 | 50 | [Mock 01](mocks/full-placement-mock-01.md) |
+| 23 | Error analysis + weak topics review | 20 | — |
+| 24 | Full Placement Mock 2 | 50 | [Mock 02](mocks/full-placement-mock-02.md) |
+| 25 | [Hard Placement Mock 01](mocks/hard-placement-mock-01.md) (L3 Focus) | 50 | Hard Mock 01 |
+| 26 | Error analysis + weak topics review | 20 | — |
+| 27 | [Expert Placement Mock 01](mocks/expert-placement-mock-01.md) (L4 Extreme) | 50 | Expert Mock 01 |
+| 28 | Mixed Weak Topics from [ERROR_LOG.md](ERROR_LOG.md) | 25 | — |
+| 29 | Rapid revision via [RAPID_REVISION.md](rapid-revision/RAPID_REVISION.md) | — | — |
+| 30 | **Final review + light mental math calibration** | 15 | — |
 
-**Daily target:** 15–20 questions + 30 min review.
+**Daily target:** 15–25 questions + 30–45 min review.
 
 ---
 

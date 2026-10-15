@@ -118,9 +118,9 @@ WHERE rnk <= 2;
 ```
 
 ### Q8 [P0][SQL]: What happens to row counts in `INNER JOIN`, `LEFT JOIN`, `CROSS JOIN` when table A has 10 rows and table B has 5 rows?
-- `INNER JOIN`: Between 0 and $10 	imes 5 = 50$ rows (depending on matching keys).
+- `INNER JOIN`: Between 0 and $10 \times 5 = 50$ rows (depending on matching keys).
 - `LEFT JOIN`: Minimum 10 rows, maximum 50 rows.
-- `CROSS JOIN`: Exactly $10 	imes 5 = 50$ rows.
+- `CROSS JOIN`: Exactly $10 \times 5 = 50$ rows.
 
 ### Q9 [P1][SQL]: Identify duplicate email records in a `Users` table and write a query to keep only the record with the lowest `user_id`.
 ```sql
@@ -223,11 +223,11 @@ FROM RankedOrders WHERE rnk = 2;
 ## Section 3: Applied Statistics & A/B Testing
 
 ### Q26 [P0][STATS]: Calculate sample size required for an A/B test with 4% baseline conversion and 10% target relative lift.
-- Baseline $p = 0.04$, MDE $\Delta = 0.04 	imes 0.10 = 0.004$.
-- $N pprox rac{16 \cdot p(1-p)}{\Delta^2} = rac{16 \cdot 0.04 \cdot 0.96}{(0.004)^2} = rac{0.6144}{0.000016} pprox \mathbf{38,400	ext{ users per variant}}$ (Total = ~76,800 users).
+- Baseline $p = 0.04$, MDE $\Delta = 0.04 \times 0.10 = 0.004$.
+- $N \approx \frac{16 \cdot p(1-p)}{\Delta^2} = \frac{16 \cdot 0.04 \cdot 0.96}{(0.004)^2} = \frac{0.6144}{0.000016} \approx \mathbf{38,400\text{ users per variant}}$ (Total = ~76,800 users).
 
 ### Q27 [P0][STATS]: How do you detect and resolve Sample Ratio Mismatch (SRM)?
-- Perform Chi-Square test on observed vs expected traffic counts ($\chi^2 = \sum rac{(O - E)^2}{E}$). If $p < 0.001$, SRM is present. Root causes: Redirection delay, bot-filtering imbalance, or sticky hashing bugs.
+- Perform Chi-Square test on observed vs expected traffic counts ($\chi^2 = \sum \frac{(O - E)^2}{E}$). If $p < 0.001$, SRM is present. Root causes: Redirection delay, bot-filtering imbalance, or sticky hashing bugs.
 
 ### Q28 [P1][STATS]: What is the p-value and what does it NOT tell you?
 - P-value is the probability of observing test results at least as extreme as the observed data, assuming the null hypothesis ($H_0$) is true. It does NOT measure the probability that $H_0$ is true or the business magnitude of the effect.
@@ -251,42 +251,42 @@ FROM RankedOrders WHERE rnk = 2;
 - Repeatedly checking test results and stopping early inflates Type I false positive error rate from 5% to $>30\%$. Solved using Sequential Testing (e.g. Always Valid p-values) or fixed-horizon sample enforcement.
 
 ### Q35 [P1][STATS]: How do you treat outliers in customer transaction datasets?
-- Trim/Winsorize extreme percentiles ($>99.5	ext{th}$ percentile), analyze them separately as potential fraud or enterprise B2B accounts, or use non-parametric rank tests.
+- Trim/Winsorize extreme percentiles ($>99.5\text{th}$ percentile), analyze them separately as potential fraud or enterprise B2B accounts, or use non-parametric rank tests.
 
 ---
 
 ## Section 4: Business Acumen & Unit Economics
 
 ### Q36 [P0][BUSINESS]: An e-commerce platform has 1,000 INR AOV, 15% take-rate, 60 INR payment/logistics cost, and 40 INR CAC. Calculate Contribution Margin 2 (CM2).
-- Gross Revenue per order = $1,000 	imes 15\% = 150	ext{ INR}$.
-- Direct Fulfillment/Payment Cost = $60	ext{ INR}$.
-- $	ext{CM1} = 150 - 60 = 90	ext{ INR}$.
-- $	ext{CM2} = 90 - 40 (	ext{CAC}) = \mathbf{50	ext{ INR per order}}$.
+- Gross Revenue per order = $1,000 \times 15\% = 150\text{ INR}$.
+- Direct Fulfillment/Payment Cost = $60\text{ INR}$.
+- $\text{CM1} = 150 - 60 = 90\text{ INR}$.
+- $\text{CM2} = 90 - 40 (\text{CAC}) = \mathbf{50\text{ INR per order}}$.
 
 ### Q37 [P0][BUSINESS]: If monthly churn rate is 5%, what is the expected customer lifetime in months?
-- $	ext{Customer Lifetime} = rac{1}{	ext{Monthly Churn}} = rac{1}{0.05} = \mathbf{20	ext{ months}}$.
+- $\text{Customer Lifetime} = \frac{1}{\text{Monthly Churn}} = \frac{1}{0.05} = \mathbf{20\text{ months}}$.
 
 ### Q38 [P1][BUSINESS]: Why can Net Revenue Retention (NRR) be $>100\%$ while Logo Churn is $10\%$?
 - Existing accounts expanded their usage/licenses (Upselling/Cross-selling) by more than the revenue lost from the 10% churned logos.
 
 ### Q39 [P0][BUSINESS]: Differentiate between GMV, Gross Revenue, and Net Revenue for a ride-hailing platform.
-- GMV = Total passenger fare paid ($500	ext{ INR}$).
-- Gross Revenue = Platform Take-Rate commission ($20\% 	imes 500 = 100	ext{ INR}$).
-- Net Revenue = Take-Rate minus driver incentives and customer discount coupons ($100 - 30 = 70	ext{ INR}$).
+- GMV = Total passenger fare paid ($500\text{ INR}$).
+- Gross Revenue = Platform Take-Rate commission ($20\% \times 500 = 100\text{ INR}$).
+- Net Revenue = Take-Rate minus driver incentives and customer discount coupons ($100 - 30 = 70\text{ INR}$).
 
 ### Q40 [P1][BUSINESS]: What is Return to Origin (RTO) in Indian e-commerce and how does it destroy unit economics?
 - Orders shipped via Cash on Delivery (COD) that are rejected at doorstep. The platform incurs forward shipping, reverse shipping, and inventory lockup costs without capturing revenue.
 
 ### Q41 [P0][BUSINESS]: Explain the trade-off between CAC and LTV during hyper-growth vs profitability phases.
-- Hyper-growth prioritizes high CAC to capture market share and network effects; Profitability phases optimize $LTV / CAC \ge 3	imes$ by targeting organic channels and repeat retention.
+- Hyper-growth prioritizes high CAC to capture market share and network effects; Profitability phases optimize $LTV / CAC \ge 3\times$ by targeting organic channels and repeat retention.
 
 ### Q42 [P1][BUSINESS]: If a subscription business has 10,000 users paying 500 INR/month with 4% monthly churn and 100 INR/user server cost, calculate total business LTV.
-- Unit Gross Margin = $rac{500 - 100}{500} = 80\%$.
-- $LTV = rac{500 	imes 0.80}{0.04} = 10,000	ext{ INR per user}$.
-- Total Portfolio LTV = $10,000 	imes 10,000 = \mathbf{10	ext{ Cr INR}}$.
+- Unit Gross Margin = $\frac{500 - 100}{500} = 80\%$.
+- $LTV = \frac{500 \times 0.80}{0.04} = 10,000\text{ INR per user}$.
+- Total Portfolio LTV = $10,000 \times 10,000 = \mathbf{10\text{ Cr INR}}$.
 
 ### Q43 [P1][BUSINESS]: What is Burn Multiple in startup finance?
-- $	ext{Burn Multiple} = rac{	ext{Net Cash Burn}}{	ext{Net New ARR Added}}$. A burn multiple $<1.0$ indicates exceptional capital efficiency.
+- $\text{Burn Multiple} = \frac{\text{Net Cash Burn}}{\text{Net New ARR Added}}$. A burn multiple $<1.0$ indicates exceptional capital efficiency.
 
 ### Q44 [P0][BUSINESS]: How does discounting affect price elasticity and brand equity?
 - Deep discounting attracts low-LTV price-sensitive churners and degrades reference pricing, reducing willingness to pay at full price.
@@ -308,7 +308,7 @@ FROM RankedOrders WHERE rnk = 2;
 - **Approach**: Deconstruct checkout funnel: Cart $ightarrow$ Address $ightarrow$ Payment Selection $ightarrow$ OTP $ightarrow$ Success. Isolate step drop-off; evaluate payment gateway latency and auto-fill friction.
 
 ### Q48 [P1][CASE]: "Average Order Value (AOV) increased by 20%, but total daily revenue dropped by 10%. Why?"
-- **Approach**: $	ext{Revenue} = 	ext{Orders} 	imes 	ext{AOV}$. If AOV rose $20\%$ ($1.20$) and Revenue fell $10\%$ ($0.90$), Total Orders fell by $1 - rac{0.90}{1.20} = 25\%$. Price increases or removal of low-cost entry SKUs crushed transaction volume.
+- **Approach**: $\text{Revenue} = \text{Orders} \times \text{AOV}$. If AOV rose $20\%$ ($1.20$) and Revenue fell $10\%$ ($0.90$), Total Orders fell by $1 - \frac{0.90}{1.20} = 25\%$. Price increases or removal of low-cost entry SKUs crushed transaction volume.
 
 ### Q49 [P1][CASE]: "Ride-hailing driver cancellation rate increased from 8% to 18% in Mumbai. Root causes?"
 - **Approach**: Check traffic congestion (longer pickup ETA), low fare pricing / high fuel costs, high cash payment preference, or surge pricing transparency mismatch.

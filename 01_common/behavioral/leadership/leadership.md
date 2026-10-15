@@ -155,7 +155,7 @@ Result: [Outcome + team growth + your learning]
 ---
 
 ### STAR 8: Decision Making Under Uncertainty
-**Situation:** Mid-project, our supervisor changed the research focus from pipeline scour to bridge pier scour — different geometry, boundary conditions, and validation data. We had 6 weeks to pivot.
+**Situation [Illustrative Scenario]:** Mid-project during a collaborative research assignment, project requirements shifted the modeling scope from pipeline hydrodynamics to bridge pier scour — different geometry, boundary conditions, and validation data. We had 6 weeks to pivot.
 
 **Task:** Decide whether to resist or adapt, and if adapting, how to execute quickly.
 

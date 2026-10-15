@@ -122,7 +122,7 @@
 **Answer:** "I led a 4-member CFD thesis team. Created shared progress tracker, assigned tasks by expertise, set weekly deliverables, daily standups. When mesh divergence hit, I coordinated debugging — mesh refinement, time step reduction, y+ checking. Completed 2 weeks early, presented at department seminar. Leadership taught me clear goals + daily communication prevent most problems."
 
 **Q32: Describe a time you had to make a difficult decision.**
-**Answer:** "Mid-project, supervisor changed focus from pipeline to bridge pier scour — 6 weeks to pivot. I chose adaptation: created revised plan in 4 hours, reallocated tasks, started new literature review in 3 days. The pivot led to a stronger conference paper. Difficult decisions require quick analysis and commitment once decided."
+**Answer [Illustrative Template]:** "Mid-project, project scope shifted from pipeline scour to bridge pier hydrodynamics with limited turnaround time. I channeled initial pressure into a structured 6-week execution plan, reassigned sub-tasks, and delivered validated results on schedule."
 
 **Q33: How do you handle pressure and tight deadlines?**
 **Answer:** "During final semester: thesis simulations + placement prep + conference paper in one month. I time-blocked: mornings for automated thesis runs, afternoons for placement prep, evenings for paper writing. Automated data extraction with Python to save time. Completed all three on time. Under pressure, I prioritize ruthlessly and automate what I can."

@@ -3,8 +3,9 @@
 import re
 import os
 
-REF_PATH = os.path.join('f:', os.sep, '2k26Placement', 'GATE-O-PEDIA - CIVIL ENGINEERING.txt')
-OUT_PATH = os.path.join('f:', os.sep, '2k26Placement', 'DKS_IITK_Civil_HWRE_Placement_2026', 'scripts', 'subject_headers.txt')
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+REF_PATH = os.path.join(REPO_ROOT, 'docs', 'sources', 'GATE-O-PEDIA.txt')
+OUT_PATH = os.path.join(REPO_ROOT, 'scripts', 'subject_headers.txt')
 
 SUBJECT_NAMES = [
     'ENGINEERING MECHANICS',

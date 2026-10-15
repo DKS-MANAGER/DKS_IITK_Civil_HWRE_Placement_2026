@@ -28,7 +28,7 @@
 3. **SQL & Analytical Logic (15-20 Questions, 25 Mins)**: Output prediction from SQL snippets, `NULL` handling, `LEFT JOIN` row count predictions, subquery logic.
 
 ### OA Speed Strategy:
-- **Zero Calculation Error Rule**: Use fraction approximations ($rac{1}{7} pprox 14.3\%$) to eliminate wrong options in $<30$ seconds.
+- **Zero Calculation Error Rule**: Use fraction approximations ($\frac{1}{7} \approx 14.3\%$) to eliminate wrong options in $<30$ seconds.
 - **SQL Prediction Check**: When predicting `LEFT JOIN` output row count, check for duplicate keys in the right table (which causes row multiplication).
 
 ---

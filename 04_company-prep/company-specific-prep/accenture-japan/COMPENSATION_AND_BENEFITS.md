@@ -1,93 +1,120 @@
-# Accenture Japan — Compensation, Benefits & Financial Architecture
+# Compensation, Benefits & Relocation Package Analysis
 
-> **Document Status**: Authoritative Compensation Reference  
-> **Target Role**: Digital Consultant (Analyst Entry Level), Accenture Japan Ltd. (`[JD VERIFIED]`)  
-> **Source Verification**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` (`[JD VERIFIED]`)  
-> **Currency Standard**: Japanese Yen (JPY)
-
----
-
-## 🏛️ Executive Compensation Summary (`[JD VERIFIED]`)
-
-| Compensation Component | Annual Value (JPY) | Monthly Value (JPY) | Payment Schedule & Notes |
-| :--- | :--- | :--- | :--- |
-| **Planned Annual Base Salary** | JPY 4,800,000 | JPY 400,000 | Paid monthly on company payroll date |
-| **Housing Allowance** | JPY 360,000 | JPY 30,000 | Fixed monthly non-taxable/housing allowance |
-| **Gross Fixed Annual Salary** | **JPY 5,160,000** | **JPY 430,000** | Guaranteed gross fixed annual cash compensation |
-| **Total Planned CTC (Year 1)**| **JPY 8,214,021** | — | Total cost-to-company including bonus & relocation |
-| **Signing Bonus** | **JPY 500,000** | — | Paid in two installments upon joining |
-| **Annual Performance Bonus** | Discretionary | — | Paid annually based on company & individual metrics |
-| **Commuting & Business Travel**| Fully Reimbursed | Actual Expenses | Commuting pass + domestic/overseas business trips |
-| **Overtime & Late-Night Work** | Per Japanese Law | Actual Hours | Paid per statutory Japanese labor standards |
+> **Target Role**: Digital Consultant (Analyst Entry Level)  
+> **Employing Entity**: Accenture Japan Ltd. (`[JD VERIFIED]`)  
+> **Source Documents**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` (`[JD VERIFIED]`) & IIT Kanpur Placement Proforma Phase 1, 2026–27 (`[IITK PROFORMA — PHASE 1 2026–27]`)
 
 ---
 
-## 💴 Net Monthly Take-Home & Japanese Tax Breakdown
+## 1. Package Line-by-Line Arithmetic Reconciliation
 
-Japanese payroll deductions fall into two primary categories: **Social Insurance (Shakai Hoken)** and **Taxes**.
+The stated **Total Planned CTC of JPY 8,214,021** is arithmetically equal to the exact sum of twelve individual line items documented in the official Job Description and proforma:
 
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                    MONTHLY SALARY FLOW (YEAR 1 ESTIMATION)                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ Gross Monthly Earnings: JPY 430,000 (Base JPY 400k + Housing JPY 30k)       │
-│                                                                             │
-│   LESS Statutory Social Insurance Deductions:                               │
-│     • Health Insurance (Kenko Hoken) (~5.0%):            - JPY 21,500       │
-│     • Employees' Pension (Kosei Nenkin) (~9.15%):        - JPY 39,345       │
-│     • Employment Insurance (Koyo Hoken) (~0.6%):         - JPY  2,580       │
-│                                                                             │
-│   LESS National Income Tax (Shotokuzei) (Progressive):   - JPY 13,800       │
-│   Local Resident Tax (Juminzei):                         - JPY      0 (Y1)* │
-│                                                                             │
-│ ─────────────────────────────────────────────────────────────────────────── │
-│ Net Take-Home Salary (Year 1):                  approx. JPY 352,775 / month │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+| # | Package Component | Amount (JPY) | Cash vs Non-Cash / Nature | Recurrence | Source Classification |
+|---|---|---:|---|---|---|
+| 1 | **Planned Annual Base Salary** | JPY 4,800,000 | Cash (JPY 400,000 / month) | Recurring Annual | `[JD VERIFIED]` |
+| 2 | **Housing Allowance** | JPY 360,000 | Cash (JPY 30,000 / month) | Recurring Annual | `[JD VERIFIED]` |
+| **—** | **Subtotal: Gross Annual Salary** | **JPY 5,160,000** | **Cash (JPY 430,000 / month)** | **Recurring Fixed** | `[JD VERIFIED]` |
+| 3 | **Signing Bonus** | JPY 500,000 | Cash (Two-time payment) | One-time (Year 1) | `[JD VERIFIED]` |
+| 4 | **Employees' Health Insurance** | JPY 196,800 | Employer Statutory Contribution | Annual Benefit | `[JD VERIFIED]` |
+| 5 | **Employees' Pension Insurance** | JPY 450,180 | Employer Statutory Contribution | Annual Benefit | `[JD VERIFIED]` |
+| 6 | **Employment Insurance** | JPY 43,200 | Employer Statutory Contribution | Annual Benefit | `[JD VERIFIED]` |
+| 7 | **India–Japan International Flights** | JPY 150,000 | Direct Booking / Reimbursement (Cap) | One-time Relocation | `[JD VERIFIED]` |
+| 8 | **Serviced Apartment (2 months)** | JPY 816,183 | In-Kind Corporate Housing Support | One-time Relocation | `[JD VERIFIED]` |
+| 9 | **Japanese Language Training** | JPY 664,658 | Sponsored Training Service Value | Pre/Post-Joining | `[JD VERIFIED]` |
+| 10 | **Administrative Scrivener Services** | JPY 80,000 | Legal Immigration Support Service | One-time Relocation | `[JD VERIFIED]` |
+| 11 | **Property Selection & Moving Support** | JPY 65,000 | Corporate Relocation Service Value | One-time Relocation | `[JD VERIFIED]` |
+| 12 | **Pre-Arrival & Administrative Support**| JPY 80,000 | Setup & Administrative Assistance | One-time Relocation | `[JD VERIFIED]` |
+| 13 | **Telephone Consultation Service** | JPY 8,000 | Dedicated Advisory (3 months) | One-time Relocation | `[JD VERIFIED]` |
+| **TOTAL** | **Total Planned Year 1 CTC** | **JPY 8,214,021** | **Exact Mathematical Sum** | — | `[JD VERIFIED]` |
 
-> **Important Japanese Tax Rule (`*`)**:  
-> In Japan, **Local Inhabitant/Resident Tax (Juminzei, ~10%)** is assessed on the *previous calendar year's income in Japan*. Consequently, foreign new-graduate arrivals pay **JPY 0 in Resident Tax during their first calendar year in Japan**. Starting in June of Year 2, monthly resident tax of approximately JPY 25,000 will be deducted, bringing standard Year 2 take-home to approximately JPY 328,000/month (before performance bonus).
-
----
-
-## 🛡️ Statutory Social Insurance & Corporate Welfare Package
-
-All employees at Accenture Japan Ltd. are enrolled in the complete Japanese statutory welfare system (`[JD VERIFIED]`):
-
-1. **Employees' Health Insurance (Kenko Hoken)**:
-   * Covers 70% of all medical consultations, treatments, prescription drugs, and hospitalization costs across Japan.
-   * Dependents covered under employee plan.
-2. **Employees' Pension Insurance (Kosei Nenkin)**:
-   * Statutory earnings-related tier of Japan's public pension system.
-   * International employees who return to India after several years can apply for the **Lump-Sum Withdrawal Payment (Dattai Ichijikin)** to recover paid pension contributions up to 5 years of service.
-3. **Employment & Industrial Accident Insurance (Rousai Hoken)**:
-   * Full coverage for workplace injuries, commuting accidents, and involuntary unemployment safety nets.
-4. **Corporate Defined Contribution Pension (401k)**:
-   * Company-sponsored retirement contribution allowing tax-advantaged investment growth.
-5. **Accenture Corporate Welfare Benefits**:
-   * *Cafeteria Plan & Benefit Station*: Discount corporate rates on gym memberships, hotel bookings, domestic travel, and dining nationwide.
-   * *Long-Term Disability (LTD) Compensation*: Guaranteed financial coverage in case of prolonged illness or medical leave.
-   * *Employee Assistance Program (EAP)*: 24/7 confidential multilingual mental health counseling and industrial physician support.
-   * *Club & Circle Activities*: Subsidized sports, cultural, and recreational affinity groups in Tokyo.
+### Critical Takeaway for the Candidate
+> [!IMPORTANT]
+> **Do not treat JPY 8,214,021 as your annual cash salary.**  
+> The recurring cash component is **JPY 5,160,000 gross per annum** (JPY 430,000 per month).  
+> The remaining **JPY 3,054,021** consists of:
+> * JPY 500,000 one-time signing bonus (payable in two installments).
+> * JPY 690,180 employer statutory insurance contributions.
+> * JPY 1,863,841 in direct relocation, language training, serviced apartment, flight, and legal support.
 
 ---
 
-## ⏰ Working Hours, Overtime & Leave Policy (`[JD VERIFIED]`)
+## 2. Bonus & Allowances Policy (`[JD VERIFIED]`)
 
-* **Standard Business Hours**: 9:00 – 18:00 (8 working hours/day, 60-minute unpaid lunch break).
-* **Weekly Days Off**: 2 days per week (Saturday and Sunday).
-* **Statutory Public Holidays**: All Japanese National Holidays observed (approximately 16 public holidays annually, including Golden Week, Obon, and Silver Week).
-* **Year-End & New Year Holidays**: Extended office closure from December 29 to January 3.
-* **Annual Paid Leave (Yukyu Kyuka)**: Fully compliant with Japanese Labor Standards Act; accrued progressively from month 6 of service.
-* **Special Leave Provisions**:
-  * Sick leave (independent of paid vacation).
-  * Bereavement and wedding leave.
-  * Childcare and parental leave (male and female employee uptake strongly supported).
-  * Volunteer leave.
+### Signing Bonus Details
+* **Amount**: JPY 500,000.
+* **Payment Schedule**: Documented as a **two-time payment** (`[JD VERIFIED]`). Typically paid across two milestone payrolls (e.g., after joining and following the probationary period; exact milestone months to be confirmed in the formal appointment letter).
+
+### Annual Performance Bonus
+* **Policy Note**: *"Annual performance bonus is included in the planned annual base salary for the first year of new employees. Please note that the month of bonus payment may be changed."* (`[JD VERIFIED]`).
+* In subsequent career years, performance bonuses vary with individual project ratings and firm profitability.
+
+### Work Allowances Documented in JD
+1. **Housing Allowance**: JPY 30,000 / month (JPY 360,000 / year) — included within the JPY 5,160,000 gross salary.
+2. **Overtime Allowance**: Paid for hours worked beyond standard hours in accordance with Japanese Labor Standards Law.
+3. **Late-Night Work Allowance**: Applicable for work between 22:00 and 05:00.
+4. **Business Trip Allowance**: Per diem and travel cost reimbursement for domestic and international travel.
+5. **Transportation Allowance**: Full commuter pass reimbursement (office commuting travel within Tokyo metro).
 
 ---
 
-## 🚫 Bond & Service Contract Policy (`[JD VERIFIED]`)
+## 3. Estimated Net Take-Home Salary (Japan Tax & Social Insurance Heuristic)
 
-* **No Bond or Service Contract**: Accenture Japan imposes **zero employment bond, financial penalty, or mandatory lock-in period**.
-* Employment follows standard Japanese permanent full-time employment contracts (Seishain) with mutual notice periods.
+The following calculation provides an **illustrative estimate** of net take-home salary in Tokyo for an unmarried expatriate employee with no dependents, earning JPY 430,000 gross monthly.
+
+> [!NOTE]
+> All tax rates below are standard Japanese statutory rates for Tokyo (`[PREPARATION RECOMMENDATION]`). Official deductions will be reflected on monthly payslips (*Kyuyo Meisai*).
+
+### Monthly Gross Breakdown: JPY 430,000
+
+| Deduction Category | Estimated Rate / Calculation | Estimated Monthly Amount | Notes |
+|---|---|---:|---|
+| **Health Insurance (*Kenko Hoken*)** | ~5.0% (employee share in Tokyo) | JPY 21,500 | Covers 70% of medical costs in Japan |
+| **Welfare Pension (*Kosei Nenkin*)** | ~9.15% (employee share) | JPY 39,350 | Mandatory state pension (refund eligible on departure) |
+| **Employment Insurance (*Koyo Hoken*)**| 0.6% (employee share) | JPY 2,580 | Unemployment & maternity/paternity support |
+| **Total Social Insurance (Shakai Hoken)**| **~14.75%** | **~JPY 63,430** | Deducted before income tax calculation |
+| **Taxable Monthly Base** | Gross minus Social Insurance | JPY 366,570 | — |
+| **National Income Tax (*Shotokuzei*)** | Progressive brackets (effective ~3.5–5%) | ~JPY 14,000 | Withheld monthly at source (*Gensen Choshu*) |
+| **Local Inhabitants Tax (*Juminzei*)** | 10% flat (Year 1 vs Year 2 rule) | **JPY 0 (Year 1)** | **Crucial:** Inhabitants tax is based on *previous year's Japan income*. Year 1 is JPY 0; starts ~June of Year 2 (~JPY 25,000/mo). |
+| **Total Monthly Deductions (Year 1)** | Social Insurance + Income Tax | **~JPY 77,430** | — |
+| **Estimated Net Monthly Take-Home (Year 1)** | Gross minus Total Deductions | **~JPY 352,500** | **~82% of Gross Salary** |
+
+### Year 2 Impact Notice
+* Starting from June of Year 2, Inhabitants Tax (~JPY 25,000–30,000 / month) takes effect.
+* Estimated Year 2 Net Take-Home: **~JPY 322,000 – 327,000 / month**.
+
+---
+
+## 4. Pension Refund for Foreign Nationals (Lump-Sum Withdrawal Payment)
+
+If an international employee leaves Japan after working for 6 months or more, they are eligible for the **Lump-Sum Withdrawal Payment (*Dattai Ichijikin*)** for Welfare Pension contributions:
+* Can claim back up to **5 years (60 months)** of pension contributions upon leaving Japan.
+* A 20.42% income tax is withheld on the refund, which can subsequently be claimed back by appointing a tax representative in Japan (*Nozei Kanrinin*).
+
+---
+
+## 5. Living Costs & Budgeting in Tokyo (Single Professional Baseline)
+
+Estimated monthly living budget for an Analyst living in a 1K/1DK apartment in Tokyo (outside central Chiyoda/Minato, e.g., Setagaya, Nakano, Suginami, or Koto):
+
+| Budget Item | Typical Monthly Range (JPY) | Notes |
+|---|---:|---|
+| **Rent (1K / 25–30 sqm)** | JPY 75,000 – 95,000 | Partially offset by JPY 30,000 housing allowance |
+| **Utilities (Electricity, Gas, Water)** | JPY 10,000 – 14,000 | Varies by season (higher AC in summer / heating in winter) |
+| **Mobile & Home Internet** | JPY 6,000 – 8,000 | SIM card + optical fiber |
+| **Groceries & Food** | JPY 40,000 – 55,000 | Cooking at home + occasional convenience store |
+| **Dining Out & Socializing** | JPY 25,000 – 40,000 | Weekend dining, networking |
+| **Daily Necessities & Household** | JPY 5,000 – 8,000 | Consumables |
+| **Total Living Expenses** | **JPY 161,000 – 220,000** | — |
+| **Potential Monthly Savings** | **JPY 130,000 – 190,000** | **(~INR 75,000 – 1,10,000 at current exchange rates)** |
+
+---
+
+## 6. Contractual Verification Checklist for Offer Acceptance
+
+Items to confirm upon receiving the formal offer letter:
+1. [ ] Confirm the exact disbursement months for the **two signing bonus payments** (JPY 500,000 total).
+2. [ ] Confirm the exact probationary period duration (typically 3 to 6 months in Japan) and sick leave accrual trigger.
+3. [ ] Confirm the move-in dates and location options for the **2-month serviced apartment** (JPY 816,183 benefit).
+4. [ ] Confirm flight booking procedures (direct corporate booking vs expense reimbursement up to JPY 150,000 cap).
+5. [ ] Confirm enrollment details and schedule for the **JPY 664,658 Japanese language training program** prior to the December 2027 joining date.

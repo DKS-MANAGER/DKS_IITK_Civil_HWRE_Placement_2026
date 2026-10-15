@@ -6,7 +6,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Deloitte USI, PwC DI, EY GDS, KPMG, Accenture Strategy & Consulting, American Express, Capital One, Flipkart, Amazon, Swiggy, Zomato, EXL, Mu Sigma, Fractal
-- **Typical CTC Range**: 10 LPA - 22 LPA (Fixed + Variable Base)
+- **Historical CTC Benchmark**: ~₹10–22 LPA `[HISTORICAL BENCHMARK]` (Subject to company proforma specifications)
 - **Department Eligibility**: B.Tech / M.Tech / Dual Degree across all engineering branches (Open to Civil / HWRE). Minimum CPI cutoff: Typically 6.5 - 7.5 CPI.
 - **Core Skills Tested**: SQL (Advanced Joins, Group By, Window Functions), Advanced Excel (Lookups, Pivot Tables, Modeling), KPI Analysis & Metric Trees, Data Interpretation, Business Problem Solving, Stakeholder Communication
 
@@ -18,11 +18,11 @@
 |:---|:---|:---|
 | **01. Role Overview** | Target companies, job descriptions, eligibility, and Day-to-Day deliverables | [01_role-overview.md](01_role-overview.md) |
 | **02. Skills & Competencies** | Required skills, tools, and technical benchmark ladder | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
-| **03. Domain Knowledge** | Core business frameworks, equations, and industry models | [03_domain-knowledge.md](../analytics/03_domain-knowledge.md) |
-| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_tools-and-technical.md](../../consulting/04_tools-and-technical.md) |
+| **03. Domain Knowledge** | Core business frameworks, equations, and industry models | [03_business-knowledge.md](03_business-knowledge.md) |
+| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_data-and-analytics/](04_data-and-analytics/excel-and-spreadsheets.md) |
 | **05. Selection Process** | Stage-by-stage guide: OA pattern, Technical, Case, and HR rounds | [05_interview-preparation.md](05_interview-preparation.md) |
 | **06. Question Bank** | Curated questions with model answers and interviewer follow-ups | [06_question-bank.md](06_question-bank.md) |
-| **07. Practice & Cases** | Realistic case studies and fully worked problem sets | [07_practice-and-cases.md](../analytics/07_practice-and-cases.md) |
+| **07. Practice & Cases** | Realistic case studies and fully worked problem sets | [07_case-practice.md](07_case-practice.md) |
 | **08. Role Study Plan** | 4-week milestone preparation roadmap | [08_role-study-plan.md](08_role-study-plan.md) |
 | **09. Rapid Revision** | High-density 1-page test eve cheat sheet | [09_rapid-revision.md](09_rapid-revision.md) |
 | **10. Resources** | Curated books, sandboxes, and repository cross-links | [10_resources.md](10_resources.md) |
@@ -34,6 +34,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+- [02 Interview Preparation](../../../05_interview/)
+- [03 Common Skills](../../../01_common/)
+- [04 Career Preparation](../../../01_common/resume/career-preparation/)

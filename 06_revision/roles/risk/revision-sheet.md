@@ -63,7 +63,7 @@ $$\text{Raw Feature} \longrightarrow \text{Fine Binning} \longrightarrow \text{C
 ### 🎯 5-Minute Readiness Audit
 - [ ] Bayes' Theorem and Poisson distribution formulas fresh.
 - [ ] WoE / IV / KS / Gini / PSI definitions verified.
-- [ ] BridgeRisk / Extreme value project pitch ready.
+- [ ] Hydrodynamic Simulation Archetype / Extreme value project pitch ready.
 
 ### 🗣️ The 60-Second "Why Risk Analyst from Civil?" Pitch
 > *"My Civil Engineering background at IIT Kanpur grounded me in rigorous quantitative problem solving, data modeling under physical constraints, and analyzing complex networks. I am applying this structured, analytical discipline to high-velocity decision-making in Risk Analyst."*

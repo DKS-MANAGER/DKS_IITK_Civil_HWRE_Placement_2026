@@ -115,3 +115,20 @@ Each chapter contains **Section 1 (Analytical Theory)**, **Section 2 (Master Key
 2. **Never Add Successive Percentages:** Always multiply decimal multipliers ($+20\%$ then $+10\% \implies 1.20 \times 1.10 = 1.38 \implies +38\%$, never $30\%$).
 3. **Cancel Factors Before Multiplying:** In joint variation and multi-partner time integrals, factor out common GCDs immediately to avoid multi-digit arithmetic.
 4. **Use Extreme Value Sanity Checks:** If mixing a $20\%$ and $40\%$ solution, the blend concentration MUST lie strictly in $(20\%, 40\%)$. Any option outside this interval is an instant elimination.
+
+---
+
+## 6. Advanced Problem Banks (L1–L4 Placement Framework)
+
+For candidates preparing for top quantitative finance, analytics, decision science, and high-selectivity corporate screenings (WorldQuant, Jane Street, Goldman Sachs, Citi AIM, Capital One, American Express, McKinsey Analytics), two specialized problem banks provide **120 distinct, fully solved, mathematically verified questions** adhering to the 4-level difficulty framework:
+
+- **L1 — Fundamentals**: Core definitions, direct one-step applications.
+- **L2 — Standard Placement**: Multi-step applications, conditional setups, standard distributions.
+- **L3 — Advanced Placement**: Compound constraints, indicator variables, order statistics, statistical inference.
+- **L4 — Expert Quantitative Reasoning**: Stopping times, Markov chains, martingales, Burnside's lemma, generating functions, subtle selection biases.
+
+| Problem Bank | Coverage & Categorization | Count | Link |
+|:---|:---|:---:|:---:|
+| [**Advanced P&C Problem Bank**](advanced-pnc-problem-bank.md) | Multiset permutations, circular arrangements, gap method, derangements ($D_n$), stars and bars with upper bounds, Catalan numbers, Burnside's lemma, generating functions, mixed P&C-probability. | **60 Problems** (10 L1-L2, 20 L3, 20 L4, 10 Mixed) | [View Problem Bank](advanced-pnc-problem-bank.md) |
+| [**Advanced Probability & Statistics Problem Bank**](advanced-probability-statistics-problem-bank.md) | Base-rate neglect, conditional independence, Monty Hall variants, discrete distributions, linearity of expectation, coupon collector, Markov chains, random walks, hypothesis testing, power, Simpson's paradox, collider bias. | **60 Problems** (10 Cond. Prob, 15 Counting, 15 Distributions, 10 Advanced Stochastic, 10 Statistical Inference) | [View Problem Bank](advanced-probability-statistics-problem-bank.md) |
+

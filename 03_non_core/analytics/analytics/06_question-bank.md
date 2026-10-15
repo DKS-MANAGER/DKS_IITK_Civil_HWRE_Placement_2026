@@ -116,11 +116,11 @@ df['mom_growth_pct'] = df['monthly_rev'].pct_change() * 100
 ## Section 3: Applied Statistics & Probability
 
 ### Q26 [P0][STATS]: Calculate sample size required for an A/B test with 4% baseline conversion and 10% target relative lift.
-- Baseline $p = 0.04$, MDE $\Delta = 0.04 	imes 0.10 = 0.004$.
-- $N pprox rac{16 \cdot p(1-p)}{\Delta^2} = rac{16 \cdot 0.04 \cdot 0.96}{(0.004)^2} = rac{0.6144}{0.000016} pprox \mathbf{38,400	ext{ users per variant}}$ (Total = ~76,800 users).
+- Baseline $p = 0.04$, MDE $\Delta = 0.04 \times 0.10 = 0.004$.
+- $N \approx \frac{16 \cdot p(1-p)}{\Delta^2} = \frac{16 \cdot 0.04 \cdot 0.96}{(0.004)^2} = \frac{0.6144}{0.000016} \approx \mathbf{38,400\text{ users per variant}}$ (Total = ~76,800 users).
 
 ### Q27 [P0][STATS]: How do you detect and resolve Sample Ratio Mismatch (SRM)?
-- Perform a Chi-Square Goodness-of-Fit test on observed vs expected traffic counts: $\chi^2 = \sum rac{(O - E)^2}{E}$. If $p < 0.001$, significant SRM exists. Immediate actions: Check user redirection redirects, bot-filtering discrepancies, and variant assignment hashing logic in backend.
+- Perform a Chi-Square Goodness-of-Fit test on observed vs expected traffic counts: $\chi^2 = \sum \frac{(O - E)^2}{E}$. If $p < 0.001$, significant SRM exists. Immediate actions: Check user redirection redirects, bot-filtering discrepancies, and variant assignment hashing logic in backend.
 
 ### Q28 [P1][STATS]: Explain Simpson's Paradox with an analytics example.
 - Overall conversion of Variant B is higher because it had 80% mobile traffic (higher converting device), but Variant A won on both Desktop and Mobile individually.

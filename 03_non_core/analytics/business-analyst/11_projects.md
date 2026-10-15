@@ -24,7 +24,7 @@ CIVIL / RESEARCH ANCHOR                   BUSINESS ANALYST TRANSLATION
 
 > *[EXAMPLE — Replace bracketed metrics with your actual, verified project results]*
 
-### 1. BridgeRisk / Structural Failure Prediction Project
+### 1. Hydrodynamic Simulation Archetype / Structural Failure Prediction Project
 - **Civil Engineering Context**: Predictive classification of bridge scour and structural failure probability using machine learning.
 - **BA Resume Bullet Formulation**:
   > *"Developed predictive gradient boosting model (XGBoost) on [15,000+ infrastructure records] to forecast failure probability; applied SHAP feature attribution to isolate [top 4 risk drivers], improving risk classification accuracy by [16%]."*
@@ -45,7 +45,7 @@ CIVIL / RESEARCH ANCHOR                   BUSINESS ANALYST TRANSLATION
 
 Every bullet on your resume should follow this strict three-part architecture:
 
-$$\mathbf{	ext{Action Verb}} + \mathbf{	ext{Technical / Analytical Tool}} + \mathbf{	ext{Quantified Operational Impact}}$$
+$$\mathbf{\text{Action Verb}} + \mathbf{\text{Technical / Analytical Tool}} + \mathbf{\text{Quantified Operational Impact}}$$
 
 - ❌ *Weak*: "Worked on SQL and Excel to analyze data for college event."
 - ✅ *Strong*: "Analyzed [12,000+ transaction logs] using SQL window functions and Excel Pivot tables to identify checkout drop-offs, driving a [14% increase] in registration conversion."

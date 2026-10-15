@@ -1,24 +1,45 @@
-# 02. Corporate Strategy: Required Skills & Competencies
+# 02. Corporate Strategy: Required Competencies & Assessment Rubrics
 
-> Clear breakdown of required technical, analytical, and communication skills tested by hiring companies.
-
----
-
-## 1. Core Competency Matrix
-
-| Competency Area | Priority | Key Capabilities Tested | Selection Evaluation Round |
-|:---|:---:|:---|:---|
-| **Required Skills** | **P0** | Porter's 5 Forces, Hamilton Helmer's 7 Powers, Blue Ocean Strategy, Organic vs Inorganic M&A Strategy, Market Entry Modeling | OA / Technical & Case Rounds |
-| **Tooling & Software** | **P0** | Financial Models, Competitor Benchmarking, Executive Presentation Decks | Live Coding / Technical Round |
-| **Structured Problem Solving** | **P0** | MECE issue trees, hypothesis formulation, root-cause diagnosis | Business Problem / Case Round |
-| **Executive Communication** | **P1** | Pyramid Principle, concise executive delivery, stakeholder influence | HR / Fit / Partner Rounds |
+> **Document Type**: Professional Skill Architecture & Benchmark Rubric
+> **Audience**: Candidates preparing for corporate strategy, conglomerate planning, and in-house growth roles.
 
 ---
 
-## 2. Skill Benchmark Ladder
+## 1. The 5 Core Corporate Strategy Competency Pillars
+
+Unlike management consultants who advise external clients for 8–12 weeks, corporate strategy analysts work directly with C-suite executives on long-term capital allocation, M&A, and business portfolio execution.
+
+| Competency Pillar | Description & Operational Deliverables | Interview Assessment Round | Required Proficiency Level |
+| :--- | :--- | :--- | :---: |
+| **1. Industry Economics & Competitive Moats** | Analyzing structural industry profitability, exit/entry barriers, value migration, and evaluating Hamilton Helmer's 7 Powers (Scale Economies, Network Effects, Counter-Positioning, Switching Costs). | Strategy Case Interviews | **Expert (P1)** |
+| **2. Corporate Portfolio & Capital Allocation** | Evaluating business units via Economic Value Added (EVA = ROIC - WACC), BCG Growth-Share dynamics, capital budgeting across competing capital expenditure proposals. | Financial Case / Modeling Round | **Expert (P1)** |
+| **3. Inorganic Strategy & M&A Due Diligence** | Build vs. Buy vs. Partner decision models, standalone quality of earnings, synergy sizing (cost vs. revenue haircuts), post-merger integration risk assessment. | Technical / CXO Presentation | **Advanced (P1)** |
+| **4. Long-Term Scenario & Uncertainty Planning**| Developing 2x2 macroeconomic scenario matrices under high uncertainty, identifying leading indicator triggers, and stress-testing capital plans. | Case Interview / Strategic Memo | **Advanced (P2)** |
+| **5. Executive Storylining & Board Presentations**| Synthesizing complex multi-year strategic options into 1-page executive memos and board pitchbooks following the Pyramid Principle. | CXO / Managing Director Round | **Mastery (P1)** |
+
+---
+
+## 2. Four-Tier Skill Benchmark Ladder
 
 ```text
-BENCHMARK 1 (OA Ready): High numerical speed, flawless basic SQL / quantitative logic under time pressure.
-BENCHMARK 2 (Technical Ready): Fluid live modeling, explaining schema/math trade-offs out loud.
-BENCHMARK 3 (Partner Ready): Confident executive synthesis, defending hypotheses with data, strong STAR stories.
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        CORPORATE STRATEGY MASTERY LADDER                               │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ TIER 1: Foundations                                                                    │
+│ • Understands basic financial statements (3-Statement mechanics, EBITDA, ROIC vs WACC).│
+│ • Can distinguish corporate strategy from business-unit competitive strategy.         │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ TIER 2: Strategic Structuring                                                          │
+│ • Builds tailored, non-generic issue trees for M&A, market entry, and portfolio carve- │
+│   outs without relying on memorized 4Ps or 3Cs.                                        │
+│ • Dissects competitor moats using Hamilton Helmer's 7 Powers.                          │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ TIER 3: Quantitative & Valuation Rigor                                                 │
+│ • Constructs clean 5-year strategic financial projection models in Excel.              │
+│ • Calculates M&A accretion/dilution and break-even synergy thresholds under pressure.  │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ TIER 4: CXO-Level Executive Delivery                                                   │
+│ • Presents top-down, answer-first recommendations with explicit risk mitigation.       │
+│ • Defends capital allocation choices against skeptical Managing Directors.             │
+└────────────────────────────────────────────────────────────────────────────────────────┘
 ```

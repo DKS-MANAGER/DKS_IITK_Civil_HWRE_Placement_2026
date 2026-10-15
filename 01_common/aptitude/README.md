@@ -5,10 +5,13 @@
 Aptitude is the **common screening layer** for every placement role. This system treats it as a first-class component — not just a list of topics.
 
 > ### 📊 Current Coverage & Assessment Status
-> - **Question Keying & Quality:** All topic and sectional tests are fully keyed with randomized answer positions and worked solutions.
-> - **Comprehensive Mock Battery:** Includes **7 Full Placement Mocks** ([Full Mocks 01–05](mocks/), [Hard Mock 01](mocks/hard-placement-mock-01.md), and [Expert Mock 01](mocks/expert-placement-mock-01.md)).
-> - **Curriculum Breadth:** Full coverage of Quantitative Aptitude (17 modules), Logical Reasoning (10 modules), Data Interpretation (5 modules), Verbal Ability (6 modules), plus diagnostic Sectional Assessments (Non-Verbal, Critical Reasoning, Core Aptitude, Engineering Math).
-> - **Preparation Calibration:** Mocks are designed as placement-calibrated challenge tests inspired by top-tier campus assessment patterns.
+> - **Question Keying & Quality:** All topic and sectional tests are fully keyed with verified answer keys, calibrated distractor analysis, and step-by-step deductive worked solutions.
+> - **Advanced Quantitative Reasoning:** Fully upgraded modules for **[Permutations & Combinations](quantitative/permutations-combinations.md)** and **[Probability & Statistics](quantitative/probability.md)** with complete theoretical proofs, discrete/continuous distributions, and stochastic stopping processes.
+> - **Dedicated L1–L4 Problem Banks (120 Problems):**
+>   - **[Advanced P&C Problem Bank](quantitative/advanced-pnc-problem-bank.md)** (60 problems: 10 L1-L2, 20 L3, 20 L4, 10 Mixed P&C-Probability)
+>   - **[Advanced Probability & Statistics Problem Bank](quantitative/advanced-probability-statistics-problem-bank.md)** (60 problems: 10 Conditional, 15 Counting, 15 Distributions, 10 Advanced Stochastic, 10 Statistical Inference)
+> - **Comprehensive Mock Battery:** Includes **7 Full Placement Mocks** ([Full Mocks 01–05](mocks/), [Hard Mock 01](mocks/hard-placement-mock-01.md), and [Expert Mock 01](mocks/expert-placement-mock-01.md)) with independently validated mathematics.
+> - **Curriculum Breadth:** Full coverage of Quantitative Aptitude (17 modules + 2 Advanced Banks), Logical Reasoning (10 modules), Data Interpretation (5 modules), Verbal Ability (6 modules), plus diagnostic Sectional Assessments.
 
 ---
 
@@ -18,6 +21,8 @@ Aptitude is the **common screening layer** for every placement role. This system
 APTITUDE
 ├── 🚀 ROADMAP            → 01_common/aptitude/ROADMAP.md
 ├── 📊 QUANT              → 01_common/aptitude/quantitative/
+│   ├── 🔢 ADVANCED P&C   → 01_common/aptitude/quantitative/advanced-pnc-problem-bank.md
+│   └── 🎲 ADVANCED PROB  → 01_common/aptitude/quantitative/advanced-probability-statistics-problem-bank.md
 ├── 🧠 REASONING          → 01_common/aptitude/logical-reasoning/
 ├── 📈 DI                 → 01_common/aptitude/data-interpretation/
 ├── ✍️ VERBAL             → 01_common/aptitude/verbal/
@@ -34,6 +39,8 @@ APTITUDE
 | 🎭 **Role Matrix** | [ROLE_MATRIX.md](ROLE_MATRIX.md) | Which topics matter for which role |
 | 📅 **7/14/30-Day Plan** | [7_14_30_DAY_PLAN.md](7_14_30_DAY_PLAN.md) | Time-boxed preparation plans |
 | ☀️ **Daily Plan** | [DAILY_PLAN.md](DAILY_PLAN.md) | A practical daily session |
+| 🔢 **Advanced P&C Bank** | [advanced-pnc-problem-bank.md](quantitative/advanced-pnc-problem-bank.md) | 60 solved L1–L4 P&C problems |
+| 🎲 **Advanced Prob & Stats Bank** | [advanced-probability-statistics-problem-bank.md](quantitative/advanced-probability-statistics-problem-bank.md) | 60 solved L1–L4 Probability & Statistics problems |
 | 📐 **Formula Sheet** | [FORMULA_SHEET.md](rapid-revision/FORMULA_SHEET.md) | High-value formulas & methods |
 | ⚡ **Rapid Revision** | [RAPID_REVISION.md](rapid-revision/RAPID_REVISION.md) | Final 1–3 day revision |
 | 📓 **Error Log** | [ERROR_LOG.md](ERROR_LOG.md) | Track & fix mistakes |
@@ -55,10 +62,12 @@ APTITUDE
 | Time & Work | [quant/time-work.md](quantitative/time-work.md) | P0 |
 | Speed, Time & Distance | [quant/time-speed-distance.md](quantitative/time-speed-distance.md) | P0 |
 | Number System | [quant/number-system.md](quantitative/number-system.md) | P0 |
+| Probability | [quant/probability.md](quantitative/probability.md) | P0 |
+| Permutations & Combinations | [quant/permutations-combinations.md](quantitative/permutations-combinations.md) | P0 |
+| **Advanced P&C Problem Bank** | [quant/advanced-pnc-problem-bank.md](quantitative/advanced-pnc-problem-bank.md) | **P0 (Quant/Analytics)** |
+| **Advanced Prob & Stats Bank** | [quant/advanced-probability-statistics-problem-bank.md](quantitative/advanced-probability-statistics-problem-bank.md) | **P0 (Quant/Analytics)** |
 | Simple & Compound Interest | [quant/simple-compound-interest.md](quantitative/simple-compound-interest.md) | P1 |
 | Mixtures & Alligation | [quant/mixtures-alligation.md](quantitative/mixtures-alligation.md) | P1 |
-| Probability | [quant/probability.md](quantitative/probability.md) | P1 |
-| Permutations & Combinations | [quant/permutations-combinations.md](quantitative/permutations-combinations.md) | P1 |
 | Partnership | [quant/partnership.md](quantitative/partnership.md) | P1 |
 | Problems on Ages | [quant/problems-on-ages.md](quantitative/problems-on-ages.md) | P1 |
 | Progressions | [quant/progressions.md](quantitative/progressions.md) | P2 |

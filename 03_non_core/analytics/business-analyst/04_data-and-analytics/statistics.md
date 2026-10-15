@@ -26,9 +26,9 @@ Business Analysts use A/B testing to validate product, pricing, and algorithmic 
 ### Key Statistical Formulas
 | Concept | Mathematical Formula | Practical Placement Interpretation |
 |:---|:---|:---|
-| **Sample Size per Variant ($N$)** | $N pprox rac{16 \cdot p(1-p)}{\Delta^2}$ | For baseline conversion $p = 5\%$ ($0.05$) and absolute MDE $\Delta = 0.5\%$ ($0.005$):<br>$N pprox rac{16 	imes 0.05 	imes 0.95}{(0.005)^2} = rac{0.76}{0.000025} = \mathbf{30,400	ext{ users/variant}}$. |
-| **Z-Score for Proportions** | $Z = rac{\hat{p}_B - \hat{p}_A}{\sqrt{\hat{p}(1-\hat{p})\left(rac{1}{N_A} + rac{1}{N_B}ight)}}$ | Test statistic to evaluate if conversion difference between Variant B and Variant A is statistically significant ($|Z| > 1.96 \implies p < 0.05$). |
-| **Sample Ratio Mismatch (SRM)**| $\chi^2 = \sum rac{(O_i - E_i)^2}{E_i}$ | Validates if traffic allocation split (e.g. 50/50) was corrupted by technical redirection or bot-filtering bugs ($p < 0.001$ invalidates test). |
+| **Sample Size per Variant ($N$)** | $N \approx \frac{16 \cdot p(1-p)}{\Delta^2}$ | For baseline conversion $p = 5\%$ ($0.05$) and absolute MDE $\Delta = 0.5\%$ ($0.005$):<br>$N \approx \frac{16 \times 0.05 \times 0.95}{(0.005)^2} = \frac{0.76}{0.000025} = \mathbf{30,400\text{ users/variant}}$. |
+| **Z-Score for Proportions** | $Z = \frac{\hat{p}_B - \hat{p}_A}{\sqrt{\hat{p}(1-\hat{p})\left(\frac{1}{N_A} + \frac{1}{N_B}ight)}}$ | Test statistic to evaluate if conversion difference between Variant B and Variant A is statistically significant ($|Z| > 1.96 \implies p < 0.05$). |
+| **Sample Ratio Mismatch (SRM)**| $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$ | Validates if traffic allocation split (e.g. 50/50) was corrupted by technical redirection or bot-filtering bugs ($p < 0.001$ invalidates test). |
 
 ---
 
@@ -40,9 +40,9 @@ Business Analysts use A/B testing to validate product, pricing, and algorithmic 
 - **Root Cause**: Traffic allocation mix shift—Variant B was accidentally shown to 80% Mobile users (higher baseline conversion), confounding overall results.
 
 ### 2. Type I vs. Type II Errors
-- **Type I Error ($lpha$, False Positive)**: Concluding a feature increased conversion when it actually had no effect (controlled at 5%).
-- **Type II Error ($eta$, False Negative)**: Missing a true positive lift because sample size was too small (Power $1-eta = 80\%$).
+- **Type I Error ($\alpha$, False Positive)**: Concluding a feature increased conversion when it actually had no effect (controlled at 5%).
+- **Type II Error ($\beta$, False Negative)**: Missing a true positive lift because sample size was too small (Power $1-\beta = 80\%$).
 
 ### 3. Correlation vs. Causation
-- **Classic BA Case**: Users who add $\ge 3$ items to their wishlist have $4	imes$ higher 30-day retention.
+- **Classic BA Case**: Users who add $\ge 3$ items to their wishlist have $4\times$ higher 30-day retention.
 - **Trap**: Forcing users to add items to their wishlist will not increase retention 4x. Wishlist usage is a symptom of high organic intent, not the causal driver.

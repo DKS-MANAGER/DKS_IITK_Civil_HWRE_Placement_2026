@@ -10,7 +10,7 @@
 An Indian D2C fashion retailer noticed a **14% drop in Monthly Gross Merchandise Value (GMV)** despite a 10% increase in marketing ad spend and top-of-funnel website traffic.
 
 ### 1. Funnel Metric Decomposition
-$$	ext{GMV} = 	ext{Sessions} 	imes 	ext{Product View Rate} 	imes 	ext{Cart Add Rate} 	imes 	ext{Checkout Start Rate} 	imes 	ext{Payment Success Rate} 	imes 	ext{AOV}$$
+$$\text{GMV} = \text{Sessions} \times \text{Product View Rate} \times \text{Cart Add Rate} \times \text{Checkout Start Rate} \times \text{Payment Success Rate} \times \text{AOV}$$
 
 ```sql
 WITH funnel_stages AS (

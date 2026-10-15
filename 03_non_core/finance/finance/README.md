@@ -1,45 +1,33 @@
-# Finance & FinTech Placement Track
+# General Corporate Finance, Investment Banking & FP&A Module Hub
 
-> Placement-focused preparation curriculum for IIT Kanpur students targeting **Finance & FinTech** roles at top recruiting firms.
-
-
-> [!NOTE]
-> **Track Status: Scaffold / Secondary Reference Track**
-> This module provides standard structural benchmarks and role taxonomy for IITK placements. Core question banks and practice cases for this secondary track are currently being expanded. For high-yield immediate preparation, prioritize **01_common**, **Analytics & BA**, **Risk Analytics**, or **Consulting**.
+> **Scope**: Instructional module directory for Corporate Finance, Valuation, M&A, LBOs, and FP&A.
+> **Parent Hub**: [`03_non_core/finance/README.md`](../README.md)
+> **Master Syllabus**: [`03_non_core/finance/SYLLABUS_AND_COVERAGE.md`](../SYLLABUS_AND_COVERAGE.md)
+> **Master Question Bank**: [`03_non_core/finance/QUESTION_BANK_WITH_SOLUTIONS.md`](../QUESTION_BANK_WITH_SOLUTIONS.md)
 
 ---
 
+## 1. Modules in this Track
 
-## 📋 Role Snapshot
-- **Target Companies**: Goldman Sachs, Morgan Stanley, J.P. Morgan Chase, Barclays, Deutsche Bank, Nomura, WorldQuant, Edelweiss, Axis Bank, ICICI Bank
-- **Typical CTC Range**: 12 LPA - 30 LPA
-- **Department Eligibility**: B.Tech / M.Tech all branches. Strong mathematical aptitude and financial fundamentals.
-- **Core Skills Tested**: 3-Statement Financial Modeling, Discounted Cash Flow (DCF), Valuation Multiples (EV/EBITDA, P/E), Working Capital Dynamics, Financial Ratios, Excel
-
----
-
-## 🗺️ Placement Module Index
-
-| Module | Placement Objective | Document Link |
-|:---|:---|:---|
-| **01. Role Overview** | Target companies, job descriptions, eligibility, and Day-to-Day deliverables | [01_role-overview.md](01_role-overview.md) |
-| **02. Skills & Competencies** | Required skills, tools, and technical benchmark ladder | [02_skills-and-competencies.md](02_skills-and-competencies.md) |
-| **03. Domain Knowledge** | Core business frameworks, equations, and industry models | [03_domain-knowledge.md](03_domain-knowledge.md) |
-| **04. Tools & Technical** | Software tooling, syntax, and computational modeling stack | [04_tools-and-technical.md](04_tools-and-technical.md) |
-| **05. Selection Process** | Stage-by-stage guide: OA pattern, Technical, Case, and HR rounds | [05_interview-preparation.md](05_interview-preparation.md) |
-| **06. Question Bank** | Curated questions with model answers and interviewer follow-ups | [06_question-bank.md](06_question-bank.md) |
-| **07. Practice & Cases** | Realistic case studies and fully worked problem sets | [07_practice-and-cases.md](07_practice-and-cases.md) |
-| **08. Role Study Plan** | 4-week milestone preparation roadmap | [08_role-study-plan.md](08_role-study-plan.md) |
-| **09. Rapid Revision** | High-density 1-page test eve cheat sheet | [09_rapid-revision.md](09_rapid-revision.md) |
-| **10. Resources** | Curated books, sandboxes, and repository cross-links | [10_resources.md](10_resources.md) |
-| **11. Resume & Projects** | Civil/HWRE resume project alignment & "Why Non-Core?" framing | [11_projects.md](11_projects.md) |
-| **12. Mock Assessment** | Timed mock assessment with evaluation rubric | [12_mock-assessment.md](12_mock-assessment.md) |
+| File | Focus Area & Description |
+| :--- | :--- |
+| **[`01_role-overview.md`](01_role-overview.md)** | Career paths in Corp Fin, IB, ER, FP&A, compensation, recruiting timelines. |
+| **[`02_skills-and-competencies.md`](02_skills-and-competencies.md)** | Technical competencies: Accounting, Financial Modeling, Valuation, Forecasting. |
+| **[`03_domain-knowledge.md`](03_domain-knowledge.md)** | **Master Textbook Chapter (28.5 KB)**: Complete first-principles coverage of 3-Statement Linking, DuPont Analysis, TVM & Capital Budgeting, WACC & Capital Structure, DCF & Terminal Value, Multiples, Fixed Income, Banking NIM, M&A Accretion/Dilution, LBO Mechanics, FP&A PVM Variance Analysis, and SaaS Cohorts. |
+| **[`04_tools-and-technical.md`](04_tools-and-technical.md)** | Financial modeling tools: Excel shortcuts, dynamic schedules, DCF modeling best practices, Python financial analysis. |
+| **[`05_interview-preparation.md`](05_interview-preparation.md)** | Technical and behavioral interview strategies, common pitfalls, deal walkthroughs. |
+| **[`06_question-bank.md`](06_question-bank.md)** | Foundational question bank (Cross-referenced with the 250-question master bank in parent folder). |
+| **[`07_practice-and-cases.md`](07_practice-and-cases.md)** | Comprehensive case studies: Valuation memos, M&A pitchbook cases, FP&A variance exercises. |
+| **[`08_role-study-plan.md`](08_role-study-plan.md)** | Day-by-day study roadmap from baseline accounting to advanced valuation. |
+| **[`09_rapid-revision.md`](09_rapid-revision.md)** | High-yield formula cheatsheets, 3-statement cheat tables, WACC and DCF shortcuts. |
+| **[`10_resources.md`](10_resources.md)** | Recommended textbooks (Damodaran, Rosenbaum & Pearl, Brealey-Myers), websites, and datasets. |
+| **[`11_projects.md`](11_projects.md)** | Placement resume projects: 3-Statement DCF valuation models, M&A pitchbook models, FP&A forecasting suites. |
+| **[`12_mock-assessment.md`](12_mock-assessment.md)** | Timed diagnostic test with answer keys and scoring rubric. |
 
 ---
 
-## 🧭 Cross-Repository Navigation
-- [Master Role Directory](../../ROLE_DIRECTORY.md)
-- [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+## 2. Master Curriculum Integration
+
+For comprehensive practice, refer to the parent suite:
+- **[250-Question Master Bank](../QUESTION_BANK_WITH_SOLUTIONS.md)**: Practice Q001 to Q200 for Corporate Finance, Valuation, M&A, LBO, and FP&A.
+- **[Timed Mocks](../MOCK_TESTS_AND_ASSESSMENTS.md)**: Complete **Mock 01** (Diagnostic), **Mock 02** (Valuation), **Mock 03** (IB & M&A/LBO), and **Mock 04** (FP&A).

@@ -64,11 +64,11 @@
 - **Task**: Build a dynamic price elasticity simulator where changing Price by $\pm 5\%, \pm 10\%$ dynamically updates Estimated Volume based on assumed elasticity ($E_d = -1.5$), computing new Total Revenue and Gross Profit.
 
 ### Drill 06: Break-Even Capacity Utilization Model (10 mins)
-- **Task**: Calculate Break-Even Units and Break-Even Revenue given Fixed Costs ($F = 25	ext{ Lakh}$), Unit Price ($P = 850$), and Unit Variable Cost ($V = 450$).
-- $Q_{	ext{BE}} = rac{2,500,000}{850 - 450} = 6,250	ext{ units}$.
+- **Task**: Calculate Break-Even Units and Break-Even Revenue given Fixed Costs ($F = 25\text{ Lakh}$), Unit Price ($P = 850$), and Unit Variable Cost ($V = 450$).
+- $Q_{\text{BE}} = \frac{2,500,000}{850 - 450} = 6,250\text{ units}$.
 
 ### Drill 07: 2-Variable Sensitivity Data Table (10 mins)
-- **Task**: Create a $5 	imes 5$ sensitivity matrix calculating EBITDA when Unit Selling Price varies from 800 to 1,200 INR (row) and Raw Material Cost varies from 300 to 500 INR (column) using Excel `Data -> What-If Analysis -> Data Table`.
+- **Task**: Create a $5 \times 5$ sensitivity matrix calculating EBITDA when Unit Selling Price varies from 800 to 1,200 INR (row) and Raw Material Cost varies from 300 to 500 INR (column) using Excel `Data -> What-If Analysis -> Data Table`.
 
 ### Drill 08: Financial Reconciliation & Discrepancy Matching (10 mins)
 - **Task**: Match bank statement settlement credits against internal payment gateway records using `XLOOKUP` with Boolean discrepancy flags `=IF(ABS(Bank_Amt - Internal_Amt) > 0.01, "Mismatch", "Reconciled")`.

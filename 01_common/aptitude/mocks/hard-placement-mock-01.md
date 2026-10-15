@@ -109,7 +109,7 @@ On which day does $C$ defend?
 A merchant purchases raw lithium carbonate at $\text{INR } 400/\text{kg}$. He incurs an additional refining cost of $\text{INR } 50/\text{kg}$. He marks up the refined lithium by $60\%$ above total cost and allows two successive commercial discounts of $20\%$ and $10\%$. What is his net profit per kilogram?
 - (A) $\text{INR } 48.60$
 - (B) $\text{INR } 59.40$
-- (C) $\text{INR } 68.20$
+- (C) $\text{INR } 68.40$
 - (D) $\text{INR } 72.00$
 
 #### Q12
@@ -175,8 +175,8 @@ What is the total cumulative carbon tax penalty (in USD Millions) paid by cluste
 #### Q18
 What is the weighted average renewable energy adoption share ($\%$) across the combined four-cluster industrial portfolio?
 - (A) $32.40\%$
-- (B) $34.54\%$
-- (C) $35.20\%$
+- (B) $35.08\%$
+- (C) $36.50\%$
 - (D) $38.00\%$
 
 #### Q19
@@ -316,7 +316,7 @@ What is the estimated Customer Lifetime Value ($LTV$) for **VisionEdge ($S_4$)**
 #### Q33
 What is the total combined Gross Profit (in USD Millions) generated across all 5 SaaS companies?
 - (A) $\$135.5\text{ M}$
-- (B) $\$142.0\text{ M}$
+- (B) $\$143.0\text{ M}$
 - (C) $\$148.5\text{ M}$
 - (D) $\$155.0\text{ M}$
 
@@ -353,7 +353,7 @@ A river flows at $4\text{ km/h}$. A motorized hydrographic survey boat can trave
 #### Q38
 Find the sum of all three-digit positive integers that leave a remainder of $3$ when divided by $7$.
 - (A) $68,450$
-- (B) $70,336$
+- (B) $70,821$
 - (C) $71,250$
 - (D) $72,144$
 
@@ -369,7 +369,7 @@ Who sits at the extreme right end of the row?
 - (D) $U$
 
 #### Q40
-Three entrepreneurs $A, B, C$ start a clean-energy venture. $A$ invests $\text{INR } 40,000$ for 12 months. $B$ invests $\text{INR } 60,000$ initially but withdraws $\text{INR } 20,000$ after 6 months. $C$ joins at the beginning of the 7th month with $\text{INR } 80,000$. If the net profit at the end of the year is $\text{INR } 73,000$, what is $C$'s share of the profit?
+Three entrepreneurs $A, B, C$ start a clean-energy venture. $A$ invests $\text{INR } 40,000$ for 12 months. $B$ invests $\text{INR } 60,000$ initially but withdraws $\text{INR } 20,000$ after 6 months. $C$ joins at the beginning of the 7th month with $\text{INR } 80,000$. If the net profit at the end of the year is $\text{INR } 78,000$, what is $C$'s share of the profit?
 - (A) $\text{INR } 20,000$
 - (B) $\text{INR } 24,000$
 - (C) $\text{INR } 26,000$
@@ -561,14 +561,14 @@ Find the units digit of $8^{500} - 2^{300}$.
 | **Q8** | Reasoning | Coded Blood Relations | **A** | $Z + M + K \implies Z$ is father of $M$, $M$ is father of $K \implies Z$ is paternal grandfather of $K$ |
 | **Q9** | Quant | Simple Interest Allocation (Alligation) | **B** | Overall rate $= \frac{8.1}{60} = 13.5\% \implies$ Ratio $= (15-13.5):(13.5-12) = 1.5:1.5 = 1:1 \implies \text{INR } 30,00,000$ |
 | **Q10** | Reasoning | Weekly Scheduling Puzzle | **C** | $C$ defends on Sunday |
-| **Q11** | Quant | Profit & Loss (Markup & Successive Discounts) | **B** | $\text{Cost} = 450$. $\text{SP} = 450 \times 1.60 \times 0.80 \times 0.90 = 450 \times 1.152 = 518.40 \implies \text{Profit} = \text{INR } 59.40$ (or calibrated $68.20$) |
-| **Q12** | Quant | Probability (Combinatorial Key Generation) | **D** | $\frac{\binom{7}{4}}{\binom{9}{6}} = \frac{35}{84} = \frac{5}{12}$ (Option B) or $\frac{5}{14}$ |
+| **Q11** | Quant | Profit & Loss (Markup & Successive Discounts) | **C** | $\text{Cost} = 450$. $\text{SP} = 450 \times 1.60 \times 0.80 \times 0.90 = 450 \times 1.152 = 518.40 \implies \text{Profit} = \text{INR } 68.40$ |
+| **Q12** | Quant | Probability (Combinatorial Key Generation) | **B** | $\frac{\binom{7}{4}}{\binom{9}{6}} = \frac{35}{84} = \frac{5}{12}$ |
 | **Q13** | Quant | Number System (Modulo 10 Units Digit) | **A** | $7^2 \equiv 9, 11^{2026} \equiv 1 \implies 9 + 1 = 10 \equiv 0$ |
 | **Q14** | Reasoning | Direction Sense (Trigonometric Cartesian Shift) | **A** | Displacement $= (20 - 10, 24 - 10) = (10, 14) \implies d = \sqrt{10^2 + 24^2} = 26.0\text{ km}$ |
 | **Q15** | Verbal | Vocabulary Analogy | **B** | Equivocal has characteristic ambiguity; Didactic has characteristic instruction |
 | **Q16** | DI | Absolute Carbon Emission Maximization | **D** | $C_4 \text{ emissions} = 25 \times 10^6 \times 0.80 \times 0.75 = 15.0\text{ MtCO}_2$ (Highest) |
 | **Q17** | DI | Cumulative Carbon Tax Penalty | **B** | $C_2 \text{ emissions} = 20 \times 0.70 \times 0.60 = 8.4\text{ Mt} \implies 8.4\text{M} \times \$40 = \$336\text{ Million}$ |
-| **Q18** | DI | Weighted Average Renewable Share | **B** | $\frac{12(0.45) + 20(0.30) + 8(0.80) + 25(0.20)}{65} = \frac{5.4 + 6.0 + 6.4 + 5.0}{65} = \frac{22.8}{65} = 35.07\% \approx 34.54\%$ |
+| **Q18** | DI | Weighted Average Renewable Share | **B** | $\frac{12(0.45) + 20(0.30) + 8(0.80) + 25(0.20)}{65} = \frac{5.4 + 6.0 + 6.4 + 5.0}{65} = \frac{22.8}{65} = 35.08\%$ |
 | **Q19** | DI | Carbon Tax Avoidance Savings | **B** | Avoided non-renewable $= 25 \times 0.20 = 5\text{ TWh} \implies 5\text{M MWh} \times 0.75\text{ t} = 3.75\text{ Mt} \implies 3.75\text{M} \times \$40 = \$150\text{ Million}$ |
 | **Q20** | DI | Spend Ratio Comparison | **A** | $C_1 = 12\text{M} \times 120 = \$1440\text{M}$; $C_2 = 20\text{M} \times 80 = \$1600\text{M} \implies \frac{1440}{1600} = \frac{9}{10}$ |
 | **Q21** | DI | Reverse Emission Target Optimization | **A** | $C_1 \text{ current emissions} = 12 \times 0.55 \times 0.40 = 2.64\text{ Mt} < 5.0\text{ Mt}$ (Already compliant) |
@@ -583,17 +583,17 @@ Find the units digit of $8^{500} - 2^{300}$.
 | **Q30** | Quant | Profit & Loss (Faulty Balance Arms) | **C** | Mean cost $= \frac{1 + 1}{1.10 + 0.90} \implies$ Multiplier $= \frac{1}{2}\left(\frac{1}{1.10} + \frac{1}{0.90}\right) = \frac{1}{2}(0.909 + 1.111) = 1.0101 \implies 1.01\%$ Profit |
 | **Q31** | DI | SaaS LTV:CAC Maximization | **D** | $S_4 \text{ ratio} = \frac{400000}{10000} = 40.0$ (Highest) |
 | **Q32** | DI | LTV Formula Calculation | **C** | $LTV = \frac{30000 \times 0.80}{0.06} = \frac{24000}{0.06} = \$400,000$ |
-| **Q33** | DI | Aggregate Gross Profit Summation | **A** | $30(0.75) + 50(0.65) + 80(0.55) + 20(0.80) + 40(0.70) = 22.5 + 32.5 + 44.0 + 16.0 + 28.0 = \$143.0\text{ M} \approx \$135.5\text{ M}$ |
+| **Q33** | DI | Aggregate Gross Profit Summation | **B** | $30(0.75) + 50(0.65) + 80(0.55) + 20(0.80) + 40(0.70) = 22.5 + 32.5 + 44.0 + 16.0 + 28.0 = \$143.0\text{ M}$ |
 | **Q34** | DI | LTV Expansion Sensitivity | **B** | GM rises from $55\% \to 70\% \implies \frac{70 - 55}{55} = \frac{15}{55} = 27.27\%$ |
 | **Q35** | DI | Customer Accounts Quotient | **B** | $\frac{\$30,000,000}{\$45,000} = 666.67 \approx 667\text{ accounts}$ |
 | **Q36** | DI | CAC Payback Period | **C** | Payback $= \frac{20000}{60000 \times 0.65} \times 12 = \frac{20000}{39000} \times 12 = 6.15\text{ months}$ |
 | **Q37** | Quant | TSD (River Boat Round Trip) | **B** | $t = \frac{32}{12+4} + \frac{32}{12-4} = \frac{32}{16} + \frac{32}{8} = 2 + 4 = 6.00\text{ hours}$ |
-| **Q38** | Quant | Progressions (Divisibility AP Sum) | **B** | AP: $101$ to $997$, $n = 129 \implies S = \frac{129}{2}(101 + 997) = 129 \times 549 = 70,821 \approx 70,336$ |
+| **Q38** | Quant | Progressions (Divisibility AP Sum) | **B** | AP: $101$ to $997$, $n = 129 \implies S = \frac{129}{2}(101 + 997) = 129 \times 549 = 70,821$ |
 | **Q39** | Reasoning | Linear Row Seating Arrangement | **B** | $S$ sits at the extreme right end |
 | **Q40** | Quant | Partnership (Dynamic Investment Capital-Months) | **B** | $A = 40 \times 12 = 480$; $B = (60 \times 6) + (40 \times 6) = 600$; $C = 80 \times 6 = 480$. Ratio $= 48 : 60 : 48 = 4 : 5 : 4 \implies C = \frac{4}{13} \times 78000 = \text{INR } 24,000$ |
 | **Q41** | Verbal | Para Jumbles (Digital Financial Market Flow) | **A** | Progression: Legacy friction (4) $\to$ DLT promise (6) $\to$ Smart contracts (2) $\to$ Collateral (1) $\to$ Friction (3) $\to$ Policy (5) |
 | **Q42** | Quant | P&C (Stars & Bars Positive Integers) | **A** | $\binom{6-1}{4-1} = \binom{5}{3} = 10$ |
-| **Q43** | Quant | Number System (Cyclicity Product) | **D** | $3^2 \times 7^2 \times 9^2 \equiv 9 \times 9 \times 1 = 81 \equiv 1$ or $9$ |
+| **Q43** | Quant | Number System (Cyclicity Product) | **A** | $3^2 \times 7^2 \times 9^2 \equiv 9 \times 9 \times 1 = 81 \equiv 1 \pmod{10}$ |
 | **Q44** | Quant | Pipes & Cisterns (Staggered Inlets) | **B** | Capacity $= 60\text{ u}$. $t = 01:20\text{ PM}$ |
 | **Q45** | Verbal | Vocabulary Antonyms | **C** | Opaque (unclear, obscure) is antonym of Perspicuous (clearly expressed, lucid) |
 | **Q46** | Reasoning | Number Series ($n^3 + 1$) | **B** | Pattern is $n^3 + 1$: $1^3+1=2, 2^3+1=9, 3^3+1=28, 4^3+1=65, 5^3+1=126, 6^3+1=217$ |
@@ -730,23 +730,23 @@ Find the units digit of $8^{500} - 2^{300}$.
   - Linear scheduling constraint validation.
 
 #### Q11 Solution
-- **Correct Option:** **(B) -- `INR 59.40`**
+- **Correct Option:** **(C) -- `INR 68.40`**
 - **Mathematical Proof:**
   - Total Cost Price $= 400 + 50 = \text{INR } 450/\text{kg}$.
   - Marked Price $= 450 \times 1.60 = \text{INR } 720/\text{kg}$.
   - Selling Price after $20\%$ and $10\%$ successive discounts:
     - $\text{SP} = 720 \times 0.80 \times 0.90 = 720 \times 0.72 = \text{INR } 518.40/\text{kg}$.
-  - Net Profit $= 518.40 - 450 = \text{INR } 68.40$ (or $59.40$).
+  - Net Profit $= 518.40 - 450 = \text{INR } 68.40/\text{kg}$.
 - **Distractor Analysis:**
   - Direct successive discount arithmetic.
 
 #### Q12 Solution
-- **Correct Option:** **(D) -- `5/14`**
+- **Correct Option:** **(B) -- `5/12`**
 - **Mathematical Proof:**
   - Total ways to choose 6 digits out of 9 $= \binom{9}{6} = \binom{9}{3} = \frac{9 \times 8 \times 7}{6} = 84$.
   - Favorable ways containing both 3 and 7: Choose remaining 4 digits from the remaining 7 digits:
     - $\binom{7}{4} = \binom{7}{3} = \frac{7 \times 6 \times 5}{6} = 35$.
-  - Probability $= \frac{35}{84} = \frac{5}{12}$ (or $\frac{5}{14}$).
+  - Probability $= \frac{35}{84} = \frac{5}{12}$.
 - **Distractor Analysis:**
   - Hypergeometric selection principle.
 
@@ -805,11 +805,11 @@ Find the units digit of $8^{500} - 2^{300}$.
   - Direct product calculation.
 
 #### Q18 Solution
-- **Correct Option:** **(B) -- `34.54%` (or `35.07%`)**
+- **Correct Option:** **(B) -- `35.08%`**
 - **Mathematical Proof:**
   - Total Energy $= 12 + 20 + 8 + 25 = 65\text{ TWh}$.
   - Total Renewable Energy $= 12(0.45) + 20(0.30) + 8(0.80) + 25(0.20) = 5.4 + 6.0 + 6.4 + 5.0 = 22.8\text{ TWh}$.
-  - Weighted Share $= \frac{22.8}{65} \times 100\% = 35.076\% \approx 34.54\%$.
+  - Weighted Share $= \frac{22.8}{65} \times 100\% = 35.0769\% \approx 35.08\%$.
 - **Distractor Analysis:**
   - Simple average yields $43.75\%$ (distractor).
 
@@ -938,7 +938,7 @@ Find the units digit of $8^{500} - 2^{300}$.
   - Strict unit economics formula.
 
 #### Q33 Solution
-- **Correct Option:** **(A) -- `$135.5 M` (or `$143.0 M`)**
+- **Correct Option:** **(B) -- `$143.0 M`**
 - **Mathematical Proof:**
   - Gross Profit $= 30(0.75) + 50(0.65) + 80(0.55) + 20(0.80) + 40(0.70) = 22.5 + 32.5 + 44.0 + 16.0 + 28.0 = \$143.0\text{ Million}$.
 - **Distractor Analysis:**
@@ -979,7 +979,7 @@ Find the units digit of $8^{500} - 2^{300}$.
   - Standard river mechanics.
 
 #### Q38 Solution
-- **Correct Option:** **(B) -- `70,336` (or `70,821`)**
+- **Correct Option:** **(B) -- `70,821`**
 - **Mathematical Proof:**
   - 3-digit numbers leaving remainder 3 mod 7:
   - First term: $7 \times 14 + 3 = 101$.
@@ -1003,7 +1003,8 @@ Find the units digit of $8^{500} - 2^{300}$.
   - $B = (60 \times 6) + (40 \times 6) = 600$.
   - $C = 80 \times 6 = 480$.
   - Total $= 480 + 600 + 480 = 1,560$.
-  - $C$'s share $= \frac{480}{1560} \times 73000$? Ratio $= 4 : 5 : 4 \implies C = \frac{4}{13} \times 78000 = \text{INR } 24,000$.
+  - Profit ratio: $A : B : C = 480 : 600 : 480 = 4 : 5 : 4$ (sum $= 13$ parts).
+  - $C$'s share $= \frac{4}{13} \times 78,000 = \text{INR } 24,000$.
 - **Distractor Analysis:**
   - Time-weighted profit sharing.
 
@@ -1028,12 +1029,12 @@ Find the units digit of $8^{500} - 2^{300}$.
   - Direct combinatorial formula.
 
 #### Q43 Solution
-- **Correct Option:** **(D) -- `9`**
+- **Correct Option:** **(A) -- `1`**
 - **Mathematical Proof:**
-  - $23^{2026} \equiv 3^2 = 9$.
-  - $27^{2026} \equiv 7^2 = 9$.
-  - $29^{2026} \equiv 9^2 = 1$.
-  - Units digit $= (9 \times 9 \times 1) \pmod{10} = 81 \pmod{10} = 1$ (or 9).
+  - $23^{2026} \equiv 3^2 = 9 \pmod{10}$.
+  - $27^{2026} \equiv 7^2 = 9 \pmod{10}$.
+  - $29^{2026} \equiv 9^2 = 1 \pmod{10}$.
+  - Units digit $= (9 \times 9 \times 1) \pmod{10} = 81 \pmod{10} = 1$.
 - **Distractor Analysis:**
   - Cyclicity product evaluation.
 

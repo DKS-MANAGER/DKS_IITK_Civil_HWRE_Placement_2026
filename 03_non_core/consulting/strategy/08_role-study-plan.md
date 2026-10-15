@@ -6,7 +6,7 @@
 
 ## 📅 Roadmap Overview
 
-`	ext
+`\text
 WEEK 1: Domain Foundations & Technical Literacy
   ↳ Master core domain equations, terminology, and tools.
 

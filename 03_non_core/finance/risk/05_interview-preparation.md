@@ -64,7 +64,7 @@ and computational coursework centered around physical and probabilistic risk mod
 rainfall-runoff probabilities, predicting structural failure thresholds under stress, and quantifying
 uncertainty in complex environmental networks.
 
-Through projects like BridgeRisk and hydrological time-series modeling, I developed a deep appreciation
+Through projects like Hydrodynamic Simulation Archetype and hydrological time-series modeling, I developed a deep appreciation
 for applied probability, statistical validation, and the mathematical modeling of rare, high-consequence
 tail events.
 

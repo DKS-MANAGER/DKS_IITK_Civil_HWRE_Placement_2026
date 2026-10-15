@@ -1,94 +1,130 @@
-# Selection Process — Step-by-Step Guide
+# Selection Process & Stage-by-Stage Strategy
 
-> **Target Role**: Digital Consultant, Accenture Japan Ltd.  
-> **Source Verification**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` `[JD VERIFIED]`
+> **Target Role**: Digital Consultant, Accenture Japan Ltd. (`[JD VERIFIED]`)  
+> **Source Verification**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` (`[JD VERIFIED]`)  
+> **Official Pipeline**: `Resume Screening` $\longrightarrow$ `Technical / Coding Test` $\longrightarrow$ `Interviews (approx. 2 rounds)`
 
 ---
 
-## 1. Recruitment Pipeline Overview
+## 1. Selection Pipeline Architecture (`[JD VERIFIED]`)
 
 ```text
-┌─────────────────────────┐
-│ Stage 1: Resume Screening│
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 2: Technical Test │ ◄── Designated Online Platform
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 3: Manager Round  │ ◄── ZOOM / Web Interview (30 mins)
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 4: Director Round │ ◄── ZOOM / Web Interview (30 mins)
-└────────────┬────────────┘
-             │ Offer (~1 Week)
-             ▼
-┌─────────────────────────┐
-│ Final Offer & Onboarding│
-└─────────────────────────┘
+┌─────────────────────────────────┐
+│ Stage 1: Resume Screening       │ ──► IIT graduate degree & strict zero post-bachelor exp.
+└────────────────┬────────────────┘
+                 │ Shortlist
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 2: Technical / Coding Test│ ──► Designated Online Assessment Platform (Timed)
+└────────────────┬────────────────┘
+                 │ Cutoff Cleared
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 3: Interview Round 1      │ ──► Web Interview (ZOOM / 30 mins) — Manager Level
+└────────────────┬────────────────┘
+                 │ Recommended
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 4: Interview Round 2      │ ──► Web Interview (ZOOM / 30 mins) — Director Level
+└────────────────┬────────────────┘
+                 │ Selected
+                 ▼
+┌─────────────────────────────────┐
+│ Stage 5: Formal Offer Release   │ ──► Contract Released (~1 Week after Final Round)
+└─────────────────────────────────┘
 ```
 
 ---
 
-## 2. Stage-by-Stage Breakdown
+## 2. Stage 1: Resume Screening (`[JD VERIFIED]`)
 
-### Stage 1: Resume Screening (`[JD VERIFIED]`)
-* **Focus**: Verification of academic credentials (IIT degree completed by June 2027), zero full-time post-bachelor work experience, English proficiency, and demonstrated analytical/technical interest.
-* **Key Pass Factors**:
-  * Clean, formatted resume highlighting engineering problem-solving, tech projects, data analytics, and extracurricular leadership.
-  * Explicit alignment with digital transformation and open-mindedness toward international work in Japan.
-* **Strategy Guide**: See [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md).
+### Mandatory Verification Gates
+1. **Academic Credential**: Graduation from an **IIT college or graduate school** by **June 2027** (Bachelor's or Master's in any discipline) $\implies$ M.Tech Civil/HWRE verified.
+2. **Experience Constraint**: Must have **zero full-time professional experience** after completing bachelor's degree.
+3. **English Proficiency**: Verified at native / fluent business level.
+4. **Target Alignment**: Evidence of quantitative rigor, analytical problem-solving, coding literacy (Python, SQL), and an open mindset toward relocation to Tokyo and learning Japanese.
 
----
-
-### Stage 2: Technology / Technical / Coding Test (`[JD VERIFIED]`)
-* **Format**: Online test delivered via designated testing platform.
-* **Duration & Structure**: Timed assessment covering 4 key modules:
-  1. **Coding / Logic Fundamentals**: Array manipulations, basic algorithms, data structures (Python / C++ / Java).
-  2. **Data & SQL Interpretation**: Querying tables, database joins, aggregate analysis.
-  3. **Logical Reasoning & Aptitude**: Numerical interpretation, logical deduction, flow diagram analysis.
-  4. **Technology Comprehension**: Conceptual questions on Cloud, AI/ML, APIs, and digital systems.
-* **Strategy & Practice System**: See [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
+### Resume Audit Rules
+* Frame all IIT coursework and thesis projects using the **Context $\to$ Tool/Method $\to$ Quantified Outcome** formula.
+* Eliminate passive language; highlight ownership of modeling pipelines, data processing, and analytical conclusions.
+* See [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) for bullet-point templates.
 
 ---
 
-### Stage 3: Round 1 — Manager Level Interview (`[JD VERIFIED]`)
-* **Format**: Web Interview (ZOOM / Mandated platform)
-* **Duration**: **30 minutes** (IIT mandated duration)
-* **Evaluator**: Accenture Japan Senior Manager / Manager
-* **Primary Objective**: Test technical depth, structured problem solving, project defense, and consulting case intuition.
-* **Key Focus Areas**:
-  * Technical resume walkthrough & engineering project deep-dive.
-  * Mini-case / Mini problem-structuring scenario (e.g., "How would you digitize a traditional manufacturing factory?").
-  * Basic technology concept check (Cloud vs On-Premise, AI integration challenges).
-* **Strategy Guide**: See [`INTERVIEW.md#round-1--manager-level-interview`](INTERVIEW.md#round-1--manager-level-interview).
+## 3. Stage 2: Technology / Technical / Coding Test (`[JD VERIFIED]`)
+
+### Platform & Format
+* **Platform**: Designated online testing platform (e.g., HackerRank, Mettl, or proprietary engine as designated by Accenture Japan).
+* **Delivery**: Timed sectional test to be completed by a specific date.
+
+### Tested Competency Modules
+1. **Coding & Algorithmic Problem Solving (Python / C++)**:
+   * Array and string operations, sliding window, frequency counting, basic sorting, and simulation.
+   * Target: Clean, readable code with optimal time complexity ($O(N)$ or $O(N \log N)$).
+2. **SQL & Analytical Querying**:
+   * Multi-table `JOIN`, `GROUP BY`, `HAVING`, conditional logic (`CASE WHEN`), subqueries, CTEs, and window functions (`ROW_NUMBER()`, `RANK()`, `LAG()`, `LEAD()`).
+3. **Quantitative & Logical Reasoning**:
+   * Data interpretation, percentages, ratios, trend analysis, logical deduction, flowchart analysis.
+4. **Digital Technology Comprehension**:
+   * Conceptual questions covering Cloud architectures (IaaS/PaaS/SaaS), Microservices, REST APIs, AI/RAG basics, and IoT sensors.
+* Comprehensive practice bank available in [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md).
 
 ---
 
-### Stage 4: Round 2 — Director Level Interview (`[JD VERIFIED]`)
-* **Format**: Web Interview (ZOOM / Mandated platform)
-* **Duration**: **30 minutes** (IIT mandated duration)
-* **Evaluator**: Accenture Japan Managing Director / Director
-* **Primary Objective**: Test executive presence, strategic mindset, cultural adaptability, long-term commitment to Japan, and leadership potential.
-* **Key Focus Areas**:
-  * High-level business & technology vision (e.g., "Why Digital Consulting over core engineering or software development?").
-  * Motivation for **Accenture Japan** specifically and living/working in Tokyo.
-  * Adaptability, cross-cultural communication, and commitment to learning Japanese.
-  * Behavioral scenarios (handling client resistance, leading global teams).
-* **Strategy Guide**: See [`INTERVIEW.md#round-2--director-level-interview`](INTERVIEW.md#round-2--director-level-interview).
+## 4. Stage 3: Round 1 — Manager Level Technical Interview (`[JD VERIFIED]`)
+
+### Structure & Atmosphere
+* **Platform**: Web Interview (ZOOM, or as mandated by the IIT).
+* **Duration**: **30 minutes** (IIT mandated duration).
+* **Interviewer**: Senior Manager / Manager, Accenture Japan Digital Practice.
+* **Primary Objective**: Evaluate structured problem solving, technical depth, project rigor, and analytical clarity.
+
+### Typical 30-Minute Manager Round Breakdown
+```text
+[00:00 – 05:00]  Introduction & Professional Background Walkthrough
+[05:00 – 15:00]  Technical Thesis / Project Deep-Dive Defense (Methods, Stack, Validation)
+[15:00 – 25:00]  Mini Digital Transformation Case / Technology Trade-off Scenario
+[25:00 – 30:00]  Candidate Questions for Manager
+```
+
+### Key Evaluator Questions
+1. *"Walk me through the computational model or data pipeline in your M.Tech research. Why did you choose Python/numerical modeling over existing canned software?"*
+2. *"A Japanese automotive client wants to reduce machine downtime. How would you design an IoT sensor architecture to predict component failure?"*
+3. *"If a client asks whether to migrate their database to AWS or Azure, how do you approach that decision as an Accenture consultant?"*
 
 ---
 
-## 3. Post-Offer Timeline & Offer Letter Release (`[JD VERIFIED]`)
+## 5. Stage 4: Round 2 — Director Level Strategic Interview (`[JD VERIFIED]`)
 
-* **Offer Letter Release**: Approximately **1 week** following successful completion of the Director Interview.
-* **Pre-Joining Follow-Up**:
-  * Welcome email & visa / COE guidance call.
-  * Japanese language training enrolment (accenture-sponsored JPY 664,658 training).
-  * Travel arrangements & serviced apartment allocation in Tokyo.
+### Structure & Atmosphere
+* **Platform**: Web Interview (ZOOM, or as mandated by the IIT).
+* **Duration**: **30 minutes** (IIT mandated duration).
+* **Interviewer**: Managing Director / Director, Accenture Japan.
+* **Primary Objective**: Evaluate executive presence, strategic mindset, career vision, cross-cultural adaptability, and genuine commitment to living and working in Tokyo.
+
+### Typical 30-Minute Director Round Breakdown
+```text
+[00:00 – 05:00]  Executive Elevator Pitch & Pivot to Digital Consulting
+[05:00 – 15:00]  High-Level Business & Digital Transformation Discussion
+[15:00 – 25:00]  Cultural Adaptability, Japanese Language Plan, Relocation Motivation
+[25:00 – 30:00]  Strategic Questions for Director
+```
+
+### Key Evaluator Questions
+1. *"Why do you want to start your professional career at Accenture Japan in Tokyo rather than joining a software firm or engineering consultancy in India?"*
+2. *"Japanese language is required after joining (`[JD VERIFIED]`). How specifically do you plan to achieve conversational and business fluency while delivering on client projects?"*
+3. *"Which of our three career paths (Business × Technology, Project Management, or Technology Specialist) aligns with your 5-year vision?"*
+4. *"Describe a situation where you had to adapt quickly to an unfamiliar culture or unexpected team conflict."*
+
+---
+
+## 6. Stage 5: Offer Letter Release & Post-Selection Timeline (`[JD VERIFIED]`)
+
+* **Offer Release**: Approximately **1 week** following completion of the final Director Round.
+* **Formal Verification**: Pre-offer checks on degree completion schedule and background.
+* **Pre-Joining Engagement (Jan 2027 – Nov 2027)**:
+  * Official welcome and onboarding webinars.
+  * Enrollment in Accenture-sponsored Japanese language training program (JPY 664,658 package).
+  * COE (Certificate of Eligibility) processing with administrative scriveners.
+  * Flight ticketing and 2-month serviced apartment allocation.
 * **Tentative Date of Joining**: **December 2027** (`[JD VERIFIED]`).

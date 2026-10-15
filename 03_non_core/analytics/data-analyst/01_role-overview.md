@@ -10,8 +10,8 @@
 |:---|:---|
 | **Target Hiring Companies** | Amazon, Flipkart, Walmart Global Tech, Swiggy, Zomato, Uber, Meesho, Groww, PhonePe, Myntra, Jio, Airtel, Reliance |
 | **Typical Job Designations** | Data Analyst, BI Analyst, Product Data Analyst, Operations Data Analyst |
-| **Placement CTC Range** | 10 LPA - 22 LPA |
-| **Department Eligibility** | B.Tech / M.Tech all branches. Proficiency in relational databases, SQL, and data transformation. |
+| **Placement CTC Benchmark** | ~₹10–22 LPA `[HISTORICAL BENCHMARK]` (Subject to company proforma specifications) |
+| **Department Eligibility** | B.Tech / M.Tech across engineering branches. Proficiency in relational databases, SQL, and data transformation. |
 
 ---
 
@@ -19,10 +19,10 @@
 
 | Job Requirement | What Company Tests in Selection | Repository Preparation Module | Evidence to Showcase on Resume |
 |:---|:---|:---|:---|
-| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](../../consulting/04_tools-and-technical.md) | Coursework / Computational Project |
+| **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical-stack.md](04_tools-and-technical-stack.md) | Coursework / Computational Project |
 | **Domain Problem Solving** | Business Case / Diagnostic Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Case Study / Thesis System Model |
 | **Speed & Accuracy** | Online Assessment (OA) Aptitude | [05_interview-preparation.md](05_interview-preparation.md) | High OA Percentile / Quant Drills |
-| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../01_common/professional-skills/) | Project Presentation / POR Leadership |
+| **Executive Communication** | Case Synthesis & Fit Rounds | [Communication Skills](../../../01_common/interview-fundamentals/communication-skills.md) | Project Presentation / POR Leadership |
 | **Civil/HWRE Background** | Interview Alignment Discussion | [11_projects.md](11_projects.md) | Applied Thesis Research Telemetry |
 
 ---

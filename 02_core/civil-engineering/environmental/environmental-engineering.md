@@ -615,5 +615,5 @@ $D_t = \frac{k_1 L_0}{k_2 - k_1}(e^{-k_1 t} - e^{-k_2 t}) + D_0 e^{-k_2 t}$
 ---
 
 > **Last Updated:** 2026-09-03
-> **Maintained by:** DKS IITK Civil/HWRE Placement 2026
+> **Maintained by:** IIT Kanpur Civil / HWRE Placement Preparation 2026
 > **Version:** 1.0 — Comprehensive Environmental Engineering Guide

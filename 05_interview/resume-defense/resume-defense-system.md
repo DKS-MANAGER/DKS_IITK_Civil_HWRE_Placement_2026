@@ -109,10 +109,10 @@ For every item on your resume, verify:
 For each resume item, prepare 3 levels of depth:
 
 ### Level 1: Surface (30 sec)
-"I worked on CFD simulation of bridge pier scour using OpenFOAM."
+"In this project, we simulated bridge pier scour using OpenFOAM."
 
 ### Level 2: Detail (60 sec)
-"I used an Eulerian two-phase CFD solver with k-ω SST turbulence. I performed grid sensitivity studies with 3 mesh levels, achieved y+ < 5, and validated against Mao (1986) experimental data within 7% accuracy."
+"I used an Eulerian two-phase CFD solver with k-ω SST turbulence. I performed grid sensitivity studies with 3 mesh levels, achieved y+ < 5, and validated against published flume benchmark data experimental data within 7% accuracy."
 
 ### Level 3: Deep (120 sec)
 "I chose an Eulerian two-phase solver because it handles the solid-liquid coupling better than single-phase approaches. The key technical challenge was mesh quality near the pier — I had 15 inflation layers with 1.15 growth ratio to capture the boundary layer. I used the Grid Convergence Index method following ASME V&V 20 standards. The k-ω SST model was chosen over k-ε because of better performance in the adverse pressure gradient region near the pier."

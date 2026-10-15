@@ -52,7 +52,7 @@ Case interviews test whether you think like an engagement manager under real-tim
 4. **Stating the Initial Hypothesis**: *"My preliminary hypothesis is that the margin decline is driven by variable logistics costs due to recent network expansion."*
 5. **Data Analysis & Chart Reading**: Read chart titles, axes, and legends aloud before concluding. State the *"So What?"* immediately.
 6. **Mental Math Execution**: Lay out the equation before plugging numbers:
-   $$	ext{Profit Impact} = \Delta 	ext{Volume} 	imes (	ext{Price} - 	ext{VC}) - \Delta 	ext{Fixed Costs}$$
+   $$\text{Profit Impact} = \Delta \text{Volume} \times (\text{Price} - \text{VC}) - \Delta \text{Fixed Costs}$$
 7. **Creative Brainstorming**: When asked for ideas, categorize them into structured buckets (e.g. Internal vs. External, Short-term vs. Long-term).
 8. **Executive Recommendation**: Deliver a 60-second synthesis using the Pyramid Principle.
 

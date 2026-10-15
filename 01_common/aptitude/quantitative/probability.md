@@ -8,73 +8,155 @@
 
 ## 1. Deep Theoretical & Analytical Framework
 
-### 1.1 Axiomatic Foundations & Measure of Probability
-Let $\Omega$ be the sample space and $\mathcal{F}$ be the event space. Kolmogorov's three probability axioms dictate:
+### 1.1 Axiomatic Foundations, Conditional Probability & Bayes' Rule
 
-1. **Non-Negativity**: $P(A) \ge 0$ for all $A \in \mathcal{F}$.
-2. **Unit Measure (Normalization)**: $P(\Omega) = 1$.
-3. **Countable Additivity**: For any sequence of pairwise mutually disjoint events $A_1, A_2, \dots$:
-   $$P\left(\bigcup_{i=1}^{\infty} A_i\right) = \sum_{i=1}^{\infty} P(A_i)$$
+Probability theory provides the mathematical language for reasoning under uncertainty. In competitive recruitment assessments for quantitative analytics, data science, and consulting, problem setters test subtle boundary conditions, conditioning biases, and information asymmetry.
 
-- **Addition Rule for Arbitrary Events**:
+#### 1. Kolmogorov Axioms
+Let $\Omega$ be the sample space and $\mathcal{F}$ be the event space:
+1. **Non-Negativity**: For any event $A \in \mathcal{F}$, $P(A) \ge 0$.
+2. **Unit Measure**: $P(\Omega) = 1$.
+3. **Countable Additivity**: For pairwise disjoint events $A_1, A_2, \dots$ ($A_i \cap A_j = \emptyset$ for $i \neq j$):
+   $$P\left( \bigcup_{i=1}^{\infty} A_i \right) = \sum_{i=1}^{\infty} P(A_i)$$
+
+#### 2. Addition Rules & Inclusion-Exclusion
+- For any two events $A$ and $B$:
   $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
-- **Principle of Inclusion-Exclusion (PIE)**:
+- For three events $A, B, C$:
   $$P(A \cup B \cup C) = \sum P(A) - \sum P(A \cap B) + P(A \cap B \cap C)$$
+- **Bonferroni's Inequality**: $P(A \cap B) \ge P(A) + P(B) - 1$.
+
+#### 3. Conditional Probability & Statistical Independence
+- **Conditional Probability**:
+  $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \qquad \text{defined only when } P(B) > 0$$
+- **Statistical Independence**:
+  Two events $A$ and $B$ are statistically independent if and only if:
+  $$P(A \cap B) = P(A) \cdot P(B) \iff P(A \mid B) = P(A)$$
+  > [!WARNING]
+  > **Independence vs Mutual Exclusivity**: If two non-trivial events ($P(A) > 0, P(B) > 0$) are mutually exclusive ($A \cap B = \emptyset$), then $P(A \cap B) = 0 \neq P(A)P(B)$. Mutually exclusive events are **strongly dependent**: the occurrence of one guarantees the non-occurrence of the other.
+
+#### 4. Law of Total Probability & Bayes' Theorem
+- **Law of Total Probability**: If $\{B_1, B_2, \dots, B_k\}$ forms a partition of $\Omega$ (mutually disjoint and exhaustive):
+  $$P(A) = \sum_{i=1}^k P(A \mid B_i) P(B_i)$$
+- **Bayes' Theorem (Prior to Posterior Updating)**:
+  $$P(B_j \mid A) = \frac{P(A \mid B_j) P(B_j)}{\sum_{i=1}^k P(A \mid B_i) P(B_i)}$$
+  *Diagnostic intuition*: Bayes' rule updates belief $P(B_j)$ in light of new evidence $A$. When testing rare events (low prior $P(B_j)$), even tests with high sensitivity produce high false alarm rates (Base-Rate Fallacy).
 
 ---
 
-### 1.2 Conditional Probability, Independence & Bayes' Theorem
+### 1.2 Discrete Random Variables, Distributions & Expectation
 
-1. **Conditional Probability**:
-   $$P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \qquad \text{provided } P(B) > 0$$
-2. **Statistical Independence**:
-   Two events $A$ and $B$ are statistically independent if and only if:
-   $$P(A \cap B) = P(A) \cdot P(B) \iff P(A \mid B) = P(A)$$
-   > [!WARNING]
-   > **Independence vs Mutual Exclusivity**: If $A$ and $B$ are mutually exclusive ($A \cap B = \emptyset$) with $P(A), P(B) > 0$, then $P(A \cap B) = 0 \neq P(A)P(B)$, meaning they are **dependent**!
-3. **Law of Total Probability**:
-   For a partition $B_1, B_2, \dots, B_k$ of $\Omega$:
-   $$P(A) = \sum_{i=1}^k P(A \mid B_i) P(B_i)$$
-4. **Bayes' Theorem (Prior to Posterior Updating)**:
-   $$P(B_k \mid A) = \frac{P(A \mid B_k) P(B_k)}{\sum_{i=1}^n P(A \mid B_i) P(B_i)}$$
+A discrete random variable $X$ maps sample space outcomes to a countable set of real values, characterized by a Probability Mass Function (PMF) $p(x) = P(X = x)$ satisfying $\sum_x p(x) = 1$.
 
----
+#### 1. Summary of Core Discrete Distributions
+| Distribution | Parameter Constraints | PMF $P(X = k)$ | Mean $E[X]$ | Variance $\text{Var}(X)$ | Application Domain |
+|:---|:---|:---|:---:|:---:|:---|
+| **Bernoulli($p$)** | $p \in [0, 1], k \in \{0, 1\}$ | $p^k (1-p)^{1-k}$ | $p$ | $p(1-p)$ | Single trial success/failure |
+| **Binomial($n, p$)** | $n \in \mathbb{N}, k \in \{0, \dots, n\}$ | $\binom{n}{k} p^k (1-p)^{n-k}$ | $np$ | $np(1-p)$ | Number of successes in $n$ independent trials |
+| **Geometric($p$)** | $k \in \{1, 2, \dots\}$ | $(1-p)^{k-1} p$ | $\frac{1}{p}$ | $\frac{1-p}{p^2}$ | Number of trials until first success (memoryless) |
+| **Negative Binomial($r, p$)**| $k \in \{r, r+1, \dots\}$ | $\binom{k-1}{r-1} p^r (1-p)^{k-r}$ | $\frac{r}{p}$ | $\frac{r(1-p)}{p^2}$ | Number of trials until $r$-th success |
+| **Hypergeometric($N, K, n$)** | $k \le \min(n, K)$ | $\frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$ | $n \frac{K}{N}$ | $n \frac{K}{N}\frac{N-K}{N}\frac{N-n}{N-1}$ | Sampling $n$ items without replacement from population $N$ |
+| **Poisson($\lambda$)** | $\lambda > 0, k \in \mathbb{Z}_{\ge 0}$ | $\frac{\lambda^k e^{-\lambda}}{k!}$ | $\lambda$ | $\lambda$ | Rare event counts in continuous time/space |
 
-### 1.3 Discrete & Continuous Probability Distributions
-
-| Distribution | Probability Mass / Density Function | Mean $E[X]$ | Variance $\text{Var}(X)$ |
-|:---|:---|:---|:---|
-| **Binomial $\text{Bin}(n, p)$** | $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$ | $np$ | $np(1-p)$ |
-| **Poisson $\text{Pois}(\lambda)$** | $P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}$ | $\lambda$ | $\lambda$ |
-| **Geometric $\text{Geom}(p)$** | $P(X = k) = (1-p)^{k-1} p$ | $\frac{1}{p}$ | $\frac{1-p}{p^2}$ |
-| **Uniform $\text{Unif}(a, b)$** | $f(x) = \frac{1}{b - a}, \quad a \le x \le b$ | $\frac{a + b}{2}$ | $\frac{(b - a)^2}{12}$ |
-| **Exponential $\text{Exp}(\lambda)$** | $f(x) = \lambda e^{-\lambda x}, \quad x \ge 0$ | $\frac{1}{\lambda}$ | $\frac{1}{\lambda^2}$ |
-
----
-
-### 1.4 Expected Value & Linearity of Expectation
-For random variables $X$ and $Y$ (independent or dependent):
-$$E[aX + bY + c] = a E[X] + b E[Y] + c$$
-
-- **Indicator Random Variables**: For event $A$, let $I_A = 1$ if $A$ occurs, $0$ otherwise. Then $E[I_A] = P(A)$.
-- **Coupon Collector's Problem**: Expected trials to collect $n$ distinct coupons:
-  $$E[T] = n \sum_{i=1}^n \frac{1}{i} = n H_n \approx n \ln n + \gamma n$$
+#### 2. Expectation, Variance & Linearity of Expectation
+- **Expected Value**: $E[X] = \sum_x x \cdot P(X = x)$.
+- **Variance**: $\text{Var}(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2$.
+- **Linearity of Expectation**:
+  For ANY random variables $X_1, X_2, \dots, X_n$ (whether independent or dependent):
+  $$E\left[ \sum_{i=1}^n a_i X_i \right] = \sum_{i=1}^n a_i E[X_i]$$
+- **Indicator Method**: Define $I_A = 1$ if event $A$ occurs, $0$ otherwise. Then $E[I_A] = P(A)$.
+  To find the expected number of occurrences of an event, express total count as $X = \sum I_i$ and compute $\sum P(A_i)$.
+- **Variance of Sums**:
+  $$\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y) + 2\text{Cov}(X, Y)$$
+  If $X$ and $Y$ are independent, $\text{Cov}(X, Y) = 0$, so $\text{Var}(X + Y) = \text{Var}(X) + \text{Var}(Y)$.
 
 ---
 
-### 1.5 Geometric Probability & Continuous Area Ratios
-For events defined over continuous geometric regions $S \subset \mathbb{R}^n$:
-$$P(E) = \frac{\text{Measure}(E)}{\text{Measure}(S)} = \frac{\text{Area}(E)}{\text{Area}(S)}$$
+### 1.3 Continuous Probability Distributions & Density Reasoning
+
+A continuous random variable $X$ takes values in uncountably infinite intervals, defined by a Probability Density Function (PDF) $f(x) \ge 0$ where $\int_{-\infty}^{\infty} f(x) dx = 1$. Note: For any specific point $c$, $P(X = c) = 0$; probabilities exist only over intervals $P(a \le X \le b) = \int_a^b f(x) dx$.
+
+#### 1. Core Continuous Distributions
+- **Uniform Distribution $\text{Unif}(a, b)$**:
+  $$f(x) = \frac{1}{b - a}, \quad a \le x \le b \implies E[X] = \frac{a + b}{2}, \quad \text{Var}(X) = \frac{(b - a)^2}{12}$$
+- **Exponential Distribution $\text{Exp}(\lambda)$**:
+  $$f(x) = \lambda e^{-\lambda x}, \quad F(x) = 1 - e^{-\lambda x}, \quad x \ge 0 \implies E[X] = \frac{1}{\lambda}, \quad \text{Var}(X) = \frac{1}{\lambda^2}$$
+  - *Memoryless Property*: $P(X > s + t \mid X > s) = P(X > t)$.
+- **Normal Distribution $\mathcal{N}(\mu, \sigma^2)$**:
+  $$f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\left( -\frac{(x - \mu)^2}{2\sigma^2} \right) \implies Z = \frac{X - \mu}{\sigma} \sim \mathcal{N}(0, 1)$$
+  - Empirical 68–95–99.7 Rule: $P(|Z| \le 1) \approx 68.27\%$, $P(|Z| \le 2) \approx 95.45\%$, $P(|Z| \le 3) \approx 99.73\%$.
 
 ---
 
-### 1.6 Markov Chains, Random Walks & Gambler's Ruin
-1. **Gambler's Ruin with Fair Coin ($p = 0.5$)**:
-   Starting with initial capital $i$, targeting fortune $N$:
-   $$P(\text{Reach } N \text{ before } 0) = \frac{i}{N}$$
-   $$E[\text{Duration until absorption}] = i(N - i)$$
-2. **Stationary Distribution of Markov Chain**:
-   $$\pi P = \pi, \qquad \sum \pi_i = 1$$
+### 1.4 Advanced Probability Reasoning & Stopping Processes
+
+#### 1. Coupon Collector's Problem
+To collect $n$ distinct coupons where each trial draws a coupon uniformly at random:
+- Let $T_i$ be the additional trials needed to get the $i$-th new coupon after having $i-1$ distinct coupons.
+- $T_i \sim \text{Geom}(p_i)$ where $p_i = \frac{n - (i - 1)}{n} = \frac{n - i + 1}{n}$.
+- Total expected trials:
+  $$E[T] = \sum_{i=1}^n E[T_i] = \sum_{i=1}^n \frac{n}{n - i + 1} = n \left( 1 + \frac{1}{2} + \frac{1}{3} + \dots + \frac{1}{n} \right) = n H_n \approx n \ln n + \gamma n$$
+
+#### 2. Birthday Problem & Collision Probability
+In a room of $n$ people, probability that all $n$ have distinct birthdays ($d = 365$ days):
+$$P(\text{All Distinct}) = \prod_{k=1}^{n-1} \left( 1 - \frac{k}{365} \right) \approx \prod_{k=1}^{n-1} e^{-k/365} = \exp\left( -\frac{n(n-1)}{2 \times 365} \right)$$
+Setting $1 - P(\text{Distinct}) \ge 0.50$ gives $n \ge \sqrt{2 \times 365 \ln 2} \approx 22.5 \implies \mathbf{n = 23\text{ people}}$.
+
+#### 3. Gambler's Ruin & Random Walks
+A gambler starts with fortune $i$ and bets ₹1 per round. At each step, fortune increases by 1 with probability $p$ and decreases by 1 with probability $q = 1 - p$. The game ends when fortune reaches $0$ (ruin) or $N$ (target).
+- **Fair Game ($p = 0.5$)**:
+  $$P(\text{Reach } N \mid i) = \frac{i}{N}, \qquad E[\text{Duration until absorption}] = i(N - i)$$
+- **Biased Game ($p \neq 0.5$, let $s = q/p$)**:
+  $$P(\text{Reach } N \mid i) = \frac{1 - s^i}{1 - s^N}$$
+
+#### 4. Markov Chains & Small-State Steady States
+A discrete-time Markov chain transition matrix $P$ where $P_{ij} = P(X_{t+1} = j \mid X_t = i)$:
+- Stationary distribution $\pi$ satisfies:
+  $$\pi P = \pi, \qquad \sum_i \pi_i = 1$$
+- Solved via standard system of linear equations to find long-run equilibrium fractions.
+
+---
+
+### 1.5 Statistical Reasoning, Inference & Behavioral Fallacies
+
+Placement tests for analytics and consulting evaluate qualitative statistical intuition beyond mechanical computations:
+
+#### 1. Hypothesis Testing, p-values & Errors
+- **Null Hypothesis ($H_0$)**: Default assumption of no effect or no difference.
+- **Alternative Hypothesis ($H_1$)**: Claim of interest.
+- **Type I Error ($\alpha$)**: Rejecting $H_0$ when $H_0$ is true (False Positive). Significance level $\alpha = 0.05$.
+- **Type II Error ($\beta$)**: Failing to reject $H_0$ when $H_1$ is true (False Negative).
+- **Statistical Power ($1 - \beta$)**: Probability of correctly detecting an effect when one exists.
+- **p-value**: Probability of observing test results at least as extreme as observed, assuming $H_0$ is true. **A p-value is NOT the probability that $H_0$ is true!**
+
+#### 2. Classical Statistical Paradoxes & Traps
+1. **Simpson's Paradox**: A trend appearing in different subgroups of data can reverse when the groups are aggregated. Driven by confounding variables and unequal group sample weights.
+2. **Base-Rate Neglect**: Focusing on specific diagnostic test accuracy while ignoring the prior prevalence in the population.
+3. **Regression to the Mean**: Extreme measurements on a first observation tend naturally to be closer to the average on subsequent observations due to random variation, not intervention.
+4. **Correlation vs. Causation**: Co-movement of two variables does not imply that one causes the other; often driven by a lurking third variable (spurious correlation).
+5. **Multiple Comparisons / p-Hacking**: Running 20 independent tests at $\alpha = 0.05$ creates a $1 - (0.95)^{20} \approx 64.15\%$ probability of observing at least one statistically significant false discovery by pure chance.
+
+---
+
+### 1.6 Method Selection & Strategic Elimination Matrix
+
+| Problem Scenario | Primary Governing Tool | Watch Out For |
+|:---|:---|:---|
+| Independent trials, fixed $n$, binary outcomes | **Binomial Distribution**: $\binom{n}{k}p^k(1-p)^{n-k}$ | Sampling without replacement (Use Hypergeometric!) |
+| First success in sequence of independent trials | **Geometric Distribution**: $(1-p)^{k-1}p$ | Forgetting memoryless property |
+| Expected count of overlapping/dependent matches | **Indicator Variables & Linearity of Expectation** | Computing joint probabilities when unnecessary |
+| Updating disease/fraud probability given test result | **Bayes' Theorem with Law of Total Probability** | Base-rate neglect (ignoring low prevalence) |
+| Waiting time until all items collected | **Coupon Collector Formulation**: $n H_n$ | Treating probabilities as constant across stages |
+| Subgroup performance vs aggregate performance | **Simpson's Paradox Diagnostic** | Aggregating unweighted percentages directly |
+
+---
+
+### 1.7 Dedicated Advanced Problem Bank Reference
+
+For an extensive collection of **60 distinct, fully solved problems** tagged across 4 calibrated difficulty levels (L1–L4) with step-by-step derivations, calculations, distractors, and common traps, consult:
+👉 **[Advanced Probability & Statistics Problem Bank](advanced-probability-statistics-problem-bank.md)**
+
+---
 
 ---
 
