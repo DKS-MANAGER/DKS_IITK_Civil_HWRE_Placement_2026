@@ -125,10 +125,37 @@ Depending on your preparation timeline before the ExxonMobil campus selection dr
 * **70:00 - 90:00:** Complete Mock Test 1 (Civil/HWRE Technical Core) in [MOCK_ASSESSMENTS.md](MOCK_ASSESSMENTS.md).
 
 ### Route 4: 1-Day Intensive Preparation Camp
-* **Morning (08:30 - 12:30):** Full read of [STUDY_GUIDE.md](STUDY_GUIDE.md) Modules A1 through A8; solve Level 1 & Level 2 practice questions.
+* **Morning (08:30 - 12:30):** Full read of [STUDY_GUIDE.md](STUDY_GUIDE.md) Modules A1 through A9; solve Level 1 & Level 2 practice questions.
 * **Afternoon (13:30 - 16:30):** Solve all 12 problems in [TECHNICAL_WORKBOOK_CIVIL_HWRE.md](TECHNICAL_WORKBOOK_CIVIL_HWRE.md); review Thermodynamics & Heat Transfer in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md).
 * **Evening (17:30 - 20:00):** Study [OIL_GAS_SAFETY_OPERATIONS.md](OIL_GAS_SAFETY_OPERATIONS.md) and prepare STAR behavioral stories in [INTERVIEW_AND_BEHAVIORAL.md](INTERVIEW_AND_BEHAVIORAL.md).
 * **Night (20:30 - 22:30):** Attempt Mock Tests 1 & 4 in [MOCK_ASSESSMENTS.md](MOCK_ASSESSMENTS.md); log errors in the Mistake Log.
+
+### Route 5: 7-Day High-Impact Study Calendar
+* **Day 1 (Fluid Fundamentals & Pipe Flow):** Study [STUDY_GUIDE.md](STUDY_GUIDE.md) Modules A1–A3; solve Problems 1–3 in [TECHNICAL_WORKBOOK_CIVIL_HWRE.md](TECHNICAL_WORKBOOK_CIVIL_HWRE.md).
+* **Day 2 (Open Channel, Jumps & Transients):** Study [STUDY_GUIDE.md](STUDY_GUIDE.md) Modules A4 & A6; solve Problems 4–8 in [TECHNICAL_WORKBOOK_CIVIL_HWRE.md](TECHNICAL_WORKBOOK_CIVIL_HWRE.md).
+* **Day 3 (Hydrology, Porous Media & CFD):** Study [STUDY_GUIDE.md](STUDY_GUIDE.md) Modules A5, A8, and A9; solve Problems 9–12 in [TECHNICAL_WORKBOOK_CIVIL_HWRE.md](TECHNICAL_WORKBOOK_CIVIL_HWRE.md).
+* **Day 4 (Thermodynamics & Heat Transfer):** Master Modules B1 & B2 in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md); attempt 20 speed thermal drill problems.
+* **Day 5 (Materials, Safety & Energy Operations):** Complete [OIL_GAS_SAFETY_OPERATIONS.md](OIL_GAS_SAFETY_OPERATIONS.md) (OIMS, HAZOP, flow assurance) and Module B3/B4.
+* **Day 6 (Aptitude Mastery & Mock Testing):** Complete speed aptitude drills in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md); take Mock Tests 1 & 2 in [MOCK_ASSESSMENTS.md](MOCK_ASSESSMENTS.md).
+* **Day 7 (Integrated Mocks & Interview Rehearsal):** Complete Mock Tests 3 & 4; practice oral technical and STAR safety narratives in [INTERVIEW_AND_BEHAVIORAL.md](INTERVIEW_AND_BEHAVIORAL.md).
+
+### Route 6: 14-Day Full-Mastery Curriculum
+* **Days 1–4 (Core Fluid Mechanics & Pipeline Systems):** Comprehensive first-principles study of [STUDY_GUIDE.md](STUDY_GUIDE.md) A1–A3; solve all conduit numericals; benchmark with [IndiaBIX Fluid Mechanics](https://www.indiabix.com/mechanical-engineering/hydraulics-and-fluid-mechanics/).
+* **Days 5–7 (Hydraulics, River Mechanics & Scour):** Deep study of [STUDY_GUIDE.md](STUDY_GUIDE.md) A4–A6; master HEC-18 pier scour and Exner sediment transport; benchmark with [IndiaBIX Hydraulics](https://www.indiabix.com/civil-engineering/hydraulics/).
+* **Days 8–9 (Cross-Disciplinary Thermal & Mechanical Engineering):** Complete [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md) B1–B4 (SFEE, Carnot, LMTD, hoop stress, $H_2S$ corrosion); benchmark with [IndiaBIX Thermodynamics](https://www.indiabix.com/mechanical-engineering/thermodynamics/).
+* **Days 10–11 (Energy Facilities, Flow Assurance & OIMS Safety):** Study [OIL_GAS_SAFETY_OPERATIONS.md](OIL_GAS_SAFETY_OPERATIONS.md) (hydrates, slugging, secondary containment, OIMS elements, Stop-Work Authority).
+* **Day 12 (Quantitative Aptitude & Speed Drills):** Complete all numerical aptitude drills in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md); cross-reference with shared repo aptitude tests in `../../../01_common/aptitude/`.
+* **Day 13 (Full-Length Diagnostic Mock Testing):** Sit for all 4 Mock Assessments under strict time limits; log every incorrect answer into the Personal Mistake Log.
+* **Day 14 (Interview Defense & Rapid Formula Recall):** Polish thesis defense on submerged deck scour in [INTERVIEW_AND_BEHAVIORAL.md](INTERVIEW_AND_BEHAVIORAL.md); review 5-minute pre-test mental checklist in [FORMULA_AND_RAPID_REVISION.md](FORMULA_AND_RAPID_REVISION.md).
+
+---
+
+## 6. Shared Repository Cross-References
+To avoid redundant duplication, leverage existing high-yield materials located across the repository:
+* **Core HWRE & Fluid Dynamics Notes:** [`02_core/hwre/RAPID_REVISION.md`](../../../02_core/hwre/RAPID_REVISION.md) and [`02_core/hwre/ERROR_ANALYSIS.md`](../../../02_core/hwre/ERROR_ANALYSIS.md)
+* **General Quantitative Aptitude Mocks:** [`01_common/aptitude/mocks/`](../../../01_common/aptitude/)
+* **Project & Resume Defense Frameworks:** [`05_interview/project-defense/`](../../../05_interview/project-defense/) and [`08_projects/archetypes/computational-fluid-simulation.md`](../../../08_projects/archetypes/computational-fluid-simulation.md)
+* **Interview Behavioral & HR Guides:** [`05_interview/behavioral/`](../../../05_interview/behavioral/) and [`05_interview/hr/`](../../../05_interview/hr/)
 
 ---
 

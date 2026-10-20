@@ -128,8 +128,55 @@ To preserve absolute integrity, the course explicitly distinguishes verified req
 
 ---
 
-## 6. Documented Limitations & Research Boundaries
+## 6. Phase 1 Mandatory Critical Audit: Baseline Flaws & Required Remediation
 
-1. **Proprietary Test Databases:** This course does **not** reproduce private, leaked, or proprietary test question papers. All practice problems, MCQs, and numerical sets are newly authored or adapted from verified public academic resources (GATE, university textbooks, standard engineering codes).
-2. **Specific Exam Algorithms:** Test vendors (e.g., Wheebox, Mercer Mettl, SHL, HackerRank) may vary by year. No claim is made regarding specific platform-dependent adaptive scoring or negative marking penalties unless confirmed during the pre-placement talk.
-3. **Internal Salary Breakup:** While the gross CTC is established from premier institute placement proformas (₹14.81 LPA B.Tech / ₹16.68 LPA M.Tech), internal allocations between basic pay, allowances, provident fund, and annual performance bonuses are subject to prevailing corporate policies.
+Before executing the upgrade, a line-by-line audit of the preliminary target folder `04_company-prep/company-specific-prep/exxonmobil-engineer/` was conducted. The concrete weaknesses identified, their severity, and corresponding resolutions are tabulated below:
+
+| File | Section | Actual Weakness | Evidence / Location | Severity | Required Correction |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `QUESTION_BANK.md` | Entire File | Insufficient question count (12 questions) for comprehensive practice; missing numerical assertions and detailed distractor analysis. | `QUESTION_BANK.md` L14-109 | **P0** | Expand question bank to 75+ rigorously authored, multi-difficulty problems across all P0, P1, and P2 topics with separated worked solutions and distractor explanations. |
+| `MOCK_ASSESSMENTS.md` | Mock 1 to 4 | Mock test sets contained only 5-10 illustrative questions rather than full test experiences, and lacked multi-discipline mixed tests. | `MOCK_ASSESSMENTS.md` L32-134 | **P0** | Scale mock assessments to 60+ total multi-disciplinary questions across Mock 1 (Civil/HWRE Core), Mock 2 (General Engg/Safety), Mock 3 (Quantitative Aptitude), and Mock 4 (Comprehensive Full-Length Simulation). |
+| `STUDY_GUIDE.md` | Porous Media & Reservoir Flow | Missing introductory porous media flow (Darcy's law vs Darcy-Weisbach distinction, permeability vs hydraulic conductivity, carbon capture & storage - CCS fundamentals). | `STUDY_GUIDE.md` Table of Contents | **P1** | Add dedicated section detailing porous-medium flow, intrinsic permeability units (Darcy), hydraulic conductivity, well drawdowns, and CCS storage reservoir hydraulics. |
+| `INTERVIEW_AND_BEHAVIORAL.md` | Research & Project Defense | Generic project defense lacked specific integration of geometry-dependent scour beneath submerged bridge decks and OpenFOAM boundary condition defense. | `INTERVIEW_AND_BEHAVIORAL.md` L18-50 | **P1** | Ground project defense explicitly in the candidate's actual research domain: 3D hydrodynamic numerical modeling of geometry-dependent scour beneath submerged bridge decks using OpenFOAM, $k-\omega$ SST, and meshing convergence. |
+| `COMMON_ENGINEERING_AND_APTITUDE.md` | Aptitude Drills | Limited coverage of verbal ability, reading comprehension, and spatial/logical reasoning. | `COMMON_ENGINEERING_AND_APTITUDE.md` L85-130 | **P1** | Integrate reading comprehension passages on energy transition, syllogisms, data sufficiency, and critical reasoning drills. |
+| `README.md` | Navigation & Study Paths | Missing 14-day and 7-day preparation study calendars and direct links to shared repository aptitude/Civil resources. | `README.md` L105-133 | **P2** | Add comprehensive 14-day and 7-day structured study schedules, topic priority matrix (P0/P1/P2), and direct markdown links to shared repo practice sets. |
+
+---
+
+## 7. Phase 2 External Source Verification & IndiaBIX Reference Mapping
+
+### 1. IIT Kanpur Placement Proforma (#6130)
+* **Access Status:** Official IITK student placement portal access. Verified profile designation: **Engineer** (Campus Selection Drive, Bengaluru Center). B.Tech CTC: ₹14.81 LPA; M.Tech CTC: ₹16.68 LPA; 100% fixed base reported; zero bond.
+* **Assessment Insight:** Does not prescribe a narrow mechanical or chemical syllabus. Tests fundamental engineering aptitude, technical problem solving, and analytical acumen.
+
+### 2. Official ExxonMobil Bengaluru Recruitment Guidance
+* **Source:** [corporate.exxonmobil.com/locations/india/careers-in-bengaluru](https://corporate.exxonmobil.com/locations/india/careers-in-bengaluru) `[OFFICIAL]`
+* **Assessment Framework:** Official careers portal outlines a multi-stage process testing technical competence, analytical reasoning, and behavioral alignment. Bengaluru engineering teams support global operations across facilities engineering, subsea pipeline modeling, flow assurance, environmental compliance, and technical software development.
+
+### 3. IndiaBIX Benchmark Practice Mapping `[PUBLIC EDUCATIONAL REFERENCE]`
+To align with standard Indian graduate engineering recruitment assessment standards without reproducing proprietary or copyrighted material, the curriculum maps conceptual traps and difficulty benchmarks from public engineering repositories:
+* **Civil / HWRE Track:**
+  - [IndiaBIX Hydraulics](https://www.indiabix.com/civil-engineering/hydraulics/): Fluid properties, hydrostatic thrust, manometry, orifice discharge, open-channel uniform flow, weirs, and notches.
+  - [IndiaBIX Water Resources Engineering](https://www.indiabix.com/civil-engineering/water-resources-engineering/): Unit hydrographs, flood frequency, reservoir capacity, Darcy's law, and groundwater aquifers.
+  - [IndiaBIX Civil Q&A](https://www.indiabix.com/civil-engineering/questions-and-answers/): Core civil engineering fundamentals.
+* **Mechanical / General Engineering Track:**
+  - [IndiaBIX Hydraulics & Fluid Mechanics](https://www.indiabix.com/mechanical-engineering/hydraulics-and-fluid-mechanics/): Bernoulli equation, boundary layer growth, pipe friction factors, pump performance curves, and cavitation.
+  - [IndiaBIX Thermodynamics](https://www.indiabix.com/mechanical-engineering/thermodynamics/): First/second laws, Carnot cycles, heat engines, SFEE, and thermodynamic state variables.
+  - [IndiaBIX Mechanical Q&A](https://www.indiabix.com/mechanical-engineering/questions-and-answers/): Cross-disciplinary machine elements and failure criteria.
+* **Quantitative Aptitude & Reasoning Track:**
+  - [IndiaBIX Quantitative Aptitude](https://www.indiabix.com/aptitude/questions-and-answers/): Work-rate, pipes & cisterns, alligation/mixtures, speed-distance-time, probability, and permutations.
+  - [IndiaBIX Data Interpretation](https://www.indiabix.com/data-interpretation/questions-and-answers/): Bar charts, line graphs, pie charts, and tabular extraction.
+  - [IndiaBIX Logical Reasoning](https://www.indiabix.com/logical-reasoning/questions-and-answers/): Deductive logic, series completion, syllogisms, and directional tests.
+* **Candidate-Reported Recruitment Experience (VNIT Nagpur Candidate):**
+  - [IndiaBIX ExxonMobil Placement Paper #6826](https://www.indiabix.com/placement-papers/exxon-mobil/6826) `[CANDIDATE-REPORTED]`
+  - *Report Summary:* Candidate with a core engineering background described a campus drive featuring online assessment (quantitative aptitude, English comprehension, technical core) followed by technical interviews focusing on undergraduate projects, fluid mechanics/thermodynamic fundamentals, and behavioral questions probing teamwork and safety ethics.
+  - *Verification Boundary:* Represents a single candidate experience; not an official examination blueprint. Used as corroborating evidence for the multi-disciplinary screening format.
+
+---
+
+## 8. Documented Limitations & Research Boundaries
+
+1. **Proprietary Test Databases:** This course does **not** reproduce private, leaked, or proprietary test question papers. All practice problems, MCQs, and numerical sets are newly authored original problems matching the rigor of premier engineering assessments.
+2. **Specific Exam Algorithms:** Test vendors (e.g., Wheebox, Mercer Mettl, SHL, HackerRank) may vary by recruitment cycle. Practice test timing and negative marking are stated as explicit simulation assumptions.
+3. **Internal Salary Breakup:** While gross CTC is established from official placement proformas (₹14.81 LPA B.Tech / ₹16.68 LPA M.Tech), internal allocations between basic pay, allowances, provident fund, and annual performance bonuses are subject to prevailing corporate policies.
+

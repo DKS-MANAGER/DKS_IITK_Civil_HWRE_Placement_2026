@@ -568,3 +568,50 @@ Apparent order of convergence $p$:
 $$p = \frac{1}{\ln(r_{21})} |\ln|\epsilon_{32} / \epsilon_{21}| + q(p)|$$
 $$\mathrm{GCI}_{\text{fine}}^{21} = \frac{1.25 \, e_a^{21}}{r_{21}^p - 1}$$
 where $e_a^{21} = |\frac{\phi_1 - \phi_2}{\phi_1}|$ is relative error. A fine grid $\mathrm{GCI} < 3-5\%$ confirms numerical grid independence.
+
+---
+
+# Module A9: Porous-Medium & Subsurface Reservoir Flow Fundamentals (P1)
+
+## 1. Physical Intuition & The Two "Darcy" Laws
+A frequent source of confusion in cross-disciplinary engineering is confusing **Darcy's Law for Porous Media** with the **Darcy-Weisbach Equation for Conduit Flow**:
+* **Darcy-Weisbach (1845):** Models turbulent/laminar frictional head loss *inside hollow circular pipes*: $h_f = f \frac{L}{D} \frac{V^2}{2g}$.
+* **Darcy's Law (Henry Darcy, 1856):** Models creeping viscous filtration *through saturated granular sand and porous rock formations*.
+
+In petroleum reservoirs and carbon storage saline aquifers, fluid does not flow through open pipes but tortuously creeps through microscopic interconnected pores under overwhelming viscous resistance.
+
+## 2. Mathematical Formulation of Darcy's Law
+For 1D horizontal flow through a porous medium of cross-sectional area $A$:
+$$q = -\frac{k}{\mu} \frac{dP}{dx} \implies Q = -\frac{k A}{\mu} \frac{dP}{dx}$$
+where:
+* $q = Q/A$ = Darcy flux or specific discharge $[m/s]$ (filter velocity)
+* $k$ = intrinsic permeability of the rock matrix $[m^2]$ (independent of the fluid)
+* $\mu$ = dynamic viscosity of the flowing fluid $[Pa \cdot s]$
+* $\frac{dP}{dx}$ = fluid pore pressure gradient $[Pa/m]$
+
+### Hydraulic Conductivity ($K$) vs Intrinsic Permeability ($k$):
+In Civil/HWRE groundwater hydrology, Darcy's law is written in terms of piezometric head $h = z + P/(\rho g)$:
+$$q = -K \frac{dh}{dx}$$
+The relationship between soil mechanics hydraulic conductivity $K$ $[m/s]$ and petroleum reservoir permeability $k$ $[m^2]$ is:
+$$K = \frac{k \rho g}{\mu}$$
+* **Unit of Permeability — The Darcy:**
+  $$1 \text{ Darcy} \approx 0.986923 \times 10^{-12}\text{ m}^2 \approx 10^{-12}\text{ m}^2 = 1.0\ \mu\text{m}^2$$
+  Productive hydrocarbon sandstone reservoirs typically exhibit permeabilities between $10\text{ mD}$ to $1000\text{ mD}$ ($1\text{ Darcy}$).
+
+## 3. Actual Seepage Velocity & Effective Porosity
+Darcy flux $q = Q/A$ represents an imaginary superficial velocity across the gross cross-sectional area. In reality, rock grains block flow, so fluid advances solely through interconnected voids:
+$$v_{\text{seepage}} = \frac{q}{\phi_{\text{eff}}}$$
+where $\phi_{\text{eff}} = \frac{\mathcal{V}_{\text{interconnected pores}}}{\mathcal{V}_{\text{total}}}$ is effective porosity ($0.10 \le \phi \le 0.35$).
+Because $\phi_{\text{eff}} < 1$, **actual pore velocity is always 3 to 10 times higher than Darcy flux** ($v_{\text{seepage}} > q$).
+
+## 4. Radial Flow to an Extraction or Injection Well (Dupuit-Thiem Equation)
+For steady radial flow in a confined sandstone aquifer or oil reservoir of payzone thickness $h$:
+$$Q = \frac{2 \pi k h (P_e - P_w)}{\mu \ln(r_e / r_w)}$$
+where $r_w$ is wellbore radius, $r_e$ is outer reservoir boundary radius, $P_w$ is flowing bottom-hole pressure, and $P_e$ is undisturbed reservoir boundary pressure.
+
+## 5. Carbon Capture & Subsurface Storage (CCS) Applications
+In ExxonMobil's Low Carbon Solutions operations, supercritical carbon dioxide ($\text{scCO}_2$, density $\approx 600-700\text{ kg/m}^3$) is compressed and injected into deep saline aquifers ($>800\text{ m}$ depth) to isolate greenhouse gases.
+* **Caprock Capillary Entry Pressure:** The overlying impermeable shale caprock acts as a hydraulic seal. The capillary entry pressure $P_c$ must exceed the buoyancy pressure exerted by the $\text{scCO}_2$ column:
+  $$P_c = \frac{2 \gamma_{ow} \cos \theta}{r_{\text{pore}}} > (\rho_{\text{brine}} - \rho_{\mathrm{CO}_2}) g H_{\mathrm{CO}_2}$$
+  Civil/HWRE hydrogeology principles directly govern the verification of seal integrity and containment storage security.
+

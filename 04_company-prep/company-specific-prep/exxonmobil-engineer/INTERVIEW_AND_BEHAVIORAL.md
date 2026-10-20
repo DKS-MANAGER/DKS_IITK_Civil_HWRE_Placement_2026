@@ -33,21 +33,30 @@ Interviewers at ExxonMobil rigorously probe candidates on their core coursework,
   • Verification & Validation (ASME V&V 20 Grid Convergence Index).
 ```
 
-### Archetype Defense: Hydrodynamic Scour & Structural Risk Modeling
+### Archetype Defense: Numerical Investigation of Geometry-Dependent Scour Beneath Submerged Bridge Decks
 * **30-Second Spoken Pitch:**
-  > "In my hydrodynamic modeling work, I investigated 3D vortex shedding and turbulent scour around submerged cylindrical structures. Using the Finite Volume Method in OpenFOAM, we resolved the horseshoe and wake vortices that destabilize structural foundations during design floods. The calibrated model identified critical shear stress zones and demonstrated that maintaining riprap armoring above a threshold Shields parameter reduced equilibrium scour depth by over 40%."
+  > "My Master's research at IIT Kanpur focused on the 3D hydrodynamic numerical simulation of turbulent flow fields and geometry-dependent scour beneath submerged bridge decks under extreme inundation floods. Utilizing the Finite Volume Method in OpenFOAM, we investigated how deck aspect ratio, girder cross-section geometry, and clearance blockage ratio alter pressure-driven contraction jets and bed shear stress amplification. Our validated numerical models established the critical threshold where bridge deck overtopping transitions from clear-water contraction scour to live-bed equilibrium scour, directly informing structural foundation protection."
 
-* **Key Defense Questions & Model Responses:**
+* **Key Research-Defense Questions & Model Responses:**
 
-#### Q1: "Why did you choose the $k-\omega$ SST turbulence model over Standard $k-\epsilon$?"
+#### Q1: "Why does submergence of a bridge deck drastically alter the riverbed scour mechanism compared to standard free-surface pier scour?"
 > **Model Answer:**  
-> "The Standard $k-\epsilon$ model relies on isotropic eddy viscosity and standard wall functions ($y^+ > 30$), which notoriously overpredict turbulent kinetic energy near stagnation points and fail to predict adverse-pressure-gradient boundary layer separation. The $k-\omega$ Shear Stress Transport (SST) model blends the robust $k-\omega$ formulation in the inner boundary layer with the free-stream independence of $k-\epsilon$ in the outer flow field. Because pier scour and flow separation are driven by adverse pressure gradients and downward stagnation jets, $k-\omega$ SST provides vastly superior accuracy in predicting wall shear stresses when combined with fine near-wall prism layers ($y^+ \approx 1$)."
+> "Under normal subcritical river flow, local pier scour is dominated by the downward stagnation jet and the horseshoe vortex wrapped around vertical columns. However, when floodwaters submerge the bridge superstructure, the deck functions as a submerged bluff body or pressurized sluice gate. A severe vertical contraction jet accelerates beneath the low chord of the deck, creating a massive localized horizontal velocity gradient and intense bed shear stress ($\tau_b \gg \tau_{*c}$). This produces deep contraction scour extending across the entire transverse channel width, which then couples non-linearly with the 3D wake vortices shed from the bridge deck edge."
 
-#### Q2: "How did you prove that your CFD results were not numerical artefacts?"
+#### Q2: "Why did you choose the $k-\omega$ SST turbulence model over Standard $k-\epsilon$ in OpenFOAM?"
 > **Model Answer:**  
-> "We implemented the **ASME V&V 20 standard** for numerical verification. We generated three systematically refined unstructured hybrid meshes with a constant grid refinement ratio $r = 1.4$. By monitoring the target output—maximum bed shear stress—we computed the apparent spatial order of convergence $p$ and the **Grid Convergence Index (GCI)** via Richardson extrapolation. The fine-grid GCI fell below 3.2%, confirming that spatial discretization error was well within acceptable engineering tolerances before comparing against experimental flume benchmark data for physical validation."
+> "The Standard $k-\epsilon$ model assumes isotropic eddy viscosity and relies on high-$y^+$ wall functions ($y^+ > 30$). It notoriously overpredicts turbulent kinetic energy in stagnation zones and completely fails under severe adverse pressure gradients and flow separation—both of which characterize flow beneath submerged girders. The Menter $k-\omega$ Shear Stress Transport (SST) model blends the near-wall accuracy of the Wilcox $k-\omega$ model in the boundary layer with the free-stream stability of the $k-\epsilon$ model in the far field. Combined with structured near-wall prism layers resolving down to $y^+ \approx 1$, $k-\omega$ SST accurately predicts boundary layer separation off deck corners and the resulting wall shear stress distributions."
+
+#### Q3: "How did you establish numerical grid independence without experimental bias?"
+> **Model Answer:**  
+> "We followed the formal **ASME V&V 20 standard** for computational fluid dynamics verification. We generated three systematically refined unstructured/hexahedral hybrid grids using `snappyHexMesh` with a constant spatial refinement ratio $r = 1.414$ ($h_{\text{coarse}}, h_{\text{medium}}, h_{\text{fine}}$). By monitoring the target engineering observable—the maximum dimensionless bed shear stress $\tau_*$ beneath the deck—we calculated the apparent order of spatial convergence $p$ and evaluated the **Grid Convergence Index (GCI)** via generalized Richardson extrapolation. The fine-grid $\mathrm{GCI}_{21}$ was computed to be $2.8\%$, confirming that spatial discretization error was well within acceptable engineering tolerances before performing physical benchmark validation."
+
+#### Q4: "How does your submerged bridge deck CFD research transfer to ExxonMobil's energy operations?"
+> **Model Answer:**  
+> "The underlying physics are directly identical to offshore and subsea pipeline fluid-structure interactions. For instance, an exposed subsea hydrocarbon pipeline experiencing free spanning on an uneven seabed behaves hydrodynamically as a submerged cylindrical obstacle under wave-current loading. The localized jetting beneath the pipe causes seabed tunnel erosion and self-lowering through the exact same pressure-driven contraction scour mechanisms modeled in my thesis. Furthermore, rigorous expertise in OpenFOAM, mesh inflation layer sizing ($y^+$), boundary conditions, and Navier-Stokes solver convergence is directly transferable to modeling multiphase separators, flow assurance slug catchers, and offshore jacket hydrodynamic drag."
 
 ---
+
 
 # Section 2: High-Frequency Technical Interview Questions & Spoken Answers
 
