@@ -45,6 +45,8 @@ INSTRUCTIONS.md
 # AI session / setup docs (tool-specific, not repo content)
 **/fable-mode-setup.md
 .fable*
+claude-fable-5.md
+*fable*.md
 
 # AI model files and weights
 *.pkl
