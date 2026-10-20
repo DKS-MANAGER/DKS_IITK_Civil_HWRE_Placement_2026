@@ -1,20 +1,16 @@
-# CASE & GROUP DISCUSSION PREPARATION
-
-> **For consulting, product, and management roles only.** Core Civil/HWRE preparation does not need this. This is the navigation layer — the actual practice content lives in the linked files.
+> **Universal Placement Scope**: Relevant for Management Consulting, Product, Strategy, as well as Infrastructure Consultancies (Arup, Atkins, Jacobs) and EPC Conglomerates (L&T, Tata Projects) that utilize Group Discussions and Case Evaluations for graduate hiring.
 
 ---
 
 ## 🎯 Who Needs This?
 
-| Track | Needs Case/GD? |
-|:------|:---------------|
-| Core Civil | ❌ No (unless a specific company uses GD) |
-| HWRE | ❌ No |
-| CFD | ❌ No |
-| Consulting | ✅ Yes |
-| Product/Management | ✅ Yes (case) / Sometimes (GD) |
-
-> ⚠️ Only prepare this if your target role uses it. Check the company profile first.
+| Track | Needs Case / Problem Solving? | Needs Group Discussion (GD)? | Primary Purpose |
+|:------|:-----------------------------:|:----------------------------:|:----------------|
+| **Core Civil & EPC** | ✅ (Estimates & Project Delays) | ✅ (L&T, Tata Projects, PSUs) | Assesses team consensus, site coordination, and leadership. |
+| **HWRE / Water Resources** | ✅ (Hydrological Risk & Utilities) | ✅ (Infrastructure Consultancies) | Evaluates multi-stakeholder negotiation on sustainability and water policy. |
+| **CFD & Fluid Modeling** | ✅ (Technical Resource Allocation) | Sometimes | Collaborative problem-solving and cross-functional communication. |
+| **Management Consulting** | ✅ (Full Consulting Cases) | ✅ (Case GD Rounds) | Core evaluation criterion: MECE structuring, business arithmetic, synthesis. |
+| **Product & Analytics** | ✅ (Product Cases & Guesstimates) | Sometimes | Metric definition, prioritization matrices, and user empathy. |
 
 ---
 

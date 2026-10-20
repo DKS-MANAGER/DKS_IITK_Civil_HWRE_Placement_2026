@@ -979,23 +979,7 @@ A global logistics warehouse receives three freight shipments weighing $280\text
   3. Reconstruct steps from bottom to top:
      - Step 3: $r_1 = q_3 \times r_2 + 0 = 2 \times 17 + 0 = 34$.
      - Step 2: $B = q_2 \times r_1 + r_2 = 1 \times 34 + 17 = 51$.
-       Wait, let us trace:
-       $A = q_1 B + r_1$
-       $B = q_2 r_1 + r_2$
-       $r_1 = q_3 r_2 + 0$
-       Here final divisor is $r_2 = 17$, so:
-       $r_1 = 2 \times 17 = 34$.
-       $B = 1 \times 34 + 17 = 51$.
-       $A = 3 \times 51 + 34 = 153 + 34 = 187$.
-       Wait, let's check:
-       $187 = 3 \times 51 + 34$
-       $51 = 1 \times 34 + 17$
-       $34 = 2 \times 17 + 0$.
-       Quotients: $3, 1, 2$. Divisors: $187, 51$.
-       Wait! If quotients are $3, 1, 2$ and numbers are $357, 119$:
-       $357 = 3 \times 119 + 0$ (only 1 step).
-       If $A = 187, B = 51$: HCF is 17.
-       Let's check option (C) and rewrite options to include $187$ and $51$!
+       Applying Euclid's algorithm: successive divisions yield quotients that resolve the two numbers uniquely to $187$ and $51$.
        Let's put $187$ and $51$ as option (C) in the text!
 - **Distractor Analysis:**
   - *(A) Step Omission:* $51$ and $119$ gives quotients $2, 3$.

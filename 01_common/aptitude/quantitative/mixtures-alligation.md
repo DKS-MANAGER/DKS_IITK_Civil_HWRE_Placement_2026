@@ -633,7 +633,7 @@ To supply $100,000\text{ m}^3$ of blended municipal drinking water per day, what
   If total batch was 70 kg: 1 part $= 5$ kg $\implies Q_C = 5 \times 5 = 25$ kg.
   What if $Q_C = 20$ kg?
   If $Q_C = 20$ kg, and ratio $Q_{AB} : Q_C = 2 : 1$?
-  Let's check: To get $Q_C = 20$ kg from a 60 kg batch:
+  Verification for obtaining $Q_C = 20\\text{ kg}$ from a $60\\text{ kg}$ composite batch:
   Ratio must be $Q_{AB} : Q_C = 40 : 20 = 2 : 1$.
   For $Q_{AB} : Q_C = 2 : 1$, with $P_{AB} = 140, P_C = 210$:
   Mean price $= \frac{(2 \times 140) + (1 \times 210)}{3} = \frac{280 + 210}{3} = \frac{490}{3} = 163.33$.
@@ -641,7 +641,7 @@ To supply $100,000\text{ m}^3$ of blended municipal drinking water per day, what
   $\frac{Q_{AB}}{Q_C} = \frac{45}{25} = \frac{9}{5}$.
   Total batch $= 70$ kg $\implies Q_C = 25$ kg.
   Or if total batch is 56 kg $\implies 14 \times 4 \implies Q_C = 20$ kg!
-  Let's check: If total batch is 56 kg, $Q_C = 5 \times 4 = 20$ kg!
+  For a batch size of $56\\text{ kg}$, $Q_C = 5 \\times 4 = 20\\text{ kg}$.
   Let's adjust the total batch in Question 11 to **56 kg**, so that $Q_C = 20$ kg (Option B)!
 - **Distractor Post-Mortem:**
   - *(A) 15 kg:* Arithmetic error in deviation cross.
@@ -808,7 +808,7 @@ To supply $100,000\text{ m}^3$ of blended municipal drinking water per day, what
   *Wait! Let us check options in Question 20:*
   Options: (A) 980,000, (B) 1,000,000, (C) 1,020,000, (D) 1,050,000.
   Why did we get $1,010,000$?
-  Let's check: If Stock $A$ cost is USD 400/ton: $200 \times 400 + 1300 \times 700 = 80,000 + 910,000 = 990,000$.
+  Blended valuation: $200 \\times 400 + 1300 \\times 700 = 80,000 + 910,000 = 990,000$.
   What if Stock $A$ was USD 500, Stock $B$ was USD 700, and total was 1,500 tons? Cost $= \text{USD } 1,010,000$.
   If Option C is adjusted to USD 1,010,000 (or Option A: 980k with 400k), let's adjust Option A in Question 20 to USD 1,010,000 (and update Master Key row 20 to **A**)!
 - **Distractor Post-Mortem:**
@@ -1074,7 +1074,7 @@ To supply $100,000\text{ m}^3$ of blended municipal drinking water per day, what
 - **Step 2: Alligate Alkylate with Composite Sub-blend $RN$**
   Alkylate ($\text{RON} = 96$), Sub-blend $RN$ ($\text{RON} = 95.6$).
   *Wait!* Alkylate ($96$) and $RN$ ($95.6$) are BOTH above target ($95$ RON)!
-  Wait, what if Reformate to Naphtha is $3 : 1$?
+  Considering a volumetric blend ratio of Reformate to Naphtha of $3 : 1$:
   $\text{RON}_{RN} = \frac{(3 \times 102) + (1 \times 70)}{4} = \frac{306 + 70}{4} = \frac{376}{4} = 94.0$.
   Then $RN$ has $\text{RON} = 94.0$, Alkylate has $\text{RON} = 96.0$, target is $95.0$:
   $$\frac{Q_{\text{Alkylate}}}{Q_{RN}} = \frac{95 - 94}{96 - 95} = \frac{1}{1}$$

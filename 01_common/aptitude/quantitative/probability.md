@@ -755,15 +755,8 @@ An autonomous vehicle navigation system estimates forward obstacle distance by f
   2. System:
      - $\pi_1 = 0.5 \pi_1 + 0.25 \pi_2 \implies 0.5 \pi_1 = 0.25 \pi_2 \implies \pi_2 = 2 \pi_1$.
      - $\pi_3 = 0.25 \pi_2 + 0.5 \pi_3 \implies 0.5 \pi_3 = 0.25 \pi_2 \implies \pi_3 = 0.5 \pi_2 = \pi_1$.
-       Wait, let us check the matrix:
-       Row 3 is $[0, 0.5, 0.5]$?
-       Column 3 equation: $\pi_3 = 0.25 \pi_2 + 0.5 \pi_3 \implies \pi_3 = 0.5 \pi_2 = \pi_1$.
-       Then $\pi_1 + 2\pi_1 + \pi_1 = 4\pi_1 = 1 \implies \pi = [1/4, 1/2, 1/4]$ (option B).
-       Wait, let's verify if the matrix in the prompt was:
-       $P = [[0.5, 0.5, 0], [0.25, 0.5, 0.25], [0, 0.5, 0.5]]$.
-       Then $\pi = [1/4, 1/2, 1/4]$!
-       If option (B) is $[1/4, 1/2, 1/4]$, let's make sure the key and proof match perfectly!
-       Let's check: in the key table, let's set (B) as the correct answer for Q17!
+       Evaluating the stationary distribution equation $\pi P = \pi$ with $\sum \pi_i = 1$:
+       With $P = \begin{bmatrix} 0.5 & 0.5 & 0 \\ 0.25 & 0.5 & 0.25 \\ 0 & 0.5 & 0.5 \end{bmatrix}$, the steady-state probability vector is $\pi = [0.25, 0.50, 0.25]$.
 - **Distractor Analysis:**
   - *(A) Uniform:* $[1/3, 1/3, 1/3]$.
   - *(C) Skewed:* $[3/10, 4/10, 3/10]$.

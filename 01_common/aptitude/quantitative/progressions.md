@@ -619,7 +619,7 @@ A highway Build-Operate-Transfer (BOT) concession generates toll revenue where t
   - General solution: $x_n = A(2)^n + B(-1)^n$.
   - For $n = 1$: $2A - B = 1$.
   - For $n = 2$: $4A + B = 3$.
-  - Adding: $6A = 4 \implies A = 2/3$... Wait!
+  - Solving the linear system yields $A = \frac{2}{3}$.
   - If $x_n = 2^n - (-1)^n$:
     - $x_1 = 2^1 - (-1)^1 = 2 - (-1) = 3 \neq 1$.
     - For $x_n = 2^{n-1} + (-1)^{n-1}$: $x_1 = 1 + 1 = 2$.

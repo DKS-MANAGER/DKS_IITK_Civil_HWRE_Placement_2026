@@ -45,9 +45,13 @@ If partner $B$ joins after $k$ months with capital $C_B$, their exposure is simp
 #### 2. The Working Partner (Management Fee) Formula
 Let total profit be $P$. If active partner $A$ receives $m\%$ of the gross profit as a management/operating allowance:
 $$	ext{Management Allowance to } A = m\% 	imes P = rac{m}{100} P$$
-$$	ext{Residual Distributable Profit } P_{	ext{res}} = P \left(1 - rac{m}{100}ight)$$
-$$	ext{Partner } A	ext{'s Total Earning} = \left(rac{m}{100} Pight) + \left(rac{E_A}{\sum E_i}ight) P_{	ext{res}}$$
-$$	ext{Partner } B	ext{'s Total Earning} = \left(rac{E_B}{\sum E_i}ight) P_{	ext{res}}$$
+$$	ext{Residual Distributable Profit } P_{	ext{res}} = P \left(1 - rac{m}{100}
+ight)$$
+$$	ext{Partner } A	ext{'s Total Earning} = \left(rac{m}{100} P
+ight) + \left(rac{E_A}{\sum E_i}
+ight) P_{	ext{res}}$$
+$$	ext{Partner } B	ext{'s Total Earning} = \left(rac{E_B}{\sum E_i}
+ight) P_{	ext{res}}$$
 
 #### 3. Rent, Commission & Interest on Capital Waterfall
 When profit distribution follows a strict contractual priority waterfall:
@@ -519,7 +523,8 @@ A venture firm invests USD 10,000,000 in a Series A round for a $33.3\%$ equity 
   - Let total capital $= C$, total time $= T$.
   - $A$: Capital $= rac{1}{3}C$, Time $= rac{1}{3}T \implies E_A = rac{1}{9}CT$.
   - $B$: Capital $= rac{1}{4}C$, Time $= rac{1}{4}T \implies E_B = rac{1}{16}CT$.
-  - $C$: Capital $= \left(1 - rac{1}{3} - rac{1}{4}ight)C = rac{5}{12}C$, Time $= 1T \implies E_C = rac{5}{12}CT$.
+  - $C$: Capital $= \left(1 - rac{1}{3} - rac{1}{4}
+ight)C = rac{5}{12}C$, Time $= 1T \implies E_C = rac{5}{12}CT$.
   - Multiply through by 144 (LCM of $9, 16, 12$):
     - $E_A = 16$, $E_B = 9$, $E_C = rac{5}{12} 	imes 144 = 60$... Wait:
     - Total units $= 16 + 9 + 60 = 85$ units... Wait: If $E_C = rac{5}{12} 	imes 144 = 60$, total is 85.
@@ -553,7 +558,7 @@ A venture firm invests USD 10,000,000 in a Series A round for a $33.3\%$ equity 
 #### Q11
 - **Correct Answer:** **B**
 - **Deductive Proof:**
-  - $E_A = 40000 	imes 4 + (40000 	imes 1.5) 	imes 8 = 160000 + 60000 	imes 8 = 160000 + 480000 = 640000$... Wait:
+  - $E_A = 40000 \times 4 + (40000 \times 1.5) \times 8 = 160000 + 480000 = 640000$.
   - If $E_A = 4(4) + 6(8) = 16 + 48 = 64$.
   - $E_B = 60000 	imes 6 + (60000 	imes rac{2}{3}) 	imes 6 = 360000 + 40000 	imes 6 = 360000 + 240000 = 600000$.
   - Ratio $E_A : E_B = 640000 : 600000 = 64 : 60 = 16 : 15$.
@@ -640,7 +645,7 @@ A venture firm invests USD 10,000,000 in a Series A round for a $33.3\%$ equity 
   - Total profit $= 33000$. $A$'s share $= 16000 \implies B$'s share $= 33000 - 16000 = 17000$.
   - Ratio $rac{E_A}{E_B} = rac{16000}{17000} = rac{16}{17}$.
   - $rac{12x}{9(x + 4000)} = rac{16}{17} \implies rac{4x}{3(x + 4000)} = rac{16}{17} \implies rac{x}{3(x + 4000)} = rac{4}{17}$.
-  - $17x = 12(x + 4000) = 12x + 48000 \implies 5x = 48000 \implies x = 9600$... Wait:
+  - $17x = 12(x + 4000) = 12x + 48000 \implies 5x = 48000 \implies x = 9600$.
   - If $x = 12000$: $12(12000) = 144000$, $9(16000) = 144000 \implies$ Equal ratio.
   - For $x = 9600$: Option B is 9600. Let's make sure: Option D was 12000. For $x=12000$, profit split is $1:1$ ($16.5k$ each).
 - **Distractor Analysis:**
@@ -705,7 +710,8 @@ A venture firm invests USD 10,000,000 in a Series A round for a $33.3\%$ equity 
 - **Correct Answer:** **B**
 - **Deductive Proof:**
   - Old ratio: $A = rac{5}{10}, B = rac{3}{10}, C = rac{2}{10}$.
-  - $C$'s share $\left(rac{2}{10}ight)$ acquired by $A$ and $B$ in $3 : 2$:
+  - $C$'s share $\left(rac{2}{10}
+ight)$ acquired by $A$ and $B$ in $3 : 2$:
     - $A$ gains: $rac{3}{5} 	imes rac{2}{10} = rac{6}{50}$.
     - $B$ gains: $rac{2}{5} 	imes rac{2}{10} = rac{4}{50}$.
   - New share of $A = rac{5}{10} + rac{6}{50} = rac{25 + 6}{50} = rac{31}{50}$.
@@ -765,7 +771,8 @@ A venture firm invests USD 10,000,000 in a Series A round for a $33.3\%$ equity 
   - At 12-month cliff: $25\% 	imes 40000 = 10000$ shares vest.
   - Remaining $30000$ shares vest at $rac{30000}{36} = rac{2500}{3}$ shares/month.
   - Between month 12 and month 30 (18 months):
-    - Vested $= 18 	imes \left(rac{30000}{36}ight) = 18 	imes 833.33 = 15000$ shares.
+    - Vested $= 18 	imes \left(rac{30000}{36}
+ight) = 18 	imes 833.33 = 15000$ shares.
   - Total vested $= 10000 + 15000 = 25000$ shares.
 - **Distractor Analysis:**
   - *(A) 20,000, (B) 22,500, (D) 30,000:* Neglected 1-year cliff weighting.

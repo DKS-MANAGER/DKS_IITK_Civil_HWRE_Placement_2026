@@ -77,56 +77,8 @@ $$\bar{x} = A + \frac{\sum_{i=1}^n (x_i - A)}{n}$$
 
 $$\text{Pooled Rate} = \frac{w_A r_A + w_B r_B}{w_A + w_B}$$
 
----
+## 2. High-Yield Placement Practice Problem Set
 
-## 2. Master Answer Key (Q1–Q40)
-
-| Question | Level | Sub-Topic | Correct Answer | Core Mathematical Principle |
-|:---:|:---:|:---|:---:|:---|
-| **Q1** | Level 1 | AP Average Invariance | **C** | Symmetric addition maintains central AP arithmetic mean $= 96.0$ |
-| **Q2** | Level 1 | Replacement Shift Law | **B** | $x_{\text{new}} = 42 + 24(0.75) = 42 + 18 = 60\text{ kg}$ |
-| **Q3** | Level 1 | Overlapping Middle Element | **D** | $x_8 = (8 \times 38 + 8 \times 44) - (15 \times 40) = 656 - 600 = 56$ |
-| **Q4** | Level 1 | Batting Average Multi-Innings | **A** | New average $= \frac{20(54) + 300}{24} = \frac{1380}{24} = 57.5$ runs |
-| **Q5** | Level 1 | Bowling Average Improvement | **B** | $\frac{24.85w + 52}{w+5} = 24.00 \implies 0.85w = 68 \implies w = 80$ (Total $= 85$) |
-| **Q6** | Level 2 | Multi-Tier Weighted Average | **C** | $\bar{x} = \frac{40(75) + 50(80) + 60(65)}{150} = \frac{10900}{150} = 72.67$ |
-| **Q7** | Level 2 | Missing Middle Observation | **D** | $x_{13} = 25(64) - (12 \times 61 + 12 \times 66) = 1600 - 1524 = 76$ |
-| **Q8** | Level 2 | Consecutive Sequence Expansion | **A** | Extended 12-term odd sequence average $= \frac{37 + 59}{2} = 48.0$ |
-| **Q9** | Level 2 | Data Entry Correction Net Shift | **C** | $\bar{x} = 68 + \frac{(48 - 84) + (75 - 57)}{50} = 68 - 0.36 = 67.64$ |
-| **Q10** | Level 2 | Dual Element Replacement | **B** | Women sum $= (21 + 23) + 8(2) = 60 \implies \text{Average} = 30\text{ years}$ |
-| **Q11** | Level 3 | Harmonic Mean Average Speed | **A** | $v_{\text{avg}} = \frac{2(60)(90)}{60 + 90} = \frac{10800}{150} = 72.0\text{ km/h}$ |
-| **Q12** | Level 3 | Simpson's Paradox Diagnostics | **D** | Disproportionate subgroup sample sizes invert overall pooled success rate |
-| **Q13** | Level 3 | Rolling Moving Average Filter | **B** | $\text{MA}_6 = 105 + \frac{120 - 100}{5} = 109.0$ |
-| **Q14** | Level 3 | Asymmetric Count Flux | **C** | New sum $= 480 - 32 + 48 = 496 \implies \text{Average} = 496 / 31 = 16.0$ |
-| **Q15** | Level 3 | RMS vs AM Spread | **A** | $\text{AM} = 5.0, \; \text{RMS} = \sqrt{135/5} = \sqrt{27} \approx 5.196$ |
-| **Q16** | Level 4 | VWAP Execution Slippage | **C** | $\text{VWAP} = \frac{10(100.20) + 25(100.50) + 15(100.30)}{50} = \text{USD } 100.38$ |
-| **Q17** | Level 4 | Net Deviation Balance Law | **B** | $20(-5) + 25(5) + 15(x - 45) = 0 \implies x = 45 - \frac{5}{3} = 43.33$ |
-| **Q18** | Level 4 | Two-Tier Corporate Salary Hike | **D** | Weighted hike $= \frac{40(1.5) + 10(2.5)}{650} \times 100\% = 13.08\%$ |
-| **Q19** | Level 4 | CAGR Geometric vs Arithmetic | **A** | $\text{CAGR} = (1.20 \times 1.50 \times 0.60)^{1/3} - 1 = 2.60\% \neq 10.0\%$ |
-| **Q20** | Level 4 | Parallel Task Processing Rate | **C** | Harmonic execution mean $= \frac{3}{1/4 + 1/6 + 1/12} / 3 = 2.0\text{ hours/task}$ |
-| **Q21** | Level 5 | Non-Linear Weighting Bounds | **B** | Extreme group weights bound average between $62.5$ and $77.5$ |
-| **Q22** | Level 5 | Truncated Mean Robustness | **D** | 10% trimmed mean eliminates extreme tail outliers without median collapse |
-| **Q23** | Level 5 | Double-Missing Overlap Parity | **A** | $x_6 + x_7 = 11(50) - (5 \times 48 + 5 \times 52) = 550 - 500 = 50$ |
-| **Q24** | Level 5 | Batting Average Not-Out Invariant| **C** | Not-out innings inflate batting average from $42.0$ to $52.5$ |
-| **Q25** | Level 5 | Exponential Moving Average Weight | **B** | $\alpha = \frac{2}{N+1} = \frac{2}{20} = 0.10 \implies \text{EMA} = 0.10(P_t) + 0.90(\text{EMA}_{t-1})$ |
-| **Q26** | Level 6 | Multi-Asset Volatility Weighting | **D** | Risk parity portfolio inverse volatility weights $\bar{r}_p = 11.24\%$ |
-| **Q27** | Level 6 | Cauchy-Schwarz AM-HM Bound | **A** | $(\sum x_i)(\sum 1/x_i) \ge n^2 \implies \bar{x} \cdot \bar{x}_H \ge 1$ |
-| **Q28** | Level 6 | Discrete Renewal Cycle Mean | **C** | Mean time to failure $\text{MTTF} = \int_0^\infty R(t) dt = 450\text{ hours}$ |
-| **Q29** | Level 6 | Chained Ratio Deviation | **B** | Reconstructed baseline weights yield true composite mean of $81.25$ |
-| **Q30** | Level 6 | Multi-Period Inventory Costing | **D** | FIFO vs Weighted Average Cost yields inventory valuation delta of USD 4,200 |
-| **Q31** | Level 7 | The Arithmetic Rate Trap | **A** | Averaging speeds $\frac{v_1+v_2}{2}$ instead of harmonic mean violates $\Delta t$ weighting |
-| **Q32** | Level 7 | The Simple Average of Averages | **B** | Averaging unweighted class percentages ignores class size disparities |
-| **Q33** | Level 7 | The Negative Bowling Shift Trap | **B** | A lower bowling average indicates improved performance, not degradation |
-| **Q34** | Level 7 | The Not-Out Denominator Trap | **C** | Dividing total runs by total matches instead of dismissed innings undercounts average |
-| **Q35** | Level 7 | Percentage Return Arithmetic Mean| **A** | Using AM $(+50\% -50\%)/2 = 0\%$ masks a true $-25\%$ capital destruction |
-| **Q36** | Level 8 | HFT Microsecond Slippage VWAP | **C** | Volume-weighted order execution slippage $= 1.42\text{ ticks}$ across 5 venues |
-| **Q37** | Level 8 | Cloud Cluster Latency Percentiles | **A** | P99 latency $(420\text{ms})$ vs Mean $(48\text{ms})$ illustrates tail skewness |
-| **Q38** | Level 8 | Sovereign Debt Maturity Duration | **D** | Weighted average maturity of national debt portfolio $= 7.84\text{ years}$ |
-| **Q39** | Level 8 | Smart Grid Load Shifting Baseline | **B** | Peak-to-average ratio (PAR) reduced from $1.85$ to $1.32$ via demand response |
-| **Q40** | Level 8 | Quant Fund Sharpe Ratio Mean | **C** | Annualized information ratio $= \frac{\bar{R}_p - R_f}{\sigma_p} = 2.15$ |
-
----
-
-## 3. High-Yield Placement Practice Problem Set
 
 ### Level 1: Foundation Concepts (Q1–Q5)
 
@@ -437,6 +389,53 @@ A quantitative equity market neutral fund generates monthly excess returns with 
 - (B) $1.73$
 - (C) $2.17$
 - (D) $2.50$
+
+---
+
+## 3. Master Answer Key (Q1–Q40)
+
+| Question | Level | Sub-Topic | Correct Answer | Core Mathematical Principle |
+|:---:|:---:|:---|:---:|:---|
+| **Q1** | Level 1 | AP Average Invariance | **C** | Symmetric addition maintains central AP arithmetic mean $= 96.0$ |
+| **Q2** | Level 1 | Replacement Shift Law | **B** | $x_{\text{new}} = 42 + 24(0.75) = 42 + 18 = 60\text{ kg}$ |
+| **Q3** | Level 1 | Overlapping Middle Element | **D** | $x_8 = (8 \times 38 + 8 \times 44) - (15 \times 40) = 656 - 600 = 56$ |
+| **Q4** | Level 1 | Batting Average Multi-Innings | **A** | New average $= \frac{20(54) + 300}{24} = \frac{1380}{24} = 57.5$ runs |
+| **Q5** | Level 1 | Bowling Average Improvement | **B** | $\frac{24.85w + 52}{w+5} = 24.00 \implies 0.85w = 68 \implies w = 80$ (Total $= 85$) |
+| **Q6** | Level 2 | Multi-Tier Weighted Average | **C** | $\bar{x} = \frac{40(75) + 50(80) + 60(65)}{150} = \frac{10900}{150} = 72.67$ |
+| **Q7** | Level 2 | Missing Middle Observation | **D** | $x_{13} = 25(64) - (12 \times 61 + 12 \times 66) = 1600 - 1524 = 76$ |
+| **Q8** | Level 2 | Consecutive Sequence Expansion | **A** | Extended 12-term odd sequence average $= \frac{37 + 59}{2} = 48.0$ |
+| **Q9** | Level 2 | Data Entry Correction Net Shift | **C** | $\bar{x} = 68 + \frac{(48 - 84) + (75 - 57)}{50} = 68 - 0.36 = 67.64$ |
+| **Q10** | Level 2 | Dual Element Replacement | **B** | Women sum $= (21 + 23) + 8(2) = 60 \implies \text{Average} = 30\text{ years}$ |
+| **Q11** | Level 3 | Harmonic Mean Average Speed | **A** | $v_{\text{avg}} = \frac{2(60)(90)}{60 + 90} = \frac{10800}{150} = 72.0\text{ km/h}$ |
+| **Q12** | Level 3 | Simpson's Paradox Diagnostics | **D** | Disproportionate subgroup sample sizes invert overall pooled success rate |
+| **Q13** | Level 3 | Rolling Moving Average Filter | **B** | $\text{MA}_6 = 105 + \frac{120 - 100}{5} = 109.0$ |
+| **Q14** | Level 3 | Asymmetric Count Flux | **C** | New sum $= 480 - 32 + 48 = 496 \implies \text{Average} = 496 / 31 = 16.0$ |
+| **Q15** | Level 3 | RMS vs AM Spread | **A** | $\text{AM} = 5.0, \; \text{RMS} = \sqrt{135/5} = \sqrt{27} \approx 5.196$ |
+| **Q16** | Level 4 | VWAP Execution Slippage | **C** | $\text{VWAP} = \frac{10(100.20) + 25(100.50) + 15(100.30)}{50} = \text{USD } 100.38$ |
+| **Q17** | Level 4 | Net Deviation Balance Law | **B** | $20(-5) + 25(5) + 15(x - 45) = 0 \implies x = 45 - \frac{5}{3} = 43.33$ |
+| **Q18** | Level 4 | Two-Tier Corporate Salary Hike | **D** | Weighted hike $= \frac{40(1.5) + 10(2.5)}{650} \times 100\% = 13.08\%$ |
+| **Q19** | Level 4 | CAGR Geometric vs Arithmetic | **A** | $\text{CAGR} = (1.20 \times 1.50 \times 0.60)^{1/3} - 1 = 2.60\% \neq 10.0\%$ |
+| **Q20** | Level 4 | Parallel Task Processing Rate | **C** | Harmonic execution mean $= \frac{3}{1/4 + 1/6 + 1/12} / 3 = 2.0\text{ hours/task}$ |
+| **Q21** | Level 5 | Non-Linear Weighting Bounds | **B** | Extreme group weights bound average between $62.5$ and $77.5$ |
+| **Q22** | Level 5 | Truncated Mean Robustness | **D** | 10% trimmed mean eliminates extreme tail outliers without median collapse |
+| **Q23** | Level 5 | Double-Missing Overlap Parity | **A** | $x_6 + x_7 = 11(50) - (5 \times 48 + 5 \times 52) = 550 - 500 = 50$ |
+| **Q24** | Level 5 | Batting Average Not-Out Invariant| **C** | Not-out innings inflate batting average from $42.0$ to $52.5$ |
+| **Q25** | Level 5 | Exponential Moving Average Weight | **B** | $\alpha = \frac{2}{N+1} = \frac{2}{20} = 0.10 \implies \text{EMA} = 0.10(P_t) + 0.90(\text{EMA}_{t-1})$ |
+| **Q26** | Level 6 | Multi-Asset Volatility Weighting | **D** | Risk parity portfolio inverse volatility weights $\bar{r}_p = 11.24\%$ |
+| **Q27** | Level 6 | Cauchy-Schwarz AM-HM Bound | **A** | $(\sum x_i)(\sum 1/x_i) \ge n^2 \implies \bar{x} \cdot \bar{x}_H \ge 1$ |
+| **Q28** | Level 6 | Discrete Renewal Cycle Mean | **C** | Mean time to failure $\text{MTTF} = \int_0^\infty R(t) dt = 450\text{ hours}$ |
+| **Q29** | Level 6 | Chained Ratio Deviation | **B** | Reconstructed baseline weights yield true composite mean of $81.25$ |
+| **Q30** | Level 6 | Multi-Period Inventory Costing | **D** | FIFO vs Weighted Average Cost yields inventory valuation delta of USD 4,200 |
+| **Q31** | Level 7 | The Arithmetic Rate Trap | **A** | Averaging speeds $\frac{v_1+v_2}{2}$ instead of harmonic mean violates $\Delta t$ weighting |
+| **Q32** | Level 7 | The Simple Average of Averages | **B** | Averaging unweighted class percentages ignores class size disparities |
+| **Q33** | Level 7 | The Negative Bowling Shift Trap | **B** | A lower bowling average indicates improved performance, not degradation |
+| **Q34** | Level 7 | The Not-Out Denominator Trap | **C** | Dividing total runs by total matches instead of dismissed innings undercounts average |
+| **Q35** | Level 7 | Percentage Return Arithmetic Mean| **A** | Using AM $(+50\% -50\%)/2 = 0\%$ masks a true $-25\%$ capital destruction |
+| **Q36** | Level 8 | HFT Microsecond Slippage VWAP | **C** | Volume-weighted order execution slippage $= 1.42\text{ ticks}$ across 5 venues |
+| **Q37** | Level 8 | Cloud Cluster Latency Percentiles | **A** | P99 latency $(420\text{ms})$ vs Mean $(48\text{ms})$ illustrates tail skewness |
+| **Q38** | Level 8 | Sovereign Debt Maturity Duration | **D** | Weighted average maturity of national debt portfolio $= 7.84\text{ years}$ |
+| **Q39** | Level 8 | Smart Grid Load Shifting Baseline | **B** | Peak-to-average ratio (PAR) reduced from $1.85$ to $1.32$ via demand response |
+| **Q40** | Level 8 | Quant Fund Sharpe Ratio Mean | **C** | Annualized information ratio $= \frac{\bar{R}_p - R_f}{\sigma_p} = 2.15$ |
 
 ---
 

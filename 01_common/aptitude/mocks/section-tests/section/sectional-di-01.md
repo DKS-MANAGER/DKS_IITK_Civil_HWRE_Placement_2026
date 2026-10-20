@@ -335,9 +335,8 @@ Which technology node produces the **highest total volume of functional good die
   - PKG-B: $6600 / 45 = 146.67\text{ Cr/month}$
   - PKG-C: $3080 / 28 = 110.00\text{ Cr/month}$
   - PKG-D: $4600 / 40 = 115.00\text{ Cr/month}$
-  - PKG-E: $4950 / 33 = 150.00\text{ Cr/month}$ ... wait, PKG-E is $4950 / 33 = 150.0\text{ Cr/month}$!
-  - Let's check $4950 / 33$: $4950 / 33 = 150.0\text{ Cr/month}$. PKG-B is $6600 / 45 = 146.67$.
-  - Therefore, PKG-E is the highest! Option (A) for PKG-E or PKG-B. Let's make sure the key reflects PKG-E or PKG-B.
+  - PKG-E: $4950 / 33 = 150.00\text{ Cr/month}$. Compare with PKG-B: $6600 / 45 = 146.67\text{ Cr/month}$.
+  - Therefore, Package E achieves the highest monthly expenditure run-rate.
 
 ### Q6: Hydro-Mass Balance Conservation
 - **Correct Answer:** **(B)**

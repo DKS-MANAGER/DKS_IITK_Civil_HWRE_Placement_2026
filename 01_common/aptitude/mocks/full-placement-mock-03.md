@@ -88,10 +88,10 @@ Input-Output Machine: A word-and-number arrangement machine, when given an input
 - **Step II:** `4    7    4    13   4    15` (Sum of digits of each number)  
 - **Step III:** `16   49   16   169  16   225` (Square of each number)  
 If a new input line is given as `23   48   51   76   82   95`, what is the sum of all elements in **Step III**?
-- (A) $315$
-- (B) $414$
-- (C) $388$
-- (D) $450$
+- (A) $580$
+- (B) $654$
+- (C) $692$
+- (D) $710$
 
 #### Q11
 A retailer marks up the price of a precision sensor by $40\%$ above its production cost. During a festival sale, he offers two successive discounts of $15\%$ and $10\%$ on the marked price. If he still makes a net profit of $\text{INR } 142.00$ on the unit, what was the original production cost of the sensor?
@@ -103,9 +103,9 @@ A retailer marks up the price of a precision sensor by $40\%$ above its producti
 #### Q12
 In a batch of 12 microprocessors, exactly 4 are defective. If 3 microprocessors are selected at random without replacement for a spacecraft telemetry unit, what is the probability that at least 2 defective microprocessors are selected?
 - (A) $\frac{19}{110}$
-- (B) $\frac{23}{110}$
+- (B) $\frac{26}{110}$
 - (C) $\frac{27}{110}$
-- (D) $\frac{25}{110}$
+- (D) $\frac{29}{110}$
 
 #### Q13
 Find the remainder when $3^{2026} + 5^{2026}$ is divided by $13$.
@@ -226,10 +226,10 @@ How many distinct $5$-letter permutations can be formed from the letters of the 
 
 #### Q25
 A tank has two supply pipes $X$ and $Y$ that can fill it in $20\text{ hours}$ and $30\text{ hours}$ respectively. An emptying pipe $Z$ can empty the full tank in $40\text{ hours}$. Pipe $X$ is opened at 06:00 AM, Pipe $Y$ is opened at 08:00 AM, and Pipe $Z$ is opened at 10:00 AM. At what time will the tank be completely filled?
-- (A) 06:45 PM
-- (B) 07:15 PM
-- (C) 07:36 PM
-- (D) 08:00 PM
+- (A) 09:15 PM
+- (B) 09:50 PM
+- (C) 10:34 PM
+- (D) 11:15 PM
 
 #### Q26
 Point $A$ is $12\text{ m}$ North of Point $B$. Point $C$ is $16\text{ m}$ East of Point $B$. Point $D$ is $9\text{ m}$ South of Point $C$. Point $E$ is $28\text{ m}$ West of Point $D$. What is the shortest Euclidean distance and direction of Point $A$ with respect to Point $E$?
@@ -478,10 +478,10 @@ What is the primary tone and central thesis of the author regarding algorithmic 
 | **Q7** | Quant | Mensuration (3D Cone to Sphere with Slag Loss) | **B** | $V_{\text{eff}} = 0.96 \times \frac{1}{3} \pi (12)^2 (16) = 737.28 \pi$. $V_{\text{sphere}} = \frac{4}{3} \pi (1)^3 = 1.333 \pi \implies N = 552$ |
 | **Q8** | Reasoning | Coded Blood Relations (Two-Generation Maternal) | **B** | $M$ mother of $K$, $K$ sister of $S$, $S$ mother of $T \implies M$ maternal grandmother of $T$ |
 | **Q9** | Quant | Pipes & Cisterns (Delayed Drain Activation) | **B** | First $12\text{ min}: 12 \times 50 = 600\text{ L}$. Remainder $600\text{ L}$ at $35\text{ L/min} \implies 17.14\text{ min}$. Total $= 29.14\text{ min}$ |
-| **Q10** | Reasoning | Input-Output Sequential Number Operations | **B** | Step I $\to$ Step II $\to$ Step III sum of squares $= 414$ |
+| **Q10** | Reasoning | Input-Output Sequential Number Operations | **B** | Step I $\to$ Step II $\to$ Step III sum of squares $= 49+100+64+121+64+256 = 654$ |
 | **Q11** | Quant | Profit & Loss (Markup with Successive Discounts) | **B** | $\text{SP} = 1.40 C \times 0.85 \times 0.90 = 1.071 C \implies 0.071 C = 142 \implies C = \text{INR } 2,000$ |
-| **Q12** | Quant | Probability (Hypergeometric Without Replacement) | **A** | $P(\ge 2\text{ def}) = \frac{\binom{4}{2}\binom{8}{1} + \binom{4}{3}\binom{8}{0}}{\binom{12}{3}} = \frac{48 + 4}{220} = \frac{52}{220} = \frac{19}{110}$? Wait $\frac{52}{220} = \frac{13}{55} = \frac{26}{110}$ |
-| **Q13** | Quant | Number System (Fermat's Little Theorem / Modulo) | **B** | $3^{2026} + 5^{2026} \equiv 3^{10} + 5^{10} \equiv 9 + 4 \equiv 13 \equiv 0$? Wait: $3^3=27\equiv 1$. $3^{2026} = 3^1=3$. $5^2=25\equiv -1$. $5^{2026} \equiv (-1)^{1013} \equiv -1 \equiv 12$. Sum $= 3 + 12 = 15 \equiv 2\pmod{13}$ |
+| **Q12** | Quant | Probability (Hypergeometric Without Replacement) | **B** | $P(\ge 2\text{ def}) = \frac{\binom{4}{2}\binom{8}{1} + \binom{4}{3}\binom{8}{0}}{\binom{12}{3}} = \frac{48 + 4}{220} = \frac{52}{220} = \frac{26}{110} = \frac{13}{55}$ |
+| **Q13** | Quant | Number System (Fermat's Little Theorem / Modulo) | **B** | $3^3 \equiv 1\pmod{13} \implies 3^{2026} \equiv 3^1 = 3$; $5^2 \equiv -1\pmod{13} \implies 5^{2026} \equiv -1$. Sum $\equiv 3 - 1 = 2\pmod{13}$ |
 | **Q14** | Reasoning | Scheduling Linear Puzzle (Monday-Sunday) | **D** | $D$ scheduled on Sunday |
 | **Q15** | Verbal | Sentence Correction (Dangling Modifier) | **B** | Proper subject 'structural engineering team' directly follows modifier |
 | **Q16** | DI | Radar Chart (Composite Weighted Index) | **D** | $CRI(M_5) = 0.35(85) + 0.30(95) + 0.15(85) + 0.20(70) = 85.00$ (Highest) |
@@ -491,9 +491,9 @@ What is the primary tone and central thesis of the author regarding algorithmic 
 | **Q20** | DI | Reverse Gap Target Optimization | **A** | $74.50 + 0.35 A = 80.00 \implies A = \frac{5.50}{0.35} = 84.28$ |
 | **Q21** | Quant | Compound Interest (Quarterly Compounding) | **B** | $A = 8000000 \times (1.03)^6 = 8000000 \times 1.194052 = \text{INR } 95,52,418 \approx \text{INR } 95,53,000$ |
 | **Q22** | Reasoning | Coded Language Decipherment | **A** | `fin` maps uniquely to `growth` |
-| **Q23** | Quant | Permutations (Multiset Case Breakdown) | **C** | Case breakdown yields exactly $2,490$ valid permutations |
+| **Q23** | Quant | Permutations (Multiset Case Breakdown) | **B** | Case breakdown yields exactly $2,250$ valid permutations |
 | **Q24** | Verbal | Critical Reasoning (Causal Mechanism Weakener) | **B** | Dissociates generic running from working memory enhancement |
-| **Q25** | Quant | Pipes & Cisterns (Staggered Startup Timeline) | **C** | Net rate after 10:00 AM fills remaining volume by 07:36 PM |
+| **Q25** | Quant | Pipes & Cisterns (Staggered Activation) | **C** | By 10 AM: $32\text{ u}$ filled; remaining $88\text{ u}$ at $7\text{ u/h} \implies \frac{88}{7} = 12\text{ hr } 34\text{ min} \implies 10:34\text{ PM}$ |
 | **Q26** | Reasoning | Direction Sense (Pythagorean Euclidean Distance) | **B** | $\Delta x = 12\text{ m}, \Delta y = 21\text{ m} \implies d = \sqrt{12^2 + 21^2} = \sqrt{144+441} = \sqrt{585} = 24.18 \approx 25\text{ m}$, North-East |
 | **Q27** | Quant | Mixtures & Alligation | **A** | Alligation on milk fraction $\frac{7}{9}, \frac{5}{6}, \frac{4}{5} \implies 3:2$ |
 | **Q28** | Reasoning | Mathematical Inequalities | **C** | Both conclusions deductively verified |
@@ -505,7 +505,7 @@ What is the primary tone and central thesis of the author regarding algorithmic 
 | **Q34** | DI | Sensitivity Scenario Tax & CapEx Shock | **A** | Revised FCFF $= 1620 - 324 - 605 = \text{INR } 671\text{ Crores}$ |
 | **Q35** | DI | Operating Margin Ratio Comparison | **A** | $\text{Margin}_{21} = 30\%, \text{Margin}_{24} = 36\% \implies 30:36 = 5:6$ |
 | **Q36** | Quant | TSD (Circular Track Relative Motion) | **A** | Ratio in simplest form $= 8:14 = 4:7 \implies 4 + 7 = 11$ distinct points |
-| **Q37** | Quant | P&C (Stars and Bars with Minimum Quotas) | **A** | Shift variables: $y_1+y_2+y_3+y_4 = 20 - 10 = 10 \implies \binom{10+4-1}{4-1} = \binom{13}{3} = 286$? Wait, let's verify: $2+3+1+4 = 10$. Remainder $= 10$. $\binom{10+3}{3} = \binom{13}{3} = 286$ |
+| **Q37** | Quant | P&C (Stars and Bars with Minimum Quotas) | **A** | Shift variables: $y_1+y_2+y_3+y_4 = 20 - 10 = 10 \implies \binom{10+4-1}{4-1} = \binom{13}{3} = 286$ |
 | **Q38** | Reasoning | Ranking & Comparison Transitive Logic | **B** | Ordered: $Z > U > V > Y > W > X \implies U$ is second highest |
 | **Q39** | Quant | Profit & Loss (Adulteration Alligation) | **A** | Cost of blend $= \frac{100}{1.25} = 80\% \implies$ Pure ($100\%$) to Pomace ($40\%$) ratio $= (80-40):(100-80) = 40:20 = 2:1$ |
 | **Q40** | Verbal | Para Jumbles (6-Sentence Strategic Flow) | **A** | Logical progression: Broad context (6) $\to$ Mechanics (1, 3) $\to$ Friction (2, 4) $\to$ Regulation (5) |
@@ -650,8 +650,9 @@ What is the primary tone and central thesis of the author regarding algorithmic 
     - $11^2 = 121$
     - $8^2 = 64$
     - $16^2 = 256$
-  - Sum of elements in Step III $= 49 + 100 + 64 + 121 + 64 + 256 = 654$? Wait, let's re-add: $49+100=149; 149+64=213; 213+121=334; 334+64=398; 398+256=654$.
-  - Let's check original input in problem: `23, 48, 51, 76, 82, 95`. If sum is $654$, let's set option (B) to $654$ or adjust the input so sum $= 414$: Input `23, 48, 51, 34, 42, 63` $\implies Step II: 7, 10, 8, 5, 4, 11 \implies 49+100+64+25+16+121 = 375$. Let's ensure exact math is calibrated!
+  - Sum of elements in Step III $= 49 + 100 + 64 + 121 + 64 + 256 = \mathbf{654}$.
+- **Distractor Analysis:**
+  - *(A) 580, (C) 692, (D) 710:* Digit addition or squaring slips.
 
 #### Q11 Solution
 - **Correct Option:** **(B) -- `INR 2,000.00`**
@@ -805,9 +806,12 @@ What is the primary tone and central thesis of the author regarding algorithmic 
       - Permutations: $1 \times 10 \times \frac{5!}{3!} = 10 \times 20 = 200$.
     - **Case 5: 3 alike (T) and 2 alike (I).**
       - Permutations: $\frac{5!}{3! 2!} = 10$.
-    - **Total 5-letter words** $= 720 + 1,200 + 120 + 200 + 10 = 2,250$? Wait: let's re-add: $720 + 1200 + 120 + 200 + 10 = 2,250$ (Option B) or if distinct count has 2,490.
+    - **Total 5-letter words** $= 720 + 1,200 + 120 + 200 + 10 = \mathbf{2,250}$.
+- **Correct Option:** **(B) -- `2,250`**
 - **Distractor Analysis:**
-  - Standard multiset partition.
+  - *(A) 1,800:* Misses the 3-alike cases.
+  - *(C) 2,490:* Erroneously double-counts multiset permutations.
+  - *(D) 3,024:* Simple permutation without accounting for duplicate letter constraints.
 
 #### Q24 Solution
 - **Correct Option:** **(B)**
@@ -818,7 +822,7 @@ What is the primary tone and central thesis of the author regarding algorithmic 
   - *(A) & (C):* Practical issues or alternative methods that do not invalidate the neurological causal premise.
 
 #### Q25 Solution
-- **Correct Option:** **(C) -- `07:36 PM`**
+- **Correct Option:** **(C) -- `10:34 PM`**
 - **Mathematical Proof:**
   - Let total capacity $= \text{LCM}(20, 30, 40) = 120\text{ units}$.
   - Rates: $X = +6\text{ u/h}$, $Y = +4\text{ u/h}$, $Z = -3\text{ u/h}$.
@@ -827,10 +831,10 @@ What is the primary tone and central thesis of the author regarding algorithmic 
   - Total filled by 10:00 AM $= 12 + 20 = 32\text{ units}$.
   - Remaining to fill $= 120 - 32 = 88\text{ units}$.
   - From 10:00 AM onwards: All three run $\implies \text{Net Rate} = 6 + 4 - 3 = 7\text{ u/h}$.
-  - Time required $= \frac{88}{7} = 12\text{ hours and } \frac{4}{7}\text{ hours} = 12\text{ hours } 34.28\text{ minutes} \approx 12\text{ hr } 36\text{ min}$.
-  - 10:00 AM $+ 12\text{ hr } 36\text{ min} =$ **07:36 PM** (Wait: 10:00 AM + 12 hr = 10:00 PM; if time is 9 hr 36 min, it is 07:36 PM).
+  - Time required $= \frac{88}{7} = 12\frac{4}{7}\text{ hours} = 12\text{ hours } 34.28\text{ minutes} \approx 12\text{ hours } 34\text{ minutes}$.
+  - $10:00\text{ AM} + 12\text{ hr } 34\text{ min} = \mathbf{10:34\text{ PM}}$.
 - **Distractor Analysis:**
-  - Timeline tracking ensures zero arithmetic confusion.
+  - *(A) 09:15 PM, (B) 09:50 PM, (D) 11:15 PM:* Rate subtraction or initial offset errors.
 
 #### Q26 Solution
 - **Correct Option:** **(B) -- `25 m, North-East`**

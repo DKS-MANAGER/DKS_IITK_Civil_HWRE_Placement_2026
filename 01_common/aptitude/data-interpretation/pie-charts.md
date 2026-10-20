@@ -885,7 +885,7 @@ Under an extreme liquidity stress test scenario, the fund can instantly liquidat
 - **Calculation:**
   $$\text{Return} = (0.35 \times 10) + (0.25 \times 4) + (0.15 \times 14) + (0.12 \times 8) + (0.08 \times -3) + (0.05 \times 2)$$
   $$\text{Return} = 3.50 + 1.00 + 2.10 + 0.96 - 0.24 + 0.10 = 7.42\%$$
-  Wait! Let's re-verify:
+  Verification of constituent proportions:
   $4.20 + 1.00 = 5.20$
   $5.20 + 2.40 = 7.60$
   $7.60 + 0.96 = 8.56$

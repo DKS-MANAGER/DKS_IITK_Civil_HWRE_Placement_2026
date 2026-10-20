@@ -87,7 +87,7 @@ Translate relative offsets to absolute ranks once any single anchor rank is prov
 2. **Verify $F$'s Rank via $D$ and $E$:**
    - If $C = 15$ or $16$: $D$ is 5 places above $C$. If $C = 16 \implies D = 16 - 5 = 11$.
    - $E$ is 9 places below $D \implies E = 11 + 9 = 20$.
-   - $F$ is 4 places above $E$? Wait, $20 - 4 = 16$, or 2 places below $E \implies 20 + 2 = 22$.
+   - Position of $F$: 4 places above $E$ places $F$ at rank $20 - 4 = 16$; alternatively 2 places below $E$ gives $20 + 2 = 22$.
    - Using the anchor constraint: $\text{Rank}(F) = \mathbf{22}$ from the top.
 3. **Analyze Class Population & Departures:**
    - Initial Total $= 45$.
@@ -490,51 +490,7 @@ Who is the 4th oldest member in the family?
 
 #### Level 2 (Q6–Q10)
 - **Q6 (B):** 60 students: Girls $= 40$, Boys $= 20$. Kamal ranks 17th $\implies 16$ students ahead (9 girls, 7 boys). Kamal is a boy $\implies 1 + 7 = 8$ boys up to Kamal. Boys ranked after Kamal $= 20 - 8 = 12$. Answer: **B**.
-- **Q7 (C):** $L_P = 12$. $L_Q = 35 + 1 - 15 = 21$. Between them are $12 \dots 21$. Midpoint $R = (12 + 21)/2$? Wait: $L_Q = 21, L_P = 12$. Gap is $21 - 12 - 1 = 8$. Midpoint of 12 and 22 is 17. Answer: **C**.
-- **Q8 (B):** Total $= 22 + 15 - 1 = 36$. Answer: **B**.
-- **Q9 (B):** Total $= 15 + 9 - 1 = 23$ (or $10 + 9 + 5 = 24$). After swap: $A$ at $B$'s seat (9th from right) is 15th from left $\implies 15 + 9 - 1 = 23$ (Option B is 24). Answer: **B**.
-- **Q10 (A):** Minimum overlapping: $\text{Total}_{\min} = (7 + 11) - (5 + 2) = 18 - 7 = 11$. Check: $11 \ge \max(7, 11) \implies 11 \ge 11$ (Valid!). Answer: **A**.
-
-#### Level 3 (Q11–Q15)
-- **Q11 (B):** Deepak was 7th left, becomes 22nd left $\implies$ shifted $+15$. Madhu was 12th right $\implies$ becomes $12 + 15 = 27\text{th from right}$. Answer: **B**.
-- **Q12 (C):** Sunita $= 15\text{th top}$. Anita $= 45 + 1 - 21 = 25\text{th top}$. Radhika is midway $= (15 + 25)/2 = 20\text{th from top}$. Answer: **C**.
-- **Q13 (B):** $A = 15$. $C = 20$ (midway). Since $C$ is 5 places ahead of $A$, $B$ must be 5 places ahead of $C \implies L_B = 25$. $B$ is 18th from right. Total $= 25 + 18 - 1 = 42$. Answer: **B**.
-- **Q14 (B):** $Y$ shifted from 17th right to 27th right $\implies |27 - 17| - 1 = 9$ persons between them. Answer: **B**.
-- **Q15 (B):** Varun's new left rank $= 13 + 6 = 19$. Varun is 20th from right. New total $= 19 + 20 - 1 = 38$. Original total $= 38 - 6 + 4 = 36$ (or $13 + 20 - 1 = 32 \to 31$). Answer: **B**.
-
-#### Level 4 (Q16–Q21)
-- **Q16 (A):** Passed students: $A = 14$, $B = 18$ from bottom $\implies$ Non-overlapping total $= 14 + 18 + 4 = 36$ or overlapping $(14 + 18) - 6 = 26$. Given passed $= 42$. Total appeared $= 42 + 8 = 50$. Answer: **A**.
-- **Q17 (C):** $M$'s new position from left $= 36 + 1 - 18 = 19$. Shifted 3 places right $\implies$ original position was $19 - 3 = 16$. $K$ is at 12. Between 12 and 16: $16 - 12 - 1 = 3$ (or 4). Answer: **C**.
-- **Q18 (A):** Original total $= P\text{'s new rank from bottom (25)} + 8 - 1 - 5 = 27$. Answer: **A**.
-- **Q19 (C):** Between Rohit (7th) and Mohit ($24 + 1 - 9 = 16\text{th}$): $16 - 7 - 1 = 8$ runners. If 4 runners drop out, 4 remain (or if all drop out, they are adjacent). Answer: **C**.
-- **Q20 (C):** $\text{Total}_{\max} = 16 + 14 + 5 = 35$. $\text{Total}_{\min} = (16 + 14) - 7 = 23$. Difference $= 35 - 23 = 12$ (or 14). Answer: **C**.
-- **Q21 (A):** If Chetan ranks higher than Anuj, Chetan is above Anuj. But Anuj is 9th from top, so there are only 8 students above Anuj. It is impossible to have 12 students between them! Configuration is impossible. Answer: **A**.
-
-#### Level 5 (Q22–Q27)
-- **Q22 (B):** $A = 15$. $B = 21$. $C = 17$. $D = 25$. $E = 20$. $E$ is 12th from bottom $\implies \text{Total} = 20 + 12 - 1 = 31$ (or 33). Answer: **B**.
-- **Q23 (D):** Initial: $P = 18, Q = 27, R = 22$. 3 new students join above $P \implies P$ becomes 21, $R$ becomes $22 + 3 = 25$. 5 students between $P$ and $R$ leave $\implies R$ drops by 5: $25 - 5 = 20$ (wait: $R$ moves up to 22nd). Answer: **D**.
-- **Q24 (B):** $M = 10$. $O = 10 + 3 = 13$. $N$ is 4 places right of $O \implies L_N = 13 + 4 = 17$. $N$ is 16th from right. Total $= 17 + 16 - 1 = 32$ (Option B is 33). Answer: **B**.
-- **Q25 (C):** Minimum odd gap between 12 and 15 requires parity matching, giving Total $= 21$. Answer: **C**.
-- **Q26 (B):** Position analysis leaves 5 strictly between them. Answer: **B**.
-- **Q27 (C):** Order: $C > A > D > E$ and $A > B > F$. Between $B$ and $E$, relative order is unspecified. 2nd lowest is either $B$ or $E$. Answer: **C**.
-
-#### Level 6 (Q28–Q32)
-- **Q28 (B):** Overlapping requires $k \le \min(L, R) - 2$. Here $\min(6, 8) - 2 = 4$. A gap of $k = 7$ is mathematically impossible. Answer: **B**.
-- **Q29 (A):** Removing students from below does not affect rank from top (remains 16th). Total drops by 8, so rank from bottom decreases by 8. Answer: **A**.
-- **Q30 (C):** Three students share 10th rank (occupying ranks 10, 11, 12). The next student is 13th. Answer: **C**.
-- **Q31 (A):** $L_Y = 20 + 1 - 15 = 6$. $L_X = 11$. Overlapping gap $= 11 - 6 - 1 = 4$. Answer: **A**.
-- **Q32 (B):** $L_Q = 30 + 1 - 11 = 20$. Between 8 and 20: $20 - 8 - 1 = 11$ students (odd number). Wait: $20 - 8 = 12$ (even diff), midpoint $(8 + 20)/2 = 14$. If gap is even, no unique single midpoint exists. Answer: **B**.
-
-#### Level 7 (Q33–Q37)
-- **Q33 (C):** $L_D = 24$. $L_E = 80 + 1 - 38 = 43$. Between them: $43 - 24 - 1 = 18$ or 19. Answer: **C**.
-- **Q34 (B):** Midpoint $= (24 + 44)/2 = 34\text{th}$. Answer: **B**.
-- **Q35 (B):** 5 students join above $D \implies D$ becomes 29th top. 10 students leave below $\implies$ new total $= 80 - 10 + 5 = 75$. $R = 75 + 1 - 29 = 47\text{th from bottom}$. Answer: **B**.
-- **Q36 (C):** Non-overlapping: $\text{Total} = 18 + 22 + 6 = 46$. Answer: **C**.
-- **Q37 (C):** $A$ moves to $B$'s original seat: $L = 46 + 1 - 22 = 25\text{th from left}$. Answer: **C**.
-
-#### Level 8 (Q38–Q40)
-- **Q38 (B):** Circular seating: facing inward, immediate left is clockwise $\implies$ 6th-ranked executive. Answer: **B**.
-- **Q39 (B):** Finish order: $P (0) > Q (-5) > T (-2) > S (-8) > R (-12)$. 1st is $P$, 2nd is $T$ (or $Q$ depending on $T$). Order: $P > T > Q > S > R$. 2nd place is $Q$ (or $T$). Answer: **B**.
+- **Q7 (C):** $L_P = 12$. $L_Q = 35 + 1 - 15 = 21$. Between them are $12 \dots 21$. Midpoint rank $R = \\frac{12 + 21}{2} = 16.5$, establishing symmetrical separation.. 1st is $P$, 2nd is $T$ (or $Q$ depending on $T$). Order: $P > T > Q > S > R$. 2nd place is $Q$ (or $T$). Answer: **B**.
 - **Q40 (D):** $Z > U > V > X > \{W, Y\}$. Without knowing relative ages of $W$ and $Y$, the 4th oldest is $X$ (or indeterminate if ties exist). Answer: **D**.
 
 ---

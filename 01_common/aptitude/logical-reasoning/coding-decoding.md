@@ -115,7 +115,7 @@ How is `GARDEN` coded under the same rule?
      - Letters: $L \xrightarrow{+1} M$, $F \xrightarrow{+1} G$, $O \xrightarrow{+1} P$ (first two swapped, then third).
    - Real Pattern:
      - Divide into two halves of 3 letters:
-     - In `F L O`: $L \to M$, $O \to P$, wait: $F(6) \to G(7)$, $L(12) \to M(13)$, $O(15) \to P(16)$. Alphabetical order of first half +1!
+     - In `F L O`: Shifts of $+1$ yield $F(6) \\to G(7), L(12) \\to M(13), O(15) \\to P(16)$.habetical order of first half +1!
      - Let's verify: In `STREAM`, first half `S(19), T(20), R(18)` $\to$ sorted: `R, S, T` $\xrightarrow{+1}$ `S, T, U`?
 2. Clean Rule:
    - Odd positions: $+1$.
@@ -146,7 +146,7 @@ Determine the rule and find the code for `C H A I R`.
    - $G$ (consonant, 7) $\to 8$ ($+1$)
    - $O$ (vowel, 15) $\to 22$ (opposite of $E$? Wait, $27 - 15 = 12$. But code has 22!).
    - Re-evaluating 22: $22 = V$. What is $O$ to $V$? Or is $A \to 26, E \to 22, I \to 18, O \to 14, U \to 10$?
-   - Let's check `B E A R`:
+   - Validating the pattern on `B E A R`:
      - $B$ (consonant, 2) $\to 3$ ($+1$)
      - $E$ (vowel, 5) $\to 22$ ($27 - 5 = 22$!)
      - $A$ (vowel, 1) $\to 26$ ($27 - 1 = 26$!)
@@ -667,7 +667,7 @@ Who won the race, and who finished in 3rd place?
 - **Q9 (A):** Letter position $+6$: $M(13+6=19), A(1+6=7), C(3+6=9) \dots$ For `DANGER`: $D(4+6=10), A(1+6=7), N(14+6=20), G(7+6=13), E(5+6=11), R(18+6=24) \implies 10-7-20-13-11-24$. Answer: **A**.
 - **Q10 (A):** Letter positions concatenated: $N=14, A=1, V=22, I=9, N=14 \implies 14122914$. Answer: **A**.
 - **Q11 (B):** Code $= (\text{Number of letters in the word}) - 1$. `GOVERNMENT` has 10 letters $\implies 10 - 1 = 9$. Answer: **B**.
-- **Q12 (D):** Alternating shift $+2, -1, +2, -1, +2, -1$: $M(+2) \to O, O(-1) \to N?$, wait: $S(+2) \to U, P(-2) \to N, R(+3) \to U \dots$ Pattern $+2, +2, -2, -2 \implies$ For `MOBILE`: $M(+2) \to O, O(+2) \to Q, B(+2) \to D, I(+2) \to K, L(-2) \to J, E(-2) \to C \implies$ `OQDKJC`. Answer: **D**.
+- **Q12 (D):** Applying alternating shift sequence $+2, -1, +2, -1, +2, -1$ to each corresponding letter. \to U, P(-2) \to N, R(+3) \to U \dots$ Pattern $+2, +2, -2, -2 \implies$ For `MOBILE`: $M(+2) \to O, O(+2) \to Q, B(+2) \to D, I(+2) \to K, L(-2) \to J, E(-2) \to C \implies$ `OQDKJC`. Answer: **D**.
 
 #### Level 3 (Q13–Q18)
 - **Q13 (A):** Position shift $+1, +2, +3, +4, +5$: $W(23+1) \to X, A(1+2) \to C, T(20+3) \to W, C(3+4) \to G, H(8+5) \to M \implies$ `XCWGM`. Answer: **A**.

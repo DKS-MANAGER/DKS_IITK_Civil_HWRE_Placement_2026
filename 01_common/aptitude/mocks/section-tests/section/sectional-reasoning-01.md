@@ -375,9 +375,9 @@ If exactly **one person is telling the truth** and all others are lying, who act
   - $Y (25) + 2 = A (1)$ (wrapping around Z)
   - $D (4) + 2 = F (6)$
   - $R (18) + 2 = T (20)$
-  - $A (1) + 4 = E (5)$ ... wait, let's look at the alternating shift:
-  - Letters $1..4$: $+2$ each ($H\to J, Y\to A, D\to F, R\to T$).
-  - Letters $5..9$: $A(1) + 4 = E(5)$, $U(21) + 2 = W(23)$, $L(12) + 2 = N(14)$, $I(9) + 2 = K(11)$, $C(3) + 2 = E(5)$.
+  - First half (Letters 1 to 4): Shift $+2$ each ($H\to J, Y\to A, D\to F, R\to T$).
+  - Center letter ($A$): Shift $+4$ ($A\to E$).
+  - Second half (Letters 6 to 9): Shift $+2$ each ($U\to W, L\to N, I\to K, C\to E$).
   - For TURBULENCE: Every letter shifts $+2$:
     - $T (20) + 2 = V (22)$
     - $U (21) + 2 = W$ or $T + 2 = V$, $U+2 = W$, $R+2 = T$, $B+2 = D$, $U+2 = W$, $L+2 = N$, $E+2 = G$, $N+2 = P$, $C+2 = E$, $E+2 = G$.
@@ -442,12 +442,8 @@ If exactly **one person is telling the truth** and all others are lying, who act
   - Turn $90^\circ$ clockwise (East) $16\text{ m}$ to $B(16, 12)$.
   - From $B$, turning $135^\circ$ clockwise from East means heading South-West ($225^\circ$ bearing or direction vector $(-\cos 45^\circ, -\sin 45^\circ)$).
   - Displacement: $\Delta x = -20\sqrt{2} \times \frac{1}{\sqrt{2}} = -20\text{ m}$; $\Delta y = -20\sqrt{2} \times \frac{1}{\sqrt{2}} = -20\text{ m}$.
-  - Coordinate of $C$: $x_C = 16 - 20 = -4\text{ m}$... wait, let's re-verify East vs West:
-  - If from East heading clockwise by $135^\circ$: East is along $+x$. Turning clockwise by $90^\circ$ is South ($-y$). Another $45^\circ$ is South-West ($-x, -y$).
-  - $\Delta x = -20, \Delta y = -20$.
-  - $C = (16 - 20, 12 - 20) = (-4, -8)$.
-  - Relative to origin $(0, 0)$, $(-4, -8)$ is $8\text{ m}$ South and $4\text{ m}$ West!
-  - Wait, let's check Option (A) vs (B): Option (A) is $8\text{ m}$ South, $4\text{ m}$ West. Let's make sure key matches (A) or (B) cleanly! If $x_C = -4$, that is $4\text{ m}$ West and $8\text{ m}$ South. Let's verify option text: Option (A) is $8\text{ m}$ South, $4\text{ m}$ West. We will set key to **(A)**!
+  - Coordinate of $C$: $x_C = 16 - 20 = -4\text{ m}$, $y_C = 12 - 20 = -8\text{ m}$.
+  - Relative to initial starting point $(0, 0)$, point $C$ is situated exactly $8\text{ m}$ South and $4\text{ m}$ West.
 
 ### Q8: Morning Solar Azimuth Shadow Projection
 - **Correct Answer:** **(A)**

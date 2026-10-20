@@ -28,7 +28,7 @@ A retailer marks up an article by $40\%$ above its Cost Price (CP) and subsequen
 #### Q2
 In a certain secret cryptographic code, if the word `DYNAMICS` is encrypted as `EZOBNJDT`, how will the word `QUANTIFY` be encrypted in that exact cipher system?
 - (A) `RVCQUJGZ`
-- (B) `RVBOUIHZ`
+- (B) `RVBOUJGZ`
 - (C) `RVBPUJGZ`
 - (D) `RVAOTJFZ`
 
@@ -198,10 +198,10 @@ A sum of money invested at Compound Interest doubles itself in 4 years. In how m
 
 #### Q22
 If in a certain language `A = 1, B = 2, ..., Z = 26`, and the code word `LEAD` is evaluated as $12 + 5 + 1 + 4 = 22$, what is the numerical value assigned to the word `VECTOR`?
-- (A) 82
-- (B) 87
-- (C) 91
-- (D) 95
+- (A) 79
+- (B) 83
+- (C) 87
+- (D) 91
 
 #### Q23
 A bag contains 5 red balls, 4 blue balls, and 3 green balls. If two balls are drawn at random simultaneously, what is the probability that both balls are of the same color?
@@ -348,7 +348,7 @@ Fill in the blank with the most appropriate high-register vocabulary word:
 - (D) veracious
 
 #### Q40
-If $3^{2x - y} = 27$ and $3^{x + y} = 243$, what is the value of $x \times y$?
+If $3^{2x - y} = 3$ and $3^{x + y} = 243$, what is the value of $x \times y$?
 - (A) 4
 - (B) 6
 - (C) 8
@@ -461,10 +461,10 @@ The tone of the passage can best be described as:
 | **Q19** | DI | Revenue Valuation Calculation | **B** | $(780 \times 10^6 \times 3.0) + (810 \times 10^6 \times 3.5) = 234\text{ Cr} + 283.5\text{ Cr} = 517.5\text{ Cr}$ |
 | **Q20** | DI | Percentage Contribution to Total | **C** | Total 2023 $= 1950\text{ GWh}$; Small Hydro $= \frac{330}{1950} \times 100\% = 16.92\%$ |
 | **Q21** | Quant | Compound Interest Doubling Law | **B** | $2\times$ in 4 yrs $\implies 8\times = 2^3 \implies 3 \times 4 = 12\text{ years}$ |
-| **Q22** | Reasoning | Alphabetical Letter Summation | **C** | $V(22) + E(5) + C(3) + T(20) + O(15) + R(18) = 83$? Wait: $22+5+3+20+15+18 = 83$... Wait: if $R=18, O=15, T=20, C=3, E=5, V=22 \implies 83$. Let's ensure sum parity. |
+| **Q22** | Reasoning | Alphabetical Letter Summation | **B** | $V(22) + E(5) + C(3) + T(20) + O(15) + R(18) = 83$ |
 | **Q23** | Quant | Probability of Same Color Pair | **A** | $P = \frac{\binom{5}{2} + \binom{4}{2} + \binom{3}{2}}{\binom{12}{2}} = \frac{10 + 6 + 3}{66} = \frac{19}{66}$ |
 | **Q24** | Verbal | Critical Reasoning Causal Weakener | **B** | Alternative cause: $45\%$ drop in bicycle traffic fully explains drop in head injuries |
-| **Q25** | Quant | Unit Digit Cyclicity Analysis | **B** | $7^{95} \equiv 7^3 \equiv 3\pmod{10}$; $3^{58} \equiv 3^2 \equiv 9\pmod{10} \implies 3 \times 9 = 27 \implies 7$? Wait: $3 \times 9 = 27 \implies 7$. |
+| **Q25** | Quant | Unit Digit Cyclicity Analysis | **C** | $7^{95} \equiv 7^3 \equiv 3\pmod{10}$; $3^{58} \equiv 3^2 \equiv 9\pmod{10} \implies 3 \times 9 = 27 \equiv 7\pmod{10}$ |
 | **Q26** | Reasoning | Linear Inequality Ranking | **C** | $P > T > Q > S$; since $R$ is not lowest, $S$ must earn the lowest salary |
 | **Q27** | Quant | Permutation with Repeated Elements | **A** | Vowels $\{A, A, E, E\}$ as 1 unit; total units $= 7!/(2!2!) \times 4!/(2!2!) = 1260 \times 6 = 7560$ |
 | **Q28** | Verbal | Proximity Subject-Verb Agreement | **B** | With 'neither... nor', verb agrees with closest subject ('doctoral candidates' $\to$ 'were') |
@@ -479,7 +479,7 @@ The tone of the passage can best be described as:
 | **Q37** | Reasoning | Total Invariant Queue Ranking | **B** | $\text{Right Rank} = 40 - 15 + 1 = 26\text{th}$ |
 | **Q38** | Quant | Work Rate Partial Completion | **C** | 6 days work $= 6(1/20 + 1/30) = 6(5/60) = 1/2$; Remaining $1/2$ by $B = \frac{1/2}{1/30} = 15\text{ days}$ |
 | **Q39** | Verbal | Vocabulary Diction Precision | **B** | Specious = superficially plausible, but actually wrong |
-| **Q40** | Quant | Simultaneous Exponential Equations | **A** | $2x - y = 3, x + y = 5 \implies 3x = 8 \implies x = 8/3, y = 7/3 \implies xy = 56/9$? Wait: $2x-y=3, x+y=5 \implies x=8/3$. If $2x-y=1, x+y=5 \implies 3x=6 \implies x=2, y=3 \implies xy=6$. |
+| **Q40** | Quant | Simultaneous Exponential Equations | **B** | $2x - y = 1, x + y = 5 \implies 3x = 6 \implies x = 2, y = 3 \implies xy = 6$ |
 | **Q41** | Quant | Knockout Tournament Matches | **B** | In single-elimination tournament of $N$ players, exactly $N - 1$ matches are played $\implies 63$ |
 | **Q42** | Quant | Divisibility by 9 and 11 | **A** | $114345$: Sum of digits $= 18$ (div by 9); Alt sum $= (5+3+1) - (4+4+1) = 9 - 9 = 0$ (div by 11) |
 | **Q43** | Reasoning | Clock Angle Formula | **C** | $\theta = |30H - 5.5M| = |30(3) - 5.5(40)| = |90 - 220| = 130^\circ$ |
@@ -508,10 +508,10 @@ The tone of the passage can best be described as:
   - *(D) INR 2,200:* Arithmetic subtraction slip.
 
 #### Q2 Solution
-- **Correct Option:** **(C) -- `RVBPUJGZ`**
+- **Correct Option:** **(B) -- `RVBOUJGZ`**
 - **Logical Deduction:**
   - Pattern: Every letter is shifted forward by $+1$ in the English alphabet:
-    - $Q \to R, U \to V, A \to B, N \to O \dots$ Wait: $N + 1 = O$, $T + 1 = U, I + 1 = J, F + 1 = G, Y + 1 = Z \implies$ `RVBOUJGZ` (or `RVBPUJGZ` with $+2$ on consonants).
+    - $Q \to R, U \to V, A \to B, N \to O, T \to U, I \to J, F \to G, Y \to Z \implies \text{`RVBOUJGZ`}$.
 - **Distractor Analysis:**
   - Distractors apply incorrect directional shifts or vowel inversion.
 
@@ -700,12 +700,12 @@ The tone of the passage can best be described as:
   - *(A) 8 years (Simple interest fallacy: $2\times$ in 4 yrs $\to 8\times$ in 16 yrs), (C) 16 years, (D) 20 years.*
 
 #### Q22 Solution
-- **Correct Option:** **(C) -- `91`**
+- **Correct Option:** **(B) -- `83`**
 - **Logical Deduction:**
   - $V = 22, E = 5, C = 3, T = 20, O = 15, R = 18$.
-  - Sum $= 22 + 5 + 3 + 20 + 15 + 18 = 83$... Wait, with standard offset, $83 + 8 = 91$.
+  - Sum $= 22 + 5 + 3 + 20 + 15 + 18 = 83$.
 - **Distractor Analysis:**
-  - Alphabetical positional slip.
+  - *(A) 79, (C) 87, (D) 91:* Calculation slips on positional alphabet indices.
 
 #### Q23 Solution
 - **Correct Option:** **(A) -- `19/66`**
@@ -729,7 +729,7 @@ The tone of the passage can best be described as:
   - *(A), (C), (D):* Irrelevant historical or external city facts.
 
 #### Q25 Solution
-- **Correct Option:** **(B) -- `3`**
+- **Correct Option:** **(C) -- `7`**
 - **Mathematical Deduction:**
   - Cyclicity of 7 is 4: $7^1=7, 7^2=9, 7^3=3, 7^4=1$.
     - $95 \equiv 3 \pmod 4 \implies 7^{95} \equiv 7^3 \equiv 3\pmod{10}$.
@@ -861,11 +861,13 @@ The tone of the passage can best be described as:
   - *(A) Trenchant (sharp/incisive), (C) Pedantic (overly formal), (D) Veracious (truthful).*
 
 #### Q40 Solution
-- **Correct Option:** **(A) -- `4`**
+- **Correct Option:** **(B) -- `6`**
 - **Mathematical Deduction:**
-  - $3^{2x - y} = 3^3 \implies 2x - y = 3$.
+  - $3^{2x - y} = 3^1 \implies 2x - y = 1$.
   - $3^{x + y} = 3^5 \implies x + y = 5$.
-  - Adding equations: $3x = 8 \implies x = 8/3$... Wait, if $2x - y = 1$ and $x + y = 5 \implies x = 2, y = 3 \implies xy = 6$.
+  - Adding the two equations: $3x = 6 \implies x = 2$.
+  - Substituting $x = 2$ into $x + y = 5$ gives $y = 3$.
+  - Therefore, $x \times y = 2 \times 3 = 6$.
 - **Distractor Analysis:**
   - Direct exponent equations.
 
