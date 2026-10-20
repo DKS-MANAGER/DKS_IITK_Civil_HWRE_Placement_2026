@@ -586,8 +586,12 @@ A: Flow controlled from downstream (e.g., dam, weir); upstream conditions adjust
 **Key equation:**
 $E = y + \frac{Q^2}{2gA^2}$, $y_c = (q^2/g)^{1/3}$
 
-**Engineering interpretation:**
-"At a channel contraction, specific energy must be conserved (no losses). If upstream flow is subcritical, the contraction forces flow through critical depth, creating a control section used for discharge measurement."
+**Engineering interpretation & Placement Defense (Channel Transitions & Choking):**
+"At a channel contraction (width $B_1 \to B_2$, $B_2 < B_1$), unit discharge increases ($q_2 > q_1$). In an ideal frictionless transition, specific energy is conserved ($E_2 = E_1$). 
+- **Subcritical Unchoked State ($B_2 > B_{c,\min}$):** As long as available energy $E_1$ exceeds the minimum energy required at the throat ($E_{c2} = 1.5 y_{c2}$), the flow remains **subcritical** ($y_2 > y_{c2}$), causing a smooth drop in water surface.
+- **Critical Control ($B_2 = B_{c,\min}$):** Critical depth ($Fr_2 = 1$) is reached at the contracted throat **only if** the channel width is reduced to the critical minimum width:
+  $$B_{c,\min} = \frac{Q}{\sqrt{g \left(\frac{2}{3}E_1\right)^3}}$$
+- **Choking Phenomenon ($B_2 < B_{c,\min}$):** If the width is narrowed below $B_{c,\min}$, the channel is choked. Because the throat cannot pass discharge $Q$ with upstream energy $E_1$, flow at the throat stays clamped at critical depth ($y_2 = y_{c2}, E_2 = E_{c2}$), and the upstream water level **backs up (pools/heads up)** from $y_1$ to a higher depth $y_1'$ such that the new upstream energy equals $E_{c2}$ plus any transition losses."
 
 ---
 

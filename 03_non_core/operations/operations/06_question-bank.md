@@ -8,7 +8,7 @@
 
 **Direct Answer / Solution Approach:**
 ```text
-1. Bottleneck = Station 2 (Cycle Time = 7 min). 2. Maximum Throughput $\lambda = rac{60	ext{ min}}{7	ext{ min}} pprox 8.57$ units/hour. 3. Total Lead Time $W = 4 + 7 + 5 + 3 = 19$ minutes. 4. Work in Progress $L = \lambda 	imes W = rac{1}{7} 	imes 19 pprox 2.71$ units in queue/processing.
+1. Bottleneck = Station 2 (Cycle Time = 7 min). 2. Maximum Throughput $\lambda = rac{60	ext{ min}}{7	ext{ min}} pprox 8.57$ units/hour. 3. Total Lead Time $W = 4 + 7 + 5 + 3 = 19$ minutes. 4. Work in Progress $L = \lambda 	imes W = rac{1}{7} 	imes 19 pprox 2.71$ units in queue/processing.
 ```
 
 **Interviewer Follow-Up & Deep Dive:**

@@ -168,7 +168,8 @@ Never force every problem into a standard Profit = Revenue - Cost tree. Select t
 #### Archetype 1: Algebraic / Financial Decomposition
 - **When to Use**: Classic profitability decline, margin compression, EBITDA improvement.
 - **Root Equation**:
-  $$	ext{Operating Profit} = \sum_{i} (	ext{Volume}_i 	imes 	ext{Price}_i) - \left[	ext{Fixed Costs} + \sum_{i} (	ext{Volume}_i 	imes 	ext{Unit Variable Cost}_i)ight]$$
+  $$	ext{Operating Profit} = \sum_{i} (	ext{Volume}_i 	imes 	ext{Price}_i) - \left[	ext{Fixed Costs} + \sum_{i} (	ext{Volume}_i 	imes 	ext{Unit Variable Cost}_i)
+ight]$$
 - **Branch Deep-Dive**:
   - Revenue: Price realization (list price, discounts, mix shifts) vs. Volume (market growth, market share).
   - Variable Costs: Direct Materials, Direct Labor, Packaging, Shipping/Freight per unit.
@@ -315,7 +316,7 @@ Soundbox Market Entry Decision
 
 #### 5. Data Requirements & Prioritization:
 - **Prioritization**: Investigate **2.1 & 2.2 (Unit Economics)** first. If hardware rental does not cover device manufacturing, SIM connectivity, and servicing, the client burns money without lending licenses.
-- **Analysis**: Device cost ₹1,200 + field acquisition cost ₹600 = ₹1,800 CAC per merchant. Monthly rental ₹100 net of cellular SIM cost ₹25 leaves ₹75/month cash flow $\implies$ Payback period = $rac{1800}{75} = 24	ext{ months}$.
+- **Analysis**: Device cost ₹1,200 + field acquisition cost ₹600 = ₹1,800 CAC per merchant. Monthly rental ₹100 net of cellular SIM cost ₹25 leaves ₹75/month cash flow $\implies$ Payback period = $rac{1800}{75} = 24	ext{ months}$.
 - **Decision**: Enter only if client can partner with an established domestic NBFC from Day 1 to cross-sell working capital credit, because pure hardware rentals yield fragile returns under incumbent price wars.
 
 ---

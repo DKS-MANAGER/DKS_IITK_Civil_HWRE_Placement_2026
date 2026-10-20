@@ -79,16 +79,17 @@ To ensure candidates with zero formal finance background can achieve placement r
   $$EL = PD 	imes LGD 	imes EAD$$
   * *Nuance Added*: The formula assumes statistical independence between default ($PD$) and severity ($LGD$). In economic recessions, defaults spike while recovery values collapse simultaneously (**Downturn LGD correlation**), causing true losses to exceed simple unconditioned product estimates.
 * **Weight of Evidence (WoE) Zero-Division Safeguard**:
-  $$WoE_i = \ln\left(rac{G_i / G_{	ext{total}} + \epsilon}{B_i / B_{	ext{total}} + \epsilon}ight)$$
+  $$WoE_i = \ln\left(rac{G_i / G_{	ext{total}} + \epsilon}{B_i / B_{	ext{total}} + \epsilon}
+ight)$$
   * Added Laplace smoothing parameter $\epsilon = 0.0001$ to prevent undefined $\ln(0)$ errors when a bin has zero defaulters or zero non-defaulters.
 
 ### 3.5 Market Risk, VaR & Expected Shortfall
 * **VaR Sign Convention & Definition**:
-  * Value at Risk is defined as a positive dollar/rupee threshold: $	ext{VaR}_{lpha}(X) = - \inf \{ x : P(L \le x) \ge 1 - lpha \}$. It answers: *"What is the minimum loss expected on the worst $lpha\%$ of days?"*
+  * Value at Risk is defined as a positive dollar/rupee threshold: $	ext{VaR}_{lpha}(X) = - \inf \{ x : P(L \le x) \ge 1 - lpha \}$. It answers: *"What is the minimum loss expected on the worst $lpha\%$ of days?"*
 * **Square-Root-of-Time Scaling Limitations**:
   * The rule $	ext{VaR}_{T	ext{-day}} = 	ext{VaR}_{1	ext{-day}} 	imes \sqrt{T}$ strictly requires returns to be independent and identically distributed (i.i.d.) normal random variables. In real market crashes, volatility clusters and fat tails cause multi-day losses to be significantly higher than $\sqrt{T}$ scaling predicts.
 * **Expected Shortfall (ES / CVaR)**:
-  $$	ext{ES}_{lpha} = \mathbb{E}[L \mid L > 	ext{VaR}_{lpha}]$$
+  $$	ext{ES}_{lpha} = \mathbb{E}[L \mid L > 	ext{VaR}_{lpha}]$$
   * ES satisfies **subadditivity** ($	ext{ES}(X + Y) \le 	ext{ES}(X) + 	ext{ES}(Y)$), making it a coherent risk measure, whereas VaR can fail subadditivity for non-normal fat-tailed portfolios.
 
 ---

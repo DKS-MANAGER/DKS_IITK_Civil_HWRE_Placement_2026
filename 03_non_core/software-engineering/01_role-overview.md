@@ -10,7 +10,7 @@
 |:---|:---|
 | **Target Hiring Companies** | Gartner, ZS Associates (DTA), ThoughtWorks, Cognizant Strategy, Capgemini Invent, Deloitte Tech Strategy |
 | **Typical Job Designations** | Technology Analyst, Systems Consultant, Digital Transformation Associate |
-| **Placement CTC Range** | 10 LPA - 22 LPA |
+| **Placement CTC Benchmark** | ~₹10–22 LPA [HISTORICAL INDICATIVE ESTIMATE] (Fixed Base + Joining Bonus; subject to annual recruiter proforma) |
 | **Department Eligibility** | B.Tech / M.Tech engineering branches. |
 
 ---

@@ -119,7 +119,7 @@ German Coffee Machine India Entry
    - India has 350M households. Top 2% income tier = 7M affluent households.
    - Coffee drinkers: 30% = 2.1M households.
    - Willingness to spend $\ge ₹40,000$ on coffee machine: 5% = 105,000 installed base.
-   - Annual replacement / new sales (7-year machine lifespan): $rac{105,000}{7} = 15,000	ext{ units/year}$.
+   - Annual replacement / new sales (7-year machine lifespan): $rac{105,000}{7} = 15,000	ext{ units/year}$.
    - Average Selling Price (ASP) = ₹50,000 $\implies$ **B2C Market** = $15,000 \times 50,000 = \mathbf{₹75\text{ Cr/year}}$.
 2. **B2B Segment Sizing (HORECA + Tech Offices)**:
    - 5,000 5-star/4-star hotel rooms & boutique cafes + 15,000 corporate offices = 20,000 potential machines.

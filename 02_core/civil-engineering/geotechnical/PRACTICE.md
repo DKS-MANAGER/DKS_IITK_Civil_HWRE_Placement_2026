@@ -202,75 +202,114 @@
 
 ---
 
-## Problem 12: Compaction — Relative Density
+## Problem 12: Field Compaction Control — Relative Compaction vs. Relative Density
 
-**Given:** Field dry density $\gamma_{d,field} = 17.5$ kN/m³, max dry density $\gamma_{d,max} = 18.0$ kN/m³.
+**Given:** An embankment fill has field dry density $\gamma_{d,\text{field}} = 17.5$ kN/m³, and laboratory maximum dry density $\gamma_{d,\max,\text{lab}} = 18.0$ kN/m³ obtained from the Standard Proctor compaction test.
 
-**Find:** Relative compaction.
+**Find:** Relative compaction ($RC$), and explain its relationship to relative density ($I_D$).
 
-**Method:** $RC = \frac{\gamma_{d,field}}{\gamma_{d,max}} \times 100\%$.
+**Method:** 
+$$RC = \frac{\gamma_{d,\text{field}}}{\gamma_{d,\max,\text{lab}}} \times 100\%$$
 
 **Calculation:**
-- $RC = \frac{17.5}{18.0} \times 100 = 97.2\%$
+- $RC = \frac{17.5}{18.0} \times 100\% = \mathbf{97.2\%}$
+- Check against standard specification: For highway subgrades and structural fills, MoRTH Section 300 / CPWD requires $RC \ge 95\%$ of Standard Proctor MDD. Since $97.2\% \ge 95\%$, the compaction is **acceptable** ✓.
 
-**Answer:** $RC = 97.2\%$ (≥ 95% Modified Proctor ✓)
+**Answer:** $RC = 97.2\%$ (satisfies $\ge 95\%$ field compaction criterion)
 
-**Trap:** Compaction at OMC gives max dry density — field density must be ≥ 95% of it.
+**Trap:** Never confuse **Relative Compaction ($RC$)** with **Relative Density ($I_D$ / $D_r$)**! Relative compaction applies to all soils as a ratio of field to lab density ($\gamma_d/\gamma_{d,\max}$). Relative density applies *only* to cohesionless soils based on void ratio limits ($I_D = \frac{e_{\max}-e}{e_{\max}-e_{\min}}$). For granular soils, an empirical correlation is $RC \approx 80 + 0.20 I_D \implies I_D \approx \frac{97.2 - 80}{0.20} \approx 86\%$ (dense sand).
 
 ---
 
 ## Problem 13: Effective Stress
 
-**Given:** Soil at depth 5 m, water table at 2 m, $\gamma = 18$ kN/m³ (above WT), $\gamma_{sat} = 20$ kN/m³.
+**Given:** Soil profile: total depth to point of interest = 5 m. Groundwater table (GWT) is located at 2 m below ground surface. Soil above GWT has moist unit weight $\gamma = 18$ kN/m³. Soil below GWT is fully saturated with saturated unit weight $\gamma_{sat} = 20$ kN/m³. Unit weight of water $\gamma_w = 9.81$ kN/m³.
 
-**Find:** Effective stress at 5 m depth.
+**Find:** Total stress ($\sigma$), pore water pressure ($u$), and effective stress ($\sigma'$) at 5 m depth.
 
-**Method:** $\sigma' = \sigma - u$.
+**Method:** Terzaghi's effective stress principle: $\sigma' = \sigma - u$.
 
 **Calculation:**
-- Total: $\sigma = 18 \times 2 + 20 \times 3 = 36 + 60 = 96$ kPa
-- Pore pressure: $u = 9.81 \times 3 = 29.4$ kPa
-- $\sigma' = 96 - 29.4 = 66.6$ kPa
+- Total stress at 5 m:
+  $$\sigma = \sum (\gamma \cdot h) = (18 \times 2) + (20 \times 3) = 36 + 60 = 96.0\text{ kPa}$$
+- Pore water pressure at 5 m:
+  $$u = \gamma_w \cdot h_w = 9.81 \times (5 - 2) = 9.81 \times 3 = 29.43\text{ kPa}$$
+- Effective stress at 5 m:
+  $$\sigma' = \sigma - u = 96.0 - 29.43 = \mathbf{66.57\text{ kPa}} \approx 66.6\text{ kPa}$$
+  *(Alternative check using submerged unit weight: $\sigma' = (18 \times 2) + (\gamma_{sub} \times 3) = 36 + (20 - 9.81) \times 3 = 36 + 30.57 = 66.57\text{ kPa}$ ✓).*
 
-**Answer:** $\sigma' = 66.6$ kPa
+**Answer:** $\sigma = 96.0$ kPa, $u = 29.4$ kPa, $\sigma' = 66.6$ kPa
 
-**Trap:** Above the water table use bulk unit weight; below use saturated unit weight.
+**Trap:** Above the water table use bulk/moist unit weight; below the water table use submerged unit weight $\gamma_{sub} = \gamma_{sat} - \gamma_w$ or subtract pore water pressure $u = \gamma_w h_w$ from total stress.
 
 ---
 
-## Problem 14: USCS Classification
+## Problem 14: Unified Soil Classification System (USCS)
 
-**Given:** Soil: 60% passes No.4 sieve, 45% passes No.200, LL = 45, PL = 25.
+**Given:** Sieve and Atterberg limits laboratory test results for a soil specimen:
+- Percent passing No. 4 sieve (4.75 mm) = 60%
+- Percent passing No. 200 sieve (0.075 mm / 75 μm) = 45%
+- Liquid Limit ($LL$) = 45%, Plastic Limit ($PL$) = 25%
 
-**Find:** USCS classification.
+**Find:** USCS group symbol and group name per ASTM D2487 / IS 1498:1970.
 
-**Method:** Determine coarse/fine fraction, then plasticity.
+**Method:** 
+1. Determine coarse vs. fine-grained fraction based on No. 200 sieve (75 μm).
+2. For coarse soils, determine gravel vs. sand fraction based on No. 4 sieve (4.75 mm).
+3. Evaluate fines percentage and plasticity using the Casagrande A-line: $PI_{A\text{-line}} = 0.73(LL - 20)$.
 
 **Calculation:**
-- 45% passes No.200 → more than 50% passes → **fine-grained**
-- PI = LL − PL = 45 − 25 = 20
-- LL = 45 < 50, PI = 20 > 7, above A-line → **CL (lean clay)**
+1. **Coarse vs. Fine Evaluation:**
+   - Percentage passing No. 200 sieve = $45\%$.
+   - Percentage retained on No. 200 sieve $= 100\% - 45\% = 55\%$.
+   - Since **$\ge 50\%$ is retained on No. 200**, the soil is **COARSE-GRAINED** (NOT fine-grained!).
+2. **Gravel vs. Sand Evaluation:**
+   - Total coarse fraction $= 55\%$.
+   - Percentage retained on No. 4 sieve $= 100\% - 60\% = 40\%$ (Gravel fraction).
+   - Percentage passing No. 4 and retained on No. 200 $= 60\% - 45\% = 15\%$ (Sand fraction).
+   - Fraction of coarse material that is gravel $= \frac{40\%}{55\%} = 72.7\% > 50\%$.
+   - Therefore, the primary coarse constituent is **GRAVEL (G)**.
+3. **Fines and Plasticity Evaluation:**
+   - Fines content $= 45\% > 12\% \implies$ dual classification governed by plasticity of fines.
+   - Plasticity Index $PI = LL - PL = 45 - 25 = 20$.
+   - A-line equation: $PI_{A\text{-line}} = 0.73(LL - 20) = 0.73(45 - 20) = 0.73(25) = 18.25$.
+   - Since $PI = 20 > PI_{A\text{-line}} = 18.25$, the fines plot **ABOVE the A-line** and have $LL = 45 < 50 \implies$ **Clay of intermediate/low plasticity (CL)**.
+4. **Final Group Symbol & Name:**
+   - Prefix: **G** (Gravel); Suffix: **C** (Clayey fines).
+   - USCS Symbol: **GC**
+   - USCS Name: **Clayey gravel with sand** (since sand fraction $15\% \ge 15\%$).
 
-**Answer:** CL — lean clay
+*(Note: If the given had been $55\%$ passing No. 200, $>50\%$ would pass No. 200, classifying it as fine-grained lean clay **CL**).*
 
-**Trap:** For fine soils, use the plasticity chart (A-line) with LL and PI.
+**Answer:** **GC — Clayey gravel with sand**
+
+**Trap:** Never declare a soil "fine-grained" when $45\%$ passes No. 200. $45\%$ passing means $55\%$ is retained, making it coarse-grained! Always check coarse vs. fine first, then gravel vs. sand, and finally gradation/plasticity.
 
 ---
 
-## Problem 15: Immediate Settlement
+## Problem 15: Immediate Elastic Settlement
 
-**Given:** Footing, $q = 200$ kPa, $B = 2$ m, $E_u = 20$ MPa, $\nu = 0.3$, $I_f = 0.8$.
+**Given:** A flexible square footing of size $B = 2.0$ m resting on a saturated clay layer with undrained Young's modulus $E_u = 20$ MPa, Poisson's ratio $\nu = 0.30$. Net uniform foundation pressure $q = 200$ kPa. Influence factor for center of flexible foundation $I_f = 0.80$.
 
-**Find:** Immediate settlement.
+**Find:** Immediate (elastic) settlement ($S_i$) at the center of the footing.
 
-**Method:** $S_i = \frac{qB(1-\nu^2)}{E_u} I_f$.
+**Method:** Schleicher / Janbu elastic theory formulation:
+$$S_i = \frac{q \cdot B \cdot (1 - \nu^2)}{E_u} \cdot I_f$$
 
 **Calculation:**
-- $S_i = \frac{200 \times 2 \times (1 - 0.09)}{20 \times 10^6} \times 0.8 = \frac{400 \times 0.91}{20 \times 10^6} \times 0.8 = \frac{364}{20 \times 10^6} \times 0.8 = 1.456 \times 10^{-5} \times 0.8 = 1.16 \times 10^{-5}$ m = 11.6 mm
+1. **Unit Consistency Check:**
+   - $q = 200\text{ kPa} = 200\text{ kN/m}^2$
+   - $B = 2.0\text{ m}$
+   - $E_u = 20\text{ MPa} = 20,000\text{ kPa} = 20,000\text{ kN/m}^2$ (Note: $1\text{ MPa} = 10^3\text{ kPa}$, NOT $10^6\text{ kPa}$!)
+   - $(1 - \nu^2) = (1 - 0.3^2) = 1 - 0.09 = 0.91$
 
-**Answer:** $S_i = 11.6$ mm
+2. **Settlement Computation:**
+   $$S_i = \frac{200 \times 2.0 \times 0.91}{20,000} \times 0.80$$
+   $$S_i = \frac{364}{20,000} \times 0.80 = 0.0182 \times 0.80 = 0.01456\text{ m} = \mathbf{14.56\text{ mm}}$$
 
-**Trap:** Immediate settlement uses undrained modulus $E_u$; consolidation uses $C_c$.
+**Answer:** $S_i = \mathbf{14.56\text{ mm}}$
+
+**Trap:** Dimension and unit mismatch: mixing $q$ in kPa with $E_u$ in Pa ($20 \times 10^6$) results in an answer 1000 times too small ($0.01456$ mm instead of $14.56$ mm). Always keep $q$ and $E_u$ in consistent units (both in kPa or both in MPa).
 
 ---
 
@@ -289,10 +328,10 @@
 | 9 | $Q_u = 780$ kN |
 | 10 | $p_a = 30$ kPa, $P_a = 75$ kN/m |
 | 11 | $F_s = 1.87$ |
-| 12 | $RC = 97.2\%$ |
-| 13 | $\sigma' = 66.6$ kPa |
-| 14 | CL — lean clay |
-| 15 | $S_i = 11.6$ mm |
+| 12 | $RC = 97.2\%$ ($\ge 95\%$ MoRTH criterion) |
+| 13 | $\sigma = 96.0$ kPa, $u = 29.4$ kPa, $\sigma' = 66.6$ kPa |
+| 14 | **GC** — Clayey gravel with sand |
+| 15 | $S_i = \mathbf{14.56\text{ mm}}$ |
 
 ---
 

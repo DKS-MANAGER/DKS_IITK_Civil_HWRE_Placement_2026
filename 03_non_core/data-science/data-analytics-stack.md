@@ -226,8 +226,8 @@ Resume value: High
 | Python | [`programming/python.md`](../software-engineering/programming/python.md) |
 | Consulting Tech | [`consulting/`](../consulting/consulting-tech.md) |
 | Product Tech | [`product/`](../product/product-tech.md) |
-| Operations Tech | [`operations/`](../operations/operations-tech.md) |
-| Non-Core Prep | [`03_non_core/analytics/analytics/non-core-prep.md`](../../03_non_core/analytics/analytics/non-core-prep.md) |
+| Analytics Track Overview | [`../analytics/analytics/01_role-overview.md`](../analytics/analytics/01_role-overview.md) |
+| Data Analyst Deep Dive | [`../analytics/data-analyst/01_role-overview.md`](../analytics/data-analyst/01_role-overview.md) |
 
 ---
 

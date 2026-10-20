@@ -268,11 +268,30 @@ $$\tau_v = \frac{V_u}{bd}$$
 
 **Design shear strength $\tau_c$** — from IS 456 Table 19 (depends on $p_t$ and concrete grade).
 
-**Check:**
-- If $\tau_v < 0.5\tau_c$ → **no shear reinforcement** required.
-- If $0.5\tau_c \le \tau_v \le \tau_c$ → provide **minimum shear reinforcement**.
+**Check for Beams:**
+- If $\tau_v < 0.5\tau_c$ → **no shear reinforcement** required (rare in beams).
+- If $0.5\tau_c \le \tau_v \le \tau_c$ → provide **minimum shear reinforcement** per Cl. 26.5.1.6:
+  $$\frac{A_{sv}}{b \cdot s_v} \ge \frac{0.4}{0.87 f_y}$$
 - If $\tau_v > \tau_c$ → design shear reinforcement for $V_{us} = (\tau_v - \tau_c)bd$.
-- If $\tau_v > \tau_{c,max}$ → **redesign section**.
+- If $\tau_v > \tau_{c,max}$ → **redesign section** by increasing width $b$ or effective depth $d$.
+
+### Shear Design in Slabs: One-Way vs. Two-Way (Punching) Shear
+
+Slabs are shallow planar elements. Shear design differs fundamentally between one-way beam shear and two-way punching shear:
+
+| Dimension / Aspect | One-Way Shear (Beam Action) | Two-Way Punching Shear |
+| :--- | :--- | :--- |
+| **Typical Occurrence** | One-way slabs, two-way beam-supported slabs, wide footings | Flat slabs without beams, flat plates, column footings, pile caps |
+| **Critical Section** | Located at distance **$d$** from the face of the support/wall | Located along a closed perimeter at distance **$d/2$** from the column face |
+| **Shear Area** | $A_v = b \cdot d$ (where $b = 1000$ mm for 1 m wide slab strip) | $A_{v0} = b_0 \cdot d$ (where $b_0$ is the critical perimeter) |
+| **Critical Perimeter ($b_0$)** | Linear width: $b = 1.0$ m | For rect. column $a \times b$: $b_0 = 2(a + d) + 2(b + d)$ |
+| **Nominal Shear Stress** | $\tau_v = \frac{V_u}{b d}$ | $\tau_v = \frac{V_u}{b_0 d}$ |
+| **Permissible Shear Stress** | $\tau_{c,\text{slab}} = k \cdot \tau_c$ (where $\tau_c$ is Table 19 value) | $\tau_c' = k_s \cdot (0.25\sqrt{f_{ck}})$ (IS 456 Cl. 31.6.3.1) |
+| **Depth Enhancement Factor ($k$)** | $k = 1.30$ ($D \le 150$ mm) to $1.00$ ($D \ge 300$ mm) | $k_s = \left(0.5 + \beta_c\right) \le 1.0$ ($\beta_c = \text{short side}/\text{long side}$) |
+| **Shear Reinforcement Policy** | Avoided in slabs ($D < 200$ mm). If $\tau_v > k\tau_c$, increase depth $D$ | Shear studs, bent-up bars, column drop panels, or capital if $\tau_v > \tau_c'$ |
+
+> [!IMPORTANT]
+> **Why Slabs Rarely Need Shear Stirrups:** Because slabs have a large effective width ($b = 1000$ mm per unit meter) compared to applied shear, $\tau_v$ is generally lower than $k\tau_c$. However, in flat slabs and footings, **punching shear is often the governing failure mode** and controls the required slab/footing depth.
 
 ### Shear Reinforcement Types
 
@@ -679,11 +698,17 @@ Prestress losses are large (160-200 N/mm²). High-strength steel is needed so th
 1. **What is the difference between limit state and working stress method?**
    - WSM: elastic, allowable stresses, single FOS. LSM: partial safety factors, checks collapse + serviceability, more economical.
 
-2. **What are the assumptions in limit state flexural design?**
-   - Plane sections remain plane, max concrete strain 0.0035, failure by concrete crushing, max principal strain theory.
+2. **What are the assumptions in limit state flexural design (IS 456 Cl. 38.1)?**
+   - Plane sections normal to the axis remain plane after bending (linear strain distribution).
+   - Maximum compressive strain in concrete at the outermost fiber is $\epsilon_{cu} = 0.0035$.
+   - Compressive stress distribution follows a parabolic-rectangular block (max design stress $0.446 f_{ck}$).
+   - Tensile strength of concrete is ignored.
+   - For an **under-reinforced beam**, the tension steel reaches yield strain ($\ge 0.87f_y/E_s + 0.002$) before concrete reaches $0.0035$, resulting in **ductile yielding with large cracks and warning**. Only in an **over-reinforced beam** (which IS 456 prohibits designing) does concrete crush first in a brittle, sudden manner.
 
 3. **What is the difference between under-reinforced, balanced, and over-reinforced sections?**
-   - Under: steel yields first (ductile, preferred). Balanced: simultaneous. Over: concrete crushes first (brittle, avoid).
+   - **Under-reinforced ($x_u < x_{u,\lim}$):** Steel yields first; failure is gradual, ductile, and gives visible warning (large deflections and cracks). Designed by code.
+   - **Balanced ($x_u = x_{u,\lim}$):** Steel yields at the exact instant concrete reaches $\epsilon_{cu} = 0.0035$. Theoretical upper bound.
+   - **Over-reinforced ($x_u > x_{u,\lim}$):** Concrete reaches $0.0035$ and crushes explosively while steel has NOT yielded ($\epsilon_s < \epsilon_y$). Prohibited by IS 456; design moment capacity is strictly limited to $M_{u,\lim}$.
 
 4. **What is the significance of $x_{u,max}/d$?**
    - Limiting NA depth ratio ensuring under-reinforced behavior. Fe415: 0.48, Fe500: 0.46.

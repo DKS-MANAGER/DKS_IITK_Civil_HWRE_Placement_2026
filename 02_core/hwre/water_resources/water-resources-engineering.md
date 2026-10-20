@@ -53,11 +53,18 @@ Water resources engineering encompasses the planning, development, distribution,
 | Maintenance | High | Low | Medium |
 | Velocity | Limited | Higher | Medium |
 
-**Design velocity (Lacey's regime):**
-$$V = \left(\frac{Q f^2}{140}\right)^{1/6}$$
-
-**Wetted perimeter (Lacey):**
-$$P = 2.67\sqrt{Q}$$
+**Lacey's Regime Equations (SI Units — Metric Standard):**
+- **Regime Velocity:**
+  $$V = \left(\frac{Q f^2}{140}\right)^{1/6}$$
+- **Wetted Perimeter:**
+  $$P = 4.75\sqrt{Q}$$
+  *(Note on Units: In FPS units, $P = \frac{8}{3}\sqrt{Q} \approx 2.67\sqrt{Q}$ with $P$ in feet and $Q$ in cfs; in Indian SI practice, always use $P = 4.75\sqrt{Q}$).*
+- **Hydraulic Radius:**
+  $$R = \frac{5}{2} \frac{V^2}{f}$$
+- **Regime Bed Slope:**
+  $$S = \frac{f^{5/3}}{3340 \, Q^{1/6}}$$
+- **Lacey Silt Factor:**
+  $$f = 1.76\sqrt{d_{50}\text{ (mm)}}$$
 
 **Normal depth (Manning):**
 $$Q = \frac{1}{n} A R^{2/3} S^{1/2}$$
@@ -79,23 +86,24 @@ $$h_2 - h_1 = \frac{V_2^2 - V_1^2}{2g} + h_f$$
 
 | Type | Conditions | Properties |
 |------|-----------|------------|
-| Confined | Piezometric surface above top | $T = Kb$, storativity $S$ (10⁻⁵–10⁻³) |
-| Unconfined | Water table = phreatic surface | $T = Kb$, specific yield $S_y$ (0.01–0.40) |
-| Leaky | Semi-confining layer | Leakance $K'/b'$ |
+| Confined | Piezometric surface above top confining stratum | $T = Kb$, storativity $S$ ($10^{-5}\text{--}10^{-3}$) |
+| Unconfined | Water table = phreatic surface (atmospheric pressure) | $T = K \bar{b}$, specific yield $S_y$ ($0.01\text{--}0.30$) |
+| Leaky | Semi-confining layer with vertical seepage | Leakance $K'/b'$ |
 
 ### Well Hydraulics — Key Equations
 
-**Thiem (steady, confined):**
-$$Q = \frac{2\pi T(h_2 - h_1)}{\ln(r_2/r_1)}$$
+**Thiem Equation (Steady-State Radial Flow, Confined Aquifer):**
+$$Q = \frac{2\pi T (h_2 - h_1)}{\ln(r_2/r_1)} = \frac{2\pi T (s_1 - s_2)}{\ln(r_2/r_1)}$$
+where $h_1, h_2$ are piezometric heads and $s_1, s_2$ are drawdowns at distances $r_1, r_2$ ($r_2 > r_1 \implies h_2 > h_1, s_1 > s_2$).
 
-**Theis (unsteady, confined):**
+**Dupuit-Forchheimer Equation (Steady-State Radial Flow, Unconfined Aquifer):**
+$$Q = \frac{\pi K (h_2^2 - h_1^2)}{\ln(r_2/r_1)}$$
+
+**Theis Solution (Transient / Unsteady Radial Flow, Confined Aquifer):**
 $$s = \frac{Q}{4\pi T} W(u), \quad u = \frac{r^2 S}{4Tt}$$
 
-**Cooper-Jacob ($u < 0.01$):**
-$$s = \frac{2.3Q}{4\pi T}\log\left(\frac{2.25Tt}{r^2S}\right)$$
-
-**Dupuit (unsteady, unconfined):**
-$$h_1^2 - h_2^2 = \frac{Q}{\pi K}\ln\frac{r_2}{r_1}$$
+**Cooper-Jacob Approximation (Late Time / Small $r$, $u < 0.01$):**
+$$s = \frac{2.303 Q}{4\pi T}\log_{10}\left(\frac{2.25Tt}{r^2S}\right)$$
 
 ### Groundwater Contamination
 
@@ -199,12 +207,12 @@ Where $D_L$ = longitudinal dispersity, $v$ = seepage velocity
 ## Quick Reference Formulas
 
 | Formula | Equation | Use |
-|---------|----------|-----|
+|:--------|:---------|:----|
 | Manning | $Q = (1/n)AR^{2/3}S^{1/2}$ | Channel flow |
 | Lacey | $V = (Qf^2/140)^{1/6}$ | Regime channel design |
-| Thiem | $Q = 2\pi T(h_2-h_1)/\ln(r_2/r_1)$ | Steady well flow |
+| Thiem | $Q = 2\pi T(h_2-h_1)/\ln(r_2/r_1)$ | Steady confined well flow |
 | Theis | $s = (Q/4\pi T)W(u)$ | Transient well flow |
-| Dupuit | $h_1^2-h_2^2 = Q\ln(r_2/r_1)/(\pi K)$ | Unconfined flow |
+| Dupuit | $Q = \pi K (h_2^2 - h_1^2)/\ln(r_2/r_1)$ | Steady unconfined well flow |
 | Brune trap eff. | $TE = 1-1/(1+0.0003\cdot Cap/Y)$ | Reservoir sedimentation |
 | Rating curve | $Q = C(H-a)^b$ | Stage-discharge |
 
@@ -236,12 +244,12 @@ Irrigation basics     →  Canal lining & efficiency   →  Water footprint anal
 |---------|----------|-----------|-------|------------|---------------------|
 | Manning | $Q = (1/n)AR^{2/3}S^{1/2}$ | $n$=roughness, $R$=hyd. radius | m³/s | Open channel flow | ⭐⭐⭐ |
 | Lacey regime | $V = (Qf^2/140)^{1/6}$ | $f$=silt factor | m/s | Regime channel design | ⭐⭐ |
-| Lacey perimeter | $P = 2.67\sqrt{Q}$ | $Q$=discharge | m | Regime channel | ⭐⭐ |
+| Lacey perimeter | $P = 4.75\sqrt{Q}$ | $Q$=discharge (m³/s) | m | Regime alluvial channel (SI) | ⭐⭐ |
 | Rating curve | $Q = C(H-a)^b$ | $H$=gauge height, $a,b$=constants | m³/s | Stage-discharge | ⭐⭐ |
 | Thiem (confined) | $Q = 2\pi T(h_2-h_1)/\ln(r_2/r_1)$ | $T$=transmissivity | m³/s | Steady well flow | ⭐⭐⭐ |
 | Theis (confined) | $s = (Q/4\pi T)W(u)$ | $W(u)$=well function | m | Transient drawdown | ⭐⭐⭐ |
-| Cooper-Jacob | $s = (2.3Q/4\pi T)\log(2.25Tt/r^2S)$ | $S$=storativity | m | $u<0.01$ | ⭐⭐⭐ |
-| Dupuit (unconfined) | $h_1^2-h_2^2 = Q\ln(r_2/r_1)/(\pi K)$ | $K$=conductivity | m | Steady unconfined | ⭐⭐ |
+| Cooper-Jacob | $s = (2.303Q/4\pi T)\log(2.25Tt/r^2S)$ | $S$=storativity | m | $u<0.01$ | ⭐⭐⭐ |
+| Dupuit (unconfined) | $Q = \pi K(h_2^2-h_1^2)/\ln(r_2/r_1)$ | $K$=conductivity | m³/s | Steady unconfined flow | ⭐⭐ |
 | Brune trap eff. | $TE = 1-1/(1+0.0003\cdot Cap/Y)$ | $Cap$=capacity, $Y$=inflow | — | Reservoir sedimentation | ⭐⭐ |
 | Fire demand (Kuichling) | $Q = 3182\sqrt{P}$ | $P$=population (thousands) | L/min | Water supply design | ⭐⭐ |
 

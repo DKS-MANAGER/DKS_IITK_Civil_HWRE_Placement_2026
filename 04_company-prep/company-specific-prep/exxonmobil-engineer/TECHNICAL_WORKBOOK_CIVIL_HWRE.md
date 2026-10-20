@@ -457,12 +457,19 @@ A wide rectangular cooling channel ($B = 10.0\text{ m}$, Manning's $n = 0.015$, 
 * Unit discharge: $q = Q / B = 20.0 / 10.0 = 2.0\text{ m}^2/\text{s}$.
 * Critical depth:
   $$y_c = \sqrt[3]{\frac{q^2}{g}} = \sqrt[3]{\frac{2.0^2}{9.81}} = \sqrt[3]{\frac{4.0}{9.81}} = \sqrt[3]{0.4077} = 0.7415\text{ m}$$
-* Normal depth via Manning's equation ($A = 10 y_n$, $P = 10 + 2y_n$, $R = A/P$):
-  $$Q = \frac{1}{n} A R^{2/3} S_0^{1/2} \implies 20.0 = \frac{1}{0.015} (10 y_n)\left(\frac{10 y_n}{10 + 2y_n}\right)^{2/3} (0.0008)^{1/2}$$
-  $$\frac{20.0 \times 0.015}{\sqrt{0.0008}} = \frac{0.30}{0.028284} = 10.6066 = \frac{(10 y_n)^{5/3}}{(10 + 2y_n)^{2/3}}$$
-  - Test $y_n = 1.15\text{ m}$: $A = 11.5$, $P = 12.3$, $R = 0.935$, $A R^{2/3} = 11.5 \times (0.935)^{2/3} = 11.5 \times 0.956 = 10.99$
-  - Test $y_n = 1.12\text{ m}$: $A = 11.2$, $P = 12.24$, $R = 0.915$, $A R^{2/3} = 11.2 \times (0.915)^{2/3} = 11.2 \times 0.942 = 10.55$
-  $$y_n \approx 1.125\text{ m}$$
+* **Normal Depth Computation Comparison:**
+  - **Exact Rectangular Formulation:**
+    Wetted area $A = B y_n = 10 y_n$, wetted perimeter $P = B + 2y_n = 10 + 2y_n$, hydraulic radius $R_h = \frac{10 y_n}{10 + 2y_n}$.
+    Manning's uniform flow equation:
+    $$Q = \frac{1}{n} A R_h^{2/3} S_0^{1/2} \implies 20.0 = \frac{1}{0.015} (10 y_n)\left(\frac{10 y_n}{10 + 2y_n}\right)^{2/3} (0.0008)^{1/2}$$
+    $$\frac{Q n}{\sqrt{S_0}} = \frac{20.0 \times 0.015}{\sqrt{0.0008}} = \frac{0.30}{0.028284} = 10.6066 = \frac{(10 y_n)^{5/3}}{(10 + 2y_n)^{2/3}}$$
+    Solving numerically:
+    - At $y_n = 1.124\text{ m}$: $A = 11.24\text{ m}^2$, $P = 12.248\text{ m}$, $R_h = 0.9177\text{ m}$, $A R_h^{2/3} = 11.24 \times (0.9177)^{2/3} = 11.24 \times 0.9442 = 10.612 \approx 10.607$.
+    $$\mathbf{y_n = 1.124\text{ m}}$$
+  - **Wide-Channel Approximation Check ($R_h \approx y$):**
+    If side-wall resistance were ignored:
+    $$A R_h^{2/3} \approx 10 y_n^{5/3} = 10.6066 \implies y_n = (1.06066)^{3/5} = 1.0357\text{ m} \approx 1.036\text{ m}$$
+    *Physical Insight:* The wide-channel assumption underpredicts normal depth by $\approx 8.5\%$ because $B/y_n = 10 / 1.124 = 8.9 < 10$. In engineered canals, side-wall shear cannot be neglected. We use the rigorous value $y_n = 1.124\text{ m}$.
 * **Profile Classification:**
   Since $y_n (1.125\text{ m}) > y_c (0.742\text{ m})$, the channel slope is **MILD ($M$)**.
   Current depth $y = 3.0\text{ m} > y_n > y_c$. The surface curve lies in Zone 1.
@@ -524,36 +531,57 @@ The ordinates of a 2-hour unit hydrograph ($2\text{-hr UH}$) derived for an indu
 
 ### 2. Step-by-Step Calculation
 
-#### Step 1: Unit Hydrograph Volume Check
-* Time step $\Delta t = 2\text{ hours} = 2 \times 3600 = 7200\text{ seconds}$.
-* Sum of ordinates:
-  $$\sum U = 0 + 5 + 18 + 24 + 15 + 8 + 3 + 0 = 73.0\text{ m}^3/\text{s}$$
-* Total direct runoff volume:
-  $$V_{\text{runoff}} = \sum U \times \Delta t = 73.0 \times 7200\text{ s} = 525,600\text{ m}^3$$
-* Equivalent catchment runoff depth $d$:
-  $$d = \frac{V_{\text{runoff}}}{\text{Catchment Area}} = \frac{525,600\text{ m}^3}{21.6 \times 10^6\text{ m}^2} = 0.02433\text{ m} = 2.433\text{ cm}$$
-* *Standardization:* To adjust to standard $1.0\text{ cm}$ unit depth:
-  $$U_{\text{true}} = \frac{U_{\text{raw}}}{2.433} \quad (\text{or proceed with standard given tabulated values})$$
-  *(Proceeding with given problem ordinates as the calibrated unit definition).*
+#### Step 1: Unit Hydrograph Volume Check & Normalization
+* Time step: $\Delta t = 2\text{ hours} = 2 \times 3600 = 7200\text{ seconds}$.
+* Sum of raw ordinates:
+  $$\sum U_{\text{raw}} = 0 + 5 + 18 + 24 + 15 + 8 + 3 + 0 = 73.0\text{ m}^3/\text{s}$$
+* Total direct runoff volume represented by raw ordinates:
+  $$V_{\text{runoff}} = \sum U_{\text{raw}} \times \Delta t = 73.0\text{ m}^3/\text{s} \times 7200\text{ s} = 525,600\text{ m}^3$$
+* Equivalent runoff depth over catchment area ($A = 21.6\text{ km}^2 = 21.6 \times 10^6\text{ m}^2$):
+  $$d = \frac{V_{\text{runoff}}}{A} = \frac{525,600\text{ m}^3}{21,600,000\text{ m}^2} = 0.024333\text{ m} = 2.4333\text{ cm}$$
+* **Hydrological Normalization to True $1.0\text{ cm}$ Unit Hydrograph:**
+  Since standard unit hydrographs represent exactly $1.0\text{ cm}$ of direct runoff, each raw ordinate is scaled:
+  $$U_{\text{true}}(t) = \frac{U_{\text{raw}}(t)}{2.4333}$$
+  - $U(0) = 0.00\text{ m}^3/\text{s}$
+  - $U(2) = 5 / 2.4333 = 2.055\text{ m}^3/\text{s}$
+  - $U(4) = 18 / 2.4333 = 7.397\text{ m}^3/\text{s}$
+  - $U(6) = 24 / 2.4333 = 9.863\text{ m}^3/\text{s}$
+  - $U(8) = 15 / 2.4333 = 6.164\text{ m}^3/\text{s}$
+  - $U(10) = 8 / 2.4333 = 3.288\text{ m}^3/\text{s}$
+  - $U(12) = 3 / 2.4333 = 1.233\text{ m}^3/\text{s}$
+  - $U(14) = 0.00\text{ m}^3/\text{s}$
+  $$\sum U_{\text{true}} = 30.00\text{ m}^3/\text{s} \implies V_{\text{true}} = 30.0 \times 7200 = 216,000\text{ m}^3 \equiv 1.00\text{ cm}$$
 
 #### Step 2 & 3: S-Curve Addition & 4-hr UH Derivation
-The S-curve is obtained by summing an infinite series of identical 2-hr UHs lagged by $D = 2\text{ hours}$.
-To derive a 4-hr UH ($D' = 4\text{ hr}$):
-$$U_{4\text{-hr}}(t) = \frac{S(t) - S(t - 4)}{D' / D} = \frac{S(t) - S(t - 4)}{4 / 2} = \frac{S(t) - S(t - 4)}{2}$$
+The S-curve represents continuous discharge generated by an infinite sequence of consecutive 2-hr rainfalls of unit intensity ($1.0\text{ cm} / 2\text{ hr} = 0.5\text{ cm/hr}$).
+Equilibrium discharge: $S_{\infty} = \frac{A \times 10^4}{3600 \times D} = \frac{21.6 \times 10^6 \times 0.01}{7200} = 30.0\text{ m}^3/\text{s}$.
+To derive the 4-hr UH ($D' = 4\text{ hr}$):
+$$U_{4\text{-hr}}(t) = \left[S(t) - S(t - 4)\right] \times \frac{D}{D'} = \frac{S(t) - S(t - 4)}{2}$$
 
-| Time $t$ (hr) | 2-hr UH $U(t)$ | S-Curve Ordinate $S(t)$ | Lagged S-Curve $S(t-4)$ | Difference $\Delta S = S(t) - S(t-4)$ | **4-hr UH** $U_{4}(t) = \Delta S / 2$ |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **0** | 0 | 0 | - | 0 | **0.0** |
-| **2** | 5 | 5 | - | 5 | **2.5** |
-| **4** | 18 | 23 | 0 | 23 | **11.5** |
-| **6** | 24 | 47 | 5 | 42 | **21.0** |
-| **8** | 15 | 62 | 23 | 39 | **19.5** |
-| **10** | 8 | 70 | 47 | 23 | **11.5** |
-| **12** | 3 | 73 | 62 | 11 | **5.5** |
-| **14** | 0 | 73 | 70 | 3 | **1.5** |
-| **16** | 0 | 73 | 73 | 0 | **0.0** |
+| Time $t$ (hr) | 2-hr UH $U(t)$ | S-Curve $S(t)$ | Lagged $S(t-4)$ | Difference $\Delta S$ | **True 4-hr UH** $U_4(t) = \Delta S / 2$ | Raw Scale $U_{4,\text{raw}}(t)$ |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **0** | 0.00 | 0.00 | - | 0.00 | **0.00** | 0.0 |
+| **2** | 2.05 | 2.05 | - | 2.05 | **1.03** | 2.5 |
+| **4** | 7.40 | 9.45 | 0.00 | 9.45 | **4.73** | 11.5 |
+| **6** | 9.86 | 19.31 | 2.05 | 17.26 | **8.63** | 21.0 |
+| **8** | 6.16 | 25.47 | 9.45 | 16.02 | **8.01** | 19.5 |
+| **10** | 3.29 | 28.76 | 19.31 | 9.45 | **4.73** | 11.5 |
+| **12** | 1.23 | 30.00 | 25.47 | 4.53 | **2.27** | 5.5 |
+| **14** | 0.00 | 30.00 | 28.76 | 1.24 | **0.62** | 1.5 |
+| **16** | 0.00 | 30.00 | 30.00 | 0.00 | **0.00** | 0.0 |
 
-* **Verification:** Peak of the 4-hr UH is $21.0\text{ m}^3/\text{s}$ occurring at $t = 6\text{ hr}$. The peak is lower and broader than the 2-hr peak ($24\text{ m}^3/\text{s}$ at $t = 6\text{ hr}$), which adheres perfectly to unit hydrograph duration scaling physics.
+* **Verification:** Peak true 4-hr UH is $8.63\text{ m}^3/\text{s}$ at $t = 6\text{ hr}$, compared to $9.86\text{ m}^3/\text{s}$ for 2-hr UH. Sum of 4-hr UH ordinates $= 30.02 \approx 30.0\text{ m}^3/\text{s}$, confirming unit runoff conservation.
+
+#### Step 4: Practical Rainfall Convolution Example
+* Suppose a storm produces two consecutive 4-hour rainfall excesses:
+  - Period 1 ($0 - 4\text{ hr}$): $R_1 = 3.0\text{ cm}$
+  - Period 2 ($4 - 8\text{ hr}$): $R_2 = 2.0\text{ cm}$
+  - Baseflow is constant at $Q_{\text{base}} = 10.0\text{ m}^3/\text{s}$.
+* Total streamflow at each time step is obtained by discrete convolution:
+  $$Q_{\text{total}}(t) = R_1 \cdot U_4(t) + R_2 \cdot U_4(t - 4) + Q_{\text{base}}$$
+  - At $t = 4\text{ hr}$: $Q = 3.0(4.73) + 2.0(0) + 10.0 = 14.19 + 10.0 = 24.19\text{ m}^3/\text{s}$.
+  - At $t = 6\text{ hr}$: $Q = 3.0(8.63) + 2.0(1.03) + 10.0 = 25.89 + 2.06 + 10.0 = 37.95\text{ m}^3/\text{s}$.
+  - At $t = 8\text{ hr}$: $Q = 3.0(8.01) + 2.0(4.73) + 10.0 = 24.03 + 9.46 + 10.0 = 43.49\text{ m}^3/\text{s}$ (Peak Flood).
 
 ---
 
@@ -623,23 +651,31 @@ A pipeline trestle crossing a major river is supported by circular cylindrical c
 #### Step 1: Approach Froude Number $\mathrm{Fr}_1$
 $$\mathrm{Fr}_1 = \frac{V_1}{\sqrt{g y_1}} = \frac{2.80}{\sqrt{9.81 \times 3.60}} = \frac{2.80}{\sqrt{35.316}} = \frac{2.80}{5.943} = 0.471$$
 
-#### Step 2: HEC-18 Pier Scour Evaluation
-$$\frac{y_s}{y_1} = 2.0 \, K_1 K_2 K_3 K_4 \left(\frac{a}{y_1}\right)^{0.65} \mathrm{Fr}_1^{0.43}$$
-* Ratio of pier diameter to approach depth:
-  $$\frac{a}{y_1} = \frac{1.80}{3.60} = 0.50$$
-  $$\left(\frac{a}{y_1}\right)^{0.65} = (0.50)^{0.65} = 0.6373$$
-* Froude number exponent:
+#### Step 2: HEC-18 5th Edition (2012) Pier Scour Evaluation
+The primary CSU / FHWA HEC-18 5th Edition equation for live-bed and clear-water pier scour in sand-bed rivers is:
+$$\frac{y_s}{y_1} = 2.0 \, K_1 K_2 K_3 \left(\frac{a}{y_1}\right)^{0.65} \mathrm{Fr}_1^{0.43}$$
+* **Standard Coefficients (HEC-18 Table 6.1 - 6.3):**
+  - Nose shape: $K_1 = 1.0$ (circular or round-nose)
+  - Angle of attack: $K_2 = (\cos \theta + \frac{L}{a} \sin \theta)^{0.65} = 1.0$ for aligned flow ($\theta = 0^\circ$)
+  - Bed condition: $K_3 = 1.1$ (clear-water scour or plane bed with small dunes)
+  - *Note on $K_4$ (Armoring Factor) & Coarse Bed Scour Criteria:* In FHWA HEC-18 5th Edition (Arneson et al., 2012, Section 6.4), the legacy empirical $K_4$ multiplier was discontinued. FHWA defines coarse bed material requiring the dedicated coarse-bed scour equation by two criteria: median grain diameter $D_{50} \ge 20.1\text{ mm}$ (gravel and cobble sizes) and gradation coefficient $D_{84} / D_{50} \ge 1.5$. For sand beds ($D_{50} < 20.1\text{ mm}$), the standard CSU equation applies without an armoring reduction factor ($K_4 = 1.0$), ensuring conservative equilibrium scour estimates under live-bed or clear-water conditions.
+* Relative dimensions:
+  $$\frac{a}{y_1} = \frac{1.80}{3.60} = 0.50 \implies \left(\frac{a}{y_1}\right)^{0.65} = (0.50)^{0.65} = 0.6373$$
   $$\mathrm{Fr}_1^{0.43} = (0.471)^{0.43} = 0.7238$$
-* Correction product:
-  $$K_1 K_2 K_3 K_4 = 1.0 \times 1.0 \times 1.1 \times 1.0 = 1.10$$
-* Relative scour depth:
-  $$\frac{y_s}{y_1} = 2.0 \times 1.10 \times 0.6373 \times 0.7238 = 2.20 \times 0.4613 = 1.0148$$
-* Absolute local scour depth:
-  $$y_s = 1.0148 \times 3.60\text{ m} = 3.653\text{ m}$$
+* Scour depth ratio:
+  $$\frac{y_s}{y_1} = 2.0 \times (1.0 \times 1.0 \times 1.1) \times 0.6373 \times 0.7238 = 2.20 \times 0.4613 = 1.0148$$
+* Equilibrium local pier scour depth:
+  $$y_s = 1.0148 \times 3.60\text{ m} = \mathbf{3.653\text{ m}}$$
+* Maximum Scour Limit Check (HEC-18 Clause 6.2):
+  For $\mathrm{Fr}_1 \le 0.8$, $y_s \le 2.4 a = 2.4(1.80) = 4.32\text{ m}$.
+  Since $y_s = 3.653\text{ m} < 4.32\text{ m}$, the computed scour is valid and within envelope limits.
 
-#### Step 3: Total Depth & Foundation Penetration Requirement
-$$y_{\text{total}} = y_1 + y_s = 3.60\text{ m} + 3.653\text{ m} = 7.253\text{ m}$$
-* **Geotechnical Recommendation:** The foundation piles supporting the pipeline trestle must be designed with sufficient embedment depth below $y_{\text{total}}$ (typically an additional penetration $> 3 \times a \approx 5.5\text{ m}$ below the scour trough) to guarantee lateral structural stability against buckling during flood events.
+#### Step 3: Total Scour & Geotechnical Foundation Embedment
+* Total depth from water surface to bottom of scour hole:
+  $$y_{\text{total}} = y_1 + y_s = 3.60\text{ m} + 3.653\text{ m} = 7.253\text{ m}$$
+* **Geotechnical Foundation Design Rule (FHWA Technical Advisory T 5140.23):**
+  - All lateral soil resistance above the scour elevation ($y_{\text{total}}$) must be considered completely lost during the design flood event.
+  - Bridge or trestle foundation piles must achieve structural fixity by penetrating a minimum depth of $3a$ to $5a$ ($5.5\text{ m}$ to $9.0\text{ m}$) into competent, non-erodible geological strata *below* the maximum scour line.
 
 ---
 
@@ -659,21 +695,37 @@ A reach of an industrial drainage channel of width $B = 8.0\text{ m}$ is undergo
 ### 2. Step-by-Step Calculation
 
 #### Step 1: Unit Sediment Transport Rates
-$$q_{s1} = \frac{Q_{s1}}{B} = \frac{0.040\text{ m}^3/\text{s}}{8.0\text{ m}} = 0.0050\text{ m}^2/\text{s}$$
-$$q_{s2} = \frac{Q_{s2}}{B} = \frac{0.016\text{ m}^3/\text{s}}{8.0\text{ m}} = 0.0020\text{ m}^2/\text{s}$$
-* Spatial gradient over $\Delta x = 200\text{ m}$:
+* Transport rates $Q_s$ represent solid mineral volume transport rates (excluding inter-particle void volume):
+  $$q_{s1} = \frac{Q_{s1}}{B} = \frac{0.040\text{ m}^3/\text{s}}{8.0\text{ m}} = 0.0050\text{ m}^2/\text{s}$$
+  $$q_{s2} = \frac{Q_{s2}}{B} = \frac{0.016\text{ m}^3/\text{s}}{8.0\text{ m}} = 0.0020\text{ m}^2/\text{s}$$
+* Spatial divergence over reach length $\Delta x = 200\text{ m}$:
   $$\frac{\partial q_s}{\partial x} \approx \frac{q_{s2} - q_{s1}}{\Delta x} = \frac{0.0020 - 0.0050}{200} = \frac{-0.0030}{200} = -1.50 \times 10^{-5}\text{ m/s}$$
+  *(Or via width-averaged total load formulation: $\frac{1}{B} \frac{\partial Q_s}{\partial x} = \frac{1}{8.0} \frac{-0.024}{200} = -1.50 \times 10^{-5}\text{ m/s}$, confirming mathematical equivalence).*
 
-#### Step 2 & 3: Exner Equation Evaluation
-The 1D Exner equation governs:
-$$(1 - \lambda_p) \frac{\partial z_b}{\partial t} + \frac{\partial q_s}{\partial x} = 0$$
-$$\frac{\partial z_b}{\partial t} = -\frac{1}{1 - \lambda_p} \frac{\partial q_s}{\partial x}$$
-* Substituting values ($\lambda_p = 0.40 \implies 1 - \lambda_p = 0.60$):
+#### Step 2 & 3: Exner Morphodynamic Equation Evaluation
+The conservation of sediment mass (Exner equation) states:
+$$(1 - \lambda_p) \frac{\partial z_b}{\partial t} + \frac{\partial q_s}{\partial x} = 0 \implies \frac{\partial z_b}{\partial t} = -\frac{1}{1 - \lambda_p} \frac{\partial q_s}{\partial x}$$
+where $\lambda_p = 0.40$ is bed porosity (void fraction), so $(1 - \lambda_p) = 0.60$ is the solid packing fraction.
+* Rate of vertical bed elevation change:
   $$\frac{\partial z_b}{\partial t} = -\frac{1}{0.60} (-1.50 \times 10^{-5}\text{ m/s}) = +2.50 \times 10^{-5}\text{ m/s}$$
-* **Process Identification:** Since $\frac{\partial z_b}{\partial t} > 0$, the channel reach is undergoing **aggradation (sediment deposition)**.
-* Conversion to $\text{mm/hour}$:
-  $$\frac{\partial z_b}{\partial t} = (2.50 \times 10^{-5}\text{ m/s}) \times (1000\text{ mm/m}) \times (3600\text{ s/hr}) = 90.0\text{ mm/hour}$$
+* **Process Identification:**
+  Since $\frac{\partial z_b}{\partial t} > 0$, sediment input exceeds sediment output ($Q_{s1} > Q_{s2}$). The channel reach is undergoing active **aggradation (sediment deposition)**.
+* Conversion to engineering units ($\text{mm/hour}$):
+  $$\frac{\partial z_b}{\partial t} = (2.50 \times 10^{-5}\text{ m/s}) \times (1000\text{ mm/m}) \times (3600\text{ s/hr}) = \mathbf{90.0\text{ mm/hour}}$$
 
-#### Step 4: Total Bed Rise over 48 Hours
-$$\Delta z_b = (90.0\text{ mm/hour}) \times 48\text{ hours} = 4320\text{ mm} = 4.32\text{ meters}$$
-* **Engineering Impact:** Over a 2-day flood event, $4.32\text{ m}$ of sediment deposits in the channel, severely reducing hydraulic conveyance and increasing flood overtopping risk unless regular dredging or velocity maintenance structures are implemented.
+#### Step 4: Total Aggradation over 48 Hours & Morphodynamic Feedback
+* Initial linear extrapolation:
+  $$\Delta z_b = (90.0\text{ mm/hour}) \times 48\text{ hours} = 4320\text{ mm} = \mathbf{4.32\text{ meters}}$$
+* **Morphodynamic Negative Feedback & Engineering Limitations:**
+  - In actual river channels, aggradation elevates the bed, reducing flow depth ($y$) and steepening the local water surface slope ($S_w$). This accelerates flow velocity, increasing boundary shear stress and local transport capacity ($Q_{s2}$).
+  - Therefore, this linear rate of $90\text{ mm/hr}$ represents the **initial maximum aggradation rate**. As the bed profile evolves toward a new dynamic equilibrium, aggradation slows down.
+  - Nonetheless, a prospective accumulation of several meters over a prolonged flood threatens catastrophic culvert choking and overtopping of industrial bunds, mandating sediment traps or emergency dredging.
+
+---
+
+## Sources
+* **Open Channel Flow & Water Surface Profiles:** Chow, V. T., *Open-Channel Hydraulics*, McGraw-Hill; Henderson, F. M., *Open Channel Flow*, Macmillan; Subramanya, K., *Flow in Open Channels*, Tata McGraw-Hill.
+* **Hydrology & Unit Hydrographs:** Chow, V. T., Maidment, D. R., & Mays, L. W., *Applied Hydrology*, McGraw-Hill; Subramanya, K., *Engineering Hydrology*, 4th Edition.
+* **Sediment Transport & River Mechanics:** Garcia, M. H. (Ed.), *Sedimentation Engineering: Processes, Measurements, Modeling, and Practice*, ASCE Manuals and Reports on Engineering Practice No. 110; Exner, F. M. (1925), *Uber die Wechselwirkung zwischen Wasser und Geschiebe in Flussen*.
+* **Bridge Pier Scour Standard:** Arneson, L. A., Zevenbergen, L. W., Lagasse, P. F., & Clopper, P. E. (2012), *Evaluating Scour at Bridges (HEC-18)*, 5th Edition, Publication No. FHWA-HIF-12-003, Federal Highway Administration.
+* **Practice Alignment:** IndiaBIX Civil Engineering - Fluid Mechanics & Surveying Directory ([https://www.indiabix.com/civil-engineering/](https://www.indiabix.com/civil-engineering/)).

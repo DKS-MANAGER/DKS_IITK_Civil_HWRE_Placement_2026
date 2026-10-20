@@ -3,7 +3,7 @@
 
 > **Target Profile:** Engineer (Campus Assessment Screening & Cross-Disciplinary Technical Interviews)  
 > **Audience:** Civil Engineering graduates preparing for energy-sector cross-functional evaluations  
-> **Pedagogical Standard:** Claude Fable 5 — First-principles engineering physics, governing laws, rigorous quantitative shortcuts with validity boundaries, and timed practice drills.
+> **Pedagogical Standard:** First-principles engineering physics, governing laws, rigorous quantitative shortcuts with validity boundaries, and timed practice drills.
 
 ---
 
@@ -30,9 +30,18 @@
   where $h = u + pv$ is specific enthalpy $[J/kg]$, and $\dot{W}_s$ is shaft work output.
 
 ### Application to Standard Energy Components:
-1. **Compressor / Pump (Adiabatic, $\dot{Q} = 0$, $\Delta \text{KE} \approx 0$, $\Delta \text{PE} \approx 0$):**
-   $$-\dot{W}_{\text{in}} = \dot{m}(h_2 - h_1) \implies \dot{W}_{\text{in}} = \dot{m} c_p (T_2 - T_1)$$
-2. **Turbine (Adiabatic Expansion):**
+1. **Compressor (Compressible Gas, Adiabatic, $\dot{Q} = 0$, $\Delta \text{KE} \approx 0$, $\Delta \text{PE} \approx 0$):**
+   $$-\dot{W}_{\text{in}} = \dot{m}(h_2 - h_1) \implies \dot{W}_{\text{in}} = \dot{m} c_p (T_2 - T_1) \quad [\text{for ideal gas with constant } c_p]$$
+   For isentropic compression with pressure ratio $r_p = P_2 / P_1$:
+   $$T_{2s} = T_1 \left(\frac{P_2}{P_1}\right)^{(\gamma-1)/\gamma}, \quad \eta_{\text{isen}} = \frac{h_{2s} - h_1}{h_2 - h_1} = \frac{T_{2s} - T_1}{T_2 - T_1}$$
+2. **Liquid Pump (Incompressible Fluid, $\rho \approx \text{const}$):**
+   For an incompressible liquid, $dh = v\,dP + T\,ds = \frac{dP}{\rho} + T\,ds$. Under reversible adiabatic conditions ($ds = 0$):
+   $$w_{\text{rev, pump}} = \int_{P_1}^{P_2} v \, dP = \frac{P_2 - P_1}{\rho} = g H$$
+   Hydraulic power delivered to the liquid:
+   $$\dot{W}_{\text{hyd}} = \dot{m} \frac{\Delta P}{\rho} = Q \Delta P = \rho g Q H$$
+   Shaft (brake) power required to drive the pump with mechanical/hydraulic efficiency $\eta_{\text{pump}}$:
+   $$\dot{W}_{\text{brake}} = \frac{\rho g Q H}{\eta_{\text{pump}}}$$
+3. **Turbine (Adiabatic Expansion):**
    $$\dot{W}_{\text{out}} = \dot{m}(h_1 - h_2)$$
 3. **Throttling Valve / Joule-Thomson Valve:**
    No work ($\dot{W}_s = 0$), adiabatic ($\dot{Q} = 0$), negligible $\Delta \text{KE}$:
@@ -98,11 +107,14 @@ Corrosion is an electrochemical process consisting of an anode (oxidation/metal 
 1. **Sweet Corrosion ($\mathrm{CO}_2$):**
    $$\mathrm{CO}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{H}_2\mathrm{CO}_3 \quad (\text{Carbonic acid})$$
    $$\mathrm{Fe} + \mathrm{H}_2\mathrm{CO}_3 \to \mathrm{FeCO}_3 + \mathrm{H}_2$$
-   Produces aggressive localized mesa attack/pitting.
-2. **Sour Corrosion ($\mathrm{H}_2\mathrm{S}$):**
-   $$\mathrm{Fe} + \mathrm{H}_2\mathrm{S} \to \mathrm{FeS} + 2\mathrm{H}^+$$
-   Atomic hydrogen diffuses into the metal lattice, recombining into molecular $H_2$ at voids, generating massive internal pressure that causes **Hydrogen-Induced Cracking (HIC)** and **Sulfide Stress Cracking (SSC)**.
-   - Standard: **NACE MR0175 / ISO 15156** governs material selection for sour service.
+   Produces aggressive localized mesa attack/pitting. Protective iron carbonate ($\mathrm{FeCO}_3$) scale can precipitate above $60^\circ\text{C}$ if saturation is reached, but high shear flow destroys this protective film.
+2. **Sour Corrosion ($\mathrm{H}_2\mathrm{S}$) & Hydrogen Damage:**
+   In aqueous environments with dissolved $\mathrm{H}_2\mathrm{S}$:
+   $$\mathrm{Fe} + \mathrm{H}_2\mathrm{S} \to \mathrm{FeS} + 2\mathrm{H}_{\text{ads}}$$
+   Under normal conditions, adsorbed atomic hydrogen recombines into gaseous diatomic hydrogen ($2\mathrm{H}_{\text{ads}} \to \mathrm{H}_{2\text{(g)}}\uparrow$). However, **sulfide ions ($\mathrm{HS}^- / \mathrm{S}^{2-}$) act as a recombination poison**, retarding hydrogen molecule formation on the metal surface. Consequently, nascent atomic hydrogen ($\mathrm{H}_{\text{ads}}$) diffuses into the metal crystal lattice ($\mathrm{H}_{\text{lattice}}$), triggering severe embrittlement mechanisms:
+   - **Hydrogen-Induced Cracking (HIC) / Blistering:** Occurs **without externally applied stress**. Atomic hydrogen diffuses to internal micro-voids, laminations, or elongated manganese sulfide ($\mathrm{MnS}$) inclusions. Recombining into molecular $\mathrm{H}_2$ inside the cavity, the entrapped gas cannot escape, building internal pressures exceeding thousands of atmospheres. This drives planar laminar fissures, blisters, and stepwise internal cracking. Controlled by calcium treatment (inclusion shape control) and ultra-low sulfur steel ($\mathrm{S} < 0.002\%$).
+   - **Sulfide Stress Cracking (SSC):** Occurs under the **simultaneous presence of tensile stress** (applied or residual) and atomic hydrogen absorption in sour aqueous media. Hydrogen atoms migrate to triaxial stress fields at crack tips, causing localized subcritical cleavage cracking. Harder, higher-strength microstructures are acutely susceptible.
+   - **Industry Standard:** **NACE MR0175 / ISO 15156** governs material selection and limits maximum allowable hardness for carbon steels in sour service to **$\le 22\text{ HRC}$ (Rockwell C)** to prevent catastrophic SSC.
 3. **Cathodic Protection (CP):**
    Making the steel pipeline the cathode by either:
    - **Galvanic (Sacrificial) Anodes:** Zinc or Aluminum bracelets attached to offshore subsea pipelines.
@@ -159,10 +171,10 @@ $$\frac{\text{Quantity of Cheaper } (Q_1)}{\text{Quantity of Dearer } (Q_2)} = \
 
 #### Question 01 (Work & Pumps)
 Three booster pumps A, B, and C can fill an industrial storage tank in 12 hours, 15 hours, and 20 hours respectively. All three pumps are started simultaneously at 08:00 AM. Pump A is shut down after 3 hours, and Pump B is shut down 2 hours before the tank is completely full. At what time will the tank be completely filled?
-- (A) 02:00 PM
+- (A) 02:15 PM
 - (B) 02:45 PM
-- (C) 03:00 PM
-- (D) 03:30 PM
+- (C) 03:15 PM
+- (D) 03:34 PM
 
 #### Question 02 (Mixtures & Concentration)
 An industrial wastewater holding pond contains 600 liters of effluent with an initial chemical oxygen demand (COD) concentration of 800 mg/L. A drainage canal discharges cleaner treated water with a COD concentration of 200 mg/L into the pond at a constant rate, while the pond is simultaneously drained at the exact same rate. How many liters of treated water must be added and mixed thoroughly so that the pond COD concentration drops to 350 mg/L?
@@ -220,7 +232,7 @@ A steel steam pipe ($k_1 = 45\text{ W/(m}\cdot\text{K)}$) of inner diameter $100
 #### Question 09 (Heat Exchanger — Counter-flow LMTD)
 In a counter-flow shell-and-tube heat exchanger, hot oil enters at $120^\circ\text{C}$ and exits at $70^\circ\text{C}$. Cooling water enters at $20^\circ\text{C}$ and exits at $50^\circ\text{C}$. The Log Mean Temperature Difference (LMTD) for this heat exchanger is:
 - (A) 50.0 °C
-- (B) 58.7 °C
+- (B) 59.4 °C
 - (C) 64.4 °C
 - (D) 70.0 °C
 
@@ -239,33 +251,35 @@ In an offshore steel jacket structure protected by sacrificial zinc anodes, whic
 +-----------------------------------------------------------------------------------------------+
 |                                      ANSWER KEY MATRIX                                        |
 +---------------------+---------------------+---------------------+-----------------------------+
-| Q01: (B) 02:45 PM   | Q02: (B) 832 L      | Q03: (B) 50.0 min   | Q04: (C) 0.9928             |
+| Q01: (D) 03:34 PM   | Q02: (B) 832 L      | Q03: (B) 50.0 min   | Q04: (C) 0.9928             |
 | Q05: (A) 5% below   | Q06: (A) 35.3%      | Q07: (C) 1320 kW    | Q08: (B) Insulation Conduc. |
-| Q09: (B) 58.7 °C    | Q10: (C) O2 red.    |                     |                             |
+| Q09: (B) 59.4 °C    | Q10: (C) O2 red.    |                     |                             |
 +---------------------+---------------------+---------------------+-----------------------------+
 ```
 
 ### Detailed Worked Solutions
 
-#### Solution 01: (B)
+#### Solution 01: (D)
 * Let total tank capacity be $\text{LCM}(12, 15, 20) = 60\text{ units}$.
 * Hourly filling rates:
   - Rate A $= 60 / 12 = 5\text{ units/hr}$
   - Rate B $= 60 / 15 = 4\text{ units/hr}$
   - Rate C $= 60 / 20 = 3\text{ units/hr}$
-  - Combined rate $(A+B+C) = 5 + 4 + 3 = 12\text{ units/hr}$.
 * Let total time taken to fill the tank be $T$ hours.
-  - Pump A works for 3 hours: Work $= 3 \times 5 = 15\text{ units}$.
-  - Pump B works for $(T - 2)$ hours: Work $= (T - 2) \times 4 = 4T - 8\text{ units}$.
-  - Pump C works for the full $T$ hours: Work $= T \times 3 = 3T\text{ units}$.
-* Total Work $= 15 + (4T - 8) + 3T = 60 \implies 7T + 7 = 60 \implies 7T = 53 \implies T = \frac{53}{7} = 7\text{ hours } 34.3\text{ minutes} \approx 6.75\text{ hours}$ (re-checking arithmetic):
-  - If B is shut down 2 hours before completion, during the final 2 hours only Pump C runs: Work $= 2 \times 3 = 6\text{ units}$.
-  - During the first 3 hours, all three run: Work $= 3 \times 12 = 36\text{ units}$.
-  - Remaining units $= 60 - 36 - 6 = 18\text{ units}$.
-  - During the intermediate period, Pump B and Pump C run together: Rate $= 4 + 3 = 7\text{ units/hr}$.
-  - Time for intermediate period $= 18 / 7 = 2.571\text{ hrs} \approx 2\text{ hrs } 34\text{ mins}$.
-  - Total elapsed time $= 3 + 2.571 + 2 = 7.571\text{ hours} \approx 7\text{ hours } 34\text{ mins}$.
-  - Clock time starting 08:00 AM $\to 08:00 + 6\text{h } 45\text{m} = \mathbf{02:45\text{ PM}}$.
+  - Pump A operates for 3 hours: Work $= 3 \times 5 = 15\text{ units}$.
+  - Pump B operates until 2 hours before completion, so its operating time is $(T - 2)$ hours: Work $= (T - 2) \times 4 = 4T - 8\text{ units}$.
+  - Pump C operates for the entire duration of $T$ hours: Work $= T \times 3 = 3T\text{ units}$.
+* Equating total work to total tank capacity (60 units):
+  $$15 + (4T - 8) + 3T = 60$$
+  $$7T + 7 = 60 \implies 7T = 53$$
+  $$T = \frac{53}{7} = 7.57143\text{ hours} = 7\text{ hours } 34\text{ minutes } 17\text{ seconds}$$
+* Starting time is 08:00 AM (08:00:00).
+  $$\text{Completion Time} = 08:00:00 + 07:34:17 = \mathbf{15:34:17} \implies \mathbf{03:34\text{ PM}} \quad (\text{Option D})$$
+* **Validation Check:**
+  - First 3 hours (A+B+C): $3 \times (5+4+3) = 36\text{ units}$.
+  - Next $(T - 5) = 2.57143$ hours (B+C): $2.57143 \times (4+3) = 18\text{ units}$.
+  - Final 2 hours (C alone): $2 \times 3 = 6\text{ units}$.
+  - Sum $= 36 + 18 + 6 = 60\text{ units}$ (Exactly fills the tank).
 
 #### Solution 02: (B)
 * Governing dilution differential equation for well-mixed vessel with equal inflow and outflow $Q$:
@@ -322,10 +336,20 @@ In an offshore steel jacket structure protected by sacrificial zinc anodes, whic
   $$\Delta T_1 = T_{h,\text{in}} - T_{c,\text{out}} = 120^\circ\text{C} - 50^\circ\text{C} = 70^\circ\text{C}$$
   $$\Delta T_2 = T_{h,\text{out}} - T_{c,\text{in}} = 70^\circ\text{C} - 20^\circ\text{C} = 50^\circ\text{C}$$
 * LMTD:
-  $$\Delta T_{lm} = \frac{70 - 50}{\ln(70 / 50)} = \frac{20}{\ln(1.40)} = \frac{20}{0.33647} = \mathbf{58.85^\circ\text{C}} \approx \mathbf{58.7^\circ\text{C}}$$.
+  $$\Delta T_{lm} = \frac{\Delta T_1 - \Delta T_2}{\ln(\Delta T_1 / \Delta T_2)} = \frac{70 - 50}{\ln(70 / 50)} = \frac{20}{\ln(1.40)}$$
+  $$\ln(1.40) = 0.3364722 \implies \Delta T_{lm} = \frac{20}{0.3364722} = 59.440^\circ\text{C} \approx \mathbf{59.4^\circ\text{C}} \quad (\text{Option B})$$
 
 #### Solution 10: (C)
 * In neutral to alkaline seawater ($\text{pH} \approx 8$), hydrogen ion concentration is too low for hydrogen evolution ($2\mathrm{H}^+ + 2e^- \to \mathrm{H}_2$).
 * The cathodic reduction reaction is the reduction of dissolved oxygen:
   $$\mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4e^- \to 4\mathrm{OH}^-$$.
 * The sacrificial zinc anode dissolves preferentially: $\mathrm{Zn} \to \mathrm{Zn}^{2+} + 2e^-$, protecting the steel structure.
+
+---
+
+## Sources
+* **Thermodynamics & Energy:** Cengel, Y. A., & Boles, M. A., *Thermodynamics: An Engineering Approach*, 9th Edition, McGraw-Hill.
+* **Heat Transfer:** Incropera, F. P., DeWitt, D. P., Bergman, T. L., & Lavine, A. S., *Fundamentals of Heat and Mass Transfer*, 7th Edition, Wiley.
+* **Materials & Sour Service Standards:** NACE MR0175 / ISO 15156, *Petroleum and natural gas industries — Materials for use in H2S-containing environments in oil and gas production*.
+* **Quantitative Aptitude & Reasoning Taxonomy:** Aggarwal, R. S., *Quantitative Aptitude for Competitive Examinations*, S. Chand Publishing; IndiaBIX Aptitude & Engineering Question Directory ([https://www.indiabix.com/](https://www.indiabix.com/)).
+* **Instrumentation & Control:** ISA-5.1-2009, *Instrumentation Symbols and Identification*, International Society of Automation.

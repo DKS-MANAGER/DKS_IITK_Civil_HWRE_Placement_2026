@@ -12,44 +12,48 @@ Environmental engineering applies engineering principles to protect and restore 
 
 ### Water Quality Parameters
 
-| Parameter | Symbol | Unit | Significance |
-|-----------|--------|------|--------------|
-| pH | pH | — | Acidity/alkalinity (6.5–8.5 drinking) |
-| Dissolved Oxygen | DO | mg/L | Aquatic life health (≥ 5 mg/L) |
-| BOD (5-day, 20°C) | BOD₅ | mg/L | Biodegradable organic load |
-| Chemical Oxygen Demand | COD | mg/L | Total oxidizable matter |
-| Total Dissolved Solids | TDS | mg/L | Mineralization (≤ 500 mg/L drinking) |
-| Turbidity | NTU | NTU | Suspended particles (≤ 1 NTU drinking) |
-| Hardness | — | mg/L as CaCO₃ | ≤ 200 mg/L desirable |
-| Chloride | Cl⁻ | mg/L | ≤ 250 mg/L (IS 10500) |
-| Fluoride | F⁻ | mg/L | 0.6–1.2 mg/L optimal |
-| Coliforms | MPN | MPN/100 mL | Zero for drinking water |
+### Water Quality Parameters (IS 10500:2012 Indian Drinking Water Standards)
+
+| Parameter | Symbol / Test | Acceptable Limit (IS 10500) | Permissible Limit in Absence of Alternate Source | Environmental & Health Significance |
+| :--- | :--- | :---: | :---: | :--- |
+| **pH** | Electrometric | **6.5 – 8.5** | No relaxation | Controls pipe corrosion ($<6.5$) and scale/incrustation ($>8.5$) |
+| **Turbidity** | Nephelometric (NTU) | **1.0 NTU** | **5.0 NTU** | Shields pathogens from disinfectant; aesthetic threshold |
+| **Total Dissolved Solids (TDS)** | Gravimetric ($180^\circ\text{C}$) | **500 mg/L** | **2000 mg/L** | Palatability, gastrointestinal irritation in unaccustomed consumers |
+| **Total Hardness** | EDTA titrimetric | **200 mg/L** as $\text{CaCO}_3$ | **600 mg/L** as $\text{CaCO}_3$ | Soap wastage, boiler scale formation |
+| **Chlorides** | Argentometric ($\text{AgNO}_3$) | **250 mg/L** | **1000 mg/L** | Salty taste; high levels indicate sewage or sea-water intrusion |
+| **Sulphates** | Turbidimetric | **200 mg/L** | **400 mg/L** | Laxative effect with magnesium; crown corrosion in sewers |
+| **Nitrate ($\text{NO}_3^-$)** | Spectrophotometric | **45 mg/L** | No relaxation | Causes **Methemoglobinemia (Blue Baby Disease)** in infants |
+| **Fluoride ($F^-$)** | SPADNS method | **1.0 mg/L** | **1.5 mg/L** | $<1.0$: dental caries; $>1.5$: dental fluorosis; $>4.0$: skeletal fluorosis |
+| **Iron ($Fe$)** | Phenanthroline | **0.3 mg/L** | No relaxation | Staining of plumbing fixtures, laundry, taste |
+| **Free Residual Chlorine** | DPD colorimetric | **0.2 mg/L** (min at end-use) | **1.0 mg/L** (min $\ge 0.5$ in epidemics) | Ensures microbiological safety in distribution system |
+| **E. coli / Total Coliforms** | Multiple Tube (MPN) / MF | **Zero / 100 mL** | Must not be detectable in any 100 mL sample | Definitive indicator of recent faecal contamination |
+
+---
 
 ### BOD Kinetics
 
-**First-order BOD reaction:**
-$$\frac{dL}{dt} = -k_1 L$$
-
-$$L_t = L_0 \, e^{-k_1 t}$$
-
-$$y_t = L_0 \left(1 - e^{-k_1 t}\right)$$
+**First-order carbonaceous BOD reaction:**
+$$\frac{dL}{dt} = -k_1 L \implies L_t = L_0 \, e^{-k_1 t} = L_0 \cdot 10^{-K_D t}$$
+$$y_t = L_0 \left(1 - e^{-k_1 t}\right) = L_0 \left(1 - 10^{-K_D t}\right)$$
 
 Where:
-- $L_0$ = initial BOD (ultimate carbonaceous BOD)
+- $L_0$ = ultimate carbonaceous BOD ($\text{BOD}_u$)
 - $L_t$ = BOD remaining at time $t$
 - $y_t$ = BOD exerted at time $t$
-- $k_1$ = reaction rate constant (base $e$, per day at 20°C)
+- $k_1$ = deoxygenation constant to base $e$ ($\text{day}^{-1}$ at 20°C); $K_D = k_1 / 2.303$ (base 10)
 
-**Temperature correction:**
-$$k_{T} = k_{20} \cdot \theta^{(T - 20)}$$
+**Temperature Correction (van 't Hoff-Arrhenius):**
+$$k_T = k_{20} \cdot \theta^{(T - 20)}$$
+where $\theta = 1.047$ (standard range $20^\circ\text{C}\text{--}30^\circ\text{C}$) or $\theta = 1.135$ ($4^\circ\text{C}\text{--}20^\circ\text{C}$).
 
-Where $\theta = 1.047$ for BOD.
-
-**Standard BOD test:**
-- Incubation: 5 days at 20°C in dark
-- $\text{BOD}_5 = (D_1 - D_2) - (B_1 - B_2) \times \text{dilution factor}$
-- $D_1$ = initial DO of diluted sample, $D_2$ = final DO
-- $B_1, B_2$ = DO of blank
+**Standard 5-Day BOD Test Calculation:**
+The test is conducted in standard $300\text{ mL}$ BOD incubation bottles at $20^\circ\text{C}$ in the dark for 5 days.
+- **Unseeded Sample:**
+  $$\text{BOD}_5 = \frac{D_1 - D_2}{P} = (D_1 - D_2) \times \text{Dilution Factor}$$
+  where $D_1$ is initial DO, $D_2$ is DO after 5 days, and $P = \frac{V_{\text{sample}}}{300\text{ mL}}$ is the sample dilution fraction ($\text{Dilution Factor} = \frac{300}{V_{\text{sample}}}$).
+- **Seeded Sample (when microbial seed is added to industrial wastes):**
+  $$\text{BOD}_5 = \frac{(D_1 - D_2) - (B_1 - B_2) \cdot f}{P}$$
+  where $B_1$ and $B_2$ are initial and final DO of the seeded dilution water blank, and $f = \frac{\% \text{ seed in sample bottle}}{\% \text{ seed in blank bottle}}$ is the seed correction factor.
 
 ### DO Sag Curve (Streeter-Phelps)
 
@@ -88,10 +92,16 @@ Where:
 | Ferrous sulfate | FeSO₄ | 8.5–11.0 |
 | PAC (poly-aluminium chloride) | Al₂(OH)ₙCl₍₆₋ₙ₎ | 5.0–9.0 |
 
-**Dosing:** For alum + bicarbonate alkalinity:
-$$\text{Alum dose} + \text{Alkalinity consumed} \approx \frac{9 \times \text{Alum dose}}{1}$$
-
-Every 1 mg/L of alum consumes approximately 0.5 mg/L alkalinity as CaCO₃.
+**Alum Coagulation Stoichiometry & Alkalinity Consumption:**
+When filter alum is added to natural water containing bicarbonate alkalinity:
+$$\text{Al}_2(\text{SO}_4)_3 \cdot 18\text{H}_2\text{O} + 3\text{Ca}(\text{HCO}_3)_2 \longrightarrow 2\text{Al}(\text{OH})_3 \downarrow + 3\text{CaSO}_4 + 6\text{CO}_2 \uparrow + 18\text{H}_2\text{O}$$
+- Molecular weight of pure alum $\text{Al}_2(\text{SO}_4)_3 \cdot 18\text{H}_2\text{O} = 666.4\text{ g/mol}$.
+- Molecular weight of $3\text{Ca}(\text{HCO}_3)_2$ equivalent to $3\text{CaCO}_3 = 3 \times 100.09 = 300.27\text{ g/mol}$ as $\text{CaCO}_3$.
+- **Theoretical Alkalinity Consumption**:
+  $$\text{Alkalinity Consumed (as CaCO}_3) = \frac{300.27}{666.4} \times (\text{Alum Dose}) \approx \mathbf{0.45 \times (\text{Alum Dose})}$$
+- For standard commercial grade alum ($\text{Al}_2(\text{SO}_4)_3 \cdot 14.3\text{H}_2\text{O}$, $\text{MW} \approx 600\text{ g/mol}$):
+  $$\text{Alkalinity Consumed (as CaCO}_3) = \frac{300.27}{600.0} \times (\text{Alum Dose}) \approx \mathbf{0.50 \times (\text{Alum Dose})}$$
+- **Operational Rule**: Every $1.0\text{ mg/L}$ of commercial alum consumes approximately $0.45\text{--}0.50\text{ mg/L}$ of natural alkalinity (as $\text{CaCO}_3$). If natural alkalinity is insufficient ($< 0.5 \times \text{Alum Dose}$), the water's pH drops sharply, inhibiting flocculation; external lime ($\text{Ca}(\text{OH})_2$) or soda ash ($\text{Na}_2\text{CO}_3$) must be dosed to maintain the optimal pH window ($6.0\text{--}7.5$).
 
 **Flocculation:**
 - Velocity gradient: $G = \sqrt{\frac{P}{\mu V}}$
@@ -140,21 +150,51 @@ $$v_s = \frac{g(\rho_s - \rho_w) d^2}{18 \mu}$$
 
 **Chlorination:**
 
-$$\text{Breakpoint chlorination curve:}}$$
+### Disinfection
 
-| Phase | Dose | Reaction |
-|-------|------|----------|
-| Zone 1 | 0–0.1 mg/L | Oxidation of Fe²⁺, Mn²⁺, H₂S |
-| Zone 2 | 0.1–0.5 mg/L | Reaction with organics |
-| Zone 3 | 0.5–1.0 mg/L | Combined residual builds |
-| Zone 4 | Above breakpoint | Free residual appears |
+**Chlorine Chemistry in Water:**
+When chlorine gas or hypochlorite is added to water, it rapidly hydrolyzes to form hypochlorous acid ($HOCl$) and hydrochloric acid:
+$$\text{Cl}_2 + \text{H}_2\text{O} \rightleftharpoons \text{HOCl} + \text{H}^+ + \text{Cl}^-$$
+Hypochlorous acid then dissociates into hydrogen ions and hypochlorite ions:
+$$\text{HOCl} \rightleftharpoons \text{H}^+ + \text{OCl}^- \quad (pK_a \approx 7.54\text{ at } 25^\circ\text{C})$$
+- At $\text{pH} < 7.5$: $HOCl$ dominates (up to $80\times$ more potent bactericide than $OCl^-$).
+- At $\text{pH} > 7.5$: $OCl^-$ dominates (lower disinfection efficiency).
+- Free available chlorine is defined as the sum of $[HOCl] + [OCl^-]$.
 
-**CT concept:**
-$$\text{Inactivation} = f(\text{Concentration} \times \text{Contact time})$$
+#### Breakpoint Chlorination Chemistry & Phases
 
-For 4-log Giardia removal at pH 7, 15°C: CT ≈ 100 mg·min/L
+```text
+    Residual Chlorine (mg/L)
+       ^
+       │                 Peak (Monochloramine & Dichloramine)
+       │                    /\
+       │                   /  \
+       │                  /    \            Phase IV: Free Available Residual
+       │                 /      \           (Slope = 1.0)
+       │    Phase II    /        \ Phase III      /
+       │  (Combined)   /          \ (Destruction)/
+       │              /            \            /
+       │  Phase I    /              \          /
+       │ (No Resid) /                \        /
+       │───────────/                  \______/ <── BREAKPOINT (Minimum Residual)
+       └───────────────────────────────────────────────> Applied Chlorine Dose (mg/L)
+```
 
-**Chlorine demand = Applied chlorine − Free chlorine residual**
+| Phase | Region on Curve | Dominant Chemical Reactions | Engineering & Placement Significance |
+| :--- | :--- | :--- | :--- |
+| **Phase I** | Initial Chlorine Demand | Rapid oxidation of inorganic reducing substances: $\text{Fe}^{2+} \to \text{Fe}^{3+}$, $\text{Mn}^{2+} \to \text{Mn}^{4+}$, $\text{H}_2\text{S} \to \text{SO}_4^{2-}$, $\text{NO}_2^- \to \text{NO}_3^-$ | **Zero residual appears**. All added chlorine is consumed immediately. |
+| **Phase II** | Formation of Chloramines | Reaction with ammonia to form combined chlorine residual: <br>$\text{NH}_3 + \text{HOCl} \to \text{NH}_2\text{Cl}\text{ (monochloramine)} + \text{H}_2\text{O}$ <br>$\text{NH}_2\text{Cl} + \text{HOCl} \to \text{NHCl}_2\text{ (dichloramine)} + \text{H}_2\text{O}$ | Residual rises to a peak. Combined chlorine has weaker germicidal potency and causes chlorinous taste/odor. |
+| **Phase III** | Destruction of Chloramines | Excess chlorine oxidizes chloramines into inert gases (nitrogen gas and nitrous oxide): <br>$2\text{NH}_2\text{Cl} + \text{HOCl} \to \text{N}_2\uparrow + 3\text{HCl} + \text{H}_2\text{O}$ <br>$\text{NHCl}_2 + \text{NH}_2\text{Cl} + \text{HOCl} \to \text{N}_2\text{O}\uparrow + 4\text{HCl}$ | **Residual drops sharply** to a local minimum called the **BREAKPOINT**. Bad tastes and odors disappear. |
+| **Phase IV** | Post-Breakpoint Chlorination | All ammonia has been stoichiometrically oxidized. Additional chlorine persists directly as uncombined **Free Available Chlorine** ($\text{HOCl} + \text{OCl}^-$). | Residual increases on a **1:1 slope** with added dose. Disinfection is complete, rapid, and leaves a protective residual. |
+
+**Key Definitions & Indian Standards (IS 10500:2012):**
+- **Chlorine Demand:** $\text{Chlorine Demand} = \text{Applied Dose} - \text{Total Residual}$
+- **Mandatory Contact Time & Free Residual:** Water utilities must dose chlorine beyond the breakpoint to maintain a minimum of **$0.2\text{ mg/L}$ free residual chlorine** at the consumer tap after a minimum contact time of **30 minutes** (IS 10500:2012). During water-borne epidemics, residual must be maintained $\ge 0.5\text{ mg/L}$.
+
+**Disinfection Kinetics (Chick's Law & CT Concept):**
+- **Chick-Watson Law:** $\ln(N_t/N_0) = -k \cdot C^n \cdot t$ (where $N_t/N_0$ is pathogen survival ratio).
+- **$CT$ Concept:** Disinfection effectiveness $= \text{Disinfectant Concentration ($C$ in mg/L)} \times \text{Contact Time ($t$ in min)}$.
+  - For 3-log (99.9%) Giardia lamblia cyst inactivation at $\text{pH } 7.0, 20^\circ\text{C}$: $CT \approx 75\text{ mg}\cdot\text{min/L}$.
 
 ### Advanced Treatment
 
@@ -264,28 +304,41 @@ $$\text{BOD}_5 = 2.87 \, \text{NO}_3\text{-N reduced (mg/L)}$$
 **Methane production:**
 $$\text{CH}_4 = 0.35 \times \text{VS destroyed (kg)}$$
 
+### Effluent Discharge Standards (CPCB Schedule VI, Environment Protection Rules 1986)
+
+| Parameter | Inland Surface Water | Public Sewers | Land for Irrigation | Marine Coastal Areas |
+| :--- | :---: | :---: | :---: | :---: |
+| **pH** | 5.5 – 9.0 | 5.5 – 9.0 | 5.5 – 9.0 | 5.5 – 9.0 |
+| **Suspended Solids (SS)** | $100\text{ mg/L}$ | $600\text{ mg/L}$ | $200\text{ mg/L}$ | $100\text{ mg/L}$ |
+| **BOD (3 days at $27^\circ\text{C}$ / 5 days at $20^\circ\text{C}$)** | $30\text{ mg/L}$ | $350\text{ mg/L}$ | $100\text{ mg/L}$ | $100\text{ mg/L}$ |
+| **COD** | $250\text{ mg/L}$ | — | — | $250\text{ mg/L}$ |
+| **Oil and Grease** | $10\text{ mg/L}$ | $20\text{ mg/L}$ | $10\text{ mg/L}$ | $20\text{ mg/L}$ |
+| **Total Kjeldahl Nitrogen (TKN)** | $100\text{ mg/L}$ | — | — | $100\text{ mg/L}$ |
+| **Ammoniacal Nitrogen** | $50\text{ mg/L}$ | $50\text{ mg/L}$ | — | $50\text{ mg/L}$ |
+| **Free Ammonia** | $5.0\text{ mg/L}$ | — | — | $5.0\text{ mg/L}$ |
+
 ---
 
 ## 3. Air Pollution & Control Engineering
 
 ### Air Quality Standards
 
-**NAAQS (National Ambient Air Quality Standards, India):**
+**NAAQS (National Ambient Air Quality Standards, India — CPCB Notification 16 Nov 2009):**
 
-| Pollutant | Averaging Time | Residential (µg/m³) |
-|-----------|---------------|---------------------|
-| PM₂.₅ | Annual | 40 |
-| PM₂.₅ | 24-hour | 60 |
-| PM₁₀ | Annual | 60 |
-| PM₁₀ | 24-hour | 100 |
-| SO₂ | Annual | 50 |
-| SO₂ | 24-hour | 80 |
-| NO₂ | Annual | 40 |
-| NO₂ | 24-hour | 80 |
-| CO | 8-hour | 4000 |
-| CO | 1-hour | — |
-| O₃ | 8-hour | 100 |
-| Lead | Annual | 0.5 |
+| Pollutant | Averaging Time | Industrial, Residential, Rural & Other Areas | Ecologically Sensitive Area (notified by Central Govt.) | Methods of Measurement |
+| :--- | :---: | :---: | :---: | :--- |
+| **$\text{PM}_{10}$** | Annual <br> 24 hours | $60\ \mu\text{g/m}^3$ <br> $100\ \mu\text{g/m}^3$ | $60\ \mu\text{g/m}^3$ <br> $100\ \mu\text{g/m}^3$ | Gravimetric / TOEM / Beta attenuation |
+| **$\text{PM}_{2.5}$** | Annual <br> 24 hours | $40\ \mu\text{g/m}^3$ <br> $60\ \mu\text{g/m}^3$ | $40\ \mu\text{g/m}^3$ <br> $60\ \mu\text{g/m}^3$ | Gravimetric / TOEM / Beta attenuation |
+| **Sulphur Dioxide ($\text{SO}_2$)** | Annual <br> 24 hours | $50\ \mu\text{g/m}^3$ <br> $80\ \mu\text{g/m}^3$ | $20\ \mu\text{g/m}^3$ <br> $80\ \mu\text{g/m}^3$ | Improved West and Gaeke / UV fluorescence |
+| **Nitrogen Dioxide ($\text{NO}_2$)** | Annual <br> 24 hours | $40\ \mu\text{g/m}^3$ <br> $80\ \mu\text{g/m}^3$ | $30\ \mu\text{g/m}^3$ <br> $80\ \mu\text{g/m}^3$ | Modified Jacob & Hochheiser (Na-Arsenite) / Chemiluminescence |
+| **Carbon Monoxide ($\text{CO}$)** | **8 hours** <br> **1 hour** | **$2.0\text{ mg/m}^3$ ($2000\ \mu\text{g/m}^3$)** <br> **$4.0\text{ mg/m}^3$ ($4000\ \mu\text{g/m}^3$)** | **$2.0\text{ mg/m}^3$** <br> **$4.0\text{ mg/m}^3$** | Non-Dispersive Infra-Red (NDIR) spectroscopy |
+| **Ozone ($\text{O}_3$)** | 8 hours <br> 1 hour | $100\ \mu\text{g/m}^3$ <br> $180\ \mu\text{g/m}^3$ | $100\ \mu\text{g/m}^3$ <br> $180\ \mu\text{g/m}^3$ | UV Photometric / Chemiluminescence |
+| **Lead ($\text{Pb}$)** | Annual <br> 24 hours | $0.5\ \mu\text{g/m}^3$ <br> $1.0\ \mu\text{g/m}^3$ | $0.5\ \mu\text{g/m}^3$ <br> $1.0\ \mu\text{g/m}^3$ | AAS / ICP method after filter extraction |
+| **Ammonia ($\text{NH}_3$)** | Annual <br> 24 hours | $100\ \mu\text{g/m}^3$ <br> $400\ \mu\text{g/m}^3$ | $100\ \mu\text{g/m}^3$ <br> $400\ \mu\text{g/m}^3$ | Chemiluminescence / Indophenol blue method |
+| **Benzene ($\text{C}_6\text{H}_6$)** | Annual | $5.0\ \mu\text{g/m}^3$ | $5.0\ \mu\text{g/m}^3$ | Gas chromatography based continuous analyzer |
+| **Benzo(a)pyrene ($\text{BaP}$)** | Annual | $1.0\text{ ng/m}^3$ (particulate phase) | $1.0\text{ ng/m}^3$ | Solvent extraction followed by HPLC/GC-MS |
+| **Arsenic ($\text{As}$)** | Annual | $6.0\text{ ng/m}^3$ | $6.0\text{ ng/m}^3$ | AAS / ICP method |
+| **Nickel ($\text{Ni}$)** | Annual | $20\text{ ng/m}^3$ | $20\text{ ng/m}^3$ | AAS / ICP method |
 
 ### Pollutant Formation Mechanisms
 
@@ -443,20 +496,29 @@ Where $L_0$ = methane generation potential, $k$ = decay rate.
 | 8 | Decision-making by regulatory authority |
 | 9 | Post-project monitoring |
 
-### Noise Assessment
+### Noise Pollution Standards (Noise Pollution Regulation and Control Rules, 2000)
 
-| Area | Daytime Limit dB(A) | Nighttime Limit dB(A) |
-|------|---------------------|-----------------------|
-| Industrial | 75 | 70 |
-| Commercial | 65 | 55 |
-| Residential | 55 | 45 |
-| Silence zone | 50 | 40 |
+Under the Environment (Protection) Act, 1986:
 
-**Noise level from point source (inverse square law):**
-$$L_p = L_w - 20 \log_{10}(r) - 11$$
+| Area Code | Category of Area / Zone | Day Time Limit ($L_{eq}$ in dB(A)) <br> (06:00 to 22:00) | Night Time Limit ($L_{eq}$ in dB(A)) <br> (22:00 to 06:00) |
+| :---: | :--- | :---: | :---: |
+| **A** | Industrial Area | **75** | **70** |
+| **B** | Commercial Area | **65** | **55** |
+| **C** | Residential Area | **55** | **45** |
+| **D** | Silence Zone | **50** | **40** |
 
-**Combined noise level:**
-$$L_{total} = 10 \log_{10}\left(\sum 10^{L_i/10}\right)$$
+*Note on Silence Zone:* Defined as an area comprising not less than 100 metres around hospitals, educational institutions, courts, and religious places.
+
+**Equivalent Continuous Sound Level ($L_{eq}$):**
+$$L_{eq} = 10 \log_{10} \left( \sum_{i=1}^n t_i \cdot 10^{L_i/10} \right)$$
+where $t_i$ is the time fraction during which sound level is $L_i\text{ dB(A)}$ ($\sum t_i = 1$).
+
+**Point Source Attenuation (Spherical Spreading):**
+$$L_{p2} = L_{p1} - 20 \log_{10}\left(\frac{r_2}{r_1}\right)$$
+From source sound power level $L_w$: $L_p = L_w - 20 \log_{10}(r) - 11\text{ dB(A)}$.
+
+**Combined Noise Level from Multiple Independent Sources:**
+$$L_{\text{total}} = 10 \log_{10}\left(\sum_{i=1}^m 10^{L_i/10}\right)$$
 
 ---
 

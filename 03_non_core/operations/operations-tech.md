@@ -196,8 +196,8 @@ Resume value: High
 |:----------------|:-----|
 | Data/Analytics Stack | [`data/`](../data-science/data-analytics-stack.md) |
 | SQL | [`programming/sql.md`](../software-engineering/programming/sql.md) |
-| Non-Core Operations | [`03_non_core/operations/operations/`](../../03_non_core/operations/operations/operations-overview.md) |
-| Non-Core Supply Chain | [`03_non_core/operations/supply-chain/`](../../03_non_core/operations/supply-chain/supply-chain-overview.md) |
+| Non-Core Operations | [`03_non_core/operations/operations/`](operations/01_role-overview.md) |
+| Non-Core Supply Chain | [`03_non_core/operations/supply-chain/`](supply-chain/01_role-overview.md) |
 
 ---
 

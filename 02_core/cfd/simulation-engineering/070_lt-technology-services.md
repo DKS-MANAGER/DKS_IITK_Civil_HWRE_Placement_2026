@@ -1,6 +1,6 @@
 # L&T Technology Services (LTTS) — Corporate Placement Profile
 
-> **Target ID:** CORP-070 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
+> **Target ID:** CORP-070 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [UNVERIFIED SOURCE — Primary Registry Not Available in Local Repository]  
 > **Sector Category:** 06_cfd-simulation-engineering | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
 > **Institutional Status:** Target Corporate Outreach [VERIFIED]
 
@@ -10,12 +10,12 @@
 
 | Dimension | Specification | Institutional Notes |
 |---|---|---|
-| **Organization Name** | **L&T Technology Services (LTTS)** | Target Rank #70 in Master Corporate Registry [VERIFIED] |
+| **Organization Name** | **L&T Technology Services (LTTS)** | Estimated Target Index #70 in Master Corporate Registry [VERIFIED] |
 | **Corporate Domain** | ER&D - Fluids & Piping | Classified under sector cluster 06_cfd-simulation-engineering [SOURCE-DERIVED] |
 | **HWRE Alignment** | **Moderate** | Hydrology, hydraulics, water treatment & coastal engineering relevance [PREPARATION HEURISTIC] |
 | **Civil Core Alignment** | **Moderate** | Geotechnical, structural, pipeline & site execution engineering relevance [PREPARATION HEURISTIC] |
 | **CFD / Modelling Alignment** | **High** | Multiphase flows, hydrodynamic simulation, OpenFOAM & GIS spatial analytics [PREPARATION HEURISTIC] |
-| **Recruitment Route** | Campus Active | Placement office tracking & hiring pipeline channel [VERIFIED] |
+| **Recruitment Route** | Campus Active | Estimated industry compensation range [UNVERIFIED - Subject to Official JNF] |
 | **Primary Placement Tier** | **Tier A** | Focus categorization based on compensation, role quality, and hiring consistency [PREPARATION HEURISTIC] |
 
 ---
@@ -42,7 +42,7 @@ Specialist - Fluid Dynamics, CFD & Process Piping
 ### Targeted Preparation Action Items
 1. **Resume Customization**: Highlight specialized course projects (CE641, CE642, CE643) and thesis chapters addressing Specialist - Fluid Dynamics, CFD & Process Piping.
 2. **Technical Interview Defense**: Prepare end-to-end derivation of continuity, momentum, and energy equations; be prepared to sketch velocity profiles and hydraulic jump characteristics on the whiteboard.
-3. **Assessment Preparation**: Complete Sectional Diagnostic Tests in [ptitude/tests/section/](../../../01_common/aptitude/mocks/section-tests/section/) and Topic Diagnostics in [ptitude/tests/](../../../01_common/aptitude/mocks/section-tests/).
+3. **Assessment Preparation**: Complete Sectional Diagnostic Tests in [ptitude/tests/section/](../../../01_common/aptitude/mocks/section-tests/section/) and Topic Diagnostics in [ptitude/tests/](../../../01_common/aptitude/mocks/section-tests/).
 4. **Alumni & Outreach Channel**: Leverage IIT Kanpur placement cell outreach teams and alumni networks active across L&T Technology Services (LTTS) engineering divisions.
 
 ---

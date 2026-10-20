@@ -81,30 +81,48 @@
 
 ## Problem 5: Moment Distribution — Continuous Beam
 
-**Given:** Continuous beam ABC, span AB = 6 m (UDL 20 kN/m), span BC = 4 m (UDL 20 kN/m). EI constant. A fixed, B and C rollers.
+**Given:** Continuous beam ABC, span AB = 6 m (UDL $w = 20$ kN/m), span BC = 4 m (UDL $w = 20$ kN/m). Flexural rigidity $EI$ is constant throughout. Support A is fixed, support B is an interior roller, and support C is an exterior simple roller.
 
-**Find:** End moments using moment distribution.
+**Find:** Final support moments using the Moment Distribution Method (Hardy Cross).
 
-**Method:** Hardy Cross — FEMs, distribution factors, carry-over.
+**Method:** 
+Because exterior support C is a simple roller, the bending moment at C must be identically zero ($M_{CB} = 0$). We utilize the modified stiffness for member BC with far end hinged/roller:
+$$K'_{BC} = \frac{3EI}{L_{BC}}$$
+For member BA, far end A is fixed:
+$$K_{BA} = \frac{4EI}{L_{AB}}$$
 
 **Calculation:**
-1. **FEMs:**
-   - $M_{FAB} = -wL^2/12 = -20 \times 36/12 = -60$ kN·m
-   - $M_{FBA} = +60$ kN·m
-   - $M_{FBC} = -20 \times 16/12 = -26.67$ kN·m
-   - $M_{FCB} = +26.67$ kN·m
-2. **Stiffness:** $K_{BA} = 4EI/6 = 0.667EI$, $K_{BC} = 4EI/4 = 1.0EI$
-3. **Distribution factors at B:** $DF_{BA} = 0.667/(0.667+1.0) = 0.40$, $DF_{BC} = 1.0/1.667 = 0.60$
-4. **Iterate:**
-   - Unbalanced at B: $+60 - 26.67 = +33.33$
-   - Distribute: $M_{BA} = -0.40 \times 33.33 = -13.33$, $M_{BC} = -0.60 \times 33.33 = -20.0$
-   - Carry over: $M_{AB} = -6.67$, $M_{CB} = -10.0$
-   - Continue until convergence
-5. **Final:** $M_{AB} \approx -66.7$ kN·m, $M_{BA} \approx +46.7$ kN·m, $M_{BC} \approx -46.7$ kN·m, $M_{CB} \approx +16.7$ kN·m
+1. **Fixed-End Moments (FEMs):**
+   - $M_{FAB} = -\frac{w L_1^2}{12} = -\frac{20 \times 6^2}{12} = -60.00\text{ kN}\cdot\text{m}$
+   - $M_{FBA} = +\frac{w L_1^2}{12} = +\frac{20 \times 6^2}{12} = +60.00\text{ kN}\cdot\text{m}$
+   - For span BC with simple roller at far end C, the modified initial fixed-end moment at B is:
+     $$M'_{FBC} = -\frac{w L_2^2}{8} = -\frac{20 \times 4^2}{8} = -40.00\text{ kN}\cdot\text{m}$$
+     (Equivalently: standard $M_{FBC} = -20 \times 16/12 = -26.67\text{ kN}\cdot\text{m}$, $M_{FCB} = +26.67\text{ kN}\cdot\text{m}$; releasing joint C applies balancing moment $-26.67\text{ kN}\cdot\text{m}$ at C and carries over $\frac{1}{2}(-26.67) = -13.33\text{ kN}\cdot\text{m}$ to B, yielding $M'_{FBC} = -26.67 - 13.33 = -40.00\text{ kN}\cdot\text{m}$ and $M_{CB} = 0$).
 
-**Answer:** $M_{BA} \approx 46.7$ kN·m, $M_{BC} \approx -46.7$ kN·m
+2. **Rotational Stiffness at Interior Joint B:**
+   - $K_{BA} = \frac{4EI}{6} = \frac{2}{3}EI \approx 0.6667EI$
+   - $K'_{BC} = \frac{3EI}{4} = 0.7500EI$
+   - $\sum K_B = \left(\frac{2}{3} + \frac{3}{4}\right)EI = \frac{17}{12}EI \approx 1.4167EI$
 
-**Trap:** Distribution factors must sum to 1.0 at each joint.
+3. **Distribution Factors ($DF$) at Joint B:**
+   - $DF_{BA} = \frac{K_{BA}}{\sum K_B} = \frac{2/3}{17/12} = \frac{8}{17} \approx 0.4706$
+   - $DF_{BC} = \frac{K'_{BC}}{\sum K_B} = \frac{3/4}{17/12} = \frac{9}{17} \approx 0.5294$
+   - Check: $DF_{BA} + DF_{BC} = \frac{8}{17} + \frac{9}{17} = 1.000$ ✓
+
+4. **Moment Balancing at Joint B:**
+   - Net out-of-balance moment at B: $\sum M_{FB} = M_{FBA} + M'_{FBC} = +60.00 + (-40.00) = +20.00\text{ kN}\cdot\text{m}$
+   - Balancing moment to BA: $\Delta M_{BA} = -DF_{BA} \times (+20.00) = -\frac{8}{17} \times 20.00 = -9.41\text{ kN}\cdot\text{m}$
+   - Balancing moment to BC: $\Delta M_{BC} = -DF_{BC} \times (+20.00) = -\frac{9}{17} \times 20.00 = -10.59\text{ kN}\cdot\text{m}$
+
+5. **Final End Moments:**
+   - $M_{BA} = +60.00 - 9.41 = \mathbf{+50.59\text{ kN}\cdot\text{m}}$
+   - $M_{BC} = -40.00 - 10.59 = \mathbf{-50.59\text{ kN}\cdot\text{m}}$ (satisfies joint equilibrium: $M_{BA} + M_{BC} = 0$)
+   - Carry-over to fixed end A: $M_{AB} = M_{FAB} + \frac{1}{2}(\Delta M_{BA}) = -60.00 + \frac{1}{2}(-9.41) = \mathbf{-64.71\text{ kN}\cdot\text{m}}$
+   - End roller C: $M_{CB} \equiv \mathbf{0.00\text{ kN}\cdot\text{m}}$ (no carry-over because far-end modified stiffness was used)
+
+**Answer:** $M_{AB} = -64.71$ kN·m, $M_{BA} = +50.59$ kN·m, $M_{BC} = -50.59$ kN·m, $M_{CB} = 0.00$ kN·m
+
+**Trap:** Never leave a non-zero bending moment at an exterior simple pin/roller support. Always release the exterior hinge/roller first or use modified stiffness $K' = 3EI/L$ with modified FEM $wL^2/8$.
 
 ---
 
@@ -202,21 +220,49 @@
 
 ---
 
-## Problem 11: Stiffness Matrix Method
+## Problem 11: Direct Stiffness Matrix Method (Spring Assembly)
 
-**Given:** A spring system with two springs in series: $k_1 = 100$ kN/m, $k_2 = 200$ kN/m. Force $P = 50$ kN applied at the free end.
+**Given:** A 1D structural spring system consisting of two elements in series. Node 1 is rigidly fixed ($u_1 = 0$). Spring 1 connects Node 1 to Node 2 with stiffness $k_1 = 100$ kN/m. Spring 2 connects Node 2 to Node 3 with stiffness $k_2 = 200$ kN/m. An external axial force $P = 50$ kN is applied at Node 3 ($F_3 = +50$ kN), with no intermediate force at Node 2 ($F_2 = 0$).
 
-**Find:** Displacement at the free end.
+**Find:** Node displacements $u_2$ and $u_3$ using the Global Stiffness Matrix Method, and verify support reaction $R_1$.
 
-**Method:** Equivalent stiffness $k_{eq} = k_1 k_2/(k_1 + k_2)$.
+**Method:** 
+1. Formulate element stiffness matrices $[k^{(e)}] = \begin{bmatrix} k & -k \\ -k & k \end{bmatrix}$.
+2. Assemble global equilibrium equations $[K]\{u\} = \{F\}$.
+3. Partition and solve the reduced system for unconstrained degrees of freedom.
 
 **Calculation:**
-- $k_{eq} = 100 \times 200/(100 + 200) = 20000/300 = 66.67$ kN/m
-- $\delta = P/k_{eq} = 50/66.67 = 0.75$ m
+1. **Element Stiffness Matrices:**
+   - Element 1 (Nodes 1–2):
+     $$[k^{(1)}] = \begin{bmatrix} 100 & -100 \\ -100 & 100 \end{bmatrix}\text{ kN/m}$$
+   - Element 2 (Nodes 2–3):
+     $$[k^{(2)}] = \begin{bmatrix} 200 & -200 \\ -200 & 200 \end{bmatrix}\text{ kN/m}$$
 
-**Answer:** $\delta = 0.75$ m
+2. **Global Stiffness Assembly:**
+   $$\begin{bmatrix} K_{11} & K_{12} & K_{13} \\ K_{21} & K_{22} & K_{23} \\ K_{31} & K_{32} & K_{33} \end{bmatrix} \begin{Bmatrix} u_1 \\ u_2 \\ u_3 \end{Bmatrix} = \begin{Bmatrix} F_1 \\ F_2 \\ F_3 \end{Bmatrix}$$
+   $$\begin{bmatrix} 100 & -100 & 0 \\ -100 & (100 + 200) & -200 \\ 0 & -200 & 200 \end{bmatrix} \begin{Bmatrix} u_1 \\ u_2 \\ u_3 \end{Bmatrix} = \begin{Bmatrix} R_1 \\ 0 \\ 50 \end{Bmatrix}$$
 
-**Trap:** Springs in series combine like resistors in parallel (reciprocal sum).
+3. **Boundary Condition & Reduced System:**
+   Applying fixed support at Node 1 ($u_1 = 0$), eliminate row 1 and column 1:
+   $$\begin{bmatrix} 300 & -200 \\ -200 & 200 \end{bmatrix} \begin{Bmatrix} u_2 \\ u_3 \end{Bmatrix} = \begin{Bmatrix} 0 \\ 50 \end{Bmatrix}$$
+
+4. **Matrix Inversion & Solution:**
+   - Determinant $\det([K_{\text{red}}]) = (300)(200) - (-200)(-200) = 60,000 - 40,000 = 20,000\text{ (kN/m)}^2$
+   - Inverse matrix:
+     $$[K_{\text{red}}]^{-1} = \frac{1}{20,000} \begin{bmatrix} 200 & 200 \\ 200 & 300 \end{bmatrix}\text{ m/kN}$$
+   - Displacements:
+     $$\begin{Bmatrix} u_2 \\ u_3 \end{Bmatrix} = \frac{1}{20,000} \begin{bmatrix} 200 & 200 \\ 200 & 300 \end{bmatrix} \begin{Bmatrix} 0 \\ 50 \end{Bmatrix} = \frac{1}{20,000} \begin{Bmatrix} 10,000 \\ 15,000 \end{Bmatrix} = \begin{Bmatrix} 0.50\text{ m} \\ 0.75\text{ m} \end{Bmatrix}$$
+   - $u_2 = 0.50\text{ m} = 500\text{ mm}$ (displacement at intermediate node)
+   - $u_3 = 0.75\text{ m} = 750\text{ mm}$ (free-end displacement)
+
+5. **Equilibrium & Support Reaction Check:**
+   - Row 1: $R_1 = 100(u_1) - 100(u_2) + 0(u_3) = 0 - 100(0.50) = -50\text{ kN}$
+   - Global equilibrium: $R_1 + F_3 = -50 + 50 = 0$ ✓
+   - Equivalent spring cross-check: $k_{eq} = \frac{k_1 k_2}{k_1 + k_2} = \frac{20000}{300} = 66.67\text{ kN/m} \implies u_3 = \frac{P}{k_{eq}} = \frac{50}{66.67} = 0.75\text{ m}$ ✓
+
+**Answer:** Node 2 displacement $u_2 = 0.50$ m (500 mm); Free-end displacement $u_3 = 0.75$ m (750 mm); Reaction $R_1 = -50$ kN
+
+**Trap:** Never confuse equivalent scalar spring formulas with matrix formulation. Matrix analysis requires element stiffness generation, topological connectivity mapping, boundary condition partitioning, and system inversion.
 
 ---
 
@@ -306,13 +352,13 @@
 | 2 | $D_s = 0$ (determinate) |
 | 3 | $D_k = 6$ |
 | 4 | $M_{FAB} = -45$, $M_{FBA} = +45$ kN·m |
-| 5 | $M_{BA} \approx 46.7$, $M_{BC} \approx -46.7$ kN·m |
+| 5 | $M_{AB} = -64.71$, $M_{BA} = +50.59$, $M_{BC} = -50.59$, $M_{CB} = 0.00$ kN·m |
 | 6 | $R_A = 0.6$ |
 | 7 | $M_{max} = 690$ kN·m |
 | 8 | $M_{AB} = -60$, $M_{BA} = +60$ kN·m |
 | 9 | Triangular ILD, peak 2.4 m |
 | 10 | $P_u = 133.3$ kN |
-| 11 | $\delta = 0.75$ m |
+| 11 | $u_2 = 0.50$ m (500 mm), $u_3 = 0.75$ m (750 mm), $R_1 = -50$ kN |
 | 12 | $\delta = 32$ mm |
 | 13 | $V_{max} = 49$ kN |
 | 14 | $M_B = -66$ kN·m |

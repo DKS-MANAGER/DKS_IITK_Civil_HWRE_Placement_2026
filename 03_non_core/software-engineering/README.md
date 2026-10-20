@@ -6,7 +6,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Gartner, ZS Associates (DTA), ThoughtWorks, Cognizant Strategy, Capgemini Invent, Deloitte Tech Strategy
-- **Typical CTC Range**: 10 LPA - 22 LPA
+- **Typical CTC Benchmark**: ~₹10–22 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma]
 - **Department Eligibility**: B.Tech / M.Tech engineering branches.
 - **Core Skills Tested**: High-Level System Design, API Contracts (REST/gRPC), Database Selection (SQL vs NoSQL), Cloud Migration Strategy, Microservices
 

@@ -12,7 +12,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Procter & Gamble, Unilever (HUL), ITC, Tata Steel, Reliance Industries, L'Oréal, JSW, Schneider Electric
-- **Typical CTC Range**: 12 LPA - 24 LPA
+- **Typical CTC Benchmark**: ~₹12–24 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma]
 - **Department Eligibility**: B.Tech / M.Tech engineering branches (Civil engineering strongly valued for plant, site, and infrastructure logistics).
 - **Core Skills Tested**: Little's Law, Capacity Bottleneck Relief, Economic Order Quantity (EOQ), Six Sigma DMAIC, OEE Metrics, Plant Safety
 
@@ -40,6 +40,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+- [02 Interview Preparation](../../../05_interview/)
+- [03 Common Skills](../../../01_common/)
+- [04 Career Preparation](../../../01_common/resume/career-preparation/)

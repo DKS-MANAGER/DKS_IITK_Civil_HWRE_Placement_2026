@@ -12,49 +12,98 @@ Geotechnical engineering applies soil mechanics and rock mechanics to the design
 
 ### Soil Properties & Classification
 
-| Property | Test | Use |
-|----------|------|-----|
-| Grain-size distribution | Sieve + hydrometer | Classification, permeability estimation |
-| Liquid limit (LL) | Casagrande cup | Consistency, compressibility |
-| Plastic limit (PL) | Roll test | Consistency |
-| Plasticity index | PI = LL − PL | Clay behavior, A-line classification |
-| Water content | Oven drying | Phase relationships |
+### Soil Properties & Classification
 
-**USCS Classification:**
+| Property | Test / Standard | Engineering Significance |
+| :--- | :--- | :--- |
+| **Grain-Size Distribution** | Sieve analysis (IS 2720 Part 4 / ASTM D422) + Hydrometer | Soil classification, permeability estimation, filter design |
+| **Liquid Limit ($LL$)** | Casagrande cup (25 blows) or Cone Penetrometer | Consistency boundary between liquid and plastic states |
+| **Plastic Limit ($PL$)** | 3 mm soil thread crumbling test | Consistency boundary between plastic and semi-solid states |
+| **Plasticity Index ($PI$)** | $PI = LL - PL$ | Range of plastic behavior, compressibility indicator |
+| **Shrinkage Limit ($SL$)** | Mercury displacement / wax method | Boundary below which volume does not change with drying |
+| **Water Content ($w$)** | Oven drying at $105^\circ\text{C}\text{--}110^\circ\text{C}$ | Fundamental state parameter for phase relationships |
 
-| Group | Symbol | Criteria |
-|-------|--------|----------|
-| Gravel | GW, GP | >50% retained on No.4 |
-| Sand | SW, SP | >50% passes No.4, >50% coarse |
-| Silt | ML, MH | Passes No.200, PI < 7 or LL > 50 |
-| Clay | CL, CH | Passes No.200, PI > 7, above A-line |
-| Organic | OL, OH, PT | High organic content |
+### Unified Soil Classification System (USCS / IS 1498:1970) Flowchart
+
+```text
+                               Total Soil Sample
+                                      │
+                 Sieve through No. 200 sieve (75 μm / 0.075 mm)
+                                      │
+            ┌─────────────────────────┴─────────────────────────┐
+    ≥ 50% retained on No. 200                         > 50% passes No. 200
+  ┌─────────┴─────────┐                                         │
+COARSE-GRAINED SOILS                                   FINE-GRAINED SOILS
+  │                                                             │
+Passes No. 4 (4.75 mm) sieve?                        Plasticity Chart (LL vs PI)
+  │                                                             │
+  ├─ ≥ 50% of coarse fraction retained on No. 4 ──► GRAVEL (G)   ├─ PI > 0.73(LL - 20) (Above A-line) ──► CLAY (C)
+  │                                                             │  ├─ LL < 35% ──► CL (Low plasticity)
+  └─ > 50% of coarse fraction passes No. 4     ──► SAND (S)     │  ├─ 35% ≤ LL ≤ 50% ──► CI (Intermediate, IS code)
+                                                                │  └─ LL > 50% ──► CH (High plasticity / Fat clay)
+Gradation & Fines for Gravels & Sands:                          │
+  • < 5% fines:                                                 ├─ PI < 0.73(LL - 20) (Below A-line) ──► SILT (M) / ORGANIC (O)
+    - GW: Cu ≥ 4 and 1 ≤ Cc ≤ 3                                 │  ├─ LL < 35% ──► ML / OL
+    - GP: Fails GW criteria                                     │  ├─ 35% ≤ LL ≤ 50% ──► MI / OI
+    - SW: Cu ≥ 6 and 1 ≤ Cc ≤ 3                                 │  └─ LL > 50% ──► MH / OH
+    - SP: Fails SW criteria                                     │
+  • 5% to 12% fines: Dual symbols (e.g., GW-GC, SP-SM)          └─ Dual Zone (4 ≤ PI ≤ 7 and 12 ≤ LL ≤ 30):
+  • > 12% fines: Governed by A-line plasticity (GM, GC, SM, SC)    CL-ML (Silty clay)
+```
 
 ### Phase Relationships
-$$e = \frac{V_v}{V_s}, \quad n = \frac{V_v}{V}, \quad S = \frac{V_w}{V_v}$$
-$$Se = wG_s, \quad \gamma_{bulk} = \frac{G_s + Se}{1+e}\gamma_w, \quad \gamma_{dry} = \frac{G_s}{1+e}\gamma_w$$
+$$e = \frac{V_v}{V_s}, \quad n = \frac{V_v}{V} = \frac{e}{1+e}, \quad S = \frac{V_w}{V_v}$$
+$$S \cdot e = w \cdot G_s$$
+$$\gamma_{\text{bulk}} = \frac{G_s + S \cdot e}{1+e}\gamma_w, \quad \gamma_{\text{dry}} = \frac{G_s}{1+e}\gamma_w = \frac{\gamma_{\text{bulk}}}{1+w}$$
+$$\gamma_{\text{sub}} = \gamma_{\text{sat}} - \gamma_w = \frac{G_s - 1}{1+e}\gamma_w$$
+
+---
 
 ### Permeability & Seepage
 
-**Darcy's law:** $v = ki$ (discharge velocity), $q = kiA$
+#### Darcy's Law: Discharge Velocity vs. Seepage Velocity
+Darcy's law gives the **discharge velocity** (also known as superficial velocity or Darcy flux):
+$$v = \frac{q}{A} = k \cdot i$$
+where $q$ is total flow rate, $A$ is the total cross-sectional area of soil (solids + voids), $k$ is the coefficient of permeability, and $i = \Delta h / L$ is the hydraulic gradient.
 
-**Constant head test:** $k = \frac{QL}{Aht}$
+However, water cannot flow through solid mineral grains; it flows exclusively through the interconnected pore channels. The true microscopic velocity of water through the pore channels is the **seepage velocity ($v_s$)**:
+$$v_s = \frac{q}{A_v} = \frac{q}{n \cdot A} = \frac{v}{n} = v \left(\frac{1 + e}{e}\right)$$
+Since porosity $n < 1$ (typically $0.25 - 0.50$), **$v_s$ is always strictly greater than $v$** (typically 2 to 4 times higher).
+- **Placement Impact:** In contaminant transport, piping calculations, and transient seepage, $v_s$ must be used, not $v$!
 
-**Falling head test:** $k = \frac{aL}{At}\ln\frac{h_1}{h_2}$
+#### Laboratory Permeability Determination:
+- **Constant Head Permeameter (for coarse-grained cohesionless soils, $k > 10^{-4}$ cm/s):**
+  $$k = \frac{Q \cdot L}{A \cdot h \cdot t}$$
+- **Falling (Variable) Head Permeameter (for fine-grained cohesive soils, $k < 10^{-4}$ cm/s):**
+  $$k = \frac{a \cdot L}{A \cdot t} \ln\left(\frac{h_1}{h_2}\right) = 2.303 \frac{a \cdot L}{A \cdot t} \log_{10}\left(\frac{h_1}{h_2}\right)$$
+  *(where $a$ = standpipe area, $A$ = soil specimen area, $L$ = sample length, $h_1, h_2$ = initial and final heads over elapsed time $t$).*
 
-**Flow nets:**
-- Equipotential lines and flow lines form curvilinear squares
-- $q = kH\frac{N_f}{N_d}$ (seepage quantity)
-- Uplift pressure at any point = $\gamma_w \times$ (remaining head)
+#### Flow Nets & Seepage Quantity:
+- Flow lines and equipotential lines intersect orthogonally to form curvilinear squares ($\Delta x \approx \Delta y$).
+- Total seepage discharge: $q = k \cdot H \cdot \frac{N_f}{N_d}$
+- Critical hydraulic gradient for boiling/quicksand condition:
+  $$i_{cr} = \frac{\gamma_{\text{sub}}}{\gamma_w} = \frac{G_s - 1}{1 + e} \approx \frac{2.65 - 1}{1 + 0.65} \approx 1.0$$
+- Factor of safety against piping: $FOS = i_{cr} / i_{\text{exit}} \ge 4\text{--}5$.
 
-### Compaction
+---
 
-| Test | Energy | Purpose |
-|------|--------|---------|
-| Standard Proctor | 2.6 kN·m/L | Baseline compaction |
-| Modified Proctor | 5.5 kN·m/L | High compaction requirement |
+### Soil Compaction: Relative Density vs. Relative Compaction
 
-**Key relationship:** $\gamma_d = f(w)$ curve → peak at OMC (Optimum Moisture Content)
+It is vital to distinguish between **Relative Density** and **Relative Compaction**:
+
+| Parameter | Relative Density (Density Index, $I_D$ or $D_r$) | Relative Compaction ($RC$) |
+| :--- | :--- | :--- |
+| **Applicable Soils** | **Exclusively Cohesionless Soils** (gravels, clean sands) | **All Soil Types** (cohesive soils, clays, silts, fills, subgrades) |
+| **Physical Definition** | Proximity of soil void ratio to its densest state | Ratio of field dry density to laboratory peak dry density |
+| **Governing Formula** | $I_D = \frac{e_{\max} - e}{e_{\max} - e_{\min}} \times 100\% = \frac{\gamma_{d,\max}(\gamma_d - \gamma_{d,\min})}{\gamma_d(\gamma_{d,\max} - \gamma_{d,\min})} \times 100\%$ | $RC = \frac{\gamma_{d,\text{field}}}{\gamma_{d,\max,\text{lab}}} \times 100\%$ |
+| **Typical Range** | $0\%\text{ (loosest possible)}$ to $100\%\text{ (densest possible)}$ | Typically $90\%\text{--}102\%$ (rarely drops below $80\%$) |
+| **Field Specification** | Used for liquefaction susceptibility, pile capacity in sand | Standard compaction control (e.g., $RC \ge 95\%$ of MDD per MoRTH) |
+| **Interrelationship** | Lee & Singh empirical equation for granular soils: $RC \approx 80 + 0.20 I_D$ (e.g., if $I_D = 75\%$, $RC \approx 95\%$) |
+
+#### Compaction Energy Standards:
+- **Standard Proctor (IS 2720 Part 7):** $2.6\text{ kg}$ rammer, $310\text{ mm}$ drop, 3 layers, 25 blows/layer $\implies \text{Energy} \approx 593\text{ kJ/m}^3$.
+- **Modified Proctor (IS 2720 Part 8):** $4.9\text{ kg}$ rammer, $450\text{ mm}$ drop, 5 layers, 25 blows/layer $\implies \text{Energy} \approx 2696\text{ kJ/m}^3$ (approx. $4.55\times$ Standard Proctor).
+- As compaction energy increases: Maximum Dry Density ($\gamma_{d,\max}$) **increases**, while Optimum Moisture Content ($OMC$) **decreases**.
 
 ### Consolidation — Terzaghi's Theory
 

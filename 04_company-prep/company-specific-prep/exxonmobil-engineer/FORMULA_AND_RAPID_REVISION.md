@@ -62,17 +62,54 @@
 
 ---
 
-### Mechanics of Materials & Thermodynamics
-* **Thin-Walled Pressure Vessel Hoop Stress ($D/t \ge 20$):**
-  $$\sigma_h = \frac{P_i D}{2 t}, \quad \sigma_L = \frac{P_i D}{4 t} = \frac{1}{2}\sigma_h$$
+### Strength of Materials & Broad Civil Engineering Core
+* **Flexural Bending & Torsion Formulas:**
+  $$\frac{M}{I} = \frac{\sigma}{y} = \frac{E}{R}, \quad \frac{T}{J} = \frac{\tau}{r} = \frac{G \theta}{L}$$
+  - Solid rectangular beam: $Z_e = \frac{b d^2}{6}$, $Z_p = \frac{b d^2}{4}$, Shape factor $S = 1.50$.
+  - Solid circular shaft: $Z_p = \frac{\pi D^3}{12}$, $\tau_{\max} = \frac{16 T}{\pi D^3}$.
+* **Standard Beam Deflections:**
+  - Cantilever with tip point load $P$: $\delta_{\max} = \frac{P L^3}{3 E I}$, $\theta = \frac{P L^2}{2 E I}$.
+  - Cantilever with full UDL $w$: $\delta_{\max} = \frac{w L^4}{8 E I}$, $\theta = \frac{w L^3}{6 E I}$.
+  - Simply supported with central load $P$: $\delta_{\max} = \frac{P L^3}{48 E I}$.
+  - Simply supported with full UDL $w$: $\delta_{\max} = \frac{5 w L^4}{384 E I}$.
+* **Thin-Walled Cylinders & Combined Pressure Stresses:**
+  $$\sigma_h = \frac{P_i D}{2 t}, \quad \sigma_L = \frac{P_i D}{4 t}$$
+  - Restrained axial pipe stress: $\sigma_{\text{axial}} = \nu \sigma_h - E \alpha_T \Delta T \pm \frac{M}{Z}$.
 * **Mohr's Circle Principal Stresses (Plane Stress):**
   $$\sigma_{1,2} = \frac{\sigma_x + \sigma_y}{2} \pm \sqrt{\left(\frac{\sigma_x - \sigma_y}{2}\right)^2 + \tau_{xy}^2}, \quad \tau_{\max} = \frac{\sigma_1 - \sigma_2}{2}$$
+* **Reinforced Concrete Design (IS 456:2000):**
+  - Concrete modulus: $E_c = 5000 \sqrt{f_{ck}}$.
+  - Limiting neutral axis: $x_{u,\max} = 0.53 d$ (Fe250), $0.48 d$ (Fe415), $0.46 d$ (Fe500).
+  - Balanced moment capacity: $M_{u,\lim} = 0.138 f_{ck} b d^2$ (Fe415).
+* **Structural Steel Design (IS 800:2007):**
+  - Fillet weld effective throat thickness: $t_e = 0.707 s$.
+  - Bolt shear capacity: $V_{dsb} = \frac{f_u A_{nb}}{\sqrt{3} \gamma_{mb}}$.
+  - Euler column buckling: $P_{cr} = \frac{\pi^2 E I}{(K L)^2}$.
+* **Geotechnical & Foundation Engineering:**
+  - Phase identity: $S_r e = w G_s$, Bulk unit weight: $\gamma = \frac{G_s + S_r e}{1 + e} \gamma_w$.
+  - Effective vertical stress: $\sigma' = \sigma - u$.
+  - Terzaghi strip footing bearing capacity: $q_u = c N_c + \gamma D_f N_q + 0.5 \gamma B N_\gamma$.
+  - 1D Consolidation time factor: $T_v = \frac{c_v t}{d^2}$ ($d = H/2$ for 2-way, $d = H$ for 1-way).
+* **Transportation & Surveying:**
+  - Stopping Sight Distance: $SSD = v t + \frac{v^2}{2 g f}$.
+  - Equilibrium super-elevation: $e = \frac{V^2}{127 R}$ (metric, $V$ in km/h).
+  - True bearing: $\text{True Bearing} = \text{Magnetic Bearing} \pm \text{Declination}$ ($+$ for East, $-$ for West).
+* **Environmental Engineering:**
+  - First-order BOD: $\mathrm{BOD}_t = L_0 (1 - e^{-k t})$.
+  - Clarifier surface overflow rate: $v_0 = \frac{Q}{A_s}$.
+
+---
+
+### Thermodynamics & Energy Conversion
+* **Steady-Flow Compressor Power (Compressible Gas, Ideal Gas):**
+  $$\dot{W}_{\text{comp}} = \dot{m}(h_2 - h_1) = \dot{m} c_p (T_2 - T_1) = \frac{\dot{m} c_p T_1}{\eta_{\text{isen}}} \left[\left(\frac{P_2}{P_1}\right)^{(\gamma-1)/\gamma} - 1\right]$$
+* **Liquid Pump Shaft Power (Incompressible Fluid):**
+  $$\dot{W}_{\text{pump}} = \frac{Q \Delta P}{\eta_{\text{pump}}} = \frac{\rho g Q H}{\eta_{\text{pump}}}$$
 * **Carnot Maximum Cycle Efficiency:**
   $$\eta_{\text{Carnot}} = 1 - \frac{T_L}{T_H} \quad (\text{Strictly in Kelvin!})$$
-* **Steady-Flow Energy Equation (SFEE, Compressor/Pump):**
-  $$\dot{W}_{\text{in}} = \dot{m} (h_2 - h_1) \approx \dot{m} c_p (T_2 - T_1)$$
 * **Heat Exchanger LMTD:**
   $$\Delta T_{lm} = \frac{\Delta T_1 - \Delta T_2}{\ln(\Delta T_1 / \Delta T_2)}$$
+  - True Counter-flow: $\Delta T_1 = T_{h,\text{in}} - T_{c,\text{out}}$, $\Delta T_2 = T_{h,\text{out}} - T_{c,\text{in}}$.
 
 ---
 
@@ -123,3 +160,11 @@ Before clicking start on your assessment or entering the interview room, review 
 8. **Exner Sediment Conservation:** If sediment transport accelerates downstream ($\frac{\partial q_s}{\partial x} > 0$), bed scours ($\frac{\partial z_b}{\partial t} < 0$).
 9. **Hierarchy of Safety Controls:** Elimination $\to$ Substitution $\to$ Engineering Controls $\to$ Administrative Controls $\to$ PPE.
 10. **Stop-Work Authority:** Any individual on site has the absolute obligation to immediately stop any operation perceived as unsafe.
+
+---
+
+## Sources
+* **Civil Engineering Codes:** IS 456:2000, IS 800:2007, IRC:73-1980.
+* **Fluid Mechanics & Open Channel Hydraulics:** White, F. M., *Fluid Mechanics*, McGraw-Hill; Chow, V. T., *Open-Channel Hydraulics*, McGraw-Hill; Subramanya, K., *Flow in Open Channels*.
+* **Thermodynamics & Heat Transfer:** Cengel, Y. A., & Boles, M. A., *Thermodynamics: An Engineering Approach*; Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer*.
+* **Aptitude & Competitive Math Standards:** IndiaBIX Aptitude & Engineering Reference Directory ([https://www.indiabix.com/](https://www.indiabix.com/)).

@@ -12,7 +12,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Flipkart, Uber, Ola, Delhivery, Zepto, Blinkit, Urban Company, Swiggy, Amazon
-- **Typical CTC Range**: 11 LPA - 22 LPA
+- **Typical CTC Benchmark**: ~₹11–22 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma]
 - **Department Eligibility**: B.Tech / M.Tech all branches.
 - **Core Skills Tested**: Process Optimization, BPMN Workflows, Unit Economics (Contribution Margin), Vendor SLA Governance, Root-Cause Analysis
 
@@ -40,6 +40,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+- [02 Interview Preparation](../../../05_interview/)
+- [03 Common Skills](../../../01_common/)
+- [04 Career Preparation](../../../01_common/resume/career-preparation/)
