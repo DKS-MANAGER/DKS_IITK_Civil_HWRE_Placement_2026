@@ -9,9 +9,13 @@
 
 > [!WARNING]
 > ### CRITICAL RECRUITMENT STATUS & EXAM-EVE NOTICE
-> * **Exact Assessment Format is Unverified:** The specific assessment platform (e.g., Wheebox, Mercer Mettl, SHL, HackerRank), total question count, sectional time limits, subject weightings, and score cutoffs for tomorrow's placement assessment (22 October 2026) are **UNVERIFIED**. The active IIT Kanpur Student Placement Office (SPO) Proforma (#6130) is session-restricted behind student LDAP authentication and cannot be accessed independently.
-> * **Historical Candidate Benchmark (Not an Authoritative Syllabus):** A historical 2018–19 Anna University campus report for Mechanical Engineering recorded a 90-minute screening test consisting of a 60-question Aptitude section (60 mins) and a 30-question Technical section (30 mins). While this indicates that ExxonMobil campus drives typically evaluate both quantitative aptitude and engineering fundamentals, this historical report must **not** be treated as a confirmed syllabus for IIT Kanpur Civil/HWRE candidates.
-> * **Balanced Strategy for Tonight:** Prepare broadly across core Civil Engineering fundamentals (SOM, Structures, RCC, Steel, Geotech, Surveying, Environmental), Hydraulics & Water Resources Engineering (HWRE), speed quantitative aptitude, and your own academic research/thesis.
+> * **Invitation Specifies "Psychometric Test":** When your official invitation email specifies a **"psychometric test"**, it denotes a structured behavioral/personality inventory combined with situational judgment and/or timed cognitive ability modules (numerical data interpretation, verbal deduction, abstract reasoning).
+> * **No Universal Aptitude Paper:** ExxonMobil does not administer a single universal test format across all roles and campuses. The screening mix adapts by job family and assessment platform (e.g., Aon, SHL, Mercer Mettl, Wheebox).
+> * **Recent Campus Evidence:** A recent NIT Warangal GET campus report (August 2026) confirmed an initial **online behavioral/psychometric assessment** followed by an aptitude/technical test and interviews. A premier campus engineering report (November 2024) recorded an Aon-hosted test with 60 aptitude questions (Quant, English, Logic, DI) and 30 technical questions.
+> * **Strategic Action for Tonight:** Stop studying basic arithmetic theory in isolation. Prioritize:
+>   1. **Behavioral & Personality Assessment:** Answering honestly and consistently with an uncompromising focus on **safety leadership (Stop-Work Authority), procedural compliance, and ethical data integrity** in [APTITUDE_AND_PSYCHOMETRIC_PREP.md](APTITUDE_AND_PSYCHOMETRIC_PREP.md).
+>   2. **Timed Data Interpretation & Verbal Inference:** Practicing multi-column tables, variance analysis, and *True/False/Cannot Say* deductive logic in [APTITUDE_AND_PSYCHOMETRIC_PREP.md](APTITUDE_AND_PSYCHOMETRIC_PREP.md).
+>   3. **Core Civil & HWRE Engineering:** High-yield equations and principles in [FORMULA_AND_RAPID_REVISION.md](FORMULA_AND_RAPID_REVISION.md) and [CIVIL_CORE_FUNDAMENTALS.md](CIVIL_CORE_FUNDAMENTALS.md).
 
 ---
 
@@ -31,8 +35,8 @@ If you have only this evening to prepare before tomorrow's exam, focus strictly 
 | 2      | Core Civil Engineering Fundamentals   | High-yield review in [CIVIL_CORE_FUNDAMENTALS.md] &    |
 |        | (60 mins)                             | solve 10 problems in [CIVIL_CORE_WORKBOOK.md]          |
 +--------+---------------------------------------+--------------------------------------------------------+
-| 3      | Quantitative Aptitude & Speed Drills  | Practice mental shortcuts in                           |
-|        | (45 mins)                             | [COMMON_ENGINEERING_AND_APTITUDE.md]                   |
+| 3      | Psychometric, SJT & Data Reasoning    | Practice 10 SJT scenarios & DI sets in                 |
+|        | (45 mins)                             | [APTITUDE_AND_PSYCHOMETRIC_PREP.md]                    |
 +--------+---------------------------------------+--------------------------------------------------------+
 | 4      | Energy Operations & Safety Principles | Review OIMS, SWA, and HAZOP concepts in                |
 |        | (30 mins)                             | [OIL_GAS_SAFETY_OPERATIONS.md]                         |
@@ -50,8 +54,10 @@ If you have only this evening to prepare before tomorrow's exam, focus strictly 
    - **SOM / Mechanics:** Mohr's circle center ($\sigma_{\text{avg}} = (\sigma_x + \sigma_y)/2$) and radius ($\tau_{\max}$), principal stresses, thin-cylinder hoop stress ($\sigma_h = P D / (2t)$), and Euler buckling load limitations ($P_{\text{cr}} = \pi^2 E I / L_e^2$) in [CIVIL_CORE_FUNDAMENTALS.md Section 1](CIVIL_CORE_FUNDAMENTALS.md#section-1-engineering-mechanics--strength-of-materials-som).
    - **RCC & Steel:** IS 456 limiting depth of neutral axis ($x_{u,\max}/d = 0.53, 0.48, 0.46$), development length bond factor ($60\%$ increase for HYSD bars), and IS 800 net effective area with staggered bolt holes in [CIVIL_CORE_FUNDAMENTALS.md Sections 3 & 4](CIVIL_CORE_FUNDAMENTALS.md#section-3-rcc--concrete-technology).
    - **Geotechnical & Environmental:** Phase relations ($S e = w G_s$), effective stress principle, Terzaghi bearing capacity, and Streeter-Phelps critical dissolved oxygen deficit time in [CIVIL_CORE_FUNDAMENTALS.md Sections 5 & 9](CIVIL_CORE_FUNDAMENTALS.md#section-5-geotechnical-engineering--foundations).
-3. **Quantitative Aptitude Drills (45 mins):**
-   - Speed arithmetic: Work-rate and pipes & cisterns (inlet/outlet rate balancing), mixture alligation rule, time-speed-distance (wave and celerity calculations), and percentage approximations in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md#module-b5-quantitative-aptitude--numerical-reasoning).
+3. **Psychometric, Situational Judgment & Data Interpretation (45 mins):**
+   - **Situational Judgment:** Review the 10 representative industrial scenarios in [APTITUDE_AND_PSYCHOMETRIC_PREP.md Section 3](APTITUDE_AND_PSYCHOMETRIC_PREP.md#3-priority-1b-situational-judgment-tests-sjt--10-worked-scenarios). Internalize the golden rule: safety and procedural compliance always override schedule and convenience.
+   - **Data Interpretation & Verbal Logic:** Work through dense table interpretation and *True / False / Cannot Say* deduction in [APTITUDE_AND_PSYCHOMETRIC_PREP.md Sections 4 & 5](APTITUDE_AND_PSYCHOMETRIC_PREP.md#4-priority-2-numerical-reasoning--industrial-data-interpretation-8-worked-sets).
+   - **Aptitude Shortcuts:** Review speed mental calculations in [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md#module-b5-quantitative-aptitude--numerical-reasoning).
 4. **Energy Operations & Safety Fundamentals (30 mins):**
    - Review Operations Integrity Management System (OIMS) principles, Stop-Work Authority (SWA), personal safety vs. process safety, and the Hierarchy of Controls in [OIL_GAS_SAFETY_OPERATIONS.md](OIL_GAS_SAFETY_OPERATIONS.md).
 5. **Personal Thesis / Project Defense (40 mins):**
@@ -73,6 +79,7 @@ All study and practice resources are self-contained within this directory:
 | [CIVIL_CORE_WORKBOOK.md](CIVIL_CORE_WORKBOOK.md) | 56 original graded Civil questions (`CE-SOM-001` to `CE-CON-056`) with step-by-step solutions. | Civil Practice Drill |
 | [STUDY_GUIDE.md](STUDY_GUIDE.md) | In-depth HWRE guide: Fluids, open-channel flow, hydrology, sediment/scour, and CFD/FVM fundamentals. | Technical Depth (HWRE) |
 | [TECHNICAL_WORKBOOK_CIVIL_HWRE.md](TECHNICAL_WORKBOOK_CIVIL_HWRE.md) | 12 multi-step HWRE problems (pipe networks, water hammer, jumps, HEC-18 scour, Exner equation). | HWRE Practice Drill |
+| [APTITUDE_AND_PSYCHOMETRIC_PREP.md](APTITUDE_AND_PSYCHOMETRIC_PREP.md) | **Dedicated Psychometric & SJT Guide:** 10 Situational Judgment Scenarios, 8 Industrial Data Interpretation sets, True/False/Cannot Say verbal logic, and Aon/SHL abstract reasoning. | **Psychometric & Aptitude Exam** |
 | [COMMON_ENGINEERING_AND_APTITUDE.md](COMMON_ENGINEERING_AND_APTITUDE.md) | Cross-disciplinary thermodynamics, heat transfer, materials, instrumentation, and speed aptitude drills. | Aptitude & Cross-Discipline |
 | [OIL_GAS_SAFETY_OPERATIONS.md](OIL_GAS_SAFETY_OPERATIONS.md) | Flow assurance, marine facilities, tank dyke sizing, OIMS framework, HAZOP, and LOPA risk analysis. | Energy Operations & Safety |
 | [QUESTION_BANK.md](QUESTION_BANK.md) | Graded practice questions (Levels 1–3) across all tracks with separated answer keys. | Comprehensive Practice |

@@ -71,6 +71,44 @@ In compliance with repository evidence standards, every factual claim, syllabus 
 
 ---
 
+
+### Source Record 5: NIT Warangal GET Campus Placement Report (August 2026)
+* **Source:** Candidate-reported recruitment debrief (NIT Warangal, August 2026 cycle).
+* **Role:** Graduate Engineering Trainee (GET).
+* **Reported Sequence:**
+  1. **Stage 1 (Online Behavioral Assessment):** Initial psychometric / situational judgment assessment evaluating workplace behavioral traits, safety alignment, and consistency.
+  2. **Stage 2 (Online Assessment):** Timed cognitive aptitude test (numerical reasoning, verbal ability, logical deduction) combined with core engineering technical questions.
+  3. **Stage 3 (Group Discussion / Technical Presentation):** Team-based engineering problem solving and communication.
+  4. **Stage 4 (Interviews):** Technical panel interview and HR/behavioral evaluation.
+* **Integrity Status:** `[CANDIDATE-REPORTED]` — Recent and highly relevant benchmark, but specific to NIT Warangal and not an authoritative guarantee of the exact IIT Kanpur sequence.
+
+---
+
+### Source Record 6: Indian Campus Placement Report (November 2024 — Aon Platform)
+* **Source:** Anonymous premier campus candidate placement report (November 2024).
+* **Assessment Vendor:** **Aon (CoCubes)** assessment suite.
+* **Reported Format:**
+  - **Aptitude Section:** 60 questions in 60 minutes covering Quantitative Aptitude, English Verbal Ability, Logical Reasoning, and Data Interpretation.
+  - **Technical Section:** 30 questions in 30 minutes focusing on core engineering fundamentals.
+* **Integrity Status:** `[CANDIDATE-REPORTED]` — Corroborates the 60Q Aptitude / 30Q Technical structure and identifies Aon as a key corporate testing partner.
+
+---
+
+### Source Record 7: VNIT Nagpur Placement Experience (IndiaBIX ID-6826)
+* **Source:** IndiaBIX Campus Placement Repository ([https://www.indiabix.com/placement-papers/exxon-mobil/](https://www.indiabix.com/placement-papers/exxon-mobil/)).
+* **Institution:** VNIT Nagpur (Campus ID-6826).
+* **Reported Components:** Written screening with quantitative problem solving, technical English comprehension passages, followed by situational and behavioral interview panels.
+* **Integrity Status:** `[CANDIDATE-REPORTED]` — Historical student debrief.
+
+---
+
+### Source Record 8: Assessment Provider Intelligence (Aon, SHL, MConsultingPrep)
+* **Providers:** Aon Assessment Solutions ([https://www.aon.com/](https://www.aon.com/)), SHL ([https://www.shl.com/](https://www.shl.com/)), and MConsultingPrep corporate assessment analyses.
+* **Assessment Scope:** Multi-format testing including *scales numerical* (tabbed data interpretation), *scales verbal* (deductive True/False/Cannot Say), *scales inductive/diagrammatic* (spatial and rule progression), *chatAssess / SJT* (situational judgment in simulated work channels), and *shapes / OPQ32* (behavioral personality inventory).
+* **Crucial Takeaway for "Psychometric Test" Invitations:** When a candidate's official email invitation specifically states **"psychometric test"**, it denotes a structured behavioral, personality, or situational judgment inventory—frequently paired with timed data interpretation and deductive reasoning. Candidates must prioritize **safety leadership, truthfulness, and procedural integrity** on behavioral modules, and timed data interpretation over basic abstract arithmetic.
+
+---
+
 ## 3. Disciplinary Scope of the Generic "Engineer" Title
 
 When ExxonMobil recruits under the broad job title **"Engineer"** at premier engineering campuses:

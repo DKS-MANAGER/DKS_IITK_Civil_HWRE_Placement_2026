@@ -81,6 +81,21 @@ All technical equations, derivations, and code provisions across this repository
 
 ---
 
+
+---
+
+## 3. Assessment Provider Portals & ExxonMobil Placement Sources
+
+For candidates preparing for timed reasoning, psychometric questionnaires, and situational judgment formats:
+
+| Resource / Assessment Platform | Direct Official Practice URL | Assessment Formats & Preparation Value |
+| :--- | :--- | :--- |
+| **Aon Official Assessment Practice** | [https://www.aon.com/en/capabilities/talent-and-rewards/prepare-for-your-online-assessment](https://www.aon.com/en/capabilities/talent-and-rewards/prepare-for-your-online-assessment) | Interactive numerical (*scales num*), verbal (*scales verbal*), inductive/diagrammatic, and situational judgment (*chatAssess*). Directly relevant if the assessment vendor is Aon/CoCubes. |
+| **SHL Direct Practice Tests** | [https://www.shl.com/shldirect/en/practice-tests/](https://www.shl.com/shldirect/en/practice-tests/) | Numerical data interpretation, verbal deduction, inductive reasoning, and OPQ32 personality questionnaires. |
+| **MConsultingPrep ExxonMobil Guide** | [https://mconsultingprep.com/exxonmobil-aptitude-tests/](https://mconsultingprep.com/exxonmobil-aptitude-tests/) | Detailed breakdown of numerical reasoning, verbal reasoning, diagrammatic reasoning, and behavioral assessments in ExxonMobil selection drives. |
+| **IndiaBIX ExxonMobil Placement Papers**| [https://www.indiabix.com/placement-papers/exxon-mobil/](https://www.indiabix.com/placement-papers/exxon-mobil/) | Candidate-submitted campus experiences (e.g., VNIT Nagpur ID-6826) detailing quantitative aptitude and interview patterns. |
+| **Dedicated Repository Guide** | [`APTITUDE_AND_PSYCHOMETRIC_PREP.md`](APTITUDE_AND_PSYCHOMETRIC_PREP.md) | **In-Repository Master Guide:** 10 Situational Judgment Scenarios, 8 Industrial Data Interpretation sets, True/False/Cannot Say verbal logic, and Aon/SHL abstract reasoning drills. |
+
 ## Sources
 
 1. IndiaBIX Official Website: [https://www.indiabix.com/](https://www.indiabix.com/) (Accessed October 2026).
