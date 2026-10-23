@@ -1,3 +1,16 @@
+# Topic Master 01: Probability, Applied Statistics & Banking Risk Metrics
+
+> **Consolidated Module**: CITI-TOPIC-01 (Statistics, Probability & Risk Metrics)  
+> **Target Assessment**: Online Quantitative/Statistical Screening & Technical Probability Rounds  
+> **Scope**:
+> - **SECTION A**: Axiomatic Probability, Conditional Probability & Bayes' Theorem (with 2x2 Natural Frequency Tables & Base Rate Paradox)
+> - **SECTION B**: Probability Distributions in Banking (Binomial, Poisson, Exponential, Normal, Student's t, Chi-Square, F)
+> - **SECTION C**: Central Limit Theorem, Sampling Distributions & Standard Error Proofs
+> - **SECTION D**: Inferential Statistics & Hypothesis Testing (Z-tests, Welch's t-test, Paired t-test, One-Way ANOVA, Chi-Square Goodness-of-Fit)
+> - **SECTION E**: 30 Master Solved Statistical & Probability Practice Problems with Full Step-by-Step Derivations
+
+---
+
 # 01. Statistics & Probability — Complete Study Guide & Practice Bank
 
 > **Target Role**: Spec Analytics Analyst — Business Analytics (SBS), Citi AIM  

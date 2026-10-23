@@ -1,3 +1,18 @@
+# Topic Master 03: Machine Learning, Predictive Modeling & Credit Risk Analytics
+
+> **Consolidated Module**: CITI-TOPIC-03 (Predictive Modeling & Credit Risk)  
+> **Target Assessment**: Technical Machine Learning Interview & Credit Risk Analytics Evaluations  
+> **Scope**:
+> - **SECTION A**: Supervised Learning for Credit Scoring (Linear vs Logistic Regression, Sigmoid Mechanics, Log-Odds & Coefficients)
+> - **SECTION B**: Data Leakage Prevention & Temporal Train-Test Splitting in Banking Time-Series
+> - **SECTION C**: Model Evaluation & Discriminatory Power (Confusion Matrix, Precision/Recall, ROC-AUC vs PR-AUC, Kolmogorov-Smirnov / KS Statistic)
+> - **SECTION D**: Credit Risk Scorecard Development: Binning, Weight of Evidence (WoE) & Information Value (IV)
+> - **SECTION E**: Model Stability & Monitoring: Population Stability Index (PSI) Calculation & Thresholds
+> - **SECTION F**: Unsupervised Segmentation: K-Means Clustering & RFM (Recency, Frequency, Monetary) Customer Segmentation
+> - **SECTION G**: 10 Technical ML & Credit Risk Grilling Q&As
+
+---
+
 # 03. Predictive Modeling & Machine Learning — Banking Analytics Module
 
 > **Target Role**: Spec Analytics Analyst — Business Analytics (SBS), Citi AIM  

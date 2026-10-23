@@ -1,3 +1,17 @@
+# Topic Master 02: SQL, Database Architecture & Banking Data Manipulation
+
+> **Consolidated Module**: CITI-TOPIC-02 (SQL & Banking Data Manipulation)  
+> **Target Assessment**: Online SQL Assessment & Live Technical Query Writing Rounds  
+> **Scope**:
+> - **SECTION A**: Relational Foundations, Normalization (1NF–3NF), Primary/Foreign Keys & Table Grain Definition
+> - **SECTION B**: Logical SQL Execution Order & Three-Valued Logic (`NULL` Truth Tables & `NOT IN` Traps)
+> - **SECTION C**: Multi-Table Joins & The Join Fan-Out Trap (Preventing False Multiplied Balances)
+> - **SECTION D**: Comprehensive Window Functions (Ranking, Running Aggregates, Value Functions `LAG`/`LEAD`, Window Framing)
+> - **SECTION E**: Synthetic Banking Enterprise Schema (Customers, Accounts, Transactions, Cards, Delinquencies)
+> - **SECTION F**: 30 Production Banking SQL Queries with Explanations and Expected Outputs
+
+---
+
 # 02. SQL & Data Manipulation — Complete Study Guide & 30 Practice Problems
 
 > **Target Role**: Spec Analytics Analyst — Business Analytics (SBS), Citi AIM  

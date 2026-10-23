@@ -1,10 +1,10 @@
-# Citicorp Services India Private Limited (CSIPL) — Citi AIM Business Analytics Prep Pack
+# Citicorp Services India Private Limited (CSIPL) — Citi AIM Business Analytics Preparation Pack
 
-> **Role**: Business Analytics (SBS) / Spec Analytics Analyst  
-> **Global Community**: Analytics and Information Management (AIM)  
-> **Nature of Business**: Finance & Consulting  
-> **Source Document**: IIT Kanpur Placement Season 2026–27 Phase 1 Proforma  
-> **Target Audience**: IIT Kanpur Campus Placement Candidates (2026–27 Cycle)
+> **Role**: Business Analytics (SBS) / Spec Analytics Analyst (Trainee Professional Role)  
+> **Global Division**: Analytics and Information Management (AIM) Global Community  
+> **Nature of Business**: Banking, Financial Services, Global Consumer Banking & Risk Consulting  
+> **Target Audience**: IIT Kanpur Campus Placement Candidates (2026–27 Cycle)  
+> **Architecture**: **6 Comprehensive, Topic-Wise Master Modules** with 100% self-contained statistical theory, banking SQL queries, credit scoring ML models, 10 business cases, 4 timed mock assessments, and an engineering-to-banking project defense guide.
 
 ---
 
@@ -32,77 +32,75 @@ Detailed facts and source audit available in [`PLACEMENT_FACTS.md`](PLACEMENT_FA
 
 ---
 
-## 2. Complete Module Navigation
+## 2. Topic-Wise Consolidated Master Modules
 
-The Citi AIM preparation package is organized into 14 specialized, cross-linked modules:
+The preparation system is organized into **6 comprehensive, self-contained Topic Masters**:
 
-| Document | Primary Focus & Domain | Evidence & Scope |
+| Module Code & File | Core Focus & Domains Covered | Key Highlights |
 | :--- | :--- | :--- |
-| [📋 `SYLLABUS_AND_COVERAGE.md`](SYLLABUS_AND_COVERAGE.md) | Master granular curriculum, prerequisite mapping, worked example index, and completion standards. | `[CURRICULUM ARCHITECTURE]` |
-| [📁 `PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Authoritative source breakdown, compensation, JD responsibilities, and unresolved fields. | `[IITK PROFORMA — PHASE 1 2026–27]` |
-| [📁 `STUDY_MATRIX.md`](STUDY_MATRIX.md) | Competency matrix mapping P1/P2/P3 priorities to JD requirements with mastery criteria. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | 30-day, 14-day, 7-day, 3-day, and 1-day study schedules plus a 9-point self-assessment rubric. | `[PREPARATION RECOMMENDATION]` |
-| [📁 `01_STATISTICS_PROBABILITY.md`](01_STATISTICS_PROBABILITY.md) | Complete theory (Bayes count tables, distributions, CLT rigor, Welch's $t$, ANOVA, $\chi^2$) + **30 solved problems**. | `[CORE & SUPPORTING]` |
-| [📁 `02_SQL_DATA_MANIPULATION.md`](02_SQL_DATA_MANIPULATION.md) | Relational theory, grain, Join fan-out mechanics, 3VL NULL traps, Window functions + **30 banking queries**. | `[CORE & SUPPORTING]` |
-| [📁 `03_PREDICTIVE_MODELING_ML.md`](03_PREDICTIVE_MODELING_ML.md) | Linear/Logistic regression, data leakage, metrics, KS statistic, PSI calculation, K-Means & RFM + 10 Q&As. | `[CORE & SUPPORTING]` |
-| [📁 `04_INTERVIEW_AND_CASES.md`](04_INTERVIEW_AND_CASES.md) | **10 Banking Business Cases** (10-point analysis) + Puzzles (25 horses, ropes) + Guesstimates. | `[PRACTICE CASE ASSUMPTION]` |
-| [📁 `05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md) | Chart selection, misleading visualizations, executive dashboards, Minto Pyramid synthesis. | `[CORE COMPETENCY]` |
-| [📁 `06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md) | Global matrix collaboration, compliance escalation, data privacy, and STAR answer templates. | `[CORE COMPETENCY]` |
-| [📁 `07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) | Grounded defense of engineering and analytical modeling projects across 3 archetypes + **15 grilling Q&As**. | Transferable quantitative defense |
-| [🎯 `QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md) | Standalone multi-tier question bank (Levels 1–4) across all 6 domains with step-by-step verified solutions. | `[PRACTICE BANK]` |
-| [📝 `08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) | Diagnostic baseline assessment, sectional tests, 75-min full mixed technical mock, and rubrics. | `[PRACTICE SIMULATION]` |
-| [📁 `RAPID_REVISION.md`](RAPID_REVISION.md) | High-yield formula sheet, top 10 SQL snippets, scorecard cheatsheet, night-before checklist. | `[REVISION SUMMARY]` |
+| [📘 **`01_STATISTICS_PROBABILITY_AND_BANKING_RISK.md`**](01_STATISTICS_PROBABILITY_AND_BANKING_RISK.md) | **Probability, Applied Statistics & Banking Risk Metrics** | • Axiomatic probability, Bayes' theorem & 2x2 natural frequency count tables<br>• Banking distributions: Binomial, Poisson, Normal, Student's t, Chi-Square<br>• Central Limit Theorem & Standard Error proofs<br>• Hypothesis testing: Z-tests, Welch's t-test, Paired t-test, ANOVA, Chi-Square<br>• **30 Master Solved Statistical Practice Problems with Full Step-by-Step Solutions** |
+| [💾 **`02_SQL_DATABASE_ARCH_AND_BANKING_DATA_MANIPULATION.md`**](02_SQL_DATABASE_ARCH_AND_BANKING_DATA_MANIPULATION.md) | **SQL Databases, Banking Architecture & Complex Data Manipulation** | • Relational theory, table grain, 10-step SQL execution order, 3VL NULL logic<br>• Join fan-out mechanics & multi-table join traps in financial ledgers<br>• Advanced window functions: `ROW_NUMBER`, `DENSE_RANK`, `LAG`/`LEAD`, window framing<br>• Synthetic banking schema: Customers, Accounts, Cards, Transactions, Delinquencies<br>• **30 Production Banking SQL Queries with Explanations & Expected Outputs** |
+| [📈 **`03_PREDICTIVE_MODELING_ML_AND_CREDIT_RISK.md`**](03_PREDICTIVE_MODELING_ML_AND_CREDIT_RISK.md) | **Machine Learning, Predictive Modeling & Credit Risk Scorecards** | • Logistic regression, Sigmoid mechanics, log-odds, and odds ratios<br>• Data leakage prevention & temporal train-test splitting in financial time-series<br>• Model discriminatory power: ROC-AUC, PR-AUC, and Kolmogorov-Smirnov (KS)<br>• Credit scorecard development: Binning, Weight of Evidence (WoE) & Information Value (IV)<br>• Population Stability Index (PSI) monitoring & K-Means/RFM customer segmentation |
+| [📊 **`04_BANKING_CASES_VISUALIZATION_AND_EXECUTIVE_STORYTELLING.md`**](04_BANKING_CASES_VISUALIZATION_AND_EXECUTIVE_STORYTELLING.md) | **Banking Business Cases, Data Visualization & Executive Storytelling** | • MECE issue trees, hypothesis-driven root-cause analysis & Minto Pyramid<br>• **10 Fully Worked Banking Cases** (Credit card churn, delinquency spikes, cross-sell, fraud detection, ATM cash optimization, wealth retention)<br>• Analytical puzzles (25 horses, burning ropes, weighing balls) & market sizing guesstimates<br>• Executive dashboard design, chart selection matrix, and misleading visualization traps |
+| [🤝 **`05_BANKING_COMPLIANCE_BEHAVIORAL_AND_HWRE_DEFENSE.md`**](05_BANKING_COMPLIANCE_BEHAVIORAL_AND_HWRE_DEFENSE.md) | **Banking Regulatory Compliance, Behavioral STAR & Engineering Project Defense** | • Global matrix organization & cross-timezone collaboration (NY/London/Singapore)<br>• Banking regulations: Model Risk Management (SR 11-7), Fair Lending (ECOA/FCRA), AML/KYC<br>• STAR behavioral responses: Ambiguity, stakeholder conflict, deadline pressure<br>• **Engineering-to-Banking Translation**: Defending M.Tech Civil / HWRE computational modeling as a quantitative advantage in financial flows<br>• **15 Grilling Interview Defense Q&As** |
+| [🎯 **`06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md`**](06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md) | **Timed Mock Tests, Multi-Tier Question Bank & Rapid Revision Cheat Sheet** | • **Full Timed Mock Assessments**: Diagnostic (Diag-01), 3 Sectional Mocks, and a 75-Min Mixed Placement Mock (Full-01) with detailed rubrics<br>• **Multi-Tier Solved Question Bank (Levels 1–4)** across all 6 core Citi AIM domains<br>• **Rapid Revision Cheat Sheet**: High-yield formulas, top 10 SQL snippets, scorecard metric cheat sheet (WoE, IV, KS, PSI), and night-before checklist |
 
 ---
 
-## 3. Prioritized Candidate Learning Route
+## 3. Placement Intelligence & Governance Files
+
+| Governance File | Scope & Purpose | Evidence Tag |
+| :--- | :--- | :--- |
+| [📁 `PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Authoritative source breakdown, CTC (₹15.29L + Bonus + Retirals), JD responsibilities, and unresolved eligibility fields. | `[IITK PROFORMA — PHASE 1 2026–27]` |
+| [📁 `STUDY_GUIDE.md`](STUDY_GUIDE.md) | 30-day comprehensive, 14-day high-yield, 7-day sprint, and 72-hour emergency study pathways mapped to the 6 Topic Masters. | `[LEARNING ROADMAP]` |
+| [📁 `READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | Self-diagnostic readiness audit across 9 key analytical and banking competencies with passing thresholds and score interpretation. | `[DIAGNOSTIC RUBRIC]` |
+
+---
+
+## 4. The Citi AIM Business Analytics Triad
 
 ```
-P1: ESSENTIAL BASELINE (Core Proforma Skills)
-├── 1. Probability & Basic Statistics   ──────► [01_STATISTICS_PROBABILITY.md]
-├── 2. SQL Data Retrieval & Aggregation ──────► [02_SQL_DATA_MANIPULATION.md]
-├── 3. Hypothesis Testing ($Z, t, \chi^2$) ──► [01_STATISTICS_PROBABILITY.md]
-└── 4. Quantitative & Logical Reasoning ─────► [01_common/aptitude/]
-        │
-        ▼
-P2: SUPPORTING ADVANTAGE (High Interview ROI)
-├── 1. Advanced SQL Window Functions    ──────► [02_SQL_DATA_MANIPULATION.md]
-├── 2. Predictive Modeling & Metrics    ──────► [03_PREDICTIVE_MODELING_ML.md]
-├── 3. End-to-End Business Cases        ──────► [04_INTERVIEW_AND_CASES.md]
-├── 4. Data Visualization & Minto Synthesis ─► [05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md]
-├── 5. Matrix Stakeholders & Compliance ──────► [06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md]
-└── 6. Grounded Project & Resume Defense ────► [07_PROJECT_AND_RESUME_DEFENCE.md]
-        │
-        ▼
-P3: DRILLS, QUESTION BANK & TIMED MOCKS (Execution Mastery)
-├── 1. Multi-Tier Question Bank (Levels 1–4) ─► [QUESTION_BANK_WITH_SOLUTIONS.md]
-├── 2. Diagnostic & Timed Mocks (Diag/Full) ──► [08_MOCK_TESTS_AND_ASSESSMENTS.md]
-└── 3. Pre-Interview Formula Card       ──────► [RAPID_REVISION.md]
+                  ┌────────────────────────────────────────┐
+                  │             CITI AIM ANALYST           │
+                  │             COMPETENCY MODEL           │
+                  └───────────────────┬────────────────────┘
+                                      │
+         ┌────────────────────────────┼────────────────────────────┐
+         │                            │                            │
+         ▼                            ▼                            ▼
+┌──────────────────┐        ┌──────────────────┐        ┌──────────────────┐
+│ QUANT & DATA     │        │ BANKING DOMAIN   │        │ STAKEHOLDERS     │
+├──────────────────┤        ├──────────────────┤        ├──────────────────┤
+│• Advanced SQL    │        │• Credit Risk WoE │        │• Minto Synthesis │
+│• Hypothesis Test │        │• Cards Churn     │        │• Matrix Delivery │
+│• Logistic Reg.   │        │• Basel & SR 11-7 │        │• SR 11-7 Defense │
+│• KS Stat & PSI   │        │• Delinquency Loss│        │• Executive Visual│
+│• Bayes Paradox   │        │• AML Compliance  │        │• STAR Behavioral │
+└──────────────────┘        └──────────────────┘        └──────────────────┘
 ```
 
 ---
 
-## 4. Recommended Study Sequences
+## 5. Study Pathways
 
-* **Standard Window (14 to 30 Days)**: Follow the structured week-by-week curriculum detailed in [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md#11-the-30-day-comprehensive-mastery-plan). Begin with [`08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) (Diag-01) for baseline calibration, study modules in order, and complete the full 75-minute mixed mock (Full-01). Target Level 3 ("Interview-Ready") across all 9 self-assessment dimensions.
-* **Sprint Window (7 Days)**:
-  * *Days 1–2*: Statistics, Probability & Hypothesis Testing in [`01_STATISTICS_PROBABILITY.md`](01_STATISTICS_PROBABILITY.md).
-  * *Days 3–4*: SQL Aggregations, Joins & Window Functions in [`02_SQL_DATA_MANIPULATION.md`](02_SQL_DATA_MANIPULATION.md).
-  * *Day 5*: Logistic Regression & Metrics in [`03_PREDICTIVE_MODELING_ML.md`](03_PREDICTIVE_MODELING_ML.md).
-  * *Day 6*: Business Cases 1–4 in [`04_INTERVIEW_AND_CASES.md`](04_INTERVIEW_AND_CASES.md) & Visualization in [`05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md`](05_DATA_VISUALIZATION_AND_BUSINESS_COMMUNICATION.md).
-  * *Day 7*: Practice high-yield questions in [`QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md), Project Defense in [`07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md), Ethics in [`06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md`](06_BEHAVIOURAL_STAKEHOLDERS_COMPLIANCE.md), and quick formula review via [`RAPID_REVISION.md`](RAPID_REVISION.md).
-* **Emergency Window (24 to 72 Hours)**: Jump directly to Diag-01 in [`08_MOCK_TESTS_AND_ASSESSMENTS.md`](08_MOCK_TESTS_AND_ASSESSMENTS.md) to locate blindspots, drill Level 2/3 questions in [`QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md), and revise formulas in [`RAPID_REVISION.md`](RAPID_REVISION.md).
+### 30-Day Comprehensive Pathway (Complete Mastery)
+* **Days 1–5**: Master [`01_STATISTICS_PROBABILITY_AND_BANKING_RISK.md`](01_STATISTICS_PROBABILITY_AND_BANKING_RISK.md) (Theory, CLT, hypothesis tests & 30 solved problems).
+* **Days 6–10**: Master [`02_SQL_DATABASE_ARCH_AND_BANKING_DATA_MANIPULATION.md`](02_SQL_DATABASE_ARCH_AND_BANKING_DATA_MANIPULATION.md) (Relational theory, window functions & 30 banking queries).
+* **Days 11–15**: Master [`03_PREDICTIVE_MODELING_ML_AND_CREDIT_RISK.md`](03_PREDICTIVE_MODELING_ML_AND_CREDIT_RISK.md) (Logistic regression, WoE/IV, KS stat & PSI).
+* **Days 16–20**: Master [`04_BANKING_CASES_VISUALIZATION_AND_EXECUTIVE_STORYTELLING.md`](04_BANKING_CASES_VISUALIZATION_AND_EXECUTIVE_STORYTELLING.md) (10 business cases, puzzles & dashboards).
+* **Days 21–25**: Master [`05_BANKING_COMPLIANCE_BEHAVIORAL_AND_HWRE_DEFENSE.md`](05_BANKING_COMPLIANCE_BEHAVIORAL_AND_HWRE_DEFENSE.md) (Compliance, STAR questions & M.Tech Civil/HWRE defense).
+* **Days 26–30**: Solve [`06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md`](06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md) (Diagnostic, Sectional, Full 75-Min Mock & Level 1–4 Question Bank).
 
----
+### 14-Day High-Yield Sprint
+* **Days 1–4**: Statistics, Probability & SQL (Modules 01 & 02).
+* **Days 5–8**: Predictive Modeling & Banking Cases (Modules 03 & 04).
+* **Days 9–11**: Compliance, Behavioral STAR & Engineering Defense (Module 05).
+* **Days 12–14**: Full Mock Assessment (Full-01) and Level 2–3 questions in Module 06.
 
-## 5. Canonical Repository Cross-Links
-
-To prevent redundant content duplication, this package leverages existing canonical modules across the repository:
-
-* **Speed Math, Percentages & Ratios**: [`01_common/aptitude/quantitative/`](../../../01_common/aptitude/quantitative/)
-* **Analytical Puzzles & Deduction**: [`01_common/aptitude/logical-reasoning/`](../../../01_common/aptitude/logical-reasoning/)
-* **Timed Full-Length Aptitude Mocks**: [`01_common/aptitude/mocks/`](../../../01_common/aptitude/mocks/)
-* **Quantitative Business Arithmetic**: [`01_common/placement-math/business-engineering-math.md`](../../../01_common/placement-math/business-engineering-math.md)
-* **General STAR Behavioural Banks**: [`01_common/behavioral/`](../../../01_common/behavioral/)
-* **Data Analyst Technical Competencies**: [`03_non_core/analytics/data-analyst/`](../../../03_non_core/analytics/data-analyst/)
-* **Project Defense Archetypes**: Detailed frameworks in [`07_PROJECT_AND_RESUME_DEFENCE.md`](07_PROJECT_AND_RESUME_DEFENCE.md) covering Time-Series Forecasting, Risk & Extreme-Value Modeling, and Physical Systems Simulation.
+### 72-Hour Rapid Cram
+* Focus on:
+  1. Module 06 (Section C: Rapid Revision Cheat Sheet).
+  2. Module 02 (Section F: Top Banking SQL Queries).
+  3. Module 03 (Section D: WoE, IV, KS Statistic & PSI).
+  4. Module 04 (Section B: Cases 1 to 4 — Churn, Delinquency, Fraud).
+  5. Module 05 (Section D: Engineering Project Defense & STAR Conflict).
