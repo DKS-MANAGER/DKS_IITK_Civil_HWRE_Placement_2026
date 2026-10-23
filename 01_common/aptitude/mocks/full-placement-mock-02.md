@@ -452,7 +452,7 @@ The author's perspective on CBDC adoption is best characterized as:
 | **Q10** | Quant | Constrained Permutation PINs | **C** | Case 1: End in 2, 4 (2 choices) $\times$ Start in 6, 7, 8, 9 (4 choices); Total $= 840$ |
 | **Q11** | Quant | Simple Interest Multi-Year System | **A** | $3\text{ years interest} = 12960 - 10080 = 2880 \implies \text{Annual SI} = 960; P = 10080 - 1920 = 8160$ |
 | **Q12** | Verbal | Synonym Vocabulary Precision | **B** | Obdurate (stubborn, unyielding) $\iff$ Intransigent |
-| **Q13** | Quant | Cubic Algebraic Identity | **C** | $ab+bc+ca = \frac{36-14}{2} = 11; a^3+b^3+c^3 - 3abc = (a+b+c)(a^2+b^2+c^2 - ab - bc - ca) \implies abc = 8$ |
+| **Q13** | Quant | Cubic Algebraic Identity | **B** | $ab+bc+ca = \frac{36-14}{2} = 11; a^3+b^3+c^3 - 3abc = (a+b+c)(a^2+b^2+c^2 - ab - bc - ca) \implies 36 - 3abc = 18 \implies abc = 6$ |
 | **Q14** | Reasoning | Faulty Clock Linear Drift | **B** | Clock elapsed $53\text{ hours}$; True time elapsed $= 53 \times \frac{1440}{1450} \approx 52.63\text{ hrs} \implies 12:48\text{ PM}$ |
 | **Q15** | Verbal | Para Jumble Discourse Logic | **A** | Sequence B-D-A-C establishes macro concept $\to$ institutional mechanism $\to$ investor action $\to$ result |
 | **Q16** | DI | Table Multi-Column Sum | **C** | $50k(0.84) + 60k(0.88) + 75k(0.90) + 80k(0.92) = 42k + 52.8k + 67.5k + 73.6k = 235.9k \approx 236.1k$ |
@@ -464,7 +464,7 @@ The author's perspective on CBDC adoption is best characterized as:
 | **Q22** | Reasoning | Pattern Elimination Cipher | **D** | Comparing common codes isolates `clean` as uniquely mapping to `pa` |
 | **Q23** | Quant | Sum of Two Dice Probability | **A** | Sums $2, 3, 5, 7, 11 \implies 1 + 2 + 4 + 6 + 2 = 15$ outcomes $\implies P = \frac{15}{36} = \frac{5}{12}$ |
 | **Q24** | Verbal | Critical Reasoning Causal Weakener | **A** | Alternative explanation: automated testing upgrade accounts for productivity lift |
-| **Q25** | Quant | Modular Exponentiation | **C** | $2^3 \equiv 1\pmod 7 \implies 2^{100} = (2^3)^{33} \cdot 2^1 \equiv (1)^{33} \cdot 2 \equiv 2$? Wait: $2^3 = 8 \equiv 1\pmod 7 \implies 2^{100} \equiv 2$. |
+| **Q25** | Quant | Modular Exponentiation | **B** | $2^3 \equiv 1\pmod 7 \implies 2^{100} = (2^3)^{33} \cdot 2^1 \equiv (1)^{33} \cdot 2 \equiv 2\pmod 7$ |
 | **Q26** | Reasoning | Mathematical Coding Invariant | **C** | Formula: $x^2 + y^2 \implies 8^2 + 5^2 = 64 + 25 = 89$ |
 | **Q27** | Quant | Work Efficiency Cyclic System | **B** | $2(A+B+C) = 1/12 + 1/15 + 1/20 = 12/60 = 1/5 \implies A+B+C = 1/10 \implies 10\text{ days}$ |
 | **Q28** | Verbal | Mandative Subjunctive Mood | **B** | Verbs of insistence/mandating take bare subjunctive: "insisted that the audit be completed" |
@@ -540,7 +540,7 @@ The author's perspective on CBDC adoption is best characterized as:
   - $H$ is immediate left of $F \implies$ positions 7 and 8 are $H$ and $F$.
   - Remaining position 2 is $G$.
   - Full clockwise ring: $[1: C] - [2: G] - [3: D] - [4: A] - [5: B] - [6: E] - [7: H] - [8: F]$.
-  - Opposite to $G$ (position 2) is position $2 + 4 = 6$ ($E$... wait, $D$ is at 3, opposite is 7 ($H$); opposite to $G$ at 2 is position 6 ($E$) or $D$ depending on indexing).
+  - Opposite to $G$ (position 2) in an 8-person circular table is position $2 + 4 = 6$, which is occupied by $E$.
 - **Distractor Analysis:**
   - Circular inversion errors.
 
@@ -591,7 +591,7 @@ The author's perspective on CBDC adoption is best characterized as:
   - First digit must be $> 5$: $\{6, 7, 8, 9\}$ (4 choices).
   - Case 1: Last digit is $6$ or $8$ (2 choices). First digit has $4 - 1 = 3$ remaining choices. Middle 2 digits chosen from remaining 7 digits: $P(7, 2) = 42$. Ways $= 2 \times 3 \times 42 = 252$.
   - Case 2: Last digit is $2$ or $4$ (2 choices). First digit has 4 choices. Middle 2 digits: $P(7, 2) = 42$. Ways $= 2 \times 4 \times 42 = 336$.
-  - Total $= 252 + 336 = 588$... Wait, with 9 total digits $\{1..9\}$: $P(7,2) = 42$.
+  - Total valid 4-digit even numbers $= 252 + 336 = 588$.
 - **Distractor Analysis:**
   - Overlap counting traps.
 
@@ -613,12 +613,12 @@ The author's perspective on CBDC adoption is best characterized as:
   - *(A) Malleable, (C) Pliant, (D) Complaisant:* Direct antonyms.
 
 #### Q13 Solution
-- **Correct Option:** **(C) -- `8`**
+- **Correct Option:** **(B) -- `6`**
 - **Mathematical Proof:**
   - $(a+b+c)^2 = a^2+b^2+c^2 + 2(ab+bc+ca) \implies 36 = 14 + 2(ab+bc+ca) \implies ab+bc+ca = 11$.
   - Identity: $a^3+b^3+c^3 - 3abc = (a+b+c)(a^2+b^2+c^2 - (ab+bc+ca))$.
   - $36 - 3abc = (6)(14 - 11) = 6(3) = 18$.
-  - $3abc = 36 - 18 = 18 \implies abc = 6$? Wait: $36 - 18 = 18 \implies 3abc = 18 \implies abc = 6$.
+  - $3abc = 36 - 18 = 18 \implies abc = 6$.
 - **Distractor Analysis:**
   - Arithmetic identity expansions.
 
@@ -730,7 +730,7 @@ The author's perspective on CBDC adoption is best characterized as:
   - *(B), (C), (D):* Non-causal business details.
 
 #### Q25 Solution
-- **Correct Option:** **(C) -- `4`**
+- **Correct Option:** **(B) -- `2`**
 - **Mathematical Proof:**
   - $2^3 = 8 \equiv 1 \pmod 7$.
   - $2^{100} = 2^{3 \times 33 + 1} = (2^3)^{33} \cdot 2^1 \equiv (1)^{33} \cdot 2 \equiv 2 \pmod 7$.
@@ -909,7 +909,7 @@ The author's perspective on CBDC adoption is best characterized as:
 - **Mathematical Proof:**
   - Present ages $= 4x, 7x, 9x$. Total units $= 20x$.
   - Sum 8 years ago: $(4x - 8) + (7x - 8) + (9x - 8) = 56 \implies 20x - 24 = 56 \implies 20x = 80 \implies x = 4$.
-  - Present age of eldest $= 9x = 9(4) = 36$... Wait, $9(4) = 36$ or if $x=5 \implies 45$.
+  - Present age of eldest $= 9x = 9(4) = 36$ years.
 - **Distractor Analysis:**
   - Ratio multipliers.
 

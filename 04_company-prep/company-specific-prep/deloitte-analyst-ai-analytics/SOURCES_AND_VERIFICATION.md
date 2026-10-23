@@ -17,6 +17,20 @@
 
 ---
 
+
+### 1.1 Detailed Placement Reports & Candidate Intelligence Register
+
+| Source Record | Source Details & URL | Date | Key Evidence Established & Boundary Limits |
+| :--- | :--- | :---: | :--- |
+| **Ayush Kumar (Medium)** | [Ayush Kumar Deloitte USI Analyst Experience](https://medium.com/@ayushrskiaa/deloitte-usi-analyst-interview-experience-1dcde840ac9f) | Oct 2024 | • **Assessment Platform**: **HirePro**.<br>• **Round 1 (Online Assessment)**: 67 total questions covering Quantitative Ability, Reasoning Ability, Verbal Ability, Technical MCQs, and 2 Coding Questions.<br>• **Round 2 (Virtual Interview via HirePro)**: 20–25 mins covering full-stack concepts, SQL (2nd highest salary), DSA (Binary Search, array/DP variations), and behavioral teamwork scenarios.<br>• `[CANDIDATE-REPORTED]`: Multi-college pool drive experience. |
+| **GeeksforGeeks On-Campus 2024 (Deloitte India)** | [GFG Deloitte India 2024](https://www.geeksforgeeks.org/interview-experiences/deloitte-india-interview-experience-on-campus-2024/) | 2024 | • Round 1: Online assessment on Aptitude (Quant, Verbal, Logic) + Computer Fundamentals (OS, DBMS, Networks) + 2 Coding questions.<br>• Subsequent Rounds: Technical Interview (OOP, SQL, LeetCode Easy/Medium DSA) + HR interview.<br>• `[CANDIDATE-REPORTED]`. |
+| **GeeksforGeeks On-Campus (Deloitte USI Analyst FTE)** | [GFG Deloitte USI Analyst FTE](https://www.geeksforgeeks.org/interview-experiences/deloitte-usi-interview-experience-on-campus-deloitte-us-india-analyst-fte/) | 2024 | • Emphasizes resume deep-dive, client consulting scenarios, database query writing, and basic algorithmic problem solving.<br>• `[CANDIDATE-REPORTED]`. |
+| **IndiaBIX Deloitte T&T Analyst Report** | [IndiaBIX Deloitte Paper #7181](https://www.indiabix.com/placement-papers/deloitte/7181) | Aug 2025 | • Role: Analyst - T&T EAD ADMM, On-Campus.<br>• Round sequence: Resume shortlist (90% pass) $\to$ Online Test $\to$ Group Discussion (collaboration prioritized over aggression, 50% pass) $\to$ Technical Interview.<br>• Interview questions: Resume projects (Postman, C++ vs Java, Stack vs Array real-life use cases).<br>• `[CANDIDATE-REPORTED]`. |
+| **IndiaBIX Deloitte Placement Papers Portal** | [IndiaBIX Deloitte Papers Index](https://www.indiabix.com/placement-papers/deloitte/) & [Paper #6820](https://www.indiabix.com/placement-papers/deloitte/6820) | Verified Oct 2026 | • Repository of 5 pages of candidate debriefs across Indian engineering campuses.<br>• Confirms online test sectional structure: Quantitative Aptitude (20 min), Logic (15 min), Verbal Ability (15 min), Technical / Coding (25 min).<br>• Notes strict per-section timing, no question backtracking on select platforms, and emphasis on R.S. Aggarwal & IndiaBIX practice questions.<br>• Interview rounds emphasize resume mastery, technical query writing, and business communication.<br>• `[CANDIDATE-REPORTED]`. |
+| **HirePro Candidate Platform Architecture** | HirePro Online Assessment & Coding Architecture Guide | Current | • Online proctored environment with webcam, screen monitoring, strict full-screen enforcement.<br>• Integrated test-runner executing public and hidden test cases.<br>• Assessment may include MCQ sections, coding questions, and project-based interactive coding tasks. |
+
+---
+
 ## 2. Role Boundary & Entity Distinction
 
 > [!WARNING]

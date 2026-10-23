@@ -812,8 +812,7 @@ In computing normal depth for a wide rectangular channel with flow $Q$, the hydr
 - **Deductive Proof:**
   - Using Newton-Raphson approximation for $f(y) = y^{5/3} - 32 = 0$, starting at $y_0 = 8$:
   - $y_1 = 8 - \frac{8^{5/3} - 32}{\frac{5}{3} 8^{2/3}} = 8 - \frac{32 - 32}{\dots} \implies 8^{5/3} = (2^3)^{5/3} = 2^5 = 32$.
-  - Since $8^{5/3} = 32$, $y = 8$ is exact if $C = 32$... Wait:
-  - If $y^{5/3} = 32 \implies y = 32^{3/5} = (2^5)^{3/5} = 2^3 = 8$.
+  - Solving $y^{5/3} = 32 \implies y = 32^{3/5} = (2^5)^{3/5} = 2^3 = 8$.
   - For $C = 4.5$, $y \approx 2.45\text{ m}$.
 - **Distractor Analysis:**
   - *(A) 2.15, (C) 3.20, (D) 4.00:* Linear convergence deviations.

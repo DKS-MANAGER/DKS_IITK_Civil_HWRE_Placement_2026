@@ -1,7 +1,7 @@
 # Sector: CFD, Aerodynamics & Simulation Software
 
 > **Sector Directory:** 04_company-prep/corporate-targets/06_cfd-simulation-engineering/ [SOURCE-DERIVED]  
-> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
+> **Master Registry Source:** `Civil_HWRE_Companies.xlsx` [UNVERIFIED SOURCE — Primary Registry Not Available in Local Repository]  
 > **Target Organizations:** 17 Companies  
 
 ---

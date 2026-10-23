@@ -226,16 +226,36 @@ $$\text{Estimated Cost} = \text{Plinth Area} \times \text{Plinth Area Rate (₹/
 
 ### Cost Escalation & Contingency
 
-**Contingency (CPWD norms):**
-$$\text{Contingency} = 3\text{–}5\% \times \text{Estimated Cost}$$
+**Contingency (CPWD Works Manual Norms):**
+$$\text{Contingency} = 3\text{–}5\% \times \text{Estimated Base Cost}$$
+- Provision covers unforeseen site conditions, minor scope modifications, and geotechnical variations during foundation execution.
 
-**Rate escalation:**
-$$\text{Escalated Cost} = \text{Base Cost} \times \left(1 + \frac{\text{Price Index}_2}{\text{Price Index}_1}\right)$$
+#### Contractual Price Escalation & Index-Ratio Adjustment (CPWD / FIDIC Red Book Sub-Clause 13.8)
+Contracts spanning $>12\text{--}18$ months incorporate price adjustment clauses to insulate contractors and employers against inflationary shifts in labor, cement, steel, and fuel:
 
-**Plinth area rate escalation (IS 2014 revision):**
-$$\text{Current Rate} = \text{Base Rate} \times \frac{\text{Current WPI}}{\text{Base WPI}}$$
+1. **Standard Index-Ratio Method (Plinth Area / Approximate Estimates):**
+   $$\text{Current Estimated Cost} = \text{Base Cost} \times \left(\frac{I_{\text{current}}}{I_{\text{base}}}\right) = \text{Base Cost} \times \left(1 + \frac{I_{\text{current}} - I_{\text{base}}}{I_{\text{base}}}\right)$$
+   *(where $I_{\text{base}}$ is the Cost Index / Wholesale Price Index (WPI) on the base reference date, e.g., CPWD Delhi Schedule of Rates (DSR) base index = 100 on 01-04-2021, and $I_{\text{current}}$ is the cost index for the target quarter).*
 
-Where WPI = Wholesale Price Index.
+2. **Multi-Component Contract Price Adjustment Formula (CPWD Clause 10CC / MoRTH Standard Data Book):**
+   $$V = W \times \left[A + B \left(\frac{L - L_0}{L_0}\right) + C \left(\frac{S - S_0}{S_0}\right) + D \left(\frac{C - C_0}{C_0}\right) + E \left(\frac{POL - POL_0}{POL_0}\right)\right]$$
+   Where:
+   - $V$ = Amount of price variation/escalation payable or recoverable for the billing quarter
+   - $W$ = Gross value of work executed in the quarter
+   - $A$ = Fixed non-adjustable component (typically $15\%\text{--}20\%$, representing contractor's profit and overhead)
+   - $B, C, D, E$ = Pre-determined contract weightages for Labor, Steel, Cement, and Fuel (POL), such that $A + B + C + D + E = 1.0$
+   - $L_0, S_0, C_0, POL_0$ = Base indices published by RBI / Office of Economic Adviser on the date 30 days prior to bid opening
+   - $L, S, C, POL$ = Actual indices corresponding to the month of work execution
+
+> [!NOTE]
+> **Important Correction on Escalation Arithmetic:** 
+> Do not use expressions of the form $\text{Base Cost} \times (1 + I_2/I_1)$. If the index remains unchanged ($I_2 = I_1$), that erroneous formula would calculate $\text{Base Cost} \times (1 + 1) = 2 \times \text{Base Cost}$, falsely doubling the project cost. The true multiplier is strictly the index ratio $(I_2 / I_1)$ or $(1 + \Delta I / I_1)$.
+
+#### Typical Illustrative Cost Rates (CPWD DSR 2021/2023 Guidelines — Delhi Baseline):
+- Multi-storey RCC framed residential construction: ₹2,400 – ₹3,200 per sq.ft of plinth area.
+- Commercial / Institutional building with central HVAC: ₹3,500 – ₹4,800 per sq.ft of plinth area.
+- 4-lane flexible highway construction (plain terrain): ₹12 – ₹18 crore per km (excluding land acquisition).
+*(Rates are illustrative baseline figures and must be multiplied by the applicable State/City Cost Index and GST before finalizing administrative approval).*
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Microsoft (APM), Google (APM), Flipkart (APM), PhonePe, Razorpay, CRED, Meesho, Swiggy, Zomato, MakeMyTrip, Groww, Zepto
-- **Typical CTC Range**: 16 LPA - 32 LPA
+- **Typical CTC Benchmark**: ~₹16–32 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma]
 - **Department Eligibility**: B.Tech / M.Tech all branches. High emphasis on product sense, structural thinking, empathy, and execution leadership.
 - **Core Skills Tested**: Product Sense, User Discovery, CIRCLES Framework, RICE Prioritization, North Star & Guardrail Metrics, Wireframing, PRD Writing, Tech-Design Empathy
 
@@ -34,6 +34,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+- [02 Interview Preparation](../../../05_interview/)
+- [03 Common Skills](../../../01_common/)
+- [04 Career Preparation](../../../01_common/resume/career-preparation/)

@@ -2,21 +2,29 @@
 
 > Complete preparation path: Syllabus → Learn → Practice → PYQ → Test → Revise.
 
-## 1. Syllabus Coverage (GATE Civil)
+## 1. Exam Structure & Official Mark Distribution (GATE Civil — 100 Marks Total)
 
-| Subject | Approx. Weightage | Priority | Prerequisite |
-| ------- | ----------------- | -------- | ------------ |
-| Engineering Mathematics | 13–15% | P0 | — |
-| Structural Engineering (EM + SOM + Analysis + RCC + Steel) | 25–30% | P0 | Math |
-| Geotechnical Engineering | 12–15% | P0 | SOM |
-| Water Resources (Fluid + Hydraulics + Hydrology) | 12–15% | P0 | Math |
-| Environmental Engineering | 10–12% | P0 | — |
-| Transportation Engineering | 8–10% | P1 | — |
-| Geomatics / Surveying | 5–7% | P1 | — |
-| Construction Management | 5–7% | P1 | — |
-| General Aptitude | 15% | P0 | — |
+Official GATE CE paper format (65 questions, 180 minutes, virtual calculator):
+- **General Aptitude (GA):** Exactly **15 Marks** (10 questions: 5 of 1-mark, 5 of 2-mark)
+- **Engineering Mathematics:** Exactly **13 Marks** (Section 1 of CE syllabus)
+- **Core Civil Engineering:** Exactly **72 Marks** (Sections 2 through 7)
+- **Total:** Exactly **100 Marks** (30 of 1-mark, 35 of 2-mark; MCQs, MSQs, NATs)
 
-> Weightages are approximate, based on recent GATE CE papers. Verify against the official GATE brochure for the current year.
+| Section / Core Subject | Official GATE Mark Allocation | Typical Range (Historical CE Papers) | Priority | Prerequisite |
+| :--- | :---: | :---: | :---: | :--- |
+| **General Aptitude (GA)** | **15 Marks** (Fixed) | **15%** | P0 | Verbal & Quantitative basics |
+| **Engineering Mathematics** | **13 Marks** (Fixed) | **13%** | P0 | Calculus, Linear Algebra |
+| **Geotechnical Engineering** (Soil Mech + Foundation) | Part of Core 72M | **13 – 15 Marks** | P0 | SOM, Fluid mechanics |
+| **Environmental Engineering** (Water, WW, Air, MSW) | Part of Core 72M | **10 – 12 Marks** | P0 | Chemistry, fluid flow |
+| **Water Resources & Hydraulics** (Fluids, OCF, Hydro, Irrig) | Part of Core 72M | **9 – 11 Marks** | P0 | Engineering Math, Fluids |
+| **Structural Engineering** (Analysis, RCC, Steel) | Part of Core 72M | **11 – 13 Marks** | P0 | SOM, Matrix analysis |
+| **Mechanics & Strength of Materials (SOM)** | Part of Core 72M | **7 – 9 Marks** | P0 | Statics, Math |
+| **Transportation Engineering** (Highway, Traffic, Pavement) | Part of Core 72M | **8 – 10 Marks** | P1 | Geotechnical basics |
+| **Geomatics Engineering (Surveying)** | Part of Core 72M | **4 – 6 Marks** | P1 | Basic trigonometry |
+| **Construction Materials & Management** | Part of Core 72M | **3 – 5 Marks** | P1 | Concrete technology |
+| **Total** | **100 Marks** | **100% (Sum of parts = 100M)** | — | — |
+
+> *Source: Official GATE Information Brochure (IITs/IISc) and analysis of recent CE question papers.* Core subject marks fluctuate slightly from session to session, but GA (15M) and Engineering Mathematics (13M) are strictly standardized.
 
 ## 2. Six-Stage Progression
 

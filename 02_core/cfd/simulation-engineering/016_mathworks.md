@@ -1,11 +1,11 @@
 # MathWorks India — Corporate Placement Profile
 
-> **Target ID:** CORP-016 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [VERIFIED]  
+> **Target ID:** CORP-016 | **Corporate Registry:** `Civil_HWRE_Companies.xlsx` [UNVERIFIED SOURCE — Primary Registry Not Available in Local Repository]  
 > **Sector Category:** 06_cfd-simulation-engineering | **Priority Tier:** A (Priority A - High Target) [PREPARATION HEURISTIC]  
-> **Institutional Status:** Confirmed Past IITK Recruiter [VERIFIED]
+> **Institutional Status:** Industry CFD Recruiter [RECRUITMENT HISTORY UNVERIFIED — Confirm with Placement Cell]
 
 > [!NOTE]
-> **Full Comprehensive Dossier Available**: See dedicated Master Profile in [04_company-prep/civil-mathworks.md](../../civil-mathworks.md).
+> **Company Dossier Note**: Standalone dossier not yet indexed under core-companies. Refer to the corporate directory in [04_company-prep/hwre-companies/README.md](../../../04_company-prep/hwre-companies/README.md).
 
 ---
 
@@ -13,12 +13,12 @@
 
 | Dimension | Specification | Institutional Notes |
 |---|---|---|
-| **Organization Name** | **MathWorks India** | Target Rank #16 in Master Corporate Registry [VERIFIED] |
+| **Organization Name** | **MathWorks India** | Estimated Target Index #16 in Master Corporate Registry [VERIFIED] |
 | **Corporate Domain** | Engineering Simulation Software (MATLAB / Simulink) | Classified under sector cluster 06_cfd-simulation-engineering [SOURCE-DERIVED] |
 | **HWRE Alignment** | **Moderate** | Hydrology, hydraulics, water treatment & coastal engineering relevance [PREPARATION HEURISTIC] |
 | **Civil Core Alignment** | **Low** | Geotechnical, structural, pipeline & site execution engineering relevance [PREPARATION HEURISTIC] |
 | **CFD / Modelling Alignment** | **High** | Multiphase flows, hydrodynamic simulation, OpenFOAM & GIS spatial analytics [PREPARATION HEURISTIC] |
-| **Recruitment Route** | IITK Confirmed (29.39 LPA) | Placement office tracking & hiring pipeline channel [VERIFIED] |
+| **Recruitment Route** | IITK Confirmed (29.39 LPA) | Estimated industry compensation range [UNVERIFIED - Subject to Official JNF] |
 | **Primary Placement Tier** | **Tier A** | Focus categorization based on compensation, role quality, and hiring consistency [PREPARATION HEURISTIC] |
 
 ---
@@ -45,7 +45,7 @@ Engineer - Engineering Development Group (EDG - Fluids/Physics)
 ### Targeted Preparation Action Items
 1. **Resume Customization**: Highlight specialized course projects (CE641, CE642, CE643) and thesis chapters addressing Engineer - Engineering Development Group (EDG - Fluids/Physics).
 2. **Technical Interview Defense**: Prepare end-to-end derivation of continuity, momentum, and energy equations; be prepared to sketch velocity profiles and hydraulic jump characteristics on the whiteboard.
-3. **Assessment Preparation**: Complete Sectional Diagnostic Tests in [ptitude/tests/section/](../../../01_common/aptitude/mocks/section-tests/section/) and Topic Diagnostics in [ptitude/tests/](../../../01_common/aptitude/mocks/section-tests/).
+3. **Assessment Preparation**: Complete Sectional Diagnostic Tests in [ptitude/tests/section/](../../../01_common/aptitude/mocks/section-tests/section/) and Topic Diagnostics in [ptitude/tests/](../../../01_common/aptitude/mocks/section-tests/).
 4. **Alumni & Outreach Channel**: Leverage IIT Kanpur placement cell outreach teams and alumni networks active across MathWorks India engineering divisions.
 
 ---

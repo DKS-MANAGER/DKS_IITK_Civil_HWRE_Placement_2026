@@ -36,6 +36,36 @@
 
 ---
 
+
+### 1.1 Documented Assessment Blueprint (HirePro Platform Benchmark)
+Based on Ayush Kumar's verified candidate report (October 2024) and recent campus patterns, the primary screening filter on **HirePro** follows this structure:
+
+```
++---------------------------------------------------------------------------------------------------------+
+|                                  HIREPRO ONLINE ASSESSMENT ARCHITECTURE                                 |
++--------------------------+-----------------------+------------------------------------------------------+
+| Assessment Section       | Questions / Duration  | Core Testing Topics & Scope                          |
++--------------------------+-----------------------+------------------------------------------------------+
+| 1. Quantitative Ability  | ~15–20 Questions      | Percentages, ratios, P&L, time-work, speed-distance, |
+|                          |                       | algebra, P&C, probability, data interpretation       |
++--------------------------+-----------------------+------------------------------------------------------+
+| 2. Reasoning Ability     | ~15–20 Questions      | Series, directions, blood relations, syllogisms,     |
+|                          |                       | arrangements, coding-decoding, constraint puzzles    |
++--------------------------+-----------------------+------------------------------------------------------+
+| 3. Verbal Ability        | ~15–20 Questions      | Sentence correction, grammar, reading comprehension, |
+|                          |                       | vocabulary in context, paragraph coherence           |
++--------------------------+-----------------------+------------------------------------------------------+
+| 4. Technical MCQs        | ~15–20 Questions      | Pseudocode tracing, SQL queries, DBMS (ACID, keys),  |
+|                          |                       | basic OOP concepts, data structures fundamentals     |
++--------------------------+-----------------------+------------------------------------------------------+
+| 5. Hands-on Coding       | 2 Coding Questions /  | Array/String manipulation, hashing, two pointers,    |
+|    (or Vibe Coding Task) | Project Module        | binary search, stack/queue; or interactive project   |
++--------------------------+-----------------------+------------------------------------------------------+
+```
+*Note on Unknowns*: Total test duration (typically 90 to 120 minutes) and exact sectional timing/cutoffs vary by campus drive. Do not assume any single cutoff is official.
+
+---
+
 ## 2. Round-by-Round Technical Blueprint
 
 ### Round 1: Online Assessment (Diagnostic Breakdown)

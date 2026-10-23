@@ -377,25 +377,49 @@ Where:
 | 4E | 52–80 | ≥ 1800 |
 | 4F | ≥ 65 | ≥ 1800 |
 
-### Runway Design
+### Runway Design & Length Determination (ICAO Doc 9157 / DGCA CAR)
 
-**Runway length (ICAO Annex 14 / DGCA CAR):**
-$$L_{required} = \frac{1}{2} \left(\frac{V^2}{2a} + \frac{V}{g \cdot T/S}\right)$$
+The **Basic Runway Length ($L_0$)** is specified by the aircraft manufacturer for standard sea-level atmospheric conditions ($15^\circ\text{C}$, MSL, zero wind, zero runway gradient). To determine the actual design runway length ($L_{\text{design}}$) at an airport site, sequential corrections are applied in strict order per **ICAO Annex 14 / DGCA CAR Section 4, Series B**:
 
-Simplified empirical (DGCA):
-$$L = \frac{V^2}{30\left(\frac{a}{g} \pm G\right)}$$
+#### 1. Elevation Correction (Air Density Effect)
+As elevation above mean sea level ($h$) increases, air density decreases, requiring higher true airspeeds and longer takeoff/landing rolls.
+- **ICAO Standard Rule:** Basic runway length is increased at the rate of **$7\%$ for every $300\text{ m}$ ($1000\text{ ft}$)** of elevation above MSL:
+  $$L_1 = L_0 \left(1 + \frac{0.07 \times h}{300}\right)$$
+  *(where $h$ is airport elevation in metres above MSL).*
 
-Where:
-- $V$ = approach speed (km/h)
-- $a$ = deceleration (m/s²)
-- $G$ = effective gradient (uphill positive)
-- $T/S$ = thrust-to-weight ratio
+#### 2. Temperature Correction (Airport Reference Temperature)
+Hot weather further reduces ambient air density.
+- **Airport Reference Temperature ($T_R$):**
+  $$T_R = T_a + \frac{T_m - T_a}{3}$$
+  where $T_a$ is the monthly mean of daily mean temperatures for the hottest month of the year, and $T_m$ is the monthly mean of maximum daily temperatures for the same month.
+- **Standard Temperature at Airport Elevation ($T_{\text{std}}$):**
+  $$T_{\text{std}} = 15^\circ\text{C} - 0.0065 \cdot h \quad (\text{lapse rate } 6.5^\circ\text{C}\text{ per } 1000\text{ m})$$
+- **Temperature Rise ($\Delta T$):**
+  $$\Delta T = T_R - T_{\text{std}}$$
+- **ICAO Standard Rule:** If $\Delta T > 0$, the elevation-corrected length $L_1$ is further increased at the rate of **$1\%$ for every $1^\circ\text{C}$ rise**:
+  $$L_2 = L_1 \left(1 + 0.01 \cdot \Delta T\right)$$
 
-**Correction factors:**
-- Elevation: +7% per 300 m above MSL
-- Temperature: +1% per 1°C above standard temp
-- Wet/contaminated: +15%
-- Gradient: +20% per 1% gradient
+> [!IMPORTANT]
+> **Check for Combined Elevation + Temperature Correction (ICAO / DGCA 35% Rule):**
+> The total cumulative increase from elevation and temperature combined must NOT exceed **$35\%$**:
+> $$\frac{L_2 - L_0}{L_0} \le 0.35 \quad (35\%)$$
+> If the combined increase exceeds $35\%$, full-scale aircraft manufacturer performance calculations must be carried out on site.
+
+#### 3. Effective Gradient Correction (Topography Effect)
+A net uphill takeoff slope retards aircraft acceleration, requiring additional runway.
+- **Effective Gradient ($G_{\text{eff}}$):**
+  $$G_{\text{eff}} = \frac{\text{Maximum difference in centerline elevation}}{\text{Total runway length}} \times 100\%$$
+- **ICAO Standard Rule:** After applying elevation and temperature corrections, the length $L_2$ is further increased at the rate of **$20\%$ for every $1\%$ of effective gradient**:
+  $$L_{\text{design}} = L_2 \left(1 + 0.20 \cdot G_{\text{eff}}\right)$$
+
+#### Worked Placement Example: Runway Length
+- **Given:** Basic runway length $L_0 = 1800\text{ m}$, airport elevation $h = 600\text{ m}$, $T_a = 32^\circ\text{C}$, $T_m = 44^\circ\text{C}$, effective gradient $G_{\text{eff}} = 0.5\%$.
+- **Step 1 (Elevation):** $L_1 = 1800 \left(1 + \frac{0.07 \times 600}{300}\right) = 1800(1 + 0.14) = 2052\text{ m}$.
+- **Step 2 (Temperature):** $T_R = 32 + (44 - 32)/3 = 36^\circ\text{C}$. Standard temp $T_{\text{std}} = 15 - 0.0065(600) = 11.1^\circ\text{C}$.
+  $\Delta T = 36 - 11.1 = 24.9^\circ\text{C}$.
+  $L_2 = 2052(1 + 0.01 \times 24.9) = 2052(1.249) = 2562.9\text{ m}$.
+  Check combined increase: $\frac{2562.9 - 1800}{1800} = \frac{762.9}{1800} = 42.4\% > 35\%$ $\implies$ requires special airline performance study per DGCA.
+- **Step 3 (Gradient):** $L_{\text{design}} = 2562.9(1 + 0.20 \times 0.5) = 2562.9(1.10) \approx \mathbf{2819\text{ m}}$.
 
 **Runway orientation:**
 - Oriented into wind (≥ 95% of wind operations)

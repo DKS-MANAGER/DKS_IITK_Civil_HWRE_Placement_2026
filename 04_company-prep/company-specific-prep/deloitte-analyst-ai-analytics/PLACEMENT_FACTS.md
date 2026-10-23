@@ -18,6 +18,15 @@
 
 ---
 
+
+### 1.3 Discipline Eligibility & Specific Degree Caveats
+> [!WARNING]
+> **IIT Kanpur Specific Degree Caveat (`[UNVERIFIED - DEPENDS ON JNF]`):**
+> * The supplied placement proforma confirms the role title **Analyst**, CTC **₹13,00,000** (₹10L Fixed + ₹2L Bonus + ₹1L Variable), and hiring entity **Deloitte US-India (USI)**.
+> * **Eligibility for M.Tech Civil Engineering (Hydraulics and Water Resources Engineering - HWRE):** Deloitte USI typically opens Analyst / Technology Consulting roles to all engineering postgraduates (M.Tech / Dual Degree) with strong quantitative, coding, and analytical aptitude. However, **exact branch eligibility is governed strictly by the official Job Notification Form (JNF) on the IIT Kanpur Student Placement Office (SPO) portal**. Candidates must verify the active JNF to confirm whether Civil/HWRE is explicitly open or subject to CPI cutoffs (typically 6.5 or 7.0 CPI).
+
+---
+
 ## 2. Campus Compensation Package (Proforma Record)
 
 The following financial breakdown reflects the campus placement proforma provided for this specific campus hiring drive:

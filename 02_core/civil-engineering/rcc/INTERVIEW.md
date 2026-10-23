@@ -12,7 +12,7 @@
    - WSM: elastic theory, allowable stresses, single FOS. LSM: probabilistic, partial safety factors, checks collapse + serviceability, more economical.
 
 2. **What are the assumptions in limit state flexural design?**
-   - Plane sections remain plane; max concrete strain 0.0035; failure by concrete crushing; max principal strain theory; max tension steel strain $0.87f_y/E_s + 0.002$.
+   - Plane sections remain plane; max concrete compressive strain $\epsilon_{cu} = 0.0035$; parabolic-rectangular concrete stress block; tensile strength of concrete neglected; steel strain $\ge 0.87f_y/E_s + 0.002$ at yielding in under-reinforced ductile failure.
 
 3. **What is the difference between under-reinforced, balanced, and over-reinforced sections?**
    - Under: steel yields first (ductile, preferred). Balanced: simultaneous failure. Over: concrete crushes first (brittle, avoid).

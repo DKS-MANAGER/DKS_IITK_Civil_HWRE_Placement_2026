@@ -8,26 +8,32 @@ Groundwater is water stored beneath the Earth's surface in pore spaces and fract
 
 ---
 
-## Darcy's Law
+## Darcy's Law & Velocity Terminology
 
 ### Statement
-The discharge velocity (seepage velocity) through a porous medium is directly proportional to the hydraulic gradient.
+The macroscopic discharge rate of fluid through a porous medium is directly proportional to the hydraulic gradient and cross-sectional area perpendicular to flow.
 
-### Equation
-$$Q = K \cdot i \cdot A$$
-$$v = \frac{Q}{A} = K \cdot i$$
+### Governing Relations: Darcy Velocity vs. Seepage Velocity
+$$Q = -K \cdot A \cdot \frac{dh}{dl} = K \cdot i \cdot A$$
+
+$$\text{Darcy Velocity (Specific Discharge / Superficial Velocity): } v = \frac{Q}{A} = K \cdot i$$
+
+$$\text{Actual Pore Seepage Velocity (Interstitial Velocity): } v_s = \frac{v}{n} = \frac{K \cdot i}{n}$$
 
 Where:
-- $Q$ = discharge (m³/s)
+- $Q$ = discharge ($\text{m}^3\text{/s}$)
 - $K$ = hydraulic conductivity (m/s)
-- $i$ = hydraulic gradient (dimensionless) = $dh/dl$
-- $A$ = cross-sectional area (m²)
-- $v$ = seepage velocity (m/s)
+- $i = -\frac{dh}{dl}$ = hydraulic gradient (dimensionless)
+- $A$ = total gross cross-sectional area (soil grains + voids) ($\text{m}^2$)
+- $A_v = n \cdot A$ = area of interconnected pore voids ($\text{m}^2$)
+- $n$ = effective porosity ($0 < n < 1$; typically $0.25\text{--}0.45$)
+- $v$ = Darcy flux / superficial velocity (m/s) — fictitious velocity assuming flow through entire cross section
+- $v_s$ = true seepage velocity (m/s) — actual interstitial velocity of water moving through pore channels ($v_s > v$)
 
 ### Validity
 - Valid for laminar flow in saturated media
-- Applicable for Reynolds numbers < 1 to 10 depending on media
-- $Re = \rho v d / \mu$ where $d$ = grain diameter
+- Applicable when Reynolds number $Re < 1\text{ to }10$
+- $Re = \frac{\rho v d_{10}}{\mu}$ where $d_{10}$ = effective grain diameter
 
 ---
 
@@ -163,14 +169,20 @@ Where $K_d$ = distribution coefficient, $\rho_b$ = bulk density
 2. $W(u) \approx -0.5772 - \ln(0.00723) = -0.5772 + 4.93 = 4.35$
 3. $s = (0.01 / (4\pi \times 0.001)) \times 4.35 = 0.796 \times 4.35 = 3.46$ m
 
-### Example 2: Cooper-Jacob
-**Problem:** Pumping test data: $Q = 0.02$ m³/s, $r = 100$ m. Drawdown at $t = 1000$ min = 2.5 m, at $t = 10000$ min = 3.2 m. Find $T$ and $S$.
+### Example 2: Cooper-Jacob Straight-Line Analysis
+**Problem:** Pumping test data: $Q = 0.02$ m³/s, observation distance $r = 100$ m. Drawdown at $t = 1000$ min is $2.5$ m, at $t = 10000$ min is $3.2$ m. Find $T$ and $S$.
 
 **Solution:**
-1. Slope = $(3.2 - 2.5) / \log(10000/1000) = 0.7 / 1 = 0.7$ m/log cycle
-2. $T = 2.3Q / (4\pi \times \text{slope}) = 2.3 \times 0.02 / (4\pi \times 0.7) = 0.0052$ m²/s
-2. Intercept at $s=0$: $t_0 = 1000 \times 10^{-2.5/0.7} = 1000 \times 10^{-3.57} = 0.269$ min
-3. $S = 2.25 T t_0 / r^2 = 2.25 \times 0.0052 \times 0.269 / 10000 = 3.15 \times 10^{-6}$
+1. Drawdown difference per log cycle of time:
+   $$\Delta s = 3.2 - 2.5 = 0.70\text{ m/log cycle}$$
+2. Transmissivity $T$:
+   $$T = \frac{2.303 Q}{4\pi \, \Delta s} = \frac{2.303 \times 0.02}{4\pi \times 0.70} = \frac{0.04606}{8.796} = \mathbf{0.00523\text{ m}^2\text{/s}}$$
+3. Zero-drawdown intercept time $t_0$:
+   $$s = \Delta s \cdot \log_{10}\left(\frac{t}{t_0}\right) \implies 2.5 = 0.70 \cdot \log_{10}\left(\frac{1000}{t_0}\right)$$
+   $$\log_{10}\left(\frac{1000}{t_0}\right) = \frac{2.5}{0.70} = 3.571 \implies \frac{1000}{t_0} = 3727.6 \implies t_0 = 0.2683\text{ min}$$
+4. Storativity $S$ (converting $t_0$ to seconds: $t_0 = 0.2683 \times 60 = 16.10\text{ s}$):
+   $$S = \frac{2.25 T t_0}{r^2} = \frac{2.25 \times 0.00523 \times 16.10}{100^2} = \frac{0.1894}{10000} = \mathbf{1.89 \times 10^{-5}}$$
+   *(Note: Forgetting to convert $t_0$ from minutes to seconds is a severe error that underestimates $S$ by a factor of 60).*
 
 ### Example 3: Thiem Equation
 **Problem:** Confined aquifer, $T = 0.005$ m²/s. Observation wells at $r_1 = 10$ m ($h_1 = 95$ m) and $r_2 = 100$ m ($h_2 = 99$ m). Find $Q$.

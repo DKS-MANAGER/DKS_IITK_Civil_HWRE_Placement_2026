@@ -69,15 +69,14 @@ Eight members of a board of directors, including two hostile executives $X$ and 
 - **Level & Concept:** Level 2 (Standard Placement) | Primary: Circular Permutations | Secondary: Complementary Counting
 - **Reasoning Setup:** Total circular arrangements of 8 distinct people without restrictions $= (8 - 1)! = 7! = 5,040$.
 - **Derivation:** By complementary counting, subtract the arrangements where $X$ and $Y$ sit together.
-  Treat $[X, Y]$ as 1 unit. We arrange $(7 - 1) = 6$ items around a circle in $(6 - 1)! = 5! = 120$ ways. Internally, $X$ and $Y$ can sit in $2! = 2$ ways.
-  Arrangements with $X$ and $Y$ adjacent $= 120 \times 2 = 240$.
-- **Calculation:**
-  $$\text{Separated Arrangements} = 5,040 - 240 = \mathbf{4,800}$$
-  *(Wait: Let us re-verify: Total circular = $(8-1)! = 5,040$. Macro-items = 7 items in circle $= 6! = 720$. Internally $2! = 2 \implies 720 \times 2 = 1,440$. Valid $= 5,040 - 1,440 = \mathbf{3,600}$.)*
+  Treat $[X, Y]$ as 1 single block alongside the remaining 6 individuals, giving 7 distinct units to arrange around a circular table.
+  The 7 units can be arranged around the circle in $(7 - 1)! = 6! = 720$ ways.
+  Within the block, $X$ and $Y$ can arrange themselves in $2! = 2$ ways.
+  Total arrangements with $X$ and $Y$ sitting adjacent $= 6! \times 2! = 720 \times 2 = 1,440$.
 - **Calculation Step-by-Step:**
-  $$\text{Total Circular} = (8 - 1)! = 7! = 5,040$$
-  $$\text{Adjacent Pair} = (7 - 1)! \times 2! = 6! \times 2 = 720 \times 2 = 1,440$$
-  $$\text{Separated Seating} = 5,040 - 1,440 = \mathbf{3,600}$$
+  $$\text{Total Unrestricted Circular Arrangements} = (8 - 1)! = 7! = 5,040$$
+  $$\text{Arrangements with } X, Y \text{ Adjacent} = 1,440$$
+  $$\text{Arrangements with } X, Y \text{ Separated} = 5,040 - 1,440 = \mathbf{3,600}$$
 - **Final Answer:** $3,600$
 - **Common Trap:** Using linear permutations ($8! - 7! \times 2$) instead of circular relative symmetries.
 - **Alternative Method (Gap Method):** Seat the other 6 people in a circle in $(6 - 1)! = 5! = 120$ ways. This creates 6 circular gaps. Place $X$ and $Y$ into 2 of the 6 gaps in $^6P_2 = 6 \times 5 = 30$ ways $\implies 120 \times 30 = 3,600$.

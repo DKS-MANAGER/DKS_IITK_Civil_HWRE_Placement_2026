@@ -103,18 +103,38 @@ tan(2θ_p) = 2τ_xy / (σ_x - σ_y)
 τ_max = R = (σ₁ - σ₂) / 2
 ```
 
-### Sign Convention for Mohr's Circle
+### Unambiguous Sign Convention for Mohr's Circle
 
-| Face | Normal Stress | Shear Stress |
-|------|--------------|-------------|
-| Right face (+x) | Tensile = positive ( plotted to right) | Clockwise on element = plotted above |
-| Top face (+y) | Tensile = positive | Counterclockwise on element = plotted below |
+To plot Mohr's circle without confusion or coordinate ambiguity, follow the standard engineering sign convention (Timoshenko & Gere):
+
+1. **Normal Stress ($\sigma$):**
+   - Plotted on the **horizontal axis** ($\sigma$-axis).
+   - **Tensile stress** is **POSITIVE** $\to$ plotted to the **right** of the origin ($+X$).
+   - **Compressive stress** is **NEGATIVE** $\to$ plotted to the **left** of the origin ($-X$).
+
+2. **Shear Stress ($\tau$):**
+   - Plotted on the **vertical axis** ($\tau$-axis).
+   - **Rotational Criterion:** Look at the shear stress arrow on the face under consideration. If the shear stress tends to rotate the element **CLOCKWISE (CW)** about the element's center, it is plotted **POSITIVE (ABOVE the $\sigma$-axis)**.
+   - If the shear stress tends to rotate the element **COUNTER-CLOCKWISE (CCW)** about the center, it is plotted **NEGATIVE (BELOW the $\sigma$-axis)**.
+
+| Face of Stress Element | Normal Stress Coordinate | Shear Stress Tendency | Point on Mohr's Circle |
+| :--- | :--- | :--- | :--- |
+| **Right Vertical Face ($+x$ face)** | $\sigma_x$ (Tension $= +$, Comp $= -$) | $\tau_{xy}$ (upward $\to$ CW $\to$ plot ABOVE) | $X\left(\sigma_x, \tau_{xy}\right)$ |
+| **Top Horizontal Face ($+y$ face)** | $\sigma_y$ (Tension $= +$, Comp $= -$) | $\tau_{yx}$ (leftward $\to$ CCW $\to$ plot BELOW) | $Y\left(\sigma_y, -\tau_{xy}\right)$ |
+
+> [!NOTE]
+> Points $X$ and $Y$ are diametrically opposite. The line connecting $X$ and $Y$ intersects the horizontal axis at the center:
+> $$C = \left(\frac{\sigma_x + \sigma_y}{2}, 0\right)$$
+> The radius is the distance from $C$ to $X$:
+> $$R = \sqrt{\left(\frac{\sigma_x - \sigma_y}{2}\right)^2 + \tau_{xy}^2}$$
 
 ### KEY INTERVIEW INSIGHT
 
-**WHY is the angle on Mohr's circle 2θ while the physical rotation is θ?**
-
-The 2θ relationship arises because Mohr's circle is a mathematical transformation of the stress transformation equations. When you rotate the physical element by θ, the double-angle terms in the transformation equations (which come from trigonometric identities for cos²θ and sin²θ) effectively rotate by 2θ in the σ-τ plane. This is not a physical doubling — it's a consequence of the mathematics of coordinate transformation.
+**WHY is the angle on Mohr's circle $2\theta$ while the physical rotation is $\theta$?**
+The $2\theta$ relationship arises directly from the trigonometric double-angle identities in the Cauchy stress transformation equations:
+$$\sigma_{x'} = \frac{\sigma_x + \sigma_y}{2} + \frac{\sigma_x - \sigma_y}{2}\cos 2\theta + \tau_{xy}\sin 2\theta$$
+$$\tau_{x'y'} = -\frac{\sigma_x - \sigma_y}{2}\sin 2\theta + \tau_{xy}\cos 2\theta$$
+When the physical stress element is rotated by an angle $\theta$, the radius vector on Mohr's circle rotates by $2\theta$ in the **exact same rotational direction** (e.g., rotating physical element $\theta$ counter-clockwise corresponds to rotating the radius on Mohr's circle by $2\theta$ counter-clockwise). This maps the orthogonal physical faces ($90^\circ$ apart) to diametrically opposite points ($180^\circ$ apart) on the circle!
 
 ---
 
@@ -183,27 +203,46 @@ where:
 | Hollow Circle (D,d) | π(D⁴-d⁴)/64 | π(D⁴-d⁴)/(32D) |
 | Triangle (b×h) | bh³/36 | bh²/24 |
 
-### Neutral Axis
+### Neutral Axis: First-Principles Derivation & Centroid Mechanics
 
-- Passes through the centroid of the cross-section
-- At NA, bending stress = 0
-- For symmetric sections, NA is at mid-depth
-- For asymmetric sections (T, L), NA shifts toward the wider flange
+The **Neutral Axis (NA)** is the longitudinal line or cross-sectional axis along which normal bending strain and normal bending stress are identically zero ($\epsilon = 0$, $\sigma = 0$).
+
+#### Why Does the Neutral Axis Pass Through the Centroid?
+Consider a prismatic beam subjected to pure bending moment $M$ (zero axial force $N = 0$).
+1. **Bernoulli-Euler Hypothesis:** Plane sections normal to the longitudinal axis remain plane and perpendicular after bending. Consequently, normal strain $\epsilon(y)$ varies linearly with distance $y$ from the neutral surface:
+   $$\epsilon(y) = \kappa \cdot y = \frac{y}{\rho}$$
+   *(where $\kappa = 1/\rho$ is beam curvature).*
+2. **Hooke's Law:** For a homogeneous, linear-elastic material with Young's modulus $E$:
+   $$\sigma(y) = E \cdot \epsilon(y) = E \cdot \kappa \cdot y$$
+3. **Axial Static Equilibrium:** Because no external axial load acts on the beam, the resultant normal force over the cross-section must vanish:
+   $$\int_A \sigma(y) \, dA = 0 \implies \int_A (E \cdot \kappa \cdot y) \, dA = 0$$
+   For a non-trivial curvature ($\kappa \ne 0$) and constant $E$:
+   $$E \cdot \kappa \int_A y \, dA = 0 \implies \mathbf{\int_A y \, dA = 0}$$
+   **Mathematical Conclusion:** The integral $\int_A y \, dA$ represents the **first moment of cross-sectional area** about the neutral axis. By mathematical definition, the first moment of area is zero **ONLY when measured about the centroid of the cross-section**!
+   Therefore, for pure bending of a homogeneous material, **the neutral axis must pass through the centroid ($\bar{y}$) of the cross-sectional area**:
+   $$\bar{y} = \frac{\sum A_i \bar{y}_i}{\sum A_i}$$
+
+#### Behavior in Asymmetric and Composite Sections:
+- **Asymmetric Homogeneous Sections (T-beams, Unsymmetrical I-beams, L-angles):**
+  The neutral axis does *not* sit at mid-depth. Its position is determined strictly by the area centroid $\bar{y} = \sum A_i y_i / \sum A_i$. It sits closer to the region with greater concentrated area (e.g., in a T-beam, the NA is closer to the wide flange, meaning the web extreme fiber is further away ($y_{\text{web}} > y_{\text{flange}}$) and suffers much higher flexural stress $\sigma = M y / I$).
+- **Composite / Multi-Material Sections (e.g., Flitched beams, Timber reinforced with steel plates):**
+  When different materials are bonded together ($E_1 \ne E_2$), normal stress $\sigma(y) = E(y) \kappa y$.
+  Equilibrium requires:
+  $$\int_A E(y) y \, dA = 0 \implies \int_{A_1} E_1 y \, dA + \int_{A_2} E_2 y \, dA = 0$$
+  Dividing by reference modulus $E_1$, define modular ratio $m = E_2 / E_1$:
+  $$\int_{A_1} y \, dA + m \int_{A_2} y \, dA = \int_{A_{\text{trans}}} y \, dA = 0$$
+  **The neutral axis passes through the centroid of the TRANSFORMED AREA** ($A_{\text{trans}} = A_1 + m A_2$). The stiffer material ($E_2 > E_1$) carries proportionally higher stress, shifting the elastic centroid toward itself.
 
 ### WHY does the flexure formula work?
 
-**Physical reasoning:** When a beam bends, fibers on the convex side stretch (tension) and fibers on the concave side compress. The neutral axis is where neither stretching nor compression occurs. The stress varies linearly from zero at NA to maximum at the extreme fiber because strain varies linearly (plane sections remain plane — this is the **Bernoulli-Navier hypothesis**). Since σ = Eε and E is constant, stress follows the same linear distribution.
+**Physical reasoning:** When a beam bends, fibers on the convex side stretch (tension) and fibers on the concave side compress. The neutral axis is where neither stretching nor compression occurs. The stress varies linearly from zero at NA to maximum at the extreme fiber because strain varies linearly (plane sections remain plane — this is the **Bernoulli-Navier hypothesis**). Since $\sigma = E\epsilon$ and $E$ is constant, stress follows the same linear distribution.
 
-**Assumptions:**
-1. Material is linear elastic (Hooke's law valid)
-2. Plane sections remain plane after bending
-3. Small deflections
-4. Homogeneous, isotropic material
-5. Symmetric bending (load in plane of symmetry)
-
-### WHAT-IF: What if the beam cross-section is asymmetric?
-
-The neutral axis no longer passes through the geometric center — it shifts toward the stiffer (wider) part. The flexure formula σ = My/I still applies, but y must be measured from the true neutral axis (centroid). For a T-section, the NA is closer to the flange, so the bottom fiber (in the web) experiences much higher stress than the top fiber (in the flange).
+**Assumptions of Simple Bending Theory:**
+1. **Material Linearity:** Material is homogeneous, isotropic, and obeys Hooke's law in both tension and compression ($E_t = E_c$).
+2. **Plane Sections Remain Plane:** Transverse sections remain plane and perpendicular to the neutral axis before and after bending (shear deformations neglected).
+3. **Pure Bending:** The beam is subjected only to pure bending moments (transverse shear force is zero).
+4. **Prismatic & Straight:** The beam is initially straight with constant cross-section throughout its span.
+5. **Symmetric Bending:** The radius of curvature is large compared to cross-sectional dimensions, and bending occurs in a plane of symmetry.
 
 ---
 

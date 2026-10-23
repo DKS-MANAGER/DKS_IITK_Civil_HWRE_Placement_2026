@@ -106,12 +106,22 @@ $$h_m = K \frac{V^2}{2g}$$
 | Gate valve (fully open) | 0.2 |
 | Globe valve (fully open) | 10 |
 
-#### Hazen-Williams Formula
-$$V = 1.318 \, C \, R^{0.63} \, S^{0.54}$$
+#### Hazen-Williams Formula (Empirical — Water at $20^\circ\text{C}$ in Turbulent Flow)
+- **SI Units:**
+  $$V = 0.849 \, C \, R^{0.63} \, S^{0.54}$$
+  $$Q = 0.278 \, C \, D^{2.63} \, S^{0.54}$$
+  Head loss in a pipe of length $L$ and diameter $D$:
+  $$h_f = \frac{10.67 \, L \, Q^{1.852}}{C^{1.852} \, D^{4.87}}$$
+  Where:
+  - $V$ = mean flow velocity (m/s)
+  - $Q$ = discharge ($\text{m}^3\text{/s}$)
+  - $D$ = pipe diameter (m); $R = D/4$ for full pipe (m)
+  - $S = h_f / L$ = hydraulic gradient (dimensionless)
+  - $C$ = Hazen-Williams roughness coefficient (dimensionless; 130–140 for new ductile iron/PVC, 100 for old cast iron)
+- **US Customary Units (for reference):**
+  $$V = 1.318 \, C \, R^{0.63} \, S^{0.54} \quad (V\text{ in ft/s, } R\text{ in ft})$$
 
-- $C$ = Hazen-Williams roughness coefficient (100–140 for pipes)
-- $R$ = hydraulic radius (m)
-- $S$ = energy slope
+*Limitation:* Applicable strictly to water at ordinary temperatures ($10^\circ\text{C}\text{--}25^\circ\text{C}$) and diameters $D \ge 50\text{ mm}$. Unlike Darcy-Weisbach, it cannot be used for non-water fluids or extreme temperatures.
 
 #### Manning's Formula
 $$V = \frac{1}{n} R^{2/3} S^{1/2}$$
@@ -221,17 +231,53 @@ For $n$ variables with $m$ fundamental dimensions, there are $n - m$ dimensionle
 5. $V^2 = \frac{10 \times 19.62}{16} = 12.26$ → $V = 3.50$ m/s
 6. $Q = A \times V = \frac{\pi (0.2)^2}{4} \times 3.50 = 0.110$ m³/s
 
-### Example 2: Pipe Network (Hardy Cross)
-**Problem:** Simple loop with $L_1 = 500$ m, $D_1 = 0.3$ m, $L_2 = 600$ m, $D_2 = 0.25$ m, initial $Q_1 = 0.1$ m³/s, $Q_2 = -0.1$ m³/s, $f = 0.02$.
+### Example 2: Pipe Network Analysis (Hardy Cross Method)
+**Problem:**
+A total discharge of $Q_{\text{in}} = 0.20\text{ m}^3\text{/s}$ enters Node A of a two-branch parallel pipe loop and exits at Node B:
+- **Branch 1 (Upper, clockwise):** $L_1 = 500\text{ m}$, $D_1 = 0.30\text{ m}$, friction factor $f = 0.02$.
+- **Branch 2 (Lower, counter-clockwise):** $L_2 = 600\text{ m}$, $D_2 = 0.25\text{ m}$, friction factor $f = 0.02$.
+
+Using an initial flow distribution satisfying nodal continuity at Node A ($Q_1^{(0)} = 0.10\text{ m}^3\text{/s}$ through Branch 1, $Q_2^{(0)} = 0.10\text{ m}^3\text{/s}$ through Branch 2), perform **one iteration** of the Hardy Cross method to find the loop flow correction $\Delta Q$ and the updated discharges.
 
 **Solution:**
-1. Compute head loss: $h_f = f \frac{L}{D} \frac{Q^2}{2gA^2}$ for each pipe
-2. $A_1 = \pi(0.3)^2/4 = 0.0707$ m², $A_2 = \pi(0.25)^2/4 = 0.0491$ m²
-3. $h_{f1} = 0.02 \times \frac{500}{0.3} \times \frac{(0.1)^2}{2 \times 9.81 \times (0.0707)^2} = 0.340$ m
-4. $h_{f2} = 0.02 \times \frac{600}{0.25} \times \frac{(0.1)^2}{2 \times 9.81 \times (0.0491)^2} = 1.013$ m
-5. Correction: $\Delta Q = -\frac{\sum h_f}{\sum |h_f/Q|} = -\frac{0.340 - 1.013}{0.340/0.1 + 1.013/0.1} = \frac{0.673}{13.53} = 0.0498$ m³/s
-6. Updated: $Q_1 = 0.150$, $Q_2 = -0.050$
-7. Iterate until $\sum h_f < 0.01$ m
+
+1. **Governing Hardy Cross Correction Equation:**
+   For head loss expressed as $h_f = r Q^n$ (where $n = 2$ for Darcy-Weisbach flow), traversing the loop clockwise:
+   $$\Delta Q = -\frac{\sum_{\text{loop}} h_f}{n \sum_{\text{loop}} \left|\frac{h_f}{Q}\right|} = -\frac{\sum h_f}{2 \sum \left|\frac{h_f}{Q}\right|}$$
+
+2. **Compute Pipe Resistance Constants ($h_f = r Q^2$):**
+   $$r = \frac{f L}{2 g D A^2} = \frac{8 f L}{\pi^2 g D^5}$$
+   - **Branch 1:**
+     $$A_1 = \frac{\pi (0.30)^2}{4} = 0.07069\text{ m}^2$$
+     $$r_1 = \frac{0.02 \times 500}{2 \times 9.81 \times 0.30 \times (0.07069)^2} = \frac{10.0}{0.02941} = 340.0\text{ s}^2\text{/m}^5$$
+   - **Branch 2:**
+     $$A_2 = \frac{\pi (0.25)^2}{4} = 0.04909\text{ m}^2$$
+     $$r_2 = \frac{0.02 \times 600}{2 \times 9.81 \times 0.25 \times (0.04909)^2} = \frac{12.0}{0.01182} = 1015.3\text{ s}^2\text{/m}^5$$
+
+3. **Loop Head Loss Table (Clockwise positive convention):**
+   - Branch 1 (flows A $\to$ B, clockwise): $Q_1 = +0.10\text{ m}^3\text{/s}$
+     $$h_{f1} = r_1 Q_1^2 = 340.0 \times (0.10)^2 = +3.40\text{ m}$$
+     $$\left|\frac{h_{f1}}{Q_1}\right| = \frac{3.40}{0.10} = 34.0\text{ s/m}^2$$
+   - Branch 2 (flows A $\to$ B, counter-clockwise relative to loop): $Q_2 = -0.10\text{ m}^3\text{/s}$
+     $$h_{f2} = -r_2 Q_2^2 = -1015.3 \times (0.10)^2 = -10.15\text{ m}$$
+     $$\left|\frac{h_{f2}}{Q_2}\right| = \frac{10.15}{0.10} = 101.5\text{ s/m}^2$$
+
+4. **Sum of Terms Around Loop:**
+   $$\sum h_f = +3.40 - 10.15 = -6.75\text{ m}$$
+   $$\sum \left|\frac{h_f}{Q}\right| = 34.0 + 101.5 = 135.5\text{ s/m}^2$$
+
+5. **Loop Flow Correction:**
+   $$\Delta Q = -\frac{-6.75}{2 \times 135.5} = +\frac{6.75}{271.0} = +0.0249\text{ m}^3\text{/s} \approx +0.025\text{ m}^3\text{/s}$$
+
+6. **Updated Discharges (Preserving Nodal Continuity):**
+   $$Q_1^{(1)} = Q_1^{(0)} + \Delta Q = 0.100 + 0.025 = 0.125\text{ m}^3\text{/s}$$
+   $$Q_2^{(1)} = Q_2^{(0)} - \Delta Q = 0.100 - 0.025 = 0.075\text{ m}^3\text{/s}$$
+   Check continuity at Node A: $Q_1^{(1)} + Q_2^{(1)} = 0.125 + 0.075 = 0.200\text{ m}^3\text{/s} = Q_{\text{in}}$ (verified).
+
+7. **Verification of Head Convergence:**
+   - $h_{f1}^{(1)} = 340.0 \times (0.125)^2 = +5.31\text{ m}$
+   - $h_{f2}^{(1)} = -1015.3 \times (0.075)^2 = -5.71\text{ m}$
+   - New loop head imbalance: $\sum h_f^{(1)} = 5.31 - 5.71 = -0.40\text{ m}$ (reduced dramatically from $-6.75\text{ m}$; ready for iteration 2 if needed).
 
 ### Example 3: Pump Selection
 **Problem:** Pump water at $Q = 0.05$ m³/s from a lower reservoir to an upper reservoir at $\Delta z = 20$ m through $L = 500$ m, $D = 0.15$ m, $f = 0.025$. Find required pump head.
@@ -290,7 +336,7 @@ For $n$ variables with $m$ fundamental dimensions, there are $n - m$ dimensionle
 | Bernoulli | $\frac{P}{\gamma} + \frac{V^2}{2g} + z = \text{const}$ | Energy conservation |
 | Darcy-Weisbach | $h_f = f\frac{L}{D}\frac{V^2}{2g}$ | Pipe friction loss |
 | Manning | $V = \frac{1}{n}R^{2/3}S^{1/2}$ | Open channel velocity |
-| Hazen-Williams | $V = 1.318CR^{0.63}S^{0.54}$ | Water pipe design |
+| Hazen-Williams | $V = 0.849 C R^{0.63} S^{0.54}$ | Water pipe design (SI) |
 | Power | $P = \gamma QH / \eta$ | Pump power required |
 | NPSH | $NPSH_A = \frac{P_{atm}}{\gamma} - \frac{P_v}{\gamma} - h_s - h_f$ | Cavitation check |
 
@@ -327,10 +373,11 @@ Reynolds/Froude         →  Pump curves & BEP         →  Model testing/simili
 | Colebrook-White | $\frac{1}{\sqrt{f}} = -2\log\left(\frac{\epsilon/D}{3.7} + \frac{2.51}{Re\sqrt{f}}\right)$ | $\epsilon$=roughness | — | Implicit; iter. or Moody | ⭐⭐ |
 | Swamee-Jain | $f = \frac{0.25}{\left[\log\left(\frac{\epsilon/D}{3.7} + \frac{5.74}{Re^{0.9}}\right)\right]^2}$ | Same as above | — | Explicit approximation | ⭐⭐ |
 | Manning | $V = \frac{1}{n}R^{2/3}S^{1/2}$ | $n$=Manning coeff, $R$=hyd. radius, $S$=slope | m/s | Open channel uniform flow | ⭐⭐⭐ |
-| Hazen-Williams | $V = 1.318CR^{0.63}S^{0.54}$ | $C$=H-W coefficient | m/s | Water pipes only | ⭐⭐ |
+| Hazen-Williams | $V = 0.849 C R^{0.63} S^{0.54}$ | $C$=H-W coefficient, $R$=hyd radius, $S$=slope | m/s | Water pipes only (SI) | ⭐⭐ |
 | Pump Power | $P = \frac{\gamma QH}{\eta}$ | $\eta$=efficiency | W or kW | Pump sizing | ⭐⭐⭐ |
-| Specific Speed | $N_s = \frac{N\sqrt{Q}}{H^{3/4}}$ | $N$=rpm, $Q$=discharge, $H$=head | — | Pump/turbine classification | ⭐⭐ |
-| NPSH | $NPSH_A = \frac{P_{atm}}{\gamma} - \frac{P_v}{\gamma} - h_s - h_f$ | $P_v$=vapor pressure | m | Cavitation check | ⭐⭐⭐ |
+| Pump Specific Speed | $N_s = \frac{N\sqrt{Q}}{H^{3/4}}$ | $N$=rpm, $Q$=m³/s, $H$=m | rpm | Pump type classification | ⭐⭐⭐ |
+| Turbine Specific Speed | $N_{st} = \frac{N\sqrt{P}}{H^{5/4}}$ | $N$=rpm, $P$=kW, $H$=m | rpm | Turbine classification (Pelton/Francis/Kaplan) | ⭐⭐⭐ |
+| NPSH Available | $NPSH_A = \frac{P_{atm}}{\gamma} - \frac{P_v}{\gamma} - h_s - h_f$ | $P_v$=vapor pressure, $h_s$=suction lift | m | Must exceed $NPSH_R$ to prevent cavitation | ⭐⭐⭐ |
 | Reynolds | $Re = \frac{\rho VD}{\mu} = \frac{VD}{\nu}$ | $\nu$=kinematic viscosity | — | Flow regime determination | ⭐⭐⭐ |
 | Euler Buckling | $P_{cr} = \frac{\pi^2EI}{(KL)^2}$ | $K$=end condition factor | N | Column design | ⭐⭐ |
 | Drag Force | $F_D = \frac{1}{2}C_D\rho AV^2$ | $C_D$=drag coefficient | N | External flow | ⭐⭐ |

@@ -40,54 +40,7 @@ Step 5: Total Time = (N_cycles * T_cycle) + sum(fractional hours of final cycle)
 
 ---
 
-## 2. Master Answer Key (Q1-Q40)
-
-| Question | Level | Archetype / Domain | Correct Option | Numerical Value | Core Formula / Model |
-|:---:|:---:|:---|:---:|:---:|:---|
-| **Q1** | Level 1 | LCM Unit Work Method with 3 Agents | **(B)** | `8 hours` | Total Work = LCM(18, 24, 36) = 72 units. Efficiencies: ... |
-| **Q2** | Level 1 | Efficiency Ratio & Differential Completion Time | **(C)** | `17.14 days (120/7 days)` | Efficiency ratio E_P : E_Q = 2.5 : 1 = 5 : 2. Time rati... |
-| **Q3** | Level 1 | Wage Distribution Based on Work Contribution | **(B)** | `USD 10,800` | Total work = LCM(15, 20, 6) = 60 units. Rate X = 4/day,... |
-| **Q4** | Level 1 | Leaving After Fixed Number of Days | **(B)** | `20 days` | Total work = LCM(30, 45) = 90 units. Rate Alpha = 3 uni... |
-| **Q5** | Level 1 | Pairwise Work Allocation | **(B)** | `30 days` | Total Work = LCM(12, 15, 20) = 60 units. A+B = 5, B+C =... |
-| **Q6** | Level 2 | Leaving Prior to Project Completion | **(B)** | `12.05 days (365/31 days)` | LCM(20, 25, 30) = 300 units. Rate A = 15, B = 12, C = 1... |
-| **Q7** | Level 2 | Cyclic / Alternating Day Schedule | **(B)** | `14 hours 20 minutes (14 1/3 hours)` | Total work = LCM(12, 18) = 36 units. Rate A = 3 units/h... |
-| **Q8** | Level 2 | Group Equivalence (Men, Women, Boys) | **(C)** | `40 days` | 8(4M + 6W) = 10(3M + 7W) => 32M + 48W = 30M + 70W => 2M... |
-| **Q9** | Level 2 | Negative Work / Demolition Rate | **(B)** | `12 days` | LCM(15, 20, 30) = 60 units. Rate A = +4, Rate B = +3. N... |
-| **Q10** | Level 2 | Man-Day-Hour Chain Rule with Changing Workforce | **(C)** | `60 additional trackmen` | Chain Rule: (M1 * D1 * H1) / W1 = (M2 * D2 * H2) / W2. ... |
-| **Q11** | Level 3 | Three-Agent Cyclic Schedule with Fractional Remainder | **(D)** | `15 hours` | Total work = LCM(20, 30, 60) = 60 units. Rate Alpha = 3... |
-| **Q12** | Level 3 | Variable Efficiency Decay Function | **(B)** | `21 hours 20 minutes (21 1/3 hours)` | Let baseline rate = 1 unit/hr. Total work = 16 units. H... |
-| **Q13** | Level 3 | Efficiency Intercept with Staggered Joins | **(B)** | `14.22 days (128/9 days)` | Total work = LCM(24, 36, 48) = 144 units. Rate A = 6, B... |
-| **Q14** | Level 3 | Combined Work with Wage Sub-Allocation | **(B)** | `24 days` | Total work = LCM(12, 16) = 48 units. Rate(P+Q) = 4 unit... |
-| **Q15** | Level 3 | Non-Linear Project Penalties & Contractual Incentives | **(B)** | `50 additional excavators` | Original timeline = 60 days. To finish 10 days early, t... |
-| **Q16** | Level 4 | Variable Efficiency & Complex Fatigue Functions | **(B)** | `18 days` | Total work = LCM = 180 units. Variable rate model.... |
-| **Q17** | Level 4 | Alternating Work with Asymmetric Negative Degradation | **(A)** | `22.5 hours` | Positive filling vs negative sedimentation.... |
-| **Q18** | Level 4 | Multi-Crew Project Handover with Idle Bottlenecks | **(C)** | `15 days` | Multi-crew critical path bottleneck equation.... |
-| **Q19** | Level 4 | Wage Distribution Under Unequal Partial Attendance | **(B)** | `USD 14,400` | Wage proportional to units completed.... |
-| **Q20** | Level 4 | Contractual Overtime vs Liquidated Damages Optimization | **(D)** | `12 days early` | Overtime optimization trade-off.... |
-| **Q21** | Level 5 | Men-Women-Children Dynamic Equivalence Shifts | **(B)** | `24 days` | 12M = 18W = 24C => 2M = 3W = 4C. Work = 288 units.... |
-| **Q22** | Level 5 | Fractional Cycle Optimization with Startup Latency | **(C)** | `19 hours 45 min` | Robotic tool startup latency cycle.... |
-| **Q23** | Level 5 | Multi-Tiered Subcontracting with Margin Cascades | **(A)** | `USD 48,000` | Subcontractor margin cascade.... |
-| **Q24** | Level 5 | Non-Linear Work Rate (Rate Proportional to Remaining Work) | **(B)** | `16.8 hours` | Non-linear differential work rate.... |
-| **Q25** | Level 5 | Cyclic Schedule with Variable Team Composition | **(C)** | `21 days` | Variable crew rotational schedule.... |
-| **Q26** | Level 6 | Simultaneous Destructive Demolition & Constructive Rebuilding | **(A)** | `25 days` | Net build rate exceeds demolition rate.... |
-| **Q27** | Level 6 | Stochastic Weather Downtime & Monte Carlo Contingency | **(B)** | `32 days` | Stochastic weather buffer calculation.... |
-| **Q28** | Level 6 | Multi-Stage Pipeline with Intermediate Buffer Capacities | **(C)** | `14.5 hours` | Intermediate buffer throughput model.... |
-| **Q29** | Level 6 | Exponential Efficiency Decay Under Thermal Stress | **(B)** | `27.5 hours` | Exponential thermal decay integration.... |
-| **Q30** | Level 6 | Critical Path Method (CPM) Task Crashing Economics | **(D)** | `USD 75,000` | Task crashing cost slope formula.... |
-| **Q31** | Level 7 | The 'Days Left Before Completion' Trap | **(B)** | `15 days` | The 'X days before completion' virtual work trick.... |
-| **Q32** | Level 7 | The Wage Division Ratio Trap (Time vs Efficiency) | **(A)** | `USD 18,000` | Wage division based strictly on work done.... |
-| **Q33** | Level 7 | The Cyclic Work Remainder Boundary Trap | **(C)** | `13 hours 20 min` | Remainder finishes mid-shift.... |
-| **Q34** | Level 7 | The Negative Destroyer Net Rate Illusion | **(B)** | `30 days` | Negative worker acting intermittently.... |
-| **Q35** | Level 7 | The Chain Rule Double-Variable Confounding Trap | **(C)** | `45 additional workers` | Double-variable chain rule balance.... |
-| **Q36** | Level 8 | Consulting Caselet: Highway Excavation Fleet Dispatch | **(B)** | `40 dump trucks` | Earthmoving cycle time vs excavator capacity.... |
-| **Q37** | Level 8 | Consulting Caselet: Offshore Platform Fabrication Turnaround | **(A)** | `14 weeks` | Weather-adjusted critical path turnaround.... |
-| **Q38** | Level 8 | Consulting Caselet: Enterprise Agile Sprint Velocity Tuning | **(C)** | `8 sprint cycles` | Senior vs Junior dev code review velocity.... |
-| **Q39** | Level 8 | Consulting Caselet: Semiconductor Fab Tool Retrofitting | **(B)** | `36 hours` | Cleanroom tool retrofitting shift balance.... |
-| **Q40** | Level 8 | Consulting Caselet: Megaproject Dam Construction Monsoon Rush | **(A)** | `45 days` | Monsoon rush concrete pour acceleration.... |
-
----
-
-## 3. Comprehensive Practice Set (40 Placement Questions)
+## 2. Comprehensive Practice Set (40 Placement Questions)
 
 ### Level 1: Foundation
 
@@ -212,20 +165,20 @@ Three specialized chemical processing units--Alpha, Beta, and Gamma--can synthes
 
 **Options:**
 - (A) 13 hours
-- (B) 13.5 hours
+- (B) 13 hours 15 minutes (13.25 hours)
 - (C) 14 hours
 - (D) 15 hours
 
 #### Q12
 *Variable Efficiency Decay Function -- Software Testing & Developer Fatigue*
 
-Senior Developer Dev can debug an enterprise software module in 16 hours working at 100% baseline efficiency. However, due to cognitive fatigue, Dev's operating efficiency degrades linearly by 10% of his baseline efficiency after every 2 hours of continuous coding (i.e., Hours 1-2 at 100%, Hours 3-4 at 90%, Hours 5-6 at 80%, etc.). Under this continuous fatigue model, in exactly how many hours will Dev complete the debugging task?
+Senior Developer Dev can debug an enterprise software module in 8 hours working at 100% baseline efficiency. However, due to cognitive fatigue, Dev's operating efficiency degrades linearly by 10% of his baseline efficiency after every 2 hours of continuous coding (i.e., Hours 1-2 at 100%, Hours 3-4 at 90%, Hours 5-6 at 80%, Hours 7-8 at 70%, Hours 9-10 at 60%). Under this continuous fatigue model, in exactly how many hours will Dev complete the debugging task?
 
 **Options:**
-- (A) 20 hours
-- (B) 21 hours 20 minutes
-- (C) 22 hours 15 minutes
-- (D) 24 hours
+- (A) 9.5 hours
+- (B) 10.0 hours
+- (C) 10.5 hours
+- (D) 11.2 hours
 
 #### Q13
 *Efficiency Intercept with Staggered Joins -- Civil Dam Construction Concreting*
@@ -234,7 +187,7 @@ Specialist Concreting Team A can pour an arch dam segment in 24 days, Team B can
 
 **Options:**
 - (A) 13.5 days
-- (B) 14.22 days
+- (B) 14 2/13 days (approx. 14.15 days)
 - (C) 15.33 days
 - (D) 16.5 days
 
@@ -547,6 +500,55 @@ In an advanced industrial engineering project in the domain of **Hydraulic Civil
 
 ---
 
+---
+
+## 3. Master Answer Key (Q1-Q40)
+
+| Question | Level | Archetype / Domain | Correct Option | Numerical Value | Core Formula / Model |
+|:---:|:---:|:---|:---:|:---:|:---|
+| **Q1** | Level 1 | LCM Unit Work Method with 3 Agents | **(B)** | `8 hours` | Total Work = LCM(18, 24, 36) = 72 units. Efficiencies: A = 4, B = 3, C = 2. |
+| **Q2** | Level 1 | Efficiency Ratio & Differential Completion Time | **(C)** | `17.14 days (120/7 days)` | Efficiency ratio E_P : E_Q = 5 : 2. Time ratio 2 : 5. Difference 3x = 36 => x = 12. |
+| **Q3** | Level 1 | Wage Distribution Based on Work Contribution | **(B)** | `USD 10,800` | Total work = LCM(15, 20, 6) = 60 units. Rate X = 4, Y = 3, Z = 3. Share = 3/10 * 36,000. |
+| **Q4** | Level 1 | Leaving After Fixed Number of Days | **(B)** | `20 days` | Total work = LCM(30, 45) = 90 units. Rate Alpha = 3, Beta = 2. Work in 10 days = 50. Rem = 40. |
+| **Q5** | Level 1 | Pairwise Work Allocation | **(B)** | `30 days` | Total Work = LCM(12, 15, 20) = 60 units. Combined rate 2(A+B+C) = 12 => A+B+C = 6. Rate B = 1. |
+| **Q6** | Level 2 | Leaving Prior to Project Completion | **(B)** | `12.05 days (365/31 days)` | Total work = LCM(20, 25, 30) = 300 units. Rate A = 15, B = 12, C = 10. Virtual work method. |
+| **Q7** | Level 2 | Cyclic / Alternating Day Schedule | **(B)** | `14 hours 20 minutes` | Total work = LCM(12, 18) = 36 units. Rate A = 3, B = 2. 2-hr cycle = 5 units. |
+| **Q8** | Level 2 | Group Equivalence (Men, Women, Boys) | **(C)** | `40 days` | 8(4M + 6W) = 10(3M + 7W) => 2M = 22W => 1M = 11W. Equivalence conversion. |
+| **Q9** | Level 2 | Negative Work / Demolition Rate | **(B)** | `12 days` | LCM(15, 20, 30) = 60 units. Rate A = +4, Rate B = +3, Rate C = -2. Net rate = +5. |
+| **Q10** | Level 2 | Man-Day-Hour Chain Rule with Changing Workforce | **(C)** | `60 additional trackmen` | Chain Rule: (M1 * D1 * H1) / W1 = (M2 * D2 * H2) / W2. |
+| **Q11** | Level 3 | Three-Agent Cyclic Schedule with Fractional Remainder | **(B)** | `13 hours 15 minutes` | Total work = LCM(20, 30, 60) = 60 units. Cycle = 9 units/2 hr. 12 hr = 54 units. Rem = 6. |
+| **Q12** | Level 3 | Variable Efficiency Decay Function | **(B)** | `10.0 hours` | Work = 8 units. 8 hrs completed = 6.8 units. Rem 1.2 units at 60% rate (0.6 units/hr) = 2.0 hrs. |
+| **Q13** | Level 3 | Efficiency Intercept with Staggered Joins | **(B)** | `14 2/13 days (184/13 days)` | Total work = LCM(24, 36, 48) = 144 units. Rem 80 units at rate 13 units/day = 6 2/13 days. |
+| **Q14** | Level 3 | Combined Work with Wage Sub-Allocation | **(B)** | `24 days` | Total work = LCM(12, 16) = 48 units. 5(P+Q) + 2(Q+R) + 11R = 48 => 11R = 22 => R = 2. |
+| **Q15** | Level 3 | Non-Linear Project Penalties & Contractual Incentives | **(B)** | `50 additional excavators` | Required acceleration to compress timeline by 10 days while avoiding liquidated damages. |
+| **Q16** | Level 4 | Variable Efficiency & Complex Fatigue Functions | **(B)** | `18 days` | Piecewise rate decay integration across stages. |
+| **Q17** | Level 4 | Alternating Work with Asymmetric Negative Degradation | **(A)** | `22.5 hours` | Construction filling vs sedimentation settlement rate. |
+| **Q18** | Level 4 | Multi-Crew Project Handover with Idle Bottlenecks | **(C)** | `15 days` | Critical path constraint on successive task handovers. |
+| **Q19** | Level 4 | Wage Distribution Under Unequal Partial Attendance | **(B)** | `USD 14,400` | Proportional allocation strictly based on work volume completed. |
+| **Q20** | Level 4 | Contractual Overtime vs Liquidated Damages Optimization | **(D)** | `12 days early` | Trade-off between overtime labor premium and liquidated damages penalties. |
+| **Q21** | Level 5 | Men-Women-Children Dynamic Equivalence Shifts | **(B)** | `24 days` | 12M = 18W = 24C => 2M = 3W = 4C. Work = 288 units. |
+| **Q22** | Level 5 | Fractional Cycle Optimization with Startup Latency | **(C)** | `19 hours 45 min` | Latency startup overhead model per active cycle. |
+| **Q23** | Level 5 | Multi-Tiered Subcontracting with Margin Cascades | **(A)** | `USD 48,000` | Tier-1 vs Tier-2 margin erosion analysis. |
+| **Q24** | Level 5 | Non-Linear Work Rate (Rate Proportional to Remaining Work) | **(B)** | `16.8 hours` | Differential equation rate model: dW/dt = -k(W_total - W). |
+| **Q25** | Level 5 | Cyclic Schedule with Variable Team Composition | **(C)** | `21 days` | Team rotation matrix with varying fatigue constraints. |
+| **Q26** | Level 6 | Simultaneous Destructive Demolition & Constructive Rebuilding | **(A)** | `25 days` | Dynamic equilibrium between rebuilding and demolition rates. |
+| **Q27** | Level 6 | Stochastic Weather Downtime & Monte Carlo Contingency | **(B)** | `32 days` | Rainfall delay risk buffer model. |
+| **Q28** | Level 6 | Multi-Stage Pipeline with Intermediate Buffer Capacities | **(C)** | `14.5 hours` | Bottleneck throughput in serial processing queue. |
+| **Q29** | Level 6 | Exponential Efficiency Decay Under Thermal Stress | **(B)** | `27.5 hours` | Exponential thermal efficiency decay model. |
+| **Q30** | Level 6 | Critical Path Method (CPM) Task Crashing Economics | **(D)** | `USD 75,000` | Cost slope = (Crash Cost - Normal Cost) / (Normal Time - Crash Time). |
+| **Q31** | Level 7 | The 'Days Left Before Completion' Trap | **(B)** | `15 days` | Virtual work method for candidates leaving before completion. |
+| **Q32** | Level 7 | The Wage Division Ratio Trap (Time vs Efficiency) | **(A)** | `USD 18,000` | Remuneration split strictly by actual work delivered, not elapsed calendar days. |
+| **Q33** | Level 7 | The Cyclic Work Remainder Boundary Trap | **(C)** | `13 hours 20 min` | Remainder finished midway through an active shift. |
+| **Q34** | Level 7 | The Negative Destroyer Net Rate Illusion | **(B)** | `30 days` | Intermittent destructive agent acting on discrete intervals. |
+| **Q35** | Level 7 | The Chain Rule Double-Variable Confounding Trap | **(C)** | `45 additional workers` | Simultaneous changes in hours, days, efficiency, and task scope. |
+| **Q36** | Level 8 | Consulting Caselet: Highway Excavation Fleet Dispatch | **(B)** | `40 dump trucks` | Cycle time queuing model vs excavator loading capacity. |
+| **Q37** | Level 8 | Consulting Caselet: Offshore Platform Fabrication Turnaround | **(A)** | `14 weeks` | Critical path optimization under weather windows. |
+| **Q38** | Level 8 | Consulting Caselet: Enterprise Agile Sprint Velocity Tuning | **(C)** | `8 sprint cycles` | Review latency bottleneck optimization. |
+| **Q39** | Level 8 | Consulting Caselet: Semiconductor Fab Tool Retrofitting | **(B)** | `36 hours` | Tool turnaround optimization under cleanroom shift constraints. |
+| **Q40** | Level 8 | Consulting Caselet: Megaproject Dam Construction Monsoon Rush | **(A)** | `45 days` | Concrete pour acceleration before flood season. |
+
+---
+
 ## 4. Rigorous Step-by-Step Deductive Solutions & Distractor Post-Mortem
 
 ### Level 1: Foundation
@@ -723,66 +725,67 @@ In an advanced industrial engineering project in the domain of **Hydraulic Civil
 ### Level 3: Hard
 
 #### Q11 Solution
-- **Correct Option:** **(D) -- `15 hours`**
-- **Governing Formula:** `Total work = LCM(20, 30, 60) = 60 units. Rate Alpha = 3, Beta = 2, Gamma = 1. Hour 1 (Alpha + Beta) = 3 + 2 = 5 units. Hour 2 (Alpha + Gamma) = 3 + 1 = 4 units. 2-hr block = 5 + 4 = 9 units. 6 blocks (12 hrs) = 54 units. Hour 13 (Alpha + Beta) = 5 units => 59 units. Hour 14 (Alpha + Gamma, rate 4): Remaining = 1 unit => 1/4 hr. Wait: 60 units! 12 hrs = 54 units. Hr 13: 5 units (total 59). Hr 14: need 1 unit, rate is 4 => 1/4 hr => 13.25 hrs? Wait! Let's check LCM: 60/20 = 3, 60/30 = 2, 60/60 = 1. 2-hr block = 5+4 = 9. 6*9 = 54. 60-54 = 6. Hr 13: 5 units => total 59. Remaining = 1 unit. Hr 14 rate is 4 => 1/4 hr => 13 hrs 15 min! Let's adjust numbers for a clean integer: if total work = 60, Alpha = 3, Beta = 2, Gamma = 1. What if 2-hr block completes 8 units? Let's verify prompt options.`
+- **Correct Option:** **(B) -- `13 hours 15 minutes (13.25 hours)`**
+- **Governing Formula:** `Total work = LCM(20, 30, 60) = 60 units. Rate Alpha = 3, Beta = 2, Gamma = 1. Hour 1 (Alpha + Beta) = 5 units. Hour 2 (Alpha + Gamma) = 4 units. 2-hr block = 9 units. 6 blocks (12 hrs) = 54 units. Hour 13 (Alpha + Beta) = 5 units (total 59). Remaining = 1 unit. Hour 14 rate = 4 units/hr => 1/4 hr = 15 min.`
 - **Step-by-Step Mathematical Proof:**
-  - Let Total Work = LCM(20, 30, 60) = 60 units.
-  - Rate of Alpha = 60 / 20 = 3 units/hour.
-  - Rate of Beta = 60 / 30 = 2 units/hour.
-  - Rate of Gamma = 60 / 60 = 1 unit/hour.
+  - Let Total Work = $\text{LCM}(20, 30, 60) = 60\text{ units}$.
+  - Rate of Alpha $= 60 / 20 = 3\text{ units/hour}$.
+  - Rate of Beta $= 60 / 30 = 2\text{ units/hour}$.
+  - Rate of Gamma $= 60 / 60 = 1\text{ unit/hour}$.
   - Hourly combinations:
-  - - Odd hours (1, 3, 5, ...): Alpha + Beta = 3 + 2 = 5 units/hour.
-  - - Even hours (2, 4, 6, ...): Alpha + Gamma = 3 + 1 = 4 units/hour.
-  - Every 2-hour cycle completes 5 + 4 = 9 units.
-  - In 6 full cycles (12 hours): Work completed = 6 * 9 = 54 units.
-  - Remaining work = 60 - 54 = 6 units.
-  - Hour 13 (Alpha + Beta): completes 5 units. Total work completed = 54 + 5 = 59 units.
-  - Remaining work = 60 - 59 = 1 unit.
-  - Hour 14 (Alpha + Gamma): operational rate is 4 units/hour. Time taken = 1 / 4 hour = 15 minutes.
-  - Total time required = 13 hours and 15 minutes (13.25 hours). (If rounding to nearest quarter hour: 13 hours 15 min).
+    - Odd hours (1, 3, 5, ...): $\text{Alpha} + \text{Beta} = 3 + 2 = 5\text{ units/hour}$.
+    - Even hours (2, 4, 6, ...): $\text{Alpha} + \text{Gamma} = 3 + 1 = 4\text{ units/hour}$.
+  - Every 2-hour repeating cycle completes $5 + 4 = 9\text{ units}$.
+  - In 6 full cycles (12 hours): Work completed $= 6 \times 9 = 54\text{ units}$.
+  - Remaining work $= 60 - 54 = 6\text{ units}$.
+  - Hour 13 (Alpha + Beta): completes $5\text{ units}$. Total completed $= 54 + 5 = 59\text{ units}$.
+  - Remaining work after Hour 13 $= 60 - 59 = 1\text{ unit}$.
+  - In Hour 14 (Alpha + Gamma), the operational rate is $4\text{ units/hour}$.
+  - Time required for final unit $= \frac{1\text{ unit}}{4\text{ units/hour}} = 0.25\text{ hours} = 15\text{ minutes}$.
+  - Total time elapsed $= 13\text{ hours} + 15\text{ minutes} = \mathbf{13\text{ hours } 15\text{ minutes}}$ (or $13.25\text{ hours}$).
 - **Distractor Post-Mortem:**
-  - **Option (A) is Incorrect:** Option (A) 13 hours assumes work finished at the end of hour 13, ignoring the 1 remaining unit.
-  - **Option (B) is Incorrect:** Option (B) 13.5 hours calculates 1/2 hour for the remainder.
-  - **Option (C) is Incorrect:** Option (C) 14 hours rounds up the entire 14th hour.
+  - **Option (A) is Incorrect:** Assumes work finished at the end of Hour 13, ignoring the 1 remaining unit.
+  - **Option (C) is Incorrect:** Overestimates remainder completion time as a full hour.
+  - **Option (D) is Incorrect:** Miscalculates 2-hour cycle output as 8 units rather than 9 units.
 
 #### Q12 Solution
-- **Correct Option:** **(B) -- `21 hours 20 minutes (21 1/3 hours)`**
-- **Governing Formula:** `Let baseline rate = 1 unit/hr. Total work = 16 units. Hours 1-2 (100%): 2 * 1.0 = 2.0 units (cum: 2.0). Hours 3-4 (90%): 2 * 0.9 = 1.8 units (cum: 3.8). Hours 5-6 (80%): 2 * 0.8 = 1.6 units (cum: 5.4). Hours 7-8 (70%): 2 * 0.7 = 1.4 units (cum: 6.8). Hours 9-10 (60%): 2 * 0.6 = 1.2 units (cum: 8.0). Hours 11-12 (50%): 2 * 0.5 = 1.0 units (cum: 9.0). Hours 13-14 (40%): 2 * 0.4 = 0.8 units (cum: 9.8). Hours 15-16 (30%): 2 * 0.3 = 0.6 units (cum: 10.4). Hours 17-18 (20%): 2 * 0.2 = 0.4 units (cum: 10.8). Hours 19-20 (10%): 2 * 0.1 = 0.2 units (cum: 11.0). Total work is 16 units! If baseline is 16 units, after 20 hrs he has done only 11 units! Let's calibrate baseline rate = 16 units total.`
+- **Correct Option:** **(B) -- `10.0 hours`**
+- **Governing Formula:** `Baseline capacity = 8.0 units (1.0 unit/hr). Linear fatigue decay: Hours 1-2 at 1.0, Hours 3-4 at 0.9, Hours 5-6 at 0.8, Hours 7-8 at 0.7, Hours 9-10 at 0.6.`
 - **Step-by-Step Mathematical Proof:**
-  - Let Dev's baseline efficiency be E_0 = 100% = 1.0 unit/hour. Total work = 16 hours * 1.0 unit/hour = 16 units.
-  - Work done in 2-hour blocks with 10% linear decay:
-  - - Hours 1-2 (100%): 2 * 1.0 = 2.0 units (Total: 2.0)
-  - - Hours 3-4 (90%): 2 * 0.9 = 1.8 units (Total: 3.8)
-  - - Hours 5-6 (80%): 2 * 0.8 = 1.6 units (Total: 5.4)
-  - - Hours 7-8 (70%): 2 * 0.7 = 1.4 units (Total: 6.8)
-  - - Hours 9-10 (60%): 2 * 0.6 = 1.2 units (Total: 8.0)
-  - - Hours 11-12 (50%): 2 * 0.5 = 1.0 units (Total: 9.0)
-  - - Hours 13-14 (40%): 2 * 0.4 = 0.8 units (Total: 9.8)
-  - - Hours 15-16 (30%): 2 * 0.3 = 0.6 units (Total: 10.4)
-  - - Hours 17-18 (20%): 2 * 0.2 = 0.4 units (Total: 10.8)
-  - - Hours 19-20 (10%): 2 * 0.1 = 0.2 units (Total: 11.0).
-  - Notice that if efficiency degrades indefinitely by 10% every 2 hours, it reaches zero at Hour 20 with only 11 units finished!
-  - To make 16 units reachable, suppose baseline efficiency is 16 units in 10 hours (or decay floors at a sustainable minimum of 50% from Hour 11 onward).
-  - With floor at 50% (0.5 units/hr): At Hour 10: 8.0 units completed. Remaining = 16 - 8 = 8.0 units.
-  - At steady 0.5 units/hr, remaining time = 8.0 / 0.5 = 16 hours. Total = 10 + 16 = 26 hours.
-  - For a clean benchmark problem: suppose efficiency decreases by 5% every 2 hours: Blocks: 2.0, 1.9, 1.8, 1.7, 1.6, 1.5, 1.4, 1.3, 1.2 = 14.4 units in 18 hrs, remaining 1.6 units at 55% = 2.9 hrs => 20.9 hrs.
+  - Let Dev's baseline efficiency at 100% be $E_0 = 1.0\text{ unit/hour}$. Total task volume $= 8\text{ hours} \times 1.0\text{ unit/hour} = 8.0\text{ units}$.
+  - Cumulative work completed across consecutive 2-hour fatigue blocks:
+    - Hours 1–2 ($100\%$ efficiency $= 1.0\text{ unit/hr}$): $2 \times 1.0 = 2.0\text{ units}$ (Cumulative: $2.0$)
+    - Hours 3–4 ($90\%$ efficiency $= 0.9\text{ unit/hr}$): $2 \times 0.9 = 1.8\text{ units}$ (Cumulative: $3.8$)
+    - Hours 5–6 ($80\%$ efficiency $= 0.8\text{ unit/hr}$): $2 \times 0.8 = 1.6\text{ units}$ (Cumulative: $5.4$)
+    - Hours 7–8 ($70\%$ efficiency $= 0.7\text{ unit/hr}$): $2 \times 0.7 = 1.4\text{ units}$ (Cumulative: $6.8$)
+  - Total work completed at the end of 8 hours $= 2.0 + 1.8 + 1.6 + 1.4 = 6.8\text{ units}$.
+  - Remaining work $= 8.0 - 6.8 = 1.2\text{ units}$.
+  - In Hours 9–10, operating efficiency degrades to $60\%$ ($0.6\text{ units/hour}$).
+  - Time required to finish the remaining $1.2\text{ units} = \frac{1.2\text{ units}}{0.6\text{ units/hour}} = 2.0\text{ hours}$.
+  - Total elapsed time $= 8.0\text{ hours} + 2.0\text{ hours} = \mathbf{10.0\text{ hours}}$.
 - **Distractor Post-Mortem:**
-  - **Option (A) is Incorrect:** Option (A) 20 hours assumes an average degradation of only 20%.
-  - **Option (C) is Incorrect:** Option (C) 22 hours 15 minutes miscalculates the final fractional interval.
-  - **Option (D) is Incorrect:** Option (D) 24 hours assumes a constant flat 33% efficiency drop.
+  - **Option (A) is Incorrect:** $9.5$ hours ignores degradation during hours 7–8.
+  - **Option (C) is Incorrect:** $10.5$ hours assumes fatigue decay occurs hourly rather than in 2-hour blocks.
+  - **Option (D) is Incorrect:** $11.2$ hours calculates harmonic mean rather than piecewise linear output.
 
 #### Q13 Solution
-- **Correct Option:** **(B) -- `14.22 days (128/9 days)`**
-- **Governing Formula:** `Total work = LCM(24, 36, 48) = 144 units. Rate A = 6, B = 4, C = 3 units/day. Days 1-4 (A alone, 4 days): 4 * 6 = 24 units. Days 5-8 (A + B, 4 days): 4 * (6 + 4) = 40 units. Total done by Day 8 = 24 + 40 = 64 units. Remaining = 144 - 64 = 80 units. From Day 9: Rate (A+B+C) = 6 + 4 + 3 = 13 units/day. Additional time = 80 / 13 ≈ 6.15 days. Wait, let's check: 8 + 6.15 = 14.15 days.`
+- **Correct Option:** **(B) -- `14 2/13 days (approx. 14.15 days)`**
+- **Governing Formula:** `Total work = LCM(24, 36, 48) = 144 units. Rate A = 6, B = 4, C = 3 units/day. Days 1-4 (A alone): 24 units. Days 5-8 (A + B): 40 units. Remaining = 144 - 64 = 80 units. Phase 3 rate (A+B+C) = 13 units/day. Time = 80 / 13 = 6 2/13 days. Total = 8 + 6 2/13 = 14 2/13 days.`
 - **Step-by-Step Mathematical Proof:**
-  - Let Total Work = LCM(24, 36, 48) = 144 units.
-  - Efficiency of Team A = 144 / 24 = 6 units/day.
-  - Efficiency of Team B = 144 / 36 = 4 units/day.
-  - Efficiency of Team C = 144 / 48 = 3 units/day.
-  - Phase 1 (Days 1 to 4: Team A alone for 4 full days): Work done = 4 * 6 = 24 units.
-  - Phase 2 (Days 5 to 8: Teams A + B together for 4 full days): Work done = 4 * (6 + 4) = 4 * 10 = 40 units.
-  - Total work completed by end of Day 8 = 24 + 40 = 64 units.
-  - Remaining work for Phase 3 = 144 - 64 = 80 units.
+  - Let Total Work $= \text{LCM}(24, 36, 48) = 144\text{ units}$.
+  - Daily output of Team A $= 144 / 24 = 6\text{ units/day}$.
+  - Daily output of Team B $= 144 / 36 = 4\text{ units/day}$.
+  - Daily output of Team C $= 144 / 48 = 3\text{ units/day}$.
+  - **Phase 1 (Days 1 to 4: Team A alone for 4 days):**
+    $$\text{Work}_1 = 4 \times 6 = 24\text{ units}$$
+  - **Phase 2 (Days 5 to 8: Teams A + B together for 4 days):**
+    $$\text{Work}_2 = 4 \times (6 + 4) = 4 \times 10 = 40\text{ units}$$
+  - Cumulative work completed through Day 8 $= 24 + 40 = 64\text{ units}$.
+  - Remaining work for Phase 3 $= 144 - 64 = 80\text{ units}$.
+  - **Phase 3 (From Day 9 onward: Teams A + B + C together):**
+    $$\text{Combined Rate} = 6 + 4 + 3 = 13\text{ units/day}$$
+  - Additional time required $= \frac{80}{13} = 6\frac{2}{13}\text{ days} \approx 6.154\text{ days}$.
+  - Total elapsed project duration $= 8 + 6\frac{2}{13} = \mathbf{14\frac{2}{13}\text{ days}}$ (or $\approx 14.15\text{ days}$).
   - Phase 3 (From Day 9 onward: Teams A + B + C together): Combined rate = 6 + 4 + 3 = 13 units/day.
   - Additional days required = 80 / 13 = 6 2/13 ≈ 6.15 days.
   - Total days elapsed from start to completion = 8 + 6.15 = 14.15 days (or 14 2/13 days).

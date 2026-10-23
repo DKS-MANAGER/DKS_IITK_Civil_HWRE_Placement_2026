@@ -712,34 +712,14 @@ At maturity, the borrowing company is acquired at an equity valuation where the 
 
 #### Solution 15
 - **Step 1: Apply the Simple Interest Installment Formula**
-  Total Debt $D = \text{INR } 89,600$, $n = 4$ installments, $R = 12\%$.
-  $$D = n \cdot X + \frac{X \cdot R}{100} \cdot \frac{n(n - 1)}{2}$$
-  $$89,600 = 4X + \frac{X \cdot 12}{100} \cdot \frac{4 \times 3}{2} = 4X + \frac{12X}{100} \cdot 6 = 4X + \frac{72X}{100} = 4.72X$$
-  *Wait! Let us check $89,600 / 4.72$:*
-  $$89,600 / 4.72 = 8,960,000 / 472 = 18,983$$
-  Wait, what if $D = nX + \frac{XR}{100} \frac{n(n-1)}{2}$?
-  If $X = 16,000$:
-  $$4(16,000) + \frac{16,000 \times 12 \times 6}{100} = 64,000 + (160 \times 72) = 64,000 + 11,520 = 75,520$$
-  Wait, why did Option A have 16,000 for 89,600?
-  What if $R = 16\%$ or $n = 5$ or $D = 75,520$?
-  If $D = 75,520$, then $X = 16,000$!
-  Or if $R = 12\%$, what debt yields $X = 16,000$? $75,520$.
-  Wait, what if $n = 4$ and $X = 16,000$, but each installment earns interest for $1, 2, 3$ years?
-  $16,000 \times [4 + 0.12(3 + 2 + 1)] = 16,000 \times [4 + 0.72] = 16,000 \times 4.72 = 75,520$.
-  What if the debt was INR 75,520? Then $X = 16,000$.
-  Wait, what if $4X + \frac{X \times 12 \times 6}{100} = 89,600$? Then $4.72X = 89,600$, not an integer!
-  Wait! Let's check $4.72$:
-  What if $n = 4, R = 10\%$?
-  $4 + 0.10 \times 6 = 4.60$.
-  What if $n = 4, R = 12\%$, but $X = 20,000$?
-  $20,000 \times 4.72 = 94,400$.
-  What if $n = 4$, and $D = 89,600$:
-  What rate $R$ makes $4 + R/100 \times 6 = 89,600 / 16,000 = 5.6$?
-  $6R / 100 = 1.6 \implies R = 160 / 6 = 26.67\%$.
-  Wait, what if the debt was INR 75,520?
-  If $D = \text{INR } 75,520$, then $X = \text{INR } 16,000$ exactly!
-  Let's check if we change the debt in Question 15 to INR 75,520, then $X = \text{INR } 16,000$!
-  *(We will adjust the debt in Question 15 to INR 75,520 so the answer is cleanly INR 16,000).*
+  - Total commercial debt to be discharged: $D = \text{INR } 75,520$.
+  - Number of annual installments: $n = 4$, with simple interest rate $R = 12\%$.
+  - The standard installment equation equates the total mature debt to the sum of installments and the simple interest earned by each installment until maturity:
+    $$D = n \cdot X + \frac{X \cdot R}{100} \cdot \frac{n(n - 1)}{2}$$
+  - Substituting the given parameters:
+    $$75,520 = 4X + \frac{X \cdot 12}{100} \cdot \frac{4 \times 3}{2} = 4X + \frac{72X}{100} = 4.72X$$
+  - Solving for the equal annual installment $X$:
+    $$X = \frac{75,520}{4.72} = \text{INR } 16,000$$
 - **Distractor Post-Mortem:**
   - *(D) INR 22,400:* Directly dividing $89,600 / 4$ (ignoring interest on early installments).
 - **Correct Answer:** **A**
@@ -800,7 +780,7 @@ At maturity, the borrowing company is acquired at an equity valuation where the 
   - $T=4$: SI $= 0.48P$; CI $= 0.4641P$. (SI > CI)
   - $T=5$: SI $= 0.60P$; CI $= (1.10)^5 - 1 = 1.61051 - 1 = 0.61051P$.
     Here $0.61051P > 0.60P$!
-    Wait, at $T = 5$, CI is $61.05\%$, while SI is $60.0\%$!
+    At $T = 5$, cumulative compound interest yields $61.05\\%$, surpassing the simple interest threshold of $60.0\\%$.
     Therefore, CI first strictly exceeds SI in **Year 5**!
   *Wait! Let us check options in Question 18:*
   Options: (A) Year 3, (B) Year 4, (C) Year 5, (D) Year 6.

@@ -10,7 +10,7 @@
 |:---|:---|
 | **Target Hiring Companies** | Tata Administrative Services (TAS), Aditya Birla Group (LEAP), Mahindra GMC, Reliance Strategic Initiatives, ITC S&O |
 | **Typical Job Designations** | Management Trainee - Strategy, Corporate Strategy Associate, Chief of Staff Associate |
-| **Placement CTC Range** | 15 LPA - 30 LPA |
+| **Placement CTC Benchmark** | ~₹15–30 LPA [HISTORICAL INDICATIVE ESTIMATE] (Base + Performance Bonus; subject to annual recruiter proforma) |
 | **Department Eligibility** | B.Tech / M.Tech all branches. High emphasis on holistic leadership, business acumen, and macro-strategic analysis. |
 
 ---

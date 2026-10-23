@@ -6,7 +6,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies & Programs**: Tata Administrative Services (TAS), Aditya Birla Group (LEAP), Mahindra Group Management Cadre (GMC), Reliance Strategic Initiatives, ITC Strategy & Operations, JSW Strategy.
-- **Typical CTC Range**: 16 LPA – 32 LPA.
+- **Typical CTC Benchmark**: ~₹16–32 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma].
 - **Department Eligibility**: B.Tech / M.Tech all branches. High emphasis on holistic leadership, structured strategic judgment, capital allocation, and executive communication.
 - **Core Strategy Frameworks Tested**: Hamilton Helmer's 7 Powers, Porter's 5 Forces, Economic Value Added (EVA = Capital $\times$ [ROIC - WACC]), SOTP Valuation Multiples, Organic Build vs. Inorganic M&A Strategy, Market Disruption Defense.
 

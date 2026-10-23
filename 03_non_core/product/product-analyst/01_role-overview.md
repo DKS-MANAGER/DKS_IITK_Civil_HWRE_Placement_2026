@@ -10,7 +10,7 @@
 |:---|:---|
 | **Target Hiring Companies** | Groww, Zepto, CRED, Dream11, Swiggy, Nykaa, InMobi, PhonePe, Meesho |
 | **Typical Job Designations** | Product Analyst, Growth Analyst, Experimentation Analyst |
-| **Placement CTC Range** | 12 LPA - 24 LPA |
+| **Placement CTC Benchmark** | ~₹12–24 LPA [HISTORICAL INDICATIVE ESTIMATE] (Fixed Base + Variable Incentive; subject to annual recruiter proforma) |
 | **Department Eligibility** | B.Tech / M.Tech all branches. Strong SQL, statistics, and product experimentation skills. |
 
 ---
@@ -22,7 +22,7 @@
 | **Core Technical Skills** | Live Coding / SQL / Modeling Rounds | [04_tools-and-technical.md](04_tools-and-technical.md) | Coursework / Computational Project |
 | **Domain Problem Solving** | Business Case / Diagnostic Round | [03_domain-knowledge.md](03_domain-knowledge.md) & [07_practice-and-cases.md](07_practice-and-cases.md) | Case Study / Thesis System Model |
 | **Speed & Accuracy** | Online Assessment (OA) Aptitude | [05_interview-preparation.md](05_interview-preparation.md) | High OA Percentile / Quant Drills |
-| **Executive Communication** | Case Synthesis & Fit Rounds | [../../03_common-skills/communication/communication.md](../../01_common/professional-skills/) | Project Presentation / POR Leadership |
+| **Executive Communication** | Case Synthesis & Fit Rounds | [Communication & Professional Skills](../../../01_common/professional-skills/) | Project Presentation / POR Leadership |
 | **Civil/HWRE Background** | Interview Alignment Discussion | [11_projects.md](11_projects.md) | Applied Thesis Research Telemetry |
 
 ---

@@ -35,18 +35,39 @@ Geoinformatics encompasses Geographic Information Systems (GIS), Remote Sensing 
 | Projected (planar) | UTM, Lambert Conformal Conic | Cartesian coordinates on flat surface |
 | State Plane | NAD83 / State Plane Zones | High accuracy within zone |
 
-**Common Indian CRS:**
+**Universal Transverse Mercator (UTM) System & Indian CRS:**
 
-| Name | EPSG Code | Use |
-|------|-----------|-----|
-| WGS 84 / UTM Zone 43N | EPSG:32643 | Most of India (78°E–84°E) |
-| WGS 84 / UTM Zone 44N | EPSG:32644 | Eastern India (84°E–90°E) |
-| WGS 84 / UTM Zone 45N | EPSG:32645 | Northeast India (90°E–96°E) |
-| Everest 1830 (India) | EPSG:4243 | Legacy Indian datum |
-| WGS 84 | EPSG:4326 | GPS default |
+The Earth is divided into 60 longitudinal zones of $6^\circ$ width, numbered 1 to 60 from $180^\circ\text{W}$ eastward. Central meridian for Zone $N$ is $\lambda_0 = (6N - 183)^\circ$. Projection is Transverse Mercator with central scale factor $k_0 = 0.9996$, False Easting $= 500,000$ m, False Northing $= 0$ m (Northern Hemisphere).
 
-**UTM zone calculation:**
-$$\text{Zone} = \text{floor}\left(\frac{\text{Longitude} + 180}{6}\right) + 1$$
+| Name | EPSG Code | Longitude Range | Central Meridian ($\lambda_0$) | Indian Coverage / Major Cities |
+| :--- | :---: | :---: | :---: | :--- |
+| **WGS 84 / UTM Zone 42N** | EPSG:32642 | $66^\circ\text{E}\text{--}72^\circ\text{E}$ | $69^\circ\text{E}$ | Western Gujarat (Kutch), Western Rajasthan (Jaisalmer) |
+| **WGS 84 / UTM Zone 43N** | EPSG:32643 | $72^\circ\text{E}\text{--}78^\circ\text{E}$ | $75^\circ\text{E}$ | Western & Northern India (Mumbai, Ahmedabad, Delhi NCR, Jaipur, Bengaluru, Pune) |
+| **WGS 84 / UTM Zone 44N** | EPSG:32644 | $78^\circ\text{E}\text{--}84^\circ\text{E}$ | $81^\circ\text{E}$ | Central & Northern India (**IIT Kanpur**, Lucknow, Prayagraj, Varanasi, Hyderabad, Chennai, Nagpur) |
+| **WGS 84 / UTM Zone 45N** | EPSG:32645 | $84^\circ\text{E}\text{--}90^\circ\text{E}$ | $87^\circ\text{E}$ | Eastern India (Patna, Kolkata, Ranchi, Bhubaneswar, Gangtok) |
+| **WGS 84 / UTM Zone 46N** | EPSG:32646 | $90^\circ\text{E}\text{--}96^\circ\text{E}$ | $93^\circ\text{E}$ | Northeast India (Guwahati, Shillong, Imphal, Agartala, Itanagar) |
+| **WGS 84 / UTM Zone 47N** | EPSG:32647 | $96^\circ\text{E}\text{--}102^\circ\text{E}$ | $99^\circ\text{E}$ | Eastern Arunachal Pradesh, Andaman & Nicobar Islands |
+| **Everest 1830 / India Zone IIa** | EPSG:24378 | — | $80^\circ\text{E}$ | Legacy Survey of India Polyconic / Lambert Conformal Conic |
+| **WGS 84 (Geographic 2D/3D)** | EPSG:4326 | Global | — | Global standard GPS/GNSS latitude & longitude |
+
+**UTM Zone Calculation Formula:**
+$$\text{Zone} = \left\lfloor\frac{\text{Longitude ($^\circ\text{E}$)} + 180}{6}\right\rfloor + 1$$
+
+#### Canonical Example: IIT Kanpur Coordinate Transformation
+- **Geographic Coordinates (WGS 84, EPSG:4326):**
+  - Latitude: $\phi = 26.5123^\circ\text{N}$ ($26^\circ 30' 44''\text{ N}$)
+  - Longitude: $\lambda = 80.2329^\circ\text{E}$ ($80^\circ 13' 58''\text{ E}$)
+- **Step 1: Determine UTM Zone:**
+  $$\text{Zone} = \left\lfloor\frac{80.2329 + 180}{6}\right\rfloor + 1 = \lfloor 43.372 \rfloor + 1 = 43 + 1 = \mathbf{44}$$
+  Since latitude is North of equator, the appropriate Projected CRS is **WGS 84 / UTM Zone 44N (EPSG:32644)**.
+- **Step 2: Central Meridian & Offset:**
+  $$\lambda_0 = (44 \times 6) - 183 = 264 - 183 = \mathbf{81.0000^\circ\text{E}}$$
+  Longitude offset from central meridian: $\Delta\lambda = 80.2329^\circ - 81.0000^\circ = -0.7671^\circ$ (IIT Kanpur lies west of the central meridian).
+- **Step 3: Projected Coordinates:**
+  - Because it is west of the central meridian, the Easting is less than the 500,000 m false easting:
+    $$\text{Easting } X \approx 423,550\text{ m E}$$
+  - Northing represents geodesic distance from the equator scaled by $k_0$:
+    $$\text{Northing } Y \approx 2,933,180\text{ m N}$$
 
 ### Spatial Analysis Operations
 
@@ -202,26 +223,37 @@ Classify pixel $x$ into class $\omega_i$ with maximum $g_i(x)$.
 
 ### GNSS Constellations
 
-| System | Country | Satellites | Signal |
-|--------|---------|-----------|--------|
-| **GPS** | USA | 31 | L1 (1575.42 MHz), L2 (1227.60 MHz) |
-| **GLONASS** | Russia | 24 | L1, L2 (FDMA + CDMA) |
-| **Galileo** | EU | 30 | E1, E5a, E5b, E6 |
-| **BDS (BeiDou)** | China | 45 | B1I, B2I, B3I |
-| **NavIC (IRNSS)** | India | 7 | L5 (1176.45 MHz), S1 (2492.08 MHz) |
+| System | Operating Agency & Country | Orbit / Satellites | Operating Carrier Frequencies | Coverage & Service Types |
+| :--- | :--- | :---: | :--- | :--- |
+| **GPS (Navstar)** | US Space Force (USA) | 31 MEO | L1 (1575.42 MHz), L2 (1227.60 MHz), L5 (1176.45 MHz) | Global; SPS (Civilian) & PPS (Military) |
+| **GLONASS** | Roscosmos (Russia) | 24 MEO | L1 (1602 MHz), L2 (1246 MHz) [FDMA/CDMA], L3 (1202 MHz) | Global; Standard & High Precision |
+| **Galileo** | ESA / EUSPA (European Union) | 24+ MEO | E1 (1575.42 MHz), E5a/E5b (1176/1207 MHz), E6 (1278 MHz) | Global; Open Service (OS) & High Accuracy Service (HAS) |
+| **BeiDou (BDS-3)** | CNSA (China) | 3 GEO + 3 IGSO + 24 MEO | B1I/B1C (1575.42 MHz), B2a (1176.45 MHz), B3I (1268.52 MHz) | Global; Open & Authorized Services |
+| **NavIC (IRNSS)** | ISRO (India) | **7 Satellites (3 GEO + 4 GSO)** | **L5 (1176.45 MHz), S-band (2492.08 MHz), L1 (1575.42 MHz on NVS series)** | Regional: India + 1500 km beyond borders; SPS & RS |
 
-**Indian regional coverage (NavIC):** 5 geostationary + 2 geosynchronous satellites covering India and surrounding region (up to 1500 km from Indian boundary).
+#### NavIC (Navigation with Indian Constellation / IRNSS) Architecture & Specifications:
+- **Space Segment Configuration:**
+  - **3 Geostationary Satellites (GEO):** Positioned along the equatorial orbit at longitudes $32.5^\circ\text{E}$, $83.0^\circ\text{E}$, and $131.5^\circ\text{E}$.
+  - **4 Geosynchronous Satellites (GSO):** Placed in inclined orbits ($29^\circ$ inclination to the equator) with longitudinal crossings at $55.0^\circ\text{E}$ (2 satellites) and $111.75^\circ\text{E}$ (2 satellites) forming a figure-8 ground track over the Indian Ocean.
+- **Service Categories:**
+  - **Standard Positioning Service (SPS):** Open civilian dual-frequency (L5 + S) positioning service providing standalone horizontal accuracy $< 10\text{ m}$ over the Indian landmass (and $< 20\text{ m}$ in primary coverage zone).
+  - **Restricted Service (RS):** Encrypted service utilizing dual-frequency carrier-phase measurements for authorized and defense applications with accuracy $< 5\text{ m}$.
+  - **Next-Generation NVS Satellites:** Starting with NVS-01 (May 2023), ISRO introduced the civilian **L1 signal (1575.42 MHz)** to enable direct compatibility with commercial smartphones and standard civilian IoT devices.
+- **GAGAN (GPS Aided GEO Augmented Navigation):**
+  - Jointly developed by ISRO and the Airports Authority of India (AAI) as a certified Satellite-Based Augmentation System (SBAS).
+  - Transmits differential GPS corrections and integrity messages via geostationary communication satellites (GSAT-8, GSAT-10, GSAT-15) on GPS L1/L5 frequencies.
+  - Achieves horizontal and vertical positioning accuracy $< 1.5\text{ m}$ across Indian airspace, enabling Category-I precision instrument approaches for civil aviation and precision surveying.
 
 ### Positioning Methods
 
-| Method | Accuracy | Description |
-|--------|----------|-------------|
-| **Single point (SPP)** | 2–10 m | Standard GNSS receiver |
-| **Differential (DGPS/DGNSS)** | 0.5–2 m | Base station correction |
-| **RTK** | 1–2 cm | Real-time kinematic, carrier phase |
-| **PPK** | 1–2 cm | Post-processed kinematic |
-| **PPP** | 5–10 cm | Precise point positioning (IGS products) |
-| **Network RTK (VRS)** | 1–3 cm | Virtual reference station from CORS |
+| Method | Typical Accuracy | Operating Principle | Civil Engineering Use Case |
+| :--- | :---: | :--- | :--- |
+| **Single Point (SPP)** | 3–10 m | Standalone pseudorange measurements with broadcast ephemeris | Handheld reconnaissance, asset tagging, GIS preliminary mapping |
+| **Differential (DGPS/DGNSS)** | 0.5–2.0 m | Code-phase corrections broadcast from a known base station to rover | Hydrographic surveying, dredging, fleet tracking, environmental monitoring |
+| **RTK (Real-Time Kinematic)** | **1–2 cm (H) / 2–3 cm (V)** | Carrier-phase differential with real-time UHF/cellular radio link | Boundary cadastral surveys, road cross-sectioning, machine control, drone GCPs |
+| **PPK (Post-Processed Kinematic)** | **1–2 cm** | Carrier-phase recorded on base & rover and processed post-mission | UAV/drone photogrammetry without telemetry link, remote topographical surveys |
+| **PPP (Precise Point Positioning)** | 3–10 cm | Standalone dual-frequency carrier-phase with precise satellite orbits and clocks | Geodetic deformation monitoring, tectonic plate movement, offshore surveying |
+| **Network RTK (CORS / VRS)** | 1–3 cm | Virtual Reference Station generated from Continuously Operating Reference Stations | Nationwide Survey of India CORS network for digital land records (SVAMITVA scheme) |
 
 ### GNSS Error Sources
 

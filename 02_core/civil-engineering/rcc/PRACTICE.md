@@ -29,25 +29,48 @@
 
 ---
 
-## Problem 2: Doubly Reinforced Section
+## Problem 2: Doubly Reinforced Beam Design
 
-**Given:** Beam with $M_u = 300$ kN·m, $f_{ck} = 25$ MPa, $f_y = 415$ MPa, $b = 250$ mm, $d = 450$ mm, $d' = 50$ mm.
+**Given:** Beam cross-section $b = 250$ mm, overall depth $D = 500$ mm, effective depth $d = 450$ mm, effective cover to compression steel $d' = 50$ mm ($d'/d = 50/450 = 0.111$). Factored bending moment $M_u = 300$ kN·m. Concrete grade M25 ($f_{ck} = 25$ MPa), steel grade Fe415 ($f_y = 415$ MPa).
 
-**Find:** Compression steel $A_{sc}$ and additional tension steel $A_{st2}$.
+**Find:** Required compression reinforcement $A_{sc}$ and total tension reinforcement $A_{st}$, and choose a feasible standard bar arrangement.
 
-**Method:** $M_u = M_{u,lim} + M_{u2}$; $A_{sc} = \frac{M_u - M_{u,lim}}{(f_{sc} - f_{cc})(d - d')}$.
+**Method:** IS 456:2000 Annex G / SP 16 design procedure for doubly reinforced sections:
+$$M_u = M_{u,\lim} + M_{u2}$$
+$$A_{sc} = \frac{M_{u2}}{(f_{sc} - f_{cc})(d - d')}, \quad A_{st} = A_{st1} + A_{st2}$$
 
 **Calculation:**
-- $M_{u,lim} = 0.138 \times 25 \times 250 \times 450^2 = 174.7$ kN·m
-- $M_{u2} = 300 - 174.7 = 125.3$ kN·m
-- $A_{sc} = \frac{125.3 \times 10^6}{(353 - 0.446 \times 25)(450 - 50)} = \frac{125.3 \times 10^6}{(353 - 11.2) \times 400} = \frac{125.3 \times 10^6}{136,720} = 916$ mm²
-- $A_{st2} = \frac{125.3 \times 10^6}{0.87 \times 415 \times 400} = \frac{125.3 \times 10^6}{144,420} = 868$ mm²
-- $A_{st,lim} = \frac{174.7 \times 10^6}{0.87 \times 415 \times (450 - 0.42 \times 216)} = 1343$ mm²
-- $A_{st} = 1343 + 868 = 2211$ mm²
+1. **Limiting Moment of Resistance ($M_{u,\lim}$):**
+   - For Fe415, $x_{u,\max}/d = 0.48 \implies x_{u,\max} = 0.48 \times 450 = 216$ mm
+   - $M_{u,\lim} = 0.138 f_{ck} b d^2 = 0.138 \times 25 \times 250 \times 450^2 = 174.66 \times 10^6\text{ N}\cdot\text{mm} = 174.66$ kN·m
+   - Since $M_u (300\text{ kN}\cdot\text{m}) > M_{u,\lim}$, a doubly reinforced section is required.
+   - Additional moment to be resisted: $M_{u2} = M_u - M_{u,\lim} = 300.0 - 174.66 = 125.34$ kN·m
 
-**Answer:** $A_{sc} = 916$ mm² (e.g., 4-18mm = 1017 mm²), $A_{st} = 2211$ mm² (e.g., 4-20mm + 2-16mm = 1658... use 5-25mm = 2454 mm²)
+2. **Compression Steel Stress ($f_{sc}$):**
+   - Strain at level of compression steel:
+     $$\epsilon_{sc} = 0.0035 \left(1 - \frac{d'}{x_{u,\max}}\right) = 0.0035 \left(1 - \frac{50}{216}\right) = 0.00269$$
+   - From IS 456 Table A / SP 16 Table F for Fe415 ($d'/d = 0.111$):
+     By linear interpolation between $d'/d = 0.10$ ($f_{sc} = 353$ N/mm²) and $d'/d = 0.15$ ($f_{sc} = 342$ N/mm²):
+     $$f_{sc} \approx 353 - \left(\frac{353 - 342}{0.05}\right)(0.111 - 0.10) \approx 350.6\text{ N/mm}^2$$
+   - Concrete compressive stress at compression steel level: $f_{cc} = 0.446 f_{ck} = 0.446 \times 25 = 11.15$ N/mm²
+   - Net stress in compression steel: $f_{sc} - f_{cc} = 350.6 - 11.15 = 339.45$ N/mm²
 
-**Trap:** Compression steel requires stirrups to prevent buckling of the compression bars.
+3. **Steel Area Calculation:**
+   - Compression steel:
+     $$A_{sc} = \frac{M_{u2}}{(f_{sc} - f_{cc})(d - d')} = \frac{125.34 \times 10^6}{339.45 \times (450 - 50)} = \frac{125.34 \times 10^6}{135,780} = \mathbf{923\text{ mm}^2}$$
+   - Limiting tension steel:
+     $$A_{st1} = \frac{M_{u,\lim}}{0.87 f_y (d - 0.42 x_{u,\max})} = \frac{174.66 \times 10^6}{0.87 \times 415 \times (450 - 0.42 \times 216)} = \frac{174.66 \times 10^6}{361.05 \times 359.28} = 1346\text{ mm}^2$$
+   - Additional tension steel:
+     $$A_{st2} = \frac{M_{u2}}{0.87 f_y (d - d')} = \frac{125.34 \times 10^6}{361.05 \times 400} = 868\text{ mm}^2$$
+   - Total tension steel: $A_{st} = A_{st1} + A_{st2} = 1346 + 868 = \mathbf{2214\text{ mm}^2}$
+
+4. **Standard Bar Selection & Detailing:**
+   - **Compression Steel ($A_{sc} = 923\text{ mm}^2$):** Provide **3 bars of 20 mm dia** ($A_{sc,\text{prov}} = 3 \times 314.16 = \mathbf{942.5\text{ mm}^2} > 923\text{ mm}^2$). Clear side cover = 30 mm, clear bar spacing = $(250 - 2\times30 - 3\times20)/2 = 65\text{ mm} > 20\text{ mm}$ ✓.
+   - **Tension Steel ($A_{st} = 2214\text{ mm}^2$):** Provide **4 bars of 25 mm + 1 bar of 20 mm** ($A_{st,\text{prov}} = 4 \times 490.87 + 314.16 = \mathbf{2277.6\text{ mm}^2} > 2214\text{ mm}^2$), placed in two layers (bottom layer: 3-25mm; upper layer: 1-25mm + 1-20mm with 25 mm spacer bar) to satisfy minimum horizontal bar clearance.
+
+**Answer:** $A_{sc} = 923$ mm² $\to$ **3 bars of 20 mm** ($942.5$ mm²); $A_{st} = 2214$ mm² $\to$ **4 bars of 25 mm + 1 bar of 20 mm** ($2277.6$ mm² in two layers).
+
+**Trap:** Non-standard bar diameters (like 18 mm) do not exist in IS 1786. Always verify the strain compatibility for $f_{sc}$ (do not assume $f_{sc} = 0.87f_y$) and verify that compression bars are restrained by transverse ties (IS 456 Cl. 26.5.3.2) to prevent buckling.
 
 ---
 
@@ -93,46 +116,81 @@
 
 ---
 
-## Problem 5: Short Column Design
+## Problem 5: Short Column Design (Minimum Steel Enforcement)
 
-**Given:** Column with $P_u = 1500$ kN, $f_{ck} = 25$ MPa, $f_y = 415$ MPa, $D = 400$ mm.
+**Given:** Short axially loaded column with factored axial load $P_u = 1500$ kN, cross-section $400 \times 400$ mm ($A_g = 160,000$ mm²). Concrete grade M25 ($f_{ck} = 25$ MPa), steel grade Fe415 ($f_y = 415$ MPa). Minimum eccentricity $e_{\min} \le 0.05D$.
 
-**Find:** Longitudinal steel $A_{sc}$.
+**Find:** Required longitudinal steel area $A_{sc}$ and tie detailing complying with IS 456:2000.
 
-**Method:** $P_u = 0.4 f_{ck} A_c + 0.67 f_y A_{sc}$.
+**Method:** 
+IS 456:2000 Cl. 39.3 design equation:
+$$P_u = 0.4 f_{ck} A_c + 0.67 f_y A_{sc}$$
+Enforce Cl. 26.5.3.1: minimum longitudinal reinforcement is **$0.8\%$ of gross area** ($A_g$).
 
 **Calculation:**
-- Try $A_{sc} = 1\%$ of $A_g$: $A_{sc} = 0.01 \times 400^2 = 1600$ mm²
-- $A_c = 160,000 - 1600 = 158,400$ mm²
-- $P_u = 0.4 \times 25 \times 158,400 + 0.67 \times 415 \times 1600 = 1,584,000 + 444,880 = 2,028,880$ N = 2029 kN > 1500 ✓
-- Try 0.5%: $A_{sc} = 800$ mm²
-- $P_u = 0.4 \times 25 \times 159,200 + 0.67 \times 415 \times 800 = 1,592,000 + 222,440 = 1,814,440$ N = 1814 kN > 1500 ✓
+1. **Minimum Reinforcement Check:**
+   $$A_{sc,\min} = 0.008 \times A_g = 0.008 \times 160,000 = \mathbf{1280\text{ mm}^2}$$
+   *(Note: Choosing $8\phi12\text{ mm} = 904\text{ mm}^2$ gives only $0.565\% < 0.8\%$, violating IS 456!).*
 
-**Answer:** Use **8 bars of 12 mm** ($A_{sc} = 904$ mm²)
+2. **Theoretical Strength with Minimum Steel ($A_{sc} = 1280\text{ mm}^2$):**
+   - $A_c = 160,000 - 1280 = 158,720$ mm²
+   - $P_u = 0.4(25)(158,720) + 0.67(415)(1280) = 1,587,200 + 355,840 = 1,943,040\text{ N} = 1943\text{ kN} > 1500\text{ kN}$ ✓ (adequate).
 
-**Trap:** Minimum longitudinal steel is 0.8% of gross area — don't go below it.
+3. **Standard Bar Selection:**
+   - To maintain symmetry in a square column ($400 \times 400$ mm), use 8 longitudinal bars:
+     Provide **8 bars of 16 mm dia** ($A_{sc,\text{prov}} = 8 \times 201.06 = \mathbf{1609\text{ mm}^2} = 1.01\% \ge 0.8\%$).
+   - Check ultimate axial capacity:
+     $$P_{u,\text{cap}} = 0.4(25)(160,000 - 1609) + 0.67(415)(1609) = 1,583,910 + 447,382 = 2031\text{ kN} > 1500\text{ kN}$$ ✓
+
+4. **Transverse Ties (IS 456 Cl. 26.5.3.2):**
+   - Tie diameter $\phi_t \ge \max(\phi_L/4 = 16/4 = 4\text{ mm}, 6\text{ mm}) \implies \mathbf{8\text{ mm}}$.
+   - Tie pitch $\le \min(\text{least lateral dim} = 400\text{ mm}, 16\phi_L = 16 \times 16 = 256\text{ mm}, 300\text{ mm}) \implies \mathbf{250\text{ mm c/c}}$.
+
+**Answer:** Provide **8 bars of 16 mm** ($A_{sc} = 1609$ mm², $p = 1.01\%$) with **8 mm lateral ties @ 250 mm c/c**.
+
+**Trap:** Never select longitudinal reinforcement below 0.8% of $A_g$, even if axial strength equations appear satisfied with less steel. Minimum steel is mandatory to resist accidental eccentricities, temperature/shrinkage stresses, and concrete creep.
 
 ---
 
-## Problem 6: One-Way Slab Design
+## Problem 6: One-Way Slab Design & Shear Verification
 
-**Given:** Simply supported slab, span 3 m, $f_{ck} = 25$ MPa, $f_y = 415$ MPa, live load 3 kN/m², floor finish 1 kN/m².
+**Given:** Simply supported one-way slab, clear span $l = 3.0$ m, bearing width $= 200$ mm. Imposed live load $= 3.0$ kN/m², floor finish $= 1.0$ kN/m². Concrete M25, steel Fe415.
 
-**Find:** Slab thickness and main steel.
+**Find:** Total thickness $D$, effective depth $d$, main and distribution reinforcement, and check one-way shear.
 
-**Method:** Span/depth = 20 (SS); $M_u = 1.5 \times w l^2/8$.
+**Method:** 
+Basic span/depth ratio = 20 (SS beam/slab). Factored load $w_u = 1.5(DL + LL)$. One-way shear check at distance $d$ from support face per IS 456 Cl. 40.
 
 **Calculation:**
-- $d \ge l/20 = 3000/20 = 150$ mm → use $D = 175$ mm, $d = 150$ mm (cover 15 + bar/2)
-- $w = 1.5 \times (0.175 \times 25 + 1 + 3) = 1.5 \times (4.375 + 4) = 12.56$ kN/m
-- $M_u = 12.56 \times 9/8 = 14.13$ kN·m/m
-- $A_{st} = \frac{M_u}{0.87 f_y (d - 0.42 x_u)}$; trial $x_u = 0.48d = 72$ mm
-- $A_{st} = \frac{14.13 \times 10^6}{0.87 \times 415 \times (150 - 0.42 \times 72)} = \frac{14.13 \times 10^6}{361 \times 119.8} = 327$ mm²/m
-- Check min: $0.12\% \times bD = 0.0012 \times 1000 \times 175 = 210$ mm²/m < 327 ✓
+1. **Depth from Deflection Control:**
+   - Effective depth $d \approx l / 25 = 3000 / 25 = 120$ mm. Provide overall depth $D = 150$ mm, clear cover $= 15$ mm, 10 mm bar $\implies d = 150 - 15 - 5 = 130$ mm.
+2. **Loads (per metre width):**
+   - Self-weight $= 0.15 \times 25 = 3.75$ kN/m²
+   - Floor finish $= 1.00$ kN/m²
+   - Total dead load $= 4.75$ kN/m²; Live load $= 3.00$ kN/m²
+   - Total factored load $w_u = 1.5 \times (4.75 + 3.0) = 11.625$ kN/m
+3. **Factored Moments and Shear:**
+   - Effective span $l_{eff} = \min(3.0 + 0.13, 3.0 + 0.20) = 3.13$ m
+   - $M_u = \frac{w_u l_{eff}^2}{8} = \frac{11.625 \times 3.13^2}{8} = 14.24$ kN·m/m
+   - Factored shear at support face: $V_u = \frac{w_u l_{clear}}{2} = \frac{11.625 \times 3.0}{2} = 17.44$ kN
+   - Factored shear at critical section ($d = 130$ mm from support face):
+     $$V_{u,d} = 17.44 - 11.625 \times 0.13 = 15.93\text{ kN}$$
+4. **Reinforcement:**
+   - $A_{st} = \frac{0.5 \times 25}{415} \left[1 - \sqrt{1 - \frac{4.59 \times 14.24 \times 10^6}{25 \times 1000 \times 130^2}}\right] \times 1000 \times 130 \approx 315\text{ mm}^2/\text{m}$
+   - Minimum steel: $0.12\% \times bD = 0.0012 \times 1000 \times 150 = 180\text{ mm}^2/\text{m} < 315$ ✓
+   - Main steel: **10 mm @ 240 mm c/c** ($A_{st} = 327$ mm²/m)
+   - Distribution steel: **8 mm @ 250 mm c/c** ($A_{st} = 201$ mm²/m $> 180$ mm²/m)
+5. **One-Way Shear Verification:**
+   - Nominal shear stress $\tau_v = \frac{V_{u,d}}{b d} = \frac{15.93 \times 10^3}{1000 \times 130} = 0.123$ N/mm²
+   - Steel percentage $p_t = \frac{327}{1000 \times 130} \times 100 = 0.25\%$
+   - Permissible shear stress for M25 at $p_t = 0.25\%$ (Table 19): $\tau_c \approx 0.36$ N/mm²
+   - Slab depth factor $k$ (IS 456 Cl. 40.2.1.1 for $D = 150$ mm): $k = 1.30$
+   - Permissible shear strength $\tau_{c,\text{slab}} = k \tau_c = 1.30 \times 0.36 = 0.468$ N/mm²
+   - Since $\tau_v (0.123\text{ N/mm}^2) \ll \tau_{c,\text{slab}} (0.468\text{ N/mm}^2)$, the slab is completely safe in shear without shear reinforcement ✓
 
-**Answer:** $D = 175$ mm, main steel **8mm @ 150 mm c/c** ($A_{st} = 335$ mm²/m)
+**Answer:** $D = 150$ mm, $d = 130$ mm; Main bars **10 mm @ 240 mm c/c**; Distribution bars **8 mm @ 250 mm c/c**; Shear stress $\tau_v = 0.123$ N/mm² $< k\tau_c = 0.468$ N/mm² (Safe).
 
-**Trap:** Slabs are not designed for shear — check deflection (span/depth) instead.
+**Trap:** Never state that slabs are "not designed for shear". While slabs rarely require stirrups because $\tau_v < k\tau_c$, one-way shear and two-way punching shear MUST be checked. If shear stress exceeds permissible limits, slab depth must be increased because shear stirrups are difficult to fabricate in thin slabs.
 
 ---
 
@@ -304,11 +362,11 @@
 | Problem | Answer |
 |:-------:|--------|
 | 1 | $d = 450$ mm, $A_{st} = 1153$ mm² (4-20mm) |
-| 2 | $A_{sc} = 916$ mm², $A_{st} = 2211$ mm² |
+| 2 | $A_{sc} = 923$ mm² (3-20mm), $A_{st} = 2214$ mm² (4-25mm + 1-20mm) |
 | 3 | 8mm 2-legged stirrups @ 125 mm c/c |
 | 4 | $L_d = 806$ mm (deformed) |
-| 5 | 8-12mm bars ($A_{sc} = 904$ mm²) |
-| 6 | $D = 175$ mm, 8mm @ 150 mm c/c |
+| 5 | 8-16mm bars ($A_{sc} = 1609$ mm² $\ge 0.8\% A_g$) with 8mm ties @ 250 c/c |
+| 6 | $D = 150$ mm, main 10mm @ 240 c/c, dist 8mm @ 250 c/c, $\tau_v = 0.123 < k\tau_c$ ✓ |
 | 7 | Two-way slab, $D = 160$ mm |
 | 8 | $b_f = 2020$ mm |
 | 9 | $\tau_v = 0.578$ N/mm² < 1.25 ✓ |

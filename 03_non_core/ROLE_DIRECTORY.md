@@ -1,7 +1,8 @@
 # Non-Core Master Role Directory
 
-> Comprehensive Directory & Preparation Blueprint for all 14 Non-Core Industry Tracks at IIT Kanpur (Placement 2026).  
-> Designed specifically for Civil Engineering & Hydro-systems Engineering (HWRE) graduates targeting corporate, consulting, analytics, and leadership profiles.
+> **Directory & Preparation Blueprint**: Curated guidance for non-core industry tracks at IIT Kanpur.  
+> **Target Audience**: Designed specifically for Civil Engineering & Hydro-systems Engineering (HWRE) graduates targeting corporate, consulting, analytics, and leadership profiles.  
+> **Placement Variance Notice**: Recruiter participation, branch eligibility, test structures, and compensation ranges vary each recruitment season based on employer proformas submitted to the IIT Kanpur Students' Placement Office (SPO). Listed companies represent past campus recruiters and target benchmark employers; candidates must verify current cycle criteria via official SPO notifications.
 
 ---
 
@@ -105,8 +106,11 @@ graph TD
 - **Selection Architecture**: Analytical Assessment $\rightarrow$ Operational Bottleneck Case $\rightarrow$ Metric Root Cause Analysis $\rightarrow$ Executive Round.
 - **Core Modules**:
   * [Role Overview](operations/business-operations/01_role-overview.md)
+  * [Domain Knowledge & Unit Economics](operations/business-operations/03_domain-knowledge.md)
+  * [Practice & Cases](operations/business-operations/07_practice-and-cases.md)
   * [Study Plan](operations/business-operations/08_role-study-plan.md)
   * [Rapid Revision](operations/business-operations/09_rapid-revision.md)
+  * [Mock Assessment](operations/business-operations/12_mock-assessment.md)
 
 ---
 
@@ -115,8 +119,11 @@ graph TD
 - **Selection Architecture**: Domain OA $\rightarrow$ Group Discussion (Supply/Ops bottleneck) $\rightarrow$ Technical Plant/Process Case $\rightarrow$ Leadership Interview.
 - **Core Modules**:
   * [Role Overview](operations/operations/01_role-overview.md)
+  * [Domain Knowledge & Mathematical Modeling](operations/operations/03_domain-knowledge.md)
+  * [Practice & Cases](operations/operations/07_practice-and-cases.md)
   * [Study Plan](operations/operations/08_role-study-plan.md)
   * [Rapid Revision](operations/operations/09_rapid-revision.md)
+  * [Mock Assessment](operations/operations/12_mock-assessment.md)
 
 ---
 
@@ -127,8 +134,10 @@ graph TD
   * [Role Overview](product/product-management/01_role-overview.md)
   * [Core Knowledge & Metrics](product/product-management/03_domain-knowledge.md)
   * [Interview Preparation & Product Sense](product/product-management/05_interview-preparation.md)
+  * [Practice & Cases](product/product-management/07_practice-and-cases.md)
   * [Study Plan](product/product-management/08_role-study-plan.md)
   * [Rapid Revision](product/product-management/09_rapid-revision.md)
+  * [Mock Assessment](product/product-management/12_mock-assessment.md)
 
 ---
 
@@ -137,8 +146,11 @@ graph TD
 - **Selection Architecture**: SQL & Experimentation OA $\rightarrow$ Funnel Analytics Case $\rightarrow$ A/B Test Design & Pitfall Round $\rightarrow$ Hiring Manager.
 - **Core Modules**:
   * [Role Overview](product/product-analyst/01_role-overview.md)
+  * [Telemetry & Experimentation](product/product-analyst/03_domain-knowledge.md)
+  * [Practice & Cases](product/product-analyst/07_practice-and-cases.md)
   * [Study Plan](product/product-analyst/08_role-study-plan.md)
   * [Rapid Revision](product/product-analyst/09_rapid-revision.md)
+  * [Mock Assessment](product/product-analyst/12_mock-assessment.md)
 
 ---
 
@@ -147,8 +159,11 @@ graph TD
 - **Selection Architecture**: Behavioral / Leadership OA $\rightarrow$ Cross-Functional Trade-Off Case $\rightarrow$ CPM Scheduling & Risk Analysis $\rightarrow$ Executive Bar Raiser.
 - **Core Modules**:
   * [Role Overview](operations/program-management/01_role-overview.md)
+  * [CPM/PERT & Governance](operations/program-management/03_domain-knowledge.md)
+  * [Practice & Cases](operations/program-management/07_practice-and-cases.md)
   * [Study Plan](operations/program-management/08_role-study-plan.md)
   * [Rapid Revision](operations/program-management/09_rapid-revision.md)
+  * [Mock Assessment](operations/program-management/12_mock-assessment.md)
 
 ---
 
@@ -167,8 +182,11 @@ graph TD
 - **Selection Architecture**: Quantitative & Ops OA $\rightarrow$ Inventory Optimization Case $\rightarrow$ Network Simulation Discussion $\rightarrow$ VP Operations Round.
 - **Core Modules**:
   * [Role Overview](operations/supply-chain/01_role-overview.md)
+  * [Multi-Echelon SCM Knowledge](operations/supply-chain/03_domain-knowledge.md)
+  * [Practice & Cases](operations/supply-chain/07_practice-and-cases.md)
   * [Study Plan](operations/supply-chain/08_role-study-plan.md)
   * [Rapid Revision](operations/supply-chain/09_rapid-revision.md)
+  * [Mock Assessment](operations/supply-chain/12_mock-assessment.md)
 
 ---
 
@@ -197,8 +215,11 @@ graph TD
 - **Selection Architecture**: System Logic OA $\rightarrow$ Technical Solution Architecture Case $\rightarrow$ Client Scenario Simulation $\rightarrow$ Partner Round.
 - **Core Modules**:
   * [Role Overview](software-engineering/01_role-overview.md)
+  * [Core Architecture & Systems Knowledge](software-engineering/03_domain-knowledge.md)
+  * [Practice Cases & Coding Patterns](software-engineering/07_practice-and-cases.md)
   * [Study Plan](software-engineering/08_role-study-plan.md)
   * [Rapid Revision](software-engineering/09_rapid-revision.md)
+  * [Technical Mock Assessment](software-engineering/12_mock-assessment.md)
 
 ---
 

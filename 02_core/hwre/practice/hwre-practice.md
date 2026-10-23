@@ -24,26 +24,39 @@
 
 ---
 
-## Problem 2: Bernoulli with Losses
+## Problem 2: Bernoulli Energy Balance & Consistency Audit
 
-**Given:** Water flows from a reservoir (surface elevation 100 m) through a pipe to a nozzle at elevation 50 m. Velocity at nozzle = 10 m/s, head loss = 5 m.
+**Given:** Water flows under gravity from a large storage reservoir (water surface elevation $z_1 = 100.0$ m) through a pipe to a discharge nozzle at elevation $z_2 = 50.0$ m discharging freely into the atmosphere ($P_2 = 0$ gauge). Total head loss in the pipeline is $h_L = 5.0$ m.
 
-**Find:** Pressure at nozzle exit.
+**Find:** 
+1. The true theoretical jet velocity ($V_2$) at the nozzle exit.
+2. An engineering consistency check on whether a stated exit velocity of $10.0$ m/s is physically admissible without throttling.
 
-**Concept:** Bernoulli with losses; nozzle exit is atmospheric.
-
-**Formula:** `P₁/γ + V₁²/2g + z₁ = P₂/γ + V₂²/2g + z₂ + h_L`
+**Concept:** Extended Bernoulli energy equation with head losses:
+$$\frac{P_1}{\gamma} + \frac{V_1^2}{2g} + z_1 = \frac{P_2}{\gamma} + \frac{V_2^2}{2g} + z_2 + h_L$$
 
 **Calculation:**
-- Reservoir surface: P₁ = 0 (gauge), V₁ ≈ 0, z₁ = 100
-- Nozzle exit: P₂ = 0 (atmospheric), V₂ = 10, z₂ = 50
-- 0 + 0 + 100 = 0 + 10²/(2×9.81) + 50 + 5
-- 100 = 5.10 + 50 + 5 = 60.10
-- Contradiction → the given data is inconsistent; reservoir must be higher or losses lower.
+1. **Theoretical Jet Velocity:**
+   - At reservoir surface: $P_1 = 0$ (atmospheric), $V_1 \approx 0$ (large surface area), $z_1 = 100.0$ m.
+   - At free nozzle exit: $P_2 = 0$ (free atmospheric discharge), $z_2 = 50.0$ m.
+   - Total available gross head: $H_{\text{gross}} = z_1 - z_2 = 100.0 - 50.0 = 50.0$ m.
+   - Net head available for velocity: $H_{\text{net}} = H_{\text{gross}} - h_L = 50.0 - 5.0 = 45.0$ m.
+   - Velocity head: $\frac{V_2^2}{2g} = 45.0\text{ m}$.
+   - True exit velocity:
+     $$V_2 = \sqrt{2g \times 45.0} = \sqrt{2 \times 9.81 \times 45.0} = \sqrt{882.9} = \mathbf{29.71\text{ m/s}}$$
 
-**Answer:** Data inconsistent — check: required z₁ = 60.1 m for these conditions.
+2. **Data Consistency Audit (Interview Trap Analysis):**
+   - If an interviewer or question paper states that nozzle velocity is only $V_2 = 10.0$ m/s under these exact elevations and pipe friction:
+     $$\text{Total Head Accounted} = z_2 + \frac{V_2^2}{2g} + h_L = 50.0 + \frac{10^2}{2 \times 9.81} + 5.0 = 50.0 + 5.10 + 5.0 = 60.10\text{ m}$$
+   - Energy discrepancy: $\Delta H = 100.0 - 60.10 = 39.90$ m.
+   - **Conclusion:** The given data is **over-constrained / inconsistent** for unthrottled gravity flow. For $V_2 = 10$ m/s to exist, either:
+     - The reservoir surface must be at elevation $z_1 = 60.10$ m, OR
+     - A control valve in the line provides an additional throttling head loss of $h_{\text{valve}} = 39.90$ m, OR
+     - A backpressure of $P_2/\gamma = 39.90$ m ($391.4$ kPa) is maintained at the nozzle.
 
-**Trap:** Always verify energy balance; nozzle exit is atmospheric pressure.
+**Answer:** True physical nozzle exit velocity $V_2 = \mathbf{29.71\text{ m/s}}$ (at $P_2 = 0$ gauge). A velocity of $10$ m/s indicates an over-constrained system requiring an additional $39.9$ m of throttling head loss to satisfy energy conservation.
+
+**Trap:** Always perform a degree-of-freedom check in hydraulic systems. You cannot independently specify reservoir elevation, nozzle elevation, pipe friction, AND exit velocity without verifying that the energy equation closes. Free jet exit pressure is always zero gauge.
 
 ---
 
@@ -395,25 +408,51 @@
 
 ---
 
-## Problem 19: HEC-18 Pier Scour
+## Problem 19: Pier Scour Analysis (HEC-18 vs. IRC Lacey Methods)
 
-**Given:** Pier width a = 1 m, approach depth y₁ = 3 m, velocity V = 2 m/s. K₁=K₂=K₃=K₄=1.
+**Given:** Pier width $a = 1.0$ m, approach flow depth $y_1 = 3.0$ m, approach velocity $V = 2.0$ m/s. Channel bed consists of fine sand ($D_{50} = 0.35\text{ mm}$, Lacey silt factor $f = 1.0$). Correction factors $K_1 = K_2 = K_3 = K_4 = 1.0$ (square nose aligned with flow, plane bed).
 
-**Find:** Scour depth y_s.
+**Find:** Local pier scour depth $y_s$.
 
-**Concept:** HEC-18 pier scour equation.
+**Concept & Governing Equations:**
+1. **FHWA HEC-18 (Richardson & Davis, 2001) Standard Local Pier Scour Equation:**
+   $$\frac{y_s}{a} = 2.0 K_1 K_2 K_3 K_4 \left(\frac{y_1}{a}\right)^{0.35} Fr_1^{0.43}$$
+   Normalized by approach depth $y_1$, this is mathematically identical to:
+   $$\frac{y_s}{y_1} = 2.0 K_1 K_2 K_3 K_4 \left(\frac{a}{y_1}\right)^{0.65} Fr_1^{0.43}$$
+   *(Note on Common Literature Typo: Several older question banks mistakenly write $(a/y_1)^{0.35}$ instead of $(a/y_1)^{0.65}$; both calculations are shown below for transparency).*
 
-**Formula:** `y_s/y₁ = 2.0K₁K₂K₃K₄(a/y₁)^0.35 Fr^0.43`
+2. **Indian Practice (IRC:78 / IS 7784 Lacey Regime Scour):**
+   Mean regime scour depth: $R = 1.35 \left(\frac{q^2}{f}\right)^{1/3}$
+   Maximum scour depth below HFL at nose of pier: $d_{sm} = 2.0 R$.
 
 **Calculation:**
-- Fr = V/√(gy₁) = 2/√(9.81×3) = 2/5.42 = 0.369
-- y_s/y₁ = 2.0 × (1/3)^0.35 × (0.369)^0.43
-- y_s/y₁ = 2.0 × 0.681 × 0.641 = 0.873
-- y_s = 0.873 × 3 = 2.62 m
 
-**Answer:** y_s = **2.62 m** (precise: 2.66 m)
+- **Approach Froude Number:**
+  $$Fr_1 = \frac{V}{\sqrt{g y_1}} = \frac{2.0}{\sqrt{9.81 \times 3.0}} = \frac{2.0}{5.4249} = 0.3687$$
+  $$Fr_1^{0.43} = (0.3687)^{0.43} = 0.6508$$
 
-**Trap:** Use approach depth y₁ (not pier width) in Froude number.
+- **Method A — Standard HEC-18 (Canonical):**
+  $$\frac{y_1}{a} = \frac{3.0}{1.0} = 3.0 \implies \left(\frac{y_1}{a}\right)^{0.35} = (3.0)^{0.35} = 1.4682$$
+  $$\frac{y_s}{a} = 2.0 \times 1.0 \times 1.4682 \times 0.6508 = 1.911$$
+  $$y_s = 1.911 \times a = 1.911 \times 1.0 = \mathbf{1.91\text{ m}}$$
+
+- **Method B — Older Test Bank Variant with $(a/y_1)^{0.35}$ formula:**
+  $$\left(\frac{a}{y_1}\right)^{0.35} = \left(\frac{1}{3}\right)^{0.35} = 0.6811$$
+  $$\frac{y_s}{y_1} = 2.0 \times 0.6811 \times 0.6508 = 0.8865$$
+  $$y_s = 0.8865 \times 3.0 = \mathbf{2.66\text{ m}}$$
+
+- **Method C — IRC:78 / Lacey Method (Indian Core Placement):**
+  Unit discharge $q = V \times y_1 = 2.0 \times 3.0 = 6.0\text{ m}^2\text{/s}$
+  Regime depth: $R = 1.35 \left(\frac{6.0^2}{1.0}\right)^{1/3} = 1.35 \times (36)^{1/3} = 1.35 \times 3.3019 = 4.46\text{ m}$
+  Max scour below water surface at pier: $d_{sm} = 2.0 R = 2.0 \times 4.46 = 8.92\text{ m}$
+  Net scour depth below riverbed: $y_s = d_{sm} - y_1 = 8.92 - 3.00 = \mathbf{5.92\text{ m}}$.
+
+**Answer:** 
+- By canonical HEC-18 equation: $y_s = \mathbf{1.91\text{ m}}$.
+- By test-bank variant with $(a/y_1)^{0.35}$ formulation: $y_s = \mathbf{2.66\text{ m}}$ (resolved from the approximate $2.62\text{ m}$).
+- By IRC:78 Lacey scour: $d_{sm} = \mathbf{8.92\text{ m}}$ below HFL ($5.92\text{ m}$ below bed).
+
+**Trap:** Keep the normalization base clear: the exponent is $+0.35$ on $(y_1/a)$ or $+0.65$ on $(a/y_1)$. Mixing up $(a/y_1)^{0.35}$ alters the scour estimate by $\approx 40\%$. In Indian PSU interviews, always specify whether scour is referenced from HFL ($d_{sm}$) or below the bed level ($y_s$).
 
 ---
 
@@ -464,13 +503,13 @@
 | # | Answer | # | Answer |
 |---|--------|---|--------|
 | 1 | 6.45 m | 12 | 0.0546 m³/s |
-| 2 | Data inconsistent | 13 | ~298 Mm³ |
-| 3 | 2.96 m, 2.52 m | 14 | 1.30 m |
+| 2 | 29.71 m/s (true) / 39.9 m throttle check | 13 | ~298 Mm³ |
+| 3 | 2.96 m, 2.50 m | 14 | 1.30 m |
 | 4 | 0.86 m, 1.29 m | 15 | 170.7 mg/L |
 | 5 | 7.67 m³/s | 16 | 3125 m³ |
 | 6 | 167.21 m³/s | 17 | ~144,000 |
 | 7 | 3.33 m³/s | 18 | 1.21 (motion) |
-| 8 | 67.4 mm | 19 | 2.62 m |
+| 8 | 67.4 mm | 19 | 1.91 m (HEC-18 canonical) / 2.66 m (variant) |
 | 9 | 813.7 m³/s | 20 | 1.70 m (subcritical) |
 | 10 | 5.29 m | 21 | 6.09 m |
 | 11 | 0.00523 m²/s, 1.9×10⁻⁵ | | |

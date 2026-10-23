@@ -617,7 +617,7 @@ ORDER BY 1;
 
 ## Diagnostics & Topic Remediation Matrix
 
-If you score below the passing benchmark on any mock assessment, follow this targeted remediation plan mapping questions to learning modules in [SYLLABUS_AND_COVERAGE.md](file:///e:/DKS_IITK_Civil_HWRE_Placement_2026/03_non_core/finance/SYLLABUS_AND_COVERAGE.md):
+If you score below the passing benchmark on any mock assessment, follow this targeted remediation plan mapping questions to learning modules in [SYLLABUS_AND_COVERAGE.md](SYLLABUS_AND_COVERAGE.md):
 
 | Assessment | Missed Topic / Question Area | Priority Module to Review | Practice Questions in Master Bank |
 | :--- | :--- | :--- | :--- |

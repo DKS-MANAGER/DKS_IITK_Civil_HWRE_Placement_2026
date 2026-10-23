@@ -12,7 +12,7 @@
 
 ## 📋 Role Snapshot
 - **Target Companies**: Groww, Zepto, CRED, Dream11, Swiggy, Nykaa, InMobi, PhonePe, Meesho
-- **Typical CTC Range**: 12 LPA - 24 LPA
+- **Typical CTC Benchmark**: ~₹12–24 LPA [HISTORICAL ESTIMATE — Unverified; Subject to SPO Proforma]
 - **Department Eligibility**: B.Tech / M.Tech all branches. Strong SQL, statistics, and product experimentation skills.
 - **Core Skills Tested**: Event Instrumentation Schemas, A/B Testing, Cohort Retention Heatmaps, Funnel Step Telemetry, SQL, Python
 
@@ -40,6 +40,6 @@
 ## 🧭 Cross-Repository Navigation
 - [Master Role Directory](../../ROLE_DIRECTORY.md)
 - [Non-Core Master Hub](../../README.md)
-- [02 Interview Preparation](../../05_interview/)
-- [03 Common Skills](../../01_common/)
-- [04 Career Preparation](../../01_common/resume/career-preparation/)
+- [02 Interview Preparation](../../../05_interview/)
+- [03 Common Skills](../../../01_common/)
+- [04 Career Preparation](../../../01_common/resume/career-preparation/)

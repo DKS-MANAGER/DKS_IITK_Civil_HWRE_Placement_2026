@@ -93,7 +93,7 @@ For students with zero prior finance coursework, study the material in this exac
 6. **Stage 6: Time Value of Money & Discounting**: Compounding ($FV = PV(1+r)^t$), discounting, ordinary annuities, perpetuities ($C/r$), and growing perpetuities ($C_1/(r-g)$).
 7. **Stage 7: Capital Budgeting Decision Rules**: Net Present Value (NPV), Internal Rate of Return (IRR), Profitability Index, Payback Period, and NPV vs. IRR reinvestment conflicts.
 8. **Stage 8: Cost of Capital, Capital Structure & WACC**:
-   * Cost of Equity ($K_e$) via CAPM: $K_e = R_f + eta(R_m - R_f)$.
+   * Cost of Equity ($K_e$) via CAPM: $K_e = R_f + eta(R_m - R_f)$.
    * After-tax Cost of Debt: $K_d(1-T)$.
    * WACC with market value weights: $(E/V 	imes K_e) + (D/V 	imes K_d(1-T))$.
 9. **Stage 9: Intrinsic Valuation (Discounted Cash Flow)**: Unlevered Free Cash Flow (FCFF), NOPAT, CapEx, $\Delta NWC$, Terminal Value (Gordon Growth vs. Exit Multiple), EV-to-Equity Value bridge.
