@@ -62,9 +62,9 @@
 
 | Assessment Domain | Minimum Target Score | Highest Failure Traps | Key Focus File |
 | :--- | :---: | :--- | :--- |
-| **Quantitative Aptitude** | > 80% percentile | Slow manual arithmetic; skipping Data Interpretation. | [`01_APTITUDE...md`](01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md) |
-| **Logical & Verbal** | > 80% percentile | Over-analyzing subjective verbal questions; misinterpreting negative syllogisms. | [`01_APTITUDE...md`](01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md) |
-| **SQL & Databases** | 100% correctness | Join fan-outs, missing NULL semantics, confusing `WHERE` with `HAVING`. | [`03_SQL_DATABASES...md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md) |
-| **Python & DSA** | Clean execution | Failing on edge cases (empty inputs, single elements, integer overflow). | [`02_PYTHON...md`](02_PYTHON_PROGRAMMING_AND_DSA.md) |
-| **GenAI / ML Concepts** | Strong intuition | Buzzword recitation without understanding failure modes or costs. | [`06_MACHINE_LEARNING...md`](06_MACHINE_LEARNING_NLP_TIME_SERIES_AND_VISION.md) & [`07_GENERATIVE_AI...md`](07_GENERATIVE_AI_LLM_PROMPT_ENGINEERING_RAG.md) |
-| **Consulting Scenarios** | Structured delivery | Rambling answers lacking structured MECE frameworks. | [`10_BUSINESS_CASES...md`](10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md) |
+| **Quantitative Aptitude** | > 80% percentile | Slow manual arithmetic; skipping Data Interpretation. | [`01_APTITUDE_AND_ENGLISH_PREP.md`](01_APTITUDE_AND_ENGLISH_PREP.md) |
+| **Logical & Verbal** | > 80% percentile | Over-analyzing subjective verbal questions; misinterpreting negative syllogisms. | [`01_APTITUDE_AND_ENGLISH_PREP.md`](01_APTITUDE_AND_ENGLISH_PREP.md) |
+| **SQL & Databases** | 100% correctness | Join fan-outs, missing NULL semantics, confusing `WHERE` with `HAVING`. | [`03_DATA_SQL_AND_ANALYTICS.md`](03_DATA_SQL_AND_ANALYTICS.md) |
+| **Python & DSA / Vibe Coding** | Clean execution | Failing on edge cases (empty inputs, single elements, integer overflow). | [`02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md`](02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md) |
+| **GenAI / ML Concepts** | Strong intuition | Buzzword recitation without understanding failure modes or costs. | [`04_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING.md`](04_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING.md) |
+| **Consulting Scenarios** | Structured delivery | Rambling answers lacking structured MECE frameworks. | [`05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md`](05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md) |

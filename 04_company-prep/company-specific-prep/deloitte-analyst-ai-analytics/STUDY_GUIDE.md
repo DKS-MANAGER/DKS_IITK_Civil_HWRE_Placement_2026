@@ -1,69 +1,70 @@
 # Study Guide & Sequential Learning Pathways — Deloitte USI Analyst
 
-> **Document Type**: Pedagogical Course Roadmap & Navigation Guide  
+> **Document Type**: Course Roadmap & Topic-by-Topic Sequence  
 > **Target Audience**: IIT Kanpur Placement Candidates preparing from zero or accelerating revision  
 
 ---
 
-## 1. How to Navigate This Course
+## 1. The 6-Topic Learning Flow
 
-This course is designed as a **complete, self-contained textbook curriculum**. You do not need external paid bootcamps or disconnected video links. Follow the dependency chain below to ensure foundational mastery before tackling advanced topics:
+Follow this sequence to ensure concepts build progressively from screening filters to executive interviews:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                       CURRICULUM DEPENDENCY GRAPH                           │
+│                       CONSOLIDATED LEARNING GRAPH                           │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│   [01_APTITUDE] ──────────► Online Assessment Diagnostic Mastery (Round 1)  │
-│         │                                                                   │
-│         ▼                                                                   │
-│   [02_PYTHON] ────────────► Core Problem Solving & Data Wrangling           │
-│         │                                                                   │
-│         ▼                                                                   │
-│   [03_SQL_DATABASES] ─────► Relational Foundations, Joins & Window Analytics│
-│         │                                                                   │
-│         ▼                                                                   │
-│   [04_STATISTICS] ────────► Probability, Hypothesis Testing & A/B Testing   │
-│         │                                                                   │
-│   ┌─────┴──────────────────────────┐                                        │
-│   ▼                                ▼                                        │
-│   [05_DATA_ENGINEERING]     [06_MACHINE_LEARNING]                           │
-│   (Pipelines, Cloud, Gov)   (Supervised, Unsupervised, Time-Series, NLP)    │
-│         │                                  │                                │
-│         └───────────────┬──────────────────┘                                │
-│                         ▼                                                   │
-│                 [07_GENERATIVE_AI] (Transformers, Prompting, RAG)           │
-│                         │                                                   │
-│                         ▼                                                   │
-│                 [08_AGENTIC_AI_GRAPH] (Agents, Tools, Knowledge Graphs)     │
-│                         │                                                   │
-│                         ▼                                                   │
-│                 [09_ENTERPRISE_PLATFORMS] (ERP, S2P, O2C, Process Imp)      │
-│                         │                                                   │
-│                         ▼                                                   │
-│                 [10_BUSINESS_CASES] (7 Enterprise Cases & PoC Design)       │
-│                         │                                                   │
-│                         ▼                                                   │
-│                 [11_INTERVIEW_BEHAVIOURAL] (Consulting Scenarios & Mock)    │
+│   [01_APTITUDE_AND_ENGLISH_PREP] ──► Round 1 Online Assessment Gate         │
+│               │                                                             │
+│               ▼                                                             │
+│   [02_CODING_DSA_SOFTWARE] ────────► Coding Test & Live Whiteboard DSA      │
+│               │                                                             │
+│               ▼                                                             │
+│   [03_DATA_SQL_ANALYTICS] ─────────► SQL Queries, A/B Testing & Cloud DW    │
+│               │                                                             │
+│               ▼                                                             │
+│   [04_AI_MACHINE_LEARNING] ────────► ML, GenAI, RAG & Agentic Systems       │
+│               │                                                             │
+│               ▼                                                             │
+│   [05_CONSULTING_INTERVIEW] ───────► ERP, 7 Business Cases & STAR Fit       │
+│               │                                                             │
+│               ▼                                                             │
+│   [06_MOCK_TESTS_QUESTION_BANK] ───► 4 Timed Mocks, 200 Qs & Rapid Revision │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 2. Recommended Study Tracks by Available Time
+## 2. Study Tracks by Time Available
 
-### Track A: Complete Comprehensive Preparation (4 Weeks / 30 Days)
-* **Week 1 (Days 1–7)**: Foundations — Modules 01, 02, and 03. Complete Diagnostic Mock Assessment.
-* **Week 2 (Days 8–14)**: Data Analytics & Engineering — Modules 04, 05, and 06. Complete Foundational Technical Mock Assessment.
-* **Week 3 (Days 15–21)**: Advanced AI & Enterprise — Modules 07, 08, and 09. Complete AI & Technology Mock Assessment.
-* **Week 4 (Days 22–30)**: Consulting Practice & Interview Polish — Modules 10 and 11. Practice Question Bank (200 Qs), Rapid Revision, and Comprehensive Final Mock Assessment.
+### Track A: 30-Day Comprehensive Pathway (Recommended)
+* **Week 1 (Days 1–7)**: 
+  - Complete [`01_APTITUDE_AND_ENGLISH_PREP.md`](01_APTITUDE_AND_ENGLISH_PREP.md).
+  - Complete [`02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md`](02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md).
+  - Attempt Mock Assessment 01 (Diagnostic) in Module 06.
+* **Week 2 (Days 8–14)**:
+  - Complete [`03_DATA_SQL_AND_ANALYTICS.md`](03_DATA_SQL_AND_ANALYTICS.md).
+  - Practice HirePro Vibe Coding tasks in Module 02.
+  - Attempt Mock Assessment 02 (Foundational Technical) in Module 06.
+* **Week 3 (Days 15–21)**:
+  - Complete [`04_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING.md`](04_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING.md).
+  - Attempt Mock Assessment 03 (AI & Cloud) in Module 06.
+* **Week 4 (Days 22–30)**:
+  - Complete [`05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md`](05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md).
+  - Work through the 200 Question Bank in Module 06.
+  - Attempt Mock Assessment 04 under strict 90-minute conditions.
+  - Final review of Module 06 Section C (Rapid Revision Cheat Sheet).
 
-### Track B: Accelerated 14-Day Sprint
-* **Days 1–4**: P1 Core — Aptitude, Python algorithms, and SQL window functions (Modules 01, 02, 03).
-* **Days 5–8**: P2 Alignment — Statistics, Data Engineering, ML pipelines, and RAG architecture (Modules 04, 05, 06, 07).
-* **Days 9–11**: P3 & Enterprise — Agents, Knowledge Graphs, ERP processes, and Business Cases (Modules 08, 09, 10).
-* **Days 12–14**: Full Mocks & Interview Scenarios (Module 11, Question Bank, and Mocks 1–4).
+### Track B: 14-Day Accelerated Sprint
+* **Days 1–4**: Modules 01 (Aptitude & English) and 02 (Python DSA & Vibe Coding).
+* **Days 5–8**: Modules 03 (SQL & Statistics) and 04 (AI/ML & RAG).
+* **Days 9–11**: Module 05 (ERP, 7 Business Cases & STAR behavioral).
+* **Days 12–14**: Mock 02, Mock 04, and even-numbered questions from Module 06.
 
-### Track C: 72-Hour Rapid Revision
-* Focus strictly on [`RAPID_REVISION.md`](RAPID_REVISION.md), [`03_SQL_DATABASES...md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md), [`07_GENERATIVE_AI...md`](07_GENERATIVE_AI_LLM_PROMPT_ENGINEERING_RAG.md), [`10_BUSINESS_CASES...md`](10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md), and [`11_INTERVIEW_BEHAVIOURAL...md`](11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md).
+### Track C: 72-Hour Rapid Cram
+* Focus strictly on:
+  1. [`06_MOCK_TESTS_QUESTION_BANK_AND_REVISION.md`](06_MOCK_TESTS_QUESTION_BANK_AND_REVISION.md) (Section C: Formula Sheet & Top SQL).
+  2. [`03_DATA_SQL_AND_ANALYTICS.md`](03_DATA_SQL_AND_ANALYTICS.md) (Section A: 15 Master SQL Queries).
+  3. [`02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md`](02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md) (Binary Search, Paint House DP & Vibe Coding solutions).
+  4. [`05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md`](05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md) (7 Business Cases & 90s Elevator Pitch).

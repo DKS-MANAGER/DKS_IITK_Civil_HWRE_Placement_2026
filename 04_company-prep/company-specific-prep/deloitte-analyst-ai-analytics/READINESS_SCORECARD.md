@@ -1,91 +1,38 @@
-# Readiness Scorecard & Multi-Horizon Study Plans
+# Candidate Readiness Scorecard — Deloitte USI Analyst
 
-> **Document Type**: Candidate Self-Evaluation & Milestone Readiness Scorecard  
-> **Target Role**: Analyst (AI, Analytics & Technology Consulting) — Deloitte US-India  
-
----
-
-## 1. Multi-Horizon Study Plans
-
-### 30-Day Master Study Plan (Balanced Foundations to Mock Mastery)
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                          30-DAY PREPARATION ROADMAP                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ Days 01–05: Quantitative Aptitude, Logical Puzzles, Verbal Rules (Mod 01)   │
-│ Days 06–09: Python Syntax, Core DSA, Two Pointers & Sliding Window (Mod 02) │
-│ Days 10–13: Relational DBs, Complex Joins, Window Functions & CTEs (Mod 03) │
-│ Day 14:     ★ DIAGNOSTIC MOCK ASSESSMENT 1 + Error Log Review               │
-│ Days 15–18: Statistics, Hypothesis Testing, EDA, Matplotlib Dashboards (04) │
-│ Days 19–21: Data Pipelines, Cloud Concepts, Lakehouses & Governance (05)    │
-│ Days 22–24: Machine Learning Workflows, Regularization & Time-Series (06)   │
-│ Day 25:     ★ FOUNDATIONAL TECHNICAL MOCK ASSESSMENT 2                      │
-│ Days 26–27: Transformers, Prompt Design, Vector Embeddings & RAG (07, 08)   │
-│ Days 28–29: Enterprise ERP Flows, 7 Business Cases & PoC Design (09, 10)    │
-│ Day 30:     ★ COMPREHENSIVE FINAL MOCK ASSESSMENT 4 + Behavioral Drill (11) │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### 14-Day Sprint (For High-Pressure Placement Notification)
-* **Days 1–3**: Aptitude & Logical Reasoning (Mod 01) + Python DSA drills (Mod 02).
-* **Days 4–6**: SQL Window Functions & CTEs (Mod 03) + Statistics & A/B testing (Mod 04).
-* **Day 7**: Diagnostic Assessment 1 & Data Engineering review (Mod 05).
-* **Days 8–10**: ML Evaluation & Generative AI / RAG architecture (Mods 06, 07).
-* **Days 11–12**: Enterprise ERP, Business Cases & Issue Trees (Mods 09, 10).
-* **Days 13–14**: Behavioral STAR stories (Mod 11) + Mock Assessment 4 + Rapid Revision.
-
-### 7-Day Intensive Drill
-* **Day 1**: Quant & Logical (Mod 01).
-* **Day 2**: SQL intensive (Mod 03) — write 30 queries.
-* **Day 3**: Python DSA (Mod 02) — solve 15 algorithmic tasks.
-* **Day 4**: Stats & ML Metrics (Mods 04, 06).
-* **Day 5**: GenAI, RAG & Cloud Pipelines (Mods 05, 07).
-* **Day 6**: Business Cases & Consulting Problem Solving (Mod 10).
-* **Day 7**: Mock Assessment 4, Behavioral Pitch (Mod 11), and Rapid Revision.
-
-### 3-Day Countdown
-* **Day 1**: 40 SQL queries + 10 Python algorithms + Rapid Revision Formulas.
-* **Day 2**: ML & GenAI trade-offs + 3 Business Cases + Cloud service comparisons.
-* **Day 3**: Behavioral STAR pitches + Shift/Client site responses + Mock 4 review.
-
-### Final 24 Hours
-* Review [`RAPID_REVISION.md`](RAPID_REVISION.md) exclusively.
-* Practice your 90-second "Tell me about yourself" and "Why Deloitte USI Consulting?" aloud.
-* Review SQL Window Function syntax (`ROW_NUMBER`, `DENSE_RANK`, `LAG`, `LEAD`).
-* Ensure 8 hours of sleep; do not attempt new conceptual modules.
+> **Document Type**: Self-Assessment & Diagnostic Readiness Scoring  
+> **Alignment**: Consolidated 6-Topic Curriculum  
 
 ---
 
-## 2. Topic-by-Topic Readiness Audit
+## 1. Diagnostic Competency Scoring Matrix
 
-Rate your readiness from 1 to 5:
-* **Level 1**: Unfamiliar with concept.
-* **Level 2**: Understand high-level definition, unable to write code/equations.
-* **Level 3**: Can solve standard textbook problems with hints.
-* **Level 4**: Can implement clean code/queries and explain to an interviewer.
-* **Level 5**: Can defend trade-offs, edge cases, failure modes, and business ROI.
+Score yourself on each competency from 1 to 5:
+* **1 (Novice)**: Unfamiliar with core terminology; cannot solve without hints.
+* **2 (Developing)**: Understands definitions; struggles under time pressure.
+* **3 (Competent)**: Solves standard problems; knows primary formulas & syntax.
+* **4 (Proficient)**: Solves edge cases quickly; explains trade-offs fluently.
+* **5 (Mastery)**: Production-ready; derives solutions from first principles; executive communication.
 
-```text
-Target Benchmark for Interview Shortlist: All P1 topics at Level 4+; All P2 topics at Level 4+; All P3 topics at Level 3+.
-```
+| Competency Area | Module Reference | Self-Score (1-5) | Passing Threshold | Readiness Criteria |
+| :--- | :--- | :---: | :---: | :--- |
+| **1. Quantitative Aptitude** | `01_APTITUDE_AND_ENGLISH_PREP.md` | `[ ]` | $\ge 4$ | Can solve 20 mixed quant questions in 25 mins with $>85\%$ accuracy. |
+| **2. Logical Reasoning & English** | `01_APTITUDE_AND_ENGLISH_PREP.md` | `[ ]` | $\ge 4$ | Solves 4-variable logic puzzle in $<4$ mins; zero subject-verb agreement errors. |
+| **3. Python & Algorithmic DSA** | `02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md` | `[ ]` | $\ge 4$ | Writes clean $O(N)$ sliding window & binary search with optimal space. |
+| **4. HirePro Vibe Coding** | `02_CODING_DSA_AND_SOFTWARE_ENGINEERING.md` | `[ ]` | $\ge 4$ | Diagnoses starter bugs, passes 100% test cases within 20 minutes. |
+| **5. SQL & Relational Databases** | `03_DATA_SQL_AND_ANALYTICS.md` | `[ ]` | $\ge 4$ | Writes complex window queries (`DENSE_RANK`, `LAG`, CTEs) without syntax errors. |
+| **6. Statistics & A/B Testing** | `03_DATA_SQL_AND_ANALYTICS.md` | `[ ]` | $\ge 3$ | Computes two-sample Z/t-test and translates $p$-value into business revenue impact. |
+| **7. Machine Learning & RAG** | `04_ARTIFICIAL_INTELLIGENCE_AND_MACHINE_LEARNING.md` | `[ ]` | $\ge 3$ | Defends PR-AUC vs ROC-AUC; explains vector chunking & cross-encoder reranking. |
+| **8. Business Cases & ERP** | `05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md` | `[ ]` | $\ge 4$ | Structures ambiguous client scenario into MECE issue tree; explains 3-way match. |
+| **9. Behavioral & STAR Fit** | `05_CONSULTING_BUSINESS_AND_INTERVIEW_PREP.md` | `[ ]` | $\ge 4$ | Delivers 90s HWRE elevator pitch, "Why Deloitte USI", and handles US overlap. |
 
-| Area | Topic | Self-Rating (1–5) | Remediation Module |
-| :--- | :--- | :---: | :--- |
-| **Aptitude** | Arithmetic Speed & Mental Math | `[ ]` | `01_APTITUDE...md` |
-| **Aptitude** | Syllogisms & Logic Puzzles | `[ ]` | `01_APTITUDE...md` |
-| **Coding** | Two Pointers & Sliding Window | `[ ]` | `02_PYTHON...md` |
-| **Coding** | Hash Maps & Recursion | `[ ]` | `02_PYTHON...md` |
-| **SQL** | Multi-table Joins & Fan-out Prevention | `[ ]` | `03_SQL_DATABASES...md` |
-| **SQL** | Window Functions (`ROW_NUMBER`, `LAG`) | `[ ]` | `03_SQL_DATABASES...md` |
-| **Analytics** | Hypothesis Testing & P-values | `[ ]` | `04_STATISTICS...md` |
-| **Engineering**| Lakehouses vs Data Warehouses | `[ ]` | `05_DATA_ENGINEERING...md` |
-| **Engineering**| ETL vs ELT & Data Governance | `[ ]` | `05_DATA_ENGINEERING...md` |
-| **AI / ML** | Precision, Recall, ROC-AUC, PR-AUC | `[ ]` | `06_MACHINE_LEARNING...md` |
-| **GenAI** | Transformer Attention & KV Cache | `[ ]` | `07_GENERATIVE_AI...md` |
-| **GenAI** | RAG Chunking, Embeddings & Guardrails | `[ ]` | `07_GENERATIVE_AI...md` |
-| **Advanced** | Agentic State Loops & Tool Calling | `[ ]` | `08_AGENTIC_AI...md` |
-| **Advanced** | Knowledge Graphs & Graph Traversal | `[ ]` | `08_AGENTIC_AI...md` |
-| **Enterprise** | S2P & O2C Process Workflows | `[ ]` | `09_ENTERPRISE_PLATFORMS...md` |
-| **Consulting** | Issue Trees & MECE Problem Structuring | `[ ]` | `10_BUSINESS_CASES...md` |
-| **Interview** | STAR Storytelling & Rotational Shift Buy-in | `[ ]` | `11_INTERVIEW_BEHAVIOURAL...md` |
+**Total Score**: _____ / 45  
+- **Target Interview Readiness**: $\ge 35 / 45$ (with no individual area below 3).
+
+---
+
+## 2. Action Plan Based on Score
+
+* **Score < 28**: Dedicate 2 weeks to foundational modules (`01_`, `02_`, and `03_`). Re-solve all worked examples.
+* **Score 28–34**: Focus on weak areas using the 200 Question Bank in Module 06. Practice timed mock tests.
+* **Score 35+**: Rehearse 7 Business Cases in Module 05 and polish verbal delivery of STAR stories.
