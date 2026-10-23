@@ -32,9 +32,9 @@ Every factual claim, compensation figure, and recommendation in this course is s
 
 ---
 
-## 2. Master Course Navigation Index (23 Documents)
+## 2. Master Course Navigation Index (24 Documents)
 
-The course is organized into 5 logical tiers across 23 comprehensive markdown documents:
+The course is organized into 5 logical tiers across 24 comprehensive markdown documents:
 
 ### Tier 1: Intelligence, Role & Strategy Architecture (8 Documents)
 | Document | Primary Domain & Coverage | Evidence Standard |
@@ -51,9 +51,9 @@ The course is organized into 5 logical tiers across 23 comprehensive markdown do
 ### Tier 2: Core Technical Foundations (4 Modules)
 | Document | Primary Domain & Coverage | Evidence Standard |
 | :--- | :--- | :--- |
-| [📘 `01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md`](01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md) | Quant (Alligation, P&C, Probability), Logical puzzles (Syllogisms, Seating), Verbal (Grammar, Reading Comp), Data Interpretation. | `[CORE FOUNDATION]` |
-| [📘 `02_PYTHON_PROGRAMMING_AND_DSA.md`](02_PYTHON_PROGRAMMING_AND_DSA.md) | Python memory model, mutability, Big-O, Hash Maps, Stacks/Queues, Two Pointers, Sliding Window, DP, OOP Pipeline. | `[CORE FOUNDATION]` |
-| [📘 `03_SQL_DATABASES_AND_DATA_MANIPULATION.md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md) | Relational theory, 3VL NULL logic, Join Fan-Out, Window functions (`ROW_NUMBER`, `DENSE_RANK`, `LAG`), CTEs, ACID. | `[CORE FOUNDATION]` |
+| [📘 `01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md`](01_APTITUDE_LOGICAL_REASONING_AND_VERBAL.md) | Quant (Alligation, P&C, Probability), Logical puzzles (Syllogisms, Seating), Verbal (Grammar, Reading Comp), Data Interpretation, +60 Solved Practice Qs. | `[CORE FOUNDATION]` |
+| [📘 `02_PYTHON_PROGRAMMING_AND_DSA.md`](02_PYTHON_PROGRAMMING_AND_DSA.md) | Python memory model, mutability, Big-O, Hash Maps, Stacks/Queues, Two Pointers, Sliding Window, DP, OOP Pipeline, +15 Solved Enterprise Coding Problems. | `[CORE FOUNDATION]` |
+| [📘 `03_SQL_DATABASES_AND_DATA_MANIPULATION.md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md) | Relational theory, 3VL NULL logic, Join Fan-Out, Window functions (`ROW_NUMBER`, `DENSE_RANK`, `LAG`), CTEs, ACID, +15 Solved Production Queries. | `[CORE FOUNDATION]` |
 | [📘 `04_STATISTICS_ANALYTICS_AND_VISUALIZATION.md`](04_STATISTICS_ANALYTICS_AND_VISUALIZATION.md) | Descriptive stats, Bayes theorem & false-positive paradox, CLT, Hypothesis testing ($Z, t, \chi^2$), Executive Charting, Minto. | `[CORE FOUNDATION]` |
 
 ### Tier 3: Technology, Cloud & Applied AI (3 Modules)
@@ -71,9 +71,10 @@ The course is organized into 5 logical tiers across 23 comprehensive markdown do
 | [📘 `10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md`](10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md) | MECE issue trees, Minto pyramid, and **7 complete enterprise cases** (Pipeline fail, Imbalanced ML, RAG hallucination, S2P backlog, etc.). | `[CONSULTING PRACTICE]` |
 | [📘 `11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md`](11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md) | 90s elevator pitch, "Why Deloitte USI", STAR responses for ambiguity/failure/conflict, US overlap flexibility, mock meeting. | `[CONSULTING PRACTICE]` |
 
-### Tier 5: Practice Banks, Mock Tests & Rapid Revision (3 Documents)
+### Tier 5: Practice Banks, Mock Tests & Rapid Revision (4 Documents)
 | Document | Primary Domain & Coverage | Evidence Standard |
 | :--- | :--- | :--- |
+| [💻 `VIBE_CODING_PRACTICE.md`](VIBE_CODING_PRACTICE.md) | **HirePro Interactive Coding & Vibe Coding Simulation**: 3 complete real-world tasks (Timesheet Billing, Resilient JSON Telemetry, Hydro-Flow Anomaly Detection) with starter bugs, test suites, and rubrics. | `[PRACTICE SIMULATION]` |
 | [🎯 `QUESTION_BANK_WITH_SOLUTIONS.md`](QUESTION_BANK_WITH_SOLUTIONS.md) | **Exactly 200 substantial, verified practice questions** across all 10 syllabus domains with complete step-by-step solutions. | `[PRACTICE BANK]` |
 | [📝 `MOCK_TESTS_AND_ASSESSMENTS.md`](MOCK_TESTS_AND_ASSESSMENTS.md) | **4 complete timed mock assessments** (Diagnostic, Foundational, AI & Cloud, Comprehensive Full-Spectrum) with full solutions & rubrics. | `[PRACTICE SIMULATION]` |
 | [⚡ `RAPID_REVISION.md`](RAPID_REVISION.md) | High-yield formula sheet, top 10 SQL snippets, Python algorithms, ML metrics, RAG templates, and interview traps. | `[REVISION SUMMARY]` |

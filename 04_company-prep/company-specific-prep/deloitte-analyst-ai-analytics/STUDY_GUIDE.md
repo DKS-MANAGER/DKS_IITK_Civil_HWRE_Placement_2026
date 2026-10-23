@@ -54,16 +54,16 @@ This course is designed as a **complete, self-contained textbook curriculum**. Y
 ## 2. Recommended Study Tracks by Available Time
 
 ### Track A: Complete Comprehensive Preparation (4 Weeks / 30 Days)
-* **Week 1 (Days 1–7)**: Foundations — Modules 01, 02, and 03. Complete Diagnostic Mock Assessment.
-* **Week 2 (Days 8–14)**: Data Analytics & Engineering — Modules 04, 05, and 06. Complete Foundational Technical Mock Assessment.
-* **Week 3 (Days 15–21)**: Advanced AI & Enterprise — Modules 07, 08, and 09. Complete AI & Technology Mock Assessment.
+* **Week 1 (Days 1–7)**: Foundations — Modules 01 (Aptitude & Verbal), 02 (Python DSA), and 03 (SQL Relational). Complete Diagnostic Mock Assessment.
+* **Week 2 (Days 8–14)**: Data Analytics & Engineering — Modules 04, 05, and 06. Practice **`VIBE_CODING_PRACTICE.md`** Task 1 & Task 2. Complete Foundational Technical Mock Assessment.
+* **Week 3 (Days 15–21)**: Advanced AI & Enterprise — Modules 07, 08, and 09. Practice **`VIBE_CODING_PRACTICE.md`** Task 3 (Hydro-Flow). Complete AI & Technology Mock Assessment.
 * **Week 4 (Days 22–30)**: Consulting Practice & Interview Polish — Modules 10 and 11. Practice Question Bank (200 Qs), Rapid Revision, and Comprehensive Final Mock Assessment.
 
 ### Track B: Accelerated 14-Day Sprint
 * **Days 1–4**: P1 Core — Aptitude, Python algorithms, and SQL window functions (Modules 01, 02, 03).
-* **Days 5–8**: P2 Alignment — Statistics, Data Engineering, ML pipelines, and RAG architecture (Modules 04, 05, 06, 07).
+* **Days 5–8**: P2 Alignment & Live Coding — Statistics, Data Engineering, ML pipelines, and RAG architecture (Modules 04, 05, 06, 07) + **`VIBE_CODING_PRACTICE.md`**.
 * **Days 9–11**: P3 & Enterprise — Agents, Knowledge Graphs, ERP processes, and Business Cases (Modules 08, 09, 10).
 * **Days 12–14**: Full Mocks & Interview Scenarios (Module 11, Question Bank, and Mocks 1–4).
 
 ### Track C: 72-Hour Rapid Revision
-* Focus strictly on [`RAPID_REVISION.md`](RAPID_REVISION.md), [`03_SQL_DATABASES...md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md), [`07_GENERATIVE_AI...md`](07_GENERATIVE_AI_LLM_PROMPT_ENGINEERING_RAG.md), [`10_BUSINESS_CASES...md`](10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md), and [`11_INTERVIEW_BEHAVIOURAL...md`](11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md).
+* Focus strictly on [`RAPID_REVISION.md`](RAPID_REVISION.md), [`VIBE_CODING_PRACTICE.md`](VIBE_CODING_PRACTICE.md) (Task solutions), [`03_SQL_DATABASES_AND_DATA_MANIPULATION.md`](03_SQL_DATABASES_AND_DATA_MANIPULATION.md), [`07_GENERATIVE_AI_LLM_PROMPT_ENGINEERING_RAG.md`](07_GENERATIVE_AI_LLM_PROMPT_ENGINEERING_RAG.md), [`10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md`](10_BUSINESS_CASES_RESEARCH_POC_AND_CLIENT_COMMUNICATION.md), and [`11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md`](11_INTERVIEW_BEHAVIOURAL_AND_SCENARIOS.md).

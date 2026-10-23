@@ -10,6 +10,7 @@
 | **Quantitative Aptitude** | `01_APTITUDE...md` | P1 | Percentages, Ratios, Time-Work, P&C, Probability | Step-by-step arithmetic drills | Solve 20 mixed quant problems in 25 mins with >85% accuracy | `[ ]` |
 | **Logical & Verbal** | `01_APTITUDE...md` | P1 | Syllogisms, Seating, Critical Reasoning, Reading Comp | Analytical constraint deduction | Solve 4-variable puzzle in < 4 mins; 0 grammatical errors | `[ ]` |
 | **Python Programming** | `02_PYTHON...md` | P1 | Data structures, OOP, Two Pointers, Sliding Window | Runnable algorithms with test cases | Implement sliding window maximum in O(N) from scratch | `[ ]` |
+| **HirePro Vibe Coding** | `VIBE_CODING_PRACTICE.md` | P1 | Bug fixing in starter code, test suites, API resilience, time management | 3 complete simulation tasks with starter bugs & test runners | Pass 100% of public and hidden test cases within 20 mins | `[ ]` |
 | **SQL Data Manipulation** | `03_SQL_DATABASES...md` | P1 | 3-valued logic, Joins, Window functions, CTEs | Synthetic schemas with queries & outputs | Write 5 complex window queries without syntax errors | `[ ]` |
 | **Statistics & Analytics** | `04_STATISTICS...md` | P1 | Distributions, CLT, Hypothesis testing, A/B tests | Numerical worked calculations | Compute two-sample t-test p-value & interpret for CEO | `[ ]` |
 | **Data Engineering** | `05_DATA_ENGINEERING...md` | P2 | ETL vs ELT, Lakehouses, Warehouses, Governance | Architecture diagrams & data flow analysis | Explain partition pruning, data skew & GDPR lineage | `[ ]` |
