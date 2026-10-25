@@ -548,7 +548,9 @@ A phenomenon where an observed trend appears in several different sub-groups of 
   * For $95\%$ confidence, $Z^* = 1.96$.
   * Margin of error: $\text{ME} = 1.96 \times 5 = 9.8$.
   * $\text{CI} = [712 - 9.8, 712 + 9.8] = \mathbf{[702.2, 721.8]}$.
-  * *Interpretation*: With 95% confidence, the true mean credit score lies between 702.2 and 721.8.
+  * *Rigorous Frequentist Interpretation*: If we were to independently repeat this sampling procedure an infinite number of times under identical conditions, constructing a $95\%$ confidence interval from each sample, approximately $95\%$ of all constructed intervals would contain the true, fixed population mean credit score $\mu$. For this single realization $[702.2, 721.8]$, we have $95\%$ confidence in the generating methodology.
+  * > [!WARNING]
+    > **Critical Analytics Interview Trap (Frequentist vs. Bayesian)**: Never state that *"there is a 95% probability that the true mean lies between 702.2 and 721.8."* In frequentist statistics, the true population mean $\mu$ is a fixed, non-random parameter, and the computed interval boundaries are fixed numbers. The parameter $\mu$ either lies inside the interval or it does not; the probability is strictly either $1$ or $0$. Only in a Bayesian framework (using a credible interval with an explicit prior) can one assign a posterior probability to a parameter lying within a specified range.
 
 ---
 

@@ -284,10 +284,18 @@ $$\text{PSI} = \sum_{i=1}^B \left( \text{Actual}_i - \text{Expected}_i \right) \
 
 **Interpretation & Governance Action**:
 * Calculated $\text{PSI} = \mathbf{0.1221}$.
-* **Benchmark Guidance**:
-  * $\text{PSI} < 0.10$: Stable; no action.
-  * $\mathbf{0.10 \le \text{PSI} < 0.25}$: **Moderate Shift**. Requires detailed monitoring, investigation into macroeconomic shifts or applicant sourcing channels, but no immediate emergency shutdown.
-  * $\text{PSI} \ge 0.25$: **Significant Shift**. The model must be paused, recalibrated, or retrained.
+* **Industry Heuristic Benchmarks (`[INDUSTRY HEURISTIC BENCHMARK]` — Not Statutory Law or Citi Policy)**:
+  * $\text{PSI} < 0.10$: Minor shift / stable; continue routine monitoring.
+  * $\mathbf{0.10 \le \text{PSI} < 0.25}$: **Moderate Shift**. Investigate underlying feature movements or applicant sourcing changes; heightened monitoring without automated shutdown.
+  * $\text{PSI} \ge 0.25$: **Significant Shift**. Indicates substantial population drift; triggers formal model risk review, potential threshold recalibration, or model retraining.
+
+> [!NOTE]
+> **Enterprise Model Risk Management (SR 11-7) Context**:  
+> In modern banking analytics, model-risk decisions are **never executed based on a single scalar metric in isolation**. Under regulatory frameworks (Federal Reserve SR 11-7 / OCC 2011-12) and institutional risk governance:
+> 1. **Model Materiality Tier**: High-impact Tier 1 models (e.g. automated capital adequacy, large-exposure credit approval) have stricter governance thresholds than low-impact marketing propensity models.
+> 2. **Sample Volume & Sampling Noise**: In small portfolios or low-volume segments, elevated PSI can be driven by binomial sampling variance rather than genuine population drift.
+> 3. **Portfolio Economic Performance**: PSI measures distributional shape, not model accuracy. If PSI is elevated but default roll-rates and rank-ordering (AUC / Gini) remain stable, the model may simply require cutoff recalibration rather than decommissioning.
+> 4. **Scope Distinction**: Core hiring requirements for Citi AIM emphasize SQL, exploratory data analysis, business statistics, hypothesis testing, and machine learning fundamentals. Metrics like WoE, IV, KS, and PSI are valuable supplementary extensions for candidates targeting specialized credit risk and scorecard modeling teams.
 
 ---
 

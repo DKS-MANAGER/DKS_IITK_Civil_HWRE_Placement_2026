@@ -22,7 +22,9 @@ The `04_company-prep/` layer is organized into seven modular directories:
     ├── accenture-japan/           # Accenture Japan — Digital Consultant (Analyst Entry) Package
     ├── citicorp-aim-analytics/    # Citicorp (CSIPL) — Business Analytics (SBS) AIM Package
     ├── deloitte-analyst-ai-analytics/ # Deloitte US-India — Analyst (AI, Analytics & Tech Consulting) Pack
-    └── exxonmobil-engineer/       # ExxonMobil (EMSTPL) — Engineer (Civil, HWRE, Energy & Facilities) Pack
+    ├── exxonmobil-engineer/       # ExxonMobil (EMSTPL) — Engineer (Civil, HWRE, Energy & Facilities) Pack
+    ├── hilti-get-value-engineering/ # Hilti (HTSI) — GET (Global Value Engineering Hub, Pune) Pack
+    └── larsen-toubro-pget-civil/  # Larsen & Toubro — PGET (Civil Engineering & EPC Infrastructure) Pack
 ```
 
 ---
@@ -54,7 +56,7 @@ All facts in this directory are governed by strict provenance tags to distinguis
 | **HWRE & Water Resources** | [`hwre-companies/`](hwre-companies/README.md) | 121-company corporate target directory across 13 sector clusters (Water Consulting, GIS, EPC, Hydro, Pumps, Water Treatment, Energy Fluids). | [Vassarlabs](hwre-companies/02_water-resources-gis/001_vassarlabs.md), [AECOM](hwre-companies/01_water-consulting/022_aecom.md), [Mott MacDonald](hwre-companies/01_water-consulting/023_mott-macdonald.md), [SLB](hwre-companies/09_energy-fluids-rnd/006_slb-schlumberger.md). |
 | **Consulting & Advisory** | [`consulting-companies/`](consulting-companies/) | Strategic problem solving, analytics consulting, multidisciplinary engineering, and risk advisory. | [Mu Sigma](consulting-companies/mu-sigma.md), [KBR](consulting-companies/11_multidisciplinary-consulting/010_kbr.md), [TCE](consulting-companies/11_multidisciplinary-consulting/025_tata-consulting-engineers.md). |
 | **Software, Tech & SaaS** | [`software-companies/`](software-companies/) | Enterprise software, data analytics, cloud platforms, and supply chain technologies. | [Darwinbox](software-companies/darwinbox.md), [DeltaX](software-companies/deltax.md), [Tech Mahindra](software-companies/tech-mahindra.md), [CEI America](software-companies/cei-american.md). |
-| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS)<br>[Deloitte USI Analyst](company-specific-prep/deloitte-analyst-ai-analytics/README.md) (AI, Analytics & Tech Consulting)<br>[ExxonMobil Engineer](company-specific-prep/exxonmobil-engineer/README.md) (Engineer — Civil & HWRE). |
+| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS)<br>[Deloitte USI Analyst](company-specific-prep/deloitte-analyst-ai-analytics/README.md) (AI, Analytics & Tech Consulting)<br>[ExxonMobil Engineer](company-specific-prep/exxonmobil-engineer/README.md) (Engineer — Civil & HWRE)<br>[Hilti GET](company-specific-prep/hilti-get-value-engineering/README.md) (Global Value Engineering Hub)<br>[Larsen & Toubro PGET](company-specific-prep/larsen-toubro-pget-civil/README.md) (Post Graduate Engineer Trainee — Civil). |
 
 ---
 
@@ -109,6 +111,54 @@ For flagship campus opportunities with verified job descriptions or placement pr
   * [`05_BEHAVIORAL_INTERVIEW_AND_HWRE_THESIS_DEFENSE.md`](company-specific-prep/exxonmobil-engineer/05_BEHAVIORAL_INTERVIEW_AND_HWRE_THESIS_DEFENSE.md) — M.Tech HWRE CFD thesis defense, oral technical problems, STAR safety behaviors, and Stop-Work Authority.
   * [`06_MOCK_ASSESSMENTS_QUESTION_BANK_AND_RAPID_REVISION.md`](company-specific-prep/exxonmobil-engineer/06_MOCK_ASSESSMENTS_QUESTION_BANK_AND_RAPID_REVISION.md) — 4 timed 90-question full mocks (360 questions), multi-tier question bank, and high-density formula matrix.
   * Governance: [`PLACEMENT_FACTS.md`](company-specific-prep/exxonmobil-engineer/PLACEMENT_FACTS.md), [`STUDY_GUIDE.md`](company-specific-prep/exxonmobil-engineer/STUDY_GUIDE.md), [`READINESS_SCORECARD.md`](company-specific-prep/exxonmobil-engineer/READINESS_SCORECARD.md).
+
+### 4.5 Hilti (HTSI) — Graduate Engineer Trainee (Global Value Engineering Hub, Pune)
+* **Target Package**: [`company-specific-prep/hilti-get-value-engineering/`](company-specific-prep/hilti-get-value-engineering/README.md)
+* **Core Profile**: Energy & Industry (E&I) business unit, structural engineering design, post-installed anchorages (CCD method), modular MEP support conversion, and design optimization for global mega-projects.
+* **Master Architecture (16-File Suite)**:
+  * [`COMPANY_AND_ROLE_FACTS.md`](company-specific-prep/hilti-get-value-engineering/COMPANY_AND_ROLE_FACTS.md) — Verified facts, Pune hub mission, structured 8–12 mo training, salary benchmarks (`NOT VERIFIED`).
+  * [`SELECTION_PROCESS_AND_EVIDENCE.md`](company-specific-prep/hilti-get-value-engineering/SELECTION_PROCESS_AND_EVIDENCE.md) — 4-stage recruitment pipeline, candidate profiles, and evidence classification.
+  * [`STUDY_ROADMAP.md`](company-specific-prep/hilti-get-value-engineering/STUDY_ROADMAP.md) — 4-week structured preparation schedule, P0/P1/P2 priorities, and daily tracking.
+  * [`01_STRUCTURAL_ENGINEERING_FUNDAMENTALS.md`](company-specific-prep/hilti-get-value-engineering/01_STRUCTURAL_ENGINEERING_FUNDAMENTALS.md) — 3D equilibrium, Mohr's circle, Euler buckling, deflection theorems, and 25 worked problems.
+  * [`02_STEEL_RCC_AND_CONNECTION_DESIGN.md`](company-specific-prep/hilti-get-value-engineering/02_STEEL_RCC_AND_CONNECTION_DESIGN.md) — IS 800:2007, AISC 360, EN 1993, base plates, prying forces, welds, and 25 worked problems.
+  * [`03_ANCHORS_SUPPORT_SYSTEMS_AND_FAILURE_MODES.md`](company-specific-prep/hilti-get-value-engineering/03_ANCHORS_SUPPORT_SYSTEMS_AND_FAILURE_MODES.md) — CCD method (ACI 318-19 / EN 1992-4), 8 failure modes, SafeSet, and 30 worked problems.
+  * [`04_VALUE_ENGINEERING_AND_DESIGN_OPTIMISATION.md`](company-specific-prep/hilti-get-value-engineering/04_VALUE_ENGINEERING_AND_DESIGN_OPTIMISATION.md) — SAVE 6-phase plan, FAST diagram, modular channel vs welded steel, and 20 detailed VE cases.
+  * [`05_ENGINEERING_CALCULATIONS_AND_NUMERICALS.md`](company-specific-prep/hilti-get-value-engineering/05_ENGINEERING_CALCULATIONS_AND_NUMERICALS.md) — 20 rigorous multi-step numerical calculation suites with step-by-step math.
+  * [`06_HILTI_PRODUCTS_APPLICATIONS_AND_INDUSTRY_AWARENESS.md`](company-specific-prep/hilti-get-value-engineering/06_HILTI_PRODUCTS_APPLICATIONS_AND_INDUSTRY_AWARENESS.md) — MT/MQ modular channels, HST3, HUS4, HIT-RE 500 V4, PROFIS CBFEM, and competitors.
+  * [`07_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md`](company-specific-prep/hilti-get-value-engineering/07_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md) — 25 deep technical interview prompts, 15 STAR behavioral scenarios, and ethics dilemmas.
+  * [`08_APTITUDE_AND_ANALYTICAL_REASONING.md`](company-specific-prep/hilti-get-value-engineering/08_APTITUDE_AND_ANALYTICAL_REASONING.md) — Quantitative speed, spatial reasoning, pulleys/gears, and 30 solved problems.
+  * [`09_MOCK_TESTS_AND_SOLUTIONS.md`](company-specific-prep/hilti-get-value-engineering/09_MOCK_TESTS_AND_SOLUTIONS.md) — 4 full-length calibrated technical mock tests (130 questions total) with worked solutions.
+  * [`RAPID_REVISION.md`](company-specific-prep/hilti-get-value-engineering/RAPID_REVISION.md) — High-yield 60-minute formula cheatsheet, code matrices, and anchor sanity checks.
+  * [`SOURCES_AND_VERIFICATION.md`](company-specific-prep/hilti-get-value-engineering/SOURCES_AND_VERIFICATION.md) — Provenance index, audit methodology, and verified recruitment sources.
+  * [`READINESS_SCORECARD.md`](company-specific-prep/hilti-get-value-engineering/READINESS_SCORECARD.md) — 10-dimension evaluation rubric, benchmark metrics, and gap tracker.
+
+### 4.6 Larsen & Toubro (L&T) — Post Graduate Engineer Trainee (PGET — Civil Engineering)
+* **Target Package**: [`company-specific-prep/larsen-toubro-pget-civil/`](company-specific-prep/larsen-toubro-pget-civil/README.md)
+* **Core Profile**: India's flagship engineering, procurement, and construction (EPC) multinational conglomerate. Intake spans 6 operational Independent Companies (ICs): Buildings & Factories (B&F), Transportation Infrastructure (TI), Heavy Civil Infrastructure (HCI), Water & Effluent Treatment (WET), Power Transmission & Distribution (PT&D), and Minerals & Metals Handling (MMH).
+* **Compensation & Eligibility**:
+  * **Office Postings**: CTC ₹6,25,360 (₹6.25 LPA).
+  * **Site Postings**: CTC ₹6,80,000 (₹6.80 LPA).
+  * **Post-Confirmation (Year 2)**: Office ₹8,00,000 (₹8.00 LPA) / Site ₹8,60,000 (₹8.60 LPA).
+  * **Eligibility**: Minimum 65.0% or 6.50 CGPA across 10th, 12th, B.Tech, and M.Tech; strictly zero standing backlogs; mandatory PAN-India site mobility.
+* **Master Architecture (18-File Comprehensive Suite)**:
+  * [`README.md`](company-specific-prep/larsen-toubro-pget-civil/README.md) — Master syllabus roadmap, 6 IC operational guide, and evidentiary taxonomy.
+  * [`COMPANY_AND_ROLE_FACTS.md`](company-specific-prep/larsen-toubro-pget-civil/COMPANY_AND_ROLE_FACTS.md) — Corporate facts, IC footprint, compensation breakdowns, and mobility obligations.
+  * [`SELECTION_PROCESS_AND_EVIDENCE.md`](company-specific-prep/larsen-toubro-pget-civil/SELECTION_PROCESS_AND_EVIDENCE.md) — 4-stage recruitment pipeline, 120-Q / 120-min OA test mechanics, and evidence classification.
+  * [`STUDY_ROADMAP.md`](company-specific-prep/larsen-toubro-pget-civil/STUDY_ROADMAP.md) — 1-day emergency, 3-day accelerated, 7-day complete, and 14-day foundation revision schedules.
+  * [`RAPID_REVISION.md`](company-specific-prep/larsen-toubro-pget-civil/RAPID_REVISION.md) — 60-minute formula handbook, IS code tables, open-channel hydraulics, and CPM float matrices.
+  * [`SOURCES_AND_VERIFICATION.md`](company-specific-prep/larsen-toubro-pget-civil/SOURCES_AND_VERIFICATION.md) — Statutory standards (IS, IRC, SP), corporate disclosures, and placement proforma audits.
+  * [`READINESS_SCORECARD.md`](company-specific-prep/larsen-toubro-pget-civil/READINESS_SCORECARD.md) — 12-competency diagnostic rubric, scoring benchmark, and gap remediation tracks.
+  * [`01_APTITUDE_AND_REASONING.md`](company-specific-prep/larsen-toubro-pget-civil/01_APTITUDE_AND_REASONING.md) — 100 fully solved aptitude, commercial math, logical deduction, and DI problems.
+  * [`02_STRUCTURAL_ENGINEERING_AND_RCC.md`](company-specific-prep/larsen-toubro-pget-civil/02_STRUCTURAL_ENGINEERING_AND_RCC.md) — 30 solved problems (IS 456, IS 800, IS 1893, IS 13920, prestressing).
+  * [`03_GEOTECHNICAL_AND_FOUNDATION_ENGINEERING.md`](company-specific-prep/larsen-toubro-pget-civil/03_GEOTECHNICAL_AND_FOUNDATION_ENGINEERING.md) — 25 solved problems (bearing capacity, pile load tests, settlement, earth pressures).
+  * [`04_FLUID_MECHANICS_HYDRAULICS_AND_WATER_RESOURCES.md`](company-specific-prep/larsen-toubro-pget-civil/04_FLUID_MECHANICS_HYDRAULICS_AND_WATER_RESOURCES.md) — 25 solved problems (pipe networks, open canals, hydraulic jump, pumps NPSH, unit hydrographs).
+  * [`05_ENVIRONMENTAL_AND_TRANSPORTATION_ENGINEERING.md`](company-specific-prep/larsen-toubro-pget-civil/05_ENVIRONMENTAL_AND_TRANSPORTATION_ENGINEERING.md) — 25 solved problems (sedimentation overflow, BOD kinetics, IRC superelevation, SSD, Westergaard).
+  * [`06_CONSTRUCTION_MATERIALS_SURVEYING_AND_QS.md`](company-specific-prep/larsen-toubro-pget-civil/06_CONSTRUCTION_MATERIALS_SURVEYING_AND_QS.md) — 25 solved problems (IS 10262 mix design, reciprocal leveling, BBS bar schedules, prismoidal earthwork).
+  * [`07_CONSTRUCTION_PLANNING_SAFETY_AND_QUALITY.md`](company-specific-prep/larsen-toubro-pget-civil/07_CONSTRUCTION_PLANNING_SAFETY_AND_QUALITY.md) — CPM/PERT floats, crashing, HIRA safety, PTW protocols, IS 456 Table 11 testing frequencies.
+  * [`08_LNT_AND_EPC_INDUSTRY_AWARENESS.md`](company-specific-prep/larsen-toubro-pget-civil/08_LNT_AND_EPC_INDUSTRY_AWARENESS.md) — Landmark mega-projects (Statue of Unity, Atal Setu, Coastal Road, MAHSR), EPC lifecycle, and BIM Level 2/3.
+  * [`09_TECHNICAL_INTERVIEW_AND_PROJECT_DISCUSSION.md`](company-specific-prep/larsen-toubro-pget-civil/09_TECHNICAL_INTERVIEW_AND_PROJECT_DISCUSSION.md) — M.Tech thesis EPC defense framework, 30 technical prompts + follow-ups, 20 site troubleshooting scenarios.
+  * [`10_HR_BEHAVIOURAL_AND_COMMUNICATION.md`](company-specific-prep/larsen-toubro-pget-civil/10_HR_BEHAVIOURAL_AND_COMMUNICATION.md) — "Why L&T" strategic positioning, site resilience, PAN-India mobility, and 25 STAR behavioral prompts.
+  * [`11_MOCK_TESTS_AND_SOLUTIONS.md`](company-specific-prep/larsen-toubro-pget-civil/11_MOCK_TESTS_AND_SOLUTIONS.md) — 4 complete mock assessments (Mock 1 Core Civil 60 Qs, Mock 2 Aptitude 60 Qs, Mock 3 Integrated 120 Qs, Mock 4 Site Scenarios 30 Qs; 270 total questions with full worked solutions).
 
 ---
 

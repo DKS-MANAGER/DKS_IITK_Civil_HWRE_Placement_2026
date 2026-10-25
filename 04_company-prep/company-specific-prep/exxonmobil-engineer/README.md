@@ -9,21 +9,23 @@
 
 ## 1. Verified Corporate Facts & Recruitment Boundaries
 
-Every claim in this repository is strictly tagged according to our evidentiary classification scheme:
-* `[VERIFIED & AUDITED]`: Technical equations, solutions, and recruitment caveats independently fact-checked against authoritative codes (IS 456, IS 800, ASME B31.4, API 650, FHWA HEC-18).
-* `[IITK PROFORMA #6130]`: Verified from official IIT Kanpur placement proforma archive records.
-* `[PREPARATION RECOMMENDATION]`: Standardized prep recommendations derived by analytical mapping of recruitment norms.
+Every statement, test parameter, and problem in this package is strictly tagged according to the repository evidentiary hierarchy:
+* `[IITK PLACEMENT SOURCE]`: Verified directly from active candidate invitation emails, official SPO notifications, or confirmed campus listings.
+* `[OFFICIAL COMPANY SOURCE]`: Sourced from ExxonMobil global disclosures, EMSTPL India career filings, and OIMS process safety frameworks.
+* `[CANDIDATE-REPORTED — HISTORICAL]`: Sourced from past engineering placement debriefs (NIT Warangal, Anna University, VNIT Nagpur); provides structural context but is not a binding guarantee for current IITK drives.
+* `[PREPARATION INFERENCE]`: Pedagogical problem formulations, practice negative marking schemes, and self-assessment benchmarks.
+* `[UNKNOWN / UNVERIFIED]`: Test mechanics not officially fixed or published (e.g., exact assessment vendor, proprietary negative marking weights, and official cutoffs).
 
-### Core Verified Facts
-* **Company**: ExxonMobil (ExxonMobil Services & Technology Private Limited).
-* **Role**: Engineer (Technical / Operations / Project Engineering).
-* **Target Profile**: Civil Engineering (B.Tech / M.Tech) with core structural, geotechnical, and HWRE hydraulic specialization.
-* **Selection Process Architecture**:
-  1. *Online Screening Assessment*: Aon/SHL platform containing Psychometric/Behavioral inventory, Situational Judgment (SJT), Industrial Data Interpretation, and Core Technical Engineering.
-  2. *Technical Management Interview*: Deep dive into SOM, RCC, Geotech, Pipeline Hydraulics, and M.Tech thesis research.
-  3. *Behavioral & Leadership Interview*: Evaluation of Safety Leadership (Stop-Work Authority), Procedural Compliance, Ethics, and Teamwork.
+### Core Verified Facts & Operational Boundaries
+* **Company**: ExxonMobil Services & Technology Private Limited (EMSTPL) `[OFFICIAL COMPANY SOURCE]`.
+* **Primary Locations**: Bengaluru Technology Center & Chennai `[OFFICIAL COMPANY SOURCE]`.
+* **Role**: Engineer (Technical / Operations / Facilities Engineering) `[OFFICIAL COMPANY SOURCE]`.
+* **Target Profile**: Civil Engineering (B.Tech / M.Tech) with core structural, geotechnical, and HWRE hydraulic specialization `[OFFICIAL COMPANY SOURCE]`.
+* **Primary Notification**: Current invitation specifies **"Psychometric Test"** screening `[IITK PLACEMENT SOURCE]`.
+* **Historical Selection Dynamics & GD Possibility**: Candidate reports from other institutions (e.g., NIT Warangal August 2026, Premier Campus November 2024) indicate varying selection sequences, including online behavioral inventories, aptitude + technical screening, and in some drives, a Group Discussion (GD) round prior to technical and HR interviews `[CANDIDATE-REPORTED — HISTORICAL]`.
+* **Assessment Dynamic**: Official corporate guidance confirms that assessment components depend on the specific position, business line, and location `[OFFICIAL COMPANY SOURCE]`. Exact platform vendor (Aon / SHL / Mercer Mettl), test duration, and question navigation rules are dynamic and unconfirmed `[UNKNOWN / UNVERIFIED]`. Practice benchmarks (e.g., $\ge 70\%$ net score) are pedagogical self-assessment targets, not official company cutoffs `[PREPARATION INFERENCE]`.
 
-Detailed facts, historical hiring reports, and proforma status documented in [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md).
+Detailed evidence audit, historical campus registers, and known vs. unknown boundary tables are cataloged in [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md).
 
 ---
 

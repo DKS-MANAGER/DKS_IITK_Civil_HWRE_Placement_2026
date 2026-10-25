@@ -192,7 +192,9 @@ In an interview with a senior Citi AIM panel, you must articulate an honest, gro
 >
 > *Both disciplines require extracting multi-variate data, diagnosing data quality flaws, testing for statistical stationarity, selecting and calibrating probability distributions, and making high-stakes decisions under uncertainty.*
 >
-> *In civil engineering systems, underestimating an extreme tail event causes a bridge or dam failure. In banking analytics, underestimating an extreme tail event causes severe credit defaults and insolvency. The mathematical discipline of respecting data integrity, validating model assumptions, and presenting risk trade-offs transparently is identical."*
+> [!IMPORTANT]
+> **Candidate Instruction — Defend Your Genuine Completed Projects:**  
+> The 11-point project defense narratives below are **illustrative pedagogical archetypes** (`[PREPARATION INFERENCE]`). They demonstrate how to translate complex numerical engineering methodologies into high-impact analytics terminology. During your Citi interview, do not recite these illustrative models or memorized metrics ($\text{NSE} = 0.82$, $R^2 = 0.988$). Base your answers strictly on work you actually performed: your genuine datasets, chosen algorithms, specific data cleaning techniques, validation procedures, and actual measured results.
 
 ---
 

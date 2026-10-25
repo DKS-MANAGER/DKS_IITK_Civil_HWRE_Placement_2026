@@ -50,7 +50,9 @@ Interviewers at ExxonMobil rigorously probe candidates on their core coursework,
 * **30-Second Spoken Pitch (Illustrative Archetype):**
   > "In my hydrodynamic modeling research on [YOUR ACTUAL RESEARCH TOPIC, e.g., turbulent open-channel flow / scour around hydraulic structures / surge wave propagation], I investigated [YOUR CORE PHYSICAL PHENOMENON, e.g., vortex dynamics and bed shear stress distribution]. Using [YOUR SOLVER/TOOL, e.g., OpenFOAM / HEC-RAS / Ansys Fluent], I resolved [KEY GOVERNING MECHANISM, e.g., boundary layer separation and adverse pressure gradients]. The calibrated numerical model identified [KEY ENGINEERING FINDING, e.g., peak bed shear stress locations] and demonstrated that [YOUR VERIFIED RESULT, e.g., increasing riprap sizing reduced equilibrium scour depth by [YOUR VERIFIED %] / surge relief valve sizing mitigated peak transient pressure below allowable code limits]."
 
----
+> [!IMPORTANT]
+> **Candidate Notice — Use Your Actual Research Data:**  
+> The numerical values in the model responses below (such as polyhedral mesh of $2.4\text{ million}$ cells, $y^+ \le 1.0$, fine-grid $\mathrm{GCI} = 2.8\%$, and experimental validation error $= 5.4\%$) are **strictly illustrative engineering archetypes** (`[PREPARATION INFERENCE]`). They demonstrate the required structure, vocabulary, and rigor expected by technical panels. In your interview, substitute your actual solver settings, turbulence closures, mesh verification indices, and measured flume/field results.
 
 ### Customizable Candidate Fill-In Template
 *Use this exact structured template to adapt your individual M.Tech thesis, B.Tech capstone, or industrial internship project for technical panel interviews:*

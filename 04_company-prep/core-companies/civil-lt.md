@@ -19,6 +19,11 @@
 | **Evidence** | `[CSV]` — explicit construction + infrastructure + technical-services scope |
 | **Why relevant** | India's largest construction/EPC/infrastructure company. Primary civil-engineering recruiter across every sub-domain. Dedicated MT/PGET intake pipeline. |
 
+> [!TIP]
+> **Authoritative Preparation Suite**: A comprehensive 18-module deep-dive package tailored specifically for the IIT Kanpur M.Tech PGET Civil recruitment process is available at:  
+> 🔗 **[`company-specific-prep/larsen-toubro-pget-civil/`](../company-specific-prep/larsen-toubro-pget-civil/README.md)**  
+> Includes 200 solved technical problems, 4 calibrated full-length mock tests (270 questions), IS code cheat sheets, EPC project guides, and STAR behavioral blueprints.
+
 ---
 
 ## 2. Role Reverse Engineering

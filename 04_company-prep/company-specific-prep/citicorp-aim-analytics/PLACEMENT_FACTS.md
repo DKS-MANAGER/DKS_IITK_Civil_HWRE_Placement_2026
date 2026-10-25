@@ -92,3 +92,18 @@ The following fields cannot be substantiated from the supplied proforma and must
 3. **Exact Work Location**:
    * *Status*: `[UNVERIFIED]`
    * *Detail*: Stated as "NA" in proforma. Actual deployment depends on final business-unit allocation post-offer.
+
+---
+
+## 6. Historical Campus Reports & Public Evidence Register
+
+Historical candidate debriefs provide structural indicators of analytics recruitment styles, but are strictly secondary to current IITK communications:
+
+| Source & Cycle | Role & Campus | Reported Assessment & Selection Flow | Confidence & Relevance to IITK 2026–27 |
+| :---: | :--- | :--- | :--- |
+| **Glassdoor Report**<br>(Sept 2024 / Nov 2025) | Citicorp Services India<br>Bengaluru Campus Drive | Online assessment comprising **Quantitative Aptitude, Data Interpretation, and SQL**, followed by technical interviews with a **Decision Tree scenario** and business case solving, plus behavioral rounds. | **High Relevance**: Strongly supports prioritization of SQL, DI, and business logic for screening. |
+| **GeeksforGeeks Report**<br>(Historical On-Campus) | Citi India<br>Technology / Analytics | 2-hour online assessment with Quant, Logical Reasoning, Technical MCQs, and coding. | **Moderate**: Older cycle and tech-oriented role; illustrates presence of analytical screening. |
+| **Citi Global Careers**<br>(Active Corporate Listing) | Business Analytics Analyst<br>(Bengaluru Hub) | Mandates SQL, Python, data analysis, reporting automation, and cross-functional business insights. | **High Context**: Reconfirms enterprise tool stack (SQL + Python + Business Analytics). |
+
+> [!NOTE]
+> **Practice Benchmark Distinction**: All mock test durations, sectional boundaries, and score thresholds in this package are internal practice conventions (`[PREPARATION INFERENCE]`) designed to train time discipline. They are not official Citi cutoff rules.

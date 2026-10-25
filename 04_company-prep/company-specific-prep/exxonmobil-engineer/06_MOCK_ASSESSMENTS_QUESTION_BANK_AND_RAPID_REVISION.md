@@ -26,18 +26,22 @@
 
 # Scoring Rubrics & Benchmark Standards
 
+> [!NOTE]
+> **Practice Benchmark vs. Official Recruitment Cutoffs:** The marking scheme (+3/-1 for Mocks 1 & 2; +1/-0.25 for Mocks 3 & 4) and performance tiers below are **internal practice conventions** (`[PREPARATION INFERENCE]`) designed to train precision and discourage blind guessing. ExxonMobil does not publicly disclose official negative marking weights, proprietary scoring algorithms, or percentile cutoffs.
+
 ```
 +-----------------------------------------------------------------------------------------------+
-|                                      SCORING RUBRIC                                           |
+|                        PRACTICE SCORING RUBRIC & SELF-ASSESSMENT TARGETS                      |
 +-----------------------------------------------------------------------------------------------+
+| Practice Marking Scheme:                                                                      |
 | • Correct Answer: +3.0 Marks (Mock 1 & 2); +1.0 Mark (Mock 3 & 4)                             |
 | • Incorrect Answer (Penalty): -1.0 Mark (Mock 1 & 2); -0.25 Marks (Mock 3 & 4)                |
 | • Unattempted Question: 0.0 Marks                                                             |
 |                                                                                               |
-| BENCHMARK PERFORMANCE TIERS:                                                                  |
-| • Technical Interview Shortlist Cutoff: >= 70% Net Score                                      |
-| • Excellent / Top Decile: >= 82% Net Score                                                    |
-| • Remedial Review Trigger: < 55% Net Score (Requires reviewing core modules)                  |
+| RECOMMENDED SELF-ASSESSMENT BENCHMARKS (Practice Targets):                                    |
+| • Target Practice Benchmark: >= 70% Net Score (Demonstrates high domain accuracy)             |
+| • Advanced / Top Decile Target: >= 82% Net Score                                              |
+| • Remedial Review Trigger: < 55% Net Score (Requires reviewing core modules before next mock) |
 +-----------------------------------------------------------------------------------------------+
 ```
 

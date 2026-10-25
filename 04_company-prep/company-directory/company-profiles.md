@@ -136,7 +136,7 @@ Use this format to log your interview experience:
 
 | Company | Role | CTC | Domain | Strategy File |
 |---|---|---|---|---|
-| **Larsen & Toubro Limited** | MT / PGET | ₹6.25–7L | Construction & EPC | [civil-lt.md](../core-companies/civil-lt.md) |
+| **Larsen & Toubro Limited** | MT / PGET | ₹6.25–7L | Construction & EPC | [civil-lt.md](../core-companies/civil-lt.md) · [Dedicated Prep Pack](../company-specific-prep/larsen-toubro-pget-civil/README.md) |
 | **Godrej Properties** | AM — Project Execution | ₹18L + ₹6L bonuses | Real Estate & Construction | [civil-godrej-properties.md](../core-companies/civil-godrej-properties.md) |
 | **Thornton Tomasetti** | Engineer — Structural | ₹7.5–9L | Structural Consultancy | [civil-thornton-tomasetti.md](../core-companies/civil-thornton-tomasetti.md) |
 | **Hilti Technology Solutions** | Graduate Engineer | ₹17L | Structural / Fastening | [civil-hilti.md](../core-companies/civil-hilti.md) |

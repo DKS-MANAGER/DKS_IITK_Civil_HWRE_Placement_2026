@@ -24,6 +24,7 @@
 | Assessment | Focus Area | Format / Difficulty | Duration | Total Marks | Target Mastery Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Diag-01** | **Diagnostic Baseline Assessment** | Mixed Multiple Choice & Numerical | 30 Mins | 25 Marks | $\ge 20$ ($80\%$) |
+| **Mock-Screen-01** | **Screening-Style Practice Simulation** | Aptitude (10 Qs) + DI (5 Qs) + SQL (10 Qs) | 45 Mins | 25 Marks | $\ge 20$ ($80\%$) |
 | **Mock-01** | **Statistics & Probability Sectional** | Numerical & Analytical (Standard & Difficult) | 45 Mins | 40 Marks | $\ge 32$ ($80\%$) |
 | **Mock-02** | **SQL & Data Manipulation Sectional** | Query Writing & Query Debugging | 45 Mins | 40 Marks | $\ge 34$ ($85\%$) |
 | **Mock-03** | **Predictive Modeling & Scorecards** | Metric Calculation & Threshold Setting | 45 Mins | 35 Marks | $\ge 28$ ($80\%$) |
@@ -83,6 +84,218 @@ In a loan approval model, the coefficient for `applicant_age` is $\beta = -0.02$
   * Change in log-odds for $\Delta X = 10$: $\Delta Z = 10 \times (-0.02) = -0.20$. [2 marks]
   * Odds Ratio $= e^{-0.20} \approx \mathbf{0.8187}$. [2 marks]
   * Interpretation: An applicant who is 10 years older has approximately **$18.1\%$ lower odds of default** ($1 - 0.8187$), holding all other variables constant. [1 mark]
+
+---
+
+## 1B. Mock-Screen-01: Screening-Style Practice Simulation (45 Mins | 25 Marks)
+
+> **Context**: Modeled on reported 2024–2025 analytics on-campus screening patterns (Aptitude, Data Interpretation, and SQL).  
+> **Evidentiary Note**: `[PREPARATION INFERENCE]` — This is a simulated practice drill to train pacing and accuracy. It does not claim that the exact question count or timing applies to your specific IITK drive.  
+> **Format**: 25 fast-paced questions | 45 Minutes | 1 Mark per question | Target Mastery: $\ge 20 / 25$ ($80\%$).
+
+### Part 1: Quantitative Aptitude & Numerical Speed (10 Questions | 10 Marks)
+
+1. **Q01 (Percentages & Margins)**: A digital lending channel disburses loans at an annualized interest rate of $14\%$. The cost of capital is $7.5\%$, operational overhead is $2.0\%$, and expected default loss is $1.5\%$. What is the net profit margin per $\$100\text{M}$ portfolio disbursed?
+   - (A) $\$2.5\text{M}$
+   - (B) $\$3.0\text{M}$
+   - (C) $\$3.5\text{M}$
+   - (D) $\$4.0\text{M}$
+
+2. **Q02 (Ratios & Cost of Acquisition)**: A marketing team acquires credit card customers across two channels: Digital Search ($CPA = \$40$) and Referral ($CPA = \$25$). If $\$120,000$ was spent to acquire a total of $3,600$ customers, what was the ratio of customers acquired via Search to Referral?
+   - (A) $1 : 2$
+   - (B) $5 : 4$
+   - (C) $2 : 3$
+   - (D) $3 : 4$
+
+3. **Q03 (Work & Batch Computing)**: Server Cluster A takes 6 hours to process a nightly fraud detection batch, while Cluster B takes 4 hours. If Cluster A runs alone for 1 hour, and then Cluster B joins to run concurrently with Cluster A, how many additional hours will it take to finish the batch?
+   - (A) $1.5\text{ hours}$
+   - (B) $2.0\text{ hours}$
+   - (C) $2.4\text{ hours}$
+   - (D) $2.8\text{ hours}$
+
+4. **Q04 (Speed, Distance & Latency)**: Transaction authorization packets travel along an optical fiber ring between Bengaluru and Mumbai ($1,000\text{ km}$) at a propagation speed of $200,000\text{ km/s}$. Network switch latency adds a fixed $1.5\text{ ms}$ processing overhead each way. What is the total round-trip time (RTT) for authorization?
+   - (A) $10.0\text{ ms}$
+   - (B) $11.5\text{ ms}$
+   - (C) $13.0\text{ ms}$
+   - (D) $15.0\text{ ms}$
+
+5. **Q05 (Combinatorics & Security)**: A corporate banking token generates a 6-digit one-time password (OTP). Digits can range from $0$ to $9$. If the OTP cannot begin with $0$ and no digit may be repeated, how many distinct valid OTPs can be generated?
+   - (A) $136,080$
+   - (B) $151,200$
+   - (C) $900,000$
+   - (D) $1,000,000$
+
+6. **Q06 (Independent Probabilities)**: An ATM network experiences a hardware cash-dispenser failure on $2\%$ of attempts and a network timeout on $3\%$ of attempts. Assuming hardware and network events are statistically independent, what is the probability that a withdrawal attempt succeeds without either failure?
+   - (A) $94.94\%$
+   - (B) $95.00\%$
+   - (C) $95.06\%$
+   - (D) $97.00\%$
+
+7. **Q07 (Effective Annual Yield)**: A wealth management deposit offers a nominal annual interest rate of $8.0\%$ compounded quarterly. What is the effective annual rate (EAR) to two decimal places?
+   - (A) $8.00\%$
+   - (B) $8.16\%$
+   - (C) $8.24\%$
+   - (D) $8.32\%$
+
+8. **Q08 (Portfolio Mixture & Alligation)**: A portfolio manager blends two debt asset classes: Asset Class A yielding $6\%$ and Asset Class B yielding $11\%$. In what ratio must Asset Class A and B be combined to achieve a target blended yield of $8.5\%$?
+   - (A) $1 : 1$
+   - (B) $2 : 3$
+   - (C) $3 : 2$
+   - (D) $5 : 4$
+
+9. **Q09 (Weighted Averages)**: A credit card division has three customer tiers: Tier 1 ($10,000$ accounts, mean balance $\$1,500$), Tier 2 ($30,000$ accounts, mean balance $\$2,500$), and Tier 3 ($10,000$ accounts, mean balance $\$4,500$). What is the overall weighted mean balance across all 50,000 accounts?
+   - (A) $\$2,500$
+   - (B) $\$2,700$
+   - (C) $\$2,850$
+   - (D) $\$3,000$
+
+10. **Q10 (Profit & Volume Sensitivity)**: A merchant processing portal charges a fixed fee of $\$0.10$ plus $1.8\%$ of transaction value. If an e-commerce merchant processes $50,000$ transactions with an average order value (AOV) of $\$50$, what is the total processing fee paid by the merchant?
+    - (A) $\$45,000$
+    - (B) $\$50,000$
+    - (C) $\$55,000$
+    - (D) $\$60,000$
+
+---
+
+### Part 2: Business & Financial Data Interpretation (5 Questions | 5 Marks)
+
+**Synthetic Telemetry Table: Quarterly E-Commerce Gateway Performance**
+
+| Quarter | Total Gross Transactions ($M) | Total Volume ($B) | Chargeback Volume ($M) | Gateway Interchange Fee Earned ($M) |
+| :---: | :---: | :---: | :---: | :---: |
+| **Q1** | $40.0$ | $\$2.00$ | $\$4.0$ | $\$30.0$ |
+| **Q2** | $50.0$ | $\$2.40$ | $\$6.0$ | $\$36.0$ |
+| **Q3** | $60.0$ | $\$3.00$ | $\$6.0$ | $\$45.0$ |
+| **Q4** | $80.0$ | $\$3.60$ | $\$9.0$ | $\$54.0$ |
+
+11. **Q11 (Volume Growth)**: What was the percentage increase in Total Volume from Q1 to Q4?
+    - (A) $60.0\%$
+    - (B) $75.0\%$
+    - (C) $80.0\%$
+    - (D) $100.0\%$
+
+12. **Q12 (Average Transaction Value)**: In which quarter was the Average Transaction Value (Volume / Transactions) the highest?
+    - (A) Q1 & Q3 tied at $\$50.00$
+    - (B) Q2 ($\$48.00$)
+    - (C) Q4 ($\$45.00$)
+    - (D) Q2 & Q4 tied
+
+13. **Q13 (Chargeback Loss Ratio)**: What was the chargeback rate as a percentage of total volume in Q2?
+    - (A) $0.15\%$
+    - (B) $0.25\%$
+    - (C) $0.40\%$
+    - (D) $0.50\%$
+
+14. **Q14 (Fee Margin)**: Across the entire year (Q1–Q4 combined), what was the effective interchange fee earned as a percentage of total volume?
+    - (A) $1.25\%$
+    - (B) $1.50\%$
+    - (C) $1.65\%$
+    - (D) $1.80\%$
+
+15. **Q15 (Operational Projection)**: If Q1 of the following year projects a $25\%$ increase in transaction count over Q4 at an average order value of $\$42.00$, what will be the projected total dollar volume in Billions?
+    - (A) $\$3.80\text{B}$
+    - (B) $\$4.00\text{B}$
+    - (C) $\$4.20\text{B}$
+    - (D) $\$4.50\text{B}$
+
+---
+
+### Part 3: Practical SQL & Query Debugging (10 Questions | 10 Marks)
+
+16. **Q16 (Join Types)**: You need a list of all active customers and their loan details. Customers with zero loans must appear with `NULL` in the loan columns. Which join must be used?
+    - (A) `INNER JOIN loans ON customers.cust_id = loans.cust_id`
+    - (B) `LEFT JOIN loans ON customers.cust_id = loans.cust_id`
+    - (C) `RIGHT JOIN loans ON customers.cust_id = loans.cust_id`
+    - (D) `CROSS JOIN loans`
+
+17. **Q17 (Three-Valued Logic)**: Table `blocked_merchants` contains values `('M-01', 'M-02', NULL)`. What is the result of running:
+    ```sql
+    SELECT COUNT(*) FROM transactions WHERE merchant_id NOT IN (SELECT merchant_id FROM blocked_merchants);
+    ```
+    - (A) Returns count of transactions not matching 'M-01' or 'M-02'.
+    - (B) Returns 0 rows, because comparison with `NULL` yields `UNKNOWN`.
+    - (C) Throws a runtime syntax error.
+    - (D) Ignores `NULL` automatically.
+
+18. **Q18 (Window Ranking Differences)**: Three customers tied for highest monthly credit spend at $\$10,000$. The fourth highest spent $\$8,000$. What rank will `DENSE_RANK()` assign to the fourth customer?
+    - (A) 2
+    - (B) 3
+    - (C) 4
+    - (D) 5
+
+19. **Q19 (Aggregations & Filtering)**: To filter aggregated customer buckets having total spend exceeding $\$50,000$, which clause is valid?
+    - (A) `WHERE SUM(spend) > 50000`
+    - (B) `HAVING SUM(spend) > 50000`
+    - (C) `GROUP BY SUM(spend) > 50000`
+    - (D) `ORDER BY SUM(spend) > 50000`
+
+20. **Q20 (Window Framing Determinism)**: Why is `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` preferred over default `RANGE` for running balance totals?
+    - (A) `ROWS` uses less RAM than `RANGE`.
+    - (B) If transactions share identical timestamps, `RANGE` groups them as a tie and adds both simultaneously, whereas `ROWS` maintains strict row-by-row accumulation.
+    - (C) `RANGE` cannot be used with numeric data types.
+    - (D) `ROWS` sorts descending automatically.
+
+21. **Q21 (Handling NULL in Aggregation)**: How does `AVG(account_balance)` treat rows where `account_balance IS NULL`?
+    - (A) It treats `NULL` as $0$ and includes it in both numerator and denominator.
+    - (B) It completely ignores `NULL` rows in both numerator and denominator.
+    - (C) It returns `NULL` for the entire query.
+    - (D) It raises a division-by-zero error.
+
+22. **Q22 (Deduplication Pattern)**: In PostgreSQL, which technique deletes duplicate rows while preserving the row with the earliest `created_at` timestamp?
+    - (A) Using `ROW_NUMBER() OVER (PARTITION BY cust_id ORDER BY created_at)` inside a CTE and deleting rows with `rn > 1`.
+    - (B) `DELETE FROM table WHERE DISTINCT cust_id;`
+    - (C) `DROP DUPLICATES ON cust_id;`
+    - (D) `GROUP BY cust_id HAVING COUNT(*) > 1;`
+
+23. **Q23 (Value Offset Functions)**: To calculate month-over-month account balance growth: $\text{Balance}_t - \text{Balance}_{t-1}$, which window function retrieves the prior month's balance?
+    - (A) `LEAD(balance, 1) OVER (PARTITION BY acct_id ORDER BY month_date)`
+    - (B) `LAG(balance, 1) OVER (PARTITION BY acct_id ORDER BY month_date)`
+    - (C) `FIRST_VALUE(balance) OVER (PARTITION BY acct_id)`
+    - (D) `PRIOR(balance) OVER (PARTITION BY acct_id)`
+
+24. **Q24 (Subquery vs JOIN Performance)**: Which SQL construct is typically preferred by database optimizers to filter customers who have at least one delinquent loan in table `delinquencies`?
+    - (A) `WHERE cust_id IN (SELECT cust_id FROM delinquencies)`
+    - (B) `WHERE EXISTS (SELECT 1 FROM delinquencies d WHERE d.cust_id = c.cust_id)`
+    - (C) `CROSS JOIN delinquencies`
+    - (D) `FULL OUTER JOIN delinquencies`
+
+25. **Q25 (Join Fan-Out Protection)**: If joining an `accounts` table ($100$ rows) to both a `cards` table ($2$ cards per account) and a `loans` table ($2$ loans per account), how many rows does a naive 3-table join produce, and how is it corrected?
+    - (A) $200$ rows; use `UNION ALL`.
+    - (B) $400$ rows ($100 \times 2 \times 2$); pre-aggregate `cards` and `loans` in separate CTEs before joining to `accounts`.
+    - (C) $100$ rows; no fan-out occurs.
+    - (D) $10,000$ rows; use `LIMIT 100`.
+
+---
+
+### Mock-Screen-01 Answer Key & Mathematical Explanations
+
+| Q# | Key | Mathematical Derivation & Concept |
+| :---: | :---: | :--- |
+| **Q01** | **(C)** | $\text{Net Margin} = 14.0\% - (7.5\% + 2.0\% + 1.5\%) = 14.0\% - 11.0\% = 3.0\%$. Margin on $\$100\text{M} = 3.0\% \times \$100\text{M} = \mathbf{\$3.0\text{M}}$. Wait: option (B) is $\$3.0\text{M}$, so **Key is (B)**. |
+| **Q02** | **(B)** | Let $S$ = Search customers, $R$ = Referral customers. $S + R = 3,600 \implies R = 3,600 - S$. Total cost: $40S + 25(3600 - S) = 120,000 \implies 15S + 90,000 = 120,000 \implies 15S = 30,000 \implies S = 2,000$, $R = 1,600$. Ratio $S : R = 2000 : 1600 = \mathbf{5 : 4}$. |
+| **Q03** | **(B)** | Cluster A rate $= 1/6\text{ batch/hr}$. In 1 hr, A finishes $1/6$, remaining $= 5/6$. Combined rate $= 1/6 + 1/4 = 5/12\text{ batch/hr}$. Additional time $= \frac{5/6}{5/12} = \frac{5}{6} \times \frac{12}{5} = \mathbf{2.0\text{ hours}}$. |
+| **Q04** | **(C)** | One-way propagation $= \frac{1,000\text{ km}}{200,000\text{ km/s}} = 0.005\text{ s} = 5.0\text{ ms}$. With $1.5\text{ ms}$ overhead: one-way latency $= 5.0 + 1.5 = 6.5\text{ ms}$. Round-trip time (RTT) $= 2 \times 6.5\text{ ms} = \mathbf{13.0\text{ ms}}$. |
+| **Q05** | **(A)** | First digit: 9 choices (1–9). Remaining 5 digits chosen from remaining 9 available digits without repetition: $P(9, 5) = 9 \times 8 \times 7 \times 6 \times 5 = 15,120$. Total OTPs $= 9 \times 15,120 = \mathbf{136,080}$. |
+| **Q06** | **(C)** | $P(\text{No Hardware Failure}) = 1 - 0.02 = 0.98$. $P(\text{No Timeout}) = 1 - 0.03 = 0.97$. By independence: $P(\text{Success}) = 0.98 \times 0.97 = \mathbf{0.9506} \quad (95.06\%)$. |
+| **Q07** | **(C)** | $\text{EAR} = \left(1 + \frac{0.08}{4}\right)^4 - 1 = (1.02)^4 - 1 = 1.08243 - 1 = \mathbf{8.24\%}$. |
+| **Q08** | **(A)** | Alligation: $|11 - 8.5| : |8.5 - 6| = 2.5 : 2.5 = \mathbf{1 : 1}$. Equal weights of Asset A and Asset B yield $\frac{6 + 11}{2} = 8.5\%$. |
+| **Q09** | **(B)** | $\bar{X}_w = \frac{(10000 \times 1500) + (30000 \times 2500) + (10000 \times 4500)}{50000} = \frac{15\text{M} + 75\text{M} + 45\text{M}}{50000} = \frac{135,000,000}{50000} = \mathbf{\$2,700}$. |
+| **Q10** | **(B)** | Fixed fees $= 50,000 \times \$0.10 = \$5,000$. Variable volume $= 50,000 \times \$50 = \$2,500,000$. Variable fees $= 1.8\% \times \$2,500,000 = \$45,000$. Total fee $= \$5,000 + \$45,000 = \mathbf{\$50,000}$. |
+| **Q11** | **(C)** | $\% \text{ Increase} = \frac{3.60 - 2.00}{2.00} \times 100\% = \frac{1.60}{2.00} \times 100\% = \mathbf{80.0\%}$. |
+| **Q12** | **(A)** | AOV per Quarter: Q1: $\frac{\$2.00\text{B}}{40\text{M}} = \$50.00$; Q2: $\frac{\$2.40\text{B}}{50\text{M}} = \$48.00$; Q3: $\frac{\$3.00\text{B}}{60\text{M}} = \mathbf{\$50.00}$; Q4: $\frac{\$3.60\text{B}}{80\text{M}} = \$45.00$. Highest tied in Q1 and Q3 at $\$50.00$. |
+| **Q13** | **(B)** | Q2 Chargeback rate $= \frac{\$6.0\text{M}}{\$2,400\text{M}} = \frac{6}{2400} = 0.0025 = \mathbf{0.25\%}$. |
+| **Q14** | **(B)** | Total Fees $= 30 + 36 + 45 + 54 = \$165.0\text{M}$. Total Volume $= 2.00 + 2.40 + 3.00 + 3.60 = \$11.00\text{B} = \$11,000\text{M}$. Effective Fee Rate $= \frac{165}{11000} = 0.015 = \mathbf{1.50\%}$. |
+| **Q15** | **(C)** | Projected Q1 Txns $= 80\text{M} \times 1.25 = 100.0\text{M}$. Projected Volume $= 100.0\text{M} \times \$42.00 = \$4,200\text{M} = \mathbf{\$4.20\text{B}}$. |
+| **Q16** | **(B)** | `LEFT JOIN` preserves all rows from the primary left table (`customers`) regardless of whether matching records exist in the right table (`loans`). |
+| **Q17** | **(B)** | SQL Three-Valued Logic: `x NOT IN ('M-01', 'M-02', NULL)` expands to `x != 'M-01' AND x != 'M-02' AND x != NULL`. Because any comparison with `NULL` returns `UNKNOWN`, the entire `AND` chain evaluates to `UNKNOWN` for all rows, returning 0 records. |
+| **Q18** | **(A)** | `DENSE_RANK()` assigns rank 1 to all three tied accounts and assigns the next immediate sequential integer (**rank 2**) to the fourth account without skipping. |
+| **Q19** | **(B)** | Aggregation filters must be specified in the `HAVING` clause because `WHERE` filters rows *before* grouping occurs. |
+| **Q20** | **(B)** | Default `RANGE` considers duplicate timestamps as ties and aggregates them in a single lump sum. `ROWS` treats physical row boundaries individually, guaranteeing strict row-by-row cumulative accumulation. |
+| **Q21** | **(B)** | Standard SQL aggregate functions (`SUM`, `AVG`, `COUNT(col)`) ignore `NULL` values completely. |
+| **Q22** | **(A)** | Standard production SQL deduplication: assign `ROW_NUMBER() OVER (PARTITION BY cust_id ORDER BY created_at ASC)` in a CTE and delete where `row_num > 1`. |
+| **Q23** | **(B)** | `LAG(col, 1)` accesses data from the previous row within the partition. |
+| **Q24** | **(B)** | `EXISTS` stops scanning as soon as the first matching record is found (short-circuit execution) and handles `NULL` values safely. |
+| **Q25** | **(B)** | Naive multi-table joins produce Cartesian explosion ($100 \times 2 \times 2 = 400$ rows). The only safe solution is pre-aggregating child tables in separate CTEs prior to joining. |
 
 ---
 

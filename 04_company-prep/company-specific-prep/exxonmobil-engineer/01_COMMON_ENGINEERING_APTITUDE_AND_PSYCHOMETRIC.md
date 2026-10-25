@@ -286,7 +286,7 @@ An offshore facilities division tracks CAPEX across four deepwater asset package
 | :--- | :---: | :---: | :---: | :---: |
 | **Subsea Pipelines** | $120.0$ | $138.0$ | $18$ | $21$ |
 | **Jacket Platform** | $250.0$ | $240.0$ | $24$ | $22$ |
-| **Topsides Modules** | $310.0$ | $356.5$ | $30$ | $36$ |
+| **Topsides Modules** | $310.0$ | $365.8$ | $30$ | $36$ |
 | **Mooring & Risers** | $80.0$ | $76.0$ | $15$ | $15$ |
 
 #### Question 2.1
@@ -297,10 +297,11 @@ Which package experienced the greatest percentage budget overrun?
 - (D) Mooring & Risers
 
 * **Solution:**
-  - Subsea Pipelines: $\frac{138 - 120}{120} = \frac{18}{120} = +15.0\%$
-  - Jacket Platform: $\frac{240 - 250}{250} = -4.0\%$ (under budget)
-  - Topsides Modules: $\frac{356.5 - 310}{310} = \frac{46.5}{310} = +15.0\%$
-  - Check exact: Both Subsea and Topsides have identical $+15.00\%$ overruns. If examining absolute excess: Topsides ($+\$46.5\text{M}$) vs Pipelines ($+\$18.0\text{M}$). In single-choice percentage evaluation, if tied at $15.0\%$, check combined schedule overrun: Topsides schedule overrun $= (36-30)/30 = +20.0\%$; Pipelines $= (21-18)/18 = +16.67\%$. Topsides Modules represents the largest combined deviation.
+  - Subsea Pipelines: $\frac{138.0 - 120.0}{120.0} \times 100\% = \frac{+18.0}{120.0} = +15.0\%$
+  - Jacket Platform: $\frac{240.0 - 250.0}{250.0} \times 100\% = \frac{-10.0}{250.0} = -4.0\%$ (under budget)
+  - Topsides Modules: $\frac{365.8 - 310.0}{310.0} \times 100\% = \frac{+55.8}{310.0} = \mathbf{+18.0\%}$
+  - Mooring & Risers: $\frac{76.0 - 80.0}{80.0} \times 100\% = \frac{-4.0}{80.0} = -5.0\%$ (under budget)
+  - Comparing percentage budget overruns: Topsides Modules ($+18.0\%$) > Subsea Pipelines ($+15.0\%$).
   - **Correct Answer:** **(C)**
 
 ---
