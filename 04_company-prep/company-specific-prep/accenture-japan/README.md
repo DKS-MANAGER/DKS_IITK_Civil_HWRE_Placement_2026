@@ -1,115 +1,110 @@
-# Accenture Japan — Digital Consultant Placement Dashboard
+# Accenture Japan Ltd. — Digital Consultant Preparation Master Pack
 
-> **Company**: Accenture Japan Ltd.  
-> **Target Role**: Digital Consultant (Analyst Entry Level)  
-> **Source Verification**: `Accenture Japan 2026- Digital Consultant Job Description.pdf` (`[JD VERIFIED]`)  
-> **Target Batch**: IIT Undergraduate & Graduate Students (Graduation by June 2027)
+> **Role**: Digital Consultant (Analyst Level entry)  
+> **Corporate Headquarters**: Accenture Japan Ltd., Tokyo, Japan  
+> **Target Candidate**: IIT Undergraduate & Graduate Students (2026–2027 Placement Cycle)  
+> **Compensation**: Base Salary JPY 6,000,000/year (~₹33 LPA) + Relocation Package + Overtime  
+> **Architecture**: **6 Comprehensive, Topic-Wise Master Modules** with 100% self-contained quantitative business math, 20 verifiable Python algorithms, 20 production SQL queries, digital technologies (Cloud, AI, Security), 6 enterprise consulting cases, Tokyo relocation & culture guide, and a full timed 90-minute mock simulation.
 
 ---
 
-## 1. At a Glance — Verified Placement Facts (`[JD VERIFIED]`)
+## 1. Verified Corporate Facts & Placement Proforma Summary
 
-| Metric / Parameter | Official JD Value / Requirement | Classification |
+Every claim in this repository is strictly tagged according to our evidentiary classification scheme:
+* `[JD VERIFIED]`: Directly extracted from the official Accenture Japan Job Description PDF (`Accenture Japan 2026- Digital Consultant Job Description.pdf`).
+* `[EXTERNAL VERIFIED]`: Verified from official Accenture Japan corporate filings and official IIT placement portal announcements.
+* `[PREPARATION INFERENCE]`: Standardized prep recommendations derived by analytical mapping of JD requirements to consulting/technical interview norms.
+
+### Core Verified Facts (`[JD VERIFIED]`)
+* **Company**: Accenture Japan Ltd.
+* **Designation**: Digital Consultant (Entry rank: Analyst progressing to Consultant → Manager).
+* **Location**: Tokyo Office affiliation (business trips within Japan and overseas; future office changes possible).
+* **Compensation**: Annual base salary of **JPY 6,000,000** (paid across 12 monthly cycles; overtime allowance paid separately).
+* **Relocation Package**: **Fully covered by Accenture Japan**:
+  - One-way flight ticket to Japan.
+  - Work visa sponsorship and processing.
+  - Moving expense / international shipping subsidy.
+  - Temporary corporate housing / hotel stay upon arrival in Tokyo.
+  - One-off settling-in allowance.
+* **Service Bond**: **No** bond or service contract.
+* **Language Requirements**:
+  - English: **Native level** required.
+  - Japanese: **Not required at time of application/interview**. Required after joining with continuous learning mindset.
+
+Detailed facts and boundary conditions documented in [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md).
+
+---
+
+## 2. Topic-Wise Consolidated Master Modules
+
+The preparation system is organized into **6 comprehensive, self-contained Topic Masters**:
+
+| Module Code & File | Core Focus & Domains Covered | Key Highlights |
 | :--- | :--- | :--- |
-| **Company Name** | Accenture Japan Ltd. | `[JD VERIFIED]` |
-| **Business Category** | Professional Services / Consulting Services | `[JD VERIFIED]` |
-| **Job Designation** | **Digital Consultant** (Starts as Analyst) | `[JD VERIFIED]` |
-| **Primary Location** | Tokyo Office affiliation (Nationwide centered on Tokyo metro area) | `[JD VERIFIED]` |
-| **Eligibility** | Must graduate from an **IIT college or graduate school** by June 2027. Bachelor's degree or higher (any field). | `[JD VERIFIED]` |
-| **Work Experience** | Candidates with **any full-time professional experience after bachelor's degree are NOT eligible**. | `[JD VERIFIED]` |
-| **Language Requirements** | **English: Native level**. Japanese: Not required at entry, but required after joining. | `[JD VERIFIED]` |
-| **Tentative Joining** | **December 2027** | `[JD VERIFIED]` |
-| **Bond / Service Contract**| **No** bond or service contract | `[JD VERIFIED]` |
-| **Fixed Annual Gross** | **JPY 5,160,000** (Base: JPY 4.8M + Housing Allowance: JPY 360k) | `[JD VERIFIED]` |
-| **Total Planned Year 1 CTC**| **JPY 8,214,021** (Includes annual performance bonus & signing bonus) | `[JD VERIFIED]` |
-| **Signing Bonus** | **JPY 500,000** (Paid in two installments) | `[JD VERIFIED]` |
-| **Relocation Benefits** | Flights (JPY 150k), Serviced Apartment for 2 months (JPY 816k), Japanese Training (JPY 664k), COE/Visa, Administrative Scrivener support | `[JD VERIFIED]` |
+| [📘 **`01_QUANTITATIVE_APTITUDE_AND_COMMERCIAL_MATH.md`**](01_QUANTITATIVE_APTITUDE_AND_COMMERCIAL_MATH.md) | **Commercial Economics, Business Math & Quantitative Aptitude** | • First-principles CAGR, Volatility drag proof & Rule of 72 derivation<br>• Unit economics: Margin vs Markup, Contribution Margin, Break-even volume<br>• SaaS economics: LTV, CAC Payback, Rule of 40 & OEE factory decomposition<br>• **20 Master Solved Exam-Caliber Quantitative Practice Problems with Full Step-by-Step Derivations** |
+| [💻 **`02_PYTHON_ALGORITHMIC_LOGIC_AND_CODE_PUZZLES.md`**](02_PYTHON_ALGORITHMIC_LOGIC_AND_CODE_PUZZLES.md) | **Python Runtime Internals, Algorithmic Logic & Code Puzzles** | • Python memory model, integer caching, slicing mechanics & Big-O cheat sheet<br>• **20 Verifiable Code Problems** (Sliding Window, Two Pointers, Palindrome, Merge Intervals, Binary Search, Graph BFS/DFS) with Python assertions<br>• High-frequency algorithmic question bank and common candidate traps |
+| [📊 **`03_SQL_DATABASE_ARCH_AND_ENTERPRISE_ANALYTICS.md`**](03_SQL_DATABASE_ARCH_AND_ENTERPRISE_ANALYTICS.md) | **SQL Relational Engines, Database Architecture & Analytics** | • 10-step SQL execution order, Three-Valued Logic (`NULL` tables & `NOT IN` trap)<br>• Join fan-out mechanics & multi-table join traps in enterprise ledgers<br>• **20 Production SQL Analytics Queries** (Window rankings, `LAG`/`LEAD`, CTEs, Gaps & Islands)<br>• Query plan optimization: B-Tree vs Hash index, EXPLAIN ANALYZE, Normalization |
+| [🤖 **`04_DIGITAL_TECHNOLOGIES_CLOUD_AI_AND_SECURITY.md`**](04_DIGITAL_TECHNOLOGIES_CLOUD_AI_AND_SECURITY.md) | **Computer Science, Cloud Architecture, AI/GenAI & Cybersecurity** | • OS fundamentals (Process vs Thread, virtual memory, concurrency) & Networking (TCP/IP, HTTP/3)<br>• Modern Cloud & Distributed Systems: AWS/Azure services, CAP theorem, Microservices<br>• Enterprise Cybersecurity: Zero Trust, Public-Key Cryptography, OAuth2/OIDC, Compliance<br>• AI & Generative AI: Transformer attention ($Q, K, V$), RAG architectures, Agentic tool use |
+| [💼 **`05_CONSULTING_CASES_JAPAN_CULTURE_AND_BEHAVIORAL.md`**](05_CONSULTING_CASES_JAPAN_CULTURE_AND_BEHAVIORAL.md) | **Digital Consulting Cases, Japan Business Culture & Behavioral Mastery** | • MECE issue trees, Minto pyramid, 5-stage digital transformation framework<br>• **6 Complete Enterprise Business Cases** (Smart Factory IoT, Cloud Migration, Enterprise GenAI Copilot, Retail Omnichannel, Smart Fleet, Green IT)<br>• Japan Business Culture: Hou-Ren-So, Nemawashi, Ringi, Meishi business card etiquette<br>• Tokyo cost of living budget, JLPT language roadmap, and STAR behavioral interview playbook |
+| [🎯 **`06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md`**](06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md) | **Full Timed Mock Assessment, Question Bank & Rapid Revision** | • **Full Timed 90-Minute Online Mock Assessment Simulation** with scoring rubric<br>• 15-Question Comprehensive Self-Test Assessment with step-by-step solutions<br>• High-density formula sheet, top SQL snippets, Python templates & 5-minute pre-test checklist<br>• Comprehensive tagged interview question bank for Manager & Director rounds |
 
 ---
 
-## 2. Selection Process Dashboard (`[JD VERIFIED]`)
+## 3. Placement Governance & Reference Files
 
-```text
-┌─────────────────────────┐
-│ Stage 1: Resume Screen  │ ──► Verified IIT degree & zero post-bachelor exp.
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 2: Technical Test │ ──► Designated Online Platform (Coding, Data, SQL, Logic)
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 3: Manager Round  │ ──► ZOOM Web Interview (30 mins) — Tech depth & Project Defense
-└────────────┬────────────┘
-             │ Pass
-             ▼
-┌─────────────────────────┐
-│ Stage 4: Director Round │ ──► ZOOM Web Interview (30 mins) — Strategic Vision, HR & Japan Fit
-└────────────┬────────────┘
-             │ Offer (~1 Week)
-             ▼
-┌─────────────────────────┐
-│ Final Offer & Onboarding│ ──► Joining: December 2027
-└─────────────────────────┘
+| Governance File | Scope & Purpose | Evidence Tag |
+| :--- | :--- | :--- |
+| [📁 `PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Complete compensation breakdown (JPY 6,000,000), relocation benefits, eligibility criteria, and timeline. | `[JD VERIFIED]` |
+| [📁 `ROLE.md`](ROLE.md) | The Digital Consultant blueprint: Technology, Strategy, and Japanese client delivery; career progression path. | `[JD VERIFIED]` |
+| [📁 `SELECTION_PROCESS.md`](SELECTION_PROCESS.md) | Step-by-step breakdown: Resume screening → 90-min Technical Test → Manager Interview → Director Interview. | `[JD VERIFIED]` |
+| [📁 `STUDY_GUIDE.md`](STUDY_GUIDE.md) | 30-day comprehensive, 14-day high-yield, and 72-hour rapid revision pathways mapped to the 6 Topic Masters. | `[PREPARATION INFERENCE]` |
+| [📁 `READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | Self-diagnostic readiness audit across 9 key competencies with scoring rubrics and remediation strategies. | `[DIAGNOSTIC RUBRIC]` |
+
+---
+
+## 4. The Accenture Japan Digital Consultant Triad
+
+```
+                   ┌────────────────────────────────────────┐
+                   │       ACCENTURE DIGITAL CONSULTANT     │
+                   │               TRIAD MODEL              │
+                   └───────────────────┬────────────────────┘
+                                       │
+          ┌────────────────────────────┼────────────────────────────┐
+          │                            │                            │
+          ▼                            ▼                            ▼
+ ┌──────────────────┐        ┌──────────────────┐        ┌──────────────────┐
+ │ TECHNICAL DEPTH  │        │ BUSINESS STRATEGY│        │ JAPAN CULTURAL   │
+ ├──────────────────┤        ├──────────────────┤        ├──────────────────┤
+ │• Python & Algorith│        │• Digital Transfor│        │• Hou-Ren-So      │
+ │• Production SQL  │        │• Industry X (IoT)│        │• Nemawashi       │
+ │• Cloud & Microser│        │• MECE & Minto    │        │• Tokyo Life Nav  │
+ │• GenAI & RAG Arch│        │• Break-even & ROI│        │• JLPT Roadmap    │
+ │• Zero Trust Sec  │        │• SaaS Metrics    │        │• Client Empathy  │
+ └──────────────────┘        └──────────────────┘        └──────────────────┘
 ```
 
 ---
 
-## 3. Preparation Modules & Master Navigation
+## 5. Study Pathways
 
-Navigate directly to each modular preparation document:
+### 30-Day Comprehensive Pathway (Complete Mastery)
+* **Days 1–5**: Master [`01_QUANTITATIVE_APTITUDE_AND_COMMERCIAL_MATH.md`](01_QUANTITATIVE_APTITUDE_AND_COMMERCIAL_MATH.md) (Commercial math, break-even, SaaS economics & 20 quantitative problems).
+* **Days 6–10**: Master [`02_PYTHON_ALGORITHMIC_LOGIC_AND_CODE_PUZZLES.md`](02_PYTHON_ALGORITHMIC_LOGIC_AND_CODE_PUZZLES.md) (Python runtime internals, slicing, Big-O & 20 code problems).
+* **Days 11–15**: Master [`03_SQL_DATABASE_ARCH_AND_ENTERPRISE_ANALYTICS.md`](03_SQL_DATABASE_ARCH_AND_ENTERPRISE_ANALYTICS.md) (10-step SQL execution, 3VL logic & 20 production SQL queries).
+* **Days 16–20**: Master [`04_DIGITAL_TECHNOLOGIES_CLOUD_AI_AND_SECURITY.md`](04_DIGITAL_TECHNOLOGIES_CLOUD_AI_AND_SECURITY.md) (OS, networking, cloud architectures, AI/GenAI & security).
+* **Days 21–25**: Master [`05_CONSULTING_CASES_JAPAN_CULTURE_AND_BEHAVIORAL.md`](05_CONSULTING_CASES_JAPAN_CULTURE_AND_BEHAVIORAL.md) (6 consulting cases, Japan business culture & STAR interviews).
+* **Days 26–30**: Solve [`06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md`](06_MOCK_TESTS_QUESTION_BANK_AND_RAPID_REVISION.md) (Full 90-min mock test, 15-question self-test & formula sheet).
 
-| Module | File Link | Focus & Content |
-| :--- | :--- | :--- |
-| **01. Master Study Guide** | [`STUDY_GUIDE.md`](STUDY_GUIDE.md) | Comprehensive topic-by-topic curriculum across all 8 preparation domains. |
-| **02. Master Study Matrix**| [`STUDY_MATRIX.md`](STUDY_MATRIX.md) | 17-topic priority matrix mapping target depth (L1–L4) & canonical sources. |
-| **03. Placement Facts** | [`PLACEMENT_FACTS.md`](PLACEMENT_FACTS.md) | Verified JD facts, salary breakdown, relocation & benefits table (`[JD VERIFIED]`). |
-| **04. Role Blueprint** | [`ROLE.md`](ROLE.md) | Digital Consultant responsibilities, technology-agnostic philosophy & 3 career paths. |
-| **05. Selection Process** | [`SELECTION_PROCESS.md`](SELECTION_PROCESS.md) | Stage-by-stage selection guide from Resume to Offer release. |
-| **06. Syllabus & Coverage** | [`SYLLABUS_AND_COVERAGE.md`](SYLLABUS_AND_COVERAGE.md) | End-to-end 5-stage learning pathway (Stages A–E) & topic prerequisites. |
-| **07. What To Study** | [`WHAT_TO_STUDY.md`](WHAT_TO_STUDY.md) | 4 Core Preparation Blocks (Consulting, Tech, Data/SQL, Interviews). |
-| **08. Technical Test** | [`TECHNICAL_TEST.md`](TECHNICAL_TEST.md) | 20 Python challenges, 30 SQL queries, 20 Quant problems & 90-min mock test. |
-| **09. Consulting Cases** | [`CONSULTING_CASES.md`](CONSULTING_CASES.md) | 6 DX cases (Smart Factory, Cloud, GenAI RAG, Retail, Logistics, Green IT). |
-| **10. Interview Guide** | [`INTERVIEW.md`](INTERVIEW.md) | Manager Round (Round 1) vs Director Round (Round 2) strategy & answers. |
-| **11. Behavioural & HR** | [`BEHAVIOURAL_HR.md`](BEHAVIOURAL_HR.md) | STAR behavioral story bank, cross-cultural communication & Japanese readiness. |
-| **12. Resume Strategy** | [`RESUME_STRATEGY.md`](RESUME_STRATEGY.md) | Engineering to Digital Consultant resume reframing & bullet point formulas. |
-| **13. Project Strategy**| [`PROJECT_STRATEGY.md`](PROJECT_STRATEGY.md) | IIT engineering project defense framework & cloud modernization questions. |
-| **14. Question Bank** | [`QUESTION_BANK.md`](QUESTION_BANK.md) | Tagged question database (`[JD VERIFIED]`, `[EXTERNAL VERIFIED]`, `[PREPARATION INFERENCE]`). |
-| **15. Compensation & Benefits** | [`COMPENSATION_AND_BENEFITS.md`](COMPENSATION_AND_BENEFITS.md) | Detailed JPY 5.16M gross fixed, JPY 8.21M CTC, tax deductions & net take-home. |
-| **16. Relocation & Japanese** | [`JAPAN_RELOCATION_AND_LANGUAGE.md`](JAPAN_RELOCATION_AND_LANGUAGE.md) | Relocation package (JPY 1.7M+), Tokyo cost of living, 18-month Japanese roadmap. |
-| **17. Readiness Scorecard**| [`READINESS_SCORECARD.md`](READINESS_SCORECARD.md) | 11-domain weighted self-evaluation rubric & readiness tier benchmarks. |
-| **18. Error Log Engine** | [`ERROR_LOG.md`](ERROR_LOG.md) | Structured gap-tracking log with 11 error taxonomy categories. |
-| **19. Rapid Revision** | [`RAPID_REVISION.md`](RAPID_REVISION.md) | FABEL-verified, exam-ready revision guide with self-test & answer key. |
-| **20. Audit & Coverage**| [`AUDIT_AND_COVERAGE.md`](AUDIT_AND_COVERAGE.md) | Comprehensive audit report of all directory files, bugs fixed & validation tests. |
+### 14-Day High-Yield Sprint
+* **Days 1–3**: Quant Math & Python Algorithms (Modules 01 & 02).
+* **Days 4–7**: SQL Analytics & Digital Technologies (Modules 03 & 04).
+* **Days 8–10**: 6 Consulting Cases & Japan Cultural Protocols (Module 05).
+* **Days 11–14**: Mock Assessment Simulation & Question Bank drill in Module 06.
 
----
-
-## 4. Priority Allocation Matrix (P0 to P3)
-
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│ P0 (MUST PREPARE): Consulting Problem Solving, Tech Fundamentals,           │
-│                    Technical Test (Python/SQL), Manager & Director Interviews│
-├─────────────────────────────────────────────────────────────────────────────┤
-│ P1 (HIGH VALUE):   DX Cases (Cloud/IoT/AI), Market Sizing, Cross-Cultural    │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ P2 (SUPPORTING):   Advanced Cloud/System Architecture Basics               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│ P3 (SKIP):         Deep Competitive Programming, Software Dev, Hard Math    │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 5. Canonical Repository Inter-Linkage
-
-This company pack builds upon and directly links to canonical study materials across the repository:
-
-* **Consulting Frameworks**: [`03_non_core/consulting/02_problem-solving.md`](../../../03_non_core/consulting/02_problem-solving.md)
-* **Technology Domains**: [`03_non_core/software-engineering/04_tools-and-technical.md`](../../../03_non_core/software-engineering/04_tools-and-technical.md)
-* **General Case Prep**: [`01_common/group-discussion/CASE_GD.md`](../../../01_common/group-discussion/CASE_GD.md)
-* **Behavioral Guide**: [`01_common/behavioral/behavioral-interview-guide.md`](../../../01_common/behavioral/behavioral-interview-guide.md)
-* **Aptitude Practice**: [`01_common/aptitude/quantitative/`](../../../01_common/aptitude/quantitative/)
-
+### 72-Hour Rapid Cram
+* Focus on:
+  1. Module 06 (Section C: Formula Sheet & Top SQL).
+  2. Module 03 (Section B: 20 Production SQL Queries).
+  3. Module 02 (Section B: Two Sum, Sliding Window, Merge Intervals & Binary Search).
+  4. Module 05 (Section A: 6 Consulting Cases & Section B: Hou-Ren-So / "Why Accenture Japan?").

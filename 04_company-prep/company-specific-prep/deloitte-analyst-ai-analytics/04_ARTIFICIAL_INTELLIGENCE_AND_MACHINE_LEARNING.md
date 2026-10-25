@@ -151,10 +151,7 @@ y_pred = clf.predict(X_test)
 
 # 4. Evaluation Outputs
 print("ROC-AUC Score:", round(roc_auc_score(y_test, y_pred_proba), 4))
-print("PR-AUC Score:", round(average_precision_score(y_test, y_pred_proba), 4))
-print("
-Classification Report:
-", classification_report(y_test, y_pred))
+print("\nClassification Report:\n", classification_report(y_test, y_pred))
 ```
 
 ---

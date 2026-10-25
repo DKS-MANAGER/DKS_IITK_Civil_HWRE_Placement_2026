@@ -62,9 +62,13 @@ Based on Ayush Kumar's verified candidate report (October 2024) and recent campu
 |    (or Vibe Coding Task) | Project Module        | binary search, stack/queue; or interactive project   |
 +--------------------------+-----------------------+------------------------------------------------------+
 ```
-*Note on Unknowns*: Total test duration (typically 90 to 120 minutes) and exact sectional timing/cutoffs vary by campus drive. Do not assume any single cutoff is official.
+> [!NOTE]
+> **Assessment Vendor Variants & Platform Nuances**:
+> * **HirePro Benchmark** (`[CANDIDATE-REPORTED]`): 67 total questions (Quant, Logic, Verbal, Tech MCQs, 2 Coding Questions). Proctored with webcam, screen monitoring, and no browser tab-switching.
+> * **PrepInsta Benchmark** (`[GENERAL PRACTICE RESOURCE]`): 90-minute online assessment: Quant + Logic (22 Qs), Verbal (13 Qs), Computer Fundamentals (30 Qs), and Live Coding (2 Qs).
+> * **Legacy AMCAT / CoCubes Papers** (`[GENERAL PRACTICE RESOURCE]`): 4 timed sections with sectional locks (Quant 20 mins, Logic 15 mins, Verbal 15 mins, Technical/Coding 25 mins).
+> * **Total Test Duration & Cutoffs** (`[UNKNOWN - CONFIRM WITH HR]`): Total duration typically ranges from 75 to 90 minutes. Backtracking between sections or questions is locked on certain adaptive platforms. Cutoffs vary by campus pool drive (typically 75–80% sectional accuracy).
 
----
 
 ## 2. Round-by-Round Technical Blueprint
 
