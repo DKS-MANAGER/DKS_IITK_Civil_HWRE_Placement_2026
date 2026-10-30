@@ -167,15 +167,15 @@ For flagship campus opportunities with verified job descriptions or placement pr
 * **Core Profile**: Contract Research Organization (CRO) specializing in Quantitative Systems Pharmacology (QSP), mechanistic PK/PD mathematical modeling, ODE/PDE dynamical systems, and pharmaceutical simulation.
 * **Selection & Governance**: MSQ Assessment $\rightarrow$ Technical Interview R1 $\rightarrow$ Research & Problem-Solving R2; evaluated jointly for Scientist 1 and Scientist 2.
 
-### 4.8 KLA Corporation — Customer Applications Engineer (Semiconductor Yield)
+### 4.8 KLA Corporation — Applications Engineer (Semiconductor Yield / CAE Benchmark)
 * **Target Package**: [`company-specific-prep/kla-applications-engineer/`](company-specific-prep/kla-applications-engineer/README.md)
-* **Core Profile**: World leader in semiconductor process control and yield management (>55% global market share). Profile focuses on high-volume fab on-site yield troubleshooting, optical inspection recipe sensitivity tuning, killer defect elimination, BKM documentation, and Python/Perl fab data analytics.
-* **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA); >80% international and domestic travel to global semiconductor foundries (TSMC, Intel, Samsung, Micron).
-* **Master Architecture (13-File Suite)**:
+* **Core Profile**: Market leader in Semiconductor Process Diagnostics & Control Equipment (~50% to >55% global market share per Gartner Market Share Analysis 2022/2023 and KLA SEC Form 10-K / Investor Day disclosures). Role centers on high-volume fab on-site yield troubleshooting, optical inspection recipe sensitivity tuning, killer defect elimination, BKM documentation, and Python/Perl fab data analytics.
+* **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA, fixed/variable breakdown unspecified in proforma); base location unspecified in proforma (KLA India centers in Chennai & Bengaluru); >80% international and domestic travel to semiconductor fabs worldwide.
+* **Master Architecture (16-File Suite)**:
   * [`README.md`](company-specific-prep/kla-applications-engineer/README.md) — Master navigation hub, executive overview, directory map & 3-minute pivot narrative.
   * [`PLACEMENT_FACTS.md`](company-specific-prep/kla-applications-engineer/PLACEMENT_FACTS.md) — Audited proforma records, CTC ₹28.5L factsheet, >80% travel obligations, 5-tier taxonomy.
   * [`01_COMPANY_AND_ROLE_RESEARCH.md`](company-specific-prep/kla-applications-engineer/01_COMPANY_AND_ROLE_RESEARCH.md) — Corporate profile, semiconductor ecosystem, KLA product families (BPO, Surfscan, Archer, eSL10, Klarity), CAE day-to-day duties.
-  * [`02_RECRUITMENT_PROCESS_AND_EVIDENCE.md`](company-specific-prep/kla-applications-engineer/02_RECRUITMENT_PROCESS_AND_EVIDENCE.md) — 4-stage selection pipeline (OA $\rightarrow$ Tech R1 $\rightarrow$ Tech R2/Case $\rightarrow$ Managerial/HR), candidate interview reports, evidence ledger.
+  * [`02_RECRUITMENT_PROCESS_AND_EVIDENCE.md`](company-specific-prep/kla-applications-engineer/02_RECRUITMENT_PROCESS_AND_EVIDENCE.md) — Selection workflow audit, proforma facts vs. reconstructed benchmarks, candidate interview reports, evidence ledger.
   * [`03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md`](company-specific-prep/kla-applications-engineer/03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md) — Wafer fabrication flow (FEOL/BEOL), Rayleigh litho equations, Preston CMP law, Poisson & Negative Binomial yield models.
   * [`04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md`](company-specific-prep/kla-applications-engineer/04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md) — Brightfield vs. Darkfield optics, overlay metrology, Shewhart charts ($\bar{X}-R$), Western Electric rules, $C_p / C_{pk}$ capability indices, RCA 5-Whys.
   * [`05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md`](company-specific-prep/kla-applications-engineer/05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md) — Statistical testing (t-test, ANOVA), KLARF inspection file standard, production Python KLARF parser class, ROC sensitivity tuning.

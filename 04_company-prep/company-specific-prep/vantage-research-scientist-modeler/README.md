@@ -106,20 +106,21 @@ vantage-research-scientist-modeler/
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                    VANTAGE RESEARCH RECRUITMENT WORKFLOW                    │
+│               CONFIRMED RECRUITMENT WORKFLOW [OFFICIAL VR PORTAL]           │
 ├─────────────────────┬───────────────────────────┬───────────────────────────┤
-│ STAGE 1: ASSESSMENT │ STAGE 2: TECHNICAL R1     │ STAGE 3: RESEARCH & FIT R2│
+│ STAGE 1: ASSESSMENT │ STAGE 2: INTERVIEW R1     │ STAGE 3: INTERVIEW R2     │
 ├─────────────────────┼───────────────────────────┼───────────────────────────┤
-│ • Multiple Select   │ • Extended 60–90 min deep │ • Research depth & problem│
-│   Question (MSQ)    │   dive with senior modeler│   solving capabilities   │
-│   format            │ • Live ODE formulation &  │ • Biological representation│
-│ • Core mathematics, │   dynamical stability     │   & mechanistic reasoning │
-│   numerical methods,│ • Numerical solver logic, │ • Candidate thesis defense│
-│   ODE/PDE, coding   │   stiffness, step sizes   │   (OpenFOAM / CFD rigor)  │
-│ • Parameter fitting │ • Parameter estimation &  │ • Client communication,   │
-│   & basic PK/PD     │   sensitivity theory      │   project ownership, fit  │
+│ • Confirmed term:   │ • First interview round   │ • Second interview round  │
+│   "MSQ assessment"  │ • Mathematical problem    │ • Research depth, thesis  │
+│ • Screening on core │   solving & differential  │   defense, scientific     │
+│   JD competencies:  │   equation formulation    │   reasoning & fit         │
+│   ODEs, solvers,    │ • Specific duration is    │ • Specific duration is    │
+│   fitting, coding   │   not officially published│   not officially published│
 └─────────────────────┴───────────────────────────┴───────────────────────────┘
 ```
+
+> [!NOTE]
+> **Evidentiary Clarification**: The company officially confirms an **"MSQ assessment followed by two interview rounds"**. Candidate interview debriefs (IITK AnC Placement Fundae) report in-depth technical discussions focused on resume projects and live ODE whiteboard problem-solving. Specific interview durations (e.g., 60–90 min) and divided topical tracks (Track A Technical vs Track B Research) are **pedagogical preparation designs (`[PRACTICE SIMULATION]`)**, not official corporate policies.
 
 ---
 

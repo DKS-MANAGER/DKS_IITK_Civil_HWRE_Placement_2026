@@ -3,8 +3,24 @@
 
 > **Document Status**: Authoritative Source-Audited Recruitment Record  
 > **Target Entity**: KLA Corporation — India Campus Recruitment  
-> **Target Role**: Customer Applications Engineer (CAE) / Applications Engineer  
-> **Target Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]`  
+> **Organizational / Industry Equivalent**: Customer Applications Engineer (CAE) `[ROLE-BASED BENCHMARK]`  
+> **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
+
+---
+
+> [!IMPORTANT]
+> **EVIDENTIARY AUDIT & BOUNDARY DECLARATION:**
+> * **Officially Confirmed in Supplied IITK Proforma (`[TIER 1]`):**
+>   1. Stated Total CTC: **₹28,50,000 (28.50 LPA)**.
+>   2. Travel Profile: **>80% travel to customer fab sites**.
+>   3. Primary Responsibilities: Fab on-site data analysis, killer defect reduction, inspection recipe optimization, BKM documentation, and Python/Perl scripting for data analysis.
+> * **Reconstructed from Historical Tier-1 IIT Debriefs (`[TIER 3]`):**
+>   1. The four-stage selection sequence (OA $\rightarrow$ Technical Interview 1 $\rightarrow$ Technical Interview 2 $\rightarrow$ Managerial/HR).
+>   2. Testing platforms (e.g., HackerEarth, SHL, Mettl) and sectional breakdowns.
+>   3. Round durations (e.g., 45–60 min) and specific interview panel configurations.
+> * **Pedagogical Simulations (`[TIER 5]`):**
+>   Practice questions, mock cases, and timing allocations across this repository represent structured preparation simulations designed to meet the rigorous standard of semiconductor applications engineering; they do not represent an official or contractually binding corporate schedule.
 
 ---
 
@@ -23,31 +39,31 @@ The following ledger establishes the provenance and confidence level for all com
 
 | Claim ID | Claim / Fact | Primary Source | Source Type | Date | Corroboration Status | Confidence |
 | :---: | :--- | :--- | :--- | :---: | :--- | :---: |
-| **CLM-01** | Total CTC is ₹28,50,000 for Phase 1 IITK postgraduate applications engineering profiles. | IITK Placement Proforma / SPO Portal | Tier 1 | Oct 2026 | Verified against proforma specification | **High** |
-| **CLM-02** | Travel commitment exceeds 80% to customer fab locations globally. | Proforma specification & KLA Job Postings | Tier 1 | Oct 2026 | Independently confirmed across global CAE listings | **High** |
-| **CLM-03** | Primary role duties include fab data analysis, killer defect reduction, BKM drafting, and NPI support. | Proforma JD & KLA Careers portal | Tier 1 | Oct 2026 | Confirmed across multiple KLA Applications requisitions | **High** |
-| **CLM-04** | Python and Perl machine-learning scripts are customized for customer data analytics. | Proforma JD | Tier 1 | Oct 2026 | Documented in official job requirements | **High** |
-| **CLM-05** | Selection process opens with an Online Assessment covering Aptitude, Math/Physics, and Coding. | IIT Placement Debriefs & GfG Candidate Logs | Tier 3 | 2023–2025 | Confirmed across multiple Tier-1 campus hiring drives | **High** |
-| **CLM-06** | Technical interviews require writing clean logic or code on paper/whiteboard without IDE auto-complete. | Candidate Interview Accounts (Medium, Glassdoor) | Tier 3 | 2024–2025 | Documented in multiple campus candidate debriefs | **High** |
-| **CLM-07** | Technical rounds feature real-world troubleshooting scenarios (defect excursions, sensitivity tuning). | KLA Glassdoor / AmbitionBox Debriefs | Tier 3 | 2023–2025 | Supported by CAE role requirements | **Medium** |
-| **CLM-08** | Final rounds test cultural adaptability, high-pressure communication, and travel willingness. | KLA HR Interview Reports & Placement Debriefs | Tier 3 | 2024–2025 | Standard across customer-facing semiconductor roles | **High** |
-| **CLM-09** | Exact test duration, question distribution, and sectional cutoffs for 2026–27. | Pending active test link release | N/A | Oct 2026 | Unconfirmed by SPO; simulated practice provided | **Low / Unverified** |
+| **CLM-01** | Total CTC is ₹28,50,000 for Phase 1 IITK postgraduate applications engineering profiles. | IITK Placement Proforma / SPO Portal | Tier 1 | Oct 2026 | Verified against campus proforma; fixed/variable breakdown unspecified | **High `[CONFIRMED]`** |
+| **CLM-02** | Travel commitment exceeds 80% to customer fab locations worldwide. | Proforma specification & KLA Job Postings | Tier 1 | Oct 2026 | Confirmed in proforma & global CAE requisitions | **High `[CONFIRMED]`** |
+| **CLM-03** | Primary role duties include fab data analysis, killer defect reduction, BKM drafting, and NPI support. | Proforma JD & KLA Careers portal | Tier 1 | Oct 2026 | Confirmed across multiple KLA Applications requisitions | **High `[CONFIRMED]`** |
+| **CLM-04** | Python and Perl machine-learning scripts are customized for customer data analytics. | Proforma JD | Tier 1 | Oct 2026 | Documented in official campus job requirements | **High `[CONFIRMED]`** |
+| **CLM-05** | Selection process typically opens with an Online Assessment covering Aptitude, Math/Physics, and Coding. | IIT Placement Debriefs & GfG Candidate Logs | Tier 3 | 2023–2025 | Reconstructed from past Tier-1 IIT campus drives; unconfirmed by active JD | **Medium `[RECONSTRUCTED]`** |
+| **CLM-06** | Technical interviews require writing clean logic or code on paper/whiteboard without IDE auto-complete. | Candidate Interview Accounts (Medium, Glassdoor) | Tier 3 | 2024–2025 | Documented in multiple campus candidate debriefs | **Medium `[CANDIDATE REPORT]`** |
+| **CLM-07** | Technical rounds feature real-world troubleshooting scenarios (defect excursions, sensitivity tuning). | KLA Glassdoor / AmbitionBox Debriefs | Tier 3 | 2023–2025 | Supported by CAE role requirements; pedagogical simulation provided | **Medium `[CANDIDATE REPORT]`** |
+| **CLM-08** | Final rounds test cultural adaptability, high-pressure communication, and travel willingness. | KLA HR Interview Reports & Placement Debriefs | Tier 3 | 2024–2025 | Standard across customer-facing semiconductor roles | **Medium `[CANDIDATE REPORT]`** |
+| **CLM-09** | Exact test duration, question distribution, and sectional cutoffs for 2026–27. | Pending active test link release | N/A | Oct 2026 | Unspecified in proforma; modeled as simulated benchmark | **Unverified / Model** |
 
 ---
 
-## 3. Reconstructed Selection Process Workflow
+## 3. Reconstructed Selection Process Workflow (Preparation Benchmark)
 
-Synthesizing official proforma data with verified historical campus drives at Tier-1 IITs:
+> *Notice: The following 4-stage recruitment workflow is reconstructed from historical Tier-1 IIT campus recruitment drives (IIT Madras, IIT Bombay, IIT Kharagpur) and industry debriefs. It serves as an institutional preparation benchmark; specific durations and testing platforms are not contractually guaranteed by the supplied IITK proforma.*
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                          STAGE 1: ONLINE ASSESSMENT                         │
+│                 STAGE 1: ONLINE ASSESSMENT (HISTORICAL PATTERN)             │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Modality: Proctored Online Platform (HackerEarth / SHL / Mettl)           │
+│ • Modality: Proctored Online Platform (e.g., HackerEarth / SHL / Mettl)     │
 │ • Section 1: Quantitative Aptitude, Numerical Ability & Logical Reasoning   │
 │ • Section 2: Engineering Mathematics, Applied Physics & Statistics          │
 │ • Section 3: Programming & Data Analysis (Python / C++ MCQs + Coding Tasks) │
-│ • Target: High accuracy; time-pressured problem solving                     │
+│ • Focus: High accuracy; time-pressured problem solving                      │
 └──────────────────────────────────────┬──────────────────────────────────────┘
                                        │ (Shortlist)
                                        ▼
@@ -55,10 +71,12 @@ Synthesizing official proforma data with verified historical campus drives at Ti
 │                    STAGE 2: TECHNICAL INTERVIEW ROUND 1                     │
 │               (Foundations, Thesis Defense & Scientific Python)             │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Duration: 45–60 Minutes (Video or On-Campus F2F)                          │
+│ • Structure: In-depth technical interview with senior engineering leads     │
+│ • Estimated Benchmark Duration: ~45–60 Minutes (Simulation standard)        │
 │ • Deep dive into candidate's M.Tech thesis / B.Tech projects:               │
 │   - OpenFOAM CFD transport modeling, governing equations, discretization    │
 │   - BridgeRisk ML modeling (XGBoost, SHAP, feature importance)              │
+│   - Physical analogies to CMP slurry mechanics and CVD reactor transport    │
 │ • Live algorithmic coding / data manipulation (Python, NumPy, Pandas)       │
 │ • Probability distributions, hypothesis testing, error analysis             │
 └──────────────────────────────────────┬──────────────────────────────────────┘
@@ -68,7 +86,8 @@ Synthesizing official proforma data with verified historical campus drives at Ti
 │                    STAGE 3: TECHNICAL INTERVIEW ROUND 2                     │
 │               (Domain Applications, SPC & Troubleshooting Case)             │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Duration: 45–60 Minutes                                                   │
+│ • Structure: Advanced technical assessment & fab troubleshooting scenario   │
+│ • Estimated Benchmark Duration: ~45–60 Minutes (Simulation standard)        │
 │ • Semiconductor process troubleshooting scenario:                           │
 │   - A customer fab reports a sudden defect spike post-CMP                   │
 │   - How to isolate killer defects from nuisance false alarms                │
@@ -81,9 +100,10 @@ Synthesizing official proforma data with verified historical campus drives at Ti
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │              STAGE 4: MANAGERIAL, CUSTOMER-FACING & HR ROUND                │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Duration: 30–45 Minutes (Senior Applications Manager & HR Panel)          │
+│ • Structure: Senior Applications Management & HR Evaluation                 │
+│ • Estimated Benchmark Duration: ~30–45 Minutes (Simulation standard)        │
 │ • Evaluation of customer-facing maturity:                                   │
-│   - Managing client escalations at foundry sites (TSMC, Intel, Samsung)     │
+│   - Managing client escalations under high-stakes yield pressure            │
 │   - Defending readiness for >80% international cleanroom travel             │
 │   - Clear narrative: Why transition from Civil/HWRE to Semiconductor Yield? │
 │ • Behavioral alignment using the STAR framework                             │

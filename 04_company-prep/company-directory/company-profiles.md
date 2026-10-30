@@ -36,6 +36,7 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 | **AECOM** | Water Resources/Design | ₹22-40L | Global | Case + Technical | Hydrology modeling, flood risk, GIS |
 | **Tata Projects** | Civil Engineer | ₹7-12L | Multiple | Technical + HR | Construction methods, scheduling, QA/QC |
 | **Bajaj Auto** | R&D Engineer | ₹20.74L | Pune | Technical + HR | R&D, experimentation, design |
+| **KLA Corporation** | Applications Engineer | ₹28.5L (Stated Total CTC) | Global Fab (>80%) / India Hubs | OA → Tech x2 → HR (Benchmark) | Yield control, optical metrology, SPC, Python/Perl, CFD/transport pivot · [Dedicated Pack](../company-specific-prep/kla-applications-engineer/README.md) |
 
 ### 3. Analytics/Data Science
 *Focus: Python, SQL, statistics, ML, business framing*

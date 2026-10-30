@@ -4,7 +4,7 @@
 > **Document Status**: Authoritative Pre-Interview Verification Audit  
 > **Candidate Cohort**: IIT Kanpur M.Tech Civil (Hydraulics & Water Resources Engineering — HWRE)  
 > **Undergraduate**: VNIT Nagpur (B.Tech Civil Engineering)  
-> **Target Role**: Customer Applications Engineer (CAE) at KLA Corporation  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]` (Functional CAE Benchmark)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
 
 ---

@@ -1,10 +1,16 @@
 # KLA Corporation — 4-Week Strategic Study Guide
 ## Comprehensive Roadmap, Daily Milestones & Revision Strategy for IIT Kanpur Candidates
 
-> **Document Status**: Authoritative Placement Preparation Roadmap  
-> **Target Role**: Customer Applications Engineer (CAE) at KLA Corporation  
+> **Document Status**: Structured Preparation Roadmap & Milestone Plan  
+> **Target Role**: Applications Engineer `[OFFICIAL PROFORMA FACT]` (Functional CAE Benchmark)  
 > **Target Candidate**: IIT Kanpur M.Tech Civil (Hydraulics & Water Resources Engineering)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
+
+---
+
+> [!NOTE]
+> **PEDAGOGICAL PREPARATION FRAMEWORK (`[TIER 5]`):**
+> This 4-week study roadmap is a structured pedagogical plan designed to systematically eliminate domain gaps, bridge computational fluid mechanics to semiconductor processes, and master SPC/Python requirements. It is a recommended preparation schedule developed for the candidate, not an official corporate recruitment timeline or mandated testing calendar.
 
 ---
 
@@ -39,7 +45,7 @@ To bridge the knowledge gap systematically without burning out, the preparation 
 ## 2. Detailed Weekly Milestones & Daily Schedule
 
 ### Week 1: Semiconductor Foundations & Manufacturing Flow
-* **Day 1**: Study [Module 01: Company and Role Research](01_COMPANY_AND_ROLE_RESEARCH.md). Understand KLA's ecosystem role (>55% market share), core customer landscape (TSMC, Intel, Samsung), and what an Applications Engineer does.
+* **Day 1**: Study [Module 01: Company and Role Research](01_COMPANY_AND_ROLE_RESEARCH.md). Understand KLA's ecosystem role (~50–55% market share in Process Diagnostics & Control), global customer context (SEC 10-K examples: TSMC, Samsung, Intel), and core Applications Engineer duties.
 * **Day 2**: Read [Module 03: Semiconductor Fundamentals](03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md) Section 1 & 2. Learn silicon ingot crystal growth (Czochralski), wafer slicing, and the complete FEOL vs. BEOL manufacturing sequence.
 * **Day 3**: Deep dive into **Photolithography**. Master the Rayleigh resolution equation ($CD = k_1 \frac{\lambda}{NA}$) and Depth of Focus ($DOF$). Understand ArF immersion ($193\text{ nm}$) vs. EUV ($13.5\text{ nm}$).
 * **Day 4**: Deep dive into **CMP & Etch**. Master Preston’s law ($MRR = k_p \cdot P \cdot V$), dishing, erosion, and micro-scratch formation. Understand plasma etch anisotropy and selectivity.

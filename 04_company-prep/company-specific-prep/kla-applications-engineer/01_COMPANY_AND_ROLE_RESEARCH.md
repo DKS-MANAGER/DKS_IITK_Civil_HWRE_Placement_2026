@@ -4,7 +4,8 @@
 > **Document Status**: Authoritative Source-Audited Technical Dossier  
 > **Target Entity**: KLA Corporation (NASDAQ: KLAC)  
 > **Relevant Divisions**: Wafer Inspection Group (WIN), Patterning Metrology, Reticle Inspection (RAPID), Klarity Defect Analytics  
-> **Target Role**: Customer Applications Engineer (CAE) / Product Applications Engineer (PAE)  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]`  
+> **Organizational / Industry Equivalent**: Customer Applications Engineer (CAE) `[ROLE-BASED BENCHMARK]`  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
 
 ---
@@ -15,11 +16,11 @@
 * `[OFFICIAL KLA SOURCE]`: Founded in **1975** as KLA Instruments by Ken Levy and Bob Anderson; merged with Tencor Instruments in **1997** to form **KLA-Tencor Corporation**. Rebranded to **KLA Corporation** in July 2019 under the motto *"Keep Looking Ahead"*.
 * **Headquarters**: Milpitas, Silicon Valley, California, United States.
 * **Corporate Scale**: S&P 500 component, Fortune 500 member, NASDAQ listed (`KLAC`). Annual revenues exceed **$9.5–$10.5 Billion USD** with industry-leading gross margins consistently between **60% and 63%**, driven by proprietary optical physics, electron-beam technologies, and software IP.
-* **India Presence**: Advanced Development Centers located in **Chennai** (Ascendas International Tech Park, Taramani & IITM Research Park) and **Bengaluru**, Karnataka. Chennai serves as a critical global hub for software algorithms, data analytics, artificial intelligence, and customer applications engineering.
+* **India Presence**: Advanced Development Centers located in **Chennai** (Ascendas International Tech Park, Taramani & IITM Research Park) and **Bengaluru**, Karnataka. Note that base location is **unspecified in the supplied IITK proforma** (`[UNSPECIFIED IN PROFORMA]`), while the role mandates >80% international and domestic travel to semiconductor fabs.
 
 ### 1.2 Business Model & Industry Positioning
-* `[OFFICIAL KLA SOURCE]`: KLA operates primarily in the **Semiconductor Process Control** segment. While peers like Applied Materials, Lam Research, and Tokyo Electron manufacture the equipment that *alters* the wafer (deposition, etch, CMP, lithography track), KLA builds the equipment that *inspects, measures, and diagnoses* the wafer.
-* **Global Market Share**: KLA commands over **55% of the worldwide semiconductor process control and yield management market**, outstripping competitors by a wide margin across patterned wafer inspection, unpatterned wafer inspection, and reticle inspection.
+* `[OFFICIAL KLA SOURCE]`: KLA operates primarily in the **Semiconductor Process Diagnostics and Control (PDC)** segment. While peers like Applied Materials, Lam Research, and Tokyo Electron manufacture the equipment that *alters* the wafer (deposition, etch, CMP, lithography track), KLA builds the equipment that *inspects, measures, and diagnoses* the wafer.
+* **Market Share & Segment Definition**: In the **Semiconductor Process Diagnostics and Control Equipment** segment, KLA commands **between 50% and 55% global market share** (Sources: Gartner Dataquest Market Share Reports 2022/2023; KLA SEC Form 10-K & Investor Day Disclosures 2023/2024), maintaining a commanding multi-billion dollar lead over competitors (Applied Materials PDC ~12%, Hitachi High-Tech ~9%, ASML/HMI ~5%).
 * **Value Proposition**: A state-of-the-art 300 mm wafer manufacturing facility (Gigafab) costs upwards of **$15–$20 Billion USD**. A modern advanced-node wafer (e.g., 3nm/2nm) undergoes over 1,000 to 1,500 distinct process steps over a 3-month cycle. A single undetected defect excursion or systematic process drift can ruin an entire production lot of 25 wafers—representing hundreds of thousands of dollars in lost silicon. KLA tools provide the optical and electron-beam "eyes" of the fab, catching sub-nanometer defects and process excursions early to prevent catastrophic yield collapse.
 
 ```
@@ -30,19 +31,18 @@
 │ • Deposition & Etch:              Applied Materials, Lam Research, TEL      │
 │ • Chemical Mechanical Polishing:  Applied Materials, Ebara                  │
 │ • Ion Implantation:               Axcelis, Applied Materials                │
-│ • PROCESS CONTROL & METROLOGY:   KLA CORPORATION (Market Leader, >55% Share)│
+│ • PROCESS CONTROL & METROLOGY:   KLA CORPORATION (Market Leader, ~50-55%)  │
+│                                   (Gartner 2022/23; KLA 10-K Disclosures)   │
 │                                   Competitors: Applied Materials (PDC),     │
 │                                   Hitachi High-Tech, ASML (HMI e-beam)      │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1.3 Global Customer Landscape
-KLA's primary revenue is derived from the world's leading semiconductor manufacturers across three categories:
-1. **Leading-Edge Foundries**: **TSMC** (Taiwan Semiconductor Manufacturing Co. — KLA's largest customer), **Samsung Foundry**, **Intel Foundry Services (IFS)**, **GlobalFoundries**, **UMC**.
-2. **Memory Giants (DRAM & 3D-NAND)**: **Samsung Electronics**, **SK Hynix**, **Micron Technology**.
-3. **Leading-Edge Integrated Device Manufacturers (IDMs)**: **Intel Corporation**, **Texas Instruments**, **STMicroelectronics**, **Analog Devices**.
-
----
+### 1.3 Global Customer Landscape (SEC Form 10-K Context)
+*Notice: The following manufacturers are cited from KLA's public SEC Form 10-K filings as major industry participants and historical customers; they are presented as contextual semiconductor domain examples, not as confirmed specific proforma assignments:*
+1. **Leading-Edge Foundries**: **TSMC** (Taiwan Semiconductor Manufacturing Co. — historically KLA's largest customer by revenue disclosure), **Samsung Foundry**, **Intel Foundry Services (IFS)**, **GlobalFoundries**, **UMC**.
+2. **Memory Manufacturers (DRAM & 3D-NAND)**: **Samsung Electronics**, **SK Hynix**, **Micron Technology**.
+3. **Integrated Device Manufacturers (IDMs)**: **Intel Corporation**, **Texas Instruments**, **STMicroelectronics**, **Analog Devices**.
 
 ## 2. Technical & Product Architecture Research
 

@@ -1,21 +1,31 @@
 # KLA Corporation — Applications Engineer Preparation Hub
 ## IIT Kanpur Placement Season 2026–27 | Phase 1 Dedicated Package
 
-> **Target Profile**: Customer Applications Engineer (CAE) / Product Applications Engineer (PAE)  
-> **Global Entity**: KLA Corporation (NASDAQ: KLAC) — Milpitas, CA / Chennai & Bengaluru Centers  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]`  
+> **Organizational / Industry Equivalent**: Customer Applications Engineer (CAE) `[ROLE-BASED BENCHMARK]`  
+> **Global Entity**: KLA Corporation (NASDAQ: KLAC) — Milpitas, CA / Primary India Hubs in Chennai & Bengaluru  
+> **Base Location**: *Unspecified in supplied proforma* (`[UNSPECIFIED IN PROFORMA]`)  
 > **Target Cohort**: IIT Kanpur M.Tech Postgraduates (Quantitative, Computational & Engineering Disciplines)  
-> **Compensation (Proforma)**: ₹28,50,000 Total CTC  
-> **Travel Profile**: >80% International & Domestic Customer Fab Deployments  
+> **Stated Total CTC**: **₹28,50,000 Total CTC** `[IITK PROFORMA FACT]`  
+> **Travel Profile**: **>80% International & Domestic Customer Fab Deployments** `[IITK PROFORMA FACT]`  
 > **Core Discipline Bridge**: Computational Fluid Dynamics (CFD), Scientific Python, Machine Learning (XGBoost/SHAP), Statistical Process Control (SPC) $\rightarrow$ Semiconductor Yield Management & Metrology
+
+---
+
+> [!IMPORTANT]
+> **EVIDENTIARY DISTINCTION & RECRUITMENT STATUS:**
+> * **Confirmed Campus Facts (`[TIER 1]`):** The official IIT Kanpur proforma confirms the designation *Applications Engineer*, stated CTC of ₹28,50,000, travel requirement of >80% to customer fab facilities, and primary duties centering on fab data analysis, killer defect reduction, inspection recipe optimization, BKM documentation, and Python/Perl data analysis scripts.
+> * **Reconstructed Campus Benchmark (`[TIER 3]`):** Reconstructed interview workflows (OA $\rightarrow$ Technical Interviews $\rightarrow$ HR) are based on historical candidate debriefs across Tier-1 IIT campus recruitment drives (IIT Madras, IIT Bombay, IIT Kharagpur). Specific testing platforms (e.g. HackerEarth/SHL) and round durations (~45–60 min) represent simulation estimates rather than contractual proforma guarantees.
+> * **Domain Benchmark Context (`[SEC 10-K]`):** Mentions of customer accounts (e.g., TSMC, Samsung, Intel) and product lines (BPO, Surfscan, Klarity) represent verified public disclosures from KLA's SEC Form 10-K and technical literature, included to ground preparation in realistic fab environments.
 
 ---
 
 ## 1. Executive Summary & Purpose
 
-This preparation pack provides a source-audited, technically rigorous curriculum engineered specifically for the **KLA Customer Applications Engineer** campus recruitment process at **IIT Kanpur** for the 2026–27 Phase 1 placement season.
+This preparation pack provides a source-audited, technically rigorous curriculum engineered specifically for the **KLA Applications Engineer** campus recruitment process at **IIT Kanpur** for the 2026–27 Phase 1 placement season.
 
 Unlike generic semiconductor overviews, this repository connects the dots between:
-1. **The Role Reality**: What an Applications Engineer at KLA actually does inside high-volume manufacturing (HVM) semiconductor foundries (e.g., TSMC, Samsung, Intel, Micron) to detect killer defects, calibrate optical inspection tools, optimize sensitivity recipes, and resolve yield excursions.
+1. **The Role Reality**: What an Applications Engineer at KLA does inside high-volume manufacturing (HVM) semiconductor foundries to detect killer defects, calibrate optical inspection tools, optimize sensitivity recipes, and resolve yield excursions.
 2. **The Candidate's Unique Asset Base**: How an IIT Kanpur M.Tech in Civil (Hydraulics & Water Resources Engineering) with deep expertise in OpenFOAM CFD, Navier-Stokes fluid mechanics, numerical methods, Python scientific programming, and tree-based ML (XGBoost/SHAP) builds an unshakeable, defensible pivot into semiconductor yield engineering.
 3. **The Recruitment Evidence**: Documented multi-stage interview workflows, online assessment patterns, technical question banks, customer-facing escalation scenarios, and Python/Perl automation routines.
 
@@ -24,7 +34,7 @@ Unlike generic semiconductor overviews, this repository connects the dots betwee
 ## 2. Evidence-Based Verification Standard
 
 All content across this package adheres to strict evidentiary standards:
-* **`[OFFICIAL KLA SOURCE]`**: Verified against KLA SEC filings, technical whitepapers, and official corporate portal disclosures.
+* **`[OFFICIAL KLA SOURCE]`**: Verified against KLA SEC filings (Form 10-K), technical whitepapers, and official corporate portal disclosures.
 * **`[IITK PLACEMENT SOURCE]`**: Verified against official IIT Kanpur placement proforma specifications.
 * **`[CANDIDATE INTERVIEW DEBRIEF]`**: Derived from verified historical candidate accounts across IIT campus drives.
 * **`[PEER-REVIEWED SEMICONDUCTOR/SPC STANDARD]`**: Grounded in SEMI standards, IEEE microelectronics literature, and statistical process control classics (Montgomery, Wheeler).

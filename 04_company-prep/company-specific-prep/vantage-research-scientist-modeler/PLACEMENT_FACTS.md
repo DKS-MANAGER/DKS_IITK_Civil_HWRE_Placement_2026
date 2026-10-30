@@ -33,8 +33,9 @@ Every entry in this factsheet is classified according to the following mandatory
 | **Role Designation** | Scientist – Modeler | `[OFFICIAL VR PORTAL]` |
 | **Target Proforma Level** | Scientist 2 (Sc2) recorded on proforma; Dual evaluation for Sc1 / Sc2 | `[OFFICIAL VR PORTAL]` & `[IITK PLACEMENT SOURCE]` |
 | **Service Agreement / Bond** | *Not specified in portal / proforma* | `[UNVERIFIED / PENDING CONFIRMATION]` |
-| **Eligible Academic Levels** | Master's (M.Tech / MS) and PhD; Bachelor's (B.Tech / BS) in quantitative majors | `[OFFICIAL VR PORTAL]` |
-| **Eligible Engineering Majors** | Mechanical, Chemical, Aerospace, Civil (quantitative/computational), Mathematics, Physics | `[OFFICIAL VR PORTAL]` |
+| **Eligible Academic Levels** | Master's (M.Tech / ME / MS) and PhD; Bachelor's (B.Tech / BE / BS) with strong quantitative modeling background | `[OFFICIAL VR PORTAL]` |
+| **Officially Listed Disciplines** | Chemical, Mechanical, Aerospace, Biomedical, Bioengineering, Computational Sciences, Mathematics, Physics | `[OFFICIAL VR PORTAL]` |
+| **Civil Engineering Eligibility** | **Not explicitly listed on portal**; candidate qualifies via transferable quantitative modeling & ODE/PDE competencies | `[CANDIDATE PIVOT / TRANSFERABLE]` & `[UNVERIFIED FOR CIVIL SPECIFICALLY]` |
 
 ---
 
@@ -43,49 +44,45 @@ Every entry in this factsheet is classified according to the following mandatory
 | Compensation Component | Stated Value / Status | Evidentiary Basis & Rules |
 | :--- | :--- | :--- |
 | **Proforma CTC Level** | Stated at Scientist 2 level on IITK proforma | `[IITK PLACEMENT SOURCE]` |
-| **Scientist 1 vs 2 Disparity** | Final CTC and level determined by evaluation performance across MSQ and interviews | `[OFFICIAL VR PORTAL]` |
+| **Scientist 1 vs 2 Disparity** | Single application; level determined by performance across MSQ and interviews | `[OFFICIAL VR PORTAL]` |
 | **Fixed Annual Base Pay** | *Pending detailed offer annexure release* | `[UNVERIFIED / PENDING CONFIRMATION]` |
 | **Performance Variable Bonus** | *Pending detailed offer annexure release* | `[UNVERIFIED / PENDING CONFIRMATION]` |
-| **Joining / Relocation Bonus** | Standard relocation support to Chennai typically provided post-offer | `[UNVERIFIED / PENDING CONFIRMATION]` |
-| **Retirals & Insurance** | Statutory Provident Fund (PF), Gratuity, Corporate Health Insurance | `[OFFICIAL VR CORPORATE]` |
+| **Joining / Relocation Support** | *Not specified in available proforma* | `[UNVERIFIED / NOT DOCUMENTED IN PROFORMA]` |
+| **Retirals & Insurance (PF/Gratuity)** | *Not specified in available proforma* | `[UNVERIFIED / NOT DOCUMENTED IN PROFORMA]` |
 | **Rule on Deductions** | CTC must not be equated to net take-home salary without a certified payroll annexure | `[EVIDENTIARY MANDATE]` |
 
 ---
 
-## 4. Verified Selection Process Workflow
+## 4. Confirmed Selection Process Workflow
 
-The official Vantage Research recruitment process follows a three-stage sequence:
+The official Vantage Research recruitment process follows an **MSQ assessment followed by two interview rounds**:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                          STAGE 1: MSQ ASSESSMENT                           │
+│               CONFIRMED RECRUITMENT WORKFLOW [OFFICIAL VR PORTAL]           │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Structure: Multiple Select Questions (MSQ) & quantitative problem solving │
-│ • Primary Scope: Applied Mathematics, Calculus, ODEs, Numerical Methods,    │
-│   Parameter Fitting, Scientific Coding interpretation, Basic Biology logic │
-│ • Provenance: [OFFICIAL VR PORTAL] & [IITK ALUMNI DEBRIEF]                  │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │ (Shortlist)
-                                       ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       STAGE 2: TECHNICAL INTERVIEW R1                       │
+│ STAGE 1: MSQ ASSESSMENT                                                     │
+│ • Status: Confirmed primary screening round.                                │
+│ • Stated Term: "MSQ assessment". Exact question count, duration, platform,  │
+│   and marking scheme are not publicly disclosed by the company.             │
+│ • Preparation Scope: Evaluates applied mathematics, differential equations, │
+│   numerical solvers, parameter estimation, sensitivity, and scientific code.│
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Structure: 60–90 minute deep-dive technical discussion                    │
-│ • Focus: Live ODE formulation, stability analysis, phase portraits, solver  │
-│   selection (stiffness), parameter estimation methods, sensitivity analysis │
-│ • Provenance: [OFFICIAL VR PORTAL] & [IITK ALUMNI DEBRIEF]                  │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │ (Shortlist)
-                                       ▼
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                   STAGE 3: RESEARCH & CLIENT DEFENSE R2                     │
+│ STAGE 2: INTERVIEW ROUND 1                                                  │
+│ • Status: Confirmed first technical interview round.                        │
+│ • Stated Scope: In-depth technical discussion of mathematical formulation,  │
+│   ODE/PDE systems, and scientific problem-solving. Duration is unconfirmed. │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ • Structure: 45–60 minute senior leadership & scientific reasoning round    │
-│ • Focus: Academic thesis defense (OpenFOAM / numerical modeling), research  │
-│   aptitude, scientific what-if inquiry, biological representation, fit      │
-│ • Provenance: [OFFICIAL VR PORTAL] & [IITK ALUMNI DEBRIEF]                  │
+│ STAGE 3: INTERVIEW ROUND 2                                                  │
+│ • Status: Confirmed second interview round.                                 │
+│ • Stated Scope: Evaluation of research depth, candidate projects, scientific│
+│   reasoning, and fit. Duration is unconfirmed.                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+> [!IMPORTANT]
+> **Evidentiary Note on Durations & Round Topics:**
+> Historical candidate debriefs (e.g., IITK alumni accounts) describe extended interviews with deep whiteboard ODE derivations and project scrutiny. However, specific interview durations (e.g., 60–90 min vs 45–60 min) and fixed topic assignments are **candidate-reported experiences (`[TIER 3 / CANDIDATE DEBRIEF]`) or pedagogical practice models (`[TIER 5 / SIMULATION]`)**, NOT officially guaranteed parameters.
 
 ---
 

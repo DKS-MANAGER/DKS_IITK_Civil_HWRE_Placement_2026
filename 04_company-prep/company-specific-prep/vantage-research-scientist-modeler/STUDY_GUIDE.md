@@ -9,6 +9,11 @@
 
 ## 1. Preparation Strategy & Allocation of Effort
 
+> [!NOTE]
+> **Evidentiary Disclaimer on Schedule & Mock Formats:**  
+> This 28-day study schedule is a **pedagogical preparation model (`[TIER 5 / SIMULATION]`)**, engineered to systematically cover all technical competencies verified from the official job description.  
+> Specific mock test durations (e.g., 90-minute practice blocks) and interview simulation tracks (Track A Technical vs Track B Research) are **internal training designs**, NOT officially confirmed company test durations or rigid interview round divisions. The company officially specifies an MSQ assessment followed by two interview rounds.
+
 The preparation curriculum is organized into four sequential 7-day phases, allocating effort according to strategic weight:
 
 ```

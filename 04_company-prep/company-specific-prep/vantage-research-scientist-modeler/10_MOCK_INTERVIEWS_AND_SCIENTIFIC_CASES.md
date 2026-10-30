@@ -9,11 +9,14 @@
 
 ## 1. Executive Summary & Interview Structure
 
-The Vantage Research interview process consists of two intensive technical rounds following the MSQ screening test:
-* **Round 1 (Technical Competency & Mathematical Derivation)**: 60–90 minutes with a Senior Modeler. Focuses on live mathematical formulation, Jacobian stability, numerical stiffness, and parameter fitting.
-* **Round 2 (Research Depth, Problem Solving & Communication)**: 45–60 minutes with a Principal Scientist / Director. Focuses on open-ended scientific modeling, candidate's M.Tech thesis defense, client storytelling, and biological representation.
+The Vantage Research official job posting establishes **two interview rounds** following the initial MSQ screening assessment (`[OFFICIAL VR PORTAL]`):
+* **Confirmed Structure**: Two comprehensive interview rounds evaluating modeling formulation, research depth, parameter estimation, and scientific communication.
+* **Pedagogical Practice Framework**: To ensure complete coverage of both fundamental mathematics and open-ended research problem-solving, this preparation module organizes simulation practice into four focused tracks:
+  * *Track A & Track C*: Mathematical derivations, coupled ODEs, Jacobian stability, and live coding.
+  * *Track B & Track D*: Open-ended biological case modeling, thesis defense, and client communication.
+  * *Evidentiary Note*: Specific practice block durations (e.g., 60–90 min) and thematic track divisions are **pedagogical simulation designs (`[PRACTICE SIMULATION]`)**, not officially mandated corporate schedules.
 
-This module provides four complete, realistic mock interview tracks featuring explicit **Scientist 1 (Adequate/Pass) vs Scientist 2 (Exceptional/Target)** comparative dialogues.
+This module provides realistic mock interview tracks featuring explicit **Scientist 1 (Adequate/Pass) vs Scientist 2 (Exceptional/Target)** comparative dialogues.
 
 ---
 

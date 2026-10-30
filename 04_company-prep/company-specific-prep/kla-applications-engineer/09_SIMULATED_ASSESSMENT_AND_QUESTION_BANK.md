@@ -1,10 +1,10 @@
 # Module 09: Simulated Assessment & Comprehensive Question Bank
-## 35+ Rigorous Practice Problems across Quantitative Aptitude, Semiconductor Physics, SPC Math & Scripting
+## 15 In-Depth Representative Practice Problems across Quantitative Aptitude, Semiconductor Physics, SPC Math & Scripting
 
-> **Document Status**: Simulated Assessment Practice Pack  
-> **Target Role**: Customer Applications Engineer (CAE) at KLA Corporation  
+> **Document Status**: Simulated Assessment Practice Pack `[TIER 5 PEDAGOGICAL SIMULATION]`  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]` (Functional CAE Benchmark)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
-> **Notice**: These are simulated technical questions designed to match the difficulty and topical scope of KLA campus assessments; they are not confidential recruitment leaks.
+> **Notice**: These are simulated technical problems designed to practice the analytical rigor and domain concepts tested in semiconductor engineering assessments; they do not represent a confidential recruitment test or an official platform paper.
 
 ---
 

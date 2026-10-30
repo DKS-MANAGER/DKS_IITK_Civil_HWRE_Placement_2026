@@ -27,16 +27,16 @@ Every factual claim, requirement, and compensation figure in this preparation pa
 | :--- | :--- | :--- |
 | **Company Legal Name** | KLA Corporation (formerly KLA-Tencor Corporation) | `[OFFICIAL KLA SOURCE]` |
 | **Global Headquarters** | Milpitas, California, United States | `[OFFICIAL KLA SOURCE]` |
-| **India Development Hubs** | Chennai (Ascendas International Tech Park / IITM Research Park) & Bengaluru, Karnataka | `[OFFICIAL KLA SOURCE]` |
-| **Global Market Position** | World leader in semiconductor process control, yield management, and wafer inspection/metrology (>55% global market share in process diagnostic equipment) | `[OFFICIAL KLA SOURCE]` |
+| **India Base Location** | **Unspecified in supplied proforma** (`[UNSPECIFIED IN PROFORMA]`). KLA India operates primary engineering centers in Chennai (Ascendas / IITM Research Park) and Bengaluru, Karnataka | `[OFFICIAL KLA SOURCE]` / `[UNSPECIFIED IN PROFORMA]` |
+| **Global Market Position** | World leader in **Semiconductor Process Diagnostics and Control (PDC)** equipment (>50% to ~55% global market share in semiconductor process control per Gartner Market Share Analysis 2022/2023 & KLA SEC Form 10-K / Investor Day disclosures) | `[OFFICIAL KLA 10-K & GARTNER INDUSTRY DATA]` |
 | **Primary Industry** | Semiconductor & Electronics Manufacturing Equipment | `[OFFICIAL KLA SOURCE]` |
 | **Recruitment Season** | IIT Kanpur Placement 2026–27, Phase 1 | `[IITK PLACEMENT SOURCE]` |
-| **Designated Role** | Customer Applications Engineer (CAE) / Applications Engineer | `[ROLE-BASED INFERENCE]` & `[OFFICIAL KLA SOURCE]` |
-| **Stated Total CTC** | **₹28,50,000 (INR 28.50 LPA)** | `[IITK PLACEMENT SOURCE]` |
+| **Designated Role Title** | **Applications Engineer** (`[OFFICIAL PROFORMA FACT]`); functionally equivalent to **Customer Applications Engineer (CAE)** in KLA Global Customer Operations | `[OFFICIAL PROFORMA FACT]` & `[KLA GCO FRAMEWORK]` |
+| **Stated Total CTC** | **₹28,50,000 (INR 28.50 LPA)** | `[OFFICIAL PROFORMA FACT]` |
 | **Fixed vs. Variable Breakdown** | *Not broken down in active proforma overview; preserved as stated total CTC without speculative deductions* | `[EVIDENTIARY MANDATE]` |
-| **Travel Requirement** | **>80% to customer fab facilities worldwide** (Taiwan, South Korea, Japan, US, Europe, Singapore) | `[IITK PLACEMENT SOURCE]` & `[OFFICIAL KLA SOURCE]` |
+| **Travel Requirement** | **>80% to customer fab facilities worldwide** | `[OFFICIAL PROFORMA FACT]` |
 | **Operating Environment** | Advanced Cleanroom Semiconductor Fabs (Class 1 / Class 10 / ISO 3–4 cleanrooms) and KLA Applications Labs | `[OFFICIAL KLA SOURCE]` |
-| **Target Academic Degrees** | M.Tech / Dual Degree / MS / Ph.D. (Preferred: Chemical, Materials Science, Mechanical, Electrical, Civil/Computational) | `[IITK PLACEMENT SOURCE]` & `[OFFICIAL KLA SOURCE]` |
+| **Target Academic Degrees** | M.Tech / Dual Degree / MS / Ph.D. (Quantitative, Computational & Engineering Disciplines) | `[IITK PLACEMENT SOURCE]` & `[OFFICIAL KLA SOURCE]` |
 | **Service Agreement / Bond** | *None stated on proforma overview* | `[UNVERIFIED / PENDING CONFIRMATION]` |
 
 ---
@@ -57,12 +57,12 @@ Based on the supplied proforma specifications and verified KLA Customer Applicat
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                   KLA CUSTOMER APPLICATIONS ENGINEER (CAE)                  │
+│                 KLA APPLICATIONS ENGINEER (CAE BENCHMARK)                   │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 1. FAB ON-SITE INVESTIGATION & DATA HARVESTING                              │
 │    • Deploy directly to customer semiconductor fabs (>80% travel).          │
 │    • Interface with fab process engineers, integration leads, and yield     │
-│      managers at global foundry/memory leaders (TSMC, Intel, Samsung, etc.). │
+│      managers (e.g., global foundries/IDMs disclosed in KLA 10-K filings).  │
 │    • Extract, clean, and analyze high-volume fab inspection logs & wafer    │
 │      maps (KLARF files, defect coordinates, optical patch images).          │
 ├─────────────────────────────────────────────────────────────────────────────┤

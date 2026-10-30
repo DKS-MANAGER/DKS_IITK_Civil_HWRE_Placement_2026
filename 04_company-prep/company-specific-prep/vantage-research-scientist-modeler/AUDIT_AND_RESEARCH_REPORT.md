@@ -59,14 +59,14 @@ QSP is an interdisciplinary field that merges:
 Unlike black-box machine learning or purely statistical regression, QSP models are **mechanistic**. They are formulated as large systems of coupled **Ordinary Differential Equations (ODEs)** grounded in the law of mass action, enzyme kinetics, and biological mass balances.
 
 ### 2.5 Core Therapeutic Areas at Vantage Research
-Based on published scientific abstracts at global pharmacometrics meetings (PAGE, ACoP):
+Based on published scientific abstracts at global pharmacometrics meetings (PAGE, ACoP) and the official corporate site ([`https://vantage-research.net/therapeutic-areas/`](https://vantage-research.net/therapeutic-areas/)):
 * **Oncology & Immuno-Oncology**: Modeling Antibody-Drug Conjugates (ADCs), T-cell engagers, bispecific antibodies, immune checkpoint inhibitors (anti-PD1/PD-L1), and tumor microenvironment dynamics.
 * **Autoimmune & Inflammatory Diseases**: Cytokine network signaling in Rheumatoid Arthritis (RA), Psoriasis, and Inflammatory Bowel Disease (IBD).
 * **Metabolism & Diabetes**: Multi-organ glucose-insulin homeostasis, beta-cell dynamics, and GLP-1 receptor agonist pharmacodynamics.
 * **Weight-Loss & Obesity**: Mechanistic regulation of energy expenditure, gut hormones, and satiety dynamics.
 
 ### 2.6 Proprietary Tooling: `VQMTools`
-Vantage Research has developed proprietary software modules such as **`VQMTools`** (Virtual Population and Quantitative Modeling Tools). These tools standardize:
+Vantage Research has developed proprietary software modules such as **`VQMTools`** (Virtual Population and Quantitative Modeling Tools), demonstrated in scientific abstracts at international conferences ([PAGE Meetings](https://www.page-meeting.org/) and [ACoP](https://www.go-acop.org/)). These tools standardize:
 * Multi-scale ODE solver execution in MATLAB/Python.
 * Systematic virtual patient generation (sampling parameter distributions that reproduce biological variability).
 * Global sensitivity analysis to isolate key target parameters.
@@ -113,9 +113,15 @@ The official posting (`vantageresearch.keka.com/careers/jobdetails/33897`) defin
 │                                   │ • Communicate with client research teams│
 │                                   │ • Lead projects aligning to client goals│
 ├───────────────────────────────────┼─────────────────────────────────────────┤
-│ ELIGIBLE QUANTITATIVE DISCIPLINES │ Master's / PhD / Bachelor's in:         │
-│                                   │ Mechanical, Chemical, Aerospace,        │
-│                                   │ Civil (computational), Math, Physics.   │
+│ OFFICIALLY LISTED DISCIPLINES     │ Master's / PhD / Bachelor's in:         │
+│ (PER OFFICIAL KEKA PORTAL)        │ Chemical, Mechanical, Aerospace,        │
+│                                   │ Biomedical, Bioengineering,             │
+│                                   │ Computational Sciences, Math, Physics.  │
+│                                   │ *Civil is NOT explicitly listed.*       │
+├───────────────────────────────────┼─────────────────────────────────────────┤
+│ CANDIDATE BACKGROUND ALIGNMENT    │ M.Tech Civil (HWRE): Qualifies via      │
+│ (HWRE / COMPUTATIONAL PIVOT)      │ transferable quantitative modeling,     │
+│                                   │ ODE/PDE solvers, fluid transport & FVM. │
 ├───────────────────────────────────┼─────────────────────────────────────────┤
 │ MANDATORY TECHNICAL SKILLS        │ ODE/PDE simulation (MATLAB, Python, R), │
 │                                   │ parameter estimation, optimization,     │
@@ -172,37 +178,53 @@ Vantage Research maintains an integrated selection process where candidates appl
 
 ---
 
-## 6. Recruitment Process Research & Candidate Experiences
+## 6. Recruitment Process Research & Evidentiary Synthesis
 
-### 6.1 Stage 1: The MSQ Assessment (`[OFFICIAL VR PORTAL]` & `[IITK ALUMNI DEBRIEF]`)
-* **Format**: **Multiple Select Questions (MSQ)**. Candidates must select *all* correct options among given choices. Partial marking is typically absent or highly penalized.
-* **Core Topics Tested**:
-  1. *Calculus & Linear Algebra*: Matrix eigenvalues, trace-determinant stability criterion, Taylor series expansion, chain rule.
-  2. *Differential Equations*: Classifying equilibrium points (saddle, stable node, center), stiffness detection, initial condition effects.
-  3. *Numerical Analysis*: Truncation error of Euler vs RK4, Butcher tableau concepts, explicit vs implicit stability regions, CFL condition.
-  4. *Parameter Fitting*: Minimizing sum of squared residuals, local vs global minima, gradient descent vs Gauss-Newton vs Levenberg-Marquardt.
-  5. *Sensitivity Analysis*: Normalized sensitivity index formulation $S = \frac{\partial y}{\partial p} \frac{p}{y}$.
-  6. *Python/MATLAB Code Interpretation*: Tracing output of differential equation solvers, slicing arrays, vectorization mistakes.
-  7. *Pharmacology & Biology Logic*: Basic 1-compartment IV bolus concentration decay, Michaelis-Menten kinetics asymptotes ($[S] \ll K_m$ vs $[S] \gg K_m$).
+### 6.1 Confirmed Selection Process (`[OFFICIAL VR PORTAL]`)
+The official Vantage Research job posting establishes that the selection process consists of **an MSQ assessment followed by two interview rounds**:
 
-### 6.2 Stage 2: Technical Interview Round 1 (`[IITK ALUMNI DEBRIEF]`)
-* **Duration**: Extended deep-dive (typically 60 to 90 minutes).
-* **Interviewer**: Senior Scientist / Lead Modeler.
-* **Format**: Highly conversational, whiteboard/screen-share mathematical derivation.
-* **Verified Key Questions & Discussion Themes**:
-  * "Given a physical/biological verbal description, write down the governing system of differential equations."
-  * "Calculate the equilibrium points of this coupled system and perform linear stability analysis using the Jacobian matrix."
-  * "Why would an explicit Runge-Kutta solver fail on this biological network? How do you diagnose and resolve numerical stiffness?"
-  * "If experimental data has high noise at early timepoints, how would you design your objective function for parameter estimation?"
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                 OFFICIALLY CONFIRMED SELECTION SEQUENCE                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 1. MSQ ASSESSMENT                                                           │
+│    • Primary quantitative screening round.                                  │
+│    • Preserves the confirmed term "MSQ assessment". Exact question count,   │
+│      test platform, duration, and scoring rubrics are not made public.      │
+│    • Preparation scope covers core JD competencies: ODE/PDE modeling,       │
+│      calculus, numerical solvers, parameter estimation, sensitivity, code.  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 2. INTERVIEW ROUND 1                                                        │
+│    • First interview round following MSQ screening shortlist.               │
+│    • Focuses on mathematical problem solving, modeling formulation, and     │
+│      differential equations. Specific duration is unconfirmed.             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 3. INTERVIEW ROUND 2                                                        │
+│    • Second interview round.                                                │
+│    • Focuses on candidate research projects, problem-solving depth,         │
+│      scientific independence, and candidate fit. Duration is unconfirmed.   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-### 6.3 Stage 3: Research Depth & Problem Solving Round 2 (`[IITK ALUMNI DEBRIEF]`)
-* **Duration**: 45 to 60 minutes.
-* **Interviewer**: Principal Scientist / Director of Modeling.
-* **Verified Key Questions & Discussion Themes**:
-  * Granular scrutiny of candidate's academic research / M.Tech thesis.
-  * Probing scientific independence: "Why did you choose this turbulence model/solver? What were its limitations? What would you do differently?"
-  * Open-ended biological case: Formulating a multi-compartment model for an antibody drug.
-  * Client scenario: "How do you explain to a pharmaceutical client that their proposed drug dose will cause receptor saturation without increasing efficacy?"
+### 6.2 The MSQ Assessment: Institutional Analysis & Clarification
+* **Confirmed Fact**: The screening test is officially designated as an **"MSQ assessment"** on the recruitment portal.
+* **Investigative Analysis**: In Indian national technical examinations (e.g., GATE), the acronym MSQ designates **Multiple Select Questions** (where one or more choices can be correct with zero partial credit). In other corporate recruitment contexts, it may refer to a "Model-based Screening Quiz" or a composite technical screening test.
+* **Evidentiary Boundary**: The company does *not* publish an official test syllabus, question count, or platform specification. 
+* **Preparation Implication**: Candidates should prepare across the 7 technical competencies stated in the official JD, practicing multi-select elimination logic where every option is treated as an independent mathematical proposition.
+
+### 6.3 Historical Candidate Interview Debrief (`[TIER 3 / CANDIDATE DEBRIEF]`)
+* **Verified Source**: IIT Kanpur Academics and Career Council (AnC Council) Placement Fundae (*Placement Fundae # 3 : Research*, featuring Advaith Kannan, Y21 BSBE).
+* **Documented Interview Reality**:
+  * Interviews heavily scrutinize resume projects and past research internships.
+  * Live whiteboard/screen-share derivation of fundamental applied mathematics, particularly **Ordinary Differential Equations (ODEs)**.
+  * Interviewers evaluate the candidate's ability to apply mathematical concepts to real-world scenarios rather than solving mechanical textbook equations.
+* **Evidentiary Limitation**: This reflects a single candidate's anecdotal interview experience (`[TIER 3]`); it must not be assumed that every candidate receives identical round lengths or questions.
+
+### 6.4 Pedagogical Simulation Framework (`[TIER 5 / SIMULATION]`)
+To ensure comprehensive preparation, this preparation package organizes interview practice into two distinct simulation tracks:
+* *Track A (Technical Foundations & Live ODEs)*: Modeled on live mathematical derivations, Jacobian stability, and stiff solver diagnostics.
+* *Track B (Research Defense & Client Storytelling)*: Modeled on defending the M.Tech Civil HWRE thesis, open-ended modeling, and client communication.
+* **Note**: These track assignments and practice timeframes (e.g., 60–90 min practice blocks) are **pedagogical preparation designs**, NOT mandatory official corporate rules.
 
 ---
 

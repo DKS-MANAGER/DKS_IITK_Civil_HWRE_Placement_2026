@@ -1,10 +1,10 @@
 # Module 10: Technical Interview & Fab Engineering Case Studies
 ## 4 Real-World Fab Troubleshooting Cases & Comprehensive Technical Q&A Bank
 
-> **Document Status**: Authoritative Engineering Interview Case Dossier  
-> **Target Role**: Customer Applications Engineer (CAE) at KLA Corporation  
+> **Document Status**: Engineering Interview Case Dossier `[TIER 5 PEDAGOGICAL SIMULATION]`  
+> **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]` (Functional CAE Benchmark)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
-> **Notice**: These simulated industrial case studies reflect actual customer fab scenarios encountered by KLA Applications Engineers inside high-volume semiconductor foundries.
+> **Notice**: These simulated industrial case studies are pedagogical preparation exercises modeling high-volume semiconductor fab scenarios; they do not represent confidential customer disclosures or proprietary fab records.
 
 ---
 
