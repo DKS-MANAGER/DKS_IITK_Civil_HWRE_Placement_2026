@@ -49,6 +49,7 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 | **Axis Bank** | BI Analyst | ₹14.43L | Bangalore | Tech + HR | Excel, SQL, analytics |
 | **Axtria** | Analyst | ₹14.5L | Multiple | OA → Technical → HR | Life sciences, data science |
 | **Auronova** | Quant Analyst | ₹14L | Mumbai | Tech + HR | C++, Python, statistics |
+| **Vantage Research** | Scientist – Modeler (Sc1/Sc2) | Competitive (Sc2 Proforma) | Chennai | MSQ → Tech R1 → Research R2 | ODE/PDE, QSP, PK/PD, parameter estimation, Python/MATLAB, sensitivity · [Dedicated Pack](../company-specific-prep/vantage-research-scientist-modeler/README.md) |
 
 ### 4. Technology/Software
 *Focus: DSA, coding, system design*
@@ -61,6 +62,7 @@ Compilation of companies relevant to Civil, HWRE, and related disciplines. Based
 | **BNY Mellon** | Software Engineer | ₹26.64L | Pune/Chennai | Tech + HR | C/C++, Python, DSA |
 | **Cadence** | Software Engineer | ₹22-24.5L | Bangalore | Tech + HR | Verilog, C++, graph theory |
 | **CapitalOne** | Software Engineer | ₹22L | Bangalore | Tech + HR | Java, Python, AWS, ML |
+| **KLA Corporation** | Customer Applications Engineer (CAE) | ₹28.5L (Total CTC) | Chennai / Global Fabs (>80% Travel) | OA → Tech R1 → Tech R2/Case → Managerial/HR | Wafer inspection, metrology, SPC, killer defects, Python/Perl, CFD/transport pivot · [Dedicated Pack](../company-specific-prep/kla-applications-engineer/README.md) |
 
 ### 5. Infrastructure/Real Estate
 *Focus: Construction, project management*

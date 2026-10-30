@@ -24,7 +24,9 @@ The `04_company-prep/` layer is organized into seven modular directories:
     ├── deloitte-analyst-ai-analytics/ # Deloitte US-India — Analyst (AI, Analytics & Tech Consulting) Pack
     ├── exxonmobil-engineer/       # ExxonMobil (EMSTPL) — Engineer (Civil, HWRE, Energy & Facilities) Pack
     ├── hilti-get-value-engineering/ # Hilti (HTSI) — GET (Global Value Engineering Hub, Pune) Pack
-    └── larsen-toubro-pget-civil/  # Larsen & Toubro — PGET (Civil Engineering & EPC Infrastructure) Pack
+    ├── larsen-toubro-pget-civil/  # Larsen & Toubro — PGET (Civil Engineering & EPC Infrastructure) Pack
+    ├── vantage-research-scientist-modeler/ # Vantage Research — Scientist Modeler (QSP & Mechanistic PK/PD) Pack
+    └── kla-applications-engineer/ # KLA Corporation — Customer Applications Engineer (Semiconductor Yield) Pack
 ```
 
 ---
@@ -56,7 +58,7 @@ All facts in this directory are governed by strict provenance tags to distinguis
 | **HWRE & Water Resources** | [`hwre-companies/`](hwre-companies/README.md) | 121-company corporate target directory across 13 sector clusters (Water Consulting, GIS, EPC, Hydro, Pumps, Water Treatment, Energy Fluids). | [Vassarlabs](hwre-companies/02_water-resources-gis/001_vassarlabs.md), [AECOM](hwre-companies/01_water-consulting/022_aecom.md), [Mott MacDonald](hwre-companies/01_water-consulting/023_mott-macdonald.md), [SLB](hwre-companies/09_energy-fluids-rnd/006_slb-schlumberger.md). |
 | **Consulting & Advisory** | [`consulting-companies/`](consulting-companies/) | Strategic problem solving, analytics consulting, multidisciplinary engineering, and risk advisory. | [Mu Sigma](consulting-companies/mu-sigma.md), [KBR](consulting-companies/11_multidisciplinary-consulting/010_kbr.md), [TCE](consulting-companies/11_multidisciplinary-consulting/025_tata-consulting-engineers.md). |
 | **Software, Tech & SaaS** | [`software-companies/`](software-companies/) | Enterprise software, data analytics, cloud platforms, and supply chain technologies. | [Darwinbox](software-companies/darwinbox.md), [DeltaX](software-companies/deltax.md), [Tech Mahindra](software-companies/tech-mahindra.md), [CEI America](software-companies/cei-american.md). |
-| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS)<br>[Deloitte USI Analyst](company-specific-prep/deloitte-analyst-ai-analytics/README.md) (AI, Analytics & Tech Consulting)<br>[ExxonMobil Engineer](company-specific-prep/exxonmobil-engineer/README.md) (Engineer — Civil & HWRE)<br>[Hilti GET](company-specific-prep/hilti-get-value-engineering/README.md) (Global Value Engineering Hub)<br>[Larsen & Toubro PGET](company-specific-prep/larsen-toubro-pget-civil/README.md) (Post Graduate Engineer Trainee — Civil). |
+| **Dedicated Prep Packs** | [`company-specific-prep/`](company-specific-prep/) | Comprehensive, multi-module interview preparation packages built for high-priority hiring drives. | [Accenture Japan](company-specific-prep/accenture-japan/README.md) (Digital Consultant)<br>[Citi AIM Analytics](company-specific-prep/citicorp-aim-analytics/README.md) (Business Analytics SBS)<br>[Deloitte USI Analyst](company-specific-prep/deloitte-analyst-ai-analytics/README.md) (AI, Analytics & Tech Consulting)<br>[ExxonMobil Engineer](company-specific-prep/exxonmobil-engineer/README.md) (Engineer — Civil & HWRE)<br>[Hilti GET](company-specific-prep/hilti-get-value-engineering/README.md) (Global Value Engineering Hub)<br>[Larsen & Toubro PGET](company-specific-prep/larsen-toubro-pget-civil/README.md) (Post Graduate Engineer Trainee — Civil)<br>[Vantage Research Scientist Modeler](company-specific-prep/vantage-research-scientist-modeler/README.md) (Scientist 1 & 2 — QSP & PK/PD)<br>[KLA Corporation Applications Engineer](company-specific-prep/kla-applications-engineer/README.md) (Customer Applications Engineer — Semiconductor Yield). |
 
 ---
 
@@ -159,6 +161,33 @@ For flagship campus opportunities with verified job descriptions or placement pr
   * [`09_TECHNICAL_INTERVIEW_AND_PROJECT_DISCUSSION.md`](company-specific-prep/larsen-toubro-pget-civil/09_TECHNICAL_INTERVIEW_AND_PROJECT_DISCUSSION.md) — M.Tech thesis EPC defense framework, 30 technical prompts + follow-ups, 20 site troubleshooting scenarios.
   * [`10_HR_BEHAVIOURAL_AND_COMMUNICATION.md`](company-specific-prep/larsen-toubro-pget-civil/10_HR_BEHAVIOURAL_AND_COMMUNICATION.md) — "Why L&T" strategic positioning, site resilience, PAN-India mobility, and 25 STAR behavioral prompts.
   * [`11_MOCK_TESTS_AND_SOLUTIONS.md`](company-specific-prep/larsen-toubro-pget-civil/11_MOCK_TESTS_AND_SOLUTIONS.md) — 4 complete mock assessments (Mock 1 Core Civil 60 Qs, Mock 2 Aptitude 60 Qs, Mock 3 Integrated 120 Qs, Mock 4 Site Scenarios 30 Qs; 270 total questions with full worked solutions).
+
+### 4.7 Vantage Research — Scientist Modeler (Scientist 1 & Scientist 2 — QSP & PK/PD)
+* **Target Package**: [`company-specific-prep/vantage-research-scientist-modeler/`](company-specific-prep/vantage-research-scientist-modeler/README.md)
+* **Core Profile**: Contract Research Organization (CRO) specializing in Quantitative Systems Pharmacology (QSP), mechanistic PK/PD mathematical modeling, ODE/PDE dynamical systems, and pharmaceutical simulation.
+* **Selection & Governance**: MSQ Assessment $\rightarrow$ Technical Interview R1 $\rightarrow$ Research & Problem-Solving R2; evaluated jointly for Scientist 1 and Scientist 2.
+
+### 4.8 KLA Corporation — Customer Applications Engineer (Semiconductor Yield)
+* **Target Package**: [`company-specific-prep/kla-applications-engineer/`](company-specific-prep/kla-applications-engineer/README.md)
+* **Core Profile**: World leader in semiconductor process control and yield management (>55% global market share). Profile focuses on high-volume fab on-site yield troubleshooting, optical inspection recipe sensitivity tuning, killer defect elimination, BKM documentation, and Python/Perl fab data analytics.
+* **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA); >80% international and domestic travel to global semiconductor foundries (TSMC, Intel, Samsung, Micron).
+* **Master Architecture (13-File Suite)**:
+  * [`README.md`](company-specific-prep/kla-applications-engineer/README.md) — Master navigation hub, executive overview, directory map & 3-minute pivot narrative.
+  * [`PLACEMENT_FACTS.md`](company-specific-prep/kla-applications-engineer/PLACEMENT_FACTS.md) — Audited proforma records, CTC ₹28.5L factsheet, >80% travel obligations, 5-tier taxonomy.
+  * [`01_COMPANY_AND_ROLE_RESEARCH.md`](company-specific-prep/kla-applications-engineer/01_COMPANY_AND_ROLE_RESEARCH.md) — Corporate profile, semiconductor ecosystem, KLA product families (BPO, Surfscan, Archer, eSL10, Klarity), CAE day-to-day duties.
+  * [`02_RECRUITMENT_PROCESS_AND_EVIDENCE.md`](company-specific-prep/kla-applications-engineer/02_RECRUITMENT_PROCESS_AND_EVIDENCE.md) — 4-stage selection pipeline (OA $\rightarrow$ Tech R1 $\rightarrow$ Tech R2/Case $\rightarrow$ Managerial/HR), candidate interview reports, evidence ledger.
+  * [`03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md`](company-specific-prep/kla-applications-engineer/03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md) — Wafer fabrication flow (FEOL/BEOL), Rayleigh litho equations, Preston CMP law, Poisson & Negative Binomial yield models.
+  * [`04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md`](company-specific-prep/kla-applications-engineer/04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md) — Brightfield vs. Darkfield optics, overlay metrology, Shewhart charts ($\bar{X}-R$), Western Electric rules, $C_p / C_{pk}$ capability indices, RCA 5-Whys.
+  * [`05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md`](company-specific-prep/kla-applications-engineer/05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md) — Statistical testing (t-test, ANOVA), KLARF inspection file standard, production Python KLARF parser class, ROC sensitivity tuning.
+  * [`06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md`](company-specific-prep/kla-applications-engineer/06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md) — Automated Defect Classification (ADC) with XGBoost, imbalanced learning, SHAP explainability, 50-line fab Perl log parser.
+  * [`07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md`](company-specific-prep/kla-applications-engineer/07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md) — Navier-Stokes transport to CMP slurry lubrication analogy, project defense (OpenFOAM, BridgeRisk), 3-minute pivot pitch.
+  * [`08_CUSTOMER_FACING_SCENARIOS_AND_HR.md`](company-specific-prep/kla-applications-engineer/08_CUSTOMER_FACING_SCENARIOS_AND_HR.md) — Cleanroom fab operations, 5-phase escalation management, BKM template, >80% travel defense, STAR behavioral models.
+  * [`09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md`](company-specific-prep/kla-applications-engineer/09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) — 15 rigorous practice questions with complete mathematical derivations, distractor refutations, and concepts.
+  * [`10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md`](company-specific-prep/kla-applications-engineer/10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md) — 4 deep fab engineering troubleshooting case studies + comprehensive Q&A bank across three difficulty tiers.
+  * [`11_PRACTICE_PROJECTS_PORTFOLIO.md`](company-specific-prep/kla-applications-engineer/11_PRACTICE_PROJECTS_PORTFOLIO.md) — 4 end-to-end reproducible projects (Wafer clustering, ADC XGBoost/SHAP, SPC engine, CMP fluid dynamics).
+  * [`READINESS_SCORECARD.md`](company-specific-prep/kla-applications-engineer/READINESS_SCORECARD.md) — Competency matrix, gap analysis, and 10-point pre-interview verification checklist.
+  * [`STUDY_GUIDE.md`](company-specific-prep/kla-applications-engineer/STUDY_GUIDE.md) — 4-week structured preparation timeline, daily milestones, and revision strategy.
+  * [`SOURCES.md`](company-specific-prep/kla-applications-engineer/SOURCES.md) — Complete research evidence ledger with citations, source tiers, access dates, and confidence ratings.
 
 ---
 
