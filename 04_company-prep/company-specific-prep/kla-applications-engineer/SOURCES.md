@@ -35,6 +35,8 @@ In accordance with institutional research integrity standards, all sources cited
 | **SRC-11** | Preston's Law for Chemical Mechanical Planarization ($MRR = k_p \cdot P \cdot V$). | Preston, F. W. *The Theory and Design of Plate Glass Polishing Machines*, J. Soc. Glass Tech. | Tier 2 | 1927 | Oct 2026 | Canonical foundation for CMP wafer polishing physics. | **High `[STANDARD]`** |
 | **SRC-12** | Negative Binomial and Murphy Yield Models ($Y = (1 + A D_0 / \alpha)^{-\alpha}$). | Stapper, C. H. *Defect Density Distribution for LSI Yield Calculations*, IEEE Trans. Electron Devices | Tier 2 | 1973 | Oct 2026 | Foundational peer-reviewed semiconductor yield modeling literature. | **High `[STANDARD]`** |
 | **SRC-13** | Statistical Process Control, Shewhart charts, and $C_p / C_{pk}$ capability indices. | Montgomery, D. C. *Introduction to Statistical Quality Control*, 8th Ed., Wiley (2019) | Tier 2 | 2019 | Oct 2026 | Authoritative international engineering textbook on SPC and Six Sigma. | **High `[STANDARD]`** |
+| **SRC-14** | KLA India Total Rewards, NCG 180-Day Roadmap, 70-20-10 Model, NEOTERIX & MAKERSPACE. | Official KLA India Campus Presentation Recording (`Screen Recording 2026-11-02 111146.mp4`), Peter Deol & Dinesh Mishra | Tier 1 | Oct 2026 | Nov 2026 | Primary source; confirmed ₹7L medical floater, 3x base life/accident, 15% ESPP discount, leaves, DLF/RMZ Chennai sites, NCG robotics. | **High `[CONFIRMED]`** |
+| **SRC-15** | Official KLA India Campus Presentation High-Resolution Slide Photograph Set (12 photographic captures from live session). | `C:\Users\divya\Downloads\New folder\` (`WhatsApp Image 2026-11-02 at 1.04.*.jpeg`) | Tier 1 | Oct 2026 | Nov 2026 | Primary source; verified 10-Step AE Value Creation Chain (Slide 32), 3 Process Axioms (Slide 19), 6 Tech Pillars (Slide 21), 11T transistors/wafer (Slide 28), and 5-Dimension Holistic Wellbeing (Slide 37). | **High `[CONFIRMED]`** |
 
 ---
 
@@ -44,7 +46,8 @@ In accordance with institutional research integrity standards, all sources cited
 2. **KLA Careers & Job Search**: [`https://www.kla.com/careers`](https://www.kla.com/careers)
 3. **KLA Investor Relations & Annual SEC 10-K Filings**: [`https://ir.kla.com`](https://ir.kla.com)
 4. **IIT Kanpur Student Placement Office (SPO)**: [`https://www.iitk.ac.in/spo`](https://www.iitk.ac.in/spo)
-5. **GeeksforGeeks — KLA Interview Experiences (India)**: [`https://www.geeksforgeeks.org/tag/kla/`](https://www.geeksforgeeks.org/tag/kla/)
-6. **Glassdoor India — KLA Applications Engineer Interview Questions**: Verified historical debriefs for Chennai and Bengaluru locations.
-7. **AmbitionBox — KLA Corporation Recruitment Process**: Historical selection workflow patterns and candidate ratings.
-8. **SEMI (Semiconductor Equipment and Materials International)**: Standards for wafer mapping, defect reporting, and equipment communication (SEMI E142, SECS/GEM).
+5. **KLA India Campus Presentation Deck & Video**: Official October 2026 campus recruitment presentation recording.
+6. **GeeksforGeeks — KLA Interview Experiences (India)**: [`https://www.geeksforgeeks.org/tag/kla/`](https://www.geeksforgeeks.org/tag/kla/)
+7. **Glassdoor India — KLA Applications Engineer Interview Questions**: Verified historical debriefs for Chennai and Bengaluru locations.
+8. **AmbitionBox — KLA Corporation Recruitment Process**: Historical selection workflow patterns and candidate ratings.
+9. **SEMI (Semiconductor Equipment and Materials International)**: Standards for wafer mapping, defect reporting, and equipment communication (SEMI E142, SECS/GEM).

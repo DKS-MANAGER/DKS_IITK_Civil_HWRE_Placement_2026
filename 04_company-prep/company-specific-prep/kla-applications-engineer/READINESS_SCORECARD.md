@@ -61,4 +61,6 @@ Before walking into the KLA assessment or interview room, ensure complete verifi
 * [ ] **7. Python KLARF Parsing**: Can you explain the difference between `XINDEX` (die grid) and `XREL` (local die micro-coordinate)?
 * [ ] **8. Perl Regex Basics**: Do you know how `$line =~ /LotID\s+"([^"]+)"/` captures metadata into `$1`?
 * [ ] **9. 3-Minute Pivot Pitch**: Have you rehearsed the exact transition pitch from Civil/HWRE to Semiconductor Yield without hesitation?
-* [ ] **10. >80% Travel Defense**: Can you state your readiness for global cleanroom deployments with genuine enthusiasm?
+* [ ] **10. >80% Travel Defense**: Can you state your readiness for global cleanroom deployments with genuine enthusiasm (Taiwan, Korea, USA, Singapore)?
+* [ ] **11. KLA India Culture & Facilities**: Can you cite KLA's 50th anniversary milestone, Chennai hubs (DLF IT Park, RMZ Millenia, Siruseri), and the strategic IIT Madras academic partnership?
+* [ ] **12. NCG Ramp-Up & Innovation Platforms**: Can you articulate the 180-day NCG onboarding progression, the 70-20-10 learning architecture, the NEOTERIX engineering conference, and the MAKERSPACE robotics challenge?

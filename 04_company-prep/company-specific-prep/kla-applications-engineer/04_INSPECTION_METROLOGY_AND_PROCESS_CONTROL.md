@@ -10,9 +10,29 @@
 
 ## 1. Physical Principles of Optical Wafer Inspection
 
-KLA's market leadership rests on optical inspection systems (e.g., 29xx, 39xx, Surfscan) that scan 300 mm wafers at high speed while resolving defects smaller than 20 nanometers.
+KLA's market leadership rests on optical inspection systems (e.g., 29xx, 39xx, Surfscan) that scan 300 mm wafers at high speed while resolving defects smaller than 20 nanometers across wafers containing up to **11 Trillion Transistors**.
 
-### 1.1 Brightfield vs. Darkfield Inspection Architecture
+### 1.0 The Process Diagnostics & Control Axioms
+KLA's role in the fab is structured around three manufacturing imperatives:
+* **Inspection**: *Find Critical Defects* $\implies$ *"You can't fix what you can't find."*
+* **Metrology**: *Measure Critical Parameters* $\implies$ *"You can't control what you can't measure."*
+* **Process Systems**: *Create Device Structures* $\implies$ *"You can't sell what you can't make."*
+
+### 1.1 The High-Throughput Big-Data Architecture: Collection, Processing & Results
+Modern patterned inspection balances two physical extremes: optical physics signal collection and massive real-time computational data processing:
+```
+┌─────────────────────────────────┐      ┌─────────────────────────────────┐      ┌─────────────────────────────────┐
+│          1. COLLECTION          │      │          2. PROCESSING          │      │           3. RESULTS            │
+│       (Scan Full Wafer)         │ ───► │   (Real-Time Image Analysis)    │ ───► │     (Report Defects & Map)      │
+├─────────────────────────────────┤      ├─────────────────────────────────┤      ├─────────────────────────────────┤
+│ • Laser / Broadband Plasma (BPO)│      │ • Massive parallel HPC clusters │      │ • Sub-micron defect coordinates │
+│ • High-NA optics & TDI sensors  │      │ • Real-time D2D / D2SI subtra-  │      │ • Defect size, type & Pareto    │
+│ • Full wafer coverage across    │      │   ction across billions of dice │      │ • KLARF file output to fab      │
+│   11 Trillion Transistors       │      │ • Noise filtering & adaptive ADC│      │   yield management system       │
+└─────────────────────────────────┘      └─────────────────────────────────┘      └─────────────────────────────────┘
+```
+
+### 1.2 Brightfield vs. Darkfield Inspection Architecture
 
 ```
        BRIGHTFIELD (BF) OPTICS                    DARKFIELD (DF) OPTICS

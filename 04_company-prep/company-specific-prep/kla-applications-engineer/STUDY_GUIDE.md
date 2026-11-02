@@ -45,7 +45,7 @@ To bridge the knowledge gap systematically without burning out, the preparation 
 ## 2. Detailed Weekly Milestones & Daily Schedule
 
 ### Week 1: Semiconductor Foundations & Manufacturing Flow
-* **Day 1**: Study [Module 01: Company and Role Research](01_COMPANY_AND_ROLE_RESEARCH.md). Understand KLA's ecosystem role (~50–55% market share in Process Diagnostics & Control), global customer context (SEC 10-K examples: TSMC, Samsung, Intel), and core Applications Engineer duties.
+* **Day 1**: Study [Module 01: Company and Role Research](01_COMPANY_AND_ROLE_RESEARCH.md) and [PLACEMENT_FACTS.md](PLACEMENT_FACTS.md). Understand KLA's ecosystem role (~50–55% market share in Process Diagnostics & Control), 50-year legacy, Chennai hubs (DLF, RMZ, Siruseri, IITM), verified total rewards package (₹7L medical floater, 15% ESPP discount), the 180-day NCG onboarding roadmap, and core Applications Engineer duties.
 * **Day 2**: Read [Module 03: Semiconductor Fundamentals](03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md) Section 1 & 2. Learn silicon ingot crystal growth (Czochralski), wafer slicing, and the complete FEOL vs. BEOL manufacturing sequence.
 * **Day 3**: Deep dive into **Photolithography**. Master the Rayleigh resolution equation ($CD = k_1 \frac{\lambda}{NA}$) and Depth of Focus ($DOF$). Understand ArF immersion ($193\text{ nm}$) vs. EUV ($13.5\text{ nm}$).
 * **Day 4**: Deep dive into **CMP & Etch**. Master Preston’s law ($MRR = k_p \cdot P \cdot V$), dishing, erosion, and micro-scratch formation. Understand plasma etch anisotropy and selectivity.
@@ -81,7 +81,7 @@ To bridge the knowledge gap systematically without burning out, the preparation 
 * **Day 22**: Study [Module 07: Engineering Problem-Solving & CFD Pivot](07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md). Master the transport phenomena bridge: mapping OpenFOAM Navier-Stokes fluid mechanics to CMP slurry lubrication and CVD gas transport.
 * **Day 23**: Rehearse the **3-minute Civil-to-Semiconductor interview pivot script**. Practice delivering it aloud until it sounds natural, confident, and non-defensive.
 * **Day 24**: Rehearse your M.Tech and B.Tech project defenses: OpenFOAM CFD sediment modeling, BridgeRisk XGBoost/SHAP, and IDF curve statistical derivation.
-* **Day 25**: Study [Module 08: Customer-Facing Engineering & HR](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). Memorize the 5-phase customer escalation protocol and practice your confident >80% travel defense.
+* **Day 25**: Study [Module 08: Customer-Facing Engineering & HR](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). Memorize the 5-phase customer escalation protocol, practice your confident >80% travel defense, and rehearse "Why KLA India" highlighting NEOTERIX, MAKERSPACE, and the 70-20-10 learning architecture.
 * **Day 26**: Study [Module 10: Technical Interview & Case Studies](10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md). Thoroughly review all 4 fab engineering troubleshooting cases (Post-CMP scratches, optical nuisance explosion, overlay drift, and BKM node transfer failure).
 * **Day 27**: Timed Practice Test: Complete all 15 questions in [Module 09: Simulated Assessment](09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) in 45 minutes under exam conditions. Check score against the answer key.
-* **Day 28**: Final Verification Audit. Benchmark against the 10-point checklist in [READINESS_SCORECARD.md](READINESS_SCORECARD.md). Rest well before interview day.
+* **Day 28**: Final Verification Audit. Benchmark against the 12-point checklist in [READINESS_SCORECARD.md](READINESS_SCORECARD.md). Rest well before interview day.

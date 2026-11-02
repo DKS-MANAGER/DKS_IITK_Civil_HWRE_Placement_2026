@@ -48,6 +48,14 @@ The following ledger establishes the provenance and confidence level for all com
 | **CLM-07** | Technical rounds feature real-world troubleshooting scenarios (defect excursions, sensitivity tuning). | KLA Glassdoor / AmbitionBox Debriefs | Tier 3 | 2023–2025 | Supported by CAE role requirements; pedagogical simulation provided | **Medium `[CANDIDATE REPORT]`** |
 | **CLM-08** | Final rounds test cultural adaptability, high-pressure communication, and travel willingness. | KLA HR Interview Reports & Placement Debriefs | Tier 3 | 2024–2025 | Standard across customer-facing semiconductor roles | **Medium `[CANDIDATE REPORT]`** |
 | **CLM-09** | Exact test duration, question distribution, and sectional cutoffs for 2026–27. | Pending active test link release | N/A | Oct 2026 | Unspecified in proforma; modeled as simulated benchmark | **Unverified / Model** |
+| **CLM-10** | 180-Day NCG structured onboarding sequence and 70-20-10 learning architecture. | KLA Campus PPT Deck (Slides 35 & 36) | Tier 1 | Oct 2026 | Verified from official campus presentation by HR Head Dinesh Mishra | **High `[CONFIRMED]`** |
+| **CLM-11** | Official Total Rewards: ₹7L medical floater, 3x base life/accident, 15% ESPP discount, 12k flex points. | KLA Campus PPT Deck (Slides 37 & 38) | Tier 1 | Oct 2026 | Disclosed in official campus deck; confirms full non-salary benefits package | **High `[CONFIRMED]`** |
+| **CLM-12** | Innovation platforms: NEOTERIX (annual engineering conference since 2012, 500+ papers) and MAKERSPACE. | KLA Campus PPT Deck (Slides 39 & 40) | Tier 1 | Oct 2026 | Confirmed internal engineering publishing and prototyping ecosystem | **High `[CONFIRMED]`** |
+| **CLM-13** | Customer fab travel destinations: Taiwan (TSMC), South Korea (Samsung/Hynix), USA, China, Singapore. | KLA Campus PPT Deck (Peter Deol presentation) | Tier 1 | Oct 2026 | Confirmed on-site deployment locations for Applications Engineers | **High `[CONFIRMED]`** |
+| **CLM-14** | 10-Step Value Creation Chain for Applications Engineers (from customer challenge to pilot tool and revenue). | KLA Campus PPT Deck (Slide 32) | Tier 1 | Oct 2026 | Official 10-step contribution cycle presented by Applications Leadership | **High `[CONFIRMED]`** |
+| **CLM-15** | Three Core Process Axioms (Inspection, Metrology, Process) & 6 Core Technology Pillars. | KLA Campus PPT Deck (Slides 19 & 21) | Tier 1 | Oct 2026 | "Can't fix what you can't find", "Can't control what you can't measure", "Can't sell what you can't make" | **High `[CONFIRMED]`** |
+| **CLM-16** | 5-Dimension Holistic Wellbeing Architecture: Emotional, Physical, Social, Financial, Workplace. | KLA Campus PPT Deck (Slide 37) | Tier 1 | Oct 2026 | Formal corporate wellbeing model covering care navigator, EAP, and recognition | **High `[CONFIRMED]`** |
+| **CLM-17** | Nanoscale Integration Metric: 11 Trillion Transistors per 300mm Wafer (vs. 30T cells in human body). | KLA Campus PPT Deck (Slide 28) | Tier 1 | Oct 2026 | Official physical benchmark on wafer complexity and defect sensitivity | **High `[CONFIRMED]`** |
 
 ---
 
@@ -149,3 +157,26 @@ The following ledger establishes the provenance and confidence level for all com
   * *"You have an M.Tech in Civil Engineering specializing in Hydraulics and Water Resources. Why should KLA hire you over a Materials Science or Microelectronics postgraduate?"*
 * **Confidence Level**: **High**.
 * **Preparation Action**: Rehearse the structured 3-minute pivot pitch connecting transport phenomena and machine learning to semiconductor yield; prepare STAR-format behavioral stories demonstrating composure under pressure and cross-cultural adaptability.
+
+---
+
+## 5. Official NCG Ramp-Up & Transition Expectations `[CAMPUS PPT OCT 2026]`
+
+In the official KLA India campus recruitment deck (October 2026), HR Head Dinesh Mishra detailed the formal progression path expected of New College Graduates (NCGs):
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    THE KLA 180-DAY NCG TRANSITION PATHWAY                   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ • Month 1 (Days 1–30):   Onboarding, IT access, KLA values & culture.       │
+│ • Month 2 (Days 31–60):  NCG technical training & division-specific tools.  │
+│ • Month 3 (Days 61–90):  Workday goal alignment & guided task delivery.     │
+│ • Month 4 (Days 91–120): Ownership of routine fab support & code routines.  │
+│ • Month 5 (Days 121–150): Suggesting process improvements & CLC modules.    │
+│ • Month 6 (Days 151–180): Autonomous delivery & formal probation closure.   │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Interview Implications:
+1. **Coachability & Learning Agility**: KLA does not expect an incoming Civil/HWRE postgraduate to know proprietary Klarity software on Day 1. They expect high quantitative fundamentals, mastery of your thesis equations, and readiness to thrive in the **70-20-10 development model** (70% experiential on fab tools, 20% mentorship, 10% structured training).
+2. **Mobility & Independence**: The >80% international travel reality (Taiwan, Korea, USA, Singapore, China) is tested across all technical and managerial rounds. Demonstrating physical resilience, emotional maturity, and excitement to work inside cleanrooms at the leading edge of Moore's Law is essential for final selection.

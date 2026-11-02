@@ -3,11 +3,11 @@
 
 > **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]`  
 > **Organizational / Industry Equivalent**: Customer Applications Engineer (CAE) `[ROLE-BASED BENCHMARK]`  
-> **Global Entity**: KLA Corporation (NASDAQ: KLAC) — Milpitas, CA / Primary India Hubs in Chennai & Bengaluru  
-> **Base Location**: *Unspecified in supplied proforma* (`[UNSPECIFIED IN PROFORMA]`)  
+> **Global Entity**: KLA Corporation (NASDAQ: KLAC) — Milpitas, CA / Primary India Hubs in Chennai (DLF IT Park, RMZ Millenia, Siruseri) & Bengaluru  
+> **Base Location**: Chennai, Tamil Nadu / Bengaluru, Karnataka (`[CAMPUS PPT OCT 2026]`)  
 > **Target Cohort**: IIT Kanpur M.Tech Postgraduates (Quantitative, Computational & Engineering Disciplines)  
 > **Stated Total CTC**: **₹28,50,000 Total CTC** `[IITK PROFORMA FACT]`  
-> **Travel Profile**: **>80% International & Domestic Customer Fab Deployments** `[IITK PROFORMA FACT]`  
+> **Travel Profile**: **>80% International & Domestic Customer Fab Deployments** (Taiwan, Korea, USA, Singapore, China, Europe) `[IITK PROFORMA & CAMPUS PPT]`  
 > **Core Discipline Bridge**: Computational Fluid Dynamics (CFD), Scientific Python, Machine Learning (XGBoost/SHAP), Statistical Process Control (SPC) $\rightarrow$ Semiconductor Yield Management & Metrology
 
 ---
@@ -15,6 +15,7 @@
 > [!IMPORTANT]
 > **EVIDENTIARY DISTINCTION & RECRUITMENT STATUS:**
 > * **Confirmed Campus Facts (`[TIER 1]`):** The official IIT Kanpur proforma confirms the designation *Applications Engineer*, stated CTC of ₹28,50,000, travel requirement of >80% to customer fab facilities, and primary duties centering on fab data analysis, killer defect reduction, inspection recipe optimization, BKM documentation, and Python/Perl data analysis scripts.
+> * **Verified Campus Presentation Disclosures (`[TIER 1 - CAMPUS PPT OCT 2026]`):** Official KLA India pre-placement briefing and high-resolution slide documentation confirm base facilities in Chennai (DLF Floors 12, 14, 15; RMZ Millenia Floor 4; Siruseri; IITM Research Park), global travel hubs (TSMC Taiwan, Samsung/Hynix Korea, USA, Singapore), the **10-step Applications Engineer Value Creation Chain**, the **Three Core Process Axioms** (*"Can't fix what you can't find..."*), the 180-day structured NCG onboarding roadmap, the 70-20-10 learning architecture, comprehensive total rewards (₹7,00,000 medical floater, 3× base life/accident insurance, 15% ESPP discount, 12k flex points, Foodbook meal credits), and internal innovation platforms (NEOTERIX conference, MAKERSPACE robotics lab).
 > * **Reconstructed Campus Benchmark (`[TIER 3]`):** Reconstructed interview workflows (OA $\rightarrow$ Technical Interviews $\rightarrow$ HR) are based on historical candidate debriefs across Tier-1 IIT campus recruitment drives (IIT Madras, IIT Bombay, IIT Kharagpur). Specific testing platforms (e.g. HackerEarth/SHL) and round durations (~45–60 min) represent simulation estimates rather than contractual proforma guarantees.
 > * **Domain Benchmark Context (`[SEC 10-K]`):** Mentions of customer accounts (e.g., TSMC, Samsung, Intel) and product lines (BPO, Surfscan, Klarity) represent verified public disclosures from KLA's SEC Form 10-K and technical literature, included to ground preparation in realistic fab environments.
 

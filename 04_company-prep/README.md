@@ -170,7 +170,7 @@ For flagship campus opportunities with verified job descriptions or placement pr
 ### 4.8 KLA Corporation — Applications Engineer (Semiconductor Yield / CAE Benchmark)
 * **Target Package**: [`company-specific-prep/kla-applications-engineer/`](company-specific-prep/kla-applications-engineer/README.md)
 * **Core Profile**: Market leader in Semiconductor Process Diagnostics & Control Equipment (~50% to >55% global market share per Gartner Market Share Analysis 2022/2023 and KLA SEC Form 10-K / Investor Day disclosures). Role centers on high-volume fab on-site yield troubleshooting, optical inspection recipe sensitivity tuning, killer defect elimination, BKM documentation, and Python/Perl fab data analytics.
-* **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA, fixed/variable breakdown unspecified in proforma); base location unspecified in proforma (KLA India centers in Chennai & Bengaluru); >80% international and domestic travel to semiconductor fabs worldwide.
+* **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA); verified total rewards include ₹7L medical floater, 3× base life/accident, 15% ESPP discount, and 12k flex points; base hubs in Chennai (DLF IT Park, RMZ Millenia, Siruseri) & Bengaluru; >80% international and domestic travel to semiconductor fabs (Taiwan, Korea, USA, Singapore).
 * **Master Architecture (16-File Suite)**:
   * [`README.md`](company-specific-prep/kla-applications-engineer/README.md) — Master navigation hub, executive overview, directory map & 3-minute pivot narrative.
   * [`PLACEMENT_FACTS.md`](company-specific-prep/kla-applications-engineer/PLACEMENT_FACTS.md) — Audited proforma records, CTC ₹28.5L factsheet, >80% travel obligations, 5-tier taxonomy.

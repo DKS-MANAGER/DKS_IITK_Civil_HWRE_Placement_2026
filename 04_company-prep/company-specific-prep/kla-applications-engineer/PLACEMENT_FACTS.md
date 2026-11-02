@@ -27,14 +27,14 @@ Every factual claim, requirement, and compensation figure in this preparation pa
 | :--- | :--- | :--- |
 | **Company Legal Name** | KLA Corporation (formerly KLA-Tencor Corporation) | `[OFFICIAL KLA SOURCE]` |
 | **Global Headquarters** | Milpitas, California, United States | `[OFFICIAL KLA SOURCE]` |
-| **India Base Location** | **Unspecified in supplied proforma** (`[UNSPECIFIED IN PROFORMA]`). KLA India operates primary engineering centers in Chennai (Ascendas / IITM Research Park) and Bengaluru, Karnataka | `[OFFICIAL KLA SOURCE]` / `[UNSPECIFIED IN PROFORMA]` |
+| **India Base Location** | **Chennai, Tamil Nadu** (Primary campus: DLF IT Park, Floors 12, 14, 15; RMZ Millenia, Floor 4; Siruseri VTN Towers; IIT Madras Research Park) & Bengaluru Centers | `[OFFICIAL KLA SOURCE — CAMPUS PPT OCT 2026]` |
 | **Global Market Position** | World leader in **Semiconductor Process Diagnostics and Control (PDC)** equipment (>50% to ~55% global market share in semiconductor process control per Gartner Market Share Analysis 2022/2023 & KLA SEC Form 10-K / Investor Day disclosures) | `[OFFICIAL KLA 10-K & GARTNER INDUSTRY DATA]` |
 | **Primary Industry** | Semiconductor & Electronics Manufacturing Equipment | `[OFFICIAL KLA SOURCE]` |
 | **Recruitment Season** | IIT Kanpur Placement 2026–27, Phase 1 | `[IITK PLACEMENT SOURCE]` |
 | **Designated Role Title** | **Applications Engineer** (`[OFFICIAL PROFORMA FACT]`); functionally equivalent to **Customer Applications Engineer (CAE)** in KLA Global Customer Operations | `[OFFICIAL PROFORMA FACT]` & `[KLA GCO FRAMEWORK]` |
 | **Stated Total CTC** | **₹28,50,000 (INR 28.50 LPA)** | `[OFFICIAL PROFORMA FACT]` |
 | **Fixed vs. Variable Breakdown** | *Not broken down in active proforma overview; preserved as stated total CTC without speculative deductions* | `[EVIDENTIARY MANDATE]` |
-| **Travel Requirement** | **>80% to customer fab facilities worldwide** | `[OFFICIAL PROFORMA FACT]` |
+| **Travel Requirement** | **>80% to customer fab facilities worldwide** (USA, Europe, South Korea, China, Singapore, Taiwan) | `[OFFICIAL PROFORMA FACT]` & `[CAMPUS PPT OCT 2026]` |
 | **Operating Environment** | Advanced Cleanroom Semiconductor Fabs (Class 1 / Class 10 / ISO 3–4 cleanrooms) and KLA Applications Labs | `[OFFICIAL KLA SOURCE]` |
 | **Target Academic Degrees** | M.Tech / Dual Degree / MS / Ph.D. (Quantitative, Computational & Engineering Disciplines) | `[IITK PLACEMENT SOURCE]` & `[OFFICIAL KLA SOURCE]` |
 | **Service Agreement / Bond** | *None stated on proforma overview* | `[UNVERIFIED / PENDING CONFIRMATION]` |
@@ -46,8 +46,38 @@ Every factual claim, requirement, and compensation figure in this preparation pa
 > [!IMPORTANT]
 > **Strict Adherence Rule on Compensation:**
 > The stated Total CTC for the IIT Kanpur 2026–27 Phase 1 proforma is **₹28,50,000**.
-> * In accordance with institutional research integrity standards, **do NOT invent, extrapolate, or estimate fixed monthly take-home, variable retention bonuses, stock units (RSUs), or relocation allowances** without an official written compensation annexure issued by KLA HR.
-> * Semiconductor equipment multinationals hiring at Tier-1 Indian institutes typically structure total compensation around a strong base pay, performance-linked variable incentive (annual bonus), corporate healthcare/retirals, and comprehensive per-diem/travel allowances during on-site fab deployments.
+> * In accordance with institutional research integrity standards, **do NOT invent, extrapolate, or estimate fixed monthly take-home, variable retention bonuses, or relocation allowances** without an official written compensation annexure issued by KLA HR.
+> * Full corporate benefits, healthcare coverage, and stock purchase programs disclosed in KLA India's official campus recruitment deck (October 2026) are documented below.
+
+### 3.1 Official Total Rewards, Healthcare & Benefits Breakdown
+*(Verified from KLA India Campus Recruitment Presentation Deck, Slide 37 & 38 — October 2026)*
+
+* **Health & Medical Coverage:**
+  * **Medical Insurance Floater**: **INR 7,00,000** coverage (includes INR 5,000 OPD). Covers employee, spouse, children, parents, and in-laws.
+  * **Life Insurance**: **3× Annual Base Pay**.
+  * **Personal Accident Insurance**: **3× Annual Base Pay**.
+  * **Annual Flex Points**: **12,000 flex points/year** provided for healthcare upgrades, wellness points, and lifestyle benefits.
+  * **Employee Assistance Program (EAP)**: Spring Health counseling, therapy, and care navigation resources.
+* **Financial Benefits & Long-Term Wealth:**
+  * **Employee Stock Purchase Plan (ESPP)**: Invest up to **15% of Basic + HRA + Bonus** to purchase KLA NASDAQ shares at a **15% discount** below market price.
+  * **Referral Program**: Referral bonus up to **INR 4,00,000** for successful campus/industry hires.
+  * **Meal Dining Credit**: **INR 100 per day** subsidized dining credit provided through the *Foodbook App*.
+  * **Car Lease**: Corporate car lease facility with allowance amounts varying by grade entitlement.
+* **Statutory & Wellness Leaves:**
+  * **Privilege Leave (PL)**: 20 days/year (accumulable for 2 years up to a maximum of 40 days).
+  * **Sick Leave**: 10 days/year.
+  * **Casual Leave**: 6 days/year.
+  * **Maternity Leave**: 26 weeks (as per statutory norms).
+  * **Paternity Leave**: 10 days.
+  * **Volunteering Leave**: 2 days/year for employee participation in KLA CSR initiatives.
+* **Workplace Wellness & Facilities (Chennai Hubs):**
+  * **On-site Gym**: Located at DLF IT Park (15th floor).
+  * **Recreation & Fitness**: Indoor recreation at DLF (12th fl) and RMZ Millenia (4th fl); instructor-led onsite Yoga and Zumba sessions.
+  * **Quiet & Private Rooms**: Dedicated quiet focus rooms (DLF 12th & 14th fl) and private breastfeeding rooms for nursing mothers.
+  * **Badminton Court**: Dedicated facility access at DB Jain Badminton Court (up to 4 days a week: Tuesday to Friday).
+  * **Transportation**: **Free shuttle service** operating from designated pickup locations across Chennai.
+  * **Crèche Support**: 50% subsidy for up to 2 children (ages 6 months to 6 years) partnered with *Kid-O Education* at DLF (S1 floor) and Siruseri (VTN Towers).
+  * **Higher Education & Learning**: Tuition reimbursement for accredited job-aligned courses + exclusive **certificate programs through IIT Madras partnership**.
 
 ---
 
@@ -88,6 +118,29 @@ Based on the supplied proforma specifications and verified KLA Customer Applicat
 │    • Co-author technical whitepapers and customer engineering publications. │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+### 4.1 The 180-Day NCG Onboarding Roadmap & 70-20-10 Learning Architecture
+*(Verified from KLA India Campus Recruitment Presentation Deck, Slides 35 & 36 — October 2026)*
+
+KLA India structures new college graduate (NCG) entry through a formal, 180-day transition roadmap with dedicated manager and buddy touchpoints:
+
+* **180-Day Progression Sequence:**
+  * **Week 1 (Get Started)**: Workday onboarding, IT system access, web-based compliance trainings, formal meeting with manager and assigned onboarding buddy.
+  * **Weeks 2–4 (Understand)**: Deep dive into KLA culture, values, operational policies, and understanding your division, customer accounts, and role.
+  * **Days 31–60 (Learn)**: NCG-specific foundational curriculum, division-specific tool learning, key software tools, and peer networking.
+  * **Days 61–90 (Contribute)**: Establish goals in Workday, finalize Talent Profile, complete New Hire Survey, execute technical tasks under senior guidance.
+  * **Days 91–120 (Own)**: Assume independent ownership of routine operational tasks, deepen technical learning, systematically apply supervisor feedback.
+  * **Days 121–150 (Improve)**: NCG day-out engagement, CLC learning programs, suggest fab process improvements.
+  * **Days 151–180 (Integrate)**: Deliver fab solutions independently, review performance progress, formal probation closure discussion.
+* **Manager & Buddy Touchpoints:**
+  * Week 1: Meet manager & buddy $\rightarrow$ Hold regular 1:1 syncs $\rightarrow$ Align on formal goals within 90 days $\rightarrow$ Solicit regular feedback $\rightarrow$ Review progress before Day 180.
+* **The 70-20-10 Development Framework:**
+  * **70% Experiential**: On-the-job fab deployment, recipe tuning, and live yield troubleshooting.
+  * **20% Social / Mentorship**: Dedicated coaching from senior applications engineers and technical leads.
+  * **10% Formal Learning**: Classroom instruction across three structured pillars:
+    1. *Become a Professional*: Campus-to-Corporate transition and new hire orientation.
+    2. *Become a KLA Engineer*: Equipment overview, tool architectures, and technical learning roadmaps.
+    3. *Become a Leader*: Non-lab leadership skills (Global Presentation Skills, *Slide:ology*, StrengthsFinder, executive leadership interaction).
 
 ---
 
