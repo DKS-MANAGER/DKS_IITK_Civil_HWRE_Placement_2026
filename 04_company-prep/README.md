@@ -117,7 +117,7 @@ For flagship campus opportunities with verified job descriptions or placement pr
 ### 4.5 Hilti (HTSI) — Graduate Engineer Trainee (Global Value Engineering Hub, Pune)
 * **Target Package**: [`company-specific-prep/hilti-get-value-engineering/`](company-specific-prep/hilti-get-value-engineering/README.md)
 * **Core Profile**: Energy & Industry (E&I) business unit, structural engineering design, post-installed anchorages (CCD method), modular MEP support conversion, and design optimization for global mega-projects.
-* **Master Architecture (16-File Suite)**:
+* **Master Architecture (18-File Suite)**:
   * [`COMPANY_AND_ROLE_FACTS.md`](company-specific-prep/hilti-get-value-engineering/COMPANY_AND_ROLE_FACTS.md) — Verified facts, Pune hub mission, structured 8–12 mo training, salary benchmarks (`NOT VERIFIED`).
   * [`SELECTION_PROCESS_AND_EVIDENCE.md`](company-specific-prep/hilti-get-value-engineering/SELECTION_PROCESS_AND_EVIDENCE.md) — 4-stage recruitment pipeline, candidate profiles, and evidence classification.
   * [`STUDY_ROADMAP.md`](company-specific-prep/hilti-get-value-engineering/STUDY_ROADMAP.md) — 4-week structured preparation schedule, P0/P1/P2 priorities, and daily tracking.
@@ -171,7 +171,7 @@ For flagship campus opportunities with verified job descriptions or placement pr
 * **Target Package**: [`company-specific-prep/kla-applications-engineer/`](company-specific-prep/kla-applications-engineer/README.md)
 * **Core Profile**: Market leader in Semiconductor Process Diagnostics & Control Equipment (~50% to >55% global market share per Gartner Market Share Analysis 2022/2023 and KLA SEC Form 10-K / Investor Day disclosures). Role centers on high-volume fab on-site yield troubleshooting, optical inspection recipe sensitivity tuning, killer defect elimination, BKM documentation, and Python/Perl fab data analytics.
 * **Compensation & Travel**: CTC ₹28,50,000 (INR 28.50 LPA); verified total rewards include ₹7L medical floater, 3× base life/accident, 15% ESPP discount, and 12k flex points; base hubs in Chennai (DLF IT Park, RMZ Millenia, Siruseri) & Bengaluru; >80% international and domestic travel to semiconductor fabs (Taiwan, Korea, USA, Singapore).
-* **Master Architecture (16-File Suite)**:
+* **Master Architecture (18-File Suite)**:
   * [`README.md`](company-specific-prep/kla-applications-engineer/README.md) — Master navigation hub, executive overview, directory map & 3-minute pivot narrative.
   * [`PLACEMENT_FACTS.md`](company-specific-prep/kla-applications-engineer/PLACEMENT_FACTS.md) — Audited proforma records, CTC ₹28.5L factsheet, >80% travel obligations, 5-tier taxonomy.
   * [`01_COMPANY_AND_ROLE_RESEARCH.md`](company-specific-prep/kla-applications-engineer/01_COMPANY_AND_ROLE_RESEARCH.md) — Corporate profile, semiconductor ecosystem, KLA product families (BPO, Surfscan, Archer, eSL10, Klarity), CAE day-to-day duties.
@@ -182,11 +182,13 @@ For flagship campus opportunities with verified job descriptions or placement pr
   * [`06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md`](company-specific-prep/kla-applications-engineer/06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md) — Automated Defect Classification (ADC) with XGBoost, imbalanced learning, SHAP explainability, 50-line fab Perl log parser.
   * [`07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md`](company-specific-prep/kla-applications-engineer/07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md) — Navier-Stokes transport to CMP slurry lubrication analogy, project defense (OpenFOAM, BridgeRisk), 3-minute pivot pitch.
   * [`08_CUSTOMER_FACING_SCENARIOS_AND_HR.md`](company-specific-prep/kla-applications-engineer/08_CUSTOMER_FACING_SCENARIOS_AND_HR.md) — Cleanroom fab operations, 5-phase escalation management, BKM template, >80% travel defense, STAR behavioral models.
-  * [`09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md`](company-specific-prep/kla-applications-engineer/09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) — 15 rigorous practice questions with complete mathematical derivations, distractor refutations, and concepts.
-  * [`10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md`](company-specific-prep/kla-applications-engineer/10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md) — 4 deep fab engineering troubleshooting case studies + comprehensive Q&A bank across three difficulty tiers.
+  * [`09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md`](company-specific-prep/kla-applications-engineer/09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) — 190 Technical Questions (40 Engineering Math, 40 Statistics, 40 Data Interpretation, 40 Python Programming, 30 Semiconductor Fundamentals).
+  * [`10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md`](company-specific-prep/kla-applications-engineer/10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md) — Candidate research defense (OpenFOAM CFD, BridgeRisk XGBoost/SHAP), 8 deep fab troubleshooting case studies, live whiteboard coding & technical Q&A.
   * [`11_PRACTICE_PROJECTS_PORTFOLIO.md`](company-specific-prep/kla-applications-engineer/11_PRACTICE_PROJECTS_PORTFOLIO.md) — 4 end-to-end reproducible projects (Wafer clustering, ADC XGBoost/SHAP, SPC engine, CMP fluid dynamics).
-  * [`READINESS_SCORECARD.md`](company-specific-prep/kla-applications-engineer/READINESS_SCORECARD.md) — Competency matrix, gap analysis, and 10-point pre-interview verification checklist.
-  * [`STUDY_GUIDE.md`](company-specific-prep/kla-applications-engineer/STUDY_GUIDE.md) — 4-week structured preparation timeline, daily milestones, and revision strategy.
+  * [`12_QUANTITATIVE_APTITUDE_AND_LOGICAL_REASONING.md`](company-specific-prep/kla-applications-engineer/12_QUANTITATIVE_APTITUDE_AND_LOGICAL_REASONING.md) — 140 Solved Problems (100 Quantitative Aptitude + 40 Logical Reasoning) with formulas, shortcuts, and verified step-by-step solutions.
+  * [`13_OA_MOCK_TESTS_AND_PERFORMANCE_TRACKER.md`](company-specific-prep/kla-applications-engineer/13_OA_MOCK_TESTS_AND_PERFORMANCE_TRACKER.md) — 7 Sectional Diagnostic Sprints, 2 Full-Length Timed OA Mocks (50Q & 60Q) & Error Log Tracker.
+  * [`READINESS_SCORECARD.md`](company-specific-prep/kla-applications-engineer/READINESS_SCORECARD.md) — Dual-track 100-pt scoring models (OA + Technical Interview) & 12-point pre-interview verification checklist.
+  * [`STUDY_GUIDE.md`](company-specific-prep/kla-applications-engineer/STUDY_GUIDE.md) — 4-week balanced roadmap (25% Quant, 30% Tech, 25% Python/Stats, 20% Customer/HR) & daily milestones.
   * [`SOURCES.md`](company-specific-prep/kla-applications-engineer/SOURCES.md) — Complete research evidence ledger with citations, source tiers, access dates, and confidence ratings.
 
 ---

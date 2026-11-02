@@ -37,6 +37,9 @@ In accordance with institutional research integrity standards, all sources cited
 | **SRC-13** | Statistical Process Control, Shewhart charts, and $C_p / C_{pk}$ capability indices. | Montgomery, D. C. *Introduction to Statistical Quality Control*, 8th Ed., Wiley (2019) | Tier 2 | 2019 | Oct 2026 | Authoritative international engineering textbook on SPC and Six Sigma. | **High `[STANDARD]`** |
 | **SRC-14** | KLA India Total Rewards, NCG 180-Day Roadmap, 70-20-10 Model, NEOTERIX & MAKERSPACE. | Official KLA India Campus Presentation Recording (`Screen Recording 2026-11-02 111146.mp4`), Peter Deol & Dinesh Mishra | Tier 1 | Oct 2026 | Nov 2026 | Primary source; confirmed ₹7L medical floater, 3x base life/accident, 15% ESPP discount, leaves, DLF/RMZ Chennai sites, NCG robotics. | **High `[CONFIRMED]`** |
 | **SRC-15** | Official KLA India Campus Presentation High-Resolution Slide Photograph Set (12 photographic captures from live session). | `C:\Users\divya\Downloads\New folder\` (`WhatsApp Image 2026-11-02 at 1.04.*.jpeg`) | Tier 1 | Oct 2026 | Nov 2026 | Primary source; verified 10-Step AE Value Creation Chain (Slide 32), 3 Process Axioms (Slide 19), 6 Tech Pillars (Slide 21), 11T transistors/wafer (Slide 28), and 5-Dimension Holistic Wellbeing (Slide 37). | **High `[CONFIRMED]`** |
+| **SRC-16** | Canonical Quantitative Aptitude & Verbal/Non-Verbal Reasoning Syllabi and Benchmark Problems. | Aggarwal, R. S. *Quantitative Aptitude for Competitive Examinations* & *A Modern Approach to Verbal & Non-Verbal Reasoning*, S. Chand Publishing | Tier 2 | 2022 | Nov 2026 | Authoritative standard for engineering campus recruitment aptitude and logical puzzles. | **High `[STANDARD]`** |
+| **SRC-17** | NIST/SEMATECH e-Handbook of Statistical Methods (Process Capability, Control Charts & Outlier Tests). | National Institute of Standards and Technology (NIST) & SEMATECH, [`https://www.itl.nist.gov/div898/handbook/`](https://www.itl.nist.gov/div898/handbook/) | Tier 2 | 2012 | Nov 2026 | Global engineering standard for semiconductor statistical process characterization. | **High `[STANDARD]`** |
+| **SRC-18** | Python 3 Standard Library Documentation & Official Tutorial. | Python Software Foundation (PSF), [`https://docs.python.org/3/tutorial/`](https://docs.python.org/3/tutorial/) | Tier 2 | 2026 | Nov 2026 | Definitive computational reference for string manipulation, data structures, and algorithmic complexity. | **High `[STANDARD]`** |
 
 ---
 
@@ -47,7 +50,9 @@ In accordance with institutional research integrity standards, all sources cited
 3. **KLA Investor Relations & Annual SEC 10-K Filings**: [`https://ir.kla.com`](https://ir.kla.com)
 4. **IIT Kanpur Student Placement Office (SPO)**: [`https://www.iitk.ac.in/spo`](https://www.iitk.ac.in/spo)
 5. **KLA India Campus Presentation Deck & Video**: Official October 2026 campus recruitment presentation recording.
-6. **GeeksforGeeks — KLA Interview Experiences (India)**: [`https://www.geeksforgeeks.org/tag/kla/`](https://www.geeksforgeeks.org/tag/kla/)
-7. **Glassdoor India — KLA Applications Engineer Interview Questions**: Verified historical debriefs for Chennai and Bengaluru locations.
-8. **AmbitionBox — KLA Corporation Recruitment Process**: Historical selection workflow patterns and candidate ratings.
-9. **SEMI (Semiconductor Equipment and Materials International)**: Standards for wafer mapping, defect reporting, and equipment communication (SEMI E142, SECS/GEM).
+6. **NIST Engineering Statistics Handbook**: [`https://www.itl.nist.gov/div898/handbook/`](https://www.itl.nist.gov/div898/handbook/)
+7. **Python Documentation**: [`https://docs.python.org/3/`](https://docs.python.org/3/)
+8. **GeeksforGeeks — KLA Interview Experiences (India)**: [`https://www.geeksforgeeks.org/tag/kla/`](https://www.geeksforgeeks.org/tag/kla/)
+9. **Glassdoor India — KLA Applications Engineer Interview Questions**: Verified historical debriefs for Chennai and Bengaluru locations.
+10. **AmbitionBox — KLA Corporation Recruitment Process**: Historical selection workflow patterns and candidate ratings.
+11. **SEMI (Semiconductor Equipment and Materials International)**: Standards for wafer mapping, defect reporting, and equipment communication (SEMI E142, SECS/GEM).

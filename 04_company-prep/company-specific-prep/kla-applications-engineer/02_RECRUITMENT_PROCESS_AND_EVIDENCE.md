@@ -59,13 +59,37 @@ The following ledger establishes the provenance and confidence level for all com
 
 ---
 
-## 3. Reconstructed Selection Process Workflow (Preparation Benchmark)
+## 3. Recruitment Process: Confirmed Facts vs. Preparation Hypotheses
 
-> *Notice: The following 4-stage recruitment workflow is reconstructed from historical Tier-1 IIT campus recruitment drives (IIT Madras, IIT Bombay, IIT Kharagpur) and industry debriefs. It serves as an institutional preparation benchmark; specific durations and testing platforms are not contractually guaranteed by the supplied IITK proforma.*
+### 3.0 Explicit Evidence Distinction Matrix
+
+To maintain strict evidentiary integrity, candidates must distinguish between what is officially confirmed by KLA and what is a reconstructed preparation hypothesis:
+
+```
+┌─────────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│             OFFICIALLY CONFIRMED FACTS [TIER 1]             │           RECONSTRUCTED PREPARATION HYPOTHESES [TIER 3]     │
+├─────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ • Stated CTC: ₹28,50,000 (IITK Placement Proforma)          │ • Exact OA platform (e.g. HackerEarth, Mettl, SHL, etc.)   │
+│ • Travel: >80% Customer-site travel (Proforma & PPT)        │ • Exact OA sectional division and test duration             │
+│ • Competencies: Analytical thinking, data analytics,        │ • Exact number of OA questions, cutoffs, or marking scheme  │
+│   Python & Perl scripting, customer-facing troubleshooting  │ • Number and exact durations of interview rounds (e.g. 45m) │
+│ • Onboarding: 180-day NCG roadmap & 70-20-10 learning model │ • Exact weightage given to Perl vs. Python in coding rounds │
+│ • Innovation: NEOTERIX conference & MAKERSPACE robotics lab │ • Live testing tool or IDE environment used during interview│
+└─────────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
+```
+
+> **Operational Principle for Candidates**: Treat the reconstructed 4-stage assessment pattern below as a **rigorous preparation hypothesis**, designed to ensure complete readiness across all conceivable Tier-1 engineering screening formats, not as a contractual KLA test specification.
+
+### 3.1 Reconstructed Selection Workflow (Preparation Benchmark)
+
+The preparation curriculum is organized around three distinct performance tracks:
+1. **Track 1: Online Assessment (OA)**: High-speed quantitative aptitude, logical reasoning, data interpretation, engineering mathematics, statistics, and programming.
+2. **Track 2: Technical Interview**: Thesis defense (OpenFOAM CFD), BridgeRisk ML (XGBoost/SHAP), Python data wrangling, semiconductor manufacturing fundamentals, inspection/metrology physics, SPC ($C_p, C_{pk}$), and structured Root Cause Analysis (RCA).
+3. **Track 3: Role-Fit & Customer Interview**: Customer communication, 10-step AE value creation chain, problem ownership under fab pressure, and defensible readiness for $>80\%$ global cleanroom travel.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                 STAGE 1: ONLINE ASSESSMENT (HISTORICAL PATTERN)             │
+│            STAGE 1: ONLINE ASSESSMENT (PREPARATION HYPOTHESIS)              │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ • Modality: Proctored Online Platform (e.g., HackerEarth / SHL / Mettl)     │
 │ • Section 1: Quantitative Aptitude, Numerical Ability & Logical Reasoning   │

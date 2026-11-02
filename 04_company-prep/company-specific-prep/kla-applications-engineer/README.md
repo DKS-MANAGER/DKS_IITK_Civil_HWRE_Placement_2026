@@ -51,19 +51,21 @@ The preparation suite is structured into focused, deep-dive modules:
 company-specific-prep/kla-applications-engineer/
 ├── README.md                                    # Master navigation, executive overview & pivot strategy
 ├── PLACEMENT_FACTS.md                           # Audited proforma parameters, CTC ₹28.5L factsheet, travel rules
-├── 01_COMPANY_AND_ROLE_RESEARCH.md              # Corporate ecosystem, business units, inspection tools, CAE role
-├── 02_RECRUITMENT_PROCESS_AND_EVIDENCE.md       # OA pattern, technical interview stages, candidate interview reports
+├── 01_COMPANY_AND_ROLE_RESEARCH.md              # Corporate ecosystem, 10-step AE value chain, 6 tech pillars
+├── 02_RECRUITMENT_PROCESS_AND_EVIDENCE.md       # Evidence distinction: Confirmed facts vs. OA preparation hypotheses
 ├── 03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md   # Wafer fab sequence (Litho/Etch/CMP/CVD), yield models, killer defects
-├── 04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md # Brightfield/Darkfield optics, e-beam review, SPC, Cp/Cpk, FMEA
+├── 04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md # Brightfield/Darkfield optics, 3D HAR challenges, SPC, Cp/Cpk, FMEA
 ├── 05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md   # Statistical testing, KLARF data parsing, NumPy/Pandas, SNR curves
 ├── 06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md    # Automated Defect Classification (ADC), XGBoost, SHAP, fab Perl scripts
 ├── 07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md # Fluid mechanics/transport analogies, project defense, 3-min pitch
 ├── 08_CUSTOMER_FACING_SCENARIOS_AND_HR.md       # Fab escalations, BKM documentation, >80% travel defense, STAR stories
-├── 09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md # 35+ full-length practice questions with step-by-step math derivations
-├── 10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md   # 4 deep fab troubleshooting case studies + comprehensive Q&A bank
+├── 09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md # 190 Technical Qs (40 Engg Math, 40 Stats, 40 DI, 40 Python, 30 Semi)
+├── 10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md   # Thesis defense, 8 industrial fab cases, live coding & technical Q&A
 ├── 11_PRACTICE_PROJECTS_PORTFOLIO.md            # 4 end-to-end reproducible projects (KLARF parser, ADC, SPC, CFD CMP)
-├── READINESS_SCORECARD.md                       # Competency matrix, gap analysis, pre-interview verification checklist
-├── STUDY_GUIDE.md                               # 4-week structured preparation timeline & daily milestones
+├── 12_QUANTITATIVE_APTITUDE_AND_LOGICAL_REASONING.md # 140 Solved Qs (100 Quant + 40 LR) with formula cheat sheets
+├── 13_OA_MOCK_TESTS_AND_PERFORMANCE_TRACKER.md  # 7 Sectional Diagnostics, 2 Full Timed Mocks (50Q & 60Q) & Error Log
+├── READINESS_SCORECARD.md                       # Dual-track 100-pt scoring (OA + Interview) & 12-point checklist
+├── STUDY_GUIDE.md                               # 4-week balanced 25/30/25/20 roadmap & daily practice milestones
 └── SOURCES.md                                   # Comprehensive research evidence ledger with citations & confidence ratings
 ```
 

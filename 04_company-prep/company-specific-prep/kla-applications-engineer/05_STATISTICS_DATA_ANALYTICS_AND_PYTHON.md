@@ -264,3 +264,176 @@ def optimize_recipe_threshold(y_true: np.ndarray, optical_signals: np.ndarray):
 ```
 
 * **Interview Key Point**: The ideal recipe does not simply maximize AUC; it must enforce a strict **minimum killer capture constraint** (e.g., $TPR \ge 98\%$), and then find the highest threshold that satisfies this constraint to minimize nuisance count.
+
+
+---
+
+## 5. Advanced Practical Python & Pandas Exercises for Assessment & Fab Automation
+
+### Exercise 1: Vectorized Spatial Defect Clustering in Pure NumPy
+*Objective*: Given an array of $N$ defect coordinates $(X, Y)$ on a 300 mm wafer, cluster adjacent defects within radius $R = 50\text{ }\mu\text{m}$ using vectorized broadcasting rather than slow nested Python loops.
+
+```python
+"""
+Vectorized Spatial Defect Clustering for Wafer Inspection
+Author: KLA Applications Preparation Suite
+"""
+
+import numpy as np
+
+
+def find_defect_clusters_vectorized(coords: np.ndarray, cluster_radius_um: float = 50.0):
+    """
+    coords: Nx2 numpy array of [X, Y] in micrometers.
+    Returns: cluster labels for each defect (-1 for isolated, integer ID for cluster).
+    """
+    n_points = coords.shape[0]
+    # Compute pairwise squared Euclidean distance matrix via broadcasting: (N, 1, 2) - (1, N, 2)
+    diff = coords[:, np.newaxis, :] - coords[np.newaxis, :, :]  # Shape (N, N, 2)
+    dist_sq = np.sum(diff ** 2, axis=-1)  # Shape (N, N)
+
+    # Boolean adjacency matrix
+    adj_matrix = dist_sq <= (cluster_radius_um ** 2)
+
+    # Connected component labeling using iterative BFS/DFS
+    visited = np.zeros(n_points, dtype=bool)
+    labels = np.full(n_points, -1, dtype=int)
+    cluster_id = 0
+
+    for i in range(n_points):
+        if not visited[i]:
+            neighbors = np.where(adj_matrix[i])[0]
+            if len(neighbors) > 1:  # Cluster consists of 2 or more defects
+                queue = list(neighbors)
+                visited[neighbors] = True
+                labels[neighbors] = cluster_id
+                while queue:
+                    curr = queue.pop(0)
+                    curr_neighbors = np.where(adj_matrix[curr])[0]
+                    unvisited = curr_neighbors[~visited[curr_neighbors]]
+                    visited[unvisited] = True
+                    labels[unvisited] = cluster_id
+                    queue.extend(unvisited)
+                cluster_id += 1
+            else:
+                visited[i] = True
+
+    return labels, cluster_id
+
+# Verification
+if __name__ == "__main__":
+    test_coords = np.array([
+        [100.0, 100.0],
+        [120.0, 110.0],  # Within 50um of point 0 -> Cluster 0
+        [500.0, 500.0],  # Isolated -> -1
+        [1000.0, 1000.0],
+        [1010.0, 1015.0] # Within 50um -> Cluster 1
+    ])
+    lbls, num_clusters = find_defect_clusters_vectorized(test_coords, 50.0)
+    print(f"Detected {num_clusters} clusters. Labels: {lbls}")
+    # Expected Output: Detected 2 clusters. Labels: [ 0  0 -1  1  1]
+```
+
+---
+
+### Exercise 2: Automated $C_p$ and $C_{pk}$ Analysis with Pandas
+*Objective*: Given a DataFrame of in-line Critical Dimension (CD) measurements across multiple lithography scanner tracks, calculate process capability indices and flag drifting tools.
+
+```python
+"""
+Process Capability Automated Analysis (Cp & Cpk) across Fab Tools
+"""
+
+import pandas as pd
+import numpy as np
+
+
+def evaluate_fab_process_capability(df: pd.DataFrame, tool_col: str, cd_col: str, 
+                                     usl: float, lsl: float, target_cpk: float = 1.33):
+    """
+    Evaluates Cp and Cpk for each tool track and returns an actionable report.
+    """
+    records = []
+    for tool, group in df.groupby(tool_col):
+        data = group[cd_col].dropna().values
+        n = len(data)
+        if n < 10:
+            continue
+        
+        mu = np.mean(data)
+        sigma = np.std(data, ddof=1)
+        
+        cp = (usl - lsl) / (6.0 * sigma) if sigma > 0 else np.nan
+        cpu = (usl - mu) / (3.0 * sigma) if sigma > 0 else np.nan
+        cpl = (mu - lsl) / (3.0 * sigma) if sigma > 0 else np.nan
+        cpk = min(cpu, cpl)
+        
+        status = "IN_CONTROL" if cpk >= target_cpk else ("MEAN_DRIFT" if cp >= target_cpk else "EXCESS_SPREAD")
+        
+        records.append({
+            "Tool": tool,
+            "Sample_Count": n,
+            "Mean_nm": round(mu, 3),
+            "Std_nm": round(sigma, 3),
+            "Cp": round(cp, 2),
+            "Cpk": round(cpk, 2),
+            "Status": status
+        })
+        
+    return pd.DataFrame(records).sort_values(by="Cpk")
+
+# Verification
+if __name__ == "__main__":
+    np.random.seed(42)
+    scanner_a = np.random.normal(loc=28.0, scale=0.4, size=100) # Centered
+    scanner_b = np.random.normal(loc=29.1, scale=0.4, size=100) # Drifted mean toward USL
+    scanner_c = np.random.normal(loc=28.0, scale=1.1, size=100) # Excessive variance
+    
+    df_tools = pd.DataFrame({
+        "Tool": ["Scanner_A"] * 100 + ["Scanner_B"] * 100 + ["Scanner_C"] * 100,
+        "CD_nm": np.concatenate([scanner_a, scanner_b, scanner_c])
+    })
+    
+    report = evaluate_fab_process_capability(df_tools, "Tool", "CD_nm", usl=30.0, lsl=26.0)
+    print(report.to_string(index=False))
+```
+
+---
+
+### Exercise 3: Reticle Repeater Defect Identification
+*Objective*: A defect that appears at the identical relative intra-die coordinate $(X_{\text{rel}}, Y_{\text{rel}})$ across multiple dice is caused by a damaged photomask (repeater). Write an algorithm to detect repeaters within spatial tolerance $\epsilon = 0.5\text{ }\mu\text{m}$.
+
+```python
+"""
+Photomask Repeater Defect Detection Engine
+"""
+
+from collections import defaultdict
+import numpy as np
+
+
+def detect_reticle_repeaters(x_rel: np.ndarray, y_rel: np.ndarray, die_ids: np.ndarray, 
+                             tolerance_um: float = 0.5, min_die_occurrences: int = 4):
+    """
+    Identifies reticle repeater candidates by binning intra-die coordinates.
+    """
+    # Spatial binning (grid hashing) with resolution = tolerance_um
+    grid = defaultdict(list)
+    for idx, (x, y, die) in enumerate(zip(x_rel, y_rel, die_ids)):
+        bin_key = (int(np.round(x / tolerance_um)), int(np.round(y / tolerance_um)))
+        grid[bin_key].append((idx, die))
+
+    repeaters = []
+    for bin_key, items in grid.items():
+        unique_dies = {die for idx, die in items}
+        if len(unique_dies) >= min_die_occurrences:
+            repeaters.append({
+                "Bin_Center_X_um": bin_key[0] * tolerance_um,
+                "Bin_Center_Y_um": bin_key[1] * tolerance_um,
+                "Unique_Dies_Count": len(unique_dies),
+                "Total_Defects": len(items),
+                "Defect_Indices": [idx for idx, die in items]
+            })
+
+    return repeaters
+```
