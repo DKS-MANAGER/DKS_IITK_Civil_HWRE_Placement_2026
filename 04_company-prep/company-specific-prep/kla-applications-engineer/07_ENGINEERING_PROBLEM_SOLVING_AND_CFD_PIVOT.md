@@ -3,7 +3,7 @@
 
 > **Document Status**: Authoritative Strategic & Technical Preparation Guide  
 > **Target Candidate**: IIT Kanpur M.Tech Civil (Hydraulics & Water Resources Engineering — HWRE)  
-> **Undergraduate Institution**: VNIT Nagpur (B.Tech Civil Engineering)  
+> **Undergraduate Background**: B.Tech Civil Engineering  
 > **Target Role**: Customer Applications Engineer (CAE) at KLA Corporation  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
 

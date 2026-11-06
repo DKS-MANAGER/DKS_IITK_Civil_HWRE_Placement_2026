@@ -146,7 +146,7 @@ KLA India structures new college graduate (NCG) entry through a formal, 180-day 
 
 ## 5. Candidate Background Alignment & Reality Check
 
-The candidate is an **M.Tech Civil Engineering (Hydraulics and Water Resources Engineering — HWRE)** student at **IIT Kanpur** (B.Tech Civil Engineering, **VNIT Nagpur**).
+The candidate is an **M.Tech Civil Engineering (Hydraulics and Water Resources Engineering — HWRE)** student at **IIT Kanpur** (B.Tech Civil Engineering).
 
 ### A. Honest Assessment of Strengths vs. Gaps
 * **Direct Transferable Assets (`[STRONG / TRANSFERABLE]`):**

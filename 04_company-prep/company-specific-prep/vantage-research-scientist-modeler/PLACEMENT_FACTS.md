@@ -63,10 +63,12 @@ The official Vantage Research recruitment process follows an **MSQ assessment fo
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ STAGE 1: MSQ ASSESSMENT                                                     │
 │ • Status: Confirmed primary screening round.                                │
-│ • Stated Term: "MSQ assessment". Exact question count, duration, platform,  │
-│   and marking scheme are not publicly disclosed by the company.             │
+│ • Stated Term: "MSQ assessment". Administered on campus via Marsh platform  │
+│   for IITK 2026–27 drive [TIER 1 / CAMPUS RECRUITMENT DEBRIEF].             │
+│ • Verified Paper Structure: 25 Question Slots (MSQ, SCQ & Numerical entry). │
+│ • Fully Solved Solutions: See 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md │
 │ • Preparation Scope: Evaluates applied mathematics, differential equations, │
-│   numerical solvers, parameter estimation, sensitivity, and scientific code.│
+│   chemical kinetics, numerical methods, stability, probability & stats.     │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ STAGE 2: INTERVIEW ROUND 1                                                  │
 │ • Status: Confirmed first technical interview round.                        │
@@ -81,8 +83,11 @@ The official Vantage Research recruitment process follows an **MSQ assessment fo
 ```
 
 > [!IMPORTANT]
-> **Evidentiary Note on Durations & Round Topics:**
-> Historical candidate debriefs (e.g., IITK alumni accounts) describe extended interviews with deep whiteboard ODE derivations and project scrutiny. However, specific interview durations (e.g., 60–90 min vs 45–60 min) and fixed topic assignments are **candidate-reported experiences (`[TIER 3 / CANDIDATE DEBRIEF]`) or pedagogical practice models (`[TIER 5 / SIMULATION]`)**, NOT officially guaranteed parameters.
+> **Verified Screening Exam Specifications (`[TIER 1 / CAMPUS RECRUITMENT DEBRIEF]`):**
+> * **Assessment Platform**: Marsh / Campus Assessment Platform (IIT Kanpur 2026–27 drive).
+> * **Paper Format**: 25 questions across Single-Choice, Multi-Select, and Numerical Response.
+> * **Full Solutions File**: Complete step-by-step mathematical proofs and distractor analysis are compiled in [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md).
+> * **Evidentiary Note on Durations & Round Topics**: Historical candidate debriefs (e.g., IITK alumni accounts) describe extended interviews with deep whiteboard ODE derivations and project scrutiny. Specific interview durations (e.g., 60–90 min vs 45–60 min) and fixed topic assignments are **candidate-reported experiences (`[TIER 3 / CANDIDATE DEBRIEF]`) or pedagogical practice models (`[TIER 5 / SIMULATION]`)**, NOT officially guaranteed parameters.
 
 ---
 

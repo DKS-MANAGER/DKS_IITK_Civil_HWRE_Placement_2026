@@ -46,7 +46,7 @@ A rigorous synthesis of ExxonMobil's corporate hiring disclosures, international
 2. **Recent Indian Campus Placement Reports:**
    - **NIT Warangal (August 2026, Graduate Engineering Trainee):** Reported an initial online **behavioral / psychometric assessment**, followed by an online aptitude/technical test, group discussion, and personal interview rounds.
    - **Premier Campus Engineering Drive (November 2024):** Reported a 90-minute multi-section assessment featuring a 60-question, 60-minute aptitude test (Quantitative Aptitude, English, Logical Reasoning, and Data Interpretation) followed by a 30-question technical test, administered via the **Aon (CoCubes)** assessment suite.
-   - **VNIT Nagpur Campus Experience (IndiaBIX ID-6826):** Candidate report highlighting quantitative problem solving, technical English comprehension, and scenario-based situational interview questions.
+   - **National Institute of Technology Engineering Drive (IndiaBIX ID-6826):** Candidate report highlighting quantitative problem solving, technical English comprehension, and scenario-based situational interview questions.
    - **Anna University Placement Report (2018–19):** Recorded an aptitude battery (60 Qs, 60 mins) testing numerical ability, logical deduction, and verbal comprehension alongside technical engineering fundamentals.
 3. **Assessment Provider Dynamics (Aon vs. SHL vs. In-House):**
    - Major multinational energy corporations frequently contract assessment platforms such as **Aon Assessment Solutions** (e.g., *smartPredict*, *scales*, *chatAssess*, *shapes*) or **SHL** (e.g., *Verify-G+*, *OPQ32*, *Interactive Numerical/Deductive*).

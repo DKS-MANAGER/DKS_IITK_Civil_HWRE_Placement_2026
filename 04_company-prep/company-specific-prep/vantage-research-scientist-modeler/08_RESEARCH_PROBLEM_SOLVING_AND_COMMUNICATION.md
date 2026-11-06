@@ -119,25 +119,25 @@ When presenting QSP simulation results to pharmaceutical stakeholders (VPs of Cl
 
 ---
 
-## 5. The IITK M.Tech Civil (HWRE) Thesis Defense & Pivot Script
+## 5. The IITK M.Tech Civil (HWRE) Research Defense & Pivot Framework
 
 During Round 2, the interview panel will scrutinize the candidate's academic research:
-> *Thesis: Numerical Investigation of Geometry-Dependent Scour Beneath Submerged Bridge Decks*  
+> *Research Track: [Candidate M.Tech Project: Computational Fluid Dynamics & Hydrodynamic Transport Modeling]*  
 > *Tools: OpenFOAM, ParaView, Finite Volume Method, Navier-Stokes, Reynolds-Averaged Navier-Stokes (RANS) turbulence modeling, parameter calibration.*
 
 The interviewer will inevitably ask:
-> **"You have a master's degree in Civil Engineering and your thesis is on hydraulic scour beneath bridge decks. Why are you applying to a pharmaceutical systems biology company, and how is your background relevant?"**
+> **"You have a master's degree in Civil Engineering with research in computational fluid dynamics. Why are you applying to a pharmaceutical systems biology company, and how is your background relevant?"**
 
 ### The Authoritative 3-Minute Pivot Script:
 
 ```text
-"Thank you for asking that question. At first glance, turbulent river flow around a bridge deck 
+"Thank you for asking that question. At first glance, complex hydrodynamic transport in open channels 
 and drug molecules interacting with cellular receptors in a human body seem completely unrelated. 
 However, at the foundational mathematical and computational level, they are governed by the exact 
 same physical laws and modeling methodologies.
 
-In my master's thesis at IIT Kanpur, I investigated geometry-dependent scour beneath submerged bridge 
-decks using OpenFOAM. My daily work did not involve civil construction; it involved:
+In my master's research at IIT Kanpur, I conducted computational fluid dynamics modeling of complex hydrodynamic 
+transport using OpenFOAM. My daily work did not involve civil construction; it involved:
 1. Formulating coupled non-linear partial differential equations—specifically, the Navier-Stokes mass 
    and momentum conservation equations coupled to turbulent kinetic energy (k-ω SST) transport equations.
 2. Discretizing continuous physical domains using the Finite Volume Method, managing flux balances, 

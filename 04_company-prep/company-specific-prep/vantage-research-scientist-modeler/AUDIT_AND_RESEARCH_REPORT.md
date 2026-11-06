@@ -180,19 +180,19 @@ Vantage Research maintains an integrated selection process where candidates appl
 
 ## 6. Recruitment Process Research & Evidentiary Synthesis
 
-### 6.1 Confirmed Selection Process (`[OFFICIAL VR PORTAL]`)
+### 6.1 Confirmed Selection Process (`[OFFICIAL VR PORTAL]` & `[TIER 1 / CAMPUS DEBRIEF]`)
 The official Vantage Research job posting establishes that the selection process consists of **an MSQ assessment followed by two interview rounds**:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                 OFFICIALLY CONFIRMED SELECTION SEQUENCE                     │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│ 1. MSQ ASSESSMENT                                                           │
-│    • Primary quantitative screening round.                                  │
-│    • Preserves the confirmed term "MSQ assessment". Exact question count,   │
-│      test platform, duration, and scoring rubrics are not made public.      │
+│ 1. MSQ ASSESSMENT [TIER 1 / CAMPUS RECRUITMENT DEBRIEF]                     │
+│    • Primary quantitative screening round administered via Marsh portal.    │
+│    • Verified Format: 25 questions (MSQ, SCQ & Numerical response).         │
+│    • Exhaustive Solved Solutions: 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS│
 │    • Preparation scope covers core JD competencies: ODE/PDE modeling,       │
-│      calculus, numerical solvers, parameter estimation, sensitivity, code.  │
+│      chemical kinetics, numerical solvers, stability, probability & stats.  │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 2. INTERVIEW ROUND 1                                                        │
 │    • First interview round following MSQ screening shortlist.               │
@@ -206,11 +206,20 @@ The official Vantage Research job posting establishes that the selection process
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 6.2 The MSQ Assessment: Institutional Analysis & Clarification
-* **Confirmed Fact**: The screening test is officially designated as an **"MSQ assessment"** on the recruitment portal.
-* **Investigative Analysis**: In Indian national technical examinations (e.g., GATE), the acronym MSQ designates **Multiple Select Questions** (where one or more choices can be correct with zero partial credit). In other corporate recruitment contexts, it may refer to a "Model-based Screening Quiz" or a composite technical screening test.
-* **Evidentiary Boundary**: The company does *not* publish an official test syllabus, question count, or platform specification. 
-* **Preparation Implication**: Candidates should prepare across the 7 technical competencies stated in the official JD, practicing multi-select elimination logic where every option is treated as an independent mathematical proposition.
+### 6.2 The MSQ Assessment: Primary Source Audit & Analysis (`[TIER 1]`)
+* **Confirmed Fact**: The screening test is officially designated as an **"MSQ assessment"** on the recruitment portal and was administered for the IIT Kanpur 2026–27 recruitment drive on the Marsh campus assessment platform.
+* **Verified Paper Analysis**:
+  * **Test Structure**: Exactly 25 question slots. Transcribed questions cover slots Q1 and Q3–Q25 (Q2 unsupplied; preserved blank without fabrication).
+  * **Question Types**: A composite blend of **Multiple Select Questions (MSQs)**, standard Single-Choice Questions (SCQs), and Numerical Entry Questions.
+  * **Tested Mathematical & Modeling Core**:
+    1. *Chemical Kinetics & Mass Action*: Rate equations ($d[D]/dt$), multi-reaction networks, parallel first-order decay pathways.
+    2. *Dynamical Systems & Stability*: Phase-plane node/spiral stability from 2D linear ODEs ($\dot{\mathbf{x}} = \mathbf{A}\mathbf{x}$), scalar autonomous ODE equilibrium stability ($g'(x^*) < 0$).
+    3. *Calculus & Differential Operators*: Piecewise differentiability ($C^0$ vs $C^1$), operator series $\sum_{k=0}^\infty (D/2)^k$, double exponential curves $y = \exp(\exp(-x))$, separable ODEs.
+    4. *Physiological & Engineering Mass Balance*: CSTR brine dilution ($Q(t) = Q_0 e^{-r t/V}$), Von Bertalanffy tumor growth equilibrium ($x_* = (a/b)^{1/(\beta - \alpha)}$), animal-plant ecological ODE formulations.
+    5. *Probability, Statistics & Combinatorics*: Bayes' theorem / Positive Predictive Value (PPV) under low prevalence, Poisson waiting times ($P(X \ge 2)$), variance-to-mean ratios, round-robin combinations, permutation sampling without replacement.
+    6. *Geometry*: 3D solid geometry cube body diagonal angles ($\cos\theta = 1/\sqrt{3}$).
+* **Full Solutions Reference**: Every single question has been rigorously verified with step-by-step mathematical proofs, distractor refutations, and syllabus mappings in [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md).
+* **Strategic Takeaway**: Preparation cannot be restricted purely to textbook multiple-choice guessing. Candidates must solve coupled differential systems, check mass balances, and verify stability criteria quickly under strict time limits.
 
 ### 6.3 Historical Candidate Interview Debrief (`[TIER 3 / CANDIDATE DEBRIEF]`)
 * **Verified Source**: IIT Kanpur Academics and Career Council (AnC Council) Placement Fundae (*Placement Fundae # 3 : Research*, featuring Advaith Kannan, Y21 BSBE).

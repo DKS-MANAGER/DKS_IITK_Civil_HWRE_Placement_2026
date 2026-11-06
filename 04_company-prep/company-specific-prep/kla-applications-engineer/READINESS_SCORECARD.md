@@ -3,7 +3,7 @@
 
 > **Document Status**: Authoritative Pre-Interview Verification Audit `[TIER 5 PEDAGOGICAL BENCHMARK]`  
 > **Candidate Cohort**: IIT Kanpur M.Tech Civil (Hydraulics & Water Resources Engineering — HWRE)  
-> **Undergraduate**: VNIT Nagpur (B.Tech Civil Engineering)  
+> **Undergraduate**: B.Tech Civil Engineering  
 > **Official Proforma Role Title**: Applications Engineer `[IITK PROFORMA FACT]` (Functional CAE Benchmark)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 | Phase 1  
 
@@ -70,7 +70,7 @@ To ensure measurable readiness, the candidate's preparation is scored independen
 | **Perl Scripting** | Customizing legacy fab automation scripts and parsing tool text logs. | Extensive Bash/Linux shell scripting, but primary coding in Python. | **Partial Match** | Practice reading and writing the 50-line Perl KLARF extractor script in [Module 06](06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md). |
 | **Customer Communication** | Technical presentations, fab escalation handling, cross-functional collaboration. | Academic seminars, project milestone reviews, thesis defenses at IIT Kanpur. | **Transferable Match** | Memorize the 5-phase customer escalation protocol in [Module 08](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). |
 | **Technical Documentation** | Authoring Best-Known-Method (BKM) guides, customer training modules. | Technical papers, GitHub documentation, engineering lab reports. | **Strong Match** | Review the standard KLA BKM template provided in [Module 08](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). |
-| **Travel Readiness (>80%)** | Frequent, extended on-site deployments inside global customer cleanroom fabs. | High physical stamina, adaptability; relocated across institutes (VNIT to IITK). | **Strong Match** | Rehearse the confident >80% travel defense script in [Module 08](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). |
+| **Travel Readiness (>80%)** | Frequent, extended on-site deployments inside global customer cleanroom fabs. | High physical stamina, adaptability; relocated across institutions to IIT Kanpur. | **Strong Match** | Rehearse the confident >80% travel defense script in [Module 08](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md). |
 
 ---
 

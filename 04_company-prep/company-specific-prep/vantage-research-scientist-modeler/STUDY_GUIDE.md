@@ -174,7 +174,8 @@ The preparation curriculum is organized into four sequential 7-day phases, alloc
   * Translating mathematical simulations into decision-grade recommendations for biopharma sponsors.
   * Explaining model assumptions, confidence bounds, and limitations clearly to non-specialists.
   * *Study*: [`08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md`](08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md) Section 3.
-* **Day 25: MSQ Assessment Full Mock 1 (Timed 90-min)**
+* **Day 25: Official IITK 2026–27 Assessment Master Derivations & Full Mock 1**
+  * Master all 25 questions of the authentic campus test in [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md): chemical kinetics, mass-action rate balances, planar/scalar ODE stability, double exponential asymptotics, CSTR dilution, and Bayes' PPV.
   * Take Questions 01–20 in [`09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md`](09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md) under strict timed conditions.
   * Review all incorrect selections, understand distractor logic, and revise formula sheets.
 * **Day 26: MSQ Assessment Full Mock 2 (Timed 90-min)**

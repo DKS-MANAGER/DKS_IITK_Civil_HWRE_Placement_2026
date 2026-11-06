@@ -12,7 +12,7 @@
 Every statement, test parameter, and problem in this package is strictly tagged according to the repository evidentiary hierarchy:
 * `[IITK PLACEMENT SOURCE]`: Verified directly from active candidate invitation emails, official SPO notifications, or confirmed campus listings.
 * `[OFFICIAL COMPANY SOURCE]`: Sourced from ExxonMobil global disclosures, EMSTPL India career filings, and OIMS process safety frameworks.
-* `[CANDIDATE-REPORTED — HISTORICAL]`: Sourced from past engineering placement debriefs (NIT Warangal, Anna University, VNIT Nagpur); provides structural context but is not a binding guarantee for current IITK drives.
+* `[CANDIDATE-REPORTED — HISTORICAL]`: Sourced from past engineering placement debriefs (NIT Warangal, Anna University, and other premier engineering institutes); provides structural context but is not a binding guarantee for current IITK drives.
 * `[PREPARATION INFERENCE]`: Pedagogical problem formulations, practice negative marking schemes, and self-assessment benchmarks.
 * `[UNKNOWN / UNVERIFIED]`: Test mechanics not officially fixed or published (e.g., exact assessment vendor, proprietary negative marking weights, and official cutoffs).
 

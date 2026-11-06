@@ -10,12 +10,23 @@
 
 ## 1. Assessment Overview & MSQ Answering Strategy
 
-The Vantage Research official job posting explicitly specifies an **"MSQ assessment"** as the primary screening round for the Scientist – Modeler position.
+The Vantage Research official recruitment pipeline opens with a rigorous quantitative screening round.
+
+> [!IMPORTANT]
+> **PRIMARY SOURCE ASSESSMENT RECORD (IIT KANPUR 2026–27 DRIVE)**:
+> The official, on-campus quantitative screening examination for Vantage Research has been verified, transcribed, and completely solved in:
+> 🔗 [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md)
+> * **Assessment Platform**: Marsh / VantageResearch Campus Assessment Portal (`[TIER 1 / CAMPUS RECRUITMENT DEBRIEF]`).
+> * **Coverage**: 25 Question Slots (24 questions transcribed and fully proved; Q2 unsupplied).
+> * **Format**: Balanced composite test featuring **Multiple Select Questions (MSQs)**, Single-Choice Questions (SCQs), and Numerical Entry Questions.
+> * **Tested Domains**: Chemical kinetics (mass-action systems), 2D ODE phase-plane stability, scalar autonomous stability, piecewise differentiability, operator series, double exponential asymptotics, CSTR well-mixed dilution balances, parallel first-order reactions, Von Bertalanffy growth, animal-plant ecological ODEs, Bayes' theorem / PPV, Poisson reliability, and combinatorics.
+> 
+> *Candidates must study the official 25-question solutions first before attempting the 40 simulated companion questions in this module.*
 
 ### Evidentiary Scope & Institutional Context
 * **Confirmed Term**: The screening round is officially designated as an **"MSQ assessment"** (`[OFFICIAL VR PORTAL]`).
-* **Format Interpretation**: In Indian technical competitive examinations (e.g., GATE), the acronym MSQ designates **Multiple Select Questions** (where one or more options are correct with zero partial credit). In other recruitment settings, it may refer to a "Model-based Screening Quiz" or a composite technical test. The company does *not* publicly publish its exact platform, question count, or marking scheme.
-* **Practice Design**: To provide the most rigorous possible preparation, this question bank is formulated as **multi-select technical practice questions (`[TIER 5 / SIMULATION]`)** calibrated directly to the 7 technical competency domains listed in the official JD.
+* **Format Interpretation**: In Indian technical competitive examinations (e.g., GATE), the acronym MSQ designates **Multiple Select Questions** (where one or more options are correct with zero partial credit). As evidenced by the official IITK 2026–27 paper, the assessment blends multi-select questions with standard single-choice and numerical entry questions.
+* **Practice Design**: To provide the most rigorous possible preparation, this companion question bank is formulated as **40 multi-select technical practice questions (`[TIER 5 / SIMULATION]`)** calibrated directly to the 7 technical competency domains listed in the official JD.
 * **Strategic Answering Rule**: Evaluate each option as an independent True/False mathematical proposition. Never stop after finding one correct statement!
 
 ---

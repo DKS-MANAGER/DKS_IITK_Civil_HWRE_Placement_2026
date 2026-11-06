@@ -77,7 +77,7 @@ Historical student debriefs provide structural indicators but are strictly secon
 | :---: | :--- | :--- | :---: | :--- |
 | **Aug 2026** | **NIT Warangal**<br>(Graduate Engineering Trainee) | Initial online behavioral/psychometric inventory followed by technical evaluation and interviews. | Medium `[CANDIDATE-REPORTED]` | High: Confirms ongoing focus on psychometric/behavioral screening. |
 | **Nov 2024** | **Premier Engineering Campus**<br>(Civil / Infrastructure) | 90-min multi-section assessment via Aon: 60 Qs aptitude (Quant, English, LR, DI) + 30 Qs core technical. | Medium `[CANDIDATE-REPORTED]` | Medium: Demonstrates combined aptitude + core engineering structure. |
-| **2023** | **VNIT Nagpur**<br>(Mechanical / Civil) | Quantitative problem solving, technical comprehension, and situational interview questions. | Low-Medium `[CANDIDATE-REPORTED]` | Medium: Emphasizes scenario-based situational reasoning. |
+| **2023** | **National Institute of Technology**<br>(Mechanical / Civil) | Quantitative problem solving, technical comprehension, and situational interview questions. | Low-Medium `[CANDIDATE-REPORTED]` | Medium: Emphasizes scenario-based situational reasoning. |
 | **2018–19** | **Anna University**<br>(Mechanical / Production) | 60 Qs / 60 mins aptitude battery alongside core technical fundamentals. | Low (Dated) `[CANDIDATE-REPORTED]` | Low: Historical baseline showing long-term presence of quantitative screening. |
 
 ---

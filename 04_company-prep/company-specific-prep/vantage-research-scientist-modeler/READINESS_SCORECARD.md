@@ -47,6 +47,7 @@ Vantage Research evaluates candidates across four primary scientific dimensions.
 
 ### Dimension 1: Technical Competency (Target: $\ge 85/100$)
 
+- [ ] **TC-00: Official Screening Exam Benchmark**: Score $\ge 85\%$ on the 25-question Marsh / VantageResearch IITK 2026–27 assessment paper. *(Verified via [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md))*
 - [ ] **TC-01: Eigenvalues & Stability**: Calculate Jacobian matrix, compute eigenvalues analytically for a 2D nonlinear system, and classify fixed points. *(Verified via Module 01 drills)*
 - [ ] **TC-02: Phase-Plane Analysis**: Sketch nullclines, determine direction fields, and verify whether a system possesses limit cycles or saddle points. *(Verified via Module 01 drills)*
 - [ ] **TC-03: Stiff Solvers**: Explain why explicit RK4 fails on biological networks with disparate timescales; explain Butcher tableau and A-stability. *(Verified via Module 02)*

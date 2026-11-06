@@ -26,7 +26,9 @@ The `04_company-prep/` layer is organized into seven modular directories:
     ├── hilti-get-value-engineering/ # Hilti (HTSI) — GET (Global Value Engineering Hub, Pune) Pack
     ├── larsen-toubro-pget-civil/  # Larsen & Toubro — PGET (Civil Engineering & EPC Infrastructure) Pack
     ├── vantage-research-scientist-modeler/ # Vantage Research — Scientist Modeler (QSP & Mechanistic PK/PD) Pack
-    └── kla-applications-engineer/ # KLA Corporation — Customer Applications Engineer (Semiconductor Yield) Pack
+    ├── kla-applications-engineer/ # KLA Corporation — Customer Applications Engineer (Semiconductor Yield) Pack
+    ├── afry-hydraulics-engineer/  # AFRY India — Hydraulics Engineer (Hydropower, Dams & Water Infrastructure) Pack
+    └── iqvia-analyst/             # IQVIA India — Analyst (Healthcare Commercial Analytics & Data Science) Pack
 ```
 
 ---
@@ -165,7 +167,25 @@ For flagship campus opportunities with verified job descriptions or placement pr
 ### 4.7 Vantage Research — Scientist Modeler (Scientist 1 & Scientist 2 — QSP & PK/PD)
 * **Target Package**: [`company-specific-prep/vantage-research-scientist-modeler/`](company-specific-prep/vantage-research-scientist-modeler/README.md)
 * **Core Profile**: Contract Research Organization (CRO) specializing in Quantitative Systems Pharmacology (QSP), mechanistic PK/PD mathematical modeling, ODE/PDE dynamical systems, and pharmaceutical simulation.
-* **Selection & Governance**: MSQ Assessment $\rightarrow$ Technical Interview R1 $\rightarrow$ Research & Problem-Solving R2; evaluated jointly for Scientist 1 and Scientist 2.
+* **Selection & Governance**: Dual-evaluation model where candidates apply once and are evaluated concurrently for Scientist 1 and Scientist 2; selection follows an **MSQ Assessment $\rightarrow$ Technical Interview Round 1 $\rightarrow$ Research & Problem-Solving Round 2**; in-office Chennai headquarters.
+* **Master Architecture (17-File Suite)**:
+  * [`README.md`](company-specific-prep/vantage-research-scientist-modeler/README.md) — Master navigation hub, executive overview, directory map & HWRE-to-QSP pivot matrix.
+  * [`PLACEMENT_FACTS.md`](company-specific-prep/vantage-research-scientist-modeler/PLACEMENT_FACTS.md) — Audited proforma facts, CRO profile, Chennai in-office base, Sc1/Sc2 evaluation, and 5-tier evidence taxonomy.
+  * [`AUDIT_AND_RESEARCH_REPORT.md`](company-specific-prep/vantage-research-scientist-modeler/AUDIT_AND_RESEARCH_REPORT.md) — Corporate research, QSP/MIDD therapeutic domains, VQMTools, JD audit, and campus debrief synthesis.
+  * [`STUDY_GUIDE.md`](company-specific-prep/vantage-research-scientist-modeler/STUDY_GUIDE.md) — 4-week structured preparation roadmap with daily technical milestones targeting Scientist 2 standard.
+  * [`READINESS_SCORECARD.md`](company-specific-prep/vantage-research-scientist-modeler/READINESS_SCORECARD.md) — 4-dimension competency scorecard (Math, Research, Coding, Communication) with Sc1 vs Sc2 benchmarks.
+  * [`01_MATHEMATICAL_FOUNDATIONS_AND_DYNAMICAL_SYSTEMS.md`](company-specific-prep/vantage-research-scientist-modeler/01_MATHEMATICAL_FOUNDATIONS_AND_DYNAMICAL_SYSTEMS.md) — Linear algebra, eigenvalues, Jacobian matrices, phase-plane portraits, and bifurcation analysis.
+  * [`02_ODE_PDE_AND_NUMERICAL_METHODS.md`](company-specific-prep/vantage-research-scientist-modeler/02_ODE_PDE_AND_NUMERICAL_METHODS.md) — RK45, stiff solvers (Radau IIA, BDF), advection-diffusion PDEs, and CFL stability criteria.
+  * [`03_PARAMETER_ESTIMATION_OPTIMIZATION_AND_SENSITIVITY.md`](company-specific-prep/vantage-research-scientist-modeler/03_PARAMETER_ESTIMATION_OPTIMIZATION_AND_SENSITIVITY.md) — Structural/practical identifiability, Levenberg-Marquardt, Morris screening, and Sobol GSA indices.
+  * [`04_SCIENTIFIC_PROGRAMMING_PYTHON_MATLAB.md`](company-specific-prep/vantage-research-scientist-modeler/04_SCIENTIFIC_PROGRAMMING_PYTHON_MATLAB.md) — Production Python (`scipy.integrate`, `optimize`), vectorization, residual functions, and MATLAB scripts.
+  * [`05_STATISTICS_AND_STOCHASTIC_MODELLING.md`](company-specific-prep/vantage-research-scientist-modeler/05_STATISTICS_AND_STOCHASTIC_MODELLING.md) — Parameter uncertainty, Monte Carlo propagation, Markov chains, and Gillespie stochastic simulation (SSA).
+  * [`06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md`](company-specific-prep/vantage-research-scientist-modeler/06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md) — Multi-scale physiological networks, mass action kinetics, Michaelis-Menten QSSA, and Hill equations.
+  * [`07_PHARMACOKINETICS_PHARMACODYNAMICS.md`](company-specific-prep/vantage-research-scientist-modeler/07_PHARMACOKINETICS_PHARMACODYNAMICS.md) — 1- and 2-compartment PK, clearance, AUC, target-mediated drug disposition (TMDD), and indirect response models.
+  * [`08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md`](company-specific-prep/vantage-research-scientist-modeler/08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md) — Deconstructing scientific papers, executive client storytelling, and M.Tech Civil HWRE thesis defense script.
+  * [`09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md`](company-specific-prep/vantage-research-scientist-modeler/09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md) — Primary source Marsh / VantageResearch IITK 2026–27 campus exam: 25 questions with worked mathematical solutions & distractor refutations.
+  * [`09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md`](company-specific-prep/vantage-research-scientist-modeler/09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md) — 40 multi-select practice questions across all 7 JD technical competencies with full step-by-step proofs.
+  * [`10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md`](company-specific-prep/vantage-research-scientist-modeler/10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md) — 4 mock interview tracks (Live ODE derivation, oncology case, whiteboard code, and client defense).
+  * [`SOURCES.md`](company-specific-prep/vantage-research-scientist-modeler/SOURCES.md) — Evidentiary citations, peer-reviewed QSP literature, FDA MIDD guidelines, and verification registry.
 
 ### 4.8 KLA Corporation — Applications Engineer (Semiconductor Yield / CAE Benchmark)
 * **Target Package**: [`company-specific-prep/kla-applications-engineer/`](company-specific-prep/kla-applications-engineer/README.md)
@@ -190,6 +210,64 @@ For flagship campus opportunities with verified job descriptions or placement pr
   * [`READINESS_SCORECARD.md`](company-specific-prep/kla-applications-engineer/READINESS_SCORECARD.md) — Dual-track 100-pt scoring models (OA + Technical Interview) & 12-point pre-interview verification checklist.
   * [`STUDY_GUIDE.md`](company-specific-prep/kla-applications-engineer/STUDY_GUIDE.md) — 4-week balanced roadmap (25% Quant, 30% Tech, 25% Python/Stats, 20% Customer/HR) & daily milestones.
   * [`SOURCES.md`](company-specific-prep/kla-applications-engineer/SOURCES.md) — Complete research evidence ledger with citations, source tiers, access dates, and confidence ratings.
+
+### 4.9 AFRY India Private Limited — Hydraulics Engineer (Hydropower, Dams & Water Infrastructure)
+* **Target Package**: [`company-specific-prep/afry-hydraulics-engineer/`](company-specific-prep/afry-hydraulics-engineer/README.md)
+* **Core Profile**: Global Swedish-Finnish engineering, design, and advisory powerhouse (merger of ÅF 1895 and Pöyry 1958). Noida engineering delivery hub specializes in hydropower (conventional and pumped-storage PSPs), concrete gravity dams, spillways, transient water hammer modeling, and river engineering across domestic (NHPC, SJVNL, HPPCL) and international clients.
+* **Compensation & Governance**: CTC ₹7,20,000 (Gross ₹6,76,800 · Base ₹30,000/mo · Take-home ₹52,800/mo · No Bond); in-office Noida base (Stellar IT Park, Sector 62); selection via Campus Screening Test $\rightarrow$ Technical Derivations R1 $\rightarrow$ Systems/Software R2 $\rightarrow$ HR/Values Fit.
+* **Master Architecture (21-File Comprehensive Suite)**:
+  * [`README.md`](company-specific-prep/afry-hydraulics-engineer/README.md) — Master navigation hub, executive overview, directory map & 3-minute CFD pivot narrative.
+  * [`PLACEMENT_FACTS.md`](company-specific-prep/afry-hydraulics-engineer/PLACEMENT_FACTS.md) — Audited proforma records, CTC anomaly analysis, eligibility audit, and 5-tier taxonomy.
+  * [`01_COMPANY_AND_ROLE_RESEARCH.md`](company-specific-prep/afry-hydraulics-engineer/01_COMPANY_AND_ROLE_RESEARCH.md) — Corporate background (ÅF+Pöyry), Noida delivery hub, Thana Plaun 191 MW hydro project, consulting lifecycle.
+  * [`02_RECRUITMENT_PROCESS_AND_EVIDENCE.md`](company-specific-prep/afry-hydraulics-engineer/02_RECRUITMENT_PROCESS_AND_EVIDENCE.md) — Selection workflow audit, proforma facts vs. candidate debriefs, evaluation rubrics, AFRY values.
+  * [`03_OPEN_CHANNEL_HYDRAULICS.md`](company-specific-prep/afry-hydraulics-engineer/03_OPEN_CHANNEL_HYDRAULICS.md) — Module A: Critical depth proof, Manning/Chezy, GVF differential equation, Bélanger jump equation, rating curves.
+  * [`04_UNSTEADY_OPEN_CHANNEL_FLOW.md`](company-specific-prep/afry-hydraulics-engineer/04_UNSTEADY_OPEN_CHANNEL_FLOW.md) — Module B: Saint-Venant 1D equations, shallow-water waves, kinematic/diffusion wave, Preissmann scheme, CFL condition.
+  * [`05_PRESSURE_PIPE_HYDRAULICS.md`](company-specific-prep/afry-hydraulics-engineer/05_PRESSURE_PIPE_HYDRAULICS.md) — Module C: Darcy-Weisbach, Colebrook-White implicit solver, Swamee-Jain, minor losses, pump/system operating point.
+  * [`06_WATER_HAMMER_AND_MASS_OSCILLATION.md`](company-specific-prep/afry-hydraulics-engineer/06_WATER_HAMMER_AND_MASS_OSCILLATION.md) — Modules D & E: Joukowsky surge, acoustic wave speed with pipe elasticity, surge tanks, Thoma stability criterion.
+  * [`07_SPILLWAYS_AND_HYDRAULIC_STRUCTURES.md`](company-specific-prep/afry-hydraulics-engineer/07_SPILLWAYS_AND_HYDRAULIC_STRUCTURES.md) — Module F: Ogee spillway USBR/WES coordinates, sub-atmospheric crest pressures, sluices, broad-crested weirs.
+  * [`08_ENERGY_DISSIPATION_SYSTEMS.md`](company-specific-prep/afry-hydraulics-engineer/08_ENERGY_DISSIPATION_SYSTEMS.md) — Module G: Stilling basins (USBR Type II vs Type III), trajectory flip bucket throw distance, roller buckets.
+  * [`09_HYDRAULIC_MODEL_STUDIES.md`](company-specific-prep/afry-hydraulics-engineer/09_HYDRAULIC_MODEL_STUDIES.md) — Module H: Froude scaling laws ($Q_r = L_r^{2.5}, F_r = L_r^3$), scale effects, distorted river models, instrumentation.
+  * [`10_HEC_RAS_PREPARATION.md`](company-specific-prep/afry-hydraulics-engineer/10_HEC_RAS_PREPARATION.md) — Module I: HEC-RAS 1D steady/unsteady engine, cross-sections, boundary conditions, bridge modeling, tutorial.
+  * [`11_BENTLEY_HAMMER_PREPARATION.md`](company-specific-prep/afry-hydraulics-engineer/11_BENTLEY_HAMMER_PREPARATION.md) — Module J: Transient modeling, Method of Characteristics (MOC) grid, air vessels, surge shafts, pressure envelopes.
+  * [`12_EXCEL_VBA_HYDRAULIC_AUTOMATION.md`](company-specific-prep/afry-hydraulics-engineer/12_EXCEL_VBA_HYDRAULIC_AUTOMATION.md) — Module K: 10 production-ready VBA hydraulic automation projects (Manning, normal depth, jump, hammer, rating).
+  * [`13_QUANTITATIVE_APTITUDE_AND_OA.md`](company-specific-prep/afry-hydraulics-engineer/13_QUANTITATIVE_APTITUDE_AND_OA.md) — Section 8: Quantitative aptitude, commercial arithmetic, and 50 solved hydraulic numerical problems.
+  * [`14_TECHNICAL_INTERVIEW_QUESTION_BANK.md`](company-specific-prep/afry-hydraulics-engineer/14_TECHNICAL_INTERVIEW_QUESTION_BANK.md) — Section 9: 17 comprehensive tracks across 3 difficulty tiers with complete worked derivations.
+  * [`15_ENGINEERING_CASE_STUDIES.md`](company-specific-prep/afry-hydraulics-engineer/15_ENGINEERING_CASE_STUDIES.md) — Section 10: 12 practical hydraulic engineering case studies with full calculations, data, and interpretation.
+  * [`16_CANDIDATE_PROJECT_DEFENCE.md`](company-specific-prep/afry-hydraulics-engineer/16_CANDIDATE_PROJECT_DEFENCE.md) — Section 11: M.Tech CFD research defense, OpenFOAM to consulting pivot, and defensive dialogue scripts.
+  * [`17_CANDIDATE_FIT_AND_STUDY_ROADMAP.md`](company-specific-prep/afry-hydraulics-engineer/17_CANDIDATE_FIT_AND_STUDY_ROADMAP.md) — Section 12 & 16: Candidate fit matrix, 7-day rapid revision, 14-day intensive, and 30-day complete roadmap.
+  * [`READINESS_SCORECARD.md`](company-specific-prep/afry-hydraulics-engineer/READINESS_SCORECARD.md) — 10-dimension diagnostic rubric, benchmark metrics, and exit gate verification checklist.
+  * [`SOURCES.md`](company-specific-prep/afry-hydraulics-engineer/SOURCES.md) — Evidentiary citations, statutory IS/USBR/USACE codes, software manuals, technical validation log.
+
+### 4.10 IQVIA India — Analyst (Commercial Analytics & Healthcare Data Science)
+* **Target Role & Profile**: Analyst `[TIER 1 / PROFORMA FACT]`. Commercial Solutions & Analytics Global Delivery (supporting US/Europe biopharma brand leadership).
+* **Location & CTC**: PAN India (Key Hubs: Bengaluru, Kochi, Gurugram) `[TIER 1]`. CTC ₹13,77,600 (Gross ₹12,00,000 · Basic ₹40,000/mo · No Bond) `[TIER 1]`.
+* **Core Competencies Evaluated**: Marketing Mix Modelling (MMM), Forecasting (SARIMAX), Physician Segmentation (K-Means/CART), Promotional ROI, Linear Programming (LP), Bayesian Hierarchical Models, SQL, Python, R, Base SAS, MS Excel & PowerPoint.
+* **Master Package Navigation** ([`company-specific-prep/iqvia-analyst/`](company-specific-prep/iqvia-analyst/)):
+  * [`README.md`](company-specific-prep/iqvia-analyst/README.md) — Master navigation hub, executive summary, competency gap matrix, and priority tiers.
+  * [`PLACEMENT_FACTS.md`](company-specific-prep/iqvia-analyst/PLACEMENT_FACTS.md) — Official proforma audit, compensation anomaly analysis, and eligibility verification.
+  * [`01_COMPANY_AND_ROLE_RESEARCH.md`](company-specific-prep/iqvia-analyst/01_COMPANY_AND_ROLE_RESEARCH.md) — Corporate background (IMS Health + Quintiles merger), IQVIA CORE™ platform, and RWE/TAS business.
+  * [`02_RECRUITMENT_PROCESS_AND_EVIDENCE.md`](company-specific-prep/iqvia-analyst/02_RECRUITMENT_PROCESS_AND_EVIDENCE.md) — 8-stage selection process, online assessment breakdown (SHL/HackerEarth), and interview rubrics.
+  * [`03_CANDIDATE_FIT_ANALYSIS.md`](company-specific-prep/iqvia-analyst/03_CANDIDATE_FIT_ANALYSIS.md) — Engineering-to-pharma pivot, transferable competencies, and 30-sec / 3-min narrative scripts.
+  * [`04_STATISTICS_AND_PROBABILITY.md`](company-specific-prep/iqvia-analyst/04_STATISTICS_AND_PROBABILITY.md) — Module A: Descriptive stats, distributions, hypothesis testing, OLS derivations, VIF, and logistic regression.
+  * [`05_PYTHON_FOR_ANALYTICS.md`](company-specific-prep/iqvia-analyst/05_PYTHON_FOR_ANALYTICS.md) — Module B: Vectorized NumPy, memory downcasting in Pandas, TimeSeriesSplit, and production pipelines.
+  * [`06_R_PROGRAMMING.md`](company-specific-prep/iqvia-analyst/06_R_PROGRAMMING.md) — Module C: Base R data types, Tidyverse (`dplyr`, `tidyr`, `ggplot2`), and Python vs R Rosetta Stone.
+  * [`07_SAS_PROGRAMMING.md`](company-specific-prep/iqvia-analyst/07_SAS_PROGRAMMING.md) — Module D: Base SAS environment, DATA step PDV execution, PROC SQL, PROC REG, PROC LOGISTIC, and macros.
+  * [`08_SQL_AND_DATABASE_ANALYTICS.md`](company-specific-prep/iqvia-analyst/08_SQL_AND_DATABASE_ANALYTICS.md) — Module E: ANSI query processing, window functions (`DENSE_RANK`), CTEs, anti-joins, and query optimization.
+  * [`09_FORECASTING_AND_TIME_SERIES.md`](company-specific-prep/iqvia-analyst/09_FORECASTING_AND_TIME_SERIES.md) — Module F: Decomposition, stationarity (ADF), SARIMAX, Holt-Winters, Bass diffusion, and patent cliff erosion.
+  * [`10_MARKETING_MIX_MODELLING.md`](company-specific-prep/iqvia-analyst/10_MARKETING_MIX_MODELLING.md) — Module G: Geometric adstock carryover, Hill saturation curves, ROI vs mROI, and complete end-to-end Python project.
+  * [`11_SEGMENTATION_AND_DECISION_TREES.md`](company-specific-prep/iqvia-analyst/11_SEGMENTATION_AND_DECISION_TREES.md) — Module H: Unsupervised K-Means, Silhouette validation, PCA, CART decision trees, and physician profiling case.
+  * [`12_PROMOTIONAL_ROI_AND_COMMERCIAL_ANALYTICS.md`](company-specific-prep/iqvia-analyst/12_PROMOTIONAL_ROI_AND_COMMERCIAL_ANALYTICS.md) — Module I: Net promotional ROI, Sales Force Effectiveness (SFE), Gross-to-Net (GTN) economics, and growth decomposition.
+  * [`13_OPTIMIZATION_TECHNIQUES.md`](company-specific-prep/iqvia-analyst/13_OPTIMIZATION_TECHNIQUES.md) — Module J: Linear programming simplex, duality shadow prices, non-linear KKT conditions, and `scipy.optimize` solvers.
+  * [`14_BAYESIAN_AND_HIERARCHICAL_MODELS.md`](company-specific-prep/iqvia-analyst/14_BAYESIAN_AND_HIERARCHICAL_MODELS.md) — Module K: Multilevel mixed-effects (LMM), partial pooling shrinkage, ICC, and MCMC convergence diagnostics.
+  * [`15_DEEP_LEARNING_RNN_CNN.md`](company-specific-prep/iqvia-analyst/15_DEEP_LEARNING_RNN_CNN.md) — Module L: Sequential RNN/LSTM/GRU, CNN spatial filters, and the critical evaluation of why DL fails in MMM.
+  * [`16_HEALTHCARE_AND_PHARMA_ANALYTICS.md`](company-specific-prep/iqvia-analyst/16_HEALTHCARE_AND_PHARMA_ANALYTICS.md) — Module M: Pharma lifecycle, Rx vs Dx claims, patient adherence (PDC/MPR), HIPAA Safe Harbor, and RWD pitfalls.
+  * [`17_EXCEL_AND_POWERPOINT.md`](company-specific-prep/iqvia-analyst/17_EXCEL_AND_POWERPOINT.md) — Advanced Excel modeling (XLOOKUP, Power Query, Solver), slide architecture, and 6-slide executive deck blueprint.
+  * [`18_APTITUDE_AND_TECHNICAL_ASSESSMENTS.md`](company-specific-prep/iqvia-analyst/18_APTITUDE_AND_TECHNICAL_ASSESSMENTS.md) — 50 fully solved practice problems across Quant, Logic, DI, Statistics, Python, SQL, ML, SAS, and Commercial Cases.
+  * [`19_TECHNICAL_INTERVIEW_QUESTION_BANK.md`](company-specific-prep/iqvia-analyst/19_TECHNICAL_INTERVIEW_QUESTION_BANK.md) — 3-tier question bank (Fundamentals, Applied Analytics, Advanced Systems) with derivations and follow-up traps.
+  * [`20_BUSINESS_CASE_STUDIES.md`](company-specific-prep/iqvia-analyst/20_BUSINESS_CASE_STUDIES.md) — 8 comprehensive commercial analytics case studies with datasets, math formulations, and business recommendations.
+  * [`21_CANDIDATE_PROJECT_DEFENCE.md`](company-specific-prep/iqvia-analyst/21_CANDIDATE_PROJECT_DEFENCE.md) — Candidate project defense scripts (XGBoost/SHAP, time-series, extreme values) and difficult probe defenses.
+  * [`22_STUDY_ROADMAP_AND_READINESS_TRACKER.md`](company-specific-prep/iqvia-analyst/22_STUDY_ROADMAP_AND_READINESS_TRACKER.md) — 7-day, 14-day, and 30-day study roadmaps, 100-point diagnostic scorecard, and pre-interview exit checklist.
+  * [`SOURCES.md`](company-specific-prep/iqvia-analyst/SOURCES.md) — Evidentiary source registry, citations, regulatory codes, and mathematical validation log.
 
 ---
 

@@ -27,8 +27,8 @@ Vantage Research is a premier Contract Research Organization (CRO) specializing 
 
 ## 2. Candidate Transferable Competencies & The Biological Pivot
 
-The target candidate possesses an **M.Tech in Civil Engineering (Hydraulics and Water Resources Engineering — HWRE)** with thesis research in:
-> *Numerical Investigation of Geometry-Dependent Scour Beneath Submerged Bridge Decks* (utilizing OpenFOAM, Finite Volume Method, Navier-Stokes transport equations, turbulent kinetic energy modeling, parameter calibration, and mesh sensitivity analysis).
+The target candidate possesses an **M.Tech in Civil Engineering (Hydraulics and Water Resources Engineering — HWRE)** with research in:
+> *Computational Fluid Dynamics & Transport Modeling* (utilizing OpenFOAM, Finite Volume Method, Navier-Stokes transport equations, turbulent kinetic energy modeling, parameter calibration, and mesh sensitivity analysis).
 
 ### Transferable Strengths vs Knowledge Gaps
 
@@ -54,9 +54,9 @@ The target candidate possesses an **M.Tech in Civil Engineering (Hydraulics and 
 
 ---
 
-## 3. Repository Directory Architecture (16 Master Modules)
+## 3. Repository Directory Architecture (17 Master Modules)
 
-The preparation package is organized into a modular, self-contained 16-document system:
+The preparation package is organized into a modular, self-contained 17-document system:
 
 ```text
 vantage-research-scientist-modeler/
@@ -73,7 +73,8 @@ vantage-research-scientist-modeler/
 ├── 06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md  # Multi-scale networks, Mass action, Michaelis-Menten
 ├── 07_PHARMACOKINETICS_PHARMACODYNAMICS.md            # 1/2-compartment PK, TMDD, Emax, indirect response
 ├── 08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md   # Paper deconstruction, client storytelling, thesis defense
-├── 09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md            # 40-question MSQ bank with fully verified solutions
+├── 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md      # Official IIT Kanpur 25-Q campus exam paper & worked proofs
+├── 09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md            # 40-question MSQ practice bank with fully verified solutions
 ├── 10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md         # 4 mock interview tracks with Sc1 vs Sc2 dialogues
 └── SOURCES.md                                         # Evidentiary citations & verification registry
 ```
@@ -96,7 +97,8 @@ vantage-research-scientist-modeler/
 | [`06_SYSTEMS_BIOLOGY_QSP...`](06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md) | QSP Foundations | Cellular-to-patient scales, mass action, Michaelis-Menten QSSA, Hill equation. | **P0** |
 | [`07_PHARMACOKINETICS_PHARMA...`](07_PHARMACOKINETICS_PHARMACODYNAMICS.md) | PK/PD Science | 1- and 2-compartment models, clearance, AUC, Emax, indirect response, TMDD. | **P0** |
 | [`08_RESEARCH_PROBLEM_SOLVING...`](08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md) | Consulting & Defense | Deconstructing QSP papers, client slide narrative, HWRE thesis defense script. | **P0** |
-| [`09_MSQ_ASSESSMENTS_AND_...`](09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md) | Screening Exam | 40 multi-select, numerical, and code questions with complete step-by-step proofs. | **P0** |
+| [`09_OFFICIAL_IITK_2026_...`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md) | Official Screening Exam | Official Marsh / VantageResearch IITK 25-Q test with complete mathematical proofs. | **P0** |
+| [`09_MSQ_ASSESSMENTS_AND_...`](09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md) | Practice Question Bank | 40 multi-select, numerical, and code questions with complete step-by-step proofs. | **P0** |
 | [`10_MOCK_INTERVIEWS_AND_...`](10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md) | Interview Drills | Technical derivation, open-ended oncology case, live coding, and client defense. | **P0** |
 | [`SOURCES.md`](SOURCES.md) | Citation Registry | Peer-reviewed QSP papers, FDA MIDD guidance, Vantage publications, IITK debriefs. | **P0** |
 
