@@ -320,3 +320,7 @@ personal/
 .env
 .env.*
 !.env.example
+
+# Temporary and scratch scripts
+update_readme.py
+
