@@ -84,7 +84,7 @@ To maintain strict evidentiary integrity, candidates must distinguish between wh
 
 The preparation curriculum is organized around three distinct performance tracks:
 1. **Track 1: Online Assessment (OA)**: High-speed quantitative aptitude, logical reasoning, data interpretation, engineering mathematics, statistics, and programming.
-2. **Track 2: Technical Interview**: Thesis defense (OpenFOAM CFD), BridgeRisk ML (XGBoost/SHAP), Python data wrangling, semiconductor manufacturing fundamentals, inspection/metrology physics, SPC ($C_p, C_{pk}$), and structured Root Cause Analysis (RCA).
+2. **Track 2: Technical Interview**: Thesis defense (OpenFOAM CFD), Machine Learning Risk Modeling (XGBoost/SHAP), Python data wrangling, semiconductor manufacturing fundamentals, inspection/metrology physics, SPC ($C_p, C_{pk}$), and structured Root Cause Analysis (RCA).
 3. **Track 3: Role-Fit & Customer Interview**: Customer communication, 10-step AE value creation chain, problem ownership under fab pressure, and defensible readiness for $>80\%$ global cleanroom travel.
 
 ```
@@ -107,7 +107,7 @@ The preparation curriculum is organized around three distinct performance tracks
 │ • Estimated Benchmark Duration: ~45–60 Minutes (Simulation standard)        │
 │ • Deep dive into candidate's M.Tech thesis / B.Tech projects:               │
 │   - OpenFOAM CFD transport modeling, governing equations, discretization    │
-│   - BridgeRisk ML modeling (XGBoost, SHAP, feature importance)              │
+│   - Machine Learning risk modeling (XGBoost, SHAP, feature importance)      │
 │   - Physical analogies to CMP slurry mechanics and CVD reactor transport    │
 │ • Live algorithmic coding / data manipulation (Python, NumPy, Pandas)       │
 │ • Probability distributions, hypothesis testing, error analysis             │
@@ -159,7 +159,7 @@ The preparation curriculum is organized around three distinct performance tracks
 * **Interview Dynamic**: Conducted by technical leads or senior applications engineers from KLA India.
 * **Reported Question Themes**:
   * *"Walk me through the mathematical formulation of your CFD simulation in OpenFOAM. How did you handle boundary layer meshing and pressure-velocity coupling?"*
-  * *"In your BridgeRisk project, why did you select XGBoost over Random Forest? How did you validate that your model wasn't overfitting on sparse failure data?"*
+  * *"In your machine learning risk prediction project, why did you select XGBoost over Random Forest? How did you validate that your model wasn't overfitting on sparse failure data?"*
   * *"Write a Python script on paper to parse a formatted text file, extract defect coordinates $(X, Y)$, and group adjacent defects into clusters if their Euclidean distance is under 50 micrometers."*
 * **Confidence Level**: **High**.
 * **Preparation Action**: Master the governing equations of your M.Tech research; practice live whiteboard coding; be prepared to calculate time and space complexity instantly.

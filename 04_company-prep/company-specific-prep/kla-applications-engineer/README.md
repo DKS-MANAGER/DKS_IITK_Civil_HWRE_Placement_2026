@@ -96,7 +96,7 @@ The winning strategy is the **Rigorous Computational & Transport Phenomema Bridg
 │      and spatial defect clustering across 300 mm wafer maps.                │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │ 3. PREDICTIVE MACHINE LEARNING & STATISTICAL PROCESS CONTROL                │
-│    • In Candidate Projects: BridgeRisk (XGBoost + SHAP feature attribution),│
+│    • In Candidate Projects: Machine learning risk modeling (XGBoost/SHAP),  │
 │      streamflow time-series forecasting, extreme value distribution fitting.│
 │    • In KLA Yield Engineering: Automated Defect Classification (ADC),       │
 │      identifying root-cause process parameters from multi-sensor fab logs,  │
@@ -115,7 +115,7 @@ The winning strategy is the **Rigorous Computational & Transport Phenomema Bridg
 | :---: | :--- | :--- | :--- |
 | **P0** | **KLA Domain & Core Physics** | Wafer inspection basics (Brightfield vs. Darkfield optics), killer vs. nuisance defects, fab sequence (Litho, Etch, CMP, CVD), Poisson yield formula. | [Module 03](03_SEMICONDUCTOR_FUNDAMENTALS_AND_YIELD.md) · [Module 04](04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md) |
 | **P0** | **Process Control & SPC Math** | Shewhart control charts ($\bar{X}-R, \bar{X}-S$), Western Electric rules, Process capability indices ($C_p, C_{pk}$), Pareto analysis, 5-Whys. | [Module 04](04_INSPECTION_METROLOGY_AND_PROCESS_CONTROL.md) · [Module 05](05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md) |
-| **P0** | **Candidate Project Defense** | Deep technical defense of OpenFOAM CFD and BridgeRisk (XGBoost/SHAP); articulate the transport and ML analogies to fab engineering. | [Module 07](07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md) |
+| **P0** | **Candidate Project Defense** | Deep technical defense of OpenFOAM CFD and machine learning risk modeling (XGBoost/SHAP); articulate the transport and ML analogies to fab engineering. | [Module 07](07_ENGINEERING_PROBLEM_SOLVING_AND_CFD_PIVOT.md) |
 | **P1** | **Python & Perl Scripting** | NumPy/Pandas wafer map parsing (KLARF format), automated defect filtering, regular expressions for log extraction, Perl baseline syntax. | [Module 05](05_STATISTICS_DATA_ANALYTICS_AND_PYTHON.md) · [Module 06](06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md) |
 | **P1** | **Customer-Facing Scenarios** | Cleanroom fab escalation management, communicating under yield-loss pressure, BKM documentation, defending >80% international travel. | [Module 08](08_CUSTOMER_FACING_SCENARIOS_AND_HR.md) |
 | **P2** | **Assessment & Mock Drills** | Timed quantitative aptitude, probability/statistics questions, logical reasoning, and 4 fab troubleshooting engineering case studies. | [Module 09](09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) · [Module 10](10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md) |

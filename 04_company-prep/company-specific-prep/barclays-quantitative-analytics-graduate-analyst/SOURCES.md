@@ -43,13 +43,12 @@ Information is classified according to a **5-Tier Evidentiary Taxonomy**:
    - **Compensation Structure:** CTC ₹19,33,996 (Gross Annual: ₹18,00,000; Relocation Allowance: ₹60,000; 15 days initial company accommodation; Bond: None).
    - **Core Responsibilities Extracted:** Continuous model monitoring, credit risk performance tracking, back-testing, stability analysis (PSI), impairment (IFRS 9) and capital (Basel) model surveillance, Model Monitoring Pack (MMP) delivery, model remediation, and regulatory compliance.
 
-2. **Candidate Academic & Research Background Profile:**
-   - **Degree Program:** M.Tech in Civil Engineering (Hydraulics and Water Resources Engineering — HWRE), Indian Institute of Technology Kanpur (IIT Kanpur), 2026–27 Graduating Cohort.
-   - **Undergraduate Foundation:** B.Tech in Civil Engineering.
-   - **Standardized Technical Research Descriptors:**
-     - `[Candidate Project: Machine Learning Infrastructure Risk Prediction & SHAP Analysis]`
-     - `[Candidate Project: Hydrological Time-Series & Extreme Value Forecasting]`
-     - `[Candidate Project: Computational Fluid & Solute Transport Numerical Simulation]`
+2. **Standardized Technical Project Archetypes:**
+   - **Target Profile:** Postgraduate Quantitative & Engineering Placement Candidate.
+   - **Standardized Technical Project Descriptors:**
+     - `[Technical Project Archetype 1: Machine Learning Infrastructure Risk Prediction & SHAP Analysis]`
+     - `[Technical Project Archetype 2: Hydrological Time-Series & Extreme Value Forecasting]`
+     - `[Technical Project Archetype 3: Computational Fluid & Solute Transport Numerical Simulation]`
 
 ---
 

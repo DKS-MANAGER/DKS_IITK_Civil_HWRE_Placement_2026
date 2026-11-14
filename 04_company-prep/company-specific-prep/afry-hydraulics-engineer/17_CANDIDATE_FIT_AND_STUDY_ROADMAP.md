@@ -26,7 +26,7 @@ This matrix systematically audits the candidate's academic and technical backgro
 ├────┼───────────────────────┼──────────────────────┼─────────────┼───────────┤
 │ 03 │ Steady & unsteady     │ Fluid Mechanics &    │ **Strong    │ Practice  │
 │    │ pressure-pipe flow    │ hydraulic transients │ Match**     │ Colebrook │
-│    │ analysis              │ at IIT Kanpur.       │             │ & Swamee. │
+│    │ analysis              │ coursework.          │             │ & Swamee. │
 ├────┼───────────────────────┼──────────────────────┼─────────────┼───────────┤
 │ 04 │ Head-loss calculations│ Darcy-Weisbach, minor│ **Strong    │ Sizing    │
 │    │ in pressure conduits  │ losses, pipe series. │ Match**     │ problem   │
@@ -86,7 +86,7 @@ To achieve peak technical performance across both the screening test and technic
 │ 4. MS Excel VBA Subroutines & Automation Projects │     15%     │ High      │
 │    (10 Runnable Hydraulic Automation Scripts)     │             │   (P0)    │
 ├───────────────────────────────────────────────────┼─────────────┼───────────┤
-│ 5. Candidate Thesis Defense & Consulting Pivot    │     10%     │ High      │
+│ 5. Technical Research Defense & Consulting Pivot  │     10%     │ High      │
 │    (OpenFOAM Scour, RANS, k-omega SST, GCI Pitch) │             │   (P0)    │
 ├───────────────────────────────────────────────────┼─────────────┼───────────┤
 │ 6. Quantitative Aptitude & Simulated OA Practice  │     10%     │ Standard  │

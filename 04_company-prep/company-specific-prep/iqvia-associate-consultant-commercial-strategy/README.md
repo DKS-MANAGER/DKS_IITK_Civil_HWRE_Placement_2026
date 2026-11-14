@@ -142,7 +142,7 @@ This comprehensive package consists of 24 structured modules organized by priori
 
 ## 6. Factual Integrity & Privacy Rules
 
-1. **Candidate Privacy**: All candidate research projects are referenced using standardized engineering and modeling nomenclature (`[Candidate Project: Machine Learning Infrastructure Risk Prediction]`) without exposing private personal identifiers.
+1. **Privacy & Objective Standards**: All technical research topics are referenced using standardized engineering archetypes (`[Technical Project Archetype: Machine Learning Infrastructure Risk Prediction]`) ensuring general applicability across candidates.
 2. **Transparent Knowledge Gaps**: The candidate acknowledges that commercial life-sciences strategy consulting is a new professional domain rather than prior industry tenure. The interview strategy demonstrates **exceptional structured thinking, rapid synthesis of healthcare dynamics, quantitative horsepower, and executive presence**.
 3. **No Fabricated Evidence**: External market figures, CAGRs, and case data are explicitly cited from authentic healthcare benchmarks or clearly labeled as `[SYNTHETIC BENCHMARK]` for case interview training.
 

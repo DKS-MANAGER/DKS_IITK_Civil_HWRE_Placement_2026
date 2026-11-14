@@ -1,8 +1,8 @@
 # Model Monitoring & Credit Risk QA — 60-Minute Interview Cheat Sheet
 ## Barclays Quantitative Analytics Graduate Analyst (BA4) | QA Model Monitoring | Noida
 
-> **Candidate Profile**: M.Tech Civil Engineering (Hydraulics & Water Resources Engineering), IIT Kanpur  
-> **Strict Privacy Compliance**: Zero personal names, undergraduate college names, or private project titles.
+> **Target Profile**: Quantitative & Engineering Placement Candidate  
+> **Preparation Scope**: Standardized Interview Cheat Sheet & Reference Framework.
 
 ---
 
@@ -96,8 +96,8 @@ $$\text{Conditional PD} = \Phi\left( \frac{\Phi^{-1}(\text{TTC PD}) + \sqrt{\rho
 
 ## 4. The 30-Second Engineering-to-Quant Pivot Script
 
-> *"At IIT Kanpur, my research in Hydraulics and Water Resources Engineering focused on modeling stochastic, non-linear dynamic systems under uncertainty.*  
-> *When predicting infrastructure failure, I trained tree-based machine learning models with extreme class imbalance, evaluating them using ROC-AUC, Precision-Recall curves, and TreeSHAP explainability—the exact analytical toolkit used to evaluate credit scorecards under PRA SS1/23.*  
-> *Furthermore, calibrating 100-year flood events using Gumbel extreme-value distributions is mathematically isomorphic to Basel's 99.9% VaR tail-risk capital calculations.*  
-> *Joining Barclays QA Model Monitoring allows me to direct this rigorous quantitative, statistical, and pipeline automation background toward safeguarding the bank's global balance sheet."*
+> *"In quantitative engineering research, the focus centers on modeling stochastic, non-linear dynamic systems under uncertainty.*  
+> *When predicting critical failure risks, training tree-based machine learning models with extreme class imbalance and evaluating them using ROC-AUC, Precision-Recall curves, and TreeSHAP explainability directly mirrors the analytical toolkit used to evaluate credit scorecards under PRA SS1/23.*  
+> *Furthermore, calibrating rare tail events using Gumbel extreme-value distributions is mathematically isomorphic to Basel's 99.9% VaR tail-risk capital calculations.*  
+> *Joining Barclays QA Model Monitoring allows an analyst to direct this rigorous quantitative, statistical, and pipeline automation background toward safeguarding the bank's balance sheet."*
 

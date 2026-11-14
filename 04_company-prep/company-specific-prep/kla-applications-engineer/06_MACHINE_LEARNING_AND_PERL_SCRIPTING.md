@@ -62,7 +62,7 @@ A naive classifier predicting "Nuisance" for every sample achieves 95% accuracy 
 
 ## 4. Explainable AI: SHAP for Fab Root-Cause Analysis
 
-Connecting the candidate's **BridgeRisk project** (which used XGBoost and SHAP for structural deterioration) directly to semiconductor root-cause analysis:
+Connecting the candidate's **machine learning risk modeling framework** (which used XGBoost and SHAP for structural deterioration) directly to semiconductor root-cause analysis:
 
 ```python
 """
@@ -93,7 +93,7 @@ def explain_killer_defect_cause(model: xgb.XGBClassifier, X_sample: pd.DataFrame
     return feature_impact
 ```
 
-* **Interview Talking Point**: *"In my BridgeRisk project at IIT Kanpur, I used TreeExplainer SHAP values to isolate the non-linear interaction between concrete chloride exposure and rebar corrosion. In a semiconductor fab, this exact methodology allows an Applications Engineer to inspect a classified killer defect and prove whether its classification was driven by extreme aspect ratio (CMP scratch signature) or anomalous radial distance (edge-ring lithography defocus), accelerating root-cause isolation by hours."*
+* **Interview Talking Point**: *"In my machine learning risk modeling projects at IIT Kanpur, I used TreeExplainer SHAP values to isolate non-linear interactions across complex features. In a semiconductor fab, this exact methodology allows an Applications Engineer to inspect a classified killer defect and prove whether its classification was driven by extreme aspect ratio (CMP scratch signature) or anomalous radial distance (edge-ring lithography defocus), accelerating root-cause isolation by hours."*
 
 ---
 

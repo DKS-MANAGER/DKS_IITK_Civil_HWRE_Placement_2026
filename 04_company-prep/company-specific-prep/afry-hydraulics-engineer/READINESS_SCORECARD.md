@@ -1,7 +1,7 @@
 # AFRY India — Candidate Readiness Scorecard & Diagnostic Rubric
 
 > **Assessment Purpose**: Objective Competency Evaluation, Benchmark Tracking & Gap Remediation for Hydraulics Engineer Role  
-> **Candidate Profile**: M.Tech Civil Engineering (HWRE), IIT Kanpur  
+> **Target Profile**: Postgraduate Civil / Water Resources Engineering Candidate  
 > **Target Standard**: Ready for Offer ($\ge 85\%$ Benchmark across all dimensions)  
 > **Evidentiary Status**: `[TIER 5 / PEDAGOGICAL DIAGNOSTIC RUBRIC]`  
 

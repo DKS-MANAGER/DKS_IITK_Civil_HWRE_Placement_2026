@@ -39,7 +39,7 @@ The IQVIA Consulting Services proforma and job description establish four explic
 ### Theme 3: Working Under Extreme Pressure & Rigorous Work Ethic
 
 #### Question 03: "Management consulting often demands long hours, tight turnarounds, and multiple competing priorities. How do you handle intense pressure without burning out or compromising work quality?"
-> **Situation**: During my academic tenure at IIT Kanpur, I faced a period where my postgraduate thesis defense preparations, high-stakes semester examinations, and major student leadership responsibilities all converged within a 2-week window.  
+> **Situation**: During an intensive academic term, I faced a period where complex project defense preparations, high-stakes technical examinations, and major student responsibilities all converged within a 2-week window.  
 > **Task**: I had to maintain top-tier analytical rigor in my research defense while meeting all course deliverables and fulfilling administrative commitments.  
 > **Action**: I managed this by implementing ruthless prioritization and structured time-blocking:
 > 1. *Priority Triage*: I categorized tasks into P0 (non-negotiable deliverables with external deadlines), P1 (important tasks that could be streamlined), and P2 (tasks to delegate or defer).

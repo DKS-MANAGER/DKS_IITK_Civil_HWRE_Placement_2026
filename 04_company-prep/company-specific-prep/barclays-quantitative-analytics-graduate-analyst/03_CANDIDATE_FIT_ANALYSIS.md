@@ -23,7 +23,7 @@ This matrix evaluates the candidate's academic and technical background against 
 │ 05 │ Excel & Automation          │ Advanced modeling, dynamic arrays, lookup functions,        │ Strong Match       │ Master standardized Model Monitoring  │
 │    │                             │ Goal Seek, Solver, and multi-sheet financial modeling.      │                    │ Pack (MMP) dashboard architecture.    │
 ├────┼─────────────────────────────┼─────────────────────────────────────────────────────────────┼────────────────────┼───────────────────────────────────────┤
-│ 06 │ Machine Learning & SHAP     │ XGBoost predictive pipeline on 2,500+ records achieving     │ Strong Match       │ Frame ML in credit context: scorecards│
+│ 06 │ Machine Learning & SHAP     │ XGBoost predictive classification pipeline achieving        │ Strong Match       │ Frame ML in credit context: scorecards│
 │    │                             │ ROC-AUC 0.983, PR-AUC 0.854, and SHAP explainability.       │                    │ vs trees, explainability & regulation.│
 ├────┼─────────────────────────────┼─────────────────────────────────────────────────────────────┼────────────────────┼───────────────────────────────────────┤
 │ 07 │ Time-Series Modeling        │ ARMA/ARIMA modeling, trend/seasonality decomposition,       │ Strong Match       │ Apply to IFRS 9 macroeconomic scenario│
@@ -64,16 +64,16 @@ Barclays places paramount value on **Integrity**. Candidates who pretend to have
 Instead, the candidate must employ **honest, highly competent positioning**:
 
 ### 2.1 The Credit Risk & Banking Experience Gap
-- **The Gap**: The candidate's degree is in Civil Engineering, without prior commercial banking employment.
+- **The Gap**: Candidate transition from an engineering/computational background without prior commercial banking employment.
 - **The Honest Defense**:
   > *"I want to be completely upfront: I do not have prior professional employment in a commercial bank, and I would never claim to have worked as a credit risk underwriter. 
-  > However, my postgraduate training at IIT Kanpur has provided an exceptional foundation in the core mathematical and statistical engines that power credit risk models:
-  > - In my research, I built predictive machine learning classification pipelines on large-scale tabular datasets, achieving a 0.983 ROC-AUC and 0.854 PR-AUC while resolving severe class imbalance (8% positive class)—which directly mirrors predicting low-frequency default events in retail credit.
+  > However, my technical postgraduate training has provided an exceptional foundation in the core mathematical and statistical engines that power credit risk models:
+  > - In applied machine learning, I built predictive classification pipelines on large-scale tabular datasets, achieving a 0.983 ROC-AUC and 0.854 PR-AUC while resolving severe class imbalance (8% positive class)—which directly mirrors predicting low-frequency default events in retail credit.
   > - Over the past several months, I have systematically mastered the banking domain: understanding the construction of Probability of Default (PD) logistic scorecards, Loss Given Default (LGD) workout engines, Exposure at Default (EAD) conversion factors, IFRS 9 three-stage Expected Credit Loss (ECL), and the Basel IRB regulatory capital framework.
   > My quantitative modeling rigor, coupled with Python and SQL automation fluency, allows me to hit the ground running in QA Model Monitoring from Day 1."*
 
 ### 2.2 The R and SAS Language Gap
-- **The Gap**: The candidate's primary programming tools are Python, SQL, MATLAB, and C++, with lighter exposure to SAS and R.
+- **The Gap**: Candidate primary programming tools are Python, SQL, MATLAB, and C++, with lighter exposure to SAS and R.
 - **The Honest Defense**:
   > *"My primary daily programming environment is Python and SQL, which represent the modern standard for data science and analytical automation. However, because I have a deep conceptual understanding of data structures, vectorization, and relational query processing, I can navigate R and SAS comfortably:
   > - In **SAS**, I understand the DATA step Program Data Vector (PDV) execution cycle, `PROC SQL`, and modeling procedures like `PROC LOGISTIC` and `PROC REG`.
@@ -85,20 +85,20 @@ Instead, the candidate must employ **honest, highly competent positioning**:
 ## 3. High-Impact Pitch Scripts
 
 ### 3.1 30-Second Elevator Pitch
-> *"I am an M.Tech candidate in Civil Engineering from IIT Kanpur with a strong mathematical foundation in applied statistics, machine learning, and computational modeling. In my postgraduate research, I developed predictive classification pipelines achieving a 0.983 ROC-AUC and built extreme-value statistical time-series models for complex systems. 
+> *"I am an engineering postgraduate candidate with a strong mathematical foundation in applied statistics, machine learning, and computational modeling. In applied data modeling, I developed predictive classification pipelines achieving a 0.983 ROC-AUC and built extreme-value statistical time-series models for complex systems. 
 > I am excited about the Graduate Analyst role in QA Model Monitoring at Barclays because it sits at the exact intersection of statistical rigor, model risk governance, and large-scale banking analytics. I bring strong Python and SQL skills, a deep grasp of discrimination and stability metrics, and the disciplined work ethic required to produce zero-error model monitoring packs for senior leadership."*
 
 ### 3.2 3-Minute Strategic Walkthrough (The Engineering-to-Quant Pivot)
-> *"**Opening**: When interviewers see my M.Tech in Civil and Water Resources Engineering, they often ask why I am applying for Quantitative Analytics at Barclays. My answer is that throughout my academic career, my passion has always been **statistical modeling, predictive analytics, and risk quantification under deep uncertainty**.
+> *"**Opening**: When interviewers ask why an engineering postgraduate is applying for Quantitative Analytics at Barclays, my answer is that throughout my academic career, my focus has centered on **statistical modeling, predictive analytics, and risk quantification under deep uncertainty**.
 > 
 > **Pillar 1: Statistical Modeling & Classification Under Imbalance**:
-> In my research, I built a predictive machine learning risk framework using XGBoost on a public registry of over 2,500 assets. The dataset featured significant missingness and severe class imbalance, with high-risk events representing less than 8% of the population. Beyond achieving a 0.983 ROC-AUC and 0.854 PR-AUC, I applied SHAP game-theoretic values to explain non-linear feature interactions to decision-makers. In credit risk, this is structurally identical to developing and monitoring retail credit scorecards, where defaults are rare, classes are imbalanced, and model interpretability is a non-negotiable regulatory requirement.
+> In predictive data projects, building an XGBoost classification framework on large tabular registries demonstrates how to tackle severe class imbalance where high-risk events represent less than 8% of the population. Beyond achieving a 0.983 ROC-AUC and 0.854 PR-AUC, applying SHAP game-theoretic values explains non-linear feature interactions to decision-makers. In credit risk, this is structurally identical to developing and monitoring retail credit scorecards, where defaults are rare, classes are imbalanced, and model interpretability is a non-negotiable regulatory requirement.
 > 
 > **Pillar 2: Extreme-Value Statistics & Time-Series Forecasting**:
-> My work in hydrological modeling required analyzing multi-decade temporal records, testing for stationarity using Augmented Dickey-Fuller tests, and fitting extreme-value statistical distributions (Gumbel and GEV) to model 99th-percentile tail events. In banking, this directly translates to **Value-at-Risk (VaR), Unexpected Loss modeling, and IFRS 9 forward-looking macroeconomic stress testing**, where credit risk quants must forecast how baseline and adverse economic scenarios impact portfolio default rates.
+> My work in statistical modeling involved analyzing multi-decade temporal records, testing for stationarity using Augmented Dickey-Fuller tests, and fitting extreme-value statistical distributions (Gumbel and GEV) to model 99th-percentile tail events. In banking, this directly translates to **Value-at-Risk (VaR), Unexpected Loss modeling, and IFRS 9 forward-looking macroeconomic stress testing**, where credit risk quants must forecast how baseline and adverse economic scenarios impact portfolio default rates.
 > 
 > **Pillar 3: The Model Governance & Verification Mindset**:
-> Engineering at IIT Kanpur instilled a strict discipline: a model is only as good as its ongoing verification. I never treated models as black boxes; I continuously tested for parameter stability, convergence bounds, and out-of-time accuracy. 
+> Rigorous engineering training instills a strict discipline: a model is only as good as its ongoing verification. I never treat models as black boxes; I continuously test for parameter stability, convergence bounds, and out-of-time accuracy. 
 > 
 > **Closing**: Barclays' QA organization is internationally renowned for mathematical excellence. The QA Model Monitoring team in Noida plays a critical role in safeguarding the bank's balance sheet by ensuring live models remain accurate, stable, and compliant. I want to bring my analytical rigor, Python/SQL automation capabilities, and commitment to excellence to the team as a BA4 Graduate Analyst."*
 

@@ -6,7 +6,7 @@
 > **Role Designation**: **Data & AI Analyst 2** `[TIER 1 / PROFORMA FACT]`  
 > **Business Domain**: Private Equity Financial Consulting · Data Analytics · Artificial Intelligence · Business Intelligence `[TIER 1]`  
 > **Job Location**: **Hyderabad** `[TIER 1 / PROFORMA FACT]`  
-> **Target Candidate Profile**: M.Tech Civil Engineering (Hydraulics and Water Resources Engineering — HWRE) · B.Tech Civil Engineering  
+> **Target Profile**: Postgraduate Quantitative / Engineering Placement Candidate  
 > **Placement Cycle**: IIT Kanpur Campus Placement Season 2026–27 | Phase 1  
 > **Document Last Audited**: November 2026  
 

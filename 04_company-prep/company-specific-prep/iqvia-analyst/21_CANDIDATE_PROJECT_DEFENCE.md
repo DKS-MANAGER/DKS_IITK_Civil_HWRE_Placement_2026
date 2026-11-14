@@ -1,6 +1,6 @@
-# Module 21: Candidate Project Defense & Behavioral Interview Framework
+# Module 21: Technical Project Defense & Behavioral Interview Framework
 
-> **Document Status**: Production-Grade Interview Strategy `[TIER 1 / CANDIDATE BASELINE & TIER 5 / STRATEGIC DIALOGUE]`  
+> **Document Status**: Production-Grade Interview Strategy `[TIER 1 / ENGINEERING BASELINE & TIER 5 / STRATEGIC DIALOGUE]`  
 > **Core Focus**: Verbatim Project Defense Scripts, Engineering-to-Pharma Pivots, Machine Learning / SHAP Defense, and Handling Challenging Panel Probes  
 > **Target Role**: Analyst (IQVIA India)  
 
@@ -8,7 +8,7 @@
 
 ## 1. Candidate Technical Portfolio: Transferable Competency Mapping
 
-The candidate bridges three computational projects to IQVIA commercial analytics challenges without exposing private personal identifiers:
+The preparation bridges three computational project archetypes to IQVIA commercial analytics challenges without exposing private personal identifiers:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -39,7 +39,7 @@ The candidate bridges three computational projects to IQVIA commercial analytics
 
 ### 2.1 Project A: Machine Learning Risk Prediction & SHAP Analysis
 * **The 60-Second Technical Overview**:
-  > *"In my primary machine learning project, I developed an end-to-end predictive classification pipeline across an infrastructure asset dataset of over 2,500 records to identify assets at high risk of structural failure.*
+  > *"In applied machine learning, I developed an end-to-end predictive classification pipeline across large tabular datasets to identify assets at high risk of structural failure.*
   > 
   > *Because high-risk failure events were rare, the dataset exhibited severe class imbalance. Standard accuracy and ROC-AUC yielded overly optimistic results due to the overwhelming volume of negative instances. To resolve this, I tuned hyperparameter objectives against **Precision-Recall AUC (PR-AUC)** and utilized `scale_pos_weight` in an **XGBoost** ensemble, achieving a PR-AUC of 0.854.*
   > 
@@ -61,8 +61,8 @@ The candidate bridges three computational projects to IQVIA commercial analytics
 ## 3. Handling Challenging & Stress Interview Probes
 
 ### Probe 01: *"Why transition from Civil Engineering to Commercial Healthcare Analytics?"*
-* **Candidate's Proven Verbal Response**:
-  > *"Throughout my graduate coursework and research at IIT Kanpur, what truly fascinated me was not structural concrete or physical surveying; it was applied mathematics, statistical modeling, optimization, and scientific computing in Python and SQL.*
+* **Strategic Verbal Response Framework**:
+  > *"Throughout my graduate coursework and engineering training, what truly fascinated me was not physical infrastructure surveying; it was applied mathematics, statistical modeling, optimization, and scientific computing in Python and SQL.*
   > 
   > *Data analytics is domain-agnostic at its mathematical foundation: whether you are modeling fluid transport through conduits or the commercial diffusion of life-saving therapeutics through healthcare networks, the governing equations—partial differential equations, regression decomposition, constrained optimization, and probability theory—are identical.*
   > 
@@ -70,7 +70,7 @@ The candidate bridges three computational projects to IQVIA commercial analytics
 
 ### Probe 02: *"Your background is in Python, but our clients and legacy systems rely heavily on SAS. How will you bridge this gap?"*
 * **Candidate's Proven Verbal Response**:
-  > *"I have not used SAS on multi-year enterprise production contracts yet, because our university computational environment is built on open-source Python, Linux, and SQL. However, I have studied Base SAS programming systematically—specifically the DATA step execution cycle, the Program Data Vector (PDV), PROC SQL, and core statistical procedures like `PROC REG`, `PROC LOGISTIC`, and `PROC MEANS`.*
+  > *"I have not used SAS on multi-year enterprise production contracts yet, because university computational environments are built primarily on open-source Python, Linux, and SQL. However, I have studied Base SAS programming systematically—specifically the DATA step execution cycle, the Program Data Vector (PDV), PROC SQL, and core statistical procedures like `PROC REG`, `PROC LOGISTIC`, and `PROC MEANS`.*
   > 
   > *Because I already have deep mastery of the underlying statistical algorithms and relational database mechanics, learning SAS is simply a syntax translation exercise, not a conceptual hurdle. I can write SQL inside `PROC SQL` on Day 1, and I am actively practicing Base SAS workflows on SAS OnDemand for Academics."*
 

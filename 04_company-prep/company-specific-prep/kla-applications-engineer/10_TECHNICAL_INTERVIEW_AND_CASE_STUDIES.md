@@ -18,7 +18,7 @@ As an IIT Kanpur M.Tech in Civil Engineering (Hydraulics & Water Resources Engin
 ├─────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ • OpenFOAM Computational Fluid Dynamics (CFD)               │ • CMP Slurry Hydrodynamics & POU Filter Transport           │
 │   (Navier-Stokes, FVM, PISO/SIMPLE, k-ω SST turbulence)     │ • Chemical Vapor Deposition (CVD/ALD) Gas Flow Uniformity   │
-│ • BridgeRisk Deterioration Modeling (XGBoost, SHAP, Imbalance)│ • Automated Defect Classification (ADC) on Wafer Maps      │
+│ • Machine Learning Risk Modeling (XGBoost, SHAP, Imbalance) │ • Automated Defect Classification (ADC) on Wafer Maps      │
 │   (Tree boosting, feature attribution, sparse failure data) │ • Yield Excursion Feature Attribution & Root Cause Analysis │
 │ • Extreme Hydrological Time-Series & IDF Curves (GEV/Gumbel)│ • Statistical Extreme Value Modeling of Killer Excursions   │
 └─────────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
@@ -53,7 +53,7 @@ As an IIT Kanpur M.Tech in Civil Engineering (Hydraulics & Water Resources Engin
 
 ---
 
-### 0.2 BridgeRisk Machine Learning Project Defense: Tabular Modeling & Explainability
+### 0.2 Machine Learning Risk Modeling Defense: Tabular Modeling & Explainability
 
 #### Technical Formulation
 * **Model Selection**: Gradient Boosted Decision Trees (XGBoost) chosen over Random Forest and Deep Neural Networks because tabular engineering datasets with heterogeneous continuous/categorical features and complex nonlinear thresholds are proven to achieve state-of-the-art performance with GBDT.

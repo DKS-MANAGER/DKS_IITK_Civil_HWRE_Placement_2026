@@ -107,7 +107,7 @@ This comprehensive package consists of 25 structured modules organized by priori
 
 ## 5. Factual Integrity & Privacy Rules
 
-1. **Candidate Privacy**: All candidate research projects are referenced using standardized engineering and modeling nomenclature (`[Candidate Project: Machine Learning Infrastructure Risk Prediction]`) without exposing private personal identifiers.
+1. **Privacy & Objective Standards**: All technical research topics are referenced using standardized engineering archetypes (`[Technical Project Archetype: Machine Learning Infrastructure Risk Prediction]`) ensuring general applicability across candidates.
 2. **Transparent Knowledge Gaps**: The candidate acknowledges that commercial SAS and proprietary pharmaceutical databases (e.g., IQVIA MIDAS, Xponent®) are academic preparation targets rather than multi-year enterprise production environments. The interview strategy demonstrates **flawless theoretical understanding, rapid syntax translation from Python/SQL, and first-principles mastery**.
 3. **No Fabricated Data**: Synthetic datasets in case studies and MMM models are explicitly labeled as `[SYNTHETIC BENCHMARK]` with documented data dictionaries. Real patient health information is strictly excluded.
 

@@ -78,7 +78,7 @@ To balance high-speed Online Assessment (OA) quantitative screening with deep te
   * *Quant/LR (25%)*: Review Data Interpretation techniques. Solve DI81–DI95 in [Module 09](09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) (Multi-lot defect tables, defect stage Pareto).
   * *Technical (30%)*: Metrology Systems: Overlay metrology (IBO vs. DBO) on KLA Archer, Optical Critical Dimension (OCD) spectroscopic ellipsometry on SpectraShape.
   * *Python/Coding (25%)*: Solve SP61–SP70 in [Module 09](09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) (Process capability indices $C_p, C_{pk}$, Western Electric rules).
-  * *HR/Fit (20%)*: Prepare structured STAR story on solving problems with incomplete data (BridgeRisk KNN imputation).
+  * *HR/Fit (20%)*: Prepare structured STAR story on solving problems with incomplete data (KNN imputation).
 * **Day 11**:
   * *Quant/LR (25%)*: Solve DI96–DI110 in [Module 09](09_SIMULATED_ASSESSMENT_AND_QUESTION_BANK.md) (Fab yield trend charts, month-over-month comparisons).
   * *Technical (30%)*: Statistical Process Control (SPC). Shewhart $\bar{X}-R$ and $\bar{X}-S$ charts. Difference between process capability ($C_p$) and centering ($C_{pk}$).
@@ -107,7 +107,7 @@ To balance high-speed Online Assessment (OA) quantitative screening with deep te
   * *HR/Fit (20%)*: Practice explaining the Navier-Stokes to CMP slurry bridge in plain engineering language.
 * **Day 16**:
   * *Quant/LR (25%)*: Practice high-speed logical reasoning drills (15 questions in 15 minutes).
-  * *Technical (30%)*: Study [Module 10 Section 0.2](10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md). Deep dive into BridgeRisk project: XGBoost Taylor expansion loss, handling 99:1 class imbalance with `scale_pos_weight`, and SHAP game-theoretic explainability.
+  * *Technical (30%)*: Study [Module 10 Section 0.2](10_TECHNICAL_INTERVIEW_AND_CASE_STUDIES.md). Deep dive into machine learning risk project: XGBoost Taylor expansion loss, handling 99:1 class imbalance with `scale_pos_weight`, and SHAP game-theoretic explainability.
   * *Python/Coding (25%)*: Study Perl scripting fundamentals in [Module 06](06_MACHINE_LEARNING_AND_PERL_SCRIPTING.md). Master Perl regex for fab log parsing.
   * *HR/Fit (20%)*: Practice defending why you chose XGBoost over Random Forest for structural deterioration.
 * **Day 17**:

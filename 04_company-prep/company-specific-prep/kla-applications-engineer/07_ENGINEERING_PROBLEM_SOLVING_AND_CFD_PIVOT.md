@@ -65,7 +65,7 @@ The interview panel will interrogate the candidate's actual postgraduate researc
 
 ---
 
-### Project 2: BridgeRisk — Structural Deterioration Modeling (XGBoost + SHAP)
+### Project 2: Machine Learning Risk Framework — Structural Deterioration Modeling (XGBoost + SHAP)
 * **Problem Statement**: Predicting multi-class infrastructure deterioration ratings from multi-source historical inspection logs, material properties, and environmental exposure metrics.
 * **Machine Learning Pipeline**:
   * Data pre-processing, handling missing values, encoding high-cardinality categorical variables.
@@ -77,7 +77,7 @@ The interview panel will interrogate the candidate's actual postgraduate researc
     $$\phi_i(x) = \sum_{S \subseteq F \setminus \{i\}} \frac{|S|!(|F| - |S| - 1)!}{|F|!} \left[f(S \cup \{i\}) - f(S)\right]$$
   * Identified non-linear interaction thresholds between chloride attack and structural age.
 * **The KLA Applications Bridge**:
-  > *"My BridgeRisk workflow is directly transferable to KLA's Automated Defect Classification (ADC) and yield root-cause analysis. In a fab, inspection tools generate multi-dimensional defect records. Using gradient boosting with SHAP attribution allows us to not only classify whether an anomaly is a killer short circuit or harmless nuisance graininess, but also expose the exact physical drivers—such as defect aspect ratio or proximity to the wafer edge—to alert process integration engineers immediately."*
+  > *"This machine learning risk workflow is directly transferable to KLA's Automated Defect Classification (ADC) and yield root-cause analysis. In a fab, inspection tools generate multi-dimensional defect records. Using gradient boosting with SHAP attribution allows us to not only classify whether an anomaly is a killer short circuit or harmless nuisance graininess, but also expose the exact physical drivers—such as defect aspect ratio or proximity to the wafer edge—to alert process integration engineers immediately."*
 
 ---
 

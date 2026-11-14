@@ -67,11 +67,11 @@ Every behavioral question in the final interview rounds evaluates alignment with
 
 ## 3. High-Stakes Fit Questions: The Engineering-to-PE Analytics Pivot
 
-#### Question 04: "You have an M.Tech in Civil Engineering (Hydraulics & Water Resources) from IIT Kanpur. Why are you applying for Data & AI Analyst 2 at Accordion (Merilytics)?"
+#### Question 04: "As an engineering postgraduate, why are you applying for Data & AI Analyst 2 at Accordion (Merilytics)?"
 > **Candidate Response (Verbatim Delivery)**:
-> *"Throughout my postgraduate education at IIT Kanpur, my primary focus has been **applied computational modeling, data analytics, and solving complex, multi-variable optimization problems**.
+> *"Throughout my postgraduate education, my primary focus has been **applied computational modeling, data analytics, and solving complex, multi-variable optimization problems**.
 > 
-> My research involved handling large-scale tabular registries, writing Python and SQL data pipelines, and building predictive machine learning models where accuracy was paramount. When I investigated management consulting, I realized that private equity portfolio analytics tackles fundamentally identical mathematical and structural challenges:
+> My technical work involved handling large-scale tabular registries, writing Python and SQL data pipelines, and building predictive machine learning models where accuracy was paramount. When evaluating management consulting, I realized that private equity portfolio analytics tackles fundamentally identical mathematical and structural challenges:
 > - Customer churn prediction mirrors physical asset failure risk scoring.
 > - Portfolio revenue and cash flow forecasting uses the exact time-series decomposition and extreme-value statistics I apply in engineering.
 > - Financial statements operate under strict mass-balance conservation rules.

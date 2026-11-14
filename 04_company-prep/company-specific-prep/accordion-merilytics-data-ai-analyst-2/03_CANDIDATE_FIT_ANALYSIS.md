@@ -82,20 +82,20 @@ Instead, the candidate must employ **honest, highly competent positioning**:
 ## 3. High-Impact Pitch Scripts
 
 ### 3.1 30-Second Elevator Pitch
-> *"I am an M.Tech candidate in Civil Engineering from IIT Kanpur with a strong foundation in computational modeling, machine learning, and quantitative data analytics. In my postgraduate research, I built predictive machine learning pipelines achieving a 0.983 ROC-AUC and developed statistical time-series forecasting models for complex systems. 
+> *"I am an engineering postgraduate candidate with a strong foundation in computational modeling, machine learning, and quantitative data analytics. In applied predictive modeling, I built machine learning pipelines achieving a 0.983 ROC-AUC and developed statistical time-series forecasting models for complex systems. 
 > I am excited about the Data & AI Analyst 2 role at Accordion (Merilytics) because it sits at the exact intersection of rigorous data engineering, advanced modeling, and high-impact private equity decision-making. I bring strong Python and SQL skills, structured problem-solving discipline, and an eagerness to deliver zero-error analytical models that drive client EBITDA growth."*
 
 ### 3.2 3-Minute Strategic Walkthrough (The Engineering-to-Analytics Pivot)
-> *"**Opening**: When people see my M.Tech in Civil and Water Resources Engineering, they often ask why I am pursuing financial and data analytics consulting at Accordion. My answer is simple: throughout my academic career, my passion has always been **computational modeling, data analytics, and structured problem-solving under uncertainty**.
+> *"**Opening**: When interviewers ask why an engineering postgraduate is pursuing financial and data analytics consulting at Accordion, the answer is simple: throughout my academic career, my passion has always been **computational modeling, data analytics, and structured problem-solving under uncertainty**.
 > 
 > **Pillar 1: Data Cleansing & Advanced Predictive Modeling**:
-> In my research, I developed a machine learning risk-scoring pipeline using XGBoost on a public registry of over 2,500 physical assets with severe missingness and class imbalance. Beyond achieving a 0.983 ROC-AUC and 0.854 PR-AUC, I integrated SHAP explainability to translate complex non-linear feature interactions into actionable decision thresholds for capital allocation. In private equity analytics, this directly translates to customer churn scoring, lifetime value prediction, and sales force response modeling.
+> In applied data science, developing a machine learning risk-scoring pipeline using XGBoost on large tabular registries with severe missingness and class imbalance demonstrates core predictive rigor. Beyond achieving a 0.983 ROC-AUC and 0.854 PR-AUC, integrating SHAP explainability translates complex non-linear feature interactions into actionable decision thresholds for capital allocation. In private equity analytics, this directly translates to customer churn scoring, lifetime value prediction, and sales force response modeling.
 > 
 > **Pillar 2: Time-Series Forecasting & Probabilistic Risk**:
 > My work in hydrological modeling required decomposing multi-decade temporal data into secular trends, seasonality, and residual stochastic noise, applying autoregressive time-series models and extreme value distributions (Gumbel and GEV) to forecast tail-risk events. In a portfolio company context, this mirrors revenue forecasting, cash flow modeling, and downside macroeconomic stress testing.
 > 
 > **Pillar 3: The Consulting Delivery Mindset**:
-> Engineering at IIT Kanpur taught me that an analytical model is useless if it cannot be verified, audited, and explained to non-technical stakeholders. In every project, I implemented strict data validation checks, mass-balance reconciliations, and executive presentations. 
+> Rigorous technical training taught me that an analytical model is useless if it cannot be verified, audited, and explained to non-technical stakeholders. In every project, I implemented strict data validation checks, mass-balance reconciliations, and executive presentations. 
 > 
 > **Closing**: Accordion's merger with Merilytics has created a unique powerhouse in private equity consulting—combining CFO strategic advisory with elite data execution. I want to bring my mathematical rigor, Python/SQL fluency, and disciplined work ethic to the Hyderabad team to help portfolio company CFOs unlock operational value."*
 

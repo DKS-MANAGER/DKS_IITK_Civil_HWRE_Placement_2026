@@ -324,3 +324,60 @@ personal/
 # Temporary and scratch scripts
 update_readme.py
 
+# ============================
+# Proprietary Recruitment Assessments, Real OA Tests & Legal/NDA Protection
+# ============================
+# Exact known proprietary assessment solution files
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS_PART_2_38Q.md
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/real_test_assessment_solutions_14_nov_2026.md
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/validate_all_38.py
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/*real_test*
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/*38*
+04_company-prep/company-specific-prep/vantage-research-scientist-modeler/test_probe.txt
+*test_probe*
+*09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS*
+
+# Official company assessment papers, real tests, live OA questions & transcripts
+*OFFICIAL*ASSESSMENT*
+*OFFICIAL*TEST*
+*REAL*TEST*
+*LIVE*TEST*
+*ACTUAL*TEST*
+*CAMPUS*ASSESSMENT*
+*OFFICIAL_IITK_*
+*ASSESSMENT_SOLUTIONS*
+*_OA_SOLUTIONS*
+*_REAL_OA_*
+*_LIVE_OA_*
+*_EXAM_LEAKS*
+*_TEST_SCREENSHOTS*
+*assessment_solutions*
+*official_assessment*
+*actual_assessment*
+*real_test*
+*live_test*
+*real_oa*
+*live_oa*
+*validate_all_38*
+validate_all_38.py
+
+
+# Testing platform dumps, screenshots and session recordings (Marsh, SHL, HackerEarth, Mettl, etc.)
+*marsh_dump*
+*shl_dump*
+*hackerearth_dump*
+*mettl_dump*
+*cocubes_dump*
+*glider_dump*
+*amcat_dump*
+test_screenshots/
+oa_recordings/
+assessment_dumps/
+raw_test_data/
+*official_test*/
+*real_test*/
+test_write.txt
+scripts/sanitize_files.py
+
+

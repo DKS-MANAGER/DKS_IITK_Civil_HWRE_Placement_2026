@@ -1,6 +1,6 @@
-# Module 22 — Candidate Project Defence & Consulting Translation
+# Module 22 — Technical Project Defence & Consulting Translation
 
-In an IQVIA Associate Consultant interview, interviewers will scrutinize your technical master's research to test whether you can **explain complex quantitative work to non-technical business stakeholders**, synthesize actionable conclusions, and defend analytical choices under pressure.
+In an IQVIA Associate Consultant interview, interviewers will scrutinize technical postgraduate research to test whether a candidate can **explain complex quantitative work to non-technical business stakeholders**, synthesize actionable conclusions, and defend analytical choices under pressure.
 
 ---
 
@@ -8,7 +8,7 @@ In an IQVIA Associate Consultant interview, interviewers will scrutinize your te
 
 ```
 ┌─────────────────────────────────┐                 ┌─────────────────────────────────┐
-│  Candidate Engineering Project  │                 │ Pharma Commercial Equivalency   │
+│   Technical Project Archetype   │                 │ Pharma Commercial Equivalency   │
 ├─────────────────────────────────┤                 ├─────────────────────────────────┤
 │ • Machine Learning & SHAP       │ ──────────────► │ • Prescriber Response Scoring   │
 │   (XGBoost, ROC-AUC 0.983)      │                 │   (HCP Targeting & Churn Risk)  │
@@ -26,12 +26,12 @@ In an IQVIA Associate Consultant interview, interviewers will scrutinize your te
 ## Project 1: Machine Learning Infrastructure Risk Prediction & SHAP Analysis
 
 ### 1.1 Technical Profile
-- **Project Scope**: Large-scale predictive risk modeling of 2,500+ physical infrastructure assets using historical inspection registries, material degradation parameters, and climatic exposure metrics.
+- **Project Scope**: Large-scale predictive risk modeling on multi-feature tabular registries using historical inspection data, material degradation parameters, and environmental exposure metrics.
 - **Methodology**: Gradient Boosting (XGBoost), Class Imbalance Resolution, ROC-AUC and PR-AUC calibration, and Explainable AI using SHAP (SHapley Additive exPlanations).
 - **Core Results**: Achieved ROC-AUC of 0.983 and PR-AUC of 0.854; quantified non-linear threshold effects of environmental degradation on asset failure risk.
 
 ### 1.2 30-Second Elevator Pitch
-> *"In this project, I built a predictive machine learning risk-scoring framework on 2,500+ asset records to solve a high-stakes resource allocation problem. By combining XGBoost with SHAP explainability, my model achieved a 0.983 ROC-AUC while identifying the exact structural inflection points that drive critical risk. This transformed an opaque technical model into a transparent decision-support dashboard for capital expenditure prioritization."*
+> *"In this project, I built a predictive machine learning risk-scoring framework on large multi-feature registries to solve a high-stakes resource allocation problem. By combining XGBoost with SHAP explainability, the model achieved a 0.983 ROC-AUC while identifying the exact structural inflection points that drive critical risk. This transformed an opaque technical model into a transparent decision-support dashboard for capital expenditure prioritization."*
 
 ### 1.3 3-Minute Consulting Case Walkthrough
 > *"**The Business Problem**: Infrastructure asset management faces a classic commercial optimization dilemma: municipal budgets are severely constrained, while catastrophic asset failure carries immense human and financial costs. Asset managers historically relied on subjective periodic inspections that resulted in either premature capital replacement or reactive emergency repairs.
@@ -39,7 +39,7 @@ In an IQVIA Associate Consultant interview, interviewers will scrutinize your te
 > **Our Hypothesis**: We hypothesized that multi-variable interactions between asset age, material properties, and environmental stress follow identifiable non-linear degradation curves that can accurately forecast asset vulnerability years before physical failure occurs.
 > 
 > **Analytical Approach**: 
-> 1. *Data Engineering*: We extracted and cleaned 2,500+ historical records, handling significant missingness and severe class imbalance (critical risk assets represented < 8% of total volume).
+> 1. *Data Engineering*: We extracted and cleaned large-scale historical records, handling significant missingness and severe class imbalance (critical risk assets represented < 8% of total volume).
 > 2. *Model Architecture*: We selected XGBoost for its superior performance on tabular non-linear interactions, tuning hyperparameters via 5-fold stratified cross-validation.
 > 3. *Explainability*: Rather than leaving the model as a black box, we applied game-theoretic SHAP values to quantify the marginal contribution of every single variable to individual asset risk scores.
 > 

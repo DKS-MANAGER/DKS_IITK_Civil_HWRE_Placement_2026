@@ -4,7 +4,7 @@
 > **Document Type**: Comprehensive Company-Specific Placement Preparation Suite  
 > **Company Legal Entity**: Accordion / Merilytics (Global Data & Analytics Delivery Hub, Hyderabad)  
 > **Official Role Designation**: **Data & AI Analyst 2** `[TIER 1 / PROFORMA FACT]`  
-> **Target Candidate Profile**: M.Tech Civil Engineering (Hydraulics and Water Resources Engineering — HWRE) · B.Tech Civil Engineering  
+> **Target Profile**: Postgraduate Quantitative / Engineering Placement Candidate  
 > **Location**: **Hyderabad, Telangana, India** `[TIER 1 / PROFORMA FACT]`  
 > **Compensation Profile**: CTC ₹13,50,000 (Fixed ₹10,50,000 · Guaranteed Bonus ₹1,00,000 · 2-Year Retention Bonus ₹2,00,000 · No Bond) `[TIER 1]`  
 > **Core Disciplines**: Financial & Business Excel Modelling, SQL Database Analytics, Python Data Processing, Snowflake, Databricks/PySpark, PowerPivot/DAX, BI Dashboards, and Client-Facing Strategic Decision Support.

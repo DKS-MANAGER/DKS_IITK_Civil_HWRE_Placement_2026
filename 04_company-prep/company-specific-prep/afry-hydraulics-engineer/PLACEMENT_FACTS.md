@@ -4,8 +4,8 @@
 > **Company**: AFRY India Private Limited  
 > **Role Title**: Hydraulics Engineer  
 > **Target Cycle**: IIT Kanpur Placement Season 2026–27 Phase 1  
-> **Target Candidate**: M.Tech Civil Engineering (Hydraulics & Water Resources Engineering — HWRE)  
-> **Undergraduate Degree**: B.Tech Civil Engineering  
+> **Eligible Cohort**: M.Tech Civil Engineering (Hydraulics & Water Resources Engineering — HWRE)  
+> **Target Qualifications**: Postgraduate Civil / Hydraulic Engineering  
 > **Document Last Audited**: November 2026  
 
 ---

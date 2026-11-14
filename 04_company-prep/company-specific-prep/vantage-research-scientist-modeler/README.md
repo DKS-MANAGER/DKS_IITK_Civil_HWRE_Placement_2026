@@ -5,7 +5,7 @@
 > **Target Role**: Scientist – Modeler (Evaluated for Scientist 1 and Scientist 2)  
 > **Location**: Chennai, India (Full-Time, In-Office)  
 > **Placement Cycle**: IIT Kanpur Placement 2026–27 Phase 1  
-> **Candidate Profile**: M.Tech Civil Engineering (Hydraulics & Water Resources Engineering — HWRE)  
+> **Target Profile**: Postgraduate Quantitative / Engineering Modeler Candidate  
 > **Domain**: Modeling & Simulation for Drug Development · Quantitative Systems Pharmacology (QSP) · Mechanistic PK/PD  
 
 ---
@@ -27,7 +27,7 @@ Vantage Research is a premier Contract Research Organization (CRO) specializing 
 
 ## 2. Candidate Transferable Competencies & The Biological Pivot
 
-The target candidate possesses an **M.Tech in Civil Engineering (Hydraulics and Water Resources Engineering — HWRE)** with research in:
+Technical preparation integrates quantitative modeling competencies with computational methods:
 > *Computational Fluid Dynamics & Transport Modeling* (utilizing OpenFOAM, Finite Volume Method, Navier-Stokes transport equations, turbulent kinetic energy modeling, parameter calibration, and mesh sensitivity analysis).
 
 ### Transferable Strengths vs Knowledge Gaps
@@ -73,7 +73,9 @@ vantage-research-scientist-modeler/
 ├── 06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md  # Multi-scale networks, Mass action, Michaelis-Menten
 ├── 07_PHARMACOKINETICS_PHARMACODYNAMICS.md            # 1/2-compartment PK, TMDD, Emax, indirect response
 ├── 08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md   # Paper deconstruction, client storytelling, thesis defense
-├── 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md      # Official IIT Kanpur 25-Q campus exam paper & worked proofs
+├── 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md      # Official IIT Kanpur 25-Q campus exam paper & worked proofs (Part 1: ODEs & Kinetics)
+├── 09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS_PART_2_38Q.md # Official IITK 38-Q exam paper & solutions (Part 2: DS, ML/DL, Python, SQL, Aptitude)
+├── validate_all_38.py                                 # Automated 20-test validation engine for Part 2 assessment
 ├── 09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md            # 40-question MSQ practice bank with fully verified solutions
 ├── 10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md         # 4 mock interview tracks with Sc1 vs Sc2 dialogues
 └── SOURCES.md                                         # Evidentiary citations & verification registry
@@ -97,7 +99,9 @@ vantage-research-scientist-modeler/
 | [`06_SYSTEMS_BIOLOGY_QSP...`](06_SYSTEMS_BIOLOGY_QSP_AND_MULTISCALE_MODELLING.md) | QSP Foundations | Cellular-to-patient scales, mass action, Michaelis-Menten QSSA, Hill equation. | **P0** |
 | [`07_PHARMACOKINETICS_PHARMA...`](07_PHARMACOKINETICS_PHARMACODYNAMICS.md) | PK/PD Science | 1- and 2-compartment models, clearance, AUC, Emax, indirect response, TMDD. | **P0** |
 | [`08_RESEARCH_PROBLEM_SOLVING...`](08_RESEARCH_PROBLEM_SOLVING_AND_COMMUNICATION.md) | Consulting & Defense | Deconstructing QSP papers, client slide narrative, HWRE thesis defense script. | **P0** |
-| [`09_OFFICIAL_IITK_2026_...`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md) | Official Screening Exam | Official Marsh / VantageResearch IITK 25-Q test with complete mathematical proofs. | **P0** |
+| [`09_OFFICIAL_IITK_2026_...`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS.md) | Official Screening Exam Part 1 | Official Marsh / VantageResearch IITK 25-Q test (ODEs, kinetics, dynamical systems) with complete proofs. | **P0** |
+| [`09_OFFICIAL_IITK_2026_PART_2...`](09_OFFICIAL_IITK_2026_ASSESSMENT_SOLUTIONS_PART_2_38Q.md) | Official Screening Exam Part 2 | Official IITK 38-Q test (Statistics, ML/DL, Python, DSA, SQL, Aptitude, Verbal) with 3-method proofs. | **P0** |
+| [`validate_all_38.py`](validate_all_38.py) | Verification Engine | Automated Python 3.10+ validation suite verifying all 20 computational/algorithmic questions. | **P0** |
 | [`09_MSQ_ASSESSMENTS_AND_...`](09_MSQ_ASSESSMENTS_AND_QUESTION_BANK.md) | Practice Question Bank | 40 multi-select, numerical, and code questions with complete step-by-step proofs. | **P0** |
 | [`10_MOCK_INTERVIEWS_AND_...`](10_MOCK_INTERVIEWS_AND_SCIENTIFIC_CASES.md) | Interview Drills | Technical derivation, open-ended oncology case, live coding, and client defense. | **P0** |
 | [`SOURCES.md`](SOURCES.md) | Citation Registry | Peer-reviewed QSP papers, FDA MIDD guidance, Vantage publications, IITK debriefs. | **P0** |

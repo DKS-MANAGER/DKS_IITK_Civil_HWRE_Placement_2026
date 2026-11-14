@@ -119,14 +119,14 @@ When presenting QSP simulation results to pharmaceutical stakeholders (VPs of Cl
 
 ---
 
-## 5. The IITK M.Tech Civil (HWRE) Research Defense & Pivot Framework
+## 5. The Engineering Modeler Research Defense & Pivot Framework
 
 During Round 2, the interview panel will scrutinize the candidate's academic research:
-> *Research Track: [Candidate M.Tech Project: Computational Fluid Dynamics & Hydrodynamic Transport Modeling]*  
+> *Research Track: [Technical Project Archetype: Computational Fluid Dynamics & Hydrodynamic Transport Modeling]*  
 > *Tools: OpenFOAM, ParaView, Finite Volume Method, Navier-Stokes, Reynolds-Averaged Navier-Stokes (RANS) turbulence modeling, parameter calibration.*
 
 The interviewer will inevitably ask:
-> **"You have a master's degree in Civil Engineering with research in computational fluid dynamics. Why are you applying to a pharmaceutical systems biology company, and how is your background relevant?"**
+> **"You have a master's degree in engineering with research in computational fluid dynamics. Why are you applying to a pharmaceutical systems biology company, and how is your background relevant?"**
 
 ### The Authoritative 3-Minute Pivot Script:
 
@@ -136,14 +136,14 @@ and drug molecules interacting with cellular receptors in a human body seem comp
 However, at the foundational mathematical and computational level, they are governed by the exact 
 same physical laws and modeling methodologies.
 
-In my master's research at IIT Kanpur, I conducted computational fluid dynamics modeling of complex hydrodynamic 
-transport using OpenFOAM. My daily work did not involve civil construction; it involved:
+In postgraduate computational research, I conducted numerical modeling of complex hydrodynamic 
+transport using OpenFOAM. My core work involved:
 1. Formulating coupled non-linear partial differential equations—specifically, the Navier-Stokes mass 
    and momentum conservation equations coupled to turbulent kinetic energy (k-ω SST) transport equations.
 2. Discretizing continuous physical domains using the Finite Volume Method, managing flux balances, 
    and selecting numerical time integration schemes that preserve stability under Courant-Friedrichs-Lewy 
    (CFL) constraints.
-3. Calibrating empirical hydrodynamic and sediment transport parameters against experimental flume data 
+3. Calibrating empirical hydrodynamic and transport parameters against experimental flume data 
    using residual sum-of-squares minimization, and conducting rigorous grid-independence convergence 
    checks using the Grid Convergence Index (GCI).
 
@@ -169,5 +169,5 @@ rigor toward solving high-impact translational challenges in human health and dr
 1. **"In CFD, you solve spatial PDEs in 3D. In QSP, we mostly solve systems of 0D/1D ODEs. Isn't QSP mathematically simpler?"**
    * *Modeler Response*: "While CFD requires fine spatial discretization of continuous fields, QSP models compensate by having immense **parametric and kinetic complexity**. A 3D Navier-Stokes solver tracks 4 state variables ($u, v, w, p$) with 2 physical parameters (density and viscosity). In contrast, a QSP model tracks 30 to 100 biochemical species with hundreds of rate constants, severe non-linear feedback loops, extreme numerical stiffness, and sparse, noisy experimental data. The core challenge in QSP shifts from spatial meshing to **parameter identifiability, multi-timescale stiffness, and global sensitivity analysis**—which requires exceptional mathematical rigor."
 
-2. **"How did you perform parameter calibration in your thesis, and what were its limitations?"**
-   * *Modeler Response*: "In my scour research, bed shear stress thresholds and sediment transport rate coefficients were calibrated against acoustic Doppler velocimetry (ADV) and bed profiler data. We minimized root-mean-square error (RMSE) between simulated and measured bed equilibrium profiles. The limitation was that bed deformation changed the flow geometry dynamically, creating strong parameter coupling between turbulence dissipation and sediment transport rate. We had to fix the critical Shields parameter based on independent literature measurements to achieve practical identifiability—an exact analog to fixing non-identifiable target degradation rates in QSP models!"
+2. **"How did you perform parameter calibration in your research, and what were its limitations?"**
+   * *Modeler Response*: "In parameter calibration for hydrodynamic simulations, bed shear stress thresholds and transport rate coefficients were calibrated against acoustic Doppler velocimetry (ADV) and bed profiler data. We minimized root-mean-square error (RMSE) between simulated and measured equilibrium profiles. The limitation was that bed deformation changed the flow geometry dynamically, creating strong parameter coupling between turbulence dissipation and transport rate. We had to fix the critical Shields parameter based on independent literature measurements to achieve practical identifiability—an exact analog to fixing non-identifiable target degradation rates in QSP models!"

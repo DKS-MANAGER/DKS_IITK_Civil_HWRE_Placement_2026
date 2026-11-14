@@ -208,15 +208,14 @@ Technical interviews at AFRY India are conducted by Lead Hydraulic Engineers, Pr
 
 ---
 
-## 18. Topic 17: Candidate M.Tech Research Defense & Technical Pivot
+## 18. Topic 17: Technical Research Defense & Consulting Pivot
 
-#### Q17 [Candidate Project Defense: Computational Fluid Dynamics & Sediment Scour Modeling in OpenFOAM]
-* **Question**: *"In your M.Tech research, you modeled sediment scour using OpenFOAM. How does that computational fluid dynamics work transfer to AFRY's hydraulic engineering consultancy?"*
-* **Candidate's Pitch**:
-  > *"In my M.Tech research at IIT Kanpur, I numerically modeled open-channel hydrodynamic and local scour processes using OpenFOAM and the Finite Volume Method. I solved the 3D Reynolds-Averaged Navier-Stokes (RANS) equations coupled with the $k-\omega$ SST turbulence model, performing rigorous grid independence verification via the Grid Convergence Index (GCI).*
+#### Q17 [Technical Project Archetype: Computational Fluid Dynamics & Sediment Scour Modeling in OpenFOAM]
+* **Question**: *"If a candidate has modeled sediment scour using OpenFOAM, how does that computational fluid dynamics work transfer to AFRY's hydraulic engineering consultancy?"*
+* **Strategic Pitch Framework**:
+  > *"In advanced hydraulic engineering research, modeling open-channel hydrodynamic and local scour processes using OpenFOAM and the Finite Volume Method provides a solid foundation. Solving the 3D Reynolds-Averaged Navier-Stokes (RANS) equations coupled with the $k-\omega$ SST turbulence model, and performing rigorous grid independence verification via the Grid Convergence Index (GCI), translates directly to AFRY's engineering projects in three ways:
   > 
-  > *This research translates directly to AFRY's engineering projects in three ways:*
   > 1. *Flow Physics*: Hydraulic structures create severe pressure flow, vortex shedding, contraction scour, and downstream hydraulic jumps—the exact physical phenomena governing dams, spillways, and river diversions at AFRY.
-  > 2. *Numerical Maturity*: My background in CFD boundary conditions, convergence tolerances, and stability criteria enables me to look inside 1D/2D tools like HEC-RAS and Bentley HAMMER rather than treating them as black boxes.
-  > 3. *Consulting Problem Solving*: I know how to validate numerical simulations against physical flume data and translate raw velocity and shear fields into actionable civil engineering design recommendations."*
+  > 2. *Numerical Maturity*: A solid grounding in CFD boundary conditions, convergence tolerances, and stability criteria enables an engineer to look inside 1D/2D tools like HEC-RAS and Bentley HAMMER rather than treating them as black boxes.
+  > 3. *Consulting Problem Solving*: The methodology validates numerical simulations against physical flume data and translates raw velocity and shear fields into actionable civil engineering design recommendations."*
 

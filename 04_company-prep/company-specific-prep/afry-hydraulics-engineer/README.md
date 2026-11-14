@@ -5,8 +5,8 @@
 > **Target Role**: **Hydraulics Engineer**  
 > **Tentative Location**: **Noida, Uttar Pradesh** (Stellar IT Park, Tower-1, Sector 62)  
 > **Placement Cycle**: IIT Kanpur Placement Season 2026–27 Phase 1  
-> **Candidate Profile**: M.Tech Civil Engineering (Hydraulics & Water Resources Engineering — HWRE)  
-> **Undergraduate Background**: B.Tech Civil Engineering  
+> **Target Profile**: Postgraduate Civil / Water Resources Engineering Candidate  
+> **Preparation Focus**: Hydraulic Structures, River Engineering, Transient Modeling & Consulting Delivery  
 > **Domain**: Hydropower, Dams, Hydraulic Structures, Water Conveyance, River Engineering, Transient Hydraulics  
 > **Compensation Profile**: CTC ₹7,20,000 (Gross ₹6,76,800 · Base ₹30,000/mo · No Bond)  
 
@@ -33,7 +33,7 @@ This suite is strictly aligned with the supplied IIT Kanpur placement proforma, 
 
 ## 2. Candidate Transferable Competencies & The Consulting Pivot
 
-The target candidate possesses an **M.Tech in Civil Engineering (HWRE) from IIT Kanpur** with research in:
+The technical preparation integrates core competencies in **Civil & Water Resources Engineering** with advanced computational methods:
 > *Computational Fluid Dynamics & Sediment Scour Modeling* (utilizing OpenFOAM, Finite Volume Method, 3D RANS equations, $k-\omega$ SST turbulence modeling, and Grid Convergence Index mesh validation).
 
 ```

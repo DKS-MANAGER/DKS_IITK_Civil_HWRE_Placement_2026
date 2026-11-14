@@ -1,15 +1,14 @@
-# Module 16: Candidate Project Defence & The Computational Scour Pivot
+# Module 16: Technical Project Defence & The Computational Scour Pivot
 
-> **Document Focus**: M.Tech Thesis Technical Defence, OpenFOAM CFD Scour Physics, Transferability to Consulting, and Verbatim Interview Pitch Scripts  
-> **Candidate Profile**: M.Tech Civil (HWRE), IIT Kanpur · B.Tech Civil Engineering  
+> **Document Focus**: Postgraduate Research Technical Defence, OpenFOAM CFD Scour Physics, Transferability to Consulting, and Verbatim Interview Pitch Scripts  
+> **Target Profile**: M.Tech / Postgraduate in Civil / Hydraulic Engineering  
 > **Target Role**: Hydraulics Engineer (AFRY India)  
-> **Evidentiary Status**: `[TIER 1 / CANDIDATE ACADEMIC RECORD] & [TIER 5 / STRATEGIC INTERVIEW SCRIPTS]`  
+> **Evidentiary Status**: `[TIER 1 / ENGINEERING CURRICULUM] & [TIER 5 / STRATEGIC INTERVIEW SCRIPTS]`  
 
 ---
 
 ## 1. Candidate Academic Profile & Technical Baseline
 
-* **Institution**: Indian Institute of Technology Kanpur (IIT Kanpur).
 * **Program & Specialization**: M.Tech in Civil Engineering — **Hydraulics & Water Resources Engineering (HWRE)**.
 * **Undergraduate Degree**: B.Tech in Civil Engineering.
 * **Core Competency Pillars**:
@@ -22,9 +21,8 @@
 
 ## 2. In-Depth Thesis Technical Defence
 
-### 2.1 M.Tech Research Framework & Engineering Motivation
-> **Research Track**: *[Candidate M.Tech Project: Computational Fluid Dynamics & Sediment Scour Modeling in OpenFOAM]*  
-> **Affiliation**: Department of Civil Engineering, IIT Kanpur  
+### 2.1 Technical Research Framework & Engineering Motivation
+> **Research Track**: *[Technical Project Archetype: Computational Fluid Dynamics & Sediment Scour Modeling in OpenFOAM]*  
 > **Core Problem**: In extreme hydrodynamic flow events, flow constrictions around hydraulic structures cause transitions to pressurized orifice flow, generating downward velocity contraction, intense pressure gradients, and localized bed scour that threatens structural foundation stability.
 
 ### 2.2 Mathematical & Numerical Architecture in OpenFOAM
@@ -122,7 +120,7 @@ The candidate's research is not merely an academic exercise; it represents the e
 
 *Rehearse this pitch verbatim for the opening "Tell me about yourself" prompt:*
 
-> *"Good morning. I am completing my M.Tech in Civil Engineering at IIT Kanpur, specializing in Hydraulics and Water Resources Engineering, following my B.Tech in Civil Engineering.*
+> *"Good morning. I am an engineering postgraduate specializing in Hydraulics and Water Resources Engineering, with a foundational background in Civil Engineering.*
 > 
 > *My academic focus has centered on open-channel flow, closed-conduit hydraulics, hydraulic structures, and computational fluid mechanics. For my Master's research, I conducted a numerical investigation into open-channel hydrodynamic scour using OpenFOAM and the Finite Volume Method. In that work, I solved the 3D Reynolds-Averaged Navier-Stokes equations with the $k-\omega$ SST turbulence model, verified mesh independence via the Grid Convergence Index, and validated numerical velocity fields against physical flume measurements.*
 > 

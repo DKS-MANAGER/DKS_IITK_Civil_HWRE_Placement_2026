@@ -35,7 +35,7 @@ The exact mathematical formalism used to predict 100-year catastrophic flood pea
 
 ---
 
-### Project 1 Defence: [Candidate Project: Machine Learning Infrastructure Risk Prediction & SHAP Analysis]
+### Project 1 Defence: Technical Project Archetype 1 — Machine Learning Asset Risk Classification & SHAP Explainability
 
 #### 1. Technical Framing & Quantitative Summary
 - **Domain:** Predictive risk modeling on complex physical and structural asset databases.
@@ -44,7 +44,7 @@ The exact mathematical formalism used to predict 100-year catastrophic flood pea
 - **Explainability:** Deployed **TreeSHAP** to compute exact Shapley feature attributions, generating local waterfall plots to diagnose failure drivers for individual assets.
 
 #### 2. Verbatim 90-Second Interview Elevator Pitch
-> *"In my project, **[Candidate Project: Machine Learning Infrastructure Risk Prediction & SHAP Analysis]**, I developed an end-to-end predictive risk engine to model the likelihood of structural asset failures. Because structural failures are rare events — occurring in fewer than 2.5% of cases — naive accuracy metrics were useless. I structured the problem as an imbalanced binary classification pipeline, benchmarking traditional logistic regressions against Gradient Boosted Trees (XGBoost).
+> *"In my machine learning risk modeling project, I developed an end-to-end predictive risk engine to model the likelihood of structural asset failures. Because structural failures are rare events — occurring in fewer than 2.5% of cases — naive accuracy metrics were useless. I structured the problem as an imbalanced binary classification pipeline, benchmarking traditional logistic regressions against Gradient Boosted Trees (XGBoost).
 > 
 > To prevent overfitting and ensure generalizability, I implemented stratified out-of-time cross-validation, evaluated performance using ROC-AUC, Gini ($2\times\text{AUC}-1$), and Precision-Recall curves, and enforced monotonic constraints on key degradation variables. 
 > 
@@ -66,7 +66,7 @@ In XGBoost, I enforced **monotonic constraints** (`monotone_constraints = (1, -1
 
 ---
 
-### Project 2 Defence: [Candidate Project: Hydrological Time-Series & Extreme Value Forecasting]
+### Project 2 Defence: Technical Project Archetype 2 — Stochastic Time-Series & Extreme Value Tail-Risk Modeling
 
 #### 1. Technical Framing & Quantitative Summary
 - **Domain:** Statistical extreme value analysis and stochastic time-series forecasting.
@@ -74,7 +74,7 @@ In XGBoost, I enforced **monotonic constraints** (`monotone_constraints = (1, -1
 - **Core Challenge:** Modeling rare catastrophic tail events (100-year and 500-year return periods) from limited historical observation records with non-stationary climate drivers.
 
 #### 2. Verbatim 90-Second Interview Elevator Pitch
-> *"In my research project, **[Candidate Project: Hydrological Time-Series & Extreme Value Forecasting]**, I focused on the mathematical modeling of extreme, low-frequency, high-severity tail events. Standard Gaussian distributions fail catastrophically in hydrology because real-world natural phenomena exhibit fat tails and skewness. 
+> *"In my research project on stochastic time-series and extreme values, I focused on the mathematical modeling of extreme, low-frequency, high-severity tail events. Standard Gaussian distributions fail catastrophically in hydrology because real-world natural phenomena exhibit fat tails and skewness. 
 > 
 > I applied **Extreme Value Theory (EVT)** using the Fisher-Tippett-Gnedenko theorem, fitting Generalized Extreme Value (GEV) and Gumbel distributions via Maximum Likelihood Estimation (MLE) to estimate 100-year return levels. To model dynamic temporal dependencies, I built Vector Autoregressive (VAR) and distributed lag models, testing for covariance stationarity using the Augmented Dickey-Fuller (ADF) test and cointegration using the Johansen procedure.
 > 
@@ -100,7 +100,7 @@ To resolve this, I took first differences $\Delta Y_t = Y_t - Y_{t-1}$ to achiev
 
 ---
 
-### Project 3 Defence: [Candidate Project: Computational Fluid & Solute Transport Numerical Simulation]
+### Project 3 Defence: Technical Project Archetype 3 — Multi-Phase Transport Simulation & Numerical PDE Solvers
 
 #### 1. Technical Framing & Quantitative Summary
 - **Domain:** High-dimensional numerical modeling of transport phenomena governed by partial differential equations (PDEs).
@@ -108,7 +108,7 @@ To resolve this, I took first differences $\Delta Y_t = Y_t - Y_{t-1}$ to achiev
 - **Core Challenge:** Maintaining numerical stability and conservation of mass across multi-dimensional grids without numerical diffusion or oscillatory instability.
 
 #### 2. Verbatim 90-Second Interview Elevator Pitch
-> *"In **[Candidate Project: Computational Fluid & Solute Transport Numerical Simulation]**, I solved the non-linear advection-diffusion-reaction equations governing pollutant and fluid transport through porous media. Because analytical closed-form solutions do not exist for complex heterogeneous domains, I discretized the partial differential equations into large, sparse linear matrix systems $\mathbf{A}\mathbf{x} = \mathbf{b}$ containing tens of thousands of degrees of freedom.
+> *"In my numerical transport modeling research, I solved the non-linear advection-diffusion-reaction equations governing pollutant and fluid transport through porous media. Because analytical closed-form solutions do not exist for complex heterogeneous domains, I discretized the partial differential equations into large, sparse linear matrix systems $\mathbf{A}\mathbf{x} = \mathbf{b}$ containing tens of thousands of degrees of freedom.
 > 
 > To ensure convergence and prevent unphysical numerical oscillations, I conducted Von Neumann stability analysis, enforcing the Courant-Friedrichs-Lewy (CFL) condition ($C \le 1.0$) to constrain time-step increments. I implemented the algorithms in Python using vectorized NumPy broadcasting and SciPy sparse linear algebra solvers.
 > 

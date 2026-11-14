@@ -131,7 +131,7 @@ A critical failure point in campus interviews is hesitation regarding the **>80%
 
 ### Model 2: "Tell me about a time you had to solve a complex technical problem with incomplete data and tight deadlines."
 
-* **Situation**: While developing the BridgeRisk deterioration model, the historical municipal bridge inspection database had nearly 35% missing records for critical environmental chloride exposure and average daily truck traffic.
+* **Situation**: While developing an applied machine learning risk deterioration model, the historical infrastructure inspection database had nearly 35% missing records for critical environmental chloride exposure and traffic loads.
 * **Task**: I needed to train a reliable XGBoost model without introducing bias or discarding over a third of our valuable historical failure records.
 * **Action**:
   1. I conducted a missing-data pattern analysis to confirm whether data was Missing Completely at Random (MCAR) or Missing at Random (MAR).
